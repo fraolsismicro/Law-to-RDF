@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5559    lex:ehUm    lex:DocLegal .
+lex:L5559    lex:temTextoIntegral    lex:HTMLs\/L5559.htm .
+lex:L5559\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo1 .
+lex:L5559\/Artigo1    lex:temConteudo    "Art. 1º Fica estendido aos filhos inválidos de qualquer idade o salário-família instituído pela Lei nº 4.266, de 3 de outubro de 1963." .
+lex:L5559\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo2 .
+lex:L5559\/Artigo2    lex:temConteudo    "Art. 2º O empregado aposentado por invalidez ou por velhice pelo sistema geral da previdência social tem direito ao salário-família instituído pela Lei nº 4.266, de 3 de outubro de 1963." .
+lex:L5559\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5559\/Artigo2    lex:temParagrafo    lex:L5559\/Artigo2\/ParagrafoUnico .
+lex:L5559\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Aos demais empregados aposentados pelo sistema geral da previdência social que já contem ou venham a completar 65 (sessenta e cinco) anos de idade se do sexo masculino, ou de 60 (sessenta)anos de idade, se do sexo feminino, é assegurado o mesmo direito de que trata êste artigo." .
+lex:L5559\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo3 .
+lex:L5559\/Artigo3    lex:temConteudo    "Art. 3º O salário-família a que se referem os artigos 1º e 2º e seu parágrafo correrá por conta do 'Fundo de Compensação do Salário-Família', criado pelo art. 3º, § 2º da Lei nº 4.266, de 3 de outubro de 1963, e será pago pelo INPS simultaneamente com as mensalidades de aposentadoria." .
+lex:L5559\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo4 .
+lex:L5559\/Artigo4    lex:temConteudo    "Art. 4º As cotas do salário-família não se incorporarão, para nenhum efeito à aposentadoria." .
+lex:L5559\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo5 .
+lex:L5559\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor no primeiro dia do segundo mês seguinte ao de sua publicação, sem prejuízo das alterações a serem introduzidas no 'Regulamento do Salário-Família do Trabalhador' para atender ao que nela se dispõe." .
+lex:L5559\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5559    lex:temArtigo    lex:L5559\/Artigo6 .
+lex:L5559\/Artigo6    lex:temConteudo    "Art. 6º revogam-se as disposições em contrário." .
+lex:L5559\/Artigo1    lex:remetePara    lex:L4266 .
+lex:L5559\/Artigo2    lex:remetePara    lex:L4266 .
+lex:L5559\/Artigo3    lex:remetePara    lex:L4266\/Artigo3\/Paragrafo2 .

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D64189    lex:ehUm    lex:DocLegal .
+lex:D64189    lex:temTextoIntegral    lex:HTMLs\/D64189.htm .
+lex:D64189\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D64189    lex:temArtigo    lex:D64189\/Artigo1 .
+lex:D64189\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovado para todos os efeitos, o convênio que a este acompanha, celebrado, em 6 de janeiro de 1969, pelos Ministérios da Educação e Cultura e do Trabalho e Previdência Social, com o Banco do Brasil, para liquidação do débito do Instituto Nacional de Previdência Social, referente ao recolhimento, ao Banco do Brasil, em exercícios anteriores, da quota federal do salário-educação." .
+lex:D64189\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D64189    lex:temArtigo    lex:D64189\/Artigo2 .
+lex:D64189\/Artigo2    lex:temConteudo    "Art. 2º Revogadas as disposições em contrário o presente Decreto entrará em vigor à data de sua assinatura." .
+lex:D64189\/Texto    lex:remetePara    lex:D64189 .

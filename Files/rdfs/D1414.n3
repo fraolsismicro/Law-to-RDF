@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1414    lex:ehUm    lex:DocLegal .
+lex:D1414    lex:temTextoIntegral    lex:HTMLs\/D1414.htm .
+lex:D1414\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1414    lex:temArtigo    lex:D1414\/Artigo1 .
+lex:D1414\/Artigo1    lex:temConteudo    "Art 1º O art. 1º e o caput do art. 2º do Decreto nº 41.639, de 31 de maio de 1957, passam a vigorar com a seguinte redação:" .
+lex:D1414\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1414    lex:temArtigo    lex:D1414\/Artigo2 .
+lex:D1414\/Artigo2    lex:temConteudo    "Art. 2º A cunhagem da Medalha-Prêmio Força Aérea Brasileira será feita em tombac dourado, em forma circular, com 35mm de diâmetro, de acordo com o desenho em anexo,e obedecerá às seguintes características permanentes:" .
+lex:D1414\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1414    lex:temArtigo    lex:D1414\/Artigo2 .
+lex:D1414\/Artigo2    lex:temConteudo    "Art. 2º Este decreto entra em vigor na data de sua publicação." .
+lex:D1414\/Texto00001    lex:remetePara    lex:D41639\/Artigo1 .
+lex:D1414\/Artigo2    lex:remetePara    lex:D41639\/Artigo2 .

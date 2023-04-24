@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0602    lex:ehUm    lex:DocLegal .
+lex:Del0602    lex:temTextoIntegral    lex:HTMLs\/Del0602.htm .
+lex:Del0602\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0602    lex:temArtigo    lex:Del0602\/Artigo1 .
+lex:Del0602\/Artigo1    lex:temConteudo    "Art. 1º É concedida isenção de todos os tributos federais incidentes na importação de um automóvel adaptado especialmente para o uso exclusivo do Capitão Armindo da Luz Matheus, inválido permanentemente em decorrência de acidente ocorrido em serviço." .
+lex:Del0602\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0602\/Artigo1    lex:temParagrafo    lex:Del0602\/Artigo1\/ParagrafoUnico .
+lex:Del0602\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A importação do referido automóvel independerá da licença ou guia de importação." .
+lex:Del0602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0602    lex:temArtigo    lex:Del0602\/Artigo2 .
+lex:Del0602\/Artigo2    lex:temConteudo    "Art. 2º A transferência de uso ou propriedade do veículo a qualquer título, obriga o beneficiário ao prévio recolhimento do tributos e gravames cambiais." .
+lex:Del0602\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0602    lex:temArtigo    lex:Del0602\/Artigo3 .
+lex:Del0602\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-Lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .

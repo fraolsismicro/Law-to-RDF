@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4359    lex:ehUm    lex:DocLegal .
+lex:L4359    lex:temTextoIntegral    lex:HTMLs\/L4359.htm .
+lex:L4359\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4359    lex:temArtigo    lex:L4359\/Artigo1 .
+lex:L4359\/Artigo1    lex:temConteudo    "Art. 1º São incluídos na relação de municípios de que trata o Art. 14, da Lei nº 2.976 de 28 de novembro de 1956, os municípios de Pelotas e Rio Grande, do Estado do Rio Grande do Sul." .
+lex:L4359\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4359    lex:temArtigo    lex:L4359\/Artigo2 .
+lex:L4359\/Artigo2    lex:temConteudo    "Art. 2º Revogadas as disposições em contrário, esta lei entrará em vigor na data de sua publicação." .
+lex:L4359\/Artigo1    lex:remetePara    lex:L2976\/Artigo14 .

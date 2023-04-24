@@ -1,0 +1,98 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13010    lex:ehUm    lex:DocLegal .
+lex:L13010    lex:temTextoIntegral    lex:HTMLs\/L13010.htm .
+lex:L13010\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13010    lex:temArtigo    lex:L13010\/Artigo1 .
+lex:L13010\/Artigo1    lex:temConteudo    "Art. 1o A Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), passa a vigorar acrescida dos seguintes arts. 18-A, 18-B e 70-A:" .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13010\/Artigo1    lex:temParagrafo    lex:L13010\/Artigo1\/ParagrafoUnico .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os fins desta Lei, considera-se:" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - castigo físico: ação de natureza disciplinar ou punitiva aplicada com o uso da força física sobre a criança ou o adolescente que resulte em:" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSofrimento    lex:ehUm    lex:Alinea .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSofrimento .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSofrimento    lex:temConteudo    "a) sofrimento físico; ou" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaLesao    lex:ehUm    lex:Alinea .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaLesao .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaLesao    lex:temConteudo    "b) lesão;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - tratamento cruel ou degradante: conduta ou forma cruel de tratamento em relação à criança ou ao adolescente que:" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaHumilhe    lex:ehUm    lex:Alinea .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaHumilhe .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaHumilhe    lex:temConteudo    "a) humilhe; ou" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaAmeace    lex:ehUm    lex:Alinea .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaAmeace .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaAmeace    lex:temConteudo    "b) ameace gravemente; ou" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRidicularize    lex:ehUm    lex:Alinea .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRidicularize .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRidicularize    lex:temConteudo    "c) ridicularize." .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - encaminhamento a programa oficial ou comunitário de proteção à família;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - encaminhamento a tratamento psicológico ou psiquiátrico;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - encaminhamento a cursos ou programas de orientação;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - obrigação de encaminhar a criança a tratamento especializado;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - advertência." .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13010\/Artigo1    lex:temParagrafo    lex:L13010\/Artigo1\/ParagrafoUnico .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As medidas previstas neste artigo serão aplicadas pelo Conselho Tutelar, sem prejuízo de outras providências legais." .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - a promoção de campanhas educativas permanentes para a divulgação do direito da criança e do adolescente de serem educados e cuidados sem o uso de castigo físico ou de tratamento cruel ou degradante e dos instrumentos de proteção aos direitos humanos;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - a integração com os órgãos do Poder Judiciário, do Ministério Público e da Defensoria Pública, com o Conselho Tutelar, com os Conselhos de Direitos da Criança e do Adolescente e com as entidades não governamentais que atuam na promoção, proteção e defesa dos direitos da criança e do adolescente;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - a formação continuada e a capacitação dos profissionais de saúde, educação e assistência social e dos demais agentes que atuam na promoção, proteção e defesa dos direitos da criança e do adolescente para o desenvolvimento das competências necessárias à prevenção, à identificação de evidências, ao diagnóstico e ao enfrentamento de todas as formas de violência contra a criança e o adolescente;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - o apoio e o incentivo às práticas de resolução pacífica de conflitos que envolvam violência contra a criança e o adolescente;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - a inclusão, nas políticas públicas, de ações que visem a garantir os direitos da criança e do adolescente, desde a atenção pré-natal, e de atividades junto aos pais e responsáveis com o objetivo de promover a informação, a reflexão, o debate e a orientação sobre alternativas ao uso de castigo físico ou de tratamento cruel ou degradante no processo educativo;" .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - a promoção de espaços intersetoriais locais para a articulação de ações e a elaboração de planos de atuação conjunta focados nas famílias em situação de violência, com participação de profissionais de saúde, de assistência social e de educação e de órgãos de promoção, proteção e defesa dos direitos da criança e do adolescente." .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13010\/Artigo1    lex:temParagrafo    lex:L13010\/Artigo1\/ParagrafoUnico .
+lex:L13010\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As famílias com crianças e adolescentes com deficiência terão prioridade de atendimento nas ações e políticas públicas de prevenção e proteção." .
+lex:L13010\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13010    lex:temArtigo    lex:L13010\/Artigo2 .
+lex:L13010\/Artigo2    lex:temConteudo    "Art. 2o Os arts. 13 e 245 da Lei nº 8.069, de 13 de julho de 1990, passam a vigorar com as seguintes alterações:" .
+lex:L13010\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13010    lex:temArtigo    lex:L13010\/Artigo3 .
+lex:L13010\/Artigo3    lex:temConteudo    "Art. 3o O art. 26 da Lei no 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), passa a vigorar acrescido do seguinte § 9o:" .
+lex:L13010\/Artigo3\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:L13010\/Artigo3    lex:temParagrafo    lex:L13010\/Artigo3\/Paragrafo9 .
+lex:L13010\/Artigo3\/Paragrafo9    lex:temConteudo    "§ 9o Conteúdos relativos aos direitos humanos e à prevenção de todas as formas de violência contra a criança e o adolescente serão incluídos, como temas transversais, nos currículos escolares de que trata o caput deste artigo, tendo como diretriz a Lei no 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), observada a produção e distribuição de material didático adequado. (NR)" .
+lex:L13010\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13010    lex:temArtigo    lex:L13010\/Artigo4 .
+lex:L13010\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L13010\/Texto    lex:remetePara    lex:VEP-183 .
+lex:L13010\/Artigo1    lex:remetePara    lex:L8069 .
+lex:L13010\/Texto00001    lex:remetePara    lex:L8069\/Artigo18 .
+lex:L13010\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/Texto00009    lex:remetePara    lex:L8069\/Artigo18 .
+lex:L13010\/Artigo1\/Texto00015    lex:remetePara    lex:L8069\/Artigo70 .
+lex:L13010\/Artigo2    lex:remetePara    lex:L8069 .
+lex:L13010\/Texto00023    lex:remetePara    lex:L8069\/Artigo13 .
+lex:L13010\/Artigo3    lex:remetePara    lex:L9394 .
+lex:L13010\/Artigo3\/Paragrafo9    lex:remetePara    lex:L9394\/Artigo26\/Paragrafo9 .
+lex:L13010\/Artigo3\/Paragrafo9    lex:remetePara    lex:L8069 .

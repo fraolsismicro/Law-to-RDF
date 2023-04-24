@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5351    lex:ehUm    lex:DocLegal .
+lex:L5351    lex:temTextoIntegral    lex:HTMLs\/L5351.htm .
+lex:L5351\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5351    lex:temArtigo    lex:L5351\/Artigo1 .
+lex:L5351\/Artigo1    lex:temConteudo    "Art. 1º Fica incluído na relação nominal a que se refere o art. 2º da Lei nº 1.564, de 1º de março de 1952, que altera, sem aumento de despesa, as carreiras de Marinheiro e Patrão do Quadro Suplementar do Ministério da Fazenda, o nome de Inocêncio Vieira dos Santos, ocupante do cargo da classe F da carreira de Marinheiro, do Quadro Suplementar do mesmo Ministério." .
+lex:L5351\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5351    lex:temArtigo    lex:L5351\/Artigo2 .
+lex:L5351\/Artigo2    lex:temConteudo    "Art. 2º A vigência desta lei será contada a partir de 5 de março de 1952." .
+lex:L5351\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5351    lex:temArtigo    lex:L5351\/Artigo3 .
+lex:L5351\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5351\/Artigo1    lex:remetePara    lex:L1564\/Artigo2 .

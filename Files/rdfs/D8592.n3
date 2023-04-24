@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8592    lex:ehUm    lex:DocLegal .
+lex:D8592    lex:temTextoIntegral    lex:HTMLs\/D8592.htm .
+lex:D8592\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8592    lex:temArtigo    lex:D8592\/Artigo1 .
+lex:D8592\/Artigo1    lex:temConteudo    "Art. 1o O Anexo ao Decreto no 6.871, de 4 de junho de 2009, passa a vigorar com as seguintes alterações:" .
+lex:D8592\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8592\/Artigo1    lex:temParagrafo    lex:D8592\/Artigo1\/ParagrafoUnico .
+lex:D8592\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As bebidas a que se refere o caput conterão, no rótulo frontal, informação referente aos atributos baixo em açúcares ou reduzido em açúcares, aplicando-se, no que couber, o disposto no § 2o do art. 14. (NR)" .
+lex:D8592\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8592    lex:temArtigo    lex:D8592\/Artigo2 .
+lex:D8592\/Artigo2    lex:temConteudo    "Art. 2o Ficam revogados o § 1o do art. 14  e o § 5o do art. 26 do Anexo ao Decreto no 6.871, de 4 de junho de 2009." .
+lex:D8592\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8592    lex:temArtigo    lex:D8592\/Artigo3 .
+lex:D8592\/Artigo3    lex:temConteudo    "Art. 3 º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8592\/Artigo1    lex:remetePara    lex:D6871 .
+lex:D8592\/Texto00001    lex:remetePara    lex:D6871\/Artigo14 .
+lex:D8592\/Artigo2    lex:remetePara    lex:D6871\/Artigo14\/Paragrafo1 .
+lex:D8592\/Artigo2    lex:remetePara    lex:D6871\/Artigo26\/Paragrafo5 .

@@ -1,0 +1,83 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8105    lex:ehUm    lex:DocLegal .
+lex:D8105    lex:temTextoIntegral    lex:HTMLs\/D8105.htm .
+lex:D8105\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8105    lex:temArtigo    lex:D8105\/Artigo1 .
+lex:D8105\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo I do Decreto no 4.780, de 15 de julho de 2003, passa a vigorar com as seguintes alterações:" .
+lex:D8105\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo1    lex:temParagrafo    lex:D8105\/Artigo1\/Paragrafo1 .
+lex:D8105\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o ................................................................................" .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - .................................................................................." .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:ehUm    lex:Alinea .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:temConteudo    "a) Estágio Técnico para Praça (ETP);" .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:ehUm    lex:Alinea .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:temConteudo    "b) Estágio de Aprendizagem Técnica (EAT);" .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:ehUm    lex:Alinea .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:temConteudo    "c) Estágio de Aplicação para Praça (EAP); e" .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:ehUm    lex:Alinea .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:temConteudo    "d) Estágio de Habilitação para Praça (EHP)." .
+lex:D8105\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo1    lex:temParagrafo    lex:D8105\/Artigo1\/Paragrafo2 .
+lex:D8105\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  A convocação para o EAS, o EST, o ETP, o EAT, EAP e o EHP será atendida em caráter voluntário, condicionada a que o voluntário tenha menos de quarenta e cinco anos de idade, até o dia 31 de dezembro do ano de sua incorporação." .
+lex:D8105\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo1    lex:temParagrafo    lex:D8105\/Artigo1\/Paragrafo3 .
+lex:D8105\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º  O EAS, o EST, o ETP, o EAT, o EAP e o EHP terão a duração total de doze meses, e divididos em duas fases:" .
+lex:D8105\/Artigo23-B    lex:ehUm    lex:Artigo .
+lex:D8105    lex:temArtigo    lex:D8105\/Artigo23-B .
+lex:D8105\/Artigo23-B    lex:temConteudo    "Art. 23-B.  O EAP destina-se às Praças RM2, aos cidadãos brasileiros com incorporação adiada, aos dispensados de incorporação ou do SMI e às mulheres, todos voluntários, com o ensino fundamental concluído, inscritos como atletas em federações estaduais reconhecidas nacionalmente como de utilidade pública e que atendam aos critérios de mérito esportivo previstos no ato de convocação, que irão preencher posições nas OM. (NR)" .
+lex:D8105\/Artigo23-C    lex:ehUm    lex:Artigo .
+lex:D8105    lex:temArtigo    lex:D8105\/Artigo23-C .
+lex:D8105\/Artigo23-C    lex:temConteudo    "Art. 23-C.  O EHP destina-se às Praças RM2, aos cidadãos brasileiros com incorporação adiada, aos dispensados de incorporação ou do SMI e às mulheres, todos voluntários, com o ensino médio concluído, inscritos como atletas em federações estaduais reconhecidas nacionalmente como de utilidade pública e que atendam aos critérios de mérito esportivo previstos no ato de convocação, que irão preencher posições nas OM. (NR)" .
+lex:D8105\/Artigo23-C\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo23-C    lex:temParagrafo    lex:D8105\/Artigo23-C\/Paragrafo4 .
+lex:D8105\/Artigo23-C\/Paragrafo4    lex:temConteudo    "§ 4º Todos os incorporados ficam obrigados a realizar a 1a e a 2a fases do EAS, do EST, do ETP, do EAT, do EAP ou do EHP." .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo23-C    lex:temParagrafo    lex:D8105\/Artigo23-C\/Paragrafo5 .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temConteudo    "§ 5o ................................................................................" .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoI .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoI    lex:temConteudo    "I - os Oficiais que concluírem o EAS ou o EST estarão habilitados a exercer cargos e funções, em suas áreas de habilitação, até o posto de Primeiro-Tenente e, em caso de convocações posteriores, ficarão dispensados de realizar o CFOR;" .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoII .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoII    lex:temConteudo    "II - as Praças que concluírem o ETP estarão habilitadas a exercer cargos e funções, em suas áreas de habilitação técnica, até a graduação de Segundo-Sargento e, em caso de convocações posteriores, ficarão dispensadas de realizar o CFPR;" .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIII .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIII    lex:temConteudo    "III - as Praças que concluírem o EAT estarão habilitadas a exercer cargos e funções em áreas de habilitação de sua formação profissional, até a graduação de Cabo e, em caso de convocações posteriores, ficarão dispensadas de realizar o CFPR;" .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIV .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoIV    lex:temConteudo    "IV - as Praças que concluírem o EAP estarão habilitadas a exercer cargos e funções em suas áreas de habilitação, até a graduação de Cabo e, em caso de convocações posteriores, ficarão dispensadas de realizar o CFPR; e" .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo5    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoV .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoV    lex:temConteudo    "V - as Praças que concluírem o EHP estarão habilitadas a exercer cargos e funções, em suas áreas de habilitação, até a graduação de Terceiro-Sargento e, em caso de convocações posteriores, ficarão dispensadas de realizar o CFPR. (NR)" .
+lex:D8105\/Artigo23-C\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8105\/Artigo23-C    lex:temParagrafo    lex:D8105\/Artigo23-C\/Paragrafo3 .
+lex:D8105\/Artigo23-C\/Paragrafo3    lex:temConteudo    "§ 3o ................................................................................" .
+lex:D8105\/Artigo23-C\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8105\/Artigo23-C\/Paragrafo3    lex:temParagrafoInciso    lex:D8105\/Artigo23-C\/Paragrafo3\/ParagrafoIncisoIV .
+lex:D8105\/Artigo23-C\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - como Praça, nas graduações que já possuírem, quando convocados ou designados para prestação de SM, através do ETP, EAT, EAP e EHP." .
+lex:D8105\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8105    lex:temArtigo    lex:D8105\/Artigo2 .
+lex:D8105\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8105\/Artigo1    lex:remetePara    lex:D4780 .
+lex:D8105\/Artigo1    lex:remetePara    lex:D4780 .
+lex:D8105\/Artigo1    lex:remetePara    lex:D4780 .
+lex:D8105\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaEstagio    lex:remetePara    lex:D4780\/Artigo18\/Paragrafo1iia .
+lex:D8105\/Artigo1\/Paragrafo2    lex:remetePara    lex:D4780\/Artigo18\/Paragrafo2 .
+lex:D8105\/Artigo1\/Paragrafo3    lex:remetePara    lex:D4780\/Artigo18\/Paragrafo3 .
+lex:D8105\/Artigo23-B    lex:remetePara    lex:D4780\/Artigo23 .
+lex:D8105\/Artigo23-C\/Paragrafo4    lex:remetePara    lex:D4780\/Artigo28\/Paragrafo4 .
+lex:D8105\/Artigo23-C\/Paragrafo5\/ParagrafoIncisoI    lex:remetePara    lex:D4780\/Artigo28\/Paragrafo5i .
+lex:D8105\/Artigo23-C\/Paragrafo3\/ParagrafoIncisoIV    lex:remetePara    lex:D4780\/Artigo30\/Paragrafo3iv .

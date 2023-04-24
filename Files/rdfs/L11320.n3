@@ -1,0 +1,140 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11320    lex:ehUm    lex:DocLegal .
+lex:L11320    lex:temTextoIntegral    lex:HTMLs\/L11320.htm .
+lex:L11320\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo1 .
+lex:L11320\/Artigo1    lex:temConteudo    "Art. 1o  Os efetivos de pessoal militar da ativa do Comando da Aeronáutica em tempo de paz terão os seguintes limites máximos:" .
+lex:L11320\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo1    lex:temInciso    lex:L11320\/Artigo1\/IncisoI .
+lex:L11320\/Artigo1\/IncisoI    lex:temConteudo    "I - Oficiais:" .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais: .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:    lex:temConteudo    "a) Generais: 87 (oitenta e sete);" .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores: .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:    lex:temConteudo    "b) Superiores: 2.455 (dois mil, quatrocentos e cinqüenta e cinco);" .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios .
+lex:L11320\/Artigo1\/IncisoI\/IncisoAlineaGenerais:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:temConteudo    "c) Intermediários e Subalternos: 5.700 (cinco mil e setecentos);" .
+lex:L11320\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo1    lex:temInciso    lex:L11320\/Artigo1\/IncisoII .
+lex:L11320\/Artigo1\/IncisoII    lex:temConteudo    "II - Praças:" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temConteudo    "a) Suboficiais e Sargentos: 26.200 (vinte e seis mil e duzentos);" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temConteudo    "b) Cabos e Soldados: 31.000 (trinta e um mil);" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros: .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:temConteudo    "c) Taifeiros: 2.000 (dois mil)." .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores: .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:    lex:temConteudo    "b) Superiores: 3.200 (três mil e duzentos); e (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:temConteudo    "c) Intermediários e Subalternos: 7.800 (sete mil e oitocentos); (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo1    lex:temInciso    lex:L11320\/Artigo1\/IncisoII .
+lex:L11320\/Artigo1\/IncisoII    lex:temConteudo    "II - Praças: (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temConteudo    "a) Suboficiais e Sargentos: 34.000 (trinta e quatro mil); (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temConteudo    "b) Cabos e Soldados: 34.100 (trinta e quatro mil e cem); e (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:ehUm    lex:IncisoAlinea .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temIncisoAlinea    lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros: .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:temConteudo    "c) Taifeiros: 1.750 (mil setecentos e cinquenta). (Redação dada pela Lei nº 12.243, de 2010)" .
+lex:L11320\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo2 .
+lex:L11320\/Artigo2    lex:temConteudo    "Art. 2o  Respeitados os limites estabelecidos nesta Lei, compete:" .
+lex:L11320\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo2    lex:temInciso    lex:L11320\/Artigo2\/IncisoI .
+lex:L11320\/Artigo2\/IncisoI    lex:temConteudo    "I - ao Presidente da República distribuir anualmente os efetivos de Oficiais pelos diversos postos dos Quadros do Corpo de Oficiais da Ativa - COA; e" .
+lex:L11320\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo2    lex:temInciso    lex:L11320\/Artigo2\/IncisoII .
+lex:L11320\/Artigo2\/IncisoII    lex:temConteudo    "II - ao Comandante da Aeronáutica distribuir anualmente os efetivos das Praças por Quadros e por Graduações do Corpo de Praças da Ativa - CPA." .
+lex:L11320\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11320\/Artigo2    lex:temParagrafo    lex:L11320\/Artigo2\/ParagrafoUnico .
+lex:L11320\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A distribuição dos efetivos de que trata este artigo será tomada como referência para fins de promoção e de aplicação da quota compulsória, prevista no Estatuto dos Militares." .
+lex:L11320\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo3 .
+lex:L11320\/Artigo3    lex:temConteudo    "Art. 3o  Não serão computados nos limites dos efetivos fixados no art. 1o desta Lei:" .
+lex:L11320\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoI .
+lex:L11320\/Artigo3\/IncisoI    lex:temConteudo    "I - os Oficiais-Generais Ministros do Superior Tribunal Militar;" .
+lex:L11320\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoII .
+lex:L11320\/Artigo3\/IncisoII    lex:temConteudo    "II - os Oficiais e Praças da Reserva convocados para manobras, exercícios ou estágios de instrução;" .
+lex:L11320\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoIII .
+lex:L11320\/Artigo3\/IncisoIII    lex:temConteudo    "III - os militares agregados, os extranumerários e os Coronéis não-numerados por força da legislação em vigor;" .
+lex:L11320\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoIV .
+lex:L11320\/Artigo3\/IncisoIV    lex:temConteudo    "IV - os Oficiais e Praças da Reserva Remunerada convocados por prazo limitado;" .
+lex:L11320\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoV .
+lex:L11320\/Artigo3\/IncisoV    lex:temConteudo    "V - os militares da Reserva Remunerada designados para o serviço ativo, em caráter transitório, mediante aceitação voluntária;" .
+lex:L11320\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoVI .
+lex:L11320\/Artigo3\/IncisoVI    lex:temConteudo    "VI - os Aspirantes-a-Oficial;" .
+lex:L11320\/Artigo3\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoVII .
+lex:L11320\/Artigo3\/IncisoVII    lex:temConteudo    "VII - os alunos das Escolas de  Formação e dos Estágios de Adaptação de Oficiais e de Praças da Ativa e alunos das Escolas de Formação e dos Estágios de Adaptação de Oficiais e de Praças da Reserva;" .
+lex:L11320\/Artigo3\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoVIII .
+lex:L11320\/Artigo3\/IncisoVIII    lex:temConteudo    "VIII - as integrantes do Corpo Feminino da Reserva da Aeronáutica;" .
+lex:L11320\/Artigo3\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoIX .
+lex:L11320\/Artigo3\/IncisoIX    lex:temConteudo    "IX - os alunos da Escola Preparatória de Cadetes-do-Ar;" .
+lex:L11320\/Artigo3\/IncisoX    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoX .
+lex:L11320\/Artigo3\/IncisoX    lex:temConteudo    "X - os Oficiais e Sargentos incorporados para prestação do Serviço Militar; e" .
+lex:L11320\/Artigo3\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo3    lex:temInciso    lex:L11320\/Artigo3\/IncisoXI .
+lex:L11320\/Artigo3\/IncisoXI    lex:temConteudo    "XI - os Oficiais Capelães." .
+lex:L11320\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo4 .
+lex:L11320\/Artigo4    lex:temConteudo    "Art. 4o  O Comandante da Aeronáutica, de acordo com a necessidade da Força, estabelecerá o efetivo de alunos:" .
+lex:L11320\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo4    lex:temInciso    lex:L11320\/Artigo4\/IncisoI .
+lex:L11320\/Artigo4\/IncisoI    lex:temConteudo    "I - da Escola Preparatória de Cadetes-do-Ar;" .
+lex:L11320\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo4    lex:temInciso    lex:L11320\/Artigo4\/IncisoII .
+lex:L11320\/Artigo4\/IncisoII    lex:temConteudo    "II - dos Cursos de Formação de Oficiais da Ativa e da Reserva;" .
+lex:L11320\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo4    lex:temInciso    lex:L11320\/Artigo4\/IncisoIII .
+lex:L11320\/Artigo4\/IncisoIII    lex:temConteudo    "III - dos Cursos de Formação de Praças da Ativa e da Reserva;" .
+lex:L11320\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo4    lex:temInciso    lex:L11320\/Artigo4\/IncisoIV .
+lex:L11320\/Artigo4\/IncisoIV    lex:temConteudo    "IV - dos Estágios de Adaptação de Oficiais da Ativa e da Reserva; e" .
+lex:L11320\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L11320\/Artigo4    lex:temInciso    lex:L11320\/Artigo4\/IncisoV .
+lex:L11320\/Artigo4\/IncisoV    lex:temConteudo    "V - dos Estágios de Adaptação de Praças da Ativa e da Reserva." .
+lex:L11320\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo5 .
+lex:L11320\/Artigo5    lex:temConteudo    "Art. 5o  As despesas decorrentes da execução desta Lei serão atendidas à conta das dotações constantes do Orçamento Geral da União." .
+lex:L11320\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo6 .
+lex:L11320\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11320\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L11320    lex:temArtigo    lex:L11320\/Artigo7 .
+lex:L11320\/Artigo7    lex:temConteudo    "Art. 7o  Revogam-se as Leis nos  6.837, de 29 de outubro de 1980, 7.130, de 26 de outubro de 1983, 7.200, de 19 de junho de 1984, e 9.009, de 29 de março de 1995." .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo1\/IncisoII    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:remetePara    lex:L12243\/Artigo1 .
+lex:L11320\/Artigo7    lex:remetePara    lex:L6837 .
+lex:L11320\/Artigo7    lex:remetePara    lex:L7130 .
+lex:L11320\/Artigo7    lex:remetePara    lex:L7200 .
+lex:L11320\/Artigo7    lex:remetePara    lex:L9009 .

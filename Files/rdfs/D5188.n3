@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5188    lex:ehUm    lex:DocLegal .
+lex:D5188    lex:temTextoIntegral    lex:HTMLs\/D5188.htm .
+lex:D5188\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5188    lex:temParagrafo    lex:D5188\/Paragrafo1 .
+lex:D5188\/Paragrafo1    lex:temConteudo    "§ 1o  No decurso do prazo previsto no caput, os servidores passarão a ter exercício na Controladoria-Geral da União da Presidência da República." .
+lex:D5188\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5188    lex:temParagrafo    lex:D5188\/Paragrafo2 .
+lex:D5188\/Paragrafo2    lex:temConteudo    "§ 2o  Ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Controladoria-Geral da União estabelecerá o cronograma gradativo para alteração da unidade de exercício dos servidores para a Controladoria-Geral da União." .
+lex:D5188\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5188    lex:temArtigo    lex:D5188\/Artigo2 .
+lex:D5188\/Artigo2    lex:temConteudo    "Art. 2o  Aos servidores de que trata este Decreto aplica-se o disposto no parágrafo único do art. 10 da Medida Provisória no 2.229-43, de 6 de setembro de 2001." .
+lex:D5188\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5188    lex:temArtigo    lex:D5188\/Artigo3 .
+lex:D5188\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5188\/Artigo1    lex:remetePara    lex:D5862 .

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:Lcp170    lex:ehUm    lex:DocLegal .
+lex:Lcp170    lex:temTextoIntegral    lex:HTMLs\/Lcp170.htm .
+lex:Lcp170\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:Lcp170    lex:temArtigo    lex:Lcp170\/Artigo1A .
+lex:Lcp170\/Artigo1A    lex:temConteudo    "Art. 1Âº  O art. 3Âº da Lei Complementar nÂº 160, de 7 de agosto de 2017, passa a vigorar com a seguinte alteraÃ§Ã£o:" .
+lex:Lcp170\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:Lcp170    lex:temArtigo    lex:Lcp170\/Artigo2A .
+lex:Lcp170\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei Complementar entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:Lcp170\/Artigo1A    lex:remetePara    lex:Lcp160 .
+lex:Lcp170\/Texto00001    lex:remetePara    lex:Lcp160\/Artigo3Â§2i0 .

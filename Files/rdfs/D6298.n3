@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6298    lex:ehUm    lex:DocLegal .
+lex:D6298    lex:temTextoIntegral    lex:HTMLs\/D6298.htm .
+lex:D6298\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6298    lex:temArtigo    lex:D6298\/Artigo1 .
+lex:D6298\/Artigo1    lex:temConteudo    "Art. 1o  O item 6 do art. 21 do Regulamento para as Polícias Militares e Corpos de Bombeiros Militares (R-200), aprovado pelo Decreto no 88.777, de 30 de setembro de 1983, passa a vigorar com a seguinte redação:" .
+lex:D6298\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6298    lex:temArtigo    lex:D6298\/Artigo2 .
+lex:D6298\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 4 de outubro de 2007." .
+lex:D6298\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6298    lex:temArtigo    lex:D6298\/Artigo2 .
+lex:D6298\/Artigo2    lex:temConteudo    "Art. 2o  Fica revogado o Decreto no 6.211, de 18 de setembro de 2007." .
+lex:D6298\/Artigo1    lex:remetePara    lex:D88777 .
+lex:D6298\/Texto00001    lex:remetePara    lex:D88777\/Artigo21item6 .
+lex:D6298\/Artigo2    lex:remetePara    lex:D6211 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9297    lex:ehUm    lex:DocLegal .
+lex:L9297    lex:temTextoIntegral    lex:HTMLs\/L9297.htm .
+lex:L9297\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9297    lex:temArtigo    lex:L9297\/Artigo1 .
+lex:L9297\/Artigo1    lex:temConteudo    "Art. 1º O § 3° do art. 98 e os arts. 117 e 122 da Lei n° 6.880, de 9 de dezembro de 1980, passam a vigorar com a seguinte redação:" .
+lex:L9297\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9297\/Artigo1    lex:temParagrafo    lex:L9297\/Artigo1\/Paragrafo3 .
+lex:L9297\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° A nomeação ou admissão do militar para os cargos ou empregos públicos de que trata o inciso XV deste artigo somente poderá ser feita se:" .
+lex:L9297\/Artigo117    lex:ehUm    lex:Artigo .
+lex:L9297    lex:temArtigo    lex:L9297\/Artigo117 .
+lex:L9297\/Artigo117    lex:temConteudo    "Art. 117. O oficial da ativa que passar a exercer cargo ou emprego público permanente, estranho à sua carreira, será imediatamente demitido ex officio e transferido para a reserva não remunerada, onde ingressará com o posto que possuía na ativa e com as obrigações estabelecidas na legislação do serviço militar, obedecidos os preceitos do art. 116 no que se refere às indenizações." .
+lex:L9297\/Artigo122    lex:ehUm    lex:Artigo .
+lex:L9297    lex:temArtigo    lex:L9297\/Artigo122 .
+lex:L9297\/Artigo122    lex:temConteudo    "Art. 122. O Guarda-Marinha, o Aspirante-a-Oficial e as demais praças empossados em cargos ou emprego público permanente, estranho à sua carreira, serão imediatamente, mediante licenciamento ex officio, transferidos para a reserva não remunerada, com as obrigações estabelecidas na legislação do serviço militar.'" .
+lex:L9297\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9297    lex:temArtigo    lex:L9297\/Artigo2 .
+lex:L9297\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9297\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9297    lex:temArtigo    lex:L9297\/Artigo3 .
+lex:L9297\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se o inciso XIV e o § 2° do art. 98 da Lei n° 6.880, de 9 de dezembro de 1980." .
+lex:L9297\/Artigo1\/Paragrafo3    lex:remetePara    lex:L6880\/Artigo98\/Paragrafo3 .
+lex:L9297\/Artigo117    lex:remetePara    lex:L6880\/Artigo117 .
+lex:L9297\/Artigo122    lex:remetePara    lex:L6880\/Artigo122 .
+lex:L9297\/Artigo3    lex:remetePara    lex:L6880\/Artigo98 .
+lex:L9297\/Artigo3    lex:remetePara    lex:L6880\/Artigo98\/Paragrafo2 .

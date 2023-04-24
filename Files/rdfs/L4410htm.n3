@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4410htm    lex:ehUm    lex:DocLegal .
+lex:L4410htm    lex:temTextoIntegral    lex:HTMLs\/L4410htm.htm .
+lex:L4410htm\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4410htm    lex:temArtigo    lex:L4410htm\/Artigo1 .
+lex:L4410htm\/Artigo1    lex:temConteudo    "Art. 1º Os feitos eleitorais terão prioridade na participação do Ministério Público e na dos juízes de todas as Justiças e instâncias, ressalvados os processos de habeas corpus e mandado de segurança." .
+lex:L4410htm\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4410htm\/Artigo1    lex:temParagrafo    lex:L4410htm\/Artigo1\/Paragrafo1 .
+lex:L4410htm\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Consideram-se feitos eleitorais as questões levadas à Justiça que tenham por objeto o provimento ou o exercício dos cargos eletivos." .
+lex:L4410htm\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4410htm\/Artigo1    lex:temParagrafo    lex:L4410htm\/Artigo1\/Paragrafo2 .
+lex:L4410htm\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Na segunda instância, para a referida prioridade ser cumprida, serão convocadas sessões extraordinárias quando preciso." .
+lex:L4410htm\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4410htm    lex:temArtigo    lex:L4410htm\/Artigo2 .
+lex:L4410htm\/Artigo2    lex:temConteudo    "Art. 2º Os que infringirem o disposto no art. 1º cometem o crime de responsabilidade." .
+lex:L4410htm\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4410htm    lex:temArtigo    lex:L4410htm\/Artigo3 .
+lex:L4410htm\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

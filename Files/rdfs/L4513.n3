@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4513    lex:ehUm    lex:DocLegal .
+lex:L4513    lex:temTextoIntegral    lex:HTMLs\/L4513.htm .
+lex:L4513\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L4513    lex:temArtigo    lex:L4513\/Artigo12 .
+lex:L4513\/Artigo12    lex:temConteudo    "Art. 12 A Diretoria, designada pelo Conselho Nacional, comporse-á de cinco Diretores, escolhidos entre profissionais de nível universitário, com notória experiência e conhecimento do problema do menor, que trabalharão em regime de tempo integral e terão funções especificadas nos estatutos. (Redação dada pela Lei nº 5.594, de 1970)" .
+lex:L4513\/Artigo12\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4513\/Artigo12    lex:temParagrafo    lex:L4513\/Artigo12\/ParagrafoUnico .
+lex:L4513\/Artigo12\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os membros dos conselhos não poderão fazer parte da Diretoria.(Incluído pela Lei nº 5.594, de 1970)" .
+lex:L4513\/Artigo18    lex:ehUm    lex:Artigo .
+lex:L4513    lex:temArtigo    lex:L4513\/Artigo18 .
+lex:L4513\/Artigo18    lex:temConteudo    "Art. 18. O Presidente da Fundação Nacional do Bem-Estar do Menor, por proposta da Diretoria, poderá requisitar servidores públicos federais, estaduais, municipais, e autárquicos, para exercerem cargos e funções na Fundação Nacional do Bem-Estar do Menor, sob o regime de tempo integral e sem ônus para as entidades públicas a que pertecerem. (Redação dada pela Lei nº 4.884, de 1965)" .
+lex:L4513\/Artigo23    lex:ehUm    lex:Artigo .
+lex:L4513    lex:temArtigo    lex:L4513\/Artigo23 .
+lex:L4513\/Artigo23    lex:temConteudo    "Art. 23. Os membros dos Conselhos exercerão o cargo por três anos, podendo ser reconduzidos. (Redação dada pela Lei nº 5.594, de 1970)" .
+lex:L4513\/Artigo23\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4513\/Artigo23    lex:temParagrafo    lex:L4513\/Artigo23\/Paragrafo1 .
+lex:L4513\/Artigo23\/Paragrafo1    lex:temConteudo    "§ 1º Na primeira reunião após a instalação do Conselho, far-se-á, por sorteio, a designação dos conselheiros a que se refere o item III do art. 9º, para efeito de fixação de seus mandatos em 1 (um), 2 (dois) e 3 (três) anos, de forma a assegurar anualmente a renovação do Conselho pelo têrço. (Redação dada pela Lei nº 4.884, de 1965)" .
+lex:L4513\/Artigo26    lex:ehUm    lex:Artigo .
+lex:L4513    lex:temArtigo    lex:L4513\/Artigo26 .
+lex:L4513\/Artigo26    lex:temConteudo    "Art. 26. Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário, inclusive o Decreto-lei número 3.799, de 5 de novembro de 1941. (Redação dada pela Lei nº 4.884, de 1965)" .
+lex:L4513\/Artigo5    lex:revogadoPor    lex:L8029cons\/Artigo34 .
+lex:L8029cons\/Artigo34    lex:revogou    lex:L4513\/Artigo5 .
+lex:L4513\/Artigo12    lex:remetePara    lex:L5594\/Artigo1 .
+lex:L4513\/Artigo12\/ParagrafoUnico    lex:remetePara    lex:L5594\/Artigo1 .
+lex:L4513\/Artigo12\/Artigo17    lex:revogadoPor    lex:L4884\/Artigo8 .
+lex:L4884\/Artigo8    lex:revogou    lex:L4513\/Artigo12\/Artigo17 .
+lex:L4513\/Artigo12\/ParagrafoUnico    lex:revogadoPor    lex:L4884\/Artigo8 .
+lex:L4884\/Artigo8    lex:revogou    lex:L4513\/Artigo12\/ParagrafoUnico .
+lex:L4513\/Artigo18    lex:remetePara    lex:L4884\/Artigo6 .
+lex:L4513\/Artigo23    lex:remetePara    lex:L5594\/Artigo1 .
+lex:L4513\/Artigo23\/Paragrafo1    lex:remetePara    lex:L4884\/Artigo6 .
+lex:L4513\/Artigo26    lex:remetePara    lex:L4884\/Artigo7 .

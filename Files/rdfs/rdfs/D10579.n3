@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10579    lex:ehUm    lex:DocLegal .
+lex:D10579    lex:temTextoIntegral    lex:HTMLs\/D10579.htm .
+lex:D10579\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10579    lex:temArtigo    lex:D10579\/Artigo1A .
+lex:D10579\/Artigo1A    lex:temConteudo    "Art. 1Âº  Excepcionalmente no ano de 2020, poderÃ£o ser empenhadas as despesas de que trata o art. 27 do Decreto nÂº 93.872, de 23 de dezembro de 1986, relativas a contratos, convÃªnios, acordos ou ajustes de vigÃªncia plurianual a serem executadas atÃ© 31 de dezembro de 2021, desde que devidamente justificado pela unidade gestora responsÃ¡vel." .
+lex:D10579\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10579    lex:temArtigo    lex:D10579\/Artigo2A .
+lex:D10579\/Artigo2A    lex:temConteudo    "Art. 2Âº  As despesas da UniÃ£o relativas ao enfrentamento da calamidade pÃºblica nacional, de que trata o art. 5Âº da Emenda Constitucional nÂº 106, de 7 de maio de 2020, poderÃ£o ser inscritas somente em:" .
+lex:D10579\/Artigo2A\/AlineaEstiverem    lex:ehUm    lex:Alinea .
+lex:D10579\/Artigo2A    lex:temAlinea    lex:D10579\/Artigo2A\/AlineaEstiverem .
+lex:D10579\/Artigo2A\/AlineaEstiverem    lex:temConteudo    "a) estiverem em fase de verificaÃ§Ã£o do direito adquirido pelo credor, tendo por base os tÃ­tulos e os documentos comprobatÃ³rios do respectivo crÃ©dito; ou" .
+lex:D10579\/Artigo2A\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:D10579\/Artigo2A    lex:temAlinea    lex:D10579\/Artigo2A\/AlineaNa .
+lex:D10579\/Artigo2A\/AlineaNa    lex:temConteudo    "b) na aquisiÃ§Ã£o de bens ou realizaÃ§Ã£o de serviÃ§os e obras, tiverem sua execuÃ§Ã£o iniciada, nos termos dos incisos I e II do Â§ 5Âº do art. 68 do Decreto nÂº 93.872, de 1986." .
+lex:D10579\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10579    lex:temArtigo    lex:D10579\/Artigo3A .
+lex:D10579\/Artigo3A    lex:temConteudo    "Art. 3Âº  As transferÃªncias financeiras realizadas pelo Fundo Nacional de SaÃºde e pelo Fundo Nacional de AssistÃªncia Social diretamente aos fundos de saÃºde e de assistÃªncia social estaduais, municipais e distritais, em 2020, para enfrentamento da pandemia de covid-19 poderÃ£o ser executadas pelos entes federativos atÃ© 31 de dezembro de 2021.    (RedaÃ§Ã£o dada pelo Decreto nÂº 10.614, de 2021)" .
+lex:D10579\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10579    lex:temArtigo    lex:D10579\/Artigo4A .
+lex:D10579\/Artigo4A    lex:temConteudo    "Art. 4Âº  As disposiÃ§Ãµes do Decreto nÂº 93.872, de 1986, aplicam-se, no que couber, ao disposto neste Decreto." .
+lex:D10579\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D10579    lex:temArtigo    lex:D10579\/Artigo5A .
+lex:D10579\/Artigo5A    lex:temConteudo    "Art. 5Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10579\/Artigo1A    lex:remetePara    lex:D93872\/Artigo27 .
+lex:D10579\/Texto00002    lex:remetePara    lex:D93872\/Artigo68Â§1 .
+lex:D10579\/Artigo2A\/AlineaNa    lex:remetePara    lex:D93872\/Artigo68Â§5 .
+lex:D10579\/Artigo2A\/AlineaNa    lex:remetePara    lex:D93872\/Artigo68Â§5 .
+lex:D10579\/Artigo2A\/Texto00004    lex:remetePara    lex:D10614\/Artigo1 .
+lex:D10579\/Artigo3A    lex:remetePara    lex:D10614\/Artigo1 .
+lex:D10579\/Texto00005    lex:remetePara    lex:Lcp141\/Artigo27 .
+lex:D10579\/Artigo4A    lex:remetePara    lex:D93872 .

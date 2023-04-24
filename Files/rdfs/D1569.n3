@@ -1,0 +1,125 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1569    lex:ehUm    lex:DocLegal .
+lex:D1569    lex:temTextoIntegral    lex:HTMLs\/D1569.htm .
+lex:D1569\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1569    lex:temArtigo    lex:D1569\/Artigo1 .
+lex:D1569\/Artigo1    lex:temConteudo    "Art. 1º O art. 1º do Decreto nº 408, de 27 de dezembro de 1991, passa a vigorar com a seguinte redação:" .
+lex:D1569\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1569\/Artigo1    lex:temInciso    lex:D1569\/Artigo1\/IncisoI .
+lex:D1569\/Artigo1\/IncisoI    lex:temConteudo    "I - do Poder Executivo:" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro    lex:temConteudo    "a) Ministro de Estado da Justiça, que o presidirá;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "b) Ministro de Estado das Relações Exteriores;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "c) Ministro de Estado da Educação e do Desporto;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "d) Ministro de Estado da Saúde;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "e) Ministro de Estado da Fazenda;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "f) Ministro de Estado do Trabalho;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "g) Ministro de Estado da Previdência e Assistência Social;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "h) Ministro de Estado da Cultura;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "i) Ministro de Estado do Planejamento e Orçamento;" .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro .
+lex:D1569\/Artigo1\/IncisoI\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro\/IncisoAlineaMinistro    lex:temConteudo    "j) Ministro de Estado Chefe da Casa Civil da Presidência da República;" .
+lex:D1569\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1569\/Artigo1    lex:temInciso    lex:D1569\/Artigo1\/IncisoII .
+lex:D1569\/Artigo1\/IncisoII    lex:temConteudo    "II - das entidades não-governamentais, eleitos na Assembléia realizada pelo CONANDA, em 30 de novembro de 1994:" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia    lex:temConteudo    "a) Conferência Nacional dos Bispos do Brasil (CNBB);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade    lex:temConteudo    "b) Sociedade Brasileira de Pediatria;" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao    lex:temConteudo    "c) Federação Nacional das APAE´s;" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao    lex:temConteudo    "d) Associação Nacional de Amigos da Pastoral da Criança (ANAPAC);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:temConteudo    "e) Confederação Nacional dos Trabalhadores na Agricultura (CONTAG);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao    lex:temConteudo    "f) Fundação Fé e Alegria do Brasil;" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento    lex:temConteudo    "g) Movimento de Educação de Base (MEB);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao    lex:temConteudo    "h) Associação de Amparo ao Menor Carente (AMENCAR);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento    lex:temConteudo    "i) Movimento Nacional de Direitos Humanos (MNDH);" .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento\/IncisoAlineaMovimento    lex:ehUm    lex:IncisoAlinea .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento    lex:temIncisoAlinea    lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento\/IncisoAlineaMovimento .
+lex:D1569\/Artigo1\/IncisoII\/IncisoAlineaConferencia\/IncisoAlineaSociedade\/IncisoAlineaFederacao\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaFundacao\/IncisoAlineaMovimento\/IncisoAlineaAssociacao\/IncisoAlineaMovimento\/IncisoAlineaMovimento    lex:temConteudo    "j) Movimento Nacional de Meninos e Meninas de Rua (MNMMR);" .
+lex:D1569\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1569\/Artigo1    lex:temParagrafo    lex:D1569\/Artigo1\/Paragrafo1 .
+lex:D1569\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os representantes do Poder Executivo poderão ser substituídos pelos suplentes por eles indicados." .
+lex:D1569\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1569\/Artigo1    lex:temParagrafo    lex:D1569\/Artigo1\/Paragrafo2 .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os membros a que se refere o inciso II deste artigo poderão se substituídos, observada a ordem de suplência, pelos representantes eleitos pelas entidades que se seguem:" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaVisao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaVisao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaVisao    lex:temConteudo    "a) Visão Mundial;" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaInstituto    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaInstituto .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaInstituto    lex:temConteudo    "b) Instituto para o Desenvolvimento Integral da Criança e do Adolescente (INDICA);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConfederacao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaConfederacao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConfederacao    lex:temConteudo    "c) Confederação Nacional dos Trabalhadores em Educação (CNTE);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho    lex:temConteudo    "d) Conselho Federal de Serviço Social (CFESS);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao    lex:temConteudo    "e) Associação Nacional dos Centros de Defesa dos Direitos da Criança e do Adolescente (ANCED);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFundo    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaFundo .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFundo    lex:temConteudo    "f) Fundo Cristão para Crianças (FCC);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao    lex:temConteudo    "g) Federação Nacional da Sociedade Pestalozzi;" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaConselho    lex:temConteudo    "h) Conselho Nacional das Igrejas Cristãs do Brasil (CONIC);" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaAssociacao    lex:temConteudo    "i) Associação Projeto Roda Viva;" .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao    lex:ehUm    lex:Alinea .
+lex:D1569\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao .
+lex:D1569\/Artigo1\/Paragrafo2\/AlineaFederacao    lex:temConteudo    "j) Federação Espírita Brasileira (FEB).'" .
+lex:D1569\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1569    lex:temArtigo    lex:D1569\/Artigo2 .
+lex:D1569\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1569\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1569    lex:temArtigo    lex:D1569\/Artigo3 .
+lex:D1569\/Artigo3    lex:temConteudo    "Art. 3º Ficam revogados os Decretos nº 695, de 8 de dezembro de 1992, e nº 1.335, de 9 de dezembro de 1994." .
+lex:D1569\/Texto    lex:remetePara    lex:D1569 .
+lex:D1569\/Artigo1    lex:remetePara    lex:D0408\/Artigo1 .
+lex:D1569\/Artigo3    lex:remetePara    lex:D0695 .
+lex:D1569\/Artigo3    lex:remetePara    lex:D1335 .

@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1711    lex:ehUm    lex:DocLegal .
+lex:D1711    lex:temTextoIntegral    lex:HTMLs\/D1711.htm .
+lex:D1711\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1711    lex:temArtigo    lex:D1711\/Artigo1 .
+lex:D1711\/Artigo1    lex:temConteudo    "Art 1° Fica aprovado o Regulamento da Ordem do Mérito Cultural, instituída pelo art. 34 da Lei n° 8.313, de 23 de dezembro de1991, na forma do Anexo a este Decreto." .
+lex:D1711\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1711    lex:temArtigo    lex:D1711\/Artigo2 .
+lex:D1711\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D1711\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1711    lex:temArtigo    lex:D1711\/Artigo2 .
+lex:D1711\/Artigo2    lex:temConteudo    "Art. 2o  A Ordem do Mérito Cultural terá três classes, a saber:" .
+lex:D1711\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1711\/Artigo2    lex:temInciso    lex:D1711\/Artigo2\/IncisoI .
+lex:D1711\/Artigo2\/IncisoI    lex:temConteudo    "I - Grã-Cruz;" .
+lex:D1711\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1711\/Artigo2    lex:temInciso    lex:D1711\/Artigo2\/IncisoII .
+lex:D1711\/Artigo2\/IncisoII    lex:temConteudo    "II - Comendador; e" .
+lex:D1711\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1711\/Artigo2    lex:temInciso    lex:D1711\/Artigo2\/IncisoIII .
+lex:D1711\/Artigo2\/IncisoIII    lex:temConteudo    "III - Cavaleiro." .
+lex:D1711\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1711\/Artigo2    lex:temParagrafo    lex:D1711\/Artigo2\/Paragrafo1 .
+lex:D1711\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  O Presidente da República será o Grão-Mestre da Ordem e o Ministro de Estado da Cultura, o Chanceler." .
+lex:D1711\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1711\/Artigo2    lex:temParagrafo    lex:D1711\/Artigo2\/Paragrafo2 .
+lex:D1711\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  O Grão-Mestre e o Chanceler serão agraciados com a Grã-Cruz, que conservarão." .
+lex:D1711\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1711\/Artigo2    lex:temParagrafo    lex:D1711\/Artigo2\/Paragrafo3 .
+lex:D1711\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Os órgãos e as entidades públicas e privadas nacionais e estrangeiras são admitidos sem grau das classes." .
+lex:D1711\/Artigo1    lex:remetePara    lex:L8313cons\/Artigo34 .

@@ -1,0 +1,142 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D245    lex:ehUm    lex:DocLegal .
+lex:D245    lex:temTextoIntegral    lex:HTMLs\/D245.htm .
+lex:D245\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo1 .
+lex:D245\/Artigo1    lex:temConteudo    "Art. 1° É concedido indulto aos condenados a penas privativas de liberdade não superiores a quatro anos, que cumprirem, com boa conduta prisional, até 25 de dezembro de 1991, um terço da pena, se não reincidentes, ou metade, se reincidentes." .
+lex:D245\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D245\/Artigo1    lex:temParagrafo    lex:D245\/Artigo1\/ParagrafoUnico .
+lex:D245\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. É igualmente concedido indulto aos condenados a penas superiores a quatro anos e:" .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D245\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - que se encontrem em estado avançado de qualquer doença grave ou de moléstia incurável e contagiosa, assim comprovado por laudo médico oficial, desde que com sua concordância;" .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D245\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - que tenham completado sessenta anos de idade, hajam praticado o crime com menos de vinte e um anos, ou sejam mães de filhos menores de quatorze anos, desde que, em qualquer das três hipóteses, hajam cumprido, até 25 de dezembro de 1991, um terço da pena, se não reincidentes, ou metade, se reincidentes;" .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D245\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D245\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - que tenham cumprido ininterruptamente quinze anos da pena, se não reincidentes, ou vinte anos da pena, se reincidentes, desde que não tenham sido punidos por falta grave cometida nos últimos cinco anos e em idêntico período hajam demonstrado bom aproveitamento para o retorno ao convívio social." .
+lex:D245\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo2 .
+lex:D245\/Artigo2    lex:temConteudo    "Art. 2° Os condenados que até 25 de dezembro de 1991 hajam cumprido no mínimo um terço da pena, se não reincidentes, ou metade, se reincidentes, e não preencham os requisitos do parágrafo único, incisos I, II e III, do artigo anterior, terão comutadas suas penas privativas de liberdade da seguinte forma:" .
+lex:D245\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo2    lex:temInciso    lex:D245\/Artigo2\/IncisoI .
+lex:D245\/Artigo2\/IncisoI    lex:temConteudo    "I - pena superior a quatro anos e até oito anos, redução de um terço para os não reincidentes e um quarto para os reincidentes;" .
+lex:D245\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo2    lex:temInciso    lex:D245\/Artigo2\/IncisoII .
+lex:D245\/Artigo2\/IncisoII    lex:temConteudo    "II - pena superior a oito anos e até vinte anos, redução de um quarto para os não reincidentes e um quinto para os reincidentes;" .
+lex:D245\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo2    lex:temInciso    lex:D245\/Artigo2\/IncisoIII .
+lex:D245\/Artigo2\/IncisoIII    lex:temConteudo    "III - pena superior a vinte anos, redução de um quinto para os não reincidentes, e um sexto para os reincidentes;" .
+lex:D245\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo3 .
+lex:D245\/Artigo3    lex:temConteudo    "Art. 3° O disposto nos artigos 1° e 2° aplica-se ainda que a sentença esteja em grau de recurso interposto pela defesa sem prejuízo do respectivo julgamento pela instância superior; o recurso da acusação ao qual for negado provimento não impedirá a concessão do benefício." .
+lex:D245\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo4 .
+lex:D245\/Artigo4    lex:temConteudo    "Art. 4° Para efeito de indulto ou comutação, somam-se as penas que correspondam a infrações diversas." .
+lex:D245\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D245\/Artigo4    lex:temParagrafo    lex:D245\/Artigo4\/ParagrafoUnico .
+lex:D245\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Sem prejuízo do disposto no artigo 7°, o presente decreto aplica-se à soma das penas das demais infrações." .
+lex:D245\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo5 .
+lex:D245\/Artigo5    lex:temConteudo    "Art. 5° Constituem também requisitos para que o condenado obtenha o indulto ou comutação de pena:" .
+lex:D245\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoI .
+lex:D245\/Artigo5\/IncisoI    lex:temConteudo    "I - não ter sido beneficiado por graça, indulto, ou comutação nos dois anos anteriores à data da publicação deste decreto, se não reincidente, ou quatro anos se reincidente, ressalvada a hipótese de concessão fundada no art. 4° do Decreto n° 98.389, de 13 de novembro de 1989;" .
+lex:D245\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoII .
+lex:D245\/Artigo5\/IncisoII    lex:temConteudo    "II - haver participado, nos limites de suas possibilidades pessoais e das condições do estabelecimento prisional, do processo de ressocialização, demonstrando comportamento satisfatório e bom desempenho no trabalho, durante a execução da pena;" .
+lex:D245\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoIII .
+lex:D245\/Artigo5\/IncisoIII    lex:temConteudo    "III - quando beneficiado com a suspensão condicional da pena, cumprida pelo menos a metade do respectivo prazo:" .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer    lex:ehUm    lex:IncisoAlinea .
+lex:D245\/Artigo5\/IncisoIII    lex:temIncisoAlinea    lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer    lex:temConteudo    "a) ter revelado condições pessoais favoráveis à sua permanência na comunidade;" .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer    lex:ehUm    lex:IncisoAlinea .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer    lex:temIncisoAlinea    lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer    lex:temConteudo    "b) ter observado as condições impostas e as penas restritivas de direitos, se for o caso;" .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer    lex:temIncisoAlinea    lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer\/IncisoAlineaNao .
+lex:D245\/Artigo5\/IncisoIII\/IncisoAlineaTer\/IncisoAlineaTer\/IncisoAlineaNao    lex:temConteudo    "c) não ter havido, no ano anterior, agravamento das condições, revogação e suspensão do benefício ou prorrogação do período de prova;" .
+lex:D245\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoIV .
+lex:D245\/Artigo5\/IncisoIV    lex:temConteudo    "IV - ter conduta reveladora de condições pessoais que assegurem sua reinserção social, quando beneficiado pelo livramento condicional e estiver cumprindo as condições impostas pela decisão que o concedeu, sem advertência ou agravamento delas;" .
+lex:D245\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoV .
+lex:D245\/Artigo5\/IncisoV    lex:temConteudo    "V - evidenciar, especialmente se condenado por crime doloso cometido com violência ou grave ameaça a pessoa, condições pessoais que façam pressumir que não voltará a delinqüir;" .
+lex:D245\/Artigo5\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo5    lex:temInciso    lex:D245\/Artigo5\/IncisoVI .
+lex:D245\/Artigo5\/IncisoVI    lex:temConteudo    "VI - ter reparado o dano causado pela infração penal, salvo se provar impossibilidade de fazê-lo." .
+lex:D245\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo6 .
+lex:D245\/Artigo6    lex:temConteudo    "Art. 6° Este decreto não beneficia os condenados por crimes tentados ou consumados, na forma dolosa:" .
+lex:D245\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoI .
+lex:D245\/Artigo6\/IncisoI    lex:temConteudo    "I - de prática da tortura, de tráfico ilícito de entorpecentes e drogas fins e de terrorismo (art. 2° da Lei n° 8.072, de 25.7.1990);" .
+lex:D245\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoII .
+lex:D245\/Artigo6\/IncisoII    lex:temConteudo    "II - por grupos armados, civis ou militares, contra a ordem constitucional e o estado democrático;" .
+lex:D245\/Artigo6\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoIII .
+lex:D245\/Artigo6\/IncisoIII    lex:temConteudo    "III - de homicídio qualificado (art. 121, § 2°, do Código Penal);" .
+lex:D245\/Artigo6\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoIV .
+lex:D245\/Artigo6\/IncisoIV    lex:temConteudo    "IV - de seqüestro e cárcere privado (art. 148 do Código Penal);" .
+lex:D245\/Artigo6\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoV .
+lex:D245\/Artigo6\/IncisoV    lex:temConteudo    "V - de roubo especialmente qualificado pelo resultado da violência (art. 157, § 3°, do Código Penal);" .
+lex:D245\/Artigo6\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoVI .
+lex:D245\/Artigo6\/IncisoVI    lex:temConteudo    "VI - de extorsão qualificada e de extorsão mediante seqüestro (art. 158, § 2°, e art. 159 e seus parágrafos, do Código Penal);" .
+lex:D245\/Artigo6\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoVII .
+lex:D245\/Artigo6\/IncisoVII    lex:temConteudo    "VII - de estupro simples e qualificado (art. 213 e art. 223, caput e parágrafo único, do Código Penal);" .
+lex:D245\/Artigo6\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoVIII .
+lex:D245\/Artigo6\/IncisoVIII    lex:temConteudo    "VIII - de atentado violento ao pudor simples e qualificado (art. 214 e art. 223, caput e parágrafo único, do Código Penal);" .
+lex:D245\/Artigo6\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoIX .
+lex:D245\/Artigo6\/IncisoIX    lex:temConteudo    "IX - epidemia de que resulte morte (art. 267, § 1°, do Código, Penal);" .
+lex:D245\/Artigo6\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoX .
+lex:D245\/Artigo6\/IncisoX    lex:temConteudo    "X - envenenamento de água potável ou de substância alimentícia ou medicinal, qualificado pela morte ou lesão corporal de natureza grave, simples e qualificado (art. 270 e art. 285 do Código Penal);" .
+lex:D245\/Artigo6\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoXI .
+lex:D245\/Artigo6\/IncisoXI    lex:temConteudo    "XI - praticados por funcionário público contra a administração em geral (arts. 312 a 327 do Código Penal);" .
+lex:D245\/Artigo6\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoXII .
+lex:D245\/Artigo6\/IncisoXII    lex:temConteudo    "XII - de corrupção ativa (art. 333 do Código Penal);" .
+lex:D245\/Artigo6\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoXIII .
+lex:D245\/Artigo6\/IncisoXIII    lex:temConteudo    "XIII - referentes à prática de racismo;" .
+lex:D245\/Artigo6\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoXIV .
+lex:D245\/Artigo6\/IncisoXIV    lex:temConteudo    "XIV - de genocídio (Lei n° 2.889, de 1° de outubro de 1956);" .
+lex:D245\/Artigo6\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:D245\/Artigo6    lex:temInciso    lex:D245\/Artigo6\/IncisoXV .
+lex:D245\/Artigo6\/IncisoXV    lex:temConteudo    "XV - praticados contra a criança e o adolescente (Lei n° 8.069, de 13 de julho de 1990)." .
+lex:D245\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo7 .
+lex:D245\/Artigo7    lex:temConteudo    "Art. 7° Este decreto não abrange nem afeta as penas restritivas de direito ou as de multa aplicadas isolada ou cumulativamente." .
+lex:D245\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo8 .
+lex:D245\/Artigo8    lex:temConteudo    "Art. 8° As autoridades que custodiarem os condenados encaminharão ao Conselho Penitenciário, no prazo de quinze dias contados da publicação deste decreto, a relação dos presos que satisfaçam os requisitos necessários, acompanhada das peças e informações circunstanciadas sobre a vida prisional, para os fins do artigo 193 da Lei n° 7.210, de 11 de julho de 1984; o Conselho Penitenciário, no prazo de quinze dias, encaminhará a relação recebida ao juiz da execução, acompanhada do parecer obrigatório." .
+lex:D245\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D245\/Artigo8    lex:temParagrafo    lex:D245\/Artigo8\/Paragrafo1 .
+lex:D245\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1° A provocação das providências deste artigo, no caso do inciso I do parágrafo único do art. 1°, caberá também a serviço médico oficial." .
+lex:D245\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D245\/Artigo8    lex:temParagrafo    lex:D245\/Artigo8\/Paragrafo2 .
+lex:D245\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2° A relação e as informações concernentes aos condenados em gozo de suspensão condicional da pena ou de livramento condicional, deverão ser encaminhadas pela autoridade ou entidade incumbida da fiscalização do cumprimento das condições do benefício ou da observação cautelar de proteção do liberado; a falta de informações poderá ser suprida por outro documento idôneo." .
+lex:D245\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo9 .
+lex:D245\/Artigo9    lex:temConteudo    "Art. 9° Os órgãos centrais da administração penitenciária preencherão, até 31 de janeiro de 1992, quadro de acordo com o modelo anexo, encaminhando-o ao Departamento de Assuntos Penitenciários da Secretaria Nacional dos Direitos da Cidadania e Justiça do Ministério da Justiça." .
+lex:D245\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D245    lex:temArtigo    lex:D245\/Artigo10 .
+lex:D245\/Artigo10    lex:temConteudo    "Art. 10. Este Decreto entra em vigor na data de sua publicação." .

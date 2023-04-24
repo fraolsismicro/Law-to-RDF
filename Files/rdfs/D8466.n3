@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8466    lex:ehUm    lex:DocLegal .
+lex:D8466    lex:temTextoIntegral    lex:HTMLs\/D8466.htm .
+lex:D8466\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8466    lex:temArtigo    lex:D8466\/Artigo1 .
+lex:D8466\/Artigo1    lex:temConteudo    "Art. 1 º O Decreto nº 8.407, de 24 de fevereiro de 2015, passa a vigorar com as seguintes alterações:" .
+lex:D8466\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8466\/Artigo1    lex:temParagrafo    lex:D8466\/Artigo1\/Paragrafo1 .
+lex:D8466\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Para as despesas inscritas em restos a pagar não processados em 2013 e 2014, cuja execução não tenha previsão de início até 31 de agosto de 2015, os órgãos setoriais de planejamento, orçamento e administração ou equivalentes deverão:" .
+lex:D8466\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8466\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8466\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8466\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - requerer a manutenção do empenho das despesas de que trata o inciso I, com as devidas justificativas, à Secretaria de Orçamento Federal do Ministério do Planejamento, Orçamento e Gestão e à Secretaria do Tesouro Nacional do Ministério da Fazenda até 30 de junho de 2015." .
+lex:D8466\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8466\/Artigo1    lex:temParagrafo    lex:D8466\/Artigo1\/Paragrafo2 .
+lex:D8466\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A Secretaria de Orçamento Federal e a Secretaria do Tesouro Nacional deverão se manifestar conjuntamente, até 15 de agosto de 2015, sobre a possibilidade de desbloqueio dos restos a pagar previstos no § 1 º e informarão às unidades gestoras responsáveis para que efetuem o desbloqueio até 31 de agosto de 2015." .
+lex:D8466\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8466\/Artigo1    lex:temParagrafo    lex:D8466\/Artigo1\/Paragrafo4 .
+lex:D8466\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º A Secretaria do Tesouro Nacional providenciará, até a data de encerramento no Siafi do mês de agosto de 2015, o cancelamento automático dos saldos de empenhos de restos a pagar que não foram desbloqueados pelas unidades gestoras. (NR)" .
+lex:D8466\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8466    lex:temArtigo    lex:D8466\/Artigo3 .
+lex:D8466\/Artigo3    lex:temConteudo    "Art. 3 º ............................................................................." .
+lex:D8466\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8466\/Artigo3    lex:temParagrafo    lex:D8466\/Artigo3\/ParagrafoUnico .
+lex:D8466\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os Ministérios que possuem saldos dos restos a pagar não processados inscritos após 31 de dezembro de 2013 referentes a dotações orçamentárias do PAC deverão informar, até 30 de junho de 2015, à Secretaria de Orçamento Federal e à Secretaria do Tesouro Nacional, com as devidas justificativas, a data de previsão de início das despesas cuja execução ainda não tenha iniciado, nos termos do § 4º do art. 68 do Decreto nº 93.872, de 1986, sob pena de bloqueio após a data de encerramento no Siafi do mês de agosto de 2015. (NR)" .
+lex:D8466\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8466    lex:temArtigo    lex:D8466\/Artigo2 .
+lex:D8466\/Artigo2    lex:temConteudo    "Art. 2 º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8466\/Artigo1    lex:remetePara    lex:D8407 .
+lex:D8466\/Texto00001    lex:remetePara    lex:D8407\/Artigo2 .
+lex:D8466\/Texto00001    lex:remetePara    lex:D93872\/Artigo68\/Paragrafo4 .
+lex:D8466\/Artigo1\/Paragrafo1    lex:remetePara    lex:D8407\/Artigo2\/Paragrafo1 .
+lex:D8466\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:remetePara    lex:D8407\/Artigo2\/Paragrafo1ii .
+lex:D8466\/Artigo1\/Paragrafo2    lex:remetePara    lex:D8407\/Artigo2\/Paragrafo2 .
+lex:D8466\/Artigo1\/Paragrafo4    lex:remetePara    lex:D8407\/Artigo2\/Paragrafo4 .
+lex:D8466\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D8407\/Artigo3 .
+lex:D8466\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D93872\/Artigo68\/Paragrafo4 .

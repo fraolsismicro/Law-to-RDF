@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97057    lex:ehUm    lex:DocLegal .
+lex:D97057    lex:temTextoIntegral    lex:HTMLs\/D97057.htm .
+lex:D97057\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97057    lex:temArtigo    lex:D97057\/Artigo1 .
+lex:D97057\/Artigo1    lex:temConteudo    "Art. 1° Os Títulos I, II e III do Regulamento Geral para execução da Lei n° 4.117, de 27 de agosto de 1962, aprovado pelo Decreto n° 52.026, de 20 de maio de 1963, passam a vigorar com a redação constante do Anexo a este Decreto." .
+lex:D97057\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97057    lex:temArtigo    lex:D97057\/Artigo2 .
+lex:D97057\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D97057\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D97057    lex:temArtigo    lex:D97057\/Artigo3 .
+lex:D97057\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:D97057\/Artigo1    lex:remetePara    lex:D52026\/ .
+lex:D97057\/Artigo1    lex:remetePara    lex:D52026\/ .
+lex:D97057\/Artigo1    lex:regulamentadoPor    lex:D52026\/ .
+lex:D52026\/    lex:regulamenta    lex:D97057\/Artigo1 .
+lex:D97057\/Artigo1    lex:remetePara    lex:L4117 .
+lex:D97057\/Artigo1    lex:remetePara    lex:D52026 .

@@ -1,0 +1,145 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D66875    lex:ehUm    lex:DocLegal .
+lex:D66875    lex:temTextoIntegral    lex:HTMLs\/D66875.htm .
+lex:D66875\/AlineaAos    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaAos .
+lex:D66875\/AlineaAos    lex:temConteudo    "a) aos navios de madeira de construÃ§Ã£o primitiva, tais como saveiros e juncos;" .
+lex:D66875\/AlineaAos    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaAos .
+lex:D66875\/AlineaAos    lex:temConteudo    "b) aos navios destinados Ã  pesca ou Ã s operaÃ§Ãµes diretamente a ela ligadas, nem aos navios destinados Ã  pesca de focas ou Ã s operaÃ§Ãµes similares;" .
+lex:D66875\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaA .
+lex:D66875\/AlineaA    lex:temConteudo    "c) Ã s embarcaÃ§Ãµes que navegam em Ã¡guas de um estuÃ¡rio." .
+lex:D66875\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaA    lex:temItem    lex:D66875\/AlineaA\/ItemA .
+lex:D66875\/AlineaA\/ItemA    lex:temConteudo    "4. A legislaÃ§Ã£o nacional ou as convenÃ§Ãµes coletivas poderÃ£o prever a isenÃ§Ã£o dos dispositivos desta ConvenÃ§Ã£o para navios de menos de 200 toneladas brutas registradas." .
+lex:D66875\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaA    lex:temItem    lex:D66875\/AlineaA\/ItemA .
+lex:D66875\/AlineaA\/ItemA    lex:temConteudo    "1. A presente ConvenÃ§Ã£o se aplicarÃ¡ a toadas as pessoas que sÃ£o empregadas numa funÃ§Ã£o qualquer a bordo de um navio, exceto:" .
+lex:D66875\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaUm .
+lex:D66875\/AlineaUm    lex:temConteudo    "a) um prÃ¡tico que nÃ£o seja membro da tripulaÃ§Ã£o;" .
+lex:D66875\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaUm .
+lex:D66875\/AlineaUm    lex:temConteudo    "b) um mÃ©dico que nÃ£o seja membro da oficialidade;" .
+lex:D66875\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaO .
+lex:D66875\/AlineaO    lex:temConteudo    "c) o pessoal de enfermagem e hospitalar, exclusivamente empregado nos serviÃ§os de enfermaria e que nÃ£o faÃ§a parte da tripulaÃ§Ã£o;" .
+lex:D66875\/AlineaPessoas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPessoas .
+lex:D66875\/AlineaPessoas    lex:temConteudo    "d) pessoas que trabalhem exclusivamente por conta prÃ³pria ou remuneradas exclusivamente com parte nos lucros;" .
+lex:D66875\/AlineaPessoas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPessoas .
+lex:D66875\/AlineaPessoas    lex:temConteudo    "e) pessoas nÃ£o remuneradas por seus serviÃ§os ou remuneraÃ§Ã£o unicamente por um salÃ¡rio ou soldo nominal;" .
+lex:D66875\/AlineaPessoas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPessoas .
+lex:D66875\/AlineaPessoas    lex:temConteudo    "f) pessoas empregadas a bordo por um empregador que nÃ£o seja o armador, exceto os radiotelegrafistas a serviÃ§o de uma companhia radiotelegrÃ¡fica;" .
+lex:D66875\/AlineaEstivadores    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaEstivadores .
+lex:D66875\/AlineaEstivadores    lex:temConteudo    "g) estivadores embarcados (itinerantes), que nÃ£o sejam membros da tripulaÃ§Ã£o;" .
+lex:D66875\/AlineaPessoas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPessoas .
+lex:D66875\/AlineaPessoas    lex:temConteudo    "h) pessoas empregadas a bordo de navios de pesca a baleia, a bordo de usinas flutuantes ou a bordo de qualquer outra embarcaÃ§Ã£o que se dedique Ã  pesca de baleia ou operaÃ§Ãµes similares, sob as condiÃ§Ãµes reguladas pelos dispositivos de convenÃ§Ã£o coletiva especial sobre a pesca de baleia ou de uma convenÃ§Ã£o anÃ¡loga, concluÃ­da por uma organizaÃ§Ã£o de marÃ­timos e que determine as taxas de salÃ¡rio, horas de trabalho assim como as outras condiÃ§Ãµes de serviÃ§o;" .
+lex:D66875\/AlineaPessoas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPessoas .
+lex:D66875\/AlineaPessoas    lex:temConteudo    "i) pessoas empregadas no porto que nÃ£o sejam comumente empregadas no mar." .
+lex:D66875\/AlineaPessoas\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPessoas    lex:temItem    lex:D66875\/AlineaPessoas\/ItemA .
+lex:D66875\/AlineaPessoas\/ItemA    lex:temConteudo    "2. A autoridade competente poderÃ¡, apÃ³s consulta Ã s organizaÃ§Ãµes de armadores e marÃ­timos interessadas, isentar da aplicaÃ§Ã£o desta ConvenÃ§Ã£o os comandantes, imediatos e chefes-de-mÃ¡quinas, aos quais a legislaÃ§Ã£o nacional ou as convenÃ§Ãµes coletivas asseguram condiÃ§Ãµes de serviÃ§o que nÃ£o lhes sejam menos favorÃ¡veis com relaÃ§Ã£o Ã s fÃ©rias remuneradas anuais, do que aquelas exigidas por esta ConvenÃ§Ã£o." .
+lex:D66875\/AlineaPessoas\/ItemToda    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPessoas    lex:temItem    lex:D66875\/AlineaPessoas\/ItemToda .
+lex:D66875\/AlineaPessoas\/ItemToda    lex:temConteudo    "1. Toda pessoa a qual se aplica a presente ConvenÃ§Ã£o, tem direito, depois de doze meses de serviÃ§o ininterrupto, a fÃ©rias anuais remuneradas, cuja duraÃ§Ã£o serÃ¡ de:" .
+lex:D66875\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaNo .
+lex:D66875\/AlineaNo    lex:temConteudo    "a) no caso de comandante, oficiais e radiotelegrafistas, ou operadores de rÃ¡dio, nÃ£o menos de dezoito dias Ãºteis para cada ano de serviÃ§o;" .
+lex:D66875\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaNo .
+lex:D66875\/AlineaNo    lex:temConteudo    "b) no caso de outros membros da tripulaÃ§Ã£o, nÃ£o menos de doze dias Ãºteis para cada ano de serviÃ§o." .
+lex:D66875\/AlineaNo\/ItemUma    lex:ehUm    lex:Item .
+lex:D66875\/AlineaNo    lex:temItem    lex:D66875\/AlineaNo\/ItemUma .
+lex:D66875\/AlineaNo\/ItemUma    lex:temConteudo    "2. Uma pessoa com seis meses, no mÃ­nimo, de serviÃ§o ininterrupto terÃ¡ direito, interrompendo seu serviÃ§o em relaÃ§Ã£o a cada mÃªs completo de serviÃ§o a um e meio dias Ãºteis de fÃ©rias no caso de comandante, oficial, radiotelegrafista ou operador de rÃ¡dio, e um dia Ãºtil no caso de ser outro membro da tripulaÃ§Ã£o." .
+lex:D66875\/AlineaNo\/ItemUma    lex:ehUm    lex:Item .
+lex:D66875\/AlineaNo    lex:temItem    lex:D66875\/AlineaNo\/ItemUma .
+lex:D66875\/AlineaNo\/ItemUma    lex:temConteudo    "3. Uma pessoa que seja dispensada com nenhuma falta de sua parte, antes de haver completado seis meses de serviÃ§o ininterrupto terÃ¡ direito ao deixar seu serviÃ§o, em relaÃ§Ã£o a cada mÃªs completo de serviÃ§o, a um e meio dias Ãºteis de fÃ©rias no caso de um comandante, oficial, radiotelegrafista ou operador de rÃ¡dio, e um dia Ãºtil de fÃ©rias no caso de ser outro membro da tripulaÃ§Ã£o." .
+lex:D66875\/AlineaNo\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaNo    lex:temItem    lex:D66875\/AlineaNo\/ItemA .
+lex:D66875\/AlineaNo\/ItemA    lex:temConteudo    "4. A fim de calcular o tempo pelo qual as fÃ©rias sÃ£o devidas;" .
+lex:D66875\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaO .
+lex:D66875\/AlineaO    lex:temConteudo    "a) o serviÃ§o realizado, nÃ£o previsto pelo contrato de engajamento marÃ­timo, serÃ¡ computado no cÃ¡lculo do perÃ­odo de serviÃ§o ininterrupto;" .
+lex:D66875\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaAs .
+lex:D66875\/AlineaAs    lex:temConteudo    "b) as pequenas interrupÃ§Ãµes de serviÃ§o nÃ£o devidas a aÃ§Ã£o ou falta do empregado, que nÃ£o excedam a um total de seis semanas em qualquer perÃ­odo de doze meses, nÃ£o deverÃ£o ser consideradas como interrupÃ§Ãµes da continuidade dos perÃ­odos de serviÃ§o que as precederem ou sucederem a elas;" .
+lex:D66875\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaA .
+lex:D66875\/AlineaA    lex:temConteudo    "c) a continuidade do serviÃ§o nÃ£o serÃ¡ considerada como interrompida, quando houver qualquer alteraÃ§Ã£o na administraÃ§Ã£o ou propriedade do navio ou navios, a bordo do qual ou dos quais a pessoa interessada tiver servido." .
+lex:D66875\/AlineaA\/ItemNAo    lex:ehUm    lex:Item .
+lex:D66875\/AlineaA    lex:temItem    lex:D66875\/AlineaA\/ItemNAo .
+lex:D66875\/AlineaA\/ItemNAo    lex:temConteudo    "5. NÃ£o serÃ£o incluÃ­dos nas fÃ©rias anuais com remuneraÃ§Ã£o:" .
+lex:D66875\/AlineaFeriados    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaFeriados .
+lex:D66875\/AlineaFeriados    lex:temConteudo    "a) feriados oficiais ou comuns;" .
+lex:D66875\/AlineaInterrupAAes    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaInterrupAAes .
+lex:D66875\/AlineaInterrupAAes    lex:temConteudo    "b) interrupÃ§Ãµes de serviÃ§o devidas a doenÃ§a ou acidente." .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemA .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:temConteudo    "6. A legislaÃ§Ã£o nacional ou as convenÃ§Ãµes coletivas poderÃ£o prever o fracionamento do perÃ­odo de fÃ©rias anuais, devidas em virtude desta ConvenÃ§Ã£o, ou a acumulaÃ§Ã£o das fÃ©rias de um ano com fÃ©rias anteriores." .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemA .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:temConteudo    "7. A legislaÃ§Ã£o nacional ou as convenÃ§Ãµes coletivas poderÃ£o, em circunstÃ¢ncias muito excepcionais, quando as necessidades de serviÃ§o assim o exigirem prever a substituiÃ§Ã£o de um perÃ­odo anual de fÃ©rias, devidas em virtude desta ConvenÃ§Ã£o, por uma indenizaÃ§Ã£o em espÃ©cie pelo menos equivalente Ã  remuneraÃ§Ã£o prevista no artigo 5." .
+lex:D66875\/AlineaInterrupAAes\/ItemQuando    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemQuando .
+lex:D66875\/AlineaInterrupAAes\/ItemQuando    lex:temConteudo    "1. Quando Ã© devido um perÃ­odo de fÃ©rias anuais, ele serÃ¡ dado por acordo mutuo na primeira oportunidade, assim que as exigÃªncias do serviÃ§o o permitirem." .
+lex:D66875\/AlineaInterrupAAes\/ItemNAo    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemNAo .
+lex:D66875\/AlineaInterrupAAes\/ItemNAo    lex:temConteudo    "2. NÃ£o se poderÃ¡ exigir de nenhuma pessoa, sem seu consentimento, gozar fÃ©rias, que lhe sÃ£o devidas, num porto que nÃ£o faÃ§a parte do territÃ³rio onde reside. De acordo com este dispositivo, as fÃ©rias, serÃ£o gozadas num porto previsto pela legislaÃ§Ã£o nacional ou convenÃ§Ã£o coletiva." .
+lex:D66875\/AlineaInterrupAAes\/ItemToda    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemToda .
+lex:D66875\/AlineaInterrupAAes\/ItemToda    lex:temConteudo    "1. Toda pessoa, que tire fÃ©rias conforme o Artigo 3 da presente ConvenÃ§Ã£o, receberÃ¡, por toda a duraÃ§Ã£o do perÃ­odo de fÃ©rias, sua remuneraÃ§Ã£o habitual." .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaInterrupAAes    lex:temItem    lex:D66875\/AlineaInterrupAAes\/ItemA .
+lex:D66875\/AlineaInterrupAAes\/ItemA    lex:temConteudo    "2. A remuneraÃ§Ã£o habitual, pagÃ¡vel, conforme o parÃ¡grafo precedente, que pode incluir uma indenizaÃ§Ã£o apropriada para subsistÃªncia, serÃ¡ calculada da forma que for prevista pela legislaÃ§Ã£o nacional ou fixada por convenÃ§Ã£o coletiva." .
+lex:D66875\/AlineaPela    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPela .
+lex:D66875\/AlineaPela    lex:temConteudo    "a) pela legislaÃ§Ã£o;" .
+lex:D66875\/AlineaPelas    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPelas .
+lex:D66875\/AlineaPelas    lex:temConteudo    "b) pelas convenÃ§Ãµes coletivas levadas a efeito entre armadores e marÃ­timos;" .
+lex:D66875\/AlineaPor    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaPor .
+lex:D66875\/AlineaPor    lex:temConteudo    "c) por uma combinaÃ§Ã£o da legislaÃ§Ã£o nacional e das convenÃ§Ãµes coletivas entre armadores e marÃ­timos." .
+lex:D66875\/AlineaPor\/ItemSalvo    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemSalvo .
+lex:D66875\/AlineaPor\/ItemSalvo    lex:temConteudo    "1. Salvo disposiÃ§Ã£o em contrÃ¡rio, os dispositivos da presente ConvenÃ§Ã£o se aplicarÃ£o a todo navio registrado no territÃ³rio de um Membro que tiver ratificado a ConvenÃ§Ã£o e a toda pessoa empregada em tal navio." .
+lex:D66875\/AlineaPor\/ItemQuando    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemQuando .
+lex:D66875\/AlineaPor\/ItemQuando    lex:temConteudo    "2. Quando for posto em execuÃ§Ã£o qualquer dispositivo da presente ConvenÃ§Ã£o por meio de uma convenÃ§Ã£o coletiva, de acordo com o parÃ¡grafo 1 deste Artigo, o Membro do territÃ³rio onde a convenÃ§Ã£o coletiva estiver em vigor, nÃ£o obstante os dispositivos previstos no artigo 8 da presente ConvenÃ§Ã£o, nÃ£o serÃ¡ obrigado a tomar as medidas prevista no dito artigo no que concerne aos dispositivos da ConvenÃ§Ã£o que tenham sido postos em vigor por meio de convenÃ§Ã£o coletiva." .
+lex:D66875\/AlineaPor\/ItemTodo    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemTodo .
+lex:D66875\/AlineaPor\/ItemTodo    lex:temConteudo    "3. Todo Membro, que tiver ratificado a presente ConvenÃ§Ã£o, fornecerÃ¡ ao Diretor Geral da RepartiÃ§Ã£o Internacional do trabalho informaÃ§Ãµes sobre as medidas por meio das quais a ConvenÃ§Ã£o Ã© aplicada, e especialmente os detalhes sobre todas as convenÃ§Ãµes coletivas que ponham em execuÃ§Ã£o tais ou quais dispositivos em que estejam em vigor na data em que o Membro ratificar a ConvenÃ§Ã£o." .
+lex:D66875\/AlineaPor\/ItemQualquer    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemQualquer .
+lex:D66875\/AlineaPor\/ItemQualquer    lex:temConteudo    "4. Qualquer Membro, que tiver ratificado a presente ConvenÃ§Ã£o, se obriga a participar, por meio de uma delegaÃ§Ã£o tripartite, de toda comissÃ£o representando os governos e as organizaÃ§Ãµes dos armadores e dos marÃ­timos, e Ã  qual representante da ComissÃ£o MarÃ­tima Conjunta da RepartiÃ§Ã£o Internacional do Trabalho assistem em carÃ¡ter consultivo, que serÃ¡ instituÃ­da a fim de examinar as medidas tomadas para dar efeito Ã  ConvenÃ§Ã£o." .
+lex:D66875\/AlineaPor\/ItemO    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemO .
+lex:D66875\/AlineaPor\/ItemO    lex:temConteudo    "5. O Diretor Geral submeterÃ¡ a citada comissÃ£o um resumo das informaÃ§Ãµes que ele tiver recebido na execuÃ§Ã£o do parÃ¡grafo 3 acima." .
+lex:D66875\/AlineaPor\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaPor    lex:temItem    lex:D66875\/AlineaPor\/ItemA .
+lex:D66875\/AlineaPor\/ItemA    lex:temConteudo    "6. A ComissÃ£o examinarÃ¡ se as convenÃ§Ãµes coletivas, levadas ao seu conhecimento por relatÃ³rio, prevÃªem condiÃ§Ãµes que dÃªem pleno efeito aos dispositivos da presente ConvenÃ§Ã£o. Todo Membro que tiver ratificado a ConvenÃ§Ã£o se obriga a levar em conta toda observaÃ§Ã£o ou sugestÃ£o concernente a aplicaÃ§Ã£o da ConvenÃ§Ã£o feita, pela comissÃ£o, obriga-se alem disso a levar ao conhecimento das organizaÃ§Ãµes de armadores ou de marÃ­timos, que tenham tomado parte numa das convenÃ§Ãµes coletivas mencionados no parÃ¡grafo 1, toda observaÃ§Ã£o ou sugestÃ£o da comissÃ£o acima citada quanto Ã  eficÃ¡cia dessa convenÃ§Ã£o coletiva para dar efeito aos dispositivos da ConvenÃ§Ã£o." .
+lex:D66875\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaA .
+lex:D66875\/AlineaA    lex:temConteudo    "a) a ratificaÃ§Ã£o por um Membro da nova ConvenÃ§Ã£o revista acarretarÃ¡ de pleno direito, nÃ£o obstante o Artigo 14 acima, denÃºncia imediata da presente ConvenÃ§Ã£o desde que a nova ConvenÃ§Ã£o revista tenha entrado em vigor;" .
+lex:D66875\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D66875    lex:temAlinea    lex:D66875\/AlineaA .
+lex:D66875\/AlineaA    lex:temConteudo    "b) a partir da data da entrada em vigor da nova ConvenÃ§Ã£o revista, a presente ConvenÃ§Ã£o cessarÃ¡ de estar aberta a ratificaÃ§Ã£o dos Membros." .
+lex:D66875\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D66875\/AlineaA    lex:temItem    lex:D66875\/AlineaA\/ItemA .
+lex:D66875\/AlineaA\/ItemA    lex:temConteudo    "2. A presente ConvenÃ§Ã£o permanecerÃ¡, entretanto, em vigor na sua forma e teor para os Membros que a hourem ratificado e nÃ£o ratificarem a ConvenÃ§Ã£o revista." .

@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12198    lex:ehUm    lex:DocLegal .
+lex:L12198    lex:temTextoIntegral    lex:HTMLs\/L12198.htm .
+lex:L12198\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo1 .
+lex:L12198\/Artigo1    lex:temConteudo    "Art. 1o  Fica reconhecida a atividade de Repentista como profissão artística." .
+lex:L12198\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo2 .
+lex:L12198\/Artigo2    lex:temConteudo    "Art. 2o  Repentista é o profissional que utiliza o improviso rimado como meio de expressão artística cantada, falada ou escrita, compondo de imediato ou recolhendo composições de origem anônima ou da tradição popular." .
+lex:L12198\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo3 .
+lex:L12198\/Artigo3    lex:temConteudo    "Art. 3o  Consideram-se repentistas, além de outros que as entidades de classe possam reconhecer, os seguintes profissionais:" .
+lex:L12198\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12198\/Artigo3    lex:temInciso    lex:L12198\/Artigo3\/IncisoI .
+lex:L12198\/Artigo3\/IncisoI    lex:temConteudo    "I - cantadores e violeiros improvisadores;" .
+lex:L12198\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12198\/Artigo3    lex:temInciso    lex:L12198\/Artigo3\/IncisoII .
+lex:L12198\/Artigo3\/IncisoII    lex:temConteudo    "II - os emboladores e cantadores de Coco;" .
+lex:L12198\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12198\/Artigo3    lex:temInciso    lex:L12198\/Artigo3\/IncisoIII .
+lex:L12198\/Artigo3\/IncisoIII    lex:temConteudo    "III - poetas repentistas e os contadores e declamadores de causos da cultura popular;" .
+lex:L12198\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L12198\/Artigo3    lex:temInciso    lex:L12198\/Artigo3\/IncisoIV .
+lex:L12198\/Artigo3\/IncisoIV    lex:temConteudo    "IV - escritores da literatura de cordel." .
+lex:L12198\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo4 .
+lex:L12198\/Artigo4    lex:temConteudo    "Art. 4o  Aos repentistas são aplicadas, conforme as especifidades da atividade, as disposições previstas nos arts. 41 a 48 da Lei no 3.857, de 22 de dezembro de 1960, que dispõem sobre a duração do trabalho dos músicos." .
+lex:L12198\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo5 .
+lex:L12198\/Artigo5    lex:temConteudo    "Art. 5o  A profissão de Repentista passa a integrar o quadro de atividades a que se refere o art. 577 da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943." .
+lex:L12198\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L12198    lex:temArtigo    lex:L12198\/Artigo6 .
+lex:L12198\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12198\/Artigo4    lex:remetePara    lex:L3857\/Artigo41 .
+lex:L12198\/Artigo4    lex:remetePara    lex:L3857\/Artigo48 .
+lex:L12198\/Artigo5    lex:remetePara    lex:Del5452\/Artigo577 .

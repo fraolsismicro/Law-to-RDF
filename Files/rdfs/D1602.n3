@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1602    lex:ehUm    lex:DocLegal .
+lex:D1602    lex:temTextoIntegral    lex:HTMLs\/D1602.htm .
+lex:D1602\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D1602    lex:temArtigo    lex:D1602\/Artigo12 .
+lex:D1602\/Artigo12    lex:temConteudo    "Art. 12. A existência de margens de dumping será determinada com base em comparação entre:" .
+lex:D1602\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1602\/Artigo12    lex:temInciso    lex:D1602\/Artigo12\/IncisoI .
+lex:D1602\/Artigo12\/IncisoI    lex:temConteudo    "I - o valor normal médio ponderado e a média ponderada dos preços de todas as transações comparáveis de exportação; ou" .
+lex:D1602\/Artigo58    lex:ehUm    lex:Artigo .
+lex:D1602    lex:temArtigo    lex:D1602\/Artigo58 .
+lex:D1602\/Artigo58    lex:temConteudo    "Art. 58. Proceder-se-á a revisão, no todo ou em parte, das decisões relativas à aplicação de direito antidumping , a pedido de parte interessada ou por iniciativa de órgão ou entidade da Administração Pública Federal, ou da SECEX, desde que haja decorrido, no mínimo, um ano da imposição de direitos antidumping definitivos e que sejam apresentados elementos de prova suficientes de que:" .
+lex:D1602\/Texto    lex:revogadoPor    lex:D8058\/Artigo201 .
+lex:D8058\/Artigo201    lex:revogou    lex:D1602\/Texto .
+lex:D1602\/Texto    lex:remetePara    lex:D8058\/Artigo200 .
+lex:D1602\/Texto    lex:remetePara    lex:D1602impressap .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1157    lex:ehUm    lex:DocLegal .
+lex:Del1157    lex:temTextoIntegral    lex:HTMLs\/Del1157.htm .
+lex:Del1157\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1157    lex:temArtigo    lex:Del1157\/Artigo1 .
+lex:Del1157\/Artigo1    lex:temConteudo    "Art. 1º Para fins de classificação na Tabela anexa à Lei nº 4.502, de 30 de novembro de 1964, entende-se por:" .
+lex:Del1157\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1157\/Artigo1    lex:temInciso    lex:Del1157\/Artigo1\/IncisoI .
+lex:Del1157\/Artigo1\/IncisoI    lex:temConteudo    "I - Cigarrilha, o produto com capa de fôlha de fumo em estado natural, envolvendo fumo desfiado, picado, migado ou em pó." .
+lex:Del1157\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1157\/Artigo1    lex:temInciso    lex:Del1157\/Artigo1\/IncisoII .
+lex:Del1157\/Artigo1\/IncisoII    lex:temConteudo    "II - Charuto, o produto com capa de fôlha de fumo em estado natural, envolvendo fôlha de fumo inteira, picada, ou partida." .
+lex:Del1157\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del1157\/Artigo1    lex:temInciso    lex:Del1157\/Artigo1\/IncisoIII .
+lex:Del1157\/Artigo1\/IncisoIII    lex:temConteudo    "III - Cigarro, o produto de fumo, cuja capa não seja de fôlha de fumo em estado natural." .
+lex:Del1157\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1157    lex:temArtigo    lex:Del1157\/Artigo2 .
+lex:Del1157\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1157\/Artigo1    lex:remetePara    lex:L4502\/ .

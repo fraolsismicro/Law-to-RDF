@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1342    lex:ehUm    lex:DocLegal .
+lex:Del1342    lex:temTextoIntegral    lex:HTMLs\/Del1342.htm .
+lex:Del1342\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1342    lex:temArtigo    lex:Del1342\/Artigo1 .
+lex:Del1342\/Artigo1    lex:temConteudo    "Art. 1º O artigo 12 da Lei número 5.143, de 20 de outubro de 1966, passa a vigorar com a seguinte redação:" .
+lex:Del1342\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1342\/Artigo1    lex:temParagrafo    lex:Del1342\/Artigo1\/Paragrafo1 .
+lex:Del1342\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Em casos excepcionais, visando a assegurar a normalidade dos mercados financeiro e de capitais ou a resguardar os legítimos interesses de depositantes, investidores e demais credores acionistas e sócios minoritários, poderá o Conselho Monetário Nacional autorizar o Banco Central do Brasil a aplicar recursos das reservas monetárias:" .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:Del1342\/Artigo1\/Paragrafo1    lex:temAlinea    lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNa .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNa    lex:temConteudo    "a) na recomposição do patrimônio de instituições financeiras e de sociedades integrantes do sistema de distribuição no mercado de capitais, referidas nos incisos I, III e IV do artigo 5º da Lei nº 4.728, de 14 de julho de 1965, com o saneamento de seus ativos e passivos;" .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:Del1342\/Artigo1\/Paragrafo1    lex:temAlinea    lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNo .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNo    lex:temConteudo    "b) no pagamento total ou parcial do passivo de qualquer das instituições ou sociedades referidas na alínea precedente, mediante as competentes cessões e transferências dos correspondentes créditos, direitos e ações, a serem efetivadas pelos respectivos titulares ao Banco Central do Brasil, caso decretada a intervenção na instituição ou sociedade ou a sua liquidação extrajudicial, nos termos da legislação vigente." .
+lex:Del1342\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1342\/Artigo1    lex:temParagrafo    lex:Del1342\/Artigo1\/Paragrafo2 .
+lex:Del1342\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Na hipótese da alínea a do parágrafo anterior, poderá o Banco Central do Brasil deixar de decretar a intervenção na instituição ou sociedade, ou a sua liquidação extrajudicial, se entender que as providências a serem adotadas possam conduzir à completa normalização da situação da empresa'." .
+lex:Del1342\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1342    lex:temArtigo    lex:Del1342\/Artigo2 .
+lex:Del1342\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1342\/Texto00001    lex:remetePara    lex:L5143\/Artigo12 .
+lex:Del1342\/Artigo1\/Paragrafo1    lex:remetePara    lex:L5143\/Artigo12\/Paragrafo1 .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNa    lex:remetePara    lex:L5143\/Artigo12\/Paragrafo1a .
+lex:Del1342\/Artigo1\/Paragrafo1\/AlineaNo    lex:remetePara    lex:L5143\/Artigo12\/Paragrafo1b .
+lex:Del1342\/Artigo1\/Paragrafo2    lex:remetePara    lex:L5143\/Artigo12\/Paragrafo2 .

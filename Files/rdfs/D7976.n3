@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7976    lex:ehUm    lex:DocLegal .
+lex:D7976    lex:temTextoIntegral    lex:HTMLs\/D7976.htm .
+lex:D7976\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7976    lex:temArtigo    lex:D7976\/Artigo1 .
+lex:D7976\/Artigo1    lex:temConteudo    "Art. 1 º  Fica criada a Agência Brasileira Gestora de Fundos Garantidores e Garantias S.A. - ABGF, empresa pública, sob a forma de sociedade anônima, vinculada ao Ministério da Fazenda, com prazo de duração indeterminado." .
+lex:D7976\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7976    lex:temArtigo    lex:D7976\/Artigo2 .
+lex:D7976\/Artigo2    lex:temConteudo    "Art. 2 º  A Procuradoria-Geral da Fazenda Nacional convocará Assembleia-Geral para a constituição da ABGF, nos termos do art. 87 da Lei n º 6.404, de 15 de dezembro de 1976." .
+lex:D7976\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7976\/Artigo2    lex:temParagrafo    lex:D7976\/Artigo2\/ParagrafoUnico .
+lex:D7976\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Estatuto Social da ABGF será aprovado pela Assembleia-Geral de Acionistas." .
+lex:D7976\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7976    lex:temArtigo    lex:D7976\/Artigo3 .
+lex:D7976\/Artigo3    lex:temConteudo    "Art. 3 º  O capital social inicial da ABGF será de R$ 50.000.000,00 (cinquenta milhões de reais), dividido em 50.000 (cinquenta mil) ações ordinárias, todas nominativas e sem valor nominal." .
+lex:D7976\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7976    lex:temArtigo    lex:D7976\/Artigo4 .
+lex:D7976\/Artigo4    lex:temConteudo    "Art. 4 º  O Ministro de Estado da Fazenda designará representante para a prática dos atos necessários à constituição e instalação da ABGF." .
+lex:D7976\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7976\/Artigo4    lex:temParagrafo    lex:D7976\/Artigo4\/ParagrafoUnico .
+lex:D7976\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A função de representante de que trata este artigo será considerada prestação de serviço público relevante, não remunerada." .
+lex:D7976\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7976    lex:temArtigo    lex:D7976\/Artigo5 .
+lex:D7976\/Artigo5    lex:temConteudo    "Art. 5 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7976\/Artigo2    lex:remetePara    lex:L6404consol\/Artigo87 .

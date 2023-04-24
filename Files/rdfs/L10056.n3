@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10056    lex:ehUm    lex:DocLegal .
+lex:L10056    lex:temTextoIntegral    lex:HTMLs\/L10056.htm .
+lex:L10056\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10056    lex:temArtigo    lex:L10056\/Artigo1 .
+lex:L10056\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto ao Orçamento Fiscal da União (Lei no 9.969, de 11 de maio de 2000), em favor do Ministério da Defesa, crédito suplementar no valor de R$ 10.000.000,00 (dez milhões de reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L10056\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10056    lex:temArtigo    lex:L10056\/Artigo2 .
+lex:L10056\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior decorrerão do cancelamento de dotações orçamentárias, conforme indicado no Anexo II desta Lei." .
+lex:L10056\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10056    lex:temArtigo    lex:L10056\/Artigo3 .
+lex:L10056\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10056\/Artigo1    lex:remetePara    lex:L9969 .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc84    lex:ehUm    lex:DocLegal .
+lex:emc84    lex:temTextoIntegral    lex:HTMLs\/emc84.htm .
+lex:emc84\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc84    lex:temArtigo    lex:emc84\/Artigo1 .
+lex:emc84\/Artigo1    lex:temConteudo    "Art. 1º O art. 159 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc84\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:emc84\/Artigo1    lex:temInciso    lex:emc84\/Artigo1\/IncisoI .
+lex:emc84\/Artigo1\/IncisoI    lex:temConteudo    "I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados, 49% (quarenta e nove por cento), na seguinte forma:" .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1    lex:ehUm    lex:IncisoAlinea .
+lex:emc84\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1 .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1    lex:temConteudo    "e) 1% (um por cento) ao Fundo de Participação dos Municípios, que será entregue no primeiro decêndio do mês de julho de cada ano;" .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1    lex:temIncisoAlineaItem    lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1\/IncisoAlineaItem .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1\/IncisoAlineaItem    lex:temConteudo    "............................................................................................. ' (NR)" .
+lex:emc84\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc84    lex:temArtigo    lex:emc84\/Artigo2 .
+lex:emc84\/Artigo2    lex:temConteudo    "Art. 2º Para os fins do disposto na alínea 'e' do inciso I do caput do art. 159 da Constituição Federal, a União entregará ao Fundo de Participação dos Municípios o percentual de 0,5% (cinco décimos por cento) do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados no primeiro exercício em que esta Emenda Constitucional gerar efeitos financeiros, acrescentando-se 0,5% (cinco décimos por cento) a cada exercício, até que se alcance o percentual de 1% (um por cento)." .
+lex:emc84\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc84    lex:temArtigo    lex:emc84\/Artigo3 .
+lex:emc84\/Artigo3    lex:temConteudo    "Art. 3º Esta Emenda Constitucional entra em vigor na data de sua publicação, com efeitos financeiros a partir de 1º de janeiro do exercício subsequente." .
+lex:emc84\/Artigo1    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc84\/Artigo1\/IncisoI    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc84\/Artigo1\/IncisoI\/IncisoAlinea1    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc84\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo159 .

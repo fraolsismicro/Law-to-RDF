@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6855    lex:ehUm    lex:DocLegal .
+lex:D6855    lex:temTextoIntegral    lex:HTMLs\/D6855.htm .
+lex:D6855\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6855    lex:temArtigo    lex:D6855\/Artigo1 .
+lex:D6855\/Artigo1    lex:temConteudo    "Art. 1o  Fica remanejado, na forma do Anexo I a este Decreto, da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para a Secretaria Especial de Políticas para as Mulheres, da Presidência da República, um cargo em comissão do Grupo-Direção e Assessoramento Superiores - DAS 102.4." .
+lex:D6855\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6855    lex:temArtigo    lex:D6855\/Artigo2 .
+lex:D6855\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, o Anexo II ao Decreto no 4.625, de 21 de março de 2003, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D6855\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6855    lex:temArtigo    lex:D6855\/Artigo3 .
+lex:D6855\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6855\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6855    lex:temArtigo    lex:D6855\/Artigo4 .
+lex:D6855\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Anexo II ao Decreto no 6.811, de 31 de março de 2009." .
+lex:D6855\/Texto    lex:remetePara    lex:D6855 .
+lex:D6855\/Artigo2    lex:remetePara    lex:D4625\/ .
+lex:D6855\/Artigo4    lex:remetePara    lex:D6811\/ .

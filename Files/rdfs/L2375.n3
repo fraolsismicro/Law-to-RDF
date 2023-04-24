@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2375    lex:ehUm    lex:DocLegal .
+lex:L2375    lex:temTextoIntegral    lex:HTMLs\/L2375.htm .
+lex:L2375\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2375    lex:temArtigo    lex:L2375\/Artigo1 .
+lex:L2375\/Artigo1    lex:temConteudo    "Art. 1º A inscrição no Registro Público da emancipação por outorga do pai ou da mãe (Código Civil, artigo 12, nº 2) não depende de homologação judicial." .
+lex:L2375\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2375    lex:temArtigo    lex:L2375\/Artigo2 .
+lex:L2375\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário, inclusive o § 2º do art. 16 do Decreto nº 4.857, de 9 de novembro de 1939." .
+lex:L2375\/Artigo1    lex:remetePara    lex:L3071\/Artigo12 .
+lex:L2375\/Artigo2    lex:remetePara    lex:D4857\/Artigo16\/Paragrafo2 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1455    lex:ehUm    lex:DocLegal .
+lex:D1455    lex:temTextoIntegral    lex:HTMLs\/D1455.htm .
+lex:D1455\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1455    lex:temArtigo    lex:D1455\/Artigo1 .
+lex:D1455\/Artigo1    lex:temConteudo    "Art. 1º O art. 93 do Decreto nº 86.715, de 10 de dezembro de 1981, passa a vigorar com a seguinte redação:" .
+lex:D1455\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1455\/Artigo1    lex:temParagrafo    lex:D1455\/Artigo1\/ParagrafoUnico .
+lex:D1455\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Na fixação do prazo de validade do visto, permissivo de múltiplas entradas, o Ministério das Relações Exteriores observará o princípio da reciprocidade de tratamento.'" .
+lex:D1455\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1455    lex:temArtigo    lex:D1455\/Artigo2 .
+lex:D1455\/Artigo2    lex:temConteudo    "Art. 2º Este decreto entra em vigor na data de sua publicação." .
+lex:D1455\/Artigo1    lex:remetePara    lex:D86715\/Artigo93 .

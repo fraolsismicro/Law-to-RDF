@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12886    lex:ehUm    lex:DocLegal .
+lex:L12886    lex:temTextoIntegral    lex:HTMLs\/L12886.htm .
+lex:L12886\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12886    lex:temArtigo    lex:L12886\/Artigo1 .
+lex:L12886\/Artigo1    lex:temConteudo    "Art. 1o O art. 1o da Lei no 9.870, de 23 de novembro de 1999, passa a vigorar acrescido do seguinte § 7o:" .
+lex:L12886\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L12886\/Artigo1    lex:temParagrafo    lex:L12886\/Artigo1\/Paragrafo7 .
+lex:L12886\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o Será nula cláusula contratual que obrigue o contratante ao pagamento adicional ou ao fornecimento de qualquer material escolar de uso coletivo dos estudantes ou da instituição, necessário à prestação dos serviços educacionais contratados, devendo os custos correspondentes ser sempre considerados nos cálculos do valor das anuidades ou das semestralidades escolares. (NR)" .
+lex:L12886\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12886    lex:temArtigo    lex:L12886\/Artigo2 .
+lex:L12886\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L12886\/Artigo1    lex:remetePara    lex:L9870 .
+lex:L12886\/Artigo1\/Paragrafo7    lex:remetePara    lex:L9870\/Artigo1\/Paragrafo7 .

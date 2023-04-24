@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7526    lex:ehUm    lex:DocLegal .
+lex:L7526    lex:temTextoIntegral    lex:HTMLs\/L7526.htm .
+lex:L7526\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7526    lex:temArtigo    lex:L7526\/Artigo1 .
+lex:L7526\/Artigo1    lex:temConteudo    "Art. 1º São convalidados os atos praticados e os instrumentos assinados e lavrados, até a vigência do Decreto-lei nº 1.958, de 9 de setembro de 1982, com inobservância do que preceitua a Lei nº 5.757, de 3 de dezembro de 1971, que estabelece regime de gratificação ao pessoal à disposição do FUNRURAL, não se lhes aplicando, em conseqüência, o disposto no art. 142 da Lei nº 3.807, de 26 de agosto de 1960, que dispõe sobre a Lei Orgânica da Previdência Social." .
+lex:L7526\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7526    lex:temArtigo    lex:L7526\/Artigo2 .
+lex:L7526\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L7526\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7526    lex:temArtigo    lex:L7526\/Artigo3 .
+lex:L7526\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7526\/Artigo1    lex:remetePara    lex:Del1958 .
+lex:L7526\/Artigo1    lex:remetePara    lex:L5757 .
+lex:L7526\/Artigo1    lex:remetePara    lex:L3807\/Artigo142 .

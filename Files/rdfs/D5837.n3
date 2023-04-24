@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5837    lex:ehUm    lex:DocLegal .
+lex:D5837    lex:temTextoIntegral    lex:HTMLs\/D5837.htm .
+lex:D5837\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo1 .
+lex:D5837\/Artigo1    lex:temConteudo    "Art. 1 º Ficam criadas a Ordem do Mérito da Inteligência, a Medalha da Inteligência Brasileira, a Medalha de Aplicação e Estudo e a Medalha da Carreira de Inteligência, na Agência Brasileira de Inteligência do Gabinete de Segurança Institucional da Presidência da República." .
+lex:D5837\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo2 .
+lex:D5837\/Artigo2    lex:temConteudo    "Art. 2 º O Presidente da República será o Grão-Mestre da Ordem do Mérito da Inteligência." .
+lex:D5837\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo3 .
+lex:D5837\/Artigo3    lex:temConteudo    "Art. 3 º A Ordem do Mérito da Inteligência constará de cinco graus:" .
+lex:D5837\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5837\/Artigo3    lex:temInciso    lex:D5837\/Artigo3\/IncisoI .
+lex:D5837\/Artigo3\/IncisoI    lex:temConteudo    "I - Grã-Cruz;" .
+lex:D5837\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5837\/Artigo3    lex:temInciso    lex:D5837\/Artigo3\/IncisoII .
+lex:D5837\/Artigo3\/IncisoII    lex:temConteudo    "II - Alta Distinção;" .
+lex:D5837\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5837\/Artigo3    lex:temInciso    lex:D5837\/Artigo3\/IncisoIII .
+lex:D5837\/Artigo3\/IncisoIII    lex:temConteudo    "III - Distinção Especial;" .
+lex:D5837\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5837\/Artigo3    lex:temInciso    lex:D5837\/Artigo3\/IncisoIV .
+lex:D5837\/Artigo3\/IncisoIV    lex:temConteudo    "IV - Distinção; e" .
+lex:D5837\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5837\/Artigo3    lex:temInciso    lex:D5837\/Artigo3\/IncisoV .
+lex:D5837\/Artigo3\/IncisoV    lex:temConteudo    "V - Bons Serviços." .
+lex:D5837\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5837\/Artigo3    lex:temParagrafo    lex:D5837\/Artigo3\/ParagrafoUnico .
+lex:D5837\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A condecoração a que se refere este artigo fica incluída na alínea d do art. 2 º do Decreto n º 40.556, de 17 de dezembro de 1956, a seguir à Medalha do Mérito Mauá." .
+lex:D5837\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo4 .
+lex:D5837\/Artigo4    lex:temConteudo    "Art. 4 º  A admissão, promoção e exclusão de agraciados na Ordem do Mérito da Inteligência far-se-á em ato do Presidente da República." .
+lex:D5837\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo5 .
+lex:D5837\/Artigo5    lex:temConteudo    "Art. 5 º  Cabe ao Ministro de Estado Chefe do Gabinete de Segurança Institucional da Presidência da República baixar os atos complementares necessários à implementação do disposto neste Decreto." .
+lex:D5837\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5837    lex:temArtigo    lex:D5837\/Artigo6 .
+lex:D5837\/Artigo6    lex:temConteudo    "Art. 6 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5837\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D40556\/Artigo2 .

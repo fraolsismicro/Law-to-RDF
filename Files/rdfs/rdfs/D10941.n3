@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10941    lex:ehUm    lex:DocLegal .
+lex:D10941    lex:temTextoIntegral    lex:HTMLs\/D10941.htm .
+lex:D10941\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10941    lex:temArtigo    lex:D10941\/Artigo1A .
+lex:D10941\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 6.187, de 14 de agosto de 2007, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10941\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10941    lex:temArtigo    lex:D10941\/Artigo2A .
+lex:D10941\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados:" .
+lex:D10941\/Artigo2A\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D10941\/Artigo2A    lex:temAlinea    lex:D10941\/Artigo2A\/AlineaDo .
+lex:D10941\/Artigo2A\/AlineaDo    lex:temConteudo    "a) do art. 5Âº:" .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:ehUm    lex:Item .
+lex:D10941\/Artigo2A\/AlineaDo    lex:temItem    lex:D10941\/Artigo2A\/AlineaDo\/ItemOs .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:temConteudo    "1. os incisos III e IV do caput;" .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemO    lex:ehUm    lex:Item .
+lex:D10941\/Artigo2A\/AlineaDo    lex:temItem    lex:D10941\/Artigo2A\/AlineaDo\/ItemO .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemO    lex:temConteudo    "2. o Â§ 1Âº; e" .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:ehUm    lex:Item .
+lex:D10941\/Artigo2A\/AlineaDo    lex:temItem    lex:D10941\/Artigo2A\/AlineaDo\/ItemOs .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:temConteudo    "3. os incisos I a V do Â§ 3Âº; e" .
+lex:D10941\/Artigo2A\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D10941\/Artigo2A    lex:temAlinea    lex:D10941\/Artigo2A\/AlineaAs .
+lex:D10941\/Artigo2A\/AlineaAs    lex:temConteudo    "b) as alÃ­neas âaâ a âdâ do inciso I do caput do art. 6Âº; e" .
+lex:D10941\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10941    lex:temArtigo    lex:D10941\/Artigo3A .
+lex:D10941\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10941\/Artigo1A    lex:remetePara    lex:D6187 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo20 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo4iv0 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo4Â§3 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5i1 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5Â§20 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5Â§2 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5Â§30 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5Â§40 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo5Â§50 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo6i0 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo6ii0 .
+lex:D10941\/Texto00001    lex:remetePara    lex:D6187\/Artigo6Â§10 .
+lex:D10941\/Texto00002    lex:remetePara    lex:D6187 .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:remetePara    lex:D6187\/Artigo5 .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:remetePara    lex:D6187\/Artigo5 .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemO    lex:remetePara    lex:D6187\/Artigo5Â§10 .
+lex:D10941\/Artigo2A\/AlineaDo\/ItemOs    lex:remetePara    lex:D6187\/Artigo5Â§3 .
+lex:D10941\/Artigo2A\/AlineaAs    lex:remetePara    lex:D6187\/Artigo6 .
+lex:D10941\/Artigo2A\/Texto00007    lex:remetePara    lex:D10811\/Artigo1 .

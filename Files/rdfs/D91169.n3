@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91169    lex:ehUm    lex:DocLegal .
+lex:D91169    lex:temTextoIntegral    lex:HTMLs\/D91169.htm .
+lex:D91169\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D91169    lex:temArtigo    lex:D91169\/Artigo1 .
+lex:D91169\/Artigo1    lex:temConteudo    "Art. 1º A agregação de Diplomata, nas hipóteses dos itens V e VI do artigo 4º da Lei nº 5.887, de 31 de maio de 1973, ocorrerá após decorrido o prazo de 24 (vinte e quatro) meses a contar:" .
+lex:D91169\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D91169\/Artigo1    lex:temInciso    lex:D91169\/Artigo1\/IncisoI .
+lex:D91169\/Artigo1\/IncisoI    lex:temConteudo    "I - da publicação do ato que o nomeie ou designe para o desempenho de cargo, função, encargo ou comissão previstos no item V do citado artigo; ou" .
+lex:D91169\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D91169\/Artigo1    lex:temInciso    lex:D91169\/Artigo1\/IncisoII .
+lex:D91169\/Artigo1\/IncisoII    lex:temConteudo    "II - da data prevista no § 1º do artigo 1º do Decreto-lei nº 9.538, de 1º de agosto de 1946, nos casos do item VI do mesmo artigo." .
+lex:D91169\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D91169\/Artigo1    lex:temParagrafo    lex:D91169\/Artigo1\/ParagrafoUnico .
+lex:D91169\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ressalvam-se do disposto no caput deste artigo as exceções previstas no parágrafo único do artigo 4º da Lei nº 5.887, de 31 de maio de 1973." .
+lex:D91169\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D91169    lex:temArtigo    lex:D91169\/Artigo2 .
+lex:D91169\/Artigo2    lex:temConteudo    "Art. 2º Transcorrido o prazo estipulado no artigo 1º, a agregação será Decretada e abrirá vaga na Classe a que pertença o Diplomata." .
+lex:D91169\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D91169    lex:temArtigo    lex:D91169\/Artigo3 .
+lex:D91169\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D91169\/Artigo1    lex:remetePara    lex:L5887\/Artigo4 .
+lex:D91169\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5887\/Artigo4 .

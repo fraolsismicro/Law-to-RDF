@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9016    lex:ehUm    lex:DocLegal .
+lex:D9016    lex:temTextoIntegral    lex:HTMLs\/D9016.htm .
+lex:D9016\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9016    lex:temArtigo    lex:D9016\/Artigo1 .
+lex:D9016\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam remanejados, na forma do Anexo I, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D9016\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9016\/Artigo1    lex:temInciso    lex:D9016\/Artigo1\/IncisoI .
+lex:D9016\/Artigo1\/IncisoI    lex:temConteudo    "I - da Advocacia-Geral da União para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão: um DAS 102.3; e" .
+lex:D9016\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9016\/Artigo1    lex:temInciso    lex:D9016\/Artigo1\/IncisoII .
+lex:D9016\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para a Advocacia-Geral da União:" .
+lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9016\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm .
+lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.1; e" .
+lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9016\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.2." .
+lex:D9016\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9016    lex:temArtigo    lex:D9016\/Artigo2 .
+lex:D9016\/Artigo2    lex:temConteudo    "Art. 2 º  O Anexo II ao Decreto nº 7.392, de 13 de dezembro de 2010, passa a vigorar com as alterações do Anexo II a este Decreto." .
+lex:D9016\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9016    lex:temArtigo    lex:D9016\/Artigo3 .
+lex:D9016\/Artigo3    lex:temConteudo    "Art. 3 º  O ocupante do cargo em comissão que deixa de existir na Estrutura Regimental da Advocacia-Geral da União por força deste Decreto fica automaticamente exonerado." .
+lex:D9016\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9016    lex:temArtigo    lex:D9016\/Artigo4 .
+lex:D9016\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9016\/Artigo2    lex:remetePara    lex:D7392\/ .

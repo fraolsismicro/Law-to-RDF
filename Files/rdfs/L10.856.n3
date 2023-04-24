@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.856    lex:ehUm    lex:DocLegal .
+lex:L10.856    lex:temTextoIntegral    lex:HTMLs\/L10.856.htm .
+lex:L10856\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10856    lex:temArtigo    lex:L10856\/Artigo1 .
+lex:L10856\/Artigo1    lex:temConteudo    "Art. 1o Fica extinto, a partir de 1o de janeiro de 2004, o Conselho Diretor do Fundo de Garantia à Exportação - CFGE, criado pela Lei no 9.818, de 23 de agosto de 1999." .
+lex:L10856\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10856    lex:temArtigo    lex:L10856\/Artigo2 .
+lex:L10856\/Artigo2    lex:temConteudo    "Art. 2o Os arts. 2o, 7o e 8o da Lei no 9.818, de 1999, passam a vigorar com as seguintes alterações:" .
+lex:L10856\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10856\/Artigo2    lex:temParagrafo    lex:L10856\/Artigo2\/Paragrafo3 .
+lex:L10856\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o As ações vinculadas ao FGE serão depositadas em seu órgão gestor." .
+lex:L10856\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L10856\/Artigo2    lex:temParagrafo    lex:L10856\/Artigo2\/Paragrafo4 .
+lex:L10856\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o Do produto da venda das ações transferidas ao FGE, parte constituirá reserva de liquidez, nas condições definidas pela Câmara de Comércio Exterior   CAMEX, do Conselho de Governo, observado o regulamento a ser editado pelo Poder Executivo, e o restante será aplicado em títulos públicos federais, com cláusula de resgate antecipado.' (NR)" .
+lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10856\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoII .
+lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II   aplicar as disponibilidades financeiras do FGE, garantindo a mesma taxa de remuneração das disponibilidades do órgão gestor do FGE;" .
+lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L10856\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV .
+lex:L10856\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV   proceder à alienação das ações, desde que expressamente autorizado pela CAMEX, observado o regulamento a ser editado pelo Poder Executivo." .
+lex:L10856\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10856\/Artigo2    lex:temParagrafo    lex:L10856\/Artigo2\/ParagrafoUnico .
+lex:L10856\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Poder Executivo indicará, mediante decreto, o órgão gestor do FGE.' (NR)" .
+lex:L10856\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10856    lex:temArtigo    lex:L10856\/Artigo3 .
+lex:L10856\/Artigo3    lex:temConteudo    "Art. 3o A CAMEX exercerá as competências de regular as atividades de prestação de garantias previstas na Lei no 9.818, de 1999." .
+lex:L10856\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10856    lex:temArtigo    lex:L10856\/Artigo4 .
+lex:L10856\/Artigo4    lex:temConteudo    "Art. 4o Fica revogado o art. 6o da Lei no 9.818, de 23 de agosto de 1999." .
+lex:L10856\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L10856    lex:temArtigo    lex:L10856\/Artigo5 .
+lex:L10856\/Artigo5    lex:temConteudo    "Art. 5o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10856\/Artigo1    lex:remetePara    lex:L9818 .
+lex:L10856\/Texto00002    lex:remetePara    lex:L9818\/3 .
+lex:L10856\/Artigo2\/Texto00004    lex:remetePara    lex:L9818\/Artigo7 .
+lex:L10856\/Artigo2\/Texto00004    lex:remetePara    lex:L9818\/Artigo8 .
+lex:L10856\/Artigo3    lex:remetePara    lex:L9818 .
+lex:L10856\/Artigo4    lex:remetePara    lex:L9818\/Artigo6 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6724    lex:ehUm    lex:DocLegal .
+lex:L6724    lex:temTextoIntegral    lex:HTMLs\/L6724.htm .
+lex:L6724\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6724    lex:temArtigo    lex:L6724\/Artigo1 .
+lex:L6724\/Artigo1    lex:temConteudo    "Art 1º O art. 14 da Lei nº 6.015, de 31 de dezembro de 1973, alterada pela Lei nº 6.216, de 30 de junho de 1975, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L6724\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6724    lex:temArtigo    lex:L6724\/Artigo2 .
+lex:L6724\/Artigo2    lex:temConteudo    "Art 2º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6724\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6724    lex:temArtigo    lex:L6724\/Artigo3 .
+lex:L6724\/Artigo3    lex:temConteudo    "Art 3º Revogam-se as disposições em contrário." .
+lex:L6724\/Artigo1    lex:remetePara    lex:L6015\/Artigo14 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1659    lex:ehUm    lex:DocLegal .
+lex:D1659    lex:temTextoIntegral    lex:HTMLs\/D1659.htm .
+lex:D1659\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1659    lex:temArtigo    lex:D1659\/Artigo1 .
+lex:D1659\/Artigo1    lex:temConteudo    "Art. 1° Os §§ 2° e 3° do art. 1° do Decreto n° 1.587, de 8 de agosto de 1995, passam a vigorar com a seguinte redação:" .
+lex:D1659\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1659\/Artigo1    lex:temParagrafo    lex:D1659\/Artigo1\/Paragrafo2 .
+lex:D1659\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Nos casos em que o órgão ou entidade requisitante ainda não possua contrato com estabelecimento hoteleiro, é facultado, em caráter emergencial e provisório, efetuar o ressarcimento da estada, mediante recibo comprobatório, realizado o lançamento no elemento de despesas 'Restituições'." .
+lex:D1659\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1659\/Artigo1    lex:temParagrafo    lex:D1659\/Artigo1\/Paragrafo3 .
+lex:D1659\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° A autorização para o custeio da estada do servidor ou dos ocupantes dos cargos de que tratam o caput deste artigo e o § 1° abrange, também, aqueles empossados até a data da publicação deste Decreto.'" .
+lex:D1659\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1659    lex:temArtigo    lex:D1659\/Artigo2 .
+lex:D1659\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .

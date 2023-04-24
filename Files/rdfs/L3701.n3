@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3701    lex:ehUm    lex:DocLegal .
+lex:L3701    lex:temTextoIntegral    lex:HTMLs\/L3701.htm .
+lex:L3701\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3701    lex:temArtigo    lex:L3701\/Artigo1 .
+lex:L3701\/Artigo1    lex:temConteudo    "Art. 1º A Lei nº 3.487, de 10 de dezembro de 1958, que estimou a Receita e fixou a Despesa da União para o exercício financeiro de 1959, e, sem ônus, alterada da seguinte forma:" .
+lex:L3701\/Artigo1\/AlineaHospital    lex:ehUm    lex:Alinea .
+lex:L3701\/Artigo1    lex:temAlinea    lex:L3701\/Artigo1\/AlineaHospital .
+lex:L3701\/Artigo1\/AlineaHospital    lex:temConteudo    "I) Hospital Nossa Senhora da Saúde, Caxias do Sul, Rio Grande do Sul, para construção do pavilhão de psiquiatria - 1.000.000." .
+lex:L3701\/Artigo1\/AlineaHospital\/Item100    lex:ehUm    lex:Item .
+lex:L3701\/Artigo1\/AlineaHospital    lex:temItem    lex:L3701\/Artigo1\/AlineaHospital\/Item100 .
+lex:L3701\/Artigo1\/AlineaHospital\/Item100    lex:temConteudo    "3 1.00" .
+lex:L3701\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3701    lex:temArtigo    lex:L3701\/Artigo2 .
+lex:L3701\/Artigo2    lex:temConteudo    "Art. 2º Revogadas as disposições em contrário, esta lei vigorará a partir de 1 de janeiro de 1959." .
+lex:L3701\/Artigo1    lex:remetePara    lex:L3487 .

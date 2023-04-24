@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6674    lex:ehUm    lex:DocLegal .
+lex:D6674    lex:temTextoIntegral    lex:HTMLs\/D6674.htm .
+lex:D6674\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6674    lex:temArtigo    lex:D6674\/Artigo1 .
+lex:D6674\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 2o, 3o e 4o do Decreto no 6.539, de 18 de agosto de 2008, passam a vigorar com a seguinte redação:" .
+lex:D6674\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6674\/Artigo1    lex:temInciso    lex:D6674\/Artigo1\/IncisoI .
+lex:D6674\/Artigo1\/IncisoI    lex:temConteudo    "I - projeto de diversificação: o destinado à introdução de uma ou mais linhas de produção na unidade produtora já estabelecida, com ou sem exclusão das linhas de produção existentes, que resulte em produto diferente dos até então produzidos pela unidade produtora;" .
+lex:D6674\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6674\/Artigo1    lex:temInciso    lex:D6674\/Artigo1\/IncisoII .
+lex:D6674\/Artigo1\/IncisoII    lex:temConteudo    "II - projeto de modernização total: o destinado à introdução de novas tecnologias ou novos métodos ou meios mais racionais na linha de produção original ou ainda de alterações do produto, visando melhoria no processo produtivo ou no produto final capazes de apresentar resultados mais eficientes em relação ao processo produtivo ou à produção anterior, independentemente de alteração da capacidade real instalada do empreendimento." .
+lex:D6674\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6674\/Artigo1    lex:temParagrafo    lex:D6674\/Artigo1\/Paragrafo1 .
+lex:D6674\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Para efeito do direito à redução a que se refere o caput do art. 1o, a diversificação ou a modernização total de empreendimento existente será considerada implantação de nova unidade produtora, sendo que os benefícios incidirão sobre a nova capacidade real instalada do empreendimento decorrente da modernização total ou, nos casos de diversificação, da capacidade real instalada da nova linha de produção introduzida." .
+lex:D6674\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6674\/Artigo1    lex:temParagrafo    lex:D6674\/Artigo1\/Paragrafo2 .
+lex:D6674\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  A redução concedida para projetos de modernização, ampliação ou diversificação não atribui ou amplia benefícios a resultados correspondentes a produção anterior.  (NR)" .
+lex:D6674\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6674\/Artigo1    lex:temParagrafo    lex:D6674\/Artigo1\/Paragrafo3 .
+lex:D6674\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  ..............................................................................." .
+lex:D6674\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6674\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D6674\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D6674\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - de indústria extrativa de minerais metálicos, representados por complexos produtivos para o aproveitamento de recursos minerais da região, desde que promovam a verticalização minerária, na forma disciplinada pelos Conselhos Deliberativos das Superintendências de Desenvolvimento da Amazônia e do Nordeste;" .
+lex:D6674\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6674    lex:temArtigo    lex:D6674\/Artigo2 .
+lex:D6674\/Artigo2    lex:temConteudo    "Art. 2 º  O § 1 º do art. 6 º do Decreto n º 6.047, de 22 de fevereiro de 2007, passa a vigorar com a seguinte redação:" .
+lex:D6674\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6674    lex:temArtigo    lex:D6674\/Artigo3 .
+lex:D6674\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6674\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6674    lex:temArtigo    lex:D6674\/Artigo4 .
+lex:D6674\/Artigo4    lex:temConteudo    "Art. 4 º  Ficam revogados o § 1 º do art. 4 º e o art. 8o do Decreto n º 6.539, de 18 de agosto de 2008." .
+lex:D6674\/Artigo1    lex:remetePara    lex:D6539 .
+lex:D6674\/Texto00001    lex:remetePara    lex:D6539\/Artigo2 .
+lex:D6674\/Texto00001    lex:remetePara    lex:D6539\/Artigo3 .
+lex:D6674\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:D6539\/Artigo4\/Paragrafo3iii .
+lex:D6674\/Artigo2    lex:remetePara    lex:D6047 .
+lex:D6674\/Texto00008    lex:remetePara    lex:D6047\/Artigo6\/Paragrafo1 .
+lex:D6674\/Artigo4    lex:remetePara    lex:D6539\/Artigo4\/Paragrafo1 .
+lex:D6674\/Artigo4    lex:remetePara    lex:D6539\/Artigo8 .

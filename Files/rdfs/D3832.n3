@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3832    lex:ehUm    lex:DocLegal .
+lex:D3832    lex:temTextoIntegral    lex:HTMLs\/D3832.htm .
+lex:D3832\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3832    lex:temArtigo    lex:D3832\/Artigo1 .
+lex:D3832\/Artigo1    lex:temConteudo    "Art. 1o  O Estatuto da Conferência da Haia de Direito Internacional Privado, aprovado na VII Conferência, realizada no período de 9 a 31 de outubro de 1951, apenso por cópia a este Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D3832\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3832\/Artigo1    lex:temParagrafo    lex:D3832\/Artigo1\/ParagrafoUnico .
+lex:D3832\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Estatuto, bem como quaisquer ajustes complementares que, nos termos do art. 49, I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D3832\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3832    lex:temArtigo    lex:D3832\/Artigo2 .
+lex:D3832\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D3832\/Artigo2\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D3832\/Artigo2    lex:temAlinea    lex:D3832\/Artigo2\/AlineaDa .
+lex:D3832\/Artigo2\/AlineaDa    lex:temConteudo    "a) da preparação e organização das sessões da Conferência da Haia e das reuniões das comissões especiais;" .
+lex:D3832\/Artigo2\/AlineaDos    lex:ehUm    lex:Alinea .
+lex:D3832\/Artigo2    lex:temAlinea    lex:D3832\/Artigo2\/AlineaDos .
+lex:D3832\/Artigo2\/AlineaDos    lex:temConteudo    "b) dos trabalhos do Secretariado das sessões e reuniões acima previstas;" .
+lex:D3832\/Artigo2\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D3832\/Artigo2    lex:temAlinea    lex:D3832\/Artigo2\/AlineaDe .
+lex:D3832\/Artigo2\/AlineaDe    lex:temConteudo    "c) de todos os trabalhos incluídos nas atividades de um secretariado." .

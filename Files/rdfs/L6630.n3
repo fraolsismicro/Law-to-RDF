@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6630    lex:ehUm    lex:DocLegal .
+lex:L6630    lex:temTextoIntegral    lex:HTMLs\/L6630.htm .
+lex:L6630\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6630    lex:temArtigo    lex:L6630\/Artigo1 .
+lex:L6630\/Artigo1    lex:temConteudo    "Art 1º - A Alínea c do art. 3º da Lei nº 5.917, de 10 de setembro de 1973, passa a vigorar com a seguinte redação:" .
+lex:L6630\/Artigo1\/AlineaDar-se-a    lex:ehUm    lex:Alinea .
+lex:L6630\/Artigo1    lex:temAlinea    lex:L6630\/Artigo1\/AlineaDar-se-a .
+lex:L6630\/Artigo1\/AlineaDar-se-a    lex:temConteudo    "c) dar-se-á preferência ao aproveitamento da capacidade ociosa dos sistemas existentes.'" .
+lex:L6630\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6630    lex:temArtigo    lex:L6630\/Artigo2 .
+lex:L6630\/Artigo2    lex:temConteudo    "Art 2º - Fica incluída no Anexo 5.2.1 da referida lei - Relação Descritiva das Hidrovias do Plano Nacional de Viação - a seguinte hidrovia: Bacia do Paraná." .
+lex:L6630\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6630    lex:temArtigo    lex:L6630\/Artigo3 .
+lex:L6630\/Artigo3    lex:temConteudo    "Art 3º - Fica incluído no Anexo 4.2 da referida lei - Relação Descritiva dos portos marítimos, fluviais e lacustres do Plano Nacional de Viação - sob o nº de ordem 102, o seguinte: 102 - Corumbataí-SP - Rio Piracicaba." .
+lex:L6630\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6630    lex:temArtigo    lex:L6630\/Artigo4 .
+lex:L6630\/Artigo4    lex:temConteudo    "Art 4º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6630\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6630    lex:temArtigo    lex:L6630\/Artigo5 .
+lex:L6630\/Artigo5    lex:temConteudo    "Art 5º - Revogam-se as disposições em contrário." .
+lex:L6630\/Artigo1    lex:remetePara    lex:L5917\/Artigo3 .
+lex:L6630\/Artigo2    lex:remetePara    lex:L5917\/ .
+lex:L6630\/Artigo3    lex:remetePara    lex:L5917\/ .

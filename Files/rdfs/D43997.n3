@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D43997    lex:ehUm    lex:DocLegal .
+lex:D43997    lex:temTextoIntegral    lex:HTMLs\/D43997.htm .
+lex:D43997\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D43997    lex:temArtigo    lex:D43997\/Artigo1 .
+lex:D43997\/Artigo1    lex:temConteudo    "Art. 1º O art. 96, do Decreto número 42.820, de 16 de dezembro de 1957, passa a vigorar com a seguinte redação:" .
+lex:D43997\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D43997\/Artigo1    lex:temParagrafo    lex:D43997\/Artigo1\/Paragrafo1 .
+lex:D43997\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O acervo de extinta Carteira de Exportação e Importação do Banco do Brasil continua sob a direção do Ministro do Estado dos Negócios da Fazenda, para fins de sua liquidação e com competência exclusiva no que se referir à decisão sôbre pedidos de licença e de cota de câmbio protocolados na mesma Carteira antes da publicação da Lei nº 2.145, de 29 de dezembro de 1953." .
+lex:D43997\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D43997\/Artigo1    lex:temParagrafo    lex:D43997\/Artigo1\/Paragrafo2 .
+lex:D43997\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Para o efeito de acêrvo de relações e contas com o Banco do Brasil S. A. em relação às operações da extinta Carteira, poderá o Ministro de Estado dos Negócios da Fazenda nomear representantes em número que julgar conveniente, os quais agirão em conjunto ou separadamente, como fôr indicado no ato de nomeação." .
+lex:D43997\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D43997\/Artigo1    lex:temParagrafo    lex:D43997\/Artigo1\/Paragrafo3 .
+lex:D43997\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Apuradas as contas na forma do parágrafo anterior, serão adotadas pelo Poder Executivo as providências necessárias à definitiva liquidação do acervo." .
+lex:D43997\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D43997    lex:temArtigo    lex:D43997\/Artigo2 .
+lex:D43997\/Artigo2    lex:temConteudo    "Art. 2º Êste decreto entrará em vigor na data de sua publicação, revogadas as disposições" .
+lex:D43997\/Artigo1    lex:remetePara    lex:D42820\/Artigo96 .

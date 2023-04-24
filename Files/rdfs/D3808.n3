@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3808    lex:ehUm    lex:DocLegal .
+lex:D3808    lex:temTextoIntegral    lex:HTMLs\/D3808.htm .
+lex:D3808\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3808    lex:temArtigo    lex:D3808\/Artigo1 .
+lex:D3808\/Artigo1    lex:temConteudo    "Art. 1o O Oitavo Protocolo Adicional ao Acordo de Alcance Parcial de Renegociação no 9 entre os Governos da República Federativa do Brasil e dos Estados Unidos Mexicanos, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D3808\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3808    lex:temArtigo    lex:D3808\/Artigo2 .
+lex:D3808\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D3808\/Artigo2\/AlineaForem    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaForem .
+lex:D3808\/Artigo2\/AlineaForem    lex:temConteudo    "a) forem elaborados integralmente no território de uma das Partes quando em sua elaboração foram utilizados, única e exclusivamente, materiais originários;" .
+lex:D3808\/Artigo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaNo .
+lex:D3808\/Artigo2\/AlineaNo    lex:temConteudo    "b) no momento de sua elaboração forem utilizados materiais não originários das Partes, quando resultantes de um processo de transformação, realizado em seu território, de tal forma que o bem se classifique em uma posição diferente às desses materiais, segundo a NALADI/SH; ou" .
+lex:D3808\/Artigo2\/AlineaCaso    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaCaso .
+lex:D3808\/Artigo2\/AlineaCaso    lex:temConteudo    "c) caso o requisito estabelecido na letra b) não possa ser cumprido porque o processo de transformação realizado em território de uma das Partes não implica uma mudança de posição na NALADI/SH, bastará com que o valor CIF porto de destino ou CIF porto marítimo dos materiais não originários das Partes não exceda 50% do valor FOB do bem." .
+lex:D3808\/Artigo2\/AlineaCaso\/ItemUm    lex:ehUm    lex:Item .
+lex:D3808\/Artigo2\/AlineaCaso    lex:temItem    lex:D3808\/Artigo2\/AlineaCaso\/ItemUm .
+lex:D3808\/Artigo2\/AlineaCaso\/ItemUm    lex:temConteudo    "2. Um motor ou uma carroceria serão considerados como originários se como resultado de um processo de transformação realizado no território, independentemente de que sua elaboração ou transformação tenha sido realizada na fábrica onde se utilizam estes bens ou em outra fábrica em uma das Partes, cumpra com o seguinte:" .
+lex:D3808\/Artigo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaNo .
+lex:D3808\/Artigo2\/AlineaNo    lex:temConteudo    "a) no caso do Brasil, o valor CIF porto de destino ou CIF porto marítimo dos insumos não originários das Partes não exceder 40% do valor FOB do bem de que se tratar; ou" .
+lex:D3808\/Artigo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaNo .
+lex:D3808\/Artigo2\/AlineaNo    lex:temConteudo    "b) no caso do México, o valor dos materiais originários for igual ou superior a 18% do valor FOB do bem de que se tratar." .
+lex:D3808\/Artigo2\/AlineaEm    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaEm .
+lex:D3808\/Artigo2\/AlineaEm    lex:temConteudo    "a) em seu exercício ou período fiscal; ou" .
+lex:D3808\/Artigo2\/AlineaEm    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaEm .
+lex:D3808\/Artigo2\/AlineaEm    lex:temConteudo    "b) em qualquer período mensal, bimestral, quadrimestral ou semestral." .
+lex:D3808\/Artigo2\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaDa .
+lex:D3808\/Artigo2\/AlineaDa    lex:temConteudo    "i) da produção em território de uma Parte; ou" .
+lex:D3808\/Artigo2\/AlineaBens    lex:ehUm    lex:Alinea .
+lex:D3808\/Artigo2    lex:temAlinea    lex:D3808\/Artigo2\/AlineaBens .
+lex:D3808\/Artigo2\/AlineaBens    lex:temConteudo    "g) bens produzidos no território de uma Parte exclusivamente a partir dos bens mencionados nas letras a) a f) ou de seus derivados, em qualquer etapa de produção." .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .
+lex:D3808\/Artigo2\/Inciso    lex:ehUm    lex:Inciso .
+lex:D3808\/Artigo2    lex:temInciso    lex:D3808\/Artigo2\/Inciso .
+lex:D3808\/Artigo2\/Inciso    lex:temConteudo    "C" .

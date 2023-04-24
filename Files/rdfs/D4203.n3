@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4203    lex:ehUm    lex:DocLegal .
+lex:D4203    lex:temTextoIntegral    lex:HTMLs\/D4203.htm .
+lex:D4203\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4203    lex:temArtigo    lex:D4203\/Artigo1 .
+lex:D4203\/Artigo1    lex:temConteudo    "Art. 1o  Fica prorrogada por mais trinta dias, a partir da zero hora do dia 23 de abril de 2002, a autorização de que tratam o art. 1o da Lei no 10.309, de 22 de novembro de 2001, e o Decreto no 3.953, de 5 de outubro de 2001." .
+lex:D4203\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4203    lex:temArtigo    lex:D4203\/Artigo2 .
+lex:D4203\/Artigo2    lex:temConteudo    "Art. 2o  Para efeito da assunção de que trata o art. 1o, as empresas aéreas deverão cumprir todas as medidas estabelecidas nos planos de segurança em vigência, além das demais exigências previstas na Medida Provisória no 32, de 18 de fevereiro de 2002, e no Decreto no 3.053, de 5 de outubro de 2001." .
+lex:D4203\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4203    lex:temArtigo    lex:D4203\/Artigo3 .
+lex:D4203\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entre em vigor na data de sua publicação." .
+lex:D4203\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4203    lex:temArtigo    lex:D4203\/Artigo4 .
+lex:D4203\/Artigo4    lex:temConteudo    "Art. 4o Fica revogado o Decreto no 4.171, de 21 de março de 2002." .
+lex:D4203\/Artigo1    lex:remetePara    lex:L10309 .
+lex:D4203\/Artigo1    lex:remetePara    lex:D3953 .
+lex:D4203\/Artigo2    lex:remetePara    lex:32 .
+lex:D4203\/Artigo2    lex:remetePara    lex:D3053 .
+lex:D4203\/Artigo4    lex:remetePara    lex:D4171 .

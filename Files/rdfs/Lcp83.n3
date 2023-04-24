@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp83    lex:ehUm    lex:DocLegal .
+lex:Lcp83    lex:temTextoIntegral    lex:HTMLs\/Lcp83.htm .
+lex:Lcp83\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp83    lex:temArtigo    lex:Lcp83\/Artigo1 .
+lex:Lcp83\/Artigo1    lex:temConteudo    "Art. 1º O § 1º do art. 2º da Lei Complementar nº 69, de 23 de julho de 1991, passa a vigorar com a seguinte redação:" .
+lex:Lcp83\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp83\/Artigo1    lex:temParagrafo    lex:Lcp83\/Artigo1\/Paragrafo1 .
+lex:Lcp83\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O Estado-Maior das Forças Armadas, cuja Chefia é exercida por um oficial-general do mais alto posto da hierarquia militar em tempo de paz, obedecido o critério de rodízio entre as Forças, terá sua organização e atribuições estabelecidas pelo Poder Executivo." .
+lex:Lcp83\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp83    lex:temArtigo    lex:Lcp83\/Artigo2 .
+lex:Lcp83\/Artigo2    lex:temConteudo    "Art. 2º Acrescente-se ao art. 2º da Lei Complementar nº 69, de 23 de julho de 1991, o seguinte § 2º, renumerando-se o atual § 2º para § 3º:" .
+lex:Lcp83\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp83\/Artigo2    lex:temParagrafo    lex:Lcp83\/Artigo2\/Paragrafo2 .
+lex:Lcp83\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Observado o disposto no parágrafo anterior, a critério do Presidente da República, poderá permanecer na Chefia do Estado-Maior das Forças Armadas o oficial-general eventualmente transferido para a reserva remunerada no exercício do cargo.'" .
+lex:Lcp83\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp83    lex:temArtigo    lex:Lcp83\/Artigo3 .
+lex:Lcp83\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp83\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp83    lex:temArtigo    lex:Lcp83\/Artigo4 .
+lex:Lcp83\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:Lcp83\/Artigo1\/Paragrafo1    lex:remetePara    lex:Lcp69\/Artigo2\/Paragrafo1 .
+lex:Lcp83\/Artigo2\/Paragrafo2    lex:remetePara    lex:Lcp69\/Artigo2\/Paragrafo2 .

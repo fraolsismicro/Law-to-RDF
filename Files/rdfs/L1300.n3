@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1300    lex:ehUm    lex:DocLegal .
+lex:L1300    lex:temTextoIntegral    lex:HTMLs\/L1300.htm .
+lex:L1300\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:L1300    lex:temInciso    lex:L1300\/IncisoXII .
+lex:L1300\/IncisoXII    lex:temConteudo    "XII Se o proprietário pedir o prédio para residência de ascendente ou descendente viúvo ou casado, que não seja, o seu cônjuge, proprietário de prédio residencial na mesma localidade.         (Incluído pela Lei nº 2.699, de 1955)" .
+lex:L1300\/Texto    lex:remetePara    lex:L3494 .
+lex:L1300\/Paragrafo2    lex:remetePara    lex:D24150 .
+lex:L1300\/Paragrafo2    lex:remetePara    lex:Del1608 .
+lex:L1300\/Artigo4    lex:remetePara    lex:L2699\/Artigo2 .
+lex:L1300\/IncisoXII    lex:remetePara    lex:L2699\/Artigo3 .
+lex:L1300\/Paragrafo2    lex:remetePara    lex:L2699\/Artigo3 .
+lex:L1300\/Paragrafo6    lex:remetePara    lex:L2699\/Artigo3 .
+lex:L1300\/Artigo19    lex:remetePara    lex:Del1608\/Artigo360 .
+lex:L1300\/IncisoIV    lex:remetePara    lex:L2699\/Artigo6 .
+lex:L1300\/Artigo21    lex:remetePara    lex:L3071 .
+lex:L1300\/Artigo21    lex:remetePara    lex:Del1608 .
+lex:L1300\/Artigo22    lex:remetePara    lex:Del9669 .

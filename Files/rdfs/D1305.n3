@@ -1,0 +1,76 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1305    lex:ehUm    lex:DocLegal .
+lex:D1305    lex:temTextoIntegral    lex:HTMLs\/D1305.htm .
+lex:D1305\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo1 .
+lex:D1305\/Artigo1    lex:temConteudo    "Art. 1º Para efeito de aplicação deste Decreto, considera-se irrecuperável todo veículo que em razão de sinistro, intempéries ou desuso, haja sofrido danos ou avarias em sua estrutura, capazes de inviabilizar recuperação que atenda aos requisitos de segurança veicular, necessária para a circulação nas vias públicas." .
+lex:D1305\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo1    lex:temParagrafo    lex:D1305\/Artigo1\/Paragrafo1 .
+lex:D1305\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O veículo irrecuperável é considerado sucata." .
+lex:D1305\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo1    lex:temParagrafo    lex:D1305\/Artigo1\/Paragrafo2 .
+lex:D1305\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A baixa do veículo irrecuperável é obrigatória junto à repartição de trânsito, e deverá ser solicitada dentro do prazo de noventa dias, a contar da verificação do fato, satisfeitas as exigências estabelecidas no presente Decreto." .
+lex:D1305\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo1    lex:temParagrafo    lex:D1305\/Artigo1\/Paragrafo3 .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A baixa de que trata o parágrafo anterior será requerida:" .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo    lex:temConteudo    "a) pelo proprietário;" .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:temConteudo    "b) pela autoridade policial, no caso de veículo abandonado;" .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:temConteudo    "c) pela autoridade aduaneira, quando o veículo sair do território brasileiro;" .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPelo    lex:temConteudo    "d) pelo leiloeiro, quando o veículo for alienado por seu intermédio;" .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela .
+lex:D1305\/Artigo1\/Paragrafo3\/AlineaPela    lex:temConteudo    "e) pela seguradora que haja efetuado a indenização do veículo segurado." .
+lex:D1305\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo1    lex:temParagrafo    lex:D1305\/Artigo1\/Paragrafo4 .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º O requerente, junto com a solicitação da baixa, deverá apresentar os seguintes documentos:" .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao    lex:temConteudo    "a) Certidão de Registro de Veículo, se houver;" .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaDeclaracao    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo4\/AlineaDeclaracao .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaDeclaracao    lex:temConteudo    "b) declaração esclarecendo o motivo da baixa;" .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo4\/AlineaNo .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaNo    lex:temConteudo    "c) no caso de veículo com gravame, documento comprobatório da liberação do ônus ou autorização do detentor do mesmo;" .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaBoletim    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo4\/AlineaBoletim .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaBoletim    lex:temConteudo    "d) Boletim de ocorrência do acidente, se for o caso;" .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao    lex:ehUm    lex:Alinea .
+lex:D1305\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao .
+lex:D1305\/Artigo1\/Paragrafo4\/AlineaCertidao    lex:temConteudo    "e) certidão de registro do furto ou roubo, quando se tratar de veículo registrado em outro município." .
+lex:D1305\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo1    lex:temParagrafo    lex:D1305\/Artigo1\/Paragrafo5 .
+lex:D1305\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Havendo débitos de tributos ou multas, a cobrança far-se-á independentemente da baixa do veículo, não se exigindo, para este ato, a respectiva quitação." .
+lex:D1305\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo2 .
+lex:D1305\/Artigo2    lex:temConteudo    "Art. 2º As placas, documentação de registro e licenciamento do veículo a ser alienado como sucata, bem como as partes que contêm o número de identificação do veículo, serão recolhido à repartição de trânsito, antes da entrega da sucata ao alienatário." .
+lex:D1305\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1305\/Artigo2    lex:temParagrafo    lex:D1305\/Artigo2\/ParagrafoUnico .
+lex:D1305\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A repartição de trânsito que efetuar a baixa do veículo, deverá providenciar a imediata inutilização da documentação, destruição das placas e do número de identificação, lavrando-se termo declaratório, devidamente assinado pelo servidor responsável." .
+lex:D1305\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo3 .
+lex:D1305\/Artigo3    lex:temConteudo    "Art. 3º Compete ao órgão de trânsito, no âmbito de sua circunscrição, fiscalizar os estabelecimentos que executem leilões, reformas, recuperação, compra, venda ou desmanche de veículo, usados ou não, a fim de assegurar o fiel cumprimento do disposto neste decreto, sem prejuízo das ações policiais de repressão às atividades delituosas." .
+lex:D1305\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo4 .
+lex:D1305\/Artigo4    lex:temConteudo    "Art. 4º A baixa de veículo, realizada nos termos deste Decreto, é irreversível, irrevogável e definitiva, de cujo ato será lavrada Certidão de Baixa de Veículo, conforme o modelo do anexo deste Decreto." .
+lex:D1305\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo5 .
+lex:D1305\/Artigo5    lex:temConteudo    "Art. 5º A repartição de trânsito onde for registrada a baixa do veículo dará ciência ao órgão do registro originário." .
+lex:D1305\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1305    lex:temArtigo    lex:D1305\/Artigo6 .
+lex:D1305\/Artigo6    lex:temConteudo    "Art. 6º Este Decreto entra em vigor na data de sua publicação." .

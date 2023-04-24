@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc16    lex:ehUm    lex:DocLegal .
+lex:emc16    lex:temTextoIntegral    lex:HTMLs\/emc16.htm .
+lex:emc16\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo1 .
+lex:emc16\/Artigo1    lex:temConteudo    "Art. 1º O § 5º do art. 14, ao caput do art. 28, o inciso II do art. 29, o caput do art. 77 e o art. 82 da Constituição Federal passam a vigorar com a seginte redação:." .
+lex:emc16\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:emc16\/Artigo1    lex:temParagrafo    lex:emc16\/Artigo1\/Paragrafo5 .
+lex:emc16\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º O Presidente da República, os Governadores de Estado e do Distrito Federal, os Prefeitos e quem os houver sucedido, ou substituído no curso dos mandatos poderão ser reeleitos para um único período subseqüente." .
+lex:emc16\/Artigo28    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo28 .
+lex:emc16\/Artigo28    lex:temConteudo    "Art. 28. A eleição do Governador e do Vice-Governador de Estado, para mandato de quatro anos, realizar-se-á no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato de seus antecessores, e a posse ocorrerá em primeiro de janeiro do ano subseqüente, observado, quanto ao mais, o disposto no art. 77." .
+lex:emc16\/Artigo29    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo29 .
+lex:emc16\/Artigo29    lex:temConteudo    "Art. 29........................................." .
+lex:emc16\/Artigo29\/IncisoII    lex:ehUm    lex:Inciso .
+lex:emc16\/Artigo29    lex:temInciso    lex:emc16\/Artigo29\/IncisoII .
+lex:emc16\/Artigo29\/IncisoII    lex:temConteudo    "II - eleição do Prefeito e do Vice-Prefeito realizada no primeiro domingo de outubro do ano anterior ao término do mandato dos que devam suceder, aplicadas as regras do art. 77, no caso de Municípios com mais de duzentos mil eleitores;" .
+lex:emc16\/Artigo77    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo77 .
+lex:emc16\/Artigo77    lex:temConteudo    "Art. 77. A eleição do Presidente e do Vice-Presidente da República realizar-se-á, simultaneamente, no primeiro domingo de outubro, em primeiro turno, e no último domingo de outubro, em segundo turno, se houver, do ano anterior ao do término do mandato presidencial vigente." .
+lex:emc16\/Artigo82    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo82 .
+lex:emc16\/Artigo82    lex:temConteudo    "Art. 82. O mandato do Presidente da República é de quatro anos e terá início em primeiro de janeiro do ano seguinte ao da sua eleição.'" .
+lex:emc16\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc16    lex:temArtigo    lex:emc16\/Artigo2 .
+lex:emc16\/Artigo2    lex:temConteudo    "Art. 2º Esta emenda constitucional entra em vigor na data de sua publicação." .
+lex:emc16\/Artigo1\/Paragrafo5    lex:remetePara    lex:Constituicao\/Artigo14\/Paragrafo5 .
+lex:emc16\/Artigo28    lex:remetePara    lex:Constituicao\/Artigo28 .
+lex:emc16\/Artigo29\/IncisoII    lex:remetePara    lex:Constituicao\/Artigo29 .
+lex:emc16\/Artigo77    lex:remetePara    lex:Constituicao\/Artigo77 .
+lex:emc16\/Artigo82    lex:remetePara    lex:Constituicao\/Artigo82 .

@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10200    lex:ehUm    lex:DocLegal .
+lex:L10200    lex:temTextoIntegral    lex:HTMLs\/L10200.htm .
+lex:L10200\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10200    lex:temArtigo    lex:L10200\/Artigo1 .
+lex:L10200\/Artigo1    lex:temConteudo    "Art. 1o  A Lei no 8.929, de 22 de agosto de 1994, passa a vigorar acrescida do seguinte artigo:" .
+lex:L10200\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10200\/Artigo1    lex:temInciso    lex:L10200\/Artigo1\/IncisoI .
+lex:L10200\/Artigo1\/IncisoI    lex:temConteudo    "I - que seja explicitado, em seu corpo, os referenciais necessários à clara identificação do preço ou do índice de preços a ser utilizado no resgate do título, a instituição responsável por sua apuração ou divulgação, a praça ou o mercado de formação do preço e o nome do índice;" .
+lex:L10200\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10200\/Artigo1    lex:temInciso    lex:L10200\/Artigo1\/IncisoII .
+lex:L10200\/Artigo1\/IncisoII    lex:temConteudo    "II - que os indicadores de preço de que trata o inciso anterior sejam apurados por instituições idôneas e de credibilidade junto às partes contratantes, tenham divulgação periódica, preferencialmente diária, e ampla divulgação ou facilidade de acesso, de forma a estarem facilmente disponíveis para as partes contratantes;" .
+lex:L10200\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10200\/Artigo1    lex:temInciso    lex:L10200\/Artigo1\/IncisoIII .
+lex:L10200\/Artigo1\/IncisoIII    lex:temConteudo    "III - que seja caracterizada por seu nome, seguido da expressão 'financeira'." .
+lex:L10200\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10200\/Artigo1    lex:temParagrafo    lex:L10200\/Artigo1\/Paragrafo1 .
+lex:L10200\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A CPR com liquidação financeira é um título líquido e certo, exigível, na data de seu vencimento, pelo resultado da multiplicação do preço, apurado segundo os critérios previstos neste artigo, pela quantidade do produto especificado." .
+lex:L10200\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10200\/Artigo1    lex:temParagrafo    lex:L10200\/Artigo1\/Paragrafo2 .
+lex:L10200\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Para cobrança da CPR com liquidação financeira, cabe ação de execução por quantia certa.' (NR)" .
+lex:L10200\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10200    lex:temArtigo    lex:L10200\/Artigo2 .
+lex:L10200\/Artigo2    lex:temConteudo    "Art. 2o  O art. 12 da Lei no 8.929, de 1994, passa a vigorar com a seguinte redação:" .
+lex:L10200\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10200\/Artigo2    lex:temParagrafo    lex:L10200\/Artigo2\/Paragrafo3 .
+lex:L10200\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Para efeito de registro em cartório, a cobrança de emolumentos e custas das CPR será regida de acordo com as normas aplicáveis à Cédula de Crédito Rural.' (NR)" .
+lex:L10200\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10200    lex:temArtigo    lex:L10200\/Artigo3 .
+lex:L10200\/Artigo3    lex:temConteudo    "Art. 3o  Fica autorizada a equalização de taxas de juros de financiamentos concedidos pelo Banco Nacional de Desenvolvimento Econômico e Social - BNDES, para modernização da frota de tratores agrícolas e implementos associados, colheitadeiras e aquisição de equipamentos para preparo, secagem e beneficiamento de café, na forma da regulamentação baixada pelo Poder Executivo." .
+lex:L10200\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10200    lex:temArtigo    lex:L10200\/Artigo4 .
+lex:L10200\/Artigo4    lex:temConteudo    "Art. 4o  Ficam convalidados os atos praticados com base na Medida Provisória no 2.117-13, de 27 de dezembro de 2000." .
+lex:L10200\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L10200    lex:temArtigo    lex:L10200\/Artigo5 .
+lex:L10200\/Artigo5    lex:temConteudo    "Art. 5o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L10200\/Artigo1    lex:remetePara    lex:L8929\/Artigo4 .
+lex:L10200\/Artigo2    lex:remetePara    lex:L8929\/Artigo12 .

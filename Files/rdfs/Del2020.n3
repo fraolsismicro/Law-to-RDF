@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2020    lex:ehUm    lex:DocLegal .
+lex:Del2020    lex:temTextoIntegral    lex:HTMLs\/Del2020.htm .
+lex:Del2020\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2020    lex:temArtigo    lex:Del2020\/Artigo1 .
+lex:Del2020\/Artigo1    lex:temConteudo    "Art. 1º - O parágrafo único do artigo 1º do Decreto-lei nº 1.981, de 27 de dezembro de 1982, fica acrescido dos seguintes itens:" .
+lex:Del2020\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:Del2020\/Artigo1    lex:temInciso    lex:Del2020\/Artigo1\/IncisoXII .
+lex:Del2020\/Artigo1\/IncisoXII    lex:temConteudo    "XII - constantes do subanexo Encargos Gerais da União, Programas Especiais - Recursos sob supervisão da Secretaria de Planejamento/PR;" .
+lex:Del2020\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:Del2020\/Artigo1    lex:temInciso    lex:Del2020\/Artigo1\/IncisoXIII .
+lex:Del2020\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - constantes do subanexo Ministério da Previdência e Assistência Social - Contribuição da União para o Fundo de Liquidez da Previdência Social;" .
+lex:Del2020\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:Del2020\/Artigo1    lex:temInciso    lex:Del2020\/Artigo1\/IncisoXIV .
+lex:Del2020\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - à conta de Contribuição a Fundos - parcela incluída no orçamento próprio aprovado e destinada às despesas de pessoal e encargos sociais." .
+lex:Del2020\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2020    lex:temArtigo    lex:Del2020\/Artigo2 .
+lex:Del2020\/Artigo2    lex:temConteudo    "Art. 2º - O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2020\/Artigo1\/IncisoXII    lex:remetePara    lex:Del1981\/Artigo1 .

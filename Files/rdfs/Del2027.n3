@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2027    lex:ehUm    lex:DocLegal .
+lex:Del2027    lex:temTextoIntegral    lex:HTMLs\/Del2027.htm .
+lex:Del2027\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2027    lex:temArtigo    lex:Del2027\/Artigo2 .
+lex:Del2027\/Artigo2    lex:temConteudo    "Art 2º Os resultados obtidos mensalmente por pessoas jurídicas financeiras em suas operações com títulos no mercado aberto ficam sujeitos ao recolhimento antecipado do imposto de renda à alíquota de 4% (quatro por cento)." .
+lex:Del2027\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2027\/Artigo2    lex:temParagrafo    lex:Del2027\/Artigo2\/ParagrafoUnico .
+lex:Del2027\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para os efeitos deste artigo, equiparam-se às pessoas jurídicas financeiras as sociedades corretoras e as sociedades distribuidoras de títulos e valores mobiliários." .
+lex:Del2027\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2027    lex:temArtigo    lex:Del2027\/Artigo3 .
+lex:Del2027\/Artigo3    lex:temConteudo    "Art 3º O Conselho Monetário Nacional poderá aumentar de até 50% (cinqüenta por cento) ou reduzir o percentual previsto nos artigos 1º e 2º deste Decreto-lei." .
+lex:Del2027\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2027    lex:temArtigo    lex:Del2027\/Artigo4 .
+lex:Del2027\/Artigo4    lex:temConteudo    "Art 4º Este Decreto-lei entrará em vigor no dia 1º de julho de 1983, quando ficarão revogados os parágrafos 4º, 5º e 6º do artigo 3º do Decreto-lei nº 1.494, de 7 de dezembro de 1976, com a redação dada pelo artigo 13 do Decreto-lei nº 1.642, de 7 de dezembro de 1978." .
+lex:Del2027\/Artigo1    lex:remetePara    lex:Del1494-76\/Artigo3 .
+lex:Del2027\/Artigo1    lex:remetePara    lex:Del2064\/Artigo1 .
+lex:Del2027\/Artigo1    lex:remetePara    lex:Del2065\/Artigo1 .
+lex:Del2027\/Artigo1    lex:revogadoPor    lex:Del2394\/Artigo1 .
+lex:Del2394\/Artigo1    lex:revogou    lex:Del2027\/Artigo1 .
+lex:Del2027\/Paragrafo1    lex:revogadoPor    lex:Del2394\/Artigo1 .
+lex:Del2394\/Artigo1    lex:revogou    lex:Del2027\/Paragrafo1 .
+lex:Del2027\/Paragrafo2    lex:revogadoPor    lex:Del2394\/Artigo1 .
+lex:Del2394\/Artigo1    lex:revogou    lex:Del2027\/Paragrafo2 .
+lex:Del2027\/Artigo4    lex:remetePara    lex:Del1494-76\/Artigo3\/Paragrafo4 .

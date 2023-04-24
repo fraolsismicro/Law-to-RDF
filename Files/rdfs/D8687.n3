@@ -1,0 +1,72 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8687    lex:ehUm    lex:DocLegal .
+lex:D8687    lex:temTextoIntegral    lex:HTMLs\/D8687.htm .
+lex:D8687\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo1 .
+lex:D8687\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos cargos em comissão e das funções de confiança do Ministério dos Transportes, na forma dos Anexos I e II." .
+lex:D8687\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo2 .
+lex:D8687\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8687\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8687\/Artigo2    lex:temInciso    lex:D8687\/Artigo2\/IncisoI .
+lex:D8687\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério dos Transportes para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.5;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temConteudo    "c) quatro DAS 101.4;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temConteudo    "d) um DAS 102.4;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "e) três DAS 101.3;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze    lex:temConteudo    "f) doze DAS 101.2;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis    lex:temConteudo    "g) seis DAS 102.2;" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito    lex:temConteudo    "h) dezoito DAS 101.1; e" .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito\/IncisoAlineaDez    lex:ehUm    lex:IncisoAlinea .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito    lex:temIncisoAlinea    lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito\/IncisoAlineaDez .
+lex:D8687\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaDoze\/IncisoAlineaSeis\/IncisoAlineaDezoito\/IncisoAlineaDez    lex:temConteudo    "i) dez DAS 102.1; e" .
+lex:D8687\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8687\/Artigo2    lex:temInciso    lex:D8687\/Artigo2\/IncisoII .
+lex:D8687\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para o Ministério dos Transportes: um DAS 102.3." .
+lex:D8687\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo3 .
+lex:D8687\/Artigo3    lex:temConteudo    "Art. 3o  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do Ministério dos Transportes por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D8687\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo4 .
+lex:D8687\/Artigo4    lex:temConteudo    "Art. 4o  Os apostilamentos decorrentes da aprovação desta Estrutura Regimental deverão ocorrer até a data de entrada em vigor deste Decreto." .
+lex:D8687\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8687\/Artigo4    lex:temParagrafo    lex:D8687\/Artigo4\/ParagrafoUnico .
+lex:D8687\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado dos Transportes fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis." .
+lex:D8687\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo5 .
+lex:D8687\/Artigo5    lex:temConteudo    "Art. 5o  O Ministro de Estado dos Transportes poderá editar regimentos internos para detalhar a estrutura dos órgãos, as competências das suas unidades e as atribuições de seus dirigentes." .
+lex:D8687\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo6 .
+lex:D8687\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor no dia 30 de março de 2016." .
+lex:D8687\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8687    lex:temArtigo    lex:D8687\/Artigo7 .
+lex:D8687\/Artigo7    lex:temConteudo    "Art. 7o  Fica revogado o Decreto no 7.717, de 4 de abril de 2012." .
+lex:D8687\/Texto    lex:revogadoPor    lex:D9000\/Artigo20 .
+lex:D9000\/Artigo20    lex:revogou    lex:D8687\/Texto .
+lex:D8687\/Texto    lex:remetePara    lex:D9000\/Artigo21 .
+lex:D8687\/Texto    lex:remetePara    lex:D8687 .
+lex:D8687\/Artigo7    lex:remetePara    lex:D7717 .

@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8158    lex:ehUm    lex:DocLegal .
+lex:D8158    lex:temTextoIntegral    lex:HTMLs\/D8158.htm .
+lex:D8158\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8158    lex:temArtigo    lex:D8158\/Artigo1 .
+lex:D8158\/Artigo1    lex:temConteudo    "Art. 1o Este Decreto regulamenta os critérios e procedimentos para a progressão funcional e promoção dos servidores ocupantes de cargos de provimento efetivo da Carreira de Especialista em Meio Ambiente, de que trata a Lei no 10.410, de 11 de janeiro de 2002." .
+lex:D8158\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8158\/Artigo1    lex:temInciso    lex:D8158\/Artigo1\/IncisoI .
+lex:D8158\/Artigo1\/IncisoI    lex:temConteudo    "I - progressão funcional - a passagem do servidor para o padrão de vencimento básico imediatamente superior dentro de uma mesma classe; e" .
+lex:D8158\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8158\/Artigo1    lex:temInciso    lex:D8158\/Artigo1\/IncisoII .
+lex:D8158\/Artigo1\/IncisoII    lex:temConteudo    "II - promoção - a passagem do servidor do último padrão de uma classe para o primeiro padrão da classe imediatamente superior." .
+lex:D8158\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8158    lex:temArtigo    lex:D8158\/Artigo3 .
+lex:D8158\/Artigo3    lex:temConteudo    "Art. 3o A movimentação do servidor na Carreira de Especialista em Meio Ambiente observará as seguintes regras:" .
+lex:D8158\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8158\/Artigo3    lex:temInciso    lex:D8158\/Artigo3\/IncisoI .
+lex:D8158\/Artigo3\/IncisoI    lex:temConteudo    "I - para a progressão funcional:" .
+lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor    lex:ehUm    lex:IncisoAlinea .
+lex:D8158\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor .
+lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor    lex:temConteudo    "a) por merecimento:" .
+lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor\/IncisoAlineaPor    lex:ehUm    lex:IncisoAlinea .
+lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor    lex:temIncisoAlinea    lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor\/IncisoAlineaPor .
+lex:D8158\/Artigo3\/IncisoI\/IncisoAlineaPor\/IncisoAlineaPor    lex:temConteudo    "b) por antiguidade, sempre que, no interregno de três avaliações de desempenho subsequentes, não forem obtidos os índices exigidos para a progressão funcional por merecimento; e" .
+lex:D8158\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8158\/Artigo3    lex:temInciso    lex:D8158\/Artigo3\/IncisoII .
+lex:D8158\/Artigo3\/IncisoII    lex:temConteudo    "II - para a promoção:" .
+lex:D8158\/Artigo3\/IncisoII\/IncisoAlineaParticipacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8158\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D8158\/Artigo3\/IncisoII\/IncisoAlineaParticipacao .
+lex:D8158\/Artigo3\/IncisoII\/IncisoAlineaParticipacao    lex:temConteudo    "c) participação em eventos de capacitação com conteúdo e carga horária mínima estabelecidos na forma do Anexo." .
+lex:D8158\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8158\/Artigo3    lex:temParagrafo    lex:D8158\/Artigo3\/Paragrafo2 .
+lex:D8158\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o Ao servidor ocupante de cargo de Natureza Especial ou em comissão do Grupo-Direção e Assessoramento Superiores - DAS níveis 4, 5, ou 6 ou equivalentes aplica-se, para fins de progressão funcional e promoção, somente o disposto no item 1 da alínea a do inciso I e nas alíneas a e c do inciso II do caput." .
+lex:D8158\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D8158    lex:temArtigo    lex:D8158\/Artigo10 .
+lex:D8158\/Artigo10    lex:temConteudo    "Art. 10.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8158\/Texto    lex:remetePara    lex:D8158 .
+lex:D8158\/Artigo1    lex:remetePara    lex:L10410 .
+lex:D8158\/Artigo3\/Artigo4    lex:remetePara    lex:L8112cons .
+lex:D8158\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D5707 .
+lex:D8158\/Artigo3\/Artigo6    lex:remetePara    lex:L8112cons .

@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D80022    lex:ehUm    lex:DocLegal .
+lex:D80022    lex:temTextoIntegral    lex:HTMLs\/D80022.htm .
+lex:D80022\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D80022    lex:temArtigo    lex:D80022\/Artigo1 .
+lex:D80022\/Artigo1    lex:temConteudo    "Art 1º - Os artigos 14, letras ' d', 'g', 'i' e 'm' , 15   caput , e 16, letras 'a' e 'd' , do Estatuto do Hospital de Clínicas de Porto Alegre, aprovado pelo Decreto nº 68.930, de 16 de julho de 1971, passam a ter a seguinte redação:" .
+lex:D80022\/Artigo1\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo1    lex:temAlinea    lex:D80022\/Artigo1\/AlineaUm .
+lex:D80022\/Artigo1\/AlineaUm    lex:temConteudo    "d) um representante da Pró-Reitoria de Planejamento da UFRGS:" .
+lex:D80022\/Artigo1\/AlineaUm\/Item    lex:ehUm    lex:Item .
+lex:D80022\/Artigo1\/AlineaUm    lex:temItem    lex:D80022\/Artigo1\/AlineaUm\/Item .
+lex:D80022\/Artigo1\/AlineaUm\/Item    lex:temConteudo    "....................................................... ............................................" .
+lex:D80022\/Artigo1\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo1    lex:temAlinea    lex:D80022\/Artigo1\/AlineaO .
+lex:D80022\/Artigo1\/AlineaO    lex:temConteudo    "g) o Pró-Reitor de Administração da UFRGS;" .
+lex:D80022\/Artigo1\/AlineaO\/Item    lex:ehUm    lex:Item .
+lex:D80022\/Artigo1\/AlineaO    lex:temItem    lex:D80022\/Artigo1\/AlineaO\/Item .
+lex:D80022\/Artigo1\/AlineaO\/Item    lex:temConteudo    ".......................... ............................ ............................................" .
+lex:D80022\/Artigo1\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo1    lex:temAlinea    lex:D80022\/Artigo1\/AlineaUm .
+lex:D80022\/Artigo1\/AlineaUm    lex:temConteudo    "i) um representante da Secretaria de Planejamento da Presidência da República." .
+lex:D80022\/Artigo1\/AlineaUm\/Item    lex:ehUm    lex:Item .
+lex:D80022\/Artigo1\/AlineaUm    lex:temItem    lex:D80022\/Artigo1\/AlineaUm\/Item .
+lex:D80022\/Artigo1\/AlineaUm\/Item    lex:temConteudo    "..................................... ........................... .................................." .
+lex:D80022\/Artigo1\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo1    lex:temAlinea    lex:D80022\/Artigo1\/AlineaUm .
+lex:D80022\/Artigo1\/AlineaUm    lex:temConteudo    "m) um representante do Instituto Nacional de Previdência Social." .
+lex:D80022\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D80022    lex:temArtigo    lex:D80022\/Artigo15 .
+lex:D80022\/Artigo15    lex:temConteudo    "Art. 15   O Presidente da Empresa, o Vice-Reitor da UFRGS, o Diretor da Faculdade de Medicina da UFRGS e o Pró-Reitor de Administração da UFRGS são membros natos do Conselho Diretor." .
+lex:D80022\/Artigo15\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo15    lex:temAlinea    lex:D80022\/Artigo15\/AlineaOs .
+lex:D80022\/Artigo15\/AlineaOs    lex:temConteudo    "a) os representantes referidos nas alíneas 'h', 'i', 'j', 'l' e 'm ', do artigo 14, serão designados pelo respectivo Ministro de Estado." .
+lex:D80022\/Artigo15\/AlineaOs\/Item    lex:ehUm    lex:Item .
+lex:D80022\/Artigo15\/AlineaOs    lex:temItem    lex:D80022\/Artigo15\/AlineaOs\/Item .
+lex:D80022\/Artigo15\/AlineaOs\/Item    lex:temConteudo    "............................. .................................... .................................." .
+lex:D80022\/Artigo15\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D80022\/Artigo15    lex:temAlinea    lex:D80022\/Artigo15\/AlineaO .
+lex:D80022\/Artigo15\/AlineaO    lex:temConteudo    "d) o representante da Pró-Reitoria de Planejamento será designado pelo Reitor'." .
+lex:D80022\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D80022    lex:temArtigo    lex:D80022\/Artigo2 .
+lex:D80022\/Artigo2    lex:temConteudo    "Art 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D80022\/Artigo1\/AlineaUm    lex:remetePara    lex:D68930\/Artigo14 .
+lex:D80022\/Artigo1\/AlineaO    lex:remetePara    lex:D68930\/Artigo14 .
+lex:D80022\/Artigo1\/AlineaUm    lex:remetePara    lex:D68930\/Artigo14 .
+lex:D80022\/Artigo1\/AlineaUm    lex:remetePara    lex:D68930\/Artigo14 .
+lex:D80022\/Artigo15    lex:remetePara    lex:D68930\/Artigo15 .
+lex:D80022\/Artigo15\/AlineaOs    lex:remetePara    lex:D68930\/Artigo16 .
+lex:D80022\/Artigo15\/AlineaO    lex:remetePara    lex:D68930\/Artigo16 .

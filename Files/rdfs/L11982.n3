@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11982    lex:ehUm    lex:DocLegal .
+lex:L11982    lex:temTextoIntegral    lex:HTMLs\/L11982.htm .
+lex:L11982\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11982    lex:temArtigo    lex:L11982\/Artigo1 .
+lex:L11982\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei acrescenta parágrafo único ao art. 4o da Lei no 10.098, de 19 de dezembro de 2000, para determinar a adaptação de parte dos brinquedos e equipamentos dos parques de diversões às necessidades das pessoas portadoras de deficiência ou com mobilidade reduzida." .
+lex:L11982\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11982    lex:temArtigo    lex:L11982\/Artigo2 .
+lex:L11982\/Artigo2    lex:temConteudo    "Art. 2o  O art. 4o da Lei no 10.098, de 19 de dezembro de 2000, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L11982\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11982\/Artigo2    lex:temParagrafo    lex:L11982\/Artigo2\/ParagrafoUnico .
+lex:L11982\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os parques de diversões, públicos e privados, devem adaptar, no mínimo, 5% (cinco por cento) de cada brinquedo e equipamento e identificá-lo para possibilitar sua utilização por pessoas com deficiência ou com mobilidade reduzida, tanto quanto tecnicamente possível. (NR)" .
+lex:L11982\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11982    lex:temArtigo    lex:L11982\/Artigo3 .
+lex:L11982\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11982\/Artigo2    lex:remetePara    lex:L10098 .
+lex:L11982\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L10098\/Artigo4\/Paragrafop .

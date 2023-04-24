@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5776    lex:ehUm    lex:DocLegal .
+lex:L5776    lex:temTextoIntegral    lex:HTMLs\/L5776.htm .
+lex:L5776\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5776    lex:temArtigo    lex:L5776\/Artigo1 .
+lex:L5776\/Artigo1    lex:temConteudo    "Art. 1º É concedido aos servidores do Senado Federal, ativos e inativos, a partir de 1 de março de 1972, aumento de vencimentos ou proventos, em montante idêntico aos valores absolutos concedidos aos funcionários civis do Poder Executivo, ativos ou inativos, pelo decreto-lei número 1.202, de 17 de janeiro de 1972, de acordo com os critérios e correspondências fixados nos artigos 1º - 2º -3º e 6º da Lei nº 5.676, de 12 de julho de 1971." .
+lex:L5776\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5776    lex:temArtigo    lex:L5776\/Artigo2 .
+lex:L5776\/Artigo2    lex:temConteudo    "Art. 2º As despesas decorrentes da execução desta Lei correrão à conta de recursos orçamentários consignados ao Senado Federal, inclusive na forma prevista do artigo 6º da Lei nº 5.754, de 3 de dezembro de 1971, que estima a Receita e fixa a despesa da União para o exercício financeiro de 1972." .
+lex:L5776\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5776    lex:temArtigo    lex:L5776\/Artigo3 .
+lex:L5776\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5776\/Artigo1    lex:remetePara    lex:Del1202 .
+lex:L5776\/Artigo1    lex:remetePara    lex:L5676\/Artigo1 .
+lex:L5776\/Artigo1    lex:remetePara    lex:L5676\/Artigo6 .
+lex:L5776\/Artigo2    lex:remetePara    lex:L5754\/Artigo6 .

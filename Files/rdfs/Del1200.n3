@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1200    lex:ehUm    lex:DocLegal .
+lex:Del1200    lex:temTextoIntegral    lex:HTMLs\/Del1200.htm .
+lex:Del1200\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1200    lex:temArtigo    lex:Del1200\/Artigo1 .
+lex:Del1200\/Artigo1    lex:temConteudo    "Art. 1º É instituído programa especial de assistência financeira ao setor da borracha vegetal da Amazônia." .
+lex:Del1200\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1200\/Artigo1    lex:temParagrafo    lex:Del1200\/Artigo1\/ParagrafoUnico .
+lex:Del1200\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Compete ao Banco da Amazônia S.A. executar êsse programa, observadas as normas legais que regulam a matéria." .
+lex:Del1200\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1200    lex:temArtigo    lex:Del1200\/Artigo2 .
+lex:Del1200\/Artigo2    lex:temConteudo    "Art. 2º Os recursos financeiros destinados à execução do programa serão os excedentes gerados pela comercialização de borracha e látices vegetais importados pela Superintendência da Borracha com o objetivo de formação do estoque de reserva de que trata o artigo 15 da Lei nº 5.227, de 18 de janeiro de 1967, alterando pelo artigo 1º da Lei nº 5.459, de 21 de junho de 1968." .
+lex:Del1200\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1200\/Artigo2    lex:temParagrafo    lex:Del1200\/Artigo2\/ParagrafoUnico .
+lex:Del1200\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O estoque de reserva mencionado neste artigo é fixado em nível equivalente a oito meses de consumo de borracha vegetal importada, para cujo cálculo se tomará como base a média verificada durante os doze meses imediatamente anteriores." .
+lex:Del1200\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1200    lex:temArtigo    lex:Del1200\/Artigo3 .
+lex:Del1200\/Artigo3    lex:temConteudo    "Art. 3º Os recursos mencionados no artigo 2º, após dedução dos gastos de armazenagem e movimentação do estoque de reserva, serão transferidos pela Superintendência da Borracha ao Banco da Amazônia S.A. mediante convênio." .
+lex:Del1200\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1200\/Artigo3    lex:temParagrafo    lex:Del1200\/Artigo3\/ParagrafoUnico .
+lex:Del1200\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. O referido convênio estabelecerá a transferência de armazéns de propriedade do Banco da Amazônia S.A. à Superintendência da Borracha, para a guarda do estoque de reserva, e disporá sôbre a prestação de serviços relativos às operações de importação, comercializacão e classificação de borracha vegetal." .
+lex:Del1200\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1200    lex:temArtigo    lex:Del1200\/Artigo4 .
+lex:Del1200\/Artigo4    lex:temConteudo    "Art. 4º O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1200\/Artigo2    lex:remetePara    lex:L5227\/Artigo15 .
+lex:Del1200\/Artigo2    lex:remetePara    lex:L5459\/Artigo1 .

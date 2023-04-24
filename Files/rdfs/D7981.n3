@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7981    lex:ehUm    lex:DocLegal .
+lex:D7981    lex:temTextoIntegral    lex:HTMLs\/D7981.htm .
+lex:D7981\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7981    lex:temArtigo    lex:D7981\/Artigo1 .
+lex:D7981\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 5.602, de 6 de dezembro de 2005, passa a vigorar com as seguintes alterações:" .
+lex:D7981\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D7981\/Artigo1    lex:temInciso    lex:D7981\/Artigo1\/IncisoVII .
+lex:D7981\/Artigo1\/IncisoVII    lex:temConteudo    "VII - telefones portáteis de redes celulares que possibilitem o acesso à Internet em alta velocidade do tipo smartphone classificados na posição 8517.12.31 da TIPI, que obedeçam aos requisitos técnicos constantes de ato do Ministro de Estado das Comunicações; e" .
+lex:D7981\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D7981\/Artigo1    lex:temInciso    lex:D7981\/Artigo1\/IncisoVIII .
+lex:D7981\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - equipamentos terminais de clientes (roteadores digitais) classificados nas posições 8517.62.41 e 8517.62.77 da TIPI." .
+lex:D7981\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7981\/Artigo1    lex:temInciso    lex:D7981\/Artigo1\/IncisoV .
+lex:D7981\/Artigo1\/IncisoV    lex:temConteudo    "V - R$ 200,00 (duzentos reais), no caso do inciso V do caput do art. 1 º;" .
+lex:D7981\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D7981\/Artigo1    lex:temInciso    lex:D7981\/Artigo1\/IncisoVII .
+lex:D7981\/Artigo1\/IncisoVII    lex:temConteudo    "VII - R$ 1.500,00 (mil e quinhentos reais), no caso do inciso VII do caput do art. 1 º; e" .
+lex:D7981\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D7981\/Artigo1    lex:temInciso    lex:D7981\/Artigo1\/IncisoVIII .
+lex:D7981\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - R$ 150,00 (cento e cinquenta reais), no caso do inciso VIII do caput do art. 1 º. (NR)" .
+lex:D7981\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7981\/Artigo1    lex:temParagrafo    lex:D7981\/Artigo1\/Paragrafo1 .
+lex:D7981\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Para os fins do disposto no caput, consideram-se desenvolvidos no País os bens que obtiveram o reconhecimento desta condição conforme ato do Ministro de Estado da Ciência, Tecnologia e Inovação." .
+lex:D7981\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7981\/Artigo1    lex:temParagrafo    lex:D7981\/Artigo1\/Paragrafo2 .
+lex:D7981\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  Nas notas fiscais emitidas pelo produtor, pelo atacadista e pelo varejista relativas às vendas dos produtos de que trata o caput, deverá constar a expressão Produto fabricado conforme processo produtivo básico e com tecnologia desenvolvida no País, acompanhada da especificação do ato que aprova o processo produtivo básico e do ato que reconhece o desenvolvimento tecnológico correspondente. (NR)" .
+lex:D7981\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7981    lex:temArtigo    lex:D7981\/Artigo2 .
+lex:D7981\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7981\/Artigo1    lex:remetePara    lex:D5602 .
+lex:D7981\/Artigo1\/IncisoVII    lex:remetePara    lex:D5602\/Artigo1 .
+lex:D7981\/Artigo1\/IncisoV    lex:remetePara    lex:D5602\/Artigo2 .
+lex:D7981\/Artigo1\/IncisoVII    lex:remetePara    lex:D5602\/Artigo2 .
+lex:D7981\/Artigo1\/Texto00006    lex:remetePara    lex:D5602\/Artigo2 .
+lex:D7981\/Artigo1\/Texto00006    lex:remetePara    lex:D5602\/Artigo2 .

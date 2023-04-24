@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1408    lex:ehUm    lex:DocLegal .
+lex:L1408    lex:temTextoIntegral    lex:HTMLs\/L1408.htm .
+lex:L1408\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo1 .
+lex:L1408\/Artigo1    lex:temConteudo    "Art. 1º Sempre que, por motivo de ordem pública, se fizer necessário o fechamento do Fôro, de edifícios anexos ou de quaisquer dependências do serviço judiciário ou o respectivo expediente tiver de ser encerrado antes da hora legal, observar-se-á o seguinte:" .
+lex:L1408\/Artigo1\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:L1408\/Artigo1    lex:temAlinea    lex:L1408\/Artigo1\/AlineaOs .
+lex:L1408\/Artigo1\/AlineaOs    lex:temConteudo    "a) os prazos serão restituídos aos interessados na medida que houverem sido atingidos pela providência tomada;" .
+lex:L1408\/Artigo1\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:L1408\/Artigo1    lex:temAlinea    lex:L1408\/Artigo1\/AlineaAs .
+lex:L1408\/Artigo1\/AlineaAs    lex:temConteudo    "b) as audiências, que ficarem prejudicadas, serão realizadas em outro dia mediante designação da autoridade competente." .
+lex:L1408\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo2 .
+lex:L1408\/Artigo2    lex:temConteudo    "Art. 2º O fechamento extraordinário do Fôro e dos edifícios anexos e as demais medidas, e que se refere o Art. 1º, poderão ser determinados pelo Presidente dos Tribunais de Justiça, nas Comarcas onde êsses tribunais tiverem a sede e pelos juízes de Direito nas respectivas Comarcas." .
+lex:L1408\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo3 .
+lex:L1408\/Artigo3    lex:temConteudo    "Art. 3º Os prazos judiciais que se iniciarem ou vencerem aos sábados serão prorrogados por um dia útil.         (Redação dada pela Lei nº 4.674, de 1965)" .
+lex:L1408\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo4 .
+lex:L1408\/Artigo4    lex:temConteudo    "Art. 4º Se o jornal, que divulgar o expediente oficial do Fôro, se publicar à tarde, serão dilatados de um dia os prazos que devam correr de sua inserção nessa fôlha e feitas, na véspera da realização do ato oficial, as publicações que devam ser efetuadas no dia fixado para êsse ato." .
+lex:L1408\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo5 .
+lex:L1408\/Artigo5    lex:temConteudo    "Art. 5º Não haverá expediente no Fôro e nos ofícios de justiça, no Dia da Justiça, nos feriados nacionais, na têrca-feira de Carnaval, na Sexta-feira Santa, e nos dias que a Lei estadual designar." .
+lex:L1408\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1408\/Artigo5    lex:temParagrafo    lex:L1408\/Artigo5\/ParagrafoUnico .
+lex:L1408\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os casamentos e ato de registro civil serão realizados em qualquer dia." .
+lex:L1408\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L1408    lex:temArtigo    lex:L1408\/Artigo6 .
+lex:L1408\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L1408\/Artigo3    lex:remetePara    lex:L4674\/Artigo1 .

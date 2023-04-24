@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1234    lex:ehUm    lex:DocLegal .
+lex:L1234    lex:temTextoIntegral    lex:HTMLs\/L1234.htm .
+lex:L1234\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo1 .
+lex:L1234\/Artigo1    lex:temConteudo    "Art. 1º Todos os servidores da União, civis e militares, e os empregados de entidades paraestatais de natureza autárquica, que operam diretamente com Raios X e substâncias radioativas, próximo às fontes de irradiação, terão direito a:" .
+lex:L1234\/Artigo1\/AlineaRegime    lex:ehUm    lex:Alinea .
+lex:L1234\/Artigo1    lex:temAlinea    lex:L1234\/Artigo1\/AlineaRegime .
+lex:L1234\/Artigo1\/AlineaRegime    lex:temConteudo    "a) regime máximo de vinte e quatro horas semanais de trabalho;" .
+lex:L1234\/Artigo1\/AlineaFerias    lex:ehUm    lex:Alinea .
+lex:L1234\/Artigo1    lex:temAlinea    lex:L1234\/Artigo1\/AlineaFerias .
+lex:L1234\/Artigo1\/AlineaFerias    lex:temConteudo    "b) férias de vinte dias consecutivos, por semestre de atividade profissional, não acumuláveis;" .
+lex:L1234\/Artigo1\/AlineaGratificacao    lex:ehUm    lex:Alinea .
+lex:L1234\/Artigo1    lex:temAlinea    lex:L1234\/Artigo1\/AlineaGratificacao .
+lex:L1234\/Artigo1\/AlineaGratificacao    lex:temConteudo    "c) gratificação adicional de 40% (quarenta por cento) do vencimento." .
+lex:L1234\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo2 .
+lex:L1234\/Artigo2    lex:temConteudo    "Art. 2º Os Serviços e Divisões do Pessoal manterão atualizadas as relações nominais dos servidores beneficiados por esta Lei e indicarão os respectivos cargos, ou funções, lotação e local de trabalho, relações essas que serão submetidas à aprovação do Departamento Nacional de Saúde, do Ministério da Educação e Saúde." .
+lex:L1234\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo3 .
+lex:L1234\/Artigo3    lex:temConteudo    "Art. 3º Os chefes de repartição ou serviço determinarão o afastamento imediato do trabalho de todo o servidor que apresente indícios de lesões radiológicas, orgânicas, ou funcionais e poderão atribuir-lhes, conforme o caso, tarefas sem risco de irradiação, ou a concessão ex-offício, de licença para tratamento de saúde, na forma da legislação vigente." .
+lex:L1234\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo4 .
+lex:L1234\/Artigo4    lex:temConteudo    "Art. 4º Não serão abrangidos por esta Lei:" .
+lex:L1234\/Artigo4\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:L1234\/Artigo4    lex:temAlinea    lex:L1234\/Artigo4\/AlineaOs .
+lex:L1234\/Artigo4\/AlineaOs    lex:temConteudo    "a) os servidores da União, que, no exercício de tarefas acessórias, ou auxiliares, fiquem expostos às irradiações, apenas em caráter esporádico e ocasional;" .
+lex:L1234\/Artigo4\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:L1234\/Artigo4    lex:temAlinea    lex:L1234\/Artigo4\/AlineaOs .
+lex:L1234\/Artigo4\/AlineaOs    lex:temConteudo    "b) os servidores da União, que, embora enquadrados no disposto no artigo 1º desta Lei, estejam afastados por quaisquer motivos do exercício de suas atribuições, salvo nas casos de licença para tratamento de saúde e licença a gestante, ou comprovada a existência de moléstia adquirida no exercício de funções anteriormente exercidas, de acôrdo com o art. 1º citado." .
+lex:L1234\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo5 .
+lex:L1234\/Artigo5    lex:temConteudo    "Art. 5º As instalações oficiais e paraestatais de Raios X e substâncias radioativas sofrerão revisão semestral, nos têrmos da regulamentação a ser baixada." .
+lex:L1234\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo6 .
+lex:L1234\/Artigo6    lex:temConteudo    "Art. 6º O poder Executivo regulamentará a presente Lei dentro no prazo de 60 (sessenta) dias e estabelecerá as medidas de higiene e segurança no trabalho, necessárias à proteção do pessoal que manipular Raios X e substâncias radioativas, contra acidentes e doenças profissionais e reverá, anualmente as tabelas de proteção." .
+lex:L1234\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L1234    lex:temArtigo    lex:L1234\/Artigo7 .
+lex:L1234\/Artigo7    lex:temConteudo    "Art. 7º Esta Lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:L1234\/Texto    lex:regulamentadoPor    lex:D81384 .
+lex:D81384    lex:regulamenta    lex:L1234\/Texto .
+lex:L1234\/Texto    lex:remetePara    lex:D81384 .

@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4061    lex:ehUm    lex:DocLegal .
+lex:L4061    lex:temTextoIntegral    lex:HTMLs\/L4061.htm .
+lex:L4061\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo1 .
+lex:L4061\/Artigo1    lex:temConteudo    "Art. 1º - O art. 1º da Lei nº 3.205, de 15 de julho de 1957, passa a ter a seguinte redação:" .
+lex:L4061\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4061\/Artigo1    lex:temParagrafo    lex:L4061\/Artigo1\/ParagrafoUnico .
+lex:L4061\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os Tesoureiros, cargo em Comissão, serão obrigatòriamente Tesoureiros-Auxiliares, efetivos, do Quadro Permanente respectivo, e nenhuma tesouraria poderá funcionar sem o seu titular O Tesoureiro." .
+lex:L4061\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo2 .
+lex:L4061\/Artigo2    lex:temConteudo    "Art. 2º - O Auxílio para diferença de Caixa de que trata o art. 137 da Lei nº 1.711, de 1952, passa a ser de 10% (dez por cento) dos vencimentos recebidos pelos Tesoureiros e Tesoureiros-Auxiliares." .
+lex:L4061\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo3 .
+lex:L4061\/Artigo3    lex:temConteudo    "Art. 3º - Esta lei se aplica, de igual modo, a todos os cargos de Tesoureiro, Conferente e Conferente de Valores da Administração centralizada ou autárquica do Poder Executivo Federal, inclusive aos classificados pela Lei nº 3.780, de 12 de julho de 1960." .
+lex:L4061\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo4 .
+lex:L4061\/Artigo4    lex:temConteudo    "Art. 4º - Os cargos de Conferente do Ministério da Fazenda - lotação da Caixa de Amortização e da Casa da Moeda passam a denominar-se Conferentes de Valores." .
+lex:L4061\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4061\/Artigo4    lex:temParagrafo    lex:L4061\/Artigo4\/ParagrafoUnico .
+lex:L4061\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os cargos ocupados pelos Conferentes e Conferentes de Valores, integrados na parte Suplementar do Quadro do Pessoal do Ministério da Fazenda - lotação da Caixa de Amortização e da Casa da Moeda - passam a compor o Quadro Permanente do mesmo Ministério." .
+lex:L4061\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo5 .
+lex:L4061\/Artigo5    lex:temConteudo    "Art. 5º São extensivos aos atuais Tesoureiros-Auxiliares, Conferentes e Conferentes de Valores, interinos substitutos, os benefícios do art. 3º da Lei número 3.205, de 15 de julho de 1957." .
+lex:L4061\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo6 .
+lex:L4061\/Artigo6    lex:temConteudo    "Art. 6º - Vetado." .
+lex:L4061\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L4061    lex:temArtigo    lex:L4061\/Artigo7 .
+lex:L4061\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:L4061\/Artigo1    lex:remetePara    lex:L3205 .
+lex:L4061\/Texto00001    lex:remetePara    lex:L3205\/Artigo1 .
+lex:L4061\/Artigo2    lex:remetePara    lex:L1711\/Artigo137 .
+lex:L4061\/Artigo3    lex:remetePara    lex:L3780 .
+lex:L4061\/Artigo5    lex:remetePara    lex:L3205\/Artigo3 .

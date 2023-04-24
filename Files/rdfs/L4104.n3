@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4104    lex:ehUm    lex:DocLegal .
+lex:L4104    lex:temTextoIntegral    lex:HTMLs\/L4104.htm .
+lex:L4104\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4104    lex:temArtigo    lex:L4104\/Artigo1 .
+lex:L4104\/Artigo1    lex:temConteudo    "Art. 1º As disposições contidas na Lei n.º 4.015, de 16 de dezembro de 1961, sòmente se aplicam aos sargentos que na data da publicação da presente lei, já contem com mais de cinco anos de praça." .
+lex:L4104\/Artigo24    lex:ehUm    lex:Artigo .
+lex:L4104    lex:temArtigo    lex:L4104\/Artigo24 .
+lex:L4104\/Artigo24    lex:temConteudo    "Art. 24. Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4104\/Artigo1    lex:remetePara    lex:L4015 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10072    lex:ehUm    lex:DocLegal .
+lex:L10072    lex:temTextoIntegral    lex:HTMLs\/L10072.htm .
+lex:L10072\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10072    lex:temArtigo    lex:L10072\/Artigo1 .
+lex:L10072\/Artigo1    lex:temConteudo    "Art. 1o  Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei no 9.598, de 30 de dezembro de 1997), crédito extraordinário no valor de R$ 68.383.840.000,00 (sessenta e oito bilhões, trezentos e oitenta e três milhões, oitocentos e quarenta mil reais), em favor de Refinanciamento da Dívida Pública Mobiliária Federal - Recursos sob Supervisão do Ministério da Fazenda para atender à programação constante do Anexo desta Medida Provisória." .
+lex:L10072\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10072    lex:temArtigo    lex:L10072\/Artigo2 .
+lex:L10072\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos necessários à execução do disposto no artigo anterior decorrerão da emissão de Títulos de Responsabilidade do Tesouro Nacional - Refinanciamento da Dívida Pública Mobiliária Federal, no montante especificado." .
+lex:L10072\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10072    lex:temArtigo    lex:L10072\/Artigo3 .
+lex:L10072\/Artigo3    lex:temConteudo    "Art. 3o  Ficam convalidados os atos praticados com base na Medida Provisória no 2.032-28, de 24 de outubro de 2000." .
+lex:L10072\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10072    lex:temArtigo    lex:L10072\/Artigo4 .
+lex:L10072\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L10072\/Artigo1    lex:remetePara    lex:L9598 .
+lex:L10072\/Artigo3    lex:remetePara    lex:2032-28 .

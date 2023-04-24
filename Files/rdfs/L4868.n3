@@ -1,0 +1,57 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4868    lex:ehUm    lex:DocLegal .
+lex:L4868    lex:temTextoIntegral    lex:HTMLs\/L4868.htm .
+lex:L4868\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4868    lex:temArtigo    lex:L4868\/Artigo1 .
+lex:L4868\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, ao Poder Judiciário, os créditos suplementares a seguir discriminados:" .
+lex:L4868\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:L4868\/Artigo1    lex:temAlinea    lex:L4868\/Artigo1\/Alinea .
+lex:L4868\/Artigo1\/Alinea    lex:temConteudo    "a)" .
+lex:L4868\/Artigo1\/Alinea\/ItemVencimentos    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemVencimentos .
+lex:L4868\/Artigo1\/Alinea\/ItemVencimentos    lex:temConteudo    "- Vencimentos" .
+lex:L4868\/Artigo1\/Alinea\/ItemDiferenca    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemDiferenca .
+lex:L4868\/Artigo1\/Alinea\/ItemDiferenca    lex:temConteudo    "- Diferença de vencimentos (absorção)" .
+lex:L4868\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:L4868\/Artigo1    lex:temAlinea    lex:L4868\/Artigo1\/Alinea .
+lex:L4868\/Artigo1\/Alinea    lex:temConteudo    "b)" .
+lex:L4868\/Artigo1\/Alinea\/ItemGratificacao    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemGratificacao .
+lex:L4868\/Artigo1\/Alinea\/ItemGratificacao    lex:temConteudo    "- Gratificação adicional por tempo de serviço" .
+lex:L4868\/Artigo1\/Alinea\/ItemTribunal    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemTribunal .
+lex:L4868\/Artigo1\/Alinea\/ItemTribunal    lex:temConteudo    "2. Tribunal Federal de Recursos: crédito suplementar de Cr$ 831.453.770 (oitocentos e trinta e um milhões, quatrocentos e cinqüenta e três mil, setecentos e setenta cruzeiros), destinado ao refôrço da seguinte dotação orçamentária do vigente exercício       (Lei nº 4.539, de 10 de dezembro de 1964):" .
+lex:L4868\/Artigo1\/Alinea\/ItemPoder    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemPoder .
+lex:L4868\/Artigo1\/Alinea\/ItemPoder    lex:temConteudo    "- Poder Judiciário" .
+lex:L4868\/Artigo1\/Alinea\/ItemTribunal    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemTribunal .
+lex:L4868\/Artigo1\/Alinea\/ItemTribunal    lex:temConteudo    "- Tribunal Federal de Recursos" .
+lex:L4868\/Artigo1\/Alinea\/ItemDespesas    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemDespesas .
+lex:L4868\/Artigo1\/Alinea\/ItemDespesas    lex:temConteudo    "- Despesas Correntes" .
+lex:L4868\/Artigo1\/Alinea\/ItemDespesas    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemDespesas .
+lex:L4868\/Artigo1\/Alinea\/ItemDespesas    lex:temConteudo    "- Despesas de Custeio" .
+lex:L4868\/Artigo1\/Alinea\/ItemPessoal    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemPessoal .
+lex:L4868\/Artigo1\/Alinea\/ItemPessoal    lex:temConteudo    "- Pessoal" .
+lex:L4868\/Artigo1\/Alinea\/ItemPessoal    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemPessoal .
+lex:L4868\/Artigo1\/Alinea\/ItemPessoal    lex:temConteudo    "- Pessoal Civil" .
+lex:L4868\/Artigo1\/Alinea\/ItemJustica    lex:ehUm    lex:Item .
+lex:L4868\/Artigo1\/Alinea    lex:temItem    lex:L4868\/Artigo1\/Alinea\/ItemJustica .
+lex:L4868\/Artigo1\/Alinea\/ItemJustica    lex:temConteudo    "3. Justiça de Distrito Federal e dos Territórios: crédito suplementar de Cr$ 487.400.000 (quatrocentos e oitenta e sete milhões e quatrocentos mil cruzeiros), ao Orçamento vigente (Lei nº 4.539, de 10 de dezembro de 1964), para refôrço das seguintes categorias econômicas:" .
+lex:L4868\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4868    lex:temArtigo    lex:L4868\/Artigo2 .
+lex:L4868\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4868\/Artigo1\/Alinea\/ItemTribunal    lex:remetePara    lex:L4539 .
+lex:L4868\/Artigo1\/Alinea\/ItemJustica    lex:remetePara    lex:L4539 .

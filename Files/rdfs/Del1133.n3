@@ -1,0 +1,71 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1133    lex:ehUm    lex:DocLegal .
+lex:Del1133    lex:temTextoIntegral    lex:HTMLs\/Del1133.htm .
+lex:Del1133\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1133    lex:temArtigo    lex:Del1133\/Artigo1 .
+lex:Del1133\/Artigo1    lex:temConteudo    "Art. 1º O inciso I do artigo 5º da Lei nº 4.502, de 30 de novembro de 1964, passa a ter a seguinte redação:" .
+lex:Del1133\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1133\/Artigo1    lex:temInciso    lex:Del1133\/Artigo1\/IncisoI .
+lex:Del1133\/Artigo1\/IncisoI    lex:temConteudo    "I - considera-se saído do estabelecimento industrial ou equiparado a industrial o produto:" .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:Del1133\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue    lex:temConteudo    "a) que fôr vendido por intermédio de ambulantes, armazéns gerais ou outros depositários;" .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue    lex:temIncisoAlinea    lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue    lex:temConteudo    "b) que, antes de entrar em estabelecimento do importador ou do arrematante de produtos de procedências estrangeira, seja, por êstes, remetido a terceiros," .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue    lex:temIncisoAlinea    lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue    lex:temConteudo    "c) que fôr remetido a estabelecimento diferente daquele que o tenha mandado industrializar pôr encomenda sem que o mesmo produto haja entrado no estabelecimento encomendante;" .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue    lex:temIncisoAlinea    lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue .
+lex:Del1133\/Artigo1\/IncisoI\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaQue    lex:temConteudo    "d) que permanecer no estabelecimento decorridos 3 (três) dias da data da emissão da respectiva 'nota fiscal'." .
+lex:Del1133\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1133    lex:temArtigo    lex:Del1133\/Artigo2 .
+lex:Del1133\/Artigo2    lex:temConteudo    "Art. 2º A observação 1ª à Alínea V da Tabela, anexa à Lei nº 4.502, de 30 de novembro de 1964, passa a vigorar com a seguinte redação.   (Vide Lei nº 7.798, de 1989)" .
+lex:Del1133\/Artigo2\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:Del1133\/Artigo2    lex:temAlinea    lex:Del1133\/Artigo2\/AlineaQue .
+lex:Del1133\/Artigo2\/AlineaQue    lex:temConteudo    "a) que sejam debitados na nota fiscal, em parcela destacada, no máximo pelo seu valor de reposição, acrescido de ate 5% (cinco por cento) para cobertura das despesas de cobrança e outras;" .
+lex:Del1133\/Artigo2\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:Del1133\/Artigo2    lex:temAlinea    lex:Del1133\/Artigo2\/AlineaQue .
+lex:Del1133\/Artigo2\/AlineaQue    lex:temConteudo    "b) que o valor de reposição não exceda o preço pelo qual os recipientes e embalagens são normalmente adquiridos dos respectivos fabricantes, ao tempo em que são debitados aos adquirentes das bebidas;" .
+lex:Del1133\/Artigo2\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:Del1133\/Artigo2    lex:temAlinea    lex:Del1133\/Artigo2\/AlineaQue .
+lex:Del1133\/Artigo2\/AlineaQue    lex:temConteudo    "c) que não seja utilizado, pelo sistema de crédito, o imposto sôbre produtos industrializados referentes aos recipientes e embalagens debitados aos adquirentes das bebidas'." .
+lex:Del1133\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1133    lex:temArtigo    lex:Del1133\/Artigo4 .
+lex:Del1133\/Artigo4    lex:temConteudo    "Art. 4º Observado o disposto no artigo 15 da Lei nº 4.502, de 30 de novembro de 1964, o valor tributável dos produtos de procedência estrangeira, referidos no Capítulo 22 da Tabela anexa a mencionada Lei, na saída do estabelecimentos equiparados a industrial, não poderá ainda, ser inferior ao valor que servir de base para o cálculo do impôsto de importação, acrescido dos tributos e demais ônus pagos pelo importador ou arrematante ou dêles exigíveis." .
+lex:Del1133\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1133\/Artigo4    lex:temParagrafo    lex:Del1133\/Artigo4\/ParagrafoUnico .
+lex:Del1133\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Aplica-se, o disposto neste artigo inclusive aos produtos que, antes de entrarem em estabelecimento do importador ou arrematante, sejam, por estes, remetidos a terceiros." .
+lex:Del1133\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1133    lex:temArtigo    lex:Del1133\/Artigo5 .
+lex:Del1133\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1133\/Artigo1\/IncisoI    lex:remetePara    lex:L4502\/Artigo5 .
+lex:Del1133\/Artigo2    lex:remetePara    lex:L7798\/Artigo17 .
+lex:Del1133\/Texto00007    lex:remetePara    lex:L4502\/ .
+lex:Del1133\/Artigo2\/Artigo3    lex:remetePara    lex:L4502\/ .
+lex:Del1133\/Artigo2\/Artigo3    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/Artigo3 .
+lex:Del1133\/Artigo2\/Paragrafo1    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/Paragrafo1 .
+lex:Del1133\/Artigo2\/AlineaRelacionar    lex:remetePara    lex:L4502\/ .
+lex:Del1133\/Artigo2\/AlineaRelacionar    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/AlineaRelacionar .
+lex:Del1133\/Artigo2\/AlineaDistribuir    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/AlineaDistribuir .
+lex:Del1133\/Artigo2\/AlineaEstabelecer    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/AlineaEstabelecer .
+lex:Del1133\/Artigo2\/Paragrafo2    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/Paragrafo2 .
+lex:Del1133\/Artigo2\/Paragrafo3    lex:remetePara    lex:L4502\/Artigo14 .
+lex:Del1133\/Artigo2\/Paragrafo3    lex:remetePara    lex:Del1437\/Artigo5 .
+lex:Del1133\/Artigo2\/Paragrafo3    lex:revogadoPor    lex:Del1593\/Artigo36 .
+lex:Del1593\/Artigo36    lex:revogou    lex:Del1133\/Artigo2\/Paragrafo3 .
+lex:Del1133\/Artigo4    lex:remetePara    lex:L4502\/Artigo15 .

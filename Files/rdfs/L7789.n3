@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7789    lex:ehUm    lex:DocLegal .
+lex:L7789    lex:temTextoIntegral    lex:HTMLs\/L7789.htm .
+lex:L7789\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7789    lex:temParagrafo    lex:L7789\/Paragrafo1 .
+lex:L7789\/Paragrafo1    lex:temConteudo    "§ 1º O salário mínimo do mês de outubro de 1989 será o de setembro de 1989, corrigido na forma do caput deste artigo e acrescido de 12,55%." .
+lex:L7789\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7789    lex:temParagrafo    lex:L7789\/Paragrafo2 .
+lex:L7789\/Paragrafo2    lex:temConteudo    "§ 2º A partir de novembro de 1989, inclusive, e a cada bimestre, o salário mínimo será calculado com base no disposto no caput deste artigo e acrescido de 6,09%." .
+lex:L7789\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo3 .
+lex:L7789\/Artigo3    lex:temConteudo    "Art. 3º Fica vedada a vinculação do salário mínimo para qualquer fim, ressalvados os benefícios de prestação continuada pela Previdência Social." .
+lex:L7789\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo4 .
+lex:L7789\/Artigo4    lex:temConteudo    "Art. 4º O salário mínimo horário é igual ao quociente do valor do salário mínimo de que trata esta Lei por 220 (duzentos e vinte) e o salário mínimo diário, por 30 (trinta)." .
+lex:L7789\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7789\/Artigo4    lex:temParagrafo    lex:L7789\/Artigo4\/ParagrafoUnico .
+lex:L7789\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para os trabalhadores que tenham por disposição legal o máximo de jornada diária de trabalho em menos de 8 (oito) horas, o salário mínimo será igual àquele definido no caput deste artigo, multiplicado por 8 (oito) e dividido por aquele máximo legal." .
+lex:L7789\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo5 .
+lex:L7789\/Artigo5    lex:temConteudo    "Art. 5º A partir da publicação desta Lei, deixa de existir o salário mínimo de referência e o piso nacional de salário, vigorando apenas o salário mínimo." .
+lex:L7789\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo6 .
+lex:L7789\/Artigo6    lex:temConteudo    "Art. 6º Na hipótese de esta Lei ter vigência após a data de 1º de junho de 1989, o valor estabelecido em seu art. 1º será corrigido na forma prevista no art. 2º." .
+lex:L7789\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo7 .
+lex:L7789\/Artigo7    lex:temConteudo    "Art. 7º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7789\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L7789    lex:temArtigo    lex:L7789\/Artigo8 .
+lex:L7789\/Artigo8    lex:temConteudo    "Art. 8º Revogam-se as disposições em contrário." .
+lex:L7789\/Artigo1    lex:remetePara    lex:288\/Artigo3 .
+lex:L7789\/Artigo1    lex:remetePara    lex:288\/Artigo3 .
+lex:L7789\/Artigo1    lex:revogadoPor    lex:L11321\/Artigo3 .
+lex:L11321\/Artigo3    lex:revogou    lex:L7789\/Artigo1 .
+lex:L7789\/Artigo1    lex:remetePara    lex:L11321\/Artigo3 .
+lex:L7789\/Artigo2    lex:revogadoPor    lex:L8030\/Artigo14 .
+lex:L8030\/Artigo14    lex:revogou    lex:L7789\/Artigo2 .

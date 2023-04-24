@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11007    lex:ehUm    lex:DocLegal .
+lex:L11007    lex:temTextoIntegral    lex:HTMLs\/L11007.htm .
+lex:L11007\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11007    lex:temInciso    lex:L11007\/IncisoI .
+lex:L11007\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União de 2003, no valor de R$ 43.745.697,00 (quarenta e três milhões, setecentos e quarenta e cinco mil, seiscentos e noventa e sete reais);" .
+lex:L11007\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11007    lex:temInciso    lex:L11007\/IncisoII .
+lex:L11007\/IncisoII    lex:temConteudo    "II - excesso de arrecadação, inclusive os decorrentes de modificação de fontes, nos termos do art. 62 da Lei no 10.707, de 2003, no valor de R$ 373.157.018,00 (trezentos e setenta e três milhões, cento e cinqüenta e sete mil e dezoito reais), sendo:" .
+lex:L11007\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11007\/IncisoII    lex:temIncisoAlinea    lex:L11007\/IncisoII\/IncisoAlineaRS .
+lex:L11007\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 339.981.459,00 (trezentos e trinta e nove milhões, novecentos e oitenta e um mil, quatrocentos e cinqüenta e nove reais) de Recursos Ordinários;" .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11007\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 2.361.000,00 (dois milhões, trezentos e sessenta e um mil reais) de Taxas pelo Exercício do Poder de Polícia;" .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 22.814.559,00 (vinte e dois milhões, oitocentos e quatorze mil, quinhentos e cinqüenta e nove reais) de Recursos Próprios Não-Financeiros; e" .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11007\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 8.000.000,00 (oito milhões de reais) de Recursos de Convênios;" .
+lex:L11007\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11007    lex:temInciso    lex:L11007\/IncisoIII .
+lex:L11007\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no valor de R$ 88.170.649,00 (oitenta e oito milhões, cento e setenta mil, seiscentos e quarenta e nove reais), conforme indicado no Anexo II desta Lei; e" .
+lex:L11007\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L11007    lex:temInciso    lex:L11007\/IncisoIV .
+lex:L11007\/IncisoIV    lex:temConteudo    "IV - ingresso de operações de crédito externas, no valor de R$ 126.059.493,00 (cento e vinte e seis milhões, cinqüenta e nove mil, quatrocentos e noventa e três reais)." .
+lex:L11007\/Artigo1    lex:remetePara    lex:L10837 .
+lex:L11007\/IncisoII    lex:remetePara    lex:L10707\/Artigo62 .
+lex:L11007\/Artigo3    lex:remetePara    lex:L10707\/Artigo63\/Paragrafo11 .

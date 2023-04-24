@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6393    lex:ehUm    lex:DocLegal .
+lex:D6393    lex:temTextoIntegral    lex:HTMLs\/D6393.htm .
+lex:D6393\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo1 .
+lex:D6393\/Artigo1    lex:temConteudo    "Art. 1o  Fica estabelecido o Compromisso Nacional pelo Desenvolvimento Social, proposto pela União e de adesão livre e voluntária por parte dos Estados e do Distrito Federal." .
+lex:D6393\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo2 .
+lex:D6393\/Artigo2    lex:temConteudo    "Art. 2o  O Compromisso Nacional tem como objetivo a conjugação de esforços entre a União, os Estados e o Distrito Federal para pactuar metas de desenvolvimento social e combate à fome, direcionadas à inclusão social e promoção da cidadania." .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6393\/Artigo2    lex:temParagrafo    lex:D6393\/Artigo2\/ParagrafoUnico .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Compromisso Nacional perseguirá as seguintes metas:" .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - erradicação da extrema pobreza, da insegurança alimentar grave, do trabalho infantil e da exploração sexual de crianças e adolescentes;" .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - promoção da universalização das políticas de proteção e promoção social;" .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - inclusão produtiva; e" .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D6393\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D6393\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - fortalecimento das instituições e dos mecanismos sociais, políticos e econômicos capazes de promover a igualdade de oportunidades a todos os cidadãos brasileiros." .
+lex:D6393\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo3 .
+lex:D6393\/Artigo3    lex:temConteudo    "Art. 3o  No âmbito do Compromisso Nacional, caberá:" .
+lex:D6393\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6393\/Artigo3    lex:temInciso    lex:D6393\/Artigo3\/IncisoI .
+lex:D6393\/Artigo3\/IncisoI    lex:temConteudo    "I - à União oferecer aos Estados e ao Distrito Federal apoio técnico e financeiro ou mecanismos de incentivo para o cumprimento das metas definidas no parágrafo único do art. 2o, especialmente para:" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao    lex:temConteudo    "a) implementação de sistemas de segurança alimentar e nutricional, no âmbito do Sistema Nacional de Segurança Alimentar e Nutricional - SISAN;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao    lex:temConteudo    "b) consolidação do Sistema Único de Assistência Social - SUAS;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao    lex:temConteudo    "c) implantação de sistemas de avaliação e monitoramento social;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento    lex:temConteudo    "d) desenvolvimento de políticas complementares ao Programa Bolsa Família - PBF, assim como a realização de ações que assegurem às famílias beneficiárias desse Programa a possibilidade de cumprirem suas condicionalidades;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:temConteudo    "e) desenvolvimento de ações complementares ao Benefício de Prestação Continuada - BPC;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:temConteudo    "f) desenvolvimento de ações integradas para a erradicação do trabalho infantil e da exploração sexual e juvenil;" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao    lex:temConteudo    "g) implementação de políticas que promovam a geração de oportunidades de trabalho e renda nos meios urbano e rural; e" .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao\/IncisoAlineaUtilizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao    lex:temIncisoAlinea    lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao\/IncisoAlineaUtilizacao .
+lex:D6393\/Artigo3\/IncisoI\/IncisoAlineaImplementacao\/IncisoAlineaConsolidacao\/IncisoAlineaImplantacao\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaDesenvolvimento\/IncisoAlineaImplementacao\/IncisoAlineaUtilizacao    lex:temConteudo    "h) utilização do Cadastro Único de Programas Sociais do Governo Federal - CadÚnico para implantação das políticas públicas;" .
+lex:D6393\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6393\/Artigo3    lex:temInciso    lex:D6393\/Artigo3\/IncisoII .
+lex:D6393\/Artigo3\/IncisoII    lex:temConteudo    "II - aos Estados e ao Distrito Federal promover o aprimoramento e a ampliação das políticas públicas de desenvolvimento social e combate à fome em sua esfera de competência, especialmente no que se refere às áreas indicadas no inciso I, garantindo a intersetorialidade das políticas." .
+lex:D6393\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo4 .
+lex:D6393\/Artigo4    lex:temConteudo    "Art. 4o  A adesão ao Compromisso Nacional, por parte dos Estados e do Distrito Federal, implica a assunção das metas de desenvolvimento social previstas no parágrafo único do art. 2o, na forma disposta em termo de cooperação." .
+lex:D6393\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6393\/Artigo4    lex:temParagrafo    lex:D6393\/Artigo4\/ParagrafoUnico .
+lex:D6393\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Distrito Federal e os Estados que aderirem ao Compromisso Nacional terão apoio técnico e financeiro da União, para o aprimoramento dos mecanismos de gestão na área de desenvolvimento social, observados os critérios a serem estabelecidos em portaria do Ministro de Estado do Desenvolvimento Social e Combate à Fome." .
+lex:D6393\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo5 .
+lex:D6393\/Artigo5    lex:temConteudo    "Art. 5o  Cabe ao Ministério do Desenvolvimento Social e Combate à Fome o monitoramento da execução do termo de cooperação e do cumprimento das obrigações previstas neste Decreto e no referido instrumento." .
+lex:D6393\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6393\/Artigo5    lex:temParagrafo    lex:D6393\/Artigo5\/Paragrafo1 .
+lex:D6393\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o  O Ministério do Desenvolvimento Social e Combate à Fome fornecerá aos Estados e ao Distrito Federal as informações e orientações necessárias ao cumprimento das prioridades estabelecidas no termo de cooperação." .
+lex:D6393\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6393\/Artigo5    lex:temParagrafo    lex:D6393\/Artigo5\/Paragrafo2 .
+lex:D6393\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o  O cumprimento das metas pactuadas no termo de cooperação será monitorado pelos conselhos estaduais e distrital." .
+lex:D6393\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo6 .
+lex:D6393\/Artigo6    lex:temConteudo    "Art. 6o  As despesas decorrentes deste Decreto correrão à conta das dotações orçamentárias anualmente consignadas ao Ministério do Desenvolvimento Social e Combate à Fome." .
+lex:D6393\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D6393    lex:temArtigo    lex:D6393\/Artigo7 .
+lex:D6393\/Artigo7    lex:temConteudo    "Art. 7o  Este Decreto entra em vigor na data de sua publicação." .

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc43    lex:ehUm    lex:DocLegal .
+lex:emc43    lex:temTextoIntegral    lex:HTMLs\/emc43.htm .
+lex:emc43\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc43    lex:temArtigo    lex:emc43\/Artigo1 .
+lex:emc43\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 42 do Ato das Disposições Constitucionais Transitórias passa a vigorar com a seguinte redação:" .
+lex:emc43\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc43    lex:temArtigo    lex:emc43\/Artigo2 .
+lex:emc43\/Artigo2    lex:temConteudo    "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc43\/Artigo1    lex:remetePara    lex:Constituicao\/adctArtigo42 .

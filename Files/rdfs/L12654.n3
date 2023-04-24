@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12654    lex:ehUm    lex:DocLegal .
+lex:L12654    lex:temTextoIntegral    lex:HTMLs\/L12654.htm .
+lex:L12654\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12654    lex:temArtigo    lex:L12654\/Artigo1 .
+lex:L12654\/Artigo1    lex:temConteudo    "Art. 1o  O art. 5o da Lei no 12.037, de 1o de outubro de 2009, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L12654\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo1    lex:temParagrafo    lex:L12654\/Artigo1\/ParagrafoUnico .
+lex:L12654\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Na hipótese do inciso IV do art. 3o, a identificação criminal poderá incluir a coleta de material biológico para a obtenção do perfil genético. (NR)" .
+lex:L12654\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12654    lex:temArtigo    lex:L12654\/Artigo2 .
+lex:L12654\/Artigo2    lex:temConteudo    "Art. 2o  A Lei no 12.037, de 1o de outubro de 2009, passa a vigorar acrescida dos seguintes artigos:" .
+lex:L12654\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo2    lex:temParagrafo    lex:L12654\/Artigo2\/Paragrafo1 .
+lex:L12654\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  As informações genéticas contidas nos bancos de dados de perfis genéticos não poderão revelar traços somáticos ou comportamentais das pessoas, exceto determinação genética de gênero, consoante as normas constitucionais e internacionais sobre direitos humanos, genoma humano e dados genéticos." .
+lex:L12654\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo2    lex:temParagrafo    lex:L12654\/Artigo2\/Paragrafo2 .
+lex:L12654\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Os dados constantes dos bancos de dados de perfis genéticos terão caráter sigiloso, respondendo civil, penal e administrativamente aquele que permitir ou promover sua utilização para fins diversos dos previstos nesta Lei ou em decisão judicial." .
+lex:L12654\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo2    lex:temParagrafo    lex:L12654\/Artigo2\/Paragrafo3 .
+lex:L12654\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  As informações obtidas a partir da coincidência de perfis genéticos deverão ser consignadas em laudo pericial firmado por perito oficial devidamente habilitado." .
+lex:L12654\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12654    lex:temArtigo    lex:L12654\/Artigo3 .
+lex:L12654\/Artigo3    lex:temConteudo    "Art. 3o  A Lei no 7.210, de 11 de julho de 1984 - Lei de Execução Penal, passa a vigorar acrescida do seguinte art. 9o-A:" .
+lex:L12654\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo3    lex:temParagrafo    lex:L12654\/Artigo3\/Paragrafo1 .
+lex:L12654\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  A identificação do perfil genético será armazenada em banco de dados sigiloso, conforme regulamento a ser expedido pelo Poder Executivo." .
+lex:L12654\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12654\/Artigo3    lex:temParagrafo    lex:L12654\/Artigo3\/Paragrafo2 .
+lex:L12654\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  A autoridade policial, federal ou estadual, poderá requerer ao juiz competente, no caso de inquérito instaurado, o acesso ao banco de dados de identificação de perfil genético." .
+lex:L12654\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12654    lex:temArtigo    lex:L12654\/Artigo4 .
+lex:L12654\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor após decorridos 180 (cento e oitenta) dias da data de sua publicação." .
+lex:L12654\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L12037\/Artigo5 .
+lex:L12654\/Texto00003    lex:remetePara    lex:L12037\/Artigo5 .
+lex:L12654\/Artigo2\/Texto00006    lex:remetePara    lex:L12037\/Artigo7 .
+lex:L12654\/Artigo2\/Texto00006    lex:remetePara    lex:L12037\/Artigo7 .
+lex:L12654\/Texto00007    lex:remetePara    lex:L7210\/Artigo9 .

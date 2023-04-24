@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11569    lex:ehUm    lex:DocLegal .
+lex:L11569    lex:temTextoIntegral    lex:HTMLs\/L11569.htm .
+lex:L11569\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11569    lex:temArtigo    lex:L11569\/Artigo1 .
+lex:L11569\/Artigo1    lex:temConteudo    "Art. 1o  Fica aberto ao Orçamento Fiscal da União (Lei no 11.451, de 7 de fevereiro de 2007), em favor dos Ministérios da Educação e da Cultura e de Operações Oficiais de Crédito, crédito especial no valor global de R$ 38.330.853,00 (trinta e oito milhões, trezentos e trinta mil, oitocentos e cinqüenta e três reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L11569\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11569    lex:temArtigo    lex:L11569\/Artigo2 .
+lex:L11569\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos necessários à abertura do crédito de que trata o art. 1o decorrem de:" .
+lex:L11569\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11569\/Artigo2    lex:temInciso    lex:L11569\/Artigo2\/IncisoI .
+lex:L11569\/Artigo2\/IncisoI    lex:temConteudo    "I - excesso de arrecadação, no valor de R$ 27.690.866,00 (vinte e sete milhões, seiscentos e noventa mil, oitocentos e sessenta e seis reais), sendo:" .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11569\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temConteudo    "a) R$ 8.995.212,00 (oito milhões, novecentos e noventa e cinco mil, duzentos e doze reais) de Recursos de Concessões e Permissões;" .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 18.218.885,00 (dezoito milhões, duzentos e dezoito mil, oitocentos e oitenta e cinco reais) de Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional; e" .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11569\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 476.769,00 (quatrocentos e setenta e seis mil, setecentos e sessenta e nove reais) de Recursos Próprios Financeiros; e" .
+lex:L11569\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11569\/Artigo2    lex:temInciso    lex:L11569\/Artigo2\/IncisoII .
+lex:L11569\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 10.639.987,00 (dez milhões, seiscentos e trinta e nove mil, novecentos e oitenta e sete reais), conforme indicado no Anexo II desta Lei." .
+lex:L11569\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11569    lex:temArtigo    lex:L11569\/Artigo3 .
+lex:L11569\/Artigo3    lex:temConteudo    "Art. 3o O Plano Plurianual 2004-2007 passa a incorporar as alterações constantes do Anexo III desta Lei, em conformidade com o art. 5o, § 11, da Lei no 10.933, de 11 de agosto de 2004." .
+lex:L11569\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11569    lex:temArtigo    lex:L11569\/Artigo4 .
+lex:L11569\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11569\/Artigo1    lex:remetePara    lex:L11451 .
+lex:L11569\/Artigo3    lex:remetePara    lex:L10933\/Artigo5\/Paragrafo11 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10055    lex:ehUm    lex:DocLegal .
+lex:L10055    lex:temTextoIntegral    lex:HTMLs\/L10055.htm .
+lex:L10055\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10055    lex:temArtigo    lex:L10055\/Artigo1 .
+lex:L10055\/Artigo1    lex:temConteudo    "Art. 1o Ficam criados, no Quadro Permanente do Departamento de Polícia Federal, os cargos da Carreira Policial Federal constantes do Anexo a esta Lei." .
+lex:L10055\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10055    lex:temArtigo    lex:L10055\/Artigo2 .
+lex:L10055\/Artigo2    lex:temConteudo    "Art. 2o O provimento dos cargos de que trata esta Lei far-se-á mediante aprovação prévia em concurso público de provas, e dar-se-á no padrão I da Segunda Classe." .
+lex:L10055\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10055    lex:temArtigo    lex:L10055\/Artigo3 .
+lex:L10055\/Artigo3    lex:temConteudo    "Art. 3o O inciso VIII do art. 7o do Decreto-Lei no 2.320, de 20 de janeiro de 1987, alterado pelo Decreto-Lei no 2.418, de 8 de março de 1988, passa a vigorar com a seguinte redação:" .
+lex:L10055\/Artigo3\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:L10055\/Artigo3    lex:temInciso    lex:L10055\/Artigo3\/IncisoVIII .
+lex:L10055\/Artigo3\/IncisoVIII    lex:temConteudo    "VIII   possuir diploma de curso superior, para a categoria funcional de Perito Criminal Federal, observadas as disposições das necessidades por áreas de formação e as respectivas especialidades; (NR)" .
+lex:L10055\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10055    lex:temArtigo    lex:L10055\/Artigo4 .
+lex:L10055\/Artigo4    lex:temConteudo    "Art. 4o As despesas decorrentes da execução desta Lei serão atendidas à conta de dotações orçamentárias próprias." .
+lex:L10055\/Artigo3\/IncisoVIII    lex:remetePara    lex:Del2320\/Artigo7 .

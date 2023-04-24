@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7137    lex:ehUm    lex:DocLegal .
+lex:L7137    lex:temTextoIntegral    lex:HTMLs\/L7137.htm .
+lex:L7137\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7137    lex:temArtigo    lex:L7137\/Artigo1 .
+lex:L7137\/Artigo1    lex:temConteudo    "Art. 1º - A reestruturação do Grupo-Direção e Assessoramento Superiores e a classificação dos cargos e funções de confiança que o integram far-se-ão por deliberação do Superior Tribunal Militar, nos termos do art. 1º da Lei nº 5.999, de 18 de dezembro de 1973, observada a escala de níveis constantes do anexo II do Decreto-lei nº 1.820, de 11 de dezembro de 1980." .
+lex:L7137\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7137\/Artigo1    lex:temParagrafo    lex:L7137\/Artigo1\/ParagrafoUnico .
+lex:L7137\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Fica estendido, à Secretaria do Superior Tribunal Militar o nível 5, acrescido à escala referida neste artigo pelo art. 3º do Decreto-lei nº 1.445, de 13 de fevereiro de 1976." .
+lex:L7137\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7137    lex:temArtigo    lex:L7137\/Artigo2 .
+lex:L7137\/Artigo2    lex:temConteudo    "Art. 2º - As Categorias Funcionais do Grupo-Atividades de Apoio Judiciário, STM-AJ-020, dos Quadros Permanentes das Secretarias do Superior Tribunal Militar e das Auditorias da Justiça Militar passam a ser estruturadas na forma constante do anexo desta Lei." .
+lex:L7137\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7137\/Artigo2    lex:temParagrafo    lex:L7137\/Artigo2\/Paragrafo1 .
+lex:L7137\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º - Os funcionários integrantes das Categorias Funcionais de que trata este artigo serão posicionados nas classes a que correspondem as referências de que são ocupantes." .
+lex:L7137\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7137\/Artigo2    lex:temParagrafo    lex:L7137\/Artigo2\/Paragrafo2 .
+lex:L7137\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º - Não poderão atingir a Classe Especial funcionários em número superior a 15% (quinze por cento) da lotação global da Categoria, arredondada para a unidade subseqüente à fração acaso apurada." .
+lex:L7137\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7137    lex:temArtigo    lex:L7137\/Artigo3 .
+lex:L7137\/Artigo3    lex:temConteudo    "Art. 3º - As despesas decorrentes da aplicação desta Lei correrão à conta dos recursos orçamentários próprios da Justiça Militar." .
+lex:L7137\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7137    lex:temArtigo    lex:L7137\/Artigo4 .
+lex:L7137\/Artigo4    lex:temConteudo    "Art. 4º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7137\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7137    lex:temArtigo    lex:L7137\/Artigo5 .
+lex:L7137\/Artigo5    lex:temConteudo    "Art. 5º - Revogam-se as disposições em contrário." .
+lex:L7137\/Artigo1    lex:remetePara    lex:L5999\/Artigo1 .
+lex:L7137\/Artigo1    lex:remetePara    lex:Del1820\/ .
+lex:L7137\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1445\/Artigo3 .

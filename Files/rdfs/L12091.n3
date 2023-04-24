@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12091    lex:ehUm    lex:DocLegal .
+lex:L12091    lex:temTextoIntegral    lex:HTMLs\/L12091.htm .
+lex:L12091\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12091    lex:temArtigo    lex:L12091\/Artigo1 .
+lex:L12091\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei altera a redação do art. 81 da Lei no 9.610, de 19 de fevereiro de 1998." .
+lex:L12091\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12091    lex:temArtigo    lex:L12091\/Artigo2 .
+lex:L12091\/Artigo2    lex:temConteudo    "Art. 2o  O § 2o do art. 81 da Lei no 9.610, de 1998, passa a vigorar acrescido do seguinte inciso VII:" .
+lex:L12091\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12091\/Artigo2    lex:temParagrafo    lex:L12091\/Artigo2\/Paragrafo2 .
+lex:L12091\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  ....................................................." .
+lex:L12091\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12091\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L12091\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII .
+lex:L12091\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:temConteudo    "VII - o nome dos dubladores. (NR)" .
+lex:L12091\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12091    lex:temArtigo    lex:L12091\/Artigo3 .
+lex:L12091\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor após decorridos 60 (sessenta) dias de sua publicação oficial." .
+lex:L12091\/Artigo1    lex:remetePara    lex:L9610 .
+lex:L12091\/Artigo2    lex:remetePara    lex:L9610 .
+lex:L12091\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:remetePara    lex:L9610\/Artigo81\/Paragrafo2vii .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7152    lex:ehUm    lex:DocLegal .
+lex:D7152    lex:temTextoIntegral    lex:HTMLs\/D7152.htm .
+lex:D7152\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7152    lex:temArtigo    lex:D7152\/Artigo1 .
+lex:D7152\/Artigo1    lex:temConteudo    "Art. 1º  Fica aumentado o capital social do Banco Nacional de Desenvolvimento Econômico e Social - BNDES em R$ 2.096.533.379,06 (dois bilhões, noventa e seis milhões, quinhentos e trinta e três mil, trezentos e setenta e nove reais e seis centavos), mediante a capitalização de reserva de capital e reservas de lucros." .
+lex:D7152\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7152    lex:temArtigo    lex:D7152\/Artigo2 .
+lex:D7152\/Artigo2    lex:temConteudo    "Art. 2º  O caput do art. 6º do Estatuto Social do Banco Nacional de Desenvolvimento Econômico e Social - BNDES, aprovado pelo Decreto nº 4.418, de 11 de outubro de 2002, passa a vigorar com a seguinte redação:" .
+lex:D7152\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7152    lex:temArtigo    lex:D7152\/Artigo3 .
+lex:D7152\/Artigo3    lex:temConteudo    "Art. 3º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7152\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7152    lex:temArtigo    lex:D7152\/Artigo4 .
+lex:D7152\/Artigo4    lex:temConteudo    "Art. 4º  Fica revogado o Decreto nº 7.007, de 11 de novembro de 2009." .
+lex:D7152\/Artigo2    lex:remetePara    lex:D4418 .
+lex:D7152\/Texto00002    lex:remetePara    lex:D4418\/Artigo6 .
+lex:D7152\/Artigo4    lex:remetePara    lex:D7007 .

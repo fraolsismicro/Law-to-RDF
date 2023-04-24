@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2936    lex:ehUm    lex:DocLegal .
+lex:D2936    lex:temTextoIntegral    lex:HTMLs\/D2936.htm .
+lex:D2936\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2936    lex:temArtigo    lex:D2936\/Artigo1 .
+lex:D2936\/Artigo1    lex:temConteudo    "Art. 1o  Para habilitação às operações de crédito sob a égide do Programa de Revitalização de Cooperativas de Produção Agropecuária - RECOOP, a que se refere a Medida Provisória no 1.781-4, de 14 de dezembro de 1998, a cooperativa cuja consulta prévia tenha sido acolhida, até 31 de julho de 1998, pelo Comitê Executivo de que trata o Decreto de 23 de janeiro de 1998, terá de apresentar os projetos em consonância com o termo de referência constante do Anexo a este Decreto." .
+lex:D2936\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2936\/Artigo1    lex:temParagrafo    lex:D2936\/Artigo1\/Paragrafo1 .
+lex:D2936\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O Comitê Executivo de que trata o caput poderá atribuir à OCB o fornecimento, a cada cooperativa enquadrada, de roteiro padrão para elaboração do seu programa de revitalização." .
+lex:D2936\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2936\/Artigo1    lex:temParagrafo    lex:D2936\/Artigo1\/Paragrafo2 .
+lex:D2936\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A cooperativa deverá apresentar os projetos em duas vias, destinando simultaneamente uma à instituição financeira, a quem cabe a contratação e a responsabilidade do risco da operação de crédito, e a outra ao Comitê Executivo, que verificará se estão sendo atendidas as condições específicas definidas para os projetos e se eles estão voltados para reestruturação da cooperativa." .
+lex:D2936\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D2936\/Artigo1    lex:temParagrafo    lex:D2936\/Artigo1\/Paragrafo3 .
+lex:D2936\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os projetos, recebidos da Organização das Cooperativas do Estado ou do Distrito Federal, serão encaminhados pela OCB ao Comitê Executivo, acompanhados de cópia de sua comunicação à cooperativa quanto ao seu enquadramento no Programa." .
+lex:D2936\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2936    lex:temArtigo    lex:D2936\/Artigo2 .
+lex:D2936\/Artigo2    lex:temConteudo    "Art. 2o  Para realização das operações de crédito classificadas como de RECOOP, acolhidos os projetos, a instituição financeira deverá, ainda, observar o pronunciamento do Comitê Executivo quanto ao disposto no § 2o do artigo anterior." .
+lex:D2936\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2936    lex:temArtigo    lex:D2936\/Artigo3 .
+lex:D2936\/Artigo3    lex:temConteudo    "Art. 3o  O Ministro de Estado da Fazenda fica autorizado a constituir comissões com representantes dos órgãos e entidades integrantes do universo do programa, para fornecer subsídios à atuação do Comitê Executivo." .
+lex:D2936\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2936    lex:temArtigo    lex:D2936\/Artigo4 .
+lex:D2936\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D2936\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2936    lex:temArtigo    lex:D2936\/Artigo5 .
+lex:D2936\/Artigo5    lex:temConteudo    "Art. 5o  Revoga-se o Decreto no 2.769, de 3 de setembro de 1998." .
+lex:D2936\/Artigo1    lex:remetePara    lex:1781-4 .
+lex:D2936\/Artigo1    lex:remetePara    lex:Dnn6443 .
+lex:D2936\/Artigo1\/Paragrafo4    lex:revogadoPor    lex:D3263 .
+lex:D3263    lex:revogou    lex:D2936\/Artigo1\/Paragrafo4 .
+lex:D2936\/Artigo1\/Paragrafo5    lex:revogadoPor    lex:D3263 .
+lex:D3263    lex:revogou    lex:D2936\/Artigo1\/Paragrafo5 .
+lex:D2936\/Artigo1\/Paragrafo6    lex:revogadoPor    lex:D3263 .
+lex:D3263    lex:revogou    lex:D2936\/Artigo1\/Paragrafo6 .
+lex:D2936\/ParagrafoUnico    lex:revogadoPor    lex:D3263 .
+lex:D3263    lex:revogou    lex:D2936\/ParagrafoUnico .
+lex:D2936\/Artigo5    lex:remetePara    lex:D2769 .

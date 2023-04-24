@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7859    lex:ehUm    lex:DocLegal .
+lex:L7859    lex:temTextoIntegral    lex:HTMLs\/L7859.htm .
+lex:L7859\/Artigo239    lex:ehUm    lex:Artigo .
+lex:L7859    lex:temArtigo    lex:L7859\/Artigo239 .
+lex:L7859\/Artigo239    lex:temConteudo    "Art. 239 da Constituição Federal" .
+lex:L7859\/Texto    lex:remetePara    lex:088 .
+lex:L7859\/Artigo239    lex:remetePara    lex:Constituiçao\/Artigo239 .
+lex:L7859\/Texto00001    lex:revogadoPor    lex:mpv665\/Artigo4 .
+lex:mpv665\/Artigo4    lex:revogou    lex:L7859\/Texto00001 .
+lex:L7859\/Texto00001    lex:remetePara    lex:L7859 .
+lex:L7859\/IncisoII    lex:remetePara    lex:Lcp26\/Artigo4\/Paragrafo3 .
+lex:L7859\/Paragrafo1    lex:remetePara    lex:Del2052\/Artigo14 .

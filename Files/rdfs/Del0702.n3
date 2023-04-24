@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0702    lex:ehUm    lex:DocLegal .
+lex:Del0702    lex:temTextoIntegral    lex:HTMLs\/Del0702.htm .
+lex:Del0702\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0702    lex:temArtigo    lex:Del0702\/Artigo1 .
+lex:Del0702\/Artigo1    lex:temConteudo    "Art. 1º Para cumprimento do disposto nos artigos 104, inciso V, e 105, do Decreto-lei nº 200, de 25 de fevereiro de 1967, a percentagem máxima de quarenta por cento a que alude o artigo 23 da Lei nº 4.863, de 29 de novembro de 1965, fica reduzida das percentagens destinadas aos extintos Fundos de Estímulo." .
+lex:Del0702\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0702    lex:temArtigo    lex:Del0702\/Artigo2 .
+lex:Del0702\/Artigo2    lex:temConteudo    "Art. 2º Ao regulamentar a adjudicação do percentual de participação dos agentes do Fisco Federal nas multas e no produto do leilão de mercadorias apreendidas, com a dedução a que se refere o artigo anterior o Poder Executivo poderá ainda reduzir o percentual que resultar dessa dedução, bem como estabelecer o limite que poderá ser pago, anualmente, a cada funcionário." .
+lex:Del0702\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0702    lex:temArtigo    lex:Del0702\/Artigo3 .
+lex:Del0702\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0702\/Artigo1    lex:remetePara    lex:Del0200\/Artigo104 .
+lex:Del0702\/Artigo1    lex:remetePara    lex:Del0200\/Artigo105 .
+lex:Del0702\/Artigo1    lex:remetePara    lex:L4863\/Artigo23 .

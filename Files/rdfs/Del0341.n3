@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0341    lex:ehUm    lex:DocLegal .
+lex:Del0341    lex:temTextoIntegral    lex:HTMLs\/Del0341.htm .
+lex:Del0341\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0341    lex:temArtigo    lex:Del0341\/Artigo1 .
+lex:Del0341\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado para o exercício de 1968 o benefício concedido às pessoas jurídicas pelo artigo 4º do Decreto-lei nº 157, de 10 de fevereiro de 1967, com a nova redação dada pelo art. 2º do Decreto-lei número 238, de 28 de fevereiro de 1967." .
+lex:Del0341\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0341    lex:temArtigo    lex:Del0341\/Artigo2 .
+lex:Del0341\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei, que será submetido à apreciação do Congresso Nacional, nos têrmos do parágrafo único do art. 58 da Constituição, entrará em vigor na data de sua publicação." .
+lex:Del0341\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0341    lex:temArtigo    lex:Del0341\/Artigo3 .
+lex:Del0341\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:Del0341\/Texto    lex:remetePara    lex:RSF28-1968 .
+lex:Del0341\/Texto    lex:remetePara    lex:Del0341 .
+lex:Del0341\/Artigo1    lex:remetePara    lex:Del0157\/Artigo4 .
+lex:Del0341\/Artigo1    lex:remetePara    lex:Del0238\/Artigo2 .
+lex:Del0341\/Artigo2    lex:remetePara    lex:Constituicao67\/Artigo58 .

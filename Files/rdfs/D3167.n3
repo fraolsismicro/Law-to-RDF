@@ -1,0 +1,101 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3167    lex:ehUm    lex:DocLegal .
+lex:D3167    lex:temTextoIntegral    lex:HTMLs\/D3167.htm .
+lex:D3167\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3167    lex:temInciso    lex:D3167\/IncisoD .
+lex:D3167\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3167\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3167    lex:temArtigo    lex:D3167\/Artigo1 .
+lex:D3167\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção sobre a Prevenção e Punição de Crimes Contra Pessoas que Gozam de Proteção Internacional, inclusive Agentes Diplomáticos, concluída em Nova York, em 14 de dezembro de 1973, com a reserva prevista no parágrafo 2o do art. 13 da Convenção, apensa por cópia a este Decreto, deverá ser executada e cumprida tão inteiramente como nela se contém." .
+lex:D3167\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3167    lex:temArtigo    lex:D3167\/Artigo2 .
+lex:D3167\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3167\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaA .
+lex:D3167\/Artigo2\/AlineaA    lex:temConteudo    "a) a todo Chefe de Estado, inclusive a todo membro de um órgão colegiado que, por delegação da constituição do respectivo Estado, possa desempenhar as funções de Chefe de Estado, a todo Chefe de Governo, ou a todo Ministro das Relações Exteriores, sempre que tal pessoa encontre-se em um Estado estrangeiro, assim como aos membros de sua família que o acompanham;" .
+lex:D3167\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaA .
+lex:D3167\/Artigo2\/AlineaA    lex:temConteudo    "b) a todo representante ou funcionário de um Estado, inclusive a todo agente oficial ou outro de uma organização intergovernamental, que, na ocasião e no local em que se comete um crime contra a sua pessoa, contra o seu local oficial de trabalho, contra a sua residência particular ou contra o seu meio de transporte, tenha direito, em conformidade com a legislação internacional, a proteção especial contra qualquer atentado à sua pessoa, liberdade ou dignidade, ou aos membros de sua família que constituem o seu lar;" .
+lex:D3167\/Artigo2\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaA    lex:temItem    lex:D3167\/Artigo2\/AlineaA\/ItemA .
+lex:D3167\/Artigo2\/AlineaA\/ItemA    lex:temConteudo    "2. A expressão 'autor presumido do crime' aplicar-se-á a toda pessoa sobre a qual existem elementos de prova suficientes para determinar prima facie que a mesma cometeu um ou mais dos crimes estipulados no Artigo 2, ou deles participou." .
+lex:D3167\/Artigo2\/AlineaAssassinato    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAssassinato .
+lex:D3167\/Artigo2\/AlineaAssassinato    lex:temConteudo    "a) assassinato, seqüestro ou outro tipo de atentado contra a pessoa ou a liberdade de uma pessoa que goza de proteção internacional;" .
+lex:D3167\/Artigo2\/AlineaAtentado    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAtentado .
+lex:D3167\/Artigo2\/AlineaAtentado    lex:temConteudo    "b) atentado violento contra as dependências oficiais, contra a residência particular ou contra os meios de transporte de uma pessoa que goza de proteção internacional, tal que possa constituir ameaça para a sua pessoa ou para a liberdade desta pessoa;" .
+lex:D3167\/Artigo2\/AlineaAmeaca    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAmeaca .
+lex:D3167\/Artigo2\/AlineaAmeaca    lex:temConteudo    "c) ameaça de perpetrar semelhante atentado;" .
+lex:D3167\/Artigo2\/AlineaTentativa    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaTentativa .
+lex:D3167\/Artigo2\/AlineaTentativa    lex:temConteudo    "d) tentativa de perpetrar semelhante atentado; e" .
+lex:D3167\/Artigo2\/AlineaAto    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAto .
+lex:D3167\/Artigo2\/AlineaAto    lex:temConteudo    "e) ato que implique em participação como cúmplice em semelhante atentado, será enquadrada como crime por todo Estado, parte da presente Convenção, em sua respectiva legislação." .
+lex:D3167\/Artigo2\/AlineaAto\/ItemTodo    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaAto    lex:temItem    lex:D3167\/Artigo2\/AlineaAto\/ItemTodo .
+lex:D3167\/Artigo2\/AlineaAto\/ItemTodo    lex:temConteudo    "2. Todo Estado Parte fará com que tais crimes sejam passíveis de punição mediante penas apropriadas, as quais levem em conta a natureza grave dos mesmos." .
+lex:D3167\/Artigo2\/AlineaAto\/ItemOs    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaAto    lex:temItem    lex:D3167\/Artigo2\/AlineaAto\/ItemOs .
+lex:D3167\/Artigo2\/AlineaAto\/ItemOs    lex:temConteudo    "3. Os parágrafos 1 e 2 do presente Artigo não serão, de forma alguma, interpretados em detrimento da obrigação dos Estados Partes, em conformidade com o direito internacional, de tomar todas as medidas apropriadas para impedir outros tipos de atentado à pessoa, à liberdade ou à dignidade de uma pessoa que goza de proteção internacional." .
+lex:D3167\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaQuando .
+lex:D3167\/Artigo2\/AlineaQuando    lex:temConteudo    "a) quando o crime for cometido no território do referido Estado ou a bordo de navio ou aeronave nele registrado;" .
+lex:D3167\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaQuando .
+lex:D3167\/Artigo2\/AlineaQuando    lex:temConteudo    "b) quando o autor presumido do crime for nacional daquele Estado;" .
+lex:D3167\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaQuando .
+lex:D3167\/Artigo2\/AlineaQuando    lex:temConteudo    "c) quando o crime for cometido contra pessoa que goza de proteção internacional, tal como definida no Artigo 1, a qual usufrui dessa condição em virtude das funções que exerce em nome do dito Estado." .
+lex:D3167\/Artigo2\/AlineaQuando\/ItemTodo    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaQuando    lex:temItem    lex:D3167\/Artigo2\/AlineaQuando\/ItemTodo .
+lex:D3167\/Artigo2\/AlineaQuando\/ItemTodo    lex:temConteudo    "2. Todo Estado Parte deverá, igualmente, tomar as medidas que forem necessárias para o estabelecimento de sua jurisdição sobre tais crimes, caso o autor presumido do crime encontre-se em seu território, e o referido Estado não proceder à sua extradição, em conformidade com o Artigo 8, para nenhum dos Estados mencionados no parágrafo 1 do presente Artigo." .
+lex:D3167\/Artigo2\/AlineaQuando\/ItemA    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaQuando    lex:temItem    lex:D3167\/Artigo2\/AlineaQuando\/ItemA .
+lex:D3167\/Artigo2\/AlineaQuando\/ItemA    lex:temConteudo    "3. A presente Convenção não exclui nenhuma jurisdição penal exercida em conformidade com a legislação interna." .
+lex:D3167\/Artigo2\/AlineaTomar    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaTomar .
+lex:D3167\/Artigo2\/AlineaTomar    lex:temConteudo    "a) tomar todas as medidas ao seu alcance para impedir que, em seus respectivos territórios, realizem-se preparativos para a execução de tais crimes, dentro ou fora de seus territórios;" .
+lex:D3167\/Artigo2\/AlineaTrocar    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaTrocar .
+lex:D3167\/Artigo2\/AlineaTrocar    lex:temConteudo    "b) trocar informações e coordenar a adoção de medidas administrativas e outras, conforme proceda, para impedir a perpetração de tais crimes." .
+lex:D3167\/Artigo2\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAo .
+lex:D3167\/Artigo2\/AlineaAo    lex:temConteudo    "a) ao Estado em que o crime foi cometido;" .
+lex:D3167\/Artigo2\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAo .
+lex:D3167\/Artigo2\/AlineaAo    lex:temConteudo    "b) ao Estado ou aos Estados dos quais o autor presumido do crime é nacional, ou, se se tratar de apátrida, em cujo território o mesmo tenha residência permanente;" .
+lex:D3167\/Artigo2\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaAo .
+lex:D3167\/Artigo2\/AlineaAo    lex:temConteudo    "c) ao Estado ou aos Estados dos quais a pessoa que goza de proteção internacional é nacional, ou em nome dos quais esteja exercendo as suas funções;" .
+lex:D3167\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaA .
+lex:D3167\/Artigo2\/AlineaA    lex:temConteudo    "d) a todos os demais Estados interessados; e" .
+lex:D3167\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaA .
+lex:D3167\/Artigo2\/AlineaA    lex:temConteudo    "e) à organização internacional da qual a pessoa que goza de proteção internacional é funcionário ou agente." .
+lex:D3167\/Artigo2\/AlineaA\/ItemToda    lex:ehUm    lex:Item .
+lex:D3167\/Artigo2\/AlineaA    lex:temItem    lex:D3167\/Artigo2\/AlineaA\/ItemToda .
+lex:D3167\/Artigo2\/AlineaA\/ItemToda    lex:temConteudo    "2. Toda pessoa contra a qual sejam adotadas as medidas previstas no parágrafo 1 deste Artigo terá direito a:" .
+lex:D3167\/Artigo2\/AlineaComunicar-se    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaComunicar-se .
+lex:D3167\/Artigo2\/AlineaComunicar-se    lex:temConteudo    "a) comunicar-se sem dilação, com o representante competente mais próximo do Estado de que é nacional, ou do Estado a que, por outras razões, compete proteger os seus direitos, ou, se se tratar de pessoa apátrida, do Estado que se dispuser, mediante solicitação da mesma, a proteger os seus direitos;" .
+lex:D3167\/Artigo2\/AlineaReceber    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaReceber .
+lex:D3167\/Artigo2\/AlineaReceber    lex:temConteudo    "b) receber a visita de um representante desse Estado." .
+lex:D3167\/Artigo2\/AlineaDas    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaDas .
+lex:D3167\/Artigo2\/AlineaDas    lex:temConteudo    "a) das assinaturas à presente Convenção, do depósito dos instrumentos de ratificação ou adesão, em conformidade com o disposto nos Artigos 14, 15 e 16, e das notificações, dirigidas em conformidade com o disposto no Artigo 18;" .
+lex:D3167\/Artigo2\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D3167\/Artigo2    lex:temAlinea    lex:D3167\/Artigo2\/AlineaDa .
+lex:D3167\/Artigo2\/AlineaDa    lex:temConteudo    "b) da data da entrada em vigor da presente Convenção, em conformidade com o disposto no Artigo 17." .
+lex:D3167\/Artigo2\/Texto00030    lex:remetePara    lex:index .

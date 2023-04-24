@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0105    lex:ehUm    lex:DocLegal .
+lex:L0105    lex:temTextoIntegral    lex:HTMLs\/L0105.htm .
+lex:L0105\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0105    lex:temArtigo    lex:L0105\/Artigo1 .
+lex:L0105\/Artigo1    lex:temConteudo    "Art. 1º Fica permittido ao funcionarios publicos consignar em folha de pagamento, de acordo com o decreto numero 21.576, de 27 de junho de 1932 mais 20 %, para os fins exclusivos: de aquisição de predio para sua propria residencia;b) de servir de fiança de aluguel de casa, com o juro maximo de 1 % ao mez." .
+lex:L0105\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L0105\/Artigo1    lex:temParagrafo    lex:L0105\/Artigo1\/Paragrafo1 .
+lex:L0105\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Essa permissão só poderá ser concedida quando a consignação for a favor do Instituto Nacional de Previdencia, da Caixa Economica, do Banco dos Funcionarios Publicos ou de qualquer associação dessa classe que exista ha mais de cinco annos." .
+lex:L0105\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L0105\/Artigo1    lex:temParagrafo    lex:L0105\/Artigo1\/Paragrafo2 .
+lex:L0105\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A associação, em favor da qual deve ser feita a consignação , conforme o destino desta, estabelecido nas alinças a e b deste artigo, precisa estar legalmente autorizada, ou a construir predios por intermedio de sua carteira predial, ou a operar com os seus associados, mediante desconto em folha." .
+lex:L0105\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0105    lex:temArtigo    lex:L0105\/Artigo2 .
+lex:L0105\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrario." .

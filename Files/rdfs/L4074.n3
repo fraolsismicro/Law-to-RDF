@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4074    lex:ehUm    lex:DocLegal .
+lex:L4074    lex:temTextoIntegral    lex:HTMLs\/L4074.htm .
+lex:L4074\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4074    lex:temArtigo    lex:L4074\/Artigo1 .
+lex:L4074\/Artigo1    lex:temConteudo    "Art. 1º É concedida à Companhia Telefônica Alta Paulista, com sede em Tupã, Estado de São Paulo, isenção de direitos aduaneiros, impôsto de consumo e demais taxas alfandegárias, exceto a de despacho aduaneiro, para equipamentos telefônicos a seguir discriminados:" .
+lex:L4074\/Artigo1\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:L4074\/Artigo1    lex:temAlinea    lex:L4074\/Artigo1\/AlineaUm .
+lex:L4074\/Artigo1\/AlineaUm    lex:temConteudo    "a) Um centro telefônico de 500 (quinhentas) linhas, com pertences e acessórios no valor de 220.000.00 (duzentos e vinte mil) coroas suecas, para a cidade de Dracena - São Paulo, importadas da Telefonak - Tiebolaget LM Ericson Suécia." .
+lex:L4074\/Artigo1\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:L4074\/Artigo1    lex:temAlinea    lex:L4074\/Artigo1\/AlineaUm .
+lex:L4074\/Artigo1\/AlineaUm    lex:temConteudo    "b) Um equipamento de onda portadora de 4 (quatro) canais, para os serviços de interurbano nos Municípios de Adamantina, Valparaíso e Araçatuba - São Paulo, no valor de 160.000.00 (cento e sessenta mil) coroas suecas, importadas da Telefonak - Tiebolaget LM Ericson Suécia." .
+lex:L4074\/Artigo1\/AlineaEquipamento    lex:ehUm    lex:Alinea .
+lex:L4074\/Artigo1    lex:temAlinea    lex:L4074\/Artigo1\/AlineaEquipamento .
+lex:L4074\/Artigo1\/AlineaEquipamento    lex:temConteudo    "c) Equipamento composto de mesas telefônicas para o serviço interurbano de Tupã, Osvaldo Cruz e Adamantina - São Paulo, no valor de 200.000,00 (duzentas mil) coroas suecas, importadas da Telefonak - Tiebolaget LM Ericson Suécia." .
+lex:L4074\/Artigo1\/AlineaDois    lex:ehUm    lex:Alinea .
+lex:L4074\/Artigo1    lex:temAlinea    lex:L4074\/Artigo1\/AlineaDois .
+lex:L4074\/Artigo1\/AlineaDois    lex:temConteudo    "d) Dois equipamentos de onda portadora de 6 (seis) canais e dois equipamentos de onda portadora de 1 (um) canal, para os serviços interurbanos dos Municípios de Tupã, Osvaldo Cruz, Adamantina, Presidente Prudente e Dracena - São Paulo, no valor de 228.761,40 (duzentos e vinte e oito mil e setecentos e sessenta e um e quarenta) marcos alemães, importados da Siemens &amp; Halske Aktiengeselschaft Alemanha." .
+lex:L4074\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4074    lex:temArtigo    lex:L4074\/Artigo2 .
+lex:L4074\/Artigo2    lex:temConteudo    "Art. 2º A isenção abrangerá apenas as mercadorias a que se aplicar o disposto no art. 73, da Lei nº 3.244, de 14 de agôsto de 1957." .
+lex:L4074\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4074    lex:temArtigo    lex:L4074\/Artigo3 .
+lex:L4074\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará m vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4074\/Artigo2    lex:remetePara    lex:L3244\/Artigo73 .

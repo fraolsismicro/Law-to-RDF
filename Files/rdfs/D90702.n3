@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D90702    lex:ehUm    lex:DocLegal .
+lex:D90702    lex:temTextoIntegral    lex:HTMLs\/D90702.htm .
+lex:D90702\/AlineaDecidir    lex:ehUm    lex:Alinea .
+lex:D90702    lex:temAlinea    lex:D90702\/AlineaDecidir .
+lex:D90702\/AlineaDecidir    lex:temConteudo    "a) decidir sobre a permanência no Quadro de Acesso dos Diplomatas que nela figuraram no ano anterior; (Redação dada pelo Decreto nº 91.253, de 1985)." .
+lex:D90702\/Texto    lex:remetePara    lex:D90702 .
+lex:D90702\/AlineaDecidir    lex:remetePara    lex:D91253\/Artigo3 .
+lex:D90702\/Artigo5    lex:remetePara    lex:D86019\/Artigo18 .
+lex:D90702\/Artigo5    lex:remetePara    lex:D86019\/Artigo27 .
+lex:D90702\/Artigo5    lex:remetePara    lex:D86019\/Artigo28 .
+lex:D90702\/Artigo5    lex:remetePara    lex:D86019\/Artigo29 .
+lex:D90702\/Artigo5    lex:remetePara    lex:D86019\/Artigo29 .

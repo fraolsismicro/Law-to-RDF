@@ -1,0 +1,72 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7784    lex:ehUm    lex:DocLegal .
+lex:D7784    lex:temTextoIntegral    lex:HTMLs\/D7784.htm .
+lex:D7784\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo1 .
+lex:D7784\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério do Esporte, na forma dos Anexos I e II." .
+lex:D7784\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo2 .
+lex:D7784\/Artigo2    lex:temConteudo    "Art. 2 º  Ficam remanejados, na forma do Anexo III, os seguintes cargos do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7784\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7784\/Artigo2    lex:temInciso    lex:D7784\/Artigo2\/IncisoI .
+lex:D7784\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério do Esporte para a Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 102.5; e" .
+lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D7784\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 101.3; e" .
+lex:D7784\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7784\/Artigo2    lex:temInciso    lex:D7784\/Artigo2\/IncisoII .
+lex:D7784\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão para o Ministério do Esporte:" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temConteudo    "a) três DAS 101.5;" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 101.4;" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temConteudo    "c) quatro DAS 101.2;" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois    lex:temConteudo    "d) dois DAS 102.4;" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito    lex:temConteudo    "e) oito DAS 102.3; e" .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito    lex:temIncisoAlinea    lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito\/IncisoAlineaOito .
+lex:D7784\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaDois\/IncisoAlineaOito\/IncisoAlineaOito    lex:temConteudo    "f) oito DAS 102.2." .
+lex:D7784\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo3 .
+lex:D7784\/Artigo3    lex:temConteudo    "Art. 3o  Os ocupantes dos cargos que deixam de existir por força deste Decreto consideram-se automaticamente exonerados." .
+lex:D7784\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo4 .
+lex:D7784\/Artigo4    lex:temConteudo    "Art. 4 º  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de vinte dias, contado da data de entrada em vigor deste Decreto." .
+lex:D7784\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7784\/Artigo4    lex:temParagrafo    lex:D7784\/Artigo4\/ParagrafoUnico .
+lex:D7784\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos, o Ministro de Estado do Esporte fará publicar, no Diário Oficial da União, no prazo de trinta dias, relação nominal dos titulares dos cargos em comissão a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, suas denominações e respectivos níveis." .
+lex:D7784\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo5 .
+lex:D7784\/Artigo5    lex:temConteudo    "Art. 5 º  O Ministro de Estado do Esporte poderá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental, suas competências e as atribuições dos dirigentes." .
+lex:D7784\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo6 .
+lex:D7784\/Artigo6    lex:temConteudo    "Art. 6 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7784\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7784    lex:temArtigo    lex:D7784\/Artigo7 .
+lex:D7784\/Artigo7    lex:temConteudo    "Art. 7 º  Ficam revogados:" .
+lex:D7784\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7784\/Artigo7    lex:temInciso    lex:D7784\/Artigo7\/IncisoI .
+lex:D7784\/Artigo7\/IncisoI    lex:temConteudo    "I - o Decreto n º 7.529, de 21 de julho de 2011; e" .
+lex:D7784\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7784\/Artigo7    lex:temInciso    lex:D7784\/Artigo7\/IncisoII .
+lex:D7784\/Artigo7\/IncisoII    lex:temConteudo    "II - o Decreto n º 7.630, de 30 de novembro de 2011." .
+lex:D7784\/Artigo7\/IncisoI    lex:remetePara    lex:D7529 .
+lex:D7784\/Artigo7\/IncisoII    lex:remetePara    lex:D7630 .

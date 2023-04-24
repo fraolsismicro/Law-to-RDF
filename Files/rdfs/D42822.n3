@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D42822    lex:ehUm    lex:DocLegal .
+lex:D42822    lex:temTextoIntegral    lex:HTMLs\/D42822.htm .
+lex:D42822\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D42822    lex:temArtigo    lex:D42822\/Artigo1 .
+lex:D42822\/Artigo1    lex:temConteudo    "Art 1º A taxa especial de propaganda do café no exterior equivalente a 25 (vinte e cinco) centavos de dólar norte-americano por saca de 60 (sessenta) quilos, a que se refere a Lei nº 3.302. de 4 de novembro de 1957, será cobrada em cruzeiros, feita a conversão na mesma base do câmbio pago ao exportador." .
+lex:D42822\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D42822\/Artigo1    lex:temParagrafo    lex:D42822\/Artigo1\/ParagrafoUnico .
+lex:D42822\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para os efeitos dêste artigo, considera-se câmbio pago ao exportador a taxa do mercado oficial, acrescida da bonificação respectiva" .
+lex:D42822\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D42822    lex:temArtigo    lex:D42822\/Artigo2 .
+lex:D42822\/Artigo2    lex:temConteudo    "Art 2º A arrecadação da taxa referida no artigo 1º será feita pelo Instituto Brasileiro do Café, que promoverá o seu recolhimento ao Banco do Brasil S.A., suas sucursais, filiais e agências, em conta vinculada à propaganda do café no exterior, em conformidade com as instruções a serem expedidas pela Diretoria do mesmo Instituto." .
+lex:D42822\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D42822    lex:temArtigo    lex:D42822\/Artigo3 .
+lex:D42822\/Artigo3    lex:temConteudo    "Art 3º Nenhuma exportação de café, por qualquer ponto do País, poderá ser autorizada pela competente autoridade aduaneira, sem a exibição da prova do pagamento da taxa de que trata o art. 1º ." .
+lex:D42822\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D42822\/Artigo3    lex:temParagrafo    lex:D42822\/Artigo3\/ParagrafoUnico .
+lex:D42822\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Nos casos em que as cambiais de exportação forem negociáveis após o embarque da mercadoria, contra a entrega dos respectivos conhecimentos ou a prazo, a Fiscalização Bancária do Banco do Brasil S.A. declarará, nas guias de embarque que o exportador, mediante assinatura de têrmo de responsabilidade, assumiu a obrigação de autorizar o banco negociador de suas cambiais a creditar, ao Instituto Brasileiro do café, o valor da taxa a que se refere êste decreto." .
+lex:D42822\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D42822    lex:temArtigo    lex:D42822\/Artigo4 .
+lex:D42822\/Artigo4    lex:temConteudo    "Art 4º A transferência para o exterior do produto da taxa destinado, exclusivamente ao custeio das despesas de propaganda do café, processar-se-á de acôrdo com as normas vigentes à medida das necessidades." .
+lex:D42822\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D42822    lex:temArtigo    lex:D42822\/Artigo5 .
+lex:D42822\/Artigo5    lex:temConteudo    "Art 5º Revogam-se as disposições em contrário." .
+lex:D42822\/Artigo1    lex:remetePara    lex:L3302 .

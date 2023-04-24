@@ -1,0 +1,59 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5005    lex:ehUm    lex:DocLegal .
+lex:D5005    lex:temTextoIntegral    lex:HTMLs\/D5005.htm .
+lex:D5005\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaA .
+lex:D5005\/AlineaA    lex:temConteudo    "a) a expressão 'trabalho noturno' designa todo trabalho que seja realizado durante um período de pelo menos sete horas consecutivas, que abranja o intervalo compreendido entre a meia noite e as cinco horas da manhã, e que será determinado pela autoridade competente mediante consulta prévia com as organizações mais representativas dos empregadores e de trabalhadores ou através de convênios coletivos;" .
+lex:D5005\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaA .
+lex:D5005\/AlineaA    lex:temConteudo    "b) a expressão 'trabalhador noturno' designa todo trabalhador assalariado cujo trabalho exija a realização de horas de trabalho noturno em número substancial, superior a um limite determinado. Esse número será fixado pela autoridade competente mediante consulta prévia com as organizações mais representativas de empregadores e de trabalhadores, ou através de convênios coletivos." .
+lex:D5005\/AlineaAntes    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaAntes .
+lex:D5005\/AlineaAntes    lex:temConteudo    "a) antes de sua colocação em trabalho noturno;" .
+lex:D5005\/AlineaEm    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaEm .
+lex:D5005\/AlineaEm    lex:temConteudo    "b) em intervalos regulares durante essa colocação;" .
+lex:D5005\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaNo .
+lex:D5005\/AlineaNo    lex:temConteudo    "c) no caso de padecerem durante essa colocação problemas de saúde que não sejam devidos a fatores alheios ao trabalho noturno." .
+lex:D5005\/AlineaNo\/ItemSalvo    lex:ehUm    lex:Item .
+lex:D5005\/AlineaNo    lex:temItem    lex:D5005\/AlineaNo\/ItemSalvo .
+lex:D5005\/AlineaNo\/ItemSalvo    lex:temConteudo    "2. Salvo declaração de não serem aptos para o trabalho noturno, o teor dessas avaliações não será comunicado a terceiros sem o seu consentimento, nem utilizado em seu prejuízo." .
+lex:D5005\/AlineaAntes    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaAntes .
+lex:D5005\/AlineaAntes    lex:temConteudo    "a) antes e depois do parto, durante o período de, pelo menos, dezesseis semanas, das quais oito, pelo menos, deverão ser tomadas antes da data estimada para o parto;" .
+lex:D5005\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaCom .
+lex:D5005\/AlineaCom    lex:temConteudo    "b) com prévia apresentação de certificado médico indicando que isso é necessário para a saúde da mãe ou do filho, por outros períodos compreendidos;" .
+lex:D5005\/AlineaDurante    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaDurante .
+lex:D5005\/AlineaDurante    lex:temConteudo    "i) durante a gravidez;" .
+lex:D5005\/AlineaNao    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaNao .
+lex:D5005\/AlineaNao    lex:temConteudo    "a) não deverá ser demitida, nem receber comunicação de demissão, a trabalhadora em questão, salvo por causas justificadas não vinculadas à gravidez ou ao parto;" .
+lex:D5005\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaOs .
+lex:D5005\/AlineaOs    lex:temConteudo    "b) os rendimentos da trabalhadora deverão ser mantidos em nível suficiente para garantir o sustento da mulher e do seu filho em condições de vida adequadas. A manutenção desses rendimentos poderá ser assegurada mediante qualquer uma das medidas indicadas no parágrafo 2 deste Artigo, por qualquer outra medida apropriada, ou bem por meio de uma combinação dessas medidas;" .
+lex:D5005\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaA .
+lex:D5005\/AlineaA    lex:temConteudo    "c) a trabalhadora não perderá benefícios relativos a grau, antigüidade e possibilidades de promoção que estejam vinculados ao cargo de trabalho noturno que desempenha regularmente." .
+lex:D5005\/AlineaA\/ItemAs    lex:ehUm    lex:Item .
+lex:D5005\/AlineaA    lex:temItem    lex:D5005\/AlineaA\/ItemAs .
+lex:D5005\/AlineaA\/ItemAs    lex:temConteudo    "4. As disposições do presente Artigo não deverão ter como efeito a redução da proteção e os benefícios relativos à licença maternidade." .
+lex:D5005\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaA .
+lex:D5005\/AlineaA    lex:temConteudo    "a) a ratificação, por um Membro, da nova Convenção revista, implicará, de pleno direito, não obstante o disposto pelo Artigo 22, a denúncia imediata da presente Convenção, desde que a nova Convenção revista tenha entrado em vigor." .
+lex:D5005\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5005    lex:temAlinea    lex:D5005\/AlineaA .
+lex:D5005\/AlineaA    lex:temConteudo    "b) a partir da entrada em vigor da Convenção revista, a presente Convenção deixará de estar aberta à ratificação dos Membros." .
+lex:D5005\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D5005\/AlineaA    lex:temItem    lex:D5005\/AlineaA\/ItemA .
+lex:D5005\/AlineaA\/ItemA    lex:temConteudo    "2. A presente Convenção continuará em vigor, em qualquer caso, em sua forma e teor atuais, para os Membros que a tiverem ratificado e que não ratificaram a Convenção revista." .
+lex:D5005\/Artigo2    lex:remetePara    lex:Constituiçao\/ART49 .

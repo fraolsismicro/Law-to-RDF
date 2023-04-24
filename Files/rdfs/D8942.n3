@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8942    lex:ehUm    lex:DocLegal .
+lex:D8942    lex:temTextoIntegral    lex:HTMLs\/D8942.htm .
+lex:D8942\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8942    lex:temArtigo    lex:D8942\/Artigo1 .
+lex:D8942\/Artigo1    lex:temConteudo    "Art. 1 º  Fica a União autorizada a integralizar cotas do Fundo de Garantia de Operações de Crédito Educativo - FGEDUC, de que trata a Lei n º 12.087, de 11 de novembro de 2009, no montante de até R$ 563.840.861,57 (quinhentos e sessenta e três milhões, oitocentos e quarenta mil, oitocentos e sessenta e um reais e cinquenta e sete centavos)." .
+lex:D8942\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8942\/Artigo1    lex:temParagrafo    lex:D8942\/Artigo1\/ParagrafoUnico .
+lex:D8942\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A integralização de cotas de que trata o caput deverá ser autorizada por meio de ato do Ministro de Estado da Fazenda, de acordo com a disponibilidade financeira." .
+lex:D8942\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8942    lex:temArtigo    lex:D8942\/Artigo2 .
+lex:D8942\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8942\/Artigo1    lex:remetePara    lex:L12087 .

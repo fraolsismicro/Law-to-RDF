@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12399    lex:ehUm    lex:DocLegal .
+lex:L12399    lex:temTextoIntegral    lex:HTMLs\/L12399.htm .
+lex:L12399\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12399    lex:temArtigo    lex:L12399\/Artigo1 .
+lex:L12399\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei acresce o § 3o ao art. 974 da Lei no 10.406, de 10 de janeiro de 2002, que institui o Código Civil, para dispor sobre o registro de contratos e alterações contratuais de sociedade que seja integrada por sócio incapaz." .
+lex:L12399\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12399    lex:temArtigo    lex:L12399\/Artigo2 .
+lex:L12399\/Artigo2    lex:temConteudo    "Art. 2o  O art. 974 da Lei no 10.406, de 10 de janeiro de 2002, passa a vigorar acrescido do seguinte § 3o:" .
+lex:L12399\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12399\/Artigo2    lex:temParagrafo    lex:L12399\/Artigo2\/Paragrafo3 .
+lex:L12399\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  O Registro Público de Empresas Mercantis a cargo das Juntas Comerciais deverá registrar contratos ou alterações contratuais de sociedade que envolva sócio incapaz, desde que atendidos, de forma conjunta, os seguintes pressupostos:" .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L12399\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoI .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I   o sócio incapaz não pode exercer a administração da sociedade;" .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12399\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoII .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II   o capital social deve ser totalmente integralizado;" .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12399\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII .
+lex:L12399\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III   o sócio relativamente incapaz deve ser assistido e o absolutamente incapaz deve ser representado por seus representantes legais. (NR)" .
+lex:L12399\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12399    lex:temArtigo    lex:L12399\/Artigo3 .
+lex:L12399\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12399\/Artigo2\/Paragrafo3    lex:remetePara    lex:L10406\/Artigo974\/Paragrafo3 .

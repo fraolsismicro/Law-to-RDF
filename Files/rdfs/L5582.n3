@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5582    lex:ehUm    lex:DocLegal .
+lex:L5582    lex:temTextoIntegral    lex:HTMLs\/L5582.htm .
+lex:L5582\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5582    lex:temArtigo    lex:L5582\/Artigo1 .
+lex:L5582\/Artigo1    lex:temConteudo    "Art. 1º O artigo 16 do Decreto-lei nº 3.200, de 19 de abril de 1941, que dispõe sôbre a organização e proteção da família, passa a ter a seguinte redação:" .
+lex:L5582\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5582\/Artigo1    lex:temParagrafo    lex:L5582\/Artigo1\/Paragrafo1 .
+lex:L5582\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Verificado que não deve o filho permanecer em poder da mãe ou do pai, deferirá o Juiz a sua guarda a pessoa notòriamente idônea, de preferência da família de qualquer dos genitores." .
+lex:L5582\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5582\/Artigo1    lex:temParagrafo    lex:L5582\/Artigo1\/Paragrafo2 .
+lex:L5582\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Havendo motivos graves, devidamente comprovados, poderá o Juiz, a qualquer tempo e caso, decidir de outro modo, no interêsse do menor.'" .
+lex:L5582\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5582    lex:temArtigo    lex:L5582\/Artigo2 .
+lex:L5582\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5582\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5582    lex:temArtigo    lex:L5582\/Artigo3 .
+lex:L5582\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5582\/Artigo1    lex:remetePara    lex:Del3200 .
+lex:L5582\/Texto00001    lex:remetePara    lex:Del3200\/Artigo16 .

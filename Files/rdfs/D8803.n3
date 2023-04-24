@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8803    lex:ehUm    lex:DocLegal .
+lex:D8803    lex:temTextoIntegral    lex:HTMLs\/D8803.htm .
+lex:D8803\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8803    lex:temArtigo    lex:D8803\/Artigo1 .
+lex:D8803\/Artigo1    lex:temConteudo    "Art. 1o  Fica delegada competência ao Ministro de Estado Chefe da Casa Civil da Presidência da República para decidir e praticar os atos de autorização de funcionamento no País de sociedade estrangeira, inclusive para aprovação de modificação no contrato ou no estatuto, sua nacionalização e a cassação de autorização de seu funcionamento, permitida a subdelegação." .
+lex:D8803\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8803\/Artigo1    lex:temParagrafo    lex:D8803\/Artigo1\/ParagrafoUnico .
+lex:D8803\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na hipótese de atividade a ser exercida pela sociedade estrangeira envolver produtos controlados pelo Comando do Exército relacionados no Regulamento para a Fiscalização de Produtos Controlados (R-105), aprovado pelo Decreto n º 3.665, de 20 de novembro de 2000, a autorização de que trata o caput deverá ser precedida de anuência do Comando do Exército." .
+lex:D8803\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8803    lex:temArtigo    lex:D8803\/Artigo2 .
+lex:D8803\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8803\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8803    lex:temArtigo    lex:D8803\/Artigo3 .
+lex:D8803\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 5.664, de 10 de janeiro de 2006." .
+lex:D8803\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D3665 .
+lex:D8803\/Artigo3    lex:remetePara    lex:D5664 .
+lex:D8803\/Artigo3    lex:remetePara    lex:D5664 .

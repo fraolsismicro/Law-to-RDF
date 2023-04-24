@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12291    lex:ehUm    lex:DocLegal .
+lex:L12291    lex:temTextoIntegral    lex:HTMLs\/L12291.htm .
+lex:L12291\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12291    lex:temArtigo    lex:L12291\/Artigo1 .
+lex:L12291\/Artigo1    lex:temConteudo    "Art. 1o  São os estabelecimentos comerciais e de prestação de serviços obrigados a manter, em local visível e de fácil acesso ao público, 1 (um) exemplar do Código de Defesa do Consumidor." .
+lex:L12291\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12291    lex:temArtigo    lex:L12291\/Artigo2 .
+lex:L12291\/Artigo2    lex:temConteudo    "Art. 2o  O não cumprimento do disposto nesta Lei implicará as seguintes penalidades, a serem aplicadas aos infratores pela autoridade administrativa no âmbito de sua atribuição:" .
+lex:L12291\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12291\/Artigo2    lex:temInciso    lex:L12291\/Artigo2\/IncisoI .
+lex:L12291\/Artigo2\/IncisoI    lex:temConteudo    "I - multa no montante de até R$ 1.064,10 (mil e sessenta e quatro reais e dez centavos);" .
+lex:L12291\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12291\/Artigo2    lex:temInciso    lex:L12291\/Artigo2\/IncisoII .
+lex:L12291\/Artigo2\/IncisoII    lex:temConteudo    "II   (VETADO); e" .
+lex:L12291\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12291\/Artigo2    lex:temInciso    lex:L12291\/Artigo2\/IncisoIII .
+lex:L12291\/Artigo2\/IncisoIII    lex:temConteudo    "III   (VETADO)." .
+lex:L12291\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12291    lex:temArtigo    lex:L12291\/Artigo3 .
+lex:L12291\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12291\/Texto    lex:remetePara    lex:VEP-420-10 .
+lex:L12291\/Artigo2\/IncisoII    lex:remetePara    lex:VEP-420-10 .
+lex:L12291\/Artigo2\/IncisoIII    lex:remetePara    lex:VEP-420-10 .

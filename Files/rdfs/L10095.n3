@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10095    lex:ehUm    lex:DocLegal .
+lex:L10095    lex:temTextoIntegral    lex:HTMLs\/L10095.htm .
+lex:L10095\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10095    lex:temArtigo    lex:L10095\/Artigo2 .
+lex:L10095\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior decorrerão:" .
+lex:L10095\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10095\/Artigo2    lex:temInciso    lex:L10095\/Artigo2\/IncisoI .
+lex:L10095\/Artigo2\/IncisoI    lex:temConteudo    "I - do excesso de arrecadação de receitas do Tesouro Nacional, no valor de R$ 3.517.413,00 (três milhões, quinhentos e dezessete mil, quatrocentos e treze reais); e" .
+lex:L10095\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10095\/Artigo2    lex:temInciso    lex:L10095\/Artigo2\/IncisoII .
+lex:L10095\/Artigo2\/IncisoII    lex:temConteudo    "II - do cancelamento parcial de dotações orçamentárias, no valor de R$ 30.098.968,00 (trinta milhões, noventa e oito mil, novecentos e sessenta e oito reais), conforme indicado no Anexo II desta Lei." .
+lex:L10095\/Artigo1    lex:remetePara    lex:L9969 .

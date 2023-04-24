@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5571    lex:ehUm    lex:DocLegal .
+lex:D5571    lex:temTextoIntegral    lex:HTMLs\/D5571.htm .
+lex:D5571\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5571    lex:temParagrafo    lex:D5571\/Paragrafo2 .
+lex:D5571\/Paragrafo2    lex:temConteudo    "§ 2o  Sobre os recursos transferidos pela União para aumento do capital social, incidirão encargos financeiros equivalentes à taxa do Sistema Especial de Liquidação e de Custódia - SELIC, a partir do recebimento dos créditos até a data da efetiva capitalização.' (NR)" .
+lex:D5571\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D5571    lex:temParagrafo    lex:D5571\/Paragrafo7 .
+lex:D5571\/Paragrafo7    lex:temConteudo    "§ 7o  A CBEE arcará com as despesas de locomoção e estada necessárias ao desempenho das funções dos membros do Conselho de Administração.' (NR)" .
+lex:D5571\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D5571    lex:temParagrafo    lex:D5571\/Paragrafo8 .
+lex:D5571\/Paragrafo8    lex:temConteudo    "§ 8o  A remuneração dos membros do Conselho Fiscal será fixada pelo Ministro de Estado de Minas e Energia e não excederá, em nenhuma hipótese, a dez por cento da remuneração mensal média dos Diretores da CBEE, nos termos da Lei no 9.292, de 1996." .
+lex:D5571\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:D5571    lex:temParagrafo    lex:D5571\/Paragrafo9 .
+lex:D5571\/Paragrafo9    lex:temConteudo    "§ 9o  A CBEE arcará com as despesas de locomoção e estada necessárias ao desempenho das funções dos membros do Conselho Fiscal.' (NR)" .
+lex:D5571\/Paragrafo9\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5571\/Paragrafo9    lex:temParagrafoInciso    lex:D5571\/Paragrafo9\/ParagrafoIncisoI .
+lex:D5571\/Paragrafo9\/ParagrafoIncisoI    lex:temConteudo    "I - se positivas, como créditos dos consumidores destinados à redução dos custos a serem rateados entre eles; e" .
+lex:D5571\/Paragrafo9\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5571\/Paragrafo9    lex:temParagrafoInciso    lex:D5571\/Paragrafo9\/ParagrafoIncisoII .
+lex:D5571\/Paragrafo9\/ParagrafoIncisoII    lex:temConteudo    "II - se negativas, como débitos dos consumidores a serem rateados entre eles." .
+lex:D5571\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5571    lex:temArtigo    lex:D5571\/Artigo2 .
+lex:D5571\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5571\/Texto    lex:remetePara    lex:D3900\/Artigo5 .
+lex:D5571\/Paragrafo2    lex:remetePara    lex:D3900\/Artigo5\/Paragrafo2 .
+lex:D5571\/Paragrafo7    lex:remetePara    lex:D3900\/Artigo6\/Paragrafo7 .
+lex:D5571\/Paragrafo8    lex:remetePara    lex:D3900\/Artigo14\/Paragrafo8 .
+lex:D5571\/Texto00004    lex:remetePara    lex:D3900\/Artigo17 .
+lex:D5571\/Paragrafo9\/Texto00006    lex:remetePara    lex:D3900\/Artigo21 .

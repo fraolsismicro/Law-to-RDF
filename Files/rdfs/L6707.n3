@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6707    lex:ehUm    lex:DocLegal .
+lex:L6707    lex:temTextoIntegral    lex:HTMLs\/L6707.htm .
+lex:L6707\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6707    lex:temArtigo    lex:L6707\/Artigo1 .
+lex:L6707\/Artigo1    lex:temConteudo    "Art. 1º O § 1º do art. 4º da Lei nº 1.060, de 5 de fevereiro de 1950, passa a vigorar com seguinte redação:" .
+lex:L6707\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6707\/Artigo1    lex:temParagrafo    lex:L6707\/Artigo1\/Paragrafo1 .
+lex:L6707\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A petição será instruída por um atestado de que conste ser o requerente necessitado, não podendo pagar as despesas do processo. Este documento será expedido, isento de selos e emolumentos, pela autoridade policial ou pelo Prefeito Municipal, sendo dispensado à vista de contrato de trabalho comprobatório de que o mesmo percebe salários igual ou inferior ao dobro do mínimo legal regional.'" .
+lex:L6707\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6707    lex:temArtigo    lex:L6707\/Artigo2 .
+lex:L6707\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6707\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6707    lex:temArtigo    lex:L6707\/Artigo3 .
+lex:L6707\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L6707\/Artigo1    lex:remetePara    lex:L1060\/Artigo4\/Paragrafo1 .

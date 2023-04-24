@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5891    lex:ehUm    lex:DocLegal .
+lex:D5891    lex:temTextoIntegral    lex:HTMLs\/D5891.htm .
+lex:D5891\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo1 .
+lex:D5891\/Artigo1    lex:temConteudo    "Art. 1o  O Ministério da Agricultura, Pecuária e Abastecimento adotará as medidas destinadas à substituição, por sementes produzidas em conformidade com os ditames da Lei no 10.711, de 5 de agosto de 2003, de grãos de soja geneticamente modificada tolerante a glifosato reservados para uso próprio pelos produtores rurais do Estado do Rio Grande do Sul, para o plantio da safra 2006/2007." .
+lex:D5891\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5891\/Artigo1    lex:temParagrafo    lex:D5891\/Artigo1\/ParagrafoUnico .
+lex:D5891\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério da Agricultura, Pecuária e Abastecimento expedirá normas complementares estabelecendo critérios, limites e procedimentos para execução, por intermédio da Companhia Nacional de Abastecimento - CONAB, do disposto no caput deste artigo." .
+lex:D5891\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo2 .
+lex:D5891\/Artigo2    lex:temConteudo    "Art. 2o  Fica prorrogada para a safra 2006/2007, exclusivamente no Estado do Rio Grande do Sul, a autorização de que trata o art. 36 da Lei no 11.105, de 24 de março de 2005, vedada nova prorrogação." .
+lex:D5891\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5891\/Artigo2    lex:temParagrafo    lex:D5891\/Artigo2\/ParagrafoUnico .
+lex:D5891\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  É vedada a comercialização ou uso próprio, como semente, dos grãos obtidos a partir do plantio autorizado no caput deste artigo." .
+lex:D5891\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo3 .
+lex:D5891\/Artigo3    lex:temConteudo    "Art. 3o  Aplica-se o disposto nos arts. 114 e 115 do Decreto no 5.153, de 23 de julho de 2004, ao produtor que optar por reservar parte de sua produção como semente para uso próprio." .
+lex:D5891\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo4 .
+lex:D5891\/Artigo4    lex:temConteudo    "Art. 4o  O descumprimento do disposto neste Decreto sujeita o infrator às penalidades previstas na Lei no 10.711, de 2003, no Decreto no 5.153, de 2004, e, no que couber, na Lei no 11.105, de 2005." .
+lex:D5891\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo5 .
+lex:D5891\/Artigo5    lex:temConteudo    "Art. 5o  Caberá ao Ministério da Agricultura, Pecuária e Abastecimento fiscalizar o cumprimento do disposto neste Decreto." .
+lex:D5891\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5891    lex:temArtigo    lex:D5891\/Artigo6 .
+lex:D5891\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5891\/Artigo1    lex:remetePara    lex:L10711 .
+lex:D5891\/Artigo2    lex:remetePara    lex:L11105\/Artigo36 .
+lex:D5891\/Artigo3    lex:remetePara    lex:D5153\/Artigo114 .
+lex:D5891\/Artigo3    lex:remetePara    lex:D5153\/Artigo115 .
+lex:D5891\/Artigo4    lex:remetePara    lex:L10711 .
+lex:D5891\/Artigo4    lex:remetePara    lex:D5153 .
+lex:D5891\/Artigo4    lex:remetePara    lex:L11105 .

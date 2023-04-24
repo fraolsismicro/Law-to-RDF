@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1238    lex:ehUm    lex:DocLegal .
+lex:Del1238    lex:temTextoIntegral    lex:HTMLs\/Del1238.htm .
+lex:Del1238\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1238    lex:temArtigo    lex:Del1238\/Artigo1 .
+lex:Del1238\/Artigo1    lex:temConteudo    "Art. 1º Fica o Ministro da Fazenda autorizado a conceder remissão dos débitos contraídos pelo Departamento Nacional de Estradas de Rodagem - DNER - perante o Tesouro Nacional, resultantes de operações de crédito relativas à emissão e colocação de Obrigações Reajustáveis do Tesouro Nacional." .
+lex:Del1238\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1238\/Artigo1    lex:temParagrafo    lex:Del1238\/Artigo1\/ParagrafoUnico .
+lex:Del1238\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O orçamento próprio do Departamento Nacional de Estradas de Rodagem consignará como despesas de capital, anual e obrigatoriamente, valores que perfaçam o montante da remissão concedida." .
+lex:Del1238\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1238    lex:temArtigo    lex:Del1238\/Artigo2 .
+lex:Del1238\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .

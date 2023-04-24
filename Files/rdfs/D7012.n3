@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7012    lex:ehUm    lex:DocLegal .
+lex:D7012    lex:temTextoIntegral    lex:HTMLs\/D7012.htm .
+lex:D7012\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7012    lex:temArtigo    lex:D7012\/Artigo1 .
+lex:D7012\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o e 2o do Regulamento da Ordem do Mérito Cultural, aprovado pelo Decreto no 1.711, de 22 de novembro de 1995, passam a vigorar com a seguinte redação:" .
+lex:D7012\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7012\/Artigo1    lex:temInciso    lex:D7012\/Artigo1\/IncisoI .
+lex:D7012\/Artigo1\/IncisoI    lex:temConteudo    "I - Grã-Cruz;" .
+lex:D7012\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7012\/Artigo1    lex:temInciso    lex:D7012\/Artigo1\/IncisoII .
+lex:D7012\/Artigo1\/IncisoII    lex:temConteudo    "II - Comendador; e" .
+lex:D7012\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7012\/Artigo1    lex:temInciso    lex:D7012\/Artigo1\/IncisoIII .
+lex:D7012\/Artigo1\/IncisoIII    lex:temConteudo    "III - Cavaleiro." .
+lex:D7012\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7012\/Artigo1    lex:temParagrafo    lex:D7012\/Artigo1\/Paragrafo1 .
+lex:D7012\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O Presidente da República será o Grão-Mestre da Ordem e o Ministro de Estado da Cultura, o Chanceler." .
+lex:D7012\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7012\/Artigo1    lex:temParagrafo    lex:D7012\/Artigo1\/Paragrafo2 .
+lex:D7012\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O Grão-Mestre e o Chanceler serão agraciados com a Grã-Cruz, que conservarão." .
+lex:D7012\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7012\/Artigo1    lex:temParagrafo    lex:D7012\/Artigo1\/Paragrafo3 .
+lex:D7012\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os órgãos e as entidades públicas e privadas nacionais e estrangeiras são admitidos sem grau das classes. (NR)" .
+lex:D7012\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7012    lex:temArtigo    lex:D7012\/Artigo2 .
+lex:D7012\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7012\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7012    lex:temArtigo    lex:D7012\/Artigo3 .
+lex:D7012\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os §§ 4o e 5o do art. 2o do Regulamento da Ordem do Mérito Cultural, aprovado pelo Decreto no 1.711, de 22 de novembro de 1995, e os Decretos nos 2.382, de 12 de novembro de 1997, e 5.538, de 19 de setembro de 2005." .
+lex:D7012\/Artigo1    lex:remetePara    lex:D1711 .
+lex:D7012\/Texto00001    lex:remetePara    lex:D1711\/Artigo1 .
+lex:D7012\/Texto00001    lex:remetePara    lex:L8313cons\/Artigo34 .
+lex:D7012\/Texto00001    lex:remetePara    lex:D1711\/Artigo2 .
+lex:D7012\/Artigo3    lex:remetePara    lex:D1711\/Artigo2\/Paragrafo4 .
+lex:D7012\/Artigo3    lex:regulamentadoPor    lex:D1711\/Artigo2\/Paragrafo5 .
+lex:D1711\/Artigo2\/Paragrafo5    lex:regulamenta    lex:D7012\/Artigo3 .
+lex:D7012\/Artigo3    lex:remetePara    lex:D2382 .
+lex:D7012\/Artigo3    lex:remetePara    lex:D5538 .

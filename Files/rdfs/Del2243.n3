@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2243    lex:ehUm    lex:DocLegal .
+lex:Del2243    lex:temTextoIntegral    lex:HTMLs\/Del2243.htm .
+lex:Del2243\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2243    lex:temArtigo    lex:Del2243\/Artigo1 .
+lex:Del2243\/Artigo1    lex:temConteudo    "Art. 1º Fica incluído no artigo 3º do Decreto-lei nº 1.727, de 10 de dezembro de 1979, parágrafo único, com a seguinte redação:" .
+lex:Del2243\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2243\/Artigo1    lex:temParagrafo    lex:Del2243\/Artigo1\/ParagrafoUnico .
+lex:Del2243\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As parcelas incorporadas ao vencimento do cargo efetivo, nos termos deste artigo, não serão consideradas para efeito do cálculo da vantagem pessoal de que trata o artigo 2º da Lei nº 6.732, de 04 de dezembro de 1979." .
+lex:Del2243\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2243    lex:temArtigo    lex:Del2243\/Artigo2 .
+lex:Del2243\/Artigo2    lex:temConteudo    "Art. 2º A despesa decorrente da aplicação deste Decreto-lei será atendida à conta dos recursos orçamentários do Distrito Federal." .
+lex:Del2243\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2243    lex:temArtigo    lex:Del2243\/Artigo3 .
+lex:Del2243\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2243\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1727\/Artigo3 .
+lex:Del2243\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6732\/Artigo2 .

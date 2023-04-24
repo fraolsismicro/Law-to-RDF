@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7931    lex:ehUm    lex:DocLegal .
+lex:D7931    lex:temTextoIntegral    lex:HTMLs\/D7931.htm .
+lex:D7931\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7931    lex:temArtigo    lex:D7931\/Artigo1 .
+lex:D7931\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 5.209, de 17 de setembro de 2004, passa a vigorar com as seguintes alterações:" .
+lex:D7931\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7931\/Artigo1    lex:temInciso    lex:D7931\/Artigo1\/IncisoV .
+lex:D7931\/Artigo1\/IncisoV    lex:temConteudo    "V - benefício para superação da extrema pobreza, cujo valor será calculado na forma do § 3o, no limite de um por família, destinado às unidades familiares beneficiárias do Programa Bolsa Família que apresentem soma da renda familiar mensal e dos benefícios financeiros previstos nos incisos I a III do caput igual ou inferior a R$ 70,00 (setenta reais) per capita." .
+lex:D7931\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7931\/Artigo1    lex:temParagrafo    lex:D7931\/Artigo1\/Paragrafo3 .
+lex:D7931\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º  O valor do benefício para superação da extrema pobreza será o resultado da diferença entre R$ 70,01 (setenta reais e um centavo) e a soma per capita referida no inciso V do caput, multiplicado pela quantidade de membros da família, arredondado ao múltiplo de R$ 2,00 (dois reais) imediatamente superior. (NR)" .
+lex:D7931\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7931    lex:temArtigo    lex:D7931\/Artigo2 .
+lex:D7931\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7931\/Artigo1\/IncisoV    lex:remetePara    lex:D5209\/Artigo19 .
+lex:D7931\/Artigo1\/Paragrafo3    lex:remetePara    lex:D5209\/Artigo19\/Paragrafo3 .

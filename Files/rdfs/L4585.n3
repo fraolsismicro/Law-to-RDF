@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4585    lex:ehUm    lex:DocLegal .
+lex:L4585    lex:temTextoIntegral    lex:HTMLs\/L4585.htm .
+lex:L4585\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4585    lex:temArtigo    lex:L4585\/Artigo1 .
+lex:L4585\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Poder Judiciário - Justiça Eleitoral - Tribunal Regional Eleitoral da Guanabara - o crédito suplementar de Cr$66.679.000,00 (sessenta e seis milhões, seiscentos e setenta e nove mil cruzeiros), em refôrço à dotação do Orçamento vigente (Lei nº 4.295, de 16 de dezembro de 1963), com a seguinte discriminação:" .
+lex:L4585\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4585    lex:temArtigo    lex:L4585\/Artigo2 .
+lex:L4585\/Artigo2    lex:temConteudo    "Art. 2º O referido crédito será automàticamente registrado e distribuído ao Tesouro Nacional dispensadas as formalidades do art. 93, do Regulamento Geral de Contabilidade." .
+lex:L4585\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4585    lex:temArtigo    lex:L4585\/Artigo3 .
+lex:L4585\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4585\/Artigo1    lex:remetePara    lex:L4295 .
+lex:L4585\/Artigo2    lex:regulamentadoPor    lex:DPL4536\/ART93 .
+lex:DPL4536\/ART93    lex:regulamenta    lex:L4585\/Artigo2 .

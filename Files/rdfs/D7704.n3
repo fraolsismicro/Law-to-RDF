@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7704    lex:ehUm    lex:DocLegal .
+lex:D7704    lex:temTextoIntegral    lex:HTMLs\/D7704.htm .
+lex:D7704\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7704    lex:temArtigo    lex:D7704\/Artigo1 .
+lex:D7704\/Artigo1    lex:temConteudo    "Art. 1o  O efetivo de oficiais dos Quadros do Corpo de Oficiais da Ativa da Aeronáutica em tempo de paz, para 2012, obedecerá ao disposto na Tabela de Distribuição do Efetivo, na forma do Anexo." .
+lex:D7704\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7704\/Artigo1    lex:temParagrafo    lex:D7704\/Artigo1\/Paragrafo1 .
+lex:D7704\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A Tabela de Distribuição do Efetivo referenciada no caput servirá como base para a aplicação das proporções estabelecidas no art. 61 da Lei no 6.880, de 9 de dezembro de 1980 - Estatuto dos Militares, e para o consequente cálculo da quota compulsória." .
+lex:D7704\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7704\/Artigo1    lex:temParagrafo    lex:D7704\/Artigo1\/Paragrafo2 .
+lex:D7704\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O Comandante da Aeronáutica editará atos complementares para a execução deste Decreto." .
+lex:D7704\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7704    lex:temArtigo    lex:D7704\/Artigo2 .
+lex:D7704\/Artigo2    lex:temConteudo    "Art. 2o  Fica delegada competência ao Comandante da Aeronáutica para alterar em até vinte por cento a distribuição dos efetivos de oficiais de que trata o Anexo, respeitados os limites estabelecidos na Lei que fixa os efetivos do Comando da Aeronáutica em tempo de paz." .
+lex:D7704\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7704    lex:temArtigo    lex:D7704\/Artigo3 .
+lex:D7704\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7704\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7704    lex:temArtigo    lex:D7704\/Artigo4 .
+lex:D7704\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados:" .
+lex:D7704\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7704\/Artigo4    lex:temInciso    lex:D7704\/Artigo4\/IncisoI .
+lex:D7704\/Artigo4\/IncisoI    lex:temConteudo    "I - o Decreto no 7.441, de 16 de fevereiro de 2011; e" .
+lex:D7704\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7704\/Artigo4    lex:temInciso    lex:D7704\/Artigo4\/IncisoII .
+lex:D7704\/Artigo4\/IncisoII    lex:temConteudo    "II - o Decreto no 7.588, de 21 de outubro de 2011." .
+lex:D7704\/Texto    lex:remetePara    lex:D7704i .
+lex:D7704\/Artigo1\/Paragrafo1    lex:remetePara    lex:L6880\/Artigo61 .
+lex:D7704\/Artigo4\/IncisoI    lex:remetePara    lex:D7441 .
+lex:D7704\/Artigo4\/IncisoII    lex:remetePara    lex:D7588 .

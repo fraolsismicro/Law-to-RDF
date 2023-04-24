@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7992    lex:ehUm    lex:DocLegal .
+lex:D7992    lex:temTextoIntegral    lex:HTMLs\/D7992.htm .
+lex:D7992\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7992    lex:temArtigo    lex:D7992\/Artigo1 .
+lex:D7992\/Artigo1    lex:temConteudo    "Art. 1o  Fica promulgado o Instrumento para a Criação do Fundo Reestruturado para o Meio Ambiente Global, firmado em Genebra, em 16 de março de 1994." .
+lex:D7992\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7992    lex:temArtigo    lex:D7992\/Artigo2 .
+lex:D7992\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão do Instrumento e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D7992\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7992\/Artigo2    lex:temParagrafo    lex:D7992\/Artigo2\/ParagrafoUnico .
+lex:D7992\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A efetivação das despesas autorizadas por este Ato é condicionada à prévia inclusão de dotação específica na Lei Orçamentária Anual, por meio de alocação originária ou de autorização legislativa para abertura de crédito adicional com essa finalidade." .
+lex:D7992\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7992    lex:temArtigo    lex:D7992\/Artigo3 .
+lex:D7992\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7992\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

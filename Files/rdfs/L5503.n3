@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5503    lex:ehUm    lex:DocLegal .
+lex:L5503    lex:temTextoIntegral    lex:HTMLs\/L5503.htm .
+lex:L5503\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5503    lex:temArtigo    lex:L5503\/Artigo1 .
+lex:L5503\/Artigo1    lex:temConteudo    "Art. 1º O art. 1º da Lei nº 5.311, de 18 de agôsto de 1967, passa a vigorar com a seguinte redação:" .
+lex:L5503\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5503    lex:temArtigo    lex:L5503\/Artigo2 .
+lex:L5503\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L5503\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5503    lex:temArtigo    lex:L5503\/Artigo3 .
+lex:L5503\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5503\/Artigo1    lex:remetePara    lex:L5311\/Artigo1 .

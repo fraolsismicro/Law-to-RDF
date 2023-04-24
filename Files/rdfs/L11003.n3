@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11003    lex:ehUm    lex:DocLegal .
+lex:L11003    lex:temTextoIntegral    lex:HTMLs\/L11003.htm .
+lex:L11003\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11003    lex:temArtigo    lex:L11003\/Artigo1 .
+lex:L11003\/Artigo1    lex:temConteudo    "Art. 1o O item 2.2.2   Relação Descritiva das Rodovias do Sistema Rodoviário Federal, subitem Ligações, integrante do Anexo da Lei no 5.917, de 10 de setembro de 1973, que aprova o Plano Nacional de Viação, passa a vigorar acrescido da interligação das rodovias BR-405 e BR-116, com a seguinte descrição:" .
+lex:L11003\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11003    lex:temArtigo    lex:L11003\/Artigo2 .
+lex:L11003\/Artigo2    lex:temConteudo    "Art. 2o O traçado definitivo do trecho de que trata o art. 1o desta Lei, bem como seu número, serão definidos pelo órgão competente." .
+lex:L11003\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11003    lex:temArtigo    lex:L11003\/Artigo3 .
+lex:L11003\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L11003\/Artigo1    lex:remetePara    lex:L5917\/222 .

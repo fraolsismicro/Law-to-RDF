@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1251    lex:ehUm    lex:DocLegal .
+lex:D1251    lex:temTextoIntegral    lex:HTMLs\/D1251.htm .
+lex:D1251\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1251    lex:temArtigo    lex:D1251\/Artigo1 .
+lex:D1251\/Artigo1    lex:temConteudo    "Art. 1º O art. 52 do Decreto nº 55.762, de 17 de fevereiro de 1965, transformado o atual parágrafo único em § 1º. passa a vigorar acrescido do seguinte parágrafo:" .
+lex:D1251\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1251\/Artigo1    lex:temParagrafo    lex:D1251\/Artigo1\/Paragrafo1 .
+lex:D1251\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º..............................................................." .
+lex:D1251\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1251\/Artigo1    lex:temParagrafo    lex:D1251\/Artigo1\/Paragrafo2 .
+lex:D1251\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Nos casos em que a cessão ou a transferência se fizer em favor de Fundos de Investimento no Exterior, constituídos na forma de regulamentação baixada pelo Conselho Monetário Nacional, não se aplica o disposto no parágrafo anterior.'" .
+lex:D1251\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1251    lex:temArtigo    lex:D1251\/Artigo2 .
+lex:D1251\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1251\/Artigo1    lex:remetePara    lex:D55762\/Artigo52 .

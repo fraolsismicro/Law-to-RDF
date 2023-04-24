@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10151    lex:ehUm    lex:DocLegal .
+lex:L10151    lex:temTextoIntegral    lex:HTMLs\/L10151.htm .
+lex:L10151\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10151    lex:temArtigo    lex:L10151\/Artigo2 .
+lex:L10151\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior decorrerão de:" .
+lex:L10151\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10151\/Artigo2    lex:temInciso    lex:L10151\/Artigo2\/IncisoI .
+lex:L10151\/Artigo2\/IncisoI    lex:temConteudo    "I   incorporação de excesso de arrecadação, no valor de R$ 15.000.000,00 (quinze milhões de reais); e" .
+lex:L10151\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10151\/Artigo2    lex:temInciso    lex:L10151\/Artigo2\/IncisoII .
+lex:L10151\/Artigo2\/IncisoII    lex:temConteudo    "II   anulação parcial de dotações orçamentárias, no valor de R$ 310.935,00 (trezentos e dez mil, novecentos e trinta e cinco reais), conforme indicado no Anexo II desta Lei." .
+lex:L10151\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10151    lex:temArtigo    lex:L10151\/Artigo3 .
+lex:L10151\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10151\/Artigo1    lex:remetePara    lex:L9969 .

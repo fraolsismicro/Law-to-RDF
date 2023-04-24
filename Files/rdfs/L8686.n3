@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8686    lex:ehUm    lex:DocLegal .
+lex:L8686    lex:temTextoIntegral    lex:HTMLs\/L8686.htm .
+lex:L8686\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8686    lex:temArtigo    lex:L8686\/Artigo1 .
+lex:L8686\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1º de maio de 1993, o valor da pensão especial instituída pela Lei nº 7.070, de 20 de dezembro de 1982, será revisto, mediante a multiplicação do número total de pontos indicadores da natureza e do grau de dependência resultante da deformidade física, constante do processo de concessão, pelo valor de Cr$ 3.320.000,00 (três milhões, trezentos e vinte mil cruzeiros)." .
+lex:L8686\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8686\/Artigo1    lex:temParagrafo    lex:L8686\/Artigo1\/ParagrafoUnico .
+lex:L8686\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O valor da pensão de que trata esta Lei não será inferior a um salário mínimo." .
+lex:L8686\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8686    lex:temArtigo    lex:L8686\/Artigo2 .
+lex:L8686\/Artigo2    lex:temConteudo    "Art. 2º A partir da competência de junho de 1993, o valor da pensão de que trata esta Lei será reajustado nas mesmas épocas e segundo os mesmos índices aplicados aos benefícios de prestação continuada mantidos pela Previdência Social." .
+lex:L8686\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8686    lex:temArtigo    lex:L8686\/Artigo3 .
+lex:L8686\/Artigo3    lex:temConteudo    "Art. 3º Os portadores da Síndrome de Talidomida terão prioridade no fornecimento de aparelhos de prótese, órtese e demais instrumentos de auxílio, bem como nas intervenções cirúrgicas e na assistência médica fornecidas pelo Ministério da Saúde, através do Sistema Único de Saúde - SUS." .
+lex:L8686\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8686    lex:temArtigo    lex:L8686\/Artigo4 .
+lex:L8686\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L8686\/Artigo1    lex:remetePara    lex:L7070 .

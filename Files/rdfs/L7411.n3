@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7411    lex:ehUm    lex:DocLegal .
+lex:L7411    lex:temTextoIntegral    lex:HTMLs\/L7411.htm .
+lex:L7411\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7411    lex:temArtigo    lex:L7411\/Artigo1 .
+lex:L7411\/Artigo1    lex:temConteudo    "Art. 1º - As Categorias Funcionais de Auxiliar Judiciário, código AJ-023, Agente de Segurança Judiciária, código AJ-024, e Atendente Judiciário, código AJ-025, do Grupo Atividades de Apoio Judiciário dos Quadros das Secretarias dos Tribunais Eleitorais, a que se referem os arts. 3º do Decreto lei nº 1.837, de 23 de dezembro de 1980, e 2º da Lei nº 7.061, de 6 de dezembro de 1982, passam a ter as estruturas constantes dos Anexos desta Lei." .
+lex:L7411\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7411    lex:temArtigo    lex:L7411\/Artigo2 .
+lex:L7411\/Artigo2    lex:temConteudo    "Art. 2º - As referências acrescidas às Classes Especiais das Categorias a que se refere o artigo anterior serão alcançadas pelos ocupantes dos cargos da mesma Classe, sem aumento de seu número e através de movimentação regulamentar, observados os limites orçamentários dos Tribunais Eleitorais." .
+lex:L7411\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7411    lex:temArtigo    lex:L7411\/Artigo3 .
+lex:L7411\/Artigo3    lex:temConteudo    "Art. 3º - Aos servidores das Secretarias dos Tribunais Eleitorais que tenham exercido encargo retribuído por Gratificação de Representação de Gabinete por 5 (cinco) anos ininterruptamente, ou por tempo superior, ainda que interpelado, aplica-se o disposto no art. 180, da Lei nº 1.711, de 28 de outubro de 1952, com a redação que lhe deu o art. 1º da Lei nº 6.732, de 4 de dezembro de 1979, e no art. 2º desta mesma Lei." .
+lex:L7411\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7411\/Artigo3    lex:temParagrafo    lex:L7411\/Artigo3\/ParagrafoUnico .
+lex:L7411\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O disposto neste artigo aplica-se aos servidores já aposentados que tenham satisfeito suas condições quando em atividade." .
+lex:L7411\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7411    lex:temArtigo    lex:L7411\/Artigo4 .
+lex:L7411\/Artigo4    lex:temConteudo    "Art. 4º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7411\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7411    lex:temArtigo    lex:L7411\/Artigo5 .
+lex:L7411\/Artigo5    lex:temConteudo    "Art. 5º - Revogam-se as disposições em contrário." .
+lex:L7411\/Artigo1    lex:remetePara    lex:Del1837\/Artigo3 .
+lex:L7411\/Artigo1    lex:remetePara    lex:L7061\/Artigo2 .
+lex:L7411\/Artigo3    lex:remetePara    lex:L1711 .
+lex:L7411\/Artigo3    lex:remetePara    lex:L6732\/Artigo1 .

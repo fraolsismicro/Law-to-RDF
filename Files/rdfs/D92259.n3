@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92259    lex:ehUm    lex:DocLegal .
+lex:D92259    lex:temTextoIntegral    lex:HTMLs\/D92259.htm .
+lex:D92259\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92259    lex:temArtigo    lex:D92259\/Artigo1 .
+lex:D92259\/Artigo1    lex:temConteudo    "Art. 1º -Fica autorizado o funcionamento do curso de Psicologia, com habilitações em Formação de Psicólogo e em Licenciatura em Psicologia, a ser ministrado pela Faculdade de Ciências Médicas e Paramédicas Fluminense, mantida pela Sociedade Educacional Fluminense, com sede em Nilópolis, Estado do Rio de Janeiro." .
+lex:D92259\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92259    lex:temArtigo    lex:D92259\/Artigo2 .
+lex:D92259\/Artigo2    lex:temConteudo    "Art. 2º -Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D92259\/Texto    lex:remetePara    lex:D92259 .

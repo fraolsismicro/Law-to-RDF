@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8449    lex:ehUm    lex:DocLegal .
+lex:D8449    lex:temTextoIntegral    lex:HTMLs\/D8449.htm .
+lex:D8449\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8449    lex:temArtigo    lex:D8449\/Artigo1 .
+lex:D8449\/Artigo1    lex:temConteudo    "Art. 1 º  Fica incluída no Programa Nacional de Desestatização - PND, para os fins da Lei n º 9.491, de 9 de setembro de 1997, a Celg Distribuição S.A." .
+lex:D8449\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8449    lex:temArtigo    lex:D8449\/Artigo2 .
+lex:D8449\/Artigo2    lex:temConteudo    "Art. 2 º Fica designado o Ministério de Minas e Energia como responsável pela execução e acompanhamento do processo de desestatização da Celg Distribuição S.A., nos termos do art. 6 º, § 1 º, da Lei n º 9.491, de 1997." .
+lex:D8449\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8449    lex:temArtigo    lex:D8449\/Artigo3 .
+lex:D8449\/Artigo3    lex:temConteudo    "Art. 3 º Fica designado o Banco Nacional do Desenvolvimento Econômico e Social como responsável por contratar os serviços e prover o apoio técnico necessários à execução da desestatização da Celg Distribuição S.A." .
+lex:D8449\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8449    lex:temArtigo    lex:D8449\/Artigo4 .
+lex:D8449\/Artigo4    lex:temConteudo    "Art. 4 º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8449\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D8449\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D8449\/Artigo2    lex:remetePara    lex:L9491\/Artigo6\/Paragrafo1 .

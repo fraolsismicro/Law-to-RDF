@@ -1,0 +1,69 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D60452    lex:ehUm    lex:DocLegal .
+lex:D60452    lex:temTextoIntegral    lex:HTMLs\/D60452.htm .
+lex:D60452\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo1 .
+lex:D60452\/Artigo1    lex:temConteudo    "Art. 1º O recolhimento das taxas e contribuições referidas no parágrafo 1º do artigo 1º e nos itens I e II do artigo 3º do Decreto-lei nº 308, de 28 de fevereiro de 1967, será feito até o último dia do mês subseqüente aquele que se verificar a saída do açúcar e do álcool da fábrica por efeito de venda, empréstimo, permuta, doação ou destinação como matéria-prima para uso próprio ou de terceiros com tradição real ou simbólica da mercadoria, observado, no que couber, as disposições atinentes a matéria constante do Decreto-lei nº 56, de 18 de novembro de 1966." .
+lex:D60452\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo2 .
+lex:D60452\/Artigo2    lex:temConteudo    "Art. 2º Fica mantido o contingente de 100.000.000 (cem milhões) de sacos de açúcar, mencionado no parágrafo 1º, do artigo 70, da Lei nº 4.870, de 1º de dezembro de 1965." .
+lex:D60452\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo3 .
+lex:D60452\/Artigo3    lex:temConteudo    "Art. 3º Visando assegurar condições efetivas de rentabilidade econômica às usinas de açúcar, ficam elevadas para 200.000 (duzentos mil) sacos de açúcar as cotas de produção das usinas cujo limite seja inferior a êsse nível conforme o objetivo visado pelo artigo 22, do Decreto-lei nº 308, de 28 de fevereiro de 1967." .
+lex:D60452\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D60452\/Artigo3    lex:temParagrafo    lex:D60452\/Artigo3\/ParagrafoUnico .
+lex:D60452\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Correrá por conta dos saldos do contingente de 100.000.000 (cem milhões) de sacos mencionado no artigo 2º dêste Decreto, a elevação das cotas de produção regulamentada neste artigo." .
+lex:D60452\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo4 .
+lex:D60452\/Artigo4    lex:temConteudo    "Art. 4º O Instituto do Açúcar e do Álcool, em conformidade com o disposto no artigo 15 do Decreto-lei nº 308, de 28 de fevereiro de 1967, não onerará a armazenagem e o transporte de açúcar a granel ou de tipo líquido, nem adotará medidas que dificultem ou encareçam sua produção e comercialização." .
+lex:D60452\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo5 .
+lex:D60452\/Artigo5    lex:temConteudo    "Art. 5º O Instituto do Açúcar e do Álcool, além dos livros mercantis mencionados no Decreto-lei nº 305, de 28 de fevereiro de 1967, somente poderá exigir mais os seguintes:" .
+lex:D60452\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D60452\/Artigo5    lex:temInciso    lex:D60452\/Artigo5\/IncisoI .
+lex:D60452\/Artigo5\/IncisoI    lex:temConteudo    "I - quando se tratar de usina de açúcar:" .
+lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro    lex:ehUm    lex:IncisoAlinea .
+lex:D60452\/Artigo5\/IncisoI    lex:temIncisoAlinea    lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro .
+lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro    lex:temConteudo    "a) livro de registro diário da produção de açúcar;" .
+lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro\/IncisoAlineaLivro    lex:ehUm    lex:IncisoAlinea .
+lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro    lex:temIncisoAlinea    lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro\/IncisoAlineaLivro .
+lex:D60452\/Artigo5\/IncisoI\/IncisoAlineaLivro\/IncisoAlineaLivro    lex:temConteudo    "b) livro de registro diário de saída de açúcar;" .
+lex:D60452\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D60452\/Artigo5    lex:temInciso    lex:D60452\/Artigo5\/IncisoII .
+lex:D60452\/Artigo5\/IncisoII    lex:temConteudo    "II - quando se tratar de destilaria de álcool:" .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro    lex:ehUm    lex:IncisoAlinea .
+lex:D60452\/Artigo5\/IncisoII    lex:temIncisoAlinea    lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro    lex:temConteudo    "a) livro de registro diário de produção dos vários tipos de álcool;" .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/IncisoAlineaLivro    lex:ehUm    lex:IncisoAlinea .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro    lex:temIncisoAlinea    lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/IncisoAlineaLivro .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/IncisoAlineaLivro    lex:temConteudo    "b) livro de registro diário de saída de álcool." .
+lex:D60452\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo7 .
+lex:D60452\/Artigo7    lex:temConteudo    "Art. 7º A política de comércio exterior e a exportação de açúcar, álcool, melaço e outros subprodutos da cana será determinada pelo Conselho Nacional do Comércio Exterior (CONCEX), em conformidade com o disposto na Lei nº 5.025, de 10 de junho de 1966." .
+lex:D60452\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D60452    lex:temArtigo    lex:D60452\/Artigo8 .
+lex:D60452\/Artigo8    lex:temConteudo    "Art. 8º Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D60452\/Artigo1    lex:remetePara    lex:Del0308\/Artigo1\/Paragrafo1 .
+lex:D60452\/Artigo1    lex:remetePara    lex:Del0308\/Artigo3 .
+lex:D60452\/Artigo1    lex:remetePara    lex:Del0056 .
+lex:D60452\/Artigo2    lex:remetePara    lex:l4870\/Artigo70\/Paragrafo1 .
+lex:D60452\/Artigo3    lex:remetePara    lex:Del0308\/Artigo22 .
+lex:D60452\/Artigo4    lex:remetePara    lex:Del0308\/Artigo15 .
+lex:D60452\/Artigo5    lex:remetePara    lex:Del0305 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Artigo6    lex:remetePara    lex:l4870\/Artigo56 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Artigo6    lex:revogadoPor    lex:D69320\/Artigo2 .
+lex:D69320\/Artigo2    lex:revogou    lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Artigo6 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo1    lex:remetePara    lex:l4870\/Artigo56 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo1    lex:revogadoPor    lex:D69320\/Artigo2 .
+lex:D69320\/Artigo2    lex:revogou    lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo1 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo2    lex:remetePara    lex:Del0308\/Artigo22 .
+lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo2    lex:revogadoPor    lex:D69320\/Artigo2 .
+lex:D69320\/Artigo2    lex:revogou    lex:D60452\/Artigo5\/IncisoII\/IncisoAlineaLivro\/Paragrafo2 .
+lex:D60452\/Artigo7    lex:remetePara    lex:L5025 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0471    lex:ehUm    lex:DocLegal .
+lex:D0471    lex:temTextoIntegral    lex:HTMLs\/D0471.htm .
+lex:D0471\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0471    lex:temArtigo    lex:D0471\/Artigo1 .
+lex:D0471\/Artigo1    lex:temConteudo    "Art. 1° O Acordo Geral de Cooperação, entre o Governo da República Federativa do Brasil e o Governo da República Democrática de São Tomé e Príncipe, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0471\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0471    lex:temArtigo    lex:D0471\/Artigo2 .
+lex:D0471\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0471\/Artigo2\/AlineaAcompanhar    lex:ehUm    lex:Alinea .
+lex:D0471\/Artigo2    lex:temAlinea    lex:D0471\/Artigo2\/AlineaAcompanhar .
+lex:D0471\/Artigo2\/AlineaAcompanhar    lex:temConteudo    "a) acompanhar e dinamizar a execução do presente Acordo e de outros acordos concluídos ou a serem concluídos entre os dois países, analisar e propor medidas para ultrapassar as dificuldades resultantes da sua aplicação;" .
+lex:D0471\/Artigo2\/AlineaSubmeter    lex:ehUm    lex:Alinea .
+lex:D0471\/Artigo2    lex:temAlinea    lex:D0471\/Artigo2\/AlineaSubmeter .
+lex:D0471\/Artigo2\/AlineaSubmeter    lex:temConteudo    "b) submeter propostas aos Governos dos dois países referentes ao desenvolvimento das relações econômicas, comerciais, científicas, técnicas e culturais entre os dois países." .
+lex:D0471\/Artigo2\/AlineaSubmeter\/ItemA    lex:ehUm    lex:Item .
+lex:D0471\/Artigo2\/AlineaSubmeter    lex:temItem    lex:D0471\/Artigo2\/AlineaSubmeter\/ItemA .
+lex:D0471\/Artigo2\/AlineaSubmeter\/ItemA    lex:temConteudo    "2. A Comissão Mista, a reunir-se, em princípio, de três em três anos, adotará, na sua primeira sessão, o seu Regulamento Interno." .

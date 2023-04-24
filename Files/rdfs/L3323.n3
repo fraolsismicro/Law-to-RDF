@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3323    lex:ehUm    lex:DocLegal .
+lex:L3323    lex:temTextoIntegral    lex:HTMLs\/L3323.htm .
+lex:L3323\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3323    lex:temArtigo    lex:L3323\/Artigo1 .
+lex:L3323\/Artigo1    lex:temConteudo    "Art. 1º O crédito especial, de que trata a Lei nº 2.494, de 26 de maio de 1955, tem assegurada sua validade por 3 (três) exercícios." .
+lex:L3323\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3323    lex:temArtigo    lex:L3323\/Artigo2 .
+lex:L3323\/Artigo2    lex:temConteudo    "Art. 2º Será obrigatòriamente repetido, nos exercícios financeiros de 1959, 1960, 1961, e 1962, o auxílio especial a que se refere o art. 1º da Lei nº 3.125, de 18 de abril de 1957.        (Vide Lei nº 4.004, de 1961)" .
+lex:L3323\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3323    lex:temArtigo    lex:L3323\/Artigo3 .
+lex:L3323\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3323\/Artigo2    lex:remetePara    lex:L3125\/Artigo1 .
+lex:L3323\/Artigo2    lex:remetePara    lex:L4004\/Artigo3 .

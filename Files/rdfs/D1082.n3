@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1082    lex:ehUm    lex:DocLegal .
+lex:D1082    lex:temTextoIntegral    lex:HTMLs\/D1082.htm .
+lex:D1082\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1082    lex:temArtigo    lex:D1082\/Artigo1 .
+lex:D1082\/Artigo1    lex:temConteudo    "Art. 1º O Acordo, por troca de Notas, que concede Status Autônomo ao Escritório de Representação do Fundo de Cooperação Econômica Ultramarina no Rio de Janeiro, firmado entre o Governo da República Federativa do Brasil e o Governo do Japão, em Brasília, em 12 de março de 1993, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D1082\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1082    lex:temArtigo    lex:D1082\/Artigo2 .
+lex:D1082\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação." .
+lex:D1082\/Artigo2\/AlineaConcessao    lex:ehUm    lex:Alinea .
+lex:D1082\/Artigo2    lex:temAlinea    lex:D1082\/Artigo2\/AlineaConcessao .
+lex:D1082\/Artigo2\/AlineaConcessao    lex:temConteudo    "a) concessão, a pedido, de visto de entrada para os funcionários residentes, isento de taxas consulares;" .
+lex:D1082\/Artigo2\/AlineaIsencao    lex:ehUm    lex:Alinea .
+lex:D1082\/Artigo2    lex:temAlinea    lex:D1082\/Artigo2\/AlineaIsencao .
+lex:D1082\/Artigo2\/AlineaIsencao    lex:temConteudo    "b) isenção de direitos alfandegários e impostos de importação, num prazo de seis meses a partir de chegada, ou subseqüente exportação de:" .
+lex:D1082\/Artigo2\/AlineaBagagem    lex:ehUm    lex:Alinea .
+lex:D1082\/Artigo2    lex:temAlinea    lex:D1082\/Artigo2\/AlineaBagagem .
+lex:D1082\/Artigo2\/AlineaBagagem    lex:temConteudo    "i) bagagem pessoal;" .
+lex:D1082\/Artigo2\/AlineaIsencao    lex:ehUm    lex:Alinea .
+lex:D1082\/Artigo2    lex:temAlinea    lex:D1082\/Artigo2\/AlineaIsencao .
+lex:D1082\/Artigo2\/AlineaIsencao    lex:temConteudo    "c) isenção de imposto de renda sobre salários e vantagens percebidas em remuneração de suas atividades para o OECF na República Federativa do Brasil." .

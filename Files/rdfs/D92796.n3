@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92796    lex:ehUm    lex:DocLegal .
+lex:D92796    lex:temTextoIntegral    lex:HTMLs\/D92796.htm .
+lex:D92796\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D92796    lex:temInciso    lex:D92796\/IncisoXIX .
+lex:D92796\/IncisoXIX    lex:temConteudo    "XIX planejar a logística naval, supervisionar e estabelecer as prioridades de sua execução;" .
+lex:D92796\/Texto    lex:remetePara    lex:D92796 .
+lex:D92796\/Artigo1    lex:remetePara    lex:D62860 .
+lex:D92796\/Texto    lex:remetePara    lex:D62860\/Artigo14 .
+lex:D92796\/Paragrafo1    lex:remetePara    lex:D62860\/Artigo15\/Paragrafo1 .

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1308    lex:ehUm    lex:DocLegal .
+lex:D1308    lex:temTextoIntegral    lex:HTMLs\/D1308.htm .
+lex:D1308\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1308    lex:temArtigo    lex:D1308\/Artigo1 .
+lex:D1308\/Artigo1    lex:temConteudo    "Art. 1º Ficam suspensas por 100 (cem) dias, a contar de 5 de outubro de 1994, as restrições determinadas pelos parágrafos operativos 7,8(B) e 8(C) da Resolução 757 (1992), apensa ao decreto sem número, de 19 de junho de 1992, e os parágrafos operativos 24 e 28 da Resolução 820 (1993), apensa ao Decreto nº 831, de 31 de junho de 1993." .
+lex:D1308\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1308    lex:temArtigo    lex:D1308\/Artigo2 .
+lex:D1308\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1308\/Artigo1    lex:remetePara    lex:Dnn803 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92223    lex:ehUm    lex:DocLegal .
+lex:D92223    lex:temTextoIntegral    lex:HTMLs\/D92223.htm .
+lex:D92223\/Artigo31    lex:ehUm    lex:Artigo .
+lex:D92223    lex:temArtigo    lex:D92223\/Artigo31 .
+lex:D92223\/Artigo31    lex:temConteudo    "Art. 31. - ................................................................................ ......................................" .
+lex:D92223\/Artigo31\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D92223\/Artigo31    lex:temInciso    lex:D92223\/Artigo31\/IncisoII .
+lex:D92223\/Artigo31\/IncisoII    lex:temConteudo    "II - ................................................................................ ..............................................." .
+lex:D92223\/Artigo31\/IncisoII\/IncisoAlineaTer    lex:ehUm    lex:IncisoAlinea .
+lex:D92223\/Artigo31\/IncisoII    lex:temIncisoAlinea    lex:D92223\/Artigo31\/IncisoII\/IncisoAlineaTer .
+lex:D92223\/Artigo31\/IncisoII\/IncisoAlineaTer    lex:temConteudo    "e) ter mais de 30 anos e menos de 60 anos de idade na data da matrícula." .
+lex:D92223\/Artigo31\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D92223\/Artigo31    lex:temInciso    lex:D92223\/Artigo31\/IncisoIII .
+lex:D92223\/Artigo31\/IncisoIII    lex:temConteudo    "III - ................................................................................ ..............................................." .
+lex:D92223\/Artigo31\/IncisoIII\/IncisoAlineaSer    lex:ehUm    lex:IncisoAlinea .
+lex:D92223\/Artigo31\/IncisoIII    lex:temIncisoAlinea    lex:D92223\/Artigo31\/IncisoIII\/IncisoAlineaSer .
+lex:D92223\/Artigo31\/IncisoIII\/IncisoAlineaSer    lex:temConteudo    "e) ser brasileiro e ter mais de 30 anos e menos de 60 anos de idade na data da matrícula." .
+lex:D92223\/Texto    lex:revogadoPor    lex:D95732 .
+lex:D95732    lex:revogou    lex:D92223\/Texto .
+lex:D92223\/Texto    lex:remetePara    lex:D92223 .
+lex:D92223\/Artigo1    lex:remetePara    lex:D90079 .
+lex:D92223\/Artigo1    lex:remetePara    lex:D90574 .
+lex:D92223\/Artigo1    lex:remetePara    lex:D91536 .
+lex:D92223\/Artigo31\/IncisoII\/IncisoAlineaTer    lex:remetePara    lex:D90079\/Artigo31 .
+lex:D92223\/Artigo31\/IncisoIII\/IncisoAlineaSer    lex:remetePara    lex:D90079\/Artigo31 .

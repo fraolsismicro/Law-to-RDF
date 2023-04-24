@@ -1,0 +1,68 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6481    lex:ehUm    lex:DocLegal .
+lex:L6481    lex:temTextoIntegral    lex:HTMLs\/L6481.htm .
+lex:L6481\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6481    lex:temArtigo    lex:L6481\/Artigo1 .
+lex:L6481\/Artigo1    lex:temConteudo    "Art. 1º Os artigos 176 e 187 e caput dos artigos 178 e 180 da Lei nº 1.711, de 28 de outubro de 1952, passam a vigorar com a seguinte redação:" .
+lex:L6481\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6481\/Artigo1    lex:temInciso    lex:L6481\/Artigo1\/IncisoI .
+lex:L6481\/Artigo1\/IncisoI    lex:temConteudo    "I - compulsoriamente, aos 70 (setenta) anos de idade;" .
+lex:L6481\/Artigo1\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:L6481\/Artigo1    lex:temInciso    lex:L6481\/Artigo1\/IncisoIl .
+lex:L6481\/Artigo1\/IncisoIl    lex:temConteudo    "Il - voluntariamente, aos 35 (trinta e cinco) anos de serviço, se do sexo masculino, e aos 30 (trinta) anos de serviço, se do sexo feminino;" .
+lex:L6481\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L6481\/Artigo1    lex:temInciso    lex:L6481\/Artigo1\/IncisoIII .
+lex:L6481\/Artigo1\/IncisoIII    lex:temConteudo    "III - por invalidez comprovada; ou" .
+lex:L6481\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L6481\/Artigo1    lex:temInciso    lex:L6481\/Artigo1\/IncisoIV .
+lex:L6481\/Artigo1\/IncisoIV    lex:temConteudo    "IV - nos casos previstos em lei complementar." .
+lex:L6481\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6481\/Artigo1    lex:temParagrafo    lex:L6481\/Artigo1\/Paragrafo1 .
+lex:L6481\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A aposentadoria por invalidez será precedida de licença para tratamento de saúde por período não excedente a 24 (vinte e quatro) meses, salvo quando o laudo médico concluir pela incapacidade definitiva para o serviço público." .
+lex:L6481\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6481\/Artigo1    lex:temParagrafo    lex:L6481\/Artigo1\/Paragrafo2 .
+lex:L6481\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Será aposentado o funcionário que, após 24 (vinte e quatro) meses de licença para tratamento de saúde, for considerado inválido para o serviço." .
+lex:L6481\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6481\/Artigo1    lex:temParagrafo    lex:L6481\/Artigo1\/Paragrafo3 .
+lex:L6481\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - O prazo para aposentadoria voluntária é de 25 (vinte e cinco) anos para o ex-combatente da Segunda Guerra Mundial que tenha participado efetivamente de operações bélicas da Força Expedicionária Brasileira, da Marinha, da Força Aérea Brasileira, da Marinha Mercante ou de Força do Exército.'" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L6481\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - integral, quando o funcionário:" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaContar    lex:ehUm    lex:Alinea .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temAlinea    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaContar .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaContar    lex:temConteudo    "a) contar tempo de serviço bastante para aposentadoria voluntária (item II e § 3º do art. 176); ou" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temAlinea    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaSe .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoI\/AlineaSe    lex:temConteudo    "b) se invalidar por acidente em serviço, por moléstia profissional ou em decorrência de tuberculose ativa, alienação mental, neoplasia maligna, cegueira posterior ao ingresso no serviço público, hanseníase, cardiopatia grave, doença de Parkinson, paralisia irreversível e incapacitante, espondiloartrose anquilosante, nefropatia grave, estados avançados da doença de Paget (osteíte deformante) ou outra moléstia que a lei indicar com base nas conclusões da medicina especializada." .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L6481\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - proporcional ao tempo de serviço, nos demais casos.'" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom    lex:temConteudo    "a) com o vencimento do cargo em comissão ou gratificação da função respectiva que exerça ao se aposentar desde que o exercício abranja, sem interrupção, os 5 (cinco) anos anteriores;" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom    lex:temConteudo    "b) com idênticas vantagens, desde que o exercício do cargo ou função de confiança haja compreendido um período de 10 (dez) anos, consecutivos ou não.'" .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom\/Item    lex:ehUm    lex:Item .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom    lex:temItem    lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom\/Item .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom\/Item    lex:temConteudo    "................................................................................................................................................" .
+lex:L6481\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6481    lex:temArtigo    lex:L6481\/Artigo2 .
+lex:L6481\/Artigo2    lex:temConteudo    "Art. 2º - O disposto nesta Lei é aplicado às aposentadorias concedidas a partir de 15 de março de 1968, desde que, à época, o funcionário tenha preenchido os requisitos previstos nesta Lei." .
+lex:L6481\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6481    lex:temArtigo    lex:L6481\/Artigo3 .
+lex:L6481\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6481\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6481    lex:temArtigo    lex:L6481\/Artigo4 .
+lex:L6481\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:L6481\/Texto00001    lex:remetePara    lex:L1711\/Artigo176 .
+lex:L6481\/Artigo1\/Texto00008    lex:remetePara    lex:L1711\/Artigo178 .
+lex:L6481\/Artigo1\/Paragrafo3\/Texto00012    lex:remetePara    lex:L1711\/Artigo180 .
+lex:L6481\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaCom\/Texto00015    lex:remetePara    lex:L1711\/Artigo187 .

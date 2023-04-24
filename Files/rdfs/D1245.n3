@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1245    lex:ehUm    lex:DocLegal .
+lex:D1245    lex:temTextoIntegral    lex:HTMLs\/D1245.htm .
+lex:D1245\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1245    lex:temArtigo    lex:D1245\/Artigo1 .
+lex:D1245\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovada a alteração no Estatuto Social do Petróleo Brasileiro S.A. PETROBRÁS, conforme deliberação da Assembléia Geral Extraordinária realizada em 19 de agosto de 1994, no seu art. 5º, que passa a ter seguinte redação:" .
+lex:D1245\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1245    lex:temArtigo    lex:D1245\/Artigo2 .
+lex:D1245\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1245\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1245    lex:temArtigo    lex:D1245\/Artigo3 .
+lex:D1245\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:D1245\/Texto00001    lex:remetePara    lex:Dnn0001\/Artigo5 .

@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:d2113    lex:ehUm    lex:DocLegal .
+lex:d2113    lex:temTextoIntegral    lex:HTMLs\/d2113.htm .
+lex:d2113\/Artigo1    lex:ehUm    lex:Artigo .
+lex:d2113    lex:temArtigo    lex:d2113\/Artigo1 .
+lex:d2113\/Artigo1    lex:temConteudo    "Art. 1º Os anexos I, II e III do Decreto nº 1.923, de 7 de junho de 1996, são substituídos pelos Anexos I, II e III deste Decreto." .
+lex:d2113\/Artigo2    lex:ehUm    lex:Artigo .
+lex:d2113    lex:temArtigo    lex:d2113\/Artigo2 .
+lex:d2113\/Artigo2    lex:temConteudo    "Art. 2º Os valores decorrentes dos atos praticados ao amparo do § 2º do art. 1º e do § 1º do art. 4º do Decreto nº 1.923, de 1996, incluem-se nos montantes indicados nos Anexos deste Decreto." .
+lex:d2113\/Artigo3    lex:ehUm    lex:Artigo .
+lex:d2113    lex:temArtigo    lex:d2113\/Artigo3 .
+lex:d2113\/Artigo3    lex:temConteudo    "Art. 3º No processo de ajuste do encerramento do exercício de 1996, o montante da despesa empenhada por órgão não poderá superar o menor dos valores A e B, calculados da seguinte forma:" .
+lex:d2113\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:d2113\/Artigo3    lex:temInciso    lex:d2113\/Artigo3\/IncisoI .
+lex:d2113\/Artigo3\/IncisoI    lex:temConteudo    "I - valor A: despesa empenhada registrada em 31 de dezembro de 1996 no Sistema Integrado de Administração Financeira - SIAFI;" .
+lex:d2113\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:d2113\/Artigo3    lex:temInciso    lex:d2113\/Artigo3\/IncisoII .
+lex:d2113\/Artigo3\/IncisoII    lex:temConteudo    "II - valor B:" .
+lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:d2113\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara .
+lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara    lex:temConteudo    "a) para atividades, exceto as despesas relacionadas no Anexo IV deste Decreto: noventa por cento dos valores indicados no Anexo I;" .
+lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara    lex:temIncisoAlinea    lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:d2113\/Artigo3\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "b) para projetos e para as despesas relacionadas no Anexo IV deste Decreto: valores indicados no Anexo I." .
+lex:d2113\/Artigo4    lex:ehUm    lex:Artigo .
+lex:d2113    lex:temArtigo    lex:d2113\/Artigo4 .
+lex:d2113\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:d2113\/Artigo5    lex:ehUm    lex:Artigo .
+lex:d2113    lex:temArtigo    lex:d2113\/Artigo5 .
+lex:d2113\/Artigo5    lex:temConteudo    "Art 5º Ficam revogados o § 2º do art. 1º e o § 1º do art. 4º do Decreto nº 1.923, de 7 de junho de 1996." .
+lex:d2113\/Artigo1    lex:remetePara    lex:D1923\/ .
+lex:d2113\/Artigo2    lex:remetePara    lex:D1923\/Artigo1\/Paragrafo2 .
+lex:d2113\/Artigo2    lex:remetePara    lex:D1923\/Artigo4\/Paragrafo1 .
+lex:d2113\/Artigo5    lex:remetePara    lex:D1923\/Artigo1\/Paragrafo2 .
+lex:d2113\/Artigo5    lex:remetePara    lex:D1923\/Artigo4\/Paragrafo1 .

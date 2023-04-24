@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6426    lex:ehUm    lex:DocLegal .
+lex:L6426    lex:temTextoIntegral    lex:HTMLs\/L6426.htm .
+lex:L6426\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo1 .
+lex:L6426\/Artigo1    lex:temConteudo    "Art. 1º A Fundação Nacional de Arte (FUNARTE) organizará anualmente o Salão Nacional de Artes Plásticas, no Palácio da Cultura do Rio de Janeiro." .
+lex:L6426\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo2 .
+lex:L6426\/Artigo2    lex:temConteudo    "Art. 2º No Salão a que se refere o artigo 1º desta Lei, os artistas concorrerão anualmente a prêmios de viagem ao exterior, no País e a prêmios de aquisição." .
+lex:L6426\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6426\/Artigo2    lex:temParagrafo    lex:L6426\/Artigo2\/ParagrafoUnico .
+lex:L6426\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Ministério da Educação e Cultura fixará anualmente as condições e os valores dos prêmios determinados neste artigo." .
+lex:L6426\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo3 .
+lex:L6426\/Artigo3    lex:temConteudo    "Art. 3º O custeio das despesas decorrentes dos encargos previstos nesta Lei correrá por conta de dotações orçamentárias próprias." .
+lex:L6426\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo4 .
+lex:L6426\/Artigo4    lex:temConteudo    "Art. 4º Fica extinta a Comissão Nacional de Belas Artes, criada pela Lei nº 1.512, de 19 de dezembro de 1951." .
+lex:L6426\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo5 .
+lex:L6426\/Artigo5    lex:temConteudo    "Art. 5º O Poder Executivo regulamentará esta Lei no prazo de 90 (noventa) dias a contar da sua publicação." .
+lex:L6426\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo6 .
+lex:L6426\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6426\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6426    lex:temArtigo    lex:L6426\/Artigo7 .
+lex:L6426\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se as disposições em contrário." .
+lex:L6426\/Texto    lex:remetePara    lex:D81316 .
+lex:L6426\/Texto    lex:remetePara    lex:D98551 .
+lex:L6426\/Texto    lex:remetePara    lex:D0836 .
+lex:L6426\/Artigo4    lex:remetePara    lex:L1512 .

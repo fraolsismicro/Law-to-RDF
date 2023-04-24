@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:del1501    lex:ehUm    lex:DocLegal .
+lex:del1501    lex:temTextoIntegral    lex:HTMLs\/del1501.htm .
+lex:del1501\/Artigo1    lex:ehUm    lex:Artigo .
+lex:del1501    lex:temArtigo    lex:del1501\/Artigo1 .
+lex:del1501\/Artigo1    lex:temConteudo    "Art. 1º Ficam prorrogados, até 31 de dezembro de 1977, os prazos de vigência dos Decretos-leis números 1.334, de 25 de junho de 1974, 1.364, de 28 de dezembro de 1974, e 1.421, de 09 de outubro de 1975, que dispõem sobre acréscimos às alíquotas do imposto de importação, na forma e valores constantes dos anexos que a eles acompanham, com as eventuais alterações posteriores introduzidas por Resoluções do Conselho de Política Aduaneira ou de sua Comissão Executiva, mantidas a demais disposições." .
+lex:del1501\/Artigo2    lex:ehUm    lex:Artigo .
+lex:del1501    lex:temArtigo    lex:del1501\/Artigo2 .
+lex:del1501\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:del1501\/Texto    lex:remetePara    lex:del1685 .
+lex:del1501\/Artigo1    lex:remetePara    lex:Del1334\/ .
+lex:del1501\/Artigo1    lex:remetePara    lex:Del1364 .
+lex:del1501\/Artigo1    lex:remetePara    lex:Del1421 .

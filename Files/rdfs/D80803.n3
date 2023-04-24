@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D80803    lex:ehUm    lex:DocLegal .
+lex:D80803    lex:temTextoIntegral    lex:HTMLs\/D80803.htm .
+lex:D80803\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D80803    lex:temParagrafo    lex:D80803\/Paragrafo1 .
+lex:D80803\/Paragrafo1    lex:temConteudo    "§ 1º - Consideram-se autônomos, para os efeitos deste artigo, os profissionais assim conceituados pela Lei Orgânica da Previdência Social." .
+lex:D80803\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D80803    lex:temParagrafo    lex:D80803\/Paragrafo2 .
+lex:D80803\/Paragrafo2    lex:temConteudo    "§ 2º - Compete à EMBRATER coordenar, disciplinar e fiscalizar as atividades das pessoas jurídicas e físicas de que trata este artigo." .
+lex:D80803\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D80803    lex:temParagrafo    lex:D80803\/Paragrafo3 .
+lex:D80803\/Paragrafo3    lex:temConteudo    "§ 3º - A EMBRATER manterá um serviço de cadastro das pessoas credenciadas, com vistas ao cumprimento do disposto no parágrafo anterior.'" .
+lex:D80803\/Texto    lex:remetePara    lex:D75373\/Artigo7 .
+lex:D80803\/Texto    lex:remetePara    lex:L6126\/Artigo5 .

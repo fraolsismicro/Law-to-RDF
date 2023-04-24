@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D66788    lex:ehUm    lex:DocLegal .
+lex:D66788    lex:temTextoIntegral    lex:HTMLs\/D66788.htm .
+lex:D66788\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D66788    lex:temArtigo    lex:D66788\/Artigo1A .
+lex:D66788\/Artigo1A    lex:temConteudo    "Art. 1Âº O artigo 133 e seus parÃ¡grafos, do Regulamento para o ServiÃ§o de FiscalizaÃ§Ã£o da ImportaÃ§Ã£o, DepÃ³sito e TrÃ¡fego de Produtos Controlados pelo MinistÃ©rio do ExÃ©rcito, aprovado pelo Decreto nÂº 55.649, de 28 de janeiro de 1965, passam a ter a seguinte redaÃ§Ã£o:" .
+lex:D66788\/Artigo1A\/AlineaCApia    lex:ehUm    lex:Alinea .
+lex:D66788\/Artigo1A    lex:temAlinea    lex:D66788\/Artigo1A\/AlineaCApia .
+lex:D66788\/Artigo1A\/AlineaCApia    lex:temConteudo    "a) cÃ³pia da licenÃ§a de importaÃ§Ã£o estrangeira quando houver, ou documento equivalente, segundo a legislaÃ§Ã£o local, seja para operaÃ§Ã£o especifica ou venda durante periÃ³do determinado;" .
+lex:D66788\/Artigo1A\/AlineaDocumento    lex:ehUm    lex:Alinea .
+lex:D66788\/Artigo1A    lex:temAlinea    lex:D66788\/Artigo1A\/AlineaDocumento .
+lex:D66788\/Artigo1A\/AlineaDocumento    lex:temConteudo    "b) documento emitido por Ã³rgÃ£o prÃ³prio do paÃ­s importador e do qual constem as especificaÃ§Ãµes do material em negociaÃ§Ã£o ou, ainda." .
+lex:D66788\/Artigo1A\/AlineaCarta    lex:ehUm    lex:Alinea .
+lex:D66788\/Artigo1A    lex:temAlinea    lex:D66788\/Artigo1A\/AlineaCarta .
+lex:D66788\/Artigo1A\/AlineaCarta    lex:temConteudo    "c) Carta de crÃ©dito bancÃ¡rio, emitida no paÃ­s importador e que se vincule Ã  venda para a qual se solicita a autorizaÃ§Ã£o." .
+lex:D66788\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D66788    lex:temArtigo    lex:D66788\/Artigo2A .
+lex:D66788\/Artigo2A    lex:temConteudo    "Art. 2Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D66788\/Artigo1A    lex:regulamentadoPor    lex:D55649 .
+lex:D55649    lex:regulamenta    lex:D66788\/Artigo1A .
+lex:D66788\/Texto00001    lex:remetePara    lex:D55649\/regulamentoArtigo133 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2403    lex:ehUm    lex:DocLegal .
+lex:L2403    lex:temTextoIntegral    lex:HTMLs\/L2403.htm .
+lex:L2403\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2403    lex:temArtigo    lex:L2403\/Artigo1 .
+lex:L2403\/Artigo1    lex:temConteudo    "Art. 1º Aos Auxiliares de ensino e pessoal burocrático a qualquer tempo admitidos em cargos e funções dos institutos federalizados de ensino superior, ou que neles prestem serviços na condição de integrantes de quadros suplementares estaduais, assegurar-se-á o aproveitamento em caráter efetivo, indistintamente, em cargos próprios, a serem criados ou já existentes, com os vencimentos ajustados aos padrões dos lugares correspondentes no serviço civil da União, adotando-se a nomenclatura da organização administrativa e técnica da Universidade do Brasil." .
+lex:L2403\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L2403\/Artigo1    lex:temParagrafo    lex:L2403\/Artigo1\/ParagrafoUnico .
+lex:L2403\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Enquanto não se verificar a instituição legal dos cargos necessários de investidura de todos os servidores administrativos ou técnicos, ficarão êles mantidos como extra-numerários, em tabelas criadas, para êsse fim, pelo Poder Executivo, observando-se, na fixação dos respectivos salários, o critério previsto no presente artigo e disposto no § 2º do art. 19 da Lei nº 1.254, de 4 de dezembro de 1950." .
+lex:L2403\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2403    lex:temArtigo    lex:L2403\/Artigo2 .
+lex:L2403\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2403\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L1254\/ART19\/Paragrafo2 .

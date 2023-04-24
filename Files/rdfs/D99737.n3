@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99737    lex:ehUm    lex:DocLegal .
+lex:D99737    lex:temTextoIntegral    lex:HTMLs\/D99737.htm .
+lex:D99737\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99737    lex:temArtigo    lex:D99737\/Artigo1 .
+lex:D99737\/Artigo1    lex:temConteudo    "Art. 1° Os valores fixados nos arts. 16, 21, 22, 52 e 64 do Decreto-Lei n° 2.300, de 21 de novembro de 1986, a serem adotados para o trimestre civil de outubro a dezembro de 1990, são os constantes do anexo deste Decreto." .
+lex:D99737\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99737\/Artigo1    lex:temParagrafo    lex:D99737\/Artigo1\/ParagrafoUnico .
+lex:D99737\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os valores referidos neste artigo, independentemente de revisão autorizada, serão automaticamente corrigidos, a partir do primeiro dia útil de cada trimestre civil, a iniciar-se pelo de janeiro a março de 1991, tomando-se por base a variação do Bônus do Tesouro Nacional (BTN), em comparação com o vigorante no mês de outubro de 1990, desprezada no resultado final a fração inferior a Cr$1.000,00 (um mil cruzeiros) ." .
+lex:D99737\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99737    lex:temArtigo    lex:D99737\/Artigo2 .
+lex:D99737\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99737\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99737    lex:temArtigo    lex:D99737\/Artigo3 .
+lex:D99737\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:D99737\/Artigo1    lex:remetePara    lex:Del2300-86\/Artigo16 .
+lex:D99737\/Artigo1    lex:remetePara    lex:Del2300-86\/Artigo21 .
+lex:D99737\/Artigo1    lex:remetePara    lex:Del2300-86\/Artigo22 .
+lex:D99737\/Artigo1    lex:remetePara    lex:Del2300-86\/Artigo52 .
+lex:D99737\/Artigo1    lex:remetePara    lex:Del2300-86\/Artigo64 .

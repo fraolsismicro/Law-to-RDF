@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D55838    lex:ehUm    lex:DocLegal .
+lex:D55838    lex:temTextoIntegral    lex:HTMLs\/D55838.htm .
+lex:D55838\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D55838    lex:temArtigo    lex:D55838\/Artigo1 .
+lex:D55838\/Artigo1    lex:temConteudo    "Art. 1º Fica retificado o Regulamento aprovado pelo Decreto número 55.784, de 19 de fevereiro de 1965, nos seguintes dispositivos:" .
+lex:D55838\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D55838\/Artigo1    lex:temInciso    lex:D55838\/Artigo1\/IncisoI .
+lex:D55838\/Artigo1\/IncisoI    lex:temConteudo    "I - Departamento Nacional do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D55838\/Artigo1    lex:temInciso    lex:D55838\/Artigo1\/IncisoVII .
+lex:D55838\/Artigo1\/IncisoVII    lex:temConteudo    "VII - Delegacias Regionais do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao    lex:temConteudo    "e) Seção de Assistência Sindical." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaItem-    lex:ehUm    lex:IncisoAlineaItem .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao    lex:temIncisoAlineaItem    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaItem- .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaItem-    lex:temConteudo    "4 - Serviço de Higiene e Segurança do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "a) Seção de Segurança do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "b) Seção de Higiene do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "c) Seção de Assistência ao Trabalho da Mulher e do Menor." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "a) Seção de Segurança do Trabalho." .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "b) Seção de Higiene do Trabalho;" .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:ehUm    lex:IncisoAlinea .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temIncisoAlinea    lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao    lex:temConteudo    "c) Seção de Assistência ao Trabalho da Mulher e do Menor." .
+lex:D55838\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D55838    lex:temArtigo    lex:D55838\/Artigo2 .
+lex:D55838\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D55838\/Artigo1\/IncisoI    lex:remetePara    lex:D55784\/Artigo1i4 .
+lex:D55838\/Artigo1\/IncisoVII    lex:remetePara    lex:D55784\/Artigo1 .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/Texto00011    lex:remetePara    lex:D55784\/Artigo7 .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/Texto00011    lex:remetePara    lex:D55784\/Artigo12 .
+lex:D55838\/Artigo1\/IncisoVII\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/IncisoAlineaSecao\/Texto00011    lex:remetePara    lex:D55784\/ .

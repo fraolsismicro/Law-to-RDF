@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2172    lex:ehUm    lex:DocLegal .
+lex:Del2172    lex:temTextoIntegral    lex:HTMLs\/Del2172.htm .
+lex:Del2172\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2172    lex:temArtigo    lex:Del2172\/Artigo1 .
+lex:Del2172\/Artigo1    lex:temConteudo    "Art. 1º O Anexo ao Decreto-lei nº 2.131, de 25 de junho de 1984, passa a vigorar com os valores e percentuais constantes do Anexo a este Decreto." .
+lex:Del2172\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2172    lex:temArtigo    lex:Del2172\/Artigo2 .
+lex:Del2172\/Artigo2    lex:temConteudo    "Art. 2º Para efeito da equivalência de que trata art. 63 da Lei Complementar nº 35, de 14 de março de 1979 consideram-se vencimentos exclusivamente o vencimento-base e a representação inerentes aos cargos de Secretários de Estado e de Secretários de Governo do Distrito Federal." .
+lex:Del2172\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2172    lex:temArtigo    lex:Del2172\/Artigo3 .
+lex:Del2172\/Artigo3    lex:temConteudo    "Art. 3º A despesa decorrente deste Decreto-lei correrá à conta das dotações do Orçamento-Geral da União para o exercício de 1984." .
+lex:Del2172\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2172    lex:temArtigo    lex:Del2172\/Artigo4 .
+lex:Del2172\/Artigo4    lex:temConteudo    "Art. 4º Em nenhuma hipótese poderão ser pagos vencimentos superiores aos fixados neste Decreto-lei." .
+lex:Del2172\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del2172\/Artigo4    lex:temParagrafo    lex:Del2172\/Artigo4\/Paragrafo1 .
+lex:Del2172\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º O Tesouro Nacional não se obriga a efetuar o pagamento resultante das decisões dos Tribunais em procedimentos administrativos, que importem elevação de vencimentos." .
+lex:Del2172\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del2172\/Artigo4    lex:temParagrafo    lex:Del2172\/Artigo4\/Paragrafo2 .
+lex:Del2172\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º O funcionário que requisitar ou autorizar adiantamentos, à conta de crédito orçamentário ou adicional, para atender o pagamento de despesa decorrente da decisão declaratória administrativa contrária ao disposto neste artigo, incidirá nas sanções do art. 315 do Código Penal, além da devolução da quantia paga e demais cominações legais." .
+lex:Del2172\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2172    lex:temArtigo    lex:Del2172\/Artigo5 .
+lex:Del2172\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2172\/Artigo1    lex:remetePara    lex:Del2131\/ .
+lex:Del2172\/Artigo2    lex:remetePara    lex:Lcp35\/Artigo63 .
+lex:Del2172\/Artigo4\/Paragrafo2    lex:remetePara    lex:Del2848\/Artigo315 .

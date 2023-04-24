@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4770    lex:ehUm    lex:DocLegal .
+lex:D4770    lex:temTextoIntegral    lex:HTMLs\/D4770.htm .
+lex:D4770\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4770    lex:temArtigo    lex:D4770\/Artigo2 .
+lex:D4770\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, em caráter excepcional, até 31 de dezembro de 2003, nove cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS 102.2, da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão, provenientes da reorganização de órgãos da Administração Pública federal, sendo sete para o Comando da Aeronáutica do Ministério da Defesa e dois para o Ministério da Fazenda." .
+lex:D4770\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4770\/Artigo2    lex:temParagrafo    lex:D4770\/Artigo2\/ParagrafoUnico .
+lex:D4770\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os cargos objeto deste remanejamento serão alocados, respectivamente, ao Departamento de Aviação Civil do Comando da Aeronáutica e ao Conselho de Controle de Atividades Financeiras do Ministério da Fazenda, e não integrarão a Estrutura Regimental do Comando da Aeronáutica e do Ministério da Fazenda, devendo constar do ato de nomeação seu caráter de transitoriedade, mediante remissão ao caput deste artigo." .
+lex:D4770\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4770    lex:temArtigo    lex:D4770\/Artigo3 .
+lex:D4770\/Artigo3    lex:temConteudo    "Art. 3o  Findo o prazo estabelecido no caput dos arts. 1o e 2o, os cargos em comissão ali referidos serão restituídos à Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, sendo considerados exonerados os titulares neles investidos." .
+lex:D4770\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4770    lex:temArtigo    lex:D4770\/Artigo4 .
+lex:D4770\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data da sua publicação." .
+lex:D4770\/Artigo1    lex:revogadoPor    lex:D4931\/Artigo4 .
+lex:D4931\/Artigo4    lex:revogou    lex:D4770\/Artigo1 .
+lex:D4770\/ParagrafoUnico    lex:revogadoPor    lex:D4931\/Artigo4 .
+lex:D4931\/Artigo4    lex:revogou    lex:D4770\/ParagrafoUnico .
+lex:D4770\/Artigo5    lex:remetePara    lex:D4681 .
+lex:D4770\/Artigo5    lex:remetePara    lex:D4698 .
+lex:D4770\/Artigo5    lex:remetePara    lex:D4706 .
+lex:D4770\/Texto00004    lex:revogadoPor    lex:D4819\/Artigo7 .
+lex:D4819\/Artigo7    lex:revogou    lex:D4770\/Texto00004 .
+lex:D4770\/Texto00004    lex:revogadoPor    lex:D4811\/Artigo7 .
+lex:D4811\/Artigo7    lex:revogou    lex:D4770\/Texto00004 .
+lex:D4770\/Texto00004    lex:revogadoPor    lex:D4805\/Artigo8 .
+lex:D4805\/Artigo8    lex:revogou    lex:D4770\/Texto00004 .
+lex:D4770\/Texto00004    lex:revogadoPor    lex:D4791\/Artigo6 .
+lex:D4791\/Artigo6    lex:revogou    lex:D4770\/Texto00004 .

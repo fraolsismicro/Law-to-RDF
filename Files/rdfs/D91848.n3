@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91848    lex:ehUm    lex:DocLegal .
+lex:D91848    lex:temTextoIntegral    lex:HTMLs\/D91848.htm .
+lex:D91848\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D91848    lex:temArtigo    lex:D91848\/Artigo1 .
+lex:D91848\/Artigo1    lex:temConteudo    "Art. 1º - O parágrafo único do Art. 5º do Decreto nº 70.198, de 24 de fevereiro de 1972, passa a vigorar com a seguinte redação:" .
+lex:D91848\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D91848\/Artigo1    lex:temParagrafo    lex:D91848\/Artigo1\/ParagrafoUnico .
+lex:D91848\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A atualização do valor da tarifa de utilização de Faróis passará a vigorar em prazo não inferior a 30 (trinta) dias após a data da publicação do novo valor no Diário Oficial'." .
+lex:D91848\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D91848    lex:temArtigo    lex:D91848\/Artigo2 .
+lex:D91848\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D91848\/Artigo1    lex:remetePara    lex:D70198\/Artigo5 .

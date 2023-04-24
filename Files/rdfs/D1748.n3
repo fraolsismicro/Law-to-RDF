@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1748    lex:ehUm    lex:DocLegal .
+lex:D1748    lex:temTextoIntegral    lex:HTMLs\/D1748.htm .
+lex:D1748\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1748    lex:temArtigo    lex:D1748\/Artigo1 .
+lex:D1748\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 19 e 22 do Regulamento para o Corpo Auxiliar Feminino da Reserva da Marinha, aprovado pelo Decreto nº 95.660, de 25 de janeiro de 1988, passam a vigorar com a seguinte redação:" .
+lex:D1748\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1748\/Artigo1    lex:temParagrafo    lex:D1748\/Artigo1\/Paragrafo1 .
+lex:D1748\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º ..............................................................." .
+lex:D1748\/Artigo1\/Paragrafo1\/AlineaObter    lex:ehUm    lex:Alinea .
+lex:D1748\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D1748\/Artigo1\/Paragrafo1\/AlineaObter .
+lex:D1748\/Artigo1\/Paragrafo1\/AlineaObter    lex:temConteudo    "b) obter, em pelo menos cinqüenta por cento (50%) das avaliações relativas a 'Conceito Moral', 'Conceito Profissional' e 'Avaliação do Desempenho na Função Atual', grau igual ou superior a cinco." .
+lex:D1748\/Artigo22    lex:ehUm    lex:Artigo .
+lex:D1748    lex:temArtigo    lex:D1748\/Artigo22 .
+lex:D1748\/Artigo22    lex:temConteudo    "Art. 22. ......................................................." .
+lex:D1748\/Artigo22\/AlineaMais    lex:ehUm    lex:Alinea .
+lex:D1748\/Artigo22    lex:temAlinea    lex:D1748\/Artigo22\/AlineaMais .
+lex:D1748\/Artigo22\/AlineaMais    lex:temConteudo    "c) mais de cinqüenta por cento (50%) das avaliações relativas a 'Avaliação de Desempenho na Função Atual' com grau igual ou superior a cinco." .
+lex:D1748\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1748    lex:temArtigo    lex:D1748\/Artigo2 .
+lex:D1748\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .

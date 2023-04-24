@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12312    lex:ehUm    lex:DocLegal .
+lex:L12312    lex:temTextoIntegral    lex:HTMLs\/L12312.htm .
+lex:L12312\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12312    lex:temArtigo    lex:L12312\/Artigo1 .
+lex:L12312\/Artigo1    lex:temConteudo    "Art. 1o  Ficam criados, no Quadro de Pessoal do Ministério da Agricultura, Pecuária e Abastecimento, os seguintes cargos de provimento efetivo de que trata a Lei no 11.344, de 8 de setembro de 2006:" .
+lex:L12312\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12312\/Artigo1    lex:temInciso    lex:L12312\/Artigo1\/IncisoI .
+lex:L12312\/Artigo1\/IncisoI    lex:temConteudo    "I - 270 (duzentos e setenta) cargos de Técnico de Laboratório; e" .
+lex:L12312\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12312\/Artigo1    lex:temInciso    lex:L12312\/Artigo1\/IncisoII .
+lex:L12312\/Artigo1\/IncisoII    lex:temConteudo    "II - 90 (noventa) cargos de Auxiliar de Laboratório." .
+lex:L12312\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12312    lex:temArtigo    lex:L12312\/Artigo2 .
+lex:L12312\/Artigo2    lex:temConteudo    "Art. 2o  O provimento dos cargos criados por esta Lei fica condicionado à comprovação da existência de prévia dotação orçamentária suficiente para atender às projeções de despesa de pessoal e aos acréscimos dela decorrentes, conforme disposto no § 1o do art. 169 da Constituição Federal." .
+lex:L12312\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12312    lex:temArtigo    lex:L12312\/Artigo3 .
+lex:L12312\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12312\/Artigo1    lex:remetePara    lex:L11344 .
+lex:L12312\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo169\/Paragrafo1 .

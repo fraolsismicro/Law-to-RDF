@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7767    lex:ehUm    lex:DocLegal .
+lex:L7767    lex:temTextoIntegral    lex:HTMLs\/L7767.htm .
+lex:L7767\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7767    lex:temArtigo    lex:L7767\/Artigo1 .
+lex:L7767\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a instituir uma fundação, nos termos da Lei nº 5.540, de 28 de novembro de 1968, sob a denominação de Fundação Universidade do Vale do Jacuí, com sede na Cidade de Cachoeira do Sul, Estado do Rio Grande do Sul, com o objetivo de ministrar ensino em grau superior." .
+lex:L7767\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7767\/Artigo1    lex:temParagrafo    lex:L7767\/Artigo1\/ParagrafoUnico .
+lex:L7767\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A fundação referida no caput deste artigo reger-se-á por seus estatutos e regimento, aprovados por Decreto a ser baixado pelo Presidente da República." .
+lex:L7767\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7767    lex:temArtigo    lex:L7767\/Artigo2 .
+lex:L7767\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7767\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7767    lex:temArtigo    lex:L7767\/Artigo3 .
+lex:L7767\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7767\/Artigo1    lex:remetePara    lex:L5540 .

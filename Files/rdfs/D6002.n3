@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6002    lex:ehUm    lex:DocLegal .
+lex:D6002    lex:temTextoIntegral    lex:HTMLs\/D6002.htm .
+lex:D6002\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6002    lex:temArtigo    lex:D6002\/Artigo1 .
+lex:D6002\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados os percentuais de subvenção econômica ao prêmio do seguro rural para o triênio 2007/2009, na forma dos Anexos I e II deste Decreto. (Redação dada pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6002    lex:temArtigo    lex:D6002\/Artigo2 .
+lex:D6002\/Artigo2    lex:temConteudo    "Art. 2o  Fica estabelecido, para o seguro rural na modalidade agrícola: (Redação dada pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6002\/Artigo2    lex:temInciso    lex:D6002\/Artigo2\/IncisoI .
+lex:D6002\/Artigo2\/IncisoI    lex:temConteudo    "I - para o biênio 2007/2008: valor máximo de R$ 32.000,00 (trinta e dois mil reais) de subvenção ao prêmio, por beneficiário, pessoa física ou jurídica, por ano civil, para cada um dos grupos de culturas previstos nas alíneas a seguir indicadas: (Redação dada pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia    lex:ehUm    lex:IncisoAlinea .
+lex:D6002\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia    lex:temConteudo    "a) aveia, canola, cevada, centeio, milho segunda safra, sorgo, trigo e triticale; (Incluído pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi    lex:ehUm    lex:IncisoAlinea .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia    lex:temIncisoAlinea    lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi    lex:temConteudo    "b) abacaxi, alface, algodão, alho, amendoim, arroz, batata, berinjela, beterraba, cana-de-açúcar, cebola, cenoura, couve-flor, feijão, girassol, milho, morango, pepino, pimentão, repolho, soja, tomate e vagem; ou (Incluído pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi\/IncisoAlineaAmeixa    lex:ehUm    lex:IncisoAlinea .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi    lex:temIncisoAlinea    lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi\/IncisoAlineaAmeixa .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi\/IncisoAlineaAmeixa    lex:temConteudo    "c) ameixa, café, caqui, figo, goiaba, kiwi, laranja, limão e demais cítricos, maçã, nectarina, pêra, pêssego e uva; e (Incluído pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6002\/Artigo2    lex:temInciso    lex:D6002\/Artigo2\/IncisoII .
+lex:D6002\/Artigo2\/IncisoII    lex:temConteudo    "II - para 2009: valor máximo de R$ 96.000,00 (noventa e seis mil reais) de subvenção ao prêmio, por beneficiário, pessoa física ou jurídica. (Redação dada pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6002\/Artigo2    lex:temParagrafo    lex:D6002\/Artigo2\/ParagrafoUnico .
+lex:D6002\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os efeitos do inciso I do caput, o produtor poderá receber subvenção para mais de uma cultura, dentro do mesmo grupo, desde que o somatório do benefício não ultrapasse, por ano civil, o valor máximo de R$ 32.000,00 (trinta e dois mil reais), nos exercícios de 2007 e 2008. (Redação dada pelo Decreto nº 6.709, de 2008)" .
+lex:D6002\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6002    lex:temArtigo    lex:D6002\/Artigo3 .
+lex:D6002\/Artigo3    lex:temConteudo    "Art. 3o  Fica igualmente estabelecido, para o seguro rural nas modalidades pecuário, de florestas e  aqüícola, o valor máximo de R$ 32.000,00 (trinta e dois mil reais) de subvenção ao prêmio, por beneficiário, pessoa física ou jurídica, por ano civil, para cada uma dessas modalidades." .
+lex:D6002\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6002    lex:temArtigo    lex:D6002\/Artigo4 .
+lex:D6002\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6002\/Artigo1    lex:remetePara    lex:L10823\/Artigo3 .
+lex:D6002\/Artigo1    lex:remetePara    lex:D5121\/Artigo7 .
+lex:D6002\/Artigo1    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/IncisoI    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/IncisoI\/IncisoAlineaAveia\/IncisoAlineaAbacaxi\/IncisoAlineaAmeixa    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/IncisoII    lex:remetePara    lex:D6709\/Artigo1 .
+lex:D6002\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:D6709\/Artigo1 .

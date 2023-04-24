@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5782    lex:ehUm    lex:DocLegal .
+lex:L5782    lex:temTextoIntegral    lex:HTMLs\/L5782.htm .
+lex:L5782\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo1 .
+lex:L5782\/Artigo1    lex:temConteudo    "Art. 1º Nas eleições para Governador, Vice-Governador, Senador e respectivo suplente, Deputado Federal e Deputado Estadual, o candidato deverá ser filiado ao Partido, na circunscrição em que concorrer, pelo prazo de 12 (doze) meses antes da data das eleições." .
+lex:L5782\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo2 .
+lex:L5782\/Artigo2    lex:temConteudo    "Art. 2º Nas eleições para Prefeito, Vice-Prefeito e Vereador, o candidato deverá ser filiado ao Partido, no Município em que concorrer, pelo prazo de 6 (seis) meses antes da data da eleição." .
+lex:L5782\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo3 .
+lex:L5782\/Artigo3    lex:temConteudo    "Art. 3º Nas eleições municipais a se realizarem em 1972, o prazo previsto no artigo anterior fica reduzido a 3 (três) meses." .
+lex:L5782\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5782\/Artigo3    lex:temParagrafo    lex:L5782\/Artigo3\/ParagrafoUnico .
+lex:L5782\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em se tratando de candidato de até 21 (vinte e um) anos de idade, o prazo previsto neste artigo será reduzido à metade." .
+lex:L5782\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo3 .
+lex:L5782\/Artigo3    lex:temConteudo    "Art. 3º - No caso de incorporação de partidos, os filiados que utilizarem a faculdade concedida pelos § 4º, c, e § 5º do artigo 110 da Lei nº 5.682, de 21 de Julho de 1971, ficam dispensados dos prazos estabelecidos nos artigos 1º e 2º desta Lei para se candidatarem a cargos eletivos. (Redação dada pela Lei nº 6.989, de 1982)" .
+lex:L5782\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo4 .
+lex:L5782\/Artigo4    lex:temConteudo    "Art. 4º É facultada a filiação de eleitor perante Diretório Nacional de Partido Político." .
+lex:L5782\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5782    lex:temArtigo    lex:L5782\/Artigo5 .
+lex:L5782\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5782\/Artigo3    lex:remetePara    lex:L5682\/Artigo110\/Paragrafo4c .
+lex:L5782\/Artigo3    lex:remetePara    lex:L5682\/Artigo110\/Paragrafo5 .
+lex:L5782\/Artigo3    lex:remetePara    lex:L6989\/Artigo3 .

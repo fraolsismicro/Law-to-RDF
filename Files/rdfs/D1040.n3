@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1040    lex:ehUm    lex:DocLegal .
+lex:D1040    lex:temTextoIntegral    lex:HTMLs\/D1040.htm .
+lex:D1040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1040    lex:temArtigo    lex:D1040\/Artigo1 .
+lex:D1040\/Artigo1    lex:temConteudo    "Art. 1º Os agentes financeiros oficiais de fomento deverão incluir, em suas linhas prioritárias de crédito e financiamento, os projetos destinados à conservação e uso racional da energia e ao aumento da eficiência energética, inclusive os projetos de pesquisa e desenvolvimento tecnológico nestes campos." .
+lex:D1040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1040    lex:temArtigo    lex:D1040\/Artigo2 .
+lex:D1040\/Artigo2    lex:temConteudo    "Art. 2º A classificação como prioritários dos projetos de que trata o art. 1º deverá basear-se em pareceres técnicos emitidos pelas Secretarias Executivas do Programa Nacional de Conservação de Energia Elétrica PROCEL e do Programa Nacional de Racionalização do Uso de Derivados de Petróleo e do Gás Natural CONPET, conforme for o caso." .
+lex:D1040\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1040\/Artigo2    lex:temParagrafo    lex:D1040\/Artigo2\/ParagrafoUnico .
+lex:D1040\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os agentes financeiros oficiais de fomento poderão firmar acordos de cooperação com as Secretarias Executivas do PROCEL e do CONPET para a avaliação técnica, por estas, dos projetos destinados à conservação e uso racional da energia e ao aumento da eficiência energética." .
+lex:D1040\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1040    lex:temArtigo    lex:D1040\/Artigo3 .
+lex:D1040\/Artigo3    lex:temConteudo    "Art. 3º Este decreto entra em vigor na data de sua publicação." .

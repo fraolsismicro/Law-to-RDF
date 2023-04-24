@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7823    lex:ehUm    lex:DocLegal .
+lex:L7823    lex:temTextoIntegral    lex:HTMLs\/L7823.htm .
+lex:L7823\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7823    lex:temArtigo    lex:L7823\/Artigo1 .
+lex:L7823\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União, Lei nº 7.715, de 3 de janeiro de 1989 - créditos suplementares até o limite de NCz$ 169.940.000,00 (cento e sessenta e nove milhões, novecentos e quarenta mil cruzados novos) para reforço da programação constante do Anexo I desta Lei, nos valores ali indicados." .
+lex:L7823\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7823    lex:temArtigo    lex:L7823\/Artigo2 .
+lex:L7823\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União, Lei nº 7.715, de 3 de janeiro de 1989 - crédito especial de NCz$ 60.000,00 (sessenta mil cruzados novos), para atendimento da programação constante do Anexo II desta Lei, no valor ali indicado." .
+lex:L7823\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7823    lex:temArtigo    lex:L7823\/Artigo3 .
+lex:L7823\/Artigo3    lex:temConteudo    "Art. 3º Os recursos necessários à abertura de créditos decorrerão das disponibilidades provenientes da autorização constante no art. 2º da Lei n° 7.791, de 4 de julho de 1989." .
+lex:L7823\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7823    lex:temArtigo    lex:L7823\/Artigo4 .
+lex:L7823\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7823\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7823    lex:temArtigo    lex:L7823\/Artigo5 .
+lex:L7823\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L7823\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7823\/Artigo2    lex:remetePara    lex:L7715 .
+lex:L7823\/Artigo3    lex:remetePara    lex:L7791\/Artigo2 .

@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0078-A    lex:ehUm    lex:DocLegal .
+lex:D0078-A    lex:temTextoIntegral    lex:HTMLs\/D0078-A.htm .
+lex:D0078-A\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0078-A    lex:temArtigo    lex:D0078-A\/Artigo3 .
+lex:D0078-A\/Artigo3    lex:temConteudo    "Art. 3º E`revogado o decreto n. 2 de 16 de novembro de 1889, que concedeu ao Sr. D. Pedro de Alcântara 5.000:000$ de ajuda de custo para o seu estabelecimento no estrangeiro." .
+lex:D0078-A\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0078-A    lex:temArtigo    lex:D0078-A\/Artigo4 .
+lex:D0078-A\/Artigo4    lex:temConteudo    "Art. 4º Consideram-se extintas, a contar de 15 desse mês, as dotações do Sr. D. Pedro de Alcântara e sua família." .
+lex:D0078-A\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D0078-A    lex:temArtigo    lex:D0078-A\/Artigo5 .
+lex:D0078-A\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrario." .
+lex:D0078-A\/Artigo5\/IncisoM    lex:ehUm    lex:Inciso .
+lex:D0078-A\/Artigo5    lex:temInciso    lex:D0078-A\/Artigo5\/IncisoM .
+lex:D0078-A\/Artigo5\/IncisoM    lex:temConteudo    "M. Ferraz de Campos Salles" .
+lex:D0078-A\/Artigo1    lex:revogadoPor    lex:DPL4120\/Artigo1 .
+lex:DPL4120\/Artigo1    lex:revogou    lex:D0078-A\/Artigo1 .
+lex:D0078-A\/Artigo2    lex:revogadoPor    lex:DPL4120\/Artigo1 .
+lex:DPL4120\/Artigo1    lex:revogou    lex:D0078-A\/Artigo2 .
+lex:D0078-A\/Artigo3    lex:remetePara    lex:D0002 .

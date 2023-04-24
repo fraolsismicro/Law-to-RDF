@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D21928    lex:ehUm    lex:DocLegal .
+lex:D21928    lex:temTextoIntegral    lex:HTMLs\/D21928.htm .
+lex:D21928\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D21928    lex:temArtigo    lex:D21928\/Artigo1 .
+lex:D21928\/Artigo1    lex:temConteudo    "Art. 1º Fica substituido pelo seguinte o § 1º do art. 5º do decreto n. 21.499, de 9 de junho de 1932: Os títulos, documentos e valores dados em caução considerar-se-ão transferidos, por tradição simbólica, à posse da Caixa, desde que estejam relacionados e descritos em termo de tradição lavrado em instrumento avulso assinado pelas partes e copiado em copiador especial para esse fim aberto e rubricado, nos termos do art. 12." .
+lex:D21928\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D21928    lex:temArtigo    lex:D21928\/Artigo2 .
+lex:D21928\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:D21928\/Artigo1    lex:remetePara    lex:D21499\/Artigo5\/Paragrafo1 .

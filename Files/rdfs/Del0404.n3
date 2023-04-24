@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0404    lex:ehUm    lex:DocLegal .
+lex:Del0404    lex:temTextoIntegral    lex:HTMLs\/Del0404.htm .
+lex:Del0404\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0404    lex:temArtigo    lex:Del0404\/Artigo1 .
+lex:Del0404\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, ao Poder Judiciário o crédito especial de NCr $227.521,20 (duzentos e vinte e sete mil, quinhentos e vinte e um cruzeiros novos e vinte centavos), destinado a atender despesas com funcionárias inativos da Justiça de Primeira Instância." .
+lex:Del0404\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0404    lex:temArtigo    lex:Del0404\/Artigo2 .
+lex:Del0404\/Artigo2    lex:temConteudo    "Art. 2º A despesa decorrente da execução do presente Decreto-lei será atendida com os recursos de que trata o artigo 8º e seu parágrafo único, da Lei nº 5.368, de 1º de dezembro de 1967." .
+lex:Del0404\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0404    lex:temArtigo    lex:Del0404\/Artigo3 .
+lex:Del0404\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0404\/Artigo2    lex:remetePara    lex:L5368\/Artigo8 .

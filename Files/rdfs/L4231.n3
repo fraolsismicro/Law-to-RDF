@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4231    lex:ehUm    lex:DocLegal .
+lex:L4231    lex:temTextoIntegral    lex:HTMLs\/L4231.htm .
+lex:L4231\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4231    lex:temArtigo    lex:L4231\/Artigo1 .
+lex:L4231\/Artigo1    lex:temConteudo    "Art. 1º Fica autorizada a reforma, com as vantagens do art. 303 da Lei nº 1.316, de 20 de janeiro de 1951 do ex-soldado do Exército, Jorge Lado Cés, desde que prove, dentro de 6 (seis) meses, sua incapacidade física, na conformidade do disposto na Lei número 2.370, de 9 de dezembro de 1954." .
+lex:L4231\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4231    lex:temArtigo    lex:L4231\/Artigo2 .
+lex:L4231\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4231\/Artigo1    lex:remetePara    lex:L1316\/Artigo303 .
+lex:L4231\/Artigo1    lex:remetePara    lex:L2370 .

@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1359    lex:ehUm    lex:DocLegal .
+lex:L1359    lex:temTextoIntegral    lex:HTMLs\/L1359.htm .
+lex:L1359\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1359    lex:temArtigo    lex:L1359\/Artigo1 .
+lex:L1359\/Artigo1    lex:temConteudo    "Art. 1º A seriação das disciplinas do curso secundário estabelecidas nos artigos 11, 14 e 15 do Decreto-lei número 4.244, de 9 de abril 1942, fica modificada no que se refere às de História Geral e do Brasil, nos têrmos seguintes:" .
+lex:L1359\/Artigo1\/AlineaCurso    lex:ehUm    lex:Alinea .
+lex:L1359\/Artigo1    lex:temAlinea    lex:L1359\/Artigo1\/AlineaCurso .
+lex:L1359\/Artigo1\/AlineaCurso    lex:temConteudo    "a) Curso Ginasial:" .
+lex:L1359\/Artigo1\/AlineaCurso    lex:ehUm    lex:Alinea .
+lex:L1359\/Artigo1    lex:temAlinea    lex:L1359\/Artigo1\/AlineaCurso .
+lex:L1359\/Artigo1\/AlineaCurso    lex:temConteudo    "b) Curso Colegial (Clássico e Científico):" .
+lex:L1359\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1359    lex:temArtigo    lex:L1359\/Artigo2 .
+lex:L1359\/Artigo2    lex:temConteudo    "Art. 2º O Ministro de Estado da Educação e Saúde baixará instruções para a adaptação do novo regime aos alunos que já tenham iniciado o curso das referidas disciplinas e aprovará os respectivos programas a serem elaborados pelo Conselho Nacional de Educação." .
+lex:L1359\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1359    lex:temArtigo    lex:L1359\/Artigo3 .
+lex:L1359\/Artigo3    lex:temConteudo    "Art. 3º A presente Lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:L1359\/Artigo1    lex:remetePara    lex:Del4244\/Artigo11 .
+lex:L1359\/Artigo1    lex:remetePara    lex:Del4244\/Artigo14 .
+lex:L1359\/Artigo1    lex:remetePara    lex:Del4244\/Artigo15 .

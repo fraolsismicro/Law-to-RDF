@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6857    lex:ehUm    lex:DocLegal .
+lex:L6857    lex:temTextoIntegral    lex:HTMLs\/L6857.htm .
+lex:L6857\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6857    lex:temArtigo    lex:L6857\/Artigo1 .
+lex:L6857\/Artigo1    lex:temConteudo    "Art. 1º O artigo 4º e o parágrafo único do artigo 8º da Lei nº 5.887, de 31 de maio de 1973, alterada pelas Leis nºs 6.595, de 21 de novembro de 1978, e 6.716, de 12 de novembro de 1979, ficam acrescidos do inciso IX e da alínea c, respectivamente, com a seguinte redação:" .
+lex:L6857\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:L6857\/Artigo1    lex:temInciso    lex:L6857\/Artigo1\/IncisoIX .
+lex:L6857\/Artigo1\/IncisoIX    lex:temConteudo    "IX - afastamento para frequentar qualquer curso por indicação da Administração, com prazo de duração superior a seis meses, excetuados aqueles próprios da carreira de Diplomata." .
+lex:L6857\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6857\/Artigo1    lex:temParagrafo    lex:L6857\/Artigo1\/ParagrafoUnico .
+lex:L6857\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único..........................................................................................................." .
+lex:L6857\/Artigo1\/ParagrafoUnico\/Alinea-    lex:ehUm    lex:Alinea .
+lex:L6857\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L6857\/Artigo1\/ParagrafoUnico\/Alinea- .
+lex:L6857\/Artigo1\/ParagrafoUnico\/Alinea-    lex:temConteudo    "c) - afastamento nos termos do inciso IX do artigo 4º." .
+lex:L6857\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6857    lex:temArtigo    lex:L6857\/Artigo2 .
+lex:L6857\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6857\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6857    lex:temArtigo    lex:L6857\/Artigo3 .
+lex:L6857\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L6857\/Artigo1\/IncisoIX    lex:remetePara    lex:L5887\/Artigo4 .
+lex:L6857\/Artigo1\/ParagrafoUnico\/Alinea-    lex:remetePara    lex:L5887\/Artigo8 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3062    lex:ehUm    lex:DocLegal .
+lex:L3062    lex:temTextoIntegral    lex:HTMLs\/L3062.htm .
+lex:L3062\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3062    lex:temArtigo    lex:L3062\/Artigo1 .
+lex:L3062\/Artigo1    lex:temConteudo    "Art. 1º Fica desdobrado o atual Serviço Nacional de Fiscalização da Medicina, criado pelo Decreto-lei número 3.171, de 2 de abril de 1941, em Serviço Nacional de Fiscalização da Medicina e Farmácia e Serviço Nacional de Fiscalização de Odontologia." .
+lex:L3062\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3062\/Artigo1    lex:temParagrafo    lex:L3062\/Artigo1\/ParagrafoUnico .
+lex:L3062\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Serão aproveitados, sem ônus para a União, os funcionários do atual Serviço Nacional de Fiscalização da Medicina, em idênticas funções, nos serviços de que trata êste artigo." .
+lex:L3062\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3062    lex:temArtigo    lex:L3062\/Artigo2 .
+lex:L3062\/Artigo2    lex:temConteudo    "Art. 2º Os Serviços desdobrados de acôrdo com o art. 1º têm por objetivo superintender e fiscalizar, no território nacional, diretamente ou por intermédio das Delegacias Federais de Saúde, repartições estaduais e outras autoridades federais e estaduais, tudo que se relacionar, respectivamente, com o exercício da Medicina, Odontologia e Farmácia." .
+lex:L3062\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3062    lex:temArtigo    lex:L3062\/Artigo3 .
+lex:L3062\/Artigo3    lex:temConteudo    "Art. 3º O Ministro da Saúde baixará, dentro em 120 (cento e vinte) dias, as instruções reguladoras da reorganização dos Serviços de que trata o art. 1º." .
+lex:L3062\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3062    lex:temArtigo    lex:L3062\/Artigo4 .
+lex:L3062\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3062\/Artigo1    lex:remetePara    lex:Del3171 .

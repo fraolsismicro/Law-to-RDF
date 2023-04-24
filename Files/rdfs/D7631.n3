@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7631    lex:ehUm    lex:DocLegal .
+lex:D7631    lex:temTextoIntegral    lex:HTMLs\/D7631.htm .
+lex:D7631\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7631    lex:temParagrafo    lex:D7631\/ParagrafoUnico .
+lex:D7631\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto no caput aplica-se apenas aos:" .
+lex:D7631\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7631\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7631\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D7631\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - produtos enquadrados nos índices de eficiência energética especificados; e" .
+lex:D7631\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7631\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7631\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D7631\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - destaques Ex expressamente listados." .
+lex:D7631\/Texto    lex:remetePara    lex:D7631 .
+lex:D7631\/Artigo1    lex:remetePara    lex:D6006 .

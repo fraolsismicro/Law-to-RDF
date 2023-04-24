@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2337    lex:ehUm    lex:DocLegal .
+lex:Del2337    lex:temTextoIntegral    lex:HTMLs\/Del2337.htm .
+lex:Del2337\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2337    lex:temArtigo    lex:Del2337\/Artigo1 .
+lex:Del2337\/Artigo1    lex:temConteudo    "Art. 1º O caput do artigo 13 e o inciso I do artigo 14 do Decreto-lei nº 2.335, de 12 de junho de 1987, alterado pelo Decreto-lei nº 2.336, de 15 de junho de 1987, passam a vigorar com a seguinte redação:" .
+lex:Del2337\/Artigo14    lex:ehUm    lex:Artigo .
+lex:Del2337    lex:temArtigo    lex:Del2337\/Artigo14 .
+lex:Del2337\/Artigo14    lex:temConteudo    "Art. 14. .................................................................................................................................." .
+lex:Del2337\/Artigo14\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2337\/Artigo14    lex:temInciso    lex:Del2337\/Artigo14\/IncisoI .
+lex:Del2337\/Artigo14\/IncisoI    lex:temConteudo    "I - aos contratos cujo objeto seja a venda de bens para entrega futura, com exceção das operações nos mercados a termo, futuro e de opções, em bolsas de valores, de mercadorias e de futuros;" .
+lex:Del2337\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2337    lex:temArtigo    lex:Del2337\/Artigo2 .
+lex:Del2337\/Artigo2    lex:temConteudo    "Art. 2º Às obrigações contratuais relativas a operações nos mercados a termo, futuro e de opções, em bolsas de valores, de mercadorias e de futuros, aplica-se o disposto no caput do artigo 13 do Decreto-lei nº 2.335, de 12 de junho de 1987, com a redação dada por este decreto-lei." .
+lex:Del2337\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2337    lex:temArtigo    lex:Del2337\/Artigo3 .
+lex:Del2337\/Artigo3    lex:temConteudo    "Art. 3º Este decreto-lei entra em vigor na data de sua publicação." .
+lex:Del2337\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2337    lex:temArtigo    lex:Del2337\/Artigo4 .
+lex:Del2337\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:Del2337\/Artigo1    lex:remetePara    lex:Del2335 .
+lex:Del2337\/Artigo1    lex:remetePara    lex:Del2336\/Artigo3 .
+lex:Del2337\/Texto00001    lex:remetePara    lex:Del2335\/Artigo13 .
+lex:Del2337\/Artigo14\/IncisoI    lex:remetePara    lex:Del2335\/Artigo14 .
+lex:Del2337\/Artigo2    lex:remetePara    lex:Del2335\/Artigo13 .

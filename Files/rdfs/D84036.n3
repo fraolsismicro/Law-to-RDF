@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D84036    lex:ehUm    lex:DocLegal .
+lex:D84036    lex:temTextoIntegral    lex:HTMLs\/D84036.htm .
+lex:D84036\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D84036    lex:temArtigo    lex:D84036\/Artigo1 .
+lex:D84036\/Artigo1    lex:temConteudo    "Art. 1º O valor tributável dos produtos do item 24.02.02.99 (cigarros), da Tabela anexa ao Decreto nº 83.263, de 09 de março de 1979, é de 18,08134% sobre o preço de venda a varejo, mantida a margem bruta do varejista em 11% sobre o referido preço." .
+lex:D84036\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D84036    lex:temArtigo    lex:D84036\/Artigo2 .
+lex:D84036\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor em 16 de outubro de 1979, revogadas as disposições em contrário." .
+lex:D84036\/Texto    lex:remetePara    lex:D84036 .
+lex:D84036\/Artigo1    lex:remetePara    lex:D83263 .

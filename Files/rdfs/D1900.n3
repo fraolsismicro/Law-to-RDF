@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1900    lex:ehUm    lex:DocLegal .
+lex:D1900    lex:temTextoIntegral    lex:HTMLs\/D1900.htm .
+lex:D1900\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1900    lex:temArtigo    lex:D1900\/Artigo1 .
+lex:D1900\/Artigo1    lex:temConteudo    "Art. 1º O Acordo Relativo ao Uso de Peritos em Cooperação Técnica entre Países em Desenvolvimento, firmado entro o Governo da República Federativa do Brasil e a Organização das Nações Unidas para a Alimentação e a Agricultura, em Brasília, em 21 de fevereiro de 1995, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D1900\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1900    lex:temArtigo    lex:D1900\/Artigo2 .
+lex:D1900\/Artigo2    lex:temConteudo    "Art. 2º. O presente Decreto entra em vigor na data de sua publicação." .
+lex:D1900\/Artigo2\/AlineaUma    lex:ehUm    lex:Alinea .
+lex:D1900\/Artigo2    lex:temAlinea    lex:D1900\/Artigo2\/AlineaUma .
+lex:D1900\/Artigo2\/AlineaUma    lex:temConteudo    "a) uma quantia de US$ 300,00 (trezentos dólares americanos) por mês como contribuição para o salário do perito;" .
+lex:D1900\/Artigo2\/AlineaTodos    lex:ehUm    lex:Alinea .
+lex:D1900\/Artigo2    lex:temAlinea    lex:D1900\/Artigo2\/AlineaTodos .
+lex:D1900\/Artigo2\/AlineaTodos    lex:temConteudo    "b) todos os custos razoáveis de viagens internacionais aprovadas pela FAO;" .
+lex:D1900\/Artigo2\/AlineaTodos    lex:ehUm    lex:Alinea .
+lex:D1900\/Artigo2    lex:temAlinea    lex:D1900\/Artigo2\/AlineaTodos .
+lex:D1900\/Artigo2\/AlineaTodos    lex:temConteudo    "c) todos os custos de viagens internas aprovadas pela FAO;" .
+lex:D1900\/Artigo2\/AlineaTodos    lex:ehUm    lex:Alinea .
+lex:D1900\/Artigo2    lex:temAlinea    lex:D1900\/Artigo2\/AlineaTodos .
+lex:D1900\/Artigo2\/AlineaTodos    lex:temConteudo    "d) todos os custos razoáveis de acidentes e de seguros saúde; e" .
+lex:D1900\/Artigo2\/AlineaTodos\/ItemA    lex:ehUm    lex:Item .
+lex:D1900\/Artigo2\/AlineaTodos    lex:temItem    lex:D1900\/Artigo2\/AlineaTodos\/ItemA .
+lex:D1900\/Artigo2\/AlineaTodos\/ItemA    lex:temConteudo    "2. A FOA reembolsará ou proverá diretamente, conforme o caso, ao perito, uma quantia correspondente a US$ 50,00 (cinqüenta dólares americanos) por dia relativa às despesas locais de manutenção enquanto o perito estiver trabalhando em um projeto aprovado sob este Esquema no país do Governo favorecido." .

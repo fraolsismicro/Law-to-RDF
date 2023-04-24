@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3568    lex:ehUm    lex:DocLegal .
+lex:L3568    lex:temTextoIntegral    lex:HTMLs\/L3568.htm .
+lex:L3568\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3568    lex:temArtigo    lex:L3568\/Artigo1 .
+lex:L3568\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Educação e Cultura, o crédito especial de Cr$ 15.000.000,00 (quinze milhões de cruzeiros) destinado a atender despesas com as novas instalações do Colegio Pedro II - Internato." .
+lex:L3568\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3568\/Artigo1    lex:temParagrafo    lex:L3568\/Artigo1\/ParagrafoUnico .
+lex:L3568\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito especial de que trata êste artigo será automaticamente registrado pelo Tribunal de Contas e distribuido ao Tesouro Nacional." .
+lex:L3568\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3568    lex:temArtigo    lex:L3568\/Artigo2 .
+lex:L3568\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação." .
+lex:L3568\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3568    lex:temArtigo    lex:L3568\/Artigo3 .
+lex:L3568\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .

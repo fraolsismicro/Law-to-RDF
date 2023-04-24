@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11224    lex:ehUm    lex:DocLegal .
+lex:L11224    lex:temTextoIntegral    lex:HTMLs\/L11224.htm .
+lex:L11224\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11224    lex:temInciso    lex:L11224\/IncisoI .
+lex:L11224\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União de 2004, no valor de R$ 111.101.851,00 (cento e onze milhões, cento e um mil, oitocentos e cinqüenta e um reais);" .
+lex:L11224\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11224    lex:temInciso    lex:L11224\/IncisoII .
+lex:L11224\/IncisoII    lex:temConteudo    "II - excesso de arrecadação, no valor de R$ 193.716.974,00 (cento e noventa e três milhões, setecentos e dezesseis mil, novecentos e setenta e quatro reais), sendo:" .
+lex:L11224\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11224\/IncisoII    lex:temIncisoAlinea    lex:L11224\/IncisoII\/IncisoAlineaRS .
+lex:L11224\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 157.359.174,00 (cento e cinqüenta e sete milhões, trezentos e cinqüenta e nove mil, cento e setenta e quatro reais) de Recursos Ordinários;" .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11224\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 2.890.000,00 (dois milhões, oitocentos e noventa mil reais) de Taxas e Multas pelo Exercício do Poder de Polícia;" .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 3.299.000,00 (três milhões, duzentos e noventa e nove mil reais) de Outras Contribuições Sociais; e" .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11224\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 30.168.800,00 (trinta milhões, cento e sessenta e oito mil e oitocentos reais) de Recursos Próprios Não-Financeiros; e" .
+lex:L11224\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11224    lex:temInciso    lex:L11224\/IncisoIII .
+lex:L11224\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no valor de R$ 117.454.151,00 (cento e dezessete milhões, quatrocentos e cinqüenta e quatro mil, cento e cinqüenta e um reais), conforme indicado no Anexo II desta Lei." .
+lex:L11224\/Artigo1    lex:remetePara    lex:L11100 .
+lex:L11224\/Artigo3    lex:remetePara    lex:L10934\/Artigo65\/Paragrafo11 .

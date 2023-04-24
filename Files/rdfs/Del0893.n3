@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0893    lex:ehUm    lex:DocLegal .
+lex:Del0893    lex:temTextoIntegral    lex:HTMLs\/Del0893.htm .
+lex:Del0893\/ParagrafoA    lex:ehUm    lex:Paragrafo .
+lex:Del0893    lex:temParagrafo    lex:Del0893\/ParagrafoA .
+lex:Del0893\/ParagrafoA    lex:temConteudo    "Art.1º A Lei nº 5.316, de 14 de setembro de 1967, fica alterada, da seguinte maneira:" .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:Del0893\/ParagrafoA    lex:temParagrafoInciso    lex:Del0893\/ParagrafoA\/ParagrafoIncisoI .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoI    lex:temConteudo    "I - a letra b do parágrafo 1º do artigo 2º passa a vigorar com a seguinte redação:" .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:Del0893\/ParagrafoA    lex:temParagrafoInciso    lex:Del0893\/ParagrafoA\/ParagrafoIncisoII .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII    lex:temConteudo    "II - são introduzidas no artigo 15 as seguintes alterações:" .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII    lex:temAlinea    lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaO .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaO    lex:temConteudo    "a) o caput passa a ter a seguinte redação:" .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaSao    lex:ehUm    lex:Alinea .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII    lex:temAlinea    lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaSao .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/AlineaSao    lex:temConteudo    "b) são introduzidos dois parágrafos que serão o segundo e o terceiro, com a seguinte redação:" .
+lex:Del0893\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0893    lex:temParagrafo    lex:Del0893\/Paragrafo3 .
+lex:Del0893\/Paragrafo3    lex:temConteudo    "§ 3º Terão prioridade absoluta para julgamento, nas Juntas de Recursos e no Conselho de Recursos da Previdência Social, os recursos relativos a direitos decorrentes desta Lei.'" .
+lex:Del0893\/Paragrafo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del0893\/Paragrafo3    lex:temAlinea    lex:Del0893\/Paragrafo3\/AlineaO .
+lex:Del0893\/Paragrafo3\/AlineaO    lex:temConteudo    "c) o atual 2º, passa a § 4º com a seguinte redação:" .
+lex:Del0893\/Paragrafo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del0893\/Paragrafo3    lex:temAlinea    lex:Del0893\/Paragrafo3\/AlineaO .
+lex:Del0893\/Paragrafo3\/AlineaO    lex:temConteudo    "d) o atual § 3º passa a § 5º, sem alteração;" .
+lex:Del0893\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:Del0893\/Paragrafo3    lex:temParagrafoInciso    lex:Del0893\/Paragrafo3\/ParagrafoIncisoIII .
+lex:Del0893\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - é introduzido no artigo 16 um parágrafo único, com a seguinte redação:" .
+lex:Del0893\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:Del0893\/Paragrafo3    lex:temParagrafoInciso    lex:Del0893\/Paragrafo3\/ParagrafoIncisoIV .
+lex:Del0893\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - é introduzido no artigo 23, na redação dada pelo Decreto-lei nº 630, de 16 de junho de 1969, um parágrafo, que será o oitavo com a seguinte redação:" .
+lex:Del0893\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0893    lex:temArtigo    lex:Del0893\/Artigo2 .
+lex:Del0893\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0893\/ParagrafoA\/Texto00002    lex:remetePara    lex:L5316\/Artigo2\/Paragrafo1b .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/Texto00004    lex:remetePara    lex:L5316\/Artigo15 .
+lex:Del0893\/ParagrafoA\/ParagrafoIncisoII\/Texto00005    lex:remetePara    lex:L5316\/Artigo15\/Paragrafo2 .
+lex:Del0893\/Paragrafo3\/Texto00007    lex:remetePara    lex:L5316\/Artigo15\/Paragrafo4 .
+lex:Del0893\/Paragrafo3\/AlineaO    lex:remetePara    lex:L5316\/Artigo15\/Paragrafo5 .
+lex:Del0893\/Paragrafo3\/Texto00009    lex:remetePara    lex:L5316\/Artigo16 .

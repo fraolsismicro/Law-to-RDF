@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11334    lex:ehUm    lex:DocLegal .
+lex:L11334    lex:temTextoIntegral    lex:HTMLs\/L11334.htm .
+lex:L11334\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11334    lex:temArtigo    lex:L11334\/Artigo1 .
+lex:L11334\/Artigo1    lex:temConteudo    "Art. 1o  O art. 218 da Lei no 9.503, de 23 de setembro de 1997, passa a vigorar com a seguinte redação:" .
+lex:L11334\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11334\/Artigo1    lex:temInciso    lex:L11334\/Artigo1\/IncisoI .
+lex:L11334\/Artigo1\/IncisoI    lex:temConteudo    "I - quando a velocidade for superior à máxima em até 20% (vinte por cento):" .
+lex:L11334\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11334\/Artigo1    lex:temInciso    lex:L11334\/Artigo1\/IncisoII .
+lex:L11334\/Artigo1\/IncisoII    lex:temConteudo    "II - quando a velocidade for superior à máxima em mais de 20% (vinte por cento) até 50% (cinqüenta por cento):" .
+lex:L11334\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11334\/Artigo1    lex:temInciso    lex:L11334\/Artigo1\/IncisoIII .
+lex:L11334\/Artigo1\/IncisoIII    lex:temConteudo    "III - quando a velocidade for superior à máxima em mais de 50% (cinqüenta por cento):" .
+lex:L11334\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11334    lex:temArtigo    lex:L11334\/Artigo2 .
+lex:L11334\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11334\/Artigo1    lex:remetePara    lex:L9503\/Artigo218 .

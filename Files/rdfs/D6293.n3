@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6293    lex:ehUm    lex:DocLegal .
+lex:D6293    lex:temTextoIntegral    lex:HTMLs\/D6293.htm .
+lex:D6293\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6293    lex:temArtigo    lex:D6293\/Artigo1 .
+lex:D6293\/Artigo1    lex:temConteudo    "Art. 1o  O art. 2o do Decreto no 4.858, de 13 de outubro de 2003, passa a vigorar com a seguinte redação:" .
+lex:D6293\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6293\/Artigo1    lex:temInciso    lex:D6293\/Artigo1\/IncisoI .
+lex:D6293\/Artigo1\/IncisoI    lex:temConteudo    "I - .............................................................................................................................................." .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D6293\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "i) da Secretaria de Comunicação Social da Presidência da República." .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlineaItem    lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaItem .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaItem    lex:temConteudo    "............................................................................................................................................................." .
+lex:D6293\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D6293\/Artigo1    lex:temParagrafo    lex:D6293\/Artigo1\/Paragrafo6 .
+lex:D6293\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º  A função de Secretário-Executivo do Conselho será exercida pelo Secretário-Executivo do Ministério da Cultura ou, na sua ausência ou impedimento, pelo Diretor-Presidente da ANCINE." .
+lex:D6293\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6293\/Artigo1    lex:temParagrafo    lex:D6293\/Artigo1\/Paragrafo7 .
+lex:D6293\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Na ausência ou impedimento do Ministro de Estado Chefe da Casa Civil da Presidência da República, a presidência do Conselho será exercida pelo Ministro de Estado da Cultura." .
+lex:D6293\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D6293\/Artigo1    lex:temParagrafo    lex:D6293\/Artigo1\/Paragrafo8 .
+lex:D6293\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o  Os demais Ministros de Estado, referidos no inciso I, poderão indicar representantes para participar das reuniões do Conselho, no caso de ausência ou impedimento. (NR)" .
+lex:D6293\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6293    lex:temArtigo    lex:D6293\/Artigo2 .
+lex:D6293\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6293\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:remetePara    lex:D4858\/Artigo2 .
+lex:D6293\/Artigo1\/Paragrafo6    lex:remetePara    lex:D4858\/Artigo2\/Paragrafo6 .

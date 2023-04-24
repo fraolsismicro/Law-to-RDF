@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3589    lex:ehUm    lex:DocLegal .
+lex:L3589    lex:temTextoIntegral    lex:HTMLs\/L3589.htm .
+lex:L3589\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3589    lex:temArtigo    lex:L3589\/Artigo1 .
+lex:L3589\/Artigo1    lex:temConteudo    "Art. 1º Os oficiais do Serviço de Intendência do Exército que tenham passado à reserva de primeira classe, compulsòriamente, depois de 2 de junho de 1946, data em que terminou o prazo de 60 (sessenta) dias, de que trata o parágrafo único do art. 60, do Decreto-lei nº 9.120, de 2 de abril de 1946, até 31 de dezembro de 1950, ocasião em que se realizaram as promoções da última revisão de Quadros e Efetivos determinada pela mesma lei, reverterão ao serviço ativo do Exército." .
+lex:L3589\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3589\/Artigo1    lex:temParagrafo    lex:L3589\/Artigo1\/ParagrafoUnico .
+lex:L3589\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os oficiais compreendidos nas disposições dêste artigo serão promovidos:" .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaIntersticio    lex:ehUm    lex:Alinea .
+lex:L3589\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaIntersticio .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaIntersticio    lex:temConteudo    "a) Interstício no pôsto;" .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaCurso    lex:ehUm    lex:Alinea .
+lex:L3589\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaCurso .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaCurso    lex:temConteudo    "b) Curso de Aperfeiçoamento de Oficiais ou equivalentes;" .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaDireito    lex:ehUm    lex:Alinea .
+lex:L3589\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaDireito .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaDireito    lex:temConteudo    "c) direito à promoção por antigüidade, nas vagas decorrentes do efetivo fixado pela Lei nº 1.246, de 30 de novembro de 1950." .
+lex:L3589\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3589    lex:temArtigo    lex:L3589\/Artigo2 .
+lex:L3589\/Artigo2    lex:temConteudo    "Art. 2º Fica assegurado aos sucessores dos Oficiais já falecidos o direito à percepção das vantagens pecuniárias decorrentes das promoções, que beneficiariam êsses oficiais em virtude do disposto no artigo anterior e com a ressalva do art. 4º." .
+lex:L3589\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3589    lex:temArtigo    lex:L3589\/Artigo3 .
+lex:L3589\/Artigo3    lex:temConteudo    "Art. 3º O oficial amparado pela presente lei será colocado no Almanaque do Exército, sem ocupar vaga, imediatamente abaixo do companheiro de pôsto que lhe antecedia em antigüidade, na data da transferência do beneficiado para a reserva." .
+lex:L3589\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3589    lex:temArtigo    lex:L3589\/Artigo4 .
+lex:L3589\/Artigo4    lex:temConteudo    "Art. 4º Nenhuma vantagem ou vencimento atrasado será pago aos que se beneficiarem pela presente lei." .
+lex:L3589\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L3589    lex:temArtigo    lex:L3589\/Artigo5 .
+lex:L3589\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3589\/Artigo1\/ParagrafoUnico\/AlineaDireito    lex:remetePara    lex:L1246 .
+lex:L3589\/Artigo1\/ParagrafoUnico\/Texto00005    lex:remetePara    lex:L1376 .
+lex:L3589\/Artigo1\/ParagrafoUnico\/Texto00005    lex:remetePara    lex:L2586 .

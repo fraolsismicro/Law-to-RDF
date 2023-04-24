@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98889    lex:ehUm    lex:DocLegal .
+lex:D98889    lex:temTextoIntegral    lex:HTMLs\/D98889.htm .
+lex:D98889\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98889    lex:temArtigo    lex:D98889\/Artigo1 .
+lex:D98889\/Artigo1    lex:temConteudo    "Art. 1º Fica autorizado o funcionamento do Curso Superior de Tecnologia em Processamento de Dados, a ser ministrado pela Faculdade de Administração, Ciências Econômicas e Contábeis, mantida pela Associação Potiguar de Educação e Cultura, com sede em Natal, Estado do Rio Grande do Norte." .
+lex:D98889\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98889    lex:temArtigo    lex:D98889\/Artigo2 .
+lex:D98889\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrario." .
+lex:D98889\/Texto    lex:remetePara    lex:D98889 .

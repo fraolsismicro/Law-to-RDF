@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8765    lex:ehUm    lex:DocLegal .
+lex:L8765    lex:temTextoIntegral    lex:HTMLs\/L8765.htm .
+lex:L8765\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8765    lex:temArtigo    lex:L8765\/Artigo1 .
+lex:L8765\/Artigo1    lex:temConteudo    "Art. 1º O art. 43 da Lei nº 8.447, de 21 de julho de 1992, passa a vigorar com a seguinte redação:" .
+lex:L8765\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L8765\/Artigo1    lex:temInciso    lex:L8765\/Artigo1\/IncisoVII .
+lex:L8765\/Artigo1\/IncisoVII    lex:temConteudo    "VII - garantia de empréstimos concedidos ao Fundo Nacional de Saúde, com recursos originários dos depósitos especiais de que trata o art. 9º da Lei nº 8.019, de 11 de abril de 1990.'" .
+lex:L8765\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8765    lex:temArtigo    lex:L8765\/Artigo2 .
+lex:L8765\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L8765\/Artigo1    lex:remetePara    lex:L8447 .
+lex:L8765\/Artigo1\/IncisoVII    lex:remetePara    lex:L8447\/Artigo43 .

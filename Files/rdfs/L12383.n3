@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12383    lex:ehUm    lex:DocLegal .
+lex:L12383    lex:temTextoIntegral    lex:HTMLs\/L12383.htm .
+lex:L12383\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12383    lex:temArtigo    lex:L12383\/Artigo1 .
+lex:L12383\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o da Lei no 5.851, de 7 de dezembro de 1972, passa a vigorar com a seguinte redação:" .
+lex:L12383\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12383\/Artigo1    lex:temParagrafo    lex:L12383\/Artigo1\/Paragrafo1 .
+lex:L12383\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A Empresa terá sede e foro na Capital Federal, podendo, para o bom desempenho das suas finalidades, manter, em qualquer ponto do território nacional, órgãos regionais ou locais, destinados a pesquisas, desenvolvimento de tecnologia e experimentações agropecuárias." .
+lex:L12383\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12383\/Artigo1    lex:temParagrafo    lex:L12383\/Artigo1\/Paragrafo2 .
+lex:L12383\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A EMBRAPA poderá exercer qualquer das atividades integrantes de seu objeto social fora do território nacional, em conformidade com o que dispuser seu estatuto social. (NR)" .
+lex:L12383\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12383    lex:temArtigo    lex:L12383\/Artigo2 .
+lex:L12383\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L12383\/Texto    lex:remetePara    lex:504 .
+lex:L12383\/Texto00001    lex:remetePara    lex:L5851\/Artigo1 .

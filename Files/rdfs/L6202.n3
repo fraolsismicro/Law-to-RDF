@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6202    lex:ehUm    lex:DocLegal .
+lex:L6202    lex:temTextoIntegral    lex:HTMLs\/L6202.htm .
+lex:L6202\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6202    lex:temArtigo    lex:L6202\/Artigo1 .
+lex:L6202\/Artigo1    lex:temConteudo    "Art. 1º A partir do oitavo mês de gestação e durante três meses a estudante em estado de gravidez ficará assistida pelo regime de exercícios domiciliares instituído pelo Decreto-lei número 1.044, 21 de outubro de 1969." .
+lex:L6202\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6202\/Artigo1    lex:temParagrafo    lex:L6202\/Artigo1\/ParagrafoUnico .
+lex:L6202\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O início e o fim do período em que é permitido o afastamento serão determinados por atestado médico a ser apresentado à direção da escola." .
+lex:L6202\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6202    lex:temArtigo    lex:L6202\/Artigo2 .
+lex:L6202\/Artigo2    lex:temConteudo    "Art. 2º Em casos excepcionais devidamente comprovados mediante atestado médico, poderá ser aumentado o período de repouso, antes e depois do parto." .
+lex:L6202\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6202\/Artigo2    lex:temParagrafo    lex:L6202\/Artigo2\/ParagrafoUnico .
+lex:L6202\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em qualquer caso, é assegurado às estudantes em estado de gravidez o direito à prestação dos exames finais." .
+lex:L6202\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6202    lex:temArtigo    lex:L6202\/Artigo3 .
+lex:L6202\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6202\/Artigo1    lex:remetePara    lex:Del1044 .

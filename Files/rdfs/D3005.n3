@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3005    lex:ehUm    lex:DocLegal .
+lex:D3005    lex:temTextoIntegral    lex:HTMLs\/D3005.htm .
+lex:D3005\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3005    lex:temInciso    lex:D3005\/IncisoD .
+lex:D3005\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3005\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3005    lex:temArtigo    lex:D3005\/Artigo1 .
+lex:D3005\/Artigo1    lex:temConteudo    "Art. 1o  O art. 7o do Decreto no 2.984, de 5 de março de 1999, fica acrescido do seguinte parágrafo único:" .
+lex:D3005\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3005\/Artigo1    lex:temParagrafo    lex:D3005\/Artigo1\/ParagrafoUnico .
+lex:D3005\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os recursos para execução das despesas da Câmara dos Deputados, do Tribunal de Contas da União, da Justiça do Distrito Federal e dos Territórios e da Justiça do Trabalho poderão ser liberados mensalmente pelo valor correspondente a um décimo da diferença entre a dotação orçamentária anual e os valores liberados até o dia 17 de março de 1999.' (NR)" .
+lex:D3005\/Artigo1    lex:remetePara    lex:D2984 .
+lex:D3005\/Artigo1\/Fecho    lex:remetePara    lex:index .

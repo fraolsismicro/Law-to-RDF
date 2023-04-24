@@ -1,0 +1,229 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9003    lex:ehUm    lex:DocLegal .
+lex:D9003    lex:temTextoIntegral    lex:HTMLs\/D9003.htm .
+lex:D9003\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo1 .
+lex:D9003\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Fazenda, na forma dos Anexos I e II." .
+lex:D9003\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo2 .
+lex:D9003\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D9003\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo2    lex:temInciso    lex:D9003\/Artigo2\/IncisoI .
+lex:D9003\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério da Fazenda para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 102.5;" .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:temConteudo    "b) cinco DAS 102.3;" .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete    lex:temConteudo    "c) sete DAS 102.2; e" .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete\/IncisoAlineaQuinze    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete\/IncisoAlineaQuinze .
+lex:D9003\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSete\/IncisoAlineaQuinze    lex:temConteudo    "d) quinze DAS 102.1;" .
+lex:D9003\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo2    lex:temInciso    lex:D9003\/Artigo2\/IncisoII .
+lex:D9003\/Artigo2\/IncisoII    lex:temConteudo    "II - do extinto Ministério da Previdência Social, cuja estrutura regimental consta do Decreto no 7.078, de 26 de janeiro de 2010, para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.6;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco    lex:temConteudo    "b) cinco DAS 101.5;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze    lex:temConteudo    "c) onze DAS 101.4;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:temConteudo    "d) vinte e quatro DAS 101.3;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm    lex:temConteudo    "e) um DAS 101.2;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze    lex:temConteudo    "f) onze DAS 101.1;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco    lex:temConteudo    "g) cinco DAS 102.2;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro    lex:temConteudo    "h) quatro DAS 102.1;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres    lex:temConteudo    "i) três FG-1;" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete    lex:temConteudo    "j) sete FG-2; e" .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove .
+lex:D9003\/Artigo2\/IncisoII\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaUm\/IncisoAlineaOnze\/IncisoAlineaCinco\/IncisoAlineaQuatro\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove    lex:temConteudo    "k) nove FG-3; e" .
+lex:D9003\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo2    lex:temInciso    lex:D9003\/Artigo2\/IncisoIII .
+lex:D9003\/Artigo2\/IncisoIII    lex:temConteudo    "III - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério da Fazenda:" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.6;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete    lex:temConteudo    "b) sete DAS 101.5;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e um DAS 101.4;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temConteudo    "d) trinta e nove DAS 101.3;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:temConteudo    "e) vinte e sete DAS 101.2;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis    lex:temConteudo    "f) seis DAS 101.1;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temConteudo    "g) três FG-1;" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete    lex:temConteudo    "h) sete FG-2; e" .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove .
+lex:D9003\/Artigo2\/IncisoIII\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaSete\/IncisoAlineaNove    lex:temConteudo    "i) nove FG-3." .
+lex:D9003\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo3 .
+lex:D9003\/Artigo3    lex:temConteudo    "Art. 3o  Ficam remanejadas, da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério da Fazenda, na forma do Anexo IV, em cumprimento à Lei no 13.346, de 10 de outubro de 2016, as seguintes Funções Comissionadas do Poder Executivo - FCPE:" .
+lex:D9003\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoI .
+lex:D9003\/Artigo3\/IncisoI    lex:temConteudo    "I - vinte e três FCPE 101.4;" .
+lex:D9003\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoII .
+lex:D9003\/Artigo3\/IncisoII    lex:temConteudo    "II - cento e quatorze FCPE 101.3;" .
+lex:D9003\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoIII .
+lex:D9003\/Artigo3\/IncisoIII    lex:temConteudo    "III - quinhentas e oitenta e nove FCPE 101.2;" .
+lex:D9003\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoIV .
+lex:D9003\/Artigo3\/IncisoIV    lex:temConteudo    "IV - oitocentas e trinta FCPE 101.1;" .
+lex:D9003\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoV .
+lex:D9003\/Artigo3\/IncisoV    lex:temConteudo    "V - doze FCPE 102.2; e" .
+lex:D9003\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo3    lex:temInciso    lex:D9003\/Artigo3\/IncisoVI .
+lex:D9003\/Artigo3\/IncisoVI    lex:temConteudo    "VI - vinte e quatro FCPE 102.1." .
+lex:D9003\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo3    lex:temParagrafo    lex:D9003\/Artigo3\/ParagrafoUnico .
+lex:D9003\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam extintos mil, quinhentos e noventa e dois cargos em comissão do Grupo-DAS, conforme demonstrado no Anexo IV." .
+lex:D9003\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo4 .
+lex:D9003\/Artigo4    lex:temConteudo    "Art. 4o  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do Ministério da Fazenda por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D9003\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo5 .
+lex:D9003\/Artigo5    lex:temConteudo    "Art. 5o  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do Ministério da Fazenda deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D9003\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo5    lex:temParagrafo    lex:D9003\/Artigo5\/ParagrafoUnico .
+lex:D9003\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado da Fazenda publicará, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D9003\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo6 .
+lex:D9003\/Artigo6    lex:temConteudo    "Art. 6o  O Ministro de Estado da Fazenda editará regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do Ministério da Fazenda, suas competências e as atribuições de seus dirigentes, no prazo de noventa dias, contado da data de entrada em vigor deste Decreto." .
+lex:D9003\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo6    lex:temParagrafo    lex:D9003\/Artigo6\/ParagrafoUnico .
+lex:D9003\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O regimento interno conterá o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Fazenda." .
+lex:D9003\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo7 .
+lex:D9003\/Artigo7    lex:temConteudo    "Art. 7o  O Ministro de Estado da Fazenda poderá, mediante alteração do regimento interno, permutar cargos em comissão do Grupo-DAS com FCPE, desde que não sejam alteradas as unidades da estrutura organizacional básica especificadas na Tabela a do Anexo II e sejam mantidos as categorias, os níveis e os quantitativos previstos na Tabela b do Anexo II, conforme o disposto no art. 9o do Decreto no 6.944, de 21 de agosto de 2009." .
+lex:D9003\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo8 .
+lex:D9003\/Artigo8    lex:temConteudo    "Art. 8o  O Ministério da Fazenda apresentará ao Ministério do Planejamento, Desenvolvimento e Gestão, no prazo de noventa dias, contado da data de entrada em vigor deste Decreto, proposta de Decreto com nova alocação e revisão da nomenclatura das Funções Comissionadas Técnicas remanejadas para o extinto Ministério da Previdência Social, sucedido pelo Ministério do Trabalho e Previdência Social, posteriormente transformado no Ministério do Trabalho, cuja Estrutura Regimental consta do Decreto no 7.078, de 26 de janeiro de 2010." .
+lex:D9003\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo9 .
+lex:D9003\/Artigo9    lex:temConteudo    "Art. 9o  A distribuição das Gratificações Temporárias das Unidades dos Sistemas Estruturadores da Administração Pública Federal - GSISTE, instituídas pela Lei no 11.356, de 19 de outubro de 2006, do extinto Ministério da Previdência Social, sucedido pelo extinto Ministério do Trabalho e Previdência Social, aos órgãos central, setoriais, seccionais e correlatos dos sistemas estruturados do Ministério da Fazenda será realizada pelos órgãos centrais de cada sistema, no prazo de noventa dias, contado da data de entrada em vigor deste Decreto." .
+lex:D9003\/Artigo9\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo9    lex:temParagrafo    lex:D9003\/Artigo9\/ParagrafoUnico .
+lex:D9003\/Artigo9\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Até que ocorra a redistribuição mencionada no caput, as GSISTE permanecerão alocadas, nos mesmos quantitativos, às unidades administrativas anteriores ou às respectivas sucessoras." .
+lex:D9003\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo10 .
+lex:D9003\/Artigo10    lex:temConteudo    "Art. 10.  O Ministério da Fazenda será responsável pelas seguintes medidas em relação ao extinto Ministério da Previdência Social, sucedido pelo Ministério do Trabalho e Previdência Social, posteriormente transformado no Ministério do Trabalho, cuja Estrutura Regimental consta do Decreto no 7.078, de 2010:" .
+lex:D9003\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo10    lex:temInciso    lex:D9003\/Artigo10\/IncisoI .
+lex:D9003\/Artigo10\/IncisoI    lex:temConteudo    "I - elaboração dos relatórios de gestão, de acordo com orientações do Ministério da Transparência, Fiscalização e Controladoria-Geral da União - CGU;" .
+lex:D9003\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo10    lex:temInciso    lex:D9003\/Artigo10\/IncisoII .
+lex:D9003\/Artigo10\/IncisoII    lex:temConteudo    "II - remanejamento dos recursos orçamentários e financeiros, de acordo com as orientações do Ministério do Planejamento, Desenvolvimento e Gestão;" .
+lex:D9003\/Artigo10\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo10    lex:temInciso    lex:D9003\/Artigo10\/IncisoIII .
+lex:D9003\/Artigo10\/IncisoIII    lex:temConteudo    "III - transferência do quadro de servidores efetivos;" .
+lex:D9003\/Artigo10\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo10    lex:temInciso    lex:D9003\/Artigo10\/IncisoIV .
+lex:D9003\/Artigo10\/IncisoIV    lex:temConteudo    "IV - transferências de bens patrimoniais; e" .
+lex:D9003\/Artigo10\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo10    lex:temInciso    lex:D9003\/Artigo10\/IncisoV .
+lex:D9003\/Artigo10\/IncisoV    lex:temConteudo    "V - atos decorrentes de contratos, convênios e instrumentos congêneres." .
+lex:D9003\/Artigo10\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo10    lex:temParagrafo    lex:D9003\/Artigo10\/Paragrafo1 .
+lex:D9003\/Artigo10\/Paragrafo1    lex:temConteudo    "§ 1o O Ministério do Desenvolvimento Social e Agrário será responsável pelas medidas de que trata o caput em relação à Ouvidoria e ao antigo Conselho de Recursos da Previdência Social do extinto Ministério da Previdência Social." .
+lex:D9003\/Artigo10\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo10    lex:temParagrafo    lex:D9003\/Artigo10\/Paragrafo2 .
+lex:D9003\/Artigo10\/Paragrafo2    lex:temConteudo    "§ 2o  Os cargos do quadro de pessoal do extinto Ministério da Previdência Social ocupados, em 2 de outubro de 2015, pelos servidores em exercício no antigo Conselho de Recursos da Previdência Social e na Ouvidoria ficam redistribuídos para o Ministério do Desenvolvimento Social e Agrário." .
+lex:D9003\/Artigo10\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo10    lex:temParagrafo    lex:D9003\/Artigo10\/Paragrafo3 .
+lex:D9003\/Artigo10\/Paragrafo3    lex:temConteudo    "§ 3o  Os cargos do quadro de pessoal existentes no extinto Ministério da Previdência Social em 2 de outubro de 2015, exceto aqueles mencionados no § 2o, ficam redistribuídos para o Ministério da Fazenda." .
+lex:D9003\/Artigo10\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D9003\/Artigo10    lex:temParagrafo    lex:D9003\/Artigo10\/Paragrafo4 .
+lex:D9003\/Artigo10\/Paragrafo4    lex:temConteudo    "§ 4o  Fica autorizada a redistribuição de cargos efetivos ocupados entre o Ministério da Fazenda e o Ministério do Desenvolvimento Social e Agrário por meio de ato conjunto de seus Ministros de Estado, independentemente de oferta de contrapartida, por noventa dias, contado da data de entrada em vigor deste Decreto." .
+lex:D9003\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo11 .
+lex:D9003\/Artigo11    lex:temConteudo    "Art. 11.  Este Decreto entra em vigor em 31 de março de 2017             (Redação dada pelo Decreto nº 9.006, de 2017" .
+lex:D9003\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D9003    lex:temArtigo    lex:D9003\/Artigo12 .
+lex:D9003\/Artigo12    lex:temConteudo    "Art. 12.  Ficam revogados:" .
+lex:D9003\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoI .
+lex:D9003\/Artigo12\/IncisoI    lex:temConteudo    "I - o Decreto no 7.482, de 16 de maio de 2011;" .
+lex:D9003\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoII .
+lex:D9003\/Artigo12\/IncisoII    lex:temConteudo    "II - o Decreto no 7.696, de 6 de março de 2012;" .
+lex:D9003\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoIII .
+lex:D9003\/Artigo12\/IncisoIII    lex:temConteudo    "III - o Decreto no 8.029, de 20 de junho de 2013;" .
+lex:D9003\/Artigo12\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoIV .
+lex:D9003\/Artigo12\/IncisoIV    lex:temConteudo    "IV - o Decreto no 8.148, de 5 de dezembro de 2013;" .
+lex:D9003\/Artigo12\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoV .
+lex:D9003\/Artigo12\/IncisoV    lex:temConteudo    "V - o art. 12 do Decreto no 8.188, de 17 de janeiro de 2014;" .
+lex:D9003\/Artigo12\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoVI .
+lex:D9003\/Artigo12\/IncisoVI    lex:temConteudo    "VI - o Decreto no 8.391, de 16 de janeiro de 2015; e" .
+lex:D9003\/Artigo12\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D9003\/Artigo12    lex:temInciso    lex:D9003\/Artigo12\/IncisoVII .
+lex:D9003\/Artigo12\/IncisoVII    lex:temConteudo    "VII - os seguintes dispositivos do Decreto no 8.489, de 10 de julho de 2015:" .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo12\/IncisoVII    lex:temIncisoAlinea    lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs    lex:temConteudo    "a) os art. 7º e art. 12; e" .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "b) os Anexos IV e VIII." .
+lex:D9003\/Artigo2\/IncisoII    lex:remetePara    lex:D7078 .
+lex:D9003\/Artigo3    lex:remetePara    lex:L13346 .
+lex:D9003\/Artigo7    lex:remetePara    lex:D6944\/Artigo9 .
+lex:D9003\/Artigo8    lex:remetePara    lex:D7078 .
+lex:D9003\/Artigo9    lex:remetePara    lex:L11356 .
+lex:D9003\/Artigo10    lex:remetePara    lex:D7078 .
+lex:D9003\/Artigo11    lex:remetePara    lex:D9006\/Artigo2 .
+lex:D9003\/Artigo12\/IncisoI    lex:remetePara    lex:D7482 .
+lex:D9003\/Artigo12\/IncisoII    lex:remetePara    lex:D7696 .
+lex:D9003\/Artigo12\/IncisoIII    lex:remetePara    lex:D8029 .
+lex:D9003\/Artigo12\/IncisoIV    lex:remetePara    lex:D8148 .
+lex:D9003\/Artigo12\/IncisoV    lex:remetePara    lex:D8188\/Artigo12 .
+lex:D9003\/Artigo12\/IncisoVI    lex:remetePara    lex:D8391 .
+lex:D9003\/Artigo12\/IncisoVII    lex:remetePara    lex:D8489 .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs    lex:remetePara    lex:D8489\/Artigo7 .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs    lex:remetePara    lex:D8489\/Artigo12 .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs\/IncisoAlineaOs    lex:remetePara    lex:D8489\/ .
+lex:D9003\/Artigo12\/IncisoVII\/IncisoAlineaOs\/IncisoAlineaOs    lex:remetePara    lex:D8489\/ .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5383    lex:ehUm    lex:DocLegal .
+lex:L5383    lex:temTextoIntegral    lex:HTMLs\/L5383.htm .
+lex:L5383\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5383    lex:temArtigo    lex:L5383\/Artigo1 .
+lex:L5383\/Artigo1    lex:temConteudo    "Art. 1º As praças asiladas na forma dos Decretos-leis nºs 2.774, de 20 de junho de 1938 e 3.547, de 31 de dezembro de 1938, serão reformadas na graduação que possuíam à época da concessão do asilo se em inspeção de saúde, forem julgadas continuar inválidas para o Serviço Ativo das Fôrças Armadas." .
+lex:L5383\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5383\/Artigo1    lex:temParagrafo    lex:L5383\/Artigo1\/ParagrafoUnico .
+lex:L5383\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As praças de que trata êste artigo deverão ser inspecionadas de saúde, mediante requerimento, dentro do período de 1 (um) ano, a partir da data da publicação desta lei, e enquadradas nas letras a, b, c ou d, do art. 28 da Lei número 4.902, de 16 de dezembro de 1965." .
+lex:L5383\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5383    lex:temArtigo    lex:L5383\/Artigo2 .
+lex:L5383\/Artigo2    lex:temConteudo    "Art. 2º Aos militares a que se refere o artigo anterior, beneficiados por uma ou mais das seguintes Leis: número 288, de 8 de junho de 1948; nº 616, de 2 de fevereiro de 1949; nº 1.156, de 12 de julho de 1950; número 1.267, de 9 de dezembro de 1950; e nº 4.902, de 16 de dezembro de 1965, ficam assegurados, por ocasião da reforma, os proventos relativos ao pôsto ou graduação a que seriam promovidos, ou proventos a que fariam jus, em decorrência da aplicação das referidas leis, observado, porém, o disposto no art. 54 da Lei nº 4.902, de 16 de dezembro de 1965." .
+lex:L5383\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5383    lex:temArtigo    lex:L5383\/Artigo3 .
+lex:L5383\/Artigo3    lex:temConteudo    "Art. 3º São considerados definitivos os atos referentes aos militares asilados e reformados com fundamento na Lei nº 2.370, de 9 de dezembro de 1954." .
+lex:L5383\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5383    lex:temArtigo    lex:L5383\/Artigo4 .
+lex:L5383\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5383\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5383    lex:temArtigo    lex:L5383\/Artigo5 .
+lex:L5383\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L5383\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L4902\/Artigo28 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L288 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L0616 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L1156 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L1267 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L4902 .
+lex:L5383\/Artigo2    lex:remetePara    lex:L4902\/Artigo54 .
+lex:L5383\/Artigo3    lex:remetePara    lex:L2370 .

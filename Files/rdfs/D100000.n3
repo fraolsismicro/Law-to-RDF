@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D100000    lex:ehUm    lex:DocLegal .
+lex:D100000    lex:temTextoIntegral    lex:HTMLs\/D100000.htm .
+lex:D100000\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D100000    lex:temArtigo    lex:D100000\/Artigo1 .
+lex:D100000\/Artigo1    lex:temConteudo    "Art. 1º A partir desta data, será adotada nova numeração de decreto, que será iniciada com o número 1." .
+lex:D100000\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D100000    lex:temArtigo    lex:D100000\/Artigo2 .
+lex:D100000\/Artigo2    lex:temConteudo    "Art. 2º O Secretário-Geral da Presidência da República expedirá as instruções necessárias à execução deste Decreto. (Vide Portaria nº 1, de 11 de janeiro de 1991 da Secretaria Geral da Presidência da República)" .
+lex:D100000\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D100000    lex:temArtigo    lex:D100000\/Artigo3 .
+lex:D100000\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D100000\/Artigo2    lex:remetePara    lex:prt1-91-sg .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11112    lex:ehUm    lex:DocLegal .
+lex:L11112    lex:temTextoIntegral    lex:HTMLs\/L11112.htm .
+lex:L11112\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11112    lex:temArtigo    lex:L11112\/Artigo1 .
+lex:L11112\/Artigo1    lex:temConteudo    "Art. 1o Esta Lei inclui, como requisito da petição inicial da ação de separação consensual, o acordo dos cônjuges acerca do regime de visitas dos filhos menores." .
+lex:L11112\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11112    lex:temArtigo    lex:L11112\/Artigo2 .
+lex:L11112\/Artigo2    lex:temConteudo    "Art. 2o O inciso II do art. 1.121 da Lei no 5.869, de 11 de janeiro de 1973   Código de Processo Civil, passa a vigorar com a seguinte redação:" .
+lex:L11112\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11112\/Artigo2    lex:temInciso    lex:L11112\/Artigo2\/IncisoII .
+lex:L11112\/Artigo2\/IncisoII    lex:temConteudo    "II - o acordo relativo à guarda dos filhos menores e ao regime de visitas;" .
+lex:L11112\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11112    lex:temArtigo    lex:L11112\/Artigo3 .
+lex:L11112\/Artigo3    lex:temConteudo    "Art. 3o O art. 1.121 da Lei no 5.869, de 11 de janeiro de 1973   Código de Processo Civil, passa a vigorar acrescido do seguinte § 2o, renumerando-se o atual parágrafo único para § 1o:" .
+lex:L11112\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11112\/Artigo3    lex:temParagrafo    lex:L11112\/Artigo3\/Paragrafo1 .
+lex:L11112\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o ......................................................................................" .
+lex:L11112\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11112\/Artigo3    lex:temParagrafo    lex:L11112\/Artigo3\/Paragrafo2 .
+lex:L11112\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o Entende-se por regime de visitas a forma pela qual os cônjuges ajustarão a permanência dos filhos em companhia daquele que não ficar com sua guarda, compreendendo encontros periódicos regularmente estabelecidos, repartição das férias escolares e dias festivos.' (NR)" .
+lex:L11112\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11112    lex:temArtigo    lex:L11112\/Artigo4 .
+lex:L11112\/Artigo4    lex:temConteudo    "Art. 4o (VETADO)." .
+lex:L11112\/Artigo2    lex:remetePara    lex:L5869\/Artigo1121 .
+lex:L11112\/Artigo3    lex:remetePara    lex:L5869\/Artigo1121 .
+lex:L11112\/Artigo3    lex:remetePara    lex:L5869\/Artigo1121\/Paragrafo1 .
+lex:L11112\/Artigo3\/Paragrafo2    lex:remetePara    lex:L5869\/Artigo1121\/Paragrafo2 .
+lex:L11112\/Artigo4    lex:remetePara    lex:VEP-0276-05 .

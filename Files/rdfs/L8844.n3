@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8844    lex:ehUm    lex:DocLegal .
+lex:L8844    lex:temTextoIntegral    lex:HTMLs\/L8844.htm .
+lex:L8844\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8844    lex:temArtigo    lex:L8844\/Artigo1 .
+lex:L8844\/Artigo1    lex:temConteudo    "Art. 1° Compete ao Ministério do Trabalho a fiscalização e a apuração das contribuições ao Fundo de Garantia do Tempo de Serviço (FGTS), bem assim a aplicação das multas e demais encargos devidos" .
+lex:L8844\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8844\/Artigo1    lex:temParagrafo    lex:L8844\/Artigo1\/ParagrafoUnico .
+lex:L8844\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Caixa Econômica Federal (CEF) e a rede arrecadadora prestarão ao Ministério do Trabalho as informações necessárias ao desempenho dessas atribuições." .
+lex:L8844\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8844    lex:temArtigo    lex:L8844\/Artigo2 .
+lex:L8844\/Artigo2    lex:temConteudo    "Art. 2º Compete à Procuradoria-Geral da Fazenda Nacional a inscrição em Dívida Ativa dos débitos para com o Fundo de Garantia do Tempo de serviço - FGTS, bem como, diretamente ou por intermédio da Caixa Econômica Federal, mediante convênio, a representação Judicial e extrajudicial do FGTS, para a correspondente cobrança, relativamente à contribuição e às multas e demais encargos previstos na legislação respectiva. (Redação dada pela Lei nº 9.467, de 1997)" .
+lex:L8844\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8844\/Artigo2    lex:temParagrafo    lex:L8844\/Artigo2\/Paragrafo1 .
+lex:L8844\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O Fundo de Garantia do Tempo de Serviço fica isento de custas nos processos judiciais de cobrança de seus créditos. (Incluído pela Lei nº 9.467, de 1997)" .
+lex:L8844\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8844\/Artigo2    lex:temParagrafo    lex:L8844\/Artigo2\/Paragrafo2 .
+lex:L8844\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º As despesas, inclusive as de sucumbência, que vierem a ser incorridas pela Procuradoria-Geral da Fazenda Nacional e pela Caixa Economica Federal, para a realização da inscrição em Dívida Ativa, do ajuizamento e do controle e acompanhamento dos processos judiciais, serão efetuadas a débito do Fundo de Garantia do Tempo de Servico. (Incluído pela Lei nº 9.467, de 1997)" .
+lex:L8844\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8844\/Artigo2    lex:temParagrafo    lex:L8844\/Artigo2\/Paragrafo3 .
+lex:L8844\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Os créditos relativos ao FGTS gozam dos mesmos privilégios atribuídos aos créditos trabalhistas. (Incluído pela Lei nº 9.467, de 1997)" .
+lex:L8844\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L8844\/Artigo2    lex:temParagrafo    lex:L8844\/Artigo2\/Paragrafo4 .
+lex:L8844\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o Na cobrança judicial dos créditos do FGTS, incidirá encargo de 10% (dez por cento), que reverterá para o Fundo, para ressarcimento dos custos por ele incorridos, o qual será reduzido para 5% (cinco por cento), se o pagamento se der antes do ajuizamento da cobrança. (Redação dada pela Lei nº 9.964, de 2000)" .
+lex:L8844\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8844    lex:temArtigo    lex:L8844\/Artigo3 .
+lex:L8844\/Artigo3    lex:temConteudo    "Art. 3° Esta lei entra em vigor na data de sua publicação." .
+lex:L8844\/Texto    lex:remetePara    lex:L8844 .
+lex:L8844\/Texto    lex:remetePara    lex:Lcp150\/Artigo22\/Paragrafo4 .
+lex:L8844\/Artigo1\/Artigo2    lex:remetePara    lex:1478-25\/Artigo2 .
+lex:L8844\/Artigo1\/Paragrafo1    lex:remetePara    lex:1478-25\/Artigo2 .
+lex:L8844\/Artigo1\/Paragrafo2    lex:remetePara    lex:1478-25\/Artigo2 .
+lex:L8844\/Artigo1\/Paragrafo3    lex:remetePara    lex:1478-25\/Artigo2 .
+lex:L8844\/Artigo1\/Paragrafo4    lex:remetePara    lex:1478-25\/Artigo2 .
+lex:L8844\/Artigo2    lex:remetePara    lex:L9467\/Artigo2 .
+lex:L8844\/Artigo2\/Paragrafo1    lex:remetePara    lex:L9467\/Artigo2 .
+lex:L8844\/Artigo2\/Paragrafo2    lex:remetePara    lex:L9467\/Artigo2 .
+lex:L8844\/Artigo2\/Paragrafo3    lex:remetePara    lex:L9467\/Artigo2 .
+lex:L8844\/Artigo2\/Paragrafo4    lex:remetePara    lex:L9467\/Artigo2 .
+lex:L8844\/Artigo2\/Paragrafo4    lex:remetePara    lex:L9964\/Artigo8 .

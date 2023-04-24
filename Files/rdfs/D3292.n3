@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3292    lex:ehUm    lex:DocLegal .
+lex:D3292    lex:temTextoIntegral    lex:HTMLs\/D3292.htm .
+lex:D3292\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3292    lex:temInciso    lex:D3292\/IncisoD .
+lex:D3292\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3292\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3292    lex:temArtigo    lex:D3292\/Artigo1 .
+lex:D3292\/Artigo1    lex:temConteudo    "Art. 1o  Ficam incluídos no Programa Nacional de Desestatização - PND, para os fins do disposto na Lei no 9.491, de 9 de setembro de 1997, os seguintes imóveis da União, situados nos Estados do Rio de Janeiro e de São Paulo:" .
+lex:D3292\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3292\/Artigo1    lex:temInciso    lex:D3292\/Artigo1\/IncisoI .
+lex:D3292\/Artigo1\/IncisoI    lex:temConteudo    "I - os bens dominicais situados em suas regiões metropolitanas; e" .
+lex:D3292\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3292\/Artigo1    lex:temInciso    lex:D3292\/Artigo1\/IncisoII .
+lex:D3292\/Artigo1\/IncisoII    lex:temConteudo    "II - os bens dominicais:" .
+lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados    lex:ehUm    lex:IncisoAlinea .
+lex:D3292\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados .
+lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados    lex:temConteudo    "a) situados na faixa de domínio da União, a partir da linha média das enchentes ordinárias;" .
+lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados\/IncisoAlineaSituados    lex:ehUm    lex:IncisoAlinea .
+lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados    lex:temIncisoAlinea    lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados\/IncisoAlineaSituados .
+lex:D3292\/Artigo1\/IncisoII\/IncisoAlineaSituados\/IncisoAlineaSituados    lex:temConteudo    "b) situados na faixa de domínio da União, a partir da linha do preamar médio de 1831, exceto aqueles sobre os quais a lei confira ao ocupante o direito ao aforamento, independentemente do pagamento do valor correspondente ao domínio útil." .
+lex:D3292\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3292    lex:temArtigo    lex:D3292\/Artigo2 .
+lex:D3292\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3292\/Artigo1    lex:remetePara    lex:L9491 .

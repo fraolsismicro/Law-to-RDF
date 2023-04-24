@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D56190    lex:ehUm    lex:DocLegal .
+lex:D56190    lex:temTextoIntegral    lex:HTMLs\/D56190.htm .
+lex:D56190\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D56190    lex:temArtigo    lex:D56190\/Artigo1 .
+lex:D56190\/Artigo1    lex:temConteudo    "Art. 1º Os artigos 247 e 295 do Regulamento Interno dos Serviços da Aeronáutica (RISAER), aprovado pelo Decreto nº 40.043, de 27 de setembro de 1956, passam a vigorar com as seguintes redações:" .
+lex:D56190\/Artigo295    lex:ehUm    lex:Artigo .
+lex:D56190    lex:temArtigo    lex:D56190\/Artigo295 .
+lex:D56190\/Artigo295    lex:temConteudo    "Art. 295 É permitido o uso de siglas e abreviaturas, desde que oficialmente aprovadas, na correspondência, oficial dirigida ao Ministro da Aeronáutica e às altas autoridades da Aeronáutica. Os pronomes de tratamento serão, obrigatòriamente, grafados abreviadamente." .
+lex:D56190\/Artigo295\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D56190\/Artigo295    lex:temParagrafo    lex:D56190\/Artigo295\/ParagrafoUnico .
+lex:D56190\/Artigo295\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Na correspondência dirigida às autoridades estranhas a Aeronáutica, o uso de siglas e abreviaturas fica sujeito ao critério que foi estabelecido pela autoridade signatária'." .
+lex:D56190\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D56190    lex:temArtigo    lex:D56190\/Artigo2 .
+lex:D56190\/Artigo2    lex:temConteudo    "Art. 2º Nos exemplos que ilustram os arts 248, 252, e 253, bem como nos anexos 2 e 3 do mesmo Regulamento, fica abolido o traço horizontal colocado acima do nome da autoridade signatária." .

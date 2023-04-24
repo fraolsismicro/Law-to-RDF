@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del8079    lex:ehUm    lex:DocLegal .
+lex:Del8079    lex:temTextoIntegral    lex:HTMLs\/Del8079.htm .
+lex:Del8079\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del8079    lex:temArtigo    lex:Del8079\/Artigo1 .
+lex:Del8079\/Artigo1    lex:temConteudo    "Art 1º Passa a ter a seguinte redação o art. 7º do Decreto-lei número 5.452, de 1 de maio de 1943:" .
+lex:Del8079\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:Del8079\/Artigo1    lex:temAlinea    lex:Del8079\/Artigo1\/Alinea .
+lex:Del8079\/Artigo1\/Alinea    lex:temConteudo    "a)............................................................................... ...................." .
+lex:Del8079\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:Del8079\/Artigo1    lex:temAlinea    lex:Del8079\/Artigo1\/Alinea .
+lex:Del8079\/Artigo1\/Alinea    lex:temConteudo    "b)............................................................................... ...................." .
+lex:Del8079\/Artigo1\/AlineaAos    lex:ehUm    lex:Alinea .
+lex:Del8079\/Artigo1    lex:temAlinea    lex:Del8079\/Artigo1\/AlineaAos .
+lex:Del8079\/Artigo1\/AlineaAos    lex:temConteudo    "c) aos funcionários públicos da União, dos Estados e dos Municípios, e aos respectivos extranumerários em serviço nas próprias repartições." .
+lex:Del8079\/Artigo1\/AlineaAos    lex:ehUm    lex:Alinea .
+lex:Del8079\/Artigo1    lex:temAlinea    lex:Del8079\/Artigo1\/AlineaAos .
+lex:Del8079\/Artigo1\/AlineaAos    lex:temConteudo    "d) aos servidores de autarquias paraestatais, desde que sujeitos a regime próprio de proteção ao trabalho que lhes assegure situação análoga à dos funcionários públicos." .
+lex:Del8079\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del8079    lex:temArtigo    lex:Del8079\/Artigo2 .
+lex:Del8079\/Artigo2    lex:temConteudo    "Art 2º Revogam-se as disposições em contrário." .
+lex:Del8079\/Artigo1    lex:remetePara    lex:Del5452 .
+lex:Del8079\/Texto00001    lex:remetePara    lex:Del5452\/Artigo7 .
+lex:Del8079\/Artigo1\/AlineaAos    lex:remetePara    lex:Del5452\/Artigo7 .
+lex:Del8079\/Artigo1\/ParagrafoUnico    lex:revogadoPor    lex:Del8249\/Artigo5 .
+lex:Del8249\/Artigo5    lex:revogou    lex:Del8079\/Artigo1\/ParagrafoUnico .

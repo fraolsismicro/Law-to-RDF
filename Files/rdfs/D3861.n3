@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3861    lex:ehUm    lex:DocLegal .
+lex:D3861    lex:temTextoIntegral    lex:HTMLs\/D3861.htm .
+lex:D3861\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3861    lex:temArtigo    lex:D3861\/Artigo1 .
+lex:D3861\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo ao Decreto no 96.671, de 9 de setembro de 1988, passa a vigorar acrescido do seguinte artigo:" .
+lex:D3861\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3861\/Artigo1    lex:temParagrafo    lex:D3861\/Artigo1\/ParagrafoUnico .
+lex:D3861\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Chefe da Casa Civil da Presidência da República, em casos excepcionais, poderá autorizar que a remessa dos documentos a que se refere este artigo se faça por outro meio.' (NR)" .
+lex:D3861\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3861    lex:temArtigo    lex:D3861\/Artigo2 .
+lex:D3861\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5439    lex:ehUm    lex:DocLegal .
+lex:D5439    lex:temTextoIntegral    lex:HTMLs\/D5439.htm .
+lex:D5439\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5439    lex:temArtigo    lex:D5439\/Artigo1 .
+lex:D5439\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 2o e 4o do Decreto no 3.945, de 28 de setembro de 2001, passam a vigorar com a seguinte redação:" .
+lex:D5439\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5439    lex:temArtigo    lex:D5439\/Artigo2 .
+lex:D5439\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5439\/Artigo1    lex:remetePara    lex:D3945\/Artigo2 .
+lex:D5439\/Artigo1    lex:remetePara    lex:D3945\/Artigo4 .

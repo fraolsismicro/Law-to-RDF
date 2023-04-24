@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2209    lex:ehUm    lex:DocLegal .
+lex:D2209    lex:temTextoIntegral    lex:HTMLs\/D2209.htm .
+lex:D2209\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2209    lex:temArtigo    lex:D2209\/Artigo1 .
+lex:D2209\/Artigo1    lex:temConteudo    "Art 1º Fica autorizado o aumento do capital social da Financiadora de Estudos e Projetos - FINEP, de R$300.425.989,99 (trezentos milhões, quatrocentos e vinte e cinco mil, novecentos e oitenta e nove reais e noventa e nove centavos) para R$ 389.336.482,69 (trezentos e oitenta e nove milhões, trezentos e trinta e seis mil, quatrocentos e oitenta e dois reais e sessenta e nove centavos), mediante a incorporação de créditos da União, no valor de R$ 20.721.885,38 (vinte milhões, setecentos e vinte e um mil oitocentos e oitenta e cinco reais e trinta e oito centavos) e de reserva de correção monetária do capital social referente ao exercício de 1995, no montante de R$68.188.607,32 (sessenta e oito milhões, cento e oitenta e oito mil, seiscentos e sete reais e trinta e dois centavos)." .
+lex:D2209\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2209    lex:temArtigo    lex:D2209\/Artigo3 .
+lex:D2209\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2209\/Artigo2    lex:remetePara    lex:D1808 .
+lex:D2209\/Artigo2    lex:revogadoPor    lex:D7322\/Artigo3 .
+lex:D7322\/Artigo3    lex:revogou    lex:D2209\/Artigo2 .
+lex:D2209\/Texto00001    lex:remetePara    lex:D1808\/Artigo7 .

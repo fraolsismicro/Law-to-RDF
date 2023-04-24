@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0075    lex:ehUm    lex:DocLegal .
+lex:D0075    lex:temTextoIntegral    lex:HTMLs\/D0075.htm .
+lex:D0075\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0075    lex:temArtigo    lex:D0075\/Artigo1 .
+lex:D0075\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 37 do Decreto nº 99.266, de 28 de maio de 1990, com as alterações introduzidas pelo Decreto nº 99.664, de 1º de novembro de 1990, passa a vigorar com a seguinte redação:" .
+lex:D0075\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0075    lex:temArtigo    lex:D0075\/Artigo2 .
+lex:D0075\/Artigo2    lex:temConteudo    "Art. 2º As instituições financeiras constituídas na forma de sociedade de economia mista poderão realizar diretamente a venda dos imóveis de sua propriedade, observadas as normas estabelecidas para a alienação dos imóveis residenciais da União, inclusive quanto ao disposto no art. 5º e seus parágrafos, do Decreto nº 99.266, de 28 de maio de 1990, com as alterações introduzidas pelo Decreto nº 99.664, de 1º de novembro de 1990." .
+lex:D0075\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0075    lex:temArtigo    lex:D0075\/Artigo3 .
+lex:D0075\/Artigo3    lex:temConteudo    "Art. 3º Este decreto entra em vigor na data de sua publicação." .
+lex:D0075\/Texto00001    lex:remetePara    lex:D99266\/Artigo37 .
+lex:D0075\/Artigo2    lex:remetePara    lex:D99266\/Artigo5 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1649    lex:ehUm    lex:DocLegal .
+lex:Del1649    lex:temTextoIntegral    lex:HTMLs\/Del1649.htm .
+lex:Del1649\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1649    lex:temArtigo    lex:Del1649\/Artigo1 .
+lex:Del1649\/Artigo1    lex:temConteudo    "Art. 1º - São criados, no Grupo-Direção e Assessoramento Superiores, Código TCU-DAS-100, do Quadro Permanente da Secretaria-Geral do Tribunal de Contas da União, os cargos de provimento em comissão constantes do Anexo, atendida a escala de níveis fixada pelo Decreto-lei nº 1.474, de 05 de agosto de 1976." .
+lex:Del1649\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1649    lex:temArtigo    lex:Del1649\/Artigo2 .
+lex:Del1649\/Artigo2    lex:temConteudo    "Art. 2º - Os cargos a que se refere o artigo 1º destinam-se a atender às exigências de funcionamento de unidades integrantes da Presidência e da Secretaria-Geral do Tribunal de Contas da União, bem assim da Inspetoria-Regional de Controle Externo no Estado de Mato Grosso do Sul, criada por este decreto-lei." .
+lex:Del1649\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1649    lex:temArtigo    lex:Del1649\/Artigo4 .
+lex:Del1649\/Artigo4    lex:temConteudo    "Art. 4º - As despesas decorrentes deste Decreto-lei correrão à conta dos recursos orçamentários próprios do Tribunal de Contas da União." .
+lex:Del1649\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1649    lex:temArtigo    lex:Del1649\/Artigo5 .
+lex:Del1649\/Artigo5    lex:temConteudo    "Art. 5º - Este Decreto-lei entrará em vigor a 1º de janeiro de 1979, revogadas as disposições em contrário." .
+lex:Del1649\/Artigo1    lex:remetePara    lex:Del1474 .
+lex:Del1649\/Artigo1    lex:remetePara    lex:Del1474 .
+lex:Del1649\/Artigo3    lex:revogadoPor    lex:Del1660\/Artigo17 .
+lex:Del1660\/Artigo17    lex:revogou    lex:Del1649\/Artigo3 .

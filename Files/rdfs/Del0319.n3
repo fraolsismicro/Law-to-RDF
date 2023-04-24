@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0319    lex:ehUm    lex:DocLegal .
+lex:Del0319    lex:temTextoIntegral    lex:HTMLs\/Del0319.htm .
+lex:Del0319\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0319    lex:temArtigo    lex:Del0319\/Artigo1 .
+lex:Del0319\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado para 1º de janeiro de 1968 o início da cobrança e recolhimento do Impôsto de Circulação de Mercadorias sôbre os derivados de petróleo, fixado no art. 1º do Decreto-Lei nº 208, de 27 de fevereiro de 1967." .
+lex:Del0319\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0319    lex:temArtigo    lex:Del0319\/Artigo2 .
+lex:Del0319\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-Lei, que será submetido à apreciação do Congresso Nacional nos têrmos do parágrafo único do art. 58 da Constituição, entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0319\/Texto    lex:revogadoPor    lex:Del0343\/Artigo7 .
+lex:Del0343\/Artigo7    lex:revogou    lex:Del0319\/Texto .
+lex:Del0319\/Texto    lex:remetePara    lex:Del0319 .

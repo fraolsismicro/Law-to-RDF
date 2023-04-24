@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9568    lex:ehUm    lex:DocLegal .
+lex:Del9568    lex:temTextoIntegral    lex:HTMLs\/Del9568.htm .
+lex:Del9568\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9568    lex:temArtigo    lex:Del9568\/Artigo1 .
+lex:Del9568\/Artigo1    lex:temConteudo    "Art. 1º Na alínea h, do art. 14 do Decreto-lei nº 8.393, de 17 de Dezembro de 1945; que dispõe sôbre a autonomia administrativa, financeira, didática e disciplinar da Universidade do Brasil, modificado pelo Decreto-lei nº 9.377, de 18 de Junho de 1946, faça-se a seguinte retificação: onde se lê: 'aprovar a tabela do pessoal extranumerário... ', leia-se: 'aprovar a tabela do pessoal extraordinário...'." .
+lex:Del9568\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9568    lex:temArtigo    lex:Del9568\/Artigo2 .
+lex:Del9568\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na, data de sua publicação, ficando revogadas as disposições em contrário." .
+lex:Del9568\/Artigo1    lex:remetePara    lex:Del8393\/Artigo14 .
+lex:Del9568\/Artigo1    lex:remetePara    lex:Del9377 .

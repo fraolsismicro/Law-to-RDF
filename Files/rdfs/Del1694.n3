@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1694    lex:ehUm    lex:DocLegal .
+lex:Del1694    lex:temTextoIntegral    lex:HTMLs\/Del1694.htm .
+lex:Del1694\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1694    lex:temArtigo    lex:Del1694\/Artigo1 .
+lex:Del1694\/Artigo1    lex:temConteudo    "Art. 1º Ficam cancelados os débitos, de qualquer natureza, para com as autarquias federais, de valor originário igual ou inferior a Cr$1.000,00 (mil cruzeiros), constituídos até o dia 31 de dezembro de 1978, inscritos ou não como Dívida Ativa, arquivando-se os respectivos processos administrativos." .
+lex:Del1694\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1694\/Artigo1    lex:temParagrafo    lex:Del1694\/Artigo1\/ParagrafoUnico .
+lex:Del1694\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Serão arquivados, mediante despacho do Juiz, ciente o representante Judicial da autarquia, os autos das ações de cobrança dos débitos referidos neste artigo." .
+lex:Del1694\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1694    lex:temArtigo    lex:Del1694\/Artigo2 .
+lex:Del1694\/Artigo2    lex:temConteudo    "Art. 2º Revogadas as disposições em contrário, este Decreto-lei entrará em vigor na data de sua publicação." .

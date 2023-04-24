@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12763    lex:ehUm    lex:DocLegal .
+lex:L12763    lex:temTextoIntegral    lex:HTMLs\/L12763.htm .
+lex:L12763\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12763    lex:temArtigo    lex:L12763\/Artigo1 .
+lex:L12763\/Artigo1    lex:temConteudo    "Art. 1o  Ficam criados, no quadro da Defensoria Pública da União, 789 (setecentos e oitenta e nove) cargos de Defensor Público Federal, de que trata o art. 19 da Lei Complementar no 80, de 12 de janeiro de 1994, sendo:" .
+lex:L12763\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12763\/Artigo1    lex:temInciso    lex:L12763\/Artigo1\/IncisoI .
+lex:L12763\/Artigo1\/IncisoI    lex:temConteudo    "I - 732 (setecentos e trinta e dois) cargos de Defensor Público Federal de Segunda Categoria;" .
+lex:L12763\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12763\/Artigo1    lex:temInciso    lex:L12763\/Artigo1\/IncisoII .
+lex:L12763\/Artigo1\/IncisoII    lex:temConteudo    "II - 48 (quarenta e oito) cargos de Defensor Público Federal de Primeira Categoria; e" .
+lex:L12763\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12763\/Artigo1    lex:temInciso    lex:L12763\/Artigo1\/IncisoIII .
+lex:L12763\/Artigo1\/IncisoIII    lex:temConteudo    "III - 9 (nove) cargos de Defensor Público Federal de Categoria Especial." .
+lex:L12763\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12763    lex:temArtigo    lex:L12763\/Artigo2 .
+lex:L12763\/Artigo2    lex:temConteudo    "Art. 2o  O provimento dos cargos criados por esta Lei será realizado de forma gradual e será condicionado a expressa autorização em anexo próprio da lei orçamentária anual, com dotação suficiente, nos termos do § 1º do art. 169 da Constituição Federal." .
+lex:L12763\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12763    lex:temArtigo    lex:L12763\/Artigo3 .
+lex:L12763\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12763\/Artigo1    lex:remetePara    lex:Lcp80\/Artigo19 .
+lex:L12763\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo169\/Paragrafo1 .

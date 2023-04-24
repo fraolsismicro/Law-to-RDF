@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6482    lex:ehUm    lex:DocLegal .
+lex:D6482    lex:temTextoIntegral    lex:HTMLs\/D6482.htm .
+lex:D6482\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6482    lex:temArtigo    lex:D6482\/Artigo1 .
+lex:D6482\/Artigo1    lex:temConteudo    "Art. 1o  O art. 12 ao Anexo I do Decreto no 5.135, de 7 de julho de 2004, passa a vigorar com a seguinte redação:" .
+lex:D6482\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6482\/Artigo1    lex:temInciso    lex:D6482\/Artigo1\/IncisoI .
+lex:D6482\/Artigo1\/IncisoI    lex:temConteudo    "I - publicar e divulgar os atos oficiais da administração pública federal;" .
+lex:D6482\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6482\/Artigo1    lex:temInciso    lex:D6482\/Artigo1\/IncisoII .
+lex:D6482\/Artigo1\/IncisoII    lex:temConteudo    "II - executar, de acordo com a legislação pertinente, com prévia autorização do Secretário-Executivo da Casa Civil da Presidência da República, serviços de impressão plana de trabalhos gráficos destinados a atender a demandas próprias da Presidência e da Vice-Presidência da República; e" .
+lex:D6482\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6482\/Artigo1    lex:temInciso    lex:D6482\/Artigo1\/IncisoIII .
+lex:D6482\/Artigo1\/IncisoIII    lex:temConteudo    "III - coordenar e executar as atividades relacionadas à biblioteca da Imprensa Nacional. (NR)" .
+lex:D6482\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6482    lex:temArtigo    lex:D6482\/Artigo3 .
+lex:D6482\/Artigo3    lex:temConteudo    "Art. 3o  São transferidos da Advocacia-Geral da União para a Imprensa Nacional os bens e o acervo da biblioteca da Imprensa Nacional." .
+lex:D6482\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6482    lex:temArtigo    lex:D6482\/Artigo4 .
+lex:D6482\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6482\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6482    lex:temArtigo    lex:D6482\/Artigo5 .
+lex:D6482\/Artigo5    lex:temConteudo    "Art. 5o  Ficam revogados:" .
+lex:D6482\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6482\/Artigo5    lex:temInciso    lex:D6482\/Artigo5\/IncisoI .
+lex:D6482\/Artigo5\/IncisoI    lex:temConteudo    "I - o Decreto no 4.260, de 6 de junho de 2002; e" .
+lex:D6482\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6482\/Artigo5    lex:temInciso    lex:D6482\/Artigo5\/IncisoII .
+lex:D6482\/Artigo5\/IncisoII    lex:temConteudo    "II - o inciso II do art. 2o do Decreto no 4.294, de 3 de julho de 2002." .
+lex:D6482\/Artigo1    lex:remetePara    lex:D5135\/Artigo12 .
+lex:D6482\/Artigo1\/Artigo2    lex:revogadoPor    lex:D7187\/Artigo3 .
+lex:D7187\/Artigo3    lex:revogou    lex:D6482\/Artigo1\/Artigo2 .
+lex:D6482\/Artigo5\/IncisoI    lex:remetePara    lex:D4260 .
+lex:D6482\/Artigo5\/IncisoII    lex:remetePara    lex:D4294\/Artigo2 .

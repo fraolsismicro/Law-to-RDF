@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2305    lex:ehUm    lex:DocLegal .
+lex:Del2305    lex:temTextoIntegral    lex:HTMLs\/Del2305.htm .
+lex:Del2305\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2305    lex:temArtigo    lex:Del2305\/Artigo1 .
+lex:Del2305\/Artigo1    lex:temConteudo    "Art 1º Ficam excluídas da isenção do Imposto sobre Produtos Industrializados prevista no art. 1º do Decreto-lei nº 1.374, de 11 de dezembro de 1974, os caminhões-tratores classificados no código 87.01.01.99 da Tabela de Incidência do IPI, aprovada pelo Decreto nº 89.241, de 23 de dezembro de 1983." .
+lex:Del2305\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2305    lex:temArtigo    lex:Del2305\/Artigo2 .
+lex:Del2305\/Artigo2    lex:temConteudo    "Art 2º Fica fixada em 25% (vinte e cinco por cento) a alíquota do IPI incidente sobre os veículos mencionados no artigo 1º." .
+lex:Del2305\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2305    lex:temArtigo    lex:Del2305\/Artigo3 .
+lex:Del2305\/Artigo3    lex:temConteudo    "Art 3º Este decreto-lei entrará em vigor no dia seguinte ao de sua Publicação." .
+lex:Del2305\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2305    lex:temArtigo    lex:Del2305\/Artigo4 .
+lex:Del2305\/Artigo4    lex:temConteudo    "Art 4º Ficam revogadas as disposições em contrário." .
+lex:Del2305\/Artigo1    lex:remetePara    lex:Del1374\/Artigo1 .
+lex:Del2305\/Artigo1    lex:remetePara    lex:D89241\/ .

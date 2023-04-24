@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6765    lex:ehUm    lex:DocLegal .
+lex:L6765    lex:temTextoIntegral    lex:HTMLs\/L6765.htm .
+lex:L6765\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6765    lex:temArtigo    lex:L6765\/Artigo1 .
+lex:L6765\/Artigo1    lex:temConteudo    "Art. 1º - A alínea b, inciso II, do art. 8º e o caput do art. 10 da Lei nº 5.107, de 13 de setembro de 1966, passam a vigorar com a seguinte redação:" .
+lex:L6765\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6765\/Artigo1    lex:temInciso    lex:L6765\/Artigo1\/IncisoI .
+lex:L6765\/Artigo1\/IncisoI    lex:temConteudo    "I - .................................................................................................................................." .
+lex:L6765\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6765\/Artigo1    lex:temInciso    lex:L6765\/Artigo1\/IncisoII .
+lex:L6765\/Artigo1\/IncisoII    lex:temConteudo    "II - .................................................................................................................................." .
+lex:L6765\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L6765    lex:temArtigo    lex:L6765\/Artigo10 .
+lex:L6765\/Artigo10    lex:temConteudo    "Art. 10 - A utilização da conta vinculada, para o fim de aquisição de moradia própria e pagamento das respectivas prestações, é assegurada ao empregado que completar, depois da vigência desta Lei, cinco anos de trabalho sob o regime do Fundo de Garantia do Tempo de Serviço, de acordo com as disposições da Lei nº 4.380, de 21 de agosto de 1964, e de conformidade com as instruções expedidas pelo Banco Nacional da Habitação - BNH.'" .
+lex:L6765\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6765    lex:temArtigo    lex:L6765\/Artigo2 .
+lex:L6765\/Artigo2    lex:temConteudo    "Art. 2º No prazo de sessenta dias, o Poder Executivo regulamentará a presente Lei." .
+lex:L6765\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6765    lex:temArtigo    lex:L6765\/Artigo3 .
+lex:L6765\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6765\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6765    lex:temArtigo    lex:L6765\/Artigo4 .
+lex:L6765\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6765\/Artigo1\/Texto00003    lex:remetePara    lex:L5107\/Artigo8 .
+lex:L6765\/Artigo10    lex:remetePara    lex:L5107\/Artigo10 .

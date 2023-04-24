@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5786    lex:ehUm    lex:DocLegal .
+lex:L5786    lex:temTextoIntegral    lex:HTMLs\/L5786.htm .
+lex:L5786\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5786    lex:temArtigo    lex:L5786\/Artigo1 .
+lex:L5786\/Artigo1    lex:temConteudo    "Art. 1º Constituem crimes contra a segurança nacional, punidos com reclusão, de 12 (doze) a 30 (trinta) anos, apoderar-se, ou exercer o controle, ilicitamente de aeronave, ou tentar praticar qualquer desses atos." .
+lex:L5786\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5786    lex:temArtigo    lex:L5786\/Artigo2 .
+lex:L5786\/Artigo2    lex:temConteudo    "Art. 2º Os autores dos crimes previstos no artigo anterior ficam sujeitos ao foro militar, na forma do artigo 129, § 1º, da Constituição, e do Decreto-lei nº 898, de 29 de setembro de 1969." .
+lex:L5786\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5786    lex:temArtigo    lex:L5786\/Artigo3 .
+lex:L5786\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5786\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo129\/Paragrafo1 .
+lex:L5786\/Artigo2    lex:remetePara    lex:Del0898 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0841    lex:ehUm    lex:DocLegal .
+lex:Del0841    lex:temTextoIntegral    lex:HTMLs\/Del0841.htm .
+lex:Del0841\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0841    lex:temArtigo    lex:Del0841\/Artigo1 .
+lex:Del0841\/Artigo1    lex:temConteudo    "Art. 1º O inciso IV do artigo 3º do Decreto-lei nº 773, de 20 de agôsto de 1969, passa a vigorar com a seguinte redação:" .
+lex:Del0841\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0841    lex:temArtigo    lex:Del0841\/Artigo2 .
+lex:Del0841\/Artigo2    lex:temConteudo    "Art. 2º Os recursos financeiros destinados, no Orçamento Geral da União ou em planos ministeriais de aplicação, nos exercícios de 1969 e 1970, às instituições referidas no artigo 3º, do Decreto-lei nº 773, de 20 de agôsto de 1969, serão transferidos ao Ministério da Educação e Cultura, para a Federação das Escolas Federais Isoladas do Estado da Guanabara." .
+lex:Del0841\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0841    lex:temArtigo    lex:Del0841\/Artigo3 .
+lex:Del0841\/Artigo3    lex:temConteudo    "Art. 3º Os atos constitutivos de que trata o § 2º do artigo 1º do Decreto-lei nº 773, de 20 de agôsto de 1969, operarão a plena transferência à FEFIEG, do domínio, posse e uso dos bens que devam integrar seu patrimônio, os quais poderão ser utilizados exclusivamente nos fins a que se destina a Fundação." .
+lex:Del0841\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0841    lex:temArtigo    lex:Del0841\/Artigo4 .
+lex:Del0841\/Artigo4    lex:temConteudo    "Art. 4º Revogadas as disposições em contrário, êste Decreto-lei entrará em vigor à data de sua publicação." .
+lex:Del0841\/Artigo1    lex:remetePara    lex:Del0773\/Artigo3 .
+lex:Del0841\/Artigo2    lex:remetePara    lex:Del0773\/Artigo3 .
+lex:Del0841\/Artigo3    lex:remetePara    lex:Del0773\/Artigo1\/Paragrafo2 .
+lex:Del0841\/Texto00004    lex:remetePara    lex:RetDel841-69 .

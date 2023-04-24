@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1271    lex:ehUm    lex:DocLegal .
+lex:Del1271    lex:temTextoIntegral    lex:HTMLs\/Del1271.htm .
+lex:Del1271\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1271    lex:temArtigo    lex:Del1271\/Artigo1 .
+lex:Del1271\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir crédito especial na importância de Cr$991.800.000,00 (novecentos e noventa e um milhões e oitocentos mil cruzeiros) para transferência da cota-parte da Taxa Rodoviária Única pertencente aos Estados, Territórios e Distrito Federal, na forma do Decreto-lei nº 999, de 21 de outubro de 1969." .
+lex:Del1271\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1271    lex:temArtigo    lex:Del1271\/Artigo2 .
+lex:Del1271\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução deste Decreto-lei, em conformidade com o disposto no § 3º, do artigo 43, da Lei nº 4.320, de 17 de março de 1964, decorrerão da aplicação do disposto na Lei nº 5.841, de 6 dezembro de 1972, e no Decreto-lei nº 1.242, de 30 de outubro de 1972." .
+lex:Del1271\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1271    lex:temArtigo    lex:Del1271\/Artigo3 .
+lex:Del1271\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1271\/Artigo1    lex:remetePara    lex:Del0999 .
+lex:Del1271\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .
+lex:Del1271\/Artigo2    lex:remetePara    lex:L5841 .
+lex:Del1271\/Artigo2    lex:remetePara    lex:Del1242 .

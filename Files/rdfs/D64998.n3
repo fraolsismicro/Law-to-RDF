@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D64998    lex:ehUm    lex:DocLegal .
+lex:D64998    lex:temTextoIntegral    lex:HTMLs\/D64998.htm .
+lex:D64998\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D64998    lex:temArtigo    lex:D64998\/Artigo1 .
+lex:D64998\/Artigo1    lex:temConteudo    "Art. 1º Os artigos 24 e 66 do Decreto número 64.416, de 28 de abril de 1969, passam a vigorar com a seguinte redação." .
+lex:D64998\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoI .
+lex:D64998\/Artigo1\/IncisoI    lex:temConteudo    "I - Comissão de Estudos Legislativos;" .
+lex:D64998\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoII .
+lex:D64998\/Artigo1\/IncisoII    lex:temConteudo    "II - Comissão Permanente do Livro do Mérito;" .
+lex:D64998\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoIII .
+lex:D64998\/Artigo1\/IncisoIII    lex:temConteudo    "III - Conselho de Defesa dos Direitos da Pessoa Humana;" .
+lex:D64998\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoIV .
+lex:D64998\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Conselho da Ordem Nacional do Mérito;" .
+lex:D64998\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoV .
+lex:D64998\/Artigo1\/IncisoV    lex:temConteudo    "V - Conselho Nacional de Trânsito;" .
+lex:D64998\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoVI .
+lex:D64998\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Conselho Penitenciário Federal;" .
+lex:D64998\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D64998\/Artigo1    lex:temInciso    lex:D64998\/Artigo1\/IncisoVII .
+lex:D64998\/Artigo1\/IncisoVII    lex:temConteudo    "VII - Conselho Superior de Censura." .
+lex:D64998\/Artigo66    lex:ehUm    lex:Artigo .
+lex:D64998    lex:temArtigo    lex:D64998\/Artigo66 .
+lex:D64998\/Artigo66    lex:temConteudo    "Art. 66. Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário.'" .
+lex:D64998\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D64998    lex:temArtigo    lex:D64998\/Artigo2 .
+lex:D64998\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D64998\/Texto00001    lex:remetePara    lex:D64416\/Artigo24 .
+lex:D64998\/Artigo66    lex:remetePara    lex:D64416\/Artigo66 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1222    lex:ehUm    lex:DocLegal .
+lex:Del1222    lex:temTextoIntegral    lex:HTMLs\/Del1222.htm .
+lex:Del1222\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1222    lex:temArtigo    lex:Del1222\/Artigo1 .
+lex:Del1222\/Artigo1    lex:temConteudo    "Art. 1º É criado, no Ministério da Saúde, o cargo em comissão, símbolo 1-C, de Secretário Especial de Saúde da Região Amazônica." .
+lex:Del1222\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1222    lex:temArtigo    lex:Del1222\/Artigo2 .
+lex:Del1222\/Artigo2    lex:temConteudo    "Art. 2º O titular do cargo de que trata o artigo anterior perceberá, além dos vencimentos do símbolo, gratificação pelo exercício em regime de tempo integral e dedicação exclusiva, a que se refere o artigo 12 do Decreto-lei nº 1.150, de 3 de fevereiro de 1971, bem como representação mensal de 50% (cinquenta por cento) dos vencimentos." .
+lex:Del1222\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1222    lex:temArtigo    lex:Del1222\/Artigo3 .
+lex:Del1222\/Artigo3    lex:temConteudo    "Art. 3º As despesas decorrentes do disposto neste Decreto-lei serão atendidas com recursos orçamentários do Ministério da Saúde, bem como do Programa de Integração Nacional." .
+lex:Del1222\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1222    lex:temArtigo    lex:Del1222\/Artigo4 .
+lex:Del1222\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1222\/Artigo2    lex:remetePara    lex:Del1150\/Artigo12 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9823    lex:ehUm    lex:DocLegal .
+lex:L9823    lex:temTextoIntegral    lex:HTMLs\/L9823.htm .
+lex:L9823\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9823    lex:temArtigo    lex:L9823\/Artigo1 .
+lex:L9823\/Artigo1    lex:temConteudo    "Art. 1o  Fica o Poder Executivo autorizado a abrir ao Orçamento da Seguridade Social da União (Lei no 9.598, de 30 de dezembro de 1997), em favor do Ministério da Previdência e Assistência Social, crédito extraordinário no valor de R$ 2.932.395.868,00 (dois bilhões, novecentos e trinta e dois milhões, trezentos e noventa e cinco mil, oitocentos e sessenta e oito reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L9823\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9823    lex:temArtigo    lex:L9823\/Artigo2 .
+lex:L9823\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos necessários à execução do disposto no artigo anterior decorrerão:" .
+lex:L9823\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9823\/Artigo2    lex:temInciso    lex:L9823\/Artigo2\/IncisoI .
+lex:L9823\/Artigo2\/IncisoI    lex:temConteudo    "I - da incorporação de recursos provenientes do Fundo de Fiscalização das Telecomunicações, no montante de R$ 1.480.370.363,00 (um bilhão, quatrocentos e oitenta milhões, trezentos e setenta mil, trezentos e sessenta e três reais), autorizada pela Lei no 9.751, de 16 de dezembro de 1998;" .
+lex:L9823\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9823\/Artigo2    lex:temInciso    lex:L9823\/Artigo2\/IncisoII .
+lex:L9823\/Artigo2\/IncisoII    lex:temConteudo    "II - do cancelamento de dotações, no valor de R$ 1.452.025.505,00 (um bilhão, quatrocentos e cinqüenta e dois milhões, vinte e cinco mil, quinhentos e cinco reais), de diversas unidades orçamentárias, conforme indicado no Anexo II desta Lei." .
+lex:L9823\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9823    lex:temArtigo    lex:L9823\/Artigo3 .
+lex:L9823\/Artigo3    lex:temConteudo    "Art. 3o  Em decorrência do disposto nos arts. 1o e 2o, ficam alteradas as receitas de diversas unidades orçamentárias, na forma indicada nos Anexos III e IV desta Lei, nos montantes especificados." .
+lex:L9823\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9823    lex:temArtigo    lex:L9823\/Artigo4 .
+lex:L9823\/Artigo4    lex:temConteudo    "Art. 4o  Ficam convalidados os atos praticados com base na Medida Provisória no 1.857-7, de 29 de junho de 1999." .
+lex:L9823\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9823    lex:temArtigo    lex:L9823\/Artigo5 .
+lex:L9823\/Artigo5    lex:temConteudo    "Art. 5o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L9823\/Texto    lex:remetePara    lex:1857-8 .
+lex:L9823\/Artigo1    lex:remetePara    lex:L9598 .
+lex:L9823\/Artigo2\/IncisoI    lex:remetePara    lex:L9751 .
+lex:L9823\/Artigo4    lex:remetePara    lex:1857-7 .

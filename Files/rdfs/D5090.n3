@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5090    lex:ehUm    lex:DocLegal .
+lex:D5090    lex:temTextoIntegral    lex:HTMLs\/D5090.htm .
+lex:D5090\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo1 .
+lex:D5090\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído o Programa 'Farmácia Popular do Brasil', que visa a disponibilização de medicamentos, nos termos da Lei no 10.858, de 13 de abril de 2004, em municípios e regiões do território nacional." .
+lex:D5090\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5090\/Artigo1    lex:temParagrafo    lex:D5090\/Artigo1\/Paragrafo1 .
+lex:D5090\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A disponibilização de medicamentos a que se refere o caput será efetivada em farmácias populares, por intermédio de convênios firmados com Estados, Distrito Federal, Municípios e hospitais filantrópicos, bem como em rede privada de farmácias e drogarias." .
+lex:D5090\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5090\/Artigo1    lex:temParagrafo    lex:D5090\/Artigo1\/Paragrafo2 .
+lex:D5090\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Em se tratando de disponibilização por intermédio da rede privada de farmácia e drogarias, o preço do medicamento será subsidiado." .
+lex:D5090\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo2 .
+lex:D5090\/Artigo2    lex:temConteudo    "Art. 2o  A Fundação Oswaldo Cruz - FIOCRUZ será a executora das ações inerentes à aquisição, estocagem, comercialização e dispensação dos medicamentos, podendo para tanto firmar convênios com a União, Estados, Distrito Federal e Municípios, sob a supervisão direta e imediata do Ministério da Saúde." .
+lex:D5090\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5090\/Artigo2    lex:temParagrafo    lex:D5090\/Artigo2\/ParagrafoUnico .
+lex:D5090\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério da Saúde poderá firmar convênio com entidades públicas e privadas, visando à instalação e implantação de novos serviços de disponibilização de medicamentos e insumos, mediante ressarcimento, tão-somente, de seus custos de produção ou aquisição." .
+lex:D5090\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo3 .
+lex:D5090\/Artigo3    lex:temConteudo    "Art. 3o  O rol de medicamentos a ser disponibilizado em decorrência da execução do Programa 'Farmácia Popular do Brasil' será definido pelo Ministério da Saúde, considerando-se as evidências epidemiológicas e prevalências de doenças e agravos." .
+lex:D5090\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo4 .
+lex:D5090\/Artigo4    lex:temConteudo    "Art. 4o  O Programa 'Farmácia Popular do Brasil' será executado sem prejuízo do abastecimento da rede pública nacional do Sistema Único de Saúde - SUS." .
+lex:D5090\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo5 .
+lex:D5090\/Artigo5    lex:temConteudo    "Art. 5o  O Ministério da Saúde expedirá, no prazo de sessenta dias, a contar da data de publicação deste Decreto, normas complementares à implantação do Programa." .
+lex:D5090\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5090    lex:temArtigo    lex:D5090\/Artigo6 .
+lex:D5090\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5090\/Texto    lex:remetePara    lex:L10858 .

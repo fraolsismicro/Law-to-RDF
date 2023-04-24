@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13177    lex:ehUm    lex:DocLegal .
+lex:L13177    lex:temTextoIntegral    lex:HTMLs\/L13177.htm .
+lex:L13177\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13177    lex:temArtigo    lex:L13177\/Artigo1 .
+lex:L13177\/Artigo1    lex:temConteudo    "Art. 1o  A Lei no 12.869, de 15 de outubro de 2013, passa a vigorar acrescida dos seguintes arts. 5o-A e 5o-B:" .
+lex:L13177\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13177\/Artigo1    lex:temParagrafo    lex:L13177\/Artigo1\/ParagrafoUnico .
+lex:L13177\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Não se aplica o disposto no caput quando tiver havido rescisão contratual por comprovado descumprimento das cláusulas contratuais pelo permissionário lotérico." .
+lex:L13177\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13177    lex:temArtigo    lex:L13177\/Artigo2 .
+lex:L13177\/Artigo2    lex:temConteudo    "Art. 2o  Ficam cancelados os efeitos do aviso publicado em 5 de agosto de 2015 na Seção 3 do Diário Oficial da União pela Gerência Nacional Gestão de Canais Parceiros da Caixa Econômica Federal e as licitações decorrentes do mencionado aviso." .
+lex:L13177\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13177    lex:temArtigo    lex:L13177\/Artigo3 .
+lex:L13177\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13177\/Artigo1    lex:remetePara    lex:L12869 .
+lex:L13177\/Texto00001    lex:remetePara    lex:L12869\/Artigo5 .
+lex:L13177\/Artigo1\/Texto00002    lex:remetePara    lex:L12869\/Artigo5 .

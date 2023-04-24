@@ -1,0 +1,69 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc14    lex:ehUm    lex:DocLegal .
+lex:emc14    lex:temTextoIntegral    lex:HTMLs\/emc14.htm .
+lex:emc14\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo1 .
+lex:emc14\/Artigo1    lex:temConteudo    "Art. 1º É acrescentada no inciso VII do art. 34, da Constituição Federal, a alínea 'e':" .
+lex:emc14\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo2 .
+lex:emc14\/Artigo2    lex:temConteudo    "Art. 2º É dada nova redação aos incisos I e II do art. 208 da Constituição Federal:" .
+lex:emc14\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:emc14\/Artigo2    lex:temInciso    lex:emc14\/Artigo2\/IncisoII .
+lex:emc14\/Artigo2\/IncisoII    lex:temConteudo    "II - progressiva universalização do ensino médio gratuito; '" .
+lex:emc14\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo3 .
+lex:emc14\/Artigo3    lex:temConteudo    "Art. 3º É dada nova redação aos §§ 1º e 2º do art. 211 da Constituição Federal e nele são inseridos mais dois parágrafos:" .
+lex:emc14\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo3    lex:temParagrafo    lex:emc14\/Artigo3\/Paragrafo1 .
+lex:emc14\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º A união organizará o sistema federal de ensino e o dos Territorios, financiará as instituições de ensino públicas federais e exercerá, em matéria educacional, função redistributiva e supletiva, de forma a garantir equalização de oportunidades educacionais e padrão mínimo de qualidade do ensino mediante assistência técnica e financeira aos estados, ao Distrito Federal e aos Municípios." .
+lex:emc14\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo3    lex:temParagrafo    lex:emc14\/Artigo3\/Paragrafo2 .
+lex:emc14\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Os Municípios atuarão prioritariamente no ensino fundamental e na educação infantil." .
+lex:emc14\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo3    lex:temParagrafo    lex:emc14\/Artigo3\/Paragrafo3 .
+lex:emc14\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º Os Estados e o Distrito Federal atuarão prioritariamente no ensino fundamental e médio." .
+lex:emc14\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo3    lex:temParagrafo    lex:emc14\/Artigo3\/Paragrafo4 .
+lex:emc14\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4º Na organização de seus sistemas de ensino, os Estados e os Municípios definirão formas de colaboração, de modo a assegurar a universalização do ensino obrigatório.'" .
+lex:emc14\/Artigo4    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo4 .
+lex:emc14\/Artigo4    lex:temConteudo    "Art. 4º É dada nova redação ao § 5º do art. 212 da Constituição Federal:" .
+lex:emc14\/Artigo5    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo5 .
+lex:emc14\/Artigo5    lex:temConteudo    "Art. 5º É alterado o art. 60 do ADCT e nele são inseridos novos parágrafos, passando o artigo a ter a seguinte redação:" .
+lex:emc14\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo1 .
+lex:emc14\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º A distribuição de responsabilidades e recursos entre os estados e seus municípios a ser concretizada com parte dos recursos definidos neste artigo, na forma do disposto no art. 211 da Constituição Federal, e assegurada mediante a criação, no âmbito de cada Estado e do Distrito Federal, de um fundo de manutenção e desenvolvimento do ensino fundamental e de valorização do magistério, de natureza contábil." .
+lex:emc14\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo2 .
+lex:emc14\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2º O Fundo referido no parágrafo anterior será constituído por, pelo menos, quinze por cento dos recursos a que se referem os arts. 155, inciso II; 158, inciso IV; e 159, inciso I, alíneas 'a' e 'b'; e inciso II, da Constituição Federal, e será distribuído entre cada Estado e seus Municípios, proporcionalmente ao número de alunos nas respectivas redes de ensino fundamental." .
+lex:emc14\/Artigo5\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo3 .
+lex:emc14\/Artigo5\/Paragrafo3    lex:temConteudo    "§ 3º A União complementará os recursos dos Fundos a que se refere o § 1º, sempre que, em cada Estado e no Distrito Federal, seu valor por aluno não alcançar o mínimo definido nacionalmente." .
+lex:emc14\/Artigo5\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo4 .
+lex:emc14\/Artigo5\/Paragrafo4    lex:temConteudo    "§ 4º A União, os Estados, o Distrito Federal e os Municípios ajustarão progressivamente, em um prazo de cinco anos, suas contribuições ao Fundo, de forma a garantir um valor por aluno correspondente a um padrão mínimo de qualidade de ensino, definido nacionalmente." .
+lex:emc14\/Artigo5\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo5 .
+lex:emc14\/Artigo5\/Paragrafo5    lex:temConteudo    "§ 5º Uma proporção não inferior a sessenta por cento dos recursos de cada Fundo referido no § 1º será destinada ao pagamento dos professores do ensino fundamental em efetivo exercício no magistério." .
+lex:emc14\/Artigo5\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo6 .
+lex:emc14\/Artigo5\/Paragrafo6    lex:temConteudo    "§ 6º A União aplicará na erradicação do analfabetismo e na manutenção e no desenvolvimento do ensino fundamental, inclusive na complementação a que se refere o § 3º, nunca menos que o equivalente a trinta por cento dos recursos a que se refere o caput do art. 212 da Constituição Federal." .
+lex:emc14\/Artigo5\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:emc14\/Artigo5    lex:temParagrafo    lex:emc14\/Artigo5\/Paragrafo7 .
+lex:emc14\/Artigo5\/Paragrafo7    lex:temConteudo    "§ 7º A lei disporá sobre a organização dos Fundos, a distribuição proporcional de seus recursos, sua fiscalização e controle, bem como sobre a forma de cálculo do valor mínimo nacional por aluno.´" .
+lex:emc14\/Artigo6    lex:ehUm    lex:Artigo .
+lex:emc14    lex:temArtigo    lex:emc14\/Artigo6 .
+lex:emc14\/Artigo6    lex:temConteudo    "Art. 6º Esta emenda entra em vigor a primeiro de janeiro do ano subseqüente ao de sua promulgação." .
+lex:emc14\/Texto00001    lex:remetePara    lex:Constituicao\/Artigo34 .
+lex:emc14\/Texto00002    lex:remetePara    lex:Constituicao\/Artigo208 .
+lex:emc14\/Artigo3\/Paragrafo1    lex:remetePara    lex:Constituicao\/Artigo211\/Paragrafo1 .
+lex:emc14\/Texto00009    lex:remetePara    lex:Constituicao\/Artigo212\/Paragrafo5 .
+lex:emc14\/Texto00010    lex:remetePara    lex:Constituicao\/adctArtigo60 .

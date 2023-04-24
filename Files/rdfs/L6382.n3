@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6382    lex:ehUm    lex:DocLegal .
+lex:L6382    lex:temTextoIntegral    lex:HTMLs\/L6382.htm .
+lex:L6382\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6382    lex:temArtigo    lex:L6382\/Artigo1 .
+lex:L6382\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir o crédito especial até o limite de Cr$948.000.000,00 (novecentos e quarenta e oito milhões de cruzeiros), destinado ao atendimento de despesas com conservação e segurança de tráfego, restauração e melhoramento de rodovias, projeto e implantação de terminais e centros de cargas e fretes, bem como construção de armazéns, silos e terminais de passageiros e cargas, observando a seguinte discriminação:" .
+lex:L6382\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6382\/Artigo1    lex:temInciso    lex:L6382\/Artigo1\/IncisoI .
+lex:L6382\/Artigo1\/IncisoI    lex:temConteudo    "I - Fundo Nacional de Desenvolvimento" .
+lex:L6382\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6382\/Artigo1    lex:temInciso    lex:L6382\/Artigo1\/IncisoII .
+lex:L6382\/Artigo1\/IncisoII    lex:temConteudo    "II - Tansferências a Estados, Distrito Federal e Municípios" .
+lex:L6382\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6382    lex:temArtigo    lex:L6382\/Artigo2 .
+lex:L6382\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução desta Lei serão aqueles provenientes da aplicação do Decreto-lei número 1.438, de 26 de dezembro de 1975, regulamento pelo Decreto número 77.789, de 9 de junho de 1976, na forma do disposto no § 1º, inciso II, combinado com o § 3º do artigo 43 da Lei número 4.320, de 17 de março de 1964." .
+lex:L6382\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6382    lex:temArtigo    lex:L6382\/Artigo3 .
+lex:L6382\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6382\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6382    lex:temArtigo    lex:L6382\/Artigo4 .
+lex:L6382\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6382\/Artigo2    lex:remetePara    lex:Del1438 .
+lex:L6382\/Artigo2    lex:remetePara    lex:D77789 .
+lex:L6382\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

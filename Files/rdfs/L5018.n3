@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5018    lex:ehUm    lex:DocLegal .
+lex:L5018    lex:temTextoIntegral    lex:HTMLs\/L5018.htm .
+lex:L5018\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5018    lex:temArtigo    lex:L5018\/Artigo1 .
+lex:L5018\/Artigo1    lex:temConteudo    "Art. 1º Ficam incluídos, em Parte Especial do Quadro da Secretaria do Tribunal Regional Eleitoral do Distrito Federal, os servidores da Companhia Urbanizadora da Nova Capital do Brasil (NOVACAP) abrangidos pelo art. 40 da Lei nº 4.242, de 17 de julho de 1963, que, na data da publicação desta lei, se encontram à disposição do referido Tribunal." .
+lex:L5018\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5018\/Artigo1    lex:temParagrafo    lex:L5018\/Artigo1\/Paragrafo1 .
+lex:L5018\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O aproveitamento a que se refere êste artigo far-se-á nos cargos em que se encontram os servidores e constantes da relação nominal anexa ao Decreto nº 53.331, de 19 de dezembro de 1963." .
+lex:L5018\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5018\/Artigo1    lex:temParagrafo    lex:L5018\/Artigo1\/Paragrafo2 .
+lex:L5018\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O servidor abrangido por êste artigo poderá retornar ao órgão de origem para o que deverá requerer ao Presidente do Tribunal dentro do prazo de 30 (trinta) dias, contados da publicação desta lei." .
+lex:L5018\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5018    lex:temArtigo    lex:L5018\/Artigo2 .
+lex:L5018\/Artigo2    lex:temConteudo    "Art. 2º Os servidores incluídos nos têrmos da presente lei continuarão a perceber os seus vencimentos e vantagens pelo órgão de origem, até que o orçamento do tribunal Regional Eleitoral do Distrito Federal consigne verba própria para atender à respectiva despesa." .
+lex:L5018\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5018\/Artigo2    lex:temParagrafo    lex:L5018\/Artigo2\/ParagrafoUnico .
+lex:L5018\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para os fins do disposto neste artigo, o Tribunal adotará as providências necessárias no sentido de incluir, em seu orçamento, os recursos destinados ao pagamento do mencionado pessoal." .
+lex:L5018\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5018    lex:temArtigo    lex:L5018\/Artigo3 .
+lex:L5018\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L5018\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5018    lex:temArtigo    lex:L5018\/Artigo4 .
+lex:L5018\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L5018\/Artigo1    lex:remetePara    lex:L4242\/Artigo40 .

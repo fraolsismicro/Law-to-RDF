@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D77804    lex:ehUm    lex:DocLegal .
+lex:D77804    lex:temTextoIntegral    lex:HTMLs\/D77804.htm .
+lex:D77804\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D77804    lex:temArtigo    lex:D77804\/Artigo1 .
+lex:D77804\/Artigo1    lex:temConteudo    "Art. 1º São criados:" .
+lex:D77804\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D77804    lex:temArtigo    lex:D77804\/Artigo3 .
+lex:D77804\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:D77804\/Artigo2    lex:revogadoPor    lex:Dnn834\/Artigo4 .
+lex:Dnn834\/Artigo4    lex:revogou    lex:D77804\/Artigo2 .

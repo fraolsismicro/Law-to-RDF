@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6714    lex:ehUm    lex:DocLegal .
+lex:L6714    lex:temTextoIntegral    lex:HTMLs\/L6714.htm .
+lex:L6714\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6714    lex:temArtigo    lex:L6714\/Artigo1 .
+lex:L6714\/Artigo1    lex:temConteudo    "Art. 1º Fica acrescida do Nível 4 a escala de vencimentos do Grupo-Direção e Assessoramento Superiores, Código DAS-100, do Quadro de Pessoal dos Serviços Auxiliares do Tribunal de Contas do Distrito Federal, prevista no art. 1º da Lei nº 6.002, de 19 de dezembro de 1973." .
+lex:L6714\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6714\/Artigo1    lex:temParagrafo    lex:L6714\/Artigo1\/Paragrafo1 .
+lex:L6714\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O vencimento e respectiva representação mensal, correspondentes ao nível a que se refere este artigo, são os fixados no Anexo II do Decreto-lei nº 1.665, de 13 de fevereiro de 1979." .
+lex:L6714\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6714\/Artigo1    lex:temParagrafo    lex:L6714\/Artigo1\/Paragrafo2 .
+lex:L6714\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A reestruturação do Grupo de que trata este artigo e a classificação, na respectiva escala de níveis, dos cargos que o integram, far-se-ão por ato regulamentar do Tribunal." .
+lex:L6714\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6714    lex:temArtigo    lex:L6714\/Artigo2 .
+lex:L6714\/Artigo2    lex:temConteudo    "Art. 2º São criados, no Grupo-Direção e Assessoramento Superiores, Código TCDF DAS-100, do Quadro de Pessoal dos Serviços Auxiliares do Tribunal de Contas do Distrito Federal, 3 (três) cargos em comissão de Assessor, cuja classificação, na respectiva escala de níveis, far-se-á na forma prevista no § 2º do artigo anterior." .
+lex:L6714\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6714\/Artigo2    lex:temParagrafo    lex:L6714\/Artigo2\/ParagrafoUnico .
+lex:L6714\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único Os cargos criados por este artigo destinam-se a atender às exigências de funcionamento dos Gabinetes dos Auditores do Tribunal de Contas do Distrito Federal." .
+lex:L6714\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6714    lex:temArtigo    lex:L6714\/Artigo3 .
+lex:L6714\/Artigo3    lex:temConteudo    "Art. 3º Ao cargo de Procurador junto ao Tribunal de Contas do Distrito Federal é atribuído o vencimento de Cr$30.139,00 (trinta mil, cento e trinta e nove cruzeiros) e a representação mensal de 30% (trinta por cento) desse vencimento. (Vide Decreto nº 1.750, de 1979)" .
+lex:L6714\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6714    lex:temArtigo    lex:L6714\/Artigo4 .
+lex:L6714\/Artigo4    lex:temConteudo    "Art. 4º As despesas decorrentes da aplicação desta lei serão atendidas à conta dos recursos orçamentários próprios do Tribunal de Contas do Distrito Federal." .
+lex:L6714\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6714    lex:temArtigo    lex:L6714\/Artigo5 .
+lex:L6714\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6714\/Artigo1    lex:remetePara    lex:L6002\/Artigo1 .
+lex:L6714\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del1665\/ .
+lex:L6714\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del1665\/ .
+lex:L6714\/Artigo3    lex:remetePara    lex:Del1750\/Artigo1 .

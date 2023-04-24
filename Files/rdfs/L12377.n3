@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12377    lex:ehUm    lex:DocLegal .
+lex:L12377    lex:temTextoIntegral    lex:HTMLs\/L12377.htm .
+lex:L12377\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo1 .
+lex:L12377\/Artigo1    lex:temConteudo    "Art. 1º O art. 2º da Lei nº 12.017, de 12 de agosto de 2009, passa a vigorar com a seguinte redação:" .
+lex:L12377\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12377\/Artigo1    lex:temParagrafo    lex:L12377\/Artigo1\/Paragrafo1 .
+lex:L12377\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º As empresas dos Grupos Petrobras e Eletrobras não serão consideradas na meta de resultado primário, de que trata o caput deste artigo, relativa ao Programa de Dispêndios Globais." .
+lex:L12377\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo2 .
+lex:L12377\/Artigo2    lex:temConteudo    "Art. 2º O item IV.1 do Anexo IV da Lei nº 12.017, de 2009, passa a vigorar na forma do Anexo I desta Lei." .
+lex:L12377\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo3 .
+lex:L12377\/Artigo3    lex:temConteudo    "Art. 3º O art. 2º da Lei nº 12.309, de 9 de agosto de 2010, passa a vigorar com a seguinte redação:" .
+lex:L12377\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12377\/Artigo3    lex:temParagrafo    lex:L12377\/Artigo3\/Paragrafo1 .
+lex:L12377\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º As empresas dos Grupos Petrobras e Eletrobras não serão consideradas na meta de resultado primário, de que trata o caput deste artigo, relativa ao Programa de Dispêndios Globais." .
+lex:L12377\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo4 .
+lex:L12377\/Artigo4    lex:temConteudo    "Art. 4º O item III.1 do Anexo III da Lei no 12.309, de 2010,  passa a vigorar na forma do Anexo II desta Lei." .
+lex:L12377\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo5 .
+lex:L12377\/Artigo5    lex:temConteudo    "Art. 5º ( VETADO)" .
+lex:L12377\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo6 .
+lex:L12377\/Artigo6    lex:temConteudo    "Art. 6º ( VETADO)" .
+lex:L12377\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo7 .
+lex:L12377\/Artigo7    lex:temConteudo    "Art. 7º O inciso XIII do art. 20 da Lei nº 12.309, de 09 de agosto de 2010, passa a vigorar com a seguinte redação:" .
+lex:L12377\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L12377    lex:temArtigo    lex:L12377\/Artigo8 .
+lex:L12377\/Artigo8    lex:temConteudo    "Art. 8º Esta Lei entra em vigor na data de sua publicação." .
+lex:L12377\/Texto    lex:remetePara    lex:VEP-786-10 .
+lex:L12377\/Texto00001    lex:remetePara    lex:L12017\/Artigo2 .
+lex:L12377\/Artigo2    lex:remetePara    lex:L12017\/ .
+lex:L12377\/Texto00004    lex:remetePara    lex:L12309\/Artigo2 .
+lex:L12377\/Artigo4    lex:remetePara    lex:L12309\/ .
+lex:L12377\/Artigo5    lex:remetePara    lex:VEP-786-10 .
+lex:L12377\/Artigo6    lex:remetePara    lex:VEP-786-10 .
+lex:L12377\/Texto00009    lex:remetePara    lex:L12309\/Artigo20 .

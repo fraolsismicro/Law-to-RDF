@@ -1,0 +1,138 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8894    lex:ehUm    lex:DocLegal .
+lex:L8894    lex:temTextoIntegral    lex:HTMLs\/L8894.htm .
+lex:L8894\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo1 .
+lex:L8894\/Artigo1    lex:temConteudo    "Art. 1º O Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos e Valores Mobiliários será cobrado à alíquota máxima de 1,5% ao dia, sobre o valor das operações de crédito e relativos a títulos e valores mobiliários." .
+lex:L8894\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo1    lex:temParagrafo    lex:L8894\/Artigo1\/Paragrafo1 .
+lex:L8894\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  No caso de operações envolvendo contratos derivativos, a alíquota máxima é de 25% (vinte e cinco por cento) sobre o valor da operação. (Incluído pela Lei nº 12.543, de 2011)" .
+lex:L8894\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo1    lex:temParagrafo    lex:L8894\/Artigo1\/Paragrafo2 .
+lex:L8894\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O Poder Executivo, obedecidos os limites máximos fixados neste artigo, poderá alterar as alíquotas tendo em vista os objetivos das políticas monetária e fiscal. (Incluído pela Lei nº 12.543, de 2011)" .
+lex:L8894\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo2 .
+lex:L8894\/Artigo2    lex:temConteudo    "Art. 2º Considera-se valor da operação:" .
+lex:L8894\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo2    lex:temInciso    lex:L8894\/Artigo2\/IncisoI .
+lex:L8894\/Artigo2\/IncisoI    lex:temConteudo    "I - nas operações de crédito, o valor do principal que constitua o objeto da obrigação, ou sua colocação à disposição do interessado;" .
+lex:L8894\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo2    lex:temInciso    lex:L8894\/Artigo2\/IncisoII .
+lex:L8894\/Artigo2\/IncisoII    lex:temConteudo    "II - nas operações relativas a títulos e valores mobiliários:" .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor    lex:ehUm    lex:IncisoAlinea .
+lex:L8894\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor    lex:temConteudo    "a) valor de aquisição, resgate, cessão ou repactuação;" .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor    lex:temIncisoAlinea    lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO    lex:temConteudo    "b) o valor do pagamento para a liquidação das operações referidas na alínea anterior, quando inferior a noventa e cinco por cento do valor inicial da operação, expressos, respectivamente, em quantidade de Unidade Fiscal de Referência (Ufir) diária." .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO    lex:temIncisoAlinea    lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO\/IncisoAlineaO .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO\/IncisoAlineaO    lex:temConteudo    "c) o valor nocional ajustado dos contratos, no caso de contratos derivativos. (Incluído pela Lei nº 12.543, de 2011)" .
+lex:L8894\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo1 .
+lex:L8894\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Serão acrescidos ao valor do resgate ou cessão de títulos e valores mobiliários os rendimentos periódicos recebidos pelo aplicador ou cedente durante o período da operação, atualizados pela variação acumulada da Ufir diária no período." .
+lex:L8894\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo2 .
+lex:L8894\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º O disposto no inciso II, alínea a, aplica-se, inclusive, às operações de financiamento realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas." .
+lex:L8894\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo3 .
+lex:L8894\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Para fins do disposto na alínea c do inciso II do caput, considera-se como valor nocional ajustado o produto do valor de referência do contrato (valor nocional) pela variação do preço do derivativo em relação à variação do preço do seu ativo subjacente (ativo objeto). (Incluído pela Lei nº 12.543, de 2011)" .
+lex:L8894\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo4 .
+lex:L8894\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  A pessoa jurídica exportadora, relativamente às operações de hedge, poderá descontar do IOF a recolher na condição de contribuinte, devido em cada período, o IOF apurado e recolhido na forma da alínea c do inciso II do caput. (Incluído pela Lei nº 12.543, de 2011)  (Produção de efeito)" .
+lex:L8894\/Artigo2\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo5 .
+lex:L8894\/Artigo2\/Paragrafo5    lex:temConteudo    "§ 5o  Na impossibilidade de efetuar o desconto de que trata o § 4o, a pessoa jurídica poderá solicitar restituição ou compensar o valor correspondente com imposto e contribuições administrados pela Secretaria da Receita Federal do Brasil, exceto as contribuições sociais previstas nas alíneas a, b e c do parágrafo único do art. 11 da Lei no 8.212, de 24 de julho de 1991. (Incluído pela Lei nº 12.543, de 2011)  (Produção de efeito)" .
+lex:L8894\/Artigo2\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo6 .
+lex:L8894\/Artigo2\/Paragrafo6    lex:temConteudo    "§ 6o  A parcela do IOF descontado ou compensado na forma deste artigo não será dedutível para fins de determinação do lucro real e da base de cálculo da Contribuição Social sobre o Lucro Líquido (CSLL). (Incluído pela Lei nº 12.543, de 2011)  (Produção de efeito)" .
+lex:L8894\/Artigo2\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo2    lex:temParagrafo    lex:L8894\/Artigo2\/Paragrafo7 .
+lex:L8894\/Artigo2\/Paragrafo7    lex:temConteudo    "§ 7o  A Secretaria da Receita Federal do Brasil disciplinará o disposto nos §§ 4o e 5o deste artigo. (Incluído pela Lei nº 12.543, de 2011)  (Produção de efeito)" .
+lex:L8894\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo3 .
+lex:L8894\/Artigo3    lex:temConteudo    "Art. 3º São contribuintes do imposto:" .
+lex:L8894\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo3    lex:temInciso    lex:L8894\/Artigo3\/IncisoI .
+lex:L8894\/Artigo3\/IncisoI    lex:temConteudo    "I - os tomadores de crédito, na hipótese prevista no art. 2º, inciso I;" .
+lex:L8894\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo3    lex:temInciso    lex:L8894\/Artigo3\/IncisoII .
+lex:L8894\/Artigo3\/IncisoII    lex:temConteudo    "II - os adquirentes de títulos e valores mobiliários e os titulares de aplicações financeiras, na hipótese prevista no art. 2º, inciso II, alínea a;" .
+lex:L8894\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo3    lex:temInciso    lex:L8894\/Artigo3\/IncisoIII .
+lex:L8894\/Artigo3\/IncisoIII    lex:temConteudo    "III - as instituições financeiras e demais instituições autorizadas a funcionar pelo Banco Central do Brasil, na hipótese prevista no art. 2º, inciso II, alínea b." .
+lex:L8894\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L8894\/Artigo3    lex:temInciso    lex:L8894\/Artigo3\/IncisoIV .
+lex:L8894\/Artigo3\/IncisoIV    lex:temConteudo    "IV - os titulares dos contratos, na hipótese prevista na alínea c do inciso II do art. 2o. (Incluído pela Lei nº 12.543, de 2011)" .
+lex:L8894\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo4 .
+lex:L8894\/Artigo4    lex:temConteudo    "Art. 4º O imposto de que trata o art. 2º, inciso II, alínea a será excluído da base de cálculo do imposto de renda incidente sobre o rendimento de operações com títulos e valores mobiliários, excetuadas as aplicações a que se refere o § 4º do art. 21 da Lei nº 8.383, de 30 de dezembro de 1991." .
+lex:L8894\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo5 .
+lex:L8894\/Artigo5    lex:temConteudo    "Art. 5º O Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos e Valores Mobiliários (IOF), incidente sobre operações de câmbio será cobrado à alíquota de vinte e cinco por cento sobre o valor de liquidação da operação cambial. (Regulamento)" .
+lex:L8894\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo5    lex:temParagrafo    lex:L8894\/Artigo5\/ParagrafoUnico .
+lex:L8894\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Poder Executivo poderá reduzir e restabelecer a alíquota fixada neste artigo, tendo em vista os objetivos das políticas monetária, cambial e fiscal." .
+lex:L8894\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo6 .
+lex:L8894\/Artigo6    lex:temConteudo    "Art. 6º São contribuintes do IOF incidente sobre operações de câmbio os compradores ou vendedores da moeda estrangeira na operação referente a transferência financeira para ou do exterior, respectivamente." .
+lex:L8894\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8894\/Artigo6    lex:temParagrafo    lex:L8894\/Artigo6\/ParagrafoUnico .
+lex:L8894\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As instituições autorizadas a operar em câmbio são responsáveis pela retenção e recolhimento do imposto." .
+lex:L8894\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo7 .
+lex:L8894\/Artigo7    lex:temConteudo    "Art. 7º Poder Executivo regulamentará o disposto nesta lei. (Regulamento)" .
+lex:L8894\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo8 .
+lex:L8894\/Artigo8    lex:temConteudo    "Art. 8º Ficam convalidados os atos praticados com base na Medida Provisória nº 487, de 29 de abril de 1994." .
+lex:L8894\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo9 .
+lex:L8894\/Artigo9    lex:temConteudo    "Art. 9º Esta lei entra em vigor na data de sua publicação." .
+lex:L8894\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L8894    lex:temArtigo    lex:L8894\/Artigo10 .
+lex:L8894\/Artigo10    lex:temConteudo    "Art. 10. Ficam revogados o art. 18 da Lei nº 8.088, de 31 de outubro de 1990, e, em relação ao imposto de que trata esta lei, as isenções previstas no art. 14 da Lei nº 8.313, de 23 de dezembro de 1991, no § 2º do art. 21 da Lei nº 8.383, de 1991, e no art. 16 da Lei nº 8.668, de 25 de junho de 1993." .
+lex:L8894\/Texto    lex:remetePara    lex:d1157 .
+lex:L8894\/Texto    lex:remetePara    lex:d1469 .
+lex:L8894\/Texto    lex:remetePara    lex:D1612 .
+lex:L8894\/Texto    lex:remetePara    lex:d1618 .
+lex:L8894\/Texto    lex:remetePara    lex:D6306 .
+lex:L8894\/ParagrafoUnico    lex:regulamentadoPor    lex:D1814 .
+lex:D1814    lex:regulamenta    lex:L8894\/ParagrafoUnico .
+lex:L8894\/Paragrafo1    lex:remetePara    lex:539\/Artigo3 .
+lex:L8894\/Paragrafo2    lex:remetePara    lex:539\/Artigo3 .
+lex:L8894\/Artigo1\/Paragrafo1    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo1\/Paragrafo2    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/IncisoI    lex:remetePara    lex:449\/Artigo41 .
+lex:L8894\/AlineaO    lex:remetePara    lex:449\/Artigo41 .
+lex:L8894\/AlineaO    lex:remetePara    lex:449\/Artigo41 .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/AlineaO    lex:remetePara    lex:539\/Artigo3 .
+lex:L8894\/Artigo2\/IncisoII\/IncisoAlineaValor\/IncisoAlineaO\/IncisoAlineaO    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo3    lex:remetePara    lex:539\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo3    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo4    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo4    lex:remetePara    lex:L12543\/Artigo6 .
+lex:L8894\/Artigo2\/Paragrafo5    lex:remetePara    lex:L8212cons\/Artigo11 .
+lex:L8894\/Artigo2\/Paragrafo5    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo5    lex:remetePara    lex:L12543\/Artigo6 .
+lex:L8894\/Artigo2\/Paragrafo6    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo2\/Paragrafo6    lex:remetePara    lex:L12543\/Artigo6 .
+lex:L8894\/Artigo2\/Paragrafo7    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo3\/IncisoIV    lex:remetePara    lex:539\/Artigo3 .
+lex:L8894\/Artigo3\/IncisoIV    lex:remetePara    lex:L12543\/Artigo3 .
+lex:L8894\/Artigo4    lex:remetePara    lex:L8383\/Artigo21\/Paragrafo4 .
+lex:L8894\/Artigo5    lex:regulamentadoPor    lex:D2219\/Artigo2 .
+lex:D2219\/Artigo2    lex:regulamenta    lex:L8894\/Artigo5 .
+lex:L8894\/Artigo7    lex:regulamentadoPor    lex:D1814 .
+lex:D1814    lex:regulamenta    lex:L8894\/Artigo7 .
+lex:L8894\/Artigo8    lex:remetePara    lex:487 .
+lex:L8894\/Artigo10    lex:remetePara    lex:L8088consol\/Artigo18 .
+lex:L8894\/Artigo10    lex:remetePara    lex:L8313cons\/Artigo14 .
+lex:L8894\/Artigo10    lex:remetePara    lex:L8383\/Artigo21\/Paragrafo2 .
+lex:L8894\/Artigo10    lex:remetePara    lex:L8668\/Artigo16 .

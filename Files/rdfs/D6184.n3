@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6184    lex:ehUm    lex:DocLegal .
+lex:D6184    lex:temTextoIntegral    lex:HTMLs\/D6184.htm .
+lex:D6184\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6184    lex:temArtigo    lex:D6184\/Artigo1 .
+lex:D6184\/Artigo1    lex:temConteudo    "Art. 1o A Nota Complementar NC (89-1) ao Capítulo 89 da Tabela de Incidência do IPI - TIPI, aprovada pelo Decreto no 6.006, de 26 de dezembro de 2006, passa a vigorar com a  seguinte redação:" .
+lex:D6184\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6184    lex:temArtigo    lex:D6184\/Artigo2 .
+lex:D6184\/Artigo2    lex:temConteudo    "Art. 2o  Fica criado na TIPI o desdobramento na  descrição do produto do código de classificação a seguir relacionado, efetuado sob a forma de destaque Ex, observada a respectiva alíquota:" .
+lex:D6184\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6184    lex:temArtigo    lex:D6184\/Artigo3 .
+lex:D6184\/Artigo3    lex:temConteudo    "Art. 3o  Ficam reduzidas a zero as alíquotas do IPI incidente sobre os produtos classificados nos códigos 89.01, 89.02, 8904.00.00, 8905.10.00, 8905.90.00, exceto o Ex desse último código, e 8906 da TIPI." .
+lex:D6184\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6184    lex:temArtigo    lex:D6184\/Artigo4 .
+lex:D6184\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6184\/Texto    lex:remetePara    lex:D6184 .
+lex:D6184\/Artigo1    lex:remetePara    lex:D6006\/ .

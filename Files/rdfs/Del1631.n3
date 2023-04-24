@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1631    lex:ehUm    lex:DocLegal .
+lex:Del1631    lex:temTextoIntegral    lex:HTMLs\/Del1631.htm .
+lex:Del1631\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1631    lex:temArtigo    lex:Del1631\/Artigo1 .
+lex:Del1631\/Artigo1    lex:temConteudo    "Art. 1º - Os álcoois etílico e metílico, para fins carburantes, com as especificações homologadas pelo Conselho Nacional do Álcool - CNAL, ficam sujeitos à incidência do Imposto Único sobre Lubrificantes e Combustíveis Líquidos e Gasosos. (Redação dada pelo Decreto-Lei nº 1.690, de 1979)" .
+lex:Del1631\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1631\/Artigo1    lex:temParagrafo    lex:Del1631\/Artigo1\/ParagrafoUnico .
+lex:Del1631\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O Conselho Nacional do Petróleo submeterá as especificações técnicas para os álcoois etílico e metílico, para fins carburantes, à homologação do Conselho Nacional do Álcool. (Incluído pelo Decreto-Lei nº 1.690, de 1979)" .
+lex:Del1631\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1631    lex:temArtigo    lex:Del1631\/Artigo2 .
+lex:Del1631\/Artigo2    lex:temConteudo    "Art. 2º - É de 5% (cinco por cento) a alíquota relativa aos álcoois mencionados no artigo anterior, a ser aplicada sobre os preços de venda dos produtos, conforme se dispuser em regulamento." .
+lex:Del1631\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1631    lex:temArtigo    lex:Del1631\/Artigo3 .
+lex:Del1631\/Artigo3    lex:temConteudo    "Art. 3º - Ficam isentos do Imposto Único, até 31 de dezembro de 1985, os álcoois etílico e metílico referidos no artigo 1º deste Decreto-lei. (Redação dada pelo Decreto-Lei nº 1.690, de 1979)   (Vide Lei nº 7.451, de 1985)" .
+lex:Del1631\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1631    lex:temArtigo    lex:Del1631\/Artigo4 .
+lex:Del1631\/Artigo4    lex:temConteudo    "Art. 4º - Este Decreto-lei entra em vigor na data de sua publicação." .
+lex:Del1631\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1631    lex:temArtigo    lex:Del1631\/Artigo5 .
+lex:Del1631\/Artigo5    lex:temConteudo    "Art. 5º - Revogam-se as disposições em contrário, especialmente o Decreto-lei nº 1.583, de 18 de novembro de 1977." .
+lex:Del1631\/Artigo1    lex:remetePara    lex:Del1690\/Artigo1 .
+lex:Del1631\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1690\/Artigo1 .
+lex:Del1631\/Artigo3    lex:remetePara    lex:Del1690\/Artigo2 .
+lex:Del1631\/Artigo3    lex:remetePara    lex:L7451\/Artigo1 .
+lex:Del1631\/Artigo5    lex:remetePara    lex:Del1583 .
+lex:Del1631\/Artigo5    lex:remetePara    lex:Del1583 .

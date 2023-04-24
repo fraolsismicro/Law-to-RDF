@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1352    lex:ehUm    lex:DocLegal .
+lex:D1352    lex:temTextoIntegral    lex:HTMLs\/D1352.htm .
+lex:D1352\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1352    lex:temArtigo    lex:D1352\/Artigo1 .
+lex:D1352\/Artigo1    lex:temConteudo    "Art. 1º A tarifa especial de serviços públicos de telecomunicações, previstas no art. 104 da Lei nº 4.117, de 27 de agosto de 1962, equivale a dez por cento das tarifas normais." .
+lex:D1352\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1352    lex:temArtigo    lex:D1352\/Artigo2 .
+lex:D1352\/Artigo2    lex:temConteudo    "Art. 2º A tarifa especial aplica-se, em caráter experimental, aos serviços de telecomunicações utilizados no programa Televia para a Educação, definido pelos Ministérios da Educação e do Desporto, das Comunicações, da Cultura e da Ciência e Tecnologia." .
+lex:D1352\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1352\/Artigo2    lex:temParagrafo    lex:D1352\/Artigo2\/Paragrafo1 .
+lex:D1352\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O programa será desenvolvido por meio de projeto-piloto, com duração máxima de três anos." .
+lex:D1352\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1352\/Artigo2    lex:temParagrafo    lex:D1352\/Artigo2\/Paragrafo2 .
+lex:D1352\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Findo o prazo a que se refere o parágrafo anterior e avaliados os resultados do projeto-piloto, os Ministros de Estado da Educação e do Desporto, das Comunicações, da Cultura e da Ciência e Tecnologia poderão estender, mediante portaria conjunta, a tarifa especial prevista no art. 1º a todas as instituições de educação e de cultura." .
+lex:D1352\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1352    lex:temArtigo    lex:D1352\/Artigo3 .
+lex:D1352\/Artigo3    lex:temConteudo    "Art. 3º A tarifa especial aplica-se também, em caráter experimental, às conexões e aos serviços de telecomunicações das empresas do Sistema TELEBRÁS utilizados pela Rede Nacional de Pesquisa - RNP, rede de finalidade não-comercial criada pelo Ministério da Ciência e Tecnologia e coordenada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq, observando o disposto no § 1º do art. 2º.      (Revogado pelo Decreto nº 1.589, de 1995)" .
+lex:D1352\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1352    lex:temArtigo    lex:D1352\/Artigo4 .
+lex:D1352\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário, especialmente o Decreto nº 1.005, de 8 de dezembro de 1993." .
+lex:D1352\/Artigo1    lex:remetePara    lex:L4117\/Artigo104 .
+lex:D1352\/Artigo3    lex:revogadoPor    lex:D1589\/Artigo5 .
+lex:D1589\/Artigo5    lex:revogou    lex:D1352\/Artigo3 .
+lex:D1352\/Artigo4    lex:remetePara    lex:D1005 .

@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13142    lex:ehUm    lex:DocLegal .
+lex:L13142    lex:temTextoIntegral    lex:HTMLs\/L13142.htm .
+lex:L13142\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13142    lex:temArtigo    lex:L13142\/Artigo1 .
+lex:L13142\/Artigo1    lex:temConteudo    "Art. 1o  O § 2o do art. 121 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar acrescido do seguinte inciso VII:" .
+lex:L13142\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13142\/Artigo1    lex:temParagrafo    lex:L13142\/Artigo1\/Paragrafo2 .
+lex:L13142\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o................................................................................" .
+lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13142\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII .
+lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII    lex:temConteudo    "VII   contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição:" .
+lex:L13142\/Artig    lex:ehUm    lex:Artigo .
+lex:L13142    lex:temArtigo    lex:L13142\/Artig .
+lex:L13142\/Artig    lex:temConteudo    "Art.  2o O art. 129 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar acrescido do seguinte § 12:" .
+lex:L13142\/Artig\/Paragrafo12    lex:ehUm    lex:Paragrafo .
+lex:L13142\/Artig    lex:temParagrafo    lex:L13142\/Artig\/Paragrafo12 .
+lex:L13142\/Artig\/Paragrafo12    lex:temConteudo    "§ 12. Se a lesão for praticada contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição, a pena é aumentada de um a dois terços. (NR)" .
+lex:L13142\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13142    lex:temArtigo    lex:L13142\/Artigo3 .
+lex:L13142\/Artigo3    lex:temConteudo    "Art. 3o O art. 1o da Lei no 8.072, de 25 de julho de 1990 (Lei de Crimes Hediondos), passa a vigorar com a seguinte redação:" .
+lex:L13142\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13142\/Artigo3    lex:temInciso    lex:L13142\/Artigo3\/IncisoI .
+lex:L13142\/Artigo3\/IncisoI    lex:temConteudo    "I   homicídio (art. 121), quando praticado em atividade típica de grupo de extermínio, ainda que cometido por um só agente, e homicídio qualificado (art. 121, § 2o, incisos I, II, III, IV, V, VI e VII);" .
+lex:L13142\/Artigo3\/IncisoI-A    lex:ehUm    lex:Inciso .
+lex:L13142\/Artigo3    lex:temInciso    lex:L13142\/Artigo3\/IncisoI-A .
+lex:L13142\/Artigo3\/IncisoI-A    lex:temConteudo    "I-A   lesão corporal dolosa de natureza gravíssima (art. 129, § 2o) e lesão corporal seguida de morte (art. 129, § 3o), quando praticadas contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição;" .
+lex:L13142\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13142    lex:temArtigo    lex:L13142\/Artigo4 .
+lex:L13142\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L13142\/Artigo1    lex:remetePara    lex:Del2848 .
+lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII    lex:remetePara    lex:Del2848\/Artigo121\/Paragrafo2vii .
+lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII    lex:remetePara    lex:Constituicao\/Artigo142 .
+lex:L13142\/Artigo1\/Paragrafo2\/ParagrafoIncisoVII    lex:remetePara    lex:Constituicao\/Artigo144 .
+lex:L13142\/Artig    lex:remetePara    lex:Del2848 .
+lex:L13142\/Artig\/Paragrafo12    lex:remetePara    lex:Del2848\/Artigo129\/Paragrafo12 .
+lex:L13142\/Artig\/Paragrafo12    lex:remetePara    lex:Constituicao\/Artigo142 .
+lex:L13142\/Artig\/Paragrafo12    lex:remetePara    lex:Constituicao\/Artigo144 .
+lex:L13142\/Artigo3    lex:remetePara    lex:L8072 .
+lex:L13142\/Artigo3\/IncisoI    lex:remetePara    lex:L8072\/Artigo1 .
+lex:L13142\/Artigo3\/IncisoI-A    lex:remetePara    lex:Constituicao\/Artigo142 .
+lex:L13142\/Artigo3\/IncisoI-A    lex:remetePara    lex:Constituicao\/Artigo144 .

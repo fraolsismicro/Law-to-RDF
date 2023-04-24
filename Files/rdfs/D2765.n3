@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2765    lex:ehUm    lex:DocLegal .
+lex:D2765    lex:temTextoIntegral    lex:HTMLs\/D2765.htm .
+lex:D2765\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2765    lex:temArtigo    lex:D2765\/Artigo1 .
+lex:D2765\/Artigo1    lex:temConteudo    "Art 1º os arts. 5º e 6º do Decreto nº 2.618, de 5 de junho de 1998, passam a vigorar com a seguinte redação:" .
+lex:D2765\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2765\/Artigo1    lex:temInciso    lex:D2765\/Artigo1\/IncisoI .
+lex:D2765\/Artigo1\/IncisoI    lex:temConteudo    "I - ter declarado estado de calamidade pública ou situação de emergência, na forma da legislação em vigor;" .
+lex:D2765\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2765\/Artigo1    lex:temParagrafo    lex:D2765\/Artigo1\/ParagrafoUnico .
+lex:D2765\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Excepcionalmente, nas situações em que o Estado não passa alocar a contrapartida em dinheiro para remuneração dos alistados nas frentes produtivas, estes receberão, a partir da vigência do respectivo convênio, a parcela desembolsada pelo Governo Federal.' (NR)" .
+lex:D2765\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2765\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D2765\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D2765\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - ter declarado estado de calamidade pública, ou situação, de emergência, na forma da legislação em vigor;" .
+lex:D2765\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2765    lex:temArtigo    lex:D2765\/Artigo2 .
+lex:D2765\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2765\/Texto00005    lex:remetePara    lex:index .

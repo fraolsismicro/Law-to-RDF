@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc01    lex:ehUm    lex:DocLegal .
+lex:emc01    lex:temTextoIntegral    lex:HTMLs\/emc01.htm .
+lex:emc01\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc01    lex:temArtigo    lex:emc01\/Artigo1 .
+lex:emc01\/Artigo1    lex:temConteudo    "Art. 1.º O § 2.º do art. 27 da Constituição passa a vigorar com a seguinte redação:" .
+lex:emc01\/Artigo27    lex:ehUm    lex:Artigo .
+lex:emc01    lex:temArtigo    lex:emc01\/Artigo27 .
+lex:emc01\/Artigo27    lex:temConteudo    "Art 27 ................................................" .
+lex:emc01\/Artigo27\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:emc01\/Artigo27    lex:temParagrafo    lex:emc01\/Artigo27\/Paragrafo2 .
+lex:emc01\/Artigo27\/Paragrafo2    lex:temConteudo    "§ 2.º A remuneração dos Deputados Estaduais será fixada em cada legislatura, para a subseqüente, pela Assembléia Legislativa, observado o que dispõem os arts. arts. 150, II, 153, III e 153, § 2.º, I , na razão de, no máximo, setenta e cinco por cento daquela estabelecida, em espécie, para os Deputados Federais." .
+lex:emc01\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc01    lex:temArtigo    lex:emc01\/Artigo2 .
+lex:emc01\/Artigo2    lex:temConteudo    "Art. 2.º São acrescentados ao art. 29 da Constituição os seguintes incisos, VI e VII, renumerando-se os demais:" .
+lex:emc01\/Artigo29    lex:ehUm    lex:Artigo .
+lex:emc01    lex:temArtigo    lex:emc01\/Artigo29 .
+lex:emc01\/Artigo29    lex:temConteudo    "Art. 29 ..............................................." .
+lex:emc01\/Artigo29\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:emc01\/Artigo29    lex:temInciso    lex:emc01\/Artigo29\/IncisoVI .
+lex:emc01\/Artigo29\/IncisoVI    lex:temConteudo    "VI - a remuneração dos Vereadores corresponderá a, no máximo, setenta e cinco por cento daquela estabelecida, em espécie, para os Deputados Estaduais, ressalvado o que dispõe o art. 37, XI;" .
+lex:emc01\/Artigo29\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:emc01\/Artigo29    lex:temInciso    lex:emc01\/Artigo29\/IncisoVII .
+lex:emc01\/Artigo29\/IncisoVII    lex:temConteudo    "VII - o total da despesa com a remuneração dos Vereadores não poderá ultrapassar o montante de cinco por cento da receita do Município;" .
+lex:emc01\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc01    lex:temArtigo    lex:emc01\/Artigo3 .
+lex:emc01\/Artigo3    lex:temConteudo    "Art. 3.º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc01\/Artigo27\/Paragrafo2    lex:remetePara    lex:Constituicao\/Artigo27\/Paragrafo2 .
+lex:emc01\/Artigo29\/IncisoVI    lex:remetePara    lex:Constituicao\/Artigo29 .
+lex:emc01\/Artigo29\/IncisoVII    lex:remetePara    lex:Constituicao\/Artigo29 .

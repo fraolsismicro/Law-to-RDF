@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5477    lex:ehUm    lex:DocLegal .
+lex:D5477    lex:temTextoIntegral    lex:HTMLs\/D5477.htm .
+lex:D5477\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5477    lex:temArtigo    lex:D5477\/Artigo1 .
+lex:D5477\/Artigo1    lex:temConteudo    "Art. 1o  Ficam incluídos no Programa Nacional de Desestatização - PND, para os fins da Lei no 9.491, de 9 de setembro de 1997, os seguintes empreendimentos de transmissão de energia elétrica integrantes da Rede Básica do Sistema Interligado Nacional - SIN:" .
+lex:D5477\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5477\/Artigo1    lex:temInciso    lex:D5477\/Artigo1\/IncisoI .
+lex:D5477\/Artigo1\/IncisoI    lex:temConteudo    "I - SISTEMA NORTE - INTERLIGAÇÃO NORTE - SUL III:" .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Marabá - Itacaiúnas - 500kV, no Estado do Pará;" .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Itacaiúnas - Colinas - 500 kV, nos Estados do Pará e Tocantins;" .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão Itacaiúnas - Carajás - 230 kV, no Estado do Pará;" .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "d) Linha de Transmissão Luziânia - Paracatu 4 - 500 kV, nos Estados de Goiás e Minas Gerais; e" .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "e) Linha de Transmissão Paracatu 4 - Emborcação - 500 kV, nos Estados de Goiás e Minas Gerais;" .
+lex:D5477\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5477\/Artigo1    lex:temInciso    lex:D5477\/Artigo1\/IncisoII .
+lex:D5477\/Artigo1\/IncisoII    lex:temConteudo    "II - SISTEMA SUDESTE:" .
+lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Tijuco Preto - Itapeti - 345 kV, no Estado de São Paulo; e" .
+lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5477\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Itapeti - Nordeste D1 - 345 kV, no Estado de São Paulo." .
+lex:D5477\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5477\/Artigo1    lex:temParagrafo    lex:D5477\/Artigo1\/ParagrafoUnico .
+lex:D5477\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os empreendimentos de transmissão de energia elétrica referidos neste artigo compreendem, ainda, a implantação e ampliação das subestações associadas." .
+lex:D5477\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5477    lex:temArtigo    lex:D5477\/Artigo3 .
+lex:D5477\/Artigo3    lex:temConteudo    "Art. 3o  Ficam excluídos do Programa Nacional de Desestatização - PND, para os fins da Lei no 9.491, de 1997, os empreendimentos de transmissão de energia elétrica integrantes da Rede Básica do Sistema Interligado Nacional - SIN, constantes das alíneas 'a' e 'g' do inciso I do art. 1o do Decreto no 5.290, de 29 de novembro de 2004." .
+lex:D5477\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5477    lex:temArtigo    lex:D5477\/Artigo4 .
+lex:D5477\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5477\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D5477\/Artigo1\/Artigo2    lex:remetePara    lex:L9427cons\/Artigo3 .
+lex:D5477\/Artigo3    lex:remetePara    lex:L9491 .
+lex:D5477\/Artigo3    lex:remetePara    lex:D5290\/Artigo1 .
+lex:D5477\/Artigo3    lex:remetePara    lex:D5290\/Artigo1 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2814    lex:ehUm    lex:DocLegal .
+lex:D2814    lex:temTextoIntegral    lex:HTMLs\/D2814.htm .
+lex:D2814\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2814    lex:temArtigo    lex:D2814\/Artigo1 .
+lex:D2814\/Artigo1    lex:temConteudo    "Art 1º Aplicam-se às eleições de 4 de outubro de 1998 as normas constantes do Decreto nº 1.976, de 6 de agosto de 1996, com as seguintes alterações:" .
+lex:D2814\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2814\/Artigo1    lex:temInciso    lex:D2814\/Artigo1\/IncisoI .
+lex:D2814\/Artigo1\/IncisoI    lex:temConteudo    "I - o preço do espaço comercializável é o preço de propaganda da emissora comprovadamente vigente em 18 de agosto de 1998, que deverá guardar proporcionalidade com os praticados trinta dias antes e trinta dias após essa data;" .
+lex:D2814\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2814\/Artigo1    lex:temInciso    lex:D2814\/Artigo1\/IncisoII .
+lex:D2814\/Artigo1\/IncisoII    lex:temConteudo    "II - o valor apurado de conformidade com o Decreto nº 1.976, de 1996, com as alterações deste Decreto, poderá ser deduzido da base de cálculo dos recolhimentos mensais de que trata o art. 2º da Lei nº 9.430, de 27 de dezembro de 1996, bem assim da base de cálculo do Lucro Presumido." .
+lex:D2814\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2814    lex:temArtigo    lex:D2814\/Artigo2 .
+lex:D2814\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2814\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2814    lex:temArtigo    lex:D2814\/Artigo3 .
+lex:D2814\/Artigo3    lex:temConteudo    "Art 3º Fica revogado o art. 2º do Decreto nº 1.976, de 1996." .
+lex:D2814\/Artigo1    lex:remetePara    lex:D1976 .
+lex:D2814\/Artigo1\/IncisoII    lex:remetePara    lex:D1976 .
+lex:D2814\/Artigo1\/IncisoII    lex:remetePara    lex:L9430\/Artigo2 .
+lex:D2814\/Artigo3    lex:remetePara    lex:D1976\/Artigo2 .

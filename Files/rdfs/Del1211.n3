@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1211    lex:ehUm    lex:DocLegal .
+lex:Del1211    lex:temTextoIntegral    lex:HTMLs\/Del1211.htm .
+lex:Del1211\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1211    lex:temArtigo    lex:Del1211\/Artigo1 .
+lex:Del1211\/Artigo1    lex:temConteudo    "Art. 1º É concedida, até 31 de dezembro de 1974, isenção dos impostos de importação e sobre produtos industrializados incidentes na importação de equipamentos e materiais destinados à instalação, ampliação e renovação de estúdios e laboratórios cinematográficos." .
+lex:Del1211\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1211\/Artigo1    lex:temParagrafo    lex:Del1211\/Artigo1\/ParagrafoUnico .
+lex:Del1211\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A isenção referida neste artigo somente será aplicada aos bens sem similar nacional e desde que constem de projeto aprovado pelo Instituto Nacional do Cinema - INC." .
+lex:Del1211\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1211    lex:temArtigo    lex:Del1211\/Artigo2 .
+lex:Del1211\/Artigo2    lex:temConteudo    "Art. 2º A isenção de que trata o artigo anterior beneficia inclusive os bens constantes de objetos aprovados na forma da Lei nº 5.489, de 30 de agosto de 1968, que tenham sido desembaraçados mediante termo de responsabilidade, a partir do término da vigência da mencionada Lei nº 5.489, de 1968, até a data da publicação deste Decreto-lei." .
+lex:Del1211\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1211\/Artigo2    lex:temParagrafo    lex:Del1211\/Artigo2\/ParagrafoUnico .
+lex:Del1211\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em hipótese alguma o disposto neste artigo ensejará restituição de tributos pagos." .
+lex:Del1211\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1211    lex:temArtigo    lex:Del1211\/Artigo3 .
+lex:Del1211\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:Del1211\/Artigo2    lex:remetePara    lex:L5489 .
+lex:Del1211\/Artigo2    lex:remetePara    lex:L5489 .

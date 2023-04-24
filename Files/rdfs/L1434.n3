@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1434    lex:ehUm    lex:DocLegal .
+lex:L1434    lex:temTextoIntegral    lex:HTMLs\/L1434.htm .
+lex:L1434\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1434    lex:temArtigo    lex:L1434\/Artigo1 .
+lex:L1434\/Artigo1    lex:temConteudo    "Art. 1º É revogada a Lei nº 1.162. de 22 de julho de 1950, somente para os associados e beneficiários dos Institutos e Caixas de Aposentadorias e Pensões que eram regidos pela Lei nº 593, de 24 de dezembro de 1948." .
+lex:L1434\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1434    lex:temArtigo    lex:L1434\/Artigo2 .
+lex:L1434\/Artigo2    lex:temConteudo    "Art. 2º São revigorados os Decretos-leis nº 3.769, de 28 de outubro de 1941, e 8.348, de 10 de dezembro de 1945." .
+lex:L1434\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1434    lex:temArtigo    lex:L1434\/Artigo3 .
+lex:L1434\/Artigo3    lex:temConteudo    "Art. 3º São revigorados tôdas as disposições da Lei nº 593, de 24 de dezembro de 1948, que tenham sido implícita ou explícitamente derrogadas pela, Lei nº 1.162, referida no art. 1º." .
+lex:L1434\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1434    lex:temArtigo    lex:L1434\/Artigo4 .
+lex:L1434\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data da sua publicação." .
+lex:L1434\/Artigo1    lex:remetePara    lex:L1162 .
+lex:L1434\/Artigo1    lex:remetePara    lex:L0593 .
+lex:L1434\/Artigo2    lex:remetePara    lex:Del3769 .
+lex:L1434\/Artigo3    lex:remetePara    lex:L0593 .
+lex:L1434\/Artigo3    lex:remetePara    lex:L1162 .

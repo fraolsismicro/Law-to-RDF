@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7330    lex:ehUm    lex:DocLegal .
+lex:L7330    lex:temTextoIntegral    lex:HTMLs\/L7330.htm .
+lex:L7330\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7330    lex:temArtigo    lex:L7330\/Artigo1 .
+lex:L7330\/Artigo1    lex:temConteudo    "Art. 1º - Fica o Poder Executivo autorizado a abrir créditos suplementares ao Orçamento da União (Lei nº 7.276, de 10 de dezembro de 1984), até o limite de Cr$23.507.600.000.000 (vinte e três trilhões, quinhentos e sete bilhões e seiscentos milhões de cruzeiros), utilizando os recursos do excesso de arrecadação de receitas ordinárias do Tesouro Nacional, de acordo com o inciso Il do § 1º do art. 43 da Lei nº 4.320, de 17 de março de 1964, sendo:" .
+lex:L7330\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7330\/Artigo1    lex:temInciso    lex:L7330\/Artigo1\/IncisoI .
+lex:L7330\/Artigo1\/IncisoI    lex:temConteudo    "I - créditos suplementares até o limite de Cr$21.000.000.000.000 (vinte e um trilhões de cruzeiros), para o reforço de dotações destinadas ao pagamento de pessoal e encargos sociais, conforme a seguinte indicação:" .
+lex:L7330\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L7330\/Artigo1    lex:temInciso    lex:L7330\/Artigo1\/IncisoII .
+lex:L7330\/Artigo1\/IncisoII    lex:temConteudo    "II - créditos suplementares até o limite de Cr$2.507.600.000.000 (dois trilhões, quinhentos e sete bilhões e seiscentos milhões de cruzeiros), para amortização e encargos de financiamento dos Órgãos da Administração Federal Direta, Indireta e Fundações instituídas pelo Poder Público, como segue:" .
+lex:L7330\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7330    lex:temArtigo    lex:L7330\/Artigo2 .
+lex:L7330\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7330\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7330    lex:temArtigo    lex:L7330\/Artigo3 .
+lex:L7330\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7330\/Artigo1    lex:remetePara    lex:L7276 .
+lex:L7330\/Artigo1    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .

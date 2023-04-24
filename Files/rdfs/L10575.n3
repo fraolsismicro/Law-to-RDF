@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10575    lex:ehUm    lex:DocLegal .
+lex:L10575    lex:temTextoIntegral    lex:HTMLs\/L10575.htm .
+lex:L10575\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10575    lex:temInciso    lex:L10575\/IncisoI .
+lex:L10575\/IncisoI    lex:temConteudo    "I   incorporação de superávit financeiro, apurado no Balanço Patrimonial da União do exercício de 2001, no valor de R$ 2.600.000,00 (dois milhões e seiscentos mil reais);" .
+lex:L10575\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10575    lex:temInciso    lex:L10575\/IncisoII .
+lex:L10575\/IncisoII    lex:temConteudo    "II   excesso de arrecadação de receitas no valor de R$ 87.849.348,00 (oitenta e sete milhões, oitocentos e quarenta e nove mil, trezentos e quarenta e oito reais), sendo:" .
+lex:L10575\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10575\/IncisoII    lex:temIncisoAlinea    lex:L10575\/IncisoII\/IncisoAlineaRS .
+lex:L10575\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 48.428.985,00 (quarenta e oito milhões, quatrocentos e vinte e oito mil, novecentos e oitenta e cinco reais) vinculadas do Tesouro Nacional;" .
+lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10575\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 350.000,00 (trezentos e cinqüenta mil reais) não financeiras diretamente arrecadadas do Fundo do Exército; e" .
+lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10575\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 39.070.363,00 (trinta e nove milhões, setenta mil, trezentos e sessenta e três reais) de operações de crédito externas em bens e/ou serviços; e" .
+lex:L10575\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10575    lex:temInciso    lex:L10575\/IncisoIII .
+lex:L10575\/IncisoIII    lex:temConteudo    "III   anulação parcial de dotações orçamentárias, no valor de R$ 79.218.249,00 (setenta e nove milhões, duzentos e dezoito mil, duzentos e quarenta e nove reais), conforme indicado no Anexo II desta Lei." .
+lex:L10575\/Artigo1    lex:remetePara    lex:L10407a .

@@ -1,0 +1,132 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0790    lex:ehUm    lex:DocLegal .
+lex:D0790    lex:temTextoIntegral    lex:HTMLs\/D0790.htm .
+lex:D0790\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0790    lex:temArtigo    lex:D0790\/Artigo1 .
+lex:D0790\/Artigo1    lex:temConteudo    "Art. 1° O Regulamento do Serviço Nacional de Aprendizagem Rural SENAR, aprovado pelo Decreto n° 566, de 10 de junho de 1992, passa a vigorar com as seguintes alterações:" .
+lex:D0790\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoII .
+lex:D0790\/Artigo1\/IncisoII    lex:temConteudo    "II - um representante do Ministério do Trabalho;" .
+lex:D0790\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoIII .
+lex:D0790\/Artigo1\/IncisoIII    lex:temConteudo    "III - um representante do Ministério da Educação e do Desporto;" .
+lex:D0790\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoIV .
+lex:D0790\/Artigo1\/IncisoIV    lex:temConteudo    "IV - um representante do Ministério da Agricultura, do Abastecimento e da Reforma Agrária;'" .
+lex:D0790\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoI .
+lex:D0790\/Artigo1\/IncisoI    lex:temConteudo    "I - Contribuição mensal compulsória, a ser recolhida à Previdência Social, de 2,5% sobre o montante da remuneração paga a todos os empregados pelas pessoas jurídicas de direito privado, ou a elas equiparadas, que exerçam atividades:" .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais    lex:ehUm    lex:IncisoAlinea .
+lex:D0790\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais    lex:temConteudo    "a) agroindustriais;" .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias    lex:ehUm    lex:IncisoAlinea .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais    lex:temIncisoAlinea    lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias    lex:temConteudo    "b) agropecuárias;" .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas    lex:ehUm    lex:IncisoAlinea .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias    lex:temIncisoAlinea    lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas    lex:temConteudo    "c) extrativistas vegetais e animais;" .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas    lex:ehUm    lex:IncisoAlinea .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas    lex:temIncisoAlinea    lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas    lex:temConteudo    "d) cooperativistas rurais;" .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas\/IncisoAlineaSindicais    lex:ehUm    lex:IncisoAlinea .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas    lex:temIncisoAlinea    lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas\/IncisoAlineaSindicais .
+lex:D0790\/Artigo1\/IncisoI\/IncisoAlineaAgroindustriais\/IncisoAlineaAgropecuarias\/IncisoAlineaExtrativistas\/IncisoAlineaCooperativistas\/IncisoAlineaSindicais    lex:temConteudo    "e) sindicais patronais rurais;" .
+lex:D0790\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoII .
+lex:D0790\/Artigo1\/IncisoII    lex:temConteudo    "II - contribuição compulsória, a ser recolhida à Previdência Social, de um décimo por cento incidente sobre a receita bruta proveniente da comercialização da produção da pessoa física, proprietária ou não, que explora atividade agropecuária ou pesqueira, em caráter permanente ou temporário, diretamente ou por intermédio de prepostos e com auxílio de empregados, utilizados a qualquer título, ainda que de forma não contínua;" .
+lex:D0790\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoIII .
+lex:D0790\/Artigo1\/IncisoIII    lex:temConteudo    "III - doações e legados;" .
+lex:D0790\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoIV .
+lex:D0790\/Artigo1\/IncisoIV    lex:temConteudo    "IV - subvenções da União, Estados e Municípios;" .
+lex:D0790\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoV .
+lex:D0790\/Artigo1\/IncisoV    lex:temConteudo    "V - multas arrecadadas por infração de dispositivos, regulamentos e regimentos oriundos da Lei n° 8.315, de 23 de dezembro de 1991, com as alterações da Lei n° 8.540, de 22 de dezembro de 1992;" .
+lex:D0790\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoVI .
+lex:D0790\/Artigo1\/IncisoVI    lex:temConteudo    "VI - rendas oriundas de prestação de serviços e da alienação ou locação de seus bens;" .
+lex:D0790\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoVII .
+lex:D0790\/Artigo1\/IncisoVII    lex:temConteudo    "VII - receitas operacionais;" .
+lex:D0790\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoVIII .
+lex:D0790\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - contribuição prevista no art. 1° do Decreto-Lei n° 1.989, de 28 de dezembro de 1982, combinado com o art. 5° do Decreto-Lei n° 1.146, de 31 de dezembro de 1970;" .
+lex:D0790\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D0790\/Artigo1    lex:temInciso    lex:D0790\/Artigo1\/IncisoIX .
+lex:D0790\/Artigo1\/IncisoIX    lex:temConteudo    "IX - rendas eventuais." .
+lex:D0790\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo1 .
+lex:D0790\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° As disposições contidas no inciso I não se aplicam às pessoas físicas aludidas no inciso II deste artigo." .
+lex:D0790\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo2 .
+lex:D0790\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Para os efeitos do inciso II deste artigo, considera-se receita bruta o valor recebido ou creditado pela comercialização da produção, assim entendida a operação de venda ou consignação." .
+lex:D0790\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo3 .
+lex:D0790\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° Integram a produção, para os efeitos do inciso II deste artigo, os produtos de origem animal ou vegetal, em estado natural ou submetidos a processo de beneficiamento ou industrialização rudimentar, assim compreendidos, entre outros, os processos de lavagem, limpeza, descaroçamento, pilagem, descascamento, lenhamento, pasteurização, resfriamento, secagem, fermentação, embalagem, cristalização, fundição, carvoejamento, cozimento, destilação, moagem, torrefação, bem como os subprodutos e os resíduos obtidos através desses processos." .
+lex:D0790\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo4 .
+lex:D0790\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4° Não integram a base de cálculo da contribuição aludida no inciso II deste artigo:" .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0790\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D0790\/Artigo1\/Paragrafo4\/AlineaO .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:temConteudo    "a) o produto vegetal destinado ao plantio e reflorestamento e o produto animal destinado a reprodução ou criação pecuária ou granjeira, quando vendidos entre si pela pessoa física referida no inciso II deste artigo ou pelo segurado especial de que trata o inciso VII do art. 10 do Regulamento da Organização e do Custeio da Seguridade Social, aprovado pelo Decreto n° 612, de 21 de julho de 1992, com as alterações subseqüentes, que os utilize diretamente com essas finalidades;" .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0790\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D0790\/Artigo1\/Paragrafo4\/AlineaO .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:temConteudo    "b) o produto animal utilizado como cobaia para fins de pesquisas científicas no país;" .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0790\/Artigo1\/Paragrafo4    lex:temAlinea    lex:D0790\/Artigo1\/Paragrafo4\/AlineaO .
+lex:D0790\/Artigo1\/Paragrafo4\/AlineaO    lex:temConteudo    "c) o produto vegetal vendido por pessoa ou entidade que, registrada no Ministério da Agricultura, do Abastecimento e da Reforma Agrária, se dedique ao comércio de sementes e mudas no País, quando na revenda o comprador for a pessoa física de que trata o inciso II deste artigo ou o segurado especial aludido na alínea a deste parágrafo." .
+lex:D0790\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo5 .
+lex:D0790\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5° A contribuição de que trata este artigo será recolhida:" .
+lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo    lex:ehUm    lex:Alinea .
+lex:D0790\/Artigo1\/Paragrafo5    lex:temAlinea    lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo .
+lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo    lex:temConteudo    "a) pelo adquirente, consignatário ou cooperativa que ficam sub-rogados, para esse fim, nas obrigações do produtor;" .
+lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo    lex:ehUm    lex:Alinea .
+lex:D0790\/Artigo1\/Paragrafo5    lex:temAlinea    lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo .
+lex:D0790\/Artigo1\/Paragrafo5\/AlineaPelo    lex:temConteudo    "b) pelo produtor, quando ele próprio vender os seus produtos no varejo, diretamente ao consumidor, ou a adquirente domiciliado no exterior." .
+lex:D0790\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/Paragrafo6 .
+lex:D0790\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6° Aplicam-se às contribuições aludidas no inciso II deste artigo o disposto nos §§ 8° e 9° do art. 24 do Regulamento da Organização e do Custeio da Seguridade Social, aprovado pelo Decreto n° 612, de 21 de julho de 1992, e alterações posteriores.»" .
+lex:D0790\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo1    lex:temParagrafo    lex:D0790\/Artigo1\/ParagrafoUnico .
+lex:D0790\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As ações relativas aos recursos previstos nos incisos I, II, V e VIII do art. 11 deste regulamento, nas quais o SENAR figurar como autor, réu ou interveniente, serão propostas no juízo privativo da Fazenda Pública." .
+lex:D0790\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0790    lex:temArtigo    lex:D0790\/Artigo2 .
+lex:D0790\/Artigo2    lex:temConteudo    "Art. 2° As contribuições criadas ou alteradas pela Lei n° 8.540, de 22 de dezembro de 1992, serão exigíveis a partir da competência abril de 1993." .
+lex:D0790\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0790\/Artigo2    lex:temParagrafo    lex:D0790\/Artigo2\/ParagrafoUnico .
+lex:D0790\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As contribuições devidas à Seguridade Social e ao SENAR até a competência março de 1993, serão regidas pela legislação anterior à Lei n° 8.540, de 22 de dezembro de 1992." .
+lex:D0790\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0790    lex:temArtigo    lex:D0790\/Artigo3 .
+lex:D0790\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0790\/Artigo1\/IncisoII    lex:remetePara    lex:D0566\/Artigo4 .
+lex:D0790\/Artigo1\/IncisoIII    lex:remetePara    lex:D0566\/Artigo4 .
+lex:D0790\/Artigo1\/IncisoIV    lex:remetePara    lex:D0566\/Artigo4 .
+lex:D0790\/Artigo1\/Texto00004    lex:remetePara    lex:D0566\/Artigo9 .
+lex:D0790\/Artigo1\/Texto00004    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoII    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoIII    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoIV    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoV    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoVI    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoVII    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoVIII    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/IncisoIX    lex:remetePara    lex:D0566\/Artigo11 .
+lex:D0790\/Artigo1\/Paragrafo1    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo1 .
+lex:D0790\/Artigo1\/Paragrafo2    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo2 .
+lex:D0790\/Artigo1\/Paragrafo3    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo3 .
+lex:D0790\/Artigo1\/Paragrafo4    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo4 .
+lex:D0790\/Artigo1\/Paragrafo5    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo5 .
+lex:D0790\/Artigo1\/Paragrafo6    lex:remetePara    lex:D0566\/Artigo11\/Paragrafo6 .
+lex:D0790\/Artigo1\/Texto00029    lex:remetePara    lex:D0566\/Artigo14 .
+lex:D0790\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D0566\/Artigo14 .
+lex:D0790\/Artigo2    lex:remetePara    lex:L8540 .
+lex:D0790\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L8540 .

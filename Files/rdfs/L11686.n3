@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11686    lex:ehUm    lex:DocLegal .
+lex:L11686    lex:temTextoIntegral    lex:HTMLs\/L11686.htm .
+lex:L11686\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11686    lex:temArtigo    lex:L11686\/Artigo1 .
+lex:L11686\/Artigo1    lex:temConteudo    "Art. 1o  Fica alterada a categoria da unidade de conservação Parque Nacional dos Pontões Capixabas, criado pelo Decreto s/no, de 19 de dezembro de 2002, para Monumento Natural dos Pontões Capixabas, nos Municípios de Pancas e Águia Branca, no Estado do Espírito Santo." .
+lex:L11686\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11686    lex:temArtigo    lex:L11686\/Artigo2 .
+lex:L11686\/Artigo2    lex:temConteudo    "Art. 2o  O Monumento Natural dos Pontões Capixabas tem como objetivo básico preservar os pontões rochosos, a flora e a fauna associadas, bem como a paisagem formada pelos elementos naturais e culturais tradicionais." .
+lex:L11686\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11686\/Artigo2    lex:temParagrafo    lex:L11686\/Artigo2\/ParagrafoUnico .
+lex:L11686\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  No Monumento Natural dos Pontões Capixabas é possível a utilização da terra e dos recursos naturais do local pelos proprietários, desde que não comprometam a preservação dos pontões, da fauna e da flora associadas e da paisagem, conforme o disposto no Plano de Manejo da unidade." .
+lex:L11686\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11686    lex:temArtigo    lex:L11686\/Artigo3 .
+lex:L11686\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data da sua publicação." .
+lex:L11686\/Artigo1    lex:remetePara    lex:dnn9796 .

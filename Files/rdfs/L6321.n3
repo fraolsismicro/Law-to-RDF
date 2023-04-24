@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6321    lex:ehUm    lex:DocLegal .
+lex:L6321    lex:temTextoIntegral    lex:HTMLs\/L6321.htm .
+lex:L6321\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6321    lex:temArtigo    lex:L6321\/Artigo1 .
+lex:L6321\/Artigo1    lex:temConteudo    "Art 1º As pessoas jurídicas poderão deduzir, do lucro tributável para fins do imposto sobre a renda o dobro das despesas comprovadamente realizadas no período base, em programas de alimentação do trabalhador, previamente aprovados pelo Ministério do Trabalho na forma em que dispuser o Regulamento desta Lei.          (Vide Decreto-Lei nº 2.397, de 1987)" .
+lex:L6321\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6321\/Artigo1    lex:temParagrafo    lex:L6321\/Artigo1\/Paragrafo1 .
+lex:L6321\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A dedução a que se refere o caput deste artigo não poderá exceder em cada exercício financeiro, isoladamente, a 5% (cinco por cento) e cumulativamente com a dedução de que trata a Lei nº 6.297, de 15 de dezembro de 1975, a 10% (dez por cento) do lucro tributável." .
+lex:L6321\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6321\/Artigo1    lex:temParagrafo    lex:L6321\/Artigo1\/Paragrafo2 .
+lex:L6321\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º As despesas não deduzidas no exercício financeiro correspondente poderão ser transferidas para dedução nos dois exercícios financeiros subsequentes." .
+lex:L6321\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6321    lex:temArtigo    lex:L6321\/Artigo2 .
+lex:L6321\/Artigo2    lex:temConteudo    "Art 2º Os programas de alimentação a que se refere o artigo anterior deverão conferir prioridade ao atendimento dos trabalhadores de baixa renda e limitar-se-ão aos contratados pela pessoa jurídica beneficiária." .
+lex:L6321\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6321\/Artigo2    lex:temParagrafo    lex:L6321\/Artigo2\/Paragrafo1 .
+lex:L6321\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o O Ministério do Trabalho articular-se-á com o Instituto Nacional de Alimentação e Nutrição - INAN, para efeito do exame e aprovação dos programas a que se refere a presente Lei. (Renumerado do parágrafo único, pela Medida Provisória nº 2.164-41, de 2001)" .
+lex:L6321\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6321\/Artigo2    lex:temParagrafo    lex:L6321\/Artigo2\/Paragrafo2 .
+lex:L6321\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  As pessoas jurídicas beneficiárias do Programa de Alimentação do Trabalhador - PAT poderão estender o benefício previsto nesse Programa aos trabalhadores por elas dispensados, no período de transição para um novo emprego, limitada a extensão ao período de seis meses. (Incluído pela Medida Provisória nº 2.164-41, de 2001)" .
+lex:L6321\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6321\/Artigo2    lex:temParagrafo    lex:L6321\/Artigo2\/Paragrafo3 .
+lex:L6321\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  As pessoas jurídicas beneficiárias do PAT poderão estender o benefício previsto nesse Programa aos empregados que estejam com contrato suspenso para participação em curso ou programa de qualificação profissional, limitada essa extensão ao período de cinco meses. (Incluído pela Medida Provisória nº 2.164-41, de 2001)" .
+lex:L6321\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6321    lex:temArtigo    lex:L6321\/Artigo3 .
+lex:L6321\/Artigo3    lex:temConteudo    "Art 3º Não se inclui como salário de contribuição a parcela paga in natura , pela empresa, nos programas de alimentação aprovados pelo Ministério do Trabalho." .
+lex:L6321\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6321    lex:temArtigo    lex:L6321\/Artigo4 .
+lex:L6321\/Artigo4    lex:temConteudo    "Art 4º O Poder Executivo regulamentará a presente Lei no prazo de 60 (sessenta) dias." .
+lex:L6321\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6321    lex:temArtigo    lex:L6321\/Artigo5 .
+lex:L6321\/Artigo5    lex:temConteudo    "Art 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6321\/Texto    lex:remetePara    lex:L7418\/Artigo3 .
+lex:L6321\/Texto    lex:remetePara    lex:Del2296\/Artigo1\/Paragrafo2 .
+lex:L6321\/Texto    lex:remetePara    lex:Del2433\/Artigo6\/Paragrafo1 .
+lex:L6321\/Texto    lex:regulamentadoPor    lex:D0005 .
+lex:D0005    lex:regulamenta    lex:L6321\/Texto .
+lex:L6321\/Artigo1    lex:remetePara    lex:Del2397\/Artigo12 .
+lex:L6321\/Artigo1\/Paragrafo1    lex:remetePara    lex:L6297 .
+lex:L6321\/Artigo2\/Paragrafo1    lex:remetePara    lex:2164-41\/Artigo5 .
+lex:L6321\/Artigo2\/Paragrafo2    lex:remetePara    lex:2164-41\/Artigo5 .
+lex:L6321\/Artigo2\/Paragrafo3    lex:remetePara    lex:2164-41\/Artigo5 .

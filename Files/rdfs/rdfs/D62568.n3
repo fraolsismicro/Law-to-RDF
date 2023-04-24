@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D62568    lex:ehUm    lex:DocLegal .
+lex:D62568    lex:temTextoIntegral    lex:HTMLs\/D62568.htm .
+lex:D62568\/Texto    lex:revogadoPor    lex:D10854\/Artigo187 .
+lex:D10854\/Artigo187    lex:revogou    lex:D62568\/Texto .
+lex:D62568\/Texto    lex:remetePara    lex:D10854\/Artigo187 .
+lex:D62568\/Texto    lex:remetePara    lex:D10854\/Artigo188 .
+lex:D62568\/Texto    lex:remetePara    lex:D62568 .
+lex:D62568\/Texto    lex:regulamentadoPor    lex:D27048\/regulamentoArtigo7Â§2 .
+lex:D27048\/regulamentoArtigo7Â§2    lex:regulamenta    lex:D62568\/Texto .

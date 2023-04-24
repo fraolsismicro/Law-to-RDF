@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13539    lex:ehUm    lex:DocLegal .
+lex:L13539    lex:temTextoIntegral    lex:HTMLs\/L13539.htm .
+lex:L13539\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L13539    lex:temArtigo    lex:L13539\/Artigo1A .
+lex:L13539\/Artigo1A    lex:temConteudo    "Art. 1Âº A Lei nÂº 13.408, de 26 de dezembro de 2016 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:L13539\/Artigo1A\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:L13539\/Artigo1A    lex:temAlinea    lex:L13539\/Artigo1A\/AlineaPara .
+lex:L13539\/Artigo1A\/AlineaPara    lex:temConteudo    "a) para as fontes de recursos, inclusive as de que trata o art. 119, observadas as vinculaÃ§Ãµes previstas na legislaÃ§Ã£o, para os identificadores de uso e de resultado primÃ¡rio e para as esferas orÃ§amentÃ¡rias, exceto para as alteraÃ§Ãµes do identificador de resultado primÃ¡rio 3 (RP 3) e 6 (RP 6), observado o disposto no Â§ 5Âº ;" .
+lex:L13539\/Artigo1A\/AlineaPara\/Item    lex:ehUm    lex:Item .
+lex:L13539\/Artigo1A\/AlineaPara    lex:temItem    lex:L13539\/Artigo1A\/AlineaPara\/Item .
+lex:L13539\/Artigo1A\/AlineaPara\/Item    lex:temConteudo    "..........................................................................................." .
+lex:L13539\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13539    lex:temArtigo    lex:L13539\/Artigo2A .
+lex:L13539\/Artigo2A    lex:temConteudo    "Art. 2Âº (VETADO)." .
+lex:L13539\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L13539    lex:temArtigo    lex:L13539\/Artigo3A .
+lex:L13539\/Artigo3A    lex:temConteudo    "Art. 3Âº O Anexo VII Ã  Lei nÂº 13.408, de 2016 , passa a vigorar acrescido das programaÃ§Ãµes constantes do Anexo a esta Lei ." .
+lex:L13539\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:L13539    lex:temArtigo    lex:L13539\/Artigo4A .
+lex:L13539\/Artigo4A    lex:temConteudo    "Art. 4Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L13539\/Artigo1A    lex:remetePara    lex:L13408 .
+lex:L13539\/Artigo1A\/AlineaPara    lex:remetePara    lex:L13408\/Artigo43Â§1 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:L13408\/Artigo43Â§6 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:L13408\/Artigo72Â§6 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:L13408\/Artigo137Â§2 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:Constituicao\/adctArtigo107Â§1 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:Constituicao\/adctArtigo107 .
+lex:L13539\/Artigo1A\/AlineaPara\/Texto00003    lex:remetePara    lex:Constituicao\/Artigo166Â§1 .
+lex:L13539\/Artigo3A    lex:remetePara    lex:L13408\/ .
+lex:L13539\/Texto00006    lex:remetePara    lex:L13408\/ .

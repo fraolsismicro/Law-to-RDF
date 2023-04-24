@@ -1,0 +1,81 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2120    lex:ehUm    lex:DocLegal .
+lex:D2120    lex:temTextoIntegral    lex:HTMLs\/D2120.htm .
+lex:D2120\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2120    lex:temArtigo    lex:D2120\/Artigo1 .
+lex:D2120\/Artigo1    lex:temConteudo    "Art. 1° Os arts. 5°, 6°, 10 e 11 do Decreto nº 99.274, de 6 de junho de 1990, passam a vigorar com a seguinte redação:" .
+lex:D2120\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoI .
+lex:D2120\/Artigo1\/IncisoI    lex:temConteudo    "I - o Ministro de Estado do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal, que o presidirá;" .
+lex:D2120\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoII .
+lex:D2120\/Artigo1\/IncisoII    lex:temConteudo    "II - o titular da Secretaria de Desenvolvimento Integrado do Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal, que será o Secretário-Executivo;" .
+lex:D2120\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoIII .
+lex:D2120\/Artigo1\/IncisoIII    lex:temConteudo    "III - um representante de cada um dos Ministérios e Secretarias da Presidência da República e do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis, indicado pelos respectivos titulares;" .
+lex:D2120\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoIV .
+lex:D2120\/Artigo1\/IncisoIV    lex:temConteudo    "IV - um representante de cada um dos Governos estaduais e do Distrito Federal, indicado pelos respectivos titulares;" .
+lex:D2120\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoV .
+lex:D2120\/Artigo1\/IncisoV    lex:temConteudo    "V - um representante de cada uma das seguintes entidades, indicado pelos respectivos titulares:" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas    lex:temConteudo    "a) das Confederações Nacionais da Indústria, do Comércio e da Agricultura;" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas    lex:temConteudo    "b) das Confederações Nacionais dos Trabalhadores na Indústria, no Comércio e na Agricultura;" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo    lex:temConteudo    "c) do Instituto Brasileiro de Siderurgia;" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "d) da Associação Brasileira de Engenharia Sanitária (Abes);" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "e) da Fundação Brasileira para a Conservação da Natureza (FBCN);" .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "f) da Associação Nacional de Municípios e Meio Ambiente - ANAMMA;" .
+lex:D2120\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoVI .
+lex:D2120\/Artigo1\/IncisoVI    lex:temConteudo    "VI - dois representantes de associações legalmente constituídas para a defesa dos recursos naturais e do combate à poluição, de livre escolha do Presidente da República;" .
+lex:D2120\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D2120\/Artigo1    lex:temInciso    lex:D2120\/Artigo1\/IncisoVII .
+lex:D2120\/Artigo1\/IncisoVII    lex:temConteudo    "VII - um representante de sociedades civis, legalmente constituídas, de cada região geográfica do País, cuja atuação esteja diretamente ligada à preservação da qualidade ambiental e cadastradas no Cadastro Nacional das Entidades Ambientais não Governamentais (CNEA)." .
+lex:D2120\/Artigo1\/ParagrafoTera    lex:ehUm    lex:Paragrafo .
+lex:D2120\/Artigo1    lex:temParagrafo    lex:D2120\/Artigo1\/ParagrafoTera .
+lex:D2120\/Artigo1\/ParagrafoTera    lex:temConteudo    "1º Terão mandato de dois anos, renovável por igual período, os representantes de que tratam os incisos VI e VII." .
+lex:D2120\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2120    lex:temArtigo    lex:D2120\/Artigo2 .
+lex:D2120\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D2120\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2120    lex:temArtigo    lex:D2120\/Artigo3 .
+lex:D2120\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se os decretos nºs 1.523, de 13 de junho de 1995, e 1.542, de 27 de junho de 1995." .
+lex:D2120\/Artigo1\/IncisoI    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoII    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoIII    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoIV    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoV\/IncisoAlineaDas\/IncisoAlineaDas\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoVI    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/IncisoVII    lex:remetePara    lex:D99274\/Artigo5 .
+lex:D2120\/Artigo1\/ParagrafoTera    lex:remetePara    lex:D99274\/Artigo5\/Paragrafo1 .
+lex:D2120\/Artigo1\/Texto00015    lex:remetePara    lex:D99274\/Artigo5\/Paragrafo2 .
+lex:D2120\/Artigo1\/Texto00015    lex:remetePara    lex:D99274\/Artigo6\/Paragrafo3 .
+lex:D2120\/Artigo1\/Texto00015    lex:remetePara    lex:D99274\/Artigo10 .
+lex:D2120\/Artigo1\/Texto00015    lex:remetePara    lex:D99274\/Artigo11 .
+lex:D2120\/Artigo3    lex:remetePara    lex:D1523 .
+lex:D2120\/Artigo3    lex:remetePara    lex:D1542 .

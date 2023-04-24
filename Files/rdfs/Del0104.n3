@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0104    lex:ehUm    lex:DocLegal .
+lex:Del0104    lex:temTextoIntegral    lex:HTMLs\/Del0104.htm .
+lex:Del0104\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo1 .
+lex:Del0104\/Artigo1    lex:temConteudo    "Art. 1º Fica revogado, a partir de 1º de fevereiro de 1967, o inciso XXIV do art. 7º da Lei nº 4.502, de 30 de novembro de 1964." .
+lex:Del0104\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0104\/Artigo1    lex:temParagrafo    lex:Del0104\/Artigo1\/ParagrafoUnico .
+lex:Del0104\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica assegurado aos fabricantes dos produtos cuja isenção é eliminada por êste artigo o direito de crédito relativamente ao impôsto incidente sôbre as matérias-primas e produtos intermediários existentes em estoque no dia 31 de janeiro de 1967." .
+lex:Del0104\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo2 .
+lex:Del0104\/Artigo2    lex:temConteudo    "Art. 2º Na Tabela anexa à Lei número 4.502, de 30 de novembro de 1964, alterada pelo decreto-lei nº 34, de 18 de novembro de 1966, substitua-se o inciso 2 da posição 87.02 pelo seguinte:" .
+lex:Del0104\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo3 .
+lex:Del0104\/Artigo3    lex:temConteudo    "Art. 3º Substitua-se o inciso XXII de art. 7º da Lei nº 4.502, de 30 de novembro de 1964, alterada pelo Decreto-lei nº 34, de 18 de novembro de 1966, pelo seguinte:" .
+lex:Del0104\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo4 .
+lex:Del0104\/Artigo4    lex:temConteudo    "Art. 4º Na Tabela anexa à Lei número 4.502, de 30 de novembro de 1964, alterada pelo Decreto-lei número 34 de 18 de novembro de 1966, substitua-se pelo seguinte o texto da posição 84.63, mantida a respectiva alíquota:" .
+lex:Del0104\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo5 .
+lex:Del0104\/Artigo5    lex:temConteudo    "Art. 5º Gozarão de 50% (cinqüenta por cento) de abatimento os recolhimentos do impôsto de produtos industrializados, de que trata o inciso III do artigo 28 do Regulamento aprovado pelo Decreto nº 56.791, de 26 de agôsto de 1965, a serem feitos até os dias 15 dos meses de janeiro a abril do corrente ano, relativamente aos produtos incluídos na alínea III, posições 15.07-1 e 15.12 da tabela anexa ao referido decreto. (Vide ACP nº 36, de 1967)" .
+lex:Del0104\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo6 .
+lex:Del0104\/Artigo6    lex:temConteudo    "Art. 6º Os governos dos Estados poderão fazer redução idêntica à prevista no artigo anterior, relativamente aos produtos ali indicados, no que diz respeito ao Impôsto de Circulação de Mercadorias." .
+lex:Del0104\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del0104    lex:temArtigo    lex:Del0104\/Artigo7 .
+lex:Del0104\/Artigo7    lex:temConteudo    "Art. 7º As disposições dêste decreto-lei vigoram a partir de 1º de janeiro de 1967, revogadas as disposições em contrário." .
+lex:Del0104\/Artigo1    lex:remetePara    lex:L4502\/Artigo7 .
+lex:Del0104\/Artigo2    lex:remetePara    lex:L4502\/ .
+lex:Del0104\/Artigo2    lex:remetePara    lex:Del0034 .
+lex:Del0104\/Artigo3    lex:remetePara    lex:L4502\/Artigo7 .
+lex:Del0104\/Artigo3    lex:remetePara    lex:Del0034 .
+lex:Del0104\/Artigo4    lex:remetePara    lex:L4502\/ .
+lex:Del0104\/Artigo4    lex:remetePara    lex:Del0034 .
+lex:Del0104\/Artigo5    lex:remetePara    lex:acp-36-67\/Artigo3 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7132    lex:ehUm    lex:DocLegal .
+lex:D7132    lex:temTextoIntegral    lex:HTMLs\/D7132.htm .
+lex:D7132\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7132    lex:temArtigo    lex:D7132\/Artigo1 .
+lex:D7132\/Artigo1    lex:temConteudo    "Art. 1 º  O art. 1 º do Decreto n º 3.184, de 27 de setembro de 1999, passa a vigorar com a seguinte redação:" .
+lex:D7132\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7132\/Artigo1    lex:temParagrafo    lex:D7132\/Artigo1\/Paragrafo1 .
+lex:D7132\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Somente fará jus à indenização de transporte o servidor que estiver no efetivo desempenho das atribuições do cargo, efetivo ou comissionado, vedado o cômputo das ausências e afastamentos, ainda que considerados em lei como de efetivo exercício." .
+lex:D7132\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7132    lex:temArtigo    lex:D7132\/Artigo2 .
+lex:D7132\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7132\/Texto00001    lex:remetePara    lex:D3184\/Artigo1 .

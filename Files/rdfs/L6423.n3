@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6423    lex:ehUm    lex:DocLegal .
+lex:L6423    lex:temTextoIntegral    lex:HTMLs\/L6423.htm .
+lex:L6423\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6423    lex:temArtigo    lex:L6423\/Artigo1 .
+lex:L6423\/Artigo1    lex:temConteudo    "Art. 1º A correção, em virtude de disposição legal ou estipulação de negócio jurídico, da expressão monetária de obrigação pecuniária somente poderá ter por base a variação nominal da Obrigação Reajustável do Tesouro Nacional (ORTN)." .
+lex:L6423\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6423\/Artigo1    lex:temParagrafo    lex:L6423\/Artigo1\/Paragrafo1 .
+lex:L6423\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O disposto neste artigo não se aplica:" .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAos    lex:ehUm    lex:Alinea .
+lex:L6423\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L6423\/Artigo1\/Paragrafo1\/AlineaAos .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAos    lex:temConteudo    "a) aos reajustamentos salariais de que trata a Lei nº 6.147, de 29 de novembro de 1974;" .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:L6423\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L6423\/Artigo1\/Paragrafo1\/AlineaAo .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAo    lex:temConteudo    "b) ao reajustamento dos benefícios da previdência social, a que se refere ao § 1º do artigo 1º da Lei nº 6.205, de 29 de abril de 1975; e" .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:L6423\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L6423\/Artigo1\/Paragrafo1\/AlineaAs .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAs    lex:temConteudo    "c) às correções contratualmente prefixadas nas operações de instituições financeiras." .
+lex:L6423\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6423\/Artigo1    lex:temParagrafo    lex:L6423\/Artigo1\/Paragrafo2 .
+lex:L6423\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Respeitadas as exceções indicadas no parágrafo anterior, quaisquer outros índices ou critérios de correção monetária previstos nas leis em vigor ficam substituídos pela variação nominal da ORTN." .
+lex:L6423\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6423\/Artigo1    lex:temParagrafo    lex:L6423\/Artigo1\/Paragrafo3 .
+lex:L6423\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Considerar-se-á de nenhum efeito a estipulação, na vigência desta Lei, de correção monetária com base em índice diverso da variação nominal da ORTN." .
+lex:L6423\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6423    lex:temArtigo    lex:L6423\/Artigo2 .
+lex:L6423\/Artigo2    lex:temConteudo    "Art. 2º O disposto nesta Lei não se aplica aos contratos pelos quais a empresa se obrigue a vender bens para entrega futura ou a prestar ou fornecer serviços a serem produzidos, cujo preço poderá reajustar-se em função do custo de produção ou da variação no preço de insumos utilizados. (Vide Decreto nº 86.649, de 1981)" .
+lex:L6423\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6423    lex:temArtigo    lex:L6423\/Artigo3 .
+lex:L6423\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6423\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6423    lex:temArtigo    lex:L6423\/Artigo4 .
+lex:L6423\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAos    lex:remetePara    lex:L6147 .
+lex:L6423\/Artigo1\/Paragrafo1\/AlineaAo    lex:remetePara    lex:L6205\/ART1\/Paragrafo1 .
+lex:L6423\/Artigo2    lex:remetePara    lex:D86649 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8583    lex:ehUm    lex:DocLegal .
+lex:D8583    lex:temTextoIntegral    lex:HTMLs\/D8583.htm .
+lex:D8583\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8583    lex:temArtigo    lex:D8583\/Artigo1 .
+lex:D8583\/Artigo1    lex:temConteudo    "Art. 1 º O Anexo I ao Decreto n º 7.974, de 1 º de abril de 2013, passa a vigorar com as seguintes alterações:" .
+lex:D8583\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8583\/Artigo1    lex:temInciso    lex:D8583\/Artigo1\/IncisoVI .
+lex:D8583\/Artigo1\/IncisoVI    lex:temConteudo    "VI - o de Comandante Logístico do Hospital das Forças Armadas, que exercerá a gestão superior do Hospital, será ocupado por oficial-general da ativa do penúltimo posto, do Comando do Exército;" .
+lex:D8583\/Artigo1\/IncisoVI-A    lex:ehUm    lex:Inciso .
+lex:D8583\/Artigo1    lex:temInciso    lex:D8583\/Artigo1\/IncisoVI-A .
+lex:D8583\/Artigo1\/IncisoVI-A    lex:temConteudo    "VI-A - os de Diretor Técnico de Saúde e de Diretor Técnico de Ensino e Pesquisa do Hospital das Forças Armadas serão ocupados por oficiais-generais médicos da ativa do primeiro posto, pertencentes ao Corpo ou ao Quadro de Saúde das Forças Armadas, em sistema de rodízio entre o Comando da Marinha e o Comando da Aeronáutica;" .
+lex:D8583\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8583    lex:temArtigo    lex:D8583\/Artigo2 .
+lex:D8583\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8583\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8583    lex:temArtigo    lex:D8583\/Artigo3 .
+lex:D8583\/Artigo3    lex:temConteudo    "Art. 3 º  Fica revogado o art. 8 º do Decreto n º 8.422, de 20 de março de 2015." .
+lex:D8583\/Artigo1    lex:remetePara    lex:D7974 .
+lex:D8583\/Artigo1\/IncisoVI    lex:remetePara    lex:D7974\/Artigo59 .
+lex:D8583\/Artigo1\/IncisoVI-A    lex:remetePara    lex:D7974\/Artigo59 .
+lex:D8583\/Artigo3    lex:remetePara    lex:D8422\/Artigo8 .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4940    lex:ehUm    lex:DocLegal .
+lex:D4940    lex:temTextoIntegral    lex:HTMLs\/D4940.htm .
+lex:D4940\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4940    lex:temArtigo    lex:D4940\/Artigo1 .
+lex:D4940\/Artigo1    lex:temConteudo    "Art. 1o  Ficam reduzidas a zero as alíquotas da Contribuição de Intervenção no Domínio Econômico (CIDE-Combustíveis) incidente na importação e na comercialização sobre as correntes de hidrocarbonetos líquidos não destinadas à formulação de gasolina ou diesel, constantes da seguinte relação:" .
+lex:D4940\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4940\/Artigo1    lex:temParagrafo    lex:D4940\/Artigo1\/Paragrafo1 .
+lex:D4940\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Para os efeitos do caput, a produção residual de gasolina ou diesel, a partir de nafta petroquímica importada ou adquirida no mercado interno por centrais petroquímicas, não caracteriza destinação para formulação desses combustíveis. (Incluído pelo Decreto nº 6.683, de 2008)" .
+lex:D4940\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4940\/Artigo1    lex:temParagrafo    lex:D4940\/Artigo1\/Paragrafo2 .
+lex:D4940\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A CIDE-Combustíveis incidirá na venda da gasolina ou diesel decorrentes da produção residual de que tratam os §§ 1o e 3o. (Incluído pelo Decreto nº 6.683, de 2008)" .
+lex:D4940\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4940\/Artigo1    lex:temParagrafo    lex:D4940\/Artigo1\/Paragrafo3 .
+lex:D4940\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  A produção residual de gasolina ou diesel em volume igual ou superior a doze por cento do volume total de produção decorrente da nafta adquirida implicará a incidência da CIDE-Combustíveis nas operações de importação ou de aquisição no mercado interno de nafta petroquímica. (Incluído pelo Decreto nº 6.683, de 2008)" .
+lex:D4940\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4940\/Artigo1    lex:temParagrafo    lex:D4940\/Artigo1\/Paragrafo4 .
+lex:D4940\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  A incidência de que trata o § 3o dar-se-á na operação de importação ou aquisição no mercado interno efetuada após a data em que for excedido o limite, proporcionalmente ao percentual de combustíveis produzidos em relação ao volume total de produção. (Incluído pelo Decreto nº 6.683, de 2008)" .
+lex:D4940\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D4940\/Artigo1    lex:temParagrafo    lex:D4940\/Artigo1\/Paragrafo5 .
+lex:D4940\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  A Secretaria da Receita Federal do Brasil poderá disciplinar a aplicação das disposições de que trata este artigo. (Incluído pelo Decreto nº 6.683, de 2008)" .
+lex:D4940\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4940    lex:temArtigo    lex:D4940\/Artigo2 .
+lex:D4940\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4940\/Artigo1\/Paragrafo1    lex:remetePara    lex:D6683\/Artigo1 .
+lex:D4940\/Artigo1\/Paragrafo2    lex:remetePara    lex:D6683\/Artigo1 .
+lex:D4940\/Artigo1\/Paragrafo3    lex:remetePara    lex:D6683\/Artigo1 .
+lex:D4940\/Artigo1\/Paragrafo4    lex:remetePara    lex:D6683\/Artigo1 .
+lex:D4940\/Artigo1\/Paragrafo5    lex:remetePara    lex:D6683\/Artigo1 .

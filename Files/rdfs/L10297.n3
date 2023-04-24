@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10297    lex:ehUm    lex:DocLegal .
+lex:L10297    lex:temTextoIntegral    lex:HTMLs\/L10297.htm .
+lex:L10297\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10297    lex:temParagrafo    lex:L10297\/ParagrafoUnico .
+lex:L10297\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso do Programa de Universalização do Serviço de Telecomunicações, deverão ser utilizadas configurações instaladas que permitam diferentes alternativas de softwares nos sistemas operacionais." .
+lex:L10297\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10297    lex:temParagrafo    lex:L10297\/Paragrafo1 .
+lex:L10297\/Paragrafo1    lex:temConteudo    "§ 1o O documento apresentará, para cada programa e suas ações, os respectivos valores e metas físicas executadas em 2000, aqueles previstos na lei orçamentária de 2001 e seus créditos e os saldos remanescentes para o biênio 2002/2003." .
+lex:L10297\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10297    lex:temParagrafo    lex:L10297\/Paragrafo2 .
+lex:L10297\/Paragrafo2    lex:temConteudo    "§ 2o Nos casos de ações incluídas no Plano Plurianual, por intermédio das leis orçamentárias ou de seus créditos adicionais, na forma do art. 7o da Lei no 9.989, de 2000, deverá ser observado:" .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10297\/Paragrafo2    lex:temParagrafoInciso    lex:L10297\/Paragrafo2\/ParagrafoIncisoI .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I   quando a inclusão decorrer da migração de ação já existente em outro programa, o saldo remanescente da ação migrada será transferido à nova ação;" .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10297\/Paragrafo2    lex:temParagrafoInciso    lex:L10297\/Paragrafo2\/ParagrafoIncisoII .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II   quando a inclusão decorrer da aglutinação de uma ou mais ações já existentes, os saldos remanescentes das ações aglutinadas serão incorporados à ação resultante;" .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10297\/Paragrafo2    lex:temParagrafoInciso    lex:L10297\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III   quando a inclusão decorrer de desmembramento de ação já existente, o saldo remanescente da ação desmembrada será distribuído proporcionalmente pelas ações resultantes;" .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L10297\/Paragrafo2    lex:temParagrafoInciso    lex:L10297\/Paragrafo2\/ParagrafoIncisoIV .
+lex:L10297\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV   em quaisquer das hipóteses dos incisos I a III, será preservada a regionalização prevista nas ações envolvidas." .
+lex:L10297\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10297    lex:temParagrafo    lex:L10297\/Paragrafo3 .
+lex:L10297\/Paragrafo3    lex:temConteudo    "§ 3o O Poder Executivo publicará, periodicamente, o Plano Plurianual vigente atualizado, em especial após a edição das leis orçamentárias anuais e de leis que o revisem." .
+lex:L10297\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L10297    lex:temArtigo    lex:L10297\/Artigo9 .
+lex:L10297\/Artigo9    lex:temConteudo    "Art. 9o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10297\/Artigo1    lex:remetePara    lex:L9989 .
+lex:L10297\/Artigo2    lex:remetePara    lex:L9989 .
+lex:L10297\/Artigo7    lex:remetePara    lex:L9989\/Artigo7 .
+lex:L10297\/Artigo8    lex:remetePara    lex:L10178 .
+lex:L10297\/Artigo8    lex:remetePara    lex:L10265 .
+lex:L10297\/Paragrafo2    lex:remetePara    lex:L9989\/Artigo7 .

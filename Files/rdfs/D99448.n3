@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99448    lex:ehUm    lex:DocLegal .
+lex:D99448    lex:temTextoIntegral    lex:HTMLs\/D99448.htm .
+lex:D99448\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99448    lex:temArtigo    lex:D99448\/Artigo1 .
+lex:D99448\/Artigo1    lex:temConteudo    "Art. 1° O disposto no art. 1° do Decreto n° 99.259, de 17 de maio de 1990, não se aplica aos seguintes subprojetos:" .
+lex:D99448\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99448\/Artigo1    lex:temInciso    lex:D99448\/Artigo1\/IncisoI .
+lex:D99448\/Artigo1\/IncisoI    lex:temConteudo    "I - 49201.160880537.1204.0088 - BR - 343/PI - Floriano­Jerumenha - Bertolínea; e" .
+lex:D99448\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99448\/Artigo1    lex:temInciso    lex:D99448\/Artigo1\/IncisoII .
+lex:D99448\/Artigo1\/IncisoII    lex:temConteudo    "II - 80209.160910571.1218.0002 - Apoio ao Município de São Vicente - (SP) - Ponte Barreiros entre os Municípios de Samaritá e São Vicente." .
+lex:D99448\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99448    lex:temArtigo    lex:D99448\/Artigo2 .
+lex:D99448\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99448\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99448    lex:temArtigo    lex:D99448\/Artigo3 .
+lex:D99448\/Artigo3    lex:temConteudo    "Art. 3° Revogam­se as disposições em contrário." .
+lex:D99448\/Artigo1    lex:remetePara    lex:D99259\/Artigo1 .

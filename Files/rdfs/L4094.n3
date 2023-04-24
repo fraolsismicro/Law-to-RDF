@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4094    lex:ehUm    lex:DocLegal .
+lex:L4094    lex:temTextoIntegral    lex:HTMLs\/L4094.htm .
+lex:L4094\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4094    lex:temArtigo    lex:L4094\/Artigo1 .
+lex:L4094\/Artigo1    lex:temConteudo    "Art. 1º O § 1º do art. 168 do Código do Processo Civil (Decreto-lei nº 1.608, de 18 de setembro de 1939) passa a ter a seguinte redação:" .
+lex:L4094\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4094\/Artigo1    lex:temParagrafo    lex:L4094\/Artigo1\/Paragrafo1 .
+lex:L4094\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º No Distrito Federal e nas capitais dos Estados ou Territórios, as intimações se considerarão feitas pela só publicação dos atos no órgão oficial, desde que constem os nomes exatos dos advogados de todos os interessados." .
+lex:L4094\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4094    lex:temArtigo    lex:L4094\/Artigo2 .
+lex:L4094\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor 45 (quarenta e cinco) dias após a sua publicação, salvo quanto ao Distrito Federal, onde vigorará imediatamente." .
+lex:L4094\/Texto00001    lex:remetePara    lex:Del1608\/Artigo168\/Paragrafo1 .
+lex:L4094\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del1608\/Artigo168\/Paragrafo1 .

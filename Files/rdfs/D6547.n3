@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6547    lex:ehUm    lex:DocLegal .
+lex:D6547    lex:temTextoIntegral    lex:HTMLs\/D6547.htm .
+lex:D6547\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6547    lex:temArtigo    lex:D6547\/Artigo1 .
+lex:D6547\/Artigo1    lex:temConteudo    "Art. 1o  O art. 4o do Decreto no 4.732, de 10 de junho de 2003, passa a vigorar com as seguintes alterações:" .
+lex:D6547\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D6547\/Artigo1    lex:temParagrafo    lex:D6547\/Artigo1\/Paragrafo6 .
+lex:D6547\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o   A reunião do Conselho de Ministros realizar-se-á com a participação de, pelo menos, quatro Ministros de Estado membros da CAMEX ou Secretários-Executivos dos respectivos Ministérios." .
+lex:D6547\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6547\/Artigo1    lex:temParagrafo    lex:D6547\/Artigo1\/Paragrafo7 .
+lex:D6547\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  A reunião poderá ocorrer por meio de conferência de vídeo, voz ou qualquer outro recurso tecnológico idôneo, e os atos e documentos expedidos pelo Conselho de Ministros, bem como pelo seu Presidente, poderão ser efetuados por meio eletrônico. (NR)" .
+lex:D6547\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6547    lex:temArtigo    lex:D6547\/Artigo2 .
+lex:D6547\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6547\/Artigo1\/Paragrafo6    lex:remetePara    lex:D4732\/Artigo4\/Paragrafo6 .

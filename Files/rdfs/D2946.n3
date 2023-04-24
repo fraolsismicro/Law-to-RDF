@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2946    lex:ehUm    lex:DocLegal .
+lex:D2946    lex:temTextoIntegral    lex:HTMLs\/D2946.htm .
+lex:D2946\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo2 .
+lex:D2946\/Artigo2    lex:temConteudo    "Art. 2o  A Comissão de Cinema será integrada por dezoito membros, de reconhecida competência e conhecimentos especializados nos assuntos relativos a atividade audiovisual, observada a seguinte composição:" .
+lex:D2946\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2946\/Artigo2    lex:temInciso    lex:D2946\/Artigo2\/IncisoI .
+lex:D2946\/Artigo2\/IncisoI    lex:temConteudo    "I - o Ministro de Estado da Cultura, que a presidirá;" .
+lex:D2946\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2946\/Artigo2    lex:temInciso    lex:D2946\/Artigo2\/IncisoII .
+lex:D2946\/Artigo2\/IncisoII    lex:temConteudo    "II - o Secretário para o Desenvolvimento Audiovisual do Ministério da Cultura;" .
+lex:D2946\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2946\/Artigo2    lex:temInciso    lex:D2946\/Artigo2\/IncisoIII .
+lex:D2946\/Artigo2\/IncisoIII    lex:temConteudo    "III - um representante de cada Ministério abaixo descrito, indicado pelos respectivos titulares:" .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa    lex:temConteudo    "a) da Fazenda;" .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "b) do Desenvolvimento, Indústria, e Comércio;" .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:temConteudo    "c) das Relações Exteriores;" .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDas .
+lex:D2946\/Artigo2\/IncisoIII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDas    lex:temConteudo    "d) das Comunicações;" .
+lex:D2946\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2946\/Artigo2    lex:temInciso    lex:D2946\/Artigo2\/IncisoIV .
+lex:D2946\/Artigo2\/IncisoIV    lex:temConteudo    "IV - doze representantes das entidades representativas de segmento audiovisual, de âmbito nacional, sendo:" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres    lex:temConteudo    "a) três de produção audiovisual cinematográfica;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois    lex:temConteudo    "b) dois de direção audiovisual cinematográfica;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois    lex:temConteudo    "c) dois de exibição audiovisual cinematográfica;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois    lex:temConteudo    "d) dois de distribuição audiovisual cinematográfica;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm    lex:temConteudo    "e) um do sistema de televisão;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "f) um de distribuição de home-vídeo;" .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D2946\/Artigo2\/IncisoIV\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "g) um da produção audiovisual de documentários." .
+lex:D2946\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2946\/Artigo2    lex:temParagrafo    lex:D2946\/Artigo2\/Paragrafo1 .
+lex:D2946\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os membros da Comissão de Cinema e seus respectivos primeiros e segundos suplentes, de que tratam os incisos III e IV, serão designados pelo Ministro de Estado da Cultura, com mandato de um ano, podendo ser reconduzidos uma única vez." .
+lex:D2946\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2946\/Artigo2    lex:temParagrafo    lex:D2946\/Artigo2\/Paragrafo2 .
+lex:D2946\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  O Secretário para o Desenvolvimento Audiovisual substituirá o Presidente da Comissão de Cinema nos seus impedimentos eventuais." .
+lex:D2946\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo3 .
+lex:D2946\/Artigo3    lex:temConteudo    "Art. 3o  Na falta de indicação de representantes dos segmentos a que se refere o inciso IV do artigo anterior, por desinteresse ou inexistência de entidade de âmbito nacional, será admitida a escolha, de comum acordo entre os já indicados, de representantes de entidades regionais do segmento faltante." .
+lex:D2946\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo4 .
+lex:D2946\/Artigo4    lex:temConteudo    "Art. 4o  O Ministro de Estado da Cultura poderá convidar, eventualmente, outros representantes do setor público ou privado para participar das reuniões da Comissão de Cinema." .
+lex:D2946\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2946\/Artigo4    lex:temParagrafo    lex:D2946\/Artigo4\/ParagrafoUnico .
+lex:D2946\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os representantes do setor público serão convocados em razão da matéria constante da pauta das reuniões." .
+lex:D2946\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo6 .
+lex:D2946\/Artigo6    lex:temConteudo    "Art. 6o  A organização e o funcionamento da Comissão de Cinema serão fixados em regimento interno, observadas as regras estabelecidas neste Decreto." .
+lex:D2946\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo7 .
+lex:D2946\/Artigo7    lex:temConteudo    "Art. 7o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D2946\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D2946    lex:temArtigo    lex:D2946\/Artigo8 .
+lex:D2946\/Artigo8    lex:temConteudo    "Art. 8o  Ficam revogados o art. 7o do Decreto no 575, de 23 de junho de 1992, e o Decreto no 2.035, de 11 de outubro de 1996." .
+lex:D2946\/Artigo1    lex:revogadoPor    lex:D3049\/Artigo6 .
+lex:D3049\/Artigo6    lex:revogou    lex:D2946\/Artigo1 .
+lex:D2946\/Artigo4\/Artigo5    lex:revogadoPor    lex:D3049\/Artigo6 .
+lex:D3049\/Artigo6    lex:revogou    lex:D2946\/Artigo4\/Artigo5 .
+lex:D2946\/Artigo8    lex:remetePara    lex:d2035 .

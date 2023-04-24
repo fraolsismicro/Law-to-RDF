@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc34    lex:ehUm    lex:DocLegal .
+lex:emc34    lex:temTextoIntegral    lex:HTMLs\/emc34.htm .
+lex:emc34\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc34    lex:temArtigo    lex:emc34\/Artigo1 .
+lex:emc34\/Artigo1    lex:temConteudo    "Art. 1º A alínea c do inciso XVI do art. 37 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc34\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:emc34\/Artigo1    lex:temInciso    lex:emc34\/Artigo1\/IncisoXVI .
+lex:emc34\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - ........................................................................" .
+lex:emc34\/Artigo1\/IncisoXVI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:emc34\/Artigo1\/IncisoXVI    lex:temIncisoAlinea    lex:emc34\/Artigo1\/IncisoXVI\/IncisoAlineaA .
+lex:emc34\/Artigo1\/IncisoXVI\/IncisoAlineaA    lex:temConteudo    "c) a de dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas; (NR)" .
+lex:emc34\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc34    lex:temArtigo    lex:emc34\/Artigo2 .
+lex:emc34\/Artigo2    lex:temConteudo    "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc34\/Artigo1\/IncisoXVI\/IncisoAlineaA    lex:remetePara    lex:Constituicao\/Artigo37 .

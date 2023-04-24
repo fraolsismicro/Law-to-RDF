@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4398    lex:ehUm    lex:DocLegal .
+lex:L4398    lex:temTextoIntegral    lex:HTMLs\/L4398.htm .
+lex:L4398\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4398    lex:temArtigo    lex:L4398\/Artigo1 .
+lex:L4398\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Poder Judiciário - Superior Tribunal Militar - o Crédito especial de Cr$660.814,30, para pagamentos de dívidas de exercícios findos, como segue:" .
+lex:L4398\/Artigo1\/AlineaDiferenca    lex:ehUm    lex:Alinea .
+lex:L4398\/Artigo1    lex:temAlinea    lex:L4398\/Artigo1\/AlineaDiferenca .
+lex:L4398\/Artigo1\/AlineaDiferenca    lex:temConteudo    "a) Diferença de vencimentos:" .
+lex:L4398\/Artigo1\/IncisoCid    lex:ehUm    lex:Inciso .
+lex:L4398\/Artigo1    lex:temInciso    lex:L4398\/Artigo1\/IncisoCid .
+lex:L4398\/Artigo1\/IncisoCid    lex:temConteudo    "Cid Augusto Ribeiro de Moura" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario    lex:temConteudo    "b) Salário - família:" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario    lex:temConteudo    "c) Salário de Mensalistas:" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda    lex:temConteudo    "d) Ajuda de Custo:" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda\/IncisoAlineaDiferenca    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda\/IncisoAlineaDiferenca .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaSalario\/IncisoAlineaSalario\/IncisoAlineaAjuda\/IncisoAlineaDiferenca    lex:temConteudo    "e) Diferença de Abono Provisório:" .
+lex:L4398\/Artigo1\/IncisoCid    lex:ehUm    lex:Inciso .
+lex:L4398\/Artigo1    lex:temInciso    lex:L4398\/Artigo1\/IncisoCid .
+lex:L4398\/Artigo1\/IncisoCid    lex:temConteudo    "Cid Augusto Ribeiro de Moura" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos    lex:temConteudo    "f) Acréscimos de Vencimentos:" .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos\/IncisoAlineaAdicionais    lex:ehUm    lex:IncisoAlinea .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos    lex:temIncisoAlinea    lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos\/IncisoAlineaAdicionais .
+lex:L4398\/Artigo1\/IncisoCid\/IncisoAlineaAcrescimos\/IncisoAlineaAdicionais    lex:temConteudo    "g) Adicionais por tempo de serviço:" .
+lex:L4398\/Artigo1\/IncisoCid    lex:ehUm    lex:Inciso .
+lex:L4398\/Artigo1    lex:temInciso    lex:L4398\/Artigo1\/IncisoCid .
+lex:L4398\/Artigo1\/IncisoCid    lex:temConteudo    "Cid Augusto Ribeiro de Moura" .
+lex:L4398\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4398    lex:temArtigo    lex:L4398\/Artigo2 .
+lex:L4398\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2582    lex:ehUm    lex:DocLegal .
+lex:D2582    lex:temTextoIntegral    lex:HTMLs\/D2582.htm .
+lex:D2582\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2582    lex:temArtigo    lex:D2582\/Artigo1 .
+lex:D2582\/Artigo1    lex:temConteudo    "Art. 1º O § 5º do art. 9º do Regulamento Consolidado do Fundo de Garantia do Tempo de Serviço - FGTS, aprovado pelo Decreto nº 99.684, de 8 de novembro de 1990, com as alterações introduzidas pelo Decreto nº 2.430, de 17 de dezembro de 1997, passa a vigorar com a seguinte redação:" .
+lex:D2582\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D2582\/Artigo1    lex:temParagrafo    lex:D2582\/Artigo1\/Paragrafo5 .
+lex:D2582\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Os depósitos de que tratam o caput e os §§ 1º e 2º deste artigo deverão ser efetuado nos seguintes prazos:" .
+lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:D2582\/Artigo1\/Paragrafo5    lex:temAlinea    lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte .
+lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte    lex:temConteudo    "a) até o primeiro dia útil imediato ao término do contrato; ou" .
+lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:D2582\/Artigo1\/Paragrafo5    lex:temAlinea    lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte .
+lex:D2582\/Artigo1\/Paragrafo5\/AlineaAte    lex:temConteudo    "b) até o décimo dia, contado da data da notificação da demissão, quando da ausência do aviso prévio, indenização do mesmo ou dispensa de seu cumprimento." .
+lex:D2582\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2582    lex:temArtigo    lex:D2582\/Artigo2 .
+lex:D2582\/Artigo2    lex:temConteudo    "Art. 2º Os depósitos efetuados nos prazos fixados neste Decreto, no período compreendido entre 16 de fevereiro de 1998 e a data de sua publicação, estão isentos das cominações prevista no § 6º do art. 9º do Regulamento Consolidado do FGTS." .
+lex:D2582\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2582    lex:temArtigo    lex:D2582\/Artigo3 .
+lex:D2582\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2582\/Artigo1    lex:remetePara    lex:D2430 .
+lex:D2582\/Artigo1\/Paragrafo5    lex:remetePara    lex:D99684\/Artigo9\/Paragrafo5 .

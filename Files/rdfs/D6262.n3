@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6262    lex:ehUm    lex:DocLegal .
+lex:D6262    lex:temTextoIntegral    lex:HTMLs\/D6262.htm .
+lex:D6262\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6262    lex:temArtigo    lex:D6262\/Artigo1 .
+lex:D6262\/Artigo1    lex:temConteudo    "Art. 1o  Os Ministérios da Ciência e Tecnologia, Fazenda, Saúde e Desenvolvimento, Indústria e Comércio Exterior, bem como seus órgãos e entidades vinculados, deverão disciplinar no prazo de quarenta e cinco dias, prorrogável por igual período, no âmbito de suas competências e observado o disposto nos arts. 2o e 3o da Lei no 8.010, de 29 de março de 1990, o desembaraço aduaneiro simplificado na importação de bens destinados à pesquisa científica e tecnológica." .
+lex:D6262\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6262    lex:temArtigo    lex:D6262\/Artigo2 .
+lex:D6262\/Artigo2    lex:temConteudo    "Art. 2o  As máquinas, equipamentos, aparelhos e instrumentos, bem como suas partes e peças de reposição, acessórios, matérias-primas e produtos intermediários importados destinados à pesquisa científica e tecnológica terão seu despacho aduaneiro simplificado, observado o disposto no art. 1o." .
+lex:D6262\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6262    lex:temArtigo    lex:D6262\/Artigo3 .
+lex:D6262\/Artigo3    lex:temConteudo    "Art. 3o  As importações de que trata o art. 2o são dispensadas do exame de similaridade, da emissão de licença de importação ou documento de efeito equivalente, bem como de controles prévios ao despacho aduaneiro, observado o disposto no art. 2o da Lei no 8.010, de 1990." .
+lex:D6262\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6262    lex:temArtigo    lex:D6262\/Artigo4 .
+lex:D6262\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data da sua publicação." .
+lex:D6262\/Artigo1    lex:remetePara    lex:L8010\/Artigo2 .
+lex:D6262\/Artigo1    lex:remetePara    lex:L8010\/Artigo3 .
+lex:D6262\/Artigo3    lex:remetePara    lex:L8010\/Artigo2 .

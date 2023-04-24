@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0976    lex:ehUm    lex:DocLegal .
+lex:Del0976    lex:temTextoIntegral    lex:HTMLs\/Del0976.htm .
+lex:Del0976\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0976    lex:temArtigo    lex:Del0976\/Artigo1 .
+lex:Del0976\/Artigo1    lex:temConteudo    "Art. 1º - O § 1º do artigo 1º do Decreto-lei nº 359, de 17 de dezembro de 1968, passa a vigorar com a seguinte redação:" .
+lex:Del0976\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0976\/Artigo1    lex:temParagrafo    lex:Del0976\/Artigo1\/Paragrafo1 .
+lex:Del0976\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A Comissão compor-se-á de nove membros, nomeados entre servidores civis e militares, ou profissionais liberais, de reconhecida idoneidade, pelo Presidente da República, mediante indicação do Ministro da Justiça, que será seu Presidente'." .
+lex:Del0976\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0976    lex:temArtigo    lex:Del0976\/Artigo2 .
+lex:Del0976\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0976\/Artigo1    lex:remetePara    lex:del0359\/Artigo1\/Paragrafo1 .

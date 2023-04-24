@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5958    lex:ehUm    lex:DocLegal .
+lex:L5958    lex:temTextoIntegral    lex:HTMLs\/L5958.htm .
+lex:L5958\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5958    lex:temArtigo    lex:L5958\/Artigo1 .
+lex:L5958\/Artigo1    lex:temConteudo    "Art. 1º Aos atuais empregados, que não tenham optado pelo regime instituído pela Lei nº 5.107, de 13 de setembro de 1966, é assegurado o direito de fazê-lo com efeitos retroativos a 1º de janeiro de 1967 ou à data da admissão ao emprego se posterior àquela, desde que haja concordância por parte do empregador." .
+lex:L5958\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5958\/Artigo1    lex:temParagrafo    lex:L5958\/Artigo1\/Paragrafo1 .
+lex:L5958\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O disposto neste artigo se aplica também aos empregados que tenham optado em data posterior à do início da vigência da Lei número 5.107, retroagindo os efeitos da nova opção a essa data ou à da admissão." .
+lex:L5958\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5958\/Artigo1    lex:temParagrafo    lex:L5958\/Artigo1\/Paragrafo2 .
+lex:L5958\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os efeitos da opção exercida por empregado que conte dez ou mais anos de serviço poderão retroagir à data em que o mesmo completou o decênio na empresa." .
+lex:L5958\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5958    lex:temArtigo    lex:L5958\/Artigo2 .
+lex:L5958\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5958\/Artigo1    lex:remetePara    lex:L5107 .
+lex:L5958\/Artigo1\/Paragrafo1    lex:remetePara    lex:L5107 .

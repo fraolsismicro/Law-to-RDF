@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1991    lex:ehUm    lex:DocLegal .
+lex:Del1991    lex:temTextoIntegral    lex:HTMLs\/Del1991.htm .
+lex:Del1991\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1991    lex:temArtigo    lex:Del1991\/Artigo1 .
+lex:Del1991\/Artigo1    lex:temConteudo    "Art. 1º - A gratificação especial de que trata o artigo 7º, § 3º, da Lei nº 4.341, de 13 de junho de 1964, sobre a qual incidirá o desconto previdenciário, será incorporada aos proventos dos funcionários que a estejam percebendo na data da aposentadoria." .
+lex:Del1991\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1991\/Artigo1    lex:temParagrafo    lex:Del1991\/Artigo1\/ParagrafoUnico .
+lex:Del1991\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Nas aposentadorias com proventos proporcionais ao tempo de serviço, a gratificação a incorporar-se reduzir-se-á na mesma proporção do vencimento." .
+lex:Del1991\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1991    lex:temArtigo    lex:Del1991\/Artigo2 .
+lex:Del1991\/Artigo2    lex:temConteudo    "Art. 2º - As despesas decorrentes da aplicação deste decreto-lei, correrão à conta dotações do Orçamento Geral da União para o exercício de 1983." .
+lex:Del1991\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1991    lex:temArtigo    lex:Del1991\/Artigo3 .
+lex:Del1991\/Artigo3    lex:temConteudo    "Art. 3º - Este decreto-lei entrará em vigor a partir de 1º de janeiro de 1983, revogadas as disposições em contrário" .
+lex:Del1991\/Artigo1    lex:remetePara    lex:L4341\/Artigo7\/Paragrafo3 .

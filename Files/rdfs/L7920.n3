@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7920    lex:ehUm    lex:DocLegal .
+lex:L7920    lex:temTextoIntegral    lex:HTMLs\/L7920.htm .
+lex:L7920\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7920    lex:temArtigo    lex:L7920\/Artigo1 .
+lex:L7920\/Artigo1    lex:temConteudo    "Art. 1o  É criado o adicional no valor de 35,9% (trinta e cinco inteiros e nove décimos por cento) sobre as tarifas aeroportuárias referidas no art. 3º da Lei nº 6.009, de 26 de dezembro de 1973.     (Redação dada pela Lei nº 12.648, de 2012)" .
+lex:L7920\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7920\/Artigo1    lex:temParagrafo    lex:L7920\/Artigo1\/Paragrafo1 .
+lex:L7920\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O adicional de que trata este artigo destina-se à aplicação em melhoramentos, reaparelhamento, reforma, expansão e depreciação de instalações aeroportuárias.      (Redação dada pela Lei nº 12.648, de 2012)" .
+lex:L7920\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7920\/Artigo1    lex:temParagrafo    lex:L7920\/Artigo1\/Paragrafo2 .
+lex:L7920\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O adicional de que trata este artigo não incide sobre a tarifa de conexão estabelecida no inciso VI do caput do art. 3º da Lei nº 6.009, de 26 de dezembro de 1973.      (Incluído pela Lei nº 12.648, de 2012)" .
+lex:L7920\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L7920\/Artigo1    lex:temParagrafo    lex:L7920\/Artigo1\/Paragrafo3 .
+lex:L7920\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os recursos do adicional de que trata este artigo constituirão receitas do Fundo Nacional de Aviação Civil - FNAC, instituído pela Lei nº 12.462, de 5 de agosto de 2011.      (Incluído pela Lei nº 12.648, de 2012)" .
+lex:L7920\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7920    lex:temArtigo    lex:L7920\/Artigo2 .
+lex:L7920\/Artigo2    lex:temConteudo    "Art. 2º. A sistemática de recolhimento do adicional será a mesma empregada para a cobrança das respectivas tarifas." .
+lex:L7920\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7920    lex:temArtigo    lex:L7920\/Artigo3 .
+lex:L7920\/Artigo3    lex:temConteudo    "Art. 3º. Esta Lei entra em vigor na data de sua publicação." .
+lex:L7920\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7920    lex:temArtigo    lex:L7920\/Artigo4 .
+lex:L7920\/Artigo4    lex:temConteudo    "Art. 4º. Revogam-se as disposições em contrário." .
+lex:L7920\/Texto    lex:remetePara    lex:L8399 .
+lex:L7920\/Artigo1    lex:remetePara    lex:L6009\/Artigo3 .
+lex:L7920\/Artigo1    lex:remetePara    lex:Del1896\/Artigo2 .
+lex:L7920\/Artigo1    lex:remetePara    lex:L6009\/Artigo3 .
+lex:L7920\/Artigo1    lex:remetePara    lex:551\/Artigo1 .
+lex:L7920\/Artigo1    lex:remetePara    lex:551\/Artigo9 .
+lex:L7920\/Paragrafo1    lex:remetePara    lex:551\/Artigo1 .
+lex:L7920\/Paragrafo1    lex:remetePara    lex:551\/Artigo9 .
+lex:L7920\/Paragrafo2    lex:remetePara    lex:L6009\/Artigo3 .
+lex:L7920\/Paragrafo2    lex:remetePara    lex:551\/Artigo1 .
+lex:L7920\/Paragrafo2    lex:remetePara    lex:551\/Artigo9 .
+lex:L7920\/Paragrafo3    lex:remetePara    lex:L12462 .
+lex:L7920\/Paragrafo3    lex:remetePara    lex:551\/Artigo1 .
+lex:L7920\/Paragrafo3    lex:remetePara    lex:551\/Artigo9 .
+lex:L7920\/Artigo1    lex:remetePara    lex:L6009\/Artigo3 .
+lex:L7920\/Artigo1    lex:remetePara    lex:L12648\/Artigo1 .
+lex:L7920\/Artigo1\/Paragrafo1    lex:remetePara    lex:L12648\/Artigo1 .
+lex:L7920\/Artigo1\/Paragrafo2    lex:remetePara    lex:L6009\/Artigo3 .
+lex:L7920\/Artigo1\/Paragrafo2    lex:remetePara    lex:L12648\/Artigo1 .
+lex:L7920\/Artigo1\/Paragrafo3    lex:remetePara    lex:L12462 .
+lex:L7920\/Artigo1\/Paragrafo3    lex:remetePara    lex:L12648\/Artigo1 .

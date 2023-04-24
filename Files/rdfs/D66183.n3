@@ -1,0 +1,75 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D66183    lex:ehUm    lex:DocLegal .
+lex:D66183    lex:temTextoIntegral    lex:HTMLs\/D66183.htm .
+lex:D66183\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo1 .
+lex:D66183\/Artigo1    lex:temConteudo    "Art. 1º É proibida a venda de leite cru para consumo direto da população, em todo o território nacional, nos têrmos do Decreto-lei nº 923, de 10 de outubro de 1969." .
+lex:D66183\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D66183\/Artigo1    lex:temParagrafo    lex:D66183\/Artigo1\/ParagrafoUnico .
+lex:D66183\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para os efeitos dêste Decreto, considera-se leite cru aquêle que não preencher as especificações do artigo 4º." .
+lex:D66183\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo2 .
+lex:D66183\/Artigo2    lex:temConteudo    "Art. 2º A autoridade local compete poderá autorizar, em caráter precário, a comercialização do leite cru, comprovando-se:" .
+lex:D66183\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo2    lex:temInciso    lex:D66183\/Artigo2\/IncisoI .
+lex:D66183\/Artigo2\/IncisoI    lex:temConteudo    "I - que a área da autoridade não possa ser abastecida permanentemente com leite beneficiado;" .
+lex:D66183\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo2    lex:temInciso    lex:D66183\/Artigo2\/IncisoII .
+lex:D66183\/Artigo2\/IncisoII    lex:temConteudo    "II - que o produto atenda às seguintes exigências:" .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder    lex:ehUm    lex:IncisoAlinea .
+lex:D66183\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder    lex:temConteudo    "a) proceder de propriedade rural dotada de instalações que permitam a obtenção de leite nas mais perfeitas condições de higiene;" .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder    lex:ehUm    lex:IncisoAlinea .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder    lex:temIncisoAlinea    lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder    lex:temConteudo    "b) proceder de rebanho leiteiro mantido em condições sanitárias satisfatórias;" .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer    lex:ehUm    lex:IncisoAlinea .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder    lex:temIncisoAlinea    lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer    lex:temConteudo    "c) ser dsitribuído ao consumo até 3 (três) horas após o término da ordenha; e" .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer\/IncisoAlineaSer    lex:ehUm    lex:IncisoAlinea .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer    lex:temIncisoAlinea    lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer\/IncisoAlineaSer .
+lex:D66183\/Artigo2\/IncisoII\/IncisoAlineaProceder\/IncisoAlineaProceder\/IncisoAlineaSer\/IncisoAlineaSer    lex:temConteudo    "d) ser integral e satisfazer aos padrões oficiais." .
+lex:D66183\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D66183\/Artigo2    lex:temParagrafo    lex:D66183\/Artigo2\/Paragrafo1 .
+lex:D66183\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º As autorizações expedidas na conformidade dêste artigo consignarão, expressamente, a qualificação 'em caráter precário'." .
+lex:D66183\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D66183\/Artigo2    lex:temParagrafo    lex:D66183\/Artigo2\/Paragrafo2 .
+lex:D66183\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Verificada a possibilidade do abastecimento com leite beneficiado, serão canceladas essas autorizações." .
+lex:D66183\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo3 .
+lex:D66183\/Artigo3    lex:temConteudo    "Art. 3º A autoridade competente inutilizará para consumo humano, 'in natura', o leite cru, cuja distribuição contrariar as normas dêste Decreto, sem prejuízo das sanções penais aplicáveis ao infrator." .
+lex:D66183\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo4 .
+lex:D66183\/Artigo4    lex:temConteudo    "Art. 4º Para os efeitos dêste Decreto, entende-se por leite beneficiado para consumo direto da populção, aquêle que preencha as seguintes especificações:" .
+lex:D66183\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoI .
+lex:D66183\/Artigo4\/IncisoI    lex:temConteudo    "I - ser pateurizado por processos aprovados em aparelhagem adequadra, provida de dispositivos de contrôle automático, de termo-regulador, de registrador de temperatura (termógrafo de calor) e outros que venham a ser considerados necessários para o contrôle técnico-sanitário da operação;" .
+lex:D66183\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoII .
+lex:D66183\/Artigo4\/IncisoII    lex:temConteudo    "II - ser padronizado e filtrado por processo centrífugos;" .
+lex:D66183\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoIII .
+lex:D66183\/Artigo4\/IncisoIII    lex:temConteudo    "III - atender aso padrões físicos-químicos e biológicos previstos na legislação específica;" .
+lex:D66183\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoIV .
+lex:D66183\/Artigo4\/IncisoIV    lex:temConteudo    "IV - ser, após a pasteurização, engarrafado ou empacotado macânicamente e, a seguir distribuído ao consumo ao armazenado em Câmara frigorífica à temperatura máxima de 5º C (cinco graus centígrafos), observando-se o prazo limita de sua distribuição prevista na legislação específica;" .
+lex:D66183\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoV .
+lex:D66183\/Artigo4\/IncisoV    lex:temConteudo    "V - ser controlado física, química e bacteriológicamente no estabelecimento beneficiador, em laboratório devidamente aparelhado, observando-se os padrões oficiais; e" .
+lex:D66183\/Artigo4\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D66183\/Artigo4    lex:temInciso    lex:D66183\/Artigo4\/IncisoVI .
+lex:D66183\/Artigo4\/IncisoVI    lex:temConteudo    "VI - ser envasado em embalagens invioláveis de vidro, material plástico, cartonato ou similares." .
+lex:D66183\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo5 .
+lex:D66183\/Artigo5    lex:temConteudo    "Art. 5º As autoridades locais competentes respondem pela observância das disposições dêste Decreto, sem prejuízo da fiscalização federal." .
+lex:D66183\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D66183    lex:temArtigo    lex:D66183\/Artigo6 .
+lex:D66183\/Artigo6    lex:temConteudo    "Art. 6º Êste Decreto entrará em vigor na data de sua publicação, revogados o artigo 509 do Regulamento da Inspeção Industrial e Sanitária de Produtos de Origem Animal com a redação dada pelo Decreto nº 1.255, de 25 de junho de 1962, e demais disposições em contrário." .
+lex:D66183\/Artigo6    lex:remetePara    lex:D30691\/Artigo509 .
+lex:D66183\/Artigo6    lex:remetePara    lex:D1255-dcm .

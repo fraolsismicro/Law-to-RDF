@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp06    lex:ehUm    lex:DocLegal .
+lex:Lcp06    lex:temTextoIntegral    lex:HTMLs\/Lcp06.htm .
+lex:Lcp06\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp06    lex:temArtigo    lex:Lcp06\/Artigo1 .
+lex:Lcp06\/Artigo1    lex:temConteudo    "Art. 1º - É a Caixa Econômica Federal - CEF, constituída nos termos do Decreto-Lei nº 759, de 12 de agosto de 1969,isenta de impostos federais, estaduais e municipais, no que se refere às atividades monopolizadas ao patrimônio, à renda e aos serviços vinculados às suas finalidades essenciais ou delas decorrentes." .
+lex:Lcp06\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp06\/Artigo1    lex:temParagrafo    lex:Lcp06\/Artigo1\/ParagrafoUnico .
+lex:Lcp06\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Não caberá a isenção de impostos prevista neste artigo se a Caixa Econômica Federal prometer vender móvel de seu patrimônio, caso em que a obrigação recairá sobre o promitente comprador." .
+lex:Lcp06\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp06    lex:temArtigo    lex:Lcp06\/Artigo2 .
+lex:Lcp06\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei Complementar entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Lcp06\/Artigo1    lex:remetePara    lex:Del0759 .

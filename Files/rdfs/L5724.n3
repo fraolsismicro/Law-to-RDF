@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5724    lex:ehUm    lex:DocLegal .
+lex:L5724    lex:temTextoIntegral    lex:HTMLs\/L5724.htm .
+lex:L5724\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5724    lex:temArtigo    lex:L5724\/Artigo1 .
+lex:L5724\/Artigo1    lex:temConteudo    "Art 1º As multas previstas no parágrafo único do artigo 24 e no inciso II do artigo 30 da Lei nº 3.820, de 11 de novembro de 1960, passam a ser de valor igual a 1 (um) salário-mínimo a 3(três) salários-mínimos regionais, que serão elevados ao dôbro no caso de reincidência." .
+lex:L5724\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5724    lex:temArtigo    lex:L5724\/Artigo2 .
+lex:L5724\/Artigo2    lex:temConteudo    "Art 2º A presente Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5724\/Artigo1    lex:remetePara    lex:L3820\/Artigo24 .
+lex:L5724\/Artigo1    lex:remetePara    lex:L3820\/Artigo30 .

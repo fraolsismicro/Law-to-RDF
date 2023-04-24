@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5416    lex:ehUm    lex:DocLegal .
+lex:L5416    lex:temTextoIntegral    lex:HTMLs\/L5416.htm .
+lex:L5416\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5416    lex:temArtigo    lex:L5416\/Artigo1 .
+lex:L5416\/Artigo1    lex:temConteudo    "Art 1º O § 2º do art. 26 da Lei nº 4.239, de 27 de junho de 1963, passa a ter a seguinte redação:" .
+lex:L5416\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5416    lex:temArtigo    lex:L5416\/Artigo2 .
+lex:L5416\/Artigo2    lex:temConteudo    "Art 2º O art. 26 da citada Lei nº 4.239, de 27 de junho de 1963, fica acrescido dos seguintes parágrafos:" .
+lex:L5416\/Artigo2\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L5416\/Artigo2    lex:temParagrafo    lex:L5416\/Artigo2\/Paragrafo7 .
+lex:L5416\/Artigo2\/Paragrafo7    lex:temConteudo    "§ 7º A celebração dos convênios, que objetivem a execução aludida neste artigo, independerá de quaisquer formalidades, ressalvadas as que, a critério do Superintendente da SUDENE, sejam consideradas necessárias para comprovar a qualidade do representante do órgão ou entidade convenente." .
+lex:L5416\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5416    lex:temArtigo    lex:L5416\/Artigo3 .
+lex:L5416\/Artigo3    lex:temConteudo    "Art 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L5416\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5416    lex:temArtigo    lex:L5416\/Artigo4 .
+lex:L5416\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário." .
+lex:L5416\/Artigo1    lex:remetePara    lex:L4239\/Artigo26\/Paragrafo2 .
+lex:L5416\/Texto00002    lex:remetePara    lex:L4239\/Artigo26\/Paragrafo6 .
+lex:L5416\/Artigo2\/Paragrafo7    lex:remetePara    lex:L4239\/Artigo26\/Paragrafo7 .

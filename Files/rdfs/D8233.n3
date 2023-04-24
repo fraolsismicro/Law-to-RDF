@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8233    lex:ehUm    lex:DocLegal .
+lex:D8233    lex:temTextoIntegral    lex:HTMLs\/D8233.htm .
+lex:D8233\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8233    lex:temArtigo    lex:D8233\/Artigo1 .
+lex:D8233\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 2.908, de 29 de dezembro de 1998, passa a vigorar com as seguintes alterações:" .
+lex:D8233\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoI .
+lex:D8233\/Artigo1\/IncisoI    lex:temConteudo    "I - Ministério do Desenvolvimento, Indústria e Comércio Exterior: seiscentos e vinte cargos;" .
+lex:D8233\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoII .
+lex:D8233\/Artigo1\/IncisoII    lex:temConteudo    "II - Ministério da Agricultura, Pecuária e Abastecimento: trinta e seis cargos;" .
+lex:D8233\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoIII .
+lex:D8233\/Artigo1\/IncisoIII    lex:temConteudo    "III - Ministério da Fazenda: vinte e nove cargos;" .
+lex:D8233\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoIV .
+lex:D8233\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Ministério do Planejamento, Orçamento e Gestão: sete cargos;" .
+lex:D8233\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoV .
+lex:D8233\/Artigo1\/IncisoV    lex:temConteudo    "V - Ministério do Desenvolvimento Agrário: quinze cargos; e" .
+lex:D8233\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8233\/Artigo1    lex:temInciso    lex:D8233\/Artigo1\/IncisoVI .
+lex:D8233\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Secretaria da Micro e Pequena Empresa da Presidência da República: vinte e três cargos." .
+lex:D8233\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8233\/Artigo1    lex:temParagrafo    lex:D8233\/Artigo1\/Paragrafo2 .
+lex:D8233\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os ocupantes de cargos da Carreira de Analista de Comércio Exterior distribuídos para o Ministério do Desenvolvimento, Indústria e Comércio Exterior poderão ser alocados na Câmara de Comércio Exterior ou, por tempo determinado, para a realização de outras atividades consideradas estratégicas de Governo relacionadas ao comércio exterior, expressamente definidas, mediante ato do Ministro de Estado do Desenvolvimento, Indústria e Comércio Exterior. (NR)" .
+lex:D8233\/Artig    lex:ehUm    lex:Artigo .
+lex:D8233    lex:temArtigo    lex:D8233\/Artig .
+lex:D8233\/Artig    lex:temConteudo    "Art.  2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8233\/Artigo1    lex:remetePara    lex:D2908 .
+lex:D8233\/Texto00001    lex:remetePara    lex:D2908\/Artigo1 .
+lex:D8233\/Artigo1\/IncisoI    lex:remetePara    lex:D2908\/Artigo3 .
+lex:D8233\/Artigo1\/Paragrafo2    lex:remetePara    lex:D2908\/Artigo3\/Paragrafo2 .

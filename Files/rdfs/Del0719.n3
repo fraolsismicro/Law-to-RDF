@@ -1,0 +1,84 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0719    lex:ehUm    lex:DocLegal .
+lex:Del0719    lex:temTextoIntegral    lex:HTMLs\/Del0719.htm .
+lex:Del0719\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0719    lex:temArtigo    lex:Del0719\/Artigo1 .
+lex:Del0719\/Artigo1    lex:temConteudo    "Art 1º Fica criado o Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT), com a finalidade de dar apoio financeiro aos programas e projetos prioritários de desenvolvimento científico e tecnológico, notadamente para implantação do Plano Básico de Desenvolvimento Científico e Tecnológico." .
+lex:Del0719\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0719\/Artigo1    lex:temParagrafo    lex:Del0719\/Artigo1\/Paragrafo1 .
+lex:Del0719\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A assistência financeira do FNDCT será prestada, preferencialmente, através de repasse a outros fundos e entidades incumbidos de sua canalização para iniciativas específicas e poderá destinar-se ao financiamento de despesas correntes ou de capital." .
+lex:Del0719\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0719\/Artigo1    lex:temParagrafo    lex:Del0719\/Artigo1\/Paragrafo2 .
+lex:Del0719\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O regulamento do FNDCT, a ser expedido por Decreto do Poder Executivo, disciplinará o mecanismo e condições de financiamento de programas e projetos." .
+lex:Del0719\/Artigo3o-A    lex:ehUm    lex:Artigo .
+lex:Del0719    lex:temArtigo    lex:Del0719\/Artigo3o-A .
+lex:Del0719\/Artigo3o-A    lex:temConteudo    "Art. 3o-A.  Serão destinados ao financiamento de projetos de implantação e recuperação de infra-estrutura de pesquisa nas instituições públicas de ensino superior e de pesquisa vinte por cento dos recursos destinados:(Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-A\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0719\/Artigo3o-A    lex:temInciso    lex:Del0719\/Artigo3o-A\/IncisoI .
+lex:Del0719\/Artigo3o-A\/IncisoI    lex:temConteudo    "I - ao Fundo Nacional de Desenvolvimento Científico e Tecnológico - FNDCT oriundos de: (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao    lex:ehUm    lex:IncisoAlinea .
+lex:Del0719\/Artigo3o-A\/IncisoI    lex:temIncisoAlinea    lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao    lex:temConteudo    "a) contribuição de intervenção no domínio econômico;" .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao    lex:ehUm    lex:IncisoAlinea .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao    lex:temIncisoAlinea    lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao    lex:temConteudo    "b) compensação financeira sobre o uso de recursos naturais;" .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual    lex:ehUm    lex:IncisoAlinea .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao    lex:temIncisoAlinea    lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual    lex:temConteudo    "c) percentual sobre receita ou lucro de empresas concessionárias, permissionárias e autorizatárias de serviços públicos; e" .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual\/IncisoAlineaContratos    lex:ehUm    lex:IncisoAlinea .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual    lex:temIncisoAlinea    lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual\/IncisoAlineaContratos .
+lex:Del0719\/Artigo3o-A\/IncisoI\/IncisoAlineaContribuicao\/IncisoAlineaCompensacao\/IncisoAlineaPercentual\/IncisoAlineaContratos    lex:temConteudo    "d) contratos firmados pela União, suas autarquias e fundações;" .
+lex:Del0719\/Artigo3o-A\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0719\/Artigo3o-A    lex:temInciso    lex:Del0719\/Artigo3o-A\/IncisoII .
+lex:Del0719\/Artigo3o-A\/IncisoII    lex:temConteudo    "II - a fundos constituídos ou que vierem a ser constituídos com vistas a apoiar financeiramente o desenvolvimento científico e tecnológico de setores econômicos específicos. (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-B    lex:ehUm    lex:Artigo .
+lex:Del0719    lex:temArtigo    lex:Del0719\/Artigo3o-B .
+lex:Del0719\/Artigo3o-B    lex:temConteudo    "Art. 3o-B.  Na utilização dos recursos de que trata o artigo anterior, serão observados: (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-B\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0719\/Artigo3o-B    lex:temInciso    lex:Del0719\/Artigo3o-B\/IncisoI .
+lex:Del0719\/Artigo3o-B\/IncisoI    lex:temConteudo    "I - a programação orçamentária em categoria de programação específica no FNDCT; (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-B\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0719\/Artigo3o-B    lex:temInciso    lex:Del0719\/Artigo3o-B\/IncisoII .
+lex:Del0719\/Artigo3o-B\/IncisoII    lex:temConteudo    "II - os critérios de administração previstos na forma do regulamento do FNDCT; e (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-B\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del0719\/Artigo3o-B    lex:temInciso    lex:Del0719\/Artigo3o-B\/IncisoIII .
+lex:Del0719\/Artigo3o-B\/IncisoIII    lex:temConteudo    "III - a desnecessidade de vinculação entre os projetos financiados e o setor de origem dos recursos. (Incluído pela Lei nº 10.197, 2001)" .
+lex:Del0719\/Artigo3o-B\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0719\/Artigo3o-B    lex:temParagrafo    lex:Del0719\/Artigo3o-B\/ParagrafoUnico .
+lex:Del0719\/Artigo3o-B\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  No mínimo, 30% (trinta por cento) dos recursos serão aplicados em instituições sediadas nas regiões Norte, Nordeste e Centro-Oeste, incluindo as respectivas áreas de abrangência das Agências de Desenvolvimento Regional. (Redação dada pela Lei nº 11.540, de 2007)" .
+lex:Del0719\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0719    lex:temArtigo    lex:Del0719\/Artigo4 .
+lex:Del0719\/Artigo4    lex:temConteudo    "Art 4º O FNDCT será dotado de uma Secretaria-Executiva, cuja organização e funcionamento serão estabelecidos em Regulamento." .
+lex:Del0719\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0719    lex:temArtigo    lex:Del0719\/Artigo5 .
+lex:Del0719\/Artigo5    lex:temConteudo    "Art 5º O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo1\/Artigo2    lex:revogadoPor    lex:L11540\/Artigo19 .
+lex:L11540\/Artigo19    lex:revogou    lex:Del0719\/Artigo1\/Artigo2 .
+lex:Del0719\/Artigo3o-A    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-A\/IncisoI    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-A\/IncisoII    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B\/IncisoI    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B\/IncisoII    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B\/IncisoIII    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B\/ParagrafoUnico    lex:remetePara    lex:L10197 .
+lex:Del0719\/Artigo3o-B\/ParagrafoUnico    lex:remetePara    lex:L11540\/Artigo16 .

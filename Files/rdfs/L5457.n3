@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5457    lex:ehUm    lex:DocLegal .
+lex:L5457    lex:temTextoIntegral    lex:HTMLs\/L5457.htm .
+lex:L5457\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5457    lex:temArtigo    lex:L5457\/Artigo1 .
+lex:L5457\/Artigo1    lex:temConteudo    "Art. 1º O § 1º do art. 1º da Lei número 5.365, de 1º de dezembro de 1967, que cria a Superintendência do Desenvolvimento da Região Centro-Oeste (SUDECO) e dá outras providências, passa a ter a seguinte redação:" .
+lex:L5457\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5457    lex:temArtigo    lex:L5457\/Artigo2 .
+lex:L5457\/Artigo2    lex:temConteudo    "Art. 2º As alíneas a e c do art. 6º da Lei nº 5.365, de 1º de dezembro de 1967, passam a vigorar com a seguinte redação:" .
+lex:L5457\/Artigo2\/AlineaEstado    lex:ehUm    lex:Alinea .
+lex:L5457\/Artigo2    lex:temAlinea    lex:L5457\/Artigo2\/AlineaEstado .
+lex:L5457\/Artigo2\/AlineaEstado    lex:temConteudo    "c) Estado de Goiás e Mato Grosso e Território Federal de Rondônia." .
+lex:L5457\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5457    lex:temArtigo    lex:L5457\/Artigo3 .
+lex:L5457\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5457\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5457    lex:temArtigo    lex:L5457\/Artigo4 .
+lex:L5457\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L5457\/Artigo1    lex:remetePara    lex:L5365\/Artigo1\/Paragrafo1 .
+lex:L5457\/Artigo2    lex:remetePara    lex:L5365\/Artigo6 .
+lex:L5457\/Artigo2    lex:remetePara    lex:L5365\/Artigo6 .

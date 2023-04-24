@@ -1,0 +1,98 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8448    lex:ehUm    lex:DocLegal .
+lex:L8448    lex:temTextoIntegral    lex:HTMLs\/L8448.htm .
+lex:L8448\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo1 .
+lex:L8448\/Artigo1    lex:temConteudo    "Art. 1° A remuneração mensal de servidor da administração pública direta, autárquica e fundacional, de qualquer dos Poderes da União, terá como limite máximo, no âmbito de cada Poder, os valores percebidos como remuneração no mesmo período, em espécie, a qualquer título, por:" .
+lex:L8448\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8448\/Artigo1    lex:temInciso    lex:L8448\/Artigo1\/IncisoI .
+lex:L8448\/Artigo1\/IncisoI    lex:temConteudo    "I - membro do Congresso Nacional;" .
+lex:L8448\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8448\/Artigo1    lex:temInciso    lex:L8448\/Artigo1\/IncisoII .
+lex:L8448\/Artigo1\/IncisoII    lex:temConteudo    "II - Ministro de Estado;" .
+lex:L8448\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8448\/Artigo1    lex:temInciso    lex:L8448\/Artigo1\/IncisoIII .
+lex:L8448\/Artigo1\/IncisoIII    lex:temConteudo    "III - Ministro do Supremo Tribunal Federal." .
+lex:L8448\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo2 .
+lex:L8448\/Artigo2    lex:temConteudo    "Art. 2° O disposto nesta lei aplica-se, no que couber:" .
+lex:L8448\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8448\/Artigo2    lex:temInciso    lex:L8448\/Artigo2\/IncisoI .
+lex:L8448\/Artigo2\/IncisoI    lex:temConteudo    "I - ao pessoal civil da administração pública direta, autárquica e fundacional dos Poderes da União e ao pessoal militar;" .
+lex:L8448\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8448\/Artigo2    lex:temInciso    lex:L8448\/Artigo2\/IncisoII .
+lex:L8448\/Artigo2\/IncisoII    lex:temConteudo    "II - aos servidores do Distrito Federal, ocupantes de cargos de Polícia Civil, Polícia Militar e Corpo de Bombeiros Militar, bem como aos servidores dos antigos Territórios remunerados pela União." .
+lex:L8448\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo4 .
+lex:L8448\/Artigo4    lex:temConteudo    "Art. 4° Os ajustes das tabelas de vencimentos e soldos, necessários à aplicação desta lei, não servirão de base de cálculo para o aumento geral dos servidores públicos da União." .
+lex:L8448\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo5 .
+lex:L8448\/Artigo5    lex:temConteudo    "Art. 5° A parcela de remuneração que, na data da promulgação desta lei, exceder o limite fixado no inciso II do art. 3º, será mantida como diferença individual, em valor fixo e irreajustável." .
+lex:L8448\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo7 .
+lex:L8448\/Artigo7    lex:temConteudo    "Art. 7° As autoridades competentes do Poder Executivo, do Poder Judiciário, e as do Ministério Público da União, bem como as das Câmara dos Deputados e as do Senado Federal adotarão as providências necessárias para a aplicação integral do disposto nesta lei à política remuneratória de seus servidores;" .
+lex:L8448\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo8 .
+lex:L8448\/Artigo8    lex:temConteudo    "Art. 8° Aplica-se o disposto nesta lei aos servidores inativos e pensionistas." .
+lex:L8448\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo9 .
+lex:L8448\/Artigo9    lex:temConteudo    "Art. 9° Esta lei entra em vigor na data de sua publicação." .
+lex:L8448\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L8448    lex:temArtigo    lex:L8448\/Artigo10 .
+lex:L8448\/Artigo10    lex:temConteudo    "Art. 10. Revogam-se as disposições em contrário." .
+lex:L8448\/Texto    lex:remetePara    lex:Constituicao\/Artigo37 .
+lex:L8448\/Texto    lex:remetePara    lex:Constituicao\/Artigo39\/Paragrafo1 .
+lex:L8448\/Artigo1\/ParagrafoUnico    lex:revogadoPor    lex:L10593\/Artigo25 .
+lex:L10593\/Artigo25    lex:revogou    lex:L8448\/Artigo1\/ParagrafoUnico .
+lex:L8448\/Artigo2\/Artigo3    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/Artigo3 .
+lex:L8448\/Artigo2\/IncisoI    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/IncisoI .
+lex:L8448\/Artigo2\/IncisoII    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/IncisoII .
+lex:L8448\/Artigo2\/AlineaSalario-familia    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaSalario-familia .
+lex:L8448\/Artigo2\/AlineaDiarias    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaDiarias .
+lex:L8448\/Artigo2\/AlineaAjuda-de-custo    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAjuda-de-custo .
+lex:L8448\/Artigo2\/AlineaIndenizacao    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaIndenizacao .
+lex:L8448\/Artigo2\/AlineaAdicional    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAdicional .
+lex:L8448\/Artigo2\/AlineaGratificacao    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaGratificacao .
+lex:L8448\/Artigo2\/AlineaAbono    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAbono .
+lex:L8448\/Artigo2\/AlineaAdicional    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAdicional .
+lex:L8448\/Artigo2\/AlineaAuxilio-fardamento    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAuxilio-fardamento .
+lex:L8448\/Artigo2\/AlineaAdicional    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAdicional .
+lex:L8448\/Artigo2\/AlineaAdicional    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaAdicional .
+lex:L8448\/Artigo2\/AlineaGratificacao    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaGratificacao .
+lex:L8448\/Artigo2\/AlineaGratificacao    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaGratificacao .
+lex:L8448\/Artigo2\/AlineaGratificacao    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaGratificacao .
+lex:L8448\/Artigo2\/AlineaVantagens    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/AlineaVantagens .
+lex:L8448\/Artigo2\/Paragrafo1    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/Paragrafo1 .
+lex:L8448\/Artigo2\/Paragrafo2    lex:revogadoPor    lex:L9624\/Artigo22 .
+lex:L9624\/Artigo22    lex:revogou    lex:L8448\/Artigo2\/Paragrafo2 .
+lex:L8448\/Artigo6    lex:revogadoPor    lex:2215-10\/Artigo41 .
+lex:2215-10\/Artigo41    lex:revogou    lex:L8448\/Artigo6 .
+lex:L8448\/ParagrafoUnico    lex:remetePara    lex:L8460consol\/Artigo26 .
+lex:L8448\/ParagrafoUnico    lex:revogadoPor    lex:2215-10\/Artigo41 .
+lex:2215-10\/Artigo41    lex:revogou    lex:L8448\/ParagrafoUnico .

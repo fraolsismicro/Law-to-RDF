@@ -1,0 +1,207 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99602    lex:ehUm    lex:DocLegal .
+lex:D99602    lex:temTextoIntegral    lex:HTMLs\/D99602.htm .
+lex:D99602\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99602    lex:temInciso    lex:D99602\/IncisoIII .
+lex:D99602\/IncisoIII    lex:temConteudo    "III - Órgãos Seccionais:" .
+lex:D99602\/IncisoIII\/IncisoAlineaDepartamento    lex:ehUm    lex:IncisoAlinea .
+lex:D99602\/IncisoIII    lex:temIncisoAlinea    lex:D99602\/IncisoIII\/IncisoAlineaDepartamento .
+lex:D99602\/IncisoIII\/IncisoAlineaDepartamento    lex:temConteudo    "b) Departamento de Planejamento e Administração;" .
+lex:D99602\/IncisoIII\/IncisoAlineaDepartamento\/IncisoAlineaDepartamento    lex:ehUm    lex:IncisoAlinea .
+lex:D99602\/IncisoIII\/IncisoAlineaDepartamento    lex:temIncisoAlinea    lex:D99602\/IncisoIII\/IncisoAlineaDepartamento\/IncisoAlineaDepartamento .
+lex:D99602\/IncisoIII\/IncisoAlineaDepartamento\/IncisoAlineaDepartamento    lex:temConteudo    "b) Departamento de Proteção;" .
+lex:D99602\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/ParagrafoUnico .
+lex:D99602\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O IBPC, com sede e foro em Brasília, Distrito Federal, terá duração indeterminada e gozará de autonomia técnica, administrativa e financeira." .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - formular e coordenar a execução da política de preservação, promoção e proteção do patrimônio cultural, em consonância com as diretrizes da SEC/PR;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - formular e promover programas de cooperação técnica e aperfeiçoamento de recursos humanos voltados para a conservação e preservação do patrimônio cultural;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - desenvolver estudos e pesquisas, visando à geração e incorporação de metodologias, normas e procedimentos para a conservação e preservação do patrimônio cultural;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - promover a identificação, o inventário, a documentação, o registro, a difusão, a vigilância, o tombamento, a desapropriação, a conservação, a restauração, a devolução, o uso e a revitalização do patrimônio cultural;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - exercer as competências estabelecidas no Decreto-Lei n° 25, de 30 de novembro de 1937, no Decreto-Lei n° 3.866, de 29 de novembro de 1941, na Lei n° 4.845, de 19 de novembro de 1965, e na Lei n° 3.924, de 26 de julho de 1961." .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - órgãos colegiados:" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretoria    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretoria .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretoria    lex:temConteudo    "a) Diretoria;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConselho .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConselho    lex:temConteudo    "b) Conselho Consultivo do Patrimônio Cultural;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - órgão de assistência direta e imediata ao Presidente: Gabinete;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - órgãos seccionais:" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaDepartamento    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaDepartamento .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaDepartamento    lex:temConteudo    "b) Departamento de Planejamento e Administração;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - órgãos singulares:" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:temConteudo    "a) Departamento de Identificação e Documentação;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:temConteudo    "b) Departamento de Proteção;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:ehUm    lex:Alinea .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temAlinea    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoIV\/AlineaDepartamento    lex:temConteudo    "c) Departamento de Promoção;" .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/ParagrafoUnico    lex:temParagrafoInciso    lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D99602\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - unidades descentralizadas: Coordenações Regionais" .
+lex:D99602\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo1 .
+lex:D99602\/Paragrafo1    lex:temConteudo    "§ 1° As reuniões da Diretoria serão ordinárias e extraordinárias, estando presentes, pelo menos, o Presidente e dois Diretores." .
+lex:D99602\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo2 .
+lex:D99602\/Paragrafo2    lex:temConteudo    "§ 2º A Diretoria deliberará por maioria de votos, cabendo ao Presidente, além do voto pessoal, o de qualidade." .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo2    lex:temParagrafoInciso    lex:D99602\/Paragrafo2\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - assessorar o Presidente da autarquia na formulação de diretrizes e estratégias do IBPC;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo2    lex:temParagrafoInciso    lex:D99602\/Paragrafo2\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - deliberar sobre:" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaRemuneracao    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:temAlinea    lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaRemuneracao .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaRemuneracao    lex:temConteudo    "a) remuneração relativa a serviços, aluguéis, produtos, operações e ingressos;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaQuestoes    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:temAlinea    lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaQuestoes .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaQuestoes    lex:temConteudo    "b) questões propostas pelo Presidente ou pelos Diretores;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:temAlinea    lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO    lex:temConteudo    "c) o plano anual ou plurianual de ação do IBPC e a proposta orçamentária;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII    lex:temAlinea    lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoII\/AlineaO    lex:temConteudo    "d) o relatório anual e a prestação de contas do IBPC;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo2    lex:temParagrafoInciso    lex:D99602\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - cumprir e fazer cumprir o Regimento Interno do IBPC;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo2    lex:temParagrafoInciso    lex:D99602\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - formular diretrizes programáticas relativas às atividades dos órgãos descentralizados;" .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo2    lex:temParagrafoInciso    lex:D99602\/Paragrafo2\/ParagrafoIncisoV .
+lex:D99602\/Paragrafo2\/ParagrafoIncisoV    lex:temConteudo    "V - examinar, decidir e opinar sobre questões relacionadas à proteção e à defesa dos bens culturais." .
+lex:D99602\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo1 .
+lex:D99602\/Paragrafo1    lex:temConteudo    "§ 1° O Gabinete, os órgãos seccionais, singulares e descentralizadas prestarão apoio técnico e administrativo ao conselho." .
+lex:D99602\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo2 .
+lex:D99602\/Paragrafo2    lex:temConteudo    "§ 2º O conselho será presidido pelo Presidente do IBPC, que o integra como membro nato, e composto pelos seguintes membros:" .
+lex:D99602\/Paragrafo2\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2    lex:temAlinea    lex:D99602\/Paragrafo2\/AlineaUm .
+lex:D99602\/Paragrafo2\/AlineaUm    lex:temConteudo    "a) um representante e respectivo suplente, de cada um das seguintes entidades: Instituto dos Arquitetos do Brasil (IAB), Conselho Internacional de Monumentos e Sítios (Icomos), Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) e Museu Nacional, que serão indicados pelos dirigentes das mesmas;" .
+lex:D99602\/Paragrafo2\/AlineaDez    lex:ehUm    lex:Alinea .
+lex:D99602\/Paragrafo2    lex:temAlinea    lex:D99602\/Paragrafo2\/AlineaDez .
+lex:D99602\/Paragrafo2\/AlineaDez    lex:temConteudo    "b) dez representantes da sociedade civil, com notórios conhecimentos nos campos de atuação do IBPC." .
+lex:D99602\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo3 .
+lex:D99602\/Paragrafo3    lex:temConteudo    "§ 3° Os membros referidos nas alíneas a e b do parágrafo anterior, serão designados pelo Presidente da República para o mandato de quatro anos, permitida uma recondução." .
+lex:D99602\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D99602    lex:temParagrafo    lex:D99602\/Paragrafo4 .
+lex:D99602\/Paragrafo4    lex:temConteudo    "§ 4° A participação no conselho, na qualidade de membro, não será remunerada, sendo considerada prestação de serviço público relevante." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - estabelecer diretrizes, gerenciar programas e incentivar ações de prospecção, estudos e referenciamento, voltados para a identificação do patrimônio cultural objetivando o registro, a documentação e a proteção de bens culturais;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II .- prestar orientação e assistência técnica aos órgãos descentralizados no âmbito de suas competências." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - formular diretrizes, elaborar e coordenar programas e projetos nas áreas de conservação e proteção de bens de interesse cultural;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - estabelecer critérios, métodos e procedimentos que orientem a abordagem de questões referentes à proteção e conservação dos bens móveis e imóveis, nos termos da legislação pertinente." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - executar, por intermédio das prefeituras, ou diretamente, o controle e a fiscalização dos conjuntos e núcleos tombados;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - elaborar e propor o tombamento de bens culturais;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - exercer a fiscalização e a liberação de bens culturais;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - determinar o embargo de ações que contrariem a legislação em vigor e aplicar as sanções legais;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoV .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoV    lex:temConteudo    "V - executar diretamente a identificação, o cadastramento, o controle e a fiscalização do patrimônio cultural, em sua área de atuação;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoVI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVI    lex:temConteudo    "VI - contribuir para a formulação da política de preservação do patrimônio cultural, propor normas e procedimentos e desenvolver metodologias, refletindo a pluralidade e diversidade cultural brasileira;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoVII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVII    lex:temConteudo    "VII - formar, sob a direção do Coordenador Regional, Câmaras Regionais de Proteção, compostas, preferentemente, por representantes dos Governos estaduais e municipais e da sociedade local." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - cumprir e fazer cumprir a Estrutura Regimental e o Regimento Interno;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - representar o IBPC em juízo ou fora dele, com poderes para constituir mandatários;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - praticar os atos relativos aos recursos humanos e à administração patrimonial e financeira;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - convocar e presidir as reuniões do Conselho e da Diretoria;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoV .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoV    lex:temConteudo    "V - submeter ao Conselho e à Diretoria as matérias que dependam da sua apreciação e aprovação;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoVI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVI    lex:temConteudo    "VI - baixar atos ad referendum da Diretoria nos casos de comprovada urgência;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoVII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVII    lex:temConteudo    "VII - nomear os dirigentes do IBPC, ressalvado o disposto no art. 4°;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoVIII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - assinar os atos de tombamento de bens culturais e submetê-los ao Secretário da Cultura para homologação;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIX .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIX    lex:temConteudo    "IX - designar o diretor que o substituirá nas suas faltas e impedimentos;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoX .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoX    lex:temConteudo    "X - delegar atribuições, especificando a autoridade delegada e os limites da delegação." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - os acervos das extintas Secretaria do Patrimônio Histórico e Artístico Nacional (SPHAN) e Fundação Nacional Pró-Memória (Pró-Memória);" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - Os bens e direitos que adquirir." .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoI .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - dotações orçamentárias consignadas no Orçamento da União;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - rendas de qualquer natureza derivadas dos próprios serviços;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - receitas decorrentes de aplicação financeira;" .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D99602\/Paragrafo4    lex:temParagrafoInciso    lex:D99602\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D99602\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - outras receitas, inclusive doações." .
+lex:D99602\/Texto    lex:revogadoPor    lex:D2807\/Artigo4 .
+lex:D2807\/Artigo4    lex:revogou    lex:D99602\/Texto .
+lex:D99602\/Texto    lex:remetePara    lex:D99602 .
+lex:D99602\/Paragrafo2\/AlineaOnze    lex:remetePara    lex:D0374 .
+lex:D99602\/Paragrafo2\/AlineaQuatorze    lex:remetePara    lex:D1072 .

@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98506    lex:ehUm    lex:DocLegal .
+lex:D98506    lex:temTextoIntegral    lex:HTMLs\/D98506.htm .
+lex:D98506\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98506    lex:temArtigo    lex:D98506\/Artigo1 .
+lex:D98506\/Artigo1    lex:temConteudo    "Art. 1º Fica aberto ao Orçamento Fiscal da União (Lei nº 7.715, de 03 de janeiro de 1989), Anexo II, o crédito suplementar no valor de NCz$ 812.000,00 (oitocentos e doze mil cruzados novos), em favor do Ministério da Justiça, de conformidade com a programação do ANEXO I deste Decreto." .
+lex:D98506\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98506    lex:temArtigo    lex:D98506\/Artigo2 .
+lex:D98506\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior decorrem de anulação parcial da dotação orçamentária indicada no ANEXO II deste Decreto e no montante especificado." .
+lex:D98506\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98506    lex:temArtigo    lex:D98506\/Artigo3 .
+lex:D98506\/Artigo3    lex:temConteudo    "Art. 3º Este crédito refere-se a remanejamento de recursos a nível de elemento de despesa, não implicando em alteração do valor total da Atividade." .
+lex:D98506\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D98506    lex:temArtigo    lex:D98506\/Artigo4 .
+lex:D98506\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D98506\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D98506    lex:temArtigo    lex:D98506\/Artigo5 .
+lex:D98506\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:D98506\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D98506\/Texto .
+lex:D98506\/Artigo1    lex:remetePara    lex:L7715 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97532    lex:ehUm    lex:DocLegal .
+lex:D97532    lex:temTextoIntegral    lex:HTMLs\/D97532.htm .
+lex:D97532\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97532    lex:temArtigo    lex:D97532\/Artigo1 .
+lex:D97532\/Artigo1    lex:temConteudo    "Art. 1° Pela utilização de rodovias federais, pontes e obras de arte especiais que as integram, será devido o pedágio nos termos da Lei n° 7.712, de 22 de dezembro de 1988, com as alterações constantes da Medida Provisória n° 54, de 11 de maio de 1989, e deste Regulamento. (Redação dada pelo Decreto nº 97.797, de 1989)" .
+lex:D97532\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D97532    lex:temArtigo    lex:D97532\/Artigo5 .
+lex:D97532\/Artigo5    lex:temConteudo    "Art. 5° O valor do pedágio será expresso em Bônus do Tesouro Nacional - BTN, de acordo com a seguinte tabela: (Redação dada pelo Decreto nº 97.797, de 1989)" .
+lex:D97532\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D97532\/Artigo5    lex:temInciso    lex:D97532\/Artigo5\/IncisoII .
+lex:D97532\/Artigo5\/IncisoII    lex:temConteudo    "II - o comprovante do pagamento do pedágio não for válido para o mês em curso, observado o disposto no parágrafo único do artigo 7°. (Redação dada pelo Decreto nº 97.797, de 1989)" .
+lex:D97532\/Texto    lex:remetePara    lex:D97532 .
+lex:D97532\/Texto    lex:remetePara    lex:L7712 .
+lex:D97532\/Artigo1    lex:remetePara    lex:L7712 .
+lex:D97532\/Artigo1    lex:remetePara    lex:054 .
+lex:D97532\/Artigo1    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/Paragrafo1    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/Paragrafo2    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/Artigo5    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/ParagrafoUnico    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/Paragrafo2    lex:remetePara    lex:D97797\/Artigo1 .
+lex:D97532\/Artigo5\/IncisoII    lex:remetePara    lex:D97797\/Artigo1 .

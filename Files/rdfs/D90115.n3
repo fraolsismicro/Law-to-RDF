@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D90115    lex:ehUm    lex:DocLegal .
+lex:D90115    lex:temTextoIntegral    lex:HTMLs\/D90115.htm .
+lex:D90115\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D90115    lex:temArtigo    lex:D90115\/Artigo1 .
+lex:D90115\/Artigo1    lex:temConteudo    "Art. 1º - Os artigos 3º, 5º e 10 do Decreto nº 84.333, de 20 de dezembro de 1979, passam a vigorar com a seguinte redação:" .
+lex:D90115\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D90115\/Artigo1    lex:temParagrafo    lex:D90115\/Artigo1\/Paragrafo1 .
+lex:D90115\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A categoria de Administração Geral é constituída pelos atuais oficiais das categorias:" .
+lex:D90115\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D90115\/Artigo1    lex:temParagrafo    lex:D90115\/Artigo1\/Paragrafo2 .
+lex:D90115\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - A categoria de Saúde é constituída pelos atuais oficiais das categorias:" .
+lex:D90115\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D90115\/Artigo1    lex:temParagrafo    lex:D90115\/Artigo1\/Paragrafo3 .
+lex:D90115\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A categoria de Material Bélico é constituída pelos atuais oficiais das categorias:" .
+lex:D90115\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D90115    lex:temArtigo    lex:D90115\/Artigo5 .
+lex:D90115\/Artigo5    lex:temConteudo    "Art. 5º - O Ministro do Exército estabelecerá as Qualificações Militares de Subtenentes e Sargentos(QMS) que concorrem ao acesso das diferentes categorias de QAO." .
+lex:D90115\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D90115    lex:temArtigo    lex:D90115\/Artigo10 .
+lex:D90115\/Artigo10    lex:temConteudo    "Art. 10 - Os oficiais das categorias em extinção, de que tratam os Decretos nº 67.107, de 26 de agosto de 1970 e 19.281, de 16 de fevereiro de 1977 passarão a concorrer pela categoria Administração Geral.'" .
+lex:D90115\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D90115    lex:temArtigo    lex:D90115\/Artigo2 .
+lex:D90115\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor a partir de 10 de dezembro de 1984." .
+lex:D90115\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D90115    lex:temArtigo    lex:D90115\/Artigo3 .
+lex:D90115\/Artigo3    lex:temConteudo    "Art. 3º - Ficam revogados o artigo 7º e os parágrafos 1º e 2º do artigo 10 do Decreto nº 84.333, de 20 de dezembro de 1979, e demais disposições em contrario." .
+lex:D90115\/Artigo1    lex:remetePara    lex:D84333 .
+lex:D90115\/Texto00001    lex:remetePara    lex:D84333\/ART3 .
+lex:D90115\/Artigo5    lex:remetePara    lex:D84333\/Artigo5 .
+lex:D90115\/Artigo10    lex:remetePara    lex:D84333\/Artigo10 .
+lex:D90115\/Artigo3    lex:remetePara    lex:D84333\/Artigo7 .
+lex:D90115\/Artigo3    lex:remetePara    lex:D84333\/Artigo10\/Paragrafo1 .
+lex:D90115\/Artigo3    lex:remetePara    lex:D84333\/Artigo10\/Paragrafo2 .

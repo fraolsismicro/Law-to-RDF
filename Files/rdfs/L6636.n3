@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6636    lex:ehUm    lex:DocLegal .
+lex:L6636    lex:temTextoIntegral    lex:HTMLs\/L6636.htm .
+lex:L6636\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6636    lex:temArtigo    lex:L6636\/Artigo1 .
+lex:L6636\/Artigo1    lex:temConteudo    "Art 1º - O parágrafo único do art. 12 da Lei nº 3.807, de 26 de agosto de 1960 (Lei Orgânica da Previdência Social), alterado pela Lei nº 5.890, de 8 de junho de 1973, passa a vigorar com a seguinte redação:" .
+lex:L6636\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6636\/Artigo1    lex:temParagrafo    lex:L6636\/Artigo1\/ParagrafoUnico .
+lex:L6636\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Mediante declaração escrita do segurado, os dependentes indicados no item Ill do art. 11 poderão concorrer com a esposa, a companheira ou marido inválido, com a pessoa designada na forma do § 4º do mesmo artigo, salvo se existirem filhos com direito à prestação, caso em que caberá àqueles dependentes desde que vivam na dependência econômica do segurado e não sejam filiados a outro sistema previdenciário, apenas assistência médica." .
+lex:L6636\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6636    lex:temArtigo    lex:L6636\/Artigo2 .
+lex:L6636\/Artigo2    lex:temConteudo    "Art 2º - A fonte de custeio do encargo de que trata esta Lei será a prevista no art. 46 da Lei nº 3.807, de 26 de agosto de 1960." .
+lex:L6636\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6636    lex:temArtigo    lex:L6636\/Artigo3 .
+lex:L6636\/Artigo3    lex:temConteudo    "Art 3º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6636\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6636    lex:temArtigo    lex:L6636\/Artigo4 .
+lex:L6636\/Artigo4    lex:temConteudo    "Art 4º - Revogam-se as disposições em contrário." .
+lex:L6636\/Artigo1    lex:remetePara    lex:L3807\/Artigo12 .
+lex:L6636\/Artigo1    lex:remetePara    lex:L5890 .
+lex:L6636\/Artigo2    lex:remetePara    lex:L3807\/Artigo46 .

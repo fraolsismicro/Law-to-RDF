@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1434    lex:ehUm    lex:DocLegal .
+lex:Del1434    lex:temTextoIntegral    lex:HTMLs\/Del1434.htm .
+lex:Del1434\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1434    lex:temArtigo    lex:Del1434\/Artigo1 .
+lex:Del1434\/Artigo1    lex:temConteudo    "Art. 1º Fica criada reserva do Fundo de Participação dos Estados, do Distrito Federal e dos Territórios, a que se refere o item I do artigo 25 da Constituição, na redação dada pela Emenda Constitucional nº 5, de 28 de junho de 1975, destinada exclusivamente aos Estados das Regiões Norte e Nordeste, constituída por:" .
+lex:Del1434\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1434\/Artigo1    lex:temInciso    lex:Del1434\/Artigo1\/IncisoI .
+lex:Del1434\/Artigo1\/IncisoI    lex:temConteudo    "I - 10% dos recursos do referido Fundo, nos exercícios financeiros de 1976 e 1977;" .
+lex:Del1434\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1434\/Artigo1    lex:temInciso    lex:Del1434\/Artigo1\/IncisoII .
+lex:Del1434\/Artigo1\/IncisoII    lex:temConteudo    "II - 20% dos recursos mencionados no item anterior, a partir do exercício financeiro de 1978, inclusive." .
+lex:Del1434\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1434    lex:temArtigo    lex:Del1434\/Artigo2 .
+lex:Del1434\/Artigo2    lex:temConteudo    "Art. 2º Os recursos da reserva criada na forma do artigo 1º serão distribuídos de acordo com coeficientes individuais de participação, calculados pelo Tribunal de Contas da União, de acordo com os critérios fixados nos artigos 88 a 90 da Lei número 5.172, de 25 de outubro de 1966, sem prejuízo da participação desses Estados, nos termos da legislação em vigor, nos demais recursos do Fundo a que se refere este Decreto-lei." .
+lex:Del1434\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1434\/Artigo2    lex:temParagrafo    lex:Del1434\/Artigo2\/ParagrafoUnico .
+lex:Del1434\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Os coeficientes individuais, calculados na forma do item II do artigo 88 da Lei nº 5.172, de 25 de outubro de 1966, que for em iguais ou superiores a 10, serão reduzidos em 50%, para efeito da distribuição da reserva instituída por este Decreto-lei." .
+lex:Del1434\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1434    lex:temArtigo    lex:Del1434\/Artigo3 .
+lex:Del1434\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1434\/Artigo1    lex:remetePara    lex:emc01-69\/Artigo25 .
+lex:Del1434\/Artigo1    lex:remetePara    lex:emc05-75 .
+lex:Del1434\/Artigo2    lex:remetePara    lex:L5172\/Artigo88 .
+lex:Del1434\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L5172\/Artigo88 .

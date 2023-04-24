@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3138    lex:ehUm    lex:DocLegal .
+lex:L3138    lex:temTextoIntegral    lex:HTMLs\/L3138.htm .
+lex:L3138\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3138    lex:temArtigo    lex:L3138\/Artigo1 .
+lex:L3138\/Artigo1    lex:temConteudo    "Art. 1º O art. 1º da Lei nº 2.576, de 17 de agôsto de 1955, passa a vigorar com a seguinte redação:" .
+lex:L3138\/Artigo1\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:L3138\/Artigo1    lex:temAlinea    lex:L3138\/Artigo1\/AlineaNo .
+lex:L3138\/Artigo1\/AlineaNo    lex:temConteudo    "a) no Distrito Federal, para efeito de aposentadoria, pela Junta de Saúde da 3ª Zona Aérea, e para os demais casos, pelas Juntas de Saúde dos diversos órgãos da Aeronáutica, de acôrdo com as instruções que forem baixadas pelo Ministro;" .
+lex:L3138\/Artigo1\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:L3138\/Artigo1    lex:temAlinea    lex:L3138\/Artigo1\/AlineaNos .
+lex:L3138\/Artigo1\/AlineaNos    lex:temConteudo    "b) nos Estados e Territórios, pelas Juntas de Saúde dos diversos órgãos da Aeronáutica, de acôrdo com as instruções que forem aprovadas para as inspeções de saúde naquele Ministério." .
+lex:L3138\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3138\/Artigo1    lex:temParagrafo    lex:L3138\/Artigo1\/Paragrafo1 .
+lex:L3138\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Os laudos de que trata a alínea b dêste artigo, quando para efeito de aposentadoria, serão revistos pela Junta de Saúde do Quartel General da Zona Aérea respectiva, sem cuja aprovação não terão validade." .
+lex:L3138\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3138\/Artigo1    lex:temParagrafo    lex:L3138\/Artigo1\/Paragrafo2 .
+lex:L3138\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Quando se tratar de contrôle de faltas ao serviço, ou licença até noventa dias, de servidor que se encontre em localidade onde não funcione nenhum dos órgãos mencionados neste artigo, será admitido laudo de outros médicos oficiais, ou ainda e excepcionalmente atestado passado por médico particular, com firma reconhecida, sujeito êsse atestado a homologação por Junta de Saúde da Aeronáutica'." .
+lex:L3138\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3138    lex:temArtigo    lex:L3138\/Artigo2 .
+lex:L3138\/Artigo2    lex:temConteudo    "Art. 2º - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3138\/Texto00001    lex:remetePara    lex:L2576\/Artigo1 .

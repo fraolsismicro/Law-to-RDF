@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12041    lex:ehUm    lex:DocLegal .
+lex:L12041    lex:temTextoIntegral    lex:HTMLs\/L12041.htm .
+lex:L12041\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12041    lex:temArtigo    lex:L12041\/Artigo1 .
+lex:L12041\/Artigo1    lex:temConteudo    "Art. 1o  O subsídio mensal de Ministro do Supremo Tribunal Federal, referido no inciso XV do art. 48 da Constituição Federal, fica reajustado em:" .
+lex:L12041\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12041\/Artigo1    lex:temInciso    lex:L12041\/Artigo1\/IncisoI .
+lex:L12041\/Artigo1\/IncisoI    lex:temConteudo    "I - 5,00% (cinco por cento), a partir de 1o de setembro de 2009;" .
+lex:L12041\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12041\/Artigo1    lex:temInciso    lex:L12041\/Artigo1\/IncisoII .
+lex:L12041\/Artigo1\/IncisoII    lex:temConteudo    "II - 3,88% (três inteiros e oitenta e oito centésimos por cento), a partir de 1o de fevereiro de 2010." .
+lex:L12041\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12041    lex:temArtigo    lex:L12041\/Artigo2 .
+lex:L12041\/Artigo2    lex:temConteudo    "Art. 2o  As despesas resultantes da aplicação desta Lei correrão à conta das dotações orçamentárias consignadas aos órgãos do Poder Judiciário da União." .
+lex:L12041\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12041    lex:temArtigo    lex:L12041\/Artigo3 .
+lex:L12041\/Artigo3    lex:temConteudo    "Art. 3o  A implementação do disposto nesta Lei observará o previsto no art. 169 da Constituição Federal e as normas pertinentes da Lei Complementar no 101, de 4 de maio de 2000." .
+lex:L12041\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12041    lex:temArtigo    lex:L12041\/Artigo4 .
+lex:L12041\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12041\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo48 .
+lex:L12041\/Artigo3    lex:remetePara    lex:Constituiçao\/Artigo169 .
+lex:L12041\/Artigo3    lex:remetePara    lex:Lcp101 .

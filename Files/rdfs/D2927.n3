@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2927    lex:ehUm    lex:DocLegal .
+lex:D2927    lex:temTextoIntegral    lex:HTMLs\/D2927.htm .
+lex:D2927\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D2927    lex:temInciso    lex:D2927\/IncisoD .
+lex:D2927\/IncisoD    lex:temConteudo    "D E C R E T A:" .
+lex:D2927\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2927    lex:temInciso    lex:D2927\/IncisoI .
+lex:D2927\/IncisoI    lex:temConteudo    "I   da extinta Secretaria de Assuntos Estratégicos da Presidência da República para:" .
+lex:D2927\/IncisoI\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D2927\/IncisoI    lex:temIncisoAlinea    lex:D2927\/IncisoI\/IncisoAlineaO .
+lex:D2927\/IncisoI\/IncisoAlineaO    lex:temConteudo    "a) o Gabinete do Ministro Extraordinário de Projetos Especiais, um DAS 101.5;" .
+lex:D2927\/IncisoI\/IncisoAlineaO\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D2927\/IncisoI\/IncisoAlineaO    lex:temIncisoAlinea    lex:D2927\/IncisoI\/IncisoAlineaO\/IncisoAlineaA .
+lex:D2927\/IncisoI\/IncisoAlineaO\/IncisoAlineaA    lex:temConteudo    "b) a Secretaria de Gestão do Ministério do Orçamento e Gestão, dois cargos de Natureza Especial e dois DAS 101.6;" .
+lex:D2927\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2927    lex:temInciso    lex:D2927\/IncisoII .
+lex:D2927\/IncisoII    lex:temConteudo    "II   da Secretaria de Gestão do Ministério do Orçamento e Gestão para o Gabinete do Ministro Extraordinário de Projetos Especiais, três DAS 102.5." .
+lex:D2927\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2927    lex:temParagrafo    lex:D2927\/ParagrafoUnico .
+lex:D2927\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os cargos remanejados para o Gabinete do Ministro Extraordinário de Projetos Especiais serão utilizados para dar suporte ao Ministro de Estado no desempenho de suas atribuições, devendo retornar à disposição da Secretaria de Gestão do Ministério do Orçamento e Gestão ao término da missão conferida a seus titulares." .
+lex:D2927\/Texto00006    lex:remetePara    lex:index .

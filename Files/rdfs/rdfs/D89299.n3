@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D89299    lex:ehUm    lex:DocLegal .
+lex:D89299    lex:temTextoIntegral    lex:HTMLs\/D89299.htm .
+lex:D89299\/AlineaAmostras    lex:ehUm    lex:Alinea .
+lex:D89299    lex:temAlinea    lex:D89299\/AlineaAmostras .
+lex:D89299\/AlineaAmostras    lex:temConteudo    "a) amostras de mercadorias e material publicitÃ¡rio para promoÃ§Ãµes e nÃ£o destinados Ã  venda;" .
+lex:D89299\/AlineaObjetos    lex:ehUm    lex:Alinea .
+lex:D89299    lex:temAlinea    lex:D89299\/AlineaObjetos .
+lex:D89299\/AlineaObjetos    lex:temConteudo    "b) objetos e mercadorias destinados Ã  exibiÃ§Ã£o em feiras e exposiÃ§Ãµes internacionais que sejam realizadas no territÃ³rio das Partes Contratantes;" .
+lex:D89299\/AlineaProdutos    lex:ehUm    lex:Alinea .
+lex:D89299    lex:temAlinea    lex:D89299\/AlineaProdutos .
+lex:D89299\/AlineaProdutos    lex:temConteudo    "c) produtos e mercadorias importados sob o regime de admissÃ£o temporÃ¡ria." .

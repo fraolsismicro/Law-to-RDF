@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5398    lex:ehUm    lex:DocLegal .
+lex:L5398    lex:temTextoIntegral    lex:HTMLs\/L5398.htm .
+lex:L5398\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5398    lex:temArtigo    lex:L5398\/Artigo1 .
+lex:L5398\/Artigo1    lex:temConteudo    "Art. 1º. É acrescentado ao artigo 2º do Decreto-lei nº 132, de 1 de fevereiro de 1967, um parágrafo, com a seguinte redação:" .
+lex:L5398\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5398    lex:temArtigo    lex:L5398\/Artigo2 .
+lex:L5398\/Artigo2    lex:temConteudo    "Art. 2º. As condições de ingresso no Instituto Militar de Engenharia dos Oficiais das Armas e do Quadro de Material Bélico, não amparados pelo artigo 2º do Decreto-lei nº 132, de 1 de fevereiro de 1967, serão, reguladas pelo Poder Executivo, consideradas as necessidades e interêsses do Exército." .
+lex:L5398\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5398    lex:temArtigo    lex:L5398\/Artigo3 .
+lex:L5398\/Artigo3    lex:temConteudo    "Art. 3º. ...VETADO..." .
+lex:L5398\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5398    lex:temArtigo    lex:L5398\/Artigo4 .
+lex:L5398\/Artigo4    lex:temConteudo    "Art. 4º. A presente Lei entra em vigor na data da sua publicação." .
+lex:L5398\/Texto    lex:revogadoPor    lex:L6265\/Artigo37 .
+lex:L6265\/Artigo37    lex:revogou    lex:L5398\/Texto .
+lex:L5398\/Artigo1    lex:remetePara    lex:Del0132 .
+lex:L5398\/Texto00001    lex:remetePara    lex:Del0132\/Artigo2 .
+lex:L5398\/Artigo2    lex:remetePara    lex:Del0132\/Artigo2 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5116    lex:ehUm    lex:DocLegal .
+lex:D5116    lex:temTextoIntegral    lex:HTMLs\/D5116.htm .
+lex:D5116\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5116    lex:temArtigo    lex:D5116\/Artigo1 .
+lex:D5116\/Artigo1    lex:temConteudo    "Art. 1o  Para o ingresso na categoria funcional de Perito Criminal Federal do Quadro Permanente do Departamento de Polícia Federal do Ministério da Justiça, de que trata o inciso VIII do art. 7o do Decreto-Lei no 2.320, de 26 de janeiro de 1987, é necessário ser possuidor de diploma de graduação de um dos cursos superiores de Química, Química Industrial, Física, Geologia, Farmácia, Ciências Contábeis, Ciências Biológicas, Engenharia Civil, Engenharia Ambiental, Engenharia Elétrica, Engenharia Eletrônica, Engenharia de Redes de Comunicação, Engenharia Mecânica, Engenharia Mecatrônica, Engenharia Química, Engenharia Agronômica, Engenharia Florestal, Engenharia Cartográfica, Engenharia de Minas, Medicina Veterinária, Ciências da Computação, Processamento de Dados, Análise de Sistemas, Informática, Sistemas de Informação, Engenharia da Computação, Engenharia de Telecomunicações, Biomedicina, Medicina, Odontologia e Ciências Econômicas." .
+lex:D5116\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5116    lex:temArtigo    lex:D5116\/Artigo2 .
+lex:D5116\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5116\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5116    lex:temArtigo    lex:D5116\/Artigo3 .
+lex:D5116\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 3.902, de 30 de agosto de 2001." .
+lex:D5116\/Artigo1    lex:remetePara    lex:Del2320\/Artigo7 .
+lex:D5116\/Artigo3    lex:remetePara    lex:D3902\/Artigo3 .

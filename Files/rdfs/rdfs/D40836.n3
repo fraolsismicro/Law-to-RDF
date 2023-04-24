@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D40836    lex:ehUm    lex:DocLegal .
+lex:D40836    lex:temTextoIntegral    lex:HTMLs\/D40836.htm .
+lex:D40836\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D40836    lex:temArtigo    lex:D40836\/Artigo1A .
+lex:D40836\/Artigo1A    lex:temConteudo    "Art. 1Âº Ã declarado luto oficial, em todo o pais, por 3 dias, a partir desta data, em sinal de pesar pelo falecimento do ex-presidente da RepÃºblica JosÃ© Linhares." .
+lex:D40836\/Texto    lex:revogadoPor    lex:D0011 .
+lex:D0011    lex:revogou    lex:D40836\/Texto .
+lex:D40836\/Texto    lex:remetePara    lex:D10954 .

@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4958    lex:ehUm    lex:DocLegal .
+lex:D4958    lex:temTextoIntegral    lex:HTMLs\/D4958.htm .
+lex:D4958\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoI .
+lex:D4958\/IncisoI    lex:temConteudo    "I - CORPO DA ARMADA - Quadro de Oficiais da Armada (CA):" .
+lex:D4958\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoII .
+lex:D4958\/IncisoII    lex:temConteudo    "II - CORPO DE FUZILEIROS NAVAIS - Quadro de Oficiais Fuzileiros Navais (FN):" .
+lex:D4958\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoIII .
+lex:D4958\/IncisoIII    lex:temConteudo    "III - CORPO DE INTENDENTES DA MARINHA - Quadro de Oficiais Intendentes da Marinha (IM):" .
+lex:D4958\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoIV .
+lex:D4958\/IncisoIV    lex:temConteudo    "IV - CORPO DE ENGENHEIROS DA MARINHA (EN):" .
+lex:D4958\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoV .
+lex:D4958\/IncisoV    lex:temConteudo    "V - CORPO DE SAÚDE DA MARINHA:" .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoV    lex:temIncisoAlinea    lex:D4958\/IncisoV\/IncisoAlineaQuadro .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Médicos (MD):" .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões-Dentistas (CD):" .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4958\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Apoio à Saúde (S):" .
+lex:D4958\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4958    lex:temInciso    lex:D4958\/IncisoVI .
+lex:D4958\/IncisoVI    lex:temConteudo    "VI - CORPO AUXILIAR DA MARINHA:" .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoVI    lex:temIncisoAlinea    lex:D4958\/IncisoVI\/IncisoAlineaQuadro .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro Técnico (T):" .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Capelães Navais (CN):" .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro Auxiliar da Armada (AA):" .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4958\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "d) Quadro Auxiliar de Fuzileiros Navais (AFN):" .
+lex:D4958\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4958    lex:temArtigo    lex:D4958\/Artigo2 .
+lex:D4958\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4958\/Texto    lex:remetePara    lex:L6880\/Artigo61 .
+lex:D4958\/Artigo1    lex:remetePara    lex:L6880\/Artigo100 .

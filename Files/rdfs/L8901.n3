@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8901    lex:ehUm    lex:DocLegal .
+lex:L8901    lex:temTextoIntegral    lex:HTMLs\/L8901.htm .
+lex:L8901\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8901    lex:temArtigo    lex:L8901\/Artigo1 .
+lex:L8901\/Artigo1    lex:temConteudo    "Art. 1º O art. 11 do Decreto-Lei nº 227, de 28 de fevereiro de 1967, passa a vigorar com a seguinte redação:" .
+lex:L8901\/Artigo1\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L8901\/Artigo1    lex:temAlinea    lex:L8901\/Artigo1\/AlineaO .
+lex:L8901\/Artigo1\/AlineaO    lex:temConteudo    "b) o direito à participação do proprietário do solo nos resultados da lavra." .
+lex:L8901\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8901\/Artigo1    lex:temParagrafo    lex:L8901\/Artigo1\/Paragrafo1 .
+lex:L8901\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A participação de que trata a alínea b do caput deste artigo será de cinqüenta por cento do valor total devido aos Estados, Distrito Federal, Municípios e órgãos da administração direta da União, a título de compensação financeira pela exploração de recursos minerais, conforme previsto no caput do art. 6º da Lei nº 7.990, de 29 de dezembro de 1989 e no art. 2º da Lei nº 8.001, de 13 de março de 1990." .
+lex:L8901\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8901\/Artigo1    lex:temParagrafo    lex:L8901\/Artigo1\/Paragrafo2 .
+lex:L8901\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O pagamento da participação do proprietário do solo nos resultados da lavra de recursos minerais será efetuado mensalmente, até o último dia útil do mês subseqüente ao do fato gerador, devidamente corrigido pela taxa de juros de referência, ou outro parâmetro que venha a substituí-la." .
+lex:L8901\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8901\/Artigo1    lex:temParagrafo    lex:L8901\/Artigo1\/Paragrafo3 .
+lex:L8901\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O não cumprimento do prazo estabelecido no parágrafo anterior implicará correção do débito pela variação diária da taxa de juros de referência, ou outro parâmetro que venha a substituí-la, juros de mora de um por cento ao mês e multa de dez por cento aplicada sobre o montante apurado.'" .
+lex:L8901\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8901    lex:temArtigo    lex:L8901\/Artigo2 .
+lex:L8901\/Artigo2    lex:temConteudo    "Art. 2º O art. 79 do Decreto-Lei nº 227, de 28 de fevereiro de 1967, passa vigorar com a seguinte redação:" .
+lex:L8901\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8901\/Artigo2    lex:temParagrafo    lex:L8901\/Artigo2\/Paragrafo2 .
+lex:L8901\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º O controle efetivo da firma ou sociedade a que se refere este artigo deverá estar em caráter permanente sob a titularidade direta de pessoas físicas domiciliadas e residentes no País ou de entidades de direito público interno, entendendo-se por controle efetivo da empresa a titularidade da maioria de seu capital votante e o exercício, de fato ou de direito, do poder decisório para gerir suas atividades." .
+lex:L8901\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8901\/Artigo2    lex:temParagrafo    lex:L8901\/Artigo2\/Paragrafo3 .
+lex:L8901\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º A firma individual só poderá ser constituída por brasileiros.'" .
+lex:L8901\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8901    lex:temArtigo    lex:L8901\/Artigo3 .
+lex:L8901\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8901\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8901    lex:temArtigo    lex:L8901\/Artigo4 .
+lex:L8901\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L8901\/Artigo1\/AlineaO    lex:remetePara    lex:Del0227\/Artigo11 .
+lex:L8901\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del0227\/Artigo11\/Paragrafo1 .
+lex:L8901\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del0227\/Artigo11\/Paragrafo2 .
+lex:L8901\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0227\/Artigo11\/Paragrafo3 .
+lex:L8901\/Texto00006    lex:remetePara    lex:Del0227\/Artigo79 .
+lex:L8901\/Artigo2\/Paragrafo2    lex:remetePara    lex:Del0227\/Artigo79\/Paragrafo2 .
+lex:L8901\/Artigo2\/Paragrafo3    lex:remetePara    lex:Del0227\/Artigo79\/Paragrafo3 .

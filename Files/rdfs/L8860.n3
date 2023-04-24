@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8860    lex:ehUm    lex:DocLegal .
+lex:L8860    lex:temTextoIntegral    lex:HTMLs\/L8860.htm .
+lex:L8860\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8860    lex:temArtigo    lex:L8860\/Artigo1 .
+lex:L8860\/Artigo1    lex:temConteudo    "Art. 1º O art. 458 da Consolidação das Leis do Trabalho (CLT) passa a vigorar com as seguintes alterações:" .
+lex:L8860\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8860\/Artigo1    lex:temParagrafo    lex:L8860\/Artigo1\/Paragrafo3 .
+lex:L8860\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A habitação e a alimentação fornecidas como salário-utilidade deverão atender aos fins a que se destinam e não poderão exceder, respectivamente, a 25% (vinte e cinco por cento) e 20% (vinte por cento) do salário contratual." .
+lex:L8860\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L8860\/Artigo1    lex:temParagrafo    lex:L8860\/Artigo1\/Paragrafo4 .
+lex:L8860\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Tratando-se de habitação coletiva, o valor do salário-utilidade a ela correspondente será obtido mediante a divisão do justo valor da habitação pelo número de co-ocupantes, vedada, em qualquer hipótese, a utilização da mesma unidade residencial por mais de uma família.'" .
+lex:L8860\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8860    lex:temArtigo    lex:L8860\/Artigo2 .
+lex:L8860\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L8860\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8860    lex:temArtigo    lex:L8860\/Artigo3 .
+lex:L8860\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L8860\/Texto00001    lex:remetePara    lex:Del5452\/Artigo458 .
+lex:L8860\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del5452\/Artigo458\/Paragrafo3 .

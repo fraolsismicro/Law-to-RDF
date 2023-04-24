@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6746    lex:ehUm    lex:DocLegal .
+lex:D6746    lex:temTextoIntegral    lex:HTMLs\/D6746.htm .
+lex:D6746\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6746    lex:temArtigo    lex:D6746\/Artigo1 .
+lex:D6746\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 6o e 10 do Decreto no 5.474, de 22 de junho de 2005, passam a vigorar com a seguinte redação:" .
+lex:D6746\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6746\/Artigo1    lex:temInciso    lex:D6746\/Artigo1\/IncisoIV .
+lex:D6746\/Artigo1\/IncisoIV    lex:temConteudo    "IV - hipoteca de outras embarcações;" .
+lex:D6746\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6746\/Artigo1    lex:temInciso    lex:D6746\/Artigo1\/IncisoV .
+lex:D6746\/Artigo1\/IncisoV    lex:temConteudo    "V - fundo de aval; e" .
+lex:D6746\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6746\/Artigo1    lex:temInciso    lex:D6746\/Artigo1\/IncisoVI .
+lex:D6746\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Fundo de Garantia para a Construção Naval - FGCN, nos termos do inciso III do § 2o do art. 4o da Lei no 11.786, de 25 de setembro de 2008. (NR)" .
+lex:D6746\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6746    lex:temArtigo    lex:D6746\/Artigo2 .
+lex:D6746\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6746\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6746    lex:temArtigo    lex:D6746\/Artigo3 .
+lex:D6746\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o parágrafo único do art. 6o do Decreto no 5.474, 22 de junho de 2005." .
+lex:D6746\/Artigo1\/IncisoIV    lex:remetePara    lex:D5474\/Artigo6 .
+lex:D6746\/Artigo1\/Texto00004    lex:remetePara    lex:D5474\/Artigo10 .
+lex:D6746\/Artigo3    lex:remetePara    lex:D5474\/Artigo6 .

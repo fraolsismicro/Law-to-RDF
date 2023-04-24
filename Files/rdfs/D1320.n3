@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1320    lex:ehUm    lex:DocLegal .
+lex:D1320    lex:temTextoIntegral    lex:HTMLs\/D1320.htm .
+lex:D1320\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1320    lex:temArtigo    lex:D1320\/Artigo1 .
+lex:D1320\/Artigo1    lex:temConteudo    "Art. 1º O Tratado de Auxílio Mútuo em Matéria Penal, firmado entre o Governo da República Federativa do Brasil e o Governo da República Portuguesa, em Brasília, em 7 de maio de 1991, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D1320\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1320    lex:temArtigo    lex:D1320\/Artigo2 .
+lex:D1320\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1320\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaO .
+lex:D1320\/Artigo2\/AlineaO    lex:temConteudo    "a) o pedido respeita a uma infração política ou com ela conexa;" .
+lex:D1320\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaO .
+lex:D1320\/Artigo2\/AlineaO    lex:temConteudo    "b) o cumprimento do pedido ofende a sua soberania, segurança, ordem pública ou qualquer outro seu interesse essencial;" .
+lex:D1320\/Artigo2\/AlineaExistem    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaExistem .
+lex:D1320\/Artigo2\/AlineaExistem    lex:temConteudo    "c) existem fundadas razões para concluir que o pedido de auxílio foi formulado para facilitar a perseguição de uma pessoa em virtude da sua raça, sexo, religião, nacionalidade ou convicções políticas, ou que a situação dessa pessoa possa ser prejudicada por qualquer dessas razões;" .
+lex:D1320\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaO .
+lex:D1320\/Artigo2\/AlineaO    lex:temConteudo    "d) o cumprimento do pedido ofende os direitos e liberdades fundamentais da pessoa humana." .
+lex:D1320\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaA .
+lex:D1320\/Artigo2\/AlineaA    lex:temConteudo    "a) a presença da pessoa detida for necessária num processo penal em curso no território da Parte requerida;" .
+lex:D1320\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaA .
+lex:D1320\/Artigo2\/AlineaA    lex:temConteudo    "b) a transferência puder implicar o prolongamento da precisão preventiva ou provisória." .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D1320\/Artigo2\/AlineaA    lex:temItem    lex:D1320\/Artigo2\/AlineaA\/ItemA .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:temConteudo    "3. A Parte requerente manterá em detenção a pessoa transferida e entregá-la-á à Parte requerida dentro do período fixado por esta, ou quando o comparecimento da pessoa já não for necessário." .
+lex:D1320\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaA .
+lex:D1320\/Artigo2\/AlineaA    lex:temConteudo    "a) a presença da pessoa detida for necessária num processo penal em curso no território da Parte requerida;" .
+lex:D1320\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaA .
+lex:D1320\/Artigo2\/AlineaA    lex:temConteudo    "b) a transferência puder implicar o prolongamento da precisão preventiva ou provisória." .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D1320\/Artigo2\/AlineaA    lex:temItem    lex:D1320\/Artigo2\/AlineaA\/ItemA .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:temConteudo    "3. A Parte requerente manterá em detenção e pessoa transferida e entregá-la à Parte requerida dentro do período fixado por esta, ou quando o comparecimento da pessoa já não for necessário." .
+lex:D1320\/Artigo2\/AlineaA\/ItemO    lex:ehUm    lex:Item .
+lex:D1320\/Artigo2\/AlineaA    lex:temItem    lex:D1320\/Artigo2\/AlineaA\/ItemO .
+lex:D1320\/Artigo2\/AlineaA\/ItemO    lex:temConteudo    "4. O tempo em que a pessoa estiver fora do território da Parte requerida é computado para efeitos de prisão preventiva ou provisória, ou de cumprimento de pena ou medida de segurança." .
+lex:D1320\/Artigo2\/AlineaA\/ItemQuando    lex:ehUm    lex:Item .
+lex:D1320\/Artigo2\/AlineaA    lex:temItem    lex:D1320\/Artigo2\/AlineaA\/ItemQuando .
+lex:D1320\/Artigo2\/AlineaA\/ItemQuando    lex:temConteudo    "5. Quando a pena imposta a uma pessoa, transferida nos termos deste artigo, expirar enquanto ela se encontrar no território da Parte requerente, será a mesma posta em liberdade passando, a partir de então, a gozar do estatuto de pessoa não detida para os efeitos do presente Tratado." .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D1320\/Artigo2\/AlineaA    lex:temItem    lex:D1320\/Artigo2\/AlineaA\/ItemA .
+lex:D1320\/Artigo2\/AlineaA\/ItemA    lex:temConteudo    "6. A pessoa detida que não der o seu consentimento para prestar declarações nos termos deste artigo, não ficará sujeita, por esta razão, a qualquer sanção nem será submetida a qualquer medida cominatória." .
+lex:D1320\/Artigo2\/AlineaIndenizacoes    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaIndenizacoes .
+lex:D1320\/Artigo2\/AlineaIndenizacoes    lex:temConteudo    "a) indenizações, remuneração e despesas relativas ao transporte de pessoas nos termos do artigo 8 e despesas respeitantes ao transporte de pessoas detidas nos termos de artigo 9." .
+lex:D1320\/Artigo2\/AlineaSubsidios    lex:ehUm    lex:Alinea .
+lex:D1320\/Artigo2    lex:temAlinea    lex:D1320\/Artigo2\/AlineaSubsidios .
+lex:D1320\/Artigo2\/AlineaSubsidios    lex:temConteudo    "b) subsídios e despesas resultantes do transporte de funcionários prisionais ou da escolta; e" .

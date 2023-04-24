@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12254    lex:ehUm    lex:DocLegal .
+lex:L12254    lex:temTextoIntegral    lex:HTMLs\/L12254.htm .
+lex:L12254\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo1 .
+lex:L12254\/Artigo1    lex:temConteudo    "Art. 1o  Os benefícios mantidos pela Previdência Social serão reajustados, a partir de 1o de janeiro de 2010, em 7,72% (sete inteiros e setenta e dois centésimos por cento)." .
+lex:L12254\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12254\/Artigo1    lex:temParagrafo    lex:L12254\/Artigo1\/ParagrafoUnico .
+lex:L12254\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os benefícios concedidos pela Previdência Social a partir de 1o de março de 2009, o reajuste de que trata o caput dar-se-á de acordo com os percentuais indicados no Anexo desta Lei." .
+lex:L12254\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo2 .
+lex:L12254\/Artigo2    lex:temConteudo    "Art. 2o  A partir de 1o de janeiro de 2010, o limite máximo do salário de contribuição e do salário de benefício será de R$ 3.467,40 (três mil, quatrocentos e sessenta e sete reais e quarenta centavos)." .
+lex:L12254\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo3 .
+lex:L12254\/Artigo3    lex:temConteudo    "Art. 3o  Em cumprimento ao § 4o do art. 201 da Constituição Federal, no exercício de 2010, aplica-se, para todos os fins, o reajuste concedido por esta Lei." .
+lex:L12254\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12254\/Artigo3    lex:temParagrafo    lex:L12254\/Artigo3\/ParagrafoUnico .
+lex:L12254\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os exercícios seguintes, com vistas à preservação do valor real dos benefícios, volta a vigorar o disposto no art. 41-A da Lei no 8.213, de 24 de julho de 1991, salvo disposição em contrário." .
+lex:L12254\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo4 .
+lex:L12254\/Artigo4    lex:temConteudo    "Art. 4o  Para os benefícios majorados devido à elevação do salário mínimo em 2010, o referido aumento deverá ser compensado no momento da aplicação do disposto nesta Lei, de acordo com normas a serem estabelecidas pelo Ministério da Previdência Social." .
+lex:L12254\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo5 .
+lex:L12254\/Artigo5    lex:temConteudo    "Art. 5o  (VETADO)" .
+lex:L12254\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L12254    lex:temArtigo    lex:L12254\/Artigo6 .
+lex:L12254\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12254\/Texto    lex:remetePara    lex:_Quadro20Geral\/475-09 .
+lex:L12254\/Artigo3    lex:remetePara    lex:Constituiçao\/Artigo201\/Paragrafo4 .
+lex:L12254\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L8213cons\/Artigo41 .

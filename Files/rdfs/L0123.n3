@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0123    lex:ehUm    lex:DocLegal .
+lex:L0123    lex:temTextoIntegral    lex:HTMLs\/L0123.htm .
+lex:L0123\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0123    lex:temArtigo    lex:L0123\/Artigo1 .
+lex:L0123\/Artigo1    lex:temConteudo    "Art. 1.º Fica o Poder Executivo autorizado a abrir pelo Ministerio da Viação e Obras Publicas o credito supplementar de 5.600:000$000 (cinco mil e seiscentos contos de réis), á sub-consignação n. 8, consignação I   Pessoal, da verba 2ª, Correios e Telegraphos, do referido ministerio na lei orçamentaria em vigor." .
+lex:L0123\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0123    lex:temArtigo    lex:L0123\/Artigo2 .
+lex:L0123\/Artigo2    lex:temConteudo    "Art. 2.º Revogam-se as dispocições em contrario." .

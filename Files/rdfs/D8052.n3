@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8052    lex:ehUm    lex:DocLegal .
+lex:D8052    lex:temTextoIntegral    lex:HTMLs\/D8052.htm .
+lex:D8052\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8052    lex:temArtigo    lex:D8052\/Artigo1 .
+lex:D8052\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 3.937, de 25 de setembro de 2001, passa a vigorar com as seguintes alterações:" .
+lex:D8052\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo1 .
+lex:D8052\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O SCE poderá ser utilizado por exportadores, instituições financeiras e agências de crédito à exportação que financiem, refinanciem ou garantam a produção de bens e a prestação de serviços destinados à exportação brasileira, e as exportações brasileiras de bens e serviços." .
+lex:D8052\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo2 .
+lex:D8052\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Nas operações destinadas ao setor aeronáutico, em que a análise do risco recair sobre pessoa jurídica diversa do devedor da operação de crédito à exportação, o SCE poderá garantir os riscos comerciais, políticos e extraordinários a ela relacionados, nos termos deste Decreto. (NR)" .
+lex:D8052\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8052\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8052\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D8052\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - decretada a falência ou deferido o processamento da recuperação judicial do devedor ou outro ato de efeito equivalente, de acordo com a legislação do país do devedor;" .
+lex:D8052\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo1 .
+lex:D8052\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Não se aplica o prazo estabelecido no inciso I do caput às operações destinadas ao setor aeronáutico." .
+lex:D8052\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo2 .
+lex:D8052\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Nas operações destinadas ao setor aeronáutico, as situações de insolvência previstas nos incisos II e III do caput poderão ser aplicadas à pessoa jurídica que tenha sido objeto da análise de risco, ainda que não seja devedora do contrato garantido, desde que responsável por assegurar o fluxo de recursos destinados ao pagamento do contrato." .
+lex:D8052\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo3 .
+lex:D8052\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º A pessoa jurídica de que trata o § 2 º, para os fins nele previstos e em relação a cada aeronave financiada, poderá ser empresa aérea arrendatária ou subarrendatária, empresa de arrendamento mercantil, empresa que atue como garantidora de uma das anteriores ou outra pessoa jurídica que participe da operação. (NR)" .
+lex:D8052\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo3 .
+lex:D8052\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Nas operações destinadas ao setor aeronáutico, as situações previstas nos incisos III e V do caput poderão ser aplicadas à pessoa jurídica que tenha sido objeto da análise de risco, ainda que não seja devedora do contrato garantido, desde que responsável por assegurar o fluxo de recursos destinados ao pagamento do contrato." .
+lex:D8052\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8052\/Artigo1    lex:temParagrafo    lex:D8052\/Artigo1\/Paragrafo4 .
+lex:D8052\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4 º Para fins do disposto no § 3 º a pessoa jurídica nele mencionada, em relação a cada aeronave financiada, poderá ser empresa aérea arrendatária ou subarrendatária, empresa de arrendamento mercantil, empresa que atue como garantidora de uma das anteriores ou outra pessoa jurídica que participe da operação. (NR)" .
+lex:D8052\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8052    lex:temArtigo    lex:D8052\/Artigo2 .
+lex:D8052\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8052\/Artigo1    lex:remetePara    lex:D3937 .
+lex:D8052\/Artigo1\/Paragrafo1    lex:remetePara    lex:D3937\/Artigo1\/Paragrafo1 .
+lex:D8052\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:remetePara    lex:D3937\/Artigo2 .
+lex:D8052\/Artigo1\/Paragrafo1    lex:remetePara    lex:D3937\/Artigo2\/Paragrafo1 .
+lex:D8052\/Artigo1\/Paragrafo3    lex:remetePara    lex:D3937\/Artigo3\/Paragrafo3 .

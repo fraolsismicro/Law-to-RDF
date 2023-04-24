@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5162    lex:ehUm    lex:DocLegal .
+lex:D5162    lex:temTextoIntegral    lex:HTMLs\/D5162.htm .
+lex:D5162\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5162    lex:temArtigo    lex:D5162\/Artigo1 .
+lex:D5162\/Artigo1    lex:temConteudo    "Art. 1º Fica fixado em 0,73 o coeficiente de redução das alíquotas da Contribuição para o PIS/PASEP e da Contribuição para o Financiamento da Seguridade Social - COFINS, previstas no art. 51, inciso II, alínea 'a', da Lei n o 10.833, de 29 de dezembro de 2003, incidentes na comercialização no mercado interno e na importação de embalagens para água (TIPI 22.01) classificadas no código 3923.30.00 da TIPI, com capacidade nominal igual ou superior a 10 (dez) litros." .
+lex:D5162\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5162    lex:temArtigo    lex:D5162\/Artigo2 .
+lex:D5162\/Artigo2    lex:temConteudo    "Art. 2º As alíquotas da contribuição para o PIS/PASEP e da COFINS de que trata o art. 51, inciso II, alínea 'a', da Lei n o 10.833, de 2003, com a utilização do coeficiente determinado no art. 1º , aplicáveis às garrafas e garrafões classificados no código 3923.30.00 da TIPI, com capacidade nominal igual ou superior a 10 (dez) litros, ficam reduzidas, respectivamente, para R$ 0,0046 (quarenta e seis décimos de milésimo do real) e R$ 0,0212 (duzentos e doze décimos de milésimo do real) por litro de capacidade nominal de envasamento." .
+lex:D5162\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5162    lex:temArtigo    lex:D5162\/Artigo5 .
+lex:D5162\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto entra em vigor na data de sua publicação, produzindo efeitos em relação aos fatos geradores ocorridos a partir de 1º de agosto de 2004." .
+lex:D5162\/Artigo1    lex:remetePara    lex:L10833\/Artigo51 .
+lex:D5162\/Artigo2    lex:remetePara    lex:L10833\/Artigo51 .
+lex:D5162\/Artigo3    lex:remetePara    lex:L10833\/Artigo52 .
+lex:D5162\/Artigo3    lex:revogadoPor    lex:D6707\/Artigo49 .
+lex:D6707\/Artigo49    lex:revogou    lex:D5162\/Artigo3 .
+lex:D5162\/Artigo3    lex:remetePara    lex:D6707\/Artigo48 .
+lex:D5162\/Artigo3    lex:remetePara    lex:L10833\/Artigo52 .
+lex:D5162\/Artigo3    lex:revogadoPor    lex:D6707\/Artigo49 .
+lex:D6707\/Artigo49    lex:revogou    lex:D5162\/Artigo3 .
+lex:D5162\/Artigo3    lex:remetePara    lex:D6707\/Artigo48 .

@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6795    lex:ehUm    lex:DocLegal .
+lex:D6795    lex:temTextoIntegral    lex:HTMLs\/D6795.htm .
+lex:D6795\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D6795    lex:temInciso    lex:D6795\/IncisoD .
+lex:D6795\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D6795\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6795    lex:temArtigo    lex:D6795\/Artigo1 .
+lex:D6795\/Artigo1    lex:temConteudo    "Art. 1o  Este Decreto regulamenta o art. 23 da Lei no 10.671, de 15 de maio de 2003, no que concerne ao controle das condições sanitárias e de segurança dos estádios a serem utilizados em competições desportivas." .
+lex:D6795\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6795    lex:temArtigo    lex:D6795\/Artigo2 .
+lex:D6795\/Artigo2    lex:temConteudo    "Art. 2o  A entidade responsável pela organização da competição apresentará ao Ministério Público dos Estados e do Distrito Federal, previamente à sua realização, os laudos técnicos expedidos pelos órgãos e autoridades competentes pela vistoria das condições de segurança dos estádios a serem utilizados." .
+lex:D6795\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6795\/Artigo2    lex:temParagrafo    lex:D6795\/Artigo2\/Paragrafo1 .
+lex:D6795\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os laudos técnicos, que atestarão a real capacidade de público dos estádios, bem como suas condições de segurança, serão os seguintes:" .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6795\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - laudo de segurança;" .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6795\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - laudo de vistoria de engenharia;" .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6795\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - laudo de prevenção e combate de incêndio; e" .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D6795\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D6795\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - laudo de condições sanitárias e de higiene." .
+lex:D6795\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6795\/Artigo2    lex:temParagrafo    lex:D6795\/Artigo2\/Paragrafo2 .
+lex:D6795\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Na hipótese de o estádio ser considerado excepcional por seu vulto, complexidade ou antecedentes ou sempre que indicado no laudo de vistoria de engenharia, será exigida a apresentação de laudo de estabilidade estrutural, na forma estabelecida pelo Ministério do Esporte." .
+lex:D6795\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6795\/Artigo2    lex:temParagrafo    lex:D6795\/Artigo2\/Paragrafo3 .
+lex:D6795\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  O Ministério do Esporte estabelecerá, em até cento e vinte dias a partir da vigência deste Decreto, os requisitos mínimos que deverão ser contemplados nos laudos técnicos previstos nos §§ 1o e 2o e indicará as autoridades competentes para emiti-los." .
+lex:D6795\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6795    lex:temArtigo    lex:D6795\/Artigo3 .
+lex:D6795\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6795\/Artigo1    lex:remetePara    lex:L10671\/Artigo23 .

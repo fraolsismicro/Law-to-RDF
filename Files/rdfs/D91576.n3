@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91576    lex:ehUm    lex:DocLegal .
+lex:D91576    lex:temTextoIntegral    lex:HTMLs\/D91576.htm .
+lex:D91576\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D91576    lex:temArtigo    lex:D91576\/Artigo1 .
+lex:D91576\/Artigo1    lex:temConteudo    "Art. 1º Os artigos 2º e 3º do Decreto nº 87.009, de 15 de março de 1982, que instituiu a Ordem Honorífica, denominada ORDEM DO MÉRITO DAS COMUNICAÇÕES, passam a vigorar com a seguinte redação:" .
+lex:D91576\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D91576\/Artigo1    lex:temParagrafo    lex:D91576\/Artigo1\/ParagrafoUnico .
+lex:D91576\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As nomeações e promoções para os diferentes graus serão feitas pelo Presidente da República, mediante proposta do Chanceler da Ordem." .
+lex:D91576\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D91576    lex:temArtigo    lex:D91576\/Artigo3 .
+lex:D91576\/Artigo3    lex:temConteudo    "Art. 3º Fica instituída, para premiar outros serviços de relevância, uma medalha de prata, denominada 'Medalha do Mérito das Comunicações', que será regulamentada pelo Ministro das Comunicações, na qualidade de Chanceler da Ordem, e entregue no dia 25 de fevereiro de cada ano, data da criação do Ministério das Comunicações, na conformidade do respectivo Regulamento.'" .
+lex:D91576\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D91576    lex:temArtigo    lex:D91576\/Artigo2 .
+lex:D91576\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D91576\/Texto00001    lex:remetePara    lex:D87009\/Artigo2 .
+lex:D91576\/Artigo3    lex:remetePara    lex:D87009\/Artigo3 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2923    lex:ehUm    lex:DocLegal .
+lex:L2923    lex:temTextoIntegral    lex:HTMLs\/L2923.htm .
+lex:L2923\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2923    lex:temArtigo    lex:L2923\/Artigo1 .
+lex:L2923\/Artigo1    lex:temConteudo    "Art. 1º É revigorado o Inciso IX, do § 6º, do Art. 178, da Lei nº 3.071, de 1º de janeiro de 1916 (Código Civil)." .
+lex:L2923\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L2923\/Artigo1    lex:temParagrafo    lex:L2923\/Artigo1\/Paragrafo6 .
+lex:L2923\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º ................................................................................................................................" .
+lex:L2923\/Artigo1\/Paragrafo6\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:L2923\/Artigo1\/Paragrafo6    lex:temParagrafoInciso    lex:L2923\/Artigo1\/Paragrafo6\/ParagrafoIncisoIX .
+lex:L2923\/Artigo1\/Paragrafo6\/ParagrafoIncisoIX    lex:temConteudo    "IX - A ação dos médicos, cirurgiões ou farmacêuticos, por suas visitas, operações ou medicamentos, contado o prazo da data do último serviço prestado." .
+lex:L2923\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2923    lex:temArtigo    lex:L2923\/Artigo2 .
+lex:L2923\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2923\/Artigo1\/Paragrafo6\/ParagrafoIncisoIX    lex:remetePara    lex:L3071\/Artigo178\/Paragrafo6ix .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D60321    lex:ehUm    lex:DocLegal .
+lex:D60321    lex:temTextoIntegral    lex:HTMLs\/D60321.htm .
+lex:D60321\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D60321    lex:temArtigo    lex:D60321\/Artigo1 .
+lex:D60321\/Artigo1    lex:temConteudo    "Art. 1º Fica o Instituto Nacional de Previdência Social autorizado a fazer a doação:" .
+lex:D60321\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D60321\/Artigo1    lex:temInciso    lex:D60321\/Artigo1\/IncisoI .
+lex:D60321\/Artigo1\/IncisoI    lex:temConteudo    "I - aos Estados e Municípios, das obras de loteamento e urbanização, das instalações de serviços públicos de água, esgotos e eletricidade, áreas correspondentes aos logradouros públicos, bem como dos imóveis e instalações constituídos ou utilizados, nos conjuntos residenciais, para fins sociais, assistenciais, educativos ou desportivos:" .
+lex:D60321\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D60321\/Artigo1    lex:temInciso    lex:D60321\/Artigo1\/IncisoII .
+lex:D60321\/Artigo1\/IncisoII    lex:temConteudo    "II - às entidades civis, religiosas, ou filantrópicas, sem finalidade lucrativa e de atendimento geral, legalmente autorizadas a funcionar, consideradas de utilidade pública, dos templos, das unidades escolares e assistenciais e das praças de esportes e dos respectivos terrenos de que já sejam usuários, utilizados e construídos especificamente para a prestação de assistência social, religiosa ou educativa." .
+lex:D60321\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D60321    lex:temArtigo    lex:D60321\/Artigo2 .
+lex:D60321\/Artigo2    lex:temConteudo    "Art. 2º As doações feitas na forma do inciso II do art. 1º serão efetivadas com cláusula de reversão, automática e de pleno direito, ao patrimônio do Instituto Nacional de previdência Social, a qualquer tempo, nas hipóteses de mudança da destinação do imóvel não atendimento das finalidades da doação, ou falta de prosseguimento das atividades da donatária, bem como de que esta não terá direito de retenção ou indenização por benfeitorias ou obras porventura realizadas no bem doado. (Vide Lei nº 5.940, de 1973)" .
+lex:D60321\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D60321    lex:temArtigo    lex:D60321\/Artigo3 .
+lex:D60321\/Artigo3    lex:temConteudo    "Art. 3º Correrão por conta da donatária tôdas as despesas necessárias a efetivação da doação ou dela decorrentes.  (Vide Lei nº 5.940, de 1973)" .
+lex:D60321\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D60321    lex:temArtigo    lex:D60321\/Artigo4 .
+lex:D60321\/Artigo4    lex:temConteudo    "Art. 4º Caberá ao Departamento Nacional da Previdência Social baixar instruções ou resolver dúvidas que sejam suscitadas na execução do presente decreto." .
+lex:D60321\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D60321    lex:temArtigo    lex:D60321\/Artigo5 .
+lex:D60321\/Artigo5    lex:temConteudo    "Art. 5º O presente decreto entra em vigor na data de sua publicação." .
+lex:D60321\/Artigo5\/IncisoL    lex:ehUm    lex:Inciso .
+lex:D60321\/Artigo5    lex:temInciso    lex:D60321\/Artigo5\/IncisoL .
+lex:D60321\/Artigo5\/IncisoL    lex:temConteudo    "L. G. do Nascimento e Silva" .
+lex:D60321\/Artigo2    lex:remetePara    lex:L5940\/Artigo2 .
+lex:D60321\/Artigo3    lex:remetePara    lex:L5940\/Artigo2 .

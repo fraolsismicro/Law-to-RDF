@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0689    lex:ehUm    lex:DocLegal .
+lex:D0689    lex:temTextoIntegral    lex:HTMLs\/D0689.htm .
+lex:D0689\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0689    lex:temArtigo    lex:D0689\/Artigo1 .
+lex:D0689\/Artigo1    lex:temConteudo    "Art. 1º São transformados cargos em comissão e funções de confiança do Ministério do Trabalho, de conformidade com o anexo a este decreto." .
+lex:D0689\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0689    lex:temArtigo    lex:D0689\/Artigo2 .
+lex:D0689\/Artigo2    lex:temConteudo    "Art. 2º Até que seja aprovada a Estrutura Regimental do Ministério do Trabalho, são transferidos:" .
+lex:D0689\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0689\/Artigo2    lex:temInciso    lex:D0689\/Artigo2\/IncisoI .
+lex:D0689\/Artigo2\/IncisoI    lex:temConteudo    "I - os cargos em comissão, salvo os referidos no anexo a este decreto, alterando-se a denominação do cargo de Diretor de Departamento para Secretário-Adjunto, as competências e as atribuições dos titulares:" .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0689\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:temConteudo    "a) do Departamento Nacional de Formação Profissional para a Secretaria de Formação e Desenvolvimento Profissional;" .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "b) do Departamento Nacional de Emprego para a Secretaria de Política de Emprego e Salário;" .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do Departamento Nacional de Relações do Trabalho para a Secretaria de Relações do Trabalho;" .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "d) do Departamento Nacional de Segurança e Saúde do Trabalhador para a Secretaria de Segurança e Saúde do Trabalho;" .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D0689\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "e) do Departamento Nacional de Fiscalização do Trabalho para a Secretaria de Fiscalização do Trabalho;" .
+lex:D0689\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0689\/Artigo2    lex:temInciso    lex:D0689\/Artigo2\/IncisoII .
+lex:D0689\/Artigo2\/IncisoII    lex:temConteudo    "II - os cargos em comissão e as Funções Gratificadas da Secretaria Nacional do Trabalho e da Representação Regional da Administração Federal, salvo os referidos no anexo a este decreto e no inciso anterior, para o Gabinete do Ministro;" .
+lex:D0689\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0689\/Artigo2    lex:temInciso    lex:D0689\/Artigo2\/IncisoIII .
+lex:D0689\/Artigo2\/IncisoIII    lex:temConteudo    "III - as atribuições do Secretário Nacional do Trabalho para o Secretário-Executivo do Ministério do Trabalho." .
+lex:D0689\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0689    lex:temArtigo    lex:D0689\/Artigo3 .
+lex:D0689\/Artigo3    lex:temConteudo    "Art. 3º Vincula-se ao Ministério do Trabalho a Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho FUNDACENTRO." .
+lex:D0689\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0689    lex:temArtigo    lex:D0689\/Artigo4 .
+lex:D0689\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .

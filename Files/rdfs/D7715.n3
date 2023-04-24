@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7715    lex:ehUm    lex:DocLegal .
+lex:D7715    lex:temTextoIntegral    lex:HTMLs\/D7715.htm .
+lex:D7715\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7715    lex:temArtigo    lex:D7715\/Artigo1 .
+lex:D7715\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 5.602, de 6 de dezembro de 2005, passa a vigorar com as seguintes alterações:" .
+lex:D7715\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoIV .
+lex:D7715\/Artigo1\/IncisoIV    lex:temConteudo    "IV - teclado (unidade de entrada) e mouse (unidade de entrada) classificados, respectivamente, nos códigos 8471.60.52 e 8471.60.53 da TIPI, quando vendidos juntamente com unidade de processamento digital com as características do inciso I do caput;" .
+lex:D7715\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoV .
+lex:D7715\/Artigo1\/IncisoV    lex:temConteudo    "V - modems, classificados nos códigos 8517.62.55, 8517.62.62 ou 8517.62.72 da TIPI; e" .
+lex:D7715\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoVI .
+lex:D7715\/Artigo1\/IncisoVI    lex:temConteudo    "VI - máquinas automáticas de processamento de dados, portáteis, sem teclado, que tenham uma unidade central de processamento com entrada e saída de dados por meio de uma tela sensível ao toque de área superior a 140 cm2 e inferior a 600 cm2, e que não possuam função de comando remoto (Tablet PC) classificadas na subposição 8471.41 da TIPI." .
+lex:D7715\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoIII .
+lex:D7715\/Artigo1\/IncisoIII    lex:temConteudo    "III - R$ 4.000,00 (quatro mil reais), no caso dos sistemas contendo unidade de processamento digital, monitor, teclado e mouse de que trata o inciso III do caput do art. 1o;" .
+lex:D7715\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoIV .
+lex:D7715\/Artigo1\/IncisoIV    lex:temConteudo    "IV - R$ 2.100,00 (dois mil e cem reais), no caso de venda conjunta de unidade de processamento digital, teclado e mouse, na forma do inciso IV do caput do art. 1o;" .
+lex:D7715\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoV .
+lex:D7715\/Artigo1\/IncisoV    lex:temConteudo    "V - R$ 150,00 (cento e cinquenta reais), no caso do inciso V do caput do art. 1o; e" .
+lex:D7715\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7715\/Artigo1    lex:temInciso    lex:D7715\/Artigo1\/IncisoVI .
+lex:D7715\/Artigo1\/IncisoVI    lex:temConteudo    "VI - R$ 2.500,00 (dois mil e quinhentos reais), no caso do inciso VI do caput do art. 1o. (NR)" .
+lex:D7715\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7715\/Artigo1    lex:temParagrafo    lex:D7715\/Artigo1\/ParagrafoUnico .
+lex:D7715\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nas notas fiscais emitidas pelo produtor, pelo atacadista e pelo varejista relativas às vendas dos produtos de que trata o caput, deverá constar a expressão Produto fabricado conforme processo produtivo básico, com a especificação do ato que aprova o processo produtivo básico respectivo. (NR)" .
+lex:D7715\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7715    lex:temArtigo    lex:D7715\/Artigo2 .
+lex:D7715\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7715\/Artigo1\/IncisoIV    lex:remetePara    lex:D5602\/Artigo1 .
+lex:D7715\/Artigo1\/IncisoIII    lex:remetePara    lex:D5602\/Artigo2 .
+lex:D7715\/Artigo1\/IncisoIV    lex:remetePara    lex:D5602\/Artigo2 .
+lex:D7715\/Artigo1\/Texto00008    lex:remetePara    lex:D5602\/Artigo2 .

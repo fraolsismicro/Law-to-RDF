@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5985    lex:ehUm    lex:DocLegal .
+lex:D5985    lex:temTextoIntegral    lex:HTMLs\/D5985.htm .
+lex:D5985\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5985    lex:temArtigo    lex:D5985\/Artigo1 .
+lex:D5985\/Artigo1    lex:temConteudo    "Art. 1o  A Decisão no 24/05, do Conselho do Mercado Comum do Mercosul, que aprova o Regulamento do Fundo para a Convergência Estrutural e Fortalecimento Institucional do Mercosul - FOCEM, adotada em Montevidéu, em 8 de dezembro de 2005, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D5985\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5985    lex:temArtigo    lex:D5985\/Artigo2 .
+lex:D5985\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5985\/Texto    lex:remetePara    lex:D5969 .

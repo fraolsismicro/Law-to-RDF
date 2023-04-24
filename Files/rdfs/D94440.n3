@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94440    lex:ehUm    lex:DocLegal .
+lex:D94440    lex:temTextoIntegral    lex:HTMLs\/D94440.htm .
+lex:D94440\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94440    lex:temArtigo    lex:D94440\/Artigo1 .
+lex:D94440\/Artigo1    lex:temConteudo    "Art. 1º Fica declarada de utilidade pública, para fins de desapropriação pelo Departamento Nacional de Obras de Saneamento (DNOS), uma área de terras e benfeitorias de 335.300 hectares, no povoado de São Roque, Município de São Bento, Estado do Maranhão, destinada à implantação do Projeto Demonstrativo de Irrigação, representada pelo polígono a seguir descrito:" .
+lex:D94440\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94440    lex:temArtigo    lex:D94440\/Artigo2 .
+lex:D94440\/Artigo2    lex:temConteudo    "Art. 2º Fica o Departamento Nacional de Obras de Saneamento (DNOS) autorizado a promover a desapropriação da área de terra e benfeitorias, referidas no artigo anterior, na forma da legislação vigente, com seus próprios recursos." .
+lex:D94440\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94440\/Artigo2    lex:temParagrafo    lex:D94440\/Artigo2\/ParagrafoUnico .
+lex:D94440\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos termos do artigo 15 do Decreto-lei nº 3.365, de 21 de junho de 1941, modificado pela Lei nº 2.786, de 21 de maio de 1956, a desapropriação é declarada de caráter urgente, para efeito de imediata imissão na posse." .
+lex:D94440\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94440    lex:temArtigo    lex:D94440\/Artigo3 .
+lex:D94440\/Artigo3    lex:temConteudo    "Art. 3º Ficam excluídas da declaração constante do artigo 1º deste Decreto as áreas e benfeitorias do domínio da União, do Estado do Maranhão e do Município de São Bento, existentes na área atingida pela desapropriação." .
+lex:D94440\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94440    lex:temArtigo    lex:D94440\/Artigo4 .
+lex:D94440\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação, revoga-se as disposições em contrário." .
+lex:D94440\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:Del3365\/Artigo15 .
+lex:D94440\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L2786 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2959    lex:ehUm    lex:DocLegal .
+lex:Del2959    lex:temTextoIntegral    lex:HTMLs\/Del2959.htm .
+lex:Del2959\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2959    lex:temArtigo    lex:Del2959\/Artigo1 .
+lex:Del2959\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1 de janeiro do corrente ano, fazem jus, com as limitações do art. 2º deste decreto-lei, à vantagem prevista no art. 73 do Código de Vencimentos e Vantagens dos Militares do Exército, os militares da ativa que servirem:" .
+lex:Del2959\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2959    lex:temArtigo    lex:Del2959\/Artigo2 .
+lex:Del2959\/Artigo2    lex:temConteudo    "Art. 2º O militar, em serviço nas guarnições contempladas no artigo anterior, que ocupe próprio nacional como residência, perde, em benefício do Estado:" .
+lex:Del2959\/Artigo2\/AlineaDois    lex:ehUm    lex:Alinea .
+lex:Del2959\/Artigo2    lex:temAlinea    lex:Del2959\/Artigo2\/AlineaDois .
+lex:Del2959\/Artigo2\/AlineaDois    lex:temConteudo    "a) dois terços da quota em apreço quando sediado em:" .
+lex:Del2959\/Artigo2\/AlineaMetade    lex:ehUm    lex:Alinea .
+lex:Del2959\/Artigo2    lex:temAlinea    lex:Del2959\/Artigo2\/AlineaMetade .
+lex:Del2959\/Artigo2\/AlineaMetade    lex:temConteudo    "b) metade em :" .
+lex:Del2959\/Artigo2\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:Del2959\/Artigo2    lex:temAlinea    lex:Del2959\/Artigo2\/AlineaUm .
+lex:Del2959\/Artigo2\/AlineaUm    lex:temConteudo    "c) um quarto em:" .
+lex:Del2959\/Artigo2\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:Del2959\/Artigo2    lex:temAlinea    lex:Del2959\/Artigo2\/AlineaUm .
+lex:Del2959\/Artigo2\/AlineaUm    lex:temConteudo    "d) um décimo em :" .
+lex:Del2959\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2959\/Artigo2    lex:temParagrafo    lex:Del2959\/Artigo2\/ParagrafoUnico .
+lex:Del2959\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A idênticas reduções fica sujeito o militar que, em virtude de Plano de Distribuição de Casas, organizado pelo Comandante da Região Militar e aprovado pelo Ministro da Guerra, tenha direito, a próprio nacional para residência e, por conveniência pessoal, não o ocupe." .
+lex:Del2959\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2959    lex:temArtigo    lex:Del2959\/Artigo3 .
+lex:Del2959\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:Del2959\/Artigo1    lex:remetePara    lex:Del2186\/Artigo73 .

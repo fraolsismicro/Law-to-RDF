@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1583    lex:ehUm    lex:DocLegal .
+lex:D1583    lex:temTextoIntegral    lex:HTMLs\/D1583.htm .
+lex:D1583\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1583    lex:temArtigo    lex:D1583\/Artigo1 .
+lex:D1583\/Artigo1    lex:temConteudo    "Art. 1º O empenho de despesas à conta de dotações consignadas na Lei nº 8.980, de 19 de janeiro de 1995, no âmbito do Poder Executivo, fica condicionado, até 30 de setembro de 1995, aos limites estabelecidos no Anexo deste Decreto." .
+lex:D1583\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1583\/Artigo1    lex:temParagrafo    lex:D1583\/Artigo1\/ParagrafoUnico .
+lex:D1583\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Excluem-se do disposto neste artigo:" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D1583\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temConteudo    "a) as dotações orçamentárias custeadas à conta de recursos do Tesouro Nacional, relativas à realização de despesas com:" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemTransferencias    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemTransferencias .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemTransferencias    lex:temConteudo    "1. transferências constitucionais a Estados, Distrito Federal e Municípios, aos Fundos de Financiamento do Norte, Nordeste e Centro-Oeste e ao Fundo de Amparo ao Trabalhador - FAT;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemCota-parte    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemCota-parte .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemCota-parte    lex:temConteudo    "2. cota-parte dos Estados e do Distrito Federal do salário-educação;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDivida    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDivida .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDivida    lex:temConteudo    "3. dívida pública interna e externa;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemPessoal    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemPessoal .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemPessoal    lex:temConteudo    "4. pessoal e encargos sociais;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemOperacoes    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemOperacoes .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemOperacoes    lex:temConteudo    "5. operações oficiais de créditos;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemBeneficios    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemBeneficios .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemBeneficios    lex:temConteudo    "6. benefícios previdenciários;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDoacoes    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDoacoes .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemDoacoes    lex:temConteudo    "7. doações;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemAquisicao    lex:ehUm    lex:Item .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temItem    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemAquisicao .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs\/ItemAquisicao    lex:temConteudo    "8. aquisição de garantias previstas no acordo de renegociação da dívida externa;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D1583\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temConteudo    "b) as dotações orçamentárias programadas à conta de recursos de outras fontes, cuja execução fica à efetiva arrecadação no período;" .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D1583\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs .
+lex:D1583\/Artigo1\/ParagrafoUnico\/AlineaAs    lex:temConteudo    "c) as dotações orçamentárias programadas à conta de contrapartida e de ingresso de recursos externos de empréstimos, oriundos de organismos financeiros multilaterais e agências governamentais estrangeiras de crédito." .
+lex:D1583\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1583    lex:temArtigo    lex:D1583\/Artigo2 .
+lex:D1583\/Artigo2    lex:temConteudo    "Art. 2º Os limites, a que se refere o Anexo a este Decreto, incorporam as autorizações já concedidas, especificamente pelos Decretos nºs 1.385, 1.429, 1.439, 1.454, 1.460, 1.486, 1.513, 1.521, 1.537, 1.552 e 1.554, de 6 de fevereiro de 1995, de 29 de março 1995, de 4 de abril de 1995, de 13 de abril de 1995, de 25 de abril de 1995, de 9 de maio de 1995, de 2 de junho de 1995, de 13 de junho de 1995, de 27 de junho de 1995, de 11 de julho de 1995, e de 13 de julho de 1995, respectivamente, e pelas Portarias nºs 34, 84, 87, e 95, de 3 de março de 1995, de 11 de abril de 1995, de 12 de abril de 1995 e de 26 de abril de 1995, respectivamente." .
+lex:D1583\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1583    lex:temArtigo    lex:D1583\/Artigo3 .
+lex:D1583\/Artigo3    lex:temConteudo    "Art. 3º Os saldos orçamentários, remanescentes dos limites fixados no Anexo a este Decreto, serão incorporados, automaticamente, ao período subseqüente." .
+lex:D1583\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1583    lex:temArtigo    lex:D1583\/Artigo4 .
+lex:D1583\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1583\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1583    lex:temArtigo    lex:D1583\/Artigo5 .
+lex:D1583\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se os Decretos nºs 1.486, de 9 de maio de 1995, 1.513, de 2 de junho de 1995, 1.521, de 13 de junho de 1995, e 1.552, de 11 de julho de 1995,e 1.554, de 13 de julho de 1995." .

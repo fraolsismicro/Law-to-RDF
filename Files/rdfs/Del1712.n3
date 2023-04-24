@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1712    lex:ehUm    lex:DocLegal .
+lex:Del1712    lex:temTextoIntegral    lex:HTMLs\/Del1712.htm .
+lex:Del1712\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1712    lex:temArtigo    lex:Del1712\/Artigo1 .
+lex:Del1712\/Artigo1    lex:temConteudo    "Art. 1º As contribuições previstas no artigo 3º do Decreto-lei nº 308, de 28 de fevereiro de 1967, incidirão exclusivamente sobre a saída do açúcar ou do álcool da unidade produtora.   (Redação dada pelo Decreto-lei nº 1.952, de 1982)   (Vide Lei nº 8.522, de 1992)" .
+lex:Del1712\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1712\/Artigo1    lex:temParagrafo    lex:Del1712\/Artigo1\/Paragrafo1 .
+lex:Del1712\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Equipara-se à saída destinação do açúcar ou do álcool para qualquer fim dentro da mesma unidade produtora, exceto quando destinados a beneficiamento.  (Incluído pelo Decreto-lei nº 1.952, de 1982)" .
+lex:Del1712\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1712\/Artigo1    lex:temParagrafo    lex:Del1712\/Artigo1\/Paragrafo2 .
+lex:Del1712\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Nos casos em que houver saída do açúcar ou do álcool para depósito de segunda saída ou para armazém de entidade constituída por grupo de produtores para comercialização de seus produtos, ficará suspensa a incidência prevista neste artigo, que somente ocorrerá quando houver saída desses produtos para terceiros.   (Incluído pelo Decreto-lei nº 1.952, de 1982)" .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1712\/Artigo1    lex:temParagrafo    lex:Del1712\/Artigo1\/Paragrafo3 .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O recolhimento das contribuições sobre açúcar e álcool pela unidade produtora ou por entidade constituída por grupo de produtores para comercialização de seus produtos será feito obrigatoriamente até o último dia do mês subseqüente ao da sua incidência, sob pena de aplicação das sanções estabelecidas nos parágrafos 2º, 3º a 4º do art. 6º do Decreto-lei nº 308, de 28 de fevereiro de 1967.   (Incluído pelo Decreto-lei nº 1.952, de 1982)" .
+lex:Del1712\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1712    lex:temArtigo    lex:Del1712\/Artigo2 .
+lex:Del1712\/Artigo2    lex:temConteudo    "Art. 2º A contribuição sobre o álcool incidirá sobre o produto obtido de qualquer tipo de matéria-prima, excluído o álcool combustível.  (Redação dada pelo Decreto-lei nº 1.952, de 1982)" .
+lex:Del1712\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1712    lex:temArtigo    lex:Del1712\/Artigo3 .
+lex:Del1712\/Artigo3    lex:temConteudo    "Art. 3º Mediante proposta do Ministro da Indústria e do Comércio, o Conselho Monetário Nacional estabelecerá os percentuais das contribuições de que trata este Decreto-lei, observado o limite máximo de 20% (vinte por cento) do valor dos preços oficiais do açúcar e do álcool, considerando os tipos destes produtos ou a sua destinação final.   (Redação dada pelo Decreto-lei nº 1.952, de 1982)" .
+lex:Del1712\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1712    lex:temArtigo    lex:Del1712\/Artigo4 .
+lex:Del1712\/Artigo4    lex:temConteudo    "Art. 4º - A receita proveniente da arrecadação das contribuições a que se refere este Decreto-lei será destinada ao Fundo Especial de Exportação, previsto no artigo 28 da Lei nº 4.870, de 1º de dezembro de 1965, para garantir ao produtor os preços oficiais do açúcar e do álcool e para atender ao custeio dos programas desenvolvidos pelo Instituto do Açúcar e do Álcool." .
+lex:Del1712\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1712    lex:temArtigo    lex:Del1712\/Artigo5 .
+lex:Del1712\/Artigo5    lex:temConteudo    "Art. 5º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1712\/Texto    lex:remetePara    lex:Del2471\/Artigo1 .
+lex:Del1712\/Artigo1    lex:remetePara    lex:Del0308\/Artigo3 .
+lex:Del1712\/Artigo1    lex:remetePara    lex:Del0056\/Artigo1 .
+lex:Del1712\/Artigo1    lex:remetePara    lex:Del0308\/Artigo3 .
+lex:Del1712\/Artigo1    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo1    lex:remetePara    lex:L8522\/Artigo1 .
+lex:Del1712\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0308\/Artigo6\/Paragrafo2 .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0308\/Artigo6\/Paragrafo3 .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0308\/Artigo6\/Paragrafo4 .
+lex:Del1712\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo2    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo3    lex:remetePara    lex:Del1952\/Artigo3 .
+lex:Del1712\/Artigo4    lex:remetePara    lex:l4870\/Artigo28 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8907    lex:ehUm    lex:DocLegal .
+lex:L8907    lex:temTextoIntegral    lex:HTMLs\/L8907.htm .
+lex:L8907\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8907    lex:temArtigo    lex:L8907\/Artigo1 .
+lex:L8907\/Artigo1    lex:temConteudo    "Art. 1º As escolas públicas e privadas, da rede de ensino do País, que obrigam o uso de uniformes aos seus alunos, não podem alterar o modelo de fardamento antes de transcorridos cinco anos de sua adoção." .
+lex:L8907\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8907    lex:temArtigo    lex:L8907\/Artigo2 .
+lex:L8907\/Artigo2    lex:temConteudo    "Art. 2º Os critérios para a escolha do uniforme escolar levarão em conta as condições econômicas do estudante e de sua família, bem como as condições de clima da localidade em que a escola funciona." .
+lex:L8907\/Artigo2\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L8907\/Artigo2    lex:temParagrafo    lex:L8907\/Artigo2\/ParagrafoO .
+lex:L8907\/Artigo2\/ParagrafoO    lex:temConteudo    "1º O uniforme a que se refere o caput só poderá conter, como inscrição gravada no tecido, o nome do estabelecimento." .
+lex:L8907\/Artigo2\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L8907\/Artigo2    lex:temParagrafo    lex:L8907\/Artigo2\/ParagrafoO .
+lex:L8907\/Artigo2\/ParagrafoO    lex:temConteudo    "2º O programa de fardamento escolar limita-se a alunos de turnos letivos diurnos." .
+lex:L8907\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8907    lex:temArtigo    lex:L8907\/Artigo3 .
+lex:L8907\/Artigo3    lex:temConteudo    "Art. 3º O descumprimento ao preceituado no art. 1º desta lei será punido com multas em valor correspondente a no mínimo trezentas Unidades Fiscais de Referência (Ufir) ou índice equivalente que venha a substituí-la." .
+lex:L8907\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8907\/Artigo3    lex:temParagrafo    lex:L8907\/Artigo3\/ParagrafoUnico .
+lex:L8907\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O procedimento administrativo da cobrança de multas observará o disposto no art. 57, e parágrafo, da Lei nº 8.078, de 11 de setembro de 1990." .
+lex:L8907\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8907    lex:temArtigo    lex:L8907\/Artigo4 .
+lex:L8907\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entra em vigor na data de sua publicação." .
+lex:L8907\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8907    lex:temArtigo    lex:L8907\/Artigo5 .
+lex:L8907\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L8907\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L8078\/Artigo57 .

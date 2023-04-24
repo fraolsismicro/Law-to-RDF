@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7665    lex:ehUm    lex:DocLegal .
+lex:D7665    lex:temTextoIntegral    lex:HTMLs\/D7665.htm .
+lex:D7665\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7665    lex:temArtigo    lex:D7665\/Artigo1 .
+lex:D7665\/Artigo1    lex:temConteudo    "Art. 1 º  O item a do Anexo II ao Decreto nº 7.462, de 19 de abril de 2011, passa a vigorar com as alterações do Anexo a este Decreto." .
+lex:D7665\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7665    lex:temArtigo    lex:D7665\/Artigo2 .
+lex:D7665\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor quatorze dias após a data de sua publicação." .
+lex:D7665\/Artigo1    lex:remetePara    lex:D7462\/ .

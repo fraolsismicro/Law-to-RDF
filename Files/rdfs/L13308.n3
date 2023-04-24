@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13308    lex:ehUm    lex:DocLegal .
+lex:L13308    lex:temTextoIntegral    lex:HTMLs\/L13308.htm .
+lex:L13308\/Artig    lex:ehUm    lex:Artigo .
+lex:L13308    lex:temArtigo    lex:L13308\/Artig .
+lex:L13308\/Artig    lex:temConteudo    "Art.  1o  O inciso IV do art. 2o, a alínea d do inciso I do art. 3o e o inciso I do § 1o do art. 52, todos da Lei no 11.445, de 5 de janeiro de 2007, passam a vigorar com a seguinte redação:" .
+lex:L13308\/Artig\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L13308\/Artig    lex:temInciso    lex:L13308\/Artig\/IncisoIV .
+lex:L13308\/Artig\/IncisoIV    lex:temConteudo    "IV - disponibilidade, em todas as áreas urbanas, de serviços de drenagem e manejo das águas pluviais, limpeza e fiscalização preventiva das respectivas redes, adequados à saúde pública e à segurança da vida e do patrimônio público e privado;" .
+lex:L13308\/Artig\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13308\/Artig    lex:temInciso    lex:L13308\/Artig\/IncisoI .
+lex:L13308\/Artig\/IncisoI    lex:temConteudo    "I - .................................................................................." .
+lex:L13308\/Artig\/IncisoI\/IncisoAlineaDrenagem    lex:ehUm    lex:IncisoAlinea .
+lex:L13308\/Artig\/IncisoI    lex:temIncisoAlinea    lex:L13308\/Artig\/IncisoI\/IncisoAlineaDrenagem .
+lex:L13308\/Artig\/IncisoI\/IncisoAlineaDrenagem    lex:temConteudo    "d) drenagem e manejo das águas pluviais, limpeza e fiscalização preventiva das respectivas redes urbanas: conjunto de atividades, infraestruturas e instalações operacionais de drenagem urbana de águas pluviais, de transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas nas áreas urbanas;" .
+lex:L13308\/Artig\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13308\/Artig    lex:temParagrafo    lex:L13308\/Artig\/Paragrafo1 .
+lex:L13308\/Artig\/Paragrafo1    lex:temConteudo    "§ 1o  ............................................................................" .
+lex:L13308\/Artig\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13308\/Artig\/Paragrafo1    lex:temParagrafoInciso    lex:L13308\/Artig\/Paragrafo1\/ParagrafoIncisoI .
+lex:L13308\/Artig\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I   abranger o abastecimento de água, o esgotamento sanitário, o manejo de resíduos sólidos e o manejo de águas pluviais, com limpeza e fiscalização preventiva das respectivas redes de drenagem, além de outras ações de saneamento básico de interesse para a melhoria da salubridade ambiental, incluindo o provimento de banheiros e unidades hidrossanitárias para populações de baixa renda;" .
+lex:L13308\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13308    lex:temArtigo    lex:L13308\/Artigo2 .
+lex:L13308\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13308\/Artig    lex:remetePara    lex:L11445 .
+lex:L13308\/Artig\/IncisoIV    lex:remetePara    lex:L11445\/Artigo2 .
+lex:L13308\/Artig\/IncisoI\/IncisoAlineaDrenagem    lex:remetePara    lex:L11445\/Artigo3 .
+lex:L13308\/Artig\/Paragrafo1\/ParagrafoIncisoI    lex:remetePara    lex:L11445\/Artigo52\/Paragrafo1i .

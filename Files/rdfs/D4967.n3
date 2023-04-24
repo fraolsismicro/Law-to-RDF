@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4967    lex:ehUm    lex:DocLegal .
+lex:D4967    lex:temTextoIntegral    lex:HTMLs\/D4967.htm .
+lex:D4967\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4967    lex:temInciso    lex:D4967\/IncisoI .
+lex:D4967\/IncisoI    lex:temConteudo    "I - OFICIAIS-GENERAIS" .
+lex:D4967\/ParagrafoTen    lex:ehUm    lex:Paragrafo .
+lex:D4967    lex:temParagrafo    lex:D4967\/ParagrafoTen .
+lex:D4967\/ParagrafoTen    lex:temConteudo    "1º Ten" .
+lex:D4967\/ParagrafoTen    lex:ehUm    lex:Paragrafo .
+lex:D4967    lex:temParagrafo    lex:D4967\/ParagrafoTen .
+lex:D4967\/ParagrafoTen    lex:temConteudo    "2º Ten" .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4967\/ParagrafoTen    lex:temParagrafoInciso    lex:D4967\/ParagrafoTen\/ParagrafoIncisoII .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoII    lex:temConteudo    "II - OFICIAIS DE CARREIRA" .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4967\/ParagrafoTen    lex:temParagrafoInciso    lex:D4967\/ParagrafoTen\/ParagrafoIncisoIII .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoIII    lex:temConteudo    "III - OFICIAIS TEMPORÁRIOS" .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4967\/ParagrafoTen    lex:temParagrafoInciso    lex:D4967\/ParagrafoTen\/ParagrafoIncisoIV .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoIV    lex:temConteudo    "IV - PRAÇAS   SUBTENENTES E SARGENTOS DE CARREIRA, SARGENTOS DO QUADRO ESPECIAL (QE) E SARGENTOS TEMPORÁRIOS" .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4967\/ParagrafoTen    lex:temParagrafoInciso    lex:D4967\/ParagrafoTen\/ParagrafoIncisoV .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoV    lex:temConteudo    "V - PRAÇAS - TAIFEIROS, CABOS E SOLDADOS (Redação dada pelo Decreto nº 5.170, de 2004)" .
+lex:D4967\/ParagrafoUnico    lex:remetePara    lex:L7150\/Artigo1\/Paragrafo2 .
+lex:D4967\/ParagrafoUnico    lex:remetePara    lex:L6923\/Artigo8 .
+lex:D4967\/ParagrafoTen\/ParagrafoIncisoV    lex:remetePara    lex:D5170\/Artigo1 .
+lex:D4967\/ParagrafoTen\/Texto00007    lex:remetePara    lex:D5170\/Artigo1 .

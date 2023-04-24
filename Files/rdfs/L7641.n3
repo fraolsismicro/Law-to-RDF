@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7641    lex:ehUm    lex:DocLegal .
+lex:L7641    lex:temTextoIntegral    lex:HTMLs\/L7641.htm .
+lex:L7641\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7641    lex:temArtigo    lex:L7641\/Artigo1 .
+lex:L7641\/Artigo1    lex:temConteudo    "Art. 1º O inciso IV do art. 19 do Decreto-lei nº 82, de 26 de dezembro de 1966, passa a vigorar com a seguinte redação:" .
+lex:L7641\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7641\/Artigo1    lex:temInciso    lex:L7641\/Artigo1\/IncisoI .
+lex:L7641\/Artigo1\/IncisoI    lex:temConteudo    "I - ..................................................................................................................................." .
+lex:L7641\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L7641\/Artigo1    lex:temInciso    lex:L7641\/Artigo1\/IncisoII .
+lex:L7641\/Artigo1\/IncisoII    lex:temConteudo    "II - .................................................................................................................................." .
+lex:L7641\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L7641\/Artigo1    lex:temInciso    lex:L7641\/Artigo1\/IncisoIII .
+lex:L7641\/Artigo1\/IncisoIII    lex:temConteudo    "III - ................................................................................................................................." .
+lex:L7641\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L7641\/Artigo1    lex:temInciso    lex:L7641\/Artigo1\/IncisoIV .
+lex:L7641\/Artigo1\/IncisoIV    lex:temConteudo    "IV - 0,30% (trinta centésimos por cento) quanto aos imóveis exclusivamente residenciais edificados, com Carta de Habite-se.'" .
+lex:L7641\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7641    lex:temArtigo    lex:L7641\/Artigo2 .
+lex:L7641\/Artigo2    lex:temConteudo    "Art. 2º Para o lançamento do Imposto Predial e Territorial Urbano (IPTU) do exercício de 1988, é aprovada a pauta de valores venais dos terrenos e edificações do Distrito Federal, na forma do anexo a esta Lei." .
+lex:L7641\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7641    lex:temArtigo    lex:L7641\/Artigo3 .
+lex:L7641\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7641\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7641    lex:temArtigo    lex:L7641\/Artigo4 .
+lex:L7641\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7641\/Artigo1\/IncisoIV    lex:remetePara    lex:Del0082\/Artigo19 .

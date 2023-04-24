@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0786    lex:ehUm    lex:DocLegal .
+lex:D0786    lex:temTextoIntegral    lex:HTMLs\/D0786.htm .
+lex:D0786\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0786    lex:temArtigo    lex:D0786\/Artigo1 .
+lex:D0786\/Artigo1    lex:temConteudo    "Art. 1° Fica revogada a Seção X do Capítulo VI do Decreto n° 724, de 19 de janeiro de 1993 (art. 58)." .
+lex:D0786\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0786    lex:temArtigo    lex:D0786\/Artigo2 .
+lex:D0786\/Artigo2    lex:temConteudo    "Art. 2° A participação das entidades de previdência ou assistência social, ou dos fundos de complementação previdenciária, vinculados à Administração direta ou indireta, nos processos de privatização dar-se-á na forma prevista na legislação e normas em vigor, observadas, inclusive, as Resoluções n°s 1.362, de 30 de julho de 1987, 1.858, de 28 de agosto de 1991, 1.893, de 9 de janeiro de 1992, e 1.947, de 29 de julho de 1992, todas do Banco Central do Brasil, e, especialmente, o item II alínea a da Resolução n° 1.362, de 30 de julho de 1987, alterada pela Resolução n° 1.893, de 9 de janeiro de 1992, que estabelece o limite de cinco por cento do montante dos recursos mencionados no item I da referida Resolução n° 1.362, de 1987, para as aplicações em ações de uma única sociedade, e não poderão representar mais que quinze por cento do capital votante ou vinte e cinco por cento do capital total da sociedade." .
+lex:D0786\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0786    lex:temArtigo    lex:D0786\/Artigo3 .
+lex:D0786\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0786\/Artigo1    lex:remetePara    lex:D0724\/ .

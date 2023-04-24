@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3700    lex:ehUm    lex:DocLegal .
+lex:D3700    lex:temTextoIntegral    lex:HTMLs\/D3700.htm .
+lex:D3700\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo1 .
+lex:D3700\/Artigo1    lex:temConteudo    "Art. 1o Os limites para movimentação e empenho de dotações e pagamento de despesas no exercício de 2000, constantes dos Anexos I, II, III, IV e V do Decreto nº 3.473, de 18 de maio de 2000, ficam alterados na forma dos Anexos I a X deste Decreto." .
+lex:D3700\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo2 .
+lex:D3700\/Artigo2    lex:temConteudo    "Art. 2o A demonstração da compatiblidade dos limites liberados para movimentação e empenho e pagamento com o cumprimento das metas de superávit primário estabelecidas, a que se refere o Anexo VIII do Decreto nº 3.473, de 2000, consta do Anexo XI deste Decreto, em substituição ao Anexo X do Dexreto nº 3.687, de 13 de dezembro de 2000." .
+lex:D3700\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo3 .
+lex:D3700\/Artigo3    lex:temConteudo    "Art. 3o Não se aplica aos valores constantes dos Anexos I a X deste Decreto o limite referido nos arts. 1º e 2º do Decreto nº 3.473, de 2000." .
+lex:D3700\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo4 .
+lex:D3700\/Artigo4    lex:temConteudo    "Art. 4o Fica liberado para movimentação e empenho pelo Ministério da Saúde, em programas estratégicos, o valor de R$ 77.000.000,00 (setenta e sete milhões de reais) acima do limite de noventa e seis por cento referido no art. 1º do Decreto nº 3.473, de 2000." .
+lex:D3700\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo5 .
+lex:D3700\/Artigo5    lex:temConteudo    "Art. 5o Os Ministros de Estado do Planejamento, Orçamento e Gestão e da Fazenda poderão, no âmbito de suas competências, reduzir os limites de que tratam os Anexos I, II, III, IV e V do Decreto nº 3.473, de 2000, e suas alterações, a fim de adequá-los às dotações orçamentárias aprovadas." .
+lex:D3700\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D3700    lex:temArtigo    lex:D3700\/Artigo6 .
+lex:D3700\/Artigo6    lex:temConteudo    "Art. 6o   Este Decreto entra em vigor na data de sua publicação." .
+lex:D3700\/Artigo1    lex:remetePara    lex:D3473 .
+lex:D3700\/Artigo2    lex:remetePara    lex:D3687 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97850    lex:ehUm    lex:DocLegal .
+lex:D97850    lex:temTextoIntegral    lex:HTMLs\/D97850.htm .
+lex:D97850\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97850    lex:temArtigo    lex:D97850\/Artigo1 .
+lex:D97850\/Artigo1    lex:temConteudo    "Art. 1º O parágrafo único do art. 3º do Decreto nº 91.237, de 8 de maio de 1985, passa a vigorar com a seguinte redação:" .
+lex:D97850\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D97850\/Artigo1    lex:temParagrafo    lex:D97850\/Artigo1\/ParagrafoUnico .
+lex:D97850\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os cronogramas de desembolso dos recursos relativos aos planos de aplicação de que trata o 'caput' deste artigo serão aprovados pela SEPLAN, com base em estimativas de arrecadação elaboradas pelo Ministério da Fazenda'." .
+lex:D97850\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97850    lex:temArtigo    lex:D97850\/Artigo2 .
+lex:D97850\/Artigo2    lex:temConteudo    "Art. 2º Os recursos já transferidos ao BNB e ao BASA serão restituídos ao Banco do Brasil S.A., no prazo de noventa dias, conforme cronograma a ser estabelecido pela SEPLAN." .
+lex:D97850\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D97850    lex:temArtigo    lex:D97850\/Artigo3 .
+lex:D97850\/Artigo3    lex:temConteudo    "Art. 3º Ficam revogados os arts. 1º e 2º do Decreto nº 91.237, de 1985." .
+lex:D97850\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D97850    lex:temArtigo    lex:D97850\/Artigo4 .
+lex:D97850\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .

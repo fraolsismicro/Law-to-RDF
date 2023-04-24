@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1131    lex:ehUm    lex:DocLegal .
+lex:D1131    lex:temTextoIntegral    lex:HTMLs\/D1131.htm .
+lex:D1131\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1131    lex:temArtigo    lex:D1131\/Artigo1 .
+lex:D1131\/Artigo1    lex:temConteudo    "Art. 1° O Vigésimo Terceiro Protocolo Adicional ao Acordo de Complementação Econômica n° 14, entre Brasil e Argentina, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D1131\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1131    lex:temArtigo    lex:D1131\/Artigo2 .
+lex:D1131\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .
+lex:D1131\/Artigo2\/AlineaVeiculo    lex:ehUm    lex:Alinea .
+lex:D1131\/Artigo2    lex:temAlinea    lex:D1131\/Artigo2\/AlineaVeiculo .
+lex:D1131\/Artigo2\/AlineaVeiculo    lex:temConteudo    "a) veículo de passageiros de qualquer peso e cilindrada e veículos de uso misto de até 1.500 kg de carga útil (item 87.02.1.99 da NALADI) - 35.000 UNIDADES." .
+lex:D1131\/Artigo2\/AlineaOnibus    lex:ehUm    lex:Alinea .
+lex:D1131\/Artigo2    lex:temAlinea    lex:D1131\/Artigo2\/AlineaOnibus .
+lex:D1131\/Artigo2\/AlineaOnibus    lex:temConteudo    "b) ônibus (item 87.02.2.99 da NALADI) e caminhões (item 87.01.2.01, 87.02.3.01 e 87.02.3.99 da NALADI) - 3.000 UNIDADES." .

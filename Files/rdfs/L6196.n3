@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6196    lex:ehUm    lex:DocLegal .
+lex:L6196    lex:temTextoIntegral    lex:HTMLs\/L6196.htm .
+lex:L6196\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6196    lex:temArtigo    lex:L6196\/Artigo1 .
+lex:L6196\/Artigo1    lex:temConteudo    "Art. 1º O artigo 28, da Lei nº 5.682, de 21 de julho de 1971 (Lei Orgânica dos Partidos Políticos), passa a ter a seguinte redação:" .
+lex:L6196\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6196    lex:temArtigo    lex:L6196\/Artigo2 .
+lex:L6196\/Artigo2    lex:temConteudo    "Art. 2º O parágrafo único do artigo 35, da Lei nº 5.682, de 21 de julho de 1971, passa a vigorar com a seguinte redação:" .
+lex:L6196\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6196\/Artigo2    lex:temParagrafo    lex:L6196\/Artigo2\/ParagrafoUnico .
+lex:L6196\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em cada Estado, o Tribunal Regional Eleitoral publicará, com 15 (quinze) dias, pelo menos, de antecedência, a relação dos municípios sob sua jurisdição e o número dos respectivos filiados que se encontram habilitados a participar das convenções partidárias para organização de diretório.'" .
+lex:L6196\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6196    lex:temArtigo    lex:L6196\/Artigo3 .
+lex:L6196\/Artigo3    lex:temConteudo    "Art. 3º O prazo de filiação partidária referido no artigo 30, da Lei número 5.682, de 21 de julho de 1971, com a redação que lhe deu a Lei número 5.697, do mesmo ano, é de 45 (quarenta e cinco) dias." .
+lex:L6196\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6196    lex:temArtigo    lex:L6196\/Artigo4 .
+lex:L6196\/Artigo4    lex:temConteudo    "Art. 4º Ficam prorrogados os mandatos dos atuais diretórios municipais, regionais e nacionais, bem como das respectivas comissões executivas, até a renovação prevista no artigo 1º desta Lei." .
+lex:L6196\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6196    lex:temArtigo    lex:L6196\/Artigo5 .
+lex:L6196\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6196\/Texto00001    lex:remetePara    lex:L5682\/Artigo28 .
+lex:L6196\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L5682\/Artigo35 .
+lex:L6196\/Artigo3    lex:remetePara    lex:L5682\/Artigo30 .

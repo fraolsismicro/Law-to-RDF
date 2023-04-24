@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1711    lex:ehUm    lex:DocLegal .
+lex:Del1711    lex:temTextoIntegral    lex:HTMLs\/Del1711.htm .
+lex:Del1711\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1711    lex:temArtigo    lex:Del1711\/Artigo1 .
+lex:Del1711\/Artigo1    lex:temConteudo    "Art. 1º - Fica autorizado o parcelamento do valor da Taxa Rodoviária única (TRU), devida anualmente por proprietário de veículo automotor, de conformidade com o Decreto-lei nº 999, de 21 de outubro de 1969, alterado pelo Decreto-lei nº 1.691, de 2 de agosto de 1979." .
+lex:Del1711\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1711\/Artigo1    lex:temParagrafo    lex:Del1711\/Artigo1\/Paragrafo1 .
+lex:Del1711\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - O parcelamento não será admitido quando o valor da TRU for igual ou inferior ao maior Valor de Referência vigente no país." .
+lex:Del1711\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1711\/Artigo1    lex:temParagrafo    lex:Del1711\/Artigo1\/Paragrafo2 .
+lex:Del1711\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Exceto para o registro inicial de veículo, feito nos meses de novembro e dezembro, o valor da TRU será divido em três parcelas." .
+lex:Del1711\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1711\/Artigo1    lex:temParagrafo    lex:Del1711\/Artigo1\/Paragrafo3 .
+lex:Del1711\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - No caso de renovação anual do licenciamento, a primeira parcela deverá ser recolhida até o 15º (décimo quinto) dia do mês correspondente ao algarismo final da placa de identificação do veículo e as demais, até o 15º (décimo quinto) dia dos meses subseqüentes. Facultar-se-á o recolhimento até o último dia útil do mês, se o pagamento for feito de uma só vez." .
+lex:Del1711\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del1711\/Artigo1    lex:temParagrafo    lex:Del1711\/Artigo1\/Paragrafo4 .
+lex:Del1711\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º - No caso de registro inicial, o pagamento da primeira parcela antecederá o registro." .
+lex:Del1711\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1711    lex:temArtigo    lex:Del1711\/Artigo2 .
+lex:Del1711\/Artigo2    lex:temConteudo    "Art. 2º - O atraso no pagamento de qualquer das quotas importará na aplicação de multa de 20% (vinte por cento) sobre o respectivo valor, acrescido de juros e correção monetária." .
+lex:Del1711\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1711    lex:temArtigo    lex:Del1711\/Artigo3 .
+lex:Del1711\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1 de janeiro de 1980, quando ficarão revogadas quaisquer disposições em contrário." .
+lex:Del1711\/Artigo1    lex:remetePara    lex:Del0999 .
+lex:Del1711\/Artigo1    lex:remetePara    lex:Del1691 .
+lex:Del1711\/Artigo1    lex:remetePara    lex:Del1691 .

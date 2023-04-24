@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92299    lex:ehUm    lex:DocLegal .
+lex:D92299    lex:temTextoIntegral    lex:HTMLs\/D92299.htm .
+lex:D92299\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D92299    lex:temInciso    lex:D92299\/IncisoII .
+lex:D92299\/IncisoII    lex:temConteudo    "II - QUADRO COMPLEMENTAR DO CORPO DE ENGENHEIROS E TÉCNICOS NAVAIS (QC-CETN)" .
+lex:D92299\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D92299    lex:temInciso    lex:D92299\/IncisoIII .
+lex:D92299\/IncisoIII    lex:temConteudo    "III - QUADRO COMPLEMENTAR DO CORPO DE INTENDENTES DA MARINHA (QC-CIM)" .
+lex:D92299\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D92299    lex:temInciso    lex:D92299\/IncisoIV .
+lex:D92299\/IncisoIV    lex:temConteudo    "IV - QUADRO COMPLEMENTAR DO CORPO DE FUZILEIROS NAVAIS (QC-CFN)" .
+lex:D92299\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D92299    lex:temParagrafo    lex:D92299\/ParagrafoUnico .
+lex:D92299\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As vagas resultantes do disposto neste artigo, fixadas com observância do estabelecido no artigo 2º e seus parágrafos da Lei nº 7.301, de 29 de março de 1985, serão preenchidas a critério do Ministro da Marinha." .
+lex:D92299\/Texto    lex:revogadoPor    lex:Dnn0004-91\/Artigo4 .
+lex:Dnn0004-91\/Artigo4    lex:revogou    lex:D92299\/Texto .
+lex:D92299\/Texto    lex:remetePara    lex:D92299imprenssao .

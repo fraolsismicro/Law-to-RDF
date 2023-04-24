@@ -1,0 +1,268 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7320    lex:ehUm    lex:DocLegal .
+lex:D7320    lex:temTextoIntegral    lex:HTMLs\/D7320.htm .
+lex:D7320\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo1 .
+lex:D7320\/Artigo1    lex:temConteudo    "Art. 1o  O Regime Especial de Incentivos para o Desenvolvimento de Infraestrutura da Indústria Petrolífera nas Regiões Norte, Nordeste e Centro-Oeste - REPENEC será aplicado na forma deste Decreto." .
+lex:D7320\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo2 .
+lex:D7320\/Artigo2    lex:temConteudo    "Art. 2o  É beneficiária do REPENEC a pessoa jurídica que tenha projeto aprovado para implantação de obras de infraestrutura nas Regiões Norte, Nordeste e Centro-Oeste, nos setores petroquímico, de refino de petróleo e de produção de amônia e ureia a partir do gás natural, para incorporação ao seu ativo imobilizado." .
+lex:D7320\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo3 .
+lex:D7320\/Artigo3    lex:temConteudo    "Art. 3o  O REPENEC suspende:" .
+lex:D7320\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo3    lex:temInciso    lex:D7320\/Artigo3\/IncisoI .
+lex:D7320\/Artigo3\/IncisoI    lex:temConteudo    "I - a exigência da Contribuição para o PIS/PASEP e da Contribuição para o Financiamento da Seguridade Social - COFINS incidentes sobre a receita, auferida pela pessoa jurídica vendedora, decorrente de:" .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda    lex:temConteudo    "a) venda de máquinas, aparelhos, instrumentos e equipamentos, novos, quando adquiridos por pessoa jurídica habilitada ao regime, para utilização ou incorporação nas obras referidas no art. 2o;" .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda    lex:temConteudo    "b) venda de materiais de construção, quando adquiridos por pessoa jurídica habilitada ao regime, para utilização ou incorporação nas obras referidas no art. 2o;" .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao    lex:temConteudo    "c) prestação de serviços, por pessoa jurídica estabelecida no País, à pessoa jurídica habilitada ao regime, quando destinados às obras referidas no art. 2o; e" .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao\/IncisoAlineaAluguel    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao\/IncisoAlineaAluguel .
+lex:D7320\/Artigo3\/IncisoI\/IncisoAlineaVenda\/IncisoAlineaVenda\/IncisoAlineaPrestacao\/IncisoAlineaAluguel    lex:temConteudo    "d) aluguel de máquinas, aparelhos, instrumentos e equipamentos para utilização nas obras referidas no art. 2o, quando contratado por pessoa jurídica habilitada ao regime;" .
+lex:D7320\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo3    lex:temInciso    lex:D7320\/Artigo3\/IncisoII .
+lex:D7320\/Artigo3\/IncisoII    lex:temConteudo    "II - o Imposto sobre Produtos Industrializados - IPI incidente na saída do estabelecimento industrial ou equiparado, quando a aquisição no mercado interno de bens referidos nas alíneas a e b do inciso I for efetuada por pessoa jurídica habilitada ao regime;" .
+lex:D7320\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo3    lex:temInciso    lex:D7320\/Artigo3\/IncisoIII .
+lex:D7320\/Artigo3\/IncisoIII    lex:temConteudo    "III - a exigência da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação incidentes sobre a importação de:" .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoIII    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas    lex:temConteudo    "a) máquinas, aparelhos, instrumentos e equipamentos, novos, quando importados por pessoa jurídica habilitada ao regime para utilização ou incorporação nas obras referidas no art. 2o;" .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais    lex:temConteudo    "b) materiais de construção, quando importados por pessoa jurídica habilitada ao regime para utilização ou incorporação nas obras referidas no art. 2o; e" .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais\/IncisoAlineaServicos    lex:ehUm    lex:IncisoAlinea .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais    lex:temIncisoAlinea    lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais\/IncisoAlineaServicos .
+lex:D7320\/Artigo3\/IncisoIII\/IncisoAlineaMaquinas\/IncisoAlineaMateriais\/IncisoAlineaServicos    lex:temConteudo    "c) serviços destinados às obras referidas no art. 2o, quando realizada diretamente por pessoa jurídica habilitada ao regime;" .
+lex:D7320\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo3    lex:temInciso    lex:D7320\/Artigo3\/IncisoIV .
+lex:D7320\/Artigo3\/IncisoIV    lex:temConteudo    "IV - o IPI incidente na importação de bens referidos nas alíneas a e b do inciso I, quando a importação for efetuada por pessoa jurídica habilitada ao regime; e" .
+lex:D7320\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo3    lex:temInciso    lex:D7320\/Artigo3\/IncisoV .
+lex:D7320\/Artigo3\/IncisoV    lex:temConteudo    "V - o Imposto de Importação quando os bens ou materiais de construção referidos nas alíneas a e b do inciso I forem importados por pessoa jurídica habilitada ao regime." .
+lex:D7320\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo3    lex:temParagrafo    lex:D7320\/Artigo3\/Paragrafo1 .
+lex:D7320\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Para efeito das alíneas a e b do inciso III e dos incisos IV e V, equipara-se ao importador a pessoa jurídica adquirente de bens estrangeiros, no caso de importação realizada por sua conta e ordem, por intermédio de pessoa jurídica importadora." .
+lex:D7320\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo3    lex:temParagrafo    lex:D7320\/Artigo3\/Paragrafo2 .
+lex:D7320\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  No caso do Imposto de Importação, a suspensão de que trata o inciso V somente se aplica quanto à importação de bens e materiais de construção para os quais não haja similar nacional." .
+lex:D7320\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo4 .
+lex:D7320\/Artigo4    lex:temConteudo    "Art. 4o  A suspensão de que trata o art. 3o pode ser usufruída nas aquisições, locações e importações de bens e nas aquisições e importações de serviços, vinculadas ao projeto aprovado, realizadas no período de cinco anos, contados da data da habilitação da pessoa jurídica titular do projeto de infraestrutura, nos termos do art. 9o." .
+lex:D7320\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo1 .
+lex:D7320\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1o  Para efeito do disposto no caput, considera-se adquirido no mercado interno ou importado o bem ou o serviço de que trata o art. 3o na data da contratação do negócio, independentemente da data do recebimento do bem ou da prestação do serviço." .
+lex:D7320\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo2 .
+lex:D7320\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o  O disposto no § 1o aplica-se quanto à locação de bens no mercado interno." .
+lex:D7320\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo3 .
+lex:D7320\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3o  Considera-se data da contratação do negócio a data de assinatura do contrato ou dos aditivos contratuais." .
+lex:D7320\/Artigo4\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo4 .
+lex:D7320\/Artigo4\/Paragrafo4    lex:temConteudo    "§ 4o  Na hipótese de transferência da titularidade de projeto de infraestratura, aprovado pelo Ministério de Minas e Energia nos termos do art. 7o, durante o período referido no caput, a habilitação do novo titular do projeto fica condicionada:" .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoI .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - à manutenção das características originais do projeto, conforme manifestação do Ministério de Minas e Energia;" .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoII .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - à observância do limite de prazo estipulado no caput, contado desde a habilitação do primeiro titular do projeto; e" .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D7320\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - à revogação da habilitação do antigo titular do projeto." .
+lex:D7320\/Artigo4\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo5 .
+lex:D7320\/Artigo4\/Paragrafo5    lex:temConteudo    "§ 5o  Na hipótese da transferência de titularidade de que trata o § 4o, são responsáveis solidários pelos tributos suspensos os antigos titulares e o novo titular do projeto." .
+lex:D7320\/Artigo4\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo6 .
+lex:D7320\/Artigo4\/Paragrafo6    lex:temConteudo    "§ 6o  Os aditivos contratuais de que trata o § 3o deverão considerar o impacto positivo da aplicação do REPENEC para fins de redução do preço contratado, observados os termos e condições estabelecidos pela Secretaria de Receita Federal do Brasil." .
+lex:D7320\/Artigo4\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo4    lex:temParagrafo    lex:D7320\/Artigo4\/Paragrafo7 .
+lex:D7320\/Artigo4\/Paragrafo7    lex:temConteudo    "§ 7o  O descumprimento do disposto no § 6o acarretará o cancelamento da habilitação ou co-habilitação, nos termos do inciso II do art. 11." .
+lex:D7320\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo5 .
+lex:D7320\/Artigo5    lex:temConteudo    "Art. 5o  Somente poderá efetuar aquisições e importações de bens e serviços no REPENEC a pessoa jurídica previamente habilitada pela Secretaria da Receita Federal do Brasil." .
+lex:D7320\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo5    lex:temParagrafo    lex:D7320\/Artigo5\/Paragrafo1 .
+lex:D7320\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o  Também poderá usufruir do REPENEC a pessoa jurídica co-habilitada." .
+lex:D7320\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo5    lex:temParagrafo    lex:D7320\/Artigo5\/Paragrafo2 .
+lex:D7320\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o  Não poderá se habilitar ou co-habilitar ao REPENEC a pessoa jurídica:" .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo5\/Paragrafo2    lex:temParagrafoInciso    lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoI .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - optante pelo Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte - Simples Nacional, de que trata a Lei Complementar no 123, de 14 de dezembro de 2006;" .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo5\/Paragrafo2    lex:temParagrafoInciso    lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoII .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - de que trata o inciso II do art. 8o da Lei no 10.637, de 30 de dezembro de 2002, e o inciso II do art. 10 da Lei no 10.833, de 29 de dezembro de 2003; ou" .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo5\/Paragrafo2    lex:temParagrafoInciso    lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - que esteja irregular em relação aos impostos ou às contribuições administrados pela Secretaria da Receita Federal do Brasil." .
+lex:D7320\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo6 .
+lex:D7320\/Artigo6    lex:temConteudo    "Art. 6o  A habilitação de que trata o art. 5o somente poderá ser requerida por pessoa jurídica de direito privado, titular de projeto aprovado para implantação das obras referidas no art. 2o." .
+lex:D7320\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo1 .
+lex:D7320\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1o  Considera-se titular a pessoa jurídica que executar o projeto, incorporando a obra de infraestrutura ao seu ativo imobilizado." .
+lex:D7320\/Artigo6\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo2 .
+lex:D7320\/Artigo6\/Paragrafo2    lex:temConteudo    "§ 2o  Aplica-se o disposto neste artigo aos projetos protocolados até 31 de dezembro de 2010 e aprovados até 30 de junho de 2011." .
+lex:D7320\/Artigo6\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo3 .
+lex:D7320\/Artigo6\/Paragrafo3    lex:temConteudo    "§ 3o  A pessoa jurídica contratada pela pessoa jurídica habilitada ao REPENEC para a realização de obras de construção civil ou de construção e montagem de instalações industriais, inclusive com fornecimento de bens, relacionadas aos projetos de infraestrutura aprovados nos termos do art. 7o, poderá requerer co-habilitação ao regime." .
+lex:D7320\/Artigo6\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo4 .
+lex:D7320\/Artigo6\/Paragrafo4    lex:temConteudo    "§ 4o  Observado o disposto no § 5o, a pessoa jurídica a ser co-habilitada deverá:" .
+lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo6\/Paragrafo4    lex:temParagrafoInciso    lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoI .
+lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - comprovar o atendimento de todos os requisitos necessários para a habilitação ao REPENEC; e" .
+lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo6\/Paragrafo4    lex:temParagrafoInciso    lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoII .
+lex:D7320\/Artigo6\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - cumprir as demais exigências estabelecidas para a fruição do regime." .
+lex:D7320\/Artigo6\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo5 .
+lex:D7320\/Artigo6\/Paragrafo5    lex:temConteudo    "§ 5o  Para a obtenção da co-habilitação, fica dispensada a comprovação da titularidade do projeto de que trata o caput." .
+lex:D7320\/Artigo6\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo6    lex:temParagrafo    lex:D7320\/Artigo6\/Paragrafo6 .
+lex:D7320\/Artigo6\/Paragrafo6    lex:temConteudo    "§ 6o  A habilitação ou co-habilitação no REPENEC somente será concedida à pessoa jurídica que comprovar a entrega de Escrituração Fiscal Digital - EFD, nos termos do disposto no Ajuste SINIEF 2, de 3 de abril de 2009." .
+lex:D7320\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo7 .
+lex:D7320\/Artigo7    lex:temConteudo    "Art. 7o  O Ministério de Minas e Energia deverá aprovar, em portaria, os projetos que se enquadram nas disposições do art. 6o." .
+lex:D7320\/Artigo7\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo7    lex:temParagrafo    lex:D7320\/Artigo7\/Paragrafo1 .
+lex:D7320\/Artigo7\/Paragrafo1    lex:temConteudo    "§ 1o  Na portaria de que trata o caput, deverá constar:" .
+lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo7\/Paragrafo1    lex:temParagrafoInciso    lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoI .
+lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - o nome empresarial e o número de inscrição no Cadastro Nacional da Pessoa Jurídica - CNPJ da pessoa jurídica titular do projeto aprovado, que poderá requerer habilitação ao REPENEC; e" .
+lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo7\/Paragrafo1    lex:temParagrafoInciso    lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoII .
+lex:D7320\/Artigo7\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - descrição do projeto, com a especificação do setor em que se enquadra, entre aqueles referidos no art. 2o." .
+lex:D7320\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo7    lex:temParagrafo    lex:D7320\/Artigo7\/Paragrafo2 .
+lex:D7320\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2o  Os autos do processo de análise do projeto ficarão arquivados e disponíveis no Ministério de Minas e Energia, para consulta e fiscalização dos órgãos de controle, até findar o prazo de cinco anos contados da data de conclusão do respectivo projeto." .
+lex:D7320\/Artigo7\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo7    lex:temParagrafo    lex:D7320\/Artigo7\/Paragrafo3 .
+lex:D7320\/Artigo7\/Paragrafo3    lex:temConteudo    "§ 3o  Para fins da especificação de que trata o inciso II do § 1o, o Ministério de Minas e Energia levará em conta a atividade preponderante do projeto." .
+lex:D7320\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo8 .
+lex:D7320\/Artigo8    lex:temConteudo    "Art. 8o  A habilitação ou co-habilitação ao REPENEC deve ser requerida à Secretaria da Receita Federal do Brasil por meio de formulários próprios, acompanhados:" .
+lex:D7320\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo8    lex:temInciso    lex:D7320\/Artigo8\/IncisoI .
+lex:D7320\/Artigo8\/IncisoI    lex:temConteudo    "I - da inscrição do empresário no registro público de empresas mercantis ou do contrato de sociedade em vigor, devidamente registrado, em se tratando de sociedade empresária, bem como, no caso de sociedade empresária constituída como sociedade por ações, dos documentos que atestem o mandato de seus administradores;" .
+lex:D7320\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo8    lex:temInciso    lex:D7320\/Artigo8\/IncisoII .
+lex:D7320\/Artigo8\/IncisoII    lex:temConteudo    "II - de indicação do titular da empresa ou relação dos sócios, pessoas físicas, bem como dos diretores, gerentes, administradores e procuradores, com indicação do número de inscrição no Cadastro de Pessoas Físicas - CPF e respectivos endereços;" .
+lex:D7320\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo8    lex:temInciso    lex:D7320\/Artigo8\/IncisoIII .
+lex:D7320\/Artigo8\/IncisoIII    lex:temConteudo    "III - de relação das pessoas jurídicas sócias, com indicação do número de inscrição no CNPJ, bem como de seus respectivos sócios, pessoas físicas, diretores, gerentes, administradores e procuradores, com indicação do número de inscrição no CPF e respectivos endereços; e" .
+lex:D7320\/Artigo8\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo8    lex:temInciso    lex:D7320\/Artigo8\/IncisoIV .
+lex:D7320\/Artigo8\/IncisoIV    lex:temConteudo    "IV - de cópia da portaria de que trata o art. 7o." .
+lex:D7320\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo8    lex:temParagrafo    lex:D7320\/Artigo8\/Paragrafo1 .
+lex:D7320\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1o  Além da documentação relacionada no caput, a pessoa jurídica a ser co-habilitada deverá apresentar contrato com a pessoa jurídica habilitada ao REPENEC, cujo objeto seja aquele mencionado no § 3o do art. 6o, vinculado exclusivamente ao projeto aprovado pela portaria mencionada no inciso IV do caput." .
+lex:D7320\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo8    lex:temParagrafo    lex:D7320\/Artigo8\/Paragrafo2 .
+lex:D7320\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2o  A regularidade fiscal da pessoa jurídica requerente será verificada em procedimento interno da Secretaria da Receita Federal do Brasil, em relação aos impostos e contribuições por esta administrados, ficando dispensada a juntada de documentos comprobatórios." .
+lex:D7320\/Artigo8\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo8    lex:temParagrafo    lex:D7320\/Artigo8\/Paragrafo3 .
+lex:D7320\/Artigo8\/Paragrafo3    lex:temConteudo    "§ 3o  A habilitação ou a co-habilitação será formalizada por meio de ato da Secretaria da Receita Federal do Brasil, publicado no Diário Oficial da União." .
+lex:D7320\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo9 .
+lex:D7320\/Artigo9    lex:temConteudo    "Art. 9o  A pessoa jurídica deverá solicitar habilitação ou co-habilitação separadamente para cada projeto a que estiver vinculada, nos termos do art. 8o." .
+lex:D7320\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo10 .
+lex:D7320\/Artigo10    lex:temConteudo    "Art. 10.  Concluída a participação da pessoa jurídica no projeto, deverá ser solicitado, no prazo de trinta dias, contados da data em que adimplido o objeto do contrato, o cancelamento da respectiva habilitação ou co-habilitação, nos termos do inciso I do art. 11." .
+lex:D7320\/Artigo10\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo10    lex:temParagrafo    lex:D7320\/Artigo10\/ParagrafoUnico .
+lex:D7320\/Artigo10\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O descumprimento do disposto no caput sujeita a pessoa jurídica à multa de R$ 5.000,00 (cinco mil reais) por mês-calendário ou fração de atraso, nos termos do inciso I do art. 57 da Medida Provisória no 2.158-35, de 24 de agosto de 2001, sem prejuízo das demais sanções cabíveis." .
+lex:D7320\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo11 .
+lex:D7320\/Artigo11    lex:temConteudo    "Art. 11.  O cancelamento da habilitação ou da co-habilitação ocorrerá:" .
+lex:D7320\/Artigo11\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo11    lex:temInciso    lex:D7320\/Artigo11\/IncisoI .
+lex:D7320\/Artigo11\/IncisoI    lex:temConteudo    "I - a pedido, inclusive em face da transferência da titularidade do projeto de que trata o § 4o do art. 4o; ou" .
+lex:D7320\/Artigo11\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo11    lex:temInciso    lex:D7320\/Artigo11\/IncisoII .
+lex:D7320\/Artigo11\/IncisoII    lex:temConteudo    "II - de ofício, sempre que se apure que o beneficiário não satisfazia ou deixou de satisfazer, ou não cumpria ou deixou de cumprir os requisitos para habilitação ou co-habilitação ao regime." .
+lex:D7320\/Artigo11\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo11    lex:temParagrafo    lex:D7320\/Artigo11\/Paragrafo1 .
+lex:D7320\/Artigo11\/Paragrafo1    lex:temConteudo    "§ 1o  O pedido de cancelamento da habilitação ou da co-habilitação, no caso do inciso I, deverá ser protocolado na Secretaria da Receita Federal do Brasil." .
+lex:D7320\/Artigo11\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo11    lex:temParagrafo    lex:D7320\/Artigo11\/Paragrafo2 .
+lex:D7320\/Artigo11\/Paragrafo2    lex:temConteudo    "§ 2o  O cancelamento da habilitação ou da co-habilitação será formalizado por meio de ato da Secretaria da Receita Federal do Brasil, publicado no Diário Oficial da União." .
+lex:D7320\/Artigo11\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo11    lex:temParagrafo    lex:D7320\/Artigo11\/Paragrafo3 .
+lex:D7320\/Artigo11\/Paragrafo3    lex:temConteudo    "§ 3o  O cancelamento da habilitação implica o cancelamento automático das co-habilitações a ela vinculadas." .
+lex:D7320\/Artigo11\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo11    lex:temParagrafo    lex:D7320\/Artigo11\/Paragrafo4 .
+lex:D7320\/Artigo11\/Paragrafo4    lex:temConteudo    "§ 4o  A pessoa jurídica que tiver a habilitação ou co-habilitação cancelada não poderá, em relação ao projeto correspondente à habilitação ou à co-habilitação cancelada, efetuar aquisições e importações ao amparo do REPENEC de bens e serviços destinados ao referido projeto." .
+lex:D7320\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo12 .
+lex:D7320\/Artigo12    lex:temConteudo    "Art. 12.  Nos casos de suspensão de que trata o inciso I do art. 3o, a pessoa jurídica vendedora ou prestadora de serviços deve fazer constar na nota fiscal o número da portaria que aprovou o projeto, o número do ato que concedeu a habilitação ou co-habilitação ao REPENEC à pessoa jurídica adquirente e, conforme o caso, a expressão:" .
+lex:D7320\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo12    lex:temInciso    lex:D7320\/Artigo12\/IncisoI .
+lex:D7320\/Artigo12\/IncisoI    lex:temConteudo    "I - Venda de bens efetuada com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS, com a especificação do dispositivo legal correspondente;" .
+lex:D7320\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo12    lex:temInciso    lex:D7320\/Artigo12\/IncisoII .
+lex:D7320\/Artigo12\/IncisoII    lex:temConteudo    "II - Venda de serviços efetuada com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS, com a especificação do dispositivo legal correspondente; ou" .
+lex:D7320\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7320\/Artigo12    lex:temInciso    lex:D7320\/Artigo12\/IncisoIII .
+lex:D7320\/Artigo12\/IncisoIII    lex:temConteudo    "III - Aluguel de bens efetuado com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS, com a especificação do dispositivo legal correspondente." .
+lex:D7320\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo13 .
+lex:D7320\/Artigo13    lex:temConteudo    "Art. 13.  No caso da suspensão de que trata o inciso II do art. 3o, o estabelecimento industrial ou equiparado que der saída deve fazer constar na nota fiscal o número da portaria que aprovou o projeto, o número do ato que concedeu a habilitação ou a co-habilitação ao REPENEC à pessoa jurídica adquirente e a expressão Saída com suspensão do IPI, com a especificação do dispositivo legal correspondente, vedado o registro do imposto nas referidas notas." .
+lex:D7320\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo14 .
+lex:D7320\/Artigo14    lex:temConteudo    "Art. 14.  A suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS incidentes sobre a venda de bens e serviços para pessoa jurídica habilitada ou co-habilitada ao REPENEC não impede a manutenção e a utilização dos créditos pela pessoa jurídica vendedora, no caso de esta ser tributada no regime de apuração não cumulativa dessas contribuições." .
+lex:D7320\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo15 .
+lex:D7320\/Artigo15    lex:temConteudo    "Art. 15.  A aquisição de bens ou de serviços com a suspensão prevista no REPENEC não gera, para o adquirente, direito ao desconto de créditos apurados na forma do art. 3o da Lei no 10.637, de 2002, e do art. 3o da Lei no 10.833, de 2003." .
+lex:D7320\/Artigo15\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo15    lex:temParagrafo    lex:D7320\/Artigo15\/ParagrafoUnico .
+lex:D7320\/Artigo15\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto no caput não se aplica quando a pessoa jurídica habilitada ou co-habilitada optar por efetuar aquisições e importações fora do REPENEC, sem a suspensão de que trata o art. 3o." .
+lex:D7320\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo16 .
+lex:D7320\/Artigo16    lex:temConteudo    "Art. 16.  A suspensão de que trata o art. 3o converte-se em alíquota zero após a incorporação ou utilização, nas obras referidas no art. 2o, dos bens ou dos serviços adquiridos ou importados com base no REPENEC." .
+lex:D7320\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo16    lex:temParagrafo    lex:D7320\/Artigo16\/Paragrafo1 .
+lex:D7320\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1o  Na hipótese de não ser efetuada a incorporação ou utilização de que trata o caput, ou no caso do inciso II do art. 11, a pessoa jurídica beneficiária do REPENEC fica obrigada a recolher as contribuições e os impostos não pagos em decorrência da suspensão de que trata o art. 3o, acrescidos de juros e multa de mora ou de ofício, na forma da lei, contados a partir da data de aquisição ou do registro da Declaração de Importação - DI, na condição de:" .
+lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo16\/Paragrafo1    lex:temParagrafoInciso    lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoI .
+lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - contribuinte, em relação à Contribuição para o PIS/PASEP-Importação, à COFINS-Importação, ao IPI vinculado à importação e ao Imposto de Importação; ou" .
+lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7320\/Artigo16\/Paragrafo1    lex:temParagrafoInciso    lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoII .
+lex:D7320\/Artigo16\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - responsável, em relação à Contribuição para o PIS/PASEP, à COFINS e ao IPI." .
+lex:D7320\/Artigo16\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7320\/Artigo16    lex:temParagrafo    lex:D7320\/Artigo16\/Paragrafo2 .
+lex:D7320\/Artigo16\/Paragrafo2    lex:temConteudo    "§ 2o  O pagamento dos acréscimos legais e da penalidade de que trata o § 1o não gera, para a pessoa jurídica beneficiária do REPENEC, direito ao desconto de créditos apurados na forma do art. 3o da Lei no 10.637, de 2002, do art. 3o da Lei no 10.833, de 2003, e do art. 15 da Lei no 10.865, de 30 de abril de 2004." .
+lex:D7320\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo17 .
+lex:D7320\/Artigo17    lex:temConteudo    "Art. 17.  Será divulgada pela Secretaria da Receita Federal do Brasil a relação das pessoas jurídicas habilitadas e co-habilitadas ao REPENEC, na qual constará o projeto a que cada pessoa jurídica está vinculada e a respectiva data de habilitação ou co-habilitação." .
+lex:D7320\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo18 .
+lex:D7320\/Artigo18    lex:temConteudo    "Art. 18.  A Secretaria da Receita Federal do Brasil disciplinará, no âmbito de sua competência, a aplicação das disposições deste Decreto, inclusive em relação aos procedimentos para habilitação ou co-habilitação ao REPENEC." .
+lex:D7320\/Artigo19    lex:ehUm    lex:Artigo .
+lex:D7320    lex:temArtigo    lex:D7320\/Artigo19 .
+lex:D7320\/Artigo19    lex:temConteudo    "Art. 19.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoI    lex:remetePara    lex:Lcp123 .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoII    lex:remetePara    lex:L10637\/Artigo8 .
+lex:D7320\/Artigo5\/Paragrafo2\/ParagrafoIncisoII    lex:remetePara    lex:L10833\/Artigo10 .
+lex:D7320\/Artigo10\/ParagrafoUnico    lex:remetePara    lex:2158-35\/Artigo57 .
+lex:D7320\/Artigo15    lex:remetePara    lex:L10637\/Artigo3 .
+lex:D7320\/Artigo15    lex:remetePara    lex:L10833\/Artigo3 .
+lex:D7320\/Artigo16\/Paragrafo2    lex:remetePara    lex:L10637\/Artigo3 .
+lex:D7320\/Artigo16\/Paragrafo2    lex:remetePara    lex:L10833\/Artigo3 .
+lex:D7320\/Artigo16\/Paragrafo2    lex:remetePara    lex:L10865\/Artigo15 .

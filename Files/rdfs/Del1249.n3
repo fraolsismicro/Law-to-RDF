@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1249    lex:ehUm    lex:DocLegal .
+lex:Del1249    lex:temTextoIntegral    lex:HTMLs\/Del1249.htm .
+lex:Del1249\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1249    lex:temArtigo    lex:Del1249\/Artigo1 .
+lex:Del1249\/Artigo1    lex:temConteudo    "Art. 1º O valor do soldo do posto de Almirante-de-Esquadra, General-de-Exército e Tenente-Brigadeiro, para aplicação da Tabela de Escalonamento Vertical, de que trata o artigo 148 da Lei nº 5.787, de 27 de junho de 1972, é fixado em Cr$3.153,00 (três mil cento e cinqüenta e três cruzeiros), na Marinha, no Exército e na Aeronáutica." .
+lex:Del1249\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1249\/Artigo1    lex:temParagrafo    lex:Del1249\/Artigo1\/ParagrafoUnico .
+lex:Del1249\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos cálculos decorrentes da aplicação do presente Decreto-lei serão desprezadas as frações de cruzeiro, inclusive em relação às gratificações e indenizações." .
+lex:Del1249\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1249    lex:temArtigo    lex:Del1249\/Artigo2 .
+lex:Del1249\/Artigo2    lex:temConteudo    "Art. 2º As despesas com a execução deste Decreto-lei serão atendidas pelas dotações orçamentárias próprias dos Ministérios da Marinha, do Exército e da Aeronáutica." .
+lex:Del1249\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1249    lex:temArtigo    lex:Del1249\/Artigo3 .
+lex:Del1249\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei terá vigência a partir da data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1249\/Artigo1    lex:remetePara    lex:L5787\/Artigo148 .

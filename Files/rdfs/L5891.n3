@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5891    lex:ehUm    lex:DocLegal .
+lex:L5891    lex:temTextoIntegral    lex:HTMLs\/L5891.htm .
+lex:L5891\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5891    lex:temArtigo    lex:L5891\/Artigo1 .
+lex:L5891\/Artigo1    lex:temConteudo    "Art. 1º No processo preliminar para habilitação do casamento de colaterais de terceiro grau, quando não se conformarem com o laudo médico, poderão os nubentes requerer novo exame, que o juiz determinará, com observância do disposto no art. 2º, do Decreto-lei nº 3.200, de 19 de abril de 1941, caso reconheça procedentes as alegações ou hajam os nubentes juntado ao pedido atestado divergente firmado por outro médico." .
+lex:L5891\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5891    lex:temArtigo    lex:L5891\/Artigo2 .
+lex:L5891\/Artigo2    lex:temConteudo    "Art. 2º Os médicos nomeados de acordo com o disposto no art. 2º, do Decreto-lei nº 3.200, de 19 de abril 1941, terão a remuneração que o juiz fixar, não superior a 25% (vinte e cinco por cento) de um salário-mínimo da região para cada um." .
+lex:L5891\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5891    lex:temArtigo    lex:L5891\/Artigo3 .
+lex:L5891\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogados os parágrafos 5º e 9º, do Decreto-lei nº 3.200, de 19 de abril de 1941, e demais disposições em contrário." .
+lex:L5891\/Artigo1    lex:remetePara    lex:Del3200\/Artigo2 .
+lex:L5891\/Artigo2    lex:remetePara    lex:Del3200\/Artigo2 .
+lex:L5891\/Artigo3    lex:remetePara    lex:Del3200\/Artigo2\/Paragrafo5 .
+lex:L5891\/Artigo3    lex:remetePara    lex:Del3200\/Artigo2\/Paragrafo9 .

@@ -1,0 +1,93 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D80281    lex:ehUm    lex:DocLegal .
+lex:D80281    lex:temTextoIntegral    lex:HTMLs\/D80281.htm .
+lex:D80281\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D80281    lex:temArtigo    lex:D80281\/Artigo1 .
+lex:D80281\/Artigo1    lex:temConteudo    "Art. 1º A Residência em Medicina constitui modalidade do ensino de pós-graduação destinada a médicos, sob a forma de curso de especialização, caracterizada por treinamento em serviço, em regime de dedicação exclusiva, funcionando em Instituições de saúde, universitárias ou não, sob a orientação de profissionais médicos de elevada qualificação ética e profissional." .
+lex:D80281\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D80281\/Artigo1    lex:temParagrafo    lex:D80281\/Artigo1\/Paragrafo1 .
+lex:D80281\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os programas de Residência serão desenvolvidos, preferencialmente, em uma das seguintes áreas:" .
+lex:D80281\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D80281\/Artigo1    lex:temParagrafo    lex:D80281\/Artigo1\/Paragrafo2 .
+lex:D80281\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os programas de Residência terão a duração mínima de 1 (um) ano, corresponderão ao mínimo de 1.800 (hum mil e oitocentas) horas de atividade." .
+lex:D80281\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D80281\/Artigo1    lex:temParagrafo    lex:D80281\/Artigo1\/Paragrafo3 .
+lex:D80281\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Além do treinamento em serviço, os programas de Residência compreenderão um mínimo de quatro horas semanais de atividades sob a forma de sessões de atualização, seminários, correlações clínico-patológicas ou outras sempre com a participação ativa dos alunos." .
+lex:D80281\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D80281    lex:temArtigo    lex:D80281\/Artigo2 .
+lex:D80281\/Artigo2    lex:temConteudo    "Art. 2º Fica criada no âmbito do Departamento de Assuntos Universitários do Ministério da Educação e Cultura a Comissão Nacional de Residência Médica, com as seguintes atribuições: (Revogado pelo Decreto nº 7.562, de 2011)" .
+lex:D80281\/Artigo2\/AlineaDefinir    lex:ehUm    lex:Alinea .
+lex:D80281\/Artigo2    lex:temAlinea    lex:D80281\/Artigo2\/AlineaDefinir .
+lex:D80281\/Artigo2\/AlineaDefinir    lex:temConteudo    "b) definir, observado o disposto neste Decreto o ouvido o Conselho Federal de Educação, as normas gerais que deverão observar os programas de Residência em Medicina;  (Revogado pelo Decreto nº 7.562, de 2011)" .
+lex:D80281\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D80281\/Artigo2    lex:temParagrafo    lex:D80281\/Artigo2\/Paragrafo4 .
+lex:D80281\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4º O Departamento de Assuntos Universitários do Ministério da Educação e Cultura proverá o suporte administrativo e técnico necessário aos trabalhos da Comissão.  (Revogado pelo Decreto nº 7.562, de 2011)" .
+lex:D80281\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D80281\/Artigo2    lex:temParagrafo    lex:D80281\/Artigo2\/ParagrafoUnico .
+lex:D80281\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os certificados de Residência em Medicina, expedidos até janeiro de 1979, poderão ser convalidados de acordo com normas a serem estabelecidas pela Comissão Nacional de Residência Médica." .
+lex:D80281\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D80281    lex:temArtigo    lex:D80281\/Artigo6 .
+lex:D80281\/Artigo6    lex:temConteudo    "Art. 6º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D80281\/Artigo2    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2 .
+lex:D80281\/AlineaCredenciar    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/AlineaCredenciar .
+lex:D80281\/Artigo2\/AlineaDefinir    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/AlineaDefinir .
+lex:D80281\/Artigo2\/AlineaEstabelecer    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/AlineaEstabelecer .
+lex:D80281\/Artigo2\/AlineaAssessorar    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/AlineaAssessorar .
+lex:D80281\/Artigo2\/AlineaAvaliar    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/AlineaAvaliar .
+lex:D80281\/Artigo2\/AlineaSugerir    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/AlineaSugerir .
+lex:D80281\/Artigo2\/Paragrafo1    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Paragrafo1    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Paragrafo1 .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/IncisoC    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/IncisoC    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/IncisoC .
+lex:D80281\/Artigo2\/IncisoD    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/IncisoD    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/IncisoD .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/Texto00006    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/Texto00006    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Texto00006 .
+lex:D80281\/Artigo2\/IncisoI    lex:remetePara    lex:D91364 .
+lex:D80281\/Artigo2\/IncisoI    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/IncisoI .
+lex:D80281\/Artigo2\/Paragrafo2    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Paragrafo2 .
+lex:D80281\/Artigo2\/Paragrafo3    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Paragrafo3 .
+lex:D80281\/Artigo2\/Paragrafo4    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Paragrafo4 .
+lex:D80281\/Artigo2\/Artigo3    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Artigo3 .
+lex:D80281\/Artigo2\/Artigo4    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Artigo4 .
+lex:D80281\/Artigo2\/Artigo5    lex:revogadoPor    lex:D7562\/Artigo50 .
+lex:D7562\/Artigo50    lex:revogou    lex:D80281\/Artigo2\/Artigo5 .

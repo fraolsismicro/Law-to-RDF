@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7504    lex:ehUm    lex:DocLegal .
+lex:D7504    lex:temTextoIntegral    lex:HTMLs\/D7504.htm .
+lex:D7504\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7504    lex:temArtigo    lex:D7504\/Artigo1 .
+lex:D7504\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7504\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7504\/Artigo1    lex:temInciso    lex:D7504\/Artigo1\/IncisoI .
+lex:D7504\/Artigo1\/IncisoI    lex:temConteudo    "I - da Casa Civil da Presidência da República para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão: um DAS 102.5." .
+lex:D7504\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7504\/Artigo1    lex:temInciso    lex:D7504\/Artigo1\/IncisoII .
+lex:D7504\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para a Casa Civil da Presidência da República: um DAS 101.5." .
+lex:D7504\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7504    lex:temArtigo    lex:D7504\/Artigo2 .
+lex:D7504\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, o Anexo II do Decreto no 5.135, de 7 de julho de 2004, passa a vigorar com as alterações do Anexo a este Decreto." .
+lex:D7504\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7504    lex:temArtigo    lex:D7504\/Artigo3 .
+lex:D7504\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor cinco dias após a sua publicação." .
+lex:D7504\/Artigo2    lex:remetePara    lex:D5135\/ .

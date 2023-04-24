@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10203    lex:ehUm    lex:DocLegal .
+lex:L10203    lex:temTextoIntegral    lex:HTMLs\/L10203.htm .
+lex:L10203\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10203    lex:temArtigo    lex:L10203\/Artigo1 .
+lex:L10203\/Artigo1    lex:temConteudo    "Art. 1o Os arts. 9o e 12 da Lei no 8.723, de 28 de outubro de 1993, passam a vigorar com a seguinte redação:" .
+lex:L10203\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10203\/Artigo1    lex:temParagrafo    lex:L10203\/Artigo1\/Paragrafo1 .
+lex:L10203\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o O Poder Executivo poderá elevar o referido percentual até o limite de vinte e quatro por cento ou reduzi-lo a vinte por cento." .
+lex:L10203\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10203\/Artigo1    lex:temParagrafo    lex:L10203\/Artigo1\/Paragrafo2 .
+lex:L10203\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Será admitida a variação de um ponto por cento, para mais ou para menos, na aferição dos percentuais de que trata este artigo.' (NR)" .
+lex:L10203\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10203\/Artigo1    lex:temParagrafo    lex:L10203\/Artigo1\/Paragrafo1 .
+lex:L10203\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Os planos mencionados no caput deste artigo serão fundamentados em ações gradativamente mais restritivas, fixando orientação ao usuário quanto às normas e procedimentos para manutenção dos veículos e estabelecendo processos e procedimentos de inspeção periódica e de fiscalização das emissões dos veículos em circulação." .
+lex:L10203\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10203\/Artigo1    lex:temParagrafo    lex:L10203\/Artigo1\/Paragrafo2 .
+lex:L10203\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Os Municípios com frota total igual ou superior a três milhões de veículos poderão implantar programas próprios de inspeção periódica de emissões de veículos em circulação, competindo ao Poder Público Municipal, no desenvolvimento de seus respectivos programas, estabelecer processos e procedimentos diferenciados, bem como limites e periodicidades mais restritivos, em função do nível local de comprometimento do ar." .
+lex:L10203\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10203\/Artigo1    lex:temParagrafo    lex:L10203\/Artigo1\/Paragrafo3 .
+lex:L10203\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Os programas estaduais e municipais de inspeção periódica de emissões de veículos em circulação, deverão ser harmonizados, nos termos das resoluções do Conama, com o programa de inspeção de segurança veicular, a ser implementado pelo Governo Federal, através do Contran e Denatran, ressalvadas as situações jurídicas consolidadas." .
+lex:L10203\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10203    lex:temArtigo    lex:L10203\/Artigo2 .
+lex:L10203\/Artigo2    lex:temConteudo    "Art. 2o Ficam convalidados os atos praticados com base na Medida Provisória no 2.053-35, de 25 de janeiro de 2001." .
+lex:L10203\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10203    lex:temArtigo    lex:L10203\/Artigo3 .
+lex:L10203\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10203\/Texto00001    lex:remetePara    lex:L8723\/Artigo9 .
+lex:L10203\/Artigo1\/Texto00003    lex:remetePara    lex:L8723\/Artigo12 .

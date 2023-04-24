@@ -1,0 +1,116 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7632    lex:ehUm    lex:DocLegal .
+lex:D7632    lex:temTextoIntegral    lex:HTMLs\/D7632.htm .
+lex:D7632\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7632    lex:temArtigo    lex:D7632\/Artigo1 .
+lex:D7632\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7632\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoI .
+lex:D7632\/Artigo1\/IncisoI    lex:temConteudo    "I - .........................................................." .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea    lex:temConteudo    "a) .................................................................................." .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    ".............................................................................................." .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0068%;" .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) ...................................................................................." .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "................................................................................................" .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0068% ao dia;" .
+lex:D7632\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoII .
+lex:D7632\/Artigo1\/IncisoII    lex:temConteudo    "II - ........................................................................................" .
+lex:D7632\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoII\/IncisoAlineaMutuario .
+lex:D7632\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0068% ao dia;" .
+lex:D7632\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoIII .
+lex:D7632\/Artigo1\/IncisoIII    lex:temConteudo    "III - ............................................................................." .
+lex:D7632\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoIII\/IncisoAlineaMutuario .
+lex:D7632\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0068%;" .
+lex:D7632\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoIV .
+lex:D7632\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ..............................................................................." .
+lex:D7632\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoIV\/IncisoAlineaMutuario .
+lex:D7632\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0068% ao dia;" .
+lex:D7632\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoV .
+lex:D7632\/Artigo1\/IncisoV    lex:temConteudo    "V - ................................................................................." .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea    lex:temConteudo    "a) ..................................................................................." .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "..............................................................................................." .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0068%;" .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea    lex:temIncisoAlinea    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) ..................................................................................." .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "..............................................................................................." .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0068% ao dia;" .
+lex:D7632\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoVI .
+lex:D7632\/Artigo1\/IncisoVI    lex:temConteudo    "VI - ................................................................................" .
+lex:D7632\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoVII .
+lex:D7632\/Artigo1\/IncisoVII    lex:temConteudo    "VII - nas operações de financiamento para aquisição de imóveis não residenciais, em que o mutuário seja pessoa física: 0,0068% ao dia." .
+lex:D7632\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXII .
+lex:D7632\/Artigo1\/IncisoXII    lex:temConteudo    "XII - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para aplicação no mercado financeiro e de capitais, excetuadas as operações de que tratam os incisos XIII, XIV, XV, XVII, XVIII e XXIII do caput: seis por cento;" .
+lex:D7632\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXIII .
+lex:D7632\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, a partir de 1o de dezembro de 2011, relativas a transferências do exterior de recursos para aplicação no País em renda variável realizada em bolsa de valores ou em bolsa de mercadorias e futuros, na forma regulamentada pelo Conselho Monetário Nacional - CMN, excetuadas operações com derivativos que resultem em rendimentos predeterminados: zero;" .
+lex:D7632\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXIV .
+lex:D7632\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, a partir de 1o de dezembro de 2011, para ingresso de recursos no País para aquisição de ações em oferta pública registrada ou dispensada de registro na Comissão de Valores Mobiliários ou para a subscrição de ações, desde que, nos dois casos, as companhias emissoras tenham registro para negociação das ações em bolsas de valores: zero;" .
+lex:D7632\/Artigo1\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXV .
+lex:D7632\/Artigo1\/IncisoXV    lex:temConteudo    "XV - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, a partir de 1o de dezembro de 2011, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para aquisição de cotas de fundos de investimento em participações, de fundos de investimento em empresas emergentes e de fundos de investimento em cotas dos referidos fundos, constituídos na forma autorizada pela Comissão de Valores Mobiliários: zero;" .
+lex:D7632\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXVI .
+lex:D7632\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - nas liquidações de operações de câmbio para fins de retorno de recursos aplicados por investidor estrangeiro nos mercados financeiro e de capitais, nas operações de que tratam os incisos XI, XII, XIII, XIV, XV, XVII, XVIII e XXIII do caput: zero;" .
+lex:D7632\/Artigo1\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXVII .
+lex:D7632\/Artigo1\/IncisoXVII    lex:temConteudo    "XVII - nas liquidações de operações simultâneas de câmbio contratadas a partir de 1o de dezembro de 2011, para ingresso no País de recursos através de cancelamento de depositary receipts, para investimento em ações negociáveis em bolsa de valores: zero;" .
+lex:D7632\/Artigo1\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:D7632\/Artigo1    lex:temInciso    lex:D7632\/Artigo1\/IncisoXVIII .
+lex:D7632\/Artigo1\/IncisoXVIII    lex:temConteudo    "XVIII - nas liquidações de operações simultâneas de câmbio contratadas a partir de 1o de dezembro de 2011, para ingresso no País de recursos originários da mudança de regime do investidor estrangeiro, de investimento direto de que trata a Lei no 4.131, de 3 de setembro de 1962, para investimento em ações negociáveis em bolsa de valores, na forma regulamentada pelo CMN: zero;" .
+lex:D7632\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7632    lex:temArtigo    lex:D7632\/Artigo2 .
+lex:D7632\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos, em relação às alterações introduzidas no art. 7o do Decreto no 6.306, de 14 de dezembro de 2007, a partir do dia seguinte à data de sua publicação." .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7ia2 .
+lex:D7632\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7ib2 .
+lex:D7632\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
+lex:D7632\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
+lex:D7632\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7va2 .
+lex:D7632\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7vb2 .
+lex:D7632\/Artigo1\/IncisoVII    lex:remetePara    lex:D6306\/Artigo7 .
+lex:D7632\/Artigo1\/Texto00023    lex:revogadoPor    lex:D8325\/Artigo3 .
+lex:D8325\/Artigo3    lex:revogou    lex:D7632\/Artigo1\/Texto00023 .
+lex:D7632\/Artigo1\/IncisoXII    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D7632\/Artigo1\/IncisoXXIII    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D7632\/Artigo2    lex:remetePara    lex:D6306\/Artigo7 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13063    lex:ehUm    lex:DocLegal .
+lex:L13063    lex:temTextoIntegral    lex:HTMLs\/L13063.htm .
+lex:L13063\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13063    lex:temArtigo    lex:L13063\/Artigo1 .
+lex:L13063\/Artigo1    lex:temConteudo    "Art. 1o O art. 101 da Lei no 8.213, de 24 de julho de 1991, passa a vigorar acrescido dos seguintes §§ 1o e 2o:" .
+lex:L13063\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13063\/Artigo1    lex:temParagrafo    lex:L13063\/Artigo1\/Paragrafo1 .
+lex:L13063\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O aposentado por invalidez e o pensionista inválido estarão isentos do exame de que trata o caput após completarem 60 (sessenta) anos de idade." .
+lex:L13063\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13063\/Artigo1    lex:temParagrafo    lex:L13063\/Artigo1\/Paragrafo2 .
+lex:L13063\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o A isenção de que trata o § 1o não se aplica quando o exame tem as seguintes finalidades:" .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13063\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - verificar a necessidade de assistência permanente de outra pessoa para a concessão do acréscimo de 25% (vinte e cinco por cento) sobre o valor do benefício, conforme dispõe o art. 45;" .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13063\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - verificar a recuperação da capacidade de trabalho, mediante solicitação do aposentado ou pensionista que se julgar apto;" .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13063\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L13063\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - subsidiar autoridade judiciária na concessão de curatela, conforme dispõe o art. 110. (NR)" .
+lex:L13063\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13063    lex:temArtigo    lex:L13063\/Artigo2 .
+lex:L13063\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L13063\/Artigo1    lex:remetePara    lex:L8213cons .
+lex:L13063\/Artigo1\/Paragrafo1    lex:remetePara    lex:L8213cons\/Artigo101\/Paragrafo1 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4399    lex:ehUm    lex:DocLegal .
+lex:L4399    lex:temTextoIntegral    lex:HTMLs\/L4399.htm .
+lex:L4399\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4399    lex:temArtigo    lex:L4399\/Artigo1 .
+lex:L4399\/Artigo1    lex:temConteudo    "Art 1º Ao Conselho Federal de contabilidade compete fixar as anuidades, multas e emolumentos a que se refere o Decreto-Lei nº 9.295, de 27 de maio de 1946 com as alterações constantes da Lei nº 570, de 22 de dezembro de 1948." .
+lex:L4399\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4399    lex:temArtigo    lex:L4399\/Artigo2 .
+lex:L4399\/Artigo2    lex:temConteudo    "Art 2º A anuidade a ser fixada, para contadores e guarda-livros, não poderá ser superior a 1,5% (um e meio por cento) do salário-mínimo mensal vigorante na região em que estiver o profissional exercendo sua atividade e de 5% (cinco por cento) sôbre o mesmo salário para as firmas, emprêsas e sociedades aludidas no artigo anterior." .
+lex:L4399\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4399\/Artigo2    lex:temParagrafo    lex:L4399\/Artigo2\/ParagrafoUnico .
+lex:L4399\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. para efeito de cálculo, serão arredondados para cima para Cr$1.000,00 (mil cruzeiros), a fração dêste valor constante do salário-mínimo." .
+lex:L4399\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4399    lex:temArtigo    lex:L4399\/Artigo3 .
+lex:L4399\/Artigo3    lex:temConteudo    "Art 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4399\/Artigo1    lex:remetePara    lex:Del9295 .
+lex:L4399\/Artigo1    lex:remetePara    lex:L0570 .

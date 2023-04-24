@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7459    lex:ehUm    lex:DocLegal .
+lex:D7459    lex:temTextoIntegral    lex:HTMLs\/D7459.htm .
+lex:D7459\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7459    lex:temArtigo    lex:D7459\/Artigo1 .
+lex:D7459\/Artigo1    lex:temConteudo    "Art. 1o  Fica autorizado o aumento do capital social do Serviço Federal de Processamento de Dados - SERPRO em R$ 250.000.000,00 (duzentos e cinquenta milhões de reais), conforme crédito orçamentário aprovado pela Medida Provisória no 515, de 28 de dezembro de 2010." .
+lex:D7459\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7459\/Artigo1    lex:temParagrafo    lex:D7459\/Artigo1\/ParagrafoUnico .
+lex:D7459\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A efetivação do aumento de capital social de que trata o caput dar-se-á na forma do Estatuto Social do Serviço Federal de Processamento de Dados - SERPRO, aprovado pelo Decreto no 6.791, de 10 de março de 2009, observada a transferência de recursos aprovada e liberada pelo Ministério da Fazenda, de acordo com as disponibilidades orçamentárias e financeiras." .
+lex:D7459\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7459    lex:temArtigo    lex:D7459\/Artigo2 .
+lex:D7459\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos recebidos na forma do art. 1o deverão ser atualizados pela taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC desde o dia da transferência até a data de sua capitalização, nos termos do Decreto no 2.673, de 16 de julho de 1998." .
+lex:D7459\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7459    lex:temArtigo    lex:D7459\/Artigo3 .
+lex:D7459\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7459\/Artigo1    lex:remetePara    lex:515 .
+lex:D7459\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D6791 .
+lex:D7459\/Artigo2    lex:remetePara    lex:D2673 .

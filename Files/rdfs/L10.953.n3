@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.953    lex:ehUm    lex:DocLegal .
+lex:L10.953    lex:temTextoIntegral    lex:HTMLs\/L10.953.htm .
+lex:L10953\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10953    lex:temArtigo    lex:L10953\/Artigo1 .
+lex:L10953\/Artigo1    lex:temConteudo    "Art. 1o O art. 6o da Lei no 10.820, de 17 de dezembro de 2003, passa a vigorar com a seguinte redação:" .
+lex:L10953\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10953\/Artigo1    lex:temParagrafo    lex:L10953\/Artigo1\/Paragrafo2 .
+lex:L10953\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Em qualquer circunstância, a responsabilidade do INSS em relação às operações referidas no caput deste artigo restringe-se à:" .
+lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10953\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - retenção dos valores autorizados pelo beneficiário e repasse à instituição consignatária nas operações de desconto, não cabendo à autarquia responsabilidade solidária pelos débitos contratados pelo segurado; e" .
+lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10953\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:L10953\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - manutenção dos pagamentos do titular do benefício na mesma instituição financeira enquanto houver saldo devedor nas operações em que for autorizada a retenção, não cabendo à autarquia responsabilidade solidária pelos débitos contratados pelo segurado." .
+lex:L10953\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10953\/Artigo1    lex:temParagrafo    lex:L10953\/Artigo1\/Paragrafo3 .
+lex:L10953\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o É vedado ao titular de benefício que realizar qualquer das operações referidas nesta Lei solicitar a alteração da instituição financeira pagadora, enquanto houver saldo devedor em amortização." .
+lex:L10953\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L10953\/Artigo1    lex:temParagrafo    lex:L10953\/Artigo1\/Paragrafo5 .
+lex:L10953\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o Os descontos e as retenções mencionados no caput deste artigo não poderão ultrapassar o limite de 30% (trinta por cento) do valor dos benefícios." .
+lex:L10953\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L10953\/Artigo1    lex:temParagrafo    lex:L10953\/Artigo1\/Paragrafo6 .
+lex:L10953\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o A instituição financeira que proceder à retenção de valor superior ao limite estabelecido no § 5o deste artigo perderá todas as garantias que lhe são conferidas por esta Lei.' (NR)" .
+lex:L10953\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10953    lex:temArtigo    lex:L10953\/Artigo2 .
+lex:L10953\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10953\/Artigo1    lex:remetePara    lex:L10820\/Artigo6 .
+lex:L10953\/Artigo1\/Paragrafo2    lex:remetePara    lex:L10820\/Artigo6\/Paragrafo2 .
+lex:L10953\/Artigo1\/Paragrafo5    lex:remetePara    lex:L10820\/Artigo6\/Paragrafo5 .

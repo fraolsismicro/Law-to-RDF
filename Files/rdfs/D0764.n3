@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0764    lex:ehUm    lex:DocLegal .
+lex:D0764    lex:temTextoIntegral    lex:HTMLs\/D0764.htm .
+lex:D0764\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0764    lex:temArtigo    lex:D0764\/Artigo1 .
+lex:D0764\/Artigo1    lex:temConteudo    "Art. 1° Os arts. 4° e 8° do Decreto n° 193, de 21 de agosto de 1991, passam a vigorar com a seguinte redação:" .
+lex:D0764\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoI .
+lex:D0764\/Artigo1\/IncisoI    lex:temConteudo    "I - Secretário-Executivo da Secretaria de Planejamento, Orçamento e Coordenação da Presidência da República, que será o seu Presidente;" .
+lex:D0764\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoII .
+lex:D0764\/Artigo1\/IncisoII    lex:temConteudo    "II - Secretário-Executivo do Ministério da Fazenda, que será o seu Vice-Presidente;" .
+lex:D0764\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoIII .
+lex:D0764\/Artigo1\/IncisoIII    lex:temConteudo    "III - Secretário de Planejamento e Avaliação da Secretaria de Planejamento, Orçamento e Coordenação da Presidência da República;" .
+lex:D0764\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoIV .
+lex:D0764\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Presidente do Banco Nacional de Desenvolvimento Econômico e Social BNDES;" .
+lex:D0764\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoV .
+lex:D0764\/Artigo1\/IncisoV    lex:temConteudo    "V - Presidente do Banco Central do Brasil;" .
+lex:D0764\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D0764\/Artigo1    lex:temInciso    lex:D0764\/Artigo1\/IncisoVI .
+lex:D0764\/Artigo1\/IncisoVI    lex:temConteudo    "VI - um representante do setor privado da economia nacional, nomeado pelo Ministro de Estado Chefe da Secretaria de Planejamento, Orçamento e Coordenação da Presidência da República." .
+lex:D0764\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0764    lex:temArtigo    lex:D0764\/Artigo2 .
+lex:D0764\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0764\/Texto00001    lex:remetePara    lex:D0193\/Artigo4 .
+lex:D0764\/Artigo1\/Texto00007    lex:remetePara    lex:D0193\/Artigo8 .

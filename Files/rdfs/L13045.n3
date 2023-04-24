@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13045    lex:ehUm    lex:DocLegal .
+lex:L13045    lex:temTextoIntegral    lex:HTMLs\/L13045.htm .
+lex:L13045\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13045    lex:temArtigo    lex:L13045\/Artigo1 .
+lex:L13045\/Artigo1    lex:temConteudo    "Art. 1o  O inciso V do parágrafo único do art. 3o da Lei no 9.263, de 12 de janeiro de 1996, passa a vigorar com a seguinte redação:" .
+lex:L13045\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13045\/Artigo1    lex:temParagrafo    lex:L13045\/Artigo1\/ParagrafoUnico .
+lex:L13045\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  ..........................................................." .
+lex:L13045\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13045\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13045\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:L13045\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - o controle e a prevenção dos cânceres cérvico-uterino, de mama, de próstata e de pênis. (NR)" .
+lex:L13045\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13045    lex:temArtigo    lex:L13045\/Artigo2 .
+lex:L13045\/Artigo2    lex:temConteudo    "Art. 2o  O caput do art. 4o da Lei no 10.289, de 20 de setembro de 2001, passa a vigorar acrescido do seguinte inciso V:" .
+lex:L13045\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L13045\/Artigo2    lex:temInciso    lex:L13045\/Artigo2\/IncisoV .
+lex:L13045\/Artigo2\/IncisoV    lex:temConteudo    "V - sensibilizar os profissionais de saúde, capacitando-os e reciclando-os quanto a novos avanços nos campos da prevenção e da detecção precoce do câncer de próstata." .
+lex:L13045\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13045    lex:temArtigo    lex:L13045\/Artigo3 .
+lex:L13045\/Artigo3    lex:temConteudo    "Art. 3o  A Lei nº 10.289, de 20 de setembro de 2001, passa a vigorar acrescida do seguinte art. 4o-A:" .
+lex:L13045\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13045    lex:temArtigo    lex:L13045\/Artigo4 .
+lex:L13045\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13045\/Artigo1    lex:remetePara    lex:L9263 .
+lex:L13045\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:remetePara    lex:L9263\/Artigo3 .
+lex:L13045\/Artigo2    lex:remetePara    lex:L10289 .
+lex:L13045\/Artigo2\/IncisoV    lex:remetePara    lex:L10289\/Artigo4 .
+lex:L13045\/Artigo3    lex:remetePara    lex:L10289 .
+lex:L13045\/Texto00006    lex:remetePara    lex:L10289\/Artigo4 .

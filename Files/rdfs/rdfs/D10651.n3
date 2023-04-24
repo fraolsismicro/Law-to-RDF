@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10651    lex:ehUm    lex:DocLegal .
+lex:D10651    lex:temTextoIntegral    lex:HTMLs\/D10651.htm .
+lex:D10651\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10651    lex:temArtigo    lex:D10651\/Artigo1A .
+lex:D10651\/Artigo1A    lex:temConteudo    "Art. 1Âº  Para fins de enquadramento como dependente do militar, na hipÃ³tese prevista no Â§ 3Âº do art. 50 da Lei nÂº 6.880, de 9 de dezembro de 1980, sÃ£o considerados rendimentos:" .
+lex:D10651\/Artigo1A\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D10651\/Artigo1A    lex:temAlinea    lex:D10651\/Artigo1A\/AlineaA .
+lex:D10651\/Artigo1A\/AlineaA    lex:temConteudo    "a) a tÃ­tulo de auxÃ­lios, provenientes de estÃ¡gios, e" .
+lex:D10651\/Artigo1A\/AlineaReferentes    lex:ehUm    lex:Alinea .
+lex:D10651\/Artigo1A    lex:temAlinea    lex:D10651\/Artigo1A\/AlineaReferentes .
+lex:D10651\/Artigo1A\/AlineaReferentes    lex:temConteudo    "b) referentes a bolsas de estudo e de pesquisa, quando recebidas exclusivamente para realizaÃ§Ã£o de estudos ou pesquisas e desde que nÃ£o importem a contraprestaÃ§Ã£o de serviÃ§os." .
+lex:D10651\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10651    lex:temArtigo    lex:D10651\/Artigo2A .
+lex:D10651\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Ministro de Estado da Defesa editarÃ¡ os atos complementares necessÃ¡rios Ã  execuÃ§Ã£o do disposto neste Decreto." .
+lex:D10651\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10651    lex:temArtigo    lex:D10651\/Artigo3A .
+lex:D10651\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10651\/Artigo1A    lex:remetePara    lex:L6880\/Artigo50Â§30 .
+lex:D10651\/Texto00001    lex:remetePara    lex:D9580 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4408    lex:ehUm    lex:DocLegal .
+lex:L4408    lex:temTextoIntegral    lex:HTMLs\/L4408.htm .
+lex:L4408\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4408    lex:temArtigo    lex:L4408\/Artigo1 .
+lex:L4408\/Artigo1    lex:temConteudo    "Art. 1º É autorizada a abertura, ao Ministério da Justiça e Negócios Interiores, do crédito especial de Cr$25.000.000,00 (vinte e cinco milhões de cruzeiros), destinado a custear o contrato, a ser celebrado entre o Departamento de Administração do mesmo Ministério e a IBM do Brasil-Indústria, Máquinas e Serviços Ltda. - para o preparo, em serviços mecanizados de contabilidade, das fôlhas e cheques de pagamento do pessoal civil que retornou aos serviços federais em virtude de opção nos têrmos do artigo 46 da Lei nº 4.242, de 17 de julho de 1963." .
+lex:L4408\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4408    lex:temArtigo    lex:L4408\/Artigo2 .
+lex:L4408\/Artigo2    lex:temConteudo    "Art. 2º São dispensadas as consultas a que se refere o art. 93 do Regulamento Geral de Contabilidade para a abertura de crédito de que trata a presente lei, o qual será automàticamente registrado pelo Tribunal de Contas ficando em ser no mesmo Tribunal." .
+lex:L4408\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4408    lex:temArtigo    lex:L4408\/Artigo3 .
+lex:L4408\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4408\/Artigo1    lex:remetePara    lex:L4242\/Artigo46 .
+lex:L4408\/Artigo2    lex:regulamentadoPor    lex:DPL4536\/Artigo93 .
+lex:DPL4536\/Artigo93    lex:regulamenta    lex:L4408\/Artigo2 .

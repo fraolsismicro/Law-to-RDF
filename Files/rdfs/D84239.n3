@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D84239    lex:ehUm    lex:DocLegal .
+lex:D84239    lex:temTextoIntegral    lex:HTMLs\/D84239.htm .
+lex:D84239\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D84239    lex:temArtigo    lex:D84239\/Artigo1 .
+lex:D84239\/Artigo1    lex:temConteudo    "Art. 1º O artigo 29 do Decreto nº 64.214, de 18 de março de 1962, passa a vigorar acrescido dos parágrafos 5º e 6º, com a seguinte redação:" .
+lex:D84239\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D84239\/Artigo1    lex:temParagrafo    lex:D84239\/Artigo1\/Paragrafo5 .
+lex:D84239\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Excepcionalmente, poderá, também, ser considerado, como recursos próprios, o conjunto de máquinas, equipamentos e instalações, integrantes de unidades industriais completas que venham a ser transferidas para o Nordeste, sob a forma de subscrição de capital social de pessoa jurídica com sede na área de atuação da SUDENE, obedecidos os critérios e condições a serem estabelecidos mediante Resolução do Conselho Deliberativo da SUDENE, a ser proposta por sua Secretaria-Executiva." .
+lex:D84239\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D84239\/Artigo1    lex:temParagrafo    lex:D84239\/Artigo1\/Paragrafo6 .
+lex:D84239\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º As disposições contidas no parágrafo anterior somente beneficiarão as máquinas, equipamentos e instalações diretamente ligados ao processo produtivo, que se encontrem em condições de funcionamento normal e não apresentem obsolescência tecnológica.'" .
+lex:D84239\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D84239    lex:temArtigo    lex:D84239\/Artigo2 .
+lex:D84239\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação." .
+lex:D84239\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D84239    lex:temArtigo    lex:D84239\/Artigo3 .
+lex:D84239\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:D84239\/Artigo1    lex:remetePara    lex:D64214 .

@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4473    lex:ehUm    lex:DocLegal .
+lex:D4473    lex:temTextoIntegral    lex:HTMLs\/D4473.htm .
+lex:D4473\/AlineaInclusao    lex:ehUm    lex:Alinea .
+lex:D4473    lex:temAlinea    lex:D4473\/AlineaInclusao .
+lex:D4473\/AlineaInclusao    lex:temConteudo    "a) inclusão nos Anexos 1 e 5 do ACE 35 das preferências outorgadas para os produtos incluídos no Anexo I deste Protocolo; e" .
+lex:D4473\/AlineaModificacao    lex:ehUm    lex:Alinea .
+lex:D4473    lex:temAlinea    lex:D4473\/AlineaModificacao .
+lex:D4473\/AlineaModificacao    lex:temConteudo    "b) modificação no Anexo 1 do ACE 35 das preferências outorgadas para os produtos incluídos no Anexo II deste Protocolo." .

@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1260    lex:ehUm    lex:DocLegal .
+lex:Del1260    lex:temTextoIntegral    lex:HTMLs\/Del1260.htm .
+lex:Del1260\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo1 .
+lex:Del1260\/Artigo1    lex:temConteudo    "Art. 1º - Os resultados decorrentes das alienações de imóveis que integram o ativo imobilizado realizadas até o exercício financeiro de 1978 inclusive serão excluídos do lucro real da pessoa jurídica ou da empresa individual, desde que sejam incorporados ao capital. (Redação dada pelo Decreto-lei nº 1.493, de 1976)" .
+lex:Del1260\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:Del1260\/Artigo1    lex:temParagrafo    lex:Del1260\/Artigo1\/Paragraf .
+lex:Del1260\/Artigo1\/Paragraf    lex:temConteudo    "§  1º Opcionalmente, os lucros de que trate este artigo poderão aplicar-se na amortização de prejuízos apurados em balanço." .
+lex:Del1260\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1260\/Artigo1    lex:temParagrafo    lex:Del1260\/Artigo1\/Paragrafo2 .
+lex:Del1260\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Não se beneficiam do favor fiscal:" .
+lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:Del1260\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I   as revendas de imóveis que tenham sido adquiridos ou quitados menos de 5 (cinco) anos antes da data da alienação;" .
+lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:Del1260\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:Del1260\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II   a alienação que seja pactuada a prazo superior a 5 (cinco) anos," .
+lex:Del1260\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1260\/Artigo1    lex:temParagrafo    lex:Del1260\/Artigo1\/Paragrafo3 .
+lex:Del1260\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Enquanto não forem incorporados ao capital ou utilizados na amortização de prejuízos, os lucros decorrentes as alienação de imóveis deverão permanecer contabilizados a crédito de conta de reserva específica." .
+lex:Del1260\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo2 .
+lex:Del1260\/Artigo2    lex:temConteudo    "Art. 2º No caso de venda de imóveis a prazo, a capitalização dos resultados deverá fazer-se, compulsoriamente, no prazo máximo de 6 (seis) meses, contado da data do balanço que se seguir ao efetivo recebimento da última parcela do preço, facultando-se à empresa o direito de aproveitar, em qualquer tempo anterior, para aumento do capital ou para amortização de prejuízos apurados, as partes proporcionais do lucro da operação contidas nas prestações até então recebidas." .
+lex:Del1260\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1260\/Artigo2    lex:temParagrafo    lex:Del1260\/Artigo2\/ParagrafoUnico .
+lex:Del1260\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. O Ministro da Fazenda baixará normas sobre as condições de pagamento a serem observadas nas vendas de imóveis a prazo, para gozo dos benefícios previstos neste Decreto-lei." .
+lex:Del1260\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo3 .
+lex:Del1260\/Artigo3    lex:temConteudo    "Art. 3º A reserva formada com os lucros de que tratam os artigos lº e 2º não será considerada para efeito da tributação prevista no § 1º do artigo 2º da Lei nº 1.474, de 26 de novembro, de 1951, modificado pelo artigo 6º da Lei nº 4.862, de 29 de novembro de 1965, exceto se houver infração das disposições deste Decreto-lei." .
+lex:Del1260\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo4 .
+lex:Del1260\/Artigo4    lex:temConteudo    "Art. 4º Aos aumentos de capital previstos neste Decreto-lei aplicam-se as normas do artigo 3.º e seus §§ 1º, 3º e 4º, do Decreto-lei número 1.109, de 26 de junho de 1970." .
+lex:Del1260\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo5 .
+lex:Del1260\/Artigo5    lex:temConteudo    "Art. 5º O beneficio fiscal disciplinado neste Decreto-lei aplica-se, também, aos casos de imóveis objeto de desapropriação, observadas as mesmas condições." .
+lex:Del1260\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo6 .
+lex:Del1260\/Artigo6    lex:temConteudo    "Art. 6º A infringência de qualquer das disposições deste Decreto-lei importará na, perda da isenção e na conseqüente cobrança do imposto, calculado como devido no exercício financeiro a que corresponder o ano da alienação. acrescido de correção monetária e encargo legais, inclusive multa de lançamento ex offício, na forma da legislação em vigor." .
+lex:Del1260\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1260    lex:temArtigo    lex:Del1260\/Artigo7 .
+lex:Del1260\/Artigo7    lex:temConteudo    "Art. 7º Este Decreto-lei entra em vigor na data de sua publicação, revogadas a disposições em contrário." .
+lex:Del1260\/Artigo1    lex:remetePara    lex:Del1493\/Artigo13 .
+lex:Del1260\/Artigo3    lex:remetePara    lex:L1474\/Artigo2\/Paragrafo1 .
+lex:Del1260\/Artigo3    lex:remetePara    lex:L4862\/Artigo6 .
+lex:Del1260\/Artigo4    lex:remetePara    lex:Del1109\/Artigo3 .
+lex:Del1260\/Artigo4    lex:remetePara    lex:Del1109\/Artigo3\/Paragrafo1 .

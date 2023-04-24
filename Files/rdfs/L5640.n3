@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5640    lex:ehUm    lex:DocLegal .
+lex:L5640    lex:temTextoIntegral    lex:HTMLs\/L5640.htm .
+lex:L5640\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5640    lex:temArtigo    lex:L5640\/Artigo1 .
+lex:L5640\/Artigo1    lex:temConteudo    "Art 1º O artigo 23 e seus parágrafos da Lei nº 4.878, de 3 de dezembro de 1965, passam a vigorar com a seguinte redação:" .
+lex:L5640\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5640\/Artigo1    lex:temParagrafo    lex:L5640\/Artigo1\/Paragrafo1 .
+lex:L5640\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A gratificação a que se refere êste artigo será calculada, percentualmente, sôbre o vencimento do cargo efetivo do policial, na forma a ser fixada pelo Presidente da República." .
+lex:L5640\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5640\/Artigo1    lex:temParagrafo    lex:L5640\/Artigo1\/Paragrafo2 .
+lex:L5640\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Quando se tratar de ocupante de cargo ou função de direção, chefia ou assessoramento com atribuições e responsabilidades de natureza policial, a gratificação será calculada sôbre o valor do símbolo do cargo em comissão ou da função gratificada." .
+lex:L5640\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L5640\/Artigo1    lex:temParagrafo    lex:L5640\/Artigo1\/Paragrafo3 .
+lex:L5640\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Ressalvado o magistério na Academia Nacional de Polícia e a prática profissional em estabelecimento hospitalar, para os ocupantes de cargos da série de classes de Médicos Legista, ao funcionário policial é vedado exercer outra atividade, qualquer que seja a forma de admissão, remunerada ou não, em entidade pública ou emprêsa privada'." .
+lex:L5640\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5640    lex:temArtigo    lex:L5640\/Artigo2 .
+lex:L5640\/Artigo2    lex:temConteudo    "Art 2º A presente Lei entrará em vigor na data de sua publicação, revogando-se as disposições em contrário." .
+lex:L5640\/Artigo1    lex:remetePara    lex:L4878\/Artigo23 .

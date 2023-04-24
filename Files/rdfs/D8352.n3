@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8352    lex:ehUm    lex:DocLegal .
+lex:D8352    lex:temTextoIntegral    lex:HTMLs\/D8352.htm .
+lex:D8352\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8352    lex:temArtigo    lex:D8352\/Artigo1 .
+lex:D8352\/Artigo1    lex:temConteudo    "Art. 1o  A Resolução no 1546 (2004), adotada pelo Conselho de Segurança das Nações Unidas, em 8 de junho de 2004, anexa a este Decreto, será executada e cumprida integralmente em seus termos." .
+lex:D8352\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8352    lex:temArtigo    lex:D8352\/Artigo2 .
+lex:D8352\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto no 4.775, de 9 de julho de 2003, passa a vigorar com as seguintes alterações:" .
+lex:D8352\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8352\/Artigo2    lex:temInciso    lex:D8352\/Artigo2\/IncisoI .
+lex:D8352\/Artigo2\/IncisoI    lex:temConteudo    "I - o Decreto no 99.441, de 7 de agosto de 1990; e" .
+lex:D8352\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8352\/Artigo2    lex:temInciso    lex:D8352\/Artigo2\/IncisoII .
+lex:D8352\/Artigo2\/IncisoII    lex:temConteudo    "II - o Decreto não numerado de 5 de maio de 1997 que dispõe sobre a autorização de importação limitada e condicional de petróleo iraquiano, bem como de exportação para o Iraque de itens de ajuda humanitária, peças e equipamentos para o oleoduto de Kirkuk-Yumurtalik, conforme determinado pela Resolução no 986 (1995) do Conselho de Segurança das Nações Unidas. (NR)" .
+lex:D8352\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8352    lex:temArtigo    lex:D8352\/Artigo3 .
+lex:D8352\/Artigo3    lex:temConteudo    "Art. 3o  Fica restaurada a vigência do Decreto não numerado de 21 de maio de 1991 que dispõe sobre a execução, no território nacional, da Resolução no 687 (1991) do Conselho de Segurança da Organização das Nações Unidas." .
+lex:D8352\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8352    lex:temArtigo    lex:D8352\/Artigo4 .
+lex:D8352\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8352\/Artigo2    lex:remetePara    lex:D4775 .
+lex:D8352\/Texto00002    lex:remetePara    lex:D4775\/Artigo3 .
+lex:D8352\/Artigo2\/IncisoI    lex:remetePara    lex:D99441 .
+lex:D8352\/Artigo2\/IncisoII    lex:remetePara    lex:Dnn5327 .
+lex:D8352\/Artigo3    lex:remetePara    lex:Dnn143 .

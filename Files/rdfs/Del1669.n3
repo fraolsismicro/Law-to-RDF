@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1669    lex:ehUm    lex:DocLegal .
+lex:Del1669    lex:temTextoIntegral    lex:HTMLs\/Del1669.htm .
+lex:Del1669\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo1 .
+lex:Del1669\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores de vencimento, salário e provento do pessoal ativo e inativo da Secretaria-Geral do Tribunal de Contas da União, decorrentes da aplicação do Decreto-lei nº 1.615, de 03 de março de 1978, são reajustados em 40% (quarenta por cento)." .
+lex:Del1669\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1669\/Artigo1    lex:temParagrafo    lex:Del1669\/Artigo1\/ParagrafoUnico .
+lex:Del1669\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em decorrência do disposto neste artigo, os vencimentos, salários e gratificações do pessoal em atividade passam a vigorar com os valores especificados nos Anexos Il e III do Decreto-lei nº 1.660, de 24 de janeiro de 1979, atendido, com referência ao Anexo III, o disposto no artigo 7º e seus parágrafos, do Decreto-lei nº 1.453, de 06 de abril de 1976." .
+lex:Del1669\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo2 .
+lex:Del1669\/Artigo2    lex:temConteudo    "Art. 2º Ficam alteradas, na forma do artigo 4º do Decreto-lei nº 1.660, de 24 de janeiro de 1979, as escalas de Referências que compõem as classes das Categorias Funcionais integrantes da Tabela Permanente da Secretaria-Geral do Tribunal de Contas da União, aplicando-se, no que couber, o disposto nos seus parágrafos." .
+lex:Del1669\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo3 .
+lex:Del1669\/Artigo3    lex:temConteudo    "Art. 3º As diferenças individuais de vencimento, salário ou vantagem, porventura percebidas por servidores incluídos no novo Plano de Classificação de Cargos, são absorvidas pelo reajustamento concedido por este Decreto-lei, na mesma base percentual estabelecida no caput do artigo 1º.    (Vide Decreto-lei nº 1.757, de 1980)   (Vide Decreto-lei nº 1.827, de 1980)" .
+lex:Del1669\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo4 .
+lex:Del1669\/Artigo4    lex:temConteudo    "Art. 4º A soma da gratificação por encargo de Direção ou Assistência Intermediárias com o vencimento ou salário do servidor designado para exercer a correspondente função não poderá ultrapassar o valor do vencimento ou salário, acrescido da Representação Mensal, fixados para o cargo em comissão ou função de confiança integrante do Grupo-Direção e Assessoramento Superiores a que estiver diretamente subordinado." .
+lex:Del1669\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo5 .
+lex:Del1669\/Artigo5    lex:temConteudo    "Art. 5º Nos cálculos decorrentes da aplicação deste Decreto-lei serão desprezadas as frações de cruzeiro, inclusive em relação aos descontos que incidirem sobre o vencimento, salário ou provento." .
+lex:Del1669\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo6 .
+lex:Del1669\/Artigo6    lex:temConteudo    "Art. 6º O reajustamento de vencimentos, salários, gratificações e proventos concedido por este Decreto-lei vigora a partir de 1º de março de 1979." .
+lex:Del1669\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo7 .
+lex:Del1669\/Artigo7    lex:temConteudo    "Art. 7º A despesa decorrente da aplicação deste Decreto-lei será atendida à conta dos recursos orçamentários do Tribunal de Contas da União." .
+lex:Del1669\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del1669    lex:temArtigo    lex:Del1669\/Artigo8 .
+lex:Del1669\/Artigo8    lex:temConteudo    "Art. 8º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1669\/Texto    lex:remetePara    lex:Del1757\/Artigo1 .
+lex:Del1669\/Artigo1    lex:remetePara    lex:Del1615 .
+lex:Del1669\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1660\/ .
+lex:Del1669\/Artigo2    lex:remetePara    lex:Del1660\/Artigo4 .
+lex:Del1669\/Artigo3    lex:remetePara    lex:Del1757\/Artigo4 .
+lex:Del1669\/Artigo3    lex:remetePara    lex:Del1827\/Artigo11 .

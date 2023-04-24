@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D232    lex:ehUm    lex:DocLegal .
+lex:D232    lex:temTextoIntegral    lex:HTMLs\/D232.htm .
+lex:D232\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D232    lex:temArtigo    lex:D232\/Artigo1 .
+lex:D232\/Artigo1    lex:temConteudo    "Art. 1º O Quadro Distributivo de Funções, anexo ao Decreto nº 115, de 13 de maio de 1991, na parte relativa à estrutura da 'SECRETARIA-GERAL', passa a vigorar com a redação constante do anexo a este Decreto." .
+lex:D232\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D232    lex:temArtigo    lex:D232\/Artigo2 .
+lex:D232\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D232\/Artigo1    lex:remetePara    lex:D0115\/ .

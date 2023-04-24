@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5756    lex:ehUm    lex:DocLegal .
+lex:D5756    lex:temTextoIntegral    lex:HTMLs\/D5756.htm .
+lex:D5756\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5756    lex:temArtigo    lex:D5756\/Artigo1 .
+lex:D5756\/Artigo1    lex:temConteudo    "Art. 1o  A partir de 1o de abril de 2006, o limite máximo do salário-de-contribuição e do salário-de-benefício é de R$ 2.801,56 (dois mil, oitocentos e um reais e cinqüenta e seis centavos)." .
+lex:D5756\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5756    lex:temArtigo    lex:D5756\/Artigo2 .
+lex:D5756\/Artigo2    lex:temConteudo    "Art. 2o  No ano de 2006, o pagamento do abono anual de que trata o art. 40 da Lei no 8.213, de 24 de julho de 1991, será feito em duas parcelas, sendo a primeira, equivalente a até cinqüenta por cento do valor do benefício correspondente ao mês de agosto, paga no mês de setembro, juntamente com aquele." .
+lex:D5756\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5756\/Artigo2    lex:temParagrafo    lex:D5756\/Artigo2\/ParagrafoUnico .
+lex:D5756\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O valor da segunda parcela corresponderá à diferença entre o valor total do abono devido deduzido da parcela antecipada." .
+lex:D5756\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5756    lex:temArtigo    lex:D5756\/Artigo3 .
+lex:D5756\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5756\/Artigo2    lex:remetePara    lex:L8213cons\/Artigo40 .

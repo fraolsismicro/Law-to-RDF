@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5344    lex:ehUm    lex:DocLegal .
+lex:L5344    lex:temTextoIntegral    lex:HTMLs\/L5344.htm .
+lex:L5344\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo1 .
+lex:L5344\/Artigo1    lex:temConteudo    "Art. 1º Fica alterado para NCr$611.635.900,00 (seiscentos e onze milhões seiscentos e trinta e cinco mil e novecentos cruzeiros novos) o montante do Fundo de Reserva criado pelo Decreto-lei nº 81, de 21 de dezembro de 1966, artigo 22, que passa a vigorar conforme a seguinte discriminação:" .
+lex:L5344\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo2 .
+lex:L5344\/Artigo2    lex:temConteudo    "Art. 2º Os Ministérios e Órgãos diretamente subordinados à Presidência da República deverão apresentar a discriminação da alteração do Fundo de Reserva de que trata esta lei, ao Ministério do Planejamento e Coordenação Geral, que a encaminhará ao Ministério da Fazenda." .
+lex:L5344\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo3 .
+lex:L5344\/Artigo3    lex:temConteudo    "Art. 3º Fica o Tesouro Nacional autorizado a realizar operações de crédito, mediante colocação de letras e outros títulos de sua responsabilidade, até o limite de NCr$300.000.000,00 (trezentos milhões de cruzeiros novos)." .
+lex:L5344\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5344\/Artigo3    lex:temParagrafo    lex:L5344\/Artigo3\/ParagrafoUnico .
+lex:L5344\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Inclui-se, no montante autorizado neste artigo, a colocação dos títulos referidos junto ao Banco Central do Brasil, de acôrdo com o que preceituam os §§ 1º e 2º do artigo 49 da Lei nº 4.595, de 31 de dezembro de 1964, bem como o § 2º do artigo 7º do Decreto-lei nº 96, de 30 de dezembro de 1966." .
+lex:L5344\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo4 .
+lex:L5344\/Artigo4    lex:temConteudo    "Art. 4º Ficam liberados os recursos de NCr$11.635.900,00 (onze milhões seiscentos e trinta e cinco mil e novecentos cruzeiros novos), relativos ao Adendo 'C' do Subanexo do Ministério da Saúde, incluídos no Fundo de Reserva criado pelo Decreto-lei nº 81, de 21 de dezembro de 1966." .
+lex:L5344\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo5 .
+lex:L5344\/Artigo5    lex:temConteudo    "Art. 5º As disposições constantes da presente lei destinam-se à cobertura das despesas decorrentes de novos créditos incorporados à programação de desembôlso de Caixa do Tesouro Nacional no exercício de 1967." .
+lex:L5344\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo6 .
+lex:L5344\/Artigo6    lex:temConteudo    "Art. 6º Fica elevado para 15% (quinze por cento) o limite estabelecido no artigo 16 da Lei nº 5.189, de 8 de dezembro de 1966." .
+lex:L5344\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo7 .
+lex:L5344\/Artigo7    lex:temConteudo    "Art. 7º Esta lei entra em vigor na data de sua publicação." .
+lex:L5344\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L5344    lex:temArtigo    lex:L5344\/Artigo8 .
+lex:L5344\/Artigo8    lex:temConteudo    "Art. 8º Revogam-se as disposições em contrário." .
+lex:L5344\/Artigo1    lex:remetePara    lex:Del0081\/Artigo22 .
+lex:L5344\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L4595\/Artigo49\/Paragrafo1 .
+lex:L5344\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:Del0096\/Artigo7\/Paragrafo2 .
+lex:L5344\/Artigo4    lex:remetePara    lex:Del0081 .
+lex:L5344\/Artigo6    lex:remetePara    lex:L5189\/Artigo16 .

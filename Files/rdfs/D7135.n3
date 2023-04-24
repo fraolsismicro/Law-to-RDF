@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7135    lex:ehUm    lex:DocLegal .
+lex:D7135    lex:temTextoIntegral    lex:HTMLs\/D7135.htm .
+lex:D7135\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7135    lex:temArtigo    lex:D7135\/Artigo2 .
+lex:D7135\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III a este Decreto, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7135\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7135\/Artigo2    lex:temInciso    lex:D7135\/Artigo2\/IncisoI .
+lex:D7135\/Artigo2\/IncisoI    lex:temConteudo    "I - da Fundação Nacional de Saúde para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: vinte DAS 101.2 e seis DAS 101.1;" .
+lex:D7135\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7135\/Artigo2    lex:temInciso    lex:D7135\/Artigo2\/IncisoII .
+lex:D7135\/Artigo2\/IncisoII    lex:temConteudo    "II - do Ministério da Saúde para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: sete DAS 102.2 e treze DAS 102.1; e" .
+lex:D7135\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7135\/Artigo2    lex:temInciso    lex:D7135\/Artigo2\/IncisoIII .
+lex:D7135\/Artigo2\/IncisoIII    lex:temConteudo    "III - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Saúde: vinte e sete DAS 101.2 e dezenove DAS 101.1." .
+lex:D7135\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7135    lex:temArtigo    lex:D7135\/Artigo3 .
+lex:D7135\/Artigo3    lex:temConteudo    "Art. 3o  Em decorrência do disposto no art. 2o, o Anexo II ao Decreto no 4.727, de 9 de junho de 2003, passa a vigorar na forma do Anexo IV a este Decreto." .
+lex:D7135\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7135    lex:temArtigo    lex:D7135\/Artigo4 .
+lex:D7135\/Artigo4    lex:temConteudo    "Art. 4o  Os apostilamentos decorrentes das alterações processadas deverão ocorrer no prazo de trinta dias, contados da data de publicação deste Decreto." .
+lex:D7135\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7135\/Artigo4    lex:temParagrafo    lex:D7135\/Artigo4\/Paragrafo2 .
+lex:D7135\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o  Em virtude do disposto neste Decreto, ficam declarados exonerados os titulares de cargos que deixam de existir na nova Estrutura Regimental." .
+lex:D7135\/Artigo3    lex:remetePara    lex:D4727\/ .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/Artigo1 .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/Artigo2 .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/Artigo2 .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/Artigo3 .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/Artigo4 .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/ .
+lex:D7135\/Artigo4\/Artigo7    lex:remetePara    lex:D6860\/ .

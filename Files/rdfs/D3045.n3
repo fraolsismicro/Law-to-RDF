@@ -1,0 +1,98 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3045    lex:ehUm    lex:DocLegal .
+lex:D3045    lex:temTextoIntegral    lex:HTMLs\/D3045.htm .
+lex:D3045\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3045    lex:temInciso    lex:D3045\/IncisoD .
+lex:D3045\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3045\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3045    lex:temArtigo    lex:D3045\/Artigo1 .
+lex:D3045\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo sobre Serviços Aéreos Sub-Regionais entre os Governos da República Federativa do Brasil, da República Argentina, da República da Bolívia, da República do Chile, da República do Paraguai e da República Oriental do Uruguai, celebrado em Fortaleza, em 17 de dezembro de 1996, apenso por cópia a este Decreto, deverá ser executado e cumprido tão inteiramente como nele se contém." .
+lex:D3045\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3045    lex:temArtigo    lex:D3045\/Artigo2 .
+lex:D3045\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3045\/Artigo2\/AlineaEstado    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaEstado .
+lex:D3045\/Artigo2\/AlineaEstado    lex:temConteudo    "a) 'Estado Parte' significa cada um dos países signatários do presente Acordo e aqueles que a ele aderirem posteriormente." .
+lex:D3045\/Artigo2\/AlineaAutoridades    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaAutoridades .
+lex:D3045\/Artigo2\/AlineaAutoridades    lex:temConteudo    "b) 'Autoridades Aeronáuticas' significa as Autoridades da Aeronáutica Civil dos Estados Partes." .
+lex:D3045\/Artigo2\/AlineaServicos    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaServicos .
+lex:D3045\/Artigo2\/AlineaServicos    lex:temConteudo    "c) 'Serviços Sub-regionais' significa os serviços aéreos regulares de passageiros, carga e mala postal, separadamente ou em combinação, realizados dentro da Sub-região que compreende os territórios dos Estados Partes, de conformidade com os critérios estabelecidos especificamente para tanto, em rotas diferentes das regionais efetivamente operadas no quadro dos Acordos Bilaterais." .
+lex:D3045\/Artigo2\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaConselho .
+lex:D3045\/Artigo2\/AlineaConselho    lex:temConteudo    "d) 'Conselho' significa o Conselho de Autoridades Aeronáuticas do Sistema Sub-regional de Transporte Aéreo." .
+lex:D3045\/Artigo2\/AlineaPais    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaPais .
+lex:D3045\/Artigo2\/AlineaPais    lex:temConteudo    "f) 'País de Origem' significa o território do Estado onde se inicia o transporte." .
+lex:D3045\/Artigo2\/AlineaAcordos    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaAcordos .
+lex:D3045\/Artigo2\/AlineaAcordos    lex:temConteudo    "g) 'Acordos Bilaterais' significa todos os Acordos assinados entre Governos ou entre Autoridades Aeronáuticas que estabeleçam direitos relativos ao tráfego aerocomercial." .
+lex:D3045\/Artigo2\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaDo .
+lex:D3045\/Artigo2\/AlineaDo    lex:temConteudo    "a) do direito de sobrevoar os territórios dos Estados Partes;" .
+lex:D3045\/Artigo2\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaDo .
+lex:D3045\/Artigo2\/AlineaDo    lex:temConteudo    "b) do direito de aterrissar nos referidos territórios, para fins não comerciais;" .
+lex:D3045\/Artigo2\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaDo .
+lex:D3045\/Artigo2\/AlineaDo    lex:temConteudo    "c) do direito de embarcar e desembarcar, nos territórios dos Estados Partes, passageiros, carga e mala postal, separadamente ou em combinação, em vôos regulares que se realizem exclusivamente dentro da Sub-região." .
+lex:D3045\/Artigo2\/AlineaDo\/ItemO    lex:ehUm    lex:Item .
+lex:D3045\/Artigo2\/AlineaDo    lex:temItem    lex:D3045\/Artigo2\/AlineaDo\/ItemO .
+lex:D3045\/Artigo2\/AlineaDo\/ItemO    lex:temConteudo    "2. O direito de embarcar e desembarcar passageiros, carga e mala postal destinados a ou provenientes de territórios de terceiros Estados Partes dependerá de autorização dos Estados Partes envolvidos, sejam esses tráfegos de quinta ou de sexta liberdades." .
+lex:D3045\/Artigo2\/AlineaDo\/ItemAs    lex:ehUm    lex:Item .
+lex:D3045\/Artigo2\/AlineaDo    lex:temItem    lex:D3045\/Artigo2\/AlineaDo\/ItemAs .
+lex:D3045\/Artigo2\/AlineaDo\/ItemAs    lex:temConteudo    "3. As empresas designadas poderão permitir a seus passageiros a interrupção da viagem, com direito a posterior reembarque, em escalas intermediárias de uma mesma rota sub-regional, nas condições estabelecidas no Anexo I ao presente Acordo." .
+lex:D3045\/Artigo2\/AlineaPronunciar-se    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaPronunciar-se .
+lex:D3045\/Artigo2\/AlineaPronunciar-se    lex:temConteudo    "a) pronunciar-se sobre as controvérsias resultantes da aplicação e/ou interpretação das cláusulas do Acordo, de seus Anexos e do Regulamento;" .
+lex:D3045\/Artigo2\/AlineaFormular    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaFormular .
+lex:D3045\/Artigo2\/AlineaFormular    lex:temConteudo    "b) formular normas complementares para o funcionamento harmonioso do Sistema de Transporte Aéreo Sub-regional, sempre que seja necessário;" .
+lex:D3045\/Artigo2\/AlineaPronunciar-se    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaPronunciar-se .
+lex:D3045\/Artigo2\/AlineaPronunciar-se    lex:temConteudo    "c) pronunciar-se sobre as denúncias de práticas predatórias ou de competição desleal;" .
+lex:D3045\/Artigo2\/AlineaRecomendar    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaRecomendar .
+lex:D3045\/Artigo2\/AlineaRecomendar    lex:temConteudo    "d) recomendar soluções para as controvérsias relativas ao Transporte Aéreo Sub-regional;" .
+lex:D3045\/Artigo2\/AlineaAvaliar    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaAvaliar .
+lex:D3045\/Artigo2\/AlineaAvaliar    lex:temConteudo    "e) avaliar a aplicação de suas Resoluções nos Estados Partes;" .
+lex:D3045\/Artigo2\/AlineaProcurar    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaProcurar .
+lex:D3045\/Artigo2\/AlineaProcurar    lex:temConteudo    "f) procurar, através de cada Representante, junto às Autoridades competentes de seus respectivos países, a coordenação das ações tendentes à simplificação e compatibilização em matérias relativas a facilitação, segurança, aeronavegabilidade, operações e licenças do pessoal;" .
+lex:D3045\/Artigo2\/AlineaAnalisar    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaAnalisar .
+lex:D3045\/Artigo2\/AlineaAnalisar    lex:temConteudo    "g) analisar e projetar modificações para as revisões periódicas do Acordo;" .
+lex:D3045\/Artigo2\/AlineaConceder    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaConceder .
+lex:D3045\/Artigo2\/AlineaConceder    lex:temConteudo    "h) conceder, por solicitação das empresas envolvidas, audiência para conhecer seus pleitos, em conformidade com o disposto no Regulamento;" .
+lex:D3045\/Artigo2\/AlineaProcurar    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaProcurar .
+lex:D3045\/Artigo2\/AlineaProcurar    lex:temConteudo    "i) procurar, através de cada Estado Parte, um tratamento simétrico e convenientemente econômico nos níveis tarifários para os serviços aeroportuários de tráfego aéreo, alfândega, imigração e saúde, entre outros; a fim de fomentar o desenvolvimento do Transporte Aéreo Sub-regional." .
+lex:D3045\/Artigo2\/AlineaProcurar\/ItemSessoes    lex:ehUm    lex:Item .
+lex:D3045\/Artigo2\/AlineaProcurar    lex:temItem    lex:D3045\/Artigo2\/AlineaProcurar\/ItemSessoes .
+lex:D3045\/Artigo2\/AlineaProcurar\/ItemSessoes    lex:temConteudo    "3. Sessões" .
+lex:D3045\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaA .
+lex:D3045\/Artigo2\/AlineaA    lex:temConteudo    "a) a preparação e divulgação das Ordens do Dia, das Atas das reuniões do Conselho e das soluções de controvérsias alcançadas em conformidade com o Artigo 17 deste Acordo;" .
+lex:D3045\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaO .
+lex:D3045\/Artigo2\/AlineaO    lex:temConteudo    "b) o tratamento da informação e da documentação que o Conselho requeira;" .
+lex:D3045\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaA .
+lex:D3045\/Artigo2\/AlineaA    lex:temConteudo    "c) a preparação da correspondência oficial do Presidente do Conselho;" .
+lex:D3045\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3045\/Artigo2    lex:temAlinea    lex:D3045\/Artigo2\/AlineaA .
+lex:D3045\/Artigo2\/AlineaA    lex:temConteudo    "d) a execução da transição da Secretaria de um para outro Estado Parte, ao suceder-lhe um novo Secretário." .
+lex:D3045\/Artigo2\/AlineaA\/ItemAtas    lex:ehUm    lex:Item .
+lex:D3045\/Artigo2\/AlineaA    lex:temItem    lex:D3045\/Artigo2\/AlineaA\/ItemAtas .
+lex:D3045\/Artigo2\/AlineaA\/ItemAtas    lex:temConteudo    "8. Atas" .
+lex:D3045\/Artigo2\/AlineaA\/Texto00029    lex:remetePara    lex:index .

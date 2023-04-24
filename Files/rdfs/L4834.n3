@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4834    lex:ehUm    lex:DocLegal .
+lex:L4834    lex:temTextoIntegral    lex:HTMLs\/L4834.htm .
+lex:L4834\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4834    lex:temArtigo    lex:L4834\/Artigo1 .
+lex:L4834\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo do Distrito Federal autorizado a abrir, pela Secretaria de Finanças o crédito especial de Cr$ 200.000.000 (duzentos milhões de cruzeiros), para prosseguimento das obras do Estádio de Brasília, da Federação Desportiva de Brasília." .
+lex:L4834\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4834    lex:temArtigo    lex:L4834\/Artigo2 .
+lex:L4834\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à abertura dêste crédito serão obtidos, na forma do item III do § 1º do artigo 43 da Lei nº 4.320, de 17 de março de 1964, da anulação parcial, em igual valor, da seguinte verba do Orçamento vigente da Secretaria de Agricultura, fixada pela Lei nº 4.544, de 10 de dezembro de 1964:" .
+lex:L4834\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4834    lex:temArtigo    lex:L4834\/Artigo3 .
+lex:L4834\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4834\/Artigo3\/ParagrafoRevogam-se    lex:ehUm    lex:Paragrafo .
+lex:L4834\/Artigo3    lex:temParagrafo    lex:L4834\/Artigo3\/ParagrafoRevogam-se .
+lex:L4834\/Artigo3\/ParagrafoRevogam-se    lex:temConteudo    "Art.4º Revogam-se as disposições em contrário." .
+lex:L4834\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1iii .
+lex:L4834\/Artigo2    lex:remetePara    lex:L4544 .

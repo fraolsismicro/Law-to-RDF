@@ -1,0 +1,268 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8425    lex:ehUm    lex:DocLegal .
+lex:D8425    lex:temTextoIntegral    lex:HTMLs\/D8425.htm .
+lex:D8425\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo1 .
+lex:D8425\/Artigo1    lex:temConteudo    "Art. 1 º Este Decreto dispõe sobre os critérios para inscrição no Registro Geral da Atividade Pesqueira - RGP e para a concessão de autorização, permissão ou licença para o exercício da atividade pesqueira, nos termos do parágrafo único do art. 24 e do art. 25 da Lei n º 11.959, de 29 de junho de 2009." .
+lex:D8425\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo1    lex:temParagrafo    lex:D8425\/Artigo1\/Paragrafo1 .
+lex:D8425\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º O RGP é o instrumento prévio que habilita a pessoa física ou jurídica e a embarcação de pesca ao exercício da atividade pesqueira no Brasil." .
+lex:D8425\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo1    lex:temParagrafo    lex:D8425\/Artigo1\/Paragrafo2 .
+lex:D8425\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º A atividade pesqueira no Brasil só poderá ser exercida por pessoa física, jurídica e embarcação de pesca inscrita no RGP e que detenha autorização, permissão ou licença para o exercício da atividade pesqueira." .
+lex:D8425\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo1    lex:temParagrafo    lex:D8425\/Artigo1\/Paragrafo3 .
+lex:D8425\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º Compete ao Ministério da Pesca e Aquicultura as ações previstas no caput." .
+lex:D8425\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo2 .
+lex:D8425\/Artigo2    lex:temConteudo    "Art. 2 º São categorias de inscrição no RGP:" .
+lex:D8425\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoI .
+lex:D8425\/Artigo2\/IncisoI    lex:temConteudo    "I - pescador e pescadora profissional artesanal - pessoa física, brasileira ou estrangeira, residente no País, que exerce a pesca com fins comerciais de forma autônoma ou em regime de economia familiar, com meios de produção próprios ou mediante contrato de parceria, podendo atuar de forma desembarcada ou utilizar embarcação de pesca com arqueação bruta menor ou igual a vinte;" .
+lex:D8425\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoII .
+lex:D8425\/Artigo2\/IncisoII    lex:temConteudo    "II   pescador e pescadora profissional industrial - pessoa física, brasileira ou estrangeira, residente no País, que exerce a pesca com fins comerciais, na condição de empregado ou empregada ou em regime de parceria por cotas-partes em embarcação de pesca com qualquer arqueação bruta;" .
+lex:D8425\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoIII .
+lex:D8425\/Artigo2\/IncisoIII    lex:temConteudo    "III - armador e armadora de pesca - pessoa física ou jurídica que apresta embarcação própria ou de terceiros para ser utilizada na atividade pesqueira, pondo-a ou não a operar por sua conta;" .
+lex:D8425\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoIV .
+lex:D8425\/Artigo2\/IncisoIV    lex:temConteudo    "IV - embarcação de pesca - aquela pertencente a pessoa física ou jurídica, brasileira ou estrangeira, que opera, com exclusividade, em uma ou mais das seguintes atividades:" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca    lex:temConteudo    "a) pesca;" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura    lex:temConteudo    "b) aquicultura;" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao    lex:temConteudo    "c) conservação do pescado;" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento    lex:temConteudo    "d) processamento do pescado;" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte    lex:temConteudo    "e) transporte do pescado; e" .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte\/IncisoAlineaPesquisa    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte    lex:temIncisoAlinea    lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte\/IncisoAlineaPesquisa .
+lex:D8425\/Artigo2\/IncisoIV\/IncisoAlineaPesca\/IncisoAlineaAquicultura\/IncisoAlineaConservacao\/IncisoAlineaProcessamento\/IncisoAlineaTransporte\/IncisoAlineaPesquisa    lex:temConteudo    "f) pesquisa de recursos pesqueiros;" .
+lex:D8425\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoV .
+lex:D8425\/Artigo2\/IncisoV    lex:temConteudo    "V - pescador amador ou esportivo e pescadora amadora ou esportiva - pessoa física, brasileira ou estrangeira, que pratica a pesca com finalidade de lazer ou desporto, com equipamentos ou petrechos previstos em legislação específica, sem fins comerciais;" .
+lex:D8425\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoVI .
+lex:D8425\/Artigo2\/IncisoVI    lex:temConteudo    "VI - aquicultor e aquicultora - pessoa física ou jurídica que exerce a aquicultura com fins comerciais;" .
+lex:D8425\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoVII .
+lex:D8425\/Artigo2\/IncisoVII    lex:temConteudo    "VII - empresa pesqueira - pessoa jurídica, constituída de acordo com a legislação, que se dedica, com fins comerciais, ao exercício da atividade pesqueira;" .
+lex:D8425\/Artigo2\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoVIII .
+lex:D8425\/Artigo2\/IncisoVIII    lex:temConteudo    "VIII - trabalhador e trabalhadora de apoio à pesca artesanal - pessoa física que, de forma autônoma ou em regime de economia familiar, com meios de produção próprios ou mediante contrato de parceria, exerce trabalhos de confecção e de reparos de artes e petrechos de pesca, de reparos em embarcações de pesca de pequeno porte ou atua no processamento do produto da pesca artesanal; e" .
+lex:D8425\/Artigo2\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo2    lex:temInciso    lex:D8425\/Artigo2\/IncisoIX .
+lex:D8425\/Artigo2\/IncisoIX    lex:temConteudo    "IX - aprendiz de pesca - pessoa física com mais de quatorze e menos de dezoito anos que atua de forma desembarcada ou embarcada como tripulante em embarcação de pesca, observadas as legislações trabalhista, previdenciária, de proteção à criança e ao adolescente e as normas da autoridade marítima." .
+lex:D8425\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo2    lex:temParagrafo    lex:D8425\/Artigo2\/ParagrafoUnico .
+lex:D8425\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A pessoa jurídica registrada nas categorias de aquicultor ou de armador de pesca estará automaticamente inscrita na categoria empresa pesqueira." .
+lex:D8425\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo3 .
+lex:D8425\/Artigo3    lex:temConteudo    "Art. 3 º As pessoas físicas ou jurídicas, nacionais ou estrangeiras, e os proprietários ou responsáveis pelas embarcações de pesca deverão solicitar, ao Ministério da Pesca e Aquicultura, a inscrição no RGP em uma das categorias previstas no art. 2 º e a concessão de autorização, permissão ou licença para exercer atividade pesqueira no Brasil." .
+lex:D8425\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo3    lex:temParagrafo    lex:D8425\/Artigo3\/ParagrafoUnico .
+lex:D8425\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam dispensados da inscrição de que trata o caput:" .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8425\/Artigo3\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - pescadores e pescadoras de subsistência que praticam da atividade de pesca com fins de consumo doméstico ou escambo sem fins de lucro e utilizando petrechos previstos em legislação específica;" .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8425\/Artigo3\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - pescadores amadores e pescadoras amadoras que utilizam linha de mão ou caniço simples; e" .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8425\/Artigo3\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D8425\/Artigo3\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - índios e índias que praticam a atividade pesqueira para subsistência." .
+lex:D8425\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo4 .
+lex:D8425\/Artigo4    lex:temConteudo    "Art. 4 º O pedido de inscrição no RGP será dirigido às Superintendências Federais da Pesca e Aquicultura - SFPA ou aos Escritórios Regionais do Ministério da Pesca e Aquicultura da unidade da federação em que o interessado ou interessada reside ou possui domicílio." .
+lex:D8425\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo4    lex:temParagrafo    lex:D8425\/Artigo4\/ParagrafoUnico .
+lex:D8425\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O pescador e a pescadora profissional artesanal deverão informar, em seu pedido de inscrição no RGP, se exercem a pesca como atividade exclusiva, principal ou subsidiária, na forma de ato conjunto do Ministério da Pesca e Aquicultura e do Ministério da Previdência Social." .
+lex:D8425\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo5 .
+lex:D8425\/Artigo5    lex:temConteudo    "Art. 5 º Para o exercício da atividade pesqueira, observadas as regras de ordenamento e do uso sustentável dos recursos pesqueiros, o Ministério da Pesca e Aquicultura poderá conceder:" .
+lex:D8425\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo5    lex:temInciso    lex:D8425\/Artigo5\/IncisoI .
+lex:D8425\/Artigo5\/IncisoI    lex:temConteudo    "I - permissão de atividade pesqueira, para:" .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoI    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia    lex:temConteudo    "a) transferência de propriedade da embarcação ou de modalidade de pesca;" .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao    lex:temConteudo    "b) construção, transformação e importação de embarcações de pesca; e" .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao\/IncisoAlineaArrendamento    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao\/IncisoAlineaArrendamento .
+lex:D8425\/Artigo5\/IncisoI\/IncisoAlineaTransferencia\/IncisoAlineaConstrucao\/IncisoAlineaArrendamento    lex:temConteudo    "c) arrendamento de embarcação estrangeira de pesca;" .
+lex:D8425\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo5    lex:temInciso    lex:D8425\/Artigo5\/IncisoII .
+lex:D8425\/Artigo5\/IncisoII    lex:temConteudo    "II - autorização de atividade pesqueira, para:" .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoII    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao    lex:temConteudo    "a) operação de embarcação de pesca;" .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao    lex:temConteudo    "b) realização de torneios ou gincanas de pesca amadora; e" .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao\/IncisoAlineaColeta    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao\/IncisoAlineaColeta .
+lex:D8425\/Artigo5\/IncisoII\/IncisoAlineaOperacao\/IncisoAlineaRealizacao\/IncisoAlineaColeta    lex:temConteudo    "c) coleta, captura e transporte, por aquicultor e aquicultora, de organismos aquáticos silvestres com finalidade de reposição de plantel de reprodutores e de cultivo de moluscos aquáticos e macroalgas; e" .
+lex:D8425\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo5    lex:temInciso    lex:D8425\/Artigo5\/IncisoIII .
+lex:D8425\/Artigo5\/IncisoIII    lex:temConteudo    "III - licença de atividade pesqueira, para:" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador    lex:temConteudo    "a) pescador e pescadora profissional artesanal;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:temConteudo    "b) pescador e pescadora profissional industrial;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:temConteudo    "c) pescador amador ou esportivo e pescadora amadora ou esportiva;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor    lex:temConteudo    "d) aquicultor e aquicultora;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador    lex:temConteudo    "e) armador e armadora de pesca;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao    lex:temConteudo    "f) instalação e operação de empresa pesqueira;" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador    lex:temConteudo    "g) trabalhador e trabalhadora de apoio à pesca artesanal; e" .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador\/IncisoAlineaAprendiz    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador    lex:temIncisoAlinea    lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador\/IncisoAlineaAprendiz .
+lex:D8425\/Artigo5\/IncisoIII\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaPescador\/IncisoAlineaAquicultor\/IncisoAlineaArmador\/IncisoAlineaInstalacao\/IncisoAlineaTrabalhador\/IncisoAlineaAprendiz    lex:temConteudo    "h) aprendiz de pesca." .
+lex:D8425\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo6 .
+lex:D8425\/Artigo6    lex:temConteudo    "Art. 6 º Para obtenção de autorização, permissão ou licença de atividade pesqueira, o interessado ou interessada deverá entregar no pedido de inscrição no RGP:" .
+lex:D8425\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo6    lex:temInciso    lex:D8425\/Artigo6\/IncisoI .
+lex:D8425\/Artigo6\/IncisoI    lex:temConteudo    "I - formulário preenchido;" .
+lex:D8425\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo6    lex:temInciso    lex:D8425\/Artigo6\/IncisoII .
+lex:D8425\/Artigo6\/IncisoII    lex:temConteudo    "II - documentos definidos em ato do Ministério da Pesca e Aquicultura; e" .
+lex:D8425\/Artigo6\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo6    lex:temInciso    lex:D8425\/Artigo6\/IncisoIII .
+lex:D8425\/Artigo6\/IncisoIII    lex:temConteudo    "III - comprovante do pagamento de taxa prevista no Decreto-Lei n º 221, de 28 de fevereiro de 1967." .
+lex:D8425\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo6    lex:temParagrafo    lex:D8425\/Artigo6\/Paragrafo1 .
+lex:D8425\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1 º A obtenção de autorização, permissão ou licença não exime o interessado ou a interessada do cumprimento das demais normas aplicáveis ao exercício da atividade a ser realizada." .
+lex:D8425\/Artigo6\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo6    lex:temParagrafo    lex:D8425\/Artigo6\/Paragrafo2 .
+lex:D8425\/Artigo6\/Paragrafo2    lex:temConteudo    "§ 2 º No ato da concessão de autorização, permissão ou licença, o Ministério da Pesca e Aquicultura orientará os interessados e as interessadas sobre os procedimentos adicionais que deverão adotar, inclusive junto aos demais órgãos de fiscalização, visando ao exercício regular de suas atividades." .
+lex:D8425\/Artigo6\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo6    lex:temParagrafo    lex:D8425\/Artigo6\/Paragrafo3 .
+lex:D8425\/Artigo6\/Paragrafo3    lex:temConteudo    "§ 3 º Os documentos a serem exigidos no pedido de renovação de autorização, permissão ou licença de atividade pesqueira serão definidos em ato do Ministério da Pesca e Aquicultura." .
+lex:D8425\/Artigo6\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo6    lex:temParagrafo    lex:D8425\/Artigo6\/Paragrafo4 .
+lex:D8425\/Artigo6\/Paragrafo4    lex:temConteudo    "§ 4 º Para fins de comprovação das subcategorias dispostas no parágrafo único do art. 4º, o Ministério da Pesca e Aquicultura poderá, a qualquer tempo, solicitar documentos complementares para comprovar o exercício da atividade pesqueira do pescador ou pescadora profissional artesanal." .
+lex:D8425\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo7 .
+lex:D8425\/Artigo7    lex:temConteudo    "Art. 7 º Caso o pedido de inscrição no RGP seja deferido e a autorização, permissão ou licença seja concedida, o interessado ou interessada receberá carteira de pescador ou pescadora profissional ou certificado de registro referente à autorização, à licença ou à permissão de atividade pesqueira." .
+lex:D8425\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo7    lex:temParagrafo    lex:D8425\/Artigo7\/ParagrafoUnico .
+lex:D8425\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os documentos comprobatórios da inscrição no RGP e da obtenção de autorização, permissão ou licença para o exercício da atividade pesqueira referidos no caput terão validade em todo o território nacional." .
+lex:D8425\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo8 .
+lex:D8425\/Artigo8    lex:temConteudo    "Art. 8 º  Os documentos comprobatórios da inscrição no RGP e da obtenção de autorização, permissão ou licença para o exercício da atividade pesqueira referidos no caput do art. 7 º terão validade:" .
+lex:D8425\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo8    lex:temInciso    lex:D8425\/Artigo8\/IncisoI .
+lex:D8425\/Artigo8\/IncisoI    lex:temConteudo    "I - de até dois anos para permissão, contados da data de expedição;" .
+lex:D8425\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo8    lex:temInciso    lex:D8425\/Artigo8\/IncisoII .
+lex:D8425\/Artigo8\/IncisoII    lex:temConteudo    "II - de um ano para autorização, contado da data de expedição; e" .
+lex:D8425\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo8    lex:temInciso    lex:D8425\/Artigo8\/IncisoIII .
+lex:D8425\/Artigo8\/IncisoIII    lex:temConteudo    "III - de acordo com cada categoria para licença, desde que comprovado o cumprimento das obrigações e o exercício da atividade pesqueira no prazo definido em ato do Ministério da Pesca e Aquicultura." .
+lex:D8425\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo8    lex:temParagrafo    lex:D8425\/Artigo8\/Paragrafo1 .
+lex:D8425\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1 º  Os pedidos de prorrogação de permissão e de autorização deverão ser apresentados ao Ministério da Pesca e Aquicultura até trinta dias antes do final do prazo de vigência." .
+lex:D8425\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo8    lex:temParagrafo    lex:D8425\/Artigo8\/Paragrafo2 .
+lex:D8425\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2 º  A autorização concedida para realização de torneios ou gincanas de pesca amadora terá validade equivalente ao período de duração do evento informado no pedido." .
+lex:D8425\/Artigo8\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo8    lex:temParagrafo    lex:D8425\/Artigo8\/Paragrafo3 .
+lex:D8425\/Artigo8\/Paragrafo3    lex:temConteudo    "§ 3 º A licença de pescador profissional estrangeiro ou pescadora profissional estrangeira terá validade equivalente ao período concedido na autorização de trabalho no País, respeitado o prazo previsto para cada categoria de licença." .
+lex:D8425\/Artigo8\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo8    lex:temParagrafo    lex:D8425\/Artigo8\/Paragrafo4 .
+lex:D8425\/Artigo8\/Paragrafo4    lex:temConteudo    "§ 4 º A licença de pescador amador ou pescadora amadora terá validade máxima de um ano." .
+lex:D8425\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo9 .
+lex:D8425\/Artigo9    lex:temConteudo    "Art. 9 º Qualquer modificação ou alteração das condições ou dados constantes de autorização, permissão ou licença de atividade pesqueira concedida deverá ser comunicada pelo interessado ou interessada, no prazo máximo de sessenta dias de sua ocorrência, ao SFPA ou ao Escritório Regional do Ministério da Pesca e Aquicultura da unidade da federação que o concedeu, por meio de requerimento instruído com documentação comprobatória." .
+lex:D8425\/Artigo9\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8425\/Artigo9    lex:temParagrafo    lex:D8425\/Artigo9\/ParagrafoUnico .
+lex:D8425\/Artigo9\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O não atendimento do disposto no caput poderá acarretar o cancelamento do ato administrativo concedido." .
+lex:D8425\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo10 .
+lex:D8425\/Artigo10    lex:temConteudo    "Art. 10.  A não comprovação do exercício da atividade pesqueira ou o descumprimento das obrigações definidas em ato do Ministério da Pesca e Aquicultura poderá ensejar o cancelamento da autorização, permissão ou licença de atividade pesqueira." .
+lex:D8425\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo11 .
+lex:D8425\/Artigo11    lex:temConteudo    "Art. 11.  Este Decreto não se aplica às seguintes hipóteses previstas no art. 25 da Lei n º 11.959, de 2009:" .
+lex:D8425\/Artigo11\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo11    lex:temInciso    lex:D8425\/Artigo11\/IncisoI .
+lex:D8425\/Artigo11\/IncisoI    lex:temConteudo    "I - concessão para exploração por particular de infraestrutura e de terrenos públicos destinados à exploração de recursos pesqueiros;" .
+lex:D8425\/Artigo11\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo11    lex:temInciso    lex:D8425\/Artigo11\/IncisoII .
+lex:D8425\/Artigo11\/IncisoII    lex:temConteudo    "II - permissão:" .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo11\/IncisoII    lex:temIncisoAlinea    lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara    lex:temConteudo    "a) para o exercício de aquicultura em águas públicas;" .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "b) para importação de espécies aquáticas para fins ornamentais e de aquicultura, em qualquer fase do ciclo vital; e" .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D8425\/Artigo11\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "c) para instalação de armadilhas fixas em águas de domínio da União;" .
+lex:D8425\/Artigo11\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo11    lex:temInciso    lex:D8425\/Artigo11\/IncisoIII .
+lex:D8425\/Artigo11\/IncisoIII    lex:temConteudo    "III - autorização para operação de embarcação de esporte e recreio, quando utilizada na pesca esportiva; e" .
+lex:D8425\/Artigo11\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo11    lex:temInciso    lex:D8425\/Artigo11\/IncisoIV .
+lex:D8425\/Artigo11\/IncisoIV    lex:temConteudo    "IV - cessão para uso de espaços físicos em corpos dágua sob jurisdição da União, dos Estados e do Distrito Federal, para fins de aquicultura." .
+lex:D8425\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo12 .
+lex:D8425\/Artigo12    lex:temConteudo    "Art. 12. A pesquisa pesqueira será objeto de portaria conjunta do Ministério da Pesca e Aquicultura e do Ministério do Meio Ambiente, sem prejuízo do disposto no art. 30 da Lei n º 11.959, de 2009." .
+lex:D8425\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo13 .
+lex:D8425\/Artigo13    lex:temConteudo    "Art. 13. O Ministério da Pesca e Aquicultura poderá expedir atos complementares necessários à aplicação deste Decreto." .
+lex:D8425\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo14 .
+lex:D8425\/Artigo14    lex:temConteudo    "Art. 14. A inscrição no RGP não isenta o interessado de:" .
+lex:D8425\/Artigo14\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo14    lex:temInciso    lex:D8425\/Artigo14\/IncisoI .
+lex:D8425\/Artigo14\/IncisoI    lex:temConteudo    "I - estar regularmente cadastrado no Cadastro Técnico Federal para a realização da atividade pesqueira;" .
+lex:D8425\/Artigo14\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo14    lex:temInciso    lex:D8425\/Artigo14\/IncisoII .
+lex:D8425\/Artigo14\/IncisoII    lex:temConteudo    "II - possuir habilitação certificada pela autoridade marítima, caso opere embarcação em caráter profissional;" .
+lex:D8425\/Artigo14\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo14    lex:temInciso    lex:D8425\/Artigo14\/IncisoIII .
+lex:D8425\/Artigo14\/IncisoIII    lex:temConteudo    "III - ter autorização para o exercício de atividade profissional no País, no caso de pessoas físicas estrangeiras; e" .
+lex:D8425\/Artigo14\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8425\/Artigo14    lex:temInciso    lex:D8425\/Artigo14\/IncisoIV .
+lex:D8425\/Artigo14\/IncisoIV    lex:temConteudo    "IV - observar a legislação referente a povos e terras indígenas." .
+lex:D8425\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo15 .
+lex:D8425\/Artigo15    lex:temConteudo    "Art. 15. Este Decreto entra em vigor quarenta e cinco dias após a data de sua publicação." .
+lex:D8425\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D8425    lex:temArtigo    lex:D8425\/Artigo15 .
+lex:D8425\/Artigo15    lex:temConteudo    "Art. 15. Este Decreto entra em vigor setenta e cinco dias após a data de sua publicação.      (Redação dada pelo Decreto nº 8.450, de 2015)" .
+lex:D8425\/Artigo1    lex:remetePara    lex:L11959\/Artigo24 .
+lex:D8425\/Artigo1    lex:remetePara    lex:L11959\/Artigo25 .
+lex:D8425\/Artigo6\/IncisoIII    lex:remetePara    lex:Del0221 .
+lex:D8425\/Artigo11    lex:remetePara    lex:L11959\/Artigo25 .
+lex:D8425\/Artigo12    lex:remetePara    lex:L11959\/Artigo30 .
+lex:D8425\/Artigo15    lex:remetePara    lex:D8450 .

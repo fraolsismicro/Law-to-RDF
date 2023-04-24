@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:LCT005    lex:ehUm    lex:DocLegal .
+lex:LCT005    lex:temTextoIntegral    lex:HTMLs\/LCT005.htm .
+lex:LCT005\/Artigo1    lex:ehUm    lex:Artigo .
+lex:LCT005    lex:temArtigo    lex:LCT005\/Artigo1 .
+lex:LCT005\/Artigo1    lex:temConteudo    "Art. 1º - O art. 122, nº 14, da Constituição, fica assim redigido:" .
+lex:LCT005\/Artigo2    lex:ehUm    lex:Artigo .
+lex:LCT005    lex:temArtigo    lex:LCT005\/Artigo2 .
+lex:LCT005\/Artigo2    lex:temConteudo    "Art. 2º - Fica redigido nestes termos o art. 166 da Constituição:" .
+lex:LCT005\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:LCT005\/Artigo2    lex:temParagrafo    lex:LCT005\/Artigo2\/Paragrafo1 .
+lex:LCT005\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º - Para nenhum desses atos será necessária a autorização do Parlamento nacional, nem este poderá suspender o estado de emergência ou o estado de guerra declarado pelo Presidente da República." .
+lex:LCT005\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:LCT005\/Artigo2    lex:temParagrafo    lex:LCT005\/Artigo2\/Paragrafo2 .
+lex:LCT005\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º - Declarado o estado de emergência em todo o país, poderá o Presidente da República, no intuito de salvaguardar os interesses materiais e morais do Estado ou de seus nacionais, decretar, com prévia aquiescência do Poder Legislativo, a suspensão das garantias constitucionais atribuídas à propriedade e à liberdade de pessoas físicas ou jurídicas, súditos de Estado estrangeiro, que, por qualquer forma, tenham praticado atos de agressão de que resultem prejuízos para os bens e direitos do Estado brasileiro, ou para a vida, os bens e os direitos das pessoas físicas ou jurídicas brasileiras, domiciliadas ou residentes no País.'" .
+lex:LCT005\/Artigo3    lex:ehUm    lex:Artigo .
+lex:LCT005    lex:temArtigo    lex:LCT005\/Artigo3 .
+lex:LCT005\/Artigo3    lex:temConteudo    "Art. 3º - Ao art. 168 da Constituição acrescenta-se a alínea seguinte:" .
+lex:LCT005\/Artigo1    lex:remetePara    lex:Constituicao37 .
+lex:LCT005\/Texto00001    lex:remetePara    lex:Constituicao37\/Artigo12214 .
+lex:LCT005\/Texto00002    lex:remetePara    lex:Constituicao37\/Artigo166 .
+lex:LCT005\/Texto00005    lex:remetePara    lex:Constituicao37\/Artigo168 .

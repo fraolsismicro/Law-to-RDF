@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del8241    lex:ehUm    lex:DocLegal .
+lex:Del8241    lex:temTextoIntegral    lex:HTMLs\/Del8241.htm .
+lex:Del8241\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del8241    lex:temArtigo    lex:Del8241\/Artigo1 .
+lex:Del8241\/Artigo1    lex:temConteudo    "Art. 1º O artigo 206 do Decreto-lei nº 1.713, de 28 de outubro de 1939, e seu parágrafo único passam a vigorar com a seguinte redação:" .
+lex:Del8241\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del8241\/Artigo1    lex:temParagrafo    lex:Del8241\/Artigo1\/ParagrafoUnico .
+lex:Del8241\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Poderá também ser aposentado em cargo de provimento em comissão o funcionário que houver exercida por mais de quinze anos, interpoladamente, cargo ou cargos de provimento em comissão, desde que conte mais de cinqüenta anos de serviço público." .
+lex:Del8241\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del8241    lex:temArtigo    lex:Del8241\/Artigo2 .
+lex:Del8241\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto-lei entrará, em vigor na data de sua publicação." .
+lex:Del8241\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del8241    lex:temArtigo    lex:Del8241\/Artigo3 .
+lex:Del8241\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário" .
+lex:Del8241\/Artigo1    lex:remetePara    lex:Del1713\/Artigo206 .
+lex:Del8241\/Texto00001    lex:remetePara    lex:Del1713\/Artigo206 .

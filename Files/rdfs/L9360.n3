@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9360    lex:ehUm    lex:DocLegal .
+lex:L9360    lex:temTextoIntegral    lex:HTMLs\/L9360.htm .
+lex:L9360\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9360    lex:temArtigo    lex:L9360\/Artigo1 .
+lex:L9360\/Artigo1    lex:temConteudo    "Art. 1º O parágrafo único do art. 1o da Lei no 8.995, de 24 de fevereiro de 1995, passa a vigorar com a seguinte redação:" .
+lex:L9360\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9360\/Artigo1    lex:temParagrafo    lex:L9360\/Artigo1\/ParagrafoUnico .
+lex:L9360\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autorização de que trata este artigo fica condicionada até o limite de R$ 164.130.653,00 (cento e sessenta e quatro milhões, cento e trinta mil, seiscentos e cinqüenta e três reais) e correrá à conta de dotação orçamentária da CBTU.'" .
+lex:L9360\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9360    lex:temArtigo    lex:L9360\/Artigo2 .
+lex:L9360\/Artigo2    lex:temConteudo    "Art. 2o Ficam convalidados os atos praticados com base na Medida Provisória no 1.468-13, de 22 de novembro de 1996." .
+lex:L9360\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9360    lex:temArtigo    lex:L9360\/Artigo3 .
+lex:L9360\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9360\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9360    lex:temArtigo    lex:L9360\/Artigo4 .
+lex:L9360\/Artigo4    lex:temConteudo    "Art. 4o Revoga-se a Medida Provisória n v o 1.468-13, de 22 de novembro de 1996." .
+lex:L9360\/Artigo1    lex:remetePara    lex:L8995 .
+lex:L9360\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8995\/Artigo1 .
+lex:L9360\/Artigo2    lex:remetePara    lex:1468-13 .
+lex:L9360\/Artigo4    lex:remetePara    lex:1468-13 .

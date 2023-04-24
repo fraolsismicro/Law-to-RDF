@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7979    lex:ehUm    lex:DocLegal .
+lex:L7979    lex:temTextoIntegral    lex:HTMLs\/L7979.htm .
+lex:L7979\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7979    lex:temArtigo    lex:L7979\/Artigo1 .
+lex:L7979\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 3 de janeiro de 1989) Anexo II, crédito suplementar até o limite de NCz$ 8.914.000,00 (oito milhões, novecentos e quatorze mil cruzados novos), em favor do Superior Tribunal de Justiça, de conformidade com a programação constante do Anexo I, desta Lei." .
+lex:L7979\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7979\/Artigo1    lex:temParagrafo    lex:L7979\/Artigo1\/ParagrafoUnico .
+lex:L7979\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de cancelamento da dotação orçamentária de Recursos Ordinários do Tesouro, no valor de NCz$ 8.914.000,00 (oito milhões, novecentos e quatorze mil cruzados novos), discriminada no Anexo II, desta Lei." .
+lex:L7979\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7979    lex:temArtigo    lex:L7979\/Artigo2 .
+lex:L7979\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 3 de janeiro de 1989) Anexo II, créditos especiais até o limite de NCz$ 23.302.000,00 (vinte e três milhões, trezentos e dois mil cruzados novos), em favor da Justiça Eleitoral, da Justiça Federal e da Justiça do Trabalho, de conformidade com a programação constante do Anexo III, desta Lei." .
+lex:L7979\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7979\/Artigo2    lex:temParagrafo    lex:L7979\/Artigo2\/ParagrafoUnico .
+lex:L7979\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de cancelamento de dotações orçamentárias de Recursos Ordinários do Tesouro, no valor de NCz$ 23.302.000,00 (vinte e três milhões, trezentos e dois mil cruzados novos), discriminados no Anexo IV, desta Lei." .
+lex:L7979\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7979    lex:temArtigo    lex:L7979\/Artigo3 .
+lex:L7979\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7979\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7979    lex:temArtigo    lex:L7979\/Artigo4 .
+lex:L7979\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7979\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7979\/Artigo2    lex:remetePara    lex:L7715 .

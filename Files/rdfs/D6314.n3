@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6314    lex:ehUm    lex:DocLegal .
+lex:D6314    lex:temTextoIntegral    lex:HTMLs\/D6314.htm .
+lex:D6314\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6314    lex:temArtigo    lex:D6314\/Artigo1 .
+lex:D6314\/Artigo1    lex:temConteudo    "Art. 1o  As garantias da União de que trata o art. 5o da Lei no 9.818, de 23 de agosto de 1999, dependentes de contragarantias suficientes à cobertura do risco assumido, poderão ser concedidas para operações de bens no exterior ou para o exterior, com prazo de até quatro anos, em favor de indústrias do setor de defesa." .
+lex:D6314\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6314    lex:temArtigo    lex:D6314\/Artigo2 .
+lex:D6314\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6314\/Texto    lex:remetePara    lex:D6314 .
+lex:D6314\/Artigo1    lex:remetePara    lex:L9818\/Artigo5 .

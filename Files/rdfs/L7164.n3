@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7164    lex:ehUm    lex:DocLegal .
+lex:L7164    lex:temTextoIntegral    lex:HTMLs\/L7164.htm .
+lex:L7164\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7164    lex:temArtigo    lex:L7164\/Artigo1 .
+lex:L7164\/Artigo1    lex:temConteudo    "Art. 1º - O § 2º do art. 3º do Decreto-lei nº 1.003, de 21 de outubro de 1969 - Lei da Organização Judiciária Militar, alterado pela Lei nº 5.661, de 16 de junho de 1971, passa a vigorar com a seguinte redação:" .
+lex:L7164\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L7164\/Artigo1    lex:temParagrafo    lex:L7164\/Artigo1\/Paragraf .
+lex:L7164\/Artigo1\/Paragraf    lex:temConteudo    "'Art.3º...................................................................." .
+lex:L7164\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L7164\/Artigo1    lex:temParagrafo    lex:L7164\/Artigo1\/Paragraf .
+lex:L7164\/Artigo1\/Paragraf    lex:temConteudo    "§.1º........................................................................." .
+lex:L7164\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7164\/Artigo1    lex:temParagrafo    lex:L7164\/Artigo1\/Paragrafo2 .
+lex:L7164\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Ressalvada a jurisdição privativa das Auditorias da 1a Circunscrição Judiciária Militar, todas as demais terão jurisdição mista, para conhecer dos processos relativos à Marinha, ao Exército e à Aeronáutica, e suas sedes serão as fixadas em Lei, coincidindo ou não com a da Região Militar.'" .
+lex:L7164\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7164    lex:temArtigo    lex:L7164\/Artigo2 .
+lex:L7164\/Artigo2    lex:temConteudo    "Art. 2º - A sede da Auditoria da 4a Circunscrição Judiciária Militar passará a ser a cidade de Belo Horizonte, ficando sua transferência condicionada à decisão do Superior Tribunal Militar e à existência de recursos orçamentários destinados a sua instalação." .
+lex:L7164\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7164    lex:temArtigo    lex:L7164\/Artigo3 .
+lex:L7164\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7164\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7164    lex:temArtigo    lex:L7164\/Artigo4 .
+lex:L7164\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se o parágrafo único do art. 1º do Decreto-lei nº 1.003, de 21 de outubro de 1969, e demais disposições em contrário." .
+lex:L7164\/Artigo1    lex:remetePara    lex:Del1003\/Artigo3\/Paragrafo2 .
+lex:L7164\/Artigo4    lex:remetePara    lex:Del1003\/Artigo1 .

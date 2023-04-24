@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12548    lex:ehUm    lex:DocLegal .
+lex:L12548    lex:temTextoIntegral    lex:HTMLs\/L12548.htm .
+lex:L12548\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12548    lex:temArtigo    lex:L12548\/Artigo1 .
+lex:L12548\/Artigo1    lex:temConteudo    "Art. 1o  O art. 37 da Lei no 10.522, de 19 de julho de 2002, passa a vigorar com a seguinte redação:" .
+lex:L12548\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12548\/Artigo1    lex:temInciso    lex:L12548\/Artigo1\/IncisoI .
+lex:L12548\/Artigo1\/IncisoI    lex:temConteudo    "I   juros de mora, contados do primeiro dia do mês subsequente ao do vencimento, equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia   SELIC para os títulos federais, acumulada mensalmente, até o último dia do mês anterior ao do pagamento, e de 1% (um por cento) no mês do pagamento;" .
+lex:L12548\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12548\/Artigo1    lex:temInciso    lex:L12548\/Artigo1\/IncisoII .
+lex:L12548\/Artigo1\/IncisoII    lex:temConteudo    "II   multa de mora de 2% (dois por cento), a partir do primeiro dia após o vencimento do débito, acrescida, a cada 30 (trinta) dias, de igual percentual, até o limite de 20% (vinte por cento), incidente sobre o valor atualizado na forma do inciso I do caput deste artigo." .
+lex:L12548\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12548\/Artigo1    lex:temParagrafo    lex:L12548\/Artigo1\/Paragrafo1 .
+lex:L12548\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os juros de mora incidentes sobre os créditos provenientes de multas impostas em processo administrativo punitivo que, em razão de recurso, tenham sido confirmadas pela instância superior contam-se do primeiro dia do mês subsequente ao do vencimento, previsto na intimação da decisão de primeira instância." .
+lex:L12548\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12548\/Artigo1    lex:temParagrafo    lex:L12548\/Artigo1\/Paragrafo2 .
+lex:L12548\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os créditos referidos no caput deste artigo poderão ser parcelados em até 30 (trinta) parcelas mensais, a exclusivo critério do Banco Central do Brasil, na forma e condições por ele estabelecidas, incidindo sobre cada parcela a pagar os juros de mora previstos neste artigo. (NR)" .
+lex:L12548\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12548    lex:temArtigo    lex:L12548\/Artigo2 .
+lex:L12548\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12548\/Texto00001    lex:remetePara    lex:L10522\/Artigo37 .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc36    lex:ehUm    lex:DocLegal .
+lex:emc36    lex:temTextoIntegral    lex:HTMLs\/emc36.htm .
+lex:emc36\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc36    lex:temArtigo    lex:emc36\/Artigo1 .
+lex:emc36\/Artigo1    lex:temConteudo    "Art. 1º O art. 222 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc36\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:emc36\/Artigo1    lex:temParagrafo    lex:emc36\/Artigo1\/Paragrafo1 .
+lex:emc36\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Em qualquer caso, pelo menos setenta por cento do capital total e do capital votante das empresas jornalísticas e de radiodifusão sonora e de sons e imagens deverá pertencer, direta ou indiretamente, a brasileiros natos ou naturalizados há mais de dez anos, que exercerão obrigatoriamente a gestão das atividades e estabelecerão o conteúdo da programação." .
+lex:emc36\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:emc36\/Artigo1    lex:temParagrafo    lex:emc36\/Artigo1\/Paragrafo2 .
+lex:emc36\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A responsabilidade editorial e as atividades de seleção e direção da programação veiculada são privativas de brasileiros natos ou naturalizados há mais de dez anos, em qualquer meio de comunicação social." .
+lex:emc36\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:emc36\/Artigo1    lex:temParagrafo    lex:emc36\/Artigo1\/Paragrafo3 .
+lex:emc36\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Os meios de comunicação social eletrônica, independentemente da tecnologia utilizada para a prestação do serviço, deverão observar os princípios enunciados no art. 221, na forma de lei específica, que também garantira a prioridade de profissionais brasileiros na execução de produções nacionais." .
+lex:emc36\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:emc36\/Artigo1    lex:temParagrafo    lex:emc36\/Artigo1\/Paragrafo4 .
+lex:emc36\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Lei disciplinará a participação de capital estrangeiro nas empresas de que trata o § 1º." .
+lex:emc36\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:emc36\/Artigo1    lex:temParagrafo    lex:emc36\/Artigo1\/Paragrafo5 .
+lex:emc36\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º As alterações de controle societário das empresas de que trata o § 1º serão comunicadas ao Congresso Nacional. (NR)" .
+lex:emc36\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc36    lex:temArtigo    lex:emc36\/Artigo2 .
+lex:emc36\/Artigo2    lex:temConteudo    "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc36\/Texto00001    lex:remetePara    lex:Constituicao\/Artigo222 .

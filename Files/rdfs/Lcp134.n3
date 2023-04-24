@@ -1,0 +1,79 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp134    lex:ehUm    lex:DocLegal .
+lex:Lcp134    lex:temTextoIntegral    lex:HTMLs\/Lcp134.htm .
+lex:Lcp134\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp134    lex:temArtigo    lex:Lcp134\/Artigo1 .
+lex:Lcp134\/Artigo1    lex:temConteudo    "Art. 1o  O Conselho de Administração da Superintendência da Zona Franca de Manaus, órgão da estrutura regimental da Superintendência da Zona Franca de Manaus - SUFRAMA, tem por finalidade definir diretrizes, planos, programas, projetos e ações a serem desenvolvidas na área de atuação da Suframa." .
+lex:Lcp134\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp134    lex:temArtigo    lex:Lcp134\/Artigo2 .
+lex:Lcp134\/Artigo2    lex:temConteudo    "Art. 2o  O Conselho terá a seguinte composição:" .
+lex:Lcp134\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoI .
+lex:Lcp134\/Artigo2\/IncisoI    lex:temConteudo    "I - 10 (dez) Ministros de Estado, definidos em regulamento pelo Poder Executivo;      (Regulamento)." .
+lex:Lcp134\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoII .
+lex:Lcp134\/Artigo2\/IncisoII    lex:temConteudo    "II - Governador e Prefeito da capital dos seguintes Estados:" .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp134\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas    lex:temConteudo    "a) Amazonas;" .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas    lex:temIncisoAlinea    lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre    lex:temConteudo    "b) Acre;" .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre    lex:temIncisoAlinea    lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa    lex:temConteudo    "c) Amapá;" .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa    lex:temIncisoAlinea    lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia    lex:temConteudo    "d) Rondônia; e" .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia\/IncisoAlineaRoraima    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia    lex:temIncisoAlinea    lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia\/IncisoAlineaRoraima .
+lex:Lcp134\/Artigo2\/IncisoII\/IncisoAlineaAmazonas\/IncisoAlineaAcre\/IncisoAlineaAmapa\/IncisoAlineaRondonia\/IncisoAlineaRoraima    lex:temConteudo    "e) Roraima;" .
+lex:Lcp134\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoIII .
+lex:Lcp134\/Artigo2\/IncisoIII    lex:temConteudo    "III - Superintendente da Suframa;" .
+lex:Lcp134\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoIV .
+lex:Lcp134\/Artigo2\/IncisoIV    lex:temConteudo    "IV - Presidente do Banco Nacional de Desenvolvimento Econômico e Social - BNDES;" .
+lex:Lcp134\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoV .
+lex:Lcp134\/Artigo2\/IncisoV    lex:temConteudo    "V - Presidente do Banco da Amazônia - BASA;" .
+lex:Lcp134\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoVI .
+lex:Lcp134\/Artigo2\/IncisoVI    lex:temConteudo    "VI - 1 (um) representante das classes produtoras; e" .
+lex:Lcp134\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:Lcp134\/Artigo2    lex:temInciso    lex:Lcp134\/Artigo2\/IncisoVII .
+lex:Lcp134\/Artigo2\/IncisoVII    lex:temConteudo    "VII - 1 (um) representante das classes trabalhadoras." .
+lex:Lcp134\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp134\/Artigo2    lex:temParagrafo    lex:Lcp134\/Artigo2\/Paragrafo1 .
+lex:Lcp134\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os Conselheiros titulares referidos nos incisos de I a V do caput deste artigo poderão indicar representantes." .
+lex:Lcp134\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp134\/Artigo2    lex:temParagrafo    lex:Lcp134\/Artigo2\/Paragrafo2 .
+lex:Lcp134\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Os representantes das classes produtoras e trabalhadoras, e respectivos suplentes, serão indicados em lista tríplice pelas Confederações Nacionais dos Empregadores e Trabalhadores, da Indústria, do Comércio e da Agricultura, respectivamente." .
+lex:Lcp134\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Lcp134\/Artigo2    lex:temParagrafo    lex:Lcp134\/Artigo2\/Paragrafo3 .
+lex:Lcp134\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Os representantes das classes produtoras e trabalhadoras, e respectivos suplentes, indicados pelas respectivas confederações e escolhidos mediante sistema de rodízio, dentre os filiados às federações de suas categorias, sediadas na área de atuação da Suframa, serão designados pelo Ministro de Estado do Desenvolvimento, Indústria e Comércio Exterior, com mandato de 1 (um) ano, podendo ser reconduzidos 1 (uma) única vez." .
+lex:Lcp134\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Lcp134\/Artigo2    lex:temParagrafo    lex:Lcp134\/Artigo2\/Paragrafo4 .
+lex:Lcp134\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  A participação nas atividades do Conselho será considerada serviço público de natureza relevante, não ensejando remuneração." .
+lex:Lcp134\/Artigo2\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:Lcp134\/Artigo2    lex:temParagrafo    lex:Lcp134\/Artigo2\/Paragrafo5 .
+lex:Lcp134\/Artigo2\/Paragrafo5    lex:temConteudo    "§ 5o  A critério do Presidente do Conselho, poderão ser convidados a participar das reuniões do Conselho técnicos, personalidades e representantes de órgãos e entidades públicas e privadas." .
+lex:Lcp134\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp134    lex:temArtigo    lex:Lcp134\/Artigo3 .
+lex:Lcp134\/Artigo3    lex:temConteudo    "Art. 3o  O Conselho será presidido pelo Ministro de Estado do Desenvolvimento, Indústria e Comércio Exterior e, nas suas ausências, pelo Secretário-Executivo do Ministério." .
+lex:Lcp134\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp134    lex:temArtigo    lex:Lcp134\/Artigo4 .
+lex:Lcp134\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp134\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Lcp134    lex:temArtigo    lex:Lcp134\/Artigo5 .
+lex:Lcp134\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogada a Lei Complementar no 68, de 13 de junho de 1991." .
+lex:Lcp134\/Artigo2\/IncisoI    lex:regulamentadoPor    lex:D7138 .
+lex:D7138    lex:regulamenta    lex:Lcp134\/Artigo2\/IncisoI .
+lex:Lcp134\/Artigo5    lex:remetePara    lex:Lcp68 .

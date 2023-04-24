@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5678    lex:ehUm    lex:DocLegal .
+lex:L5678    lex:temTextoIntegral    lex:HTMLs\/L5678.htm .
+lex:L5678\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5678    lex:temArtigo    lex:L5678\/Artigo1 .
+lex:L5678\/Artigo1    lex:temConteudo    "Art. 1º O item III do artigo 178 da Lei nº 1.711, de 28 de outubro de 1952, passa a vigorar com a seguinte redação:" .
+lex:L5678\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L5678\/Artigo1    lex:temInciso    lex:L5678\/Artigo1\/IncisoIII .
+lex:L5678\/Artigo1\/IncisoIII    lex:temConteudo    "III - Quando acometido de tuberculose ativa, alienação mental, neoplasia maligna, cegueira, lepra, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, estados avançados de Paget (osteíte deformante), com base nas conclusões da medicina especializada.'" .
+lex:L5678\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5678    lex:temArtigo    lex:L5678\/Artigo2 .
+lex:L5678\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5678\/Texto00001    lex:remetePara    lex:L1711\/Artigo178 .

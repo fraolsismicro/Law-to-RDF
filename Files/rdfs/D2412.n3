@@ -1,0 +1,109 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2412    lex:ehUm    lex:DocLegal .
+lex:D2412    lex:temTextoIntegral    lex:HTMLs\/D2412.htm .
+lex:D2412\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo1 .
+lex:D2412\/Artigo1    lex:temConteudo    "Art. 1º Fica instituído o Regime Aduaneiro Especial de Entreposto Industrial sob Controle Informatizado - RECOF, nos termos deste Decreto." .
+lex:D2412\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo2 .
+lex:D2412\/Artigo2    lex:temConteudo    "Art. 2º O RECOF permite importar, com suspensão do pagamento de tributos, mercadorias a serem submetidas à operação de industrialização de produtos destinados à exportação." .
+lex:D2412\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2412\/Artigo2    lex:temParagrafo    lex:D2412\/Artigo2\/Paragrafo1 .
+lex:D2412\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Parte da mercadoria admitida no RECOF, no estado ou incorporada ao produto resultante do processo de industrialização, poderá ser despachada para consumo." .
+lex:D2412\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2412\/Artigo2    lex:temParagrafo    lex:D2412\/Artigo2\/Paragrafo2 .
+lex:D2412\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º As mercadorias admitidas no regime poderão ter, ainda, uma das seguintes destinações:" .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaExportacao    lex:ehUm    lex:Alinea .
+lex:D2412\/Artigo2\/Paragrafo2    lex:temAlinea    lex:D2412\/Artigo2\/Paragrafo2\/AlineaExportacao .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaExportacao    lex:temConteudo    "a) exportação;" .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaReexportacao    lex:ehUm    lex:Alinea .
+lex:D2412\/Artigo2\/Paragrafo2    lex:temAlinea    lex:D2412\/Artigo2\/Paragrafo2\/AlineaReexportacao .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaReexportacao    lex:temConteudo    "b) reexportação;" .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaDevolucao    lex:ehUm    lex:Alinea .
+lex:D2412\/Artigo2\/Paragrafo2    lex:temAlinea    lex:D2412\/Artigo2\/Paragrafo2\/AlineaDevolucao .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaDevolucao    lex:temConteudo    "c) devolução;" .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaDestruicao    lex:ehUm    lex:Alinea .
+lex:D2412\/Artigo2\/Paragrafo2    lex:temAlinea    lex:D2412\/Artigo2\/Paragrafo2\/AlineaDestruicao .
+lex:D2412\/Artigo2\/Paragrafo2\/AlineaDestruicao    lex:temConteudo    "d) destruição." .
+lex:D2412\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo3 .
+lex:D2412\/Artigo3    lex:temConteudo    "Art. 3º As mercadorias poderão ser importadas com ou sem cobertura cambial." .
+lex:D2412\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo4 .
+lex:D2412\/Artigo4    lex:temConteudo    "Art. 4º O licenciamento das mercadorias, quando exigível, deverá ocorrer previamente à sua admissão no regime, dispensado esse procedimento por ocasião do despacho para consumo." .
+lex:D2412\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo5 .
+lex:D2412\/Artigo5    lex:temConteudo    "Art. 5º O prazo de suspensão do pagamento dos tributos incidentes na importação será de até um ano, prorrogável, no máximo, por mais um." .
+lex:D2412\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo6 .
+lex:D2412\/Artigo6    lex:temConteudo    "Art. 6º Poderão habilitar-se a operar no regime as empresas que atendam aos termos, aos limites e às condições estabelecidos pela Secretaria da Receita Federal do Ministério da Fazenda, especialmente os relacionados com:" .
+lex:D2412\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoI .
+lex:D2412\/Artigo6\/IncisoI    lex:temConteudo    "I - mercadorias que poderão ser admitidas no regime;" .
+lex:D2412\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoII .
+lex:D2412\/Artigo6\/IncisoII    lex:temConteudo    "II - estoque máximo permitido em valor;" .
+lex:D2412\/Artigo6\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoIII .
+lex:D2412\/Artigo6\/IncisoIII    lex:temConteudo    "III - operações de industrialização autorizadas;" .
+lex:D2412\/Artigo6\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoIV .
+lex:D2412\/Artigo6\/IncisoIV    lex:temConteudo    "IV - percentual de tolerância, para efeito de exclusão da responsabilidade tributária, no caso de perda inevitável no processo produtivo;" .
+lex:D2412\/Artigo6\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoV .
+lex:D2412\/Artigo6\/IncisoV    lex:temConteudo    "V - percentual mínimo da produção destinada ao mercado externo;" .
+lex:D2412\/Artigo6\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoVI .
+lex:D2412\/Artigo6\/IncisoVI    lex:temConteudo    "VI - percentual máximo de mercadorias importadas destinadas ao mercado interno;" .
+lex:D2412\/Artigo6\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo6    lex:temInciso    lex:D2412\/Artigo6\/IncisoVII .
+lex:D2412\/Artigo6\/IncisoVII    lex:temConteudo    "VII - valor mínimo da produção destinada ao mercado externo." .
+lex:D2412\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo7 .
+lex:D2412\/Artigo7    lex:temConteudo    "Art. 7º A autorização para operar no regime é de competência do Secretário da Receita Federal." .
+lex:D2412\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2412\/Artigo7    lex:temParagrafo    lex:D2412\/Artigo7\/ParagrafoUnico .
+lex:D2412\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autorização para operar no RECOF será concedida a título precário, podendo ser cancelada ou suspensa a qualquer tempo, nos casos de descumprimento das condições estabelecidas ou de infringência de disposições legais ou regulamentares, sem prejuízo da aplicação de penalidades específicas." .
+lex:D2412\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo8 .
+lex:D2412\/Artigo8    lex:temConteudo    "Art. 8º O controle aduaneiro da entrada, permanência e saída de mercadorias será efetuado por estabelecimento importador da empresa, mediante processo informatizado, com base em software desenvolvido pelo beneficiário, que possibilite a interligação com os sistemas informatizados de controle da Secretaria da Receita Federal, a quem caberá homologar o aplicativo e a interface de comunicação." .
+lex:D2412\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2412\/Artigo8    lex:temParagrafo    lex:D2412\/Artigo8\/ParagrafoUnico .
+lex:D2412\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O beneficiário do regime deverá assegurar o livre acesso da Secretaria da Receita Federal à base informatizada de que trata este artigo." .
+lex:D2412\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo9 .
+lex:D2412\/Artigo9    lex:temConteudo    "Art. 9º O sistema de controle informatizado deverá incluir demonstrativo de apuração mensal das mercadorias importadas e respectivas destinações, observado o disposto nos arts. 2º e 5º, que deverá especificar:" .
+lex:D2412\/Artigo9\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo9    lex:temInciso    lex:D2412\/Artigo9\/IncisoI .
+lex:D2412\/Artigo9\/IncisoI    lex:temConteudo    "I - o valor dos tributos incidentes sobre as mercadorias destinadas ao mercado interno, no estado ou incorporadas ao produto final;" .
+lex:D2412\/Artigo9\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo9    lex:temInciso    lex:D2412\/Artigo9\/IncisoII .
+lex:D2412\/Artigo9\/IncisoII    lex:temConteudo    "II - o valor dos tributos cuja suspensão foi resolvida pelo implemento das condições previstas no § 2º do art. 2º;" .
+lex:D2412\/Artigo9\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2412\/Artigo9    lex:temInciso    lex:D2412\/Artigo9\/IncisoIII .
+lex:D2412\/Artigo9\/IncisoIII    lex:temConteudo    "III - o valor correspondente aos tributos suspensos, relativo às mercadorias que remanescem no regime." .
+lex:D2412\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo10 .
+lex:D2412\/Artigo10    lex:temConteudo    "Art. 10. O recolhimento dos tributos suspensos, correspondentes às mercadorias importadas e destinada ao mercado interno, deverá ser efetivado até o quinto dia útil do mês seguinte ao da apuração." .
+lex:D2412\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo11 .
+lex:D2412\/Artigo11    lex:temConteudo    "Art. 11. Os resíduos oriundos do processo produtivo que se prestarem à utilização econômica poderão ser despachados para consumo e, neste caso, estarão sujeitos ao recolhimento dos impostos de importação e sobre produtos industrializados, nos termos da legislação específica." .
+lex:D2412\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo12 .
+lex:D2412\/Artigo12    lex:temConteudo    "Art. 12. Findo o prazo estabelecido para a permanência das mercadorias no regime, serão devidos os tributos suspensos, correspondentes ao estoque existente na data do vencimento, que deverão ser pagos com os acréscimos legais cabíveis." .
+lex:D2412\/Artigo12\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2412\/Artigo12    lex:temParagrafo    lex:D2412\/Artigo12\/ParagrafoUnico .
+lex:D2412\/Artigo12\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O pagamento dos tributos na forma prevista neste artigo não dispensa o importador de cumprir as exigências regulamentares para a permanência definitiva das mercadorias no País." .
+lex:D2412\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo13 .
+lex:D2412\/Artigo13    lex:temConteudo    "Art. 13. A partir do desembaraço aduaneiro para admissão no regime, a empresa beneficiária responderá pela custódia e guarda das mercadorias na condição de fiel depositária." .
+lex:D2412\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D2412    lex:temArtigo    lex:D2412\/Artigo14 .
+lex:D2412\/Artigo14    lex:temConteudo    "Art. 14. Este Decreto entra em vigor na data de sua publicação." .

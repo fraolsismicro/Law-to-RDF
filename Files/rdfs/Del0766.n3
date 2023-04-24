@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0766    lex:ehUm    lex:DocLegal .
+lex:Del0766    lex:temTextoIntegral    lex:HTMLs\/Del0766.htm .
+lex:Del0766\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0766    lex:temArtigo    lex:Del0766\/Artigo1 .
+lex:Del0766\/Artigo1    lex:temConteudo    "Art 1º É alterada a redação ao § 1º do artigo 477 da Consolidação das Leis do Trabalho, acrescentando-se ao mesmo artigo, na redação dada pela Lei nº 5.562, de 12 de dezembro de 1968, dois parágrafo como segue:" .
+lex:Del0766\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del0766\/Artigo1    lex:temParagrafo    lex:Del0766\/Artigo1\/Paragrafo4 .
+lex:Del0766\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º O pagamento a que fizer jus o empregado será efetuado no ato da homologação da rescisão do contrato de trabalho, em dinheiro ou em cheque visado, conforme acordem as partes salvo se o empregado fôr analfabeto, quando o pagamento somente poderá ser feito em dinheiro." .
+lex:Del0766\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:Del0766\/Artigo1    lex:temParagrafo    lex:Del0766\/Artigo1\/Paragrafo5 .
+lex:Del0766\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Qualquer compensação no pagamento de que trata o § 4º não podera exceder o equivalente a um mês de remuneração do empregado.'" .
+lex:Del0766\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0766    lex:temArtigo    lex:Del0766\/Artigo2 .
+lex:Del0766\/Artigo2    lex:temConteudo    "Art 2º Êste decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0766\/Texto00001    lex:remetePara    lex:Del5452\/Artigo477\/Paragrafo1 .
+lex:Del0766\/Artigo1\/Paragrafo4    lex:remetePara    lex:Del5452\/Artigo477\/Paragrafo4 .
+lex:Del0766\/Artigo1\/Paragrafo5    lex:remetePara    lex:Del5452\/Artigo477\/Paragrafo5 .

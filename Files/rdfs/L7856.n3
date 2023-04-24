@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7856    lex:ehUm    lex:DocLegal .
+lex:L7856    lex:temTextoIntegral    lex:HTMLs\/L7856.htm .
+lex:L7856\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo1 .
+lex:L7856\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1º de janeiro de 1990, as alíquotas de que tratam as alíneas a e b do inciso I do artigo 48 da Lei nº 7.799, de 10 de julho de 1989, ficarão elevadas, respectivamente, para cinco e dez por cento." .
+lex:L7856\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo3 .
+lex:L7856\/Artigo3    lex:temConteudo    "Art. 3º (Vetado)" .
+lex:L7856\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo4 .
+lex:L7856\/Artigo4    lex:temConteudo    "Art. 4º A renda líquida de concurso de prognósticos, no âmbito do Governo Federal, passa a constituir contribuição destinada à seguridade social, nos termos do artigo 195, III, da Constituição Federal." .
+lex:L7856\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7856\/Artigo4    lex:temParagrafo    lex:L7856\/Artigo4\/Paragrafo1 .
+lex:L7856\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º Para efeito do disposto neste artigo, entende-se por renda líquida o total da arrecadação, deduzidos os valores destinados ao pagamento de prêmios, de imposto e de despesas com a administração, estas conforme fixado em lei, que inclusive estipulará o valor dos direitos a serem pagos a entidades desportivas pelo uso de suas denominações e símbolos." .
+lex:L7856\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7856\/Artigo4    lex:temParagrafo    lex:L7856\/Artigo4\/Paragrafo2 .
+lex:L7856\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º (Vetado)." .
+lex:L7856\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L7856\/Artigo4    lex:temParagrafo    lex:L7856\/Artigo4\/Paragrafo3 .
+lex:L7856\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3º. Quarenta por cento do valor da contribuição de que trata este artigo serão destinados ao Fundo de Apoio ao Desenvolvimento Social - FAS.   (Redação dada pela Lei nº 7.921, de 1989)" .
+lex:L7856\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo5 .
+lex:L7856\/Artigo5    lex:temConteudo    "Art. 5º (Vetado)." .
+lex:L7856\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo6 .
+lex:L7856\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7856\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7856    lex:temArtigo    lex:L7856\/Artigo7 .
+lex:L7856\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se o nº 3, da alínea c, do § 1º, do artigo 2º da Lei nº 7.689, de 15 de dezembro de 1988 e demais disposições em contrário." .
+lex:L7856\/Texto    lex:remetePara    lex:086 .
+lex:L7856\/Artigo1    lex:remetePara    lex:L7799\/Artigo48 .
+lex:L7856\/Artigo2    lex:remetePara    lex:L7689\/Artigo3 .
+lex:L7856\/Artigo2    lex:revogadoPor    lex:413\/Artigo19 .
+lex:413\/Artigo19    lex:revogou    lex:L7856\/Artigo2 .
+lex:L7856\/Artigo2    lex:revogadoPor    lex:L11727\/Artigo42 .
+lex:L11727\/Artigo42    lex:revogou    lex:L7856\/Artigo2 .
+lex:L7856\/ParagrafoUnico    lex:remetePara    lex:Del2426\/Artigo1 .
+lex:L7856\/ParagrafoUnico    lex:revogadoPor    lex:413\/Artigo19 .
+lex:413\/Artigo19    lex:revogou    lex:L7856\/ParagrafoUnico .
+lex:L7856\/ParagrafoUnico    lex:revogadoPor    lex:L11727\/Artigo42 .
+lex:L11727\/Artigo42    lex:revogou    lex:L7856\/ParagrafoUnico .
+lex:L7856\/Artigo4\/Paragrafo3    lex:remetePara    lex:L7921\/Artigo2 .
+lex:L7856\/Artigo7    lex:remetePara    lex:L7689\/Artigo2\/Paragrafo1c3 .

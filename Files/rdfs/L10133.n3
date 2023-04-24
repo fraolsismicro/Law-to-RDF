@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10133    lex:ehUm    lex:DocLegal .
+lex:L10133    lex:temTextoIntegral    lex:HTMLs\/L10133.htm .
+lex:L10133\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10133    lex:temArtigo    lex:L10133\/Artigo2 .
+lex:L10133\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior decorrerão:" .
+lex:L10133\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10133\/Artigo2    lex:temInciso    lex:L10133\/Artigo2\/IncisoI .
+lex:L10133\/Artigo2\/IncisoI    lex:temConteudo    "I   da incorporação de superávit financeiro da União, apurado no Balanço Patrimonial de 1999, no valor de R$ 66.665.761,00 (sessenta e seis milhões, seiscentos e sessenta e cinco mil, setecentos e sessenta e um reais);" .
+lex:L10133\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10133\/Artigo2    lex:temInciso    lex:L10133\/Artigo2\/IncisoII .
+lex:L10133\/Artigo2\/IncisoII    lex:temConteudo    "II   do excesso de arrecadação de receitas, no montante de R$ 90.239.409,00 (noventa milhões, duzentos e trinta e nove mil, quatrocentos e nove reais), sendo:" .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10133\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 54.456.909,00 (cinqüenta e quatro milhões, quatrocentos e cinqüenta e seis mil e novecentos e nove reais) de recursos não-financeiros diretamente arrecadados;" .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 22.613.872,00 (vinte e dois milhões, seiscentos e treze mil, oitocentos e setenta e dois reais) da contribuição sobre a receita de concursos de prognósticos e prêmios prescritos;" .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 10.761.141,00 (dez milhões, setecentos e sessenta e um mil, cento e quarenta e um reais) de convênios; e" .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10133\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 2.407.487,00 (dois milhões, quatrocentos e sete mil, quatrocentos e oitenta e sete reais) de recursos financeiros diretamente arrecadados; e" .
+lex:L10133\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10133\/Artigo2    lex:temInciso    lex:L10133\/Artigo2\/IncisoIII .
+lex:L10133\/Artigo2\/IncisoIII    lex:temConteudo    "III   do cancelamento parcial de dotações orçamentárias, no valor de R$ 51.571.750,00 (cinqüenta e um milhões, quinhentos e setenta e um mil, setecentos e cinqüenta reais), conforme indicado no Anexo II desta Lei." .
+lex:L10133\/Artigo1    lex:remetePara    lex:L9969 .

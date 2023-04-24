@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8393    lex:ehUm    lex:DocLegal .
+lex:L8393    lex:temTextoIntegral    lex:HTMLs\/L8393.htm .
+lex:L8393\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8393    lex:temArtigo    lex:L8393\/Artigo1 .
+lex:L8393\/Artigo1    lex:temConteudo    "Art. 1° São extintos:" .
+lex:L8393\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8393\/Artigo1    lex:temInciso    lex:L8393\/Artigo1\/IncisoI .
+lex:L8393\/Artigo1\/IncisoI    lex:temConteudo    "I - a contribuição sobre saídas de açúcar, de cana-de-açúcar, criada pelo Decreto-Lei n° 308, de 28 de fevereiro de 1967, alterada pelos Decretos-Leis n°s 1.712, de 14 de novembro de 1979, e 1.952, de 15 de julho de 1982, e o respectivo adicional, criado por este último diploma legal;" .
+lex:L8393\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8393\/Artigo1    lex:temInciso    lex:L8393\/Artigo1\/IncisoII .
+lex:L8393\/Artigo1\/IncisoII    lex:temConteudo    "II - os subsídios de equalização de custos de produção de açúcar, de cana-de-açúcar, objeto da Política de Preço Nacional Equalizador Açúcar e Álcool, criado com fundamento na Lei n° 4.870, de 1° de dezembro de 1965, nos Decretos-Leis n°s 308, de 1967, 1.186, de 27 de agosto de 1971, e 1952, de 1982." .
+lex:L8393\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8393    lex:temArtigo    lex:L8393\/Artigo3 .
+lex:L8393\/Artigo3    lex:temConteudo    "Art. 3° (VETADO)." .
+lex:L8393\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8393    lex:temArtigo    lex:L8393\/Artigo4 .
+lex:L8393\/Artigo4    lex:temConteudo    "Art. 4° É autorizada a livre transferência de açúcar e de unidades industriais produtoras de açúcar e álcool, com as respectivas cotas de produção e de comercialização entre as diversas regiões do País." .
+lex:L8393\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8393    lex:temArtigo    lex:L8393\/Artigo5 .
+lex:L8393\/Artigo5    lex:temConteudo    "Art. 5° Esta lei entra em vigor na data de sua publicação." .
+lex:L8393\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8393    lex:temArtigo    lex:L8393\/Artigo6 .
+lex:L8393\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:L8393\/Artigo1\/IncisoI    lex:remetePara    lex:Del0308 .
+lex:L8393\/Artigo1\/IncisoII    lex:remetePara    lex:l4870 .
+lex:L8393\/Artigo1\/IncisoII    lex:remetePara    lex:Del0308 .
+lex:L8393\/Artigo1\/Artigo2    lex:revogadoPor    lex:L9532\/Artigo82 .
+lex:L9532\/Artigo82    lex:revogou    lex:L8393\/Artigo1\/Artigo2 .
+lex:L8393\/Artigo1\/Artigo2    lex:revogadoPor    lex:L9532\/Artigo82 .
+lex:L9532\/Artigo82    lex:revogou    lex:L8393\/Artigo1\/Artigo2 .

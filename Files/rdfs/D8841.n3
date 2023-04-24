@@ -1,0 +1,83 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8841    lex:ehUm    lex:DocLegal .
+lex:D8841    lex:temTextoIntegral    lex:HTMLs\/D8841.htm .
+lex:D8841\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo1 .
+lex:D8841\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo de Cargos em Comissão e das Funções de Confiança do Instituto de Pesquisas Jardim Botânico do Rio de Janeiro - JBRJ, na forma dos Anexos I e II." .
+lex:D8841\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo2 .
+lex:D8841\/Artigo2    lex:temConteudo    "Art. 2 º  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, em cumprimento ao Decreto n º 8.785, de 10 de junho de 2016:" .
+lex:D8841\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo2    lex:temInciso    lex:D8841\/Artigo2\/IncisoI .
+lex:D8841\/Artigo2\/IncisoI    lex:temConteudo    "I - do JBRJ para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8841\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.4;" .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.4; e" .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8841\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "c) um DAS 102.3; e" .
+lex:D8841\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo2    lex:temInciso    lex:D8841\/Artigo2\/IncisoII .
+lex:D8841\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o JBRJ:" .
+lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8841\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm .
+lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.3; e" .
+lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8841\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.2." .
+lex:D8841\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo3 .
+lex:D8841\/Artigo3    lex:temConteudo    "Art. 3 º  Ficam remanejadas, em cumprimento à Medida Provisória n º 731, de 10 de junho de 2016, da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o JBRJ as seguintes Funções Comissionadas do Poder Executivo - FCPE:" .
+lex:D8841\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo3    lex:temInciso    lex:D8841\/Artigo3\/IncisoI .
+lex:D8841\/Artigo3\/IncisoI    lex:temConteudo    "I - uma FCPE 101.3;" .
+lex:D8841\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo3    lex:temInciso    lex:D8841\/Artigo3\/IncisoII .
+lex:D8841\/Artigo3\/IncisoII    lex:temConteudo    "II - cinco FCPE 101.1;" .
+lex:D8841\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo3    lex:temInciso    lex:D8841\/Artigo3\/IncisoIII .
+lex:D8841\/Artigo3\/IncisoIII    lex:temConteudo    "III - três FCPE 102.2; e" .
+lex:D8841\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8841\/Artigo3    lex:temInciso    lex:D8841\/Artigo3\/IncisoIV .
+lex:D8841\/Artigo3\/IncisoIV    lex:temConteudo    "IV - cinco FCPE 102.1." .
+lex:D8841\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8841\/Artigo3    lex:temParagrafo    lex:D8841\/Artigo3\/ParagrafoUnico .
+lex:D8841\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam extintos quatorze cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, conforme demonstrado no Anexo IV." .
+lex:D8841\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo4 .
+lex:D8841\/Artigo4    lex:temConteudo    "Art. 4 º  Os ocupantes dos cargos em comissão que deixam de existir por força deste Decreto ficam automaticamente exonerados." .
+lex:D8841\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo5 .
+lex:D8841\/Artigo5    lex:temConteudo    "Art. 5 º  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do JBRJ deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D8841\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8841\/Artigo5    lex:temParagrafo    lex:D8841\/Artigo5\/ParagrafoUnico .
+lex:D8841\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Presidente do JBRJ fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D8841\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo6 .
+lex:D8841\/Artigo6    lex:temConteudo    "Art. 6 º  O Presidente do JBRJ deverá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental da autarquia, suas competências e as atribuições de seus dirigentes, no prazo de noventa dias, contado da entrada em vigor deste Decreto." .
+lex:D8841\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8841\/Artigo6    lex:temParagrafo    lex:D8841\/Artigo6\/ParagrafoUnico .
+lex:D8841\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O regimento interno conterá o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do JBRJ." .
+lex:D8841\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo7 .
+lex:D8841\/Artigo7    lex:temConteudo    "Art. 7 º  O Presidente do JBRJ poderá, mediante alteração do regimento interno, permutar cargos em comissão do Grupo-DAS com FCPE desde que não sejam alteradas as unidades da estrutura organizacional básica especificadas na Tabela a do Anexo II e sejam mantidos as categorias, os níveis e os quantitativos previstos na Tabela b do Anexo II, conforme o disposto no art. 9 º do Decreto n º 6.944, de 21 de agosto de 2009." .
+lex:D8841\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo8 .
+lex:D8841\/Artigo8    lex:temConteudo    "Art. 8 º  Este Decreto entra em vigor vinte e oito dias após a data de sua publicação." .
+lex:D8841\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8841    lex:temArtigo    lex:D8841\/Artigo9 .
+lex:D8841\/Artigo9    lex:temConteudo    "Art. 9 º  Fica revogado o Decreto n º 6.645, de 18 de novembro de 2008." .
+lex:D8841\/Artigo2    lex:remetePara    lex:D8785 .
+lex:D8841\/Artigo3    lex:remetePara    lex:mpv731 .
+lex:D8841\/Artigo7    lex:remetePara    lex:D6944\/Artigo9 .
+lex:D8841\/Artigo9    lex:remetePara    lex:D6645 .

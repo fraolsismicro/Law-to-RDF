@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9391    lex:ehUm    lex:DocLegal .
+lex:D9391    lex:temTextoIntegral    lex:HTMLs\/D9391.htm .
+lex:D9391\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9391    lex:temArtigo    lex:D9391\/Artigo1A .
+lex:D9391\/Artigo1A    lex:temConteudo    "Art. 1Âº O Decreto nÂº 5.060, de 30 de abril de 2004 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9391\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9391    lex:temArtigo    lex:D9391\/Artigo2A .
+lex:D9391\/Artigo2A    lex:temConteudo    "Art. 2Âº O Decreto nÂº 5.059, de 30 de abril de 2004 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9391\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9391    lex:temArtigo    lex:D9391\/Artigo3A .
+lex:D9391\/Artigo3A    lex:temConteudo    "Art. 3Âº Fica revogado o inciso II do caput do art. 1Âº do Decreto nÂº 5.060, de 2004." .
+lex:D9391\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D9391    lex:temArtigo    lex:D9391\/Artigo4A .
+lex:D9391\/Artigo4A    lex:temConteudo    "Art. 4Âº Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D9391\/Artigo1A    lex:remetePara    lex:D5060 .
+lex:D9391\/Texto00001    lex:remetePara    lex:D5060\/Artigo1 .
+lex:D9391\/Texto00001    lex:remetePara    lex:D5060\/Artigo1 .
+lex:D9391\/Texto00001    lex:remetePara    lex:D5060\/Artigo1 .
+lex:D9391\/Artigo2A    lex:remetePara    lex:D5059 .
+lex:D9391\/Texto00002    lex:remetePara    lex:D5059\/Artigo1 .
+lex:D9391\/Texto00002    lex:remetePara    lex:D5059\/Artigo2 .
+lex:D9391\/Artigo3A    lex:remetePara    lex:D5060\/Artigo1 .

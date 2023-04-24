@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5818    lex:ehUm    lex:DocLegal .
+lex:L5818    lex:temTextoIntegral    lex:HTMLs\/L5818.htm .
+lex:L5818\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5818    lex:temArtigo    lex:L5818\/Artigo1 .
+lex:L5818\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir crédito suplementar ao Orçamento Geral da União, para o exercício financeiro de 1972, até o limite de Cr$3.714.000.000,00 (três bilhões, setecentos e quatorze milhões de cruzeiros), em reforço de dotação consignada no Subanexo 28.00 - Encargos Gerais da União constante da discriminação do Anexo II a que se refere o artigo 3º, da Lei nº 5.754, de 3 de dezembro de 1971, conforme a seguinte especificação:" .
+lex:L5818\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5818    lex:temArtigo    lex:L5818\/Artigo2 .
+lex:L5818\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a distribuir a importância prevista no artigo anterior, mediante créditos suplementares às unidades orçamentárias, na forma do item I, do artigo 6º, da Lei nº 5.754, de 3 de dezembro de 1971." .
+lex:L5818\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5818\/Artigo2    lex:temParagrafo    lex:L5818\/Artigo2\/ParagrafoUnico .
+lex:L5818\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autorização deste artigo é acrescida à constante do artigo 6º da referida lei." .
+lex:L5818\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5818    lex:temArtigo    lex:L5818\/Artigo3 .
+lex:L5818\/Artigo3    lex:temConteudo    "Art. 3º Para o atendimento do crédito suplementar autorizado nesta lei, será utilizado o recurso definido no § 3º, do artigo 43, da Lei nº 4.320, de 17 de março de 1964, na forma do disposto no § 1º, item II, do mesmo artigo da referida Lei." .
+lex:L5818\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5818    lex:temArtigo    lex:L5818\/Artigo4 .
+lex:L5818\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5818\/Artigo1    lex:remetePara    lex:L5754\/Artigo3 .
+lex:L5818\/Artigo2    lex:remetePara    lex:L5754\/Artigo6 .
+lex:L5818\/Artigo3    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

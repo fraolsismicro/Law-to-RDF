@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8815    lex:ehUm    lex:DocLegal .
+lex:D8815    lex:temTextoIntegral    lex:HTMLs\/D8815.htm .
+lex:D8815\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8815    lex:temArtigo    lex:D8815\/Artigo1 .
+lex:D8815\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto n º 1.800, de 30 de janeiro de 1996, passa a vigorar com as seguintes alterações:" .
+lex:D8815\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8815\/Artigo1    lex:temInciso    lex:D8815\/Artigo1\/IncisoIV .
+lex:D8815\/Artigo1\/IncisoIV    lex:temConteudo    "IV - os demais Vogais e suplentes, nos casos em que o Plenário for constituído por número superior a onze, por livre escolha, nos Estados, de seus Governadores e, no Distrito Federal, do Ministro de Estado Chefe da Casa Civil da Presidência da República." .
+lex:D8815\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8815\/Artigo1    lex:temInciso    lex:D8815\/Artigo1\/IncisoII .
+lex:D8815\/Artigo1\/IncisoII    lex:temConteudo    "II -  pelo Ministro de Estado Chefe da Casa Civil da Presidência da República, os Vogais e seus suplentes referidos no inciso II do caput do art. 11, e, no Distrito Federal, os mencionados nos incisos I, III e IV do caput do art. 11." .
+lex:D8815\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8815\/Artigo1    lex:temInciso    lex:D8815\/Artigo1\/IncisoIII .
+lex:D8815\/Artigo1\/IncisoIII    lex:temConteudo    "III - recurso ao Ministro de Estado Chefe da Casa Civil da Presidência da República. (NR)" .
+lex:D8815\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8815\/Artigo1    lex:temParagrafo    lex:D8815\/Artigo1\/Paragrafo3 .
+lex:D8815\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  No prazo de três dias úteis, o Presidente deverá manifestar-se quanto ao recebimento do recurso e o encaminhará, quando necessário, ao Departamento de Registro Empresarial e Integração - DREI que, no prazo de dez dias úteis, deverá manifestar-se e o submeterá à decisão final do Ministro de Estado Chefe da Casa Civil da Presidência da República." .
+lex:D8815\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8815\/Artigo1    lex:temParagrafo    lex:D8815\/Artigo1\/Paragrafo4 .
+lex:D8815\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4 º  Os pedidos de diligência, após o encaminhamento do processo ao DREI, suspenderão os prazos previstos no § 3 º." .
+lex:D8815\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8815    lex:temArtigo    lex:D8815\/Artigo2 .
+lex:D8815\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8815\/Artigo1    lex:remetePara    lex:D1800 .
+lex:D8815\/Artigo1\/IncisoIV    lex:remetePara    lex:D1800\/Artigo11 .
+lex:D8815\/Artigo1\/IncisoII    lex:remetePara    lex:D1800\/Artigo12 .
+lex:D8815\/Artigo1\/IncisoIII    lex:remetePara    lex:D1800\/Artigo64 .
+lex:D8815\/Artigo1\/Texto00004    lex:remetePara    lex:D1800\/Artigo69 .
+lex:D8815\/Artigo1\/Paragrafo3    lex:remetePara    lex:D1800\/Artigo69\/Paragrafo3 .

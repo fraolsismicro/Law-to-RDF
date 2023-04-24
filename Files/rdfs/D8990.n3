@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8990    lex:ehUm    lex:DocLegal .
+lex:D8990    lex:temTextoIntegral    lex:HTMLs\/D8990.htm .
+lex:D8990\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo1 .
+lex:D8990\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.489, de 10 de julho de 2015, passa a vigorar com as seguintes alterações:" .
+lex:D8990\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8990\/Artigo1    lex:temParagrafo    lex:D8990\/Artigo1\/ParagrafoUnico .
+lex:D8990\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O regimento interno conterá o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do DNIT. (NR)" .
+lex:D8990\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo2 .
+lex:D8990\/Artigo2    lex:temConteudo    "Art. 2 º   O Anexo I ao Decreto nº 8.489, de 2015, passa a vigorar com as seguintes alterações:" .
+lex:D8990\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo3 .
+lex:D8990\/Artigo3    lex:temConteudo    "Art. 3 º  O Anexo II ao Decreto nº 8.489, de 2015, passa a vigorar na forma do Anexo a este Decreto." .
+lex:D8990\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo4 .
+lex:D8990\/Artigo4    lex:temConteudo    "Art. 4 º  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do DNIT por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D8990\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo5 .
+lex:D8990\/Artigo5    lex:temConteudo    "Art. 5 º  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do Departamento Nacional de Infraestrutura de Transportes - DNIT deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D8990\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8990\/Artigo5    lex:temParagrafo    lex:D8990\/Artigo5\/ParagrafoUnico .
+lex:D8990\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Diretor-Geral do DNIT publicará, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II ao Decreto nº 8.489, de 2015, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D8990\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8990    lex:temArtigo    lex:D8990\/Artigo6 .
+lex:D8990\/Artigo6    lex:temConteudo    "Art. 6 º  Este Decreto entra em vigor em 16 de março de 2017." .
+lex:D8990\/Artigo1    lex:remetePara    lex:D8489 .
+lex:D8990\/Texto00001    lex:remetePara    lex:D8489\/Artigo6 .
+lex:D8990\/Artigo1\/Texto00002    lex:remetePara    lex:D8489\/Artigo6 .
+lex:D8990\/Artigo1\/Texto00002    lex:remetePara    lex:D8489\/ .
+lex:D8990\/Artigo1\/Texto00002    lex:remetePara    lex:D8489\/ .
+lex:D8990\/Artigo1\/Texto00002    lex:remetePara    lex:D6944\/Artigo9 .
+lex:D8990\/Artigo2    lex:remetePara    lex:D8489 .
+lex:D8990\/Texto00003    lex:remetePara    lex:D8489\/anexo1Artigo4 .
+lex:D8990\/Artigo3    lex:remetePara    lex:D8489\/ .
+lex:D8990\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:D8489\/ .

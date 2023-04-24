@@ -1,0 +1,163 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2605    lex:ehUm    lex:DocLegal .
+lex:D2605    lex:temTextoIntegral    lex:HTMLs\/D2605.htm .
+lex:D2605\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo1 .
+lex:D2605\/Artigo1    lex:temConteudo    "Art 1º A Medalha do Mérito Jornalístico, oficialmente reconhecida pelo Decreto nº 52.206, de 28 de junho de 1963, passa a reger-se pelo disposto no Regulamento anexo a este Decreto." .
+lex:D2605\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo2 .
+lex:D2605\/Artigo2    lex:temConteudo    "Art 2º Fica revogado o Decreto nº 52.206, de 28 de junho de 1963." .
+lex:D2605\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo3 .
+lex:D2605\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2605\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo1 .
+lex:D2605\/Artigo1    lex:temConteudo    "Art 1º A Medalha do Mérito Jomalístico, oficialmente reconhecida pelo Decreto nº 52.206, de 28 de junho de 1963, será conferida a jornalistas nacionais e estrangeiros que se tornem merecedores dessa distinção." .
+lex:D2605\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo2 .
+lex:D2605\/Artigo2    lex:temConteudo    "Art 2º A insígnia do Mérito Jornalístico obedecerá ao seguinte padrão:" .
+lex:D2605\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2    lex:temInciso    lex:D2605\/Artigo2\/IncisoI .
+lex:D2605\/Artigo2\/IncisoI    lex:temConteudo    "I - Anverso:" .
+lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre    lex:ehUm    lex:IncisoAlinea .
+lex:D2605\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre .
+lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre    lex:temConteudo    "a) sobre uma estrela branca de oito pontas, perfilada e maçanetada de ouro, um disco azul com uma pena de ouro, clássica, apontada e em barra, representando o pensamento escrito, assentada na constelação do Cruzeiro do Sul, em prata e na sua posição, significando o Brasil;" .
+lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre    lex:temIncisoAlinea    lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaEm .
+lex:D2605\/Artigo2\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaEm    lex:temConteudo    "b) em orla, as palavras 'Mérito Jornalístico' lavradas em ouro;" .
+lex:D2605\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2    lex:temInciso    lex:D2605\/Artigo2\/IncisoII .
+lex:D2605\/Artigo2\/IncisoII    lex:temConteudo    "II - Reverso:" .
+lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D2605\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm .
+lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm    lex:temConteudo    "a) em um Dístico de ouro, a divisa 'Informar e Esclarecer' em azul;" .
+lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm    lex:temIncisoAlinea    lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm\/IncisoAlineaEm .
+lex:D2605\/Artigo2\/IncisoII\/IncisoAlineaEm\/IncisoAlineaEm    lex:temConteudo    "b) em orla, do mesmo esmalte, as palavras 'Ordem dos Jornalistas do Brasil', em ouro;" .
+lex:D2605\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2    lex:temInciso    lex:D2605\/Artigo2\/IncisoIII .
+lex:D2605\/Artigo2\/IncisoIII    lex:temConteudo    "III - A medalha será pendente de um colar de fita verde e amarela." .
+lex:D2605\/Artigo2\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2605\/Artigo2    lex:temArtigo    lex:D2605\/Artigo2\/Artigo3 .
+lex:D2605\/Artigo2\/Artigo3    lex:temConteudo    "Art 3º O Mérito Jornalístico constará de dez seções:" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoI .
+lex:D2605\/Artigo2\/Artigo3\/IncisoI    lex:temConteudo    "I - Política (nacional ou estrangeira);" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoII .
+lex:D2605\/Artigo2\/Artigo3\/IncisoII    lex:temConteudo    "II - Literatura e Artes (crônica e crítica);" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoIII .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIII    lex:temConteudo    "III - História e Biografia;" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoIV .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIV    lex:temConteudo    "IV - Economia;" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoV .
+lex:D2605\/Artigo2\/Artigo3\/IncisoV    lex:temConteudo    "V - Fotografia;" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoVI .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVI    lex:temConteudo    "VI - Esporte (comentarista, narrador, colunista);" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoVII .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVII    lex:temConteudo    "VII - TV e Rádio (produção jornalística);" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoVIII .
+lex:D2605\/Artigo2\/Artigo3\/IncisoVIII    lex:temConteudo    "VIII - Direção jornalística;" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoIX .
+lex:D2605\/Artigo2\/Artigo3\/IncisoIX    lex:temConteudo    "IX - Produção Comercial (publicidade);" .
+lex:D2605\/Artigo2\/Artigo3\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo2\/Artigo3    lex:temInciso    lex:D2605\/Artigo2\/Artigo3\/IncisoX .
+lex:D2605\/Artigo2\/Artigo3\/IncisoX    lex:temConteudo    "X - Expressão Nacional de Comunicação." .
+lex:D2605\/Artigo2\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo2\/Artigo3    lex:temParagrafo    lex:D2605\/Artigo2\/Artigo3\/Paragrafo1 .
+lex:D2605\/Artigo2\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º Além das dez Medalhas, correspondentes às dez seções, outras poderão ser concedidas, excepcionalmente, àqueles que tenham prestado relevantes serviços ao jornalismo nacional." .
+lex:D2605\/Artigo2\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo2\/Artigo3    lex:temParagrafo    lex:D2605\/Artigo2\/Artigo3\/Paragrafo2 .
+lex:D2605\/Artigo2\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º O Quadro de Titulares do Mérito Jornalístico não tem limitação quanto aos seus componentes, mas apenas uma personalidade poderá ser agraciada anualmente, em cada seção." .
+lex:D2605\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo4 .
+lex:D2605\/Artigo4    lex:temConteudo    "Art 4º Ao Conselho do Mérito Jornalístico compete a concessão do Mérito Jornalístico." .
+lex:D2605\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo5 .
+lex:D2605\/Artigo5    lex:temConteudo    "Art 5º O Conselho do Mérito Jornalístico será composto por um Presidente e por um representante de cada uma das seguintes instituições:" .
+lex:D2605\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoI .
+lex:D2605\/Artigo5\/IncisoI    lex:temConteudo    "I - Academia Brasileira de Jornalismo - ABJ;" .
+lex:D2605\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoII .
+lex:D2605\/Artigo5\/IncisoII    lex:temConteudo    "II - Academia Brasileira de Letras - ABL;" .
+lex:D2605\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoIII .
+lex:D2605\/Artigo5\/IncisoIII    lex:temConteudo    "III - Associação Brasileira de Emissoras de Rádio e Televisão - ABERT;" .
+lex:D2605\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoIV .
+lex:D2605\/Artigo5\/IncisoIV    lex:temConteudo    "IV - Associação Brasileira de Imprensa - ABI;" .
+lex:D2605\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoV .
+lex:D2605\/Artigo5\/IncisoV    lex:temConteudo    "V - Associação Nacional de Jornais - ANJ;" .
+lex:D2605\/Artigo5\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoVI .
+lex:D2605\/Artigo5\/IncisoVI    lex:temConteudo    "VI - Associação Profissional dos Repórteres Fotográficos e Cinematográficos - ARFOC;" .
+lex:D2605\/Artigo5\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoVII .
+lex:D2605\/Artigo5\/IncisoVII    lex:temConteudo    "VII - Confederação Brasileira de Desportos Terrestres - CBDT;" .
+lex:D2605\/Artigo5\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoVIII .
+lex:D2605\/Artigo5\/IncisoVIII    lex:temConteudo    "VIII - Conselho Federal dos Profissionais de Relações Públicas - CONREP;" .
+lex:D2605\/Artigo5\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoIX .
+lex:D2605\/Artigo5\/IncisoIX    lex:temConteudo    "IX - Federação Nacional das Associações de Imprensa - FENAI;" .
+lex:D2605\/Artigo5\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoX .
+lex:D2605\/Artigo5\/IncisoX    lex:temConteudo    "X - Federação Nacional dos Jornalistas - FENAJ;" .
+lex:D2605\/Artigo5\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoXI .
+lex:D2605\/Artigo5\/IncisoXI    lex:temConteudo    "XI - Instituto Histórico e Geográfico Brasileiro - IHGB;" .
+lex:D2605\/Artigo5\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D2605\/Artigo5    lex:temInciso    lex:D2605\/Artigo5\/IncisoXII .
+lex:D2605\/Artigo5\/IncisoXII    lex:temConteudo    "XII - Ordem dos Jornalistas do Brasil - OJB." .
+lex:D2605\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo5    lex:temParagrafo    lex:D2605\/Artigo5\/Paragrafo1 .
+lex:D2605\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º O Presidente da Ordem dos Jornalistas do Brasil é o Presidente nato do Conselho e detém o voto de qualidade." .
+lex:D2605\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo5    lex:temParagrafo    lex:D2605\/Artigo5\/Paragrafo2 .
+lex:D2605\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2º A Secretaria do Conselho ficará a cargo de um Secretário, designado pelo Presidente." .
+lex:D2605\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo6 .
+lex:D2605\/Artigo6    lex:temConteudo    "Art 6º Para concessão do Mérito Jornalístico, o Conselho reunir-se-á, ordinariamente, duas vezes por ano, na primeira quinzena dos meses de janeiro e de março, e, extraordinariamente, quando convocado pelo Presidente ou pela maioria dos representantes das instituições que o compõem." .
+lex:D2605\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo6    lex:temParagrafo    lex:D2605\/Artigo6\/Paragrafo1 .
+lex:D2605\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1º Na primeira reunião anual, o Conselho recolherá as indicações, designando os respectivos relatores, e, na segunda, deliberará sobre a escolha dos nomes." .
+lex:D2605\/Artigo6\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo6    lex:temParagrafo    lex:D2605\/Artigo6\/Paragrafo2 .
+lex:D2605\/Artigo6\/Paragrafo2    lex:temConteudo    "§ 2º O Conselho deliberará a partir das indicações feitas pela direção da Ordem dos Jornalistas do Brasil ou por três representantes das instituições que o compõem." .
+lex:D2605\/Artigo6\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo6    lex:temParagrafo    lex:D2605\/Artigo6\/Paragrafo3 .
+lex:D2605\/Artigo6\/Paragrafo3    lex:temConteudo    "§ 3º As indicações, que podem recair sobre jornalistas nacionais ou estrangeiros, devem ser feitas por escrito, acompanhadas do 'curriculum vitae' do candidato, e encaminhadas ao Conselho no prazo mínimo de trinta dias antes da sua primeira reunião ordinária." .
+lex:D2605\/Artigo6\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo6    lex:temParagrafo    lex:D2605\/Artigo6\/Paragrafo4 .
+lex:D2605\/Artigo6\/Paragrafo4    lex:temConteudo    "§ 4º As reuniões do Conselho serão secretas, das quais o Secretário lavrará atas que ficarão registrados em livro próprio e serão encaminhadas à direção da Ordem dos Jornalistas do Brasil." .
+lex:D2605\/Artigo6\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo6    lex:temParagrafo    lex:D2605\/Artigo6\/Paragrafo5 .
+lex:D2605\/Artigo6\/Paragrafo5    lex:temConteudo    "§ 5º As votações serão igualmente secretas, observado que somente poderá ser agraciado o candidato que contar com número de votos em maioria simples, considerado o número total dos Conselheiros." .
+lex:D2605\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo7 .
+lex:D2605\/Artigo7    lex:temConteudo    "Art 7º A entrega da Medalha do Mérito Jornalístico será feita, em sessão solene, pela Ordem dos Jornalistas do Brasil." .
+lex:D2605\/Artigo7\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo7    lex:temParagrafo    lex:D2605\/Artigo7\/Paragrafo1 .
+lex:D2605\/Artigo7\/Paragrafo1    lex:temConteudo    "§ 1º Um dos agraciados, escolhidos pelos demais, fará o discurso de agradecimento em nome de todos." .
+lex:D2605\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2605\/Artigo7    lex:temParagrafo    lex:D2605\/Artigo7\/Paragrafo2 .
+lex:D2605\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2º Os jornalistas estrangeiros receberão a Medalha em solenidade especial, em data previamente marcada pela Ordem dos Jornalistas do Brasil." .
+lex:D2605\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D2605    lex:temArtigo    lex:D2605\/Artigo8 .
+lex:D2605\/Artigo8    lex:temConteudo    "Art 8º Os casos omissos serão resolvidos pelo Conselho do Mérito Jornalístico." .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6331    lex:ehUm    lex:DocLegal .
+lex:L6331    lex:temTextoIntegral    lex:HTMLs\/L6331.htm .
+lex:L6331\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6331    lex:temArtigo    lex:L6331\/Artigo1 .
+lex:L6331\/Artigo1    lex:temConteudo    "Art. 1º Fica facultado aos funcionários requisitados de outras entidades pelo Banco Central do Brasil e que nele hajam ingressado até 31 de março de 1975, optar pela transferência para o seu quadro próprio de pessoal, desde que:" .
+lex:L6331\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6331\/Artigo1    lex:temInciso    lex:L6331\/Artigo1\/IncisoI .
+lex:L6331\/Artigo1\/IncisoI    lex:temConteudo    "I - tenham sido admitidos nas entidades de origem há mais de 2 (dois) anos, contados até 31 de março de 1975;" .
+lex:L6331\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6331\/Artigo1    lex:temInciso    lex:L6331\/Artigo1\/IncisoII .
+lex:L6331\/Artigo1\/IncisoII    lex:temConteudo    "II - formalizem a opção no prazo de 90 (noventa) dias, a contar da data da publicação desta Lei." .
+lex:L6331\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6331\/Artigo1    lex:temParagrafo    lex:L6331\/Artigo1\/ParagrafoUnico .
+lex:L6331\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Diretoria do Banco Central do Brasil deverá pronunciar-se sobre o requerimento de opção no prazo de 90 (noventa) dias, a contar da data do seu recebimento." .
+lex:L6331\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6331    lex:temArtigo    lex:L6331\/Artigo2 .
+lex:L6331\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

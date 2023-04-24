@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3526    lex:ehUm    lex:DocLegal .
+lex:D3526    lex:temTextoIntegral    lex:HTMLs\/D3526.htm .
+lex:D3526\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3526    lex:temInciso    lex:D3526\/IncisoD .
+lex:D3526\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3526\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3526    lex:temArtigo    lex:D3526\/Artigo1 .
+lex:D3526\/Artigo1    lex:temConteudo    "Art. 1o  Fica alterado para R$ 1.795.000.000,00 (um bilhão, setecentos e noventa e cinco milhões de reais) o montante a que se refere o inciso II do art. 3o do Decreto no 3.473, de 18 de maio de 2000." .
+lex:D3526\/Artig    lex:ehUm    lex:Artigo .
+lex:D3526    lex:temArtigo    lex:D3526\/Artig .
+lex:D3526\/Artig    lex:temConteudo    "Art.  2o  Inclui-se na relação de fontes constantes dos anexos I e V do Decreto no 3.473, de 2000, a fonte de recursos 192." .
+lex:D3526\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3526    lex:temArtigo    lex:D3526\/Artigo3 .
+lex:D3526\/Artigo3    lex:temConteudo    "Art. 3o  A demonstração da compatibilidade entre os limites liberados para movimentação e empenho, e o cumprimento das metas de superávit primário estabelecidas, consta do anexo deste Decreto, em substituição ao anexo VIII do Decreto no 3.473, de 2000." .
+lex:D3526\/Artig    lex:ehUm    lex:Artigo .
+lex:D3526    lex:temArtigo    lex:D3526\/Artig .
+lex:D3526\/Artig    lex:temConteudo    "Art.  4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3526\/Texto    lex:remetePara    lex:L4320 .
+lex:D3526\/Texto    lex:remetePara    lex:L9811 .
+lex:D3526\/Artigo1    lex:remetePara    lex:D3473 .
+lex:D3526\/Texto00005    lex:remetePara    lex:index .

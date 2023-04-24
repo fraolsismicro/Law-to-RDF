@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5841    lex:ehUm    lex:DocLegal .
+lex:D5841    lex:temTextoIntegral    lex:HTMLs\/D5841.htm .
+lex:D5841\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D5841    lex:temInciso    lex:D5841\/IncisoVII .
+lex:D5841\/IncisoVII    lex:temConteudo    "VII - viabilizar e coordenar a realização de estudos e pesquisas visando à produção do conhecimento, no campo da ouvidoria em saúde, para subsidiar a formulação de políticas de gestão do SUS." .
+lex:D5841\/Texto    lex:remetePara    lex:D5841 .
+lex:D5841\/Artigo5    lex:remetePara    lex:D5678 .
+lex:D5841\/IncisoX    lex:remetePara    lex:L8142 .
+lex:D5841\/Artigo36    lex:remetePara    lex:L8080\/Artigo16 .

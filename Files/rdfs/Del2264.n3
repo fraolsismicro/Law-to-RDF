@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2264    lex:ehUm    lex:DocLegal .
+lex:Del2264    lex:temTextoIntegral    lex:HTMLs\/Del2264.htm .
+lex:Del2264\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2264    lex:temArtigo    lex:Del2264\/Artigo1 .
+lex:Del2264\/Artigo1    lex:temConteudo    "Art. 1º É autorizado o Ministério da Fazenda a proceder a venda ou permuta de bens imóveis da União, de qualquer natureza, sob sua jurisdição, cuja utilização ou exploração não atenda às necessidades do Ministério." .
+lex:Del2264\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2264\/Artigo1    lex:temParagrafo    lex:Del2264\/Artigo1\/ParagrafoUnico .
+lex:Del2264\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para cada caso deverá haver aprovação expressa do Ministro da Fazenda." .
+lex:Del2264\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2264    lex:temArtigo    lex:Del2264\/Artigo2 .
+lex:Del2264\/Artigo2    lex:temConteudo    "Art. 2º No processo de alienação serão observadas as normas estabelecidas no Titulo XII do Decreto-lei nº 200, de 25 de fevereiro de 1967." .
+lex:Del2264\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2264    lex:temArtigo    lex:Del2264\/Artigo3 .
+lex:Del2264\/Artigo3    lex:temConteudo    "Art. 3º Os recursos obtidos nas alienações de que trata o artigo 1º serão recolhidos à conta do Tesouro Nacional, como Receita orçamentaria da União, para aplicação em aquisição, construção, ampliação e reforma de bens imóveis e na compra de equipamentos, destinados ao Ministério da Fazenda." .
+lex:Del2264\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2264    lex:temArtigo    lex:Del2264\/Artigo4 .
+lex:Del2264\/Artigo4    lex:temConteudo    "Art. 4º O Ministro da Fazenda baixará os atos necessários à efetivação das alienações autorizadas por este Decreto-lei." .
+lex:Del2264\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2264    lex:temArtigo    lex:Del2264\/Artigo5 .
+lex:Del2264\/Artigo5    lex:temConteudo    "Art. 5º Revogadas as disposições em contrário, este Decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del2264\/Artigo2    lex:remetePara    lex:Del0200\/ .

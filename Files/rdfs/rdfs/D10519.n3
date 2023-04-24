@@ -1,0 +1,67 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10519    lex:ehUm    lex:DocLegal .
+lex:D10519    lex:temTextoIntegral    lex:HTMLs\/D10519.htm .
+lex:D10519\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10519    lex:temArtigo    lex:D10519\/Artigo1A .
+lex:D10519\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 6.464, de 27 de maio de 2008, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10519\/Artigo1A\/AlineaServidor    lex:ehUm    lex:Alinea .
+lex:D10519\/Artigo1A    lex:temAlinea    lex:D10519\/Artigo1A\/AlineaServidor .
+lex:D10519\/Artigo1A\/AlineaServidor    lex:temConteudo    "a) servidor pÃºblico federal ocupante de cargo efetivo; ou" .
+lex:D10519\/Artigo1A\/AlineaEmpregado    lex:ehUm    lex:Alinea .
+lex:D10519\/Artigo1A    lex:temAlinea    lex:D10519\/Artigo1A\/AlineaEmpregado .
+lex:D10519\/Artigo1A\/AlineaEmpregado    lex:temConteudo    "b) empregado do quadro permanente de empresa pÃºblica federal ou de sociedade de economia mista federal;" .
+lex:D10519\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10519    lex:temArtigo    lex:D10519\/Artigo2A .
+lex:D10519\/Artigo2A    lex:temConteudo    "Art. 2Âº  As missÃµes que estiverem em curso na data de entrada em vigor deste Decreto terÃ£o a sua duraÃ§Ã£o automaticamente alterada para quatro anos consecutivos, nÃ£o prorrogÃ¡veis, contados da data de apresentaÃ§Ã£o do adido agrÃ­cola Ã  representaÃ§Ã£o diplomÃ¡tica para a qual tiver sido designado." .
+lex:D10519\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10519    lex:temArtigo    lex:D10519\/Artigo3A .
+lex:D10519\/Artigo3A    lex:temConteudo    "Art. 3Âº  Os adidos designados em decorrÃªncia do acrÃ©scimo, pelo art. 1Âº deste Decreto, no quantitativo previsto no art. 4Âº do Decreto nÂº 6.464, de 2008, nÃ£o poderÃ£o embarcar para iniciar as suas missÃµes em seus postos antes de 1Âº de janeiro de 2021." .
+lex:D10519\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10519    lex:temArtigo    lex:D10519\/Artigo4A .
+lex:D10519\/Artigo4A    lex:temConteudo    "Art. 4Âº  Ficam revogados os seguintes dispositivos do Decreto nÂº 6.464, de 2008:" .
+lex:D10519\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D10519    lex:temArtigo    lex:D10519\/Artigo5A .
+lex:D10519\/Artigo5A    lex:temConteudo    "Art. 5Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10519\/Artigo1A    lex:remetePara    lex:D6464 .
+lex:D10519\/Texto00001    lex:remetePara    lex:D6464\/Artigo1p0 .
+lex:D10519\/Texto00001    lex:remetePara    lex:D6464\/Artigo2ii1 .
+lex:D10519\/Artigo1A\/AlineaServidor    lex:remetePara    lex:D6464\/Artigo2ii2 .
+lex:D10519\/Artigo1A\/AlineaEmpregado    lex:remetePara    lex:D6464\/Artigo2iib1 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo2iii1 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo2iv0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo2v0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo2 .
+lex:D10519\/Artigo1A\/Texto00003    lex:revogadoPor    lex:D10963\/Artigo2 .
+lex:D10963\/Artigo2    lex:revogou    lex:D10519\/Artigo1A\/Texto00003 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo4Â§1i0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo4Â§1iii0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo4Â§40 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo50 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo5 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo61 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:L11440\/Artigo56 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo7xii0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo8ii0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo8ii0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo8iv0 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo90 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo9Â§20 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo9Â§40 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo100 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo10Â§20 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo10Â§30 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo110 .
+lex:D10519\/Artigo1A\/Texto00003    lex:remetePara    lex:D6464\/Artigo12Â§20 .
+lex:D10519\/Artigo3A    lex:remetePara    lex:D6464\/Artigo4 .
+lex:D10519\/Artigo4A    lex:remetePara    lex:D6464 .
+lex:D10519\/Texto00006    lex:remetePara    lex:D6464\/Artigo4Â§2 .
+lex:D10519\/Texto00006    lex:remetePara    lex:D6464\/Artigo5Â§1 .
+lex:D10519\/Texto00006    lex:remetePara    lex:D6464\/Artigo5Â§2 .
+lex:D10519\/Texto00006    lex:remetePara    lex:D6464\/Artigo10Â§1 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6363    lex:ehUm    lex:DocLegal .
+lex:L6363    lex:temTextoIntegral    lex:HTMLs\/L6363.htm .
+lex:L6363\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6363    lex:temArtigo    lex:L6363\/Artigo1 .
+lex:L6363\/Artigo1    lex:temConteudo    "Art. 1º Fica acrescido do seguinte parágrafo único o artigo 1º do Decreto-lei nº 1.028, de 21 de outubro de 1969, que aprova o Estatuto da Federação das Escolas Federais Isoladas do Estado do Rio de Janeiro:" .
+lex:L6363\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6363\/Artigo1    lex:temParagrafo    lex:L6363\/Artigo1\/ParagrafoUnico .
+lex:L6363\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - As alterações no estatuto de que trata este artigo serão aprovadas na forma do artigo 5º da Lei nº 5.540, de 28 de novembro de 1968, obedecida a formalidade prevista no artigo 14 do Decreto-lei, nº 464, de 11 de fevereiro de 1969." .
+lex:L6363\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6363    lex:temArtigo    lex:L6363\/Artigo2 .
+lex:L6363\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6363\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1028\/Artigo1 .
+lex:L6363\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5540\/Artigo5 .
+lex:L6363\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del0464\/Artigo14 .

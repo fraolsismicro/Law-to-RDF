@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7878    lex:ehUm    lex:DocLegal .
+lex:D7878    lex:temTextoIntegral    lex:HTMLs\/D7878.htm .
+lex:D7878\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7878    lex:temArtigo    lex:D7878\/Artigo1 .
+lex:D7878\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 6.306, de 14 de dezembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7878\/Artigo1\/Paragrafo14    lex:ehUm    lex:Paragrafo .
+lex:D7878\/Artigo1    lex:temParagrafo    lex:D7878\/Artigo1\/Paragrafo14 .
+lex:D7878\/Artigo1\/Paragrafo14    lex:temConteudo    "§ 14. Quando, em razão de determinação prévia do Banco Central do Brasil, a taxa de câmbio válida para um determinado dia for definida como a mesma taxa de câmbio do dia útil imediatamente anterior, será considerada como data de aquisição, venda ou vencimento, definida no inciso VIII do § 4 º, para as exposições com aquisição, venda ou vencimento nessa data, o dia útil imediatamente anterior, ficando o próprio contribuinte responsável pela consolidação das exposições destes dias. (NR)" .
+lex:D7878\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7878    lex:temArtigo    lex:D7878\/Artigo2 .
+lex:D7878\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7878\/Artigo1\/Paragrafo14    lex:remetePara    lex:D6306\/Artigo32\/Paragrafo14 .

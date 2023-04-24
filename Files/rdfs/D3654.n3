@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3654    lex:ehUm    lex:DocLegal .
+lex:D3654    lex:temTextoIntegral    lex:HTMLs\/D3654.htm .
+lex:D3654\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3654    lex:temInciso    lex:D3654\/IncisoD .
+lex:D3654\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3654\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D3654\/Artigo2    lex:remetePara    lex:D1068 .
+lex:D3654\/Texto00001    lex:remetePara    lex:index .

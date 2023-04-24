@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1700    lex:ehUm    lex:DocLegal .
+lex:D1700    lex:temTextoIntegral    lex:HTMLs\/D1700.htm .
+lex:D1700\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1700    lex:temArtigo    lex:D1700\/Artigo1 .
+lex:D1700\/Artigo1    lex:temConteudo    "Art. 1º O Décimo Terceiro Protocolo Adicional ao Acordo de Complementação Econômica nº 18, entre Brasil, Argentina, Paraguai e Uruguai, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D1700\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1700    lex:temArtigo    lex:D1700\/Artigo2 .
+lex:D1700\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1700\/Artigo2\/AlineaFinanciamento    lex:ehUm    lex:Alinea .
+lex:D1700\/Artigo2    lex:temAlinea    lex:D1700\/Artigo2\/AlineaFinanciamento .
+lex:D1700\/Artigo2\/AlineaFinanciamento    lex:temConteudo    "a) financiamento às exportações de bens de capital a longo prazo poderá ser outorgado sob as condições expostas no Artigo 4º." .
+lex:D1700\/Artigo2\/AlineaDevolucao    lex:ehUm    lex:Alinea .
+lex:D1700\/Artigo2    lex:temAlinea    lex:D1700\/Artigo2\/AlineaDevolucao .
+lex:D1700\/Artigo2\/AlineaDevolucao    lex:temConteudo    "b) devolução ou isenção de impostos indiretos: poderão ser reintegrados ou isentos nas condições previstas nos Artigos 5º e 6º até que fiquem harmonizadas as condições que garantam um tratamento tributário em forma igualitária às produções localizadas no âmbito dos países signatários; e" .
+lex:D1700\/Artigo2\/AlineaRegimes    lex:ehUm    lex:Alinea .
+lex:D1700\/Artigo2    lex:temAlinea    lex:D1700\/Artigo2\/AlineaRegimes .
+lex:D1700\/Artigo2\/AlineaRegimes    lex:temConteudo    "c) regimes aduaneiros especiais: poderão ser concedidos sob as condições estabelecidas nos Artigos 9º, 10 e 11, para os insumos, partes ou peças utilizadas na elaboração de bens sujeitos às disposições dos parágrafos primeiro e segundo do Artigo 2º referente ao Âmbito de aplicação do Regime de Origem MERCOSUL. A Comissão de Comércio do MERCOSUL analisará os alcances e limitações da utilização destes regimes no comércio intra-regional e proporá os ajustamentos que resultem necessários para preservar a proteção derivada da Tarifa Externa Comum." .

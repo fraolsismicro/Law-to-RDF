@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10518    lex:ehUm    lex:DocLegal .
+lex:D10518    lex:temTextoIntegral    lex:HTMLs\/D10518.htm .
+lex:D10518\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10518    lex:temArtigo    lex:D10518\/Artigo1A .
+lex:D10518\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 7.775, de 4 de julho de 2012, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10518\/Artigo1A\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D10518\/Artigo1A    lex:temAlinea    lex:D10518\/Artigo1A\/AlineaO .
+lex:D10518\/Artigo1A\/AlineaO    lex:temConteudo    "c) o valor financeiro correspondente, por ano, Ã  comercializaÃ§Ã£o de atÃ© trinta e cinco litros de leite por dia, na modalidade Incentivo Ã  ProduÃ§Ã£o e ao Consumo de Leite, calculado a partir de fÃ³rmula a ser estabelecida em resoluÃ§Ã£o do GGPAA;" .
+lex:D10518\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10518    lex:temArtigo    lex:D10518\/Artigo2A .
+lex:D10518\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10518\/Artigo1A    lex:remetePara    lex:D7775 .
+lex:D10518\/Artigo1A\/AlineaO    lex:remetePara    lex:D7775\/Artigo19ic0 .

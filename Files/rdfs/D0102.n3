@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0102    lex:ehUm    lex:DocLegal .
+lex:D0102    lex:temTextoIntegral    lex:HTMLs\/D0102.htm .
+lex:D0102\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0102    lex:temArtigo    lex:D0102\/Artigo1 .
+lex:D0102\/Artigo1    lex:temConteudo    "Art. 1º O art. 315, inciso IV, do Regulamento Aduaneiro, aprovado pelo Decreto nº 91.030, de 5 de março de 1985, passa a vigorar com a seguinte redação:" .
+lex:D0102\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0102\/Artigo1    lex:temInciso    lex:D0102\/Artigo1\/IncisoIV .
+lex:D0102\/Artigo1\/IncisoIV    lex:temConteudo    "IV - à mercadoria destinada a embalagem, acondicionamento ou apresentação de produto exportado ou a exportar, desde que propicie comprovadamente uma agregação de valor ao produto final;" .
+lex:D0102\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0102    lex:temArtigo    lex:D0102\/Artigo2 .
+lex:D0102\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11555    lex:ehUm    lex:DocLegal .
+lex:L11555    lex:temTextoIntegral    lex:HTMLs\/L11555.htm .
+lex:L11555\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11555    lex:temArtigo    lex:L11555\/Artigo1 .
+lex:L11555\/Artigo1    lex:temConteudo    "Art. 1o  Fica aberto ao Orçamento Fiscal da União (Lei no 11.451, de 7 de fevereiro de 2007), em favor dos Ministérios da Justiça e da Defesa, crédito suplementar no valor global de R$ 12.589.634,00 (doze milhões, quinhentos e oitenta e nove mil, seiscentos e trinta e quatro reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L11555\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11555    lex:temArtigo    lex:L11555\/Artigo2 .
+lex:L11555\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos necessários à abertura do crédito de que trata o art. 1o decorrem de:" .
+lex:L11555\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11555\/Artigo2    lex:temInciso    lex:L11555\/Artigo2\/IncisoI .
+lex:L11555\/Artigo2\/IncisoI    lex:temConteudo    "I - excesso de arrecadação no valor de R$ 1.618.446,00 (um milhão, seiscentos e dezoito mil, quatrocentos e quarenta e seis reais), sendo:" .
+lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11555\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS .
+lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temConteudo    "a) R$ 1.498.446,00 (um milhão, quatrocentos e noventa e oito mil, quatrocentos e quarenta e seis reais) de receitas de Alienação de Bens Apreendidos; e" .
+lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11555\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 120.000,00 (cento e vinte mil reais) de Recursos Próprios Não-Financeiros; e" .
+lex:L11555\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11555\/Artigo2    lex:temInciso    lex:L11555\/Artigo2\/IncisoII .
+lex:L11555\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 10.971.188,00 (dez milhões, novecentos e setenta e um mil, cento e oitenta e oito reais), conforme indicado no Anexo II desta Lei." .
+lex:L11555\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11555    lex:temArtigo    lex:L11555\/Artigo3 .
+lex:L11555\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11555\/Artigo1    lex:remetePara    lex:L11451 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0921    lex:ehUm    lex:DocLegal .
+lex:D0921    lex:temTextoIntegral    lex:HTMLs\/D0921.htm .
+lex:D0921\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0921    lex:temArtigo    lex:D0921\/Artigo1 .
+lex:D0921\/Artigo1    lex:temConteudo    "Art. 1° O parágrafo único do art. 8° do Decreto n° 785, de 27 de março de 1993, passa a vigorar com a seguinte redação." .
+lex:D0921\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0921\/Artigo1    lex:temParagrafo    lex:D0921\/Artigo1\/ParagrafoUnico .
+lex:D0921\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Excetua-se da obrigatoriedade do caput deste artigo a propaganda realizada por órgão, entidade ou sociedade sediada em cidade ou região metropolitana em que inexista agência ou agenciador de propaganda, ou em que as agências e agenciadores de propaganda existentes não cumpram os requisitos mínimos exigíveis de fornecedores da Administração Pública Federal, Direta e Indireta, bem como a publicidade legal feita nos órgãos oficiais da União, dos Estados, do Distrito Federal e dos Municípios'." .
+lex:D0921\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0921    lex:temArtigo    lex:D0921\/Artigo2 .
+lex:D0921\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .
+lex:D0921\/Artigo1    lex:remetePara    lex:D785\/Artigo8 .

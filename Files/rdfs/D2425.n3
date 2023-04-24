@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2425    lex:ehUm    lex:DocLegal .
+lex:D2425    lex:temTextoIntegral    lex:HTMLs\/D2425.htm .
+lex:D2425\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2425    lex:temArtigo    lex:D2425\/Artigo1 .
+lex:D2425\/Artigo1    lex:temConteudo    "Art 1º - Ficam criados, no Ministério do Exército:" .
+lex:D2425\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2425\/Artigo1    lex:temInciso    lex:D2425\/Artigo1\/IncisoI .
+lex:D2425\/Artigo1\/IncisoI    lex:temConteudo    "I - a Secretaria de Tecnologia da Informação - Órgão de Direção Setorial do Exército - por transformação da Vice-Chefia de Comunicações, Eletrônica e Informática;" .
+lex:D2425\/Artigo1\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:D2425\/Artigo1    lex:temInciso    lex:D2425\/Artigo1\/IncisoIl .
+lex:D2425\/Artigo1\/IncisoIl    lex:temConteudo    "Il - a Diretoria de Material de Comunicações, Eletrônica e Informática - subordinada à Secretaria de Tecnologia da Informação - por transformação do Centro de Comunicações e Telemática do Exército;" .
+lex:D2425\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2425\/Artigo1    lex:temInciso    lex:D2425\/Artigo1\/IncisoIII .
+lex:D2425\/Artigo1\/IncisoIII    lex:temConteudo    "III - o Centro Integrado de Telemática do Exército - subordinado à Secretaria de Tecnologia da Informação - por transformação da Subchefia de Comunicações, Eletrônica e Informática;" .
+lex:D2425\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2425\/Artigo1    lex:temInciso    lex:D2425\/Artigo1\/IncisoIV .
+lex:D2425\/Artigo1\/IncisoIV    lex:temConteudo    "IV - a Inspetoria de Saúde do Comando Militar do Leste - subordinada diretamente a esse Comando Militar de Área - por transformação do Comando Regional de Saúde da 1ª Região Militar; (Revogado pelo Decreto nº 3.124, de 27.7.1999)" .
+lex:D2425\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2425\/Artigo1    lex:temInciso    lex:D2425\/Artigo1\/IncisoV .
+lex:D2425\/Artigo1\/IncisoV    lex:temConteudo    "V - a Inspetoria de Saúde do Comando Militar do Sul - subordinada diretamente a esse Comando Militar de Área. (Revogado pelo Decreto nº 3.124, de 27.7.1999)" .
+lex:D2425\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2425    lex:temArtigo    lex:D2425\/Artigo2 .
+lex:D2425\/Artigo2    lex:temConteudo    "Art 2º - O Ministro de Estado do Exército fixará a data de implementação das medidas de que trata o artigo anterior e baixará os atos complementares necessários à execução deste Decreto." .
+lex:D2425\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2425    lex:temArtigo    lex:D2425\/Artigo3 .
+lex:D2425\/Artigo3    lex:temConteudo    "Art 3º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D2425\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2425    lex:temArtigo    lex:D2425\/Artigo4 .
+lex:D2425\/Artigo4    lex:temConteudo    "Art 4º - Ficam revogados os Decretos nº 729, de 25 de janeiro de 1993, e nº 2.175, de 12 de março de 1997." .
+lex:D2425\/Artigo1\/IncisoIV    lex:revogadoPor    lex:D3124 .
+lex:D3124    lex:revogou    lex:D2425\/Artigo1\/IncisoIV .
+lex:D2425\/Artigo1\/IncisoV    lex:revogadoPor    lex:D3124 .
+lex:D3124    lex:revogou    lex:D2425\/Artigo1\/IncisoV .

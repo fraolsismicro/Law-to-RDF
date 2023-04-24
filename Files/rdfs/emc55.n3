@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc55    lex:ehUm    lex:DocLegal .
+lex:emc55    lex:temTextoIntegral    lex:HTMLs\/emc55.htm .
+lex:emc55\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc55    lex:temArtigo    lex:emc55\/Artigo1 .
+lex:emc55\/Artigo1    lex:temConteudo    "Art. 1º O art. 159 da Constituição Federal passa a vigorar com as seguintes alterações:" .
+lex:emc55\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:emc55\/Artigo1    lex:temInciso    lex:emc55\/Artigo1\/IncisoI .
+lex:emc55\/Artigo1\/IncisoI    lex:temConteudo    "I - do produto da arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados quarenta e oito por cento na seguinte forma:" .
+lex:emc55\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:emc55\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:emc55\/Artigo1\/IncisoI\/IncisoAlineaUm .
+lex:emc55\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "d) um por cento ao Fundo de Participação dos Municípios, que será entregue no primeiro decêndio do mês de dezembro de cada ano;" .
+lex:emc55\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc55    lex:temArtigo    lex:emc55\/Artigo2 .
+lex:emc55\/Artigo2    lex:temConteudo    "Art. 2º No exercício de 2007, as alterações do art. 159 da Constituição Federal previstas nesta Emenda Constitucional somente se aplicam sobre a arrecadação dos impostos sobre renda e proventos de qualquer natureza e sobre produtos industrializados realizada a partir de 1º de setembro de 2007." .
+lex:emc55\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc55    lex:temArtigo    lex:emc55\/Artigo3 .
+lex:emc55\/Artigo3    lex:temConteudo    "Art. 3º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc55\/Artigo1\/IncisoI    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc55\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc55\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo159 .

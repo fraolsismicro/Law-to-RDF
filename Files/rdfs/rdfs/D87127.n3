@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D87127    lex:ehUm    lex:DocLegal .
+lex:D87127    lex:temTextoIntegral    lex:HTMLs\/D87127.htm .
+lex:D87127\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D87127    lex:temArtigo    lex:D87127\/Artigo1A .
+lex:D87127\/Artigo1A    lex:temConteudo    "Art. 1Âº O artigo 3Âº e a alÃ­nea 'b' do parÃ¡grafo Ãºnico do artigo 25 do Decreto nÂº 79.046, de 27 de dezembro de 1976, passam a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D87127\/Artigo1A\/AlineaContrato    lex:ehUm    lex:Alinea .
+lex:D87127\/Artigo1A    lex:temAlinea    lex:D87127\/Artigo1A\/AlineaContrato .
+lex:D87127\/Artigo1A\/AlineaContrato    lex:temConteudo    "a) contrato social ou estatutos, com as alteraÃ§Ãµes subseqÃ¼entes;" .
+lex:D87127\/Artigo1A\/AlineaCertificado    lex:ehUm    lex:Alinea .
+lex:D87127\/Artigo1A    lex:temAlinea    lex:D87127\/Artigo1A\/AlineaCertificado .
+lex:D87127\/Artigo1A\/AlineaCertificado    lex:temConteudo    "b) certificado do seu registro no CREA, com indicaÃ§Ã£o dos tÃ©cnicos responsÃ¡veis;" .
+lex:D87127\/Artigo1A\/AlineaBalanAo    lex:ehUm    lex:Alinea .
+lex:D87127\/Artigo1A    lex:temAlinea    lex:D87127\/Artigo1A\/AlineaBalanAo .
+lex:D87127\/Artigo1A\/AlineaBalanAo    lex:temConteudo    "c) balanÃ§o referente ao Ãºltimo exercÃ­cio social;" .
+lex:D87127\/Artigo1A\/AlineaDeclaraAAo    lex:ehUm    lex:Alinea .
+lex:D87127\/Artigo1A    lex:temAlinea    lex:D87127\/Artigo1A\/AlineaDeclaraAAo .
+lex:D87127\/Artigo1A\/AlineaDeclaraAAo    lex:temConteudo    "d) declaraÃ§Ã£o firmada, sob as penas da lei, pelos administradores da empresa, no sentido de que contra eles e a pessoa jurÃ­dica, respectivamente, nÃ£o se encontra ajuizada aÃ§Ã£o penal ou cÃ­vel que vede o exercÃ­cio da funÃ§Ã£o de administrador ou que comprometa a solvabilidade da empresa." .
+lex:D87127\/Artigo1A\/AlineaApresentem    lex:ehUm    lex:Alinea .
+lex:D87127\/Artigo1A    lex:temAlinea    lex:D87127\/Artigo1A\/AlineaApresentem .
+lex:D87127\/Artigo1A\/AlineaApresentem    lex:temConteudo    "b) apresentem a declaraÃ§Ã£o a que se refere a alÃ­nea 'd' do Â§ 1Âº do artigo 3Âº deste Regulamento.'" .
+lex:D87127\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D87127    lex:temArtigo    lex:D87127\/Artigo2A .
+lex:D87127\/Artigo2A    lex:temConteudo    "Art. 2Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D87127\/Artigo1A    lex:remetePara    lex:D79046 .
+lex:D87127\/Texto00001    lex:remetePara    lex:D79046\/Artigo3 .
+lex:D87127\/Artigo1A\/AlineaApresentem    lex:remetePara    lex:D79046\/Artigo25 .

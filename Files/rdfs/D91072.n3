@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91072    lex:ehUm    lex:DocLegal .
+lex:D91072    lex:temTextoIntegral    lex:HTMLs\/D91072.htm .
+lex:D91072\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D91072    lex:temArtigo    lex:D91072\/Artigo1 .
+lex:D91072\/Artigo1    lex:temConteudo    "Art. 1º O artigo 182 do Decreto nº 80.228, de 25 de agosto de 1977, passa a vigorar com a seguinte redação:" .
+lex:D91072\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D91072    lex:temArtigo    lex:D91072\/Artigo2 .
+lex:D91072\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto entrará em vigor na data de sua publicação, ficando revogadas as disposições em contrário." .
+lex:D91072\/Texto00001    lex:remetePara    lex:D80228\/Artigo182 .

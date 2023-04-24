@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3865-B    lex:ehUm    lex:DocLegal .
+lex:L3865-B    lex:temTextoIntegral    lex:HTMLs\/L3865-B.htm .
+lex:L3865-B\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3865-B    lex:temArtigo    lex:L3865-B\/Artigo1 .
+lex:L3865-B\/Artigo1    lex:temConteudo    "Art. 1º. Sem prejuízo da dotação global, a constar do Orçamento Geral da União, no Ministério da Educação e Cultura, Diretoria do Ensino Superior, a Universidade do Pará terá direito a custeios de seus encargos, durante dez anos, na forma do artigo 9º de Lei nº 3.191, de 2 de julho de 1957, pelo Plano de Valorização Econômica da Amazônia, de cujos recursos serão destacados para êsse fim, no mínimo Cr$ 100.000.000,00 (cem milhões de cruzeiros) anuais." .
+lex:L3865-B\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3865-B\/Artigo1    lex:temParagrafo    lex:L3865-B\/Artigo1\/ParagrafoUnico .
+lex:L3865-B\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A contribuição do Plano de Valorização Econômica da Amazônia será classificada na unidade orçamentária relativa à Diretoria do Ensino Superior, com a movimentação sujeita ao regime da Lei número 3.614, de 12 de agosto de 1959." .
+lex:L3865-B\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3865-B    lex:temArtigo    lex:L3865-B\/Artigo2 .
+lex:L3865-B\/Artigo2    lex:temConteudo    "Art. 2º. Revogam-se as disposições em contrário." .
+lex:L3865-B\/Artigo1    lex:remetePara    lex:L3191\/Artigo9 .
+lex:L3865-B\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L3614 .

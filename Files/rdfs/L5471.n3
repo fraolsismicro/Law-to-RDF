@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5471    lex:ehUm    lex:DocLegal .
+lex:L5471    lex:temTextoIntegral    lex:HTMLs\/L5471.htm .
+lex:L5471\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5471    lex:temArtigo    lex:L5471\/Artigo1 .
+lex:L5471\/Artigo1    lex:temConteudo    "Art. 1º Fica proibida, sob qualquer forma, a exportação de bibliotecas e acervos documentais constituídos de obras brasileiras ou sôbre o Brasil, editadas nos séculos XVI a XIX." .
+lex:L5471\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5471\/Artigo1    lex:temParagrafo    lex:L5471\/Artigo1\/ParagrafoUnico .
+lex:L5471\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Inclui-se igualmente, nessa proibição a exportação de:" .
+lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaObras    lex:ehUm    lex:Alinea .
+lex:L5471\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaObras .
+lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaObras    lex:temConteudo    "a) obras e documentos compreendidos no presente artigo que, por desmembramento dos conjuntos bibliográficos, ou isoladamente, hajam sido vendidos;" .
+lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaColecoes    lex:ehUm    lex:Alinea .
+lex:L5471\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaColecoes .
+lex:L5471\/Artigo1\/ParagrafoUnico\/AlineaColecoes    lex:temConteudo    "b) coleções de periódicos que já tenham mais de dez anos de publicados, bem como quaisquer originais e cópias antigas de partituras musicais." .
+lex:L5471\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5471    lex:temArtigo    lex:L5471\/Artigo2 .
+lex:L5471\/Artigo2    lex:temConteudo    "Art. 2º Poderá ser permitida, para fins de interêsse cultural, a juízo da autoridade federal competente, a saída temporária, do País, de obras raras abrangidas no art. 1º de seu parágrafo único." .
+lex:L5471\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5471    lex:temArtigo    lex:L5471\/Artigo3 .
+lex:L5471\/Artigo3    lex:temConteudo    "Art. 3º A infringência destas disposições será punida na forma da lei, devendo ser efetivadas pela autoridade competente as apreensões dela decorrentes." .
+lex:L5471\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5471\/Artigo3    lex:temParagrafo    lex:L5471\/Artigo3\/ParagrafoUnico .
+lex:L5471\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A destinação dos bens apreendidos será feita em proveito do patrimônio público, após audiência do Conselho Federal de Cultura." .
+lex:L5471\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5471    lex:temArtigo    lex:L5471\/Artigo4 .
+lex:L5471\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação e será regulamentada dentro de 60 (sessenta) dias." .
+lex:L5471\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5471    lex:temArtigo    lex:L5471\/Artigo5 .
+lex:L5471\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .

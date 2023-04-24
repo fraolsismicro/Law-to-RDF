@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4485    lex:ehUm    lex:DocLegal .
+lex:D4485    lex:temTextoIntegral    lex:HTMLs\/D4485.htm .
+lex:D4485\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4485    lex:temInciso    lex:D4485\/IncisoI .
+lex:D4485\/IncisoI    lex:temConteudo    "I - como condição necessária para emissão de nota de empenho, cada administração deverá realizar prévia consulta ao SICAF, para identificar possível proibição de contratar com o Poder Público; e" .
+lex:D4485\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4485    lex:temInciso    lex:D4485\/IncisoII .
+lex:D4485\/IncisoII    lex:temConteudo    "II - nos casos em que houver necessidade de assinatura do instrumento de contrato, e o proponente homologado não estiver inscrito no SICAF, o seu cadastramento deverá ser feito pela Administração, sem ônus para o proponente, antes da contratação, com base no reexame da documentação apresentada para habilitação, devidamente atualizada." .
+lex:D4485\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4485    lex:temParagrafo    lex:D4485\/Paragrafo3 .
+lex:D4485\/Paragrafo3    lex:temConteudo    "§ 3o  Excetuam-se das exigências para habilitação prévia no SICAF as relativas à qualificação técnica da interessada, as quais somente serão demandadas quando a situação o exigir.' (NR)" .
+lex:D4485\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4485    lex:temParagrafo    lex:D4485\/ParagrafoUnico .
+lex:D4485\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para a habilitação regulamentada neste Decreto, o interessado deverá atender às condições exigidas para cadastramento no SICAF, até o terceiro dia útil anterior à data prevista para recebimento das propostas.' (NR)" .
+lex:D4485\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4485    lex:temArtigo    lex:D4485\/Artigo2 .
+lex:D4485\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4485\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4485    lex:temArtigo    lex:D4485\/Artigo3 .
+lex:D4485\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o art. 5o do Decreto no 3.722, de 9 de janeiro de 2001." .
+lex:D4485\/Texto    lex:remetePara    lex:D3722\/Artigo1 .
+lex:D4485\/Paragrafo1    lex:remetePara    lex:D3722\/Artigo1\/Paragrafo1 .
+lex:D4485\/IncisoI    lex:remetePara    lex:D3722\/Artigo1\/Paragrafo1i .
+lex:D4485\/IncisoII    lex:remetePara    lex:D3722\/Artigo1\/Paragrafo1ii .
+lex:D4485\/Paragrafo2    lex:remetePara    lex:D3722\/Artigo1\/Paragrafo2 .
+lex:D4485\/Paragrafo3    lex:remetePara    lex:D3722\/Artigo1\/Paragrafo3 .
+lex:D4485\/Texto00003    lex:remetePara    lex:D3722\/Artigo3 .
+lex:D4485\/ParagrafoUnico    lex:remetePara    lex:D3722\/Artigo3 .
+lex:D4485\/Artigo3    lex:remetePara    lex:D3722\/Artigo5 .

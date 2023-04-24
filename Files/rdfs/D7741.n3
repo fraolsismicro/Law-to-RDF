@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7741    lex:ehUm    lex:DocLegal .
+lex:D7741    lex:temTextoIntegral    lex:HTMLs\/D7741.htm .
+lex:D7741\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7741    lex:temArtigo    lex:D7741\/Artigo1 .
+lex:D7741\/Artigo1    lex:temConteudo    "Art. 1o  Ficam criados na Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto no 7.660, de 23 de dezembro de 2011, os desdobramentos na descrição dos códigos de classificação constantes no Anexo I, efetuados sob a forma de destaque Ex." .
+lex:D7741\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7741    lex:temArtigo    lex:D7741\/Artigo2 .
+lex:D7741\/Artigo2    lex:temConteudo    "Art. 2o  Ficam majoradas para os percentuais indicados no Anexo II as alíquotas do IPI incidentes sobre os produtos classificados nos códigos ali relacionados, conforme a TIPI." .
+lex:D7741\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7741    lex:temArtigo    lex:D7741\/Artigo3 .
+lex:D7741\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor:" .
+lex:D7741\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7741\/Artigo3    lex:temInciso    lex:D7741\/Artigo3\/IncisoI .
+lex:D7741\/Artigo3\/IncisoI    lex:temConteudo    "I - na data de sua publicação, em relação ao art. 1o; e" .
+lex:D7741\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7741\/Artigo3    lex:temInciso    lex:D7741\/Artigo3\/IncisoII .
+lex:D7741\/Artigo3\/IncisoII    lex:temConteudo    "II - no primeiro dia do quarto mês subsequente ao de sua publicação, em relação ao art. 2o." .
+lex:D7741\/Artigo1    lex:remetePara    lex:D7660 .

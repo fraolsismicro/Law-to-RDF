@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D61918    lex:ehUm    lex:DocLegal .
+lex:D61918    lex:temTextoIntegral    lex:HTMLs\/D61918.htm .
+lex:D61918\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D61918    lex:temArtigo    lex:D61918\/Artigo1 .
+lex:D61918\/Artigo1    lex:temConteudo    "Art. 1º Ficam incluídos, com os respectivos ocupantes, na Parte Suplementar do Quadro de Pessoal do Ministério dos Transportes (ex-Ministério da Viação e Obras Públicas), os cargos e funções pertencentes à extinta autarquia federal denominada Serviços de Navegação da Amazônia e de Administração do Pôrto do Pará (SNAPP)." .
+lex:D61918\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D61918    lex:temArtigo    lex:D61918\/Artigo2 .
+lex:D61918\/Artigo2    lex:temConteudo    "Art. 2º Os cargos e funções referidos no artigo anterior são os constantes do Decreto nº 57.628, de 13 de janeiro de 1966." .
+lex:D61918\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D61918    lex:temArtigo    lex:D61918\/Artigo3 .
+lex:D61918\/Artigo3    lex:temConteudo    "Art. 3º O pessoal de que trata o presente decreto, regido pela Lei número 1.711, de 28 de outubro de 1952, e mantido na qualidade de servidor autárquico, terá sua aposentadoria paga pelo Tesouro Nacional, continuando os demais direitos a serem concedidos pelo Instituto Nacional de Previdência Social, para o qual contribuirá na forma anteriormente adotada." .
+lex:D61918\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D61918\/Artigo3    lex:temParagrafo    lex:D61918\/Artigo3\/ParagrafoUnico .
+lex:D61918\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O pessoal já aposentado pela autarquia extinta passa a ter a respectiva aposentadoria paga pelo Tesouro Nacional." .
+lex:D61918\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D61918    lex:temArtigo    lex:D61918\/Artigo4 .
+lex:D61918\/Artigo4    lex:temConteudo    "Art. 4º No corrente exercício, as despesas com a execução dêste decreto, inclusive com relação aos aposentados e a pessoal em disponibilidade, correrão à conta da subvenção federal à aludida ex-autarquia, constante do Orçamento da União, no Anexo relativo ao antigo Ministério da Viação e Obras Públicas." .
+lex:D61918\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D61918    lex:temArtigo    lex:D61918\/Artigo5 .
+lex:D61918\/Artigo5    lex:temConteudo    "Art. 5º O presente decreto entrará em vigor na data da sua publicação, retroagindo, para todos os efeitos legais, a 11 de setembro de 1967, data da publicação dos Decretos ns. 61.300 e 61.301, de 6 anterior, que aprovaram, respectivamente, a constituição da Companhia das Docas do Pará (CDP) e da Emprêsa de Navegação da Amazônia S. A. (ENA S. A.), e, em conseqüência, da extinção da mencionada autarquia, ex vi do art. 1º do Decreto-Lei nº 155, de 10 de fevereiro de 1967." .
+lex:D61918\/Texto    lex:remetePara    lex:D68128 .
+lex:D61918\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2 .
+lex:Dnn15-02-1991-2    lex:revogou    lex:D61918\/Texto .
+lex:D61918\/Texto    lex:remetePara    lex:D61918 .
+lex:D61918\/Artigo3    lex:remetePara    lex:L1711 .
+lex:D61918\/Artigo5    lex:remetePara    lex:Del0155\/Artigo1 .

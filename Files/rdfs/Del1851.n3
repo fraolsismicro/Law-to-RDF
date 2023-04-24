@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1851    lex:ehUm    lex:DocLegal .
+lex:Del1851    lex:temTextoIntegral    lex:HTMLs\/Del1851.htm .
+lex:Del1851\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1851    lex:temArtigo    lex:Del1851\/Artigo1 .
+lex:Del1851\/Artigo1    lex:temConteudo    "Art. 1º O limite mínimo fixado no § 1º do artigo 1º do Decreto-lei nº 1.358, de 12 de novembro de 1974, alterado pelos Decretos-leis nºs 1.431, de 5 de dezembro de 1975, 1.491, de 1º de de dezembro de 1976, 1.596, de 22 de dezembro de 1977, 1.657, de 23 de janeiro de 1979, e 1.728, de 12 de dezembro de 1979, fica elevado, a partir do exercício financeiro de 1981, para Cr$4.464,00 (quatro mil quatrocentos e sessenta e quatro cruzeiros), mantido o limite máximo de Cr$7.800,00 (sete mil e oitocentos cruzeiros) fixado no artigo 1º do Decreto-lei nº 1.657, de 23 de janeiro de 1979." .
+lex:Del1851\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1851\/Artigo1    lex:temParagrafo    lex:Del1851\/Artigo1\/ParagrafoUnico .
+lex:Del1851\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O valor mínimo do benefício fiscal, de que trata este artigo, não poderá ultrapassar o montante das prestações mensais vencíveis no segundo semestre de 1981 e no primeiro semestre de 1982." .
+lex:Del1851\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1851    lex:temArtigo    lex:Del1851\/Artigo2 .
+lex:Del1851\/Artigo2    lex:temConteudo    "Art. 2º Fica mantida em 12% (doze por cento) a percentagem para cálculo do benefício fiscal, aplicável de acordo com as normas estabelecidas no artigo 1º do Decreto-lei nº 1.358, de 12 de novembro de 1974, respeitado o disposto no § 1º do artigo 1º do Decreto-lei nº 1.728, de 12 de dezembro de 1979." .
+lex:Del1851\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1851    lex:temArtigo    lex:Del1851\/Artigo3 .
+lex:Del1851\/Artigo3    lex:temConteudo    "Art. 3º A Secretaria de Planejamento da Presidência da República e o Ministério da Fazenda adotarão as providências que se fizerem necessárias à aplicação deste Decreto-lei." .
+lex:Del1851\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1851    lex:temArtigo    lex:Del1851\/Artigo4 .
+lex:Del1851\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1851\/Artigo1    lex:remetePara    lex:Del1358\/Artigo1\/Paragrafo1 .
+lex:Del1851\/Artigo1    lex:remetePara    lex:Del1657\/Artigo1 .
+lex:Del1851\/Artigo2    lex:remetePara    lex:Del1358\/Artigo1 .
+lex:Del1851\/Artigo2    lex:remetePara    lex:Del1728\/Artigo1\/Paragrafo1 .

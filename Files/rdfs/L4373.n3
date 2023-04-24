@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4373    lex:ehUm    lex:DocLegal .
+lex:L4373    lex:temTextoIntegral    lex:HTMLs\/L4373.htm .
+lex:L4373\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4373    lex:temArtigo    lex:L4373\/Artigo1 .
+lex:L4373\/Artigo1    lex:temConteudo    "Art. 1º Serão computadas para efeito de cálculo previsto no art. 21 da Lei nº 1.046, de 2 de janeiro de 1950, alterada pela de nº 2.853, de 28 de agôsto de 1956, as vantangens pecuniárias acessórias de caráter permanente." .
+lex:L4373\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4373    lex:temArtigo    lex:L4373\/Artigo2 .
+lex:L4373\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4373\/Artigo1    lex:remetePara    lex:L1046\/Artigo21 .

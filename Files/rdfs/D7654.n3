@@ -1,0 +1,70 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7654    lex:ehUm    lex:DocLegal .
+lex:D7654    lex:temTextoIntegral    lex:HTMLs\/D7654.htm .
+lex:D7654\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7654    lex:temArtigo    lex:D7654\/Artigo1 .
+lex:D7654\/Artigo1    lex:temConteudo    "Art. 1o  O art. 68 do Decreto no 93.872, de 23 de dezembro de 1986, passa a vigorar com a seguinte redação:" .
+lex:D7654\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo1 .
+lex:D7654\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A inscrição prevista no caput como restos a pagar não processados fica condicionada à indicação pelo ordenador de despesas." .
+lex:D7654\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo2 .
+lex:D7654\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os restos a pagar inscritos na condição de não processados e não liquidados posteriormente terão validade até 30 de junho do segundo ano subsequente ao de sua inscrição, ressalvado o disposto no § 3o." .
+lex:D7654\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo3 .
+lex:D7654\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Permanecem válidos, após a data estabelecida no § 2o, os restos a pagar não processados que:" .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7654\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - refiram-se às despesas executadas diretamente pelos órgãos e entidades da União ou mediante transferência ou descentralização aos Estados, Distrito Federal e Municípios, com execução iniciada até a data prevista no § 2o; ou" .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7654\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - sejam relativos às despesas:" .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:temConteudo    "a) do Programa de Aceleração do Crescimento - PAC;" .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:temConteudo    "b) do Ministério da Saúde; ou" .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo .
+lex:D7654\/Artigo1\/Paragrafo3\/ParagrafoIncisoII\/AlineaDo    lex:temConteudo    "c) do Ministério da Educação financiadas com recursos da Manutenção e Desenvolvimento do Ensino." .
+lex:D7654\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo4 .
+lex:D7654\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  Considera-se como execução iniciada para efeito do inciso I do § 3o:" .
+lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7654\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoI .
+lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - nos casos de aquisição de bens, a despesa verificada pela quantidade parcial entregue, atestada e aferida; e" .
+lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7654\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoII .
+lex:D7654\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - nos casos de realização de serviços e obras, a despesa verificada pela realização parcial com a medição correspondente atestada e aferida." .
+lex:D7654\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo5 .
+lex:D7654\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  Para fins de cumprimento do disposto no § 2o, a Secretaria do Tesouro Nacional do Ministério da Fazenda efetuará, na data prevista no referido parágrafo, o bloqueio dos saldos dos restos a pagar não processados e não liquidados, em conta contábil específica no Sistema Integrado de Administração Financeira do Governo Federal - SIAFI." .
+lex:D7654\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo6 .
+lex:D7654\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  As unidades gestoras executoras responsáveis pelos empenhos bloqueados providenciarão os referidos desbloqueios que atendam ao disposto nos §§ 3o, inciso I, e 4o para serem utilizados, devendo a Secretaria do Tesouro Nacional do Ministério da Fazenda providenciar o posterior cancelamento no SIAFI dos saldos que permanecerem bloqueados." .
+lex:D7654\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo7 .
+lex:D7654\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Os Ministros de Estado, os titulares de órgãos da Presidência da República, os dirigentes de órgãos setoriais dos Sistemas Federais de Planejamento, de Orçamento e de Administração Financeira e os ordenadores de despesas são responsáveis, no que lhes couber, pelo cumprimento do disposto neste artigo." .
+lex:D7654\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D7654\/Artigo1    lex:temParagrafo    lex:D7654\/Artigo1\/Paragrafo8 .
+lex:D7654\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o  A Secretaria do Tesouro Nacional do Ministério da Fazenda, no âmbito de suas competências, poderá expedir normas complementares para o cumprimento do disposto neste artigo. (NR)" .
+lex:D7654\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7654    lex:temArtigo    lex:D7654\/Artigo2 .
+lex:D7654\/Artigo2    lex:temConteudo    "Art. 2o  A exigência prevista no § 1o do art. 68 do Decreto no 93.872, de 1986, não se aplica à inscrição no exercício financeiro de 2011." .
+lex:D7654\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7654    lex:temArtigo    lex:D7654\/Artigo3 .
+lex:D7654\/Artigo3    lex:temConteudo    "Art. 3o  Aos restos a pagar não processados inscritos no exercício de 2010, aplica-se o disposto neste Decreto, exceto a exigência prevista no § 1o do art. 68 do Decreto no 93.872, de 1986." .
+lex:D7654\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7654    lex:temArtigo    lex:D7654\/Artigo4 .
+lex:D7654\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7654\/Texto00001    lex:remetePara    lex:D93872\/Artigo68 .
+lex:D7654\/Artigo2    lex:remetePara    lex:D93872\/Artigo68\/Paragrafo1 .
+lex:D7654\/Artigo3    lex:remetePara    lex:D93872\/Artigo68\/Paragrafo1 .

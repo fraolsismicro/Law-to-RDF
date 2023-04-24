@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7331    lex:ehUm    lex:DocLegal .
+lex:D7331    lex:temTextoIntegral    lex:HTMLs\/D7331.htm .
+lex:D7331\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7331    lex:temArtigo    lex:D7331\/Artigo1 .
+lex:D7331\/Artigo1    lex:temConteudo    "Art. 1o  O Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999, passa a vigorar com as seguintes alterações:" .
+lex:D7331\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D7331\/Artigo1    lex:temParagrafo    lex:D7331\/Artigo1\/Paragrafo6 .
+lex:D7331\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  .............................................................................." .
+lex:D7331\/Artigo1\/Paragrafo6\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7331\/Artigo1\/Paragrafo6    lex:temParagrafoInciso    lex:D7331\/Artigo1\/Paragrafo6\/ParagrafoIncisoI .
+lex:D7331\/Artigo1\/Paragrafo6\/ParagrafoIncisoI    lex:temConteudo    "I - até 31 de dezembro de 2009, a empresa deverá implementar o Programa de Prevenção de Riscos Ambientais e de Doenças Ocupacionais previsto em lei, caracterizado pela plena execução do Programa de Prevenção de Riscos Ambientais - PPRA e do Programa de Controle Médico de Saúde Ocupacional - PCMSO, conforme disciplinado nas normas regulamentadoras do Ministério do Trabalho e Emprego, devendo ainda estabelecer metas de melhoria das condições e do ambiente de trabalho que reduzam a ocorrência de benefícios por incapacidade decorrentes de acidentes do trabalho ou doenças ocupacionais em pelo menos cinco por cento em relação ao ano anterior;" .
+lex:D7331\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7331\/Artigo1    lex:temParagrafo    lex:D7331\/Artigo1\/ParagrafoUnico .
+lex:D7331\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério do Trabalho e Emprego, com base em informações fornecidas trimestralmente, a partir de 1o de março de 2011, pelo Ministério da Previdência Social relativas aos dados de acidentes e doenças do trabalho constantes das comunicações de acidente de trabalho registradas no período, encaminhará à Previdência Social os respectivos relatórios de análise de acidentes do trabalho com indícios de negligência quanto às normas de segurança e saúde do trabalho que possam contribuir para a proposição de ações judiciais regressivas. (NR)" .
+lex:D7331\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7331    lex:temArtigo    lex:D7331\/Artigo2 .
+lex:D7331\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7331\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7331    lex:temArtigo    lex:D7331\/Artigo3 .
+lex:D7331\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o inciso IV do § 6o do art. 201-D do Regulamento da Previdência Social, aprovado pelo Decreto n º 3.048, de 6 de maio de 1999." .
+lex:D7331\/Artigo1    lex:remetePara    lex:D3048 .
+lex:D7331\/Artigo1\/Paragrafo6\/ParagrafoIncisoI    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo6i .
+lex:D7331\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D3048\/Artigo341 .
+lex:D7331\/Artigo3    lex:regulamentadoPor    lex:D3048\/Artigo201\/Paragrafo6iv .
+lex:D3048\/Artigo201\/Paragrafo6iv    lex:regulamenta    lex:D7331\/Artigo3 .

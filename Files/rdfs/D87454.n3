@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D87454    lex:ehUm    lex:DocLegal .
+lex:D87454    lex:temTextoIntegral    lex:HTMLs\/D87454.htm .
+lex:D87454\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D87454    lex:temArtigo    lex:D87454\/Artigo1 .
+lex:D87454\/Artigo1    lex:temConteudo    "Art. 1º - Ficam acrescentados parágrafos aos artigos 5º e 41 do Decreto nº 79.031, de 23 de dezembro de 1976, com a seguinte redação:" .
+lex:D87454\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D87454    lex:temArtigo    lex:D87454\/Artigo5 .
+lex:D87454\/Artigo5    lex:temConteudo    "Art. 5º - .........................................................................................................................." .
+lex:D87454\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D87454\/Artigo5    lex:temParagrafo    lex:D87454\/Artigo5\/ParagrafoUnico .
+lex:D87454\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O Ministro de Estado disporá de um Assessor Especial para Assuntos Internacionais, de interesse do EMFA." .
+lex:D87454\/Artigo41    lex:ehUm    lex:Artigo .
+lex:D87454    lex:temArtigo    lex:D87454\/Artigo41 .
+lex:D87454\/Artigo41    lex:temConteudo    "Art. 41 - ........................................................................................................................." .
+lex:D87454\/Artigo41\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D87454\/Artigo41    lex:temParagrafo    lex:D87454\/Artigo41\/ParagrafoUnico .
+lex:D87454\/Artigo41\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - As atribuições do Assessor a que se refere o parágrafo único do artigo 5º serão previstas no RIEMFA." .
+lex:D87454\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D87454    lex:temArtigo    lex:D87454\/Artigo2 .
+lex:D87454\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D87454\/Artigo1    lex:remetePara    lex:D79031 .
+lex:D87454\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:D79031\/Artigo5 .
+lex:D87454\/Artigo41\/ParagrafoUnico    lex:remetePara    lex:D79031\/Artigo41 .

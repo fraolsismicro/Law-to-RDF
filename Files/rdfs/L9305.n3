@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9305    lex:ehUm    lex:DocLegal .
+lex:L9305    lex:temTextoIntegral    lex:HTMLs\/L9305.htm .
+lex:L9305\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo1 .
+lex:L9305\/Artigo1    lex:temConteudo    "Art. 1º É concedida, a título de indenização decorrente de responsabilidade civil da União, pensão especial, mensal, no valor de R$ 300,00 (trezentos reais), em conjunto, a Maria Silvana Santos Sampaio, viúva, a Natália Santos Sampaio e Loran Santos Sampaio, filhos menores de José Ivanildo Sampaio de Souza, morto em dependência da Polícia Federal em Fortaleza, Estado do Ceará, em 24 de outubro de 1995." .
+lex:L9305\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9305\/Artigo1    lex:temParagrafo    lex:L9305\/Artigo1\/ParagrafoUnico .
+lex:L9305\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As importâncias recebidas pelos beneficiários serão deduzidas de qualquer indenização que a União venha a ser obrigada a pagar em razão do fato." .
+lex:L9305\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo2 .
+lex:L9305\/Artigo2    lex:temConteudo    "Art. 2° Ocorrendo o falecimento de qualquer beneficiário, a quota respectiva reverterá, em partes iguais, aos supérstites." .
+lex:L9305\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo3 .
+lex:L9305\/Artigo3    lex:temConteudo    "Art. 3° A pensão especial será devida ao filho até a idade de vinte e um anos e, em caso de invalidez, enquanto esta durar." .
+lex:L9305\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo4 .
+lex:L9305\/Artigo4    lex:temConteudo    "Art. 4° O benefício previsto nesta Lei será reajustado na conformidade com o art. 224 da Lei n° 8.112, de 11 de dezembro de 1990, e seus efeitos financeiros retroagem à data de 24 de outubro de 1995." .
+lex:L9305\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo5 .
+lex:L9305\/Artigo5    lex:temConteudo    "Art. 5° A despesa decorrente desta Lei correrá à conta dos Encargos Gerais da União - Recursos sob a Supervisão do Ministério da Fazenda." .
+lex:L9305\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo6 .
+lex:L9305\/Artigo6    lex:temConteudo    "Art. 6° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9305\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L9305    lex:temArtigo    lex:L9305\/Artigo7 .
+lex:L9305\/Artigo7    lex:temConteudo    "Art. 7° Revogam-se as disposições em contrário." .
+lex:L9305\/Artigo4    lex:remetePara    lex:L8112cons\/Artigo224 .

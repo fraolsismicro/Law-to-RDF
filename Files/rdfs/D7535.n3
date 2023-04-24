@@ -1,0 +1,198 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7535    lex:ehUm    lex:DocLegal .
+lex:D7535    lex:temTextoIntegral    lex:HTMLs\/D7535.htm .
+lex:D7535\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo1 .
+lex:D7535\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído o Programa Nacional de Universalização do Acesso e Uso da Água - ÁGUA PARA TODOS, destinado a promover a universalização do acesso à água em áreas rurais para consumo humano e para a produção agrícola e alimentar, visando ao pleno desenvolvimento humano e à segurança alimentar e nutricional de famílias em situação de vulnerabilidade social." .
+lex:D7535\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo1    lex:temParagrafo    lex:D7535\/Artigo1\/ParagrafoUnico .
+lex:D7535\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Programa ÁGUA PARA TODOS será executado, no que couber, em conformidade com as diretrizes e objetivos do Plano Brasil Sem Miséria, instituído pelo Decreto no 7.492, de 2 de junho de 2011." .
+lex:D7535\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo2 .
+lex:D7535\/Artigo2    lex:temConteudo    "Art. 2o  O Programa ÁGUA PARA TODOS observará as seguintes diretrizes:" .
+lex:D7535\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo2    lex:temInciso    lex:D7535\/Artigo2\/IncisoI .
+lex:D7535\/Artigo2\/IncisoI    lex:temConteudo    "I - priorização da população em situação de extrema pobreza, conforme definido no art. 2o do Decreto no 7.492, de 2011;" .
+lex:D7535\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo2    lex:temInciso    lex:D7535\/Artigo2\/IncisoII .
+lex:D7535\/Artigo2\/IncisoII    lex:temConteudo    "II - fomento à ampliação da utilização de tecnologias, infraestrutura e equipamentos de captação e armazenamento de águas pluviais;" .
+lex:D7535\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo2    lex:temInciso    lex:D7535\/Artigo2\/IncisoIII .
+lex:D7535\/Artigo2\/IncisoIII    lex:temConteudo    "III - fomento à implementação de infraestrutura e equipamentos de captação, reservação, tratamento e distribuição de água, oriunda de corpos dágua, poços ou nascentes e otimização de seu uso; e" .
+lex:D7535\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo2    lex:temInciso    lex:D7535\/Artigo2\/IncisoIV .
+lex:D7535\/Artigo2\/IncisoIV    lex:temConteudo    "IV - articulação das ações promovidas pelos órgãos e instituições federais com atribuições relacionadas às seguintes áreas:" .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca    lex:ehUm    lex:IncisoAlinea .
+lex:D7535\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca    lex:temConteudo    "a) segurança alimentar e nutricional;" .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura    lex:ehUm    lex:IncisoAlinea .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca    lex:temIncisoAlinea    lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura    lex:temConteudo    "b) infraestrutura hídrica e de abastecimento público de água;" .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao    lex:ehUm    lex:IncisoAlinea .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura    lex:temIncisoAlinea    lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao    lex:temConteudo    "c) regulação do uso da água; e" .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao\/IncisoAlineaSaude    lex:ehUm    lex:IncisoAlinea .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao    lex:temIncisoAlinea    lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao\/IncisoAlineaSaude .
+lex:D7535\/Artigo2\/IncisoIV\/IncisoAlineaSeguranca\/IncisoAlineaInfraestrutura\/IncisoAlineaRegulacao\/IncisoAlineaSaude    lex:temConteudo    "d) saúde e meio ambiente." .
+lex:D7535\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo3 .
+lex:D7535\/Artigo3    lex:temConteudo    "Art. 3o  Os Estados e o Distrito Federal poderão participar do Programa ÁGUA PARA TODOS mediante celebração de termo de adesão." .
+lex:D7535\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo3    lex:temParagrafo    lex:D7535\/Artigo3\/Paragrafo1 .
+lex:D7535\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Para a execução do Programa ÁGUA PARA TODOS poderão ser celebrados, ainda, convênios, termos de cooperação, ajustes ou outros instrumentos congêneres, com órgãos ou entidades públicas ou privadas sem fins lucrativos, na forma da legislação vigente." .
+lex:D7535\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo3    lex:temParagrafo    lex:D7535\/Artigo3\/Paragrafo2 .
+lex:D7535\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  A celebração dos instrumentos de colaboração de que trata o § 1o obedecerá a planejamentos plurianuais, bem como a disponibilidade orçamentária e financeira." .
+lex:D7535\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo4 .
+lex:D7535\/Artigo4    lex:temConteudo    "Art. 4o  O Programa ÁGUA PARA TODOS contará com um Comitê Gestor composto pelos representantes dos seguintes Ministérios, na forma a seguir apresentada:" .
+lex:D7535\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoI .
+lex:D7535\/Artigo4\/IncisoI    lex:temConteudo    "I - Ministério da Integração Nacional, pelo titular da Secretaria de Desenvolvimento Regional, que o coordenará;" .
+lex:D7535\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoII .
+lex:D7535\/Artigo4\/IncisoII    lex:temConteudo    "II - Ministério do Desenvolvimento Social e Combate à Fome, pelo titular da Secretaria Nacional de Segurança Alimentar e Nutricional;" .
+lex:D7535\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoIII .
+lex:D7535\/Artigo4\/IncisoIII    lex:temConteudo    "III - Ministério das Cidades, pelo titular da Secretaria Nacional de Saneamento Ambiental;" .
+lex:D7535\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoIV .
+lex:D7535\/Artigo4\/IncisoIV    lex:temConteudo    "IV - Ministério do Meio Ambiente, pelo titular da Secretaria de Recursos Hídricos e Ambiente Urbano; e" .
+lex:D7535\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoV .
+lex:D7535\/Artigo4\/IncisoV    lex:temConteudo    "V - Ministério da Saúde, pelo presidente da Fundação Nacional de Saúde." .
+lex:D7535\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo4 .
+lex:D7535\/Artigo4    lex:temConteudo    "Art. 4 º  O Programa ÁGUA PARA TODOS contará com um Comitê Gestor composto por um representante  titular e um representante suplente, de cada um dos seguintes órgãos e entidades, na forma a seguir apresentada:       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoI .
+lex:D7535\/Artigo4\/IncisoI    lex:temConteudo    "I - Ministério da Integração Nacional, pelo titular da Secretaria de Desenvolvimento Regional, que o coordenará;       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoII .
+lex:D7535\/Artigo4\/IncisoII    lex:temConteudo    "II - Ministério do Desenvolvimento Social e Combate à Fome, pelo titular da Secretaria Nacional de Segurança Alimentar e Nutricional;       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoIII .
+lex:D7535\/Artigo4\/IncisoIII    lex:temConteudo    "III - Ministério das Cidades, pelo titular da Secretaria Nacional de Saneamento Ambiental;       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoIV .
+lex:D7535\/Artigo4\/IncisoIV    lex:temConteudo    "IV - Ministério do Meio Ambiente, pelo titular da Secretaria de Recursos Hídricos e Ambiente Urbano;        (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoV .
+lex:D7535\/Artigo4\/IncisoV    lex:temConteudo    "V - Ministério da Saúde, pelo presidente da Fundação Nacional de Saúde;       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoVI .
+lex:D7535\/Artigo4\/IncisoVI    lex:temConteudo    "VI - Confederação Nacional dos Trabalhadores na Agricultura - Contag, conforme indicação de titular; e       (Incluído pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo4\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo4    lex:temInciso    lex:D7535\/Artigo4\/IncisoVII .
+lex:D7535\/Artigo4\/IncisoVII    lex:temConteudo    "VII - Federação Nacional dos Trabalhadores e Trabalhadoras na Agricultura Familiar -Fetraf-Brasil/CUT, conforme indicação de seu titular.       (Incluído pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo5 .
+lex:D7535\/Artigo5    lex:temConteudo    "Art. 5o  Ao Comitê Gestor do Programa ÁGUA PARA TODOS compete:" .
+lex:D7535\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoI .
+lex:D7535\/Artigo5\/IncisoI    lex:temConteudo    "I - coordenar iniciativas e articular as ações no âmbito do Programa ÁGUA PARA TODOS;" .
+lex:D7535\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoII .
+lex:D7535\/Artigo5\/IncisoII    lex:temConteudo    "II - definir as metas de curto, médio e longo prazo do Programa;" .
+lex:D7535\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoIII .
+lex:D7535\/Artigo5\/IncisoIII    lex:temConteudo    "III - discutir e propor aperfeiçoamentos nos planos operacionais dos órgãos e entidades federais responsáveis pela execução de ações no âmbito do Programa;" .
+lex:D7535\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoIV .
+lex:D7535\/Artigo5\/IncisoIV    lex:temConteudo    "IV - estabelecer metodologia de monitoramento e avaliação da execução do Programa; e" .
+lex:D7535\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoV .
+lex:D7535\/Artigo5\/IncisoV    lex:temConteudo    "V - avaliar resultados e propor medidas de aprimoramento do Programa." .
+lex:D7535\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoIV .
+lex:D7535\/Artigo5\/IncisoIV    lex:temConteudo    "IV - estabelecer metodologia de monitoramento e avaliação da execução do Programa;  (Redação dada pelo Decreto nº 8.219, de 2014)" .
+lex:D7535\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoV .
+lex:D7535\/Artigo5\/IncisoV    lex:temConteudo    "V - avaliar resultados e propor medidas de aprimoramento do Programa; e  (Redação dada pelo Decreto nº 8.219, de 2014)" .
+lex:D7535\/Artigo5\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7535\/Artigo5    lex:temInciso    lex:D7535\/Artigo5\/IncisoVI .
+lex:D7535\/Artigo5\/IncisoVI    lex:temConteudo    "VI - constituir Câmaras Consultivas, em caráter permanente ou temporário, para subsidiar suas decisões, por meio de Resolução do referido Comitê.  (Incluído pelo Decreto nº 8.219, de 2014)" .
+lex:D7535\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo6 .
+lex:D7535\/Artigo6    lex:temConteudo    "Art. 6o  O Programa ÁGUA PARA TODOS contará com um Comitê Operacional composto por um representante titular e um suplente de cada um dos Ministérios que compõem o Comitê Gestor." .
+lex:D7535\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo6 .
+lex:D7535\/Artigo6    lex:temConteudo    "Art. 6 º  O Programa ÁGUA PARA TODOS contará com Comitê Operacional composto por um representante titular e um representante suplente de cada um dos órgãos e entidades que compõem o Comitê Gestor.        (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo6    lex:temParagrafo    lex:D7535\/Artigo6\/Paragrafo1 .
+lex:D7535\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1o  Os representantes do Comitê Operacional serão indicados pelos titulares dos órgãos integrantes do Comitê Gestor e designados pelo titular do Ministério da Integração Nacional." .
+lex:D7535\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo6    lex:temParagrafo    lex:D7535\/Artigo6\/Paragrafo1 .
+lex:D7535\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1o  Os representantes do Comitê Operacional serão indicados pelos titulares dos órgãos e entidades integrantes do Comitê Gestor e designados pelo Ministro de Estado da Integração Nacional.       (Redação dada pelo Decreto nº 8.039, de 2013)" .
+lex:D7535\/Artigo6\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo6    lex:temParagrafo    lex:D7535\/Artigo6\/Paragrafo2 .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temConteudo    "§ 2o  Caberá ao Comitê Operacional:" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoI .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - avaliar e apresentar ao Comitê Gestor propostas dos órgãos e entidades parceiras do Governo Federal no cumprimento das metas do Programa;" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoII .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - avaliar e apresentar ao Comitê Gestor propostas de distribuição territorial das metas necessárias à garantia do acesso à água;" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - avaliar e apresentar ao Comitê Gestor demandas por diagnósticos e estudos que auxiliem o Governo Federal na elaboração de políticas e ações necessárias à oferta de água e atendimento da demanda;" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - avaliar e apresentar ao Comitê Gestor relatórios e informações necessárias ao cumprimento das ações no âmbito do Programa;" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoV .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoV    lex:temConteudo    "V - acompanhar as ações dos órgãos e entidades parceiras do Governo Federal em seus respectivos territórios; e" .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7535\/Artigo6\/Paragrafo2    lex:temParagrafoInciso    lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoVI .
+lex:D7535\/Artigo6\/Paragrafo2\/ParagrafoIncisoVI    lex:temConteudo    "VI - apresentar ao final de cada exercício fiscal, para avaliação e deliberação do Comitê Gestor, o plano de ação integrada para o exercício seguinte, acompanhado de relatório de avaliação e execução das ações desenvolvidas no exercício anterior." .
+lex:D7535\/Artigo6\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo6    lex:temParagrafo    lex:D7535\/Artigo6\/Paragrafo3 .
+lex:D7535\/Artigo6\/Paragrafo3    lex:temConteudo    "§ 3o  A coordenação do Comitê Operacional caberá ao Ministério da Integração Nacional." .
+lex:D7535\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo7 .
+lex:D7535\/Artigo7    lex:temConteudo    "Art. 7o  O apoio administrativo e os meios necessários à execução dos trabalhos do Comitê Gestor e do Comitê Operacional serão prestados pelo Ministério da Integração Nacional." .
+lex:D7535\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo8 .
+lex:D7535\/Artigo8    lex:temConteudo    "Art. 8o  Poderão ser convidados a participar das reuniões do Comitê Gestor e do Comitê Operacional representantes de outros órgãos e entidades da administração pública e da sociedade civil." .
+lex:D7535\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7535\/Artigo8    lex:temParagrafo    lex:D7535\/Artigo8\/ParagrafoUnico .
+lex:D7535\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Poderão compor as Câmaras Consultivas representantes de órgãos e entidades da administração pública e da sociedade civil, conforme dispuser o ato de sua criação. (Incluído pelo Decreto nº 8.219, de 2014)" .
+lex:D7535\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo9 .
+lex:D7535\/Artigo9    lex:temConteudo    "Art. 9 º  A participação no Comitê Gestor, no Comitê Operacional e nas Câmaras Consultivas será considerada prestação de serviço público relevante, não remunerada.  (Redação dada pelo Decreto nº 8.219, de 2014)" .
+lex:D7535\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo10 .
+lex:D7535\/Artigo10    lex:temConteudo    "Art. 10.  A execução das ações do Programa ÁGUA PARA TODOS observará planos anuais de ação integrada que conterão as metas, os recursos e as respectivas ações orçamentárias." .
+lex:D7535\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo11 .
+lex:D7535\/Artigo11    lex:temConteudo    "Art. 11.  As despesas com a execução das ações do Programa ÁGUA PARA TODOS correrão à conta das dotações orçamentárias consignadas aos órgãos e entidades envolvidos na sua implementação, observados os limites de movimentação, empenho e pagamento da programação orçamentária e financeira anual." .
+lex:D7535\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo12 .
+lex:D7535\/Artigo12    lex:temConteudo    "Art. 12.  Para o exercício de 2011, o Comitê Operacional deverá apresentar o plano de ação integrada de que tratam o inciso VI do § 2o do art. 5o, e o art. 9o,  no prazo de trinta dias após sua instalação." .
+lex:D7535\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D7535    lex:temArtigo    lex:D7535\/Artigo13 .
+lex:D7535\/Artigo13    lex:temConteudo    "Art. 13.  Este Decreto entra em vigor na data da sua publicação." .
+lex:D7535\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D7492 .
+lex:D7535\/Artigo2\/IncisoI    lex:remetePara    lex:D7492\/Artigo2 .
+lex:D7535\/Artigo4    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoI    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoII    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoIII    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoIV    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoV    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoVI    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo4\/IncisoVII    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo5\/IncisoIV    lex:remetePara    lex:D8219\/Artigo1 .
+lex:D7535\/Artigo5\/IncisoV    lex:remetePara    lex:D8219\/Artigo1 .
+lex:D7535\/Artigo5\/IncisoVI    lex:remetePara    lex:D8219\/Artigo1 .
+lex:D7535\/Artigo6    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo6\/Paragrafo1    lex:remetePara    lex:D8039 .
+lex:D7535\/Artigo8\/ParagrafoUnico    lex:remetePara    lex:D8219\/Artigo1 .
+lex:D7535\/Artigo9    lex:remetePara    lex:D8219\/Artigo1 .

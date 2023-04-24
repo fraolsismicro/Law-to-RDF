@@ -1,0 +1,244 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7462    lex:ehUm    lex:DocLegal .
+lex:D7462    lex:temTextoIntegral    lex:HTMLs\/D7462.htm .
+lex:D7462\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo1 .
+lex:D7462\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério das Comunicações, na forma dos Anexos I e II." .
+lex:D7462\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo2 .
+lex:D7462\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, e de Natureza Especial:" .
+lex:D7462\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo2    lex:temInciso    lex:D7462\/Artigo2\/IncisoI .
+lex:D7462\/Artigo2\/IncisoI    lex:temConteudo    "I - para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:temConteudo    "a) do Gabinete Pessoal do Presidente da República: um DAS 102.6, quatro DAS 102.5, seis DAS 102.4 e cinco DAS 102.2;" .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "b) da Assessoria Especial do Presidente da República: um DAS 101.6 e um DAS 102.6; e" .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D7462\/Artigo2\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "c) da Casa Civil da Presidência da República: sete DAS 102.5, quatro DAS 102.4, um DAS 102.3 e dois DAS 102.2; e" .
+lex:D7462\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo2    lex:temInciso    lex:D7462\/Artigo2\/IncisoII .
+lex:D7462\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara    lex:temConteudo    "a) para o Ministério das Comunicações: um DAS 101.6, dois DAS 101.5, oito DAS 101.4, quatro DAS 101.3, um DAS 101.1, um DAS 102.4 e dez DAS 102.2;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "b) para o Gabinete Pessoal do Presidente da República: um DAS 101.4 e cinco DAS 102.1;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "c) para a Assessoria Especial do Presidente da República: um cargo de Natureza Especial, um DAS 102.5 e um DAS 102.4;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "d) para a Casa Civil da Presidência da República: três DAS 102.1;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "e) para a Secretaria-Geral da Presidência da República: um DAS 102.6, seis DAS 102.5, quatro DAS 102.4, cinco DAS 102.2 e dois DAS 102.1;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "f) para a Secretaria de Relações Institucionais da Presidência da República: um DAS 102.5;" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "g) para o Ministério da Cultura: um DAS 101.5 e um DAS 101.4; e" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "h) para o Ministério do Planejamento, Orçamento e Gestão: um DAS 101.6, sete DAS 101.5, dez DAS 101.4, dois DAS 102.4, quatro DAS 102.3 e quatro DAS 102.2." .
+lex:D7462\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo4 .
+lex:D7462\/Artigo4    lex:temConteudo    "Art. 4o   O Anexo II do Decreto no 6.188, de 17 de agosto de 2007, passa a vigorar na forma do Anexo V deste Decreto." .
+lex:D7462\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo5 .
+lex:D7462\/Artigo5    lex:temConteudo    "Art. 5o  O Anexo II do Decreto no 4.597, de 17 de fevereiro de 2003, passa a vigorar na forma do Anexo VI deste Decreto." .
+lex:D7462\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo6 .
+lex:D7462\/Artigo6    lex:temConteudo    "Art. 6o  O Anexo II do Decreto no 5.135, de 7 de julho de 2004, passa a vigorar na forma do Anexo VII deste Decreto." .
+lex:D7462\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo7 .
+lex:D7462\/Artigo7    lex:temConteudo    "Art. 7o  O Anexo II do Decreto no 6.378, de 19 de fevereiro de 2008, passa a vigorar na forma do Anexo VIII deste Decreto." .
+lex:D7462\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo8 .
+lex:D7462\/Artigo8    lex:temConteudo    "Art. 8o  O Anexo II do Decreto no 6.207, de 18 de setembro de 2007, passa a vigorar na forma do Anexo IX deste Decreto." .
+lex:D7462\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo10 .
+lex:D7462\/Artigo10    lex:temConteudo    "Art. 10.  O Anexo I do Decreto no 6.188, de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7462\/Artigo10\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo10    lex:temInciso    lex:D7462\/Artigo10\/IncisoVI .
+lex:D7462\/Artigo10\/IncisoVI    lex:temConteudo    "VI - ........................................................................................................." .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo10\/IncisoVI    lex:temIncisoAlinea    lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete    lex:temConteudo    "b) Gabinete Regional de Belo Horizonte;" .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete    lex:temIncisoAlinea    lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete    lex:temConteudo    "c) Gabinete Regional de Porto Alegre;" .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete    lex:temIncisoAlinea    lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria    lex:temConteudo    "d) Diretoria de Gestão Interna; e" .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria\/IncisoAlineaDiretoria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria    lex:temIncisoAlinea    lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria\/IncisoAlineaDiretoria .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria\/IncisoAlineaDiretoria    lex:temConteudo    "e) Diretoria de Documentação Histórica. (NR)" .
+lex:D7462\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo11 .
+lex:D7462\/Artigo11    lex:temConteudo    "Art. 11.  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de sessenta dias, contado da data da publicação deste Decreto." .
+lex:D7462\/Artigo11\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo11    lex:temParagrafo    lex:D7462\/Artigo11\/ParagrafoUnico .
+lex:D7462\/Artigo11\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado das Comunicações fará publicar, no Diário Oficial da União, no prazo de até sessenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D7462\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo12 .
+lex:D7462\/Artigo12    lex:temConteudo    "Art. 12.  O Anexo I do Decreto no 7.063, de 13 de janeiro de 2010, passa a vigorar com as seguintes alterações:   (Revogado pelo Decreto nº 7.470, de 2011)" .
+lex:D7462\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoI .
+lex:D7462\/Artigo12\/IncisoI    lex:temConteudo    "I - .................................................................................................." .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoI    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:temConteudo    "e) Assessoria Extraordinária para a Gestão e o Acompanhamento do Programa de Aceleração do Crescimento;" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:temIncisoAlineaItem    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento    lex:temConteudo    "1. Departamento de Infraestrutura de Logística e de Energia;" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "2. Departamento de Infraestrutura Social; e" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "3. Departamento de Informações;" .
+lex:D7462\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoI .
+lex:D7462\/Artigo12\/IncisoI    lex:temConteudo    "I - subsidiar a definição das metas relativas aos projetos integrantes do Programa de Aceleração do Crescimento;" .
+lex:D7462\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoII .
+lex:D7462\/Artigo12\/IncisoII    lex:temConteudo    "II - monitorar e avaliar os resultados do Programa de Aceleração do Crescimento;" .
+lex:D7462\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoIII .
+lex:D7462\/Artigo12\/IncisoIII    lex:temConteudo    "III - produzir informações gerenciais relativas ao Programa de Aceleração do Crescimento; e" .
+lex:D7462\/Artigo12\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoX .
+lex:D7462\/Artigo12\/IncisoX    lex:temConteudo    "X - coordenar a implementação de espaços públicos destinados a integrar atividades de acesso à cultura e de promoção da cidadania." .
+lex:D7462\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoI .
+lex:D7462\/Artigo12\/IncisoI    lex:temConteudo    "I - Ministério do Planejamento, Orçamento e Gestão, que o coordenará;" .
+lex:D7462\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoI .
+lex:D7462\/Artigo12\/IncisoI    lex:temConteudo    "I - Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoI    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:temConteudo    "a) Assessoria Extraordinária para a Gestão e o Acompanhamento do Programa de Aceleração do Crescimento;" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria    lex:temConteudo    "b) Secretaria de Orçamento Federal; e" .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:temConteudo    "c) Secretaria de Planejamento e Investimentos Estratégicos;" .
+lex:D7462\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoII .
+lex:D7462\/Artigo12\/IncisoII    lex:temConteudo    "II - Casa Civil da Presidência da República: Subchefia de Articulação e Monitoramento; e" .
+lex:D7462\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo12    lex:temInciso    lex:D7462\/Artigo12\/IncisoIII .
+lex:D7462\/Artigo12\/IncisoIII    lex:temConteudo    "III - Ministério da Fazenda:" .
+lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoIII    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria .
+lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria    lex:temConteudo    "a) Secretaria do Tesouro Nacional; e" .
+lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria    lex:temIncisoAlinea    lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria .
+lex:D7462\/Artigo12\/IncisoIII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:temConteudo    "b) Secretaria de Acompanhamento Econômico." .
+lex:D7462\/Artigo12\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo12    lex:temParagrafo    lex:D7462\/Artigo12\/Paragrafo1 .
+lex:D7462\/Artigo12\/Paragrafo1    lex:temConteudo    "§ 1o  Os membros do GEPAC serão designados pelo Ministro de Estado do Planejamento, Orçamento e Gestão, mediante indicação dos respectivos titulares." .
+lex:D7462\/Artigo12\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo12    lex:temParagrafo    lex:D7462\/Artigo12\/Paragrafo2 .
+lex:D7462\/Artigo12\/Paragrafo2    lex:temConteudo    "§ 2o  Cabe à Assessoria Extraordinária para a Gestão e o Acompanhamento do Programa de Aceleração do Crescimento exercer as atividades de Secretaria-Executiva do GEPAC." .
+lex:D7462\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo16 .
+lex:D7462\/Artigo16    lex:temConteudo    "Art. 16.  Os servidores ocupantes dos cargos de que trata o inciso I do art. 2o, na data de publicação deste Decreto, poderão ser nomeados para os cargos de que trata o inciso II do art. 2o, independentemente de processo formal de cessão." .
+lex:D7462\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo16    lex:temParagrafo    lex:D7462\/Artigo16\/Paragrafo1 .
+lex:D7462\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1o  O disposto no caput não se aplica aos servidores cedidos:" .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7462\/Artigo16\/Paragrafo1    lex:temParagrafoInciso    lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoI .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - por outros Poderes da União ou pelo Ministério Público da União;" .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7462\/Artigo16\/Paragrafo1    lex:temParagrafoInciso    lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoII .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - por outros entes federativos; e" .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7462\/Artigo16\/Paragrafo1    lex:temParagrafoInciso    lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D7462\/Artigo16\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - quando a legislação específica do cargo efetivo ocupado pelo servidor vedar a cessão para o órgão ao qual o cargo em comissão tenha sido remanejado." .
+lex:D7462\/Artigo16\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo16    lex:temParagrafo    lex:D7462\/Artigo16\/Paragrafo2 .
+lex:D7462\/Artigo16\/Paragrafo2    lex:temConteudo    "§ 2o  A cessão de que trata o caput não assegura a manutenção integral da estrutura remuneratória do servidor cedido quando normas específicas dispuserem de forma diversa." .
+lex:D7462\/Artigo16\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7462\/Artigo16    lex:temParagrafo    lex:D7462\/Artigo16\/Paragrafo3 .
+lex:D7462\/Artigo16\/Paragrafo3    lex:temConteudo    "§ 3o  O órgão cessionário fica obrigado a comunicar ao órgão cedente sobre a nova situação do servidor no prazo de quinze dias, a contar da data da nomeação." .
+lex:D7462\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo17 .
+lex:D7462\/Artigo17    lex:temConteudo    "Art. 17.  Ficam revogados:" .
+lex:D7462\/Artigo17\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo17    lex:temInciso    lex:D7462\/Artigo17\/IncisoI .
+lex:D7462\/Artigo17\/IncisoI    lex:temConteudo    "I - o Decreto no 5.220, de 30 de setembro de 2004;" .
+lex:D7462\/Artigo17\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo17    lex:temInciso    lex:D7462\/Artigo17\/IncisoII .
+lex:D7462\/Artigo17\/IncisoII    lex:temConteudo    "II - o art. 3o e o Anexo IV do Decreto no 7.411, de 29 de dezembro de 2010;" .
+lex:D7462\/Artigo17\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo17    lex:temInciso    lex:D7462\/Artigo17\/IncisoIII .
+lex:D7462\/Artigo17\/IncisoIII    lex:temConteudo    "III - o parágrafo único do art. 7o e o Anexo do Decreto no 7.175, de 12 de maio de 2010;" .
+lex:D7462\/Artigo17\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo17    lex:temInciso    lex:D7462\/Artigo17\/IncisoIV .
+lex:D7462\/Artigo17\/IncisoIV    lex:temConteudo    "IV - o art. 7o e o Anexo VI do Decreto nº 6.188, de 17 de agosto de 2007; e" .
+lex:D7462\/Artigo17\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7462\/Artigo17    lex:temInciso    lex:D7462\/Artigo17\/IncisoV .
+lex:D7462\/Artigo17\/IncisoV    lex:temConteudo    "V - os arts. 5o e 6o e os Anexos II e III do Decreto no 7.442, de 17 de fevereiro de 2011." .
+lex:D7462\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo18 .
+lex:D7462\/Artigo18    lex:temConteudo    "Art. 18.  Este Decreto entra em vigor no dia 27 de abril de 2011." .
+lex:D7462\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D7462    lex:temArtigo    lex:D7462\/Artigo18 .
+lex:D7462\/Artigo18    lex:temConteudo    "Art. 18.  Este Decreto entra em vigor no dia 5 de maio de 2011. (Redação dada pelo Decreto nº 7.466, de 2011)" .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo3    lex:remetePara    lex:D7063\/ .
+lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo3    lex:revogadoPor    lex:D7470\/Artigo6 .
+lex:D7470\/Artigo6    lex:revogou    lex:D7462\/Artigo2\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo3 .
+lex:D7462\/Artigo4    lex:remetePara    lex:D6188\/ .
+lex:D7462\/Artigo5    lex:remetePara    lex:D4597\/ .
+lex:D7462\/Artigo6    lex:remetePara    lex:D5135\/ .
+lex:D7462\/Artigo7    lex:remetePara    lex:D6378\/ .
+lex:D7462\/Artigo8    lex:remetePara    lex:D6207\/ .
+lex:D7462\/Artigo9    lex:remetePara    lex:D6835\/ .
+lex:D7462\/Artigo9    lex:revogadoPor    lex:D7743\/Artigo7 .
+lex:D7743\/Artigo7    lex:revogou    lex:D7462\/Artigo9 .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete    lex:remetePara    lex:D6188\/anexoiArtigo2 .
+lex:D7462\/Artigo10\/IncisoVI\/IncisoAlineaGabinete\/IncisoAlineaGabinete\/IncisoAlineaDiretoria\/Texto00026    lex:remetePara    lex:D6188\/anexoiArtigo9 .
+lex:D7462\/Artigo12    lex:revogadoPor    lex:D7470\/Artigo6 .
+lex:D7470\/Artigo6    lex:revogou    lex:D7462\/Artigo12 .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria    lex:remetePara    lex:D7063\/Artigo2 .
+lex:D7462\/Artigo12\/IncisoI\/IncisoAlineaAssessoria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/Texto00034    lex:remetePara    lex:D7063\/Artigo10 .
+lex:D7462\/Artigo12\/Artigo13    lex:revogadoPor    lex:D7743\/Artigo7 .
+lex:D7743\/Artigo7    lex:revogou    lex:D7462\/Artigo12\/Artigo13 .
+lex:D7462\/Artigo12\/IncisoX    lex:remetePara    lex:D6835\/anexoiArtigo4 .
+lex:D7462\/Artigo12\/Artigo14    lex:revogadoPor    lex:D7470\/Artigo6 .
+lex:D7470\/Artigo6    lex:revogou    lex:D7462\/Artigo12\/Artigo14 .
+lex:D7462\/Artigo12\/Texto00038    lex:remetePara    lex:D6025\/Artigo3 .
+lex:D7462\/Artigo12\/IncisoIII    lex:remetePara    lex:D6025\/Artigo3 .
+lex:D7462\/Artigo12\/Texto00039    lex:remetePara    lex:D6025\/Artigo4 .
+lex:D7462\/Artigo12\/Paragrafo1    lex:remetePara    lex:D6025\/Artigo4\/Paragrafo1 .
+lex:D7462\/Artigo12\/Texto00049    lex:remetePara    lex:D6025\/Artigo5 .
+lex:D7462\/Artigo12\/Artigo15    lex:remetePara    lex:D4050\/Artigo11 .
+lex:D7462\/Artigo12\/Artigo15    lex:revogadoPor    lex:D7470\/Artigo6 .
+lex:D7470\/Artigo6    lex:revogou    lex:D7462\/Artigo12\/Artigo15 .
+lex:D7462\/Artigo17\/IncisoI    lex:remetePara    lex:D5220 .
+lex:D7462\/Artigo17\/IncisoII    lex:remetePara    lex:D7411\/Artigo3 .
+lex:D7462\/Artigo17\/IncisoII    lex:remetePara    lex:D7411\/ .
+lex:D7462\/Artigo17\/IncisoIII    lex:remetePara    lex:D7175\/Artigo7 .
+lex:D7462\/Artigo17\/IncisoIII    lex:remetePara    lex:D7175\/ .
+lex:D7462\/Artigo17\/IncisoIV    lex:remetePara    lex:D6188\/Artigo7 .
+lex:D7462\/Artigo17\/IncisoIV    lex:remetePara    lex:D6188\/ .
+lex:D7462\/Artigo17\/IncisoV    lex:remetePara    lex:D7442\/Artigo5 .
+lex:D7462\/Artigo17\/IncisoV    lex:remetePara    lex:D7442\/Artigo6 .
+lex:D7462\/Artigo17\/IncisoV    lex:remetePara    lex:D7442\/ .
+lex:D7462\/Artigo17\/IncisoV    lex:remetePara    lex:D7442\/ .
+lex:D7462\/Artigo18    lex:remetePara    lex:D7466\/Artigo1 .

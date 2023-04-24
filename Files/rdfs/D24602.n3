@@ -1,0 +1,102 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D24602    lex:ehUm    lex:DocLegal .
+lex:D24602    lex:temTextoIntegral    lex:HTMLs\/D24602.htm .
+lex:D24602\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo1 .
+lex:D24602\/Artigo1    lex:temConteudo    "Art. 1º Fica proibida a instalação, no país, de fábricas civis destinadas ao fabrico de armas e munições de guerra ." .
+lex:D24602\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D24602\/Artigo1    lex:temParagrafo    lex:D24602\/Artigo1\/ParagrafoUnico .
+lex:D24602\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. É, entretanto, facultativo ao Govêrno conceder autorização, sob as condições :" .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:temConteudo    "a) de ser aceita uma fiscalização permanente nas suas direções administrativas, técnica e industrial, por oficiais do Exército, nomeados pelo Ministro da Guerra, sem onus para a fabrica;" .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:temConteudo    "b) de submeter-se às restrições que o Govêrno Federal julgar conveniente determinar ao comércio de sua produção para o exterior ou interior;" .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe .
+lex:D24602\/Artigo1\/ParagrafoUnico\/AlineaDe    lex:temConteudo    "c) de estabelecer preferência para o Govêrno Federal na aquisição dos seus produtos ." .
+lex:D24602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo2 .
+lex:D24602\/Artigo2    lex:temConteudo    "Art. 2º É absolutamente proibido qualquer fábrica civil fabricar munição de guerra, a não ser no caso previsto no parágrafo único do art.1º ." .
+lex:D24602\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo3 .
+lex:D24602\/Artigo3    lex:temConteudo    "Art. 3º Nenhuma fábrica de produção de cartuchos, munições e armas de caça ou de explosivos poderá se instalar ou funcionar, se existe, sem que haja:" .
+lex:D24602\/Artigo3\/AlineaEm    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo3    lex:temAlinea    lex:D24602\/Artigo3\/AlineaEm .
+lex:D24602\/Artigo3\/AlineaEm    lex:temConteudo    "a) em de tratados com países estrangeiros ou solicitação dos mesmos, a juízo do Govêrno;" .
+lex:D24602\/Artigo3\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo3    lex:temAlinea    lex:D24602\/Artigo3\/AlineaNa .
+lex:D24602\/Artigo3\/AlineaNa    lex:temConteudo    "b) na previsão de acontecimentos anormais que atentem contra a ordem e segurança públicas;" .
+lex:D24602\/Artigo3\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo3    lex:temAlinea    lex:D24602\/Artigo3\/AlineaQuando .
+lex:D24602\/Artigo3\/AlineaQuando    lex:temConteudo    "c) quando razões superiores de ordem econômica, visando a utilização de recursos naturais do país, assim o imponham ." .
+lex:D24602\/Artigo3\/AlineaNome    lex:ehUm    lex:Alinea .
+lex:D24602\/Artigo3    lex:temAlinea    lex:D24602\/Artigo3\/AlineaNome .
+lex:D24602\/Artigo3\/AlineaNome    lex:temConteudo    "a) nome da fábrica; b) firma comercial responsável e; c) situação da fábrica; d) linhas de comunicação e sua natureza, para a capital do Estado em que estiver instalada; e) área, coberta da fabrica; f) número de pavilhões das oficinas; g) natureza da produção; h) volume da produção anual; i) capacidade de produção em oito horas de trabalho; j) número de operários; l) marcas das máquinas das oficinas (fabricantes); m) distancias das máquinas, se por transmissão ou motor conjugado; n) distancias da fábrica com todos os seus pavilhões e depósitos; p) fórmulas de seus produtos com caráter 'secreto'; q) stocks existentes das várias matérias primas, e, também do material produzido; r) sujeitar-se à fiscalização do Ministério da Gueerra, através os seus órgãos técnicos, seja durante a produção ou após sua distribuição ao comércio; s) provado a idoneidade da firma com atestados passados pelas polícias locais; t) provado sua quitação com as Prefeituras locais." .
+lex:D24602\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo4 .
+lex:D24602\/Artigo4    lex:temConteudo    "Art. 4º As declarações acima, obrigatórias no pedido de registro, que a fábrica deverá fazer, são de caráter   secreto   e para uso exclusivo da repartição competente do Ministério da Guerra ." .
+lex:D24602\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo5 .
+lex:D24602\/Artigo5    lex:temConteudo    "Art. 5º Após êsse registro nenhum novo tipo de material poderá ser fabricado sem suas características ou fórmulas se achem devidamente aprovadas e registros no Ministério da Guerra ." .
+lex:D24602\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo6 .
+lex:D24602\/Artigo6    lex:temConteudo    "Art. 6º A fabricação de pólvoras, explosivos e artigos pirotécnicos, atentas as necessidades de fiscalização e os sérios perigos de vida que oferecem, somente poderá ser realizada por fábricas devidamente licenciadas pelo Ministério da Guerra nos têrmos do art. 3º dêste decreto." .
+lex:D24602\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo7 .
+lex:D24602\/Artigo7    lex:temConteudo    "Art. 7º Os oficiais designados fiscais, conforme prescreve o art. 1º, letra a, serão substituídos anualmente, não podendo exceder êsse prazo, para urna mesma fábrica." .
+lex:D24602\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo8 .
+lex:D24602\/Artigo8    lex:temConteudo    "Art. 8º O atual Serviço de Fiscalisação da Importação e despacho de armas, munições, explosivos, etc., a cargo do Ministério da Guerra, passar-se-á a denominar 'Serviço de Fiscalisação da Importação, Depósito e Trânsito de Armas Munições, Explosivos, Produtos químicos agressivos e matérias primas correlatas', e terá as atribuições consignada em suas instruções, com as modificações decorrentes dêste decreto." .
+lex:D24602\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo9 .
+lex:D24602\/Artigo9    lex:temConteudo    "Art. 9º Ficam obrigadas a um registro sumário no Ministério da Guerra tôdas as fábricas existentes ou a se constituírem não compreendidos nos artigos anteriores e todos quantos constituindo firmas comerciais ou não, como as primeiras, necessitem importar, manipular e negociar com os produtos sujeitos a fiscalisação e que serão discriminados nas respectivas instruções." .
+lex:D24602\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo10 .
+lex:D24602\/Artigo10    lex:temConteudo    "Art. 10 O Ministério da Guerra promoverá era caráter de regulamentação a revisão das instruções existentes de forma a permitir unia melhor fiscalisação e manterá as atribuições de 'Controle' das importações de materiais, artefatos e produtos que julgar de necessidade conservar ou incluir em suas novas instruções." .
+lex:D24602\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo11 .
+lex:D24602\/Artigo11    lex:temConteudo    "Art. 11 As fábricas existentes terão o prazo do 90 dias para regularizarem sua situação pelos termos dêste decreto." .
+lex:D24602\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo12 .
+lex:D24602\/Artigo12    lex:temConteudo    "Art. 12.  As violações do Regulamento para Fiscalização de Produtos Controlados ou às suas normas complementares ensejarão ao infrator as seguintes penalidades: (Redação dada pela Lei nº 10.834, de 29.12.2003)" .
+lex:D24602\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D24602\/Artigo12    lex:temInciso    lex:D24602\/Artigo12\/IncisoI .
+lex:D24602\/Artigo12\/IncisoI    lex:temConteudo    "I - advertência;" .
+lex:D24602\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D24602\/Artigo12    lex:temInciso    lex:D24602\/Artigo12\/IncisoII .
+lex:D24602\/Artigo12\/IncisoII    lex:temConteudo    "II - multa simples:" .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:    lex:ehUm    lex:IncisoAlinea .
+lex:D24602\/Artigo12\/IncisoII    lex:temIncisoAlinea    lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima: .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:    lex:temConteudo    "a) mínima: quando forem cometidas até duas infrações simultâneas;" .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:    lex:ehUm    lex:IncisoAlinea .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:    lex:temIncisoAlinea    lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia: .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:    lex:temConteudo    "b) média: quando forem cometidas até três infrações simultâneas; e" .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:\/IncisoAlineaMaxima:    lex:ehUm    lex:IncisoAlinea .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:    lex:temIncisoAlinea    lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:\/IncisoAlineaMaxima: .
+lex:D24602\/Artigo12\/IncisoII\/IncisoAlineaMinima:\/IncisoAlineaMedia:\/IncisoAlineaMaxima:    lex:temConteudo    "c) máxima: quando forem cometidas até cinco infrações simultâneas ou a falta for grave;" .
+lex:D24602\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D24602\/Artigo12    lex:temInciso    lex:D24602\/Artigo12\/IncisoIII .
+lex:D24602\/Artigo12\/IncisoIII    lex:temConteudo    "III - multa pré-interditória: quando cometidas mais de cinco infrações, no período de dois anos, ou mais de uma falta grave simultaneamente;" .
+lex:D24602\/Artigo12\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D24602\/Artigo12    lex:temInciso    lex:D24602\/Artigo12\/IncisoIV .
+lex:D24602\/Artigo12\/IncisoIV    lex:temConteudo    "IV - interdição; e" .
+lex:D24602\/Artigo12\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D24602\/Artigo12    lex:temInciso    lex:D24602\/Artigo12\/IncisoV .
+lex:D24602\/Artigo12\/IncisoV    lex:temConteudo    "V - cassação." .
+lex:D24602\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo13 .
+lex:D24602\/Artigo13    lex:temConteudo    "Art. 13 O ministro da Guerra regulamentará também as disposições do § do único do art.1º." .
+lex:D24602\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D24602    lex:temArtigo    lex:D24602\/Artigo14 .
+lex:D24602\/Artigo14    lex:temConteudo    "Art. 14 Revogam-se as disposições em contrário." .
+lex:D24602\/Texto    lex:remetePara    lex:Dnn9050\/Artigo1 .
+lex:D24602\/Artigo12    lex:remetePara    lex:L10834\/Artigo6 .

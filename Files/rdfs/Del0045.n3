@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0045    lex:ehUm    lex:DocLegal .
+lex:Del0045    lex:temTextoIntegral    lex:HTMLs\/Del0045.htm .
+lex:Del0045\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0045    lex:temArtigo    lex:Del0045\/Artigo1 .
+lex:Del0045\/Artigo1    lex:temConteudo    "Art 1º A Agência Especial de Financiamento Industrial - FINAME, criada pelo Decreto nº 59.170, de 2 de setembro de 1966, cujos têrmos ficam fazendo parte integrante dêste Decreto-lei, no que por êle não é modificado, é dotada de personalidade jurídica própria, desenvolvendo as suas atividades com a colaboração do Banco Nacional do Desenvolvimento Econômico, na forma da legislação em vigor." .
+lex:Del0045\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0045    lex:temArtigo    lex:Del0045\/Artigo2 .
+lex:Del0045\/Artigo2    lex:temConteudo    "Art 2º Ao Presidente da Junta de Administração do FINAME, ou a quem suas funções estiver exercendo, caberá o exercício do direito de veto, com recurso ao plenário do órgão para o Conselho de Administração do BNDE, que decidirá em última instância." .
+lex:Del0045\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0045    lex:temArtigo    lex:Del0045\/Artigo3 .
+lex:Del0045\/Artigo3    lex:temConteudo    "Art 3º Fica o Banco Nacional do Desenvolvimento Econômico autorizado a realizar operações financeiras relacionadas com o desenvolvimento da economia nacional, quer diretamente, quer através de emprêsas subsidiárias, ouvido o Conselho Monetário Nacional, no tocante às modalidades de operação e setores de aplicação não especificados nas Leis 1.628, de 20.6.1952, 2.973, de 26 de novembro de 1956, e 4.457, de 6 de novembro de 1964." .
+lex:Del0045\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0045\/Artigo3    lex:temParagrafo    lex:Del0045\/Artigo3\/ParagrafoUnico .
+lex:Del0045\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os níveis de alçada decisória dos órgãos do BNDE, previstos na Lei 1.628, de 20.6.1952, serão atualizados anualmente, de conformidade com os coeficientes de reavaliação dos ativos imobilizados das emprêsas, calculados pelo Conselho Nacional de Economia." .
+lex:Del0045\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0045    lex:temArtigo    lex:Del0045\/Artigo4 .
+lex:Del0045\/Artigo4    lex:temConteudo    "Art 4º No prazo máximo de 90 dias, o Banco Nacional do Desenvolvimento Econômico criará uma sociedade anônima de economia mista, da qual terá obrigatoriamente o contrôle acionário, para suceder à Agência Especial de Financiamento Industrial - FINAME, cujo ativo e passivo a nova entidade incorporará." .
+lex:Del0045\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0045\/Artigo4    lex:temParagrafo    lex:Del0045\/Artigo4\/Paragrafo1 .
+lex:Del0045\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º A Sociedade a ser criada gozará de condição de capital aberto e equiparar-se-á, para os efeitos do artigo 50 da Lei nº 4.595, de 31 de dezembro de 1964, às sociedades de economia mista nela, mencionadas." .
+lex:Del0045\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0045\/Artigo4    lex:temParagrafo    lex:Del0045\/Artigo4\/Paragrafo2 .
+lex:Del0045\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º A criação dessa Sociedade será feita por Resolução do Conselho de Administração do BNDE, por proposta do seu Presidente, ouvido sôbre os respectivos Estatutos, a serem adotados, o Conselho Monetário Nacional." .
+lex:Del0045\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0045    lex:temArtigo    lex:Del0045\/Artigo5 .
+lex:Del0045\/Artigo5    lex:temConteudo    "Art 5º O presente Decreto-lei entrará em vigor na data de sua publicação, ficando revogadas as disposições em contrário." .
+lex:Del0045\/Artigo1    lex:remetePara    lex:D59170 .
+lex:Del0045\/Artigo3    lex:remetePara    lex:L1628 .
+lex:Del0045\/Artigo3    lex:remetePara    lex:L2973 .
+lex:Del0045\/Artigo3    lex:remetePara    lex:L4457 .
+lex:Del0045\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L1628 .
+lex:Del0045\/Artigo4\/Paragrafo1    lex:remetePara    lex:L4595\/Artigo50 .

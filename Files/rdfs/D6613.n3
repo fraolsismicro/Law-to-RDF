@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6613    lex:ehUm    lex:DocLegal .
+lex:D6613    lex:temTextoIntegral    lex:HTMLs\/D6613.htm .
+lex:D6613\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6613    lex:temArtigo    lex:D6613\/Artigo1 .
+lex:D6613\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 15 e 25 do Decreto no 6.306, de 14 de dezembro de 2007, passam a vigorar com a seguinte redação:" .
+lex:D6613\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6613\/Artigo1    lex:temParagrafo    lex:D6613\/Artigo1\/Paragrafo1 .
+lex:D6613\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  .................................................................................." .
+lex:D6613\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6613\/Artigo1    lex:temParagrafo    lex:D6613\/Artigo1\/Paragrafo2 .
+lex:D6613\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  Aplica-se o disposto neste artigo a qualquer operação, independentemente da qualidade ou da forma jurídica de constituição do beneficiário da operação ou do seu titular, estando abrangidos, entre outros, fundos de investimentos e carteiras de títulos e valores mobiliários, fundos ou programas, ainda que sem personalidade jurídica, e entidades de previdência privada. (NR)" .
+lex:D6613\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6613    lex:temArtigo    lex:D6613\/Artigo2 .
+lex:D6613\/Artigo2    lex:temConteudo    "Art. 2o   Ficam revogados os incisos IX, XI e XIII do § 1º do art. 15 do Decreto nº 6.306, de 14 de dezembro de 2007." .
+lex:D6613\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6613    lex:temArtigo    lex:D6613\/Artigo3 .
+lex:D6613\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6613\/Artigo1    lex:remetePara    lex:D6306 .
+lex:D6613\/Artigo1    lex:remetePara    lex:D6306 .
+lex:D6613\/Texto00001    lex:revogadoPor    lex:D7412\/Artigo4 .
+lex:D7412\/Artigo4    lex:revogou    lex:D6613\/Texto00001 .
+lex:D6613\/Artigo1\/IncisoX    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1x .
+lex:D6613\/Artigo1\/IncisoXII    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xii .
+lex:D6613\/Artigo1\/IncisoXVII    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xvii .
+lex:D6613\/Artigo1\/IncisoXIX    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xix .
+lex:D6613\/Artigo1\/IncisoXX    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xx .
+lex:D6613\/Artigo1\/Paragrafo2    lex:remetePara    lex:D6306\/Artigo25\/Paragrafo2 .
+lex:D6613\/Artigo2    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1ix .
+lex:D6613\/Artigo2    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xi .
+lex:D6613\/Artigo2    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xiii .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp103    lex:ehUm    lex:DocLegal .
+lex:Lcp103    lex:temTextoIntegral    lex:HTMLs\/Lcp103.htm .
+lex:Lcp103\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp103    lex:temArtigo    lex:Lcp103\/Artigo1 .
+lex:Lcp103\/Artigo1    lex:temConteudo    "Art. 1o Os Estados e o Distrito Federal ficam autorizados a instituir, mediante lei de iniciativa do Poder Executivo, o piso salarial de que trata o inciso V do art. 7o da Constituição Federal para os empregados que não tenham piso salarial definido em lei federal, convenção ou acordo coletivo de trabalho." .
+lex:Lcp103\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp103\/Artigo1    lex:temParagrafo    lex:Lcp103\/Artigo1\/Paragrafo1 .
+lex:Lcp103\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o A autorização de que trata este artigo não poderá ser exercida:" .
+lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:Lcp103\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I   no segundo semestre do ano em que se verificar eleição para os cargos de Governador dos Estados e do Distrito Federal e de Deputados Estaduais e Distritais;" .
+lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:Lcp103\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:Lcp103\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II   em relação à remuneração de servidores públicos municipais." .
+lex:Lcp103\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp103\/Artigo1    lex:temParagrafo    lex:Lcp103\/Artigo1\/Paragrafo2 .
+lex:Lcp103\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o O piso salarial a que se refere o caput poderá ser estendido aos empregados domésticos." .
+lex:Lcp103\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp103    lex:temArtigo    lex:Lcp103\/Artigo2 .
+lex:Lcp103\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp103\/Artigo1    lex:remetePara    lex:Constituicao\/Artigo7 .

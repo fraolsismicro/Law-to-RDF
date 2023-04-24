@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7278    lex:ehUm    lex:DocLegal .
+lex:D7278    lex:temTextoIntegral    lex:HTMLs\/D7278.htm .
+lex:D7278\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7278    lex:temArtigo    lex:D7278\/Artigo1 .
+lex:D7278\/Artigo1    lex:temConteudo    "Art. 1o  Fica o Conselho de Administração do Banco Nacional de Desenvolvimento Econômico e Social - BNDES autorizado a declarar:" .
+lex:D7278\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7278\/Artigo1    lex:temInciso    lex:D7278\/Artigo1\/IncisoI .
+lex:D7278\/Artigo1\/IncisoI    lex:temConteudo    "I - dividendos intermediários à conta do lucro líquido apurado no balanço encerrado em 30 de junho de 2010; e" .
+lex:D7278\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7278\/Artigo1    lex:temInciso    lex:D7278\/Artigo1\/IncisoII .
+lex:D7278\/Artigo1\/IncisoII    lex:temConteudo    "II - dividendos complementares à conta da Reserva de Lucros para Futuro Aumento de Capital, relativamente ao saldo existente no balanço levantado em 31 de dezembro de 2009." .
+lex:D7278\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7278    lex:temArtigo    lex:D7278\/Artigo2 .
+lex:D7278\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data da sua publicação." .

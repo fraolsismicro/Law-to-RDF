@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5362    lex:ehUm    lex:DocLegal .
+lex:D5362    lex:temTextoIntegral    lex:HTMLs\/D5362.htm .
+lex:D5362\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5362    lex:temArtigo    lex:D5362\/Artigo1 .
+lex:D5362\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, na forma deste artigo e do Anexo I a este Decreto, os seguintes Cargos em Comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D5362\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5362\/Artigo1    lex:temInciso    lex:D5362\/Artigo1\/IncisoI .
+lex:D5362\/Artigo1\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Justiça: dois DAS 101.4; quatro DAS 101.2; quatro DAS 101.1; dois DAS 102.5; um DAS 102.3; quatro DAS 102.1 e sete FG-3; e" .
+lex:D5362\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5362\/Artigo1    lex:temInciso    lex:D5362\/Artigo1\/IncisoII .
+lex:D5362\/Artigo1\/IncisoII    lex:temConteudo    "II - do Ministério da Justiça para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão: dois DAS 101.5; dois DAS 102.4 e quatro DAS 102.2." .
+lex:D5362\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5362    lex:temArtigo    lex:D5362\/Artigo3 .
+lex:D5362\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5362\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5362    lex:temArtigo    lex:D5362\/Artigo4 .
+lex:D5362\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Decreto no 5.065, de 3 de maio de 2004." .
+lex:D5362\/Artigo4\/Alinea    lex:ehUm    lex:Alinea .
+lex:D5362\/Artigo4    lex:temAlinea    lex:D5362\/Artigo4\/Alinea .
+lex:D5362\/Artigo4\/Alinea    lex:temConteudo    "a)  QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA JUSTIÇA." .
+lex:D5362\/Artigo4\/Alinea    lex:ehUm    lex:Alinea .
+lex:D5362\/Artigo4    lex:temAlinea    lex:D5362\/Artigo4\/Alinea .
+lex:D5362\/Artigo4\/Alinea    lex:temConteudo    "b)  QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA JUSTIÇA." .
+lex:D5362\/Artigo1\/Artigo2    lex:remetePara    lex:D4991\/ .
+lex:D5362\/Artigo4    lex:revogadoPor    lex:D5065 .
+lex:D5065    lex:revogou    lex:D5362\/Artigo4 .

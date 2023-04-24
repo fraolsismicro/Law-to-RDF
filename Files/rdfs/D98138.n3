@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98138    lex:ehUm    lex:DocLegal .
+lex:D98138    lex:temTextoIntegral    lex:HTMLs\/D98138.htm .
+lex:D98138\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98138    lex:temArtigo    lex:D98138\/Artigo1 .
+lex:D98138\/Artigo1    lex:temConteudo    "Art. 1° O § 1° do art. 1° do Decreto n° 97.814, de 6 de junho de 1989, passa a vigorar com a seguinte redação:" .
+lex:D98138\/Artigo1\/AlineaIndependam    lex:ehUm    lex:Alinea .
+lex:D98138\/Artigo1    lex:temAlinea    lex:D98138\/Artigo1\/AlineaIndependam .
+lex:D98138\/Artigo1\/AlineaIndependam    lex:temConteudo    "a) independam de aportes do Tesouro Nacional;" .
+lex:D98138\/Artigo1\/AlineaTenham    lex:ehUm    lex:Alinea .
+lex:D98138\/Artigo1    lex:temAlinea    lex:D98138\/Artigo1\/AlineaTenham .
+lex:D98138\/Artigo1\/AlineaTenham    lex:temConteudo    "b) tenham efetivamente asseguradas as fontes dos recursos necessários;" .
+lex:D98138\/Artigo1\/AlineaEstejam    lex:ehUm    lex:Alinea .
+lex:D98138\/Artigo1    lex:temAlinea    lex:D98138\/Artigo1\/AlineaEstejam .
+lex:D98138\/Artigo1\/AlineaEstejam    lex:temConteudo    "c) estejam incluídos e aprovados no Orçamento de Investimento e no Programa de Dispêndios Globais da empresa.'" .
+lex:D98138\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98138    lex:temArtigo    lex:D98138\/Artigo2 .
+lex:D98138\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D98138\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98138    lex:temArtigo    lex:D98138\/Artigo3 .
+lex:D98138\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .

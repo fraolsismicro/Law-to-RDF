@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4971    lex:ehUm    lex:DocLegal .
+lex:D4971    lex:temTextoIntegral    lex:HTMLs\/D4971.htm .
+lex:D4971\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoI .
+lex:D4971\/IncisoI    lex:temConteudo    "I - o Ministro de Estado da Integração Nacional, que o presidirá;" .
+lex:D4971\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoII .
+lex:D4971\/IncisoII    lex:temConteudo    "II - um representante e respectivo suplente de cada um dos seguintes Ministérios:" .
+lex:D4971\/IncisoII\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa .
+lex:D4971\/IncisoII\/IncisoAlineaDa    lex:temConteudo    "a) da Agricultura, Pecuária e Abastecimento;" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "b) do Desenvolvimento Agrário;" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do Desenvolvimento, Indústria e Comércio Exterior;" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "d) da Fazenda;" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "e) do Meio Ambiente;" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "f) do Planejamento, Orçamento e Gestão; e" .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4971\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "g) do Turismo;" .
+lex:D4971\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoIII .
+lex:D4971\/IncisoIII    lex:temConteudo    "III - um representante e respectivo suplente da Secretaria Especial de Aqüicultura e Pesca da Presidência da República;" .
+lex:D4971\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoIV .
+lex:D4971\/IncisoIV    lex:temConteudo    "IV - um representante e respectivo suplente do Governo de cada uma das Unidades Federativas situadas na área de atuação do Fundo Constitucional de Financiamento do Centro-Oeste;" .
+lex:D4971\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoV .
+lex:D4971\/IncisoV    lex:temConteudo    "V - um representante e respectivo suplente do Banco do Brasil S.A.;" .
+lex:D4971\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoVI .
+lex:D4971\/IncisoVI    lex:temConteudo    "VI - um representante e respectivo suplente das Federações da Agricultura, do Comércio ou Indústria, com sede nas Unidades Federativas que integram a Região Centro-Oeste; e" .
+lex:D4971\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D4971    lex:temInciso    lex:D4971\/IncisoVII .
+lex:D4971\/IncisoVII    lex:temConteudo    "VII - um representante e respectivo suplente das Federações de Trabalhadores na Agricultura, no Comércio ou na Indústria situadas na área de atuação do Fundo Constitucional de Financiamento do Centro-Oeste." .
+lex:D4971\/Artigo1    lex:remetePara    lex:L7827\/Artigo14 .
+lex:D4971\/Artigo7    lex:remetePara    lex:D4603 .

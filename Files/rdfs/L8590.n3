@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8590    lex:ehUm    lex:DocLegal .
+lex:L8590    lex:temTextoIntegral    lex:HTMLs\/L8590.htm .
+lex:L8590\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo1 .
+lex:L8590\/Artigo1    lex:temConteudo    "Art. 1° É: o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei n° 8.409, de 28 de fevereiro de 1992), em favor do extinto Ministério da Agricultura e Reforma Agrária crédito suplementar no valor de Cr$ 138.265.840.000,00 (cento e trinta e oito bilhões, duzentos e sessenta e cinco milhões e oitocentos e quarenta mil cruzeiros), para atender à programação de despesas do Ministério da Agricultura, do Abastecimento e da Reforma Agrária no valor de Cr$ 29.401.781.000,00 (vinte e nove bilhões, quatrocentos e um milhões e setecentos e oitenta e um mil cruzeiros) e do Ministério da Integração Regional no valor de Cr$ 108.864.059.000,00 (cento e oito bilhões, oitocentos e sessenta e quatro milhões e cinqüenta e nove mil cruzeiros), conforme programação constante do Anexo I desta Lei." .
+lex:L8590\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8590\/Artigo1    lex:temParagrafo    lex:L8590\/Artigo1\/ParagrafoUnico .
+lex:L8590\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A este crédito suplementar aplica-se o disposto no art. 26 da Lei n° 8.490, de 19 de novembro de 1992." .
+lex:L8590\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo2 .
+lex:L8590\/Artigo2    lex:temConteudo    "Art. 2° Os recursos necessários à execução do disposto no artigo anterior decorrerão de anulação de dotações orçamentárias indicadas no Anexo II desta Lei, nos montantes especificados." .
+lex:L8590\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo3 .
+lex:L8590\/Artigo3    lex:temConteudo    "Art. 3° É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União, em favor do extinto Ministério da Agricultura e Reforma Agrária, crédito especial até o limite de Cr$ 409.432.767.000,00 (quatrocentos e nove bilhões, quatrocentos e trinta e dois milhões, setecentos e sessenta e sete mil cruzeiros) para atender à programação de despesa do Ministério da Agricultura, do Abastecimento e da Reforma Agrária, constante do Anexo III desta Lei." .
+lex:L8590\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8590\/Artigo3    lex:temParagrafo    lex:L8590\/Artigo3\/ParagrafoUnico .
+lex:L8590\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A este crédito especial aplica-se o disposto no art. 26 da Lei n° 8.490, de 19 de novembro de 1992." .
+lex:L8590\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo4 .
+lex:L8590\/Artigo4    lex:temConteudo    "Art. 4° Os recursos necessários à execução do disposto no artigo anterior decorrerão de anulação de dotações orçamentárias indicadas no Anexo IV desta Lei, nos montantes especificados." .
+lex:L8590\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo5 .
+lex:L8590\/Artigo5    lex:temConteudo    "Art. 5° Em decorrência do disposto nos arts. 1° e 3°, é o Poder Executivo autorizado a alterar o Orçamento de Investimento da União, de conformidade com os Anexos V, VI, VII, VIII e IX e o Orçamento Fiscal da União, na forma dos Anexos X, XI e XII desta Lei." .
+lex:L8590\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8590    lex:temArtigo    lex:L8590\/Artigo6 .
+lex:L8590\/Artigo6    lex:temConteudo    "Art. 6° Esta Lei entra em vigor na data de sua publicação." .
+lex:L8590\/Artigo1    lex:remetePara    lex:L8409 .
+lex:L8590\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8490\/Artigo26 .
+lex:L8590\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L8490\/Artigo26 .

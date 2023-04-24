@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7299    lex:ehUm    lex:DocLegal .
+lex:D7299    lex:temTextoIntegral    lex:HTMLs\/D7299.htm .
+lex:D7299\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D7299    lex:temInciso    lex:D7299\/IncisoD .
+lex:D7299\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D7299\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7299    lex:temArtigo    lex:D7299\/Artigo1 .
+lex:D7299\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 4o e 16 do Anexo I ao Decreto no 5.751, de 12 de abril de 2006, passam a vigorar com as seguintes alterações:" .
+lex:D7299\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7299\/Artigo1    lex:temInciso    lex:D7299\/Artigo1\/IncisoIII .
+lex:D7299\/Artigo1\/IncisoIII    lex:temConteudo    "III - ..............................................................................." .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro    lex:ehUm    lex:IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro    lex:temConteudo    "c) Centro de Inteligência do Exército;" .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral    lex:ehUm    lex:IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro    lex:temIncisoAlinea    lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral    lex:temConteudo    "d) Secretaria-Geral do Exército; e" .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCentro    lex:ehUm    lex:IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral    lex:temIncisoAlinea    lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCentro .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCentro    lex:temConteudo    "e) Centro de Controle Interno do Exército;" .
+lex:D7299\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7299\/Artigo1    lex:temInciso    lex:D7299\/Artigo1\/IncisoIV .
+lex:D7299\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ................................................................................" .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea    lex:temConteudo    "a) ..................................................................................." .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temConteudo    "5. Diretoria de Civis, Inativos, Pensionistas e Assistência Social; e" .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria    lex:temConteudo    "6. Diretoria de Saúde;" .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria\/IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemDiretoria\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea    lex:temIncisoAlinea    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "e) ..................................................................................." .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temConteudo    "3. Diretoria de Gestão Orçamentária;" .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro    lex:temConteudo    "4. Centro de Pagamento do Exército; e" .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro\/IncisoAlineaItemInspetorias    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro    lex:temIncisoAlineaItem    lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro\/IncisoAlineaItemInspetorias .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItemCentro\/IncisoAlineaItemInspetorias    lex:temConteudo    "5. Inspetorias de Contabilidade e Finanças do Exército;" .
+lex:D7299\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7299\/Artigo1    lex:temInciso    lex:D7299\/Artigo1\/IncisoI .
+lex:D7299\/Artigo1\/IncisoI    lex:temConteudo    "I - superintender e realizar as atividades de planejamento, acompanhamento e execução orçamentária, administração financeira e contabilidade, relativas aos recursos de qualquer natureza alocados ao Comando do Exército;" .
+lex:D7299\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7299\/Artigo1    lex:temInciso    lex:D7299\/Artigo1\/IncisoIV .
+lex:D7299\/Artigo1\/IncisoIV    lex:temConteudo    "IV - administrar o Fundo do Exército; e" .
+lex:D7299\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7299\/Artigo1    lex:temParagrafo    lex:D7299\/Artigo1\/ParagrafoUnico .
+lex:D7299\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Centro de Controle Interno do Exército, como unidade de controle interno do Comando do Exército, fica sujeito à orientação normativa da Secretaria de Controle Interno do Ministério da Defesa. (NR) Revogado pelo Decreto nº 7.809, de 2012" .
+lex:D7299\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7299    lex:temArtigo    lex:D7299\/Artigo3 .
+lex:D7299\/Artigo3    lex:temConteudo    "Art. 3o  O Comandante do Exército baixará os atos complementares necessários à execução do disposto neste Decreto." .
+lex:D7299\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7299    lex:temArtigo    lex:D7299\/Artigo4 .
+lex:D7299\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7299\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7299    lex:temArtigo    lex:D7299\/Artigo5 .
+lex:D7299\/Artigo5    lex:temConteudo    "Art. 5o  Ficam revogados o item 7 da alínea a e o item 6 da alínea e, ambos do inciso IV do art. 4o do Anexo I ao Decreto no 5.751, de 12 de abril de 2006, e o Decreto no 6.389, de 6 de março de 2008." .
+lex:D7299\/Artigo1    lex:remetePara    lex:D5751 .
+lex:D7299\/Artigo1\/IncisoIII\/IncisoAlineaCentro    lex:remetePara    lex:D5751\/Artigo4 .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:remetePara    lex:D5751\/Artigo4iva5 .
+lex:D7299\/Artigo1\/IncisoIV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:remetePara    lex:D5751\/Artigo4ive3 .
+lex:D7299\/Artigo1\/IncisoI    lex:remetePara    lex:D5751\/Artigo16 .
+lex:D7299\/Artigo1\/IncisoIV    lex:remetePara    lex:D5751\/Artigo16 .
+lex:D7299\/Artigo1\/Artigo2    lex:remetePara    lex:D7809 .
+lex:D7299\/Artigo1\/Artigo2    lex:revogadoPor    lex:D7809\/Artigo8 .
+lex:D7809\/Artigo8    lex:revogou    lex:D7299\/Artigo1\/Artigo2 .
+lex:D7299\/Artigo1\/Texto00019    lex:remetePara    lex:D5751\/Artigo11 .
+lex:D7299\/Artigo1\/ParagrafoUnico    lex:revogadoPor    lex:D7809\/Artigo8 .
+lex:D7809\/Artigo8    lex:revogou    lex:D7299\/Artigo1\/ParagrafoUnico .
+lex:D7299\/Artigo5    lex:remetePara    lex:D5751\/Artigo4iva7 .
+lex:D7299\/Artigo5    lex:remetePara    lex:D5751\/Artigo4ive6 .
+lex:D7299\/Artigo5    lex:remetePara    lex:D6389 .

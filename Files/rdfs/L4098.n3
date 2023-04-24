@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4098    lex:ehUm    lex:DocLegal .
+lex:L4098    lex:temTextoIntegral    lex:HTMLs\/L4098.htm .
+lex:L4098\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4098    lex:temArtigo    lex:L4098\/Artigo1 .
+lex:L4098\/Artigo1    lex:temConteudo    "Art. 1º Ficam dispensados da inspeção médica periódica de que cogita o art. 2º da Lei nº 1.050, de 3 de janeiro de 1950, os funcionários públicos aposentados que contem 60 anos de idade ou mais de 30 anos de serviço, incluído o período de inatividade." .
+lex:L4098\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4098\/Artigo1    lex:temParagrafo    lex:L4098\/Artigo1\/ParagrafoUnico .
+lex:L4098\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. De inspeção médica ficam também dispensados, em idênticas condições, os aposentados pelos Institutos e Caixas de Aposentadorias e Pensões." .
+lex:L4098\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4098    lex:temArtigo    lex:L4098\/Artigo2 .
+lex:L4098\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4098\/Artigo1    lex:remetePara    lex:L1050\/ART2 .

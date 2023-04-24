@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6383    lex:ehUm    lex:DocLegal .
+lex:D6383    lex:temTextoIntegral    lex:HTMLs\/D6383.htm .
+lex:D6383\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6383    lex:temArtigo    lex:D6383\/Artigo1 .
+lex:D6383\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 29 e 41 do Regulamento do Fundo de Desenvolvimento do Nordeste - FDNE, aprovado pelo Decreto no 4.253, de 31 de maio de 2002, passam a vigorar com a seguinte redação:" .
+lex:D6383\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6383\/Artigo1    lex:temParagrafo    lex:D6383\/Artigo1\/Paragrafo1 .
+lex:D6383\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  .............................................................................." .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6383\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:temConteudo    "XVI - certidão do registro de imóveis comprovando a incorporação do direito de propriedade da área onde se localizará o projeto ao patrimônio da interessada; ou documento de compromisso de reserva da área devidamente averbado no registro de imóveis competente, quando a lavratura dos atos de transferência de propriedade estiver condicionada à execução do projeto, ressalvados os projetos sob regime de concessão, autorização ou permissão;" .
+lex:D6383\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6383\/Artigo1    lex:temParagrafo    lex:D6383\/Artigo1\/Paragrafo1 .
+lex:D6383\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ..............................................................................." .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6383\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - as informações referentes aos comprovantes de despesas relativos ao empreendimento estiverem relacionadas para consulta pública no sítio do agente operador na rede mundial de computadores, com possibilidades de recuperação por prestação de contas, nome, CPF/CNPJ, data, valor e tipo;" .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6383\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - a regularidade da situação cadastral dos emitentes dos documentos de que trata o inciso II for verificada pelo agente operador junto à Secretaria da Receita Federal do Brasil - RFB." .
+lex:D6383\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6383\/Artigo1    lex:temParagrafo    lex:D6383\/Artigo1\/Paragrafo3 .
+lex:D6383\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  ................................................................................" .
+lex:D6383\/Artigo1\/Paragrafo3\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6383\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D6383\/Artigo1\/Paragrafo3\/ParagrafoIncisoVI .
+lex:D6383\/Artigo1\/Paragrafo3\/ParagrafoIncisoVI    lex:temConteudo    "VI - que não atendam ao disposto nos incisos II e VIII do § 1o;" .
+lex:D6383\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6383    lex:temArtigo    lex:D6383\/Artigo2 .
+lex:D6383\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6383\/Texto    lex:remetePara    lex:D6383 .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:remetePara    lex:D4253\/Artigo29\/Paragrafo1xvi .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:remetePara    lex:D4253\/Artigo41\/Paragrafo1ii .
+lex:D6383\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII    lex:remetePara    lex:D4253\/Artigo41\/Paragrafo1viii .
+lex:D6383\/Artigo1\/Paragrafo3\/ParagrafoIncisoVI    lex:remetePara    lex:D4253\/Artigo41\/Paragrafo3vi .

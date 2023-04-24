@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D90875    lex:ehUm    lex:DocLegal .
+lex:D90875    lex:temTextoIntegral    lex:HTMLs\/D90875.htm .
+lex:D90875\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo1 .
+lex:D90875\/Artigo1    lex:temConteudo    "Art 1º Fica incluída no Grupo-outras Atividades de Nível Superior, estruturado pelo Decreto nº 72.493, de 19 de julho de 1973, com as alterações posteriores, a Categoria Funcional de Biomédico, código NS-942 ou LT-NS-942." .
+lex:D90875\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D90875\/Artigo1    lex:temParagrafo    lex:D90875\/Artigo1\/ParagrafoUnico .
+lex:D90875\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A categoria funcional de que trata este artigo compreende atividades de nível superior, de natureza especializada, envolvendo supervisão, coordenação, programação ou execução em grau de maior complexidade podendo atuar em equipes de saúde, a nível tecnológico; nas atividades complementares de diagnósticos; e nas de natureza laboratoriais que apóiam a profissão médica." .
+lex:D90875\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo2 .
+lex:D90875\/Artigo2    lex:temConteudo    "Art 2º As Classes integrantes da categoria funcional prevista no artigo anterior distribuir-se-ão na forma do anexo deste decreto." .
+lex:D90875\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo3 .
+lex:D90875\/Artigo3    lex:temConteudo    "Art 3º O ingresso na categoria funcional far-se-á na classe inicial, mediante concurso público de provas, no regime da legislação trabalhista, exigindo-se dos candidatos, no ato da inscrição, diploma de curso superior de Ciências Biológicas, modalidade médica ou habilitação legal equivalente e registro no Conselho Regional respectivo." .
+lex:D90875\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo4 .
+lex:D90875\/Artigo4    lex:temConteudo    "Art 4º Os integrantes da Categoria Funcional de Biomédico ficarão sujeitos à prestação mínima de 40 (quarenta) horas semanais de trabalho." .
+lex:D90875\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo5 .
+lex:D90875\/Artigo5    lex:temConteudo    "Art 5º Na aplicação do disposto neste decreto serão observadas, no que couber, as normas constantes do Decreto nº 72.493, de 1973, com as modificações introduzidas na legislação posterior." .
+lex:D90875\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D90875    lex:temArtigo    lex:D90875\/Artigo6 .
+lex:D90875\/Artigo6    lex:temConteudo    "Art 6º Este decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D90875\/Artigo6\/Inciso    lex:ehUm    lex:Inciso .
+lex:D90875\/Artigo6    lex:temInciso    lex:D90875\/Artigo6\/Inciso .
+lex:D90875\/Artigo6\/Inciso    lex:temConteudo    "C" .
+lex:D90875\/Artigo1    lex:remetePara    lex:D72493 .
+lex:D90875\/Artigo5    lex:remetePara    lex:D72493 .

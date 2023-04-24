@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc18    lex:ehUm    lex:DocLegal .
+lex:emc18    lex:temTextoIntegral    lex:HTMLs\/emc18.htm .
+lex:emc18\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc18    lex:temArtigo    lex:emc18\/Artigo1 .
+lex:emc18\/Artigo1    lex:temConteudo    "Art. 1º O art. 37, inciso XV, da Constituição passa a vigorar com a seguinte redação:" .
+lex:emc18\/Artigo1\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:emc18\/Artigo1    lex:temInciso    lex:emc18\/Artigo1\/IncisoXV .
+lex:emc18\/Artigo1\/IncisoXV    lex:temConteudo    "XV - os vencimentos dos servidores públicos são irredutíveis, e a remuneração observará o que dispõem os arts. 37, XI e XII, 150, II, 153, III e § 2º, I;" .
+lex:emc18\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc18    lex:temArtigo    lex:emc18\/Artigo2 .
+lex:emc18\/Artigo2    lex:temConteudo    "Art. 2º. A seção II do Capítulo VII do Título III da Constituição passa a denominar-se 'DOS SERVIDORES PÚBLICOS' e a Seção III do Capítulo VII do Título III da Constituição Federal passa a denominar-se 'DOS MILITARES DOS ESTADOS, DO DISTRITO FEDERAL E DOS TERRITÓRIOS', dando-se ao art. 42 a seguinte redação:" .
+lex:emc18\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:emc18\/Artigo2    lex:temParagrafo    lex:emc18\/Artigo2\/Paragrafo1 .
+lex:emc18\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º. Aplicam-se aos militares dos Estados, do Distrito Federal e dos Territórios, além do que vier a ser fixado em lei, as disposições do art. 14, §. 8º; do art. 40, §. 3º; e do art. 142, §§ 2º. e 3º., cabendo a lei estadual específica dispor sobre as matérias do art. 142, 3º, inciso X, sendo as patentes dos oficiais conferidas pelos respectivos Governadores." .
+lex:emc18\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:emc18\/Artigo2    lex:temParagrafo    lex:emc18\/Artigo2\/Paragrafo2 .
+lex:emc18\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º. Aos militares dos Estados, do Distrito Federal e dos Territórios e a seus pensionistas, aplica-se o disposto no art. 40, §§ 4º. e 5º; e aos militares do Distrito Federal e dos Territórios, o disposto no art. 40, § 6º '." .
+lex:emc18\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc18    lex:temArtigo    lex:emc18\/Artigo3 .
+lex:emc18\/Artigo3    lex:temConteudo    "Art. 3º. O inciso II do § 1º. do art. 61 da Constituição passa a vigorar com as seguintes alterações:" .
+lex:emc18\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:emc18\/Artigo3    lex:temParagrafo    lex:emc18\/Artigo3\/Paragrafo1 .
+lex:emc18\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º................................................................................" .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - ................................................................................." .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores    lex:ehUm    lex:Alinea .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores    lex:temConteudo    "c) servidores públicos da União e Territórios, seu regime jurídico, provimento de cargos, estabilidade e aposentadoria;" .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores\/Item    lex:ehUm    lex:Item .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores    lex:temItem    lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores\/Item .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores\/Item    lex:temConteudo    "......................................................................................" .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaMilitares    lex:ehUm    lex:Alinea .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaMilitares .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaMilitares    lex:temConteudo    "f) militares das Forcas Armadas, seu regime jurídico, provimento de cargos, promoções, estabilidade, remuneração, reforma e transferencia para a reserva'." .
+lex:emc18\/Artigo4    lex:ehUm    lex:Artigo .
+lex:emc18    lex:temArtigo    lex:emc18\/Artigo4 .
+lex:emc18\/Artigo4    lex:temConteudo    "Art. 4º. Acrescente-se o § 3º. ao art. 142 da Constituição:" .
+lex:emc18\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:emc18\/Artigo4    lex:temParagrafo    lex:emc18\/Artigo4\/Paragrafo3 .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3º. Os membros das Forcas Armadas são denominados militares, aplicando-lhes, além das que vierem a ser fixadas em lei, as seguintes disposições:" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoI .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - as patentes, com prerrogativas, direitos e deveres a elas inerentes, são conferidas pelo Presidente da República e asseguradas em plenitude aos oficiais da ativa, da reserva ou reformados, sendo-lhes privativos os títulos e postos militares e, juntamente com os demais membros, o uso dos uniformes da Forcas Armadas;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoII .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - o militar em atividade que tomar posse em cargo ou emprego público civil permanente será transferido para a reserva, nos termos da lei;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - o militar da ativa que, de acordo com a lei, tomar posse em cargo, emprego ou função pública civil temporária, não eletiva, ainda que da administração indireta, ficará agregado ao respectivo quadro e somente poderá, enquanto permanecer nessa situação, ser promovido por antigüidade, contando-se-lhe o tempo de serviço apenas para aquela promoção e transferência para a reserva, sendo depois de dois anos de afastamento, contínuos ou não transferidos para a reserva, nos termos da lei;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIV .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - ao militar são proibidas a sindicalização e a greve;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoV .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoV    lex:temConteudo    "V - o militar, enquanto em serviço ativo, não pode estar filiado a partidos políticos;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVI .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVI    lex:temConteudo    "VI - o oficial só perderá o posto e a patente se for julgado indigno do oficialato ou com ele incompatível, por decisão de tribunal militar de caráter permanente, em tempo de paz, ou de tribunal especial, em tempo de guerra;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVII .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVII    lex:temConteudo    "VII - o oficial condenado na justiça comum ou militar a pena privativa de liberdade superior a dois anos, por sentença transitada em julgado, será submetido ao julgamento previsto no inciso anterior;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVIII .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - aplica-se aos militares o disposto no art. 7º, incisos VIII, XII, XVII, XVIII, XIX e XXV e no art. 37, incisos XI, XIII, XIV e XV;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIX .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoIX    lex:temConteudo    "IX - aplica-se aos militares e a seus pensionistas o disposto no art. 40, §§ 4º, 5º e 6º;" .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:emc18\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoX .
+lex:emc18\/Artigo4\/Paragrafo3\/ParagrafoIncisoX    lex:temConteudo    "X - a lei disporá sobre o ingresso nas Forças Armadas, os limites de idade, a estabilidade e outras condições de transferência do militar para a inatividade, os direitos, os deveres, a remuneração, as prerrogativas e outras situações especiais dos militares, consideradas as peculiaridades de suas atividades, inclusive aquelas cumpridas por forca de compromissos internacionais e de guerra.'" .
+lex:emc18\/Artigo5    lex:ehUm    lex:Artigo .
+lex:emc18    lex:temArtigo    lex:emc18\/Artigo5 .
+lex:emc18\/Artigo5    lex:temConteudo    "Art. 5º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc18\/Artigo1\/IncisoXV    lex:remetePara    lex:Constituicao\/Artigo37 .
+lex:emc18\/Texto00003    lex:remetePara    lex:Constituicao\/Artigo42 .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaServidores    lex:remetePara    lex:Constituicao\/Artigo61\/Paragrafo1iic .
+lex:emc18\/Artigo3\/Paragrafo1\/ParagrafoIncisoII\/AlineaMilitares    lex:remetePara    lex:Constituicao\/Artigo61\/Paragrafo1iif .
+lex:emc18\/Artigo4\/Paragrafo3    lex:remetePara    lex:Constituicao\/Artigo142\/Paragrafo3 .

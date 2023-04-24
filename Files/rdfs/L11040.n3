@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11040    lex:ehUm    lex:DocLegal .
+lex:L11040    lex:temTextoIntegral    lex:HTMLs\/L11040.htm .
+lex:L11040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11040    lex:temArtigo    lex:L11040\/Artigo1 .
+lex:L11040\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto ao Orçamento Fiscal da União (Lei no 10.837, de 16 de janeiro de 2004), em favor dos Ministérios de Minas e Energia, dos Transportes e das Comunicações, e da Reserva de Contingência, crédito suplementar no valor global de R$ 168.399.303,00 (cento e sessenta e oito milhões, trezentos e noventa e nove mil, trezentos e três reais), para atender às programações constantes do Anexo I desta Lei." .
+lex:L11040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11040    lex:temArtigo    lex:L11040\/Artigo2 .
+lex:L11040\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à abertura do crédito de que trata o art. 1o decorrem de:" .
+lex:L11040\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11040\/Artigo2    lex:temInciso    lex:L11040\/Artigo2\/IncisoI .
+lex:L11040\/Artigo2\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União em 31 de dezembro de 2003, no valor de R$ 40.000.000,00 (quarenta milhões de reais);" .
+lex:L11040\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11040\/Artigo2    lex:temInciso    lex:L11040\/Artigo2\/IncisoII .
+lex:L11040\/Artigo2\/IncisoII    lex:temConteudo    "II - excesso de arrecadação no valor de R$ 56.200.000,00 (cinqüenta e seis milhões e duzentos mil reais), sendo:" .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11040\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 40.000.000,00 (quarenta milhões de reais) de Recursos Ordinários, inclusive os decorrentes de modificações de fontes, nos termos do art. 62 da Lei no 10.707, de 30 de julho de 2003; e" .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 16.200.000,00 (dezesseis milhões e duzentos mil reais) de Taxas pelo Exercício do Poder de Polícia; e" .
+lex:L11040\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11040\/Artigo2    lex:temInciso    lex:L11040\/Artigo2\/IncisoIII .
+lex:L11040\/Artigo2\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no valor de R$ 72.199.303,00 (setenta e dois milhões, cento e noventa e nove mil, trezentos e três reais), conforme indicado no Anexo II desta Lei." .
+lex:L11040\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11040    lex:temArtigo    lex:L11040\/Artigo3 .
+lex:L11040\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L11040\/Artigo1    lex:remetePara    lex:L10837 .
+lex:L11040\/Artigo2\/IncisoII\/IncisoAlineaRS    lex:remetePara    lex:L10707\/Artigo62 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D22958    lex:ehUm    lex:DocLegal .
+lex:D22958    lex:temTextoIntegral    lex:HTMLs\/D22958.htm .
+lex:D22958\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D22958    lex:temArtigo    lex:D22958\/Artigo1 .
+lex:D22958\/Artigo1    lex:temConteudo    "Art. 1º O funcionário que, a serviço, se deslocar da sede onde estiver em exercício, receberá, além do auxilio para seu transporte, as diárias de que trata o art. 7º do Decreto número 21.737, de 30 de agôsto de 1946, com as seguintes limitações:" .
+lex:D22958\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D22958\/Artigo1    lex:temInciso    lex:D22958\/Artigo1\/IncisoI .
+lex:D22958\/Artigo1\/IncisoI    lex:temConteudo    "I   receberá um têrço das diárias, se se deslocar dentro do mesmo país;" .
+lex:D22958\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D22958\/Artigo1    lex:temInciso    lex:D22958\/Artigo1\/IncisoII .
+lex:D22958\/Artigo1\/IncisoII    lex:temConteudo    "II   receberá metade das diárias, se se deslocar para país limitrofe ou dentro do mesmo continente." .
+lex:D22958\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D22958\/Artigo1    lex:temParagrafo    lex:D22958\/Artigo1\/Paragrafo1 .
+lex:D22958\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os deslocamentos da América do Norte ou Central para a América do Sul, ou vice-versa, serão considerados como de um continente para outro." .
+lex:D22958\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D22958\/Artigo1    lex:temParagrafo    lex:D22958\/Artigo1\/Paragrafo2 .
+lex:D22958\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Não caberá concessão de diárias a funcionários lotados  efetivamente num pôsto e mandados servir provisoriamente noutro." .
+lex:D22958\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D22958\/Artigo1    lex:temParagrafo    lex:D22958\/Artigo1\/Paragrafo3 .
+lex:D22958\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O tempo de serviço provisório, salvo caso de fôrça maior, não deverá exceder de três meses, computados das datas de partida dos postos em causa." .
+lex:D22958\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D22958    lex:temArtigo    lex:D22958\/Artigo2 .
+lex:D22958\/Artigo2    lex:temConteudo    "Art. 2º O item III do § 1º do artigo 1º do Decreto nº 21.737, de 30 de agôsto de 1946, passará a Ter a seguinte redação:" .
+lex:D22958\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D22958    lex:temArtigo    lex:D22958\/Artigo3 .
+lex:D22958\/Artigo3    lex:temConteudo    "Art. 3º Êste decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D22958\/Artigo2    lex:remetePara    lex:D21737 .

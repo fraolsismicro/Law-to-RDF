@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5520    lex:ehUm    lex:DocLegal .
+lex:L5520    lex:temTextoIntegral    lex:HTMLs\/L5520.htm .
+lex:L5520\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5520    lex:temArtigo    lex:L5520\/Artigo1 .
+lex:L5520\/Artigo1    lex:temConteudo    "Art. 1º Os efetivos dos Oficiais dos Corpos e Quadros da Marinha de Guerra, abaixo indicados, passam a ter a seguinte constituição:" .
+lex:L5520\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5520    lex:temArtigo    lex:L5520\/Artigo2 .
+lex:L5520\/Artigo2    lex:temConteudo    "Art. 2º As vagas resultantes da presente Lei serão preenchidas a partir de 1º de janeiro de 1969, em parcelas a serem estabelecidas pela administração naval, de acôrdo com a necessidade orçamentária." .
+lex:L5520\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5520\/Artigo2    lex:temParagrafo    lex:L5520\/Artigo2\/Paragrafo1 .
+lex:L5520\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O preenchimento das vagas de que trata êste artigo será feito de acôrdo com o estabelecido na Lei número 4.822, de 29 de outubro de 1965, modificada pela Lei nº 5.141, de 14 de outubro de 1966." .
+lex:L5520\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5520\/Artigo2    lex:temParagrafo    lex:L5520\/Artigo2\/Paragrafo2 .
+lex:L5520\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º As vagas resultantes da aplicação desta Lei serão levadas em consideração para a desagregação de oficiais que, em 1º de janeiro de 1969, se encontrarem agregados, sem impedimentos legais para reverterem." .
+lex:L5520\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5520    lex:temArtigo    lex:L5520\/Artigo3 .
+lex:L5520\/Artigo3    lex:temConteudo    "Art. 3º O cálculo das vagas para a cota compulsória relativa ao ano de 1968 será feito de acôrdo com os efetivos contidos na Lei nº 3.399, de 11 de junho de 1958, alterada pela Lei nº 4.300, de 23 de dezembro de 1963." .
+lex:L5520\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5520    lex:temArtigo    lex:L5520\/Artigo4 .
+lex:L5520\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor em 1º de janeiro de 1969." .
+lex:L5520\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5520    lex:temArtigo    lex:L5520\/Artigo5 .
+lex:L5520\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L5520\/Texto    lex:remetePara    lex:Del0741 .
+lex:L5520\/Texto    lex:remetePara    lex:Del0920 .
+lex:L5520\/Texto    lex:remetePara    lex:L7018 .
+lex:L5520\/Artigo2\/Paragrafo1    lex:remetePara    lex:L4822 .
+lex:L5520\/Artigo2\/Paragrafo1    lex:remetePara    lex:L5141 .
+lex:L5520\/Artigo3    lex:remetePara    lex:L3399 .
+lex:L5520\/Artigo3    lex:remetePara    lex:L4300 .

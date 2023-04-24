@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93439    lex:ehUm    lex:DocLegal .
+lex:D93439    lex:temTextoIntegral    lex:HTMLs\/D93439.htm .
+lex:D93439\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93439    lex:temArtigo    lex:D93439\/Artigo1 .
+lex:D93439\/Artigo1    lex:temConteudo    "Art. 1º - Fica criada, dentro da Estrutura Orgânica do Ministério da Marinha, a Coordenadoria para Projetos Especiais - COPESP - com sede na cidade de São Paulo, Estado de São Paulo, subordinada à Diretoria-Geral do Material da Marinha, com a finalidade de obter para a Marinha sistemas e seus componentes, com características peculiares e especiais." .
+lex:D93439\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93439\/Artigo1    lex:temParagrafo    lex:D93439\/Artigo1\/ParagrafoUnico .
+lex:D93439\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A COPESP será presidida por um Oficial-General da Ativa. (Redação dada pelo Decreto nº 1.200, de 1994)" .
+lex:D93439\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93439    lex:temArtigo    lex:D93439\/Artigo2 .
+lex:D93439\/Artigo2    lex:temConteudo    "Art. 2º - A COPESP será constituída pelo pessoal e por todos os recursos materiais e financeiros que façam parte, atualmente, do acervo da Coordenadoria para Projetos Especiais, pertencente à estrutura orgânica da Comissão Naval em São Paulo." .
+lex:D93439\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D93439    lex:temArtigo    lex:D93439\/Artigo3 .
+lex:D93439\/Artigo3    lex:temConteudo    "Art. 3º - O Ministro da Marinha baixará os atos complementares que se fizerem necessários à execução deste Decreto." .
+lex:D93439\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D93439    lex:temArtigo    lex:D93439\/Artigo4 .
+lex:D93439\/Artigo4    lex:temConteudo    "Art. 4º - Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D93439\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D93439 .

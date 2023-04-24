@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8025    lex:ehUm    lex:DocLegal .
+lex:D8025    lex:temTextoIntegral    lex:HTMLs\/D8025.htm .
+lex:D8025\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8025    lex:temArtigo    lex:D8025\/Artigo1 .
+lex:D8025\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 4.892, de 25 de novembro de 2003, passa a vigorar com as seguintes alterações:" .
+lex:D8025\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo1 .
+lex:D8025\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º São consideradas despesas acessórias:" .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8025\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - tributos;" .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8025\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - serviços de medição, incluindo topografia e georreferenciamento; e" .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8025\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8025\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - emolumentos e custas cartorárias." .
+lex:D8025\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo2 .
+lex:D8025\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Os financiamentos de que trata o caput poderão ter bônus de adimplência de até cinquenta por cento sobre as parcelas da amortização do principal e sobre os encargos financeiros." .
+lex:D8025\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo3 .
+lex:D8025\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º Os bônus de adimplência poderão variar em função da região de localização do projeto financiado, devendo privilegiar regiões mais deprimidas em termos econômicos e com maior risco climático, e poderão sofrer acréscimos em caso de redução comprovada do valor final da aquisição da terra comparado com os valores referenciais, estabelecidos em cada caso, conforme normas definidas no regulamento operativo, observados os limites estabelecidos no § 2 º." .
+lex:D8025\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo4 .
+lex:D8025\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4 º A concessão dos bônus de adimplência ficará condicionada à execução, por parte dos beneficiários, das ações previstas em suas propostas de financiamento, conforme diretrizes e normas a serem estabelecidas no regulamento operativo." .
+lex:D8025\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo5 .
+lex:D8025\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5 º Os encargos financeiros, os bônus de adimplência, o teto anual de bônus por beneficiário, os limites de financiamento e outras condições de que trata este artigo serão fixados pelo Conselho Monetário Nacional, a partir de proposta do órgão gestor do Fundo de Terras e da Reforma Agrária." .
+lex:D8025\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D8025\/Artigo1    lex:temParagrafo    lex:D8025\/Artigo1\/Paragrafo6 .
+lex:D8025\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6 º Os emolumentos e as custas cartorárias decorrentes de processo de renegociação de dívida poderão ser incluídas nos respectivos contratos de financiamento, na forma determinada pelo Conselho Monetário Nacional. (NR)" .
+lex:D8025\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8025    lex:temArtigo    lex:D8025\/Artigo2 .
+lex:D8025\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8025\/Artigo1    lex:remetePara    lex:D4892 .
+lex:D8025\/Texto00001    lex:remetePara    lex:D4892\/Artigo3 .
+lex:D8025\/Texto00001    lex:remetePara    lex:D4892\/Artigo11 .

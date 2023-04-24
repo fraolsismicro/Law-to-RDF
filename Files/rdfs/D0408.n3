@@ -1,0 +1,120 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0408    lex:ehUm    lex:DocLegal .
+lex:D0408    lex:temTextoIntegral    lex:HTMLs\/D0408.htm .
+lex:D0408\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo1 .
+lex:D0408\/Artigo1    lex:temConteudo    "Art. 1o  O Conselho Nacional dos Direitos da Criança e do Adolescente - CONANDA, órgão colegiado da Secretaria Especial dos Direitos Humanos da Presidência da República, tem a seguinte composição: (Redação dada pelo Decreto nº 4.837, de 10.9.2003)" .
+lex:D0408\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0408\/Artigo1    lex:temInciso    lex:D0408\/Artigo1\/IncisoI .
+lex:D0408\/Artigo1\/IncisoI    lex:temConteudo    "I - um representante da Casa Civil da Presidência da República;" .
+lex:D0408\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0408\/Artigo1    lex:temInciso    lex:D0408\/Artigo1\/IncisoII .
+lex:D0408\/Artigo1\/IncisoII    lex:temConteudo    "II - um representante da Secretaria Especial dos Direitos Humanos;" .
+lex:D0408\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0408\/Artigo1    lex:temInciso    lex:D0408\/Artigo1\/IncisoIII .
+lex:D0408\/Artigo1\/IncisoIII    lex:temConteudo    "III - um representante do Gabinete do Ministro de Estado Extraordinário de Segurança Alimentar e Combate à Fome;" .
+lex:D0408\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0408\/Artigo1    lex:temInciso    lex:D0408\/Artigo1\/IncisoIV .
+lex:D0408\/Artigo1\/IncisoIV    lex:temConteudo    "IV - um representante de cada um dos seguintes Ministérios:" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa    lex:temConteudo    "a) da Assistência Social;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "b) da Cultura;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "c) da Educação;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:temConteudo    "d) dos Esportes;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:temConteudo    "e) da Fazenda;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "f) da Justiça;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "g) do Planejamento, Orçamento e Gestão;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:temConteudo    "h) das Relações Exteriores;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa    lex:temConteudo    "i) da Saúde;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "j) da Previdência Social;" .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D0408\/Artigo1\/IncisoIV\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "l) do Trabalho e Emprego." .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0408\/Artigo1    lex:temParagrafo    lex:D0408\/Artigo1\/ParagrafoUnico .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Poderá haver suplência na representação dos seguintes órgãos:" .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - Gabinete do Ministro de Estado Extraordinário de Segurança Alimentar e Combate à Fome por representante do Ministério das Cidades;" .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - Ministério dos Esportes por representante do Ministério do Turismo;" .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - Ministério da Cultura por representante da Secretaria Especial de Políticas de Promoção da Igualdade Racial;" .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0408\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D0408\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - Ministério das Relações Exteriores por representante da Secretaria Especial de Políticas para as Mulheres." .
+lex:D0408\/Artigo1-A    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo1-A .
+lex:D0408\/Artigo1-A    lex:temConteudo    "Art. 1-A.  Os membros do CONANDA e os suplentes de que trata o parágrafo único do art. 1o serão indicados pelos respectivos Ministros de Estado e designados pelo Secretário Especial dos Direitos Humanos. (Redação dada pelo Decreto nº 4.837, de 10.9.2003)" .
+lex:D0408\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo2 .
+lex:D0408\/Artigo2    lex:temConteudo    "Art. 2º A escolha dos representantes das entidades não-governamentais de atendimento dos direitos da criança e do adolescente no Conanda será disciplinada pelo Regimento Interno do Conselho, na forma do inciso XI, do art. 2º, da Lei nº 8.242, de 12 de outubro de 1991, devendo a primeira eleição de seus membros ser efetuada na forma dos artigos seguintes. (Vide Decreto nº 695, de 8.12.1992)   (Vide Decreto nº 1.335, de 9.12.1994)" .
+lex:D0408\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo3 .
+lex:D0408\/Artigo3    lex:temConteudo    "Art. 3º O Ministério Público Federal fiscalizará todo o processo de escolha dos representantes das entidades não-governamentais." .
+lex:D0408\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo4 .
+lex:D0408\/Artigo4    lex:temConteudo    "Art. 4º No ato de nomeação dos representantes do Poder Executivo, o Presidente da República determinará a expedição de edital convocando os integrantes das entidades não-governamentais de âmbito nacional de atendimento dos direitos da criança e do adolescente para a assembléia a se realizar dez dias após sua publicação, na sede da Procuradoria-Geral da República, visando, em primeira fase, a escolha do processo da primeira eleição dos membros daquelas entidades que comporão o Conanda e, em segunda fase, a eleição dos seus representantes e respectivos suplentes." .
+lex:D0408\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0408\/Artigo4    lex:temParagrafo    lex:D0408\/Artigo4\/Paragrafo1 .
+lex:D0408\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º Deverão ser observados pela assembléia os princípios de:" .
+lex:D0408\/Artigo4\/Paragrafo1\/AlineaRepresentatividade    lex:ehUm    lex:Alinea .
+lex:D0408\/Artigo4\/Paragrafo1    lex:temAlinea    lex:D0408\/Artigo4\/Paragrafo1\/AlineaRepresentatividade .
+lex:D0408\/Artigo4\/Paragrafo1\/AlineaRepresentatividade    lex:temConteudo    "a) representatividade com âmbito ou expressão nacionais dos participantes do processo;" .
+lex:D0408\/Artigo4\/Paragrafo1\/AlineaParidade    lex:ehUm    lex:Alinea .
+lex:D0408\/Artigo4\/Paragrafo1    lex:temAlinea    lex:D0408\/Artigo4\/Paragrafo1\/AlineaParidade .
+lex:D0408\/Artigo4\/Paragrafo1\/AlineaParidade    lex:temConteudo    "b) paridade quantitativa entre os eleitos e os membros escolhidos pelo Poder Executivo." .
+lex:D0408\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0408\/Artigo4    lex:temParagrafo    lex:D0408\/Artigo4\/Paragrafo2 .
+lex:D0408\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º O processo de escolha e eleição terá a duração máxima de dez dias, devendo ser lavrada ata, a ser, incontinenti, encaminhada pelo Procurador-Geral da República ao Presidente da República, que nomeará os eleitos no prazo máximo de cinco dias." .
+lex:D0408\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0408\/Artigo4    lex:temParagrafo    lex:D0408\/Artigo4\/Paragrafo3 .
+lex:D0408\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3º Com a nomeação dos membros das entidades citadas no art. 2º deste decreto, o Presidente da República instalará o Conanda." .
+lex:D0408\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D0408    lex:temArtigo    lex:D0408\/Artigo5 .
+lex:D0408\/Artigo5    lex:temConteudo    "Art. 5º Este decreto entra em vigor na data de sua publicação." .
+lex:D0408\/Texto    lex:revogadoPor    lex:D5089\/Artigo16 .
+lex:D5089\/Artigo16    lex:revogou    lex:D0408\/Texto .
+lex:D0408\/Texto    lex:remetePara    lex:D0408 .
+lex:D0408\/Artigo1    lex:remetePara    lex:Dnn1-92 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D0695 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D0695 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D1335\/Artigo1 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D1569 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D1569 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D1569 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D2099 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D3038 .
+lex:D0408\/Artigo1    lex:remetePara    lex:D4837\/Artigo1 .
+lex:D0408\/Artigo1\/ParagrafoUnico\/Artigo1o-A    lex:remetePara    lex:D3038\/Artigo2 .
+lex:D0408\/Artigo1-A    lex:remetePara    lex:D4837\/Artigo1 .
+lex:D0408\/Artigo2    lex:remetePara    lex:D0695\/Artigo2 .
+lex:D0408\/Artigo2    lex:remetePara    lex:D1335\/Artigo2 .

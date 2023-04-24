@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L2794    lex:ehUm    lex:DocLegal .
+lex:L2794    lex:temTextoIntegral    lex:HTMLs\/L2794.htm .
+lex:L2794\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L2794    lex:temArtigo    lex:L2794\/Artigo1A .
+lex:L2794\/Artigo1A    lex:temConteudo    "Art. 1Âº O art. 66 do Decreto-lei nÂº 3.651, de 25 de setembro de 1941 (CÃ³digo Nacional do TrÃ¢nsito), passa a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:L2794\/Artigo66    lex:ehUm    lex:Artigo .
+lex:L2794    lex:temArtigo    lex:L2794\/Artigo66 .
+lex:L2794\/Artigo66    lex:temConteudo    "Art. 66. Nenhum veÃ­culo a motor de explosÃ£o, de transporte coletivo a frete, poderÃ¡ trafegar sem observÃ¢ncia das seguintes condiÃ§Ãµes:" .
+lex:L2794\/Artigo66\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:L2794\/Artigo66    lex:temAlinea    lex:L2794\/Artigo66\/AlineaSer .
+lex:L2794\/Artigo66\/AlineaSer    lex:temConteudo    "a) ser a respectiva 'carrosserie' fechada, provida de janelas, portas de subida e descida, dispositivos para, ventilaÃ§Ã£o e bancos para os passageiros;" .
+lex:L2794\/Artigo66\/AlineaSerem    lex:ehUm    lex:Alinea .
+lex:L2794\/Artigo66    lex:temAlinea    lex:L2794\/Artigo66\/AlineaSerem .
+lex:L2794\/Artigo66\/AlineaSerem    lex:temConteudo    "b) serem as janelas protegidas do exterior, atÃ© a  altura de 01,15m ou 0,20m de peitoril com barras metÃ¡licas de diÃ¢metro nunca inferior a 0,01m." .
+lex:L2794\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L2794    lex:temArtigo    lex:L2794\/Artigo2A .
+lex:L2794\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta lei entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:L2794\/Artigo1A    lex:remetePara    lex:Del3651 .
+lex:L2794\/Artigo66    lex:remetePara    lex:Del3651\/Artigo66 .

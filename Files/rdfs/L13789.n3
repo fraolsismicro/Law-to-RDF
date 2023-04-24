@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13789    lex:ehUm    lex:DocLegal .
+lex:L13789    lex:temTextoIntegral    lex:HTMLs\/L13789.htm .
+lex:L13789\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13789    lex:temArtigo    lex:L13789\/Artigo1 .
+lex:L13789\/Artigo1    lex:temConteudo    "Art. 1 o O art. 17 da Lei nÂº 12.512, de 14 de outubro de 2011 , passa a vigorar acrescido do seguinte Â§ 4Âº:" .
+lex:L13789\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13789    lex:temArtigo    lex:L13789\/Artigo2A .
+lex:L13789\/Artigo2A    lex:temConteudo    "Art. 2Âº  Esta Lei entra em vigor na data de sua publicaÃ§Ã£o ." .
+lex:L13789\/Artigo1    lex:remetePara    lex:L12512 .
+lex:L13789\/Texto00001    lex:remetePara    lex:L12512\/Artigo17Â§4 .

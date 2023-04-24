@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6129    lex:ehUm    lex:DocLegal .
+lex:D6129    lex:temTextoIntegral    lex:HTMLs\/D6129.htm .
+lex:D6129\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6129    lex:temArtigo    lex:D6129\/Artigo1 .
+lex:D6129\/Artigo1    lex:temConteudo    "Art. 1o  A vinculação das autarquias, fundações, empresas públicas e sociedades de economia mista aos Ministérios e a outros órgãos da administração pública federal fica estabelecida na forma do Anexo a este Decreto." .
+lex:D6129\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6129    lex:temArtigo    lex:D6129\/Artigo2 .
+lex:D6129\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6129\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6129    lex:temArtigo    lex:D6129\/Artigo3 .
+lex:D6129\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados:" .
+lex:D6129\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6129\/Artigo3    lex:temInciso    lex:D6129\/Artigo3\/IncisoI .
+lex:D6129\/Artigo3\/IncisoI    lex:temConteudo    "I - o Decreto no 4.566, de 1o de janeiro de 2003; e" .
+lex:D6129\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6129\/Artigo3    lex:temInciso    lex:D6129\/Artigo3\/IncisoII .
+lex:D6129\/Artigo3\/IncisoII    lex:temConteudo    "II - o art. 11 do Decreto no 4.858, de 13 de outubro de 2003." .
+lex:D6129\/Artigo3\/IncisoI    lex:remetePara    lex:D4566 .
+lex:D6129\/Artigo3\/IncisoII    lex:remetePara    lex:D4858\/Artigo11 .

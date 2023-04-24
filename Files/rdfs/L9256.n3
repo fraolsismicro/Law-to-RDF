@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9256    lex:ehUm    lex:DocLegal .
+lex:L9256    lex:temTextoIntegral    lex:HTMLs\/L9256.htm .
+lex:L9256\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9256    lex:temArtigo    lex:L9256\/Artigo1 .
+lex:L9256\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 53 e o § 3º do art. 63 da Lei nº 8.245, de 18 de outubro de 1991, passam a ter a seguinte redação:" .
+lex:L9256\/Artigo63    lex:ehUm    lex:Artigo .
+lex:L9256    lex:temArtigo    lex:L9256\/Artigo63 .
+lex:L9256\/Artigo63    lex:temConteudo    "Art. 63 .........................................................................." .
+lex:L9256\/Artigo63\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9256\/Artigo63    lex:temParagrafo    lex:L9256\/Artigo63\/Paragrafo3 .
+lex:L9256\/Artigo63\/Paragrafo3    lex:temConteudo    "§ 3º Tratando-se de hospitais, repartições públicas, unidades sanitárias oficiais, asilos, estabelecimentos de saúde e de ensino autorizados e fiscalizados pelo Poder Público, bem como por entidades religiosas devidamente registradas, e o despejo for decretado com fundamento no inciso IV do art. 9º ou no inciso II do art. 53, o prazo será de um ano, exceto no caso em que entre a citação e a sentença de primeira instância houver decorrido mais de um ano, hipótese em que o prazo será de seis meses.'" .
+lex:L9256\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9256    lex:temArtigo    lex:L9256\/Artigo2 .
+lex:L9256\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9256\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9256    lex:temArtigo    lex:L9256\/Artigo3 .
+lex:L9256\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9256\/Artigo1    lex:remetePara    lex:L8245 .
+lex:L9256\/Texto00001    lex:remetePara    lex:L8245\/Artigo53 .
+lex:L9256\/Artigo63\/Paragrafo3    lex:remetePara    lex:L8245\/Artigo63\/Paragrafo3 .

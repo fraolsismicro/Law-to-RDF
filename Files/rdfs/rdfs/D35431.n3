@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D35431    lex:ehUm    lex:DocLegal .
+lex:D35431    lex:temTextoIntegral    lex:HTMLs\/D35431.htm .
+lex:D35431\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D35431    lex:temArtigo    lex:D35431\/Artigo1A .
+lex:D35431\/Artigo1A    lex:temConteudo    "Art. 1Âº Ã acrescida ao Decreto nÂº 30.595, de 7 de junho de 1952 , para efeito do dispÃ´sto nos arts. 24, letra â e â, e 29, letra â i â, da Lei nÂº 1.316, de 20 de janeiro de 1951, a funÃ§Ã£o abaixo:" .
+lex:D35431\/Artigo1A\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:D35431\/Artigo1A    lex:temAlinea    lex:D35431\/Artigo1A\/AlineaNa .
+lex:D35431\/Artigo1A\/AlineaNa    lex:temConteudo    "b), Na Marinha:" .
+lex:D35431\/Artigo1A\/AlineaNa\/Item    lex:ehUm    lex:Item .
+lex:D35431\/Artigo1A\/AlineaNa    lex:temItem    lex:D35431\/Artigo1A\/AlineaNa\/Item .
+lex:D35431\/Artigo1A\/AlineaNa\/Item    lex:temConteudo    "..........................................................................................................................................................." .
+lex:D35431\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D35431    lex:temArtigo    lex:D35431\/Artigo2A .
+lex:D35431\/Artigo2A    lex:temConteudo    "Art. 2Âº O presente Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D35431\/Artigo1A    lex:remetePara    lex:D30955 .
+lex:D35431\/Artigo1A\/AlineaNa\/Texto00003    lex:remetePara    lex:D30955\/Artigo1b4 .

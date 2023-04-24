@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D11090    lex:ehUm    lex:DocLegal .
+lex:D11090    lex:temTextoIntegral    lex:HTMLs\/D11090.htm .
+lex:D11090\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D11090    lex:temArtigo    lex:D11090\/Artigo1A .
+lex:D11090\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 6.759, de 5 de fevereiro de 2009, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D11090\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D11090    lex:temArtigo    lex:D11090\/Artigo2A .
+lex:D11090\/Artigo2A    lex:temConteudo    "Art. 2Âº  Para fins de aplicaÃ§Ã£o do disposto no inciso II do caput do art. 77 do Decreto nÂº 6.759, de 2009, serÃ£o excluÃ­dos somente os gastos incorridos no territÃ³rio nacional a partir da entrada em vigor deste Decreto, conforme a previsÃ£o do Artigo 8 (2) do Acordo sobre a ImplementaÃ§Ã£o do Artigo VII do Acordo Geral sobre Tarifas e ComÃ©rcio 1994, promulgado pelo Decreto nÂº 1.355, de 30 de dezembro de 1994." .
+lex:D11090\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D11090    lex:temArtigo    lex:D11090\/Artigo3A .
+lex:D11090\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data da sua publicaÃ§Ã£o." .
+lex:D11090\/Artigo1A    lex:remetePara    lex:D6759 .
+lex:D11090\/Texto00001    lex:remetePara    lex:D6759\/Artigo77ii0 .
+lex:D11090\/Artigo2A    lex:remetePara    lex:D6759\/Artigo77ii0 .
+lex:D11090\/Artigo2A    lex:remetePara    lex:D1355 .

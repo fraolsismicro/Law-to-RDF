@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8446    lex:ehUm    lex:DocLegal .
+lex:D8446    lex:temTextoIntegral    lex:HTMLs\/D8446.htm .
+lex:D8446\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8446    lex:temArtigo    lex:D8446\/Artigo1 .
+lex:D8446\/Artigo1    lex:temConteudo    "Art. 1o O Decreto no 6.268, de 22 de novembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D8446\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8446\/Artigo1    lex:temParagrafo    lex:D8446\/Artigo1\/Paragrafo1 .
+lex:D8446\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o No caso das compras efetuadas pelo Poder Público, a classificação poderá ser realizada diretamente pelo agente público da Administração contratante, cuja designação deverá recair preferencialmente sobre servidor que tenha sido habilitado segundo o disposto no art. 13." .
+lex:D8446\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8446\/Artigo1    lex:temParagrafo    lex:D8446\/Artigo1\/Paragrafo2 .
+lex:D8446\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o A classificação efetuada de acordo com o § 1o terá caráter simplificado e será realizada pela verificação da conformidade e da qualidade do material em face das especificações contratuais, nos termos do inciso II do caput do art. 73 da Lei no 8.666, de 21 de junho de 1993." .
+lex:D8446\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8446\/Artigo1    lex:temParagrafo    lex:D8446\/Artigo1\/Paragrafo3 .
+lex:D8446\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Ficam dispensadas da classificação obrigatória as compras de pequenas quantidades de produtos vegetais, seus subprodutos e resíduos de valor econômico realizadas pelo Poder Público, com dispensa de processo licitatório, de pequenos e médios produtores rurais, como as operações a que se referem o art. 17 da Lei no 12.512, de 14 de outubro de 2011, e o § 1o do art. 14 da Lei no 11.947, de 16 de junho de 2009." .
+lex:D8446\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8446\/Artigo1    lex:temParagrafo    lex:D8446\/Artigo1\/Paragrafo4 .
+lex:D8446\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o Ato conjunto dos Ministros de Estado da Agricultura, Pecuária e Abastecimento e do Planejamento, Orçamento e Gestão estabelecerá limites e parâmetros indicativos das compras de pequenas quantidades a que se refere o § 3o. (NR)" .
+lex:D8446\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8446    lex:temArtigo    lex:D8446\/Artigo2 .
+lex:D8446\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data da sua publicação." .
+lex:D8446\/Artigo1\/Paragrafo1    lex:remetePara    lex:D6268\/Artigo7\/Paragrafo1 .
+lex:D8446\/Artigo1\/Paragrafo2    lex:remetePara    lex:L8666cons\/Artigo73 .
+lex:D8446\/Artigo1\/Paragrafo3    lex:remetePara    lex:L12512\/Artigo17 .
+lex:D8446\/Artigo1\/Paragrafo3    lex:remetePara    lex:L11947\/Artigo14\/Paragrafo1 .

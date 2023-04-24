@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0010    lex:ehUm    lex:DocLegal .
+lex:Del0010    lex:temTextoIntegral    lex:HTMLs\/Del0010.htm .
+lex:Del0010\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0010    lex:temArtigo    lex:Del0010\/Artigo1 .
+lex:Del0010\/Artigo1    lex:temConteudo    "Art 1º É aprovado o convênio firmado em 27 de junho de 1966, entre o Govêrno Federal e o Estado da Guanabara, que regula a reinclusão, na Polícia Militar do Estado da Guanabara, do pessoal da Polícia Militar do antigo Distrito Federal, que retornou ao serviço da União, nos têrmos do art. 46 da Lei nº 4.242, de 17 de julho de 1963, e não aproveitado na Polícia Militar do Distrito Federal." .
+lex:Del0010\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0010    lex:temArtigo    lex:Del0010\/Artigo3 .
+lex:Del0010\/Artigo3    lex:temConteudo    "Art 3º O orçamento da União consignará, em anexo próprio, as dotações destinadas ao pagamento do pessoal de investidura Federal da Polícia Militar do Estado da Guanabara, inclusive inativos, bem como das pensões deixadas aos seus beneficiários." .
+lex:Del0010\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0010\/Artigo3    lex:temParagrafo    lex:Del0010\/Artigo3\/Paragrafo1 .
+lex:Del0010\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º As dotações a que se refere êste artigo serão registradas pelo Tribunal de Contas e automàticamente distribuídas à Polícia Militar do Estado da Guanabara." .
+lex:Del0010\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0010\/Artigo3    lex:temParagrafo    lex:Del0010\/Artigo3\/Paragrafo2 .
+lex:Del0010\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º O Ministério da Justiça e Negócios Interiores, no exercício de 1966, destacará, das dotações atribuídas no orçamento da União à Polícia Militar do Distrito Federal, em favor da Polícia Militar do Estado da Guanabara, e proporcionalmente ao pessoal reincluído, as parcelas necessárias ao pagamento do pessoal, a aquisição de material permanente e de consumo, equipamento e instalações, e ao custeio de serviços de terceiros." .
+lex:Del0010\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0010\/Artigo3    lex:temParagrafo    lex:Del0010\/Artigo3\/Paragrafo3 .
+lex:Del0010\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º O Ministério da Justiça e Negócios Interiores transferirá para a Polícia Militar do Estado da Guanabara, proporcionalmente ao pessoal reincluído, o acervo da Polícia Militar (Lei nº 4.242, de 17 de julho de 1963, art. 46)." .
+lex:Del0010\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del0010\/Artigo3    lex:temParagrafo    lex:Del0010\/Artigo3\/Paragrafo4 .
+lex:Del0010\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4º 0 destaque das dotações orçamentárias e a entrega do acervo de que tratam os parágrafos anteriores serão efetuados dentro de trinta dias, contados da data da publicação dêste decreto-lei." .
+lex:Del0010\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0010    lex:temArtigo    lex:Del0010\/Artigo4 .
+lex:Del0010\/Artigo4    lex:temConteudo    "Art 4º São considerados transferidos ao Estado da Guanabara, na data em que entrar em vigor o convênio de que trata, o art. 1º deste decreto-lei, o domínio e a posse dos bens imóveis da União, que, desde 1963, são utilizados pela Polícia Militar do Estado da Guanabara, inclusive como residência de seu pessoal." .
+lex:Del0010\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0010    lex:temArtigo    lex:Del0010\/Artigo5 .
+lex:Del0010\/Artigo5    lex:temConteudo    "Art 5º Êste decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0010\/Texto    lex:remetePara    lex:L5959 .
+lex:Del0010\/Artigo1    lex:remetePara    lex:L4242\/Artigo46 .
+lex:Del0010\/Artigo2    lex:remetePara    lex:L3752\/Artigo3\/Paragrafo2 .
+lex:Del0010\/Artigo2    lex:remetePara    lex:L3752\/Artigo3\/Paragrafo3 .
+lex:Del0010\/Artigo2    lex:revogadoPor    lex:Del1015\/Artigo5 .
+lex:Del1015\/Artigo5    lex:revogou    lex:Del0010\/Artigo2 .
+lex:Del0010\/ParagrafoUnico    lex:revogadoPor    lex:Del1015\/Artigo5 .
+lex:Del1015\/Artigo5    lex:revogou    lex:Del0010\/ParagrafoUnico .
+lex:Del0010\/Artigo3\/Paragrafo3    lex:remetePara    lex:L4242\/Artigo46 .

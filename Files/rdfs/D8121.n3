@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8121    lex:ehUm    lex:DocLegal .
+lex:D8121    lex:temTextoIntegral    lex:HTMLs\/D8121.htm .
+lex:D8121\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8121    lex:temArtigo    lex:D8121\/Artigo1 .
+lex:D8121\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto no 7.644, de 16 de dezembro de 2011, passa a vigorar com as seguintes alterações:" .
+lex:D8121\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo2 .
+lex:D8121\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  No projeto coletivo de estruturação produtiva, deverão constar a participação e as responsabilidades das famílias beneficiárias. (NR)" .
+lex:D8121\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo1 .
+lex:D8121\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  O Comitê Gestor definirá o número total de parcelas, que não excederá a três, e os valores de cada uma de acordo com as diferentes estratégias ou grupos sociais atendidos, observado o mínimo de duas parcelas, no prazo máximo de dois anos, contado da data de liberação da primeira parcela." .
+lex:D8121\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo3 .
+lex:D8121\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  A liberação da segunda e, quando houver, da terceira parcelas, fica condicionada à apresentação de laudos de acompanhamento das unidades produtivas familiares pela equipe de assistência técnica, atestando o progresso no desenvolvimento do projeto de estruturação produtiva, observados os prazos mínimos definidos de acordo com normas a serem expedidas pelo Comitê Gestor." .
+lex:D8121\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo1 .
+lex:D8121\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Incluem-se no Programa, nos termos do caput, além das famílias em situação de extrema pobreza, nos termos do inciso I do caput do art. 5 º, aquelas em situação de pobreza, conforme disposto no art. 18 do Decreto n º 5.209, de 17 de setembro de 2004." .
+lex:D8121\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo2 .
+lex:D8121\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Aplica-se o disposto nos §§ 1 º a 4 º do art. 16 à transferência do benefício de que trata o caput." .
+lex:D8121\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8121\/Artigo1    lex:temParagrafo    lex:D8121\/Artigo1\/Paragrafo3 .
+lex:D8121\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  À família beneficiada pelo disposto no caput não se aplica o benefício previsto no caput do art. 16. (NR)" .
+lex:D8121\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8121    lex:temArtigo    lex:D8121\/Artigo2 .
+lex:D8121\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8121\/Artigo1    lex:remetePara    lex:D7644 .
+lex:D8121\/Artigo1\/Paragrafo2    lex:remetePara    lex:D7644\/Artigo14\/Paragrafo2 .
+lex:D8121\/Artigo1\/Texto00002    lex:remetePara    lex:D7644\/Artigo16 .
+lex:D8121\/Artigo1\/Texto00004    lex:remetePara    lex:D7644\/Artigo16 .
+lex:D8121\/Artigo1\/Paragrafo1    lex:remetePara    lex:D5209\/Artigo18 .
+lex:D8121\/Artigo1\/Texto00007    lex:remetePara    lex:D7644\/Artigo17 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94600    lex:ehUm    lex:DocLegal .
+lex:D94600    lex:temTextoIntegral    lex:HTMLs\/D94600.htm .
+lex:D94600\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94600    lex:temArtigo    lex:D94600\/Artigo1 .
+lex:D94600\/Artigo1    lex:temConteudo    "Art. 1° Fica o Ministério da Marinha autorizado a ceder, sob o regime de arrendamento, imóveis ou parte deles, que estejam sob sua jurisdição, por prazo a ser fixado, de conformidade com os interesses da Marinha." .
+lex:D94600\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94600\/Artigo1    lex:temParagrafo    lex:D94600\/Artigo1\/ParagrafoUnico .
+lex:D94600\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A cessão será efetivada mediante contrato em que constarão, obrigatoriamente, as condições a serem estabelecidas pelo Ministério da Marinha." .
+lex:D94600\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94600    lex:temArtigo    lex:D94600\/Artigo2 .
+lex:D94600\/Artigo2    lex:temConteudo    "Art. 2° A renda mensal dos aluguéis será recolhida ao Fundo Naval, na forma do disposto no artigo 2°, letra p do Decreto n° 20.923, de 08 de janeiro de 1932." .
+lex:D94600\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94600    lex:temArtigo    lex:D94600\/Artigo3 .
+lex:D94600\/Artigo3    lex:temConteudo    "Art. 3° Ultimado o processo de cessão, o Ministério da Marinha encaminhará ao Serviço do Patrimônio da União, para fins de anotação, cópias dos contratos outorgados." .
+lex:D94600\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94600    lex:temArtigo    lex:D94600\/Artigo4 .
+lex:D94600\/Artigo4    lex:temConteudo    "Art. 4° Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

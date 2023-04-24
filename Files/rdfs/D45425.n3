@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D45425    lex:ehUm    lex:DocLegal .
+lex:D45425    lex:temTextoIntegral    lex:HTMLs\/D45425.htm .
+lex:D45425\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D45425    lex:temArtigo    lex:D45425\/Artigo1 .
+lex:D45425\/Artigo1    lex:temConteudo    "Art. 1º O Art. 2º, o Art. 3º e o Art. 7º do Decreto nº 28.959, de 11 de dezembro de 1950, passam a ter a seguinte redação:" .
+lex:D45425\/Artigo1\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:D45425\/Artigo1    lex:temAlinea    lex:D45425\/Artigo1\/AlineaAte .
+lex:D45425\/Artigo1\/AlineaAte    lex:temConteudo    "a) até o limite de duas mil milhas: Cr$44,00 por milha;" .
+lex:D45425\/Artigo1\/AlineaEntre    lex:ehUm    lex:Alinea .
+lex:D45425\/Artigo1    lex:temAlinea    lex:D45425\/Artigo1\/AlineaEntre .
+lex:D45425\/Artigo1\/AlineaEntre    lex:temConteudo    "b) entre duas mil e uma e quatro mil milhas: Cr$30,00 por milha;" .
+lex:D45425\/Artigo1\/AlineaAlem    lex:ehUm    lex:Alinea .
+lex:D45425\/Artigo1    lex:temAlinea    lex:D45425\/Artigo1\/AlineaAlem .
+lex:D45425\/Artigo1\/AlineaAlem    lex:temConteudo    "c) além de quatro mil milhas: Cr$15,80 por milha." .
+lex:D45425\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D45425\/Artigo1    lex:temParagrafo    lex:D45425\/Artigo1\/ParagrafoUnico .
+lex:D45425\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em relação a menores e serviçais, o cálculo será feito nas seguintes bases:" .
+lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaMenores    lex:ehUm    lex:Alinea .
+lex:D45425\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaMenores .
+lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaMenores    lex:temConteudo    "a) menores até 12 (doze) anos: Cr$15,40 por milha;" .
+lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaServicais:    lex:ehUm    lex:Alinea .
+lex:D45425\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaServicais: .
+lex:D45425\/Artigo1\/ParagrafoUnico\/AlineaServicais:    lex:temConteudo    "b) serviçais: Cr$17,30 por milha." .
+lex:D45425\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D45425    lex:temArtigo    lex:D45425\/Artigo3 .
+lex:D45425\/Artigo3    lex:temConteudo    "Art. 3º A ajuda de custo será concedida de acôrdo com a seguinte tabela:" .
+lex:D45425\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D45425    lex:temArtigo    lex:D45425\/Artigo7 .
+lex:D45425\/Artigo7    lex:temConteudo    "Art. 7º O funcionário que, a serviço, se deslocar da cidade onde estiver em exercício, receberá auxílio para seu transporte, na forma do art. 2º, bem como as seguintes diárias:" .
+lex:D45425\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D45425    lex:temArtigo    lex:D45425\/Artigo2 .
+lex:D45425\/Artigo2    lex:temConteudo    "Art. 2º Os quantitativos fixados neste Decreto passam a vigorar a partir da vigência do Decreto número 45.400, de 6 de fevereiro de 1959, revogadas as disposições em contrário." .
+lex:D45425\/Texto00001    lex:remetePara    lex:D28959\/Artigo2 .
+lex:D45425\/Artigo3    lex:remetePara    lex:D28959\/Artigo3 .
+lex:D45425\/Artigo7    lex:remetePara    lex:D28959\/Artigo7 .
+lex:D45425\/Artigo7    lex:remetePara    lex:D28959\/Artigo7 .

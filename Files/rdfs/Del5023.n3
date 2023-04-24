@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del5023    lex:ehUm    lex:DocLegal .
+lex:Del5023    lex:temTextoIntegral    lex:HTMLs\/Del5023.htm .
+lex:Del5023\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del5023    lex:temArtigo    lex:Del5023\/Artigo1 .
+lex:Del5023\/Artigo1    lex:temConteudo    "Art. 1º O art. 7º da Lei de Falências (decreto n. 5.746, de 9 de dezembro de 1929) passa a vigorar com a seguinte redação:" .
+lex:Del5023\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del5023    lex:temArtigo    lex:Del5023\/Artigo7 .
+lex:Del5023\/Artigo7    lex:temConteudo    "Art. 7º É competente para declarar a falência o juiz em cuja jurisdição o devedor tem o seu principal estabelecimento ou casa filial de outra situada fora do Brasil." .
+lex:Del5023\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del5023\/Artigo7    lex:temParagrafo    lex:Del5023\/Artigo7\/ParagrafoUnico .
+lex:Del5023\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O juízo da falência é indivisível e competente para todas as ações e reclamações sobre bens, interesses e negócios relativos à massa falida." .
+lex:Del5023\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del5023    lex:temArtigo    lex:Del5023\/Artigo2 .
+lex:Del5023\/Artigo2    lex:temConteudo    "Art. 2º O presente decreto-lei entrará em vigor noventa dias depois da data de sua publicação, revogadas as disposições em contrário." .
+lex:Del5023\/Artigo1    lex:remetePara    lex:D5746\/Artigo7 .

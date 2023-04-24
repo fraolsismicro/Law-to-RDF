@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7439    lex:ehUm    lex:DocLegal .
+lex:L7439    lex:temTextoIntegral    lex:HTMLs\/L7439.htm .
+lex:L7439\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo1 .
+lex:L7439\/Artigo1    lex:temConteudo    "Art. 1º - Ás classes integrantes da Categoria Funcional de Fisioterapeuta, criada com fundamento no art. 7º da Lei nº 5.645, de 10 de dezembro de 1970, correspondem as referências de vencimento ou salário estabelecidas no Anexo desta Lei." .
+lex:L7439\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7439\/Artigo1    lex:temParagrafo    lex:L7439\/Artigo1\/ParagrafoUnico .
+lex:L7439\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os valores mensais das referências de que trata este artigo são os fixados na escala constante do Anexo III do Decreto-lei nº 2.130, de 25 de junho de 1984." .
+lex:L7439\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo2 .
+lex:L7439\/Artigo2    lex:temConteudo    "Art. 2º - Os servidores posicionados nas referências NS-1 a NS-4 da antiga Categoria Funcional de Técnico de Reabilitação, portadores de habilitação legal para o exercício da profissão de Fisioterapeuta, integrarão a Categoria Funcional de Fisioterapeuta com posicionamento automático na referência NS-5, inicial da classe A." .
+lex:L7439\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo3 .
+lex:L7439\/Artigo3    lex:temConteudo    "Art. 3º - Ressalvado o disposto no art. 2º e as normas que disciplinam a progressão funcional, permanecerão nas referências de vencimento ou salário em que se encontrem os demais servidores alcançados por esta Lei." .
+lex:L7439\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo4 .
+lex:L7439\/Artigo4    lex:temConteudo    "Art. 4º - O preenchimento dos cargos ou empregos da classe especial e das intermediárias da Categoria Funcional de Fisioterapeuta far-se-á mediante progressão funcional ou outras formas legais de provimento." .
+lex:L7439\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo5 .
+lex:L7439\/Artigo5    lex:temConteudo    "Art. 5º - A despesa com a execução desta Lei correrá à conta das dotações próprias do Orçamento da União e das autarquias federais." .
+lex:L7439\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo6 .
+lex:L7439\/Artigo6    lex:temConteudo    "Art. 6º - Esta lei entra em vigor, inclusive quanto a seus efeitos financeiros, na data de sua publicação." .
+lex:L7439\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7439    lex:temArtigo    lex:L7439\/Artigo7 .
+lex:L7439\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:L7439\/Artigo1    lex:remetePara    lex:L5645\/Artigo7 .
+lex:L7439\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2130\/ .

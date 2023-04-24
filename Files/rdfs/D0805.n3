@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0805    lex:ehUm    lex:DocLegal .
+lex:D0805    lex:temTextoIntegral    lex:HTMLs\/D0805.htm .
+lex:D0805\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0805    lex:temArtigo    lex:D0805\/Artigo1 .
+lex:D0805\/Artigo1    lex:temConteudo    "Art. 1° O Segundo Protocolo Modificativo do Acordo de Alcance Regional n° 4, entre Brasil, Argentina, Bolívia, Colômbia, Chile, Equador, México, Paraguai, Peru, Uruguai e Venezuela, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D0805\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0805    lex:temArtigo    lex:D0805\/Artigo2 .
+lex:D0805\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0805\/Artigo2\/AlineaAvaliar    lex:ehUm    lex:Alinea .
+lex:D0805\/Artigo2    lex:temAlinea    lex:D0805\/Artigo2\/AlineaAvaliar .
+lex:D0805\/Artigo2\/AlineaAvaliar    lex:temConteudo    "i) avaliar os resultados da aplicação da preferência tarifária regional nos termos previstos no artigo 13 (texto consolidado do presente Acordo. Os países-membros fornecerão semestralmente, informarão completa e pormenorizada de suas importações separadas pela preferência tarifária regional." .
+lex:D0805\/Artigo2\/AlineaSem    lex:ehUm    lex:Alinea .
+lex:D0805\/Artigo2    lex:temAlinea    lex:D0805\/Artigo2\/AlineaSem .
+lex:D0805\/Artigo2\/AlineaSem    lex:temConteudo    "B) Sem prejuízos do estabelecido no artigo 3º do presente Protocolo, a República da Colômbia terá prazo até 1º de julho de 1991, para colocar em vigor sua lista de exceções ajustadas até o limite máximo estabelecido no artigo 8º modificado pelo artigo 2º essa lista de exceções ajustada, os demais países signatários manterão, com relação a esse país, suas respectivas listas de exceções nos termos vigentes na data de subscrição deste Protocolo." .
+lex:D0805\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0805\/Artigo2    lex:temAlinea    lex:D0805\/Artigo2\/AlineaA .
+lex:D0805\/Artigo2\/AlineaA    lex:temConteudo    "C) A República Oriental do Uruguai iniciará a aplicação da preferência tarifária regional nos termos estabelecidos no presente Protocolo, a partir de 1º de janeiro de 1991." .
+lex:D0805\/Artigo2\/AlineaFaculta-se    lex:ehUm    lex:Alinea .
+lex:D0805\/Artigo2    lex:temAlinea    lex:D0805\/Artigo2\/AlineaFaculta-se .
+lex:D0805\/Artigo2\/AlineaFaculta-se    lex:temConteudo    "D) Faculta-se a Secretaria-Geral para elaborar o texto consolidado e concordato deste Acordo com estrita, sujeição ao disposto no texto original, em seu Primeiro Protocolo Modificativo e no presente." .

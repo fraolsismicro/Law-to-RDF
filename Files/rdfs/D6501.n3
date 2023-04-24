@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6501    lex:ehUm    lex:DocLegal .
+lex:D6501    lex:temTextoIntegral    lex:HTMLs\/D6501.htm .
+lex:D6501\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6501    lex:temArtigo    lex:D6501\/Artigo1 .
+lex:D6501\/Artigo1    lex:temConteudo    "Art. 1o  As Notas Complementares NC (18-1), NC (21-2) e NC (22-3) da Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto no 6.006, de 28 de dezembro de 2006, passam a vigorar com a seguinte redação:" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "I" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "C" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "D" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "L" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "M" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "V" .
+lex:D6501\/Artigo1\/Inciso    lex:ehUm    lex:Inciso .
+lex:D6501\/Artigo1    lex:temInciso    lex:D6501\/Artigo1\/Inciso .
+lex:D6501\/Artigo1\/Inciso    lex:temConteudo    "X" .
+lex:D6501\/Artigo2o-A    lex:ehUm    lex:Artigo .
+lex:D6501    lex:temArtigo    lex:D6501\/Artigo2o-A .
+lex:D6501\/Artigo2o-A    lex:temConteudo    "Art. 2o-A.  Excepcionalmente para o ano-calendário de 2008, o reenquadramento de que trata o § 9o do art. 150 do Decreto no 4.544, de 26 de dezembro de 2002 - Regulamento do Imposto sobre Produtos Industrializados - RIPI, deverá ser solicitado durante o mês de setembro de 2008, utilizando-se a média ponderada dos preços praticados nos doze meses anteriores à solicitação ou, tratando-se de início de comercialização de produto, dos meses em que tenha havido comercialização, caso não seja atingido esse período. (Incluído pelo Decreto nº 6.520, de 2008)" .
+lex:D6501\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6501    lex:temArtigo    lex:D6501\/Artigo3 .
+lex:D6501\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 1o de agosto de 2008." .
+lex:D6501\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6501    lex:temArtigo    lex:D6501\/Artigo3 .
+lex:D6501\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 1o de agosto de 2008, exceto quanto à alteração na Nota Complementar NC (22-3) de que trata o art. 1o, que produzirá efeitos a partir de 1o de outubro de 2008. (Redação dada pelo Decreto nº 6.520, de 2008)" .
+lex:D6501\/Artigo1    lex:remetePara    lex:D6006\/ .
+lex:D6501\/Artigo1\/Artigo2    lex:revogadoPor    lex:D7212\/Artigo617 .
+lex:D7212\/Artigo617    lex:revogou    lex:D6501\/Artigo1\/Artigo2 .
+lex:D6501\/Artigo1\/Texto00008    lex:remetePara    lex:D4544\/Artigo150\/Paragrafo9 .
+lex:D6501\/Artigo1\/Paragrafo9    lex:revogadoPor    lex:D7212\/Artigo617 .
+lex:D7212\/Artigo617    lex:revogou    lex:D6501\/Artigo1\/Paragrafo9 .
+lex:D6501\/Artigo1\/Paragrafo10    lex:revogadoPor    lex:D7212\/Artigo617 .
+lex:D7212\/Artigo617    lex:revogou    lex:D6501\/Artigo1\/Paragrafo10 .
+lex:D6501\/Artigo2o-A    lex:remetePara    lex:D6520\/Artigo1 .
+lex:D6501\/Paragrafo1    lex:remetePara    lex:D6520\/Artigo1 .
+lex:D6501\/Paragrafo2    lex:remetePara    lex:D6520\/Artigo1 .
+lex:D6501\/Artigo3    lex:remetePara    lex:D6520\/Artigo2 .

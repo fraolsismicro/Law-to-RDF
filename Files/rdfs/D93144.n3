@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93144    lex:ehUm    lex:DocLegal .
+lex:D93144    lex:temTextoIntegral    lex:HTMLs\/D93144.htm .
+lex:D93144\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93144    lex:temArtigo    lex:D93144\/Artigo1 .
+lex:D93144\/Artigo1    lex:temConteudo    "Art. 1º Ficam declaradas de ocupação dos indígenas Mura, para efeito dos artigos 4º, IV e 198, da Constituição, as terras localizadas no Município de Autazes, Estado do Amazonas, com a seguinte delimitação: NORTE: inicia-se no ponto 01, de coordenadas geográficas aproximadas 59º11´20' WGr. e 03º43´32' S, situado na confluência do Igarapé sem denominação com o Igarapé Boca do Limão; daí, segue pela margem esquerda do Igarapé Boca do Limão sentido montante, até encontrar o ponto 02, de coordenadas geográficas aproximadas 59º10´15' WGr. e 03º43´50' S, situado à margem esquerda do referido Igarapé. LESTE: desse ponto, segue por uma linha reta com azimute e distância aproximados de 183º00´ e 4.000m, até encontrar o ponto 03, de coordenadas geográficas aproximadas 59º10´20' WGr. e 03º46´00' S, situado na margem direita do Igarapé Tucumã. SUL: desse ponto, segue pela margem direta do Igarapé Tucumã sentido jusante, até encontrar o ponto 04, de coordenadas geográficas aproximadas 59º11´14' WGr. e 03º45´20' S, situado na confluência do Igarapé Tucumã com o Igarapé do Sampaio; daí, segue pela margem direita do Igarapé do Sampaio sentido jusante, até encontrar o ponto 05, de coordenadas geográficas aproximadas 59º12´00' WGr. e 03º44´36' S. OESTE: desse ponto, segue por uma linha reta de azimute e distância aproximados de 34º00´ e 1.500m, até encontrar o ponto 06, de coordenadas geográficas aproximadas 59º11´31' WGr. e 03º43´52' S, situado na cabeceira de um Igarapé sem denominação; daí, segue pela margem direita do referido Igarapé sentido jusante, até encontrar o ponto 01, inicial da presente descrição." .
+lex:D93144\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93144\/Artigo1    lex:temParagrafo    lex:D93144\/Artigo1\/ParagrafoUnico .
+lex:D93144\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A área descrita neste artigo, denominada Área Indígena PADRE, será demarcada administrativamente pela Fundação Nacional do Índio - FUNAI." .
+lex:D93144\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93144    lex:temArtigo    lex:D93144\/Artigo2 .
+lex:D93144\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D93144\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo4 .
+lex:D93144\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo198 .

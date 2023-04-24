@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8883    lex:ehUm    lex:DocLegal .
+lex:D8883    lex:temTextoIntegral    lex:HTMLs\/D8883.htm .
+lex:D8883\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8883    lex:temArtigo    lex:D8883\/Artigo1 .
+lex:D8883\/Artigo1    lex:temConteudo    "Art. 1 º  Fica alterado o Programa de Dispêndios Globais - PDG para 2016, aprovado pelo Decreto nº 8.632, de 30 de dezembro de 2015, na parte que se refere à Empresa Brasileira de Infraestrutura Aeroportuária - Infraero, conforme Anexo I." .
+lex:D8883\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8883    lex:temArtigo    lex:D8883\/Artigo2 .
+lex:D8883\/Artigo2    lex:temConteudo    "Art. 2 º  A empresa a que se refere o art. 1 º deverá:" .
+lex:D8883\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8883\/Artigo2    lex:temInciso    lex:D8883\/Artigo2\/IncisoI .
+lex:D8883\/Artigo2\/IncisoI    lex:temConteudo    "I - gerar, na execução do PDG, no exercício de 2016, o resultado fixado no Anexo II, calculado segundo o critério de necessidade de financiamento líquido; e" .
+lex:D8883\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8883\/Artigo2    lex:temInciso    lex:D8883\/Artigo2\/IncisoII .
+lex:D8883\/Artigo2\/IncisoII    lex:temConteudo    "II - observar, na execução dos investimentos, o teto da rubrica Investimentos constante do seu PDG e o limite de cada ação aprovado pela Lei n º 13.255, de 14 de janeiro de 2016, acrescido dos créditos adicionais aprovados em 2016." .
+lex:D8883\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8883    lex:temArtigo    lex:D8883\/Artigo3 .
+lex:D8883\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8883\/Artigo1    lex:remetePara    lex:D8632 .
+lex:D8883\/Artigo2\/IncisoII    lex:remetePara    lex:L13255 .

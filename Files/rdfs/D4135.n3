@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4135    lex:ehUm    lex:DocLegal .
+lex:D4135    lex:temTextoIntegral    lex:HTMLs\/D4135.htm .
+lex:D4135\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4135    lex:temParagrafo    lex:D4135\/ParagrafoUnico .
+lex:D4135\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Fica o Ministério dos Transportes autorizado a colocar à disposição do liquidante as dotações específicas consignadas em Lei Orçamentária, com a finalidade de complementar as despesas de liquidação, bem como fazer face aos débitos decorrentes de norma legal, ato administrativo ou contrato e das demais obrigações pecuniárias originárias do GEIPOT." .
+lex:D4135\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4135    lex:temParagrafo    lex:D4135\/ParagrafoUnico .
+lex:D4135\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os membros do Conselho Fiscal, que deverá funcionar durante o processo de liquidação da entidade, serão indicados, respectivamente, pelos Ministérios da Fazenda, do Planejamento, Orçamento e Gestão e dos Transportes, e designados pelo Ministro de Estado do Planejamento, Orçamento e Gestão." .
+lex:D4135\/Artigo1    lex:remetePara    lex:L10233\/Artigo102 .
+lex:D4135\/Paragrafo1    lex:remetePara    lex:L6223 .
+lex:D4135\/Artigo4    lex:remetePara    lex:L10233\/Artigo102 .
+lex:D4135\/Artigo4    lex:remetePara    lex:L10233\/Artigo114 .
+lex:D4135\/ParagrafoUnico    lex:revogadoPor    lex:D4839\/Artigo4 .
+lex:D4839\/Artigo4    lex:revogou    lex:D4135\/ParagrafoUnico .

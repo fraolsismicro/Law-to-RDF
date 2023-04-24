@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6040    lex:ehUm    lex:DocLegal .
+lex:D6040    lex:temTextoIntegral    lex:HTMLs\/D6040.htm .
+lex:D6040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6040    lex:temArtigo    lex:D6040\/Artigo1 .
+lex:D6040\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituída a Política Nacional de Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais - PNPCT, na forma do Anexo a este Decreto." .
+lex:D6040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6040    lex:temArtigo    lex:D6040\/Artigo2 .
+lex:D6040\/Artigo2    lex:temConteudo    "Art. 2o  Compete à Comissão Nacional de Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais - CNPCT, criada pelo Decreto de 13 de julho de 2006, coordenar a implementação da Política Nacional para o Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais." .
+lex:D6040\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6040    lex:temArtigo    lex:D6040\/Artigo3 .
+lex:D6040\/Artigo3    lex:temConteudo    "Art. 3o  Para os fins deste Decreto e do seu Anexo compreende-se por:" .
+lex:D6040\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6040\/Artigo3    lex:temInciso    lex:D6040\/Artigo3\/IncisoI .
+lex:D6040\/Artigo3\/IncisoI    lex:temConteudo    "I - Povos e Comunidades Tradicionais: grupos culturalmente diferenciados e que se reconhecem como tais, que possuem formas próprias de organização social, que ocupam e usam territórios e recursos naturais como condição para sua reprodução cultural, social, religiosa, ancestral e econômica, utilizando conhecimentos, inovações e práticas gerados e transmitidos pela tradição;" .
+lex:D6040\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6040\/Artigo3    lex:temInciso    lex:D6040\/Artigo3\/IncisoII .
+lex:D6040\/Artigo3\/IncisoII    lex:temConteudo    "II - Territórios Tradicionais: os espaços necessários a reprodução cultural, social e econômica dos povos e comunidades tradicionais, sejam eles utilizados de forma permanente ou temporária, observado, no que diz respeito aos povos indígenas e quilombolas, respectivamente, o que dispõem os arts. 231 da Constituição e 68 do Ato das Disposições Constitucionais Transitórias e demais regulamentações; e" .
+lex:D6040\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6040\/Artigo3    lex:temInciso    lex:D6040\/Artigo3\/IncisoIII .
+lex:D6040\/Artigo3\/IncisoIII    lex:temConteudo    "III - Desenvolvimento Sustentável: o uso equilibrado dos recursos naturais, voltado para a melhoria da qualidade de vida da presente geração, garantindo as mesmas possibilidades para as gerações futuras." .
+lex:D6040\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6040    lex:temArtigo    lex:D6040\/Artigo4 .
+lex:D6040\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6040\/Artigo2    lex:remetePara    lex:Dnn10884 .
+lex:D6040\/Artigo3\/IncisoII    lex:remetePara    lex:Constituiçao\/cfArtigo231 .
+lex:D6040\/Artigo3\/IncisoII    lex:remetePara    lex:Constituiçao\/dtArtigo68 .

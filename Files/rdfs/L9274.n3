@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9274    lex:ehUm    lex:DocLegal .
+lex:L9274    lex:temTextoIntegral    lex:HTMLs\/L9274.htm .
+lex:L9274\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9274    lex:temArtigo    lex:L9274\/Artigo1 .
+lex:L9274\/Artigo1    lex:temConteudo    "Art. 1º Ficam anistiados os débitos dos eleitores que deixaram de votar nas eleições de 3 de outubro e 15 de novembro, dos anos de 1992 e 1994, bem como, nas mesmas eleições, dos membros das Mesas Receptoras que deixaram de atender à convocação da Justiça Eleitoral." .
+lex:L9274\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9274\/Artigo1    lex:temParagrafo    lex:L9274\/Artigo1\/ParagrafoUnico .
+lex:L9274\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A anistia a que se refere este artigo aplica-se aos fatos definidos como crime no art. 344 da Lei n° 4.737, de 15 de julho de 1965 - Código Eleitoral." .
+lex:L9274\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9274    lex:temArtigo    lex:L9274\/Artigo2 .
+lex:L9274\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9274\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9274    lex:temArtigo    lex:L9274\/Artigo3 .
+lex:L9274\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrários." .
+lex:L9274\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L4737\/Artigo344 .

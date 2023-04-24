@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7794    lex:ehUm    lex:DocLegal .
+lex:L7794    lex:temTextoIntegral    lex:HTMLs\/L7794.htm .
+lex:L7794\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7794    lex:temArtigo    lex:L7794\/Artigo1 .
+lex:L7794\/Artigo1    lex:temConteudo    "Art. 1º O art. 2º da Lei nº 5.107, de 13 de setembro de 1966, passa a vigorar com a seguinte redação:" .
+lex:L7794\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7794\/Artigo1    lex:temParagrafo    lex:L7794\/Artigo1\/ParagrafoUnico .
+lex:L7794\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. ...........................'" .
+lex:L7794\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7794    lex:temArtigo    lex:L7794\/Artigo2 .
+lex:L7794\/Artigo2    lex:temConteudo    "Art. 2º O § 1º do art. 1º da Lei nº 6.919, de 2 de junho de 1981, passa a vigorar com a seguinte redação:" .
+lex:L7794\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7794\/Artigo2    lex:temParagrafo    lex:L7794\/Artigo2\/Paragrafo1 .
+lex:L7794\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º As empresas que exercerem a faculdade prevista neste artigo ficarão obrigadas a depositar, até o último dia de expediente bancário do primeiro decêndio de cada mês, em nome de cada um dos Diretores abrangidos pela decisão, importância correspondente a 8% (oito por cento) da remuneração paga ou devida no mês anterior, aplicando-se, no que não contrariar esta Lei, o disposto na Lei nº 5.107, de 13 de setembro de 1966.'" .
+lex:L7794\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7794    lex:temArtigo    lex:L7794\/Artigo3 .
+lex:L7794\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7794\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7794    lex:temArtigo    lex:L7794\/Artigo4 .
+lex:L7794\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7794\/Texto00001    lex:remetePara    lex:L5107\/Artigo2 .
+lex:L7794\/Artigo2\/Paragrafo1    lex:remetePara    lex:L6919\/Artigo1\/Paragrafo1 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97280    lex:ehUm    lex:DocLegal .
+lex:D97280    lex:temTextoIntegral    lex:HTMLs\/D97280.htm .
+lex:D97280\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97280    lex:temArtigo    lex:D97280\/Artigo1 .
+lex:D97280\/Artigo1    lex:temConteudo    "Art. 1º O inciso III e § 2º do art. 47 do Decreto nº 41.019, de 26 de fevereiro de 1957, alterado pelo art. 1° do Decreto n° 73.080, de 5 de novembro de 1973, passam a ter a seguinte redação:" .
+lex:D97280\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D97280\/Artigo1    lex:temParagrafo    lex:D97280\/Artigo1\/Paragrafo2 .
+lex:D97280\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Tensões nominais de transmissão e subtrasmissão ou distribuição primária diferentes das indicadas neste artigo, somente poderão ser utilizadas em reforço ou extensão de linhas ou redes já existentes, desde que técnica e economicamente justificável." .
+lex:D97280\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97280    lex:temArtigo    lex:D97280\/Artigo2 .
+lex:D97280\/Artigo2    lex:temConteudo    "Art. 2º Ficam acrescentados ao art. 47 do Decreto nº 41.019, de 26 fevereiro de 1957, alterado pelo art. 1º do Decreto nº 73.080, de 5 de novembro de 1973, os §§ 5° e 6º com a seguinte redação:" .
+lex:D97280\/Artigo2\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D97280\/Artigo2    lex:temParagrafo    lex:D97280\/Artigo2\/Paragrafo6 .
+lex:D97280\/Artigo2\/Paragrafo6    lex:temConteudo    "§ 6º As concessionárias poderão optar por planos de implantação diferentes do estabelecido no § 5º, desde que previamente aprovados pelo DNAEE.'" .
+lex:D97280\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D97280    lex:temArtigo    lex:D97280\/Artigo3 .
+lex:D97280\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D97280\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D97280    lex:temArtigo    lex:D97280\/Artigo4 .
+lex:D97280\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:D97280\/Texto00001    lex:remetePara    lex:D41019\/Artigo47 .
+lex:D97280\/Artigo1\/Paragrafo2    lex:remetePara    lex:D41019\/Artigo47\/Paragrafo2 .
+lex:D97280\/Artigo2    lex:remetePara    lex:D41019\/Artigo47 .
+lex:D97280\/Texto00003    lex:remetePara    lex:D41019\/Artigo47\/Paragrafo5 .
+lex:D97280\/Artigo2\/Paragrafo6    lex:remetePara    lex:D41019\/Artigo47\/Paragrafo6 .

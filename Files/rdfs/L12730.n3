@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12730    lex:ehUm    lex:DocLegal .
+lex:L12730    lex:temTextoIntegral    lex:HTMLs\/L12730.htm .
+lex:L12730\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12730    lex:temArtigo    lex:L12730\/Artigo1 .
+lex:L12730\/Artigo1    lex:temConteudo    "Art. 1o  O art. 3o do Decreto-Lei no 467, de 13 de fevereiro de 1969, passa a vigorar com a seguinte redação:" .
+lex:L12730\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12730\/Artigo1    lex:temParagrafo    lex:L12730\/Artigo1\/Paragrafo2 .
+lex:L12730\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A licença que habilitará a comercialização dos produtos de uso veterinário elaborados no País ou importados, total ou parcialmente, será válida por 10 (dez) anos." .
+lex:L12730\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12730\/Artigo1    lex:temParagrafo    lex:L12730\/Artigo1\/Paragrafo3 .
+lex:L12730\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o (Revogado)." .
+lex:L12730\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12730    lex:temArtigo    lex:L12730\/Artigo2 .
+lex:L12730\/Artigo2    lex:temConteudo    "Art. 2o Revogam-se o § 3º do art. 3º e o art. 4º, todos do Decreto-Lei nº 467, de 13 de fevereiro de 1969." .
+lex:L12730\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12730    lex:temArtigo    lex:L12730\/Artigo3 .
+lex:L12730\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L12730\/Artigo1    lex:remetePara    lex:Del0467 .
+lex:L12730\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del0467\/Artigo3\/Paragrafo2 .
+lex:L12730\/Artigo2    lex:remetePara    lex:Del0467\/Artigo3\/Paragrafo3 .
+lex:L12730\/Artigo2    lex:remetePara    lex:Del0467\/Artigo4 .

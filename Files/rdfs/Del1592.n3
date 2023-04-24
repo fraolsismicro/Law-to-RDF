@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1592    lex:ehUm    lex:DocLegal .
+lex:Del1592    lex:temTextoIntegral    lex:HTMLs\/Del1592.htm .
+lex:Del1592\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1592    lex:temArtigo    lex:Del1592\/Artigo1 .
+lex:Del1592\/Artigo1    lex:temConteudo    "Art. 1º - O Grupo-Direção e Assistência Intermediárias, do Plano de Classificação de Cargos do Serviço Civil do Distrito Federal, será implantado a partir de 1º de janeiro de 1978, condicionando-se a implantação, no caso da existência da correspondente função em comissão, à vacância e supressão desta." .
+lex:Del1592\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1592\/Artigo1    lex:temParagrafo    lex:Del1592\/Artigo1\/Paragrafo1 .
+lex:Del1592\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A designação para função do Grupo-Direção e Assistência Intermediárias acarretará a extinção e supressão automática da correspondente função em comissão." .
+lex:Del1592\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1592\/Artigo1    lex:temParagrafo    lex:Del1592\/Artigo1\/Paragrafo2 .
+lex:Del1592\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - A implantação do Grupo-Direção e Assistência Intermediárias deverá estar concluída em 31 de dezembro de 1978, extinguindo-se e suprimindo-se, automaticamente, nesta data, as funções em comissão remanescentes. (Vide Decreto-Lei nº 1.646, de 1978)" .
+lex:Del1592\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1592    lex:temArtigo    lex:Del1592\/Artigo2 .
+lex:Del1592\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1592\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del1646\/Artigo1 .

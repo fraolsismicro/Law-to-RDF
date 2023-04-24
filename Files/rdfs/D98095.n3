@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98095    lex:ehUm    lex:DocLegal .
+lex:D98095    lex:temTextoIntegral    lex:HTMLs\/D98095.htm .
+lex:D98095\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo1 .
+lex:D98095\/Artigo1    lex:temConteudo    "Art. 1° É suspensa a liquidação do Banco de Roraima S.A. - BANRORAIMA, determinada pelo Decreto n° 96.583, de 24 de agosto de 1988." .
+lex:D98095\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D98095\/Artigo1    lex:temParagrafo    lex:D98095\/Artigo1\/ParagrafoUnico .
+lex:D98095\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo fica condicionado a que o Estado de Roraima assuma o compromisso de cumprir as obrigações do BANRORAIMA perante o Tesouro nacional, relativas aos recursos da reserva monetária aplicados no pagamento do passivo da instituição, bem como promova a capitalização do BANRORAIMA a níveis adequados." .
+lex:D98095\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo2 .
+lex:D98095\/Artigo2    lex:temConteudo    "Art. 2° Suspensa a liquidação, o Banco da Amazônia S.A., ex-liqüidante do BANRORAIMA, em 15 dias, convocará Assembléia Geral Extraordinária para prestação de contas e eleição dos administradores." .
+lex:D98095\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo3 .
+lex:D98095\/Artigo3    lex:temConteudo    "Art. 3° Nas Assembléias Gerais do BANRORAIMA, o Estado de Roraima exercerá os direitos de voto, em nome da União." .
+lex:D98095\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo4 .
+lex:D98095\/Artigo4    lex:temConteudo    "Art. 4° O Poder Executivo da União adotará providências que conduzam à transferência, ao Estado de Roraima, do controle acionário da instituição, quando for referendado pelo Legislativo Estadual o ato de que trata o parágrafo único do art.1°." .
+lex:D98095\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo5 .
+lex:D98095\/Artigo5    lex:temConteudo    "Art. 5° Este Decreto entra em vigor na data de sua publicação." .
+lex:D98095\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D98095    lex:temArtigo    lex:D98095\/Artigo6 .
+lex:D98095\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:D98095\/Artigo1    lex:remetePara    lex:D96583 .

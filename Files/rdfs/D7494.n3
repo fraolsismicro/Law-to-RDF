@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7494    lex:ehUm    lex:DocLegal .
+lex:D7494    lex:temTextoIntegral    lex:HTMLs\/D7494.htm .
+lex:D7494\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7494    lex:temArtigo    lex:D7494\/Artigo1 .
+lex:D7494\/Artigo1    lex:temConteudo    "Art. 1o  O inciso II do art. 19 do Decreto no 5.209, de 17 de setembro de 2004, passa a vigorar com a seguinte redação:" .
+lex:D7494\/Artigo1\/AlineaGestantes    lex:ehUm    lex:Alinea .
+lex:D7494\/Artigo1    lex:temAlinea    lex:D7494\/Artigo1\/AlineaGestantes .
+lex:D7494\/Artigo1\/AlineaGestantes    lex:temConteudo    "a) gestantes;" .
+lex:D7494\/Artigo1\/AlineaNutrizes    lex:ehUm    lex:Alinea .
+lex:D7494\/Artigo1    lex:temAlinea    lex:D7494\/Artigo1\/AlineaNutrizes .
+lex:D7494\/Artigo1\/AlineaNutrizes    lex:temConteudo    "b) nutrizes;" .
+lex:D7494\/Artigo1\/AlineaCriancas    lex:ehUm    lex:Alinea .
+lex:D7494\/Artigo1    lex:temAlinea    lex:D7494\/Artigo1\/AlineaCriancas .
+lex:D7494\/Artigo1\/AlineaCriancas    lex:temConteudo    "c) crianças entre zero e doze anos; ou" .
+lex:D7494\/Artigo1\/AlineaAdolescentes    lex:ehUm    lex:Alinea .
+lex:D7494\/Artigo1    lex:temAlinea    lex:D7494\/Artigo1\/AlineaAdolescentes .
+lex:D7494\/Artigo1\/AlineaAdolescentes    lex:temConteudo    "d) adolescentes até quinze anos; (NR)" .
+lex:D7494\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7494\/Artigo1    lex:temParagrafo    lex:D7494\/Artigo1\/ParagrafoUnico .
+lex:D7494\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O aumento do número de benefícios variáveis atualmente percebidos pelas famílias beneficiárias, decorrente da alteração prevista no caput, ocorrerá nos termos de cronograma a ser definido em ato do Ministro de Estado do Desenvolvimento Social e Combate à Fome." .
+lex:D7494\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7494    lex:temArtigo    lex:D7494\/Artigo2 .
+lex:D7494\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7494\/Texto00001    lex:remetePara    lex:D5209\/Artigo19 .

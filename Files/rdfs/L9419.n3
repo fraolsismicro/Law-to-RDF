@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9419    lex:ehUm    lex:DocLegal .
+lex:L9419    lex:temTextoIntegral    lex:HTMLs\/L9419.htm .
+lex:L9419\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9419    lex:temArtigo    lex:L9419\/Artigo1 .
+lex:L9419\/Artigo1    lex:temConteudo    "Art 1° Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei n° 9.275, de 9 de maio de 1996), em favor do Ministério da Justiça - Departamento de Polícia Federal e Fundo de Prevenção, Recuperação e de Combate as Drogas de Abuso, crédito especial ate o limite de R$ 3.452.310,00 (três milhões, quatrocentos e cinqüenta e dois mil, trezentos e dez reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L9419\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9419\/Artigo1    lex:temParagrafo    lex:L9419\/Artigo1\/ParagrafoUnico .
+lex:L9419\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo decorrerão do cancelamento parcial da dotação indicada no Anexo II desta Lei, nos montantes especificados." .
+lex:L9419\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9419    lex:temArtigo    lex:L9419\/Artigo2 .
+lex:L9419\/Artigo2    lex:temConteudo    "Art. 2º Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei n° 9.275, de 9 de maio de 1996), em favor do Ministério da Justiça - Fundo de Imprensa Nacional, crédito suplementar no valor de R$6.120.000.00 (seis milhões, cento e vinte mil reais), para atender à programação constante do Anexo III desta Lei." .
+lex:L9419\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9419\/Artigo2    lex:temParagrafo    lex:L9419\/Artigo2\/ParagrafoUnico .
+lex:L9419\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo decorrerão de incorporação de saldos de exercícios anteriores, conforme o Anexo IV desta Lei, no montante especificado." .
+lex:L9419\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9419    lex:temArtigo    lex:L9419\/Artigo3 .
+lex:L9419\/Artigo3    lex:temConteudo    "Art. 3° Em decorrência do disposto nesta Lei, fica alterada a receita do Fundo de Imprensa Nacional, de acordo com o Anexo IV desta Lei." .
+lex:L9419\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9419    lex:temArtigo    lex:L9419\/Artigo4 .
+lex:L9419\/Artigo4    lex:temConteudo    "Art. 4° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9419\/Artigo1    lex:remetePara    lex:L9275 .
+lex:L9419\/Artigo2    lex:remetePara    lex:L9275 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0560    lex:ehUm    lex:DocLegal .
+lex:Del0560    lex:temTextoIntegral    lex:HTMLs\/Del0560.htm .
+lex:Del0560\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0560    lex:temArtigo    lex:Del0560\/Artigo1 .
+lex:Del0560\/Artigo1    lex:temConteudo    "Art. 1º Os artigos 3º e 4º, caput da Lei nº 5.449, de 4 de junho de 1968, passam a vigorar com a seguinte redação:" .
+lex:Del0560\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0560\/Artigo1    lex:temParagrafo    lex:Del0560\/Artigo1\/Paragrafo1 .
+lex:Del0560\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O Prefeito que tiver de se ausentar da sede do Município, por prazo superior ao previsto neste artigo, dará ciência prévia ao Governador do respectivo Es-um substituto." .
+lex:Del0560\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0560\/Artigo1    lex:temParagrafo    lex:Del0560\/Artigo1\/Paragrafo2 .
+lex:Del0560\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Dentro do prazo de cinco (5) dias a contar do recebimento da comunicação referida no parágrafo anterior, o Governador do Estado deverá submeter o nome do Prefeito substituto à aprovação do Presidente da República por intermédio do Ministro da Justiça." .
+lex:Del0560\/Artigo1\/ParagrafoEste    lex:ehUm    lex:Paragrafo .
+lex:Del0560\/Artigo1    lex:temParagrafo    lex:Del0560\/Artigo1\/ParagrafoEste .
+lex:Del0560\/Artigo1\/ParagrafoEste    lex:temConteudo    "Art.2º Êste decreto-lei entra em vigor na data de sua publicação, revogadas as disposições com contrário." .
+lex:Del0560\/Texto00001    lex:remetePara    lex:L5449\/Artigo3 .
+lex:Del0560\/Artigo1\/Texto00003    lex:remetePara    lex:L5449\/Artigo4 .

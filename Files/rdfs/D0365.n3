@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0365    lex:ehUm    lex:DocLegal .
+lex:D0365    lex:temTextoIntegral    lex:HTMLs\/D0365.htm .
+lex:D0365\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0365    lex:temArtigo    lex:D0365\/Artigo1 .
+lex:D0365\/Artigo1    lex:temConteudo    "Art. 1° O registro dos reinvestimentos de lucros decorrentes de investimentos de capitais estrangeiros, efetuados na forma da Lei n° 4.131, de 3 de setembro de 1962, será levado a efeito simultaneamente em moeda nacional e na moeda do país para o qual poderiam ter sido remetidos os rendimentos, observado o disposto no artigo seguinte." .
+lex:D0365\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0365\/Artigo1    lex:temParagrafo    lex:D0365\/Artigo1\/Paragrafo1 .
+lex:D0365\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° O valor do registro em moeda estrangeira será calculado mediante aplicação da taxa cambial média verificada na data do aumento de capital." .
+lex:D0365\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0365\/Artigo1    lex:temParagrafo    lex:D0365\/Artigo1\/Paragrafo2 .
+lex:D0365\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Caberá ao Banco Central do Brasil apurar a taxa cambial média a que se refere o parágrafo anterior." .
+lex:D0365\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0365    lex:temArtigo    lex:D0365\/Artigo2 .
+lex:D0365\/Artigo2    lex:temConteudo    "Art. 2° As disposições deste decreto são aplicáveis nos lucros reinvestidos mediante utilização em aumento de capital, a partir de 1° de janeiro de 1992." .
+lex:D0365\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0365    lex:temArtigo    lex:D0365\/Artigo3 .
+lex:D0365\/Artigo3    lex:temConteudo    "Art. 3° Este decreto entra em vigor na data de sua publicação." .

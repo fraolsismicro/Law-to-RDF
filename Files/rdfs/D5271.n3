@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5271    lex:ehUm    lex:DocLegal .
+lex:D5271    lex:temTextoIntegral    lex:HTMLs\/D5271.htm .
+lex:D5271\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5271    lex:temArtigo    lex:D5271\/Artigo1 .
+lex:D5271\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 25 e 41 do Decreto no 5.163, de 30 de julho de 2004, passam a vigorar com a seguinte redação:" .
+lex:D5271\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5271\/Artigo1    lex:temInciso    lex:D5271\/Artigo1\/IncisoII .
+lex:D5271\/Artigo1\/IncisoII    lex:temConteudo    "II - repasse limitado a setenta por cento do valor médio do custo de aquisição de energia elétrica proveniente de empreendimentos existentes para entrega a partir de 2005 e até 2009, referente à parcela que exceder o um por cento referido no inciso I.' (NR)" .
+lex:D5271\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5271    lex:temArtigo    lex:D5271\/Artigo2 .
+lex:D5271\/Artigo2    lex:temConteudo    "Art. 2o  Fica revogado o § 2o do art. 27 do Decreto no 5.163, de 30 de julho de 2004." .
+lex:D5271\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5271    lex:temArtigo    lex:D5271\/Artigo3 .
+lex:D5271\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5271\/Texto00001    lex:remetePara    lex:D5163\/Artigo25 .
+lex:D5271\/Artigo1\/IncisoII    lex:remetePara    lex:D5163\/Artigo41 .
+lex:D5271\/Artigo2    lex:remetePara    lex:D5163\/Artigo27\/Paragrafo2 .

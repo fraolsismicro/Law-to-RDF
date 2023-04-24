@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4391    lex:ehUm    lex:DocLegal .
+lex:L4391    lex:temTextoIntegral    lex:HTMLs\/L4391.htm .
+lex:L4391\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4391    lex:temArtigo    lex:L4391\/Artigo1 .
+lex:L4391\/Artigo1    lex:temConteudo    "Art. 1º Fica revalidada a autorização ao Poder Executivo constante do artigo 4º da Lei nº 4.106, de 26 de julho de 1962, para a abertura, pelo Ministério da Fazenda, do crédito especial de Cr$ 100.000.000,00 (cem milhões de cruzeiros) destinado ao cumprimento dessa mesma lei." .
+lex:L4391\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4391    lex:temArtigo    lex:L4391\/Artigo2 .
+lex:L4391\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4391\/Artigo1    lex:remetePara    lex:L4106\/Artigo4 .

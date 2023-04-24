@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6824    lex:ehUm    lex:DocLegal .
+lex:L6824    lex:temTextoIntegral    lex:HTMLs\/L6824.htm .
+lex:L6824\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo1 .
+lex:L6824\/Artigo1    lex:temConteudo    "Art. 1º Fica criada a Seção Judiciária da Justiça Federal no Estado de Mato Grosso do Sul, com sede em Campo Grande e jurisdição em todo o Território do Estado." .
+lex:L6824\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6824\/Artigo1    lex:temParagrafo    lex:L6824\/Artigo1\/ParagrafoUnico .
+lex:L6824\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Seção Judiciária de que trata o presente artigo integrará a 2ª Região Judiciária da Justiça Federal de Primeira Instância, para os efeitos do disposto no artigo 14 da Lei nº 5.677, de 19 de julho de 1971." .
+lex:L6824\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo2 .
+lex:L6824\/Artigo2    lex:temConteudo    "Art. 2º Ficam criados os seguintes cargos:" .
+lex:L6824\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6824\/Artigo2    lex:temInciso    lex:L6824\/Artigo2\/IncisoI .
+lex:L6824\/Artigo2\/IncisoI    lex:temConteudo    "I - no quadro de Juízes da Justiça Federal:" .
+lex:L6824\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6824\/Artigo2    lex:temInciso    lex:L6824\/Artigo2\/IncisoII .
+lex:L6824\/Artigo2\/IncisoII    lex:temConteudo    "II - no Quadro Permanente das Secretarias das Seções Judiciárias da Justiça Federal de Primeira Instância:" .
+lex:L6824\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo3 .
+lex:L6824\/Artigo3    lex:temConteudo    "Art. 3º A Comissão de Instalação da Seção Judiciária do Estado de Mato Grosso do Sul será designada pelo Conselho da Justiça Federal." .
+lex:L6824\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo4 .
+lex:L6824\/Artigo4    lex:temConteudo    "Art. 4º Enquanto não for instalada a Seção Judiciária do Estado de Mato Grosso do Sul, continuará com jurisdição sobre o seu território a Seção Judiciária do Estado de Mato Grosso." .
+lex:L6824\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6824\/Artigo4    lex:temParagrafo    lex:L6824\/Artigo4\/ParagrafoUnico .
+lex:L6824\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Após a instalação da Seção Judiciária de que trata esta Lei, serão remetidos à Seção Judiciária do Estado de Mato Grosso do Sul os processos que passarem à sua competência, na forma das instruções baixadas pelo Conselho da Justiça Federal." .
+lex:L6824\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo5 .
+lex:L6824\/Artigo5    lex:temConteudo    "Art. 5º O Conselho da Justiça Federal expedirá os demais atos necessários à execução desta Lei." .
+lex:L6824\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo6 .
+lex:L6824\/Artigo6    lex:temConteudo    "Art. 6º As despesas necessárias à instalação e funcionamento da Seção Judiciária do Estado de Mato Grosso do Sul correrão à conta das dotações orçamentárias consignadas em favor da Justiça Federal de Primeira Instância ou de outras para esse fim destinadas." .
+lex:L6824\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo7 .
+lex:L6824\/Artigo7    lex:temConteudo    "Art. 7º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6824\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L6824    lex:temArtigo    lex:L6824\/Artigo8 .
+lex:L6824\/Artigo8    lex:temConteudo    "Art. 8º Ficam revogadas as disposições em contrário." .
+lex:L6824\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5677\/Artigo14 .

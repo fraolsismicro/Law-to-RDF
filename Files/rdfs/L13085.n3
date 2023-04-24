@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13085    lex:ehUm    lex:DocLegal .
+lex:L13085    lex:temTextoIntegral    lex:HTMLs\/L13085.htm .
+lex:L13085\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13085    lex:temArtigo    lex:L13085\/Artigo1 .
+lex:L13085\/Artigo1    lex:temConteudo    "Art. 1o Fica instituído o Dia Nacional de Atenção à Dislexia, a ser comemorado no dia 16 de novembro de cada ano." .
+lex:L13085\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13085\/Artigo1    lex:temParagrafo    lex:L13085\/Artigo1\/ParagrafoUnico .
+lex:L13085\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Dia Nacional de Atenção à Dislexia será comemorado com eventos sociais, culturais e educativos destinados a difundir informações sobre a doença, conscientizar a sociedade e mostrar a importância do diagnóstico e tratamento precoces." .
+lex:L13085\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13085    lex:temArtigo    lex:L13085\/Artigo2 .
+lex:L13085\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .

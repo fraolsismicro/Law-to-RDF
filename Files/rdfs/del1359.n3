@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:del1359    lex:ehUm    lex:DocLegal .
+lex:del1359    lex:temTextoIntegral    lex:HTMLs\/del1359.htm .
+lex:del1359\/Artigo1    lex:ehUm    lex:Artigo .
+lex:del1359    lex:temArtigo    lex:del1359\/Artigo1 .
+lex:del1359\/Artigo1    lex:temConteudo    "Art. 1º É autorizada a utilização, no exercício de 1975, do saldo remanescente dos recursos a que se refere o artigo 6º, § 1º, da Lei nº 6.062, de 25 de junho de 1974, destinados a despesas de organização e instalação do Ministério da Previdência e Assistência Social." .
+lex:del1359\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:del1359\/Artigo1    lex:temParagrafo    lex:del1359\/Artigo1\/ParagrafoUnico .
+lex:del1359\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para ressarcir o Fundo de Liquidez da Previdência Social das importâncias dispendidas nos exercícios de 1974 e 1975, serão incluídos recursos nas propostas orçamentárias de 1976 de 1977, respectivamente, conforme previsto no § 2º do citado dispositivo legal." .
+lex:del1359\/Artigo2    lex:ehUm    lex:Artigo .
+lex:del1359    lex:temArtigo    lex:del1359\/Artigo2 .
+lex:del1359\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:del1359\/Artigo1    lex:remetePara    lex:L6062\/Artigo6\/Paragrafo1 .

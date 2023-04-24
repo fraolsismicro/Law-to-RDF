@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91256    lex:ehUm    lex:DocLegal .
+lex:D91256    lex:temTextoIntegral    lex:HTMLs\/D91256.htm .
+lex:D91256\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D91256    lex:temArtigo    lex:D91256\/Artigo1 .
+lex:D91256\/Artigo1    lex:temConteudo    "Art. 1º O item II do Art. 1º do Decreto nº 72.021, de 28 de março de 1973, passa a vigorar com a seguinte redação:" .
+lex:D91256\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D91256\/Artigo1    lex:temInciso    lex:D91256\/Artigo1\/IncisoII .
+lex:D91256\/Artigo1\/IncisoII    lex:temConteudo    "II - Ministério do Exército:" .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao    lex:temConteudo    "a) Missão Militar Brasileira de Instrução no Paraguai;" .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao    lex:temConteudo    "b) Comissão do Exército Brasileiro em Washington;" .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial    lex:temConteudo    "c) Oficial de ligação junto ao Departamento de Doutrina e Instrução do Exército dos EUA (TRADOC);" .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao    lex:temConteudo    "d) Comissão Mista Brasil-Equador (Subcomissão Técnica de Transportes)," .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:temConteudo    "e) Comissão Mista Brasileiro-Paraguaia (Construção da Rodovia Concepcioñ - Ponta Porã);" .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:temIncisoAlinea    lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaComissao .
+lex:D91256\/Artigo1\/IncisoII\/IncisoAlineaMissao\/IncisoAlineaComissao\/IncisoAlineaOficial\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:temConteudo    "f) Comissão Permanente de Comunicações Militares Interamericanas." .
+lex:D91256\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D91256    lex:temArtigo    lex:D91256\/Artigo2 .
+lex:D91256\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D91256\/Artigo1    lex:remetePara    lex:D72021\/Artigo1 .

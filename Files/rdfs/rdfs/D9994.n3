@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9994    lex:ehUm    lex:DocLegal .
+lex:D9994    lex:temTextoIntegral    lex:HTMLs\/D9994.htm .
+lex:D9994\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9994    lex:temArtigo    lex:D9994\/Artigo1A .
+lex:D9994\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 9.366, de 8 de maio de 2018 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9994\/Artigo1A\/AlineaProduAAo    lex:ehUm    lex:Alinea .
+lex:D9994\/Artigo1A    lex:temAlinea    lex:D9994\/Artigo1A\/AlineaProduAAo .
+lex:D9994\/Artigo1A\/AlineaProduAAo    lex:temConteudo    "a) produÃ§Ã£o acadÃªmica, incluÃ­da aquela realizada em curso de extensÃ£o universitÃ¡ria;" .
+lex:D9994\/Artigo1A\/AlineaAutoria    lex:ehUm    lex:Alinea .
+lex:D9994\/Artigo1A    lex:temAlinea    lex:D9994\/Artigo1A\/AlineaAutoria .
+lex:D9994\/Artigo1A\/AlineaAutoria    lex:temConteudo    "b) autoria ou coautoria de artigos publicados em revistas especializadas, jornais cientÃ­ficos e periÃ³dicos e de trabalhos publicados em anais de congresso;" .
+lex:D9994\/Artigo1A\/AlineaParticipaAAo    lex:ehUm    lex:Alinea .
+lex:D9994\/Artigo1A    lex:temAlinea    lex:D9994\/Artigo1A\/AlineaParticipaAAo .
+lex:D9994\/Artigo1A\/AlineaParticipaAAo    lex:temConteudo    "c) participaÃ§Ã£o como instrutor em cursos de formaÃ§Ã£o para ingresso na carreira por, no mÃ­nimo, quatro horas ou em cursos tÃ©cnicos ofertados no plano anual de capacitaÃ§Ã£o do Ã³rgÃ£o ou da entidade; ou" .
+lex:D9994\/Artigo1A\/AlineaApresentaAAo    lex:ehUm    lex:Alinea .
+lex:D9994\/Artigo1A    lex:temAlinea    lex:D9994\/Artigo1A\/AlineaApresentaAAo .
+lex:D9994\/Artigo1A\/AlineaApresentaAAo    lex:temConteudo    "d) apresentaÃ§Ã£o em congressos e seminÃ¡rios." .
+lex:D9994\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9994    lex:temArtigo    lex:D9994\/Artigo2A .
+lex:D9994\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Anexo ao Decreto nÂº 9.366, de 2018 , passa a vigorar na forma do Anexo a este Decreto ." .
+lex:D9994\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9994    lex:temArtigo    lex:D9994\/Artigo3A .
+lex:D9994\/Artigo3A    lex:temConteudo    "Art. 3Âº  O requisito de certificaÃ§Ã£o em curso de especializaÃ§Ã£o para promoÃ§Ã£o da primeira classe para a classe especial, constante do Anexo ao Decreto nÂº 9.366, de 8 de maio de 2018 , nÃ£o se aplica aos servidores, que, em 8 de maio de 2018, encontravam-se nos padrÃµes da primeira classe." .
+lex:D9994\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D9994    lex:temArtigo    lex:D9994\/Artigo4A .
+lex:D9994\/Artigo4A    lex:temConteudo    "Art. 4Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D9994\/Artigo1A    lex:remetePara    lex:D9366 .
+lex:D9994\/Artigo1A\/AlineaProduAAo    lex:remetePara    lex:D9366\/Artigo2Â§3iia0 .
+lex:D9994\/Artigo2A    lex:remetePara    lex:D9366\/anexo0 .
+lex:D9994\/Artigo3A    lex:remetePara    lex:D9366\/anexo0 .
+lex:D9994\/Texto00008    lex:remetePara    lex:D9366\/anexo0 .

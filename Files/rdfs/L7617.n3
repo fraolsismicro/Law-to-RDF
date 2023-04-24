@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7617    lex:ehUm    lex:DocLegal .
+lex:L7617    lex:temTextoIntegral    lex:HTMLs\/L7617.htm .
+lex:L7617\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo1 .
+lex:L7617\/Artigo1    lex:temConteudo    "Art. 1º O inciso I do art. 1º da Lei nº 7.119, de 30 de agosto de 1983, passa a vigorar com a seguinte redação:" .
+lex:L7617\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7617\/Artigo1    lex:temInciso    lex:L7617\/Artigo1\/IncisoI .
+lex:L7617\/Artigo1\/IncisoI    lex:temConteudo    "I - O Tribunal Regional do Trabalho da 1ª Região compor-se-á de 29 (vinte e nove) Juízes, sendo 19 (dezenove) togados, vitalícios, e 10 (dez) classistas, temporários.'" .
+lex:L7617\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo2 .
+lex:L7617\/Artigo2    lex:temConteudo    "Art. 2º Para atender à composição a que se refere o artigo anterior ficam criados 2 (dois) cargos de Juiz togado vitalício, a serem providos mediante promoção de Juízes do Trabalho Presidentes de Junta de Conciliação e Julgamento, na forma da legislação em vigor." .
+lex:L7617\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo3 .
+lex:L7617\/Artigo3    lex:temConteudo    "Art. 3º Serão eleitos, dentre os Juízes togados, vitalícios do Tribunal, um Corregedor e um Vice-Corregedor Regional, cujas atribuições e divisão de tarefas serão fixadas em Regimento Interno." .
+lex:L7617\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7617\/Artigo3    lex:temParagrafo    lex:L7617\/Artigo3\/ParagrafoUnico .
+lex:L7617\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os mandatos do Corregedor e Vice-Corregedor Regional coincidirão com os do Presidente e Vice-Presidente." .
+lex:L7617\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo4 .
+lex:L7617\/Artigo4    lex:temConteudo    "Art. 4º Ficam criados 2 (dois) cargos, em comissão, de Assessor de Juiz, Código TRT-1ª. - DAS-102, cujo enquadramento se fará, nos termos do art. 4º da Lei nº 7.267, de 5 de dezembro de 1984, por deliberação do Tribunal, observados os limites constantes da legislação vigente." .
+lex:L7617\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo5 .
+lex:L7617\/Artigo5    lex:temConteudo    "Art. 5º As despesas decorrentes da aplicação desta lei serão absorvidas pelos recursos alocados no orçamento do Tribunal." .
+lex:L7617\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo6 .
+lex:L7617\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7617\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7617    lex:temArtigo    lex:L7617\/Artigo7 .
+lex:L7617\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se as disposições em contrário." .
+lex:L7617\/Artigo1\/IncisoI    lex:remetePara    lex:L7119\/Artigo1 .
+lex:L7617\/Artigo4    lex:remetePara    lex:L7267\/Artigo4 .

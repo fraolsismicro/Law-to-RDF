@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D65193    lex:ehUm    lex:DocLegal .
+lex:D65193    lex:temTextoIntegral    lex:HTMLs\/D65193.htm .
+lex:D65193\/Alinea    lex:ehUm    lex:Alinea .
+lex:D65193    lex:temAlinea    lex:D65193\/Alinea .
+lex:D65193\/Alinea    lex:temConteudo    "c) ............................................................................................................................................." .
+lex:D65193\/Alinea\/Item    lex:ehUm    lex:Item .
+lex:D65193\/Alinea    lex:temItem    lex:D65193\/Alinea\/Item .
+lex:D65193\/Alinea\/Item    lex:temConteudo    "...................................................................................................................................................." .
+lex:D65193\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D65193    lex:temParagrafo    lex:D65193\/ParagrafoUnico .
+lex:D65193\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para efeito dêste Decreto, é considerado como 'comissão no exterior', o desempenho dos cargos de Adido ou Adjunto de Adido Militar, bem como de qualquer função militar prevista, regularmente, com duração mínima de 1 (um) ano, para atender às necessidades normais do aparelhamento material ou profissional de cada Fôrça'." .
+lex:D65193\/Texto    lex:remetePara    lex:D65193 .
+lex:D65193\/Alinea\/Texto00002    lex:remetePara    lex:D62797\/Artigo1c3 .
+lex:D65193\/ParagrafoUnico    lex:remetePara    lex:D62797\/Artigo12 .

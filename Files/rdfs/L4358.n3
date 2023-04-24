@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4358    lex:ehUm    lex:DocLegal .
+lex:L4358    lex:temTextoIntegral    lex:HTMLs\/L4358.htm .
+lex:L4358\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4358    lex:temArtigo    lex:L4358\/Artigo1 .
+lex:L4358\/Artigo1    lex:temConteudo    "Art. 1º É acrescentado um parágrafo ao art. 9º do Decreto-lei número 3.198, de 14 de abril de 1941, que reorganiza a Administração do Pôrto do Rio de Janeiro, com a seguinte redação:" .
+lex:L4358\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4358\/Artigo1    lex:temParagrafo    lex:L4358\/Artigo1\/ParagrafoUnico .
+lex:L4358\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São extensivos à Administração do Pôrto do Rio de Janeiro os privilégios da Fazenda Nacional, quanto ao uso dos processos especiais previstos no Decreto-lei nº 960, de 17 de dezembro de 1938, de que esta goza para a cobrança de seus créditos." .
+lex:L4358\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4358    lex:temArtigo    lex:L4358\/Artigo2 .
+lex:L4358\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4358\/Texto00001    lex:remetePara    lex:Del3198\/Artigo9 .

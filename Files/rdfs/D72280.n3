@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D72280    lex:ehUm    lex:DocLegal .
+lex:D72280    lex:temTextoIntegral    lex:HTMLs\/D72280.htm .
+lex:D72280\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D72280    lex:temArtigo    lex:D72280\/Artigo1 .
+lex:D72280\/Artigo1    lex:temConteudo    "Art. 1º Nos termos do artigo 7º, alínea b, dos Estatutos aprovados pelo Decreto nº 71.133, de 21 de setembro de 1972, fica elevado para Cr$ 40.000.000,00 (quarenta milhões de cruzeiros) o capital da empresa pública Financiadora de Estudos e Projetos - FINEP, vinculada ao Ministério do Planejamento e Coordenação Geral, provindo os respectivos recursos de reservas acumuladas em exercícios anteriores." .
+lex:D72280\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D72280    lex:temArtigo    lex:D72280\/Artigo2 .
+lex:D72280\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:D72280\/Artigo1    lex:remetePara    lex:D71133\/Artigo7 .

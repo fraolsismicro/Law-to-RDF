@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4106    lex:ehUm    lex:DocLegal .
+lex:L4106    lex:temTextoIntegral    lex:HTMLs\/L4106.htm .
+lex:L4106\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4106    lex:temArtigo    lex:L4106\/Artigo1 .
+lex:L4106\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a desapropriar por utilidade pública o conjunto residencial edificado em terreno da União, situado no Estado da Guanabara, às Ruas Pacheco Leão, Fernando de Magalhães, D. Estela, Caminhoá, Abreu Fialho, da Escola e da Fábrica, localizadas na antiga 'Chácara do Algodão' sob o número 12, Lagoa Rodrigo de Freitas." .
+lex:L4106\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4106\/Artigo1    lex:temParagrafo    lex:L4106\/Artigo1\/ParagrafoUnico .
+lex:L4106\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Provado, por título hábil de domínio, que os terrenos em que está construído êste conjunto residencial pertencem a terceiros, a desapropriação se estenderá a tais terrenos." .
+lex:L4106\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4106    lex:temArtigo    lex:L4106\/Artigo2 .
+lex:L4106\/Artigo2    lex:temConteudo    "Art. 2º Os imóveis desapropriados serão revendidos, pelo preço da desapropriação, aos seus ocupantes que se interessarem pela aquisição." .
+lex:L4106\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4106    lex:temArtigo    lex:L4106\/Artigo3 .
+lex:L4106\/Artigo3    lex:temConteudo    "Art. 3º Os ocupantes dos prédios desapropriados terão preferência na Caixa Econômica Federal do Rio de Janeiro, para obtenção de empréstimos, com o prazo de 15 anos, juros legais, a fim de que possam adquirir os bens desapropriados." .
+lex:L4106\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4106    lex:temArtigo    lex:L4106\/Artigo4 .
+lex:L4106\/Artigo4    lex:temConteudo    "Art. 4º É o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda, o crédito especial de Cr$ 100.000.000,00 (cem milhões de cruzeiros) para o cumprimento desta lei." .
+lex:L4106\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4106    lex:temArtigo    lex:L4106\/Artigo5 .
+lex:L4106\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4106\/Texto    lex:remetePara    lex:L4391 .

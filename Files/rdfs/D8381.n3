@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8381    lex:ehUm    lex:DocLegal .
+lex:D8381    lex:temTextoIntegral    lex:HTMLs\/D8381.htm .
+lex:D8381\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8381    lex:temArtigo    lex:D8381\/Artigo1 .
+lex:D8381\/Artigo1    lex:temConteudo    "Art. 1 º A partir de 1 º de janeiro de 2015, o salário mínimo será de R$ 788,00 (setecentos e oitenta e oito reais)." .
+lex:D8381\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8381\/Artigo1    lex:temParagrafo    lex:D8381\/Artigo1\/ParagrafoUnico .
+lex:D8381\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Em virtude do disposto no caput, o valor diário do salário mínimo corresponderá a R$ 26,27 (vinte e seis reais e vinte e sete centavos) e o valor horário, a R$ 3,58 (três reais e cinquenta e oito centavos)." .
+lex:D8381\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8381    lex:temArtigo    lex:D8381\/Artigo2 .
+lex:D8381\/Artigo2    lex:temConteudo    "Art. 2 º Este Decreto entra em vigor a partir de 1 º de janeiro de 2015." .

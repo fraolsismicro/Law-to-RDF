@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3775    lex:ehUm    lex:DocLegal .
+lex:L3775    lex:temTextoIntegral    lex:HTMLs\/L3775.htm .
+lex:L3775\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3775    lex:temArtigo    lex:L3775\/Artigo1 .
+lex:L3775\/Artigo1    lex:temConteudo    "Art. 1º E´ o Poder Executivo autorizado a doar um terreno com uma casa, situado no lado direito do prolongamento da rua Rio de Janeiro, com 5.200m2 (cinco mil e duzentos metros quadrados), à Prefeitura Municipal de São Joaquim da Barra, Estado de São Paulo." .
+lex:L3775\/Artigo1\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L3775\/Artigo1    lex:temParagrafo    lex:L3775\/Artigo1\/ParagrafoO .
+lex:L3775\/Artigo1\/ParagrafoO    lex:temConteudo    "§1º O imóvel objeto desta doação se destina a um abrigo de menores, que deverá ser construído dentro de 3 (três) anos a contar da data da publicação desta lei." .
+lex:L3775\/Artigo1\/ParagrafoNa    lex:ehUm    lex:Paragrafo .
+lex:L3775\/Artigo1    lex:temParagrafo    lex:L3775\/Artigo1\/ParagrafoNa .
+lex:L3775\/Artigo1\/ParagrafoNa    lex:temConteudo    "§2º Não cumprida a sua finalidade no prazo estabelecido, reverterá o imóvel ao patrimônio da União." .
+lex:L3775\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3775    lex:temArtigo    lex:L3775\/Artigo2 .
+lex:L3775\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

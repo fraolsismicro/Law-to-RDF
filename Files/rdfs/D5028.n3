@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5028    lex:ehUm    lex:DocLegal .
+lex:D5028    lex:temTextoIntegral    lex:HTMLs\/D5028.htm .
+lex:D5028\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5028    lex:temInciso    lex:D5028\/IncisoI .
+lex:D5028\/IncisoI    lex:temConteudo    "I - microempresa, a pessoa jurídica e a firma mercantil individual que tiver receita bruta anual igual ou inferior a R$ 433.755,14 (quatrocentos e trinta e três mil, setecentos e cinqüenta e cinco reais e quatorze centavos);" .
+lex:D5028\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5028    lex:temInciso    lex:D5028\/IncisoII .
+lex:D5028\/IncisoII    lex:temConteudo    "II - empresa de pequeno porte, a pessoa jurídica e a firma mercantil individual que, não enquadrada como microempresa, tiver receita bruta anual superior a R$ 433.755,14 (quatrocentos e trinta e três mil, setecentos e cinqüenta e cinco reais e quatorze centavos) e igual ou inferior a R$ 2.133.222,00 (dois milhões, cento e trinta e três mil, duzentos e vinte e dois reais)." .
+lex:D5028\/Artigo1    lex:remetePara    lex:L9841\/Artigo2 .

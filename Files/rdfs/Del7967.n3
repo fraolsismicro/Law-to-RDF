@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del7967    lex:ehUm    lex:DocLegal .
+lex:Del7967    lex:temTextoIntegral    lex:HTMLs\/Del7967.htm .
+lex:Del7967\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:Del7967    lex:temInciso    lex:Del7967\/IncisoVII .
+lex:Del7967\/IncisoVII    lex:temConteudo    "VII  Visto diplomático." .
+lex:Del7967\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del7967    lex:temInciso    lex:Del7967\/IncisoI .
+lex:Del7967\/IncisoI    lex:temConteudo    "I  passaporte;" .
+lex:Del7967\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del7967    lex:temInciso    lex:Del7967\/IncisoIII .
+lex:Del7967\/IncisoIII    lex:temConteudo    "III  plano de aproveitamento das terras, de acôrdo com as disposições do Capítulo II;" .
+lex:Del7967\/Texto    lex:remetePara    lex:Del7967 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0316    lex:ehUm    lex:DocLegal .
+lex:Del0316    lex:temTextoIntegral    lex:HTMLs\/Del0316.htm .
+lex:Del0316\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0316    lex:temArtigo    lex:Del0316\/Artigo1 .
+lex:Del0316\/Artigo1    lex:temConteudo    "Art. 1º A derrogação do Decreto nº 23.501, de 27 de novembro de 1933, a que se refere o art. 6º, do Decreto-lei nº 238, de 28 de fevereiro de 1967, aplica-se sòmente:" .
+lex:Del0316\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0316\/Artigo1    lex:temInciso    lex:Del0316\/Artigo1\/IncisoI .
+lex:Del0316\/Artigo1\/IncisoI    lex:temConteudo    "I - Aos empréstimos e quaisquer obrigações cujo credor ou devedor seja pessoa residente ou domiciliada no exterior; e" .
+lex:Del0316\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0316\/Artigo1    lex:temInciso    lex:Del0316\/Artigo1\/IncisoII .
+lex:Del0316\/Artigo1\/IncisoII    lex:temConteudo    "II - Aos negócios jurídicos que tenham por objetivo a cessão, transferência, delegação, assunção ou modificação das obrigações referidas no nº I anterior, ainda que ambas as partes contratantes sejam pessoas residentes ou domiciliadas no país." .
+lex:Del0316\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0316    lex:temArtigo    lex:Del0316\/Artigo2 .
+lex:Del0316\/Artigo2    lex:temConteudo    "Art. 2º Êste decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0316\/Texto    lex:revogadoPor    lex:Del0857\/Artigo4 .
+lex:Del0857\/Artigo4    lex:revogou    lex:Del0316\/Texto .
+lex:Del0316\/Texto    lex:remetePara    lex:Del0316 .
+lex:Del0316\/Artigo1    lex:remetePara    lex:Del0238\/Artigo6 .

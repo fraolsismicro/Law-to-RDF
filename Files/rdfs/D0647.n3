@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0647    lex:ehUm    lex:DocLegal .
+lex:D0647    lex:temTextoIntegral    lex:HTMLs\/D0647.htm .
+lex:D0647\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0647    lex:temArtigo    lex:D0647\/Artigo1 .
+lex:D0647\/Artigo1    lex:temConteudo    "Art. 1° O art. 1° do Decreto n° 99.266, de 28 de maio de 1990, passa vigorar com a seguinte redação:" .
+lex:D0647\/Artigo1\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:D0647\/Artigo1    lex:temParagrafo    lex:D0647\/Artigo1\/ParagrafoOs .
+lex:D0647\/Artigo1\/ParagrafoOs    lex:temConteudo    "Art.1º Os imóveis residenciais de propriedade da União, situados no Distrito Federal, inclusive os vinculados ou incorporados ao Fundo Rotativo Habitacional de Brasília - FRHB, tem autorizada sua venda, no estado em que se encontram, na forma prevista neste decreto e sob a supervisão da Secretaria de Administração Federal do Ministério do Trabalho e da Administração." .
+lex:D0647\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0647\/Artigo1    lex:temParagrafo    lex:D0647\/Artigo1\/Paragrafo1 .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Não se incluem na autorização de venda os imóveis residenciais:" .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados    lex:ehUm    lex:Alinea .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados    lex:temConteudo    "a) ocupados por membros do Poder Legislativo;" .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados    lex:ehUm    lex:Alinea .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaOcupados    lex:temConteudo    "b) ocupados por Ministros do Supremo Tribunal Federal, dos Tribunais Superiores e do Tribunal de Contas da União, pelo Procurador-Geral da República, pelos Subprocuradores-Gerais do Ministério Público Federal, do Trabalho e Militar, e pelo Procurador-Geral do Tribunal de Contas da União, observando o disposto no artigo seguinte;" .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaAdministrados    lex:ehUm    lex:Alinea .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0647\/Artigo1\/Paragrafo1\/AlineaAdministrados .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaAdministrados    lex:temConteudo    "c) administrados pelos Ministérios Militares e pelo Estado-Maior das Forças Armadas;" .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaDestinados    lex:ehUm    lex:Alinea .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0647\/Artigo1\/Paragrafo1\/AlineaDestinados .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaDestinados    lex:temConteudo    "d) destinados a funcionários do Serviço Exterior, de que trata a Lei n° 7.501, de 27 de junho de 1986;" .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaConsiderados    lex:ehUm    lex:Alinea .
+lex:D0647\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0647\/Artigo1\/Paragrafo1\/AlineaConsiderados .
+lex:D0647\/Artigo1\/Paragrafo1\/AlineaConsiderados    lex:temConteudo    "e) considerados indispensáveis ao serviço público, nos termos do art. 23, deste Decreto." .
+lex:D0647\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0647\/Artigo1    lex:temParagrafo    lex:D0647\/Artigo1\/Paragrafo2 .
+lex:D0647\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Excluem-se da alienação de que trata este artigo os móveis e utensílios de propriedade da União, cuja remoção cabe ao órgão que era responsável pela administração do imóvel, em 15 de março de 1990." .
+lex:D0647\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0647    lex:temArtigo    lex:D0647\/Artigo2 .
+lex:D0647\/Artigo2    lex:temConteudo    "Art. 2° Fica acrescentado ao art. 34 do citado decreto, o parágrafo único com a redação abaixo:" .
+lex:D0647\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0647\/Artigo2    lex:temParagrafo    lex:D0647\/Artigo2\/ParagrafoUnico .
+lex:D0647\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A vedação constante deste artigo não se aplica aos Ministérios Militares e Estado-Maior das Forças Armadas." .
+lex:D0647\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0647    lex:temArtigo    lex:D0647\/Artigo3 .
+lex:D0647\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0647\/Artigo1\/ParagrafoOs    lex:remetePara    lex:D99266\/Artigo1 .
+lex:D0647\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:D99266\/Artigo34 .

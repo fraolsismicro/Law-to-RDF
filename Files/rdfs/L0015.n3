@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0015    lex:ehUm    lex:DocLegal .
+lex:L0015    lex:temTextoIntegral    lex:HTMLs\/L0015.htm .
+lex:L0015\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0015    lex:temArtigo    lex:L0015\/Artigo1 .
+lex:L0015\/Artigo1    lex:temConteudo    "Art. 1º Poderão inscrever-se nos exames de segunda época, no regime de que trata o artigo 91 da Lei orgânica do ensino secundário, todos os estudantes inabilitados em primeira época, bem como os que nela não se inscreveram." .
+lex:L0015\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L0015\/Artigo1    lex:temParagrafo    lex:L0015\/Artigo1\/Paragrafo1 .
+lex:L0015\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Considerar-se-á aprovado, em segunda época, o aluno que alcançar a média global cinco (5), apurada com as notas dos exames das disciplinas em que foi aprovado em primeira época e mais as alcançadas nas disciplinas cujos exames prestar, em segunda época, desde que em cada cadeira obtenha a nota mínima quatro (4)." .
+lex:L0015\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L0015\/Artigo1    lex:temParagrafo    lex:L0015\/Artigo1\/Paragrafo2 .
+lex:L0015\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os exames de que trata o artigo 1º serão realizados antes da abertura do ano escolar." .
+lex:L0015\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0015    lex:temArtigo    lex:L0015\/Artigo2 .
+lex:L0015\/Artigo2    lex:temConteudo    "Art. 2º Os exames do art. 91 do Decreto-lei nº 8.531, de 2 de Janeiro de 1946, tanto na 1ª época como na 2ª podem ser realizados também nos estabelecimentos mantidos pelos Poderes Públicos Municipais." .
+lex:L0015\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L0015    lex:temArtigo    lex:L0015\/Artigo3 .
+lex:L0015\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L0015\/Artigo1    lex:remetePara    lex:Del4244\/Artigo91 .
+lex:L0015\/Artigo2    lex:remetePara    lex:Del8531 .

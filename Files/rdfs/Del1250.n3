@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1250    lex:ehUm    lex:DocLegal .
+lex:Del1250    lex:temTextoIntegral    lex:HTMLs\/Del1250.htm .
+lex:Del1250\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1250    lex:temParagrafo    lex:Del1250\/Paragrafo1 .
+lex:Del1250\/Paragrafo1    lex:temConteudo    "§ 1º Os incentivos a que se refere este artigo, quando se tratar de projetos ligados ao incremento das exportações nacionais, poderão ser aplicados a casos em que os recursos em moeda estrangeira tenham efetivamente ingressado no País a título de investimento." .
+lex:Del1250\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1250    lex:temParagrafo    lex:Del1250\/Paragrafo2 .
+lex:Del1250\/Paragrafo2    lex:temConteudo    "§ 2º Tratando-se de financiamento concedido por instituição financeira internacional em que os recursos em moeda estrangeira tenham sido contratualmente destinadas ao pagamento de obras civis ou outros serviços prestados no País, os incentivos de que trata este artigo poderão ser estendidos às vendas de máquinas e equipamentos nacionais, até o valor, em moeda nacional, das divisas conversíveis provenientes do financiamento." .
+lex:Del1250\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1250    lex:temParagrafo    lex:Del1250\/Paragrafo3 .
+lex:Del1250\/Paragrafo3    lex:temConteudo    "§ 3º A extensão de incentivos de que trata este artigo dependerá de prévio requerimento da parte interessada." .
+lex:Del1250\/Artigo1    lex:remetePara    lex:Del1171\/Artigo1 .
+lex:Del1250\/Artigo2    lex:remetePara    lex:Del1171\/Artigo2 .

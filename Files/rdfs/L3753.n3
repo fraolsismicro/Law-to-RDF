@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3753    lex:ehUm    lex:DocLegal .
+lex:L3753    lex:temTextoIntegral    lex:HTMLs\/L3753.htm .
+lex:L3753\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3753    lex:temArtigo    lex:L3753\/Artigo1 .
+lex:L3753\/Artigo1    lex:temConteudo    "Art. 1º É concedida prioridade, ao programa das Obras do Plano Rodoviário Nacional, aos melhoramentos e pavimentação da Rodovia Rio-Bahia, BR-4." .
+lex:L3753\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3753    lex:temArtigo    lex:L3753\/Artigo2 .
+lex:L3753\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir, pelo Ministério da Viação e Obras Públicas, em favor do Departamento Nacional de Estradas de Rodagem, o crédito especial de Cr$ 7.000.000.000,00 (sete bilhões de cruzeiros) para ocorrer às despesas com a pavimentação e melhoramentos da BR-4." .
+lex:L3753\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3753\/Artigo2    lex:temParagrafo    lex:L3753\/Artigo2\/Paragrafo1 .
+lex:L3753\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Êsse crédito terá a validade de 3 (três) anos e será utilizado em parcelas iguais de Cr$ 2.333.333.333,33 (dois bilhões trezentos e trinta e três milhões, trezentos e trinta e três mil, trezentos e trinta e três cruzeiros e trinta e três centavos) por ano, a partir de 1960;" .
+lex:L3753\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3753\/Artigo2    lex:temParagrafo    lex:L3753\/Artigo2\/Paragrafo2 .
+lex:L3753\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º O Poder Executivo, poderá executar as obras referidas neste artigo, mediante financiamento, desde que a despesa financeira com o mesmo não exceda, por ano, os limites fixados no parágrafo anterior." .
+lex:L3753\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3753    lex:temArtigo    lex:L3753\/Artigo3 .
+lex:L3753\/Artigo3    lex:temConteudo    "Art. 3º As obras de melhoramentos e pavimentação da rodovia Rio-Bahia. deverão ser iniciadas simultâneamente em Leopoldina, Minas Gerais, e Feira de Santana, na Bahia e prosseguidas de cada lado com igual ritmo e intensidade." .
+lex:L3753\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3753    lex:temArtigo    lex:L3753\/Artigo4 .
+lex:L3753\/Artigo4    lex:temConteudo    "Art. 4º Para atender às despesas complementares que se fizerem necessárias, até a terminação das obras, será empregado o saldo das dotações destinadas à substituição dos ramais ferroviários deficitários, de que tratam os arts. 2º, letra b, e 5º, da Lei nº 2.698, de 27 de dezembro de 1955, do art. 10, letra 'b', § 4º  da Lei nº 2.975, de 27 de novembro de 1956." .
+lex:L3753\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L3753    lex:temArtigo    lex:L3753\/Artigo5 .
+lex:L3753\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3753\/Artigo4    lex:remetePara    lex:L2698\/Artigo2 .
+lex:L3753\/Artigo4    lex:remetePara    lex:L2698\/Artigo5 .
+lex:L3753\/Artigo4    lex:remetePara    lex:L2975\/Artigo10 .
+lex:L3753\/Artigo4    lex:remetePara    lex:L2975\/Artigo10\/Paragrafo4 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3289    lex:ehUm    lex:DocLegal .
+lex:L3289    lex:temTextoIntegral    lex:HTMLs\/L3289.htm .
+lex:L3289\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3289    lex:temArtigo    lex:L3289\/Artigo1 .
+lex:L3289\/Artigo1    lex:temConteudo    "Art. 1º São extensivos aos suboficiais da Marinha de Guerra os benefícios previstos nos arts. 1º e 2º da Lei nº 1.037, de 31 de dezembro de 1949." .
+lex:L3289\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3289\/Artigo1    lex:temParagrafo    lex:L3289\/Artigo1\/ParagrafoUnico .
+lex:L3289\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Só usufruirão os benefícios os suboficiais que, na data da publicação daquela lei, contavam 15 (quinze) ou mais anos de serviço na graduação." .
+lex:L3289\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3289    lex:temArtigo    lex:L3289\/Artigo2 .
+lex:L3289\/Artigo2    lex:temConteudo    "Art. 2º Aplica-se, também, o artigo 1º desta lei aos suboficiais da antiga Aviação Naval transferidos para o Ministério da Aeronáutica em 1941, desde que preencham as condições estabelecidas no parágrafo anterior." .
+lex:L3289\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3289    lex:temArtigo    lex:L3289\/Artigo3 .
+lex:L3289\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3289\/Artigo1    lex:remetePara    lex:L1037\/Artigo1 .

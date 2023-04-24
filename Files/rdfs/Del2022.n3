@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2022    lex:ehUm    lex:DocLegal .
+lex:Del2022    lex:temTextoIntegral    lex:HTMLs\/Del2022.htm .
+lex:Del2022\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2022    lex:temArtigo    lex:Del2022\/Artigo1 .
+lex:Del2022\/Artigo1    lex:temConteudo    "Art. 1º. Aos contratos firmados pelo Ministério do Exército, que tenham por objeto o desenvolvimento de projetos, a fabricação ou a modernização de material para emprego pela Força Terrestre e que vigorarem por mais de um exercício financeiro, não se aplica o disposto no Art. 6º do Decreto-Lei nº 185, de 23 de fevereiro de 1967." .
+lex:Del2022\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2022    lex:temArtigo    lex:Del2022\/Artigo2 .
+lex:Del2022\/Artigo2    lex:temConteudo    "Art. 2º. Nos contratos aos quais se refere o artigo anterior, as revisões dos preços unitários contratuais ou de parte do valor global contratual serão calculados segundo fórmula específica para cada contrato." .
+lex:Del2022\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2022    lex:temArtigo    lex:Del2022\/Artigo3 .
+lex:Del2022\/Artigo3    lex:temConteudo    "Art. 3º. Cabe ao Ministro do Exército aprovar a fórmula específica de cada contrato, mediante proposta do órgão de direção setorial do referido Ministério." .
+lex:Del2022\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2022    lex:temArtigo    lex:Del2022\/Artigo4 .
+lex:Del2022\/Artigo4    lex:temConteudo    "Art. 4º. Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2022\/Artigo1    lex:remetePara    lex:Del0185\/Artigo6 .

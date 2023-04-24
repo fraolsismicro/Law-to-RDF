@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D23217    lex:ehUm    lex:DocLegal .
+lex:D23217    lex:temTextoIntegral    lex:HTMLs\/D23217.htm .
+lex:D23217\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D23217    lex:temArtigo    lex:D23217\/Artigo1 .
+lex:D23217\/Artigo1    lex:temConteudo    "Art. 1º Fica extinta a intervenção na 'Manaus Tramway &amp; Light Company Limited' decretada nos têrmos do Decreto-lei nº 9.601, de 16 de agôsto de 1946." .
+lex:D23217\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D23217    lex:temArtigo    lex:D23217\/Artigo2 .
+lex:D23217\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D23217\/Artigo1    lex:remetePara    lex:Del9601 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97944    lex:ehUm    lex:DocLegal .
+lex:D97944    lex:temTextoIntegral    lex:HTMLs\/D97944.htm .
+lex:D97944\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97944    lex:temArtigo    lex:D97944\/Artigo1 .
+lex:D97944\/Artigo1    lex:temConteudo    "Art. 1° Os preços mínimos dos produtos agrícolas constantes da tabela anexa são reajustados para 1° de junho de 1989, ficando restabelecida a sistemática de sua atualização monetária mensal." .
+lex:D97944\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D97944\/Artigo1    lex:temParagrafo    lex:D97944\/Artigo1\/Paragrafo1 .
+lex:D97944\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Para a atualização monetária mensal prevista no caput deste artigo será tomada a variação do valor do Bônus do Tesouro Nacional, válido para o mês da atualização, em relação ao do mês imediatamente anterior." .
+lex:D97944\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D97944\/Artigo1    lex:temParagrafo    lex:D97944\/Artigo1\/Paragrafo2 .
+lex:D97944\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° A partir do último mês de correção pela variação do BTN, indicado na tabela anexa, o valor do preço mínimo ficará constante em cruzados novos." .
+lex:D97944\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D97944\/Artigo1    lex:temParagrafo    lex:D97944\/Artigo1\/Paragrafo3 .
+lex:D97944\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° Os novos valores dos preços mínimos, a que se refere este artigo, são válidos para as operações da Política de Garantia de Preços Mínimos - PGPM, contratadas a partir de 1° de junho de 1989, nos termos do Voto n° 146/89, de 20 de junho de 1989, do Conselho Monetário Nacional." .
+lex:D97944\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97944    lex:temArtigo    lex:D97944\/Artigo2 .
+lex:D97944\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D97944\/Texto    lex:remetePara    lex:Del0079 .

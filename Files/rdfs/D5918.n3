@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5918    lex:ehUm    lex:DocLegal .
+lex:D5918    lex:temTextoIntegral    lex:HTMLs\/D5918.htm .
+lex:D5918\/Texto    lex:remetePara    lex:D6222\/Artigo1 .
+lex:D5918\/Texto    lex:revogadoPor    lex:D6417\/Artigo7 .
+lex:D6417\/Artigo7    lex:revogou    lex:D5918\/Texto .
+lex:D5918\/Texto    lex:remetePara    lex:D5918 .
+lex:D5918\/Artigo2    lex:remetePara    lex:D5755\/ .
+lex:D5918\/Texto    lex:remetePara    lex:D5755\/ .

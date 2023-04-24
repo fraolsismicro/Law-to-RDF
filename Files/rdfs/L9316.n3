@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9316    lex:ehUm    lex:DocLegal .
+lex:L9316    lex:temTextoIntegral    lex:HTMLs\/L9316.htm .
+lex:L9316\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9316    lex:temArtigo    lex:L9316\/Artigo1 .
+lex:L9316\/Artigo1    lex:temConteudo    "Art. 1º O valor da contribuição social sobre o lucro líquido não poderá ser deduzido para efeito de determinação do lucro real, nem de sua própria base de cálculo." .
+lex:L9316\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9316\/Artigo1    lex:temParagrafo    lex:L9316\/Artigo1\/ParagrafoUnico .
+lex:L9316\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os valores da contribuição social a que se refere este artigo, registrados como custo ou despesa, deverão ser adicionados ao lucro líquido do respectivo período de apuração para efeito de determinação do lucro real e de sua própria base de cálculo." .
+lex:L9316\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9316    lex:temArtigo    lex:L9316\/Artigo2 .
+lex:L9316\/Artigo2    lex:temConteudo    "Art. 2o  A contribuição social sobre o lucro líquido, devida pelas instituições a que se refere o § 1º do art. 22 da Lei no 8.212, de 24 de julho de 1991, será calculada à alíquota de dezoito por cento." .
+lex:L9316\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9316    lex:temArtigo    lex:L9316\/Artigo3 .
+lex:L9316\/Artigo3    lex:temConteudo    "Art. 3o  Ficam convalidados os atos praticados com base na Medida Provisória no 1.516-2, de 24 de outubro de 1996." .
+lex:L9316\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9316    lex:temArtigo    lex:L9316\/Artigo4 .
+lex:L9316\/Artigo4    lex:temConteudo    "Art. 4o   Esta Lei entra em vigor na data de sua publicação, produzindo efeitos em relação aos períodos de apuração iniciados a partir de 1o de janeiro de 1997." .
+lex:L9316\/Artigo2    lex:remetePara    lex:L8212cons\/Artigo22\/Paragrafo1 .
+lex:L9316\/Artigo3    lex:remetePara    lex:1516-2 .

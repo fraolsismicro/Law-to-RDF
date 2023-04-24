@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4438    lex:ehUm    lex:DocLegal .
+lex:D4438    lex:temTextoIntegral    lex:HTMLs\/D4438.htm .
+lex:D4438\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4438    lex:temArtigo    lex:D4438\/Artigo1 .
+lex:D4438\/Artigo1    lex:temConteudo    "Art. 1o  O art. 11 do Regulamento dos Serviços de Radiodifusão, aprovado pelo Decreto no 52.795, de 31 de outubro de 1.963, passa a vigorar com a seguinte redação:" .
+lex:D4438\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4438\/Artigo1    lex:temInciso    lex:D4438\/Artigo1\/IncisoI .
+lex:D4438\/Artigo1\/IncisoI    lex:temConteudo    "I - Radiodifusão Sonora:" .
+lex:D4438\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4438\/Artigo1    lex:temInciso    lex:D4438\/Artigo1\/IncisoII .
+lex:D4438\/Artigo1\/IncisoII    lex:temConteudo    "II - Radiodifusão de Sons e Imagens:" .
+lex:D4438\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4438\/Artigo1    lex:temParagrafo    lex:D4438\/Artigo1\/Paragrafo2 .
+lex:D4438\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A entidade que, no interesse de obter melhor área de cobertura, pretenda alterar as características técnicas do serviço concedido, permitido ou autorizado que resulte em modificação do respectivo enquadramento, visando, exclusivamente, melhor atender à comunidade da localidade para a qual o serviço é destinado, terá o seu pedido apreciado pelo Ministério das Comunicações, mediante apresentação de justificativa quanto às vantagens das alterações pretendidas, bem como do estudo de viabilidade técnica correspondente." .
+lex:D4438\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4438\/Artigo1    lex:temParagrafo    lex:D4438\/Artigo1\/Paragrafo3 .
+lex:D4438\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  O estudo de viabilidade técnica, justificando a alteração do respectivo Plano Básico, será analisado pela Agência Nacional de Telecomunicações." .
+lex:D4438\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4438\/Artigo1    lex:temParagrafo    lex:D4438\/Artigo1\/Paragrafo4 .
+lex:D4438\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  As características técnicas de canal a ser incluído no Plano Básico não poderão ser superiores às dos canais existentes no referido Plano." .
+lex:D4438\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D4438\/Artigo1    lex:temParagrafo    lex:D4438\/Artigo1\/Paragrafo5 .
+lex:D4438\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  Quando da expedição do ato de autorização com as novas características técnicas, a concessionária, permissionária ou autorizada deverá recolher o valor correspondente ao uso de radiofreqüência, tendo por base a diferença entre os preços mínimos estipulados pelo Ministério das Comunicações para cada grupo de enquadramento.' (NR)" .
+lex:D4438\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4438    lex:temArtigo    lex:D4438\/Artigo2 .
+lex:D4438\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4438\/Texto00001    lex:remetePara    lex:D52795\/Artigo11 .
+lex:D4438\/Artigo1\/Paragrafo2    lex:remetePara    lex:D52795\/Artigo11\/Paragrafo2 .

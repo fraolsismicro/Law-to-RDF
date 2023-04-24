@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1134    lex:ehUm    lex:DocLegal .
+lex:D1134    lex:temTextoIntegral    lex:HTMLs\/D1134.htm .
+lex:D1134\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1134    lex:temArtigo    lex:D1134\/Artigo1 .
+lex:D1134\/Artigo1    lex:temConteudo    "Art. 1° Fica alterado o artigo 2° do Decreto n° 83.805, de 1° de agosto de 1979, que passa a vigorar com a seguinte redação:" .
+lex:D1134\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1134\/Artigo1    lex:temParagrafo    lex:D1134\/Artigo1\/Paragrafo1 .
+lex:D1134\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Sobre a barreta e o passador da Medalha Mérito Marinheiro, confeccionados em bronze, serão aplicadas uma, duas, três ou quatro âncoras com dimensões de 0,7cm de altura por 0,6cm de largura, do mesmo metal, harmonicamente dispostas, para distinguir, respectivamente, faixas crescentes de tempo de embarque e de dias de mar, até 1500 dias, completados pelo agraciado." .
+lex:D1134\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1134\/Artigo1    lex:temParagrafo    lex:D1134\/Artigo1\/Paragrafo2 .
+lex:D1134\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Sobre a barreta e o passador da Medalha Mérito Marinheiro, confeccionados em prata e ouro, serão aplicadas quatro âncoras, do mesmo metal, que distinguirão os agraciados que completarem, respectivamente, 1500 e 2000 dias de mar." .
+lex:D1134\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1134    lex:temArtigo    lex:D1134\/Artigo2 .
+lex:D1134\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .

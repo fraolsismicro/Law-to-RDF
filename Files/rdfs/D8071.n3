@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8071    lex:ehUm    lex:DocLegal .
+lex:D8071    lex:temTextoIntegral    lex:HTMLs\/D8071.htm .
+lex:D8071\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8071    lex:temArtigo    lex:D8071\/Artigo1 .
+lex:D8071\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 8.033, de 27 de junho de 2013, passa a vigorar com as seguintes alterações:" .
+lex:D8071\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8071\/Artigo1    lex:temParagrafo    lex:D8071\/Artigo1\/Paragrafo1 .
+lex:D8071\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Constarão do SINE-PORTO, no mínimo, as seguintes informações:" .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8071\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - identificação do trabalhador;" .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8071\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - qualificação profissional obtida para o exercício das funções; e" .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8071\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8071\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - registro ou cadastramento em órgão de gestão de mão de obra, quando couber." .
+lex:D8071\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8071\/Artigo1    lex:temParagrafo    lex:D8071\/Artigo1\/Paragrafo2 .
+lex:D8071\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os trabalhadores portuários avulsos inscritos no respectivo órgão de gestão de mão de obra, constantes no SINE-PORTO, terão preferência no acesso a programas de formação ou qualificação profissional oferecidos no âmbito do SINE ou do Programa Nacional de Acesso ao Ensino Técnico e Emprego - Pronatec, de que trata a Lei n º 12.513, de 26 de outubro de 2011. (NR)" .
+lex:D8071\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8071    lex:temArtigo    lex:D8071\/Artigo2 .
+lex:D8071\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8071\/Texto00001    lex:remetePara    lex:D8033\/Artigo40 .

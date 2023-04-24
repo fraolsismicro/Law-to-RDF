@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3887    lex:ehUm    lex:DocLegal .
+lex:D3887    lex:temTextoIntegral    lex:HTMLs\/D3887.htm .
+lex:D3887\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3887    lex:temParagrafo    lex:D3887\/ParagrafoUnico .
+lex:D3887\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O servidor que acumule cargos na forma da Constituição fará jus à percepção de um único auxílio-alimentação, mediante opção." .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3887\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3887\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - incorporado ao vencimento, remuneração, proventos ou pensão;" .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3887\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3887\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - configurado como rendimento tributável e nem sofrerá incidência de contribuição para o Plano de Seguridade Social do servidor público;" .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3887\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - caracterizado como salário-utilidade ou prestação salarial in natura; e" .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3887\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D3887\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - acumulável com outros de espécie semelhante, tais como cesta básica ou vantagem pessoal originária de qualquer forma de auxílio ou benefício alimentação." .
+lex:D3887\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3887    lex:temParagrafo    lex:D3887\/ParagrafoUnico .
+lex:D3887\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os órgãos e as entidades que mantiverem contratos deverão ajustar-se de forma a não mais descontar a contribuição do servidor." .
+lex:D3887\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D3887    lex:temArtigo    lex:D3887\/Artigo10 .
+lex:D3887\/Artigo10    lex:temConteudo    "Art. 10.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3887\/Artigo11    lex:remetePara    lex:D2050 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11800    lex:ehUm    lex:DocLegal .
+lex:L11800    lex:temTextoIntegral    lex:HTMLs\/L11800.htm .
+lex:L11800\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11800    lex:temArtigo    lex:L11800\/Artigo1 .
+lex:L11800\/Artigo1    lex:temConteudo    "Art. 1o  O art. 33 da Lei no 8.078, de 11 de setembro de 1990   Código de Defesa do Consumidor, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L11800\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11800\/Artigo1    lex:temParagrafo    lex:L11800\/Artigo1\/ParagrafoUnico .
+lex:L11800\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  É proibida a publicidade de bens e serviços por telefone, quando a chamada for onerosa ao consumidor que a origina. (NR)" .
+lex:L11800\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11800    lex:temArtigo    lex:L11800\/Artigo2 .
+lex:L11800\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11800\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8078\/Artigo33 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1655    lex:ehUm    lex:DocLegal .
+lex:Del1655    lex:temTextoIntegral    lex:HTMLs\/Del1655.htm .
+lex:Del1655\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1655    lex:temArtigo    lex:Del1655\/Artigo1 .
+lex:Del1655\/Artigo1    lex:temConteudo    "Art. 1º - Os Órgãos e Entidades da Administração Federal e dos Poderes Legislativo e Judiciário e as Fundações instituídas pelo Poder Público que promoveram o recolhimento restituível instituído pelo Decreto-Lei nº 1.520, de 17 de janeiro de 1977, com recursos constantes do Orçamento Geral da União, farão entrega dos respectivos comprovantes à agência do Banco do Brasil S.A. onde ocorreu o recolhimento." .
+lex:Del1655\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1655    lex:temArtigo    lex:Del1655\/Artigo2 .
+lex:Del1655\/Artigo2    lex:temConteudo    "Art. 2º - O Banco do Brasil S.A. promoverá o devido crédito, à Receita da União, dos valores constantes dos comprovantes nele custodiados, nas épocas próprias." .
+lex:Del1655\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1655    lex:temArtigo    lex:Del1655\/Artigo3 .
+lex:Del1655\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1655\/Artigo1    lex:remetePara    lex:Del1520 .

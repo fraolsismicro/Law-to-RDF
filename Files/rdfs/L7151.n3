@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7151    lex:ehUm    lex:DocLegal .
+lex:L7151    lex:temTextoIntegral    lex:HTMLs\/L7151.htm .
+lex:L7151\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo1 .
+lex:L7151\/Artigo1    lex:temConteudo    "Art. 1º - Os efetivos de Oficiais da Marinha em tempo de paz terão os seguintes limites por postos:" .
+lex:L7151\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo1    lex:temParagrafo    lex:L7151\/Artigo1\/ParagrafoUnico .
+lex:L7151\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Para efeito desta Lei, serão considerados Oficiais temporários:" .
+lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOficiais    lex:ehUm    lex:Alinea .
+lex:L7151\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOficiais .
+lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOficiais    lex:temConteudo    "a) Oficiais da Reserva Não Remunerada quando convocados; e" .
+lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:L7151\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOs .
+lex:L7151\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "b) os incorporados para prestação do serviço militar inicial." .
+lex:L7151\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo1    lex:temParagrafo    lex:L7151\/Artigo1\/Paragrafo1 .
+lex:L7151\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Os efetivos fixados anualmente nos diversos Corpos e Quadros serão os efetivos de referência para fim de promoção." .
+lex:L7151\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo1    lex:temParagrafo    lex:L7151\/Artigo1\/Paragrafo2 .
+lex:L7151\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Os efetivos fixados anualmente nos diferentes Corpos e Quadros serão os efetivos de referência para fim de aplicação da Quota Compulsória de que trata o Estatuto dos Militares." .
+lex:L7151\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo5 .
+lex:L7151\/Artigo5    lex:temConteudo    "Art. 5º - Não serão computados nos limites dos efetivos fixados no art. 1º desta Lei:" .
+lex:L7151\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoI .
+lex:L7151\/Artigo5\/IncisoI    lex:temConteudo    "I - os Oficiais-Generais Ministros do Superior Tribunal Militar;" .
+lex:L7151\/Artigo5\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoLI .
+lex:L7151\/Artigo5\/IncisoLI    lex:temConteudo    "lI - os Oficiais convocados para manobras, exercícios ou estágios de instrução;" .
+lex:L7151\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoIII .
+lex:L7151\/Artigo5\/IncisoIII    lex:temConteudo    "III - os Oficiais agregados e os que, por força de legislação anterior, permanecerem sem numeração nos Corpos ou Quadros de origem;" .
+lex:L7151\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoIV .
+lex:L7151\/Artigo5\/IncisoIV    lex:temConteudo    "IV - Oficiais da Reserva Remunerada designados para o serviço ativo, em caráter transitório;" .
+lex:L7151\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoV .
+lex:L7151\/Artigo5\/IncisoV    lex:temConteudo    "V - Oficiais do Quadro Auxiliar Feminino de Oficiais do Corpo Auxiliar Feminina da Reserva da Marinha, com permanência assegurada no serviço ativo, na forma da lei específica;" .
+lex:L7151\/Artigo5\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoVI .
+lex:L7151\/Artigo5\/IncisoVI    lex:temConteudo    "VI - Oficiais dos Quadros complementares de Oficiais do Corpo da Armada, do Corpo de Fuzileiros Navais, do Corpo de Engenheiros e Técnicos Navais e do Corpo de Intendentes da Marinha, com permanência definitiva nos referidos Quadros, na forma da lei especifica;" .
+lex:L7151\/Artigo5\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoVII .
+lex:L7151\/Artigo5\/IncisoVII    lex:temConteudo    "VII - os Oficiais da Reserva Remunerada convocados por prazo limitado;" .
+lex:L7151\/Artigo5\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoVIII .
+lex:L7151\/Artigo5\/IncisoVIII    lex:temConteudo    "VIII - os Guardas-Marinha;" .
+lex:L7151\/Artigo5\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo5    lex:temInciso    lex:L7151\/Artigo5\/IncisoIX .
+lex:L7151\/Artigo5\/IncisoIX    lex:temConteudo    "IX - os alunos das escolas de formação de Oficiais da Ativa e os alunos das escolas de formação de Oficiais da Reserva." .
+lex:L7151\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo6 .
+lex:L7151\/Artigo6    lex:temConteudo    "Art. 6º - Os Corpos e Quadros de Oficiais da Marinha são os seguintes:" .
+lex:L7151\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo6    lex:temInciso    lex:L7151\/Artigo6\/IncisoI .
+lex:L7151\/Artigo6\/IncisoI    lex:temConteudo    "I - Corpos e Quadros de Oficiais de Carreira:" .
+lex:L7151\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L7151\/Artigo6    lex:temInciso    lex:L7151\/Artigo6\/IncisoII .
+lex:L7151\/Artigo6\/IncisoII    lex:temConteudo    "II - Quadros de Oficiais Temporários: - Oficiais da Reserva Não Remunerada, convocados." .
+lex:L7151\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo9 .
+lex:L7151\/Artigo9    lex:temConteudo    "Art. 9º - No cálculo das Quotas compulsórias deverão ser considerados os efetivos e as vagas abertas em decorrência desta Lei, nos respectivos anos-bases." .
+lex:L7151\/Artigo9\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo9    lex:temParagrafo    lex:L7151\/Artigo9\/Paragrafo1 .
+lex:L7151\/Artigo9\/Paragrafo1    lex:temConteudo    "§ 1º - A execução do disposto neste artigo em caso nenhum poderá resultar em aumento do efetivo global de oficiais previsto nesta Lei, nem da despesa total a ele correspondente." .
+lex:L7151\/Artigo9\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo9    lex:temParagrafo    lex:L7151\/Artigo9\/Paragrafo2 .
+lex:L7151\/Artigo9\/Paragrafo2    lex:temConteudo    "§ 2º - Na aplicação do disposto no caput deste artigo, se vier ocorrer, temporariamente, excesso de Oficiais de determinado posto e Corpos ou Quadros, o efetivo total desse posto será considerado provisório até que se ajuste ao novo efetivo fixado." .
+lex:L7151\/Artigo9\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L7151\/Artigo9    lex:temParagrafo    lex:L7151\/Artigo9\/Paragrafo3 .
+lex:L7151\/Artigo9\/Paragrafo3    lex:temConteudo    "§ 3º - Para os fins do disposto no § 1º do art. 3º desta Lei, será considerado o efetivo que for fixado na forma deste artigo." .
+lex:L7151\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo11 .
+lex:L7151\/Artigo11    lex:temConteudo    "Art. 11 - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7151\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L7151    lex:temArtigo    lex:L7151\/Artigo12 .
+lex:L7151\/Artigo12    lex:temConteudo    "Art. 12 - Revogam-se as disposições em contrário." .
+lex:L7151\/Texto    lex:remetePara    lex:L9247\/Artigo10 .
+lex:L7151\/Texto    lex:remetePara    lex:L7151 .
+lex:L7151\/Artigo2    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo1\/ParagrafoUnico\/Artigo3    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo1\/Artigo4    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo6\/Artigo7    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo6\/Artigo8    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo6\/ParagrafoUnico    lex:remetePara    lex:L7763\/Artigo1 .
+lex:L7151\/Artigo10    lex:remetePara    lex:L7763\/Artigo1 .

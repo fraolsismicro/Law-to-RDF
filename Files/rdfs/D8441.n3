@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8441    lex:ehUm    lex:DocLegal .
+lex:D8441    lex:temTextoIntegral    lex:HTMLs\/D8441.htm .
+lex:D8441\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8441    lex:temArtigo    lex:D8441\/Artigo1 .
+lex:D8441\/Artigo1    lex:temConteudo    "Art. 1 º  O Conselho Administrativo de Recursos Fiscais - CARF, órgão colegiado judicante, integrante da estrutura do Ministério da Fazenda, é constituído, paritariamente, por representantes da Fazenda Nacional e dos contribuintes, na forma da legislação." .
+lex:D8441\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8441\/Artigo1    lex:temParagrafo    lex:D8441\/Artigo1\/Paragrafo1 .
+lex:D8441\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Os conselheiros representantes dos contribuintes no CARF estão sujeitos às restrições ao exercício de atividades profissionais em conformidade com a legislação e demais normas dos conselhos profissionais a que estejam submetidos, observado, em qualquer caso, o disposto no art. 10 da Lei n º 12.813, de 16 de maio de 2013." .
+lex:D8441\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8441\/Artigo1    lex:temParagrafo    lex:D8441\/Artigo1\/Paragrafo2 .
+lex:D8441\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  As restrições a que se refere o § 1 º incluem a vedação ao exercício da advocacia contra a Fazenda Pública federal, nos termos da Lei n º 8.906, de 4 de julho de 1994." .
+lex:D8441\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8441\/Artigo1    lex:temParagrafo    lex:D8441\/Artigo1\/Paragrafo3 .
+lex:D8441\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  O conselheiro, sem prejuízo de outras exigências legais e regulamentares, firmará compromisso de que observará durante todo o mandato as restrições a que se refere este Decreto, ficando sujeito às sanções previstas na legislação." .
+lex:D8441\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8441    lex:temArtigo    lex:D8441\/Artigo2 .
+lex:D8441\/Artigo2    lex:temConteudo    "Art. 2 º  A gratificação de presença estabelecida pela Lei n º 5.708, de 4 de outubro de 1971, devida exclusivamente aos conselheiros representantes dos contribuintes no CARF, corresponderá à sexta parte da remuneração do cargo em comissão do Grupo-Direção e Assessoramento Superiores - DAS nível 5, conforme estabelecido na Lei n º 11.526, de 4 de outubro de 2007, por sessão de julgamento." .
+lex:D8441\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8441\/Artigo2    lex:temParagrafo    lex:D8441\/Artigo2\/Paragrafo1 .
+lex:D8441\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º Serão remuneradas pela gratificação de presença de que trata o caput até, no máximo, seis sessões de julgamento por mês." .
+lex:D8441\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8441\/Artigo2    lex:temParagrafo    lex:D8441\/Artigo2\/Paragrafo2 .
+lex:D8441\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º Para a caracterização da presença de que trata o caput, deverá ser comprovada a participação efetiva na sessão de julgamento, na forma estabelecida em ato do Ministro de Estado da Fazenda." .
+lex:D8441\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8441    lex:temArtigo    lex:D8441\/Artigo3 .
+lex:D8441\/Artigo3    lex:temConteudo    "Art. 3 º O pagamento da gratificação de presença de que trata o art. 2 º fica condicionado à existência de dotação orçamentária e autorização específica na Lei Orçamentária Anual." .
+lex:D8441\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8441    lex:temArtigo    lex:D8441\/Artigo4 .
+lex:D8441\/Artigo4    lex:temConteudo    "Art. 4 º O Ministro de Estado da Fazenda expedirá normas complementares para o cumprimento do disposto neste Decreto." .
+lex:D8441\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8441    lex:temArtigo    lex:D8441\/Artigo5 .
+lex:D8441\/Artigo5    lex:temConteudo    "Art. 5 º Este Decreto entre em vigor na data de sua publicação." .
+lex:D8441\/Artigo1\/Paragrafo1    lex:remetePara    lex:L12813\/Artigo10 .
+lex:D8441\/Artigo1\/Paragrafo2    lex:remetePara    lex:L8906 .
+lex:D8441\/Artigo2    lex:remetePara    lex:L5708 .
+lex:D8441\/Artigo2    lex:remetePara    lex:L11526 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1821    lex:ehUm    lex:DocLegal .
+lex:D1821    lex:temTextoIntegral    lex:HTMLs\/D1821.htm .
+lex:D1821\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1821    lex:temArtigo    lex:D1821\/Artigo1 .
+lex:D1821\/Artigo1    lex:temConteudo    "Art. 1º Fica reduzida a zero a alíquota do Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos ou Valores Mobiliários - IOF incidente sobre operações de crédito, desde que:" .
+lex:D1821\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1821\/Artigo1    lex:temInciso    lex:D1821\/Artigo1\/IncisoI .
+lex:D1821\/Artigo1\/IncisoI    lex:temConteudo    "I - realizadas por agente financeiro, com recursos oriundos de fundos ou programas federal, estadual ou municipal, instituídos com a finalidade específica de implementar programas de geração de emprego e renda, nos termos previstos no parágrafo único do art. 1º do Decreto no 1.366, de 12 de janeiro de 1995; e" .
+lex:D1821\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1821\/Artigo1    lex:temInciso    lex:D1821\/Artigo1\/IncisoII .
+lex:D1821\/Artigo1\/IncisoII    lex:temConteudo    "II - o mutuário seja pessoa física ou pessoa jurídica de pequeno porte, como tal definida no art. 2º inciso II da Lei no 8.864, de 28 de março de 1994." .
+lex:D1821\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1821    lex:temArtigo    lex:D1821\/Artigo2 .
+lex:D1821\/Artigo2    lex:temConteudo    "Art. 2º O Secretário-Executivo do Programa Comunidade Solidária fará publicar, no Diário Oficial da União, ato declaratório relacionando os programas referidos no inciso I do artigo anterior, para fins de aplicação da alíquota zero." .
+lex:D1821\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1821    lex:temArtigo    lex:D1821\/Artigo3 .
+lex:D1821\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .

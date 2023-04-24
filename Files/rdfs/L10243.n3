@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10243    lex:ehUm    lex:DocLegal .
+lex:L10243    lex:temTextoIntegral    lex:HTMLs\/L10243.htm .
+lex:L10243\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10243    lex:temArtigo    lex:L10243\/Artigo1 .
+lex:L10243\/Artigo1    lex:temConteudo    "Art. 1o O art. 58 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943, passa a vigorar acrescido dos seguintes parágrafos:" .
+lex:L10243\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10243\/Artigo1    lex:temParagrafo    lex:L10243\/Artigo1\/Paragrafo1 .
+lex:L10243\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Não serão descontadas nem computadas como jornada extraordinária as variações de horário no registro de ponto não excedentes de cinco minutos, observado o limite máximo de dez minutos diários." .
+lex:L10243\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10243\/Artigo1    lex:temParagrafo    lex:L10243\/Artigo1\/Paragrafo2 .
+lex:L10243\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o O tempo despendido pelo empregado até o local de trabalho e para o seu retorno, por qualquer meio de transporte, não será computado na jornada de trabalho, salvo quando, tratando-se de local de difícil acesso ou não servido por transporte público, o empregador fornecer a condução.' (NR)" .
+lex:L10243\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10243    lex:temArtigo    lex:L10243\/Artigo2 .
+lex:L10243\/Artigo2    lex:temConteudo    "Art. 2o O § 2º do art. 458 da Consolidação das Leis do Trabalho passa a vigorar com a seguinte redação:" .
+lex:L10243\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10243\/Artigo2    lex:temParagrafo    lex:L10243\/Artigo2\/Paragrafo2 .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o Para os efeitos previstos neste artigo, não serão consideradas como salário as seguintes utilidades concedidas pelo empregador:" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoI .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I   vestuários, equipamentos e outros acessórios fornecidos aos empregados e utilizados no local de trabalho, para a prestação do serviço;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoII .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II   educação, em estabelecimento de ensino próprio ou de terceiros, compreendendo os valores relativos a matrícula, mensalidade, anuidade, livros e material didático;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III   transporte destinado ao deslocamento para o trabalho e retorno, em percurso servido ou não por transporte público;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV   assistência médica, hospitalar e odontológica, prestada diretamente ou mediante seguro-saúde;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoV .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoV    lex:temConteudo    "V   seguros de vida e de acidentes pessoais;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVI .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVI    lex:temConteudo    "VI   previdência privada;" .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10243\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:temConteudo    "VII   (VETADO)" .
+lex:L10243\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10243    lex:temArtigo    lex:L10243\/Artigo3 .
+lex:L10243\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L10243\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10243    lex:temArtigo    lex:L10243\/Artigo4 .
+lex:L10243\/Artigo4    lex:temConteudo    "Art. 4o Revoga-se o art. 42 da Consolidação das Leis do Trabalho." .
+lex:L10243\/Texto00001    lex:remetePara    lex:Del5452\/Artigo58 .
+lex:L10243\/Texto00004    lex:remetePara    lex:Del5452\/Artigo458\/Paragrafo2 .
+lex:L10243\/Artigo2\/Paragrafo2\/ParagrafoIncisoVII    lex:remetePara    lex:Mv581-01 .
+lex:L10243\/Artigo4    lex:remetePara    lex:Del5452\/Artigo42 .

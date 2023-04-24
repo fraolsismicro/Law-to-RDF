@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9062    lex:ehUm    lex:DocLegal .
+lex:D9062    lex:temTextoIntegral    lex:HTMLs\/D9062.htm .
+lex:D9062\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9062    lex:temArtigo    lex:D9062\/Artigo1 .
+lex:D9062\/Artigo1    lex:temConteudo    "Art. 1º  O Decreto nº 8.961, de 16 de janeiro de 2017, passa a vigorar com as seguintes alterações:" .
+lex:D9062\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9062\/Artigo1    lex:temInciso    lex:D9062\/Artigo1\/IncisoI .
+lex:D9062\/Artigo1\/IncisoI    lex:temConteudo    "I - ampliar os valores estabelecidos para os órgãos relacionados nos Anexos I e II, até o montante de R$ 4.854.584.794,00 (quatro bilhões, oitocentos e cinquenta e quatro milhões, quinhentos e oitenta e quatro mil, setecentos e noventa e quatro reais) e de R$ 4.624.365.794,00 (quatro bilhões, seiscentos e vinte de quatro milhões, trezentos e sessenta e cinco mil, setecentos e noventa e quatro reais), respectivamente, para cada Anexo;" .
+lex:D9062\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9062\/Artigo1    lex:temInciso    lex:D9062\/Artigo1\/IncisoIV .
+lex:D9062\/Artigo1\/IncisoIV    lex:temConteudo    "IV - estabelecer normas, procedimentos e critérios necessários ao disciplinamento da execução orçamentária e financeira do exercício." .
+lex:D9062\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9062    lex:temArtigo    lex:D9062\/Artigo2 .
+lex:D9062\/Artigo2    lex:temConteudo    "Art. 2º  A Reserva para Emendas Impositivas Individuais e a Reserva para Emendas Impositivas de Bancada, constantes do Anexo I do Decreto nº 8.961, de 2017, ficam ampliadas em R$ 168.184.886,00 (cento e sessenta e oito milhões, cento e oitenta e quatro mil, oitocentos e oitenta e seis reais) e R$ 84.559.127,00 (oitenta e quatro milhões, quinhentos e cinquenta e nove mil, cento e vinte e sete reais), respectivamente." .
+lex:D9062\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9062    lex:temArtigo    lex:D9062\/Artigo3 .
+lex:D9062\/Artigo3    lex:temConteudo    "Art. 3º  O Decreto nº 8.961, de 2017, passa a vigorar acrescido do Anexo XIII, na forma do Anexo VI a este Decreto, do qual consta o fluxo bimestral das despesas primárias realizadas e a previsão de pagamentos." .
+lex:D9062\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9062    lex:temArtigo    lex:D9062\/Artigo4 .
+lex:D9062\/Artigo4    lex:temConteudo    "Art. 4º  Os Anexos II, VII, VIII, IX e X do Decreto nº 8.961, de 2017, passam a vigorar, respectivamente, na forma dos Anexos I, II, III, IV e V deste Decreto." .
+lex:D9062\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9062    lex:temArtigo    lex:D9062\/Artigo5 .
+lex:D9062\/Artigo5    lex:temConteudo    "Art. 5º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9062\/Artigo1    lex:remetePara    lex:D8961 .
+lex:D9062\/Artigo1\/IncisoI    lex:remetePara    lex:D8961\/Artigo7 .
+lex:D9062\/Artigo1\/IncisoI    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo1\/IncisoI    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo1\/IncisoIV    lex:remetePara    lex:D8961\/Artigo7 .
+lex:D9062\/Artigo2    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo3    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo4    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo4    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo4    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo4    lex:remetePara    lex:D8961\/ .
+lex:D9062\/Artigo4    lex:remetePara    lex:D8961\/ .

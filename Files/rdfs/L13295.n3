@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13295    lex:ehUm    lex:DocLegal .
+lex:L13295    lex:temTextoIntegral    lex:HTMLs\/L13295.htm .
+lex:L13295\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo1 .
+lex:L13295\/Artigo1    lex:temConteudo    "Art. 1o   O art. 1o-A da Lei no 12.096, de 24 de novembro de 2009, passa a vigorar com as seguintes alterações:" .
+lex:L13295\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13295\/Artigo1    lex:temInciso    lex:L13295\/Artigo1\/IncisoII .
+lex:L13295\/Artigo1\/IncisoII    lex:temConteudo    "II - firmados até 31 de dezembro de 2015 por:" .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios    lex:ehUm    lex:IncisoAlinea .
+lex:L13295\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios    lex:temConteudo    "b) empresários individuais, empresas individuais de responsabilidade limitada, associados de cooperativas de transporte e sociedades, associações e fundações cuja receita operacional bruta ou renda anual ou anualizada seja de até R$ 2.400.000,00 (dois milhões e quatrocentos mil reais), desde que sejam do segmento de transporte rodoviário de carga;" .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios    lex:temIncisoAlineaItem    lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios\/IncisoAlineaItem .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:L13295\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13295\/Artigo1    lex:temParagrafo    lex:L13295\/Artigo1\/Paragrafo1 .
+lex:L13295\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O prazo para formalização das operações de refinanciamento de que trata o caput deste artigo é até 30 de dezembro de 2016." .
+lex:L13295\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo2 .
+lex:L13295\/Artigo2    lex:temConteudo    "Art. 2o  (VETADO)." .
+lex:L13295\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo3 .
+lex:L13295\/Artigo3    lex:temConteudo    "Art. 3o  (VETADO)." .
+lex:L13295\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo4 .
+lex:L13295\/Artigo4    lex:temConteudo    "Art. 4o  Os arts. 29 e 78-A da Lei no 12.651, de 25 de maio de 2012, passam a vigorar com as seguintes alterações:" .
+lex:L13295\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L13295\/Artigo4    lex:temParagrafo    lex:L13295\/Artigo4\/Paragrafo3 .
+lex:L13295\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3o  A inscrição no CAR será obrigatória para todas as propriedades e posses rurais, devendo ser requerida até 31 de dezembro de 2017, prorrogável por mais 1 (um) ano por ato do Chefe do Poder Executivo. (NR)" .
+lex:L13295\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13295\/Artigo4    lex:temParagrafo    lex:L13295\/Artigo4\/ParagrafoUnico .
+lex:L13295\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo de que trata este artigo será prorrogado em observância aos novos prazos de que trata o § 3o do art. 29. (NR)" .
+lex:L13295\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo5 .
+lex:L13295\/Artigo5    lex:temConteudo    "Art. 5o  (VETADO)." .
+lex:L13295\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L13295    lex:temArtigo    lex:L13295\/Artigo6 .
+lex:L13295\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13295\/Texto    lex:remetePara    lex:VEP-327 .
+lex:L13295\/Artigo1    lex:remetePara    lex:L12096 .
+lex:L13295\/Artigo1\/IncisoII    lex:remetePara    lex:L12096\/Artigo1 .
+lex:L13295\/Artigo1\/IncisoII    lex:remetePara    lex:L12096\/Artigo1 .
+lex:L13295\/Artigo1\/IncisoII\/IncisoAlineaEmpresarios    lex:remetePara    lex:L12096\/Artigo1 .
+lex:L13295\/Artigo1\/Paragrafo1    lex:remetePara    lex:L12096\/Artigo1\/Paragrafo1 .
+lex:L13295\/Artigo4    lex:remetePara    lex:L12651 .
+lex:L13295\/Artigo4\/Paragrafo3    lex:remetePara    lex:L12651\/Artigo29\/Paragrafo3 .
+lex:L13295\/Artigo4\/Texto00009    lex:remetePara    lex:L12651\/Artigo78 .

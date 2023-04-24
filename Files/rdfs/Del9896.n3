@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9896    lex:ehUm    lex:DocLegal .
+lex:Del9896    lex:temTextoIntegral    lex:HTMLs\/Del9896.htm .
+lex:Del9896\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9896    lex:temArtigo    lex:Del9896\/Artigo1 .
+lex:Del9896\/Artigo1    lex:temConteudo    "Art. 1º Fica aberto ao Ministério da Agricultura o crédito especial de um milhão e sessenta e cinco mil cruzeiros (Cr$ 1.065.000,00) para atender às seguintes despesas:" .
+lex:Del9896\/Artigo1\/AlineaServicos    lex:ehUm    lex:Alinea .
+lex:Del9896\/Artigo1    lex:temAlinea    lex:Del9896\/Artigo1\/AlineaServicos .
+lex:Del9896\/Artigo1\/AlineaServicos    lex:temConteudo    "a) Serviços e Encargos:" .
+lex:Del9896\/Artigo1\/AlineaMaterial:    lex:ehUm    lex:Alinea .
+lex:Del9896\/Artigo1    lex:temAlinea    lex:Del9896\/Artigo1\/AlineaMaterial: .
+lex:Del9896\/Artigo1\/AlineaMaterial:    lex:temConteudo    "b) Material:" .
+lex:Del9896\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9896    lex:temArtigo    lex:Del9896\/Artigo2 .
+lex:Del9896\/Artigo2    lex:temConteudo    "Art. 2º Fica revogado o credito especial de um milhão e seiscentos mil cruzeiros (Cr$ 1.600.000,00) aberto pelo Decreto-lei nº 8.694, de 16-1-46, e reduzido para seiscentos mil cruzeiros (Cr$ 600.000,00) pelo de número 9.742, de 5 de setembro de 1946." .
+lex:Del9896\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del9896    lex:temArtigo    lex:Del9896\/Artigo3 .
+lex:Del9896\/Artigo3    lex:temConteudo    "Art. 3º O presente decreto-lei entrará em vigor na, data de sua publicação." .
+lex:Del9896\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del9896    lex:temArtigo    lex:Del9896\/Artigo4 .
+lex:Del9896\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .

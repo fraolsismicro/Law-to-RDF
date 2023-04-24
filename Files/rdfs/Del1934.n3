@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1934    lex:ehUm    lex:DocLegal .
+lex:Del1934    lex:temTextoIntegral    lex:HTMLs\/Del1934.htm .
+lex:Del1934\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo1 .
+lex:Del1934\/Artigo1    lex:temConteudo    "Art. 1º - À retribuição dos professores civis do Magistério da Aeronáutica, serão aplicadas as disposições legais relativas ao Grupo - Magistério do Serviço Civil da União e das Autarquias." .
+lex:Del1934\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo2 .
+lex:Del1934\/Artigo2    lex:temConteudo    "Art. 2º - Para a execução do disposto no artigo 1º, serão observadas as disposições constantes dos Decretos-leis números 1.820, de 11 de dezembro de 1980 e seus Anexos VI e VII, e 1.858, de 16 de fevereiro de 1981, e seus Anexos I e Il." .
+lex:Del1934\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo3 .
+lex:Del1934\/Artigo3    lex:temConteudo    "Art. 3º - Os vencimentos e salários relativos aos cargos e empregos do Magistério da Aeronáutica, resultantes da aplicação deste Decreto-lei vigoram a partir de 1º de janeiro de 1982." .
+lex:Del1934\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo4 .
+lex:Del1934\/Artigo4    lex:temConteudo    "Art. 4º - As despesas decorrentes da aplicação deste Decreto-lei serão atendidas pelos recursos orçamentários próprios do Ministério da Aeronáutica, bem assim por outros recursos a esse fim destinados, na forma de legislação pertinente." .
+lex:Del1934\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo5 .
+lex:Del1934\/Artigo5    lex:temConteudo    "Art. 5º - Este Decreto-lei entra em vigor na data de sua aplicação." .
+lex:Del1934\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1934    lex:temArtigo    lex:Del1934\/Artigo6 .
+lex:Del1934\/Artigo6    lex:temConteudo    "Art. 6º - Ficam revogados o artigo 15 da Lei número 6.249, de 8 de outubro de 1975, e demais disposições em contrário." .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1820 .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1820\/ .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1820\/ .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1858 .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1858\/ .
+lex:Del1934\/Artigo2    lex:remetePara    lex:Del1858\/ .
+lex:Del1934\/Artigo6    lex:remetePara    lex:L6249\/Artigo15 .

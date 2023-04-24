@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8404    lex:ehUm    lex:DocLegal .
+lex:L8404    lex:temTextoIntegral    lex:HTMLs\/L8404.htm .
+lex:L8404\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8404    lex:temArtigo    lex:L8404\/Artigo1 .
+lex:L8404\/Artigo1    lex:temConteudo    "Art. 1° São criados no Quadro do Ministério Público Federal os Cargos em Comissão do Grupo-Direção e Assessoramento Superiores, Código DAS-100, constantes do Anexo I desta lei, bem como as Funções Gratificadas (FG), constantes do Anexo II, e acrescidas à Tabela de Gratificação pela Representação de Gabinete as quantidades constantes do Anexo III." .
+lex:L8404\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8404\/Artigo1    lex:temParagrafo    lex:L8404\/Artigo1\/ParagrafoUnico .
+lex:L8404\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As despesas decorrentes da aplicação desta lei correrão à conta dos recursos orçamentários consignados ao Ministério Público Federal." .
+lex:L8404\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8404    lex:temArtigo    lex:L8404\/Artigo2 .
+lex:L8404\/Artigo2    lex:temConteudo    "Art. 2° Esta lei entra em vigor na data de sua publicação." .
+lex:L8404\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8404    lex:temArtigo    lex:L8404\/Artigo3 .
+lex:L8404\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .

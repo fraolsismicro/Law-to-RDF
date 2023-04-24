@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7815    lex:ehUm    lex:DocLegal .
+lex:D7815    lex:temTextoIntegral    lex:HTMLs\/D7815.htm .
+lex:D7815\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7815    lex:temInciso    lex:D7815\/IncisoI .
+lex:D7815\/IncisoI    lex:temConteudo    "I - até 30 de setembro de 2012:" .
+lex:D7815\/IncisoI\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoI    lex:temIncisoAlinea    lex:D7815\/IncisoI\/IncisoAlineaDois .
+lex:D7815\/IncisoI\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.4;" .
+lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoI\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois .
+lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:temConteudo    "b) dois DAS 101.3; e" .
+lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm .
+lex:D7815\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaUm    lex:temConteudo    "c) um DAS 101.2; e" .
+lex:D7815\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7815    lex:temInciso    lex:D7815\/IncisoII .
+lex:D7815\/IncisoII    lex:temConteudo    "II - até 30 de outubro de 2012:" .
+lex:D7815\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoII    lex:temIncisoAlinea    lex:D7815\/IncisoII\/IncisoAlineaUm .
+lex:D7815\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5:" .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 101.4;" .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "c) um DAS 101.3; e" .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D7815\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "d) um DAS 101.2." .
+lex:D7815\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7815    lex:temParagrafo    lex:D7815\/Paragrafo1 .
+lex:D7815\/Paragrafo1    lex:temConteudo    "§ 1 º Os cargos remanejados serão alocados às atividades do Comitê Nacional de Organização e não integrarão a estrutura do Ministério das Relações Exteriores, devendo constar do ato de nomeação seu caráter de transitoriedade, mediante remissão ao caput." .
+lex:D7815\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7815    lex:temParagrafo    lex:D7815\/Paragrafo2 .
+lex:D7815\/Paragrafo2    lex:temConteudo    "§ 2 º Findos os prazos estabelecidos no caput, os cargos remanejados serão restituídos à Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão, sendo considerados exonerados os titulares neles investidos.  (NR)" .
+lex:D7815\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7815    lex:temArtigo    lex:D7815\/Artigo2 .
+lex:D7815\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7815\/Texto    lex:remetePara    lex:D7495 .
+lex:D7815\/Texto    lex:remetePara    lex:D7495\/Artigo10 .
+lex:D7815\/Texto00011    lex:remetePara    lex:D7495\/Artigo17 .
+lex:D7815\/Texto00011    lex:remetePara    lex:D7495\/Artigo17 .

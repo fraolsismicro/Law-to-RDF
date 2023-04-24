@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6776    lex:ehUm    lex:DocLegal .
+lex:D6776    lex:temTextoIntegral    lex:HTMLs\/D6776.htm .
+lex:D6776\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6776    lex:temArtigo    lex:D6776\/Artigo1 .
+lex:D6776\/Artigo1    lex:temConteudo    "Art. 1o  Fica criada a Embaixada do Brasil em São Vicente e Granadinas, com sede em Kingstown." .
+lex:D6776\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6776    lex:temArtigo    lex:D6776\/Artigo2 .
+lex:D6776\/Artigo2    lex:temConteudo    "Art. 2o  Fica incluída a localidade constante do art. 1o na Tabela de Fatores de Conversão de Índices de Indenização de Representação no Exterior, a que se refere o art. 11 do Decreto no 71.733, de 18 de janeiro de 1973, com o Fator de Conversão 13." .
+lex:D6776\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6776    lex:temArtigo    lex:D6776\/Artigo3 .
+lex:D6776\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6776\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6776    lex:temArtigo    lex:D6776\/Artigo4 .
+lex:D6776\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o inciso XXXIV do art. 1o do Decreto no 5.073, de 10 de maio de 2004." .
+lex:D6776\/Artigo2    lex:remetePara    lex:D71733\/Artigo11 .
+lex:D6776\/Artigo4    lex:remetePara    lex:D5073\/Artigo1 .

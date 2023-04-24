@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6468    lex:ehUm    lex:DocLegal .
+lex:D6468    lex:temTextoIntegral    lex:HTMLs\/D6468.htm .
+lex:D6468\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6468    lex:temArtigo    lex:D6468\/Artigo1 .
+lex:D6468\/Artigo1    lex:temConteudo    "Art. 1o  O art. 9o do Decreto no 6.439, de 22 de abril de 2008, passa a vigorar com a seguinte redação:" .
+lex:D6468\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6468\/Artigo1    lex:temInciso    lex:D6468\/Artigo1\/IncisoI .
+lex:D6468\/Artigo1\/IncisoI    lex:temConteudo    "I -......................................................." .
+lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:ehUm    lex:IncisoAlinea .
+lex:D6468\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar .
+lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:temConteudo    "b) ampliar os limites estabelecidos para os órgãos e unidades orçamentárias relacionados nos Anexos I e II deste Decreto, até o montante de R$ 4.498.021.000,00 (quatro bilhões, quatrocentos e noventa e oito milhões e vinte e um mil reais) e R$ 5.306.228.000,00 (cinco bilhões, trezentos e seis milhões e duzentos e vinte e oito mil reais), respectivamente; e" .
+lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:temIncisoAlineaItem    lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaItem .
+lex:D6468\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaItem    lex:temConteudo    "............................................................." .
+lex:D6468\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6468\/Artigo1    lex:temParagrafo    lex:D6468\/Artigo1\/ParagrafoUnico .
+lex:D6468\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A ampliação a que se refere a alínea b do inciso I deste artigo será efetuada de acordo com o detalhamento estabelecido na forma da alínea a desse inciso. (NR)" .
+lex:D6468\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6468    lex:temArtigo    lex:D6468\/Artigo2 .
+lex:D6468\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos VII, VIII, IX e X do Decreto nº 6.439, de 2008, passam a vigorar, respectivamente, na forma dos Anexos I, II, III e IV deste Decreto." .
+lex:D6468\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6468    lex:temArtigo    lex:D6468\/Artigo3 .
+lex:D6468\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6468\/Texto00001    lex:remetePara    lex:D6439\/Artigo9 .
+lex:D6468\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D6439\/Artigo9 .
+lex:D6468\/Artigo2    lex:remetePara    lex:D6439\/ .
+lex:D6468\/Artigo2    lex:remetePara    lex:D6439\/ .
+lex:D6468\/Artigo2    lex:remetePara    lex:D6439\/ .
+lex:D6468\/Artigo2    lex:remetePara    lex:D6439\/ .

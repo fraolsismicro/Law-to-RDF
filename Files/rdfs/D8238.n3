@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8238    lex:ehUm    lex:DocLegal .
+lex:D8238    lex:temTextoIntegral    lex:HTMLs\/D8238.htm .
+lex:D8238\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8238    lex:temArtigo    lex:D8238\/Artigo1 .
+lex:D8238\/Artigo1    lex:temConteudo    "Art. 1 º  Fica alterado o Programa de Dispêndios Globais - PDG para 2014, aprovado pelo Decreto n º 8.159, de 18 de dezembro de 2013, na parte que se refere à Empresa de Tecnologia e Informações da Previdência Social - DATAPREV e ao BNDES Limited, conforme demonstrativos por empresa constantes do Anexo I a este Decreto." .
+lex:D8238\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8238    lex:temArtigo    lex:D8238\/Artigo2 .
+lex:D8238\/Artigo2    lex:temConteudo    "Art. 2 º  Ficam incluídas no PDG para 2014, aprovado pelo Decreto nº 8.159, de 2013, as programações para a Agência Brasileira Gestora de Fundos Garantidores e Garantias S.A. - ABGF e a Empresa Brasileira de Administração de Petróleo e Gás Natural S.A. - Pré-Sal Petróleo S.A. - PPSA, conforme demonstrativos por empresa constantes do Anexo I a este Decreto." .
+lex:D8238\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8238    lex:temArtigo    lex:D8238\/Artigo3 .
+lex:D8238\/Artigo3    lex:temConteudo    "Art. 3 º  As empresas estatais a que se referem os art. 1 º e art. 2 º deverão:" .
+lex:D8238\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8238\/Artigo3    lex:temInciso    lex:D8238\/Artigo3\/IncisoI .
+lex:D8238\/Artigo3\/IncisoI    lex:temConteudo    "I - gerar, na execução do PDG, no exercício de 2014, os resultados fixados no Anexo II a este Decreto, calculados segundo o critério de necessidade de financiamento líquido; e" .
+lex:D8238\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8238\/Artigo3    lex:temInciso    lex:D8238\/Artigo3\/IncisoII .
+lex:D8238\/Artigo3\/IncisoII    lex:temConteudo    "II - observar, na execução dos investimentos, o teto da rubrica Investimentos constante do respectivo demonstrativo por empresa e o limite de cada ação aprovado pela Lei n º 12.952, de 20 de janeiro de 2014, acrescido dos créditos adicionais aprovados em 2014." .
+lex:D8238\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8238    lex:temArtigo    lex:D8238\/Artigo4 .
+lex:D8238\/Artigo4    lex:temConteudo    "Art. 4 º  Ficam revogadas as programações da Refinaria Abreu e Lima S.A - RNEST e do IRB - Brasil Resseguros S.A. do Programa de Dispêndios Globais - PDG para 2014, constante do Anexo I ao Decreto n º 8.159, de 2013." .
+lex:D8238\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8238    lex:temArtigo    lex:D8238\/Artigo4 .
+lex:D8238\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8238\/Artigo1    lex:remetePara    lex:D8159 .
+lex:D8238\/Artigo2    lex:remetePara    lex:D8159 .
+lex:D8238\/Artigo3\/IncisoII    lex:remetePara    lex:L12952 .
+lex:D8238\/Artigo4    lex:remetePara    lex:D8159\/ .
+lex:D8238\/Artigo4    lex:remetePara    lex:D8159\/ .
+lex:D8238\/Artigo4    lex:remetePara    lex:D8159\/ .

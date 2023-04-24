@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7978    lex:ehUm    lex:DocLegal .
+lex:D7978    lex:temTextoIntegral    lex:HTMLs\/D7978.htm .
+lex:D7978\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7978    lex:temParagrafo    lex:D7978\/ParagrafoUnico .
+lex:D7978\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O bônus de que trata o caput somente se aplica às parcelas com vencimento em 2012, 2013 e 2014 prorrogadas nas condições definidas pelo Conselho Monetário Nacional." .
+lex:D7978\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7978    lex:temArtigo    lex:D7978\/Artigo2 .
+lex:D7978\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .

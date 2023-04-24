@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10331    lex:ehUm    lex:DocLegal .
+lex:L10331    lex:temTextoIntegral    lex:HTMLs\/L10331.htm .
+lex:L10331\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoI .
+lex:L10331\/IncisoI    lex:temConteudo    "I - autorização na lei de diretrizes orçamentárias;" .
+lex:L10331\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoII .
+lex:L10331\/IncisoII    lex:temConteudo    "II - definição do índice em lei específica;" .
+lex:L10331\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoIII .
+lex:L10331\/IncisoIII    lex:temConteudo    "III - previsão do montante da respectiva despesa e correspondentes fontes de custeio na lei orçamentária anual;" .
+lex:L10331\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoIV .
+lex:L10331\/IncisoIV    lex:temConteudo    "IV - comprovação da disponibilidade financeira que configure capacidade de pagamento pelo governo, preservados os compromissos relativos a investimentos e despesas continuadas nas áreas prioritárias de interesse econômico e social;" .
+lex:L10331\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoV .
+lex:L10331\/IncisoV    lex:temConteudo    "V - compatibilidade com a evolução nominal e real das remunerações no mercado de trabalho; e" .
+lex:L10331\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L10331    lex:temInciso    lex:L10331\/IncisoVI .
+lex:L10331\/IncisoVI    lex:temConteudo    "VI - atendimento aos limites para despesa com pessoal de que tratam o art. 169 da Constituição e a Lei Complementar no 101, de 4 de maio de 2000." .
+lex:L10331\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo37 .
+lex:L10331\/IncisoVI    lex:remetePara    lex:Constituiçao\/169 .
+lex:L10331\/IncisoVI    lex:remetePara    lex:Lcp101 .
+lex:L10331\/Artigo3    lex:revogadoPor    lex:L10697\/Artigo3 .
+lex:L10697\/Artigo3    lex:revogou    lex:L10331\/Artigo3 .

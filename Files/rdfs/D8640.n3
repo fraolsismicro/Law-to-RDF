@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8640    lex:ehUm    lex:DocLegal .
+lex:D8640    lex:temTextoIntegral    lex:HTMLs\/D8640.htm .
+lex:D8640\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo1 .
+lex:D8640\/Artigo1    lex:temConteudo    "Art. 1o  Até que o Poder Executivo federal estabeleça o cronograma de que trata o caput do art. 8 º da Lei Complementar n º 101, de 4 de maio de 2000, os órgãos, os fundos e as entidades do Poder Executivo, integrantes dos Orçamentos Fiscal e da Seguridade Social, poderão empenhar as dotações orçamentárias aprovadas na Lei no 13.255, de 14 de janeiro de 2016, observados os valores estabelecidos no Anexo I." .
+lex:D8640\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8640\/Artigo1    lex:temParagrafo    lex:D8640\/Artigo1\/Paragrafo1 .
+lex:D8640\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Não se aplica o disposto no caput às dotações orçamentárias relativas:" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8640\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - aos grupos de natureza de despesa:" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea1    lex:ehUm    lex:Alinea .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea1 .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea1    lex:temConteudo    "a) 1 - Pessoal e Encargos Sociais;" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea2    lex:ehUm    lex:Alinea .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea2 .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea2    lex:temConteudo    "b) 2 - Juros e Encargos da Dívida; e" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea6    lex:ehUm    lex:Alinea .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea6 .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/Alinea6    lex:temConteudo    "c) 6 - Amortização da Dívida;" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8640\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - às despesas financeiras;" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8640\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - às despesas custeadas com receitas oriundas de doações e de convênios; e" .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8640\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - às despesas relacionadas na Seção I do Anexo III à Lei no 13.242, de 30 de dezembro de 2015, e não constantes do Anexo II." .
+lex:D8640\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8640\/Artigo1    lex:temParagrafo    lex:D8640\/Artigo1\/Paragrafo2 .
+lex:D8640\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os créditos suplementares e especiais abertos e os créditos especiais reabertos neste exercício, relativos aos grupos de natureza de despesa 3 - Outras Despesas Correntes, 4 - Investimentos e 5 - Inversões Financeiras, ressalvadas as exclusões de que trata o § 1o, terão sua execução condicionada aos valores constantes do Anexo I." .
+lex:D8640\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo2 .
+lex:D8640\/Artigo2    lex:temConteudo    "Art. 2o  O empenho e o pagamento de despesas à conta de receitas próprias, fontes 150, 180, 250 e 280, somente poderão ocorrer até o montante da reestimativa constante do Sistema Integrado de Planejamento e Orçamento - Siop, elaborada com base nos dados de arrecadação registrados no Sistema Integrado de Administração Financeira do Governo Federal - Siafi e na tendência do exercício, respeitadas as dotações orçamentárias aprovadas." .
+lex:D8640\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo3 .
+lex:D8640\/Artigo3    lex:temConteudo    "Art. 3o  O Ministro de Estado do Planejamento, Orçamento e Gestão poderá, permitida a delegação, ampliar os valores constantes do Anexo I." .
+lex:D8640\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo4 .
+lex:D8640\/Artigo4    lex:temConteudo    "Art. 4o  Os Ministros de Estado, os dirigentes dos órgãos setoriais dos Sistemas Federais de Planejamento e de Orçamento e de Administração Financeira e os ordenadores de despesa são responsáveis pela observância, na execução orçamentária e financeira das dotações disponibilizadas na forma deste Decreto, de todas as disposições legais aplicáveis à matéria, especialmente as previstas na Lei no 4.320, de 17 de março de 1964, na Lei Complementar no 101, de 2000, e na Lei no 13.242, de 2015." .
+lex:D8640\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo5 .
+lex:D8640\/Artigo5    lex:temConteudo    "Art. 5o  Cabe à Controladoria-Geral da União e aos demais órgãos integrantes do Sistema de Controle Interno do Poder Executivo Federal zelar pelo cumprimento do disposto neste Decreto e adotar as providências para a responsabilização dos dirigentes e dos servidores que praticarem atos em desacordo com as disposições nele contidas." .
+lex:D8640\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8640    lex:temArtigo    lex:D8640\/Artigo6 .
+lex:D8640\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8640\/Artigo1    lex:remetePara    lex:Lcp101\/Artigo8 .
+lex:D8640\/Artigo1    lex:remetePara    lex:L13255 .
+lex:D8640\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:remetePara    lex:L13242\/ .
+lex:D8640\/Artigo4    lex:remetePara    lex:L4320 .
+lex:D8640\/Artigo4    lex:remetePara    lex:Lcp101 .
+lex:D8640\/Artigo4    lex:remetePara    lex:L13242 .

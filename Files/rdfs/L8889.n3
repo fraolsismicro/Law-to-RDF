@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8889    lex:ehUm    lex:DocLegal .
+lex:L8889    lex:temTextoIntegral    lex:HTMLs\/L8889.htm .
+lex:L8889\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8889    lex:temArtigo    lex:L8889\/Artigo1 .
+lex:L8889\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a manter, até 31 de dezembro de 1994, os servidores públicos federais, não ocupantes de cargo em comissão ou função de confiança que, em 28 de fevereiro de 1994, encontravam-se à disposição dos Ministérios da Cultura, da Integração Regional, do Meio Ambiente e da Amazônia Legal, da Ciência e Tecnologia e da Secretaria de Desportos do Ministério da Educação e do Desporto." .
+lex:L8889\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8889\/Artigo1    lex:temParagrafo    lex:L8889\/Artigo1\/ParagrafoUnico .
+lex:L8889\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo a que se refere o caput poderá ser prorrogado pelo Presidente da República, por até mais seis meses." .
+lex:L8889\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8889    lex:temArtigo    lex:L8889\/Artigo2 .
+lex:L8889\/Artigo2    lex:temConteudo    "Art. 2º Fica o Ministério da Previdência Social autorizado a requisitar servidores do Instituto Nacional do Seguro Social, para terem exercício no Conselho de Recursos da Previdência Social, podendo, inclusive, ser designados para Funções Gratificadas (FG)." .
+lex:L8889\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8889    lex:temArtigo    lex:L8889\/Artigo3 .
+lex:L8889\/Artigo3    lex:temConteudo    "Art. 3º Os servidores a que se referem os arts. 1º e 2º, regidos pela Lei nº 8.112, de 11 de dezembro de 1990, poderão ser redistribuídos para os Ministérios requisitantes, desde que o requeiram no prazo previsto no caput do art. 1º." .
+lex:L8889\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8889    lex:temArtigo    lex:L8889\/Artigo6 .
+lex:L8889\/Artigo6    lex:temConteudo    "Art. 6º Esta lei entra em vigor na data de sua publicação." .
+lex:L8889\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L8889    lex:temArtigo    lex:L8889\/Artigo7 .
+lex:L8889\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se a Medida Provisória nº 498, de 11 de maio de 1994, e demais disposições em contrário." .
+lex:L8889\/Artigo3    lex:remetePara    lex:L8112cons\/Artigo1 .
+lex:L8889\/Artigo4    lex:revogadoPor    lex:L9527\/Artigo18 .
+lex:L9527\/Artigo18    lex:revogou    lex:L8889\/Artigo4 .
+lex:L8889\/Artigo5    lex:remetePara    lex:L7474 .
+lex:L8889\/Artigo5    lex:revogadoPor    lex:L10609\/Artigo15 .
+lex:L10609\/Artigo15    lex:revogou    lex:L8889\/Artigo5 .
+lex:L8889\/Texto00004    lex:remetePara    lex:L7474\/Artigo1 .
+lex:L8889\/Artigo7    lex:remetePara    lex:498 .

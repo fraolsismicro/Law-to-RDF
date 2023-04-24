@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2025    lex:ehUm    lex:DocLegal .
+lex:D2025    lex:temTextoIntegral    lex:HTMLs\/D2025.htm .
+lex:D2025\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2025    lex:temArtigo    lex:D2025\/Artigo1 .
+lex:D2025\/Artigo1    lex:temConteudo    "Art. 1º Ficam dispensados do registro de que trata o art. 39 do Decreto nº 58.380, de 10 de maio de 1966, os financiamentos concedidos ao amparo do Programa Nacional de Fortalecimento da Agricultura Familiar - PRONAF, objeto do Decreto nº 1.946, de 28 de junho de 1996, conforme dispuser o Conselho Monetário Nacional." .
+lex:D2025\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2025    lex:temArtigo    lex:D2025\/Artigo2 .
+lex:D2025\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2025\/Artigo1    lex:remetePara    lex:D58380\/Artigo39 .
+lex:D2025\/Artigo1    lex:remetePara    lex:D1946 .

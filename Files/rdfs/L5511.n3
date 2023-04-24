@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5511    lex:ehUm    lex:DocLegal .
+lex:L5511    lex:temTextoIntegral    lex:HTMLs\/L5511.htm .
+lex:L5511\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5511    lex:temArtigo    lex:L5511\/Artigo1 .
+lex:L5511\/Artigo1    lex:temConteudo    "Art. 1º A Campanha Nacional Contra a Lepra instituída pela Lei número 3.542, de 11 de fevereiro de 1959 passa a reger-se pelo disposto na Lei nº 5.026, de 14 junho de 1966." .
+lex:L5511\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5511    lex:temArtigo    lex:L5511\/Artigo2 .
+lex:L5511\/Artigo2    lex:temConteudo    "Art. 2º Ficam revogadas a Lei número 610, de 13 de janeiro de 1949, a Lei nº 1.045, de 2 de janeiro de 1950, e demais disposições em contrário." .
+lex:L5511\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5511    lex:temArtigo    lex:L5511\/Artigo3 .
+lex:L5511\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L5511\/Artigo1    lex:remetePara    lex:L3542 .
+lex:L5511\/Artigo1    lex:remetePara    lex:L5026 .
+lex:L5511\/Artigo2    lex:remetePara    lex:L0610 .
+lex:L5511\/Artigo2    lex:remetePara    lex:L1045 .

@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D83842    lex:ehUm    lex:DocLegal .
+lex:D83842    lex:temTextoIntegral    lex:HTMLs\/D83842.htm .
+lex:D83842\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D83842    lex:temArtigo    lex:D83842\/Artigo1 .
+lex:D83842\/Artigo1    lex:temConteudo    "Art. 1º - É delegada competência ao Ministro do Trabalho para, de conformidade com o artigo 5º, parágrafo único, da Lei nº 605, de 5 de janeiro de 1949, combinado com o artigo 7º, § 2º, do Regulamento aprovado pelo Decreto nº 27.048, de 12 de agosto de 1949, observadas as exigências legais aplicáveis, conceder autorização para o funcionamento de empresas aos domingos e feriados civis e religiosos." .
+lex:D83842\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83842    lex:temArtigo    lex:D83842\/Artigo2 .
+lex:D83842\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D83842\/Artigo1    lex:remetePara    lex:L0605\/Artigo5 .
+lex:D83842\/Artigo1    lex:regulamentadoPor    lex:D27048\/Artigo7\/Paragrafo2 .
+lex:D27048\/Artigo7\/Paragrafo2    lex:regulamenta    lex:D83842\/Artigo1 .

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93957    lex:ehUm    lex:DocLegal .
+lex:D93957    lex:temTextoIntegral    lex:HTMLs\/D93957.htm .
+lex:D93957\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93957    lex:temArtigo    lex:D93957\/Artigo1 .
+lex:D93957\/Artigo1    lex:temConteudo    "Art. 1º A anuência do Instituto Brasileiro do Desenvolvimento Florestal - IBDF, até 21 de novembro de 1986, a cartas-consulta assegurará aos titulares respectivos, observado o disposto neste decreto, o regime previsto na legislação anterior, no tocante às condições básicas de aprovação dos correspondentes projetos." .
+lex:D93957\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93957\/Artigo1    lex:temParagrafo    lex:D93957\/Artigo1\/ParagrafoUnico .
+lex:D93957\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo aplica-se apenas aos projetos cuja execução com recursos próprios tiver sido efetivamente iniciada até 21 de novembro de 1986, comprovada mediante exibição do laudo de vistoria do IBDF." .
+lex:D93957\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93957    lex:temArtigo    lex:D93957\/Artigo2 .
+lex:D93957\/Artigo2    lex:temConteudo    "Art. 2º Nos casos do artigo precedente, não será aplicado o disposto nos arts. 1º, 2º e 10 do Decreto nº 93.607, de 21 de novembro de 1986, e a nova redação dos arts. 4º e 18 do Decreto-lei nº 1.376, de 12 de dezembro de 1974." .
+lex:D93957\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D93957    lex:temArtigo    lex:D93957\/Artigo3 .
+lex:D93957\/Artigo3    lex:temConteudo    "Art. 3º As Agências de desenvolvimento e os Bancos operadores sob a supervisão dos Ministérios a que estão vinculados, adotarão as providências necessárias para implantar, no prazo de até seis meses, as medidas aprovadas pelo Decreto-lei nº 2.304 e pelo Decreto nº 93.607." .
+lex:D93957\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D93957    lex:temArtigo    lex:D93957\/Artigo4 .
+lex:D93957\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D93957\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D93957    lex:temArtigo    lex:D93957\/Artigo5 .
+lex:D93957\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:D93957\/Artigo2    lex:remetePara    lex:Del1376\/Artigo4 .
+lex:D93957\/Artigo2    lex:remetePara    lex:Del1376\/Artigo18 .
+lex:D93957\/Artigo3    lex:remetePara    lex:Del2304 .

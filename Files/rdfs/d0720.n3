@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:d0720    lex:ehUm    lex:DocLegal .
+lex:d0720    lex:temTextoIntegral    lex:HTMLs\/d0720.htm .
+lex:d0720\/Artigo1    lex:ehUm    lex:Artigo .
+lex:d0720    lex:temArtigo    lex:d0720\/Artigo1 .
+lex:d0720\/Artigo1    lex:temConteudo    "Art. 1° O art. 1° do Decreto n° 99.608, de 13 de outubro de 1990, passa a vigorar com a seguinte redação:" .
+lex:d0720\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:d0720\/Artigo1    lex:temInciso    lex:d0720\/Artigo1\/IncisoI .
+lex:d0720\/Artigo1\/IncisoI    lex:temConteudo    "I - Secretário-Executivo do Ministério da Fazenda;" .
+lex:d0720\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:d0720\/Artigo1    lex:temInciso    lex:d0720\/Artigo1\/IncisoII .
+lex:d0720\/Artigo1\/IncisoII    lex:temConteudo    "II - Secretário-Executivo do Ministério de Minas e Energia;" .
+lex:d0720\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:d0720\/Artigo1    lex:temInciso    lex:d0720\/Artigo1\/IncisoIII .
+lex:d0720\/Artigo1\/IncisoIII    lex:temConteudo    "III - Secretário-Executivo da Secretaria de Planejamento, Orçamento e Coordenação da Presidência da República." .
+lex:d0720\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:d0720\/Artigo1    lex:temParagrafo    lex:d0720\/Artigo1\/ParagrafoUnico .
+lex:d0720\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Coordenação do Grupo caberá ao Secretário-Executivo do Ministério da Fazenda'." .
+lex:d0720\/Artigo2    lex:ehUm    lex:Artigo .
+lex:d0720    lex:temArtigo    lex:d0720\/Artigo2 .
+lex:d0720\/Artigo2    lex:temConteudo    "Art. 2° Revoga-se o decreto n° 589, de 2 de julho de 1992." .
+lex:d0720\/Artigo3    lex:ehUm    lex:Artigo .
+lex:d0720    lex:temArtigo    lex:d0720\/Artigo3 .
+lex:d0720\/Artigo3    lex:temConteudo    "Art. 3° Este decreto entra em vigor na data de sua publicação." .
+lex:d0720\/Artigo1    lex:remetePara    lex:D99608\/Artigo1 .
+lex:d0720\/Artigo2    lex:remetePara    lex:D0589 .

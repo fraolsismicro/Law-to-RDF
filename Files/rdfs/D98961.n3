@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98961    lex:ehUm    lex:DocLegal .
+lex:D98961    lex:temTextoIntegral    lex:HTMLs\/D98961.htm .
+lex:D98961\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo1 .
+lex:D98961\/Artigo1    lex:temConteudo    "Art. 1° O inquérito de expulsão de estrangeiro condenado por uso indevido ou tráfico ilícito de entorpecentes e drogas afins obedecerá ao rito procedimental estabelecido nos artigos 68 e 71 da Lei n° 6.815, de 19 de agosto de 1980, e nos artigos 100 a 105 do Decreto n° 86.715, de 10 de dezembro de 1981, mas somente serão encaminhados com parecer final ao Ministro da Justiça mediante certidão do cumprimento integral da pena privativa de liberdade." .
+lex:D98961\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D98961\/Artigo1    lex:temParagrafo    lex:D98961\/Artigo1\/Paragrafo1 .
+lex:D98961\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Permitir-se-á certidão do cumprimento da pena nos sessenta dias anteriores ao respectivo término, mas o decreto de expulsão será executado no dia seguinte ao último da condenação." .
+lex:D98961\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D98961\/Artigo1    lex:temParagrafo    lex:D98961\/Artigo1\/Paragrafo2 .
+lex:D98961\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Na hipótese de atraso do decreto de expulsão, caberá ao Ministério da Justiça requerer, ao Juiz competente, a prisão, para efeito de expulsão, do estrangeiro de que trata este Decreto." .
+lex:D98961\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo2 .
+lex:D98961\/Artigo2    lex:temConteudo    "Art. 2° As condições de expulsabilidade serão aquelas existentes na data da infração penal, apuradas no inquérito, não se considerando as alterações ocorridas após a prática do delito." .
+lex:D98961\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo3 .
+lex:D98961\/Artigo3    lex:temConteudo    "Art. 3° Se, antes do cumprimento da pena, for conveniente ao interesse nacional a expulsão do estrangeiro, condenado por uso indevido ou tráfico de entorpecentes ou drogas afins, o Ministro da Justiça fará exposição fundamentada ao Presidente da República, que decidirá na forma do artigo 66 da Lei n° 6.815, de 19 de agosto de 1980." .
+lex:D98961\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo4 .
+lex:D98961\/Artigo4    lex:temConteudo    "Art. 4° Nos casos em que o Juízo de Execução conceder ao estrangeiro, de que trata este Decreto, regime penal mais benigno do que aquele fixado na decisão condenatória, caberá ao Ministério da Justiça requerer ao Ministério Público providências para que seja restabelecida a autoridade da sentença transitada em julgado." .
+lex:D98961\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo5 .
+lex:D98961\/Artigo5    lex:temConteudo    "Art. 5° Este Decreto entra em vigor na data de sua publicação." .
+lex:D98961\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D98961    lex:temArtigo    lex:D98961\/Artigo6 .
+lex:D98961\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:D98961\/Artigo1    lex:remetePara    lex:L6815\/Artigo68 .
+lex:D98961\/Artigo1    lex:remetePara    lex:L6815\/Artigo71 .
+lex:D98961\/Artigo1    lex:remetePara    lex:D86715\/Artigo100 .
+lex:D98961\/Artigo3    lex:remetePara    lex:L6815\/Artigo66 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0192    lex:ehUm    lex:DocLegal .
+lex:Del0192    lex:temTextoIntegral    lex:HTMLs\/Del0192.htm .
+lex:Del0192\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0192    lex:temArtigo    lex:Del0192\/Artigo1 .
+lex:Del0192\/Artigo1    lex:temConteudo    "Art. 1º A preferência assegurada pelo art. 102 do Decreto-lei número 7.661, de 21 de junho de 1945, na nova redação que lhe deu a Lei número 3.726, de 11 de janeiro de 1960, bem como pelo art. 1º da Lei número 4.839, de 18 de novembro de 1965, às indenizações trabalhistas, corresponde, na forma do disposto no § 1º do art. 499, da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei nº 5.452, de 1º de maio de 1943, a um têrço da indenização de vida." .
+lex:Del0192\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0192    lex:temArtigo    lex:Del0192\/Artigo2 .
+lex:Del0192\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, aplicando-se aos processos em curso e revogadas as disposições em contrário." .
+lex:Del0192\/Texto    lex:revogadoPor    lex:L6449\/Artigo2 .
+lex:L6449\/Artigo2    lex:revogou    lex:Del0192\/Texto .
+lex:Del0192\/Texto    lex:remetePara    lex:Del0192 .
+lex:Del0192\/Artigo1    lex:remetePara    lex:Del7661\/Artigo102 .
+lex:Del0192\/Artigo1    lex:remetePara    lex:L4839 .
+lex:Del0192\/Artigo1    lex:remetePara    lex:Del5452\/Artigo499\/Paragrafo1 .
+lex:Del0192\/Artigo1    lex:remetePara    lex:Del5452 .

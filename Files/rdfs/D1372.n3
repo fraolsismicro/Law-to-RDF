@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1372    lex:ehUm    lex:DocLegal .
+lex:D1372    lex:temTextoIntegral    lex:HTMLs\/D1372.htm .
+lex:D1372\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1372    lex:temArtigo    lex:D1372\/Artigo1 .
+lex:D1372\/Artigo1    lex:temConteudo    "Art. 1° Ficam transferidos do Ministério da Administração Federal e Reforma do Estado para a Casa Civil da Presidência da República dois cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS 101.2 e seis Funções Gratificadas FG-1, a serem alocados na Secretaria-Executiva do Programa Comunidade Solidária." .
+lex:D1372\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1372\/Artigo1    lex:temParagrafo    lex:D1372\/Artigo1\/ParagrafoUnico .
+lex:D1372\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os cargos em comissão e funções de confiança de que trata o caput deste artigo ficam transformados na forma do Anexo a este decreto." .
+lex:D1372\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1372    lex:temArtigo    lex:D1372\/Artigo2 .
+lex:D1372\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .

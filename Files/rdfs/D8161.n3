@@ -1,0 +1,77 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8161    lex:ehUm    lex:DocLegal .
+lex:D8161    lex:temTextoIntegral    lex:HTMLs\/D8161.htm .
+lex:D8161\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo1 .
+lex:D8161\/Artigo1    lex:temConteudo    "Art. 1 º Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Integração Nacional, na forma dos Anexos I e II." .
+lex:D8161\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo2 .
+lex:D8161\/Artigo2    lex:temConteudo    "Art. 2 º Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8161\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8161\/Artigo2    lex:temInciso    lex:D8161\/Artigo2\/IncisoI .
+lex:D8161\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério da Integração Nacional para a Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 102.4;" .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres    lex:temConteudo    "b) três DAS 102.2; e" .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm .
+lex:D8161\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm    lex:temConteudo    "c) um DAS 102.1; e" .
+lex:D8161\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8161\/Artigo2    lex:temInciso    lex:D8161\/Artigo2\/IncisoII .
+lex:D8161\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Integração Nacional:" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5;" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete    lex:temConteudo    "b) sete DAS 101.4;" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove    lex:temConteudo    "c) nove DAS 101.3;" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito    lex:temConteudo    "d) oito DAS 101.2;" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois    lex:temConteudo    "e) dois DAS 101.1; e" .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois\/IncisoAlineaCinco .
+lex:D8161\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaNove\/IncisoAlineaOito\/IncisoAlineaDois\/IncisoAlineaCinco    lex:temConteudo    "f) cinco DAS 102.3." .
+lex:D8161\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo3 .
+lex:D8161\/Artigo3    lex:temConteudo    "Art. 3 º Os ocupantes dos cargos em comissão que deixam de existir na Estrutura Regimental do Ministério da Integração Nacional, por força deste Decreto, consideram-se automaticamente exonerados." .
+lex:D8161\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo4 .
+lex:D8161\/Artigo4    lex:temConteudo    "Art. 4 º Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1 º deverão ocorrer no prazo de trinta dias, contado da data de publicação deste Decreto." .
+lex:D8161\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8161\/Artigo4    lex:temParagrafo    lex:D8161\/Artigo4\/ParagrafoUnico .
+lex:D8161\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado da Integração Nacional fará publicar no Diário Oficial da União, no prazo de trinta dias após os apostilamentos, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e níveis." .
+lex:D8161\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo5 .
+lex:D8161\/Artigo5    lex:temConteudo    "Art. 5 º O Ministro de Estado da Integração Nacional poderá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do Ministério, suas competências e as atribuições de seus dirigentes." .
+lex:D8161\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo6 .
+lex:D8161\/Artigo6    lex:temConteudo    "Art. 6 º Este Decreto entra em vigor quatorze dias após a sua publicação." .
+lex:D8161\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8161    lex:temArtigo    lex:D8161\/Artigo7 .
+lex:D8161\/Artigo7    lex:temConteudo    "Art. 7 º Ficam revogados:" .
+lex:D8161\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8161\/Artigo7    lex:temInciso    lex:D8161\/Artigo7\/IncisoI .
+lex:D8161\/Artigo7\/IncisoI    lex:temConteudo    "I - o Decreto n º 6.359, de 18 de janeiro de 2008; e" .
+lex:D8161\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8161\/Artigo7    lex:temInciso    lex:D8161\/Artigo7\/IncisoII .
+lex:D8161\/Artigo7\/IncisoII    lex:temConteudo    "II - o Decreto n º 7.472, de 4 de maio de 2011." .
+lex:D8161\/Artigo7\/IncisoI    lex:remetePara    lex:D6359 .
+lex:D8161\/Artigo7\/IncisoI    lex:remetePara    lex:D6359 .
+lex:D8161\/Artigo7\/IncisoII    lex:remetePara    lex:D7472 .
+lex:D8161\/Artigo7\/IncisoII    lex:remetePara    lex:D7472 .

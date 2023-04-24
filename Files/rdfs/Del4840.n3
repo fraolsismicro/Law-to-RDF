@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del4840    lex:ehUm    lex:DocLegal .
+lex:Del4840    lex:temTextoIntegral    lex:HTMLs\/Del4840.htm .
+lex:Del4840\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del4840    lex:temArtigo    lex:Del4840\/Artigo1 .
+lex:Del4840\/Artigo1    lex:temConteudo    "Art. 1º Fica extinta, no Exército, a graduação de sargento-ajudante, consignada no art. 85, § 2º, letra a, do decreto-lei n. 3.864, de 24-11-1941." .
+lex:Del4840\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del4840\/Artigo1    lex:temParagrafo    lex:Del4840\/Artigo1\/ParagrafoUnico .
+lex:Del4840\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São, entretanto, conservados os sargentos-ajudantes atualmente existentes, sendo-lhes assegurados os direitos e deveres que, no Estatuto dos Militares, Ihes são devidos." .
+lex:Del4840\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del4840    lex:temArtigo    lex:Del4840\/Artigo2 .
+lex:Del4840\/Artigo2    lex:temConteudo    "Art. 2º Passam a ser as seguintes as graduações militares das praças do Exército:" .
+lex:Del4840\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del4840    lex:temArtigo    lex:Del4840\/Artigo3 .
+lex:Del4840\/Artigo3    lex:temConteudo    "Art. 3º As vagas oriundas da passagem para a reserva, reforma ou ou morte dos atuais sargentos-ajudantes não mais serão preenchidas, davendo o acesso processar-se diretamente da graduação de primeiro sargento a subtenente, resalvado contudo o direito de acesso dos sargentos-ajudantes presentemente existentes o que satisfaçam as exigências legais." .
+lex:Del4840\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del4840    lex:temArtigo    lex:Del4840\/Artigo4 .
+lex:Del4840\/Artigo4    lex:temConteudo    "Art. 4º Em cada corpo de tropa, estabelecimento ou formação de serviço, e se der vaga de sargento-ajudante, as funções correspondentes serão preenchidas pelo primeiro sargento mais antigo, que dora avante se denominará primeiro sargento ajudante." .
+lex:Del4840\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del4840\/Artigo4    lex:temParagrafo    lex:Del4840\/Artigo4\/ParagrafoUnico .
+lex:Del4840\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único, O quadro dos primeiros sargentos será assim aumentado de tantos primeiros sargentos quantos forem os sargentos ajudantes substituidos até o completo desaparecimento destes." .
+lex:Del4840\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del4840    lex:temArtigo    lex:Del4840\/Artigo5 .
+lex:Del4840\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:Del4840\/Artigo1    lex:remetePara    lex:Del3864\/Artigo85\/Paragrafo2a .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12836    lex:ehUm    lex:DocLegal .
+lex:L12836    lex:temTextoIntegral    lex:HTMLs\/L12836.htm .
+lex:L12836\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12836    lex:temArtigo    lex:L12836\/Artigo1 .
+lex:L12836\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 2o, 32 e 33 da Lei no 10.257, de 10 de julho de 2001, passam a vigorar com as seguintes alterações:" .
+lex:L12836\/Artigo1\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:L12836\/Artigo1    lex:temInciso    lex:L12836\/Artigo1\/IncisoXVII .
+lex:L12836\/Artigo1\/IncisoXVII    lex:temConteudo    "XVII - estímulo à utilização, nos parcelamentos do solo e nas edificações urbanas, de sistemas operacionais, padrões construtivos e aportes tecnológicos que objetivem a redução de impactos ambientais e a economia de recursos naturais. (NR)" .
+lex:L12836\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12836\/Artigo1    lex:temParagrafo    lex:L12836\/Artigo1\/Paragrafo2 .
+lex:L12836\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  .............................................................................." .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12836\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - a concessão de incentivos a operações urbanas que utilizam tecnologias visando a redução de impactos ambientais, e que comprovem a utilização, nas construções e uso de edificações urbanas, de tecnologias que reduzam os impactos ambientais e economizem recursos naturais, especificadas as modalidades de design e de obras a serem contempladas. (NR)" .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:L12836\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI    lex:temConteudo    "VI - contrapartida a ser exigida dos proprietários, usuários permanentes e investidores privados em função da utilização dos benefícios previstos nos incisos I, II e III do § 2o do art. 32 desta Lei;" .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12836\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVIII .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - natureza dos incentivos a serem concedidos aos proprietários, usuários permanentes e investidores privados, uma vez atendido o disposto no inciso III do § 2o do art. 32 desta Lei." .
+lex:L12836\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12836    lex:temArtigo    lex:L12836\/Artigo2 .
+lex:L12836\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12836\/Artigo1    lex:remetePara    lex:L10257 .
+lex:L12836\/Artigo1\/IncisoXVII    lex:remetePara    lex:L10257\/Artigo2 .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:remetePara    lex:L10257\/Artigo32\/Paragrafo2iii .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI    lex:remetePara    lex:L10257\/Artigo33 .
+lex:L12836\/Artigo1\/Paragrafo2\/ParagrafoIncisoVIII    lex:remetePara    lex:L10257\/Artigo33 .

@@ -1,0 +1,106 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D17045    lex:ehUm    lex:DocLegal .
+lex:D17045    lex:temTextoIntegral    lex:HTMLs\/D17045.htm .
+lex:D17045\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo1 .
+lex:D17045\/Artigo1    lex:temConteudo    "Art. 1º Respeitados os direitos de terceiros anteriormente adquiridos, é concedido o aproveitamento industrial de energia hidráulica da cachoeira do salto, situada em Piracicaba, distrito de Antônio Dias, no Município de mesmo nome, Estado de Minas Gerais, nos termos deste Decreto, à Companhia Vale do Rio Doce S.A., e a Amintas Jaques de Moraes, ou empresa que este organizar com aprovação do Ministro da Agricultura." .
+lex:D17045\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo2 .
+lex:D17045\/Artigo2    lex:temConteudo    "Art. 2º É concedido à Companhia Vale do Rio Doce S.A., destinado ao seu uso exclusivo, o aproveitamento progressivo até doze mil (12.000) Kw., com instalação inicial para oito mil (8.000) Kw." .
+lex:D17045\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo2    lex:temParagrafo    lex:D17045\/Artigo2\/ParagrafoUnico .
+lex:D17045\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. A altura de queda e a descarga concedidas serão determinadas por portaria do Ministro da Agricultura na ocasião da aprovação dos projetos." .
+lex:D17045\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo3 .
+lex:D17045\/Artigo3    lex:temConteudo    "Art. 3º É concedido à Amintas Jaques de Morais ou à empresa que organizar, destinado a seu uso exclusivo, o aproveitamento progressivo correspondente à potência excedente, podendo o mesmo construir, com aprovação do Ministro da Agricultura, represas de acumulação." .
+lex:D17045\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo3    lex:temParagrafo    lex:D17045\/Artigo3\/ParagrafoUnico .
+lex:D17045\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A potência a ser inicialmente instalada será fixada por portaria do Ministro da Agricultura por ocasião da aprovação dos projetos." .
+lex:D17045\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo4 .
+lex:D17045\/Artigo4    lex:temConteudo    "Art. 4º Sob pena de caducidade do presente título, cada um dos concessionários obriga-se a:" .
+lex:D17045\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D17045\/Artigo4    lex:temInciso    lex:D17045\/Artigo4\/IncisoI .
+lex:D17045\/Artigo4\/IncisoI    lex:temConteudo    "I - Registrá-lo na Divisão de Águas, dentro do prazo de trinta (30) dias após a sua publicação." .
+lex:D17045\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D17045\/Artigo4    lex:temInciso    lex:D17045\/Artigo4\/IncisoII .
+lex:D17045\/Artigo4\/IncisoII    lex:temConteudo    "II - Apresentar em três (3) vias, dentro do prazo de um (1) ano, contando da data do registro deste Decreto, na Divisão de Águas:" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados    lex:temConteudo    "a) dados sobre o regime do curso de água a aproveitar, principalmente os relativos à descarga de estiagem e à da cheia, bem como a variação do nível da água a montante e a jusante da fonte de energia a ser utilizada;" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta    lex:temConteudo    "b) planta, em escala razoável, da área onde se fará o aproveitamento da energia, abrangendo a parte atingida pelo remanso da barragem, e perfil do rio a montante e a jusante do local do aproveitamento;" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo    lex:temConteudo    "c) método de cálculo da barragem, projeto, épura e justificação do tipo adotado, dados geológicos relativos ao terreno em que será construído a barragem, cálculo e dimensionamento das compotas, adufas, tomada de água e canal de derivação, seções longitudes e transversais, orçamento; disposições que asseguram a conservação e a livre circulação dos peixes;" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto    lex:temConteudo    "d) conduto forçado: cálculo e justificação do tipo adotado, planta e perfil, com todas as indicações necessárias e observância das escalas seguintes: para as plantas, um por duzentos (1/200); para os perfis, horizontal, um por duzentos (1/200) e vertical, um por cento (1/100); cálculo e desenho do assento e fixação dos blocos de ancoragem, orçamento;" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio    lex:temConteudo    "e) edifício da usina: cálculo, projeto e orçamento; turbina; justificação do tipo adotado, seu rendimento em cargas diferentes, em múltiplos de 1/4 ou 1/8 até plena carga, indicação da velocidade característica de embalagem ou disparo, sentido de rotação e indicação de velocidade com 25,50 e 100 por cento de carga; característica do seu regulador e aparelhos de medição; desenho da turbina e discriminação do tempo de fechamento, canal de fuga, etc., orçamentos respectivos;" .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio\/IncisoAlineaMemorial    lex:ehUm    lex:IncisoAlinea .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio    lex:temIncisoAlinea    lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio\/IncisoAlineaMemorial .
+lex:D17045\/Artigo4\/IncisoII\/IncisoAlineaDados\/IncisoAlineaPlanta\/IncisoAlineaMetodo\/IncisoAlineaConduto\/IncisoAlineaEdificio\/IncisoAlineaMemorial    lex:temConteudo    "f) memorial justificativo, incluindo orçamento global e detalhado de tôdas as partes do projeto" .
+lex:D17045\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D17045\/Artigo4    lex:temInciso    lex:D17045\/Artigo4\/IncisoIII .
+lex:D17045\/Artigo4\/IncisoIII    lex:temConteudo    "III - Obedecer, em todos os projetos, às prescrições de ordem técnicas que forem determinadas pela Divisão de Águas." .
+lex:D17045\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D17045\/Artigo4    lex:temInciso    lex:D17045\/Artigo4\/IncisoIV .
+lex:D17045\/Artigo4\/IncisoIV    lex:temConteudo    "IV - Assinar o contrato disciplinar de concessão dentro do prazo de sessenta (60) dias, contados da data em que publicada a aprovação da respectiva minuta pelo Ministro da Agricultura." .
+lex:D17045\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D17045\/Artigo4    lex:temInciso    lex:D17045\/Artigo4\/IncisoV .
+lex:D17045\/Artigo4\/IncisoV    lex:temConteudo    "V - Apresenta o mesmo contrato à Divisão de Águas, para os fins de registro, até sessenta (60) dias, depois de registrado no Tribunal de Contas." .
+lex:D17045\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo4    lex:temParagrafo    lex:D17045\/Artigo4\/Paragrafo1 .
+lex:D17045\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1° Os projetos poderão ser idênticos na parte da barragem, incluindo obras de adução e poderão prever uma só usina." .
+lex:D17045\/Artigo4\/ParagrafoN    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo4    lex:temParagrafo    lex:D17045\/Artigo4\/ParagrafoN .
+lex:D17045\/Artigo4\/ParagrafoN    lex:temConteudo    "§2° No caso de divergência nos projetos de barragem e adução, o Ministro da Agricultura, por proposta da Divisão de Águas, determinará as obras relativas ao melhor projeto." .
+lex:D17045\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo4    lex:temParagrafo    lex:D17045\/Artigo4\/Paragrafo3 .
+lex:D17045\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3° Os prazos, a que se refere este artigo, poderão ser prorrogados por ato do Ministro da Agricultura, ouvida a Divisão de Águas do Departamento de Nacional de Produção Mineral." .
+lex:D17045\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo5 .
+lex:D17045\/Artigo5    lex:temConteudo    "Art. 5º  As despesas com as obras feitas em conjunto caberão a cada um dos concessionários, na proporção das potências concedidas." .
+lex:D17045\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo6 .
+lex:D17045\/Artigo6    lex:temConteudo    "Art. 6º  No caso da caducidade prevista no art. 4°, a potência disponível poderá ser acrescida à do concessionário que tenha satisfeito as obrigações impostas neste Decreto." .
+lex:D17045\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo7 .
+lex:D17045\/Artigo7    lex:temConteudo    "Art. 7º  No caso de desistência de um dos concessionários, a potência respectiva poderá, igualmente, ser acrescida à do outro concessionário." .
+lex:D17045\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo8 .
+lex:D17045\/Artigo8    lex:temConteudo    "Art. 8º  No caso de transferencia de propriedade das instalações de um dos concessionários, o outro terá, sempre, preferência, devendo, em época oportuna, ser consultado a respeito." .
+lex:D17045\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo9 .
+lex:D17045\/Artigo9    lex:temConteudo    "Art. 9º  Cada um dos concessionários fica obrigado a construir e a manter, nas proximidades do local do aproveitamento, onde e desde quando for determinado pela Divisão de Águas, as instalações necessárias a observações linimétricas e medições de descarga do curso de água que vão utilizar, e a realizar as observações de acôrdo com as instruções da mesma Divisão" .
+lex:D17045\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo10 .
+lex:D17045\/Artigo10    lex:temConteudo    "Art. 10 A presente concessão vigorará pelo prazo de 50 (cinqüenta) anos, contados da data do respectivo contrato na Divisão de Águas." .
+lex:D17045\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo11 .
+lex:D17045\/Artigo11    lex:temConteudo    "Art. 11. Findo o prazo de concessão e de acordo com o disposto no art. 165 e seu parágrafo único, do Código de Águas, toda a propriedade dos concessionários que, no momento existir em função exclusiva e permanente da produção de energia hidráulica, reverterá para a União mediante indenização de custo histórico, isto é, do capital efetivamente invertido, menos a depreciação, podendo, entretanto, ser renovada a concessão, se houver interesse público." .
+lex:D17045\/Artigo11\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo11    lex:temParagrafo    lex:D17045\/Artigo11\/Paragrafo1 .
+lex:D17045\/Artigo11\/Paragrafo1    lex:temConteudo    "§ 1° Se o Governo fizer uso do seu direito a essa reversão, cumprir-lhe-á garantir aos ex-concessionários, mediante preço calculado pela forma estabelecida no Código de Águas, o fornecimento de energia que não for utilizada para serviços públicos ou de utilidade pública." .
+lex:D17045\/Artigo11\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo11    lex:temParagrafo    lex:D17045\/Artigo11\/Paragrafo2 .
+lex:D17045\/Artigo11\/Paragrafo2    lex:temConteudo    "§ 2° No caso contrário, caberá aos concessionários a alternativa de requerer ao Governo Federal seja renovada a concessão pela forma que, no respectivo contrato, deverá estar prevista, ou de restabelecer, no curso de água, às suas expensas, a situação anterior ao aproveitamento concedido." .
+lex:D17045\/Artigo11\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D17045\/Artigo11    lex:temParagrafo    lex:D17045\/Artigo11\/Paragrafo3 .
+lex:D17045\/Artigo11\/Paragrafo3    lex:temConteudo    "§ 3° Para os efeitos do § 2° deste artigo, ficam os concessionários obrigados a entrar com o requerimento de prorrogação da concessão ou o de desistência desta, até seis (6) meses antes do término do respectivo prazo." .
+lex:D17045\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo12 .
+lex:D17045\/Artigo12    lex:temConteudo    "Art. 12. Os concessionários gozarão, desde a data do registro de que trata o n° V do art. 4° e enquanto vigorar esta concessão, dos favores constantes do Código das Águas e das leis especiais sobre a matéria." .
+lex:D17045\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D17045    lex:temArtigo    lex:D17045\/Artigo13 .
+lex:D17045\/Artigo13    lex:temConteudo    "Art. 13. O presente Decreto entra em vigor na data da sua publicação, revogadas as disposição em contrário." .

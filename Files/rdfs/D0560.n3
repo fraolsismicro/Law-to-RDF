@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0560    lex:ehUm    lex:DocLegal .
+lex:D0560    lex:temTextoIntegral    lex:HTMLs\/D0560.htm .
+lex:D0560\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0560    lex:temArtigo    lex:D0560\/Artigo1 .
+lex:D0560\/Artigo1    lex:temConteudo    "Art. 1° O Décimo Quarto Protocolo Adicional ao Acordo Comercial n° 18, no setor da indústria fotográfica, entre Brasil, Argentina, México, Uruguai e Venezuela, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D0560\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0560    lex:temArtigo    lex:D0560\/Artigo2 .
+lex:D0560\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0560\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D0560\/Artigo2    lex:temInciso    lex:D0560\/Artigo2\/IncisoLI .
+lex:D0560\/Artigo2\/IncisoLI    lex:temConteudo    "LI - Livre importação." .

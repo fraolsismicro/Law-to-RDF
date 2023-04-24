@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D47916    lex:ehUm    lex:DocLegal .
+lex:D47916    lex:temTextoIntegral    lex:HTMLs\/D47916.htm .
+lex:D47916\/AlineaSubstituiAAo    lex:ehUm    lex:Alinea .
+lex:D47916    lex:temAlinea    lex:D47916\/AlineaSubstituiAAo .
+lex:D47916\/AlineaSubstituiAAo    lex:temConteudo    "a) substituiÃ§Ã£o do quantitativo de rancho pela melhoria de rancho (art. 96 do C.V.V.M.);" .
+lex:D47916\/AlineaAcrAscimo    lex:ehUm    lex:Alinea .
+lex:D47916    lex:temAlinea    lex:D47916\/AlineaAcrAscimo .
+lex:D47916\/AlineaAcrAscimo    lex:temConteudo    "b) acrÃ©scimo dessa melhoria de rancho (parÃ¡grafo Ãºnico do mesmo artigo), para os efeitos das tabelas de fixaÃ§Ã£o de valores serÃ£o designadas, respectivamente: Modalidade tipo I e Modalidade tipo II, sem interferirem com os complementos de que trata a letra 'b' do art. 89 do C.V.V.M." .
+lex:D47916\/AlineaAcrAscimo\/ItemA    lex:ehUm    lex:Item .
+lex:D47916\/AlineaAcrAscimo    lex:temItem    lex:D47916\/AlineaAcrAscimo\/ItemA .
+lex:D47916\/AlineaAcrAscimo\/ItemA    lex:temConteudo    "6. A indenizaÃ§Ã£o da etapa pelo triplo do seu valor Ã© devida ao militar quando de serviÃ§o com duraÃ§Ã£o continuada de 24 horas, em organizaÃ§Ãµes sem rancho e nÃ£o existir nas proximidades organizaÃ§Ã£o com rancho Â§ 2Âº do art. 92 do C.V.V.M., alterado pelo art. 2Âº da Lei nÂº 2.734-56)." .
+lex:D47916\/Texto    lex:revogadoPor    lex:D0417 .
+lex:D0417    lex:revogou    lex:D47916\/Texto .
+lex:D47916\/Texto    lex:remetePara    lex:D47916 .

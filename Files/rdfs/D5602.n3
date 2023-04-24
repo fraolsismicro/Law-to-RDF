@@ -1,0 +1,140 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5602    lex:ehUm    lex:DocLegal .
+lex:D5602    lex:temTextoIntegral    lex:HTMLs\/D5602.htm .
+lex:D5602\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo1 .
+lex:D5602\/Artigo1    lex:temConteudo    "Art. 1o  Ficam reduzidas a zero as alíquotas da Contribuição para o PIS/PASEP e da COFINS incidentes sobre a receita bruta decorrente da venda, a varejo, de:" .
+lex:D5602\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoI .
+lex:D5602\/Artigo1\/IncisoI    lex:temConteudo    "I - unidades de processamento digital classificadas no código 8471.50.10 da Tabela de Incidência do IPI - TIPI;" .
+lex:D5602\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoII .
+lex:D5602\/Artigo1\/IncisoII    lex:temConteudo    "II - máquinas automáticas de processamento de dados, digitais, portáteis, de peso inferior a três quilos e meio, com tela (écran) de área superior a cento e quarenta centímetros quadrados, classificadas nos códigos 8471.30.12, 8471.30.19 ou 8471.30.90 da TIPI;" .
+lex:D5602\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoIII .
+lex:D5602\/Artigo1\/IncisoIII    lex:temConteudo    "III - máquinas automáticas de processamento de dados, apresentadas sob a forma de sistemas do código 8471.49 da TIPI, contendo, exclusivamente:" .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma    lex:ehUm    lex:IncisoAlinea .
+lex:D5602\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma    lex:temConteudo    "a) uma unidade de processamento digital classificada no código 8471.50.10;" .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma    lex:temIncisoAlinea    lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm    lex:temConteudo    "b) um monitor (unidade de saída por vídeo) classificado no código 8471.60.7;" .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "c) um teclado (unidade de entrada) classificado no código 8471.60.52; e" .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D5602\/Artigo1\/IncisoIII\/IncisoAlineaUma\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "d) um mouse (unidade de entrada) classificado no código 8471.60.53;" .
+lex:D5602\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoIV .
+lex:D5602\/Artigo1\/IncisoIV    lex:temConteudo    "IV - teclado (unidade de entrada) e mouse (unidade de entrada) classificados, respectivamente, nos códigos 8471.60.52 e 8471.60.53 da TIPI, quando vendidos juntamente com unidade de processamento digital com as características do inciso I do caput;      (Redação dada pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoV .
+lex:D5602\/Artigo1\/IncisoV    lex:temConteudo    "V - modems, classificados nos códigos 8517.62.55, 8517.62.62 ou 8517.62.72 da TIPI; e      (Incluído pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoVI .
+lex:D5602\/Artigo1\/IncisoVI    lex:temConteudo    "VI - máquinas automáticas de processamento de dados, portáteis, sem teclado, que tenham uma unidade central de processamento com entrada e saída de dados por meio de uma tela sensível ao toque de área superior a 140 cm2 e inferior a 600 cm2, e que não possuam função de comando remoto (Tablet PC) classificadas na subposição 8471.41 da TIPI.      (Incluído pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoVII .
+lex:D5602\/Artigo1\/IncisoVII    lex:temConteudo    "VII - telefones portáteis de redes celulares que possibilitem o acesso à Internet em alta velocidade do tipo smartphone classificados na posição 8517.12.31 da TIPI, que obedeçam aos requisitos técnicos constantes de ato do Ministro de Estado das Comunicações; e     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo1    lex:temInciso    lex:D5602\/Artigo1\/IncisoVIII .
+lex:D5602\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - equipamentos terminais de clientes (roteadores digitais) classificados nas posições 8517.62.41 e 8517.62.77 da TIPI.     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5602\/Artigo1    lex:temParagrafo    lex:D5602\/Artigo1\/ParagrafoUnico .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto neste artigo aplica-se também às vendas realizadas para:" .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - órgãos e entidades da Administração Pública Federal, Estadual ou Municipal e do Distrito Federal, direta ou indireta;" .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - fundações instituídas e mantidas pelo Poder Público e às demais organizações sob o controle direto ou indireto da União, dos Estados, dos Municípios ou do Distrito Federal;" .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - pessoas jurídicas de direito privado; e" .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D5602\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D5602\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - sociedades de arrendamento mercantil (leasing)." .
+lex:D5602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo2 .
+lex:D5602\/Artigo2    lex:temConteudo    "Art. 2o  Para efeitos da redução a zero das alíquotas da Contribuição para o PIS/PASEP e da COFINS de que trata o art. 1o, o valor de venda, a varejo, não poderá exceder a:" .
+lex:D5602\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoI .
+lex:D5602\/Artigo2\/IncisoI    lex:temConteudo    "I - R$ 2.000,00 (dois mil reais), no caso do inciso I do caput do art. 1o;" .
+lex:D5602\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoII .
+lex:D5602\/Artigo2\/IncisoII    lex:temConteudo    "II - R$ 4.000,00 (quatro mil reais), no caso do inciso II do caput do art. 1o; (Redação dada pelo Decreto nº 6.023, de 2007)" .
+lex:D5602\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoIII .
+lex:D5602\/Artigo2\/IncisoIII    lex:temConteudo    "III - R$ 4.000,00 (quatro mil reais), no caso dos sistemas contendo unidade de processamento digital, monitor, teclado e mouse de que trata o inciso III do caput do art. 1o;      (Redação dada pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoIV .
+lex:D5602\/Artigo2\/IncisoIV    lex:temConteudo    "IV - R$ 2.100,00 (dois mil e cem reais), no caso de venda conjunta de unidade de processamento digital, teclado e mouse, na forma do inciso IV do caput do art. 1o;      (Redação dada pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoV .
+lex:D5602\/Artigo2\/IncisoV    lex:temConteudo    "V - R$ 200,00 (duzentos reais), no caso do inciso V do caput do art. 1 º;     (Redação  dada pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoVI .
+lex:D5602\/Artigo2\/IncisoVI    lex:temConteudo    "VI - R$ 2.500,00 (dois mil e quinhentos reais), no caso do inciso VI do caput do art. 1o.      (Incluído pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoVII .
+lex:D5602\/Artigo2\/IncisoVII    lex:temConteudo    "VII - R$ 1.500,00 (mil e quinhentos reais), no caso do inciso VII do caput do art. 1 º; e     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D5602\/Artigo2    lex:temInciso    lex:D5602\/Artigo2\/IncisoVIII .
+lex:D5602\/Artigo2\/IncisoVIII    lex:temConteudo    "VIII - R$ 150,00 (cento e cinquenta reais), no caso do inciso VIII do caput do art. 1 º.     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo2 .
+lex:D5602\/Artigo2    lex:temConteudo    "Art. 2 º-A.  No caso dos incisos I, II, III, VI e VII do caput do art. 1 º e observado o disposto no art. 2 º, a redução a zero das alíquotas da Contribuição para o PIS/PASEP e da COFINS alcança somente os bens produzidos no País conforme processo produtivo básico estabelecido em ato conjunto dos Ministérios do Desenvolvimento, Indústria e Comércio Exterior, e da Ciência, Tecnologia e Inovação.      (Redação dada pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5602\/Artigo2    lex:temParagrafo    lex:D5602\/Artigo2\/ParagrafoUnico .
+lex:D5602\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nas notas fiscais emitidas pelo produtor, pelo atacadista e pelo varejista relativas às vendas dos produtos de que trata o caput, deverá constar a expressão Produto fabricado conforme processo produtivo básico, com a especificação do ato que aprova o processo produtivo básico respectivo.      (Incluído pelo Decreto nº 7.715, de 2012)" .
+lex:D5602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo2 .
+lex:D5602\/Artigo2    lex:temConteudo    "Art. 2 º-B.  No caso do inciso VIII do caput do art. 1 º, e observado o disposto no inciso VIII do caput do art. 2 º, a redução a zero das alíquotas da Contribuição para o PIS/PASEP e da COFINS alcança somente os roteadores digitais desenvolvidos e produzidos no País conforme processo produtivo básico estabelecido em ato conjunto dos Ministros de Estado  do Desenvolvimento, Indústria e Comércio Exterior, e da Ciência, Tecnologia e Inovação.     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5602\/Artigo2    lex:temParagrafo    lex:D5602\/Artigo2\/Paragrafo1 .
+lex:D5602\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º  Para os fins do disposto no caput, consideram-se desenvolvidos no País os bens que obtiveram o reconhecimento desta condição conforme ato do Ministro de Estado da Ciência, Tecnologia e Inovação.     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5602\/Artigo2    lex:temParagrafo    lex:D5602\/Artigo2\/Paragrafo2 .
+lex:D5602\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º  Nas notas fiscais emitidas pelo produtor, pelo atacadista e pelo varejista relativas às vendas dos produtos de que trata o caput, deverá constar a expressão Produto fabricado conforme processo produtivo básico e com tecnologia desenvolvida no País, acompanhada da especificação do ato que aprova o processo produtivo básico e do ato que reconhece o desenvolvimento tecnológico correspondente.     (Incluído pelo Decreto nº 7.981, de 2013)" .
+lex:D5602\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo3 .
+lex:D5602\/Artigo3    lex:temConteudo    "Art. 3o  Nas vendas efetuadas na forma do art. 1o desta Lei não se aplica a retenção na fonte da Contribuição para o PIS/PASEP e da COFINS a que se referem o art. 64 da Lei no 9.430, de 27 de dezembro de 1996, e o art. 34 da Lei no 10.833, de 29 de dezembro de 2003." .
+lex:D5602\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo4 .
+lex:D5602\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5602\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5602    lex:temArtigo    lex:D5602\/Artigo5 .
+lex:D5602\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogado o Decreto no 5.467, de 15 de junho de 2005." .
+lex:D5602\/Texto    lex:remetePara    lex:L11196 .
+lex:D5602\/Artigo1\/IncisoI    lex:remetePara    lex:D4542\/ .
+lex:D5602\/Artigo1\/IncisoIV    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo1\/IncisoV    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo1\/IncisoVI    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo1\/IncisoVII    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo1\/IncisoVIII    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/IncisoII    lex:remetePara    lex:D6023\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoIII    lex:remetePara    lex:D6023\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoIII    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoIV    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoV    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoV    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/IncisoVI    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2\/IncisoVII    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/IncisoVIII    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/Artigo2o-A    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:D7715\/Artigo1 .
+lex:D5602\/Artigo2    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/Paragrafo1    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo2\/Paragrafo2    lex:remetePara    lex:D7981 .
+lex:D5602\/Artigo3    lex:remetePara    lex:L9430\/Artigo64 .
+lex:D5602\/Artigo3    lex:remetePara    lex:L10833\/Artigo34 .
+lex:D5602\/Artigo5    lex:remetePara    lex:D5467 .

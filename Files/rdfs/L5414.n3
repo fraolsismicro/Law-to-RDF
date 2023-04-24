@@ -1,0 +1,128 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5414    lex:ehUm    lex:DocLegal .
+lex:L5414    lex:temTextoIntegral    lex:HTMLs\/L5414.htm .
+lex:L5414\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L5414    lex:temParagrafo    lex:L5414\/ParagrafoO .
+lex:L5414\/ParagrafoO    lex:temConteudo    "Art.1º O Quadro do Pessoal da Secretaria do Tribunal Federal de Recursos passa a vigorar de acôrdo com a tabela anexa e demais disposições desta Lei." .
+lex:L5414\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo2 .
+lex:L5414\/Artigo2    lex:temConteudo    "Art. 2º São transformados, no Quadro do Pessoal da Secretaria do Tribunal Federal de Recursos, os seguintes cargos:" .
+lex:L5414\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L5414\/Artigo2    lex:temInciso    lex:L5414\/Artigo2\/IncisoI .
+lex:L5414\/Artigo2\/IncisoI    lex:temConteudo    "I - mantidos os mesmos símbolos:" .
+lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:L5414\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando .
+lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando    lex:temConteudo    "A) quando vagar:" .
+lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:    lex:ehUm    lex:IncisoAlinea .
+lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando    lex:temIncisoAlinea    lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente: .
+lex:L5414\/Artigo2\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:    lex:temConteudo    "B) automàticamente:" .
+lex:L5414\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L5414\/Artigo2    lex:temInciso    lex:L5414\/Artigo2\/IncisoII .
+lex:L5414\/Artigo2\/IncisoII    lex:temConteudo    "II - com alteração de símbolos:" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:L5414\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando    lex:temConteudo    "A) quando vagar:" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe    lex:ehUm    lex:IncisoAlineaItem .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando    lex:temIncisoAlineaItem    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe    lex:temConteudo    "1 de carreira;" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:ehUm    lex:IncisoAlineaItem .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe    lex:temIncisoAlineaItem    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe\/IncisoAlineaItemDe .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:temConteudo    "4 de Auxiliar de Conservação, símbolo PJ-12, atualmente de igual denominação, de carreira, classe PJ-11;" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:    lex:ehUm    lex:IncisoAlinea .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando    lex:temIncisoAlinea    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente: .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:    lex:temConteudo    "B) automàticamente:" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe    lex:ehUm    lex:IncisoAlineaItem .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:    lex:temIncisoAlineaItem    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe    lex:temConteudo    "1 de carreira;" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:ehUm    lex:IncisoAlineaItem .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe    lex:temIncisoAlineaItem    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:temConteudo    "7 de Oficial Judiciário, símbolo PJ-3, atualmente de igual denominação, de carreira, classe PJ-6;" .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:ehUm    lex:IncisoAlineaItem .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:temIncisoAlineaItem    lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe\/IncisoAlineaItemDe .
+lex:L5414\/Artigo2\/IncisoII\/IncisoAlineaQuando\/IncisoAlineaAutomaticamente:\/IncisoAlineaItemDe\/IncisoAlineaItemDe\/IncisoAlineaItemDe    lex:temConteudo    "1 de Oficial Judiciário, símbolo PJ-4, atualmente de igual denominação, de carreira, classe PJ-6." .
+lex:L5414\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo3 .
+lex:L5414\/Artigo3    lex:temConteudo    "Art. 3º São extintos no Quadro do Pessoal da Secretaria do Tribunal Federal de Recursos:" .
+lex:L5414\/Artigo3\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:L5414\/Artigo3    lex:temAlinea    lex:L5414\/Artigo3\/AlineaQuando .
+lex:L5414\/Artigo3\/AlineaQuando    lex:temConteudo    "A) quando vagar:" .
+lex:L5414\/Artigo3\/AlineaQuando\/ItemCargo    lex:ehUm    lex:Item .
+lex:L5414\/Artigo3\/AlineaQuando    lex:temItem    lex:L5414\/Artigo3\/AlineaQuando\/ItemCargo .
+lex:L5414\/Artigo3\/AlineaQuando\/ItemCargo    lex:temConteudo    "1 cargo de Auxiliar de Portaria, símbolo PJ-7, com a criação concomitante de 1 Auxiliar de Portaria, símbolo PJ-8, a fim de retificar a estrutura da nova carreira;" .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:    lex:ehUm    lex:Alinea .
+lex:L5414\/Artigo3    lex:temAlinea    lex:L5414\/Artigo3\/AlineaAutomaticamente: .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:    lex:temConteudo    "B) automàticamente:" .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao    lex:ehUm    lex:Item .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:    lex:temItem    lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao    lex:temConteudo    "1 função gratificada de Secretário da Presidência, símbolo 3-F;" .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao    lex:ehUm    lex:Item .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:    lex:temItem    lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao .
+lex:L5414\/Artigo3\/AlineaAutomaticamente:\/ItemFuncao    lex:temConteudo    "1 função gratificada de Secretário do Diretor-Geral, símbolo 3-F." .
+lex:L5414\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo4 .
+lex:L5414\/Artigo4    lex:temConteudo    "Art. 4º São criados no Quadro do Pessoal da Secretaria do Tribunal Federal de Recursos os seguintes cargos:" .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:ehUm    lex:Alinea .
+lex:L5414\/Artigo4    lex:temAlinea    lex:L5414\/Artigo4\/AlineaIsolados .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:temConteudo    "I) Isolados em comissão:" .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:ehUm    lex:Item .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:temItem    lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:temConteudo    "1 de Diretor de Secretaria do Conselho da Justiça Federal, Símbolo PJ-O;" .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:ehUm    lex:Item .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:temItem    lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:temConteudo    "4 de Diretor de Serviço, símbolo PJ-1, destinados aos serviços criados de Taquigrafia, Orçamento de Material do Tribunal Federal de Recursos e para o do Conselho da Justiça Federal de Recursos e para o do Conselho da Justiça Federal de 1ª Instância-Administrativo;" .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:ehUm    lex:Item .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:temItem    lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:temConteudo    "2 de Assessor Judiciário, símbolo PJ-2, para o Gabinete da Presidência e do Diretor-Geral;" .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:ehUm    lex:Item .
+lex:L5414\/Artigo4\/AlineaIsolados    lex:temItem    lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe .
+lex:L5414\/Artigo4\/AlineaIsolados\/ItemDe    lex:temConteudo    "1 de Administrador de Edifício, símbolo PJ-3, para a supervisão do prédio do Tribunal Federal de Recursos, exigida a capacidade técnica-profissional para o desempenho da função, a ser preenchido com a inauguração do nôvo imóvel em construção;" .
+lex:L5414\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5414\/Artigo4    lex:temParagrafo    lex:L5414\/Artigo4\/Paragrafo1 .
+lex:L5414\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º A criação do cargo de Diretor da Secretaria do Conselho da Justiça Federal, privativo de bacharel em Direito; de 1 (um) cargo de Diretor de Serviço, bem assim de 2 (dois) cargos de Contador, de 4 (quatro) de Oficial Judiciário, 4 (quatro) de Auxiliar Judiciário e 1 (um) de Auxiliar de conservação, destina-se ao funcionamento da Secretaria do Conselho de Justiça Federal de 1ª Instância em obediência ao disposto no art. 13 do Decreto-lei nº 253, de 1967, que regulou a Lei nº 5.010, de 1966." .
+lex:L5414\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5414\/Artigo4    lex:temParagrafo    lex:L5414\/Artigo4\/Paragrafo2 .
+lex:L5414\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º O Serviço de Dactilografia e o de Legislação e Jurisprudência passam a denominar-se, respectivamente, Serviço de Mecanografia e Serviço de Jurisprudência e da Revista, cabendo a supervisão dêste a um dos Ministros do Tribunal Federal de Recursos, que será o Diretor da Revista." .
+lex:L5414\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L5414\/Artigo4    lex:temParagrafo    lex:L5414\/Artigo4\/Paragrafo3 .
+lex:L5414\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3º A direção do Serviço de Taquigrafia será provida por um Taquígrafo." .
+lex:L5414\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo5 .
+lex:L5414\/Artigo5    lex:temConteudo    "Art. 5º O pessoal da Revista do Tribunal Federal de Recursos - T.F.R. - Jurisprudência, com exceção do Secretário, que será escolhido dentre os funcionários do Quadro da Secretaria do Tribunal Federal de Recursos, bacharéis em Direito, será subordinado, nas relações de emprêgo, ao regime da consolidação das Leis do Trabalho." .
+lex:L5414\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5414\/Artigo5    lex:temParagrafo    lex:L5414\/Artigo5\/ParagrafoUnico .
+lex:L5414\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Salvo o pessoal subalterno, é condição para o preenchimento de cargos técnicos ser acadêmico de Direito." .
+lex:L5414\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo6 .
+lex:L5414\/Artigo6    lex:temConteudo    "Art. 6º VETADO." .
+lex:L5414\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo7 .
+lex:L5414\/Artigo7    lex:temConteudo    "Art. 7º Constituem carreiras principais a de Oficial Judiciário em relação à de Auxiliar Judiciário; a de Auxiliar de Portaria em relação à de Auxiliar de Conservação, bem assim os cargos isolados de Taquígrafo-Revisor relativos à carreira de Taquígrafo." .
+lex:L5414\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo8 .
+lex:L5414\/Artigo8    lex:temConteudo    "Art. 8º Os atuais cargos isolados de provimento efetivo de Ajudante de Porteiro, símbolo PJ-7, que voltam a denominar-se Auxiliar de Portaria, bem como o de Telefonista, símbolo PJ-11, passam a constituir-se em carreira, reestruturada a mesma consoante tabela anexa." .
+lex:L5414\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo9 .
+lex:L5414\/Artigo9    lex:temConteudo    "Art. 9º Os cargos em comissão de que se ocupa esta Lei, salvo os de Diretor-Geral, Administrador de Edifício e Médico, serão providos por funcionários do respectivo Quadro, escolhidos livremente pelo Presidente do Tribunal." .
+lex:L5414\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo10 .
+lex:L5414\/Artigo10    lex:temConteudo    "Art. 10. VETADO." .
+lex:L5414\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo11 .
+lex:L5414\/Artigo11    lex:temConteudo    "Art. 11. A despesa de NCr$ 203.640,00 (duzentos e três mil, seiscentos e quarenta cruzeiros novos) decorrente da execução da presente Lei, a viger de março a dezembro de 1968, correrá por conta do saldo existente no atual Orçamento da União, Lei nº 5.373, de 6 de dezembro de 1967, na forma abaixo:" .
+lex:L5414\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo12 .
+lex:L5414\/Artigo12    lex:temConteudo    "Art. 12 - VETADO." .
+lex:L5414\/Artigo13    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo13 .
+lex:L5414\/Artigo13    lex:temConteudo    "Art. 13 - Esta Lei vigora a contar da data de sua publicação." .
+lex:L5414\/Artigo14    lex:ehUm    lex:Artigo .
+lex:L5414    lex:temArtigo    lex:L5414\/Artigo14 .
+lex:L5414\/Artigo14    lex:temConteudo    "Art. 14. Revogam-se as disposições em contrário." .
+lex:L5414\/Texto    lex:remetePara    lex:Del0830\/Artigo3 .

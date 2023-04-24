@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6341    lex:ehUm    lex:DocLegal .
+lex:D6341    lex:temTextoIntegral    lex:HTMLs\/D6341.htm .
+lex:D6341\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6341    lex:temArtigo    lex:D6341\/Artigo1 .
+lex:D6341\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 2o, 15, 16, 21 e 29 do Anexo I ao Decreto no 5.063, de 3 de maio de 2004, passam a vigorar com a seguinte redação:" .
+lex:D6341\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6341\/Artigo1    lex:temInciso    lex:D6341\/Artigo1\/IncisoIII .
+lex:D6341\/Artigo1\/IncisoIII    lex:temConteudo    "III - unidades descentralizadas: Superintendências Regionais do Trabalho e Emprego;" .
+lex:D6341\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6341\/Artigo1    lex:temInciso    lex:D6341\/Artigo1\/IncisoVII .
+lex:D6341\/Artigo1\/IncisoVII    lex:temConteudo    "VII - supervisionar, no âmbito de sua competência, a remessa da legislação e atos administrativos de interesse da fiscalização do trabalho às Superintendências Regionais do Trabalho e Emprego;" .
+lex:D6341\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6341\/Artigo1    lex:temInciso    lex:D6341\/Artigo1\/IncisoVII .
+lex:D6341\/Artigo1\/IncisoVII    lex:temConteudo    "VII - supervisionar, no âmbito de sua competência, a remessa da legislação e atos administrativos de interesse da fiscalização do trabalho às Superintendências Regionais do Trabalho e Emprego. (NR)" .
+lex:D6341\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6341    lex:temArtigo    lex:D6341\/Artigo2 .
+lex:D6341\/Artigo2    lex:temConteudo    "Art. 2o  Os apostilamentos decorrentes do disposto no art. 1o deverão ocorrer no prazo de vinte dias, contado da data de publicação deste Decreto." .
+lex:D6341\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6341    lex:temArtigo    lex:D6341\/Artigo3 .
+lex:D6341\/Artigo3    lex:temConteudo    "Art. 3o  Os regimentos internos das Superintendências Regionais do Trabalho e Emprego serão aprovados pelo Ministro de Estado e publicados no Diário Oficial da União no prazo de noventa dias, contado da data de publicação deste Decreto." .
+lex:D6341\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6341    lex:temArtigo    lex:D6341\/Artigo5 .
+lex:D6341\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6341\/Artigo1\/IncisoIII    lex:remetePara    lex:D5063\/Artigo2 .
+lex:D6341\/Artigo1\/IncisoVII    lex:remetePara    lex:D5063\/Artigo15 .
+lex:D6341\/Artigo1\/IncisoVII    lex:remetePara    lex:D5063\/Artigo16 .
+lex:D6341\/Artigo1\/Texto00004    lex:remetePara    lex:D5063\/Artigo21 .
+lex:D6341\/Artigo1\/Texto00004    lex:remetePara    lex:D5063\/Artigo29 .
+lex:D6341\/Artigo4    lex:remetePara    lex:D5063\/ .
+lex:D6341\/Artigo4    lex:revogadoPor    lex:D7015\/Artigo4 .
+lex:D7015\/Artigo4    lex:revogou    lex:D6341\/Artigo4 .

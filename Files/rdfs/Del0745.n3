@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0745    lex:ehUm    lex:DocLegal .
+lex:Del0745    lex:temTextoIntegral    lex:HTMLs\/Del0745.htm .
+lex:Del0745\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0745    lex:temArtigo    lex:Del0745\/Artigo1 .
+lex:Del0745\/Artigo1    lex:temConteudo    "Art. 1o  Nos contratos a que se refere o art. 22 do Decreto-Lei no 58, de 10 de dezembro de 1937, ainda que não tenham sido registrados junto ao Cartório de Registro de Imóveis competente, o inadimplemento absoluto do promissário comprador só se caracterizará se, interpelado por via judicial ou por intermédio de cartório de Registro de Títulos e Documentos, deixar de purgar a mora, no prazo de 15 (quinze) dias contados do recebimento da interpelação.           (Redação dada pela Lei nº 13.097, de 2015)  (Vigência)" .
+lex:Del0745\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0745\/Artigo1    lex:temParagrafo    lex:Del0745\/Artigo1\/ParagrafoUnico .
+lex:Del0745\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nos contratos nos quais conste cláusula resolutiva expressa, a resolução por inadimplemento do promissário comprador se operará de pleno direito (art. 474 do Código Civil), desde que decorrido o prazo previsto na interpelação referida no caput, sem purga da mora.           (Redação dada pela Lei nº 13.097, de 2015)  (Vigência)" .
+lex:Del0745\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0745    lex:temArtigo    lex:Del0745\/Artigo2 .
+lex:Del0745\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0745\/Artigo1    lex:remetePara    lex:Del058\/Artigo22 .
+lex:Del0745\/Artigo1    lex:remetePara    lex:Del058\/Artigo22 .
+lex:Del0745\/Artigo1    lex:remetePara    lex:L13097\/Artigo62 .
+lex:Del0745\/Artigo1    lex:remetePara    lex:L13097\/Artigo168 .
+lex:Del0745\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L10406\/Artigo474 .
+lex:Del0745\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L13097\/Artigo62 .
+lex:Del0745\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L13097\/Artigo168 .

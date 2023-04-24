@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2105    lex:ehUm    lex:DocLegal .
+lex:Del2105    lex:temTextoIntegral    lex:HTMLs\/Del2105.htm .
+lex:Del2105\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2105    lex:temArtigo    lex:Del2105\/Artigo1 .
+lex:Del2105\/Artigo1    lex:temConteudo    "Art. 1º O artigo 8º do Decreto-lei nº 1.312, de 15 de fevereiro de 1974, modificado pelos Decretos-leis nºs 2.048, de 26 de julho de 1983, e 2.070, de 14 de dezembro de 1983, passa a vigorar com a seguinte redação:" .
+lex:Del2105\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2105\/Artigo1    lex:temParagrafo    lex:Del2105\/Artigo1\/ParagrafoUnico .
+lex:Del2105\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Não se compreendem nas limitações deste artigo as renegociações de dívidas no exterior que representem, simples prorrogações dos prazos de liquidação.'" .
+lex:Del2105\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2105    lex:temArtigo    lex:Del2105\/Artigo2 .
+lex:Del2105\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2105\/Texto00001    lex:remetePara    lex:Del1312\/Artigo8 .

@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3546    lex:ehUm    lex:DocLegal .
+lex:D3546    lex:temTextoIntegral    lex:HTMLs\/D3546.htm .
+lex:D3546\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3546    lex:temInciso    lex:D3546\/IncisoI .
+lex:D3546\/IncisoI    lex:temConteudo    "I - adequada participação dos produtos da cana-de-açúcar na Matriz Energética Nacional;" .
+lex:D3546\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3546    lex:temInciso    lex:D3546\/IncisoII .
+lex:D3546\/IncisoII    lex:temConteudo    "II - mecanismos econômicos necessários à auto-sustentação setorial;" .
+lex:D3546\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3546    lex:temInciso    lex:D3546\/IncisoIII .
+lex:D3546\/IncisoIII    lex:temConteudo    "III - desenvolvimento científico e tecnológico." .
+lex:D3546\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3546    lex:temParagrafo    lex:D3546\/ParagrafoUnico .
+lex:D3546\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Compete ao CIMA aprovar os programas de produção e uso de álcool etílico combustível, estabelecendo os respectivos valores financeiros unitários e dispêndios máximos." .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3546\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - da Agricultura e do Abastecimento, que o presidirá;" .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3546\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - da Fazenda;" .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - do Desenvolvimento, Indústria e Comércio Exterior;" .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D3546\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - de Minas e Energia." .
+lex:D3546\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3546    lex:temParagrafo    lex:D3546\/Paragrafo1 .
+lex:D3546\/Paragrafo1    lex:temConteudo    "§ 1o  Em casos de relevância e urgência, o Presidente do CIMA poderá deliberar ad referendum do Plenário, obtida previamente a concordância dos demais membros.      (Redação dada pelo Decreto nº 4.267, de 12.6.2002)" .
+lex:D3546\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3546    lex:temParagrafo    lex:D3546\/Paragrafo2 .
+lex:D3546\/Paragrafo2    lex:temConteudo    "§ 2o  O CIMA deliberará por unanimidade de seus membros.       (Redação dada pelo Decreto nº 4.267, de 12.6.2002)" .
+lex:D3546\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/Paragrafo2    lex:temParagrafoInciso    lex:D3546\/Paragrafo2\/ParagrafoIncisoI .
+lex:D3546\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - preparar as reuniões do CIMA;" .
+lex:D3546\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3546\/Paragrafo2    lex:temParagrafoInciso    lex:D3546\/Paragrafo2\/ParagrafoIncisoII .
+lex:D3546\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - coordenar e acompanhar a execução das deliberações e diretrizes fixadas pelo CIMA;" .
+lex:D3546\/ParagrafoUnico\/Paragrafo1    lex:remetePara    lex:D3890 .
+lex:D3546\/Paragrafo1    lex:remetePara    lex:D4267 .
+lex:D3546\/Paragrafo2    lex:remetePara    lex:D3890 .
+lex:D3546\/Paragrafo2    lex:remetePara    lex:D4267 .
+lex:D3546\/Paragrafo3    lex:revogadoPor    lex:D3890 .
+lex:D3890    lex:revogou    lex:D3546\/Paragrafo3 .
+lex:D3546\/Paragrafo2\/Artigo4    lex:remetePara    lex:Dnn1804 .
+lex:D3546\/Paragrafo2\/Artigo4    lex:remetePara    lex:Dnn3323 .
+lex:D3546\/Paragrafo2\/Artigo4    lex:remetePara    lex:Dnn5652 .
+lex:D3546\/Paragrafo2\/Artigo4    lex:remetePara    lex:D3159 .

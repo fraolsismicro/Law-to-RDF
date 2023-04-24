@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc49    lex:ehUm    lex:DocLegal .
+lex:emc49    lex:temTextoIntegral    lex:HTMLs\/emc49.htm .
+lex:emc49\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc49    lex:temArtigo    lex:emc49\/Artigo1 .
+lex:emc49\/Artigo1    lex:temConteudo    "Art. 1º O inciso XXIII do art. 21 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc49\/Artigo1\/IncisoXXIII    lex:ehUm    lex:Inciso .
+lex:emc49\/Artigo1    lex:temInciso    lex:emc49\/Artigo1\/IncisoXXIII .
+lex:emc49\/Artigo1\/IncisoXXIII    lex:temConteudo    "XXIII - ................................................................." .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob    lex:ehUm    lex:IncisoAlinea .
+lex:emc49\/Artigo1\/IncisoXXIII    lex:temIncisoAlinea    lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob    lex:temConteudo    "b) sob regime de permissão, são autorizadas a comercialização e a utilização de radioisótopos para a pesquisa e usos médicos, agrícolas e industriais;" .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob    lex:ehUm    lex:IncisoAlinea .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob    lex:temIncisoAlinea    lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob    lex:temConteudo    "c) sob regime de permissão, são autorizadas a produção, comercialização e utilização de radioisótopos de meia-vida igual ou inferior a duas horas;" .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob    lex:temIncisoAlinea    lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob\/IncisoAlineaA .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob\/IncisoAlineaSob\/IncisoAlineaA    lex:temConteudo    "d) a responsabilidade civil por danos nucleares independe da existência de culpa;" .
+lex:emc49\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc49    lex:temArtigo    lex:emc49\/Artigo2 .
+lex:emc49\/Artigo2    lex:temConteudo    "Art. 2º O inciso V do caput do art. 177 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc49\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:emc49\/Artigo2    lex:temInciso    lex:emc49\/Artigo2\/IncisoV .
+lex:emc49\/Artigo2\/IncisoV    lex:temConteudo    "V - a pesquisa, a lavra, o enriquecimento, o reprocessamento, a industrialização e o comércio de minérios e minerais nucleares e seus derivados, com exceção dos radioisótopos cuja produção, comercialização e utilização poderão ser autorizadas sob regime de permissão, conforme as alíneas b e c do inciso XXIII do caput do art. 21 desta Constituição Federal." .
+lex:emc49\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc49    lex:temArtigo    lex:emc49\/Artigo3 .
+lex:emc49\/Artigo3    lex:temConteudo    "Art. 3º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc49\/Artigo1\/IncisoXXIII\/IncisoAlineaSob    lex:remetePara    lex:Constituicao\/Artigo21 .
+lex:emc49\/Artigo2\/IncisoV    lex:remetePara    lex:Constituicao\/Artigo177 .

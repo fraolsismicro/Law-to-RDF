@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6961    lex:ehUm    lex:DocLegal .
+lex:L6961    lex:temTextoIntegral    lex:HTMLs\/L6961.htm .
+lex:L6961\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6961    lex:temInciso    lex:L6961\/IncisoI .
+lex:L6961\/IncisoI    lex:temConteudo    "I - dos Estados: para Governadores, Senado Federal, Câmara dos Deputados e Assembléia Legislativa;" .
+lex:L6961\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6961    lex:temInciso    lex:L6961\/IncisoII .
+lex:L6961\/IncisoII    lex:temConteudo    "II - dos Territórios: Câmara dos Deputados." .
+lex:L6961\/Texto    lex:revogadoPor    lex:L7493\/Artigo26 .
+lex:L7493\/Artigo26    lex:revogou    lex:L6961\/Texto .
+lex:L6961\/Texto    lex:remetePara    lex:L6961 .
+lex:L6961\/Texto    lex:remetePara    lex:L6091\/Artigo17 .

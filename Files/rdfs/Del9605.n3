@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9605    lex:ehUm    lex:DocLegal .
+lex:Del9605    lex:temTextoIntegral    lex:HTMLs\/Del9605.htm .
+lex:Del9605\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9605    lex:temArtigo    lex:Del9605\/Artigo1 .
+lex:Del9605\/Artigo1    lex:temConteudo    "Art. 1º O n° II do art. 16 do Decreto-lei n° 1.985, de 29 de janeiro de1940 (Código de Minas) passa a vigorar com a seguinte redação:" .
+lex:Del9605\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del9605\/Artigo1    lex:temInciso    lex:Del9605\/Artigo1\/IncisoII .
+lex:Del9605\/Artigo1\/IncisoII    lex:temConteudo    "II - A autorização é válida, por dois (2) anos, podendo o Govêrno renová-la, nos dois (2) seguintes casos, a requerimento do interessado, apresentado dentro do prazo de sua vigência:" .
+lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo    lex:ehUm    lex:IncisoAlinea .
+lex:Del9605\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo .
+lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo    lex:temConteudo    "a) ocorrendo circunstância de fôrça maior, devidamente comprovada, dar-se-á por novo Decreto, com o prazo de dois (2) anos, mesmo havendo outro pretendente para a área;" .
+lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo    lex:temIncisoAlinea    lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo\/IncisoAlineaNao .
+lex:Del9605\/Artigo1\/IncisoII\/IncisoAlineaOcorrendo\/IncisoAlineaNao    lex:temConteudo    "b) não provada a fôrça maior e desde que não haja outro pedido para a mesma área, dar-se-á uma única renovação, por novo Decreto, válida pelo prazo de um (1) ano." .
+lex:Del9605\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9605    lex:temArtigo    lex:Del9605\/Artigo2 .
+lex:Del9605\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:Del9605\/Artigo1\/IncisoII    lex:remetePara    lex:Del1985\/Artigo16 .

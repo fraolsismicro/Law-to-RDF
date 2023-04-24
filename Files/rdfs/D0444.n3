@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0444    lex:ehUm    lex:DocLegal .
+lex:D0444    lex:temTextoIntegral    lex:HTMLs\/D0444.htm .
+lex:D0444\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0444    lex:temArtigo    lex:D0444\/Artigo1 .
+lex:D0444\/Artigo1    lex:temConteudo    "Art. 1° O Acordo para a Cooperação Técnica com Outros Países da América Latina e Países da África, entre o Governo da República Federativa do Brasil e a Organização Internacional do Trabalho, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0444\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0444    lex:temArtigo    lex:D0444\/Artigo2 .
+lex:D0444\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0444\/Artigo2\/AlineaEnvio    lex:ehUm    lex:Alinea .
+lex:D0444\/Artigo2    lex:temAlinea    lex:D0444\/Artigo2\/AlineaEnvio .
+lex:D0444\/Artigo2\/AlineaEnvio    lex:temConteudo    "a) envio de peritos brasileiros para atuar na execução de programas e projetos competentemente aprovados pelas Partes Contratantes e pelo Governo do país ou países parceiros;" .
+lex:D0444\/Artigo2\/AlineaIndicacao    lex:ehUm    lex:Alinea .
+lex:D0444\/Artigo2    lex:temAlinea    lex:D0444\/Artigo2\/AlineaIndicacao .
+lex:D0444\/Artigo2\/AlineaIndicacao    lex:temConteudo    "b) indicação de peritos brasileiros para integrar missões técnicas específicas ou pluridisciplinares;" .
+lex:D0444\/Artigo2\/AlineaPreparacao    lex:ehUm    lex:Alinea .
+lex:D0444\/Artigo2    lex:temAlinea    lex:D0444\/Artigo2\/AlineaPreparacao .
+lex:D0444\/Artigo2\/AlineaPreparacao    lex:temConteudo    "c) preparação, participação e execução conjunta de seminários, simpósios e outros eventos de caráter nacional, sub-regional ou regional;" .
+lex:D0444\/Artigo2\/AlineaPromocao    lex:ehUm    lex:Alinea .
+lex:D0444\/Artigo2    lex:temAlinea    lex:D0444\/Artigo2\/AlineaPromocao .
+lex:D0444\/Artigo2\/AlineaPromocao    lex:temConteudo    "d) promoção e execução conjuntas de cursos de formação e especialização para diretores, administradores, técnicos ou funcionários de entidades responsáveis pela formação profissional, segurança no trabalho, política de emprego, normas trabalhistas, movimentos migratórios e outros setores especializados do trabalhismo e assuntos sociais." .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:ehUm    lex:Alinea .
+lex:D0444\/Artigo2    lex:temAlinea    lex:D0444\/Artigo2\/AlineaRecursos .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:temConteudo    "b) recursos financeiros:" .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:ehUm    lex:Item .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:temItem    lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:temConteudo    "1. fundos orçamentários ou extra-orçamentários da Organização Internacional do Trabalho." .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:ehUm    lex:Item .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:temItem    lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:temConteudo    "2. fundos do Governo ou entidades brasileiras." .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:ehUm    lex:Item .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:temItem    lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemFundos    lex:temConteudo    "3. fundos do Governo ou das entidades dos países parceiros da cooperação das Partes Contratantes." .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemDoacoes    lex:ehUm    lex:Item .
+lex:D0444\/Artigo2\/AlineaRecursos    lex:temItem    lex:D0444\/Artigo2\/AlineaRecursos\/ItemDoacoes .
+lex:D0444\/Artigo2\/AlineaRecursos\/ItemDoacoes    lex:temConteudo    "4. doações especiais de terceiros países ou Organismos Internacionais." .

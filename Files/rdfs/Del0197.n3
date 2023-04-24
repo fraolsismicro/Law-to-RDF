@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0197    lex:ehUm    lex:DocLegal .
+lex:Del0197    lex:temTextoIntegral    lex:HTMLs\/Del0197.htm .
+lex:Del0197\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0197    lex:temArtigo    lex:Del0197\/Artigo1 .
+lex:Del0197\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 21 e 22 da Lei número 3.765, de 4 de maio de 1960, passam a vigorar com a seguintes redação:" .
+lex:Del0197\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0197\/Artigo1    lex:temParagrafo    lex:Del0197\/Artigo1\/Paragrafo1 .
+lex:Del0197\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Se o militar já descontava a contribuição de que trata o art. 6º desta lei, deixará a pensão correspondente a mais um ou dois postos ou graduações superiores aos postos ou graduações resultantes da aplicação dêste artigo." .
+lex:Del0197\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0197\/Artigo1    lex:temParagrafo    lex:Del0197\/Artigo1\/Paragrafo2 .
+lex:Del0197\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A pensão a que se refere êste artigo será paga aos beneficiários habilitados, a partir da data do falecimento do militar." .
+lex:Del0197\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0197    lex:temArtigo    lex:Del0197\/Artigo2 .
+lex:Del0197\/Artigo2    lex:temConteudo    "Art. 2º O disposto no presente decreto-lei aplica-se, também, aos militares falecidos após a vigência da Lei nº 4.902, de 16 de dezembro de 1965." .
+lex:Del0197\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0197    lex:temArtigo    lex:Del0197\/Artigo3 .
+lex:Del0197\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0197\/Artigo1    lex:remetePara    lex:L3765 .
+lex:Del0197\/Texto00001    lex:remetePara    lex:L3765\/Artigo21 .

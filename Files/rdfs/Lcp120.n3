@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp120    lex:ehUm    lex:DocLegal .
+lex:Lcp120    lex:temTextoIntegral    lex:HTMLs\/Lcp120.htm .
+lex:Lcp120\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp120    lex:temArtigo    lex:Lcp120\/Artigo1 .
+lex:Lcp120\/Artigo1    lex:temConteudo    "Art. 1o A Lei Complementar no 87, de 13 de setembro de 1996, passa a vigorar com as seguintes alterações:" .
+lex:Lcp120\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:Lcp120\/Artigo1    lex:temParagrafo    lex:Lcp120\/Artigo1\/Paragrafo5 .
+lex:Lcp120\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o ................................................................................." .
+lex:Lcp120\/Artigo1\/Paragrafo5\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:Lcp120\/Artigo1\/Paragrafo5    lex:temParagrafoInciso    lex:Lcp120\/Artigo1\/Paragrafo5\/ParagrafoIncisoIII .
+lex:Lcp120\/Artigo1\/Paragrafo5\/ParagrafoIncisoIII    lex:temConteudo    "III   para aplicação do disposto nos incisos I e II deste parágrafo, o montante do crédito a ser apropriado será obtido multiplicando-se o valor total do respectivo crédito pelo fator igual a 1/48 (um quarenta e oito avos) da relação entre o valor das operações de saídas e prestações tributadas e o total das operações de saídas e prestações do período, equiparando-se às tributadas, para fins deste inciso, as saídas e prestações com destino ao exterior ou as saídas de papel destinado à impressão de livros, jornais e periódicos;" .
+lex:Lcp120\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp120\/Artigo1    lex:temParagrafo    lex:Lcp120\/Artigo1\/Paragrafo2 .
+lex:Lcp120\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Não se estornam créditos referentes a mercadorias e serviços que venham a ser objeto de operações ou prestações destinadas ao exterior ou de operações com o papel destinado à impressão de livros, jornais e periódicos." .
+lex:Lcp120\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp120    lex:temArtigo    lex:Lcp120\/Artigo2 .
+lex:Lcp120\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei Complementar entra em vigor na data de sua publicação, produzindo efeitos a partir do dia 1o de janeiro subseqüente." .
+lex:Lcp120\/Artigo1\/Paragrafo5\/ParagrafoIncisoIII    lex:remetePara    lex:Lcp87\/Artigo20\/Paragrafo5iii .
+lex:Lcp120\/Artigo1\/Paragrafo2    lex:remetePara    lex:Lcp87\/Artigo21\/Paragrafo2 .

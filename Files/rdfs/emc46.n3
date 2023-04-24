@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc46    lex:ehUm    lex:DocLegal .
+lex:emc46    lex:temTextoIntegral    lex:HTMLs\/emc46.htm .
+lex:emc46\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc46    lex:temArtigo    lex:emc46\/Artigo1 .
+lex:emc46\/Artigo1    lex:temConteudo    "Art. 1º O inciso IV do art. 20 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc46\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:emc46\/Artigo1    lex:temInciso    lex:emc46\/Artigo1\/IncisoIV .
+lex:emc46\/Artigo1\/IncisoIV    lex:temConteudo    "IV as ilhas fluviais e lacustres nas zonas limítrofes com outros países; as praias marítimas; as ilhas oceânicas e as costeiras, excluídas, destas, as que contenham a sede de Municípios, exceto aquelas áreas afetadas ao serviço público e a unidade ambiental federal, e as referidas no art. 26, II;" .
+lex:emc46\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc46    lex:temArtigo    lex:emc46\/Artigo2 .
+lex:emc46\/Artigo2    lex:temConteudo    "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc46\/Artigo1\/IncisoIV    lex:remetePara    lex:Constituicao\/Artigo20 .

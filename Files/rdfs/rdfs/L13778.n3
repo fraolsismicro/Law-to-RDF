@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13778    lex:ehUm    lex:DocLegal .
+lex:L13778    lex:temTextoIntegral    lex:HTMLs\/L13778.htm .
+lex:L13778\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L13778    lex:temArtigo    lex:L13778\/Artigo1A .
+lex:L13778\/Artigo1A    lex:temConteudo    "Art. 1Âº O art. 9Âº da Lei nÂº 8.036, de 11 de maio de 1990 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:L13778\/Artigo1A\/AlineaConsignaAAo    lex:ehUm    lex:Alinea .
+lex:L13778\/Artigo1A    lex:temAlinea    lex:L13778\/Artigo1A\/AlineaConsignaAAo .
+lex:L13778\/Artigo1A\/AlineaConsignaAAo    lex:temConteudo    "n) consignaÃ§Ã£o de recebÃ­veis, exclusivamente para operaÃ§Ãµes de crÃ©dito destinadas Ã s entidades hospitalares filantrÃ³picas, bem como a instituiÃ§Ãµes que atuam no campo para pessoas com deficiÃªncia, e sem fins lucrativos que participem de forma complementar do Sistema Ãnico de SaÃºde (SUS), em percentual mÃ¡ximo a ser definido pelo MinistÃ©rio da SaÃºde; e" .
+lex:L13778\/Artigo1A\/AlineaOutras    lex:ehUm    lex:Alinea .
+lex:L13778\/Artigo1A    lex:temAlinea    lex:L13778\/Artigo1A\/AlineaOutras .
+lex:L13778\/Artigo1A\/AlineaOutras    lex:temConteudo    "o) outras, a critÃ©rio do Conselho Curador do FGTS;" .
+lex:L13778\/Artigo1A\/AlineaOutras\/Item    lex:ehUm    lex:Item .
+lex:L13778\/Artigo1A\/AlineaOutras    lex:temItem    lex:L13778\/Artigo1A\/AlineaOutras\/Item .
+lex:L13778\/Artigo1A\/AlineaOutras\/Item    lex:temConteudo    "..........................................................................................................................................." .
+lex:L13778\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13778    lex:temArtigo    lex:L13778\/Artigo2A .
+lex:L13778\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L13778\/Artigo1A    lex:remetePara    lex:L8036consol .
+lex:L13778\/Artigo1A\/AlineaConsignaAAo    lex:remetePara    lex:L8036consol\/Artigo9in0 .
+lex:L13778\/Artigo1A\/AlineaOutras    lex:remetePara    lex:L8036consol\/Artigo9io0 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo9Â§20 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:revogadoPor    lex:mpv1107\/Artigo17 .
+lex:mpv1107\/Artigo17    lex:revogou    lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo9Â§30 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:revogadoPor    lex:mpv1107\/Artigo17 .
+lex:mpv1107\/Artigo17    lex:revogou    lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo6 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo7 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:revogadoPor    lex:mpv1107\/Artigo17 .
+lex:mpv1107\/Artigo17    lex:revogou    lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo6 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo7 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:revogadoPor    lex:mpv1107\/Artigo17 .
+lex:mpv1107\/Artigo17    lex:revogou    lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo6 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:mpv1110\/Artigo7 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo9Â§3 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo90 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo9Â§100 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L8036consol\/Artigo9Â§11 .
+lex:L13778\/Artigo1A\/AlineaOutras\/Texto00004    lex:remetePara    lex:L12101\/Artigo4 .

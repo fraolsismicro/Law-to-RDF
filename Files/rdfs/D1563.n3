@@ -1,0 +1,103 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1563    lex:ehUm    lex:DocLegal .
+lex:D1563    lex:temTextoIntegral    lex:HTMLs\/D1563.htm .
+lex:D1563\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1563    lex:temArtigo    lex:D1563\/Artigo1 .
+lex:D1563\/Artigo1    lex:temConteudo    "Art. 1º O Acordo de Alcance Parcial para a Facilitação do Transporte Multimodal de Mercadorias, entre Brasil, Argentina, Paraguai e Uruguai, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D1563\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1563    lex:temArtigo    lex:D1563\/Artigo2 .
+lex:D1563\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1563\/Artigo2\/AlineaTransporte    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaTransporte .
+lex:D1563\/Artigo2\/AlineaTransporte    lex:temConteudo    "a) Transporte Multimodal de Mercadorias:" .
+lex:D1563\/Artigo2\/AlineaContrato    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaContrato .
+lex:D1563\/Artigo2\/AlineaContrato    lex:temConteudo    "b) Contrato de Transporte Multimodal:" .
+lex:D1563\/Artigo2\/AlineaDocumento    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaDocumento .
+lex:D1563\/Artigo2\/AlineaDocumento    lex:temConteudo    "c) Documento ou conhecimento de transporte multimodal:" .
+lex:D1563\/Artigo2\/AlineaOperador    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaOperador .
+lex:D1563\/Artigo2\/AlineaOperador    lex:temConteudo    "d) Operador de Transporte Multimodal:" .
+lex:D1563\/Artigo2\/AlineaTransportador:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaTransportador: .
+lex:D1563\/Artigo2\/AlineaTransportador:    lex:temConteudo    "e) Transportador:" .
+lex:D1563\/Artigo2\/AlineaExpedidor:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaExpedidor: .
+lex:D1563\/Artigo2\/AlineaExpedidor:    lex:temConteudo    "f) Expedidor:" .
+lex:D1563\/Artigo2\/AlineaConsignatario:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaConsignatario: .
+lex:D1563\/Artigo2\/AlineaConsignatario:    lex:temConteudo    "g) Consignatário:" .
+lex:D1563\/Artigo2\/AlineaDestinatario:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaDestinatario: .
+lex:D1563\/Artigo2\/AlineaDestinatario:    lex:temConteudo    "h) Destinatário:" .
+lex:D1563\/Artigo2\/AlineaMercadoria:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaMercadoria: .
+lex:D1563\/Artigo2\/AlineaMercadoria:    lex:temConteudo    "i) Mercadoria:" .
+lex:D1563\/Artigo2\/AlineaTomar    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaTomar .
+lex:D1563\/Artigo2\/AlineaTomar    lex:temConteudo    "j) Tomar sob custódia:" .
+lex:D1563\/Artigo2\/AlineaEntrega    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaEntrega .
+lex:D1563\/Artigo2\/AlineaEntrega    lex:temConteudo    "k) Entrega de mercadoria:" .
+lex:D1563\/Artigo2\/AlineaOrganismos    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaOrganismos .
+lex:D1563\/Artigo2\/AlineaOrganismos    lex:temConteudo    "l) Organismos nacionais competentes:" .
+lex:D1563\/Artigo2\/AlineaUnitizacao:    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaUnitizacao: .
+lex:D1563\/Artigo2\/AlineaUnitizacao:    lex:temConteudo    "m) Unitização:" .
+lex:D1563\/Artigo2\/AlineaDireitos    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaDireitos .
+lex:D1563\/Artigo2\/AlineaDireitos    lex:temConteudo    "n) Direitos Especiais de Saque (DES):" .
+lex:D1563\/Artigo2\/AlineaConsolidacao    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaConsolidacao .
+lex:D1563\/Artigo2\/AlineaConsolidacao    lex:temConteudo    "o) Consolidação de Mercadorias:" .
+lex:D1563\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaO .
+lex:D1563\/Artigo2\/AlineaO    lex:temConteudo    "a) o lugar estipulado no Contrato de Transporte Multimodal, indicado no documento ou conhecimento de transporte multimodal, no qual o Operador de Transporte Multimodal toma as mercadorias sob sua custódia, esteja situado em um Estado Parte do presente Acordo; ou" .
+lex:D1563\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaO .
+lex:D1563\/Artigo2\/AlineaO    lex:temConteudo    "b) o lugar estipulado no contrato de Transporte Multimodal, indicado no documento ou conhecimento de transporte multimodal, no qual o Operador de Transporte Multimodal faça a entrega das mercadorias que se encontrem sob sua custódia, esteja situado em um Estado Parte do presente Acordo." .
+lex:D1563\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaA .
+lex:D1563\/Artigo2\/AlineaA    lex:temConteudo    "a) à pessoa que apresente um dos originais do documento ou conhecimento, quando o documento de transporte multimodal tiver sido emitido na forma negociável ao portador;" .
+lex:D1563\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaA .
+lex:D1563\/Artigo2\/AlineaA    lex:temConteudo    "b) à pessoa que apresente um dos originais do documento ou conhecimento devidamente endossado, quando o documento de transporte multimodal tiver sido emitido na forma negociável à ordem;" .
+lex:D1563\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaQuando .
+lex:D1563\/Artigo2\/AlineaQuando    lex:temConteudo    "c) quando o documento ou conhecimento de transporte multimodal tiver sido emitido na forma negociável em nome de uma determinada pessoa, a essa pessoa, com comprovação prévia de sua identidade e contra a apresentação de um dos originais do documento. Se o documento ou conhecimento foi endossado à ordem ou em branco se aplicará o disposto no item b;" .
+lex:D1563\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaA .
+lex:D1563\/Artigo2\/AlineaA    lex:temConteudo    "d) à pessoa designada no documento ou conhecimento como consignatário, com comprovação prévia de sua identidade, quando o documento ou conhecimento de transporte multimodal tiver sido emitido na forma não negociável." .
+lex:D1563\/Artigo2\/AlineaAto    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaAto .
+lex:D1563\/Artigo2\/AlineaAto    lex:temConteudo    "a) ato ou fato imputável ao expedidor, ou ao destinatário, ou ao consignatário da carga, ou a seus agentes, representantes ou procuradores;" .
+lex:D1563\/Artigo2\/AlineaVicio    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaVicio .
+lex:D1563\/Artigo2\/AlineaVicio    lex:temConteudo    "b) vício próprio ou oculto da carga;" .
+lex:D1563\/Artigo2\/AlineaForca    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaForca .
+lex:D1563\/Artigo2\/AlineaForca    lex:temConteudo    "c) força maior ou caso fortuito, devidamente comprovados;" .
+lex:D1563\/Artigo2\/AlineaGreves    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaGreves .
+lex:D1563\/Artigo2\/AlineaGreves    lex:temConteudo    "d) greves, motins ou lock-out; e" .
+lex:D1563\/Artigo2\/AlineaDificuldades    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaDificuldades .
+lex:D1563\/Artigo2\/AlineaDificuldades    lex:temConteudo    "e) dificuldades impeditivas do transporte e outros atos fora do controle do Operador de Transporte Multimodal devidamente comprovados, não existindo outra forma de cumprir o contrato." .
+lex:D1563\/Artigo2\/AlineaPossuir    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaPossuir .
+lex:D1563\/Artigo2\/AlineaPossuir    lex:temConteudo    "a) possuir a capacidade legalmente exigida nas normas gerais do Estado Parte a qual solicita a inscrição;" .
+lex:D1563\/Artigo2\/AlineaContar    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaContar .
+lex:D1563\/Artigo2\/AlineaContar    lex:temConteudo    "b) contar com representação legal suficiente e domicílio estabelecido no Estado Parte ao qual solicita sua inscrição, assim côo nos demais Estados Parte nos quais pretenda operar; e" .
+lex:D1563\/Artigo2\/AlineaTer    lex:ehUm    lex:Alinea .
+lex:D1563\/Artigo2    lex:temAlinea    lex:D1563\/Artigo2\/AlineaTer .
+lex:D1563\/Artigo2\/AlineaTer    lex:temConteudo    "c) ter e manter um patrimônio mínimo em bens ou equipamentos equivalente a 80.000 DES, ou aval bancário ou seguro de caução para a mesma importância apresentado em garantia, em favor do Organismo Nacional Competente." .

@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D79789    lex:ehUm    lex:DocLegal .
+lex:D79789    lex:temTextoIntegral    lex:HTMLs\/D79789.htm .
+lex:D79789\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D79789    lex:temParagrafo    lex:D79789\/ParagrafoUnico .
+lex:D79789\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Quando as operações forem realizadas por companhias distribuidoras, será adotado o procedimento seguinte:" .
+lex:D79789\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D79789\/ParagrafoUnico    lex:temParagrafoInciso    lex:D79789\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D79789\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - A cota de previdência será recolhida pela refinaria diretamente ao Fundo de Liquidez de Previdência Social;" .

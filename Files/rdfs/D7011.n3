@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7011    lex:ehUm    lex:DocLegal .
+lex:D7011    lex:temTextoIntegral    lex:HTMLs\/D7011.htm .
+lex:D7011\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7011    lex:temArtigo    lex:D7011\/Artigo1 .
+lex:D7011\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7011\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7011\/Artigo1    lex:temParagrafo    lex:D7011\/Artigo1\/ParagrafoUnico .
+lex:D7011\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os efeitos do disposto no caput, o valor da operação a ser considerado para fins de apuração da base de cálculo deverá ser obtido multiplicando-se o número de ações cedidas pela sua cotação de fechamento na data anterior à operação ou, no caso de não ter havido negociação nessa data, pela última cotação de fechamento disponível. (NR)" .
+lex:D7011\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7011    lex:temArtigo    lex:D7011\/Artigo2 .
+lex:D7011\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7011\/Artigo1    lex:remetePara    lex:D6306 .
+lex:D7011\/Texto00001    lex:remetePara    lex:D6306\/Artigo8 .
+lex:D7011\/Texto00001    lex:remetePara    lex:D6306\/Artigo32 .

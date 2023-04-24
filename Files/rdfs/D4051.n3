@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4051    lex:ehUm    lex:DocLegal .
+lex:D4051    lex:temTextoIntegral    lex:HTMLs\/D4051.htm .
+lex:D4051\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4051    lex:temArtigo    lex:D4051\/Artigo1 .
+lex:D4051\/Artigo1    lex:temConteudo    "Art. 1o  Os limites de movimentação e empenho e de pagamento de que tratam os Anexos I, II, III, IV, V, VI e VII do Decreto no 3.746, de 6 de fevereiro de 2001, ficam alterados na forma dos Anexos I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII e XIII deste Decreto." .
+lex:D4051\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4051    lex:temArtigo    lex:D4051\/Artigo2 .
+lex:D4051\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo X do Decreto no 3.746, de 2001, fica alterado na forma do Anexo XIV deste Decreto." .
+lex:D4051\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4051\/Artigo2    lex:temParagrafo    lex:D4051\/Artigo2\/Paragrafo1 .
+lex:D4051\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Para atendimento do disposto no caput, os referidos limites serão fixados em montante inferior aos limites de pagamento em valor correspondente à diferença entre o valor dos Restos a Pagar existentes em 1o de janeiro de 2002 e de 2001." .
+lex:D4051\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4051\/Artigo2    lex:temParagrafo    lex:D4051\/Artigo2\/Paragrafo2 .
+lex:D4051\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Os órgãos que efetuarem cancelamentos de Restos a Pagar poderão ter seus limites de movimentação e empenho acrescidos em valor correspondente ao dos cancelamentos, até o limite fixado para pagamento e observada a dotação consignada na Lei Orçamentária de 2002." .
+lex:D4051\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4051\/Artigo2    lex:temParagrafo    lex:D4051\/Artigo2\/Paragrafo3 .
+lex:D4051\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Eventuais variações negativas não ampliam os limites referidos no § 1o e poderão ser alocadas em outros órgãos, por intermédio de portaria interministerial dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Fazenda." .
+lex:D4051\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4051\/Artigo2    lex:temParagrafo    lex:D4051\/Artigo2\/Paragrafo4 .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  Excluem-se do disposto neste artigo as dotações:" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoI .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - referentes às transferências constitucionais e legais a Estados e Municípios por repartição da receita;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - relativas aos grupos de despesa:" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaPessoal    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaPessoal .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaPessoal    lex:temConteudo    "a) pessoal e encargos sociais;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaJuros    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaJuros .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaJuros    lex:temConteudo    "b) juros e encargos da dívida; e" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaAmortizacao    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaAmortizacao .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoII\/AlineaAmortizacao    lex:temConteudo    "c) amortização da dívida;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - destinadas aos pagamentos:" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo    lex:temConteudo    "a) do Seguro Desemprego e do Abono Salarial;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDo    lex:temConteudo    "b) do Fundo de Compensação de Variações Salariais - FCVS;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDe .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDe    lex:temConteudo    "c) de despesas decorrentes de sentenças judiciais transitadas em julgado; e" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDos    lex:ehUm    lex:Alinea .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDos .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII\/AlineaDos    lex:temConteudo    "d) dos benefícios previdenciários e dos benefícios da Lei Orgânica da Assistência Social - LOAS;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - destinadas à complementação, por parte da União, ao Fundo de Manutenção e Desenvolvimento do Ensino Fundamental e de Valorização do Magistério - FUNDEF;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoV .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoV    lex:temConteudo    "V - destinadas à formação de estoques públicos e às subvenções econômicas, no âmbito do Ministério da Agricultura e do Abastecimento e das Operações Oficiais de Crédito;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVI .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVI    lex:temConteudo    "VI - relativas a despesas financeiras, na forma discriminada no Anexo IX do Decreto no 3.746, de 2001;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVII .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVII    lex:temConteudo    "VII - relativas à entrega de recursos a unidades federadas e seus Municípios, na forma e nas condições da Lei Complementar no 87, de 13 de setembro de 1996;" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVIII .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - destinadas ao financiamento de que trata o § 1o do art. 239 da Constituição; e" .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D4051\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIX .
+lex:D4051\/Artigo2\/Paragrafo4\/ParagrafoIncisoIX    lex:temConteudo    "IX - à conta de recursos do Fundo de Combate e Erradicação da Pobreza." .
+lex:D4051\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4051    lex:temArtigo    lex:D4051\/Artigo4 .
+lex:D4051\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4051\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D4051    lex:temArtigo    lex:D4051\/Artigo5 .
+lex:D4051\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogado o art. 10 do Decreto no 3.746, de 6 de fevereiro de 2001." .
+lex:D4051\/Artigo1    lex:remetePara    lex:D3746 .
+lex:D4051\/Artigo3    lex:revogadoPor    lex:D4526\/Artigo5 .
+lex:D4526\/Artigo5    lex:revogou    lex:D4051\/Artigo3 .

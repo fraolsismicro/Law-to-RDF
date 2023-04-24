@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4436    lex:ehUm    lex:DocLegal .
+lex:L4436    lex:temTextoIntegral    lex:HTMLs\/L4436.htm .
+lex:L4436\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4436    lex:temArtigo    lex:L4436\/Artigo1 .
+lex:L4436\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Poder Judiciário - Justiça Eleitoral - Tribunal Superior Eleitoral - o crédito suplementar de Cr$226.131.375,40 (duzentos e vinte e seis milhões, cento e trinta e um mil, trezentos e setenta e cinco cruzeiros e quarenta centavos), em refôrço à dotação do Orçamento vigente (Lei nº 4.295, de 16 de dezembro de1963), com a seguinte discriminação:" .
+lex:L4436\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4436    lex:temArtigo    lex:L4436\/Artigo2 .
+lex:L4436\/Artigo2    lex:temConteudo    "Art. 2º O referido crédito será automàticamente registrado e distribuídos ao Tesouro Nacional, dispensadas as formalidades do art. 93 do Regulamento Geral de Contabilidade Pública." .
+lex:L4436\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4436    lex:temArtigo    lex:L4436\/Artigo3 .
+lex:L4436\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L4436\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4436    lex:temArtigo    lex:L4436\/Artigo4 .
+lex:L4436\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L4436\/Artigo1    lex:remetePara    lex:L4295 .
+lex:L4436\/Artigo2    lex:regulamentadoPor    lex:DPL4536\/Artigo93 .
+lex:DPL4536\/Artigo93    lex:regulamenta    lex:L4436\/Artigo2 .

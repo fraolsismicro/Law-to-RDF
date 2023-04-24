@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0443    lex:ehUm    lex:DocLegal .
+lex:Del0443    lex:temTextoIntegral    lex:HTMLs\/Del0443.htm .
+lex:Del0443\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0443    lex:temArtigo    lex:Del0443\/Artigo1 .
+lex:Del0443\/Artigo1    lex:temConteudo    "Art 1º O artigo 42 da Lei nº 3.807, de 26 de agôsto de 1960, é acrescido dos seguintes parágrafos:" .
+lex:Del0443\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0443\/Artigo1    lex:temParagrafo    lex:Del0443\/Artigo1\/Paragrafo1 .
+lex:Del0443\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Mediante prova hábil do desaparecimento de segurado em virtude de acidente, desastre ou catástrofe, seus dependentes, farão jus à pensão provisória, dispensados a declaração e o prazo exigidos no artigo." .
+lex:Del0443\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0443\/Artigo1    lex:temParagrafo    lex:Del0443\/Artigo1\/Paragrafo2 .
+lex:Del0443\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Verificado o reaparecimento do segurado, cessará imediatamente o pagamento da pensão, desobrigados os beneficiários do reembôlso de quaisquer quantias já recebidas." .
+lex:Del0443\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0443    lex:temArtigo    lex:Del0443\/Artigo2 .
+lex:Del0443\/Artigo2    lex:temConteudo    "Art 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0443\/Artigo1\/Paragrafo1    lex:remetePara    lex:L3807\/Artigo42\/Paragrafo1 .
+lex:Del0443\/Artigo1\/Paragrafo2    lex:remetePara    lex:L3807\/Artigo42\/Paragrafo2 .

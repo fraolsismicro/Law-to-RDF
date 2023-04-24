@@ -1,0 +1,63 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6426    lex:ehUm    lex:DocLegal .
+lex:D6426    lex:temTextoIntegral    lex:HTMLs\/D6426.htm .
+lex:D6426\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6426    lex:temArtigo    lex:D6426\/Artigo1 .
+lex:D6426\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam reduzidas a zero as alíquotas da Contribuição para o PIS/PASEP, da Contribuição para o Financiamento da Seguridade Social - COFINS, da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação incidentes sobre a receita decorrente da venda no mercado interno e sobre a operação de importação dos produtos:" .
+lex:D6426\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo1    lex:temInciso    lex:D6426\/Artigo1\/IncisoI .
+lex:D6426\/Artigo1\/IncisoI    lex:temConteudo    "I - químicos classificados no Capítulo 29 da Nomenclatura Comum do Mercosul - NCM, relacionados no Anexo I;" .
+lex:D6426\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo1    lex:temInciso    lex:D6426\/Artigo1\/IncisoII .
+lex:D6426\/Artigo1\/IncisoII    lex:temConteudo    "II - químicos intermediários de síntese, classificados no Capítulo 29 da NCM e relacionados no Anexo II, no caso de serem:" .
+lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos    lex:ehUm    lex:IncisoAlinea .
+lex:D6426\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos .
+lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos    lex:temConteudo    "a) vendidos para pessoa jurídica industrial, para serem utilizados na fabricação dos produtos relacionados no Anexo I; ou" .
+lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos\/IncisoAlineaImportados    lex:ehUm    lex:IncisoAlinea .
+lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos    lex:temIncisoAlinea    lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos\/IncisoAlineaImportados .
+lex:D6426\/Artigo1\/IncisoII\/IncisoAlineaVendidos\/IncisoAlineaImportados    lex:temConteudo    "b) importados por pessoa jurídica industrial, para serem utilizados na fabricação dos produtos relacionados no Anexo I;" .
+lex:D6426\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo1    lex:temInciso    lex:D6426\/Artigo1\/IncisoIII .
+lex:D6426\/Artigo1\/IncisoIII    lex:temConteudo    "III - destinados ao uso em hospitais, clínicas e consultórios médicos e odontológicos, campanhas de saúde realizadas pelo poder público, laboratório de anatomia patológica, citológica ou de análises clínicas, classificados nas posições 30.02, 30.06, 39.26, 40.15 e 90.18, da NCM, relacionados no Anexo III deste Decreto." .
+lex:D6426\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6426    lex:temArtigo    lex:D6426\/Artigo2 .
+lex:D6426\/Artigo2    lex:temConteudo    "Art. 2 º  Ficam reduzidas a zero as alíquotas da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação, incidentes sobre a operação de importação dos produtos farmacêuticos classificados, na NCM:" .
+lex:D6426\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoI .
+lex:D6426\/Artigo2\/IncisoI    lex:temConteudo    "I - na posição 30.01;" .
+lex:D6426\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoII .
+lex:D6426\/Artigo2\/IncisoII    lex:temConteudo    "II - nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1 e 3002.20.2;" .
+lex:D6426\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoIII .
+lex:D6426\/Artigo2\/IncisoIII    lex:temConteudo    "III - nos códigos 3002.90.20, 3002.90.92 e 3002.90.99;" .
+lex:D6426\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoIV .
+lex:D6426\/Artigo2\/IncisoIV    lex:temConteudo    "IV - na posição 30.03, exceto no código 3003.90.56;" .
+lex:D6426\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoV .
+lex:D6426\/Artigo2\/IncisoV    lex:temConteudo    "V - na posição 30.04, exceto no código 3004.90.46;" .
+lex:D6426\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoVI .
+lex:D6426\/Artigo2\/IncisoVI    lex:temConteudo    "VI - no código 3005.10.10;" .
+lex:D6426\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoVII .
+lex:D6426\/Artigo2\/IncisoVII    lex:temConteudo    "VII - nos itens 3006.30.1 e 3006.30.2; e" .
+lex:D6426\/Artigo2\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D6426\/Artigo2    lex:temInciso    lex:D6426\/Artigo2\/IncisoVIII .
+lex:D6426\/Artigo2\/IncisoVIII    lex:temConteudo    "VIII - no código 3006.60.00." .
+lex:D6426\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6426    lex:temArtigo    lex:D6426\/Artigo3 .
+lex:D6426\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6426\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6426    lex:temArtigo    lex:D6426\/Artigo4 .
+lex:D6426\/Artigo4    lex:temConteudo    "Art. 4 º  Ficam revogados os Decretos n º 5.821, de 29 de junho de 2006, e n º 6.337, de 31 de dezembro de 2007." .
+lex:D6426\/Artigo4    lex:remetePara    lex:D5821 .
+lex:D6426\/Artigo4    lex:remetePara    lex:D6337 .

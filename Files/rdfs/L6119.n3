@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6119    lex:ehUm    lex:DocLegal .
+lex:L6119    lex:temTextoIntegral    lex:HTMLs\/L6119.htm .
+lex:L6119\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6119    lex:temArtigo    lex:L6119\/Artigo1 .
+lex:L6119\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir créditos suplementares ao Orçamento da União, aprovado pela Lei nº 5.964, de 10 de dezembro de 1973, até o limite de Cr$7.532.000.000,00 (sete bilhões, quinhentos e trinta e dois milhões de cruzeiros), conforme a especificação seguinte:" .
+lex:L6119\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6119    lex:temArtigo    lex:L6119\/Artigo2 .
+lex:L6119\/Artigo2    lex:temConteudo    "Art. 2º Para o atendimento dos créditos suplementares que forem abertos conforme a autorização desta Lei, serão utilizados recursos provenientes ao excesso de arrecadação, previsto na forma do § 3º, do artigo 43, da Lei nº 4.320, de 17 de março de 1964." .
+lex:L6119\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6119    lex:temArtigo    lex:L6119\/Artigo3 .
+lex:L6119\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6119\/Artigo1    lex:remetePara    lex:L5964 .
+lex:L6119\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

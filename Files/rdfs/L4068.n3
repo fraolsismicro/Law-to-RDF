@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4068    lex:ehUm    lex:DocLegal .
+lex:L4068    lex:temTextoIntegral    lex:HTMLs\/L4068.htm .
+lex:L4068\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo1 .
+lex:L4068\/Artigo1    lex:temConteudo    "Art. 1º São comerciais as emprêsas de construção." .
+lex:L4068\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo2 .
+lex:L4068\/Artigo2    lex:temConteudo    "Art. 2º As emprêsas referidas no artigo anterior emitirão duplicatas contra as pessoas naturais ou jurídicas para as quais realizem construção, sendo tais duplicatas reguladas pela Lei nº 187, de 16 de janeiro de 1936, com as modificações previstas nesta Lei." .
+lex:L4068\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo3 .
+lex:L4068\/Artigo3    lex:temConteudo    "Art. 3º Sòmente serão extraídas duplicatas quando a obra estiver totalmente concluída ou, tratando-se de obra que conste de partes distintas ou se determine por medida, após a conclusão de cada parte ou verificação da medição, de acôrdo sempre com o estabelecido no contrato." .
+lex:L4068\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4068\/Artigo3    lex:temParagrafo    lex:L4068\/Artigo3\/ParagrafoUnico .
+lex:L4068\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Além das enunciações previstas na Lei nº 187, de 16 de janeiro de 1936, a duplicata conterá sempre a indicação de que se refere a construção." .
+lex:L4068\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo4 .
+lex:L4068\/Artigo4    lex:temConteudo    "Art. 4º O dono da obra sòmente poderá deixar de assinar a duplicata quando:" .
+lex:L4068\/Artigo4\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L4068\/Artigo4    lex:temAlinea    lex:L4068\/Artigo4\/AlineaO .
+lex:L4068\/Artigo4\/AlineaO    lex:temConteudo    "a) o construtor houver se afastado das normas do contrato ou das regras técnicas próprias da natureza do trabalho realizado;" .
+lex:L4068\/Artigo4\/AlineaHouver    lex:ehUm    lex:Alinea .
+lex:L4068\/Artigo4    lex:temAlinea    lex:L4068\/Artigo4\/AlineaHouver .
+lex:L4068\/Artigo4\/AlineaHouver    lex:temConteudo    "b) houver divergência nos prazos ou preços ajustados." .
+lex:L4068\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4068\/Artigo4    lex:temParagrafo    lex:L4068\/Artigo4\/ParagrafoUnico .
+lex:L4068\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso da letra a dêste artigo, se o dono da obra, ao invés de enjeitá-la, preferir recebê-la com abatimento de preço, assinara duplicata da importância que vier a combinar com o construtor." .
+lex:L4068\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo5 .
+lex:L4068\/Artigo5    lex:temConteudo    "Art. 5º A emissão de duplicatas não exclui o privilégio assegurado pelo artigo 1.566, IV, do Código Civil, nem produz novação." .
+lex:L4068\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4068    lex:temArtigo    lex:L4068\/Artigo6 .
+lex:L4068\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4068\/Artigo2    lex:remetePara    lex:L187 .
+lex:L4068\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L187 .
+lex:L4068\/Artigo5    lex:remetePara    lex:L3071\/Artigo1566 .

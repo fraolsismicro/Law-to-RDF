@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1855    lex:ehUm    lex:DocLegal .
+lex:Del1855    lex:temTextoIntegral    lex:HTMLs\/Del1855.htm .
+lex:Del1855\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1855    lex:temArtigo    lex:Del1855\/Artigo1 .
+lex:Del1855\/Artigo1    lex:temConteudo    "Art. 1º - À retribuição dos professores civis do Magistério do Exército serão aplicadas as disposições legais relativas ao Grupo-Magistério do Serviço Civil da União e das Autarquias." .
+lex:Del1855\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1855\/Artigo1    lex:temParagrafo    lex:Del1855\/Artigo1\/ParagrafoUnico .
+lex:Del1855\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para a execução do disposto neste artigo, os professores civis do Quadro e da Tabela de Pessoal do Ministério do Exercito, inclusive os regidos, subsidiariamente, pela Lei nº 5.701, de 9 de setembro de 1971, passarão a constituir clientela das categorias funcionais do Grupo-Magistério, M-400, a que se refere o artigo 2º, item IV, da Lei nº 5.645, de 10 de dezembro de 1970, observada a legislação complementar pertinente." .
+lex:Del1855\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1855    lex:temArtigo    lex:Del1855\/Artigo2 .
+lex:Del1855\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entra em vigor na data de sua publicação, revogados o artigo 5º da Lei nº 5.701, de 9 de setembro de 1971, e demais disposições em contrário." .
+lex:Del1855\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5701 .
+lex:Del1855\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5645\/Artigo2 .
+lex:Del1855\/Artigo2    lex:remetePara    lex:L5701\/Artigo5 .

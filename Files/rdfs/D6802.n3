@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6802    lex:ehUm    lex:DocLegal .
+lex:D6802    lex:temTextoIntegral    lex:HTMLs\/D6802.htm .
+lex:D6802\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6802    lex:temArtigo    lex:D6802\/Artigo1 .
+lex:D6802\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o do Decreto no 6.608, de 22 de outubro de 2008, passa a vigorar acrescido do seguinte inciso:" .
+lex:D6802\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6802    lex:temArtigo    lex:D6802\/Artigo2 .
+lex:D6802\/Artigo2    lex:temConteudo    "Art. 2o  Ficam convalidados os atos praticados com fundamento no art. 3o da Lei no 9.427, de 26 de dezembro de 1996." .
+lex:D6802\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6802    lex:temArtigo    lex:D6802\/Artigo3 .
+lex:D6802\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6802\/Texto00001    lex:remetePara    lex:D6608 .
+lex:D6802\/Artigo2    lex:remetePara    lex:L9427cons\/Artigo3 .
+lex:D6802\/Artigo2    lex:remetePara    lex:L9427cons\/Artigo3 .

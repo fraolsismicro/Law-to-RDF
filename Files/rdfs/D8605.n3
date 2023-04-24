@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8605    lex:ehUm    lex:DocLegal .
+lex:D8605    lex:temTextoIntegral    lex:HTMLs\/D8605.htm .
+lex:D8605\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8605    lex:temArtigo    lex:D8605\/Artigo1 .
+lex:D8605\/Artigo1    lex:temConteudo    "Art. 1 º  Fica promulgada a Convenção n º 185 (revisada) da Organização Internacional do Trabalho - OIT, anexa a este Decreto." .
+lex:D8605\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8605    lex:temArtigo    lex:D8605\/Artigo2 .
+lex:D8605\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão da Convenção e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D8605\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8605    lex:temArtigo    lex:D8605\/Artigo3 .
+lex:D8605\/Artigo3    lex:temConteudo    "Art. 3 º  Fica revogado o Decreto n º 58.825, de 14 de junho de 1966, que promulgou a Convenção n º 108 da Organização Internacional do Trabalho, de 13 de maio de 1958." .
+lex:D8605\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8605    lex:temArtigo    lex:D8605\/Artigo4 .
+lex:D8605\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8605\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .
+lex:D8605\/Artigo3    lex:remetePara    lex:D58825 .

@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D96495    lex:ehUm    lex:DocLegal .
+lex:D96495    lex:temTextoIntegral    lex:HTMLs\/D96495.htm .
+lex:D96495\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D96495    lex:temArtigo    lex:D96495\/Artigo1 .
+lex:D96495\/Artigo1    lex:temConteudo    "Art. 1° Ficam submetidos a escalonamento específicos os prazos de partida dos servidores do Ministério das Relações Exteriores removidos para a Secretaria de Estado em 1988, com base nos arts. 61 e 68 da Lei n° 7.501, de 27 de junho de 1986, e nos termos do art. 95 e seu parágrafo do Regulamento de Pessoal do Serviço Exterior, aprovado pelo Decreto n° 93.325, de 1° de outubro de 1986." .
+lex:D96495\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D96495\/Artigo1    lex:temParagrafo    lex:D96495\/Artigo1\/ParagrafoUnico .
+lex:D96495\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Na elaboração do escalonamento de que trata este artigo, o Órgão de Pessoal do Ministério das Relações Exteriores, ouvidos os Chefes dos Postos, observará as seguintes normas:" .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D96495\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaPara .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaPara    lex:temConteudo    "a) para fins de prazos de partida, serão constituídos três grupos, composto cada um por aproximadamente 1/3 dos servidores removidos;" .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D96495\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaOs .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "b) os prazos de partida para o primeiro, segundo e terceiro grupos vencerão, respectivamente, em 31 de dezembro de 1988, 31 de maio de 1989 e 31 de outubro de 1989;" .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaSera    lex:ehUm    lex:Alinea .
+lex:D96495\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaSera .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaSera    lex:temConteudo    "c) será levado em consideração o interesse do serviço, bem assim a situação peculiar dos Postos do grupo C (art. 14 da Lei n° 7.501/86)." .
+lex:D96495\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D96495    lex:temArtigo    lex:D96495\/Artigo2 .
+lex:D96495\/Artigo2    lex:temConteudo    "Art. 2° Em 1° de novembro de 1989 serão excluídos da folha de pagamento no exterior todos os servidores removidos por força dos critérios estabelecidos nos arts. 61 e 68 da Lei n° 7.501, de 27 de junho de 1986." .
+lex:D96495\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D96495    lex:temArtigo    lex:D96495\/Artigo3 .
+lex:D96495\/Artigo3    lex:temConteudo    "Art. 3° O Ministro de Estado das Relações Exteriores adotará as medidas necessárias à execução deste Decreto." .
+lex:D96495\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D96495    lex:temArtigo    lex:D96495\/Artigo4 .
+lex:D96495\/Artigo4    lex:temConteudo    "Art. 4° Este Decreto entra em vigor na data de sua publicação." .
+lex:D96495\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D96495    lex:temArtigo    lex:D96495\/Artigo5 .
+lex:D96495\/Artigo5    lex:temConteudo    "Art. 5° Revogam-se as disposições em contrário." .
+lex:D96495\/Artigo1    lex:remetePara    lex:L7501\/Artigo61 .
+lex:D96495\/Artigo1    lex:remetePara    lex:L7501\/Artigo68 .
+lex:D96495\/Artigo1    lex:regulamentadoPor    lex:D93325\/Artigo95 .
+lex:D93325\/Artigo95    lex:regulamenta    lex:D96495\/Artigo1 .
+lex:D96495\/Artigo1\/ParagrafoUnico\/AlineaSera    lex:remetePara    lex:L7501\/Artigo14 .
+lex:D96495\/Artigo2    lex:remetePara    lex:L7501\/Artigo61 .
+lex:D96495\/Artigo2    lex:remetePara    lex:L7501\/Artigo68 .

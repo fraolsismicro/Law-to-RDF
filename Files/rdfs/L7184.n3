@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7184    lex:ehUm    lex:DocLegal .
+lex:L7184    lex:temTextoIntegral    lex:HTMLs\/L7184.htm .
+lex:L7184\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7184    lex:temArtigo    lex:L7184\/Artigo1 .
+lex:L7184\/Artigo1    lex:temConteudo    "Art. 1º A Gratificação de Produtividade instituída pelo art. 10 do Decreto-lei nº 1.445, de 13 de fevereiro de 1976, com as modificações posteriores, e a Gratificação de Nível Superior a que alude o art. 7º do Decreto-lei nº 1.820, de 11 de dezembro de 1980, incorporam-se aos proventos dos funcionários aposentados anteriormente à vigência das normas legais autorizadoras da incorporação dessas vantagens aos proventos da inatividade." .
+lex:L7184\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7184\/Artigo1    lex:temParagrafo    lex:L7184\/Artigo1\/Paragrafo1 .
+lex:L7184\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A incorporação da Gratificação de Produtividade far-se-á na razão da metade do percentual máximo atribuído à Categoria Funcional em que ocorreu a aposentadoria." .
+lex:L7184\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7184\/Artigo1    lex:temParagrafo    lex:L7184\/Artigo1\/Paragrafo2 .
+lex:L7184\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º As gratificações de que trata este artigo não poderão ser pagas cumulativamente com qualquer parcela incorporada aos proventos e cuja percepção ou retribuição seja com ela considerada incompatível." .
+lex:L7184\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L7184\/Artigo1    lex:temParagrafo    lex:L7184\/Artigo1\/Paragrafo3 .
+lex:L7184\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O disposto neste artigo alcança os funcionários que, se estivessem em atividade, seriam beneficiados com a concessão da vantagem, nos termos da legislação em vigor." .
+lex:L7184\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7184    lex:temArtigo    lex:L7184\/Artigo2 .
+lex:L7184\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7184\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7184    lex:temArtigo    lex:L7184\/Artigo3 .
+lex:L7184\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7184\/Artigo1    lex:remetePara    lex:Del1445\/Artigo10 .
+lex:L7184\/Artigo1    lex:remetePara    lex:Del1820\/Artigo7 .

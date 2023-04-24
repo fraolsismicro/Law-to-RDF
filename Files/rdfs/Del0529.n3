@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0529    lex:ehUm    lex:DocLegal .
+lex:Del0529    lex:temTextoIntegral    lex:HTMLs\/Del0529.htm .
+lex:Del0529\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0529    lex:temArtigo    lex:Del0529\/Artigo1 .
+lex:Del0529\/Artigo1    lex:temConteudo    "Art. 1º Ficam reabertos, por 60 (sessenta) dias, a partir da vigência dêste Decreto-lei, os prazos previstos no § 2º do artigo 19 e no artigo 21 da Lei 4.119, de 27 de agôsto de 1962." .
+lex:Del0529\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0529\/Artigo1    lex:temParagrafo    lex:Del0529\/Artigo1\/ParagrafoUnico .
+lex:Del0529\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São considerados tempestivos os pedidos anteriores de registro, se ainda não definitivamente solucionados." .
+lex:Del0529\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0529    lex:temArtigo    lex:Del0529\/Artigo2 .
+lex:Del0529\/Artigo2    lex:temConteudo    "Art. 2º Encerrado o prazo de que trata o artigo anterior, a Diretoria de Ensino Superior, ou o órgão que a substitua na organização administrativa emitirá parecer em todos os casos, dentro de 30 (trinta) dias e os encaminhará imediatamente à decisão do Ministro da Educação e Cultura." .
+lex:Del0529\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0529    lex:temArtigo    lex:Del0529\/Artigo3 .
+lex:Del0529\/Artigo3    lex:temConteudo    "Art. 3º Revogadas as disposições em contrário, o presente Decreto-lei entrará em vigor à data de sua publicação." .
+lex:Del0529\/Artigo1    lex:remetePara    lex:L4119\/Artigo19\/Paragrafo2 .
+lex:Del0529\/Artigo1    lex:remetePara    lex:L4119\/Artigo21 .

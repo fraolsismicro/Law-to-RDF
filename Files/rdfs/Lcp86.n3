@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp86    lex:ehUm    lex:DocLegal .
+lex:Lcp86    lex:temTextoIntegral    lex:HTMLs\/Lcp86.htm .
+lex:Lcp86\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp86    lex:temArtigo    lex:Lcp86\/Artigo1 .
+lex:Lcp86\/Artigo1    lex:temConteudo    "Art. 1º Acrescente-se ao inciso I do art. 22 da Lei nº 4.737, de 15 de julho de 1965 - Código Eleitoral, a seguinte alínea j:" .
+lex:Lcp86\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp86\/Artigo1    lex:temInciso    lex:Lcp86\/Artigo1\/IncisoI .
+lex:Lcp86\/Artigo1\/IncisoI    lex:temConteudo    "I - .................................................................................." .
+lex:Lcp86\/Artigo1\/IncisoI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp86\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Lcp86\/Artigo1\/IncisoI\/IncisoAlineaA .
+lex:Lcp86\/Artigo1\/IncisoI\/IncisoAlineaA    lex:temConteudo    "j) a ação rescisória, nos casos de inelegibilidade, desde que intentada dentro do prazo de cento e vinte dias de decisão irrecorrível, possibilitando-se o exercício do mandato eletivo até o seu trânsito em julgado.'" .
+lex:Lcp86\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp86    lex:temArtigo    lex:Lcp86\/Artigo2 .
+lex:Lcp86\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei Complementar entra em vigor na data de sua publicação, aplicando-se, inclusive, às decisões havidas até cento e vinte dias anteriores à sua vigência." .
+lex:Lcp86\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp86    lex:temArtigo    lex:Lcp86\/Artigo3 .
+lex:Lcp86\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:Lcp86\/Artigo1    lex:remetePara    lex:L4737 .
+lex:Lcp86\/Artigo1\/IncisoI\/IncisoAlineaA    lex:remetePara    lex:L4737\/Artigo22 .

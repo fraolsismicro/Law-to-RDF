@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93238    lex:ehUm    lex:DocLegal .
+lex:D93238    lex:temTextoIntegral    lex:HTMLs\/D93238.htm .
+lex:D93238\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93238    lex:temArtigo    lex:D93238\/Artigo1 .
+lex:D93238\/Artigo1    lex:temConteudo    "Art. 1º. Ficam declaradas de utilidade pública e interesse social, para fins de desapropriação, áreas de terras e benfeitorias, de propriedade de particulares, com o total de 87.289 ha (oitenta e sete mil, duzentos e oitenta e nove hectares), necessários à implantação de Projetos de Irrigação, destinados ao reassentamento de parte da população retirada da área do Reservatório de Itaparica, conforme plantas constantes do Processo PRONI nº 43000.100639/86-41, assim descritas:" .
+lex:D93238\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93238    lex:temArtigo    lex:D93238\/Artigo2 .
+lex:D93238\/Artigo2    lex:temConteudo    "Art. 2º. Fica a Companhia Hidro Elétrica do São Francisco (CHESF) autorizada a promover, com recursos próprios, a desapropriação das referidas áreas de terra e benfeitorias na forma da legislação vigente." .
+lex:D93238\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93238\/Artigo2    lex:temParagrafo    lex:D93238\/Artigo2\/ParagrafoUnico .
+lex:D93238\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos termos do artigo 15 do Decreto-lei nº 3.365, de 21 de junho de 1941, modificado pela Lei nº 2.786, de 21 de maio de 1956, fica a expropriante autorizada a invocar o caráter de urgência no processo de desapropriação, para fins de imissão de posse nas áreas de terra e benfeitorias abrangidas por este decreto." .
+lex:D93238\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D93238    lex:temArtigo    lex:D93238\/Artigo3 .
+lex:D93238\/Artigo3    lex:temConteudo    "Art. 3º. Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D93238\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:Del3365\/Artigo15 .
+lex:D93238\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L2786 .

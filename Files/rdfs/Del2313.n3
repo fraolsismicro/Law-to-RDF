@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2313    lex:ehUm    lex:DocLegal .
+lex:Del2313    lex:temTextoIntegral    lex:HTMLs\/Del2313.htm .
+lex:Del2313\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2313    lex:temParagrafo    lex:Del2313\/ParagrafoUnico .
+lex:Del2313\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Conselho Monetário Nacional fixará as condições de emissão e circulação de letras hipotecárias para os efeitos da isenção de que trata este artigo." .
+lex:Del2313\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2313    lex:temArtigo    lex:Del2313\/Artigo3 .
+lex:Del2313\/Artigo3    lex:temConteudo    "Art 3º Este decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del2313\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2313    lex:temArtigo    lex:Del2313\/Artigo4 .
+lex:Del2313\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário, em especial o § 1º do artigo 8º da Lei nº 4.728, de 14 de julho de 1965." .
+lex:Del2313\/Texto    lex:remetePara    lex:Del2303\/Artigo3 .
+lex:Del2313\/Artigo2    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/Artigo2 .
+lex:Del2313\/Paragrafo1    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/Paragrafo1 .
+lex:Del2313\/AlineaDefinir    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/AlineaDefinir .
+lex:Del2313\/AlineaAumentar    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/AlineaAumentar .
+lex:Del2313\/AlineaEstabelecer    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/AlineaEstabelecer .
+lex:Del2313\/Paragrafo2    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/Paragrafo2 .
+lex:Del2313\/Paragrafo3    lex:revogadoPor    lex:Del2394\/Artigo11 .
+lex:Del2394\/Artigo11    lex:revogou    lex:Del2313\/Paragrafo3 .
+lex:Del2313\/Artigo4    lex:remetePara    lex:L4728\/Artigo8\/Paragrafo1 .

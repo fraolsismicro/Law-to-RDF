@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3125    lex:ehUm    lex:DocLegal .
+lex:D3125    lex:temTextoIntegral    lex:HTMLs\/D3125.htm .
+lex:D3125\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3125    lex:temArtigo    lex:D3125\/Artigo1 .
+lex:D3125\/Artigo1    lex:temConteudo    "Art. 1o  Fica delegada competência ao Ministro de Estado do Planejamento, Orçamento e Gestão para, observadas as disposições legais e regulamentares:" .
+lex:D3125\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3125\/Artigo1    lex:temInciso    lex:D3125\/Artigo1\/IncisoI .
+lex:D3125\/Artigo1\/IncisoI    lex:temConteudo    "I - autorizar a cessão e a alienação de imóveis da União;" .
+lex:D3125\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3125\/Artigo1    lex:temInciso    lex:D3125\/Artigo1\/IncisoII .
+lex:D3125\/Artigo1\/IncisoII    lex:temConteudo    "II - aceitar ou recusar a dação em pagamento e a doação, com encargo, de bens imóveis à União;" .
+lex:D3125\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3125\/Artigo1    lex:temInciso    lex:D3125\/Artigo1\/IncisoIII .
+lex:D3125\/Artigo1\/IncisoIII    lex:temConteudo    "III - decidir a remição do foro nas zonas onde não subsistam os motivos determinantes da aplicação do regime enfitêutico; e" .
+lex:D3125\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3125\/Artigo1    lex:temInciso    lex:D3125\/Artigo1\/IncisoIV .
+lex:D3125\/Artigo1\/IncisoIV    lex:temConteudo    "IV - autorizar a alienação, a concessão ou a transferência, a pessoa física ou jurídica estrangeira, de imóveis da União situados nas zonas indicadas na alínea 'a' do art. 100 do Decreto-Lei no 9.760, de 5 de setembro de 1946, ouvidos os órgãos competentes, vedada a subdelegação." .
+lex:D3125\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3125\/Artigo1    lex:temParagrafo    lex:D3125\/Artigo1\/ParagrafoUnico .
+lex:D3125\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na aceitação da doação, sem encargo, de bens imóveis à União, será observado o disposto no art. 10, inciso XIX, do Decreto-Lei no 147, de 3 de fevereiro de 1967." .
+lex:D3125\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3125    lex:temArtigo    lex:D3125\/Artigo2 .
+lex:D3125\/Artigo2    lex:temConteudo    "Art. 2o  Ficam estendidas aos imóveis de propriedade das autarquias e fundações públicas as determinações contidas no Decreto no 99.672, de 6 de novembro de 1990." .
+lex:D3125\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3125    lex:temArtigo    lex:D3125\/Artigo3 .
+lex:D3125\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3125\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3125    lex:temArtigo    lex:D3125\/Artigo4 .
+lex:D3125\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados os Decretos de 4 de agosto de 1997 e de 10 de novembro de 1998, que delegam competência ao Ministro de Estado da Fazenda para a prática dos atos que especificam." .
+lex:D3125\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del147\/Artigo10 .
+lex:D3125\/Artigo2    lex:remetePara    lex:D99672 .
+lex:D3125\/Artigo4    lex:remetePara    lex:Dnn5590 .
+lex:D3125\/Artigo4    lex:remetePara    lex:Dnn7602 .

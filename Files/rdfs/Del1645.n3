@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1645    lex:ehUm    lex:DocLegal .
+lex:Del1645    lex:temTextoIntegral    lex:HTMLs\/Del1645.htm .
+lex:Del1645\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo1 .
+lex:Del1645\/Artigo1    lex:temConteudo    "Art 1º Ficam cancelados os débitos de qualquer natureza para com a Fazenda Nacional, de valor originário igual ou inferior a Cr$300,00 (trezentos cruzeiros), inscritos como Dívida Ativa da União, pelas Procuradorias da Fazenda Nacional, até a data da publicação do Decreto-lei nº 1.569, de 8 de agosto de 1977, arquivando-se os respectivos processos administrativos." .
+lex:Del1645\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1645\/Artigo1    lex:temParagrafo    lex:Del1645\/Artigo1\/ParagrafoUnico .
+lex:Del1645\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Os autos das execuções fiscais dos débitos de que trata este artigo serão arquivados mediante despacho do Juiz, ciente o representante da União em Juízo." .
+lex:Del1645\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo2 .
+lex:Del1645\/Artigo2    lex:temConteudo    "Art 2º Ficam cancelados os débitos decorrentes ao imposto de renda, ao imposto sobre produtos industrializados, ao imposto de importação, a multas de qualquer natureza previstas na legislação em vigor e a custas processuais, de valor originário igual ou inferior a Cr$300,00 (trezentos cruzeiros), constituídos até a data de publicação do Decreto-lei nº 1.569, de 8 de agosto de 1977." .
+lex:Del1645\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo3 .
+lex:Del1645\/Artigo3    lex:temConteudo    "Art 3º Na cobrança executiva da Divida Ativa da União, a aplicação do encargo de que tratam o art. 21 da lei nº 4.439, de 27 de outubro de 1964, o art. 32 do Decreto-lei nº 147, de 3 de fevereiro de 1967, o art. 1º, inciso II, da Lei nº 5.421, de 25 de abril de 1968, o art. 1º do Decreto-lei nº 1.025, de 21 de outubro de 1969, e o art. 3º do Decreto-lei nº 1.569, de 8 de agosto de 1977, substitui a condenação do devedor em honorários de advogado e o respectivo produto será, sob esse título, recolhido integralmente ao Tesouro Nacional.    (Vide Decreto-lei nº 1.893, de 1981)    (Vide Decreto-lei nº 2.331, de 1987)" .
+lex:Del1645\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1645\/Artigo3    lex:temParagrafo    lex:Del1645\/Artigo3\/ParagrafoUnico .
+lex:Del1645\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. O encargo de que trata este artigo será calculado sobre o montante do débito, inclusive multas, monetariamente atualizado e acrescido dos juros de mora." .
+lex:Del1645\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo4 .
+lex:Del1645\/Artigo4    lex:temConteudo    "Art 4º Valor originário do débito fiscal é o definido no art. 5º da Lei nº 5.421, de 25 de abril de 1968." .
+lex:Del1645\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo5 .
+lex:Del1645\/Artigo5    lex:temConteudo    "Art 5º Na cobrança executiva da Dívida Ativa da União concernente a débitos de natureza não tributária, a atualização monetária prevista no artigo 1º da Lei nº 5.421, de 25 de abril de 1968, será calculada a partir da data do vencimento e mediante a aplicação dos mesmos índices fixados para os débitos tributários." .
+lex:Del1645\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1645    lex:temArtigo    lex:Del1645\/Artigo6 .
+lex:Del1645\/Artigo6    lex:temConteudo    "Art 6º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1645\/Artigo1    lex:remetePara    lex:Del1569 .
+lex:Del1645\/Artigo2    lex:remetePara    lex:Del1569 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:del0147\/Artigo32 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:L5421\/Artigo1 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:Del1025\/Artigo1 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:Del1569\/Artigo3 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:Del1893\/Artigo1\/Paragrafo5 .
+lex:Del1645\/Artigo3    lex:remetePara    lex:Del2331\/Artigo1\/Paragrafo5a .
+lex:Del1645\/Artigo4    lex:remetePara    lex:L5421\/Artigo5 .
+lex:Del1645\/Artigo5    lex:remetePara    lex:L5421\/Artigo1 .

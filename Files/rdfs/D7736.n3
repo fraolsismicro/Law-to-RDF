@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7736    lex:ehUm    lex:DocLegal .
+lex:D7736    lex:temTextoIntegral    lex:HTMLs\/D7736.htm .
+lex:D7736\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7736    lex:temParagrafo    lex:D7736\/Paragrafo1 .
+lex:D7736\/Paragrafo1    lex:temConteudo    "§ 1o  Os cargos em comissão remanejados destinam-se à estruturação de atividades de apoio à Comissão Interministerial instituída pelo Decreto no 7.514, de 5 de julho de 2011." .
+lex:D7736\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7736    lex:temParagrafo    lex:D7736\/Paragrafo2 .
+lex:D7736\/Paragrafo2    lex:temConteudo    "§ 2o  Os cargos em comissão de que trata o caput não integrarão a estrutura do Ministério do Planejamento, Orçamento e Gestão." .
+lex:D7736\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7736    lex:temParagrafo    lex:D7736\/Paragrafo3 .
+lex:D7736\/Paragrafo3    lex:temConteudo    "§ 3o  Deverá constará dos atos de nomeação para os cargos de que trata o caput seu caráter  de transitoriedade, mediante remissão a este Decreto." .
+lex:D7736\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7736    lex:temParagrafo    lex:D7736\/Paragrafo4 .
+lex:D7736\/Paragrafo4    lex:temConteudo    "§ 4o  Findo o prazo estabelecido no caput, os cargos em comissão serão restituídos à Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão, considerados exonerados seus ocupantes." .
+lex:D7736\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7736    lex:temArtigo    lex:D7736\/Artigo2 .
+lex:D7736\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7736\/Texto    lex:remetePara    lex:D7736 .
+lex:D7736\/Artigo1    lex:remetePara    lex:D7941\/Artigo1 .
+lex:D7736\/Artigo1    lex:remetePara    lex:D8291\/Artigo2 .
+lex:D7736\/Paragrafo1    lex:remetePara    lex:D7514 .

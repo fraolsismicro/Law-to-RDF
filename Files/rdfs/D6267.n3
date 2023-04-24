@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6267    lex:ehUm    lex:DocLegal .
+lex:D6267    lex:temTextoIntegral    lex:HTMLs\/D6267.htm .
+lex:D6267\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6267    lex:temArtigo    lex:D6267\/Artigo1 .
+lex:D6267\/Artigo1    lex:temConteudo    "Art. 1o  Os incisos I e II do art. 1o do Decreto no 6.161, de 20 de julho de 2007, passam a vigorar com a seguinte redação:" .
+lex:D6267\/Artigo1\/AlineaLinha    lex:ehUm    lex:Alinea .
+lex:D6267\/Artigo1    lex:temAlinea    lex:D6267\/Artigo1\/AlineaLinha .
+lex:D6267\/Artigo1\/AlineaLinha    lex:temConteudo    "a) Linha de Transmissão Tucuruí - Xingu, Circuito Duplo, em 500 kV, e Subestação Xingu, no Estado do Pará;" .
+lex:D6267\/Artigo1\/AlineaLinha    lex:ehUm    lex:Alinea .
+lex:D6267\/Artigo1    lex:temAlinea    lex:D6267\/Artigo1\/AlineaLinha .
+lex:D6267\/Artigo1\/AlineaLinha    lex:temConteudo    "b) Linha de Transmissão Xingu - Jurupari, Circuito Duplo, em 500 kV, e Subestação Jurupari, em 500/230 kV, no Estado do Pará;" .
+lex:D6267\/Artigo1\/AlineaLinha    lex:ehUm    lex:Alinea .
+lex:D6267\/Artigo1    lex:temAlinea    lex:D6267\/Artigo1\/AlineaLinha .
+lex:D6267\/Artigo1\/AlineaLinha    lex:temConteudo    "c) Linha de Transmissão Jurupari - Oriximiná, Circuito Duplo, em 500 kV, e Subestação Oriximiná, em 500/230/138 kV, no Estado do Pará;" .
+lex:D6267\/Artigo1\/AlineaLinha    lex:ehUm    lex:Alinea .
+lex:D6267\/Artigo1    lex:temAlinea    lex:D6267\/Artigo1\/AlineaLinha .
+lex:D6267\/Artigo1\/AlineaLinha    lex:temConteudo    "d) Linha de Transmissão Oriximiná - Itacoatiara, Circuito Duplo, em 500 kV, e Subestação Itacoatiara, em 500/138 kV, nos Estados do Pará e Amazonas; e" .
+lex:D6267\/Artigo1\/AlineaLinha    lex:ehUm    lex:Alinea .
+lex:D6267\/Artigo1    lex:temAlinea    lex:D6267\/Artigo1\/AlineaLinha .
+lex:D6267\/Artigo1\/AlineaLinha    lex:temConteudo    "e) Linha de Transmissão Itacoatiara - Cariri (Manaus), Circuito Duplo, em 500 kV, e Subestação Cariri, em 500/230 kV, no Estado do Amazonas;" .
+lex:D6267\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6267\/Artigo1    lex:temInciso    lex:D6267\/Artigo1\/IncisoII .
+lex:D6267\/Artigo1\/IncisoII    lex:temConteudo    "II - Interligação Tucuruí-PA - Macapá-AP, constituída de:" .
+lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D6267\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha .
+lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Jurupari - Laranjal, Circuito Duplo, em 230 kV, e Subestação Laranjal, em 230/69 kV, nos Estados do Pará e Amapá; e" .
+lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D6267\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Laranjal - Macapá, Circuito Duplo, em 230 kV, e Subestação Macapá, em 230/69 kV, no Estado do Amapá; (NR)" .
+lex:D6267\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6267    lex:temArtigo    lex:D6267\/Artigo2 .
+lex:D6267\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6267\/Artigo1    lex:remetePara    lex:D6161\/Artigo1 .
+lex:D6267\/Artigo1    lex:remetePara    lex:D6161\/Artigo1 .

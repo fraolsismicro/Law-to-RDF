@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8700    lex:ehUm    lex:DocLegal .
+lex:D8700    lex:temTextoIntegral    lex:HTMLs\/D8700.htm .
+lex:D8700\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8700    lex:temArtigo    lex:D8700\/Artigo1 .
+lex:D8700\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 8.670, de 12 de fevereiro de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8700\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8700\/Artigo1    lex:temInciso    lex:D8700\/Artigo1\/IncisoI .
+lex:D8700\/Artigo1\/IncisoI    lex:temConteudo    "I - ampliar os valores estabelecidos para os órgãos relacionados no Anexo II até o montante de R$ 2.443.480.000,00 (dois bilhões, quatrocentos e quarenta e três milhões, quatrocentos e oitenta mil reais);" .
+lex:D8700\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8700    lex:temArtigo    lex:D8700\/Artigo2 .
+lex:D8700\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos I, II, V, VII, VIII, IX e X ao Decreto no 8.670, de 2016, passam a vigorar, respectivamente, na forma dos Anexos I, II, III, IV, V, VI e VII a este Decreto." .
+lex:D8700\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8700    lex:temArtigo    lex:D8700\/Artigo3 .
+lex:D8700\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8700\/Artigo1    lex:remetePara    lex:D8670 .
+lex:D8700\/Artigo1\/IncisoI    lex:remetePara    lex:D8670\/Artigo7 .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8700\/Artigo2    lex:remetePara    lex:D8670\/ .

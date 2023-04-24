@@ -1,0 +1,102 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8577    lex:ehUm    lex:DocLegal .
+lex:D8577    lex:temTextoIntegral    lex:HTMLs\/D8577.htm .
+lex:D8577\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8577    lex:temInciso    lex:D8577\/IncisoI .
+lex:D8577\/IncisoI    lex:temConteudo    "I - do Gabinete de Segurança Institucional da Presidência da República para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8577\/IncisoI\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres .
+lex:D8577\/IncisoI\/IncisoAlineaTres    lex:temConteudo    "a) três DAS 101.6;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres    lex:temConteudo    "b) três DAS 101.5;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro    lex:temConteudo    "c) quatro DAS 101.4;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temConteudo    "d) um DAS 101.3;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "e) um DAS 102.5;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete    lex:temConteudo    "f) sete DAS 102.4;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze    lex:temConteudo    "g) treze DAS 102.3;" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis    lex:temConteudo    "h) seis DAS 102.2; e" .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis\/IncisoAlineaOnze .
+lex:D8577\/IncisoI\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaTreze\/IncisoAlineaSeis\/IncisoAlineaOnze    lex:temConteudo    "i) onze DAS 102.1." .
+lex:D8577\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8577    lex:temInciso    lex:D8577\/IncisoII .
+lex:D8577\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão para a Casa Militar da Presidência da República:" .
+lex:D8577\/IncisoII\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres .
+lex:D8577\/IncisoII\/IncisoAlineaTres    lex:temConteudo    "a) três DAS 101.6;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois    lex:temConteudo    "b) dois DAS 101.5;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres    lex:temConteudo    "c) três DAS 101.4;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm    lex:temConteudo    "d) um DAS 102.5;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temConteudo    "e) quatro DAS 102.4;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove    lex:temConteudo    "f) nove DAS 102.3;" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois    lex:temConteudo    "g) dois DAS 102.2; e" .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois\/IncisoAlineaNove .
+lex:D8577\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaNove\/IncisoAlineaDois\/IncisoAlineaNove    lex:temConteudo    "h) nove DAS 102.1." .
+lex:D8577\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8577    lex:temInciso    lex:D8577\/IncisoIII .
+lex:D8577\/IncisoIII    lex:temConteudo    "III - do Gabinete de Segurança Institucional da Presidência da República para a Casa Militar da Presidência da República:" .
+lex:D8577\/IncisoIII\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoIII    lex:temIncisoAlinea    lex:D8577\/IncisoIII\/IncisoAlineaNove .
+lex:D8577\/IncisoIII\/IncisoAlineaNove    lex:temConteudo    "a) nove gratificações do Grupo 0001 (A);" .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoIII\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte    lex:temConteudo    "b) vinte e sete do Grupo 0002 (B);" .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e cinco do Grupo 0003 (C);" .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temConteudo    "d) trinta e três do Grupo do 0004 (D); e" .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaTrinta .
+lex:D8577\/IncisoIII\/IncisoAlineaNove\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaTrinta    lex:temConteudo    "e) trinta e quatro do Grupo 0005 (E)." .
+lex:D8577\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8577    lex:temParagrafo    lex:D8577\/ParagrafoUnico .
+lex:D8577\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam mantidas as designações para Gratificação de Representação da Presidência da República existentes no Gabinete de Segurança Institucional na data de entrada em vigor deste Decreto até a dispensa expressa." .
+lex:D8577\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8577    lex:temParagrafo    lex:D8577\/ParagrafoUnico .
+lex:D8577\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Chefe da Casa Militar da Presidência da República fará publicar no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das Gratificações de Exercício em Cargo de Confiança nos Órgãos da Presidência da República especificados no Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis." .
+lex:D8577\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8577\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8577\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8577\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - elaboração dos Relatórios de Gestão, de acordo com orientações a serem emitidas pela Controladoria-Geral da União; e" .
+lex:D8577\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8577\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8577\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8577\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - remanejamento dos recursos orçamentários e financeiros e transferências de bens patrimoniais, de acordo com orientações emitidas pelo Ministério do Planejamento, Orçamento e Gestão." .
+lex:D8577\/Texto    lex:revogadoPor    lex:D9031\/Artigo12 .
+lex:D9031\/Artigo12    lex:revogou    lex:D8577\/Texto .
+lex:D8577\/Texto    lex:remetePara    lex:D9031\/Artigo11 .
+lex:D8577\/Texto    lex:remetePara    lex:D8577 .
+lex:D8577\/ParagrafoUnico\/Artigo9    lex:remetePara    lex:D8100 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8609    lex:ehUm    lex:DocLegal .
+lex:L8609    lex:temTextoIntegral    lex:HTMLs\/L8609.htm .
+lex:L8609\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8609    lex:temArtigo    lex:L8609\/Artigo1 .
+lex:L8609\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 8.409, de 28 de fevereiro de 1992), em favor do extinto Ministério da Agricultura e Reforma Agrária, crédito suplementar no valor de Cr$ 3.228.400.000,00 (três bilhões, duzentos e vinte e oito milhões e quatrocentos mil cruzeiros), na forma do Anexo I desta Lei, para atender à programação de despesa do Ministério da Agricultura, do Abastecimento e da Reforma Agrária." .
+lex:L8609\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8609\/Artigo1    lex:temParagrafo    lex:L8609\/Artigo1\/Paragrafo1 .
+lex:L8609\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os recursos decorrentes deste crédito suplementar, obedecida a programação constante do Anexo I desta Lei, serão aplicados exclusivamente em infra-estrutura social, a saber: escolas, postos de saúde, centros comunitários, armazéns comunitários e sistema de abastecimento de água." .
+lex:L8609\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8609\/Artigo1    lex:temParagrafo    lex:L8609\/Artigo1\/Paragrafo2 .
+lex:L8609\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A este crédito suplementar aplica-se o disposto no art. 26 da Lei nº 8.490, de 19 de novembro de 1992." .
+lex:L8609\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8609    lex:temArtigo    lex:L8609\/Artigo2 .
+lex:L8609\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior decorrerão de anulação parcial de dotações indicadas no Anexo II desta Lei." .
+lex:L8609\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8609    lex:temArtigo    lex:L8609\/Artigo3 .
+lex:L8609\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L8609\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8609    lex:temArtigo    lex:L8609\/Artigo4 .
+lex:L8609\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L8609\/Artigo1    lex:remetePara    lex:L8409 .
+lex:L8609\/Artigo1\/Paragrafo2    lex:remetePara    lex:L8490\/Artigo26 .

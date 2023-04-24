@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5187    lex:ehUm    lex:DocLegal .
+lex:D5187    lex:temTextoIntegral    lex:HTMLs\/D5187.htm .
+lex:D5187\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5187    lex:temArtigo    lex:D5187\/Artigo1 .
+lex:D5187\/Artigo1    lex:temConteudo    "Art. 1o  O art. 3o do Decreto no 4.923, de 18 de dezembro de 2003, passa a vigorar com a seguinte redação:" .
+lex:D5187\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5187\/Artigo1    lex:temInciso    lex:D5187\/Artigo1\/IncisoI .
+lex:D5187\/Artigo1\/IncisoI    lex:temConteudo    "I - .........................................................................................." .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5187\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "g) um representante do Ministério das Relações Exteriores;" .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "h) um representante da Comissão de Ética Pública da Presidência da República;" .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlineaItem    lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaItem .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaItem    lex:temConteudo    ".........................................................................................." .
+lex:D5187\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5187\/Artigo1    lex:temInciso    lex:D5187\/Artigo1\/IncisoIII .
+lex:D5187\/Artigo1\/IncisoIII    lex:temConteudo    "III - .........................................................................................." .
+lex:D5187\/Artigo1\/IncisoIII\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5187\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D5187\/Artigo1\/IncisoIII\/IncisoAlinea .
+lex:D5187\/Artigo1\/IncisoIII\/IncisoAlinea    lex:temConteudo    "j)  um representante do Instituto Ethos de Empresas e Responsabilidade Social." .
+lex:D5187\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5187    lex:temArtigo    lex:D5187\/Artigo2 .
+lex:D5187\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5187\/Artigo1    lex:remetePara    lex:D4923\/Artigo3 .
+lex:D5187\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:remetePara    lex:D4923\/Artigo3 .
+lex:D5187\/Artigo1\/IncisoIII\/IncisoAlinea    lex:remetePara    lex:D4923\/Artigo3 .

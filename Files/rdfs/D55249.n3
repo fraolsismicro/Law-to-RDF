@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D55249    lex:ehUm    lex:DocLegal .
+lex:D55249    lex:temTextoIntegral    lex:HTMLs\/D55249.htm .
+lex:D55249\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D55249    lex:temArtigo    lex:D55249\/Artigo1 .
+lex:D55249\/Artigo1    lex:temConteudo    "Art. 1º Na concessão da medalha instituída pelo Decreto nº 51.061, de 27 de julho de 1961, como prêmio aos funcionários civis que possuam cinqüenta (50) anos de serviço público sem falta grave, serão observados os seguintes critérios:" .
+lex:D55249\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D55249\/Artigo1    lex:temInciso    lex:D55249\/Artigo1\/IncisoI .
+lex:D55249\/Artigo1\/IncisoI    lex:temConteudo    "I - Na apuração do período de trabalho necessário á concessão será contado:" .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D55249\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO    lex:temConteudo    "a) o tempo de efetivo serviço público prestado à União, Estados-membros, Distrito Federal, Territórios e Municípios e respectivas entidades de administração descentralizada, em cargo, emprego ou função civil ou militar; (Redação dada pelo Decreto nº 80.437, de 1977)." .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO    lex:temIncisoAlinea    lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO\/IncisoAlineaEm .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO\/IncisoAlineaEm    lex:temConteudo    "b) em dôbro, o período relativo à licença especial não gozada, e bem assim, todo o tempo de serviço legalmente computável, por esta forma, para fins de aposentadoria." .
+lex:D55249\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D55249\/Artigo1    lex:temInciso    lex:D55249\/Artigo1\/IncisoII .
+lex:D55249\/Artigo1\/IncisoII    lex:temConteudo    "II - Falta grave, para os efeitos do mencionado Decreto, é aquela que tenha acarretado ou venha a acarretar penas de suspensão, destituição de função ou demissão, não se considerando as canceladas por determinação legal ou regulamentar." .
+lex:D55249\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D55249\/Artigo1    lex:temInciso    lex:D55249\/Artigo1\/IncisoIII .
+lex:D55249\/Artigo1\/IncisoIII    lex:temConteudo    "III - No processamento da concessão da medalha-prêmio, serão observadas as seguintes normas:" .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D55249\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO    lex:temConteudo    "a) o órgão de pessoal apurará, à vista dos elementos averbados no assentamento individual do funcionário, se ele completou 50 (cinqüenta) anos de serviço se não cometeu falta grave e se prestou serviços relevantes para a Administração. (Redação dada pelo Decreto nº 80.437, de 1977)." .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO\/IncisoAlineaExpedido    lex:ehUm    lex:IncisoAlinea .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO    lex:temIncisoAlinea    lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO\/IncisoAlineaExpedido .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO\/IncisoAlineaExpedido    lex:temConteudo    "d) expedido o decreto, será o expediente restituído diretamente ao Ministério ou repartição de origem, a fim de que o respectivo Ministro ou dirigente, em solenidade revestida de ampla divulgação, proceda à entrega ao funcionário da medalha a que fêz jus." .
+lex:D55249\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D55249    lex:temArtigo    lex:D55249\/Artigo2 .
+lex:D55249\/Artigo2    lex:temConteudo    "Art. 2º Fica revogado o parágrafo único do art. 3º do Decreto número 51.061, de 27 de julho de 1961." .
+lex:D55249\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D55249    lex:temArtigo    lex:D55249\/Artigo3 .
+lex:D55249\/Artigo3    lex:temConteudo    "Art. 3º O presente decreto entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:D55249\/Artigo1\/IncisoI\/IncisoAlineaO    lex:remetePara    lex:D80437\/Artigo2 .
+lex:D55249\/Artigo1\/IncisoIII\/IncisoAlineaO    lex:remetePara    lex:D80437\/Artigo2 .
+lex:D55249\/Artigo1\/IncisoIII\/AlineaA    lex:revogadoPor    lex:D86027\/Artigo3 .
+lex:D86027\/Artigo3    lex:revogou    lex:D55249\/Artigo1\/IncisoIII\/AlineaA .
+lex:D55249\/Artigo1\/IncisoIII\/AlineaCunhada    lex:revogadoPor    lex:D86027\/Artigo3 .
+lex:D86027\/Artigo3    lex:revogou    lex:D55249\/Artigo1\/IncisoIII\/AlineaCunhada .
+lex:D55249\/Artigo2    lex:remetePara    lex:D51061\/Artigo3 .
+lex:D55249\/Artigo2    lex:remetePara    lex:D51061\/Artigo3 .
+lex:D55249\/Texto00010    lex:remetePara    lex:Ret55249 .

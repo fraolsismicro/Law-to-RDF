@@ -1,0 +1,223 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1761    lex:ehUm    lex:DocLegal .
+lex:D1761    lex:temTextoIntegral    lex:HTMLs\/D1761.htm .
+lex:D1761\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo1 .
+lex:D1761\/Artigo1    lex:temConteudo    "Art. 1º Para os fins deste Decreto, consideram-se:" .
+lex:D1761\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoI .
+lex:D1761\/Artigo1\/IncisoI    lex:temConteudo    "I - 'Bens de Capital': máquinas, equipamentos, inclusive de testes, ferramental, moldes e modelos para moldes, instrumentos e aparelhos industriais e de controle de qualidade, novos, bem como os respectivos acessórios, sobressalentes e peças de reposição, incorporados ao ativo permanente;" .
+lex:D1761\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoII .
+lex:D1761\/Artigo1\/IncisoII    lex:temConteudo    "II - 'Insumos': matérias-primas, partes, peças, componentes, conjuntos e subconjuntos, acabados e semi-acabados, e pneumáticos;" .
+lex:D1761\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoIII .
+lex:D1761\/Artigo1\/IncisoIII    lex:temConteudo    "III - 'Veículos de Transporte': veículos de passageiros e de uso misto, jipes, caminhonetas, furgões, 'pick-ups', veículos de transporte de mercadorias de qualquer capacidade, veículos para transporte de vinte pessoas ou mais, e caminhões-tratores;" .
+lex:D1761\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoIV .
+lex:D1761\/Artigo1\/IncisoIV    lex:temConteudo    "IV - 'Beneficiários': empresas montadoras e fabricantes de:" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos    lex:temConteudo    "a) veículos de passageiros e de uso misto e jipes;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas    lex:temConteudo    "b) caminhonetas, furgões, 'pick-ups' e veículos de transporte de mercadorias de capacidade máxima de carga não superior a quatro toneladas;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos    lex:temConteudo    "c) veículos de transporte de mercadorias de capacidade de carga igual ou superior a quatro toneladas, veículos para transporte de vinte pessoas ou mais, e caminhões-tratores;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores    lex:temConteudo    "d) tratores agrícolas e colheitadeiras;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores    lex:temConteudo    "e) tratores, máquinas rodoviárias e de escavação e empilhadeiras;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias    lex:temConteudo    "f) carroçarias para veículos automotores em geral;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques    lex:temConteudo    "g) reboques e semi-reboques utilizados para o transporte de mercadorias;" .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques\/IncisoAlineaPartes    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques\/IncisoAlineaPartes .
+lex:D1761\/Artigo1\/IncisoIV\/IncisoAlineaVeiculos\/IncisoAlineaCaminhonetas\/IncisoAlineaVeiculos\/IncisoAlineaTratores\/IncisoAlineaTratores\/IncisoAlineaCarrocarias\/IncisoAlineaReboques\/IncisoAlineaPartes    lex:temConteudo    "h) partes, peças e componentes, conjuntos e subconjuntos, acabados e semi-acabados, e pneumáticos, destinados aos produtos relacionados nas alíneas anteriores;" .
+lex:D1761\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoV .
+lex:D1761\/Artigo1\/IncisoV    lex:temConteudo    "V - 'Autopeças': produtos relacionados na alínea 'h' do inciso anterior;" .
+lex:D1761\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoVI .
+lex:D1761\/Artigo1\/IncisoVI    lex:temConteudo    "VI - 'Montadoras de Veículos': empresas montadoras e fabricantes dos produtos relacionados nas alíneas 'a' a 'c' do inciso IV;" .
+lex:D1761\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoVII .
+lex:D1761\/Artigo1\/IncisoVII    lex:temConteudo    "VII - 'Exportações Indiretas': vendas a empresas comerciais exportadoras, inclusive as constituídas nos termos do Decreto-lei nº 1.248, de 29 de novembro de 1972, e as exportações realizadas por intermédio de subsidiárias integrais;" .
+lex:D1761\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoVIII .
+lex:D1761\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - 'Exportações Adicionais': observado o 'Teto', o valor correspondente a:" .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoVIII    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte    lex:temConteudo    "a) vinte por cento sobre o valor FOB da exportação dos produtos relacionados nas alíneas 'a' a 'h' do inciso IV, de fabricação própria;" .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem    lex:temConteudo    "b) cem por cento em 1996 e 1997, 95% em 1998 e setenta por cento em 1999 do valor FOB da importação de ferramentais novos, bem como seus acessórios, sobressalentes e peças de reposição, incorporados ao ativo permanente;" .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem\/IncisoAlinea140    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem\/IncisoAlinea140 .
+lex:D1761\/Artigo1\/IncisoVIII\/IncisoAlineaVinte\/IncisoAlineaCem\/IncisoAlinea140    lex:temConteudo    "c) 140% em 1996, 120% em 1997, 95% em 1998 e setenta por cento em 1999, das aquisições de 'Bens de Capital' fabricados no País;" .
+lex:D1761\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoIX .
+lex:D1761\/Artigo1\/IncisoIX    lex:temConteudo    "IX - 'Teto': limite máximo pelo qual os valores relativos às alíneas 'b' e 'c' do inciso anterior poderão, em conjunto, ser considerados 'Exportações Adicionais', correspondente a 37% das 'Exportações Líquidas', realizadas em cada ano calendário, deduzidas as 'Exportações Adicionais', podendo a diferença entre o valor correspondente ao 'Teto' e o valor das 'Exportações Adicionais' serutilizada nos anos subseqüentes, sem prejuízo do 'Teto', em cada ano calendário;" .
+lex:D1761\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoX .
+lex:D1761\/Artigo1\/IncisoX    lex:temConteudo    "X - 'Exportações Líquidas': valor FOB das exportações dos produtos relacionados nas alíneas 'a' a 'h' do inciso IV, adicionado às 'Exportações Indiretas' e às 'Exportações Adicionais', deduzidos:" .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoX    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO    lex:temConteudo    "a) o valor FOB das importações realizadas sob o regime de 'drawback';" .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO    lex:temConteudo    "b) o valor da comissão paga ou creditada a agente ou representante no exterior;" .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaAs .
+lex:D1761\/Artigo1\/IncisoX\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaAs    lex:temConteudo    "c) as exportações sem cobertura cambial;" .
+lex:D1761\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoXI .
+lex:D1761\/Artigo1\/IncisoXI    lex:temConteudo    "XI - 'Índice Médio de Nacionalização': proporção entre o valor de aquisição de 'Insumos' produzidos no País apurada em relação ao valor total de aquisição de 'Insumos', sem impostos, utilizados na produção global de cada 'Beneficiário', em cada ano calendário;" .
+lex:D1761\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoXII .
+lex:D1761\/Artigo1\/IncisoXII    lex:temConteudo    "XII - 'Newcomers':" .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoXII    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios    lex:temConteudo    "a) 'Beneficiários' que venham a se instalar no País;" .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas    lex:temConteudo    "b) linhas de produção novas e completas, adicionais às existentes, que impliquem acréscimo de capacidade instalada dos 'Beneficiários', aqui definidas como aquelas que introduzam no País modelo novo dos produtos relacionados nas alíneas 'a' a 'e' do inciso IV, ou família nova de modelos, com investimentos em conjunto completo de ferramentais novos para confecção de nova carroçaria;" .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas    lex:temIncisoAlinea    lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas\/IncisoAlineaAs .
+lex:D1761\/Artigo1\/IncisoXII\/IncisoAlineaBeneficiarios\/IncisoAlineaLinhas\/IncisoAlineaAs    lex:temConteudo    "c) as fábricas novas dos 'Beneficiários';" .
+lex:D1761\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoXIII .
+lex:D1761\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - 'Importações Diretas': compras do exterior realizadas pelas próprias 'Montadoras de Veículos';" .
+lex:D1761\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo1    lex:temInciso    lex:D1761\/Artigo1\/IncisoXIV .
+lex:D1761\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - 'Importações Indiretas': compras realizadas de acordo com instruções expedidas em ato conjunto dos Ministros de Estado da Fazenda e da Indústria, do Comércio e do Turismo, por intermédio de empresas comerciais exportadoras, inclusive as constituídas nos termos do Decreto-lei nº 1.248, de 1972." .
+lex:D1761\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo2 .
+lex:D1761\/Artigo2    lex:temConteudo    "Art. 2º A fruição do imposto de importação às alíquotas reduzidas de que trata este Decreto depende de habilitação." .
+lex:D1761\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo2    lex:temParagrafo    lex:D1761\/Artigo2\/Paragrafo1 .
+lex:D1761\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Somente poderá habilitar-se a empresa que comprovar a regularidade com o pagamento de todos os tributos e contribuições sociais federais." .
+lex:D1761\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo2    lex:temParagrafo    lex:D1761\/Artigo2\/Paragrafo2 .
+lex:D1761\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º As empresas fabricantes de 'Autopeças' poderão habilitar-se à fruição do imposto de importação às alíquotas reduzidas de que trata este Decreto desde que comprovem que mais de cinqüenta por cento do respectivo faturamento líquido anual é decorrente da venda de produtos destinados à montagem e fabricação dos produtos relacionados nas alíneas 'a' a 'h' do inciso IV do art. 1º ou ao mercado de reposição de 'Autopeças'." .
+lex:D1761\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo2    lex:temParagrafo    lex:D1761\/Artigo2\/Paragrafo3 .
+lex:D1761\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Os Ministros de Estado da Fazenda e da Indústria, do Comércio e do Turismo estabelecerão, em ato conjunto, as normas e procedimentos para a habilitação a que se refere o caput deste artigo." .
+lex:D1761\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo3 .
+lex:D1761\/Artigo3    lex:temConteudo    "Art. 3º Observado o disposto no artigo anterior, os 'Beneficiários' poderão importar, até 31 de dezembro de 1999:" .
+lex:D1761\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo3    lex:temInciso    lex:D1761\/Artigo3\/IncisoI .
+lex:D1761\/Artigo3\/IncisoI    lex:temConteudo    "I - 'Bens de Capital', com redução de noventa por cento do imposto de importação; e" .
+lex:D1761\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo3    lex:temInciso    lex:D1761\/Artigo3\/IncisoII .
+lex:D1761\/Artigo3\/IncisoII    lex:temConteudo    "II - 'Insumos', com redução do imposto de importação de:" .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85 .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85    lex:temConteudo    "a) 85% em 1996;" .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85    lex:temIncisoAlinea    lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta    lex:temConteudo    "b) setenta por cento em 1997;" .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta    lex:temIncisoAlinea    lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55 .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55    lex:temConteudo    "c) 55% em 1998;" .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55\/IncisoAlineaQuarenta    lex:ehUm    lex:IncisoAlinea .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55    lex:temIncisoAlinea    lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55\/IncisoAlineaQuarenta .
+lex:D1761\/Artigo3\/IncisoII\/IncisoAlinea85\/IncisoAlineaSetenta\/IncisoAlinea55\/IncisoAlineaQuarenta    lex:temConteudo    "d) quarenta por cento em 1999." .
+lex:D1761\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo3    lex:temParagrafo    lex:D1761\/Artigo3\/ParagrafoUnico .
+lex:D1761\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A redução prevista neste artigo não poderá resultar pagamento de imposto de importação em valor inferior ao que seria devido mediante aplicação de uma alíquota 'ad valorem' de dois por cento." .
+lex:D1761\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo4 .
+lex:D1761\/Artigo4    lex:temConteudo    "Art. 4º As 'Montadoras de Veículos' poderão realizar 'Importações Diretas' ou 'Indiretas', até 31 de dezembro de 1999, de 'Veículos de Transporte' com redução de cinqüenta por cento do imposto de importação." .
+lex:D1761\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo4    lex:temParagrafo    lex:D1761\/Artigo4\/ParagrafoUnico .
+lex:D1761\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A redução prevista neste artigo não poderá resultar pagamento de imposto de importação em valor inferior ao que seria devido mediante aplicação da alíquota correspondente constante da Tarifa Externa Comum." .
+lex:D1761\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo5 .
+lex:D1761\/Artigo5    lex:temConteudo    "Art. 5º A proporção entre as aquisições de 'Bens de Capital' produzidos no País e as importações de 'Bens de Capital' com redução do imposto de importação deverá ser, no mínimo, por ano calendário, de um por um até 31 de dezembro de 1997, e de um e meio por um a partir de 1º de janeiro de 1998." .
+lex:D1761\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo5    lex:temParagrafo    lex:D1761\/Artigo5\/ParagrafoUnico .
+lex:D1761\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A proporção a que se refere o 'caput' deste artigo poderá ser alterada por acordo entre as entidades de classe representativas da indústria brasileira de bens de capital e a empresa interessada, homologado pelo Ministério da Indústria, do Comércio e do Turismo." .
+lex:D1761\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo6 .
+lex:D1761\/Artigo6    lex:temConteudo    "Art. 6º A proporção entre as aquisições de matérias-primas produzidas no País e as importações de matérias-primas com redução do imposto de importação deverá ser, no mínimo, por ano calendário, de um por um." .
+lex:D1761\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo7 .
+lex:D1761\/Artigo7    lex:temConteudo    "Art. 7º O valor total FOB das importações de matérias-primas e dos produtos relacionados nas alíneas 'a' a 'h' do inciso IV do art. 1º, procedentes e originários de países membros do MERCOSUL, adicionado às importações de 'Insumos' e 'Veículos de Transporte' com redução do imposto de importação, não poderá exceder, por ano calendário, ao das 'Exportações Líquidas'." .
+lex:D1761\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo7    lex:temParagrafo    lex:D1761\/Artigo7\/ParagrafoUnico .
+lex:D1761\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Será admitida, até 31 de dezembro de 1998, variação de até dez por cento, para mais ou para menos, na proporção a que se refere o caput deste artigo, para utilização ou compensação no ano calendário imediatamente seguinte." .
+lex:D1761\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo8 .
+lex:D1761\/Artigo8    lex:temConteudo    "Art. 8º O valor total FOB das importações de 'Autopeças' com redução do imposto de importação não poderá exceder, por ano calendário, a dois terços do das 'Exportações Líquidas'." .
+lex:D1761\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo9 .
+lex:D1761\/Artigo9    lex:temConteudo    "Art. 9º No caso de 'Newcomers', as proporções a que se referem os arts. 5º a 8º serão calculadas tomando-se por base um período de três anos, considerando-se como primeiro ano o prazo entre a data do primeiro desembaraço aduaneiro das importações com redução do imposto de importação de 'Insumos' ou de 'Veículos de Transporte' e 31 de dezembro do ano subseqüente, findo o qual se utilizará o critério do ano calendário." .
+lex:D1761\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo10 .
+lex:D1761\/Artigo10    lex:temConteudo    "Art. 10. O 'Índice Médio de Nacionalização' deverá ser, no mínimo, de sessenta por cento, em cada ano calendário." .
+lex:D1761\/Artigo10\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo10    lex:temParagrafo    lex:D1761\/Artigo10\/Paragrafo1 .
+lex:D1761\/Artigo10\/Paragrafo1    lex:temConteudo    "§ 1º Os 'Insumos' procedentes e originários dos países membros do MERCOSUL, cujos valores sejam compensados com exportações, serão considerados produzidos no País para efeito de apuração do 'Índice Médio de Nacionalização'." .
+lex:D1761\/Artigo10\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1761\/Artigo10    lex:temParagrafo    lex:D1761\/Artigo10\/Paragrafo2 .
+lex:D1761\/Artigo10\/Paragrafo2    lex:temConteudo    "§ 2º O disposto no 'caput' deste artigo somente será exigido para as 'Newcomers'a partir do terceiro ano, a contar da data de início de produção dos produtos relacionados nas alíneas 'a' a 'h' do inciso IV do art.1º." .
+lex:D1761\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo11 .
+lex:D1761\/Artigo11    lex:temConteudo    "Art. 11. As empresas fabricantes de 'Autopeças', que as exportarem para empresas controladoras ou coligadas de empresas montadoras ou fabricantes dos produtos relacionados nas alíneas 'a' a 'g' do inciso IV do art. 1º, instaladas no País, poderão transferir para estas o valor das 'Exportações Líquidas' relativo àqueles produtos, desde que a exportação tenha sido intermediada pela montadora ou fabricante nacional." .
+lex:D1761\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo12 .
+lex:D1761\/Artigo12    lex:temConteudo    "Art. 12. Em caso de concentração de importações que prejudique a produção nacional ou na sua iminência, o Ministério da Indústria, do Comércio e do Turismo poderá estabelecer limites adicionais à importação de 'Bens de Capital' e de 'Insumos' com redução do imposto de importação." .
+lex:D1761\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoI .
+lex:D1761\/Artigo12\/IncisoI    lex:temConteudo    "I - setenta por cento sobre o valor FOB das importações de 'Bens de Capital' com redução do imposto de importação, em caso da não observância das proporções estabelecidas no art. 5º;" .
+lex:D1761\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoII .
+lex:D1761\/Artigo12\/IncisoII    lex:temConteudo    "II - setenta por cento sobre o valor FOB das importações de 'Bens de Capital' com redução do imposto de importação quando não atendidos os limites adicionais estabelecidos de acordo com o art. 12;" .
+lex:D1761\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoIII .
+lex:D1761\/Artigo12\/IncisoIII    lex:temConteudo    "III - sessenta por cento sobre o valor FOB das importações de matérias-primas com redução do imposto de importação quando não observada a proporção fixada no art. 6º;" .
+lex:D1761\/Artigo12\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoIV .
+lex:D1761\/Artigo12\/IncisoIV    lex:temConteudo    "IV - sessenta por cento sobre o valor FOB das importações de matérias-primas com redução do imposto de importação que não atender aos limites adicionais estabelecidos de acordo com o art. 12;" .
+lex:D1761\/Artigo12\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoV .
+lex:D1761\/Artigo12\/IncisoV    lex:temConteudo    "V - setenta por cento sobre o valor FOB das importações de 'Insumos' com redução do imposto de importação, em caso da não observância do 'Índice Médio de Nacionalização';" .
+lex:D1761\/Artigo12\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoVI .
+lex:D1761\/Artigo12\/IncisoVI    lex:temConteudo    "VI - 120% sobre o valor FOB das importações de 'Insumos' e de 'Veículos de Transporte' com redução do imposto de importação quando não atendida a proporção estabelecida no art. 7º;" .
+lex:D1761\/Artigo12\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo12    lex:temInciso    lex:D1761\/Artigo12\/IncisoVII .
+lex:D1761\/Artigo12\/IncisoVII    lex:temConteudo    "VII - setenta por cento sobre o valor FOB das importações de 'Autopeças' com redução do imposto de importação que não atender à proporção estabelecida no art. 8º." .
+lex:D1761\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo14 .
+lex:D1761\/Artigo14    lex:temConteudo    "Art. 14. As importações e aquisições de que trata este Decreto serão consideradas realizadas, conforme o caso, por ocasião:" .
+lex:D1761\/Artigo14\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo14    lex:temInciso    lex:D1761\/Artigo14\/IncisoI .
+lex:D1761\/Artigo14\/IncisoI    lex:temConteudo    "I - do desembaraço aduaneiro; ou" .
+lex:D1761\/Artigo14\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1761\/Artigo14    lex:temInciso    lex:D1761\/Artigo14\/IncisoII .
+lex:D1761\/Artigo14\/IncisoII    lex:temConteudo    "II - da incorporação ao ativo imobilizado dos 'Beneficiários'." .
+lex:D1761\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo15 .
+lex:D1761\/Artigo15    lex:temConteudo    "Art. 15. Para os fins do disposto neste Decreto serão considerados os valores em dólares dos Estados Unidos da América, adotando-se para conversão a taxa cambial média de compra do segmento de taxas livres, divulgada pelo Banco Central do Brasil, à data do faturamento." .
+lex:D1761\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo16 .
+lex:D1761\/Artigo16    lex:temConteudo    "Art. 16. Permanecem em vigor as regras de origem estabelecidas pelo Decreto nº 1.568, de 21 de julho de 1995,e demais legislações aplicáveis." .
+lex:D1761\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D1761    lex:temArtigo    lex:D1761\/Artigo17 .
+lex:D1761\/Artigo17    lex:temConteudo    "Art. 17. Este Decreto entra em vigor na data de sua publicação." .

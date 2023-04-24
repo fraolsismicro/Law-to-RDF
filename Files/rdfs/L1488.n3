@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1488    lex:ehUm    lex:DocLegal .
+lex:L1488    lex:temTextoIntegral    lex:HTMLs\/L1488.htm .
+lex:L1488\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1488    lex:temArtigo    lex:L1488\/Artigo1 .
+lex:L1488\/Artigo1    lex:temConteudo    "Art. 1º Será investido no pôsto de Marechal, desde a vigência desta Lei, o Marechal João Batista Mascarenhas de Morais que, em conseqüência, reverterá ao serviço ativo do Exército e nele permanecerá enquanto viver." .
+lex:L1488\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1488    lex:temArtigo    lex:L1488\/Artigo2 .
+lex:L1488\/Artigo2    lex:temConteudo    "Art. 2º O titular do pôsto de Marechal, imediatamente abaixo do Ministro da Guerra, na precedência hierárquica, poderá exercer os seguintes cargos:" .
+lex:L1488\/Artigo2\/AlineaChefe    lex:ehUm    lex:Alinea .
+lex:L1488\/Artigo2    lex:temAlinea    lex:L1488\/Artigo2\/AlineaChefe .
+lex:L1488\/Artigo2\/AlineaChefe    lex:temConteudo    "a) Chefe do Estado Maior Geral das Fôrças Armadas;" .
+lex:L1488\/Artigo2\/AlineaChefe    lex:ehUm    lex:Alinea .
+lex:L1488\/Artigo2    lex:temAlinea    lex:L1488\/Artigo2\/AlineaChefe .
+lex:L1488\/Artigo2\/AlineaChefe    lex:temConteudo    "b) Chefe do Estado Maior do Exército." .
+lex:L1488\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1488    lex:temArtigo    lex:L1488\/Artigo3 .
+lex:L1488\/Artigo3    lex:temConteudo    "Art. 3º Os vencimentos de Marechal serão iguais aos de Ministro do Supremo Tribunal Federal. (Vide Lei nº 4.450, de 1964)" .
+lex:L1488\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1488    lex:temArtigo    lex:L1488\/Artigo4 .
+lex:L1488\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:L1488\/Artigo3    lex:remetePara    lex:L4450 .

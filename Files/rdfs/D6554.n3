@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6554    lex:ehUm    lex:DocLegal .
+lex:D6554    lex:temTextoIntegral    lex:HTMLs\/D6554.htm .
+lex:D6554\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo1 .
+lex:D6554\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituída a Medalha do Mérito Previdenciário Eloy Chaves, destinada a agraciar pessoas físicas ou jurídicas, nacionais ou estrangeiras, merecedoras do reconhecimento público por terem prestado contribuições relevantes à consolidação dos regimes de previdência social no Brasil." .
+lex:D6554\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo2 .
+lex:D6554\/Artigo2    lex:temConteudo    "Art. 2o  A outorga da Medalha dar-se-á por decreto do Presidente da República, mediante proposta do Ministro de Estado da Previdência Social, ouvida a Comissão de que trata o art. 3o." .
+lex:D6554\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6554\/Artigo2    lex:temParagrafo    lex:D6554\/Artigo2\/Paragrafo1 .
+lex:D6554\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  A entrega da Medalha será realizada, preferencialmente, no dia 24 de janeiro de cada ano, data em que se comemora o aniversário da Previdência Social no Brasil." .
+lex:D6554\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6554\/Artigo2    lex:temParagrafo    lex:D6554\/Artigo2\/Paragrafo2 .
+lex:D6554\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  A Medalha será acompanhada do respectivo diploma assinado pelo Ministro de Estado da Previdência Social, conforme modelo e características a serem definidas pela Comissão de que trata o art. 3o." .
+lex:D6554\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo3 .
+lex:D6554\/Artigo3    lex:temConteudo    "Art. 3o  A apreciação do mérito dos indicados para recebimento da Medalha será feita por Comissão presidida pelo Ministro de Estado da Previdência Social e integrada pelas seguintes autoridades:" .
+lex:D6554\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6554\/Artigo3    lex:temInciso    lex:D6554\/Artigo3\/IncisoI .
+lex:D6554\/Artigo3\/IncisoI    lex:temConteudo    "I - do Ministério da Previdência Social:" .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo    lex:ehUm    lex:IncisoAlinea .
+lex:D6554\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo    lex:temConteudo    "a) Secretário-Executivo;" .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo    lex:temIncisoAlinea    lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario    lex:temConteudo    "b) Secretário de Políticas de Previdência Social;" .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario    lex:temIncisoAlinea    lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:temConteudo    "c) Secretário de Previdência Complementar; e" .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaConsultor    lex:ehUm    lex:IncisoAlinea .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:temIncisoAlinea    lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaConsultor .
+lex:D6554\/Artigo3\/IncisoI\/IncisoAlineaSecretario-Executivo\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaConsultor    lex:temConteudo    "d) Consultor Jurídico;" .
+lex:D6554\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6554\/Artigo3    lex:temInciso    lex:D6554\/Artigo3\/IncisoII .
+lex:D6554\/Artigo3\/IncisoII    lex:temConteudo    "II - Presidente do Instituto Nacional do Seguro Social - INSS; e" .
+lex:D6554\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6554\/Artigo3    lex:temInciso    lex:D6554\/Artigo3\/IncisoIII .
+lex:D6554\/Artigo3\/IncisoIII    lex:temConteudo    "III - Presidente da Empresa de Tecnologia e Informações da Previdência Social - DATAPREV." .
+lex:D6554\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6554\/Artigo3    lex:temParagrafo    lex:D6554\/Artigo3\/Paragrafo1 .
+lex:D6554\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Os membros da Comissão não perceberão qualquer remuneração e os seus serviços serão considerados relevantes." .
+lex:D6554\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6554\/Artigo3    lex:temParagrafo    lex:D6554\/Artigo3\/Paragrafo2 .
+lex:D6554\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Caberá ao Ministro de Estado da Previdência Social baixar os atos necessários ao funcionamento da Comissão." .
+lex:D6554\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo4 .
+lex:D6554\/Artigo4    lex:temConteudo    "Art. 4o  Em caso de distinção post mortem, a Medalha será entregue ao cônjuge, companheiro, ascendente ou descendente direto, ou pessoa designada pela família do agraciado." .
+lex:D6554\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo5 .
+lex:D6554\/Artigo5    lex:temConteudo    "Art. 5o  As despesas decorrentes da execução deste Decreto correrão por conta de dotação orçamentária própria do Ministério da Previdência Social." .
+lex:D6554\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6554    lex:temArtigo    lex:D6554\/Artigo6 .
+lex:D6554\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .

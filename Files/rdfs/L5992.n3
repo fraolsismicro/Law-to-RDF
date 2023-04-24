@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5992    lex:ehUm    lex:DocLegal .
+lex:L5992    lex:temTextoIntegral    lex:HTMLs\/L5992.htm .
+lex:L5992\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo1 .
+lex:L5992\/Artigo1    lex:temConteudo    "Art. 1º Aos níveis de classificação dos cargos integrantes do Grupo-Serviços de Transporte Oficial e Portaria, a que se refere a Lei nº 5.920, de 19 de setembro de 1973, correspondem os seguintes vencimentos:" .
+lex:L5992\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo2 .
+lex:L5992\/Artigo2    lex:temConteudo    "Art. 2º As gratificações pelo exercício em regime de serviço extraordinário vinculado ao tempo integral e dedicação exclusiva e as diárias de que trata a Lei nº 4.019, de 20 de dezembro de 1961, e respectivas absorções, ficarão absorvidas, em cada caso, pelos vencimentos fixados no artigo anterior." .
+lex:L5992\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5992\/Artigo2    lex:temParagrafo    lex:L5992\/Artigo2\/ParagrafoUnico .
+lex:L5992\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A partir da vigência dos decretos de transposição ou transformação de cargos para as Categorias Funcionais do Grupo-Serviços de Transporte Oficial e Portaria, cessará, para os respectivos ocupantes, o pagamento das vantagens especificadas neste artigo, bem como de todas as outras que, a qualquer título, venham sendo por eles percebidas, abrangendo, inclusive, abonos e complementos salariais, ressalvados apenas o salário-família e as gratificações adicional por tempo de serviço e de representação de Gabinete." .
+lex:L5992\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo3 .
+lex:L5992\/Artigo3    lex:temConteudo    "Art. 3º Ressalvado o disposto no parágrafo único no artigo 3º, da Lei nº 5.920, de 19 de dezembro de 1973, é vedada a utilização a qualquer título e sob qualquer forma de colaboradores eventuais retribuídos mediante recibo para a execução de atividades compreendidas no Grupo-Serviços de Transporte Oficial e Portaria." .
+lex:L5992\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo4 .
+lex:L5992\/Artigo4    lex:temConteudo    "Art. 4º Os vencimentos fixados no artigo 1º desta Lei vigorarão a partir da data dos decretos de inclusão de cargos no novo sistema a que se refere o parágrafo único do artigo segundo." .
+lex:L5992\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo5 .
+lex:L5992\/Artigo5    lex:temConteudo    "Art. 5º Observado o disposto no artigo 8º, item III e artigo 12 da Lei nº 5.920 de 19 de setembro de 1973, as despesas decorrentes da aplicação desta Lei serão atendidas pelos recursos próprios do Distrito Federal, bem como por outros recursos a esse fim destinados, na forma da legislação pertinente." .
+lex:L5992\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5992    lex:temArtigo    lex:L5992\/Artigo6 .
+lex:L5992\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:L5992\/Artigo1    lex:remetePara    lex:L5920 .
+lex:L5992\/Artigo2    lex:remetePara    lex:L4019 .
+lex:L5992\/Artigo3    lex:remetePara    lex:L5920\/Artigo3 .
+lex:L5992\/Artigo5    lex:remetePara    lex:L5920\/Artigo8 .
+lex:L5992\/Artigo5    lex:remetePara    lex:L5920\/Artigo12 .

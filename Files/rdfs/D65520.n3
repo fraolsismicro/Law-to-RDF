@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D65520    lex:ehUm    lex:DocLegal .
+lex:D65520    lex:temTextoIntegral    lex:HTMLs\/D65520.htm .
+lex:D65520\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D65520    lex:temArtigo    lex:D65520\/Artigo1 .
+lex:D65520\/Artigo1    lex:temConteudo    "Art. 1º Fica concedida, nos têrmos do art. 106, do Regulamento dos Serviços de Radiodifusão, à Rádio Cultura de Ribeirão Preto S.A., permissionária dos serviços de radiodifusão sonora, em onda média, freqüência de 1.000 khz e sistema irradiante direcional, na cidade de Ribeirão Preto Estado de São Paulo, autorização para aumentar a potência de seus transmissores de 250 watts para 1kw." .
+lex:D65520\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D65520\/Artigo1    lex:temParagrafo    lex:D65520\/Artigo1\/ParagrafoUnico .
+lex:D65520\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O contato decorrente desta concessão obedecerá as cláusulas que com êste baixam, rubricadas pelo Secretário-Geral do Ministério das Comunicações e deverá ser assinado dentro de 60 (sessenta) dias, a contar da data da publicação dêste Decreto, no Diário Oficial da União, sob pena de se tornar nulo, de pleno direito, o presente ato." .
+lex:D65520\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D65520    lex:temArtigo    lex:D65520\/Artigo2 .
+lex:D65520\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .

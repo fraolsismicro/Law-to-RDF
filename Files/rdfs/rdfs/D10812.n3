@@ -1,0 +1,64 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10812    lex:ehUm    lex:DocLegal .
+lex:D10812    lex:temTextoIntegral    lex:HTMLs\/D10812.htm .
+lex:D10812\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10812    lex:temArtigo    lex:D10812\/Artigo1A .
+lex:D10812\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 10.177, de 16 de dezembro de 2019, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10812\/Artigo1A\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D10812\/Artigo1A    lex:temAlinea    lex:D10812\/Artigo1A\/AlineaDo .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temConteudo    "d) do MinistÃ©rio do Trabalho e PrevidÃªncia:" .
+lex:D10812\/Artigo1A\/AlineaDo\/Item    lex:ehUm    lex:Item .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temItem    lex:D10812\/Artigo1A\/AlineaDo\/Item .
+lex:D10812\/Artigo1A\/AlineaDo\/Item    lex:temConteudo    "...................................................................................................................." .
+lex:D10812\/Artigo1A\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D10812\/Artigo1A    lex:temAlinea    lex:D10812\/Artigo1A\/AlineaUm .
+lex:D10812\/Artigo1A\/AlineaUm    lex:temConteudo    "j) um do MinistÃ©rio das ComunicaÃ§Ãµes;" .
+lex:D10812\/Artigo1A\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D10812\/Artigo1A    lex:temAlinea    lex:D10812\/Artigo1A\/AlineaUm .
+lex:D10812\/Artigo1A\/AlineaUm    lex:temConteudo    "k) um do MinistÃ©rio da CiÃªncia, Tecnologia e InovaÃ§Ãµes;" .
+lex:D10812\/Artigo1A\/AlineaDois    lex:ehUm    lex:Alinea .
+lex:D10812\/Artigo1A    lex:temAlinea    lex:D10812\/Artigo1A\/AlineaDois .
+lex:D10812\/Artigo1A\/AlineaDois    lex:temConteudo    "l) dois do MinistÃ©rio do Turismo, dentre os quais um da Secretaria Especial de Cultura do MinistÃ©rio do Turismo; e" .
+lex:D10812\/Artigo1A\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D10812\/Artigo1A    lex:temAlinea    lex:D10812\/Artigo1A\/AlineaDo .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temConteudo    "m) do MinistÃ©rio da Mulher, da FamÃ­lia e dos Direitos Humanos:" .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:ehUm    lex:Item .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temItem    lex:D10812\/Artigo1A\/AlineaDo\/ItemUm .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:temConteudo    "1. um da Secretaria Nacional dos Direitos da Pessoa com DeficiÃªncia;" .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:ehUm    lex:Item .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temItem    lex:D10812\/Artigo1A\/AlineaDo\/ItemUm .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:temConteudo    "2. um da Secretaria Nacional de PolÃ­ticas para as Mulheres; e" .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:ehUm    lex:Item .
+lex:D10812\/Artigo1A\/AlineaDo    lex:temItem    lex:D10812\/Artigo1A\/AlineaDo\/ItemUm .
+lex:D10812\/Artigo1A\/AlineaDo\/ItemUm    lex:temConteudo    "3. um da Secretaria Nacional de ProteÃ§Ã£o Global; e" .
+lex:D10812\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10812    lex:temArtigo    lex:D10812\/Artigo2A .
+lex:D10812\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os seguintes dispositivos do inciso I do caput do art. 3Âº do Decreto nÂº 10.177, de 2019:" .
+lex:D10812\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10812    lex:temArtigo    lex:D10812\/Artigo3A .
+lex:D10812\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10812\/Artigo1A    lex:remetePara    lex:D10177 .
+lex:D10812\/Texto00001    lex:remetePara    lex:D10177\/Artigo30 .
+lex:D10812\/Artigo1A\/AlineaDo    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaUm    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaUm    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaDois    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaDois    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaDo    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo4Â§2 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo3 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo70 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo9Â§2 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo9Â§2 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:L13146 .
+lex:D10812\/Artigo1A\/AlineaDo\/Texto00010    lex:remetePara    lex:D10177\/Artigo10 .
+lex:D10812\/Artigo2A    lex:remetePara    lex:D10177 .
+lex:D10812\/Texto00011    lex:remetePara    lex:D10177\/Artigo3il1 .
+lex:D10812\/Texto00011    lex:remetePara    lex:D10177\/Artigo3 .

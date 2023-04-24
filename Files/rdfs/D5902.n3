@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5902    lex:ehUm    lex:DocLegal .
+lex:D5902    lex:temTextoIntegral    lex:HTMLs\/D5902.htm .
+lex:D5902\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo1 .
+lex:D5902\/Artigo1    lex:temConteudo    "Art. 1o  O Qüinquagésimo Oitavo Protocolo Adicional ao Acordo de Complementação Econômica no 18, entre os Governos da República Federativa do Brasil, da República Argentina, da República do Paraguai e da República Oriental do Uruguai, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como se nele se contém." .
+lex:D5902\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo2 .
+lex:D5902\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5902\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo1 .
+lex:D5902\/Artigo1    lex:temConteudo    "Art. 1   O preenchimento do Certificado de Origem MERCOSUL nas operações que envolvem um terceiro operador, nos termos do Artigo 10 da Decisão CMC Nº 1/04 deverá realizar-se da seguinte forma:" .
+lex:D5902\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo2 .
+lex:D5902\/Artigo2    lex:temConteudo    "Art. 2   O campo 7 (Fatura Comercial) do Certificado de Origem MERCOSUL, nas operações relativas ao Artigo precedente, poderá ser completado em uma das seguintes formas:" .
+lex:D5902\/Artigo2\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:D5902\/Artigo2    lex:temAlinea    lex:D5902\/Artigo2\/AlineaCom .
+lex:D5902\/Artigo2\/AlineaCom    lex:temConteudo    "a) com o número e a data da fatura comercial emitida pelo exportador do país de origem da mercadoria (primeira fatura)." .
+lex:D5902\/Artigo2\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:D5902\/Artigo2    lex:temAlinea    lex:D5902\/Artigo2\/AlineaCom .
+lex:D5902\/Artigo2\/AlineaCom    lex:temConteudo    "b) com o número e a data da fatura comercial emitida pelo terceiro operador ao importador do país de destino final da mercadoria (última fatura)" .
+lex:D5902\/Artig    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artig .
+lex:D5902\/Artig    lex:temConteudo    "Art.  3   O campo 14 (Observações) do Certificado de Origem MERCOSUL poderá ser utilizado para incluir qualquer informação complementar sobre os demais campos do Certificado, sem prejuízo dos casos expressamente estabelecidos no Regime de Origem MERCOSUL." .
+lex:D5902\/Artig    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artig .
+lex:D5902\/Artig    lex:temConteudo    "Art.  4   Para cada Certificado de Origem poderá corresponder mais de uma fatura comercial, e uma mesma fatura comercial poderia corresponder-se com mais de um Certificado de Origem." .
+lex:D5902\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo5 .
+lex:D5902\/Artigo5    lex:temConteudo    "Art. 5   As assinaturas exigidas nos campos 15 (Declaração do Produtor Final ou Exportador) e 16 (Certificação da Entidade Habilitada) do Certificado de Origem deverão ser autógrafas." .
+lex:D5902\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo6 .
+lex:D5902\/Artigo6    lex:temConteudo    "Art. 6   Os Estados Partes deverão instruir a suas respectivas Representações junto à Associação Latino-Americana de Integração (ALADI) para a protocolização da presente Diretriz no âmbito do Acordo de Complementação Econômica Nº 18, nos termos estabelecidos na Resolução GMC Nº 43/03." .
+lex:D5902\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D5902    lex:temArtigo    lex:D5902\/Artigo7 .
+lex:D5902\/Artigo7    lex:temConteudo    "Art. 7   Os Estados Partes deverão incorporar a presente Diretriz a seus ordenamentos jurídicos nacionais antes de 01/XI/05." .
+lex:D5902\/Texto    lex:remetePara    lex:D0550 .

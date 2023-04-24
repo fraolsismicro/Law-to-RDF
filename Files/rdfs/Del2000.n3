@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2000    lex:ehUm    lex:DocLegal .
+lex:Del2000    lex:temTextoIntegral    lex:HTMLs\/Del2000.htm .
+lex:Del2000\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2000    lex:temArtigo    lex:Del2000\/Artigo1 .
+lex:Del2000\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores dos vencimentos, gratificações e proventos do pessoal ativo e inativo do Quadro Permanente da Secretaria do Supremo Tribunal Federal, decorrentes da aplicação do Decreto-lei nº 1.906, de 23 de dezembro de 1981, serão reajustados em:" .
+lex:Del2000\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2000\/Artigo1    lex:temInciso    lex:Del2000\/Artigo1\/IncisoI .
+lex:Del2000\/Artigo1\/IncisoI    lex:temConteudo    "I - 40% (quarenta por cento), a partir de 1º de janeiro de 1983; e" .
+lex:Del2000\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2000\/Artigo1    lex:temInciso    lex:Del2000\/Artigo1\/IncisoII .
+lex:Del2000\/Artigo1\/IncisoII    lex:temConteudo    "II - 30% (trinta por cento), a partir de 1º de junho de 1983." .
+lex:Del2000\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2000\/Artigo1    lex:temParagrafo    lex:Del2000\/Artigo1\/ParagrafoUnico .
+lex:Del2000\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O percentual fixado no item II incidirá sobre os valores resultantes do reajuste de que trata o item I." .
+lex:Del2000\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2000    lex:temArtigo    lex:Del2000\/Artigo2 .
+lex:Del2000\/Artigo2    lex:temConteudo    "Art. 2º O salário-família dos servidores ativos e inativos do Supremo Tribunal Federal passa a ser pago na importância de Cr$1.200,00 (um mil e duzentos cruzeiros), por dependente." .
+lex:Del2000\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2000    lex:temArtigo    lex:Del2000\/Artigo3 .
+lex:Del2000\/Artigo3    lex:temConteudo    "Art. 3º Nos resultados dos cálculos decorrentes da aplicação deste Decreto-lei serão desprezadas as frações de cruzeiro." .
+lex:Del2000\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2000    lex:temArtigo    lex:Del2000\/Artigo4 .
+lex:Del2000\/Artigo4    lex:temConteudo    "Art. 4º A despesa decorrente da aplicação deste Decreto-lei será atendida à conta das dotações constantes do Orçamento da União, para 1983." .
+lex:Del2000\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2000    lex:temArtigo    lex:Del2000\/Artigo5 .
+lex:Del2000\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entrará em vigor em 1º de janeiro de 1983, revogadas as disposições em contrário." .
+lex:Del2000\/Texto    lex:remetePara    lex:Del2082 .
+lex:Del2000\/Artigo1    lex:remetePara    lex:Del1906 .

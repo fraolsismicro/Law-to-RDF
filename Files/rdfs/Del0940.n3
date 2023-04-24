@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0940    lex:ehUm    lex:DocLegal .
+lex:Del0940    lex:temTextoIntegral    lex:HTMLs\/Del0940.htm .
+lex:Del0940\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0940    lex:temArtigo    lex:Del0940\/Artigo1 .
+lex:Del0940\/Artigo1    lex:temConteudo    "Art. 1º o disposto na Lei nº 4.656, de 2 de junho de 1965, fica estendido aos beneficiários dos servidores civis da Administração Pública Federal, direta e indireta, demitidos em decorrência dos Atos Institucionais nº 2, de 27 de outubro de 1965, e nº 5, de 13 de dezembro de 1968, que gozavam de estabilidade à data dos mesmo atos." .
+lex:Del0940\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0940    lex:temArtigo    lex:Del0940\/Artigo2 .
+lex:Del0940\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0940\/Artigo1    lex:remetePara    lex:L4656 .
+lex:Del0940\/Artigo1    lex:remetePara    lex:ait-02-65 .
+lex:Del0940\/Artigo1    lex:remetePara    lex:ait-05-68 .

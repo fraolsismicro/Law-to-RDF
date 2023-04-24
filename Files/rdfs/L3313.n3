@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3313    lex:ehUm    lex:DocLegal .
+lex:L3313    lex:temTextoIntegral    lex:HTMLs\/L3313.htm .
+lex:L3313\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3313    lex:temArtigo    lex:L3313\/Artigo1 .
+lex:L3313\/Artigo1    lex:temConteudo    "Art. 1º Os servidores do Departamento Federal de Segurança Pública, que exerçam (VETADO) atividade estritamente policial, terão direito a:" .
+lex:L3313\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L3313\/Artigo1    lex:temInciso    lex:L3313\/Artigo1\/IncisoI .
+lex:L3313\/Artigo1\/IncisoI    lex:temConteudo    "I - prisão especial no quartel da corporação ou repartição em que servirem;" .
+lex:L3313\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L3313\/Artigo1    lex:temInciso    lex:L3313\/Artigo1\/IncisoII .
+lex:L3313\/Artigo1\/IncisoII    lex:temConteudo    "II - aposentaria com vencimentos integrais, ao completarem 25 (vinte e cinco) anos de serviço (artigo 191, § 4º, da Constituição Federal)." .
+lex:L3313\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3313\/Artigo1    lex:temParagrafo    lex:L3313\/Artigo1\/Paragrafo1 .
+lex:L3313\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Em caso de prisão, os servidores, de que trata esta lei, ficarão à disposição do juízo criminal sob a responsabilidade da autoridade designada pelo Chefe de Polícia para custodiá-los." .
+lex:L3313\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3313\/Artigo1    lex:temParagrafo    lex:L3313\/Artigo1\/Paragrafo2 .
+lex:L3313\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Para os efeitos da aposentadoria dos servidores, a que se refere esta lei será computado apenas o tempo de serviço em função estritamente policial (VETADO)." .
+lex:L3313\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3313    lex:temArtigo    lex:L3313\/Artigo2 .
+lex:L3313\/Artigo2    lex:temConteudo    "Art. 2º Vetado." .
+lex:L3313\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3313    lex:temArtigo    lex:L3313\/Artigo3 .
+lex:L3313\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3313\/Artigo1\/IncisoII    lex:remetePara    lex:Constituicao46\/Artigo191\/Paragrafo4 .

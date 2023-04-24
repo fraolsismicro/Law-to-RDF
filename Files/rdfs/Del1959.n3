@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1959    lex:ehUm    lex:DocLegal .
+lex:Del1959    lex:temTextoIntegral    lex:HTMLs\/Del1959.htm .
+lex:Del1959\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1959    lex:temArtigo    lex:Del1959\/Artigo1 .
+lex:Del1959\/Artigo1    lex:temConteudo    "Art 1º - O inciso XIV do artigo 4º da Lei nº 4.595, de 31 de dezembro de 1964, alterado pelos Decretos-leis nºs 108, de 17 de janeiro de 1967, 1.085, de 18 de fevereiro de 1970, e 1.580, de 17 de outubro de 1977, passa a vigorar com a seguinte redação:" .
+lex:Del1959\/Artigo1\/AlineaAdotar    lex:ehUm    lex:Alinea .
+lex:Del1959\/Artigo1    lex:temAlinea    lex:Del1959\/Artigo1\/AlineaAdotar .
+lex:Del1959\/Artigo1\/AlineaAdotar    lex:temConteudo    "a) adotar percentagens diferentes em função:" .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas    lex:ehUm    lex:Item .
+lex:Del1959\/Artigo1\/AlineaAdotar    lex:temItem    lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas    lex:temConteudo    "- das regiões econômicas;" .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas    lex:ehUm    lex:Item .
+lex:Del1959\/Artigo1\/AlineaAdotar    lex:temItem    lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDas    lex:temConteudo    "- das prioridades que atribuir às aplicações;" .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDa    lex:ehUm    lex:Item .
+lex:Del1959\/Artigo1\/AlineaAdotar    lex:temItem    lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDa .
+lex:Del1959\/Artigo1\/AlineaAdotar\/ItemDa    lex:temConteudo    "- da natureza das instituições financeiras;" .
+lex:Del1959\/Artigo1\/AlineaDeterminar    lex:ehUm    lex:Alinea .
+lex:Del1959\/Artigo1    lex:temAlinea    lex:Del1959\/Artigo1\/AlineaDeterminar .
+lex:Del1959\/Artigo1\/AlineaDeterminar    lex:temConteudo    "b) determinar percentuais que não serão recolhidos, desde que tenham sido reaplícados em financiamentos à agricultura, sob juros favorecidos e outras condições fixadas pelo Conselho Monetário Nacional.'" .
+lex:Del1959\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1959    lex:temArtigo    lex:Del1959\/Artigo2 .
+lex:Del1959\/Artigo2    lex:temConteudo    "Art 2º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1959\/Texto00001    lex:remetePara    lex:L4595\/Artigo4 .

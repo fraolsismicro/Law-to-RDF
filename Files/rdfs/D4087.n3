@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4087    lex:ehUm    lex:DocLegal .
+lex:D4087    lex:temTextoIntegral    lex:HTMLs\/D4087.htm .
+lex:D4087\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4087    lex:temArtigo    lex:D4087\/Artigo1 .
+lex:D4087\/Artigo1    lex:temConteudo    "Art. 1o  Os preços mínimos básicos para produtos regionais e sementes da safra 2001/2002 são os relacionados no Anexo a este Decreto, com seus respectivos valores, especificações e vigência." .
+lex:D4087\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4087    lex:temArtigo    lex:D4087\/Artigo2 .
+lex:D4087\/Artigo2    lex:temConteudo    "Art. 2o  Os preços mínimos serão assegurados aos produtores e às cooperativas de produtores, livres dos custos referentes à incidência do Imposto sobre Circulação de Mercadorias e Serviços - ICMS e da contribuição ao Instituto Nacional do Seguro Social - INSS, cujo recolhimento será efetuado pela Companhia Nacional de Abastecimento - CONAB à conta da Política de Garantia de Preços Mínimos - PGPM, observadas as normas operacionais divulgadas pela CONAB." .
+lex:D4087\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4087\/Artigo2    lex:temParagrafo    lex:D4087\/Artigo2\/ParagrafoUnico .
+lex:D4087\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nas Aquisições do Governo Federal - AGF deverão ser observadas as especificações constantes da classificação oficial." .
+lex:D4087\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4087    lex:temArtigo    lex:D4087\/Artigo3 .
+lex:D4087\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4087\/Texto    lex:remetePara    lex:Del0079 .

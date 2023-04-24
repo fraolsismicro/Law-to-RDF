@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3075    lex:ehUm    lex:DocLegal .
+lex:D3075    lex:temTextoIntegral    lex:HTMLs\/D3075.htm .
+lex:D3075\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3075    lex:temInciso    lex:D3075\/IncisoD .
+lex:D3075\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3075\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3075    lex:temArtigo    lex:D3075\/Artigo1 .
+lex:D3075\/Artigo1    lex:temConteudo    "Art. 1o  Fica remanejado, em caráter temporário, até 31 de outubro de 1999, da Secretaria de Gestão, do Ministério do orçamento e Gestão, para o Ministério do Meio Ambiente, um cargo em comissão do Grupo-Direção e Assessoramento Superiores, DAS 102.5, oriundo de órgãos extintos da Administração Pública Federal. (ver dec. 3.674, de 28.11.2000)" .
+lex:D3075\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3075\/Artigo1    lex:temParagrafo    lex:D3075\/Artigo1\/Paragrafo1 .
+lex:D3075\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O cargo objeto deste remanejamento não integrará a Estrutura Regimental do Ministério do Meio Ambiente, devendo constar do ato de nomeação seu caráter de transitoriedade, mediante remissão ao caput deste artigo." .
+lex:D3075\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3075\/Artigo1    lex:temParagrafo    lex:D3075\/Artigo1\/Paragrafo2 .
+lex:D3075\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Findo o prazo estabelecido no caput deste artigo, o cargo em comissão, ora remanejado, será restituído à Secretaria de Gestão, do Ministério do Orçamento e Gestão, sendo considerado exonerado o titular nele investido." .
+lex:D3075\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3075    lex:temArtigo    lex:D3075\/Artigo2 .
+lex:D3075\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3075\/Artigo1    lex:remetePara    lex:D3674 .
+lex:D3075\/Fecho    lex:remetePara    lex:index .

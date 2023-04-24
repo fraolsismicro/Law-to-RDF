@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del7041    lex:ehUm    lex:DocLegal .
+lex:Del7041    lex:temTextoIntegral    lex:HTMLs\/Del7041.htm .
+lex:Del7041\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del7041    lex:temArtigo    lex:Del7041\/Artigo1 .
+lex:Del7041\/Artigo1    lex:temConteudo    "Art. 1º O artigo 73 do Decreto-lei nº 2.186, de 13 de maio de 1940 (Código de Vencimentos e Vantagens dos Militares do Exército) passa a ter a seguinte redação:" .
+lex:Del7041\/Artigo73    lex:ehUm    lex:Artigo .
+lex:Del7041    lex:temArtigo    lex:Del7041\/Artigo73 .
+lex:Del7041\/Artigo73    lex:temConteudo    "Art. 73 O militar da atíva que servir em guarnição considerada especial perceberá uma cota adicional sôbre os seus vencimentos. Essa cota será de:" .
+lex:Del7041\/Artigo73\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del7041\/Artigo73    lex:temParagrafo    lex:Del7041\/Artigo73\/ParagrafoUnico .
+lex:Del7041\/Artigo73\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Essa vantagem será abonada:" .
+lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaDurante    lex:ehUm    lex:Alinea .
+lex:Del7041\/Artigo73\/ParagrafoUnico    lex:temAlinea    lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaDurante .
+lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaDurante    lex:temConteudo    "a) durante o tempo que o militar permanecer regularmente na guarnição; e fora desta só quando o seu afastamento for em objeto de serviço;" .
+lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:Del7041\/Artigo73\/ParagrafoUnico    lex:temAlinea    lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaQuando .
+lex:Del7041\/Artigo73\/ParagrafoUnico\/AlineaQuando    lex:temConteudo    "b) quando, por qualquer motivo, haja perdido o direito à gratificação, mas premaneça na localidade em que estava servindo." .
+lex:Del7041\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del7041    lex:temArtigo    lex:Del7041\/Artigo2 .
+lex:Del7041\/Artigo2    lex:temConteudo    "Art. 2º Ao artigo 231, letra a, do referido Decreto-lei é acrescido o ítem VI, com a seguinte redação:" .
+lex:Del7041\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:Del7041\/Artigo2    lex:temInciso    lex:Del7041\/Artigo2\/IncisoVI .
+lex:Del7041\/Artigo2\/IncisoVI    lex:temConteudo    "VI - quando em gôzo de férias concedidas para serem utilizadas fora das guarnições especiais de 1ª categoria, de ida e volta, inclusive para a família, até o local de residência habitual do oficial." .
+lex:Del7041\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del7041    lex:temArtigo    lex:Del7041\/Artigo3 .
+lex:Del7041\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del7041\/Artigo1    lex:remetePara    lex:Del2186\/Artigo73 .
+lex:Del7041\/Artigo2    lex:remetePara    lex:Del2186\/Artigo231 .

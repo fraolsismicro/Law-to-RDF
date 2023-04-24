@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9398    lex:ehUm    lex:DocLegal .
+lex:Del9398    lex:temTextoIntegral    lex:HTMLs\/Del9398.htm .
+lex:Del9398\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9398    lex:temArtigo    lex:Del9398\/Artigo1 .
+lex:Del9398\/Artigo1    lex:temConteudo    "Art. 1º Fica suprimido o parágrafo único do art. 670 da Consolidação das leis do Trabalho, que será acrescido de dois parágrafos com a seguinte redação:" .
+lex:Del9398\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del9398\/Artigo1    lex:temParagrafo    lex:Del9398\/Artigo1\/Paragrafo1 .
+lex:Del9398\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º. Há um primeiro suplente e um segundo suplente para o presidente e um suplente para cada vogal." .
+lex:Del9398\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del9398\/Artigo1    lex:temParagrafo    lex:Del9398\/Artigo1\/Paragrafo2 .
+lex:Del9398\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º. O presidente será substituído pelo primeiro suplente ou pelo segundo suplente, nos impedimentos do primeiro suplente." .
+lex:Del9398\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9398    lex:temArtigo    lex:Del9398\/Artigo2 .
+lex:Del9398\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del9398\/Artigo1    lex:remetePara    lex:Del5452\/Artigo670 .

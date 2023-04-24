@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5394    lex:ehUm    lex:DocLegal .
+lex:L5394    lex:temTextoIntegral    lex:HTMLs\/L5394.htm .
+lex:L5394\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo1 .
+lex:L5394\/Artigo1    lex:temConteudo    "Art. 1º O Quadro de Oficiais Generais Combatentes do Exército, em tempo de paz, fica constituído de:" .
+lex:L5394\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo2 .
+lex:L5394\/Artigo2    lex:temConteudo    "Art. 2º Os efetivos globais de Oficiais dos Quadros das Armas e Material Bélico, por postos, são fixados em:" .
+lex:L5394\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5394\/Artigo2    lex:temParagrafo    lex:L5394\/Artigo2\/ParagrafoUnico .
+lex:L5394\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O efetivo de Segundos-Tenentes é variável, em função da formação dos cursos respectivos." .
+lex:L5394\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo3 .
+lex:L5394\/Artigo3    lex:temConteudo    "Art. 3º O reajustamento dos Quadros decorrentes da aplicação desta Lei será regulado pelo Poder Executivo, devendo efetuar-se em função das disponibilidades orçamentárias." .
+lex:L5394\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo4 .
+lex:L5394\/Artigo4    lex:temConteudo    "Art. 4º Os novos cargos e funções que serão ajustados para atender às exigências da organização militar e ao complemento dos efetivos constantes desta lei serão indicados e publicados, anualmente, pelo Ministério do Exército por proposta do E.M.E. até o preenchimento completo dos Corpos de Tropas, Estabelecimentos, Repartições e demais órgãos do Exército, no tempo de paz." .
+lex:L5394\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo5 .
+lex:L5394\/Artigo5    lex:temConteudo    "Art. 5º A presente lei entrará em vigor na data de sua publicação." .
+lex:L5394\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5394    lex:temArtigo    lex:L5394\/Artigo6 .
+lex:L5394\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L5394\/Texto    lex:remetePara    lex:Del0636\/Artigo1 .
+lex:L5394\/Texto    lex:revogadoPor    lex:L6144\/Artigo10 .
+lex:L6144\/Artigo10    lex:revogou    lex:L5394\/Texto .
+lex:L5394\/Texto    lex:remetePara    lex:L5394 .

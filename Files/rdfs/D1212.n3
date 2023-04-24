@@ -1,0 +1,76 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1212    lex:ehUm    lex:DocLegal .
+lex:D1212    lex:temTextoIntegral    lex:HTMLs\/D1212.htm .
+lex:D1212\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1212    lex:temArtigo    lex:D1212\/Artigo1 .
+lex:D1212\/Artigo1    lex:temConteudo    "Art. 1º A Convenção Interamericana sobre a Restituição Internacional de Menores, concluída em Montevidéu, em 15 de julho de 1989, apensa por cópia a este Decreto, deverá ser cumprida tão inteiramente como nela se contém." .
+lex:D1212\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1212    lex:temArtigo    lex:D1212\/Artigo2 .
+lex:D1212\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto entra em vigor na data de sua publicação." .
+lex:D1212\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaO .
+lex:D1212\/Artigo2\/AlineaO    lex:temConteudo    "a) o direito de custódia ou guarda compreende o direito referente ao cuidado do menor e, em especial , o de decidir seu lugar de residência; e" .
+lex:D1212\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaO .
+lex:D1212\/Artigo2\/AlineaO    lex:temConteudo    "b) o direito de visita compreende a faculdade de levar o menor, por período limitado, a lugar diferente do de sua residência habitual." .
+lex:D1212\/Artigo2\/AlineaPor    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaPor .
+lex:D1212\/Artigo2\/AlineaPor    lex:temConteudo    "a) por meio de carta rogatória;" .
+lex:D1212\/Artigo2\/AlineaMediante    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaMediante .
+lex:D1212\/Artigo2\/AlineaMediante    lex:temConteudo    "b) mediante solicitação à autoridade central; ou" .
+lex:D1212\/Artigo2\/AlineaDiretamente    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaDiretamente .
+lex:D1212\/Artigo2\/AlineaDiretamente    lex:temConteudo    "c) diretamente ou por via diplomática ou consular." .
+lex:D1212\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaOs .
+lex:D1212\/Artigo2\/AlineaOs    lex:temConteudo    "a) os antecedentes ou fatos relativos ao transporte ou retenção, bem como suficientes informações sobre a identidade do solicitante, do menor subtraído ou retido e, se for possível, da pessoa à qual se atribuem o transporte ou a retenção;" .
+lex:D1212\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaA .
+lex:D1212\/Artigo2\/AlineaA    lex:temConteudo    "b) a informação relativa à suposta localização do menor e às circunstâncias e datas em foi efetuado o transporte para o exterior, ou ao vencimento do prazo autorizado; e" .
+lex:D1212\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaOs .
+lex:D1212\/Artigo2\/AlineaOs    lex:temConteudo    "c) os fundamentos de direito em que se apóia a restituição do menor." .
+lex:D1212\/Artigo2\/AlineaOs\/ItemA    lex:ehUm    lex:Item .
+lex:D1212\/Artigo2\/AlineaOs    lex:temItem    lex:D1212\/Artigo2\/AlineaOs\/ItemA .
+lex:D1212\/Artigo2\/AlineaOs\/ItemA    lex:temConteudo    "2. A solicitação ou demanda deverá ser acompanhada de:" .
+lex:D1212\/Artigo2\/AlineaCopia    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaCopia .
+lex:D1212\/Artigo2\/AlineaCopia    lex:temConteudo    "a) cópia fiel e autêntica de qualquer decisão judicial ou administrativa que houver, ou do acordo que lhe der origem; comprovação sumária da situação factual existente ou, conforme o caso, alegação do direito aplicável;" .
+lex:D1212\/Artigo2\/AlineaDocumentacao    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaDocumentacao .
+lex:D1212\/Artigo2\/AlineaDocumentacao    lex:temConteudo    "b) documentação autêntica que ateste a legitimação processual do solicitante;" .
+lex:D1212\/Artigo2\/AlineaCertidao    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaCertidao .
+lex:D1212\/Artigo2\/AlineaCertidao    lex:temConteudo    "c) certidão ou informação expedida pela autoridade central do Estado de residência habitual do menor, ou por outra autoridade do mesmo Estado, sobre o direito vigente nesse Estado a respeito da matéria;" .
+lex:D1212\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaQuando .
+lex:D1212\/Artigo2\/AlineaQuando    lex:temConteudo    "d) quando for necessário, tradução, para o idioma oficial do Estado requerido, de todos os documentos a que se refere este artigo; e" .
+lex:D1212\/Artigo2\/AlineaIndicacao    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaIndicacao .
+lex:D1212\/Artigo2\/AlineaIndicacao    lex:temConteudo    "e) indicação das medidas indispensáveis para tornar efetiva a restituição." .
+lex:D1212\/Artigo2\/AlineaIndicacao\/ItemA    lex:ehUm    lex:Item .
+lex:D1212\/Artigo2\/AlineaIndicacao    lex:temItem    lex:D1212\/Artigo2\/AlineaIndicacao\/ItemA .
+lex:D1212\/Artigo2\/AlineaIndicacao\/ItemA    lex:temConteudo    "3. A autoridade competente poderá prescindir de um dos requisitos ou da apresentação dos documentos exigidos neste artigo se, a seu critério, a restituição for justificada." .
+lex:D1212\/Artigo2\/AlineaIndicacao\/ItemAs    lex:ehUm    lex:Item .
+lex:D1212\/Artigo2\/AlineaIndicacao    lex:temItem    lex:D1212\/Artigo2\/AlineaIndicacao\/ItemAs .
+lex:D1212\/Artigo2\/AlineaIndicacao\/ItemAs    lex:temConteudo    "4. As cartas rogatórias, as solicitações e os documentos que as acompanharem não necessitarão ser legalizados quando forem transmitidos por via diplomática ou consular, ou por intermédio da autoridade central." .
+lex:D1212\/Artigo2\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaQue .
+lex:D1212\/Artigo2\/AlineaQue    lex:temConteudo    "a) que os titulares da solicitação ou demanda do transporte ou da retenção, ou haviam consentido ou dado sua anuência depois do transporte ou retenção; ou" .
+lex:D1212\/Artigo2\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaQue .
+lex:D1212\/Artigo2\/AlineaQue    lex:temConteudo    "b) que existe grave risco de que a restituição do menor possa expô-lo a perigo físico ou psíquico." .
+lex:D1212\/Artigo2\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaQualquer .
+lex:D1212\/Artigo2\/AlineaQualquer    lex:temConteudo    "a) qualquer referência a residência habitual nesse Estado abrange residência habitual em unidade territorial desse Estado;" .
+lex:D1212\/Artigo2\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D1212\/Artigo2    lex:temAlinea    lex:D1212\/Artigo2\/AlineaQualquer .
+lex:D1212\/Artigo2\/AlineaQualquer    lex:temConteudo    "b) qualquer referência a lei do Estado de residência habitual abrange a lei da unidade territorial na qual o menor tiver sua residência habitual." .

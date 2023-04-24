@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:del1713    lex:ehUm    lex:DocLegal .
+lex:del1713    lex:temTextoIntegral    lex:HTMLs\/del1713.htm .
+lex:del1713\/Artigo1    lex:ehUm    lex:Artigo .
+lex:del1713    lex:temArtigo    lex:del1713\/Artigo1 .
+lex:del1713\/Artigo1    lex:temConteudo    "Art. 1º Os rendimentos do trabalho assalariado estão sujeitos, a partir de 1º de janeiro de 1980, à retenção do imposto de renda na fonte, como antecipação, mediante aplicação de alíquotas progressivas de acordo com a seguinte tabela:" .
+lex:del1713\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:del1713\/Artigo1    lex:temParagrafo    lex:del1713\/Artigo1\/ParagrafoUnico .
+lex:del1713\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O disposto neste artigo aplica-se também, aos rendimentos dos titulares, administradores ou dirigentes de pessoas jurídicas, quando corresponderem a remuneração mensal por prestação de serviços." .
+lex:del1713\/Artigo2    lex:ehUm    lex:Artigo .
+lex:del1713    lex:temArtigo    lex:del1713\/Artigo2 .
+lex:del1713\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

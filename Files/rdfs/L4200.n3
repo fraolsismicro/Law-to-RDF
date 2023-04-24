@@ -1,0 +1,223 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4200    lex:ehUm    lex:DocLegal .
+lex:L4200    lex:temTextoIntegral    lex:HTMLs\/L4200.htm .
+lex:L4200\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo1 .
+lex:L4200\/Artigo1    lex:temConteudo    "Art. 1º A União concederá, VETADO, nos têrmos e condições desta lei, os seguintes auxílios diretos às emprêsas nacionais concessionárias de linhas aéreas regulares:" .
+lex:L4200\/Artigo1\/AlineaSubvencao    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo1    lex:temAlinea    lex:L4200\/Artigo1\/AlineaSubvencao .
+lex:L4200\/Artigo1\/AlineaSubvencao    lex:temConteudo    "a) subvenção quilométrica às linhas que constituem o 'Plano de Integração Nacional';" .
+lex:L4200\/Artigo1\/AlineaSubvencao    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo1    lex:temAlinea    lex:L4200\/Artigo1\/AlineaSubvencao .
+lex:L4200\/Artigo1\/AlineaSubvencao    lex:temConteudo    "b) subvenção quilométrica às linhas aéreas internacionais;" .
+lex:L4200\/Artigo1\/AlineaContribuicao    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo1    lex:temAlinea    lex:L4200\/Artigo1\/AlineaContribuicao .
+lex:L4200\/Artigo1\/AlineaContribuicao    lex:temConteudo    "c) contribuição financeira para reequipamento." .
+lex:L4200\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo1    lex:temParagrafo    lex:L4200\/Artigo1\/ParagrafoUnico .
+lex:L4200\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Igualmente será concedida, a partir do exercício de 1963, uma subvenção anual às emprêsas de taxas aéreas, devidamente registradas." .
+lex:L4200\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo2 .
+lex:L4200\/Artigo2    lex:temConteudo    "Art. 2º Fica o Ministério da Aeronáutica autorizado a elaborar e rever quando necessário um 'Plano de Integração Nacional', constituído de linhas aéreas domésticas comprovadamente deficitárias ou antieconômicas, de alto interêsse nacional, a juízo do Poder Executivo." .
+lex:L4200\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo2    lex:temParagrafo    lex:L4200\/Artigo2\/ParagrafoUnico .
+lex:L4200\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Serão incluídas, igualmente, no 'Plano de Integração Nacional', as linhas que formam a rêde aérea Amazônica." .
+lex:L4200\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo3 .
+lex:L4200\/Artigo3    lex:temConteudo    "Art. 3º Na elaboração do 'Plano de Integração Nacional', o Ministério da Aeronáutica considerará, primordialmente, os seguintes fatores:" .
+lex:L4200\/Artigo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo3    lex:temAlinea    lex:L4200\/Artigo3\/AlineaO .
+lex:L4200\/Artigo3\/AlineaO    lex:temConteudo    "a) o interêsse público da ligação;" .
+lex:L4200\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo3    lex:temAlinea    lex:L4200\/Artigo3\/AlineaA .
+lex:L4200\/Artigo3\/AlineaA    lex:temConteudo    "b) a manifesta inconveniência da execução do serviço com outro tipo de equipamento superior ou a impraticabilidade da operação com êste último;" .
+lex:L4200\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo3    lex:temAlinea    lex:L4200\/Artigo3\/AlineaA .
+lex:L4200\/Artigo3\/AlineaA    lex:temConteudo    "c) a substituição do equipamento em decorrência do aumento da densidade de tráfego e da melhoria gradativa da infra estrutura;" .
+lex:L4200\/Artigo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo3    lex:temAlinea    lex:L4200\/Artigo3\/AlineaO .
+lex:L4200\/Artigo3\/AlineaO    lex:temConteudo    "d) o estabelecimento de tarifas adequadas às condições econômicas da região." .
+lex:L4200\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo4 .
+lex:L4200\/Artigo4    lex:temConteudo    "Art. 4º A subvenção quilométrica destinada às linhas do 'Plano de Integração Nacional' será fixada anualmente pelo Ministério da Aeronáutica, tendo em vista os seguintes fatores:" .
+lex:L4200\/Artigo4\/AlineaCustos    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo4    lex:temAlinea    lex:L4200\/Artigo4\/AlineaCustos .
+lex:L4200\/Artigo4\/AlineaCustos    lex:temConteudo    "a) custos operacionais;" .
+lex:L4200\/Artigo4\/AlineaAproveitamento    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo4    lex:temAlinea    lex:L4200\/Artigo4\/AlineaAproveitamento .
+lex:L4200\/Artigo4\/AlineaAproveitamento    lex:temConteudo    "b) aproveitamento percentual em passageiros compatível com a realidade econômica da região servida." .
+lex:L4200\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo4    lex:temParagrafo    lex:L4200\/Artigo4\/ParagrafoUnico .
+lex:L4200\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Ressalvada a hipótese de fôrça maior a efetiva realização de todas as escalas estipuladas é condição para recebimento da subvenção de cada linha." .
+lex:L4200\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo5 .
+lex:L4200\/Artigo5    lex:temConteudo    "Art. 5º Para o exercício de 1962 prevalecerão o sistema de rêde aérea e as subvenções estatuídas, em caráter provisório, pelo Ministério da Aeronáutica." .
+lex:L4200\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo6 .
+lex:L4200\/Artigo6    lex:temConteudo    "Art. 6º Para a execução do 'Plano de Integração Nacional', o Ministério da Aeronáutica poderá dividir o território nacional em regiões, a fim de estabelecer centros de irradiação das linhas, bem como adaptar o 'Plano' às condições decorrentes de melhoria da infraestrutura." .
+lex:L4200\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo7 .
+lex:L4200\/Artigo7    lex:temConteudo    "Art. 7º O Ministério da Aeronáutica promoverá a distribuição das linhas do 'Plano de Integração Nacional' atendendo VETADO, à necessidade de evitar a competição entre linhas operadas com equipamento idêntico, ou não, e mais ao seguinte:" .
+lex:L4200\/Artigo7\/AlineaDisponibilidade    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo7    lex:temAlinea    lex:L4200\/Artigo7\/AlineaDisponibilidade .
+lex:L4200\/Artigo7\/AlineaDisponibilidade    lex:temConteudo    "a) disponibilidade imediata do equipamento adequado;" .
+lex:L4200\/Artigo7\/AlineaCondicao    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo7    lex:temAlinea    lex:L4200\/Artigo7\/AlineaCondicao .
+lex:L4200\/Artigo7\/AlineaCondicao    lex:temConteudo    "b) condição de concessionária atual na região." .
+lex:L4200\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo7    lex:temParagrafo    lex:L4200\/Artigo7\/ParagrafoUnico .
+lex:L4200\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Quando a linha operada tiver mais de uma concessionária, o Ministério da Aeronáutica promoverá a conciliação entre as operadoras de modo a eliminar a competição, fixando critério da proporcionalidade, se não houver acôrdo entre elas." .
+lex:L4200\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo8 .
+lex:L4200\/Artigo8    lex:temConteudo    "Art. 8º O Ministério da Aeronáutica promoverá a melhoria dos campos de pouso que constituem a rêde do 'Plano de Integração Nacional', de modo a fazer substituir, progressivamente, o equipamento utilizado, por outro que assegure a exploração melhor rentabilidade econômica." .
+lex:L4200\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo8    lex:temParagrafo    lex:L4200\/Artigo8\/ParagrafoUnico .
+lex:L4200\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. À medida que essas aeronaves forem sendo liberadas, em razão de sua substituição por equipamento mais econômico, as emprêsas deverão promover sua alienação." .
+lex:L4200\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo9 .
+lex:L4200\/Artigo9    lex:temConteudo    "Art. 9º Permanece, com efeito a partir de 1º de janeiro de 1962, o regime de subvenção para as linhas aéreas internacionais exploradas por emprêsas brasileiras." .
+lex:L4200\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo10 .
+lex:L4200\/Artigo10    lex:temConteudo    "Art. 10. A subvenção será fixada anualmente, por ato do Ministro da Aeronáutica para o quilômetro voado entre os pontos inicial e terminal das linhas, tendo em vista nessa fixação os seguintes fatores:" .
+lex:L4200\/Artigo10\/AlineaGrau    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo10    lex:temAlinea    lex:L4200\/Artigo10\/AlineaGrau .
+lex:L4200\/Artigo10\/AlineaGrau    lex:temConteudo    "a) grau de interêsse público do serviço;" .
+lex:L4200\/Artigo10\/AlineaTipo    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo10    lex:temAlinea    lex:L4200\/Artigo10\/AlineaTipo .
+lex:L4200\/Artigo10\/AlineaTipo    lex:temConteudo    "b) tipo de aeronave;" .
+lex:L4200\/Artigo10\/AlineaRentabilidade    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo10    lex:temAlinea    lex:L4200\/Artigo10\/AlineaRentabilidade .
+lex:L4200\/Artigo10\/AlineaRentabilidade    lex:temConteudo    "c) rentabilidade da linha;" .
+lex:L4200\/Artigo10\/AlineaNumero    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo10    lex:temAlinea    lex:L4200\/Artigo10\/AlineaNumero .
+lex:L4200\/Artigo10\/AlineaNumero    lex:temConteudo    "d) número de freqüências." .
+lex:L4200\/Artigo10\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo10    lex:temParagrafo    lex:L4200\/Artigo10\/ParagrafoUnico .
+lex:L4200\/Artigo10\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. A subvenção fixada na forma dêste artigo poderá ser elevada do seu valor básico a juízo do Ministério da Aeronáutica, se em face das condições de exploração da linha, considerada a competição de linhas estrangeiras e outros fatores de interêsse nacional, se tornar necessário maior auxílio para assegurar a execução do serviço." .
+lex:L4200\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo11 .
+lex:L4200\/Artigo11    lex:temConteudo    "Art. 11. Para o exercício de 1962, a subvenção quilométrica será aquela que foi arbitrada pelo Ministério da Aeronáutica." .
+lex:L4200\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo12 .
+lex:L4200\/Artigo12    lex:temConteudo    "Art. 12. As emprêsas abrangidas pelo presente capítulo recolherão uma taxa de 2% (dois por cento) sôbre o montante de cada pagamento de subvenção efetuado a qual destinar-se-á ao custeio da fiscalização das linhas aéreas internacionais subvencionadas, inclusive remuneração de técnicos e peritos contratados pela Diretoria de Aeronáutica Civil para contrôle dos serviços, apuração dos resultados econômicos e financeiros, bem como os índices de exploração das linhas e respectivas custos de operação." .
+lex:L4200\/Artigo13    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo13 .
+lex:L4200\/Artigo13    lex:temConteudo    "Art. 13. O Govêrno da União prestará contribuição financeira para reequipamento das emprêsas nacionais de transporte aéreo, concessionárias de linhas regulares." .
+lex:L4200\/Artigo13\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo13    lex:temParagrafo    lex:L4200\/Artigo13\/ParagrafoUnico .
+lex:L4200\/Artigo13\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ressalvada a situação do equipamento já em tráfego ou com financiamento registrado na SUMOC, somente poderão gozar dos favores desta lei os contratos e compromissos de reequipamento cujo plano vier a ser previamente aprovado pelo Ministério da Aeronáutica." .
+lex:L4200\/Artigo14    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo14 .
+lex:L4200\/Artigo14    lex:temConteudo    "Art. 14. Nos anos de 1962 e 1963 a contribuição financeira a que se refere o artigo anterior será de Cr$ 3.200.000.000,00 (três bilhões e duzentos milhões de cruzeiros) em cada ano rateada entre as emprêsas, na proporção da tonelagem-quilômetro oferecida no ano anterior, nas linhas domésticas." .
+lex:L4200\/Artigo14\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo14    lex:temParagrafo    lex:L4200\/Artigo14\/Paragrafo1 .
+lex:L4200\/Artigo14\/Paragrafo1    lex:temConteudo    "§ 1º Para os três exercícios subsequentes a proposta orçamentária do Ministério da Aeronáutica consignará a dotação necessária para atender ao disposto no artigo anterior." .
+lex:L4200\/Artigo14\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo14    lex:temParagrafo    lex:L4200\/Artigo14\/Paragrafo2 .
+lex:L4200\/Artigo14\/Paragrafo2    lex:temConteudo    "§ 2º Para efeito do rateio, tomar-se-á como base a capacidade comercial da aeronave (payload) definida para cada tipo pela Diretoria da Aeronáutica Civil e a quilometragem das linhas domésticas regulares de cada emprêsa por ela efetivamente voada no ano anterior na conformidade dos horários aprovados." .
+lex:L4200\/Artigo15    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo15 .
+lex:L4200\/Artigo15    lex:temConteudo    "Art. 15. É concedido um reajustamento de Cr$ 1.322.500.000,00 (hum bilhão, trezentos e vinte e dois milhões e quinhentos mil cruzeiros) na importância da contribuição financeira, relativa ao ano de 1961, prevista nas leis números 3.039 de 20 de dezembro de 1956, e 3.928, de 27 de julho de 1961, para reequipamento das emprêsas nacionais que operam linhas domésticas." .
+lex:L4200\/Artigo16    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo16 .
+lex:L4200\/Artigo16    lex:temConteudo    "Art. 16. As aeronaves adquiridas total ou parcialmente, com a contribuição financeira ou cujo contrato esteja enquadrado nos favores de reequipamento, ficarão sujeitos à hipoteca legal inscrita 'ex offício' em favor da União e só poderão ser alienadas, arrendadas, cedidas ou transferidas, mediante autorização prévia do Ministério da Aeronáutica." .
+lex:L4200\/Artigo17    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo17 .
+lex:L4200\/Artigo17    lex:temConteudo    "Art. 17. As obrigações e favores previstos nesta lei estendem-se igualmente aos sucessores ou adquirentes dos direitos das emprêsas beneficiadas, bem como ao acêrvo destas inclusive em caso de insolvência legalmente declarada." .
+lex:L4200\/Artigo18    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo18 .
+lex:L4200\/Artigo18    lex:temConteudo    "Art. 18. Fica autorizada a concessão para os anos 1962 e 1963 de um auxílio especial de emergência às emprêsas nacionais de transporte aéreo, concessionárias de linhas regulares, destinado à cobertura dos sucessivos aumentos de custos operacionais não absorvíveis pelas tarifas aéreas e ainda não atendidas por outras medidas de amparo governamental." .
+lex:L4200\/Artigo18\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo18    lex:temParagrafo    lex:L4200\/Artigo18\/Paragrafo1 .
+lex:L4200\/Artigo18\/Paragrafo1    lex:temConteudo    "§ 1º O auxílio especial de emergência é fixado em Cr$ 4.000.000.000,00 (quatro bilhões de cruzeiros) em 1962 e em Cr$ 6.000.000.000,00 (seis bilhões de cruzeiros) para o corrente exercício." .
+lex:L4200\/Artigo18\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo18    lex:temParagrafo    lex:L4200\/Artigo18\/Paragrafo2 .
+lex:L4200\/Artigo18\/Paragrafo2    lex:temConteudo    "§ 2º O critério de rateio do auxílio especial de emergência será estipulado pelo Ministério da Aeronáutica prevalecendo em relação a 1962, o já adotado pelo mesmo Ministério." .
+lex:L4200\/Artigo19    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo19 .
+lex:L4200\/Artigo19    lex:temConteudo    "Art. 19. Para os exercícios de 1964, 1965 e 1966, a proposta orçamentária do Ministério da Aeronáutica consignará a dotação julgada necessária para atender aos fins do artigo anterior." .
+lex:L4200\/Artigo20    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo20 .
+lex:L4200\/Artigo20    lex:temConteudo    "Art. 20. Às emprêsas de taxis aéreos, devidamente registradas será concedida, anualmente, uma subvenção global, rateada entre elas consoante critério estabelecido pelo Ministério da Aeronáutica." .
+lex:L4200\/Artigo20\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo20    lex:temParagrafo    lex:L4200\/Artigo20\/Paragrafo1 .
+lex:L4200\/Artigo20\/Paragrafo1    lex:temConteudo    "§ 1º Para o ano de 1963, o montante dessa subvenção é fixado em Cr$ 200.000.000,00 (duzentos milhões de cruzeiros)." .
+lex:L4200\/Artigo20\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo20    lex:temParagrafo    lex:L4200\/Artigo20\/Paragrafo2 .
+lex:L4200\/Artigo20\/Paragrafo2    lex:temConteudo    "§ 2º Nos três exercícios subsequentes a proposta orçamentária do Ministério da Aeronáutica consignará a dotação julgada necessária para os fins previstos neste artigo." .
+lex:L4200\/Artigo20\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo20    lex:temParagrafo    lex:L4200\/Artigo20\/Paragrafo3 .
+lex:L4200\/Artigo20\/Paragrafo3    lex:temConteudo    "§ 3º As emprêsas beneficiadas deverão fazer prova de quitação com a Previdência Social, antes do recebimento da subvenção." .
+lex:L4200\/Artigo21    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo21 .
+lex:L4200\/Artigo21    lex:temConteudo    "Art. 21. Um só emprêsa não poderá receber, em cada ano, mais de 50% (cinquenta por cento) da contribuição financeira rateada, nem do total da dotação destinada ao Plano de Integração Nacional." .
+lex:L4200\/Artigo21\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo21    lex:temParagrafo    lex:L4200\/Artigo21\/Paragrafo1 .
+lex:L4200\/Artigo21\/Paragrafo1    lex:temConteudo    "§ 1º A limitação estabelecida neste artigo será extensiva aos consórcios de emprêsas e à pessoa ou grupo de pessoas físicas ou jurídicas, detentora do contrôle do capital de mais de uma emprêsa." .
+lex:L4200\/Artigo21\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4200\/Artigo21    lex:temParagrafo    lex:L4200\/Artigo21\/Paragrafo2 .
+lex:L4200\/Artigo21\/Paragrafo2    lex:temConteudo    "§ 2º O Ministério da Aeronáutica fiscalizará a exata observância do disposto neste artigo, procedendo às verificações e correções que julgar necessárias." .
+lex:L4200\/Artigo22    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo22 .
+lex:L4200\/Artigo22    lex:temConteudo    "Art. 22. Anualmente o Ministério da Aeronáutica, através da Diretoria de Aeronáutica Civil procederá à tomada de contas das emprêsas para comprovação da exata aplicação das subvenções, auxílios e contribuições recebidas em virtude desta lei." .
+lex:L4200\/Artigo23    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo23 .
+lex:L4200\/Artigo23    lex:temConteudo    "Art. 23. Nenhum pagamento, a título de subvenção para as linhas do Plano de Integração Nacional, ou para linhas internacionais poderá ser efetuado sem a prévia quitação da emprêsa beneficiada com a Previdência Social." .
+lex:L4200\/Artigo24    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo24 .
+lex:L4200\/Artigo24    lex:temConteudo    "Art. 24. As importâncias pagas por fôrça da presente lei as emprêsas que executam linhas aéreas regulares, não serão computadas para efeito do impôsto de renda." .
+lex:L4200\/Artigo25    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo25 .
+lex:L4200\/Artigo25    lex:temConteudo    "Art. 25. O Orçamento da União consignará, anualmente por proposta do Ministério da Aeronáutica, as dotações necessárias ao cumprimento da presente lei." .
+lex:L4200\/Artigo27    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo27 .
+lex:L4200\/Artigo27    lex:temConteudo    "Art. 27. Para cumprimento do que estabelece a presente lei fica o Poder Executivo autorizado a abrir os créditos especiais de Cr$ 11.928.000.000,00 (onze bilhões, novecentos e vinte e oito milhões de cruzeiros) relativo ao ano de 1962 e de Cr$ 12.806.000.000,00 (doze bilhões, oitocentos e seis milhões de cruzeiros) correspondente ao ano de 1963, VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "a) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "b) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "c) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "d) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "e) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO\/Item-    lex:ehUm    lex:Item .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temItem    lex:L4200\/Artigo27\/AlineaVETADO\/Item- .
+lex:L4200\/Artigo27\/AlineaVETADO\/Item-    lex:temConteudo    "2 - VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "a) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "b) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "c) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "d) VETADO." .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:ehUm    lex:Alinea .
+lex:L4200\/Artigo27    lex:temAlinea    lex:L4200\/Artigo27\/AlineaVETADO .
+lex:L4200\/Artigo27\/AlineaVETADO    lex:temConteudo    "e) VETADO." .
+lex:L4200\/Artigo28    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo28 .
+lex:L4200\/Artigo28    lex:temConteudo    "Art. 28. O Poder Executivo, por proposta do Ministério da Aeronáutica, baixará, no prazo de 90 (noventa) dias, a contar da publicação desta lei, os regulamentos que se fizerem necessários à sua execução." .
+lex:L4200\/Artigo29    lex:ehUm    lex:Artigo .
+lex:L4200    lex:temArtigo    lex:L4200\/Artigo29 .
+lex:L4200\/Artigo29    lex:temConteudo    "Art. 29. Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4200\/Artigo15    lex:remetePara    lex:L3928 .
+lex:L4200\/Artigo26    lex:revogadoPor    lex:Del0029\/Artigo10 .
+lex:Del0029\/Artigo10    lex:revogou    lex:L4200\/Artigo26 .

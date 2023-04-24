@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1803    lex:ehUm    lex:DocLegal .
+lex:D1803    lex:temTextoIntegral    lex:HTMLs\/D1803.htm .
+lex:D1803\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1803    lex:temArtigo    lex:D1803\/Artigo1 .
+lex:D1803\/Artigo1    lex:temConteudo    "Art. 1° Os arts. 1°, 9° e 16 do Decreto n° 980, de 11 de novembro de 1993, passam a vigorar com as seguintes alterações:" .
+lex:D1803\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1803\/Artigo1    lex:temParagrafo    lex:D1803\/Artigo1\/ParagrafoUnico .
+lex:D1803\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto na parte final do caput deste artigo não se aplica aos imóveis referidos no art. 5°, inciso VIII, cujas permissões poderão efetivar-se por prazo certo '" .
+lex:D1803\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D1803\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D1803\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D1803\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - for proprietário, promitente comprador, cessionário ou promitente cessionário de imóvel residencial em Brasília, incluída a hipótese de lote edificado sem averbação de construção, exceto no caso do inciso I do art. 5°;" .
+lex:D1803\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1803\/Artigo1    lex:temParagrafo    lex:D1803\/Artigo1\/Paragrafo1 .
+lex:D1803\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° O permissionário que for nomeado para outro cargo em comissão em órgão da Administração Federal direta, com exercício no Distrito Federal, desde que não ocupante de imóveis elencados nos incisos VII, VIII e IX do art. 5°, poderá conservar a permissão, uma vez atendidos os requisitos estabelecidos nos arts. 7° e 8°." .
+lex:D1803\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1803    lex:temArtigo    lex:D1803\/Artigo2 .
+lex:D1803\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D1803\/Texto00001    lex:remetePara    lex:D980\/Artigo1 .
+lex:D1803\/Artigo1\/Texto00002    lex:remetePara    lex:D980\/Artigo9 .
+lex:D1803\/Artigo1\/Paragrafo1    lex:remetePara    lex:D980\/Artigo16\/Paragrafo1 .

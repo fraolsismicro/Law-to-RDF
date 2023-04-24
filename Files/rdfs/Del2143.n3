@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2143    lex:ehUm    lex:DocLegal .
+lex:Del2143    lex:temTextoIntegral    lex:HTMLs\/Del2143.htm .
+lex:Del2143\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2143    lex:temArtigo    lex:Del2143\/Artigo1 .
+lex:Del2143\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores de vencimentos, salários e proventos, do pessoal ativo e inativo, dos Quadros e Tabelas Permanentes, Suplementares e Provisórios, da Justiça do Trabalho, resultantes da aplicação do Decreto-lei nº 2.092, de 27 de dezembro de 1983, são reajustados em 65% (sessenta e cinco por cento), ressalvado o disposto no parágrafo único deste artigo." .
+lex:Del2143\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2143\/Artigo1    lex:temParagrafo    lex:Del2143\/Artigo1\/ParagrafoUnico .
+lex:Del2143\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os vencimentos, salários e proventos relativos ao pessoal de nível médio passam a vigorar na forma do Anexo ao Decreto-lei nº 2.130, de 25 de junho de 1984." .
+lex:Del2143\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2143    lex:temArtigo    lex:Del2143\/Artigo2 .
+lex:Del2143\/Artigo2    lex:temConteudo    "Art. 2º Aplica-se, no que couber, aos Tribunais do Trabalho, o disposto no artigo 3º do Decreto-lei nº 2.130, de 25 de junho de 1984." .
+lex:Del2143\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2143    lex:temArtigo    lex:Del2143\/Artigo3 .
+lex:Del2143\/Artigo3    lex:temConteudo    "Art. 3º Fica elevado para Cr$4.800,00 (quatro mil e oitocentos cruzeiros) o valor do salário-família." .
+lex:Del2143\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2143    lex:temArtigo    lex:Del2143\/Artigo4 .
+lex:Del2143\/Artigo4    lex:temConteudo    "Art. 4º A despesa decorrente da aplicação deste Decreto-lei correrá à conta das dotações do Orçamento Geral da União para o exercício de 1984." .
+lex:Del2143\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2143    lex:temArtigo    lex:Del2143\/Artigo5 .
+lex:Del2143\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entra em vigor na data de sua publicação, com efeitos financeiros a partir de 1º de julho de 1984, revogadas as disposições em contrário." .
+lex:Del2143\/Texto    lex:remetePara    lex:Del2214 .
+lex:Del2143\/Artigo1    lex:remetePara    lex:Del2092 .
+lex:Del2143\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2130\/ .
+lex:Del2143\/Artigo2    lex:remetePara    lex:Del2130\/Artigo3 .

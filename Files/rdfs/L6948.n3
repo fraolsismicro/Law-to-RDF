@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6948    lex:ehUm    lex:DocLegal .
+lex:L6948    lex:temTextoIntegral    lex:HTMLs\/L6948.htm .
+lex:L6948\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6948    lex:temArtigo    lex:L6948\/Artigo1 .
+lex:L6948\/Artigo1    lex:temConteudo    "Art. 1º - É facultado à Comissão Executiva Nacional do Partido Político decidir sobre a realização de convenções para renovação dos diretórios a que se refere o art. 6º da Lei nº 6.767, de 20 de dezembro de 1979, no prazo nele previsto ou até 2 (dois) anos após o registro definitivo do respectivo Partido." .
+lex:L6948\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6948\/Artigo1    lex:temParagrafo    lex:L6948\/Artigo1\/ParagrafoUnico .
+lex:L6948\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O disposto neste artigo aplicar-se-á às convenções nacionais, regionais e municipais, sejam em conjunto ou separadamente." .
+lex:L6948\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6948    lex:temArtigo    lex:L6948\/Artigo2 .
+lex:L6948\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6948\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6948    lex:temArtigo    lex:L6948\/Artigo3 .
+lex:L6948\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L6948\/Artigo1    lex:remetePara    lex:L6767\/Artigo6 .

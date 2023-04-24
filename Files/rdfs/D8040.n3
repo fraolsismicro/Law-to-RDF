@@ -1,0 +1,203 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8040    lex:ehUm    lex:DocLegal .
+lex:D8040    lex:temTextoIntegral    lex:HTMLs\/D8040.htm .
+lex:D8040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo1 .
+lex:D8040\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído o Comitê Gestor do Programa Mais Médicos, de que trata a Medida Provisória no 621, de 8 de julho de 2013." .
+lex:D8040\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo1 .
+lex:D8040\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Compete ao Comitê Gestor, instância de caráter deliberativo, fixar metas e orientar a formulação, a implementação, o monitoramento e a avaliação do Programa Mais Médicos." .
+lex:D8040\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo2 .
+lex:D8040\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o O Comitê Gestor será composto pelos titulares dos seguintes órgãos:" .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - Ministério da Saúde, que o coordenará;" .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - Ministério da Educação;" .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - Casa Civil da Presidência da República;e" .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D8040\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - Ministério do Planejamento, Orçamento e Gestão." .
+lex:D8040\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo3 .
+lex:D8040\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Os membros do Comitê Gestor indicarão seus suplentes, que deverão ocupar cargo de Secretário ou equivalente nos respectivos órgãos." .
+lex:D8040\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo4 .
+lex:D8040\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o O Comitê Gestor poderá convidar representantes de outros órgãos e entidades, públicos e privados, e especialistas em assuntos afetos ao tema, para participar de suas reuniões." .
+lex:D8040\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo5 .
+lex:D8040\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o O Comitê Gestor aprovará, por maioria absoluta, regimento interno que disporá sobre sua organização e funcionamento e sobre a atuação do Grupo Executivo." .
+lex:D8040\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo1    lex:temParagrafo    lex:D8040\/Artigo1\/Paragrafo6 .
+lex:D8040\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o O regimento interno deverá ser publicado no Diário Oficial da União no prazo de noventa dias após a instalação do Comitê." .
+lex:D8040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo2 .
+lex:D8040\/Artigo2    lex:temConteudo    "Art. 2o Fica instituído o Grupo Executivo do Programa Mais Médicos, vinculado ao Comitê Gestor." .
+lex:D8040\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo2    lex:temParagrafo    lex:D8040\/Artigo2\/Paragrafo1 .
+lex:D8040\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o Compete ao Grupo Executivo assegurar, monitorar e avaliar a execução das ações a serem desenvolvidas no âmbito do Programa Mais Médicos, com base nas orientações emitidas pelo Comitê Gestor." .
+lex:D8040\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo2    lex:temParagrafo    lex:D8040\/Artigo2\/Paragrafo2 .
+lex:D8040\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o O Grupo Executivo será composto por um representante de cada um dos órgãos a seguir indicados:" .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoI .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - Ministério da Saúde, que o coordenará;" .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoII .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - Ministério da Educação;" .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - Ministério do Planejamento, Orçamento e Gestão; e" .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D8040\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - Casa Civil da Presidência da República." .
+lex:D8040\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo2    lex:temParagrafo    lex:D8040\/Artigo2\/Paragrafo3 .
+lex:D8040\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o Os membros titulares e suplentes do Grupo Executivo serão indicados pelos titulares dos órgãos representados e designados pelo Ministro de Estado da Saúde." .
+lex:D8040\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo2    lex:temParagrafo    lex:D8040\/Artigo2\/Paragrafo4 .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o O Grupo Executivo poderá convidar para participar das reuniões representantes de outros órgãos e entidades, públicos e privados, e especialistas em assuntos afetos ao tema, especialmente:" .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoI .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - o Conselho Nacional de Secretários de Saúde - Conass;" .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoII .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - o Conselho Nacional de Secretarias Municipais de Saúde - Conasems;" .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - a Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior - Andifes;" .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - a Associação Brasileira de Educação Médica - Abem; e" .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoV .
+lex:D8040\/Artigo2\/Paragrafo4\/ParagrafoIncisoV    lex:temConteudo    "V - as entidades associativas nacionais médicas e de estudantes de medicina." .
+lex:D8040\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo3 .
+lex:D8040\/Artigo3    lex:temConteudo    "Art. 3o A Advocacia-Geral da União e os Ministérios da Justiça, da Defesa e das Relações Exteriores auxiliarão o Comitê Gestor e seu Grupo Executivo no desempenho de suas funções, sempre que por estes solicitado." .
+lex:D8040\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo4 .
+lex:D8040\/Artigo4    lex:temConteudo    "Art. 4o O Ministério da Saúde exercerá a Secretaria-Executiva do Comitê Gestor e do Grupo Executivo e fornecerá o suporte administrativo para seu funcionamento." .
+lex:D8040\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo5 .
+lex:D8040\/Artigo5    lex:temConteudo    "Art. 5o A participação na composição do Comitê Gestor e do Grupo Executivo é considerada serviço público relevante e não enseja remuneração." .
+lex:D8040\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo7 .
+lex:D8040\/Artigo7    lex:temConteudo    "Art. 7o O pedido de inscrição do registro provisório do médico intercambista deverá ser dirigido ao Presidente do respectivo Conselho Regional de Medicina pela coordenação do Projeto Mais Médicos para o Brasil de que trata o § 3º do art. 7º da Medida Provisória nº 621, de 2013." .
+lex:D8040\/Artigo7\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo7    lex:temParagrafo    lex:D8040\/Artigo7\/Paragrafo1 .
+lex:D8040\/Artigo7\/Paragrafo1    lex:temConteudo    "§ 1o   O pedido será instruído com a declaração de participação do médico intercambista no Projeto Mais Médicos para o Brasil, fornecida pela coordenação do Projeto, e com cópia de:" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo7\/Paragrafo1    lex:temParagrafoInciso    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - documento que comprove as seguintes informações:" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNome    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNome .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNome    lex:temConteudo    "a) nome;" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNacionalidade    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNacionalidade .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaNacionalidade    lex:temConteudo    "b) nacionalidade;" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaData    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaData .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaData    lex:temConteudo    "c) data e lugar do nascimento; e" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaFiliacao    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaFiliacao .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoI\/AlineaFiliacao    lex:temConteudo    "d) filiação;" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo7\/Paragrafo1    lex:temParagrafoInciso    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - documento que comprove a habilitação profissional para exercício de medicina no exterior; e" .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8040\/Artigo7\/Paragrafo1    lex:temParagrafoInciso    lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8040\/Artigo7\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - diploma expedido por instituição de educação superior estrangeira." .
+lex:D8040\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo7    lex:temParagrafo    lex:D8040\/Artigo7\/Paragrafo2 .
+lex:D8040\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2o A declaração de participação do médico intercambista no Projeto Mais Médicos para o Brasil, acompanhada dos documentos previstos no §1o, é condição necessária e suficiente para a expedição de registro profissional provisório." .
+lex:D8040\/Artigo7\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo7    lex:temParagrafo    lex:D8040\/Artigo7\/Paragrafo3 .
+lex:D8040\/Artigo7\/Paragrafo3    lex:temConteudo    "§ 3o O registro profissional provisório será expedido pelo Conselho Regional de Medicina no prazo de quinze dias, contado da apresentação do requerimento pela coordenação do Projeto Mais Médicos para o Brasil." .
+lex:D8040\/Artigo7\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8040\/Artigo7    lex:temParagrafo    lex:D8040\/Artigo7\/Paragrafo4 .
+lex:D8040\/Artigo7\/Paragrafo4    lex:temConteudo    "§ 4o  Para inscrição do registro provisório de que trata este artigo não se aplica o disposto nos arts. 2o e 5º do Decreto nº 44.045, de 19 de julho de 1958." .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo4    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome    lex:temConteudo    "a) nome; (Redação dada pelo Decreto nº 8.081, de 2013) (Revogado pelo Decreto nº 8.126, de 2013)" .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade    lex:ehUm    lex:Alinea .
+lex:D8040\/Artigo7\/Paragrafo4    lex:temAlinea    lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade    lex:temConteudo    "b) nacionalidade; (Redação dada pelo Decreto nº 8.081, de 2013) (Revogado pelo Decreto nº 8.126, de 2013)" .
+lex:D8040\/Paragrafo4\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8040\/Paragrafo4    lex:temArtigo    lex:D8040\/Paragrafo4\/Artigo7 .
+lex:D8040\/Paragrafo4\/Artigo7    lex:temConteudo    "Art. 7 º-A.  O supervisor e tutor acadêmico de que trata a Medida Provisória n º 621, de 2013, poderão ser representados judicial e extrajudicialmente pela Advocacia-Geral da União, nos termos do art. 22 da Lei no 9.028, de 12 de abril de 1995. (Incluído pelo Decreto nº 8.081, de 2013)" .
+lex:D8040\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8040    lex:temArtigo    lex:D8040\/Artigo8 .
+lex:D8040\/Artigo8    lex:temConteudo    "Art. 8o Este Decreto entra em vigor na data de sua publicação." .
+lex:D8040\/Artigo1    lex:remetePara    lex:mpv621 .
+lex:D8040\/Artigo6    lex:remetePara    lex:mpv621\/Artigo7\/Paragrafo2ii .
+lex:D8040\/Artigo6    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo6 .
+lex:D8040\/Artigo7    lex:remetePara    lex:mpv621\/Artigo7\/Paragrafo3 .
+lex:D8040\/Artigo7\/Paragrafo4    lex:remetePara    lex:D44045\/projetoArtigo2 .
+lex:D8040\/Artigo7\/Paragrafo4    lex:remetePara    lex:D44045\/projetoArtigo5 .
+lex:D8040\/Artigo7\/Artigo7    lex:remetePara    lex:mpv621\/Artigo7\/Paragrafo3 .
+lex:D8040\/Artigo7\/Artigo7    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Artigo7    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Artigo7 .
+lex:D8040\/Artigo7\/Paragrafo1    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo1    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo1 .
+lex:D8040\/Artigo7\/IncisoI    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/IncisoI    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/IncisoI .
+lex:D8040\/Artigo7\/IncisoII    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/IncisoII    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/IncisoII .
+lex:D8040\/Artigo7\/IncisoIII    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/IncisoIII    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/IncisoIII .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/AlineaNome .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/AlineaNacionalidade .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaData    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaData    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/AlineaData .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaFiliacao    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/AlineaFiliacao    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/AlineaFiliacao .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoIV    lex:remetePara    lex:mpv621\/Artigo9\/Paragrafo2 .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoIV    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoIV    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/IncisoIV .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoV    lex:remetePara    lex:mpv621\/Artigo9\/Paragrafo2 .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoV    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/IncisoV    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/IncisoV .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo2    lex:remetePara    lex:D8081 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo2    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo2 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo3    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo3    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo3 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo4    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo4    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo4 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5    lex:remetePara    lex:D44045\/anexoArtigo2 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5    lex:remetePara    lex:D44045\/anexoArtigo4 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5    lex:remetePara    lex:D44045\/anexoArtigo5 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5    lex:remetePara    lex:D8081\/Artigo1 .
+lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5    lex:revogadoPor    lex:D8126\/Artigo6 .
+lex:D8126\/Artigo6    lex:revogou    lex:D8040\/Artigo7\/Paragrafo4\/Paragrafo5 .
+lex:D8040\/Paragrafo4\/Artigo7    lex:remetePara    lex:mpv621 .
+lex:D8040\/Paragrafo4\/Artigo7    lex:remetePara    lex:L9028\/Artigo22 .
+lex:D8040\/Paragrafo4\/Artigo7    lex:remetePara    lex:D8081\/Artigo1 .

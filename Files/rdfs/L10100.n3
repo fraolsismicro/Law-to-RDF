@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10100    lex:ehUm    lex:DocLegal .
+lex:L10100    lex:temTextoIntegral    lex:HTMLs\/L10100.htm .
+lex:L10100\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10100    lex:temInciso    lex:L10100\/IncisoI .
+lex:L10100\/IncisoI    lex:temConteudo    "I - superávit financeiro da União, apurado no Balanço Patrimonial de 1999, no valor de R$ 98.487.000,00 (noventa e oito milhões, quatrocentos e oitenta e sete mil reais); e" .
+lex:L10100\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10100    lex:temInciso    lex:L10100\/IncisoII .
+lex:L10100\/IncisoII    lex:temConteudo    "II   do cancelamento parcial de dotações orçamentárias, no valor de R$ 37.756.146,00 (trinta e sete milhões, setecentos e cinqüenta e seis mil, cento e quarenta e seis reais), conforme indicado no Anexo II desta Lei." .
+lex:L10100\/Artigo1    lex:remetePara    lex:L9969 .

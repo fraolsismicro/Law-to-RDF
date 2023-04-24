@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9519    lex:ehUm    lex:DocLegal .
+lex:Del9519    lex:temTextoIntegral    lex:HTMLs\/Del9519.htm .
+lex:Del9519\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9519    lex:temArtigo    lex:Del9519\/Artigo1 .
+lex:Del9519\/Artigo1    lex:temConteudo    "Art. 1º Fica revogado o Decreto-lei nº 9.398, de 21 de Junho de 1946, que alterou a redação do art. 670 da Consolidação das Leis do Trabalho." .
+lex:Del9519\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9519    lex:temArtigo    lex:Del9519\/Artigo2 .
+lex:Del9519\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del9519\/Artigo1    lex:remetePara    lex:Del9398 .

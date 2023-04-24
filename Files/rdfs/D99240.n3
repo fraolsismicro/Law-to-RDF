@@ -1,0 +1,218 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99240    lex:ehUm    lex:DocLegal .
+lex:D99240    lex:temTextoIntegral    lex:HTMLs\/D99240.htm .
+lex:D99240\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo1 .
+lex:D99240\/Artigo1    lex:temConteudo    "Art. 1° Fica determinada a extinção das seguintes entidades:" .
+lex:D99240\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo1    lex:temInciso    lex:D99240\/Artigo1\/IncisoI .
+lex:D99240\/Artigo1\/IncisoI    lex:temConteudo    "I - autarquias;" .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia    lex:temConteudo    "a) Superintendência do Desenvolvimento da Região Centro-Oeste - SUDECO;" .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia    lex:temConteudo    "b) Superintendência do Desenvolvimento da Região Sul - SUDESUL;" .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento    lex:temConteudo    "c) Departamento Nacional de Obras e Saneamento - DNOS;" .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto    lex:temConteudo    "d) Instituto do Açúcar e do Álcool - IAA;" .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto\/IncisoAlineaInstituto    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto\/IncisoAlineaInstituto .
+lex:D99240\/Artigo1\/IncisoI\/IncisoAlineaSuperintendencia\/IncisoAlineaSuperintendencia\/IncisoAlineaDepartamento\/IncisoAlineaInstituto\/IncisoAlineaInstituto    lex:temConteudo    "e) Instituto Brasileiro do Café - IBC;" .
+lex:D99240\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo1    lex:temInciso    lex:D99240\/Artigo1\/IncisoII .
+lex:D99240\/Artigo1\/IncisoII    lex:temConteudo    "II - fundações:" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao    lex:temConteudo    "a) Fundação Nacional de Artes - FUNARTE;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "b) Fundação Nacional de Artes Cênicas - FUNDACEN;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "c) Fundação do Cinema Brasileiro - PRÓ-MEMÓRIA;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "d) Fundação Nacional Pró-Memória - PRÓ-MEMÓRIA;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "e) Fundação Nacional Pró-Leitura - PRÓ-LEITURA;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "f) Fundação Nacional para Educação de Jovens e Adultos - EDUCAR;" .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D99240\/Artigo1\/IncisoII\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "g) Fundação Museu do Café." .
+lex:D99240\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D99240\/Artigo1    lex:temParagrafo    lex:D99240\/Artigo1\/Paragrafo1 .
+lex:D99240\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Os inventariantes que promoverão os atos de extinção das autarquias e fundações serão escolhidos dentre servidores efetivos da Administração Pública Federal, direta, autárquica ou fundacional, mediante indicação do Secretário da Administração Federal." .
+lex:D99240\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D99240\/Artigo1    lex:temParagrafo    lex:D99240\/Artigo1\/Paragrafo2 .
+lex:D99240\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Em todos os atos ou operações o inventariante utilizará o nome da autarquia ou fundação, seguido das palavras 'em extinção'." .
+lex:D99240\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D99240\/Artigo1    lex:temParagrafo    lex:D99240\/Artigo1\/Paragrafo3 .
+lex:D99240\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° Enquanto não ultimados os atos referentes ao processo de extinção das autarquias e fundações referidas no art. 1°, ao inventariante compete, ainda, representá-las ativa e passivamente, em juízo ou fora dele." .
+lex:D99240\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo2 .
+lex:D99240\/Artigo2    lex:temConteudo    "Art. 2° Aos inventariantes compete:" .
+lex:D99240\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoI .
+lex:D99240\/Artigo2\/IncisoI    lex:temConteudo    "I - arrecadar, mediante termo próprio, os livros e documentos da entidade;" .
+lex:D99240\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoII .
+lex:D99240\/Artigo2\/IncisoII    lex:temConteudo    "II - levantar os contratos e convênios firmados pela entidade para:" .
+lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los .
+lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los    lex:temConteudo    "a) rescindi-los; ou" .
+lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los\/IncisoAlineaSubmeter    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los    lex:temIncisoAlinea    lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los\/IncisoAlineaSubmeter .
+lex:D99240\/Artigo2\/IncisoII\/IncisoAlineaRescindi-los\/IncisoAlineaSubmeter    lex:temConteudo    "b) submeter ao Secretário da Administração Federal, com parecer a respeito, os que devam ser mantidos durante o processo de extinção;" .
+lex:D99240\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoIII .
+lex:D99240\/Artigo2\/IncisoIII    lex:temConteudo    "III - efetuar o inventário dos bens móveis, confrontando-o com os registros pertinentes da autarquia ou fundação, para encaminhamento ao Secretário da Administração Federal, para os fins previstos em lei;" .
+lex:D99240\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoIV .
+lex:D99240\/Artigo2\/IncisoIV    lex:temConteudo    "IV - efetuar o levantamento dos bens imóveis e encaminhá-lo ao Departamento do Patrimônio da União para os registros competentes;" .
+lex:D99240\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoV .
+lex:D99240\/Artigo2\/IncisoV    lex:temConteudo    "V - exercer a administração dos recursos humanos e propor ao Secretário da Administração Federal a convocação dos servidores necessários para atestar freqüência, cumprimento de contratos e atos relativos à extinção;" .
+lex:D99240\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoVI .
+lex:D99240\/Artigo2\/IncisoVI    lex:temConteudo    "VI - encaminhar aos órgãos e entidades que absorverem as atribuições da entidade os contratos, convênios, processos e documentos que digam respeito às atribuições transferidas;" .
+lex:D99240\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo2    lex:temInciso    lex:D99240\/Artigo2\/IncisoVII .
+lex:D99240\/Artigo2\/IncisoVII    lex:temConteudo    "VII - apresentar ao Secretário da Administração Federal relatórios mensais." .
+lex:D99240\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo3 .
+lex:D99240\/Artigo3    lex:temConteudo    "Art. 3° Até que se ultimem os respectivos processos de extinção, vincular-se-ão:" .
+lex:D99240\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo3    lex:temInciso    lex:D99240\/Artigo3\/IncisoI .
+lex:D99240\/Artigo3\/IncisoI    lex:temConteudo    "I - ao Ministério da Educação: a EDUCAR;" .
+lex:D99240\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo3    lex:temInciso    lex:D99240\/Artigo3\/IncisoII .
+lex:D99240\/Artigo3\/IncisoII    lex:temConteudo    "II - ao Ministério da Agricultura e Reforma Agrária: o DNOS;" .
+lex:D99240\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo3    lex:temInciso    lex:D99240\/Artigo3\/IncisoIII .
+lex:D99240\/Artigo3\/IncisoIII    lex:temConteudo    "III - ao Ministério da Economia, Fazenda e Planejamento:" .
+lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoIII    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO .
+lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO    lex:temConteudo    "b) o IBC;" .
+lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoIII\/IncisoAlineaO\/IncisoAlineaA    lex:temConteudo    "c) a Fundação Museu do Café;" .
+lex:D99240\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo3    lex:temInciso    lex:D99240\/Artigo3\/IncisoIV .
+lex:D99240\/Artigo3\/IncisoIV    lex:temConteudo    "IV - à Secretaria do Desenvolvimento Regional:" .
+lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoIV    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA    lex:temConteudo    "a) a SUDECO;" .
+lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "b) a SUDESUL;" .
+lex:D99240\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo3    lex:temInciso    lex:D99240\/Artigo3\/IncisoV .
+lex:D99240\/Artigo3\/IncisoV    lex:temConteudo    "V - à Secretaria da Cultura;" .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoV    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA    lex:temConteudo    "b) a FUNDACEN;" .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "c) a FCB;" .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "d) a PRÓ-MEMÓRIA;" .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo3\/IncisoV\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "e) a PRÓ-LEITURA;" .
+lex:D99240\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo4 .
+lex:D99240\/Artigo4    lex:temConteudo    "Art. 4° Ficam, ainda, vinculados;" .
+lex:D99240\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo4    lex:temInciso    lex:D99240\/Artigo4\/IncisoI .
+lex:D99240\/Artigo4\/IncisoI    lex:temConteudo    "I - ao Ministério da Infra-Estrutura;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA    lex:temConteudo    "a) a Siderurgia Brasileira S A. - SIDERBRÁS;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "b) a Empresa de Portos do Brasil S.A. - PORTOBRÁS;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "c) a Companhia Auxiliar de Empresas Elétricas Brasileiras - CAEEB;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "d) a Empresa Brasileira de Transportes Urbanos - EBTU;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "e) a Petrobrás Comércio Internacional S.A. - INTERBRÁS;" .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "f) a Petrobrás Mineração S.A. - PETROMISA;" .
+lex:D99240\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo4    lex:temInciso    lex:D99240\/Artigo4\/IncisoII .
+lex:D99240\/Artigo4\/IncisoII    lex:temConteudo    "II - ao Ministério da Economia, Fazenda e Planejamento:" .
+lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoII    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO .
+lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO    lex:temConteudo    "a) o Banco Nacional de Crédito Cooperativo - BNCC;" .
+lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO    lex:temIncisoAlinea    lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA .
+lex:D99240\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA    lex:temConteudo    "b) a Companhia Brasileira de Infra-Estrutura Fazendária - INFAZ;" .
+lex:D99240\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo4    lex:temInciso    lex:D99240\/Artigo4\/IncisoIII .
+lex:D99240\/Artigo4\/IncisoIII    lex:temConteudo    "III - ao Ministério da Agricultura e Reforma Agrária: a Empresa Brasileira de Assistência Técnica e Extensão Rural - EMBRATER;" .
+lex:D99240\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo4    lex:temInciso    lex:D99240\/Artigo4\/IncisoIV .
+lex:D99240\/Artigo4\/IncisoIV    lex:temConteudo    "IV - à Secretaria da Cultura: a Distribuidora de Filmes S.A. - EMBRAFILME." .
+lex:D99240\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo5 .
+lex:D99240\/Artigo5    lex:temConteudo    "Art. 5° A supervisão das autarquias, fundações, sociedades de economia mista e empresas públicas, de acordo com as vinculações previstas nos arts. 3° e 4°, será exercida sem prejuízo do disposto no art. 2° do Decreto n° 99.202, de 4 de abril de 1990, e da competência da Secretaria da Administração Federal quanto aos processos de extinção e liquidação." .
+lex:D99240\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo6 .
+lex:D99240\/Artigo6    lex:temConteudo    "Art. 6° Os liquidantes de entidades e inventariantes de autarquias, fundações e de órgãos extintos proporão ao Secretário da Administração Federal, quando necessário ao andamento dos serviços, a designação de servidor efetivo da Administração Pública Federal direta, autárquica ou fundacional para atuar como seus prepostos." .
+lex:D99240\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo7 .
+lex:D99240\/Artigo7    lex:temConteudo    "Art. 7° A Secretaria da Administração Federal adotará as providências para a privatização da Companhia Brasileira de Projetos Industriais - COBRAPI, observado o disposto no art. 5° da Lei n° 8.029, de 12 de abril de 1990." .
+lex:D99240\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99240\/Artigo7    lex:temParagrafo    lex:D99240\/Artigo7\/ParagrafoUnico .
+lex:D99240\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Enquanto não privatizada, a - COBRAPI ficará vinculada ao Ministério da Infra-Estrutura." .
+lex:D99240\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo8 .
+lex:D99240\/Artigo8    lex:temConteudo    "Art. 8° Enquanto não forem instituídas a Fundação Nacional de Saúde - FNS e o Instituto Nacional do Seguro Social - INSS, ficam vinculados:" .
+lex:D99240\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo8    lex:temInciso    lex:D99240\/Artigo8\/IncisoI .
+lex:D99240\/Artigo8\/IncisoI    lex:temConteudo    "I - ao Ministério da Saúde:" .
+lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo8\/IncisoI    lex:temIncisoAlinea    lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA .
+lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA    lex:temConteudo    "a) a Fundação Serviços de Saúde Pública - FSESP;" .
+lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA    lex:temIncisoAlinea    lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA\/IncisoAlineaA .
+lex:D99240\/Artigo8\/IncisoI\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "b) a Superintendência de Campanhas de Saúde Pública - SUCAM;" .
+lex:D99240\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99240\/Artigo8    lex:temInciso    lex:D99240\/Artigo8\/IncisoII .
+lex:D99240\/Artigo8\/IncisoII    lex:temConteudo    "II - ao Ministério do Trabalho e da Previdência Social:" .
+lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo8\/IncisoII    lex:temIncisoAlinea    lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO .
+lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO    lex:temConteudo    "a) o Instituto de Administração Financeira da Previdência Social - IAPAS;" .
+lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO    lex:temIncisoAlinea    lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO\/IncisoAlineaO .
+lex:D99240\/Artigo8\/IncisoII\/IncisoAlineaO\/IncisoAlineaO    lex:temConteudo    "b) o Instituto Nacional de Previdência Social - INPS." .
+lex:D99240\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo9 .
+lex:D99240\/Artigo9    lex:temConteudo    "Art. 9° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99240\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D99240    lex:temArtigo    lex:D99240\/Artigo10 .
+lex:D99240\/Artigo10    lex:temConteudo    "Art. 10. Revogam-se as disposições em contrário." .
+lex:D99240\/Artigo3\/AlineaO    lex:revogadoPor    lex:D99288\/Artigo5 .
+lex:D99288\/Artigo5    lex:revogou    lex:D99240\/Artigo3\/AlineaO .
+lex:D99240\/Artigo5    lex:remetePara    lex:D99202\/Artigo2 .
+lex:D99240\/Artigo7    lex:remetePara    lex:L8029cons\/Artigo5 .

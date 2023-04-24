@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9020    lex:ehUm    lex:DocLegal .
+lex:D9020    lex:temTextoIntegral    lex:HTMLs\/D9020.htm .
+lex:D9020\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9020    lex:temArtigo    lex:D9020\/Artigo1 .
+lex:D9020\/Artigo1    lex:temConteudo    "Art. 1 º  A Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto n º 8.950, de 29 de dezembro de 2016, passa a vigorar com a alíquota do Imposto sobre Produtos Industrializados - IPI incidente sobre os produtos classificados no código 2402.90.00 alterada para trinta por cento." .
+lex:D9020\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9020\/Artigo1    lex:temParagrafo    lex:D9020\/Artigo1\/ParagrafoUnico .
+lex:D9020\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto no caput não se aplica ao destaque Ex do código 2402.90.00." .
+lex:D9020\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9020    lex:temArtigo    lex:D9020\/Artigo2 .
+lex:D9020\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor a partir do primeiro dia do quarto mês subsequente ao de sua publicação." .
+lex:D9020\/Artigo1    lex:remetePara    lex:D8950\/ .

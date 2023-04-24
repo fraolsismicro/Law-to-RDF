@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7674    lex:ehUm    lex:DocLegal .
+lex:L7674    lex:temTextoIntegral    lex:HTMLs\/L7674.htm .
+lex:L7674\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7674    lex:temArtigo    lex:L7674\/Artigo1 .
+lex:L7674\/Artigo1    lex:temConteudo    "Art. 1º Fica o Instituto de Administração Financeira da Previdência e Assistência Social - IAPAS autorizado a doar à ACADEMIA NACIONAL DE MEDICINA as áreas de 567m² (quinhentos e sessenta e sete metros quadrados) e 756m² (setecentos e cinqüenta e seis metros quadrados), correspondentes, respectivamente, aos lotes nºs 18 e 19 da Quadra 14C da Esplanada do Castelo, situados à Avenida General Justo, na cidade do Rio de Janeiro, havidos por escritura pública de compra e venda, lavrada no Cartório de Notas do 5º Ofício, à fls. 89 do livro 1.110, em 3 de junho de 1949." .
+lex:L7674\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7674    lex:temArtigo    lex:L7674\/Artigo2 .
+lex:L7674\/Artigo2    lex:temConteudo    "Art. 2º Os terrenos indicados no artigo anterior destinam-se exclusivamente à instalação dos centros de estudo e pesquisa da ACADEMIA NACIONAL DE MEDICINA." .
+lex:L7674\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7674\/Artigo2    lex:temParagrafo    lex:L7674\/Artigo2\/ParagrafoUnico .
+lex:L7674\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Academia Nacional de Medicina poderá, a título de retribuição pelos custos de construção, conceder à construtora dos prédios referidos no caput o direito de exploração comercial de parte destes por prazo de até vinte anos.(Incluído pela Lei nº 9.798, de 1999)" .
+lex:L7674\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7674    lex:temArtigo    lex:L7674\/Artigo3 .
+lex:L7674\/Artigo3    lex:temConteudo    "Art. 3º Os imóveis doados reverterão ao patrimônio do IAPAS, independentemente de qualquer indenização, ainda que por benfeitorias realizadas, em caso de dissolução, liquidação ou extinção da entidade, se lhes vier a ser dada, no todo ou em parte, destinação diversa da prevista no artigo anterior, ou se, no prazo de seis meses, contados da data da escritura de doação, não houverem sido adotadas, pela donatária, providências para a construção dos centros de estudo e pesquisa. (Vide Lei nº 9.798, de 1999)" .
+lex:L7674\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7674    lex:temArtigo    lex:L7674\/Artigo4 .
+lex:L7674\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7674\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7674    lex:temArtigo    lex:L7674\/Artigo5 .
+lex:L7674\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L7674\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L9798\/Artigo1 .
+lex:L7674\/Artigo3    lex:remetePara    lex:L9798\/Artigo2 .

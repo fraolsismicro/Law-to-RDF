@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0521    lex:ehUm    lex:DocLegal .
+lex:D0521    lex:temTextoIntegral    lex:HTMLs\/D0521.htm .
+lex:D0521\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0521    lex:temArtigo    lex:D0521\/Artigo1 .
+lex:D0521\/Artigo1    lex:temConteudo    "Art. 1º As despesas com hospedagem em hotéis de servidor civil da administração direta, das autarquias e das fundações públicas federais, que se deslocar a serviço, em missão de apoio à organização da Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento - Conferência do Rio, da localidade onde tem exercício para a cidade do Rio de Janeiro, correrão à conta dos recursos orçamentários consignados ao seu respectivo órgão ou ao Núcleo de Administração Geral do Grupo de Trabalho Nacional de Organização da Conferência do Rio." .
+lex:D0521\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0521\/Artigo1    lex:temParagrafo    lex:D0521\/Artigo1\/ParagrafoUnico .
+lex:D0521\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A indenização de despesas com alimentação e locomoção urbana, assim como as demais disposições sobre a concessão de diárias, observará o disposto no Decreto nº 343, de 19 de novembro de 1991." .
+lex:D0521\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0521    lex:temArtigo    lex:D0521\/Artigo2 .
+lex:D0521\/Artigo2    lex:temConteudo    "Art. 2º O disposto neste Decreto aplica-se aos deslocamentos dos colaboradores eventuais." .
+lex:D0521\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0521    lex:temArtigo    lex:D0521\/Artigo3 .
+lex:D0521\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .

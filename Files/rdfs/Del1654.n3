@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1654    lex:ehUm    lex:DocLegal .
+lex:Del1654    lex:temTextoIntegral    lex:HTMLs\/Del1654.htm .
+lex:Del1654\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1654    lex:temArtigo    lex:Del1654\/Artigo1 .
+lex:Del1654\/Artigo1    lex:temConteudo    "Art. 1º O item I do artigo 59 do Decreto-lei nº 1.598, de 26 de dezembro de 1977, passa a vigorar com a seguinte redação:" .
+lex:Del1654\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1654    lex:temArtigo    lex:Del1654\/Artigo2 .
+lex:Del1654\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1654\/Artigo1    lex:remetePara    lex:Del1598\/Artigo59 .

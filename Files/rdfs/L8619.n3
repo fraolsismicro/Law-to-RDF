@@ -1,0 +1,59 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8619    lex:ehUm    lex:DocLegal .
+lex:L8619    lex:temTextoIntegral    lex:HTMLs\/L8619.htm .
+lex:L8619\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8619    lex:temArtigo    lex:L8619\/Artigo1 .
+lex:L8619\/Artigo1    lex:temConteudo    "Art. 1º O § do art. 6º da Lei nº 8.212, de 24 de julho de 1991, passa a vigorar com a seguinte redação:" .
+lex:L8619\/Artigo1\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L8619\/Artigo1    lex:temParagrafo    lex:L8619\/Artigo1\/ParagrafoO .
+lex:L8619\/Artigo1\/ParagrafoO    lex:temConteudo    "1º O Conselho Nacional de Seguridade Social terá dezessete membros e respectivos suplentes, sendo:" .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:ehUm    lex:Alinea .
+lex:L8619\/Artigo1\/ParagrafoO    lex:temAlinea    lex:L8619\/Artigo1\/ParagrafoO\/Alinea .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:temConteudo    "a) .........................................." .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:ehUm    lex:Alinea .
+lex:L8619\/Artigo1\/ParagrafoO    lex:temAlinea    lex:L8619\/Artigo1\/ParagrafoO\/Alinea .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:temConteudo    "b) .........................................." .
+lex:L8619\/Artigo1\/ParagrafoO\/AlineaOito    lex:ehUm    lex:Alinea .
+lex:L8619\/Artigo1\/ParagrafoO    lex:temAlinea    lex:L8619\/Artigo1\/ParagrafoO\/AlineaOito .
+lex:L8619\/Artigo1\/ParagrafoO\/AlineaOito    lex:temConteudo    "c) oito representantes da sociedade civil, sendo quatro trabalhadores, dos quais pelo menos dois aposentados, e quatro empresários;" .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:ehUm    lex:Alinea .
+lex:L8619\/Artigo1\/ParagrafoO    lex:temAlinea    lex:L8619\/Artigo1\/ParagrafoO\/Alinea .
+lex:L8619\/Artigo1\/ParagrafoO\/Alinea    lex:temConteudo    "d) .........................................'" .
+lex:L8619\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8619    lex:temArtigo    lex:L8619\/Artigo2 .
+lex:L8619\/Artigo2    lex:temConteudo    "Art. 2º O art. 3º da Lei nº 8.213, de 24 de julho de 1991, passa a vigorar com a seguinte redação:" .
+lex:L8619\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8619\/Artigo2    lex:temInciso    lex:L8619\/Artigo2\/IncisoI .
+lex:L8619\/Artigo2\/IncisoI    lex:temConteudo    "I - seis representantes do Governo Federal;" .
+lex:L8619\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8619\/Artigo2    lex:temInciso    lex:L8619\/Artigo2\/IncisoII .
+lex:L8619\/Artigo2\/IncisoII    lex:temConteudo    "II - nove representantes da sociedade civil, sendo:" .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8619\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temConteudo    "a) três representantes dos aposentados e pensionistas;" .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temIncisoAlinea    lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres    lex:temConteudo    "b) três representantes dos trabalhadores em atividades;" .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres    lex:temIncisoAlinea    lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres    lex:temConteudo    "c) três representantes dos empregadores." .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres    lex:temIncisoAlineaItem    lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaItem .
+lex:L8619\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaItem    lex:temConteudo    "................................................." .
+lex:L8619\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8619    lex:temArtigo    lex:L8619\/Artigo3 .
+lex:L8619\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8619\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8619    lex:temArtigo    lex:L8619\/Artigo4 .
+lex:L8619\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L8619\/Artigo1\/ParagrafoO    lex:remetePara    lex:L8212\/Artigo6\/Paragrafo1 .
+lex:L8619\/Artigo1\/ParagrafoO\/AlineaOito    lex:remetePara    lex:L8212\/Artigo6\/Paragrafo1c .
+lex:L8619\/Artigo2\/IncisoI    lex:remetePara    lex:L8213cons\/Artigo3 .
+lex:L8619\/Artigo2\/IncisoII    lex:remetePara    lex:L8213cons\/Artigo3 .

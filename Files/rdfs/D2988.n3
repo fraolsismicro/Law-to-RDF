@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2988    lex:ehUm    lex:DocLegal .
+lex:D2988    lex:temTextoIntegral    lex:HTMLs\/D2988.htm .
+lex:D2988\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2988    lex:temArtigo    lex:D2988\/Artigo1 .
+lex:D2988\/Artigo1    lex:temConteudo    "Art. 1o  O disposto nos incisos I e II do caput do art. 1o do Decreto no 757, de 19 de fevereiro de 1993, não se aplica à Petróleo Brasileiro S.A. - PETROBRAS.   (Redação dada pelo Decreto nº 7.678, de 2012)" .
+lex:D2988\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2988    lex:temArtigo    lex:D2988\/Artigo2 .
+lex:D2988\/Artigo2    lex:temConteudo    "Art. 2o  Não se aplicam, igualmente, à PETROBRÁS as restrições contidas nos arts. 1º e 2o do Decreto no 1.091, de 21 de março de 1994." .
+lex:D2988\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2988    lex:temArtigo    lex:D2988\/Artigo2 .
+lex:D2988\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D2988\/Artigo1    lex:remetePara    lex:D0757\/Artigo1 .
+lex:D2988\/Artigo1    lex:remetePara    lex:D0757\/Artigo1 .
+lex:D2988\/Artigo1    lex:remetePara    lex:D7678\/Artigo1 .
+lex:D2988\/Artigo2    lex:remetePara    lex:D1091\/Artigo1 .
+lex:D2988\/Artigo2    lex:remetePara    lex:D1091\/Artigo2 .

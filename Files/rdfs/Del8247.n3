@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del8247    lex:ehUm    lex:DocLegal .
+lex:Del8247    lex:temTextoIntegral    lex:HTMLs\/Del8247.htm .
+lex:Del8247\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del8247    lex:temArtigo    lex:Del8247\/Artigo1 .
+lex:Del8247\/Artigo1    lex:temConteudo    "Art. 1º Acrescente-se ao art. 4º do Decreto-lei nº 6.020, de 3 de outubro de 1944, que dispõe sôbre o pessoal do Instituto Nacional do Pinho." .
+lex:Del8247\/Artigo1\/AlineaGratificacao    lex:ehUm    lex:Alinea .
+lex:Del8247\/Artigo1    lex:temAlinea    lex:Del8247\/Artigo1\/AlineaGratificacao .
+lex:Del8247\/Artigo1\/AlineaGratificacao    lex:temConteudo    "e) Gratificação anual, equivalente, no máximo, ao salário mensansal da função." .
+lex:Del8247\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del8247\/Artigo1    lex:temParagrafo    lex:Del8247\/Artigo1\/ParagrafoUnico .
+lex:Del8247\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os atuais ocupantes das funções em comissão, de Presidente, Secretário-Geral e Delegado Regional (S. Paulo), do I.N.P., poderão continuar a perceber a título precário as respectivas gratificações da representação de Cr$ 2.500,00, Cr$ 1.500,00 e Cr$ 900,00 mensais que lhes foram concedidas pela Junta Deliberativa.'" .
+lex:Del8247\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del8247    lex:temArtigo    lex:Del8247\/Artigo2 .
+lex:Del8247\/Artigo2    lex:temConteudo    "Art. 2º Ficam revogados o Decreto-lei nº 7.220, de 30 de dezembro de 1944, e demais disposições em contrário." .
+lex:Del8247\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del8247    lex:temArtigo    lex:Del8247\/Artigo3 .
+lex:Del8247\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei vigorará a partir de 7 de outubro de 1944." .
+lex:Del8247\/Artigo1    lex:remetePara    lex:Del6920\/Artigo4 .
+lex:Del8247\/Artigo2    lex:remetePara    lex:Del7220 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5438    lex:ehUm    lex:DocLegal .
+lex:L5438    lex:temTextoIntegral    lex:HTMLs\/L5438.htm .
+lex:L5438\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5438    lex:temArtigo    lex:L5438\/Artigo1 .
+lex:L5438\/Artigo1    lex:temConteudo    "Art. 1º O art. 4º do Decreto-lei nº 221, de 28 de fevereiro de 1967, que dispõe sôbre a proteção e estímulos à pesca, e dá outras providências, passa a vigorar com a seguinte redação:" .
+lex:L5438\/Artigo1\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:L5438\/Artigo1    lex:temAlinea    lex:L5438\/Artigo1\/AlineaAs .
+lex:L5438\/Artigo1\/AlineaAs    lex:temConteudo    "a) às águas interiores do Brasil;" .
+lex:L5438\/Artigo1\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:L5438\/Artigo1    lex:temAlinea    lex:L5438\/Artigo1\/AlineaAo .
+lex:L5438\/Artigo1\/AlineaAo    lex:temConteudo    "b) ao mar territorial brasileiro;" .
+lex:L5438\/Artigo1\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:L5438\/Artigo1    lex:temAlinea    lex:L5438\/Artigo1\/AlineaAs .
+lex:L5438\/Artigo1\/AlineaAs    lex:temConteudo    "c) às zonas de alto mar, em conformidade com as disposições dos tratados e convenções internacionais ratificados pelo Brasil;" .
+lex:L5438\/Artigo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L5438\/Artigo1    lex:temAlinea    lex:L5438\/Artigo1\/AlineaA .
+lex:L5438\/Artigo1\/AlineaA    lex:temConteudo    "d) à zona contigua, conforme o estabelecido no Decreto-lei nº 44, de 18 de novembro de 1966;" .
+lex:L5438\/Artigo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L5438\/Artigo1    lex:temAlinea    lex:L5438\/Artigo1\/AlineaA .
+lex:L5438\/Artigo1\/AlineaA    lex:temConteudo    "e) à plataforma submarina, conforme o estabelecido no Decreto número 28.840, de 8 de novembro de 1950, e até a profundidade que esteja de acôrdo com os tratados e convenções internacionais ratificados pelo Brasil.'" .
+lex:L5438\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5438    lex:temArtigo    lex:L5438\/Artigo2 .
+lex:L5438\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5438\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5438    lex:temArtigo    lex:L5438\/Artigo3 .
+lex:L5438\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5438\/Artigo1    lex:remetePara    lex:Del0221\/Artigo4 .

@@ -1,0 +1,62 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.784    lex:ehUm    lex:DocLegal .
+lex:L10.784    lex:temTextoIntegral    lex:HTMLs\/L10.784.htm .
+lex:L10784\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/IncisoI .
+lex:L10784\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União, do exercício de 2002, no valor de R$ 3.906.420.144,00 (três bilhões, novecentos e seis milhões, quatrocentos e vinte mil, cento e quarenta e quatro reais);" .
+lex:L10784\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/IncisoII .
+lex:L10784\/IncisoII    lex:temConteudo    "II - excesso de arrecadação, no valor de R$ 4.078.123.575,00 (quatro bilhões, setenta e oito milhões, cento e vinte e três mil, quinhentos e setenta e cinco reais), sendo:" .
+lex:L10784\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10784\/IncisoII    lex:temIncisoAlinea    lex:L10784\/IncisoII\/IncisoAlineaRS .
+lex:L10784\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 1.658.712.118,00 (um bilhão, seiscentos e cinqüenta e oito milhões, setecentos e doze mil, cento e dezoito reais) da Contribuição Social sobre o Lucro Líquido das Pessoas Jurídicas;" .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10784\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 1.939.480.627,00 (um bilhão, novecentos e trinta e nove milhões, quatrocentos e oitenta mil, seiscentos e vinte e sete reais) das Contribuições Previdenciárias para o Regime Geral de Previdência Social;" .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 288.651.621,00 (duzentos e oitenta e oito milhões, seiscentos e cinqüenta e um mil, seiscentos e vinte e um reais) de recursos próprios financeiros; e" .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10784\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 191.279.209,00 (cento e noventa e um milhões, duzentos e setenta e nove mil, duzentos e nove reais) de recursos próprios não-financeiros; e" .
+lex:L10784\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/IncisoIII .
+lex:L10784\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias no valor de R$ 2.651.123.917,00 (dois bilhões, seiscentos e cinqüenta e um milhões, cento e vinte e três mil, novecentos e dezessete reais), conforme indicado no Anexo II desta Lei." .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "M" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "I" .
+lex:L10784\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/IncisoV .
+lex:L10784\/IncisoV    lex:temConteudo    "V A L O R" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "D" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "D" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "M" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "I" .
+lex:L10784\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/IncisoV .
+lex:L10784\/IncisoV    lex:temConteudo    "V A L O R" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "D" .
+lex:L10784\/Inciso    lex:ehUm    lex:Inciso .
+lex:L10784    lex:temInciso    lex:L10784\/Inciso .
+lex:L10784\/Inciso    lex:temConteudo    "D" .
+lex:L10784\/Artigo1    lex:remetePara    lex:L10640 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6151    lex:ehUm    lex:DocLegal .
+lex:D6151    lex:temTextoIntegral    lex:HTMLs\/D6151.htm .
+lex:D6151\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6151    lex:temArtigo    lex:D6151\/Artigo1 .
+lex:D6151\/Artigo1    lex:temConteudo    "Art. 1o  O art. 5o do Decreto no 6.041, de 8 de fevereiro de 2007, passa a vigorar com a seguinte redação:" .
+lex:D6151\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:D6151\/Artigo1    lex:temInciso    lex:D6151\/Artigo1\/IncisoXVI .
+lex:D6151\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES;" .
+lex:D6151\/Artigo1\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:D6151\/Artigo1    lex:temInciso    lex:D6151\/Artigo1\/IncisoXVII .
+lex:D6151\/Artigo1\/IncisoXVII    lex:temConteudo    "XVII - Agência Brasileira de Desenvolvimento Industrial - ABDI;" .
+lex:D6151\/Artigo1\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:D6151\/Artigo1    lex:temInciso    lex:D6151\/Artigo1\/IncisoXVIII .
+lex:D6151\/Artigo1\/IncisoXVIII    lex:temConteudo    "XVIII - Instituto Nacional de Metrologia, Normalização e Qualidade Industrial - INMETRO; e" .
+lex:D6151\/Artigo1\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D6151\/Artigo1    lex:temInciso    lex:D6151\/Artigo1\/IncisoXIX .
+lex:D6151\/Artigo1\/IncisoXIX    lex:temConteudo    "XIX - Fundação Oswaldo Cruz - FIOCRUZ." .
+lex:D6151\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6151    lex:temArtigo    lex:D6151\/Artigo2 .
+lex:D6151\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6151\/Texto    lex:remetePara    lex:D6151 .
+lex:D6151\/Artigo1    lex:remetePara    lex:D6041\/Artigo5 .

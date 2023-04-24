@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4702    lex:ehUm    lex:DocLegal .
+lex:D4702    lex:temTextoIntegral    lex:HTMLs\/D4702.htm .
+lex:D4702\/AlineaPraticas    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaPraticas .
+lex:D4702\/AlineaPraticas    lex:temConteudo    "a) 'Prática(s) Anticompetitiva(s)' significa qualquer conduta ou transação que possa estar sujeita a penalidades ou outras sanções, ao amparo das leis de concorrência de uma Parte;" .
+lex:D4702\/AlineaAutoridades    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaAutoridades .
+lex:D4702\/AlineaAutoridades    lex:temConteudo    "b) 'Autoridade(s) de Defesa da Concorrência' são:" .
+lex:D4702\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaPara .
+lex:D4702\/AlineaPara    lex:temConteudo    "i) para o Brasil, o Conselho Administrativo de Defesa Econômica (CADE) e a Secretaria de Direito Econômico (SDE) do Ministério da Justiça; e a Secretaria de Acompanhamento Econômico (SEAE) do Ministério da Fazenda;" .
+lex:D4702\/AlineaLeis    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaLeis .
+lex:D4702\/AlineaLeis    lex:temConteudo    "c) 'Lei(s) de Concorrência' são:" .
+lex:D4702\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaPara .
+lex:D4702\/AlineaPara    lex:temConteudo    "i) para o Brasil, as Leis 8884/94 e 9021/95;" .
+lex:D4702\/AlineaAtividades    lex:ehUm    lex:Alinea .
+lex:D4702    lex:temAlinea    lex:D4702\/AlineaAtividades .
+lex:D4702\/AlineaAtividades    lex:temConteudo    "d) 'Atividade(s) de Aplicação' (das Leis de Concorrência) significa qualquer investigação ou procedimento conduzido por uma Parte, ao amparo de suas leis de concorrência;" .
+lex:D4702\/AlineaAtividades\/ItemCada    lex:ehUm    lex:Item .
+lex:D4702\/AlineaAtividades    lex:temItem    lex:D4702\/AlineaAtividades\/ItemCada .
+lex:D4702\/AlineaAtividades\/ItemCada    lex:temConteudo    "3. Cada Parte deverá notificar prontamente à outra quaisquer emendas a suas Leis de Concorrência, bem como novas leis ou regulamentos que a Parte considere fazerem parte de sua legislação sobre concorrência." .
+lex:D4702\/Artigo2    lex:remetePara    lex:Constituiçao\/49 .

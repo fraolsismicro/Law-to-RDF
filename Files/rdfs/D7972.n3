@@ -1,0 +1,153 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7972    lex:ehUm    lex:DocLegal .
+lex:D7972    lex:temTextoIntegral    lex:HTMLs\/D7972.htm .
+lex:D7972\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/ParagrafoUnico .
+lex:D7972\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As especificações técnicas da insígnia da Ordem serão definidas por ato do Secretário do Conselho de Ordem. (NR)" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - por ato do Presidente da República, mediante proposta do Ministro de Estado da Defesa:" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNos .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNos    lex:temConteudo    "a) nos graus de Grã-Cruz e Grande Oficial;" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDos    lex:ehUm    lex:Alinea .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDos .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDos    lex:temConteudo    "b) dos militares das Forças Armadas agraciados em qualquer grau; e" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDas    lex:ehUm    lex:Alinea .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDas .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDas    lex:temConteudo    "c) das corporações militares e instituições civis, nacionais e estrangeiras, suas bandeiras ou estandartes; e" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - por ato do Ministro de Estado da Defesa, nos demais casos. (NR)" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - Chefe do Estado-Maior do Exército;" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - generais de exército nomeados para o cargo de Ministro do Superior Tribunal Militar;" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - generais de exército nomeados para cargos no Ministério da Defesa e órgãos subordinados;" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - titulares dos órgãos de direção setorial;" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - comandantes militares de área; e" .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7972\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D7972\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - Chefe de Gabinete do Comandante do Exército." .
+lex:D7972\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo1 .
+lex:D7972\/Paragrafo1    lex:temConteudo    "§ 1o Os militares do Exército a serem propostos deverão estar diretamente subordinados aos seus proponentes." .
+lex:D7972\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo2 .
+lex:D7972\/Paragrafo2    lex:temConteudo    "§ 2o Os militares de outras Forças e personalidades civis deverão ter estreita ligação à área de atuação do proponente." .
+lex:D7972\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo3 .
+lex:D7972\/Paragrafo3    lex:temConteudo    "§ 3o As propostas deverão ser encaminhadas à Secretaria-Geral do Exército por meio de sistema eletrônico constante da rede do Comando do Exército. (NR)" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoI .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - Grã-Cruz: aos chefes de Estado;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - Grande-Oficial: aos oficiais-generais comandantes e chefes de estado-maior de Força Armada, quando de posto equivalente no mínimo a general de divisão;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - Comendador: aos demais oficiais-generais;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIV .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - Oficial: aos oficiais superiores; e" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoV .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoV    lex:temConteudo    "V - Cavaleiro: aos demais militares." .
+lex:D7972\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/ParagrafoUnico .
+lex:D7972\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As personalidades civis serão admitidas na Ordem, na forma deste Regulamento, nos graus correspondentes às funções que desempenham, à posição social que ocupam ou ao nível de escolaridade, e será estabelecida, sempre que possível, correlação entre as situações civis e as militares descritas neste artigo. (NR)" .
+lex:D7972\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo1 .
+lex:D7972\/Paragrafo1    lex:temConteudo    "§ 1o As indicações para admissão no Quadro Ordinário, feitas pelas autoridades proponentes constantes do art. 18, serão estipuladas, anualmente, mediante cotas estabelecidas pelo Chanceler da Ordem." .
+lex:D7972\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo2 .
+lex:D7972\/Paragrafo2    lex:temConteudo    "§ 2o Ao Conselho compete, exclusivamente, a indicação de percentual do efetivo a ser admitido na Ordem." .
+lex:D7972\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo3 .
+lex:D7972\/Paragrafo3    lex:temConteudo    "§ 3o O período mencionado no caput não se aplica aos processos:" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoI .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - resultantes da iniciativa do Conselho da Ordem;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - relativos a militares, civis e entidades estrangeiras, quando em visita oficial ao Brasil; e" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - post mortem. (NR)" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoI .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - ser possuidor da Medalha Militar de Ouro ou Prata e da Medalha do Pacificador;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - encontrar-se no comportamento excepcional, para praças;" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - distinguir-se no âmbito da Força, ou entre os seus pares, pelo valor pessoal e pelo zelo profissional; e" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIV .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - ter prestado ao Exército ou à segurança nacional serviços de relevância, em qualquer domínio. (NR)" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II -.................................................................................." .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaTenham    lex:ehUm    lex:Alinea .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaTenham .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaTenham    lex:temConteudo    "a) tenham sido condenados pela justiça brasileira em qualquer foro, por crime contra a integridade e a soberania nacionais, ou atentado contra o erário, as instituições e a sociedade; e" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaRecusarem    lex:ehUm    lex:Alinea .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII    lex:temAlinea    lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaRecusarem .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaRecusarem    lex:temConteudo    "b) recusarem a admissão ou promoção ou devolverem as insígnias da Ordem que lhe hajam sido conferidas; e" .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7972\/Paragrafo3    lex:temParagrafoInciso    lex:D7972\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - ................................................................................" .
+lex:D7972\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo1 .
+lex:D7972\/Paragrafo1    lex:temConteudo    "§ 1º As exclusões serão feitas por ato  do Presidente da República ou do Ministro de Estado da Defesa, nos termos do art. 12, mediante proposta do Conselho." .
+lex:D7972\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/Paragrafo2 .
+lex:D7972\/Paragrafo2    lex:temConteudo    "§ 2o A exclusão da Ordem só poderá ser proposta ao Presidente da República ou ao Ministro de Estado da Defesa, quando aprovada por unanimidade dos membros do Conselho." .
+lex:D7972\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7972    lex:temParagrafo    lex:D7972\/ParagrafoUnico .
+lex:D7972\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso do caput, a condecoração não será imposta na pessoa designada pela família para recebê-la e será entregue em seu estojo de acondicionamento. (NR)" .
+lex:D7972\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7972    lex:temArtigo    lex:D7972\/Artigo2 .
+lex:D7972\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7972\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7972    lex:temArtigo    lex:D7972\/Artigo3 .
+lex:D7972\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados:" .
+lex:D7972\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7972\/Artigo3    lex:temInciso    lex:D7972\/Artigo3\/IncisoI .
+lex:D7972\/Artigo3\/IncisoI    lex:temConteudo    "I - a alínea c do inciso II do caput do art. 33 do Anexo I ao Decreto no 3.522, de 26 de junho de 2000; e" .
+lex:D7972\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7972\/Artigo3    lex:temInciso    lex:D7972\/Artigo3\/IncisoII .
+lex:D7972\/Artigo3\/IncisoII    lex:temConteudo    "II - o Anexo II ao Decreto nº 3.522, de 26 de junho de 2000." .
+lex:D7972\/Texto    lex:remetePara    lex:D3522\/ .
+lex:D7972\/Texto    lex:remetePara    lex:D3522\/anexoiArtigo3 .
+lex:D7972\/Texto00001    lex:remetePara    lex:D3522\/anexoiArtigo11 .
+lex:D7972\/Texto00001    lex:remetePara    lex:D3522\/anexoiArtigo12 .
+lex:D7972\/ParagrafoUnico\/Texto00006    lex:remetePara    lex:D3522\/anexoiArtigo16 .
+lex:D7972\/ParagrafoUnico\/Texto00006    lex:remetePara    lex:D3522\/anexoiArtigo18 .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoI    lex:remetePara    lex:D3522\/anexoiArtigo21 .
+lex:D7972\/Texto00021    lex:remetePara    lex:D3522\/anexoiArtigo23 .
+lex:D7972\/Paragrafo3\/Texto00027    lex:remetePara    lex:D3522\/anexoiArtigo25 .
+lex:D7972\/Paragrafo3\/Texto00031    lex:remetePara    lex:D3522\/anexoiArtigo26 .
+lex:D7972\/Paragrafo3\/ParagrafoIncisoII\/AlineaTenham    lex:remetePara    lex:D3522\/anexoiArtigo33 .
+lex:D7972\/Paragrafo1    lex:remetePara    lex:D3522\/anexoiArtigo33\/Paragrafo1 .
+lex:D7972\/Texto00037    lex:remetePara    lex:D3522\/anexoiArtigo34 .
+lex:D7972\/Texto00037    lex:remetePara    lex:D3522\/anexoiArtigo38 .
+lex:D7972\/Texto00037    lex:remetePara    lex:D3522\/anexoiArtigo42 .
+lex:D7972\/Artigo3\/IncisoI    lex:remetePara    lex:D3522\/anexoiArtigo33 .
+lex:D7972\/Artigo3\/IncisoII    lex:remetePara    lex:D3522\/ .

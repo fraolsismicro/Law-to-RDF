@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10821    lex:ehUm    lex:DocLegal .
+lex:D10821    lex:temTextoIntegral    lex:HTMLs\/D10821.htm .
+lex:D10821\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10821    lex:temArtigo    lex:D10821\/Artigo1A .
+lex:D10821\/Artigo1A    lex:temConteudo    "Art. 1Âº  Fica revogado o inciso I do Â§ 2Âº do art. 18 ao Anexo I do Decreto nÂº 10.610, de 27 de janeiro de 2021." .
+lex:D10821\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10821    lex:temArtigo    lex:D10821\/Artigo2A .
+lex:D10821\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10821\/Artigo1A    lex:remetePara    lex:D10610\/anexo1Artigo18Â§2 .

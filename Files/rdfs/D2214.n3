@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2214    lex:ehUm    lex:DocLegal .
+lex:D2214    lex:temTextoIntegral    lex:HTMLs\/D2214.htm .
+lex:D2214\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo1 .
+lex:D2214\/Artigo1    lex:temConteudo    "Art 1º A movimentação e o empenho de dotações dos órgãos do Poder Executivo, dos grupos Outras Despesas Correntes, Investimentos, Inversões Financeiras e Outras Despesas de Capital, constantes da Lei nº 9.438, de 26 de fevereiro de 1997, ficam limitados aos valores constantes do Anexo I deste Decreto." .
+lex:D2214\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo1    lex:temParagrafo    lex:D2214\/Artigo1\/Paragrafo1 .
+lex:D2214\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Excluem-se do disposto no caput deste artigo as dotações:" .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaReferentes    lex:ehUm    lex:Alinea .
+lex:D2214\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D2214\/Artigo1\/Paragrafo1\/AlineaReferentes .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaReferentes    lex:temConteudo    "a) referentes às transferências constitucionais;" .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaCusteados    lex:ehUm    lex:Alinea .
+lex:D2214\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D2214\/Artigo1\/Paragrafo1\/AlineaCusteados .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaCusteados    lex:temConteudo    "b) custeados com fontes não integrantes do Anexo I deste Decreto;" .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaRelativas    lex:ehUm    lex:Alinea .
+lex:D2214\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D2214\/Artigo1\/Paragrafo1\/AlineaRelativas .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaRelativas    lex:temConteudo    "c) relativas à contrapartida nacional de empréstimos e de doações;" .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaDestinadas    lex:ehUm    lex:Alinea .
+lex:D2214\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D2214\/Artigo1\/Paragrafo1\/AlineaDestinadas .
+lex:D2214\/Artigo1\/Paragrafo1\/AlineaDestinadas    lex:temConteudo    "d) destinadas ao pagamento de Benefícios Previdenciários à conta de recursos do Fundo de Estabilização Fiscal, originárias das contribuições dos empregadores e dos trabalhadores para a Seguridade Social." .
+lex:D2214\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo1    lex:temParagrafo    lex:D2214\/Artigo1\/Paragrafo2 .
+lex:D2214\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O Ministério do Planejamento e Orçamento poderá remanejar os limites de projetos e atividades de que trata o Anexo I deste Decreto, desde que sejam mantidos o montante autorizado para cada órgão ou unidade orçamentária e o valor estabelecido para o conjunto das fontes do grupo A e do grupo B. p Art 2º A Secretaria de Orçamento Federal, do Ministério do Planejamento e Orçamento, providenciará a disponibilização dos valores das dotações de subatividades, observado o limite de atividades indicado no Anexo I, a que se refere o art. 1º deste Decreto, independentemente de solicitação dos órgãos Setoriais de Orçamento ou equivalentes." .
+lex:D2214\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo3 .
+lex:D2214\/Artigo3    lex:temConteudo    "Art 3º Até o dia 30 de junho do corrente exercício as dotações de subprojetos poderão ser utilizadas pelos órgãos responsáveis pela execução dos créditos orçamentários, observado o limite para projetos estabelecido no Anexo I deste Decreto." .
+lex:D2214\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo3    lex:temParagrafo    lex:D2214\/Artigo3\/ParagrafoUnico .
+lex:D2214\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A partir do dia 1º de julho a movimentação e o empenho das despesas relativas a subprojetos dependerá de prévia aprovação, pela Secretaria de Orçamento Federal, da proposta de programação anual a ser apresentada até 20 de junho pelos órgãos detentores dos respectivos créditos orçamentários, através do Sistema Integrado de Dados Orçamentários - SIDOR, observado o limite referido no caput deste artigo." .
+lex:D2214\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo4 .
+lex:D2214\/Artigo4    lex:temConteudo    "Art 4º As liberações dos recursos financeiros pela Secretaria do Tesouro Nacional, do Ministério da Fazenda, para execução     das despesas de que trata o Anexo I, bem como para os Restos a Pagar do exercício de 1996, vinculados a despesas da mesma categoria e fontes de que trata o art. 1º deste Decreto, terão como base os montantes indicados nos Anexos II e III deste Decreto." .
+lex:D2214\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo4    lex:temParagrafo    lex:D2214\/Artigo4\/Paragrafo1 .
+lex:D2214\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º As liberações de recursos financeiros acumuladas até o final de cada bimestre não poderão ultrapassar em mais de dezoito por cento os montantes indicados nos Anexos II e III para cada órgão ou entidade." .
+lex:D2214\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo4    lex:temParagrafo    lex:D2214\/Artigo4\/Paragrafo2 .
+lex:D2214\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º O Ministro de Estado da Fazenda estabelecerá, em cada bimestre, o fator a ser aplicado aos valores indicados nos Anexos II e III, para fins de determinação do montante da liberação financeira do período, observado o limite estabelecido no parágrafo anterior, e levando em consideração as metas fiscais para 1997." .
+lex:D2214\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo4    lex:temParagrafo    lex:D2214\/Artigo4\/Paragrafo3 .
+lex:D2214\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3º O Ministro de Estado da Fazenda poderá, ainda, ampliar os limites de liberação financeira de cada órgão, desde que o acréscimo total das liberações não ultrapasse 2% do valor global estabelecido no anexo II." .
+lex:D2214\/Artigo4\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo4    lex:temParagrafo    lex:D2214\/Artigo4\/Paragrafo4 .
+lex:D2214\/Artigo4\/Paragrafo4    lex:temConteudo    "§ 4º Nos casos de descentralização de créditos orçamentários, o limite financeiro de que trata este artigo deverá ser igualmente descentralizado, desde que se refira a despesa cujo pagamento deva ocorrer no exercício de 1997." .
+lex:D2214\/Artigo4\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo4    lex:temParagrafo    lex:D2214\/Artigo4\/Paragrafo5 .
+lex:D2214\/Artigo4\/Paragrafo5    lex:temConteudo    "§ 5º Incluem-se nos montantes indicados nos Anexos Il e III as cotas financeiras relativas a DARF eletrônicos emitidos no Sistema Integrado de Administração Financeira do Governo Federal - SIAFI na modalidade sem transferência de recursos." .
+lex:D2214\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo5 .
+lex:D2214\/Artigo5    lex:temConteudo    "Art 5º A Secretaria de Planejamento e Avaliação do Ministério do Planejamento e Orçamento, em cada bimestre, encaminhará à Secretaria do Tesouro Nacional a distribuição, por órgão, dos recursos do Brasil em Ação a serem liberados no período. p Art 6º Os órgãos Setoriais de Programação Financeira do Poder Executivo deverão adotar as providências necessárias a que os compromissos de pagamentos decorrentes de empenho de despesas no âmbito do respectivo órgão sejam assumidos respeitando-se os limites estabelecidos nos Anexos II e III, ajustados pelos fatores previstos no § 2º do art. 4º deste Decreto." .
+lex:D2214\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2214\/Artigo5    lex:temParagrafo    lex:D2214\/Artigo5\/ParagrafoUnico .
+lex:D2214\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O descumprimento do disposto no presente artigo constitui falta grave, aplicando-se aos responsáveis as cominações legais cabíveis." .
+lex:D2214\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo7 .
+lex:D2214\/Artigo7    lex:temConteudo    "Art 7º Aos órgãos setoriais, seccionais e regionais do Sistema de Controle Interno incumbe zelar pelo cumprimento do disposto no art. 6º deste Decreto, bem como responsabilizar os dirigentes e os servidores que praticarem atos em desacordo com as disposições nele contidas." .
+lex:D2214\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo8 .
+lex:D2214\/Artigo8    lex:temConteudo    "Art 8º A Secretaria do Tesouro Nacional poderá reduzir o montante das liberações previstas nos Anexos II e III, em cada bimestre, quando o órgão mantiver disponibilidades financeiras sem utilização, sem prejuízo de sua utilização nos bimestres seguintes." .
+lex:D2214\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo9 .
+lex:D2214\/Artigo9    lex:temConteudo    "Art 9º Os créditos suplementares e especiais que vierem a ser abertos ao longo do exercício de 1997, relativos aos grupos de despesas e fontes de recursos de que trata o art. 1º deste Decreto, terão sua disponibilização condicionada aos limites indicados nos anexos deste Decreto." .
+lex:D2214\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo10 .
+lex:D2214\/Artigo10    lex:temConteudo    "Art 10 Os órgãos Setoriais de orçamento ou equivalentes indicarão à Secretaria de Orçamento Federal as dotações disponíveis de outras despesas correntes e de capital, exceto de amortizações, que deverão ser canceladas para abertura de créditos adicionais, destinados ao atendimento de despesas de pessoal e encargos sociais, sempre que for identificada insuficiência de recursos nestas dotações." .
+lex:D2214\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo11 .
+lex:D2214\/Artigo11    lex:temConteudo    "Art 11 Os órgãos da Administração Pública Direta e Indireta submeterão os processos referentes ao pagamento de precatórios à apreciação da Advocacia-Geral da União, antes do atendimento da requisição judicial." .
+lex:D2214\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo12 .
+lex:D2214\/Artigo12    lex:temConteudo    "Art 12 O Ministério da Fazenda e o Ministério do Planejamento e Orçamento, no âmbito de suas respectivas competências, adotarão as providências necessárias à execução do disposto neste Decreto." .
+lex:D2214\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo13 .
+lex:D2214\/Artigo13    lex:temConteudo    "Art 13 Este Decreto entra em vigor na data de sua publicação." .
+lex:D2214\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D2214    lex:temArtigo    lex:D2214\/Artigo14 .
+lex:D2214\/Artigo14    lex:temConteudo    "Art 14 Fica revogado o Decreto nº 2.183, de 21 de março de 1997." .

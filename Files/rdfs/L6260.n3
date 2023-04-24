@@ -1,0 +1,142 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6260    lex:ehUm    lex:DocLegal .
+lex:L6260    lex:temTextoIntegral    lex:HTMLs\/L6260.htm .
+lex:L6260\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo1 .
+lex:L6260\/Artigo1    lex:temConteudo    "Art. 1º São instituídos em favor dos empregadores rurais e seus dependentes os benefícios de previdência e assistência social, na forma estabelecida nesta Lei." .
+lex:L6260\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo1    lex:temParagrafo    lex:L6260\/Artigo1\/Paragrafo1 .
+lex:L6260\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Considera-se empregador rural, para os efeitos desta Lei, a pessoa física, proprietário ou não, que, em estabelecimento rural ou prédio rústico, explore, com o concurso de empregados, em caráter permanente, diretamente ou através de prepostos, atividade agroeconômica, assim entendidas as atividades agrícolas, pastoris, hortigranjeiras ou a indústria rural, bem como a extração de produtos primários, vegetais ou animais." .
+lex:L6260\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo1    lex:temParagrafo    lex:L6260\/Artigo1\/Paragrafo2 .
+lex:L6260\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Não será considerada, para os efeitos desta Lei, a equiparação prevista no artigo 4º da Lei nº 5.889, de 8 de julho de 1973." .
+lex:L6260\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo1    lex:temParagrafo    lex:L6260\/Artigo1\/Paragrafo3 .
+lex:L6260\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Respeitada a situação dos empregadores rurais que, na data desta Lei, satisfaçam as condições estabelecidas no § 1º, não serão admitidos em seu regime os maiores de 60 anos que, após a sua vigência, se tornarem empregadores rurais por compra ou arrendamento." .
+lex:L6260\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo2 .
+lex:L6260\/Artigo2    lex:temConteudo    "Art. 2º Os benefícios instituídos por esta Lei são os adiante especificados:" .
+lex:L6260\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo2    lex:temInciso    lex:L6260\/Artigo2\/IncisoI .
+lex:L6260\/Artigo2\/IncisoI    lex:temConteudo    "I - quanto ao empregador rural:" .
+lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria .
+lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria    lex:temConteudo    "a) aposentadoria por invalidez;" .
+lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria\/IncisoAlineaAposentadoria    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria\/IncisoAlineaAposentadoria .
+lex:L6260\/Artigo2\/IncisoI\/IncisoAlineaAposentadoria\/IncisoAlineaAposentadoria    lex:temConteudo    "b) aposentadoria por velhice." .
+lex:L6260\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo2    lex:temInciso    lex:L6260\/Artigo2\/IncisoII .
+lex:L6260\/Artigo2\/IncisoII    lex:temConteudo    "II - quanto aos dependentes do empregador rural:" .
+lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao .
+lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao    lex:temConteudo    "a) pensão;" .
+lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao\/IncisoAlineaAuxilio-funeral    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao\/IncisoAlineaAuxilio-funeral .
+lex:L6260\/Artigo2\/IncisoII\/IncisoAlineaPensao\/IncisoAlineaAuxilio-funeral    lex:temConteudo    "b) auxílio-funeral." .
+lex:L6260\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo2    lex:temInciso    lex:L6260\/Artigo2\/IncisoIII .
+lex:L6260\/Artigo2\/IncisoIII    lex:temConteudo    "III - quanto aos benefícios em geral:" .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos    lex:temConteudo    "a) serviços de saúde;" .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao    lex:temConteudo    "b) readaptação profissional;" .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao\/IncisoAlineaServico    lex:ehUm    lex:IncisoAlinea .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao    lex:temIncisoAlinea    lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao\/IncisoAlineaServico .
+lex:L6260\/Artigo2\/IncisoIII\/IncisoAlineaServicos\/IncisoAlineaReadaptacao\/IncisoAlineaServico    lex:temConteudo    "c) serviço social." .
+lex:L6260\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo2    lex:temParagrafo    lex:L6260\/Artigo2\/Paragrafo1 .
+lex:L6260\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O auxílio-funeral, devido por morte do empregador rural, será pago a quem, dependente ou não, houver, comprovadamente, promovido às suas expensas o sepultamento." .
+lex:L6260\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo2    lex:temParagrafo    lex:L6260\/Artigo2\/Paragrafo2 .
+lex:L6260\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º A aposentadoria por velhice será devida a contar dos 65 (sessenta e cinco) anos de idade." .
+lex:L6260\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo3 .
+lex:L6260\/Artigo3    lex:temConteudo    "Art. 3º Os benefícios pecuniários serão fixados em função da contribuição estabelecida no artigo 5º, nas seguintes bases:" .
+lex:L6260\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo3    lex:temInciso    lex:L6260\/Artigo3\/IncisoI .
+lex:L6260\/Artigo3\/IncisoI    lex:temConteudo    "I - aposentadoria por velhice ou invalidez - valor mensal correspendente a 90% (noventa por cento) de 1/12 (um doze avos) da média dos três últimos valores sobre os quais tenha incidido a contribuição anual de que trata o artigo 5º, arredondando-se o resultado para a unidade de cruzeiro imediatamente superior;" .
+lex:L6260\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo3    lex:temInciso    lex:L6260\/Artigo3\/IncisoII .
+lex:L6260\/Artigo3\/IncisoII    lex:temConteudo    "II - pensão - valor correspondente a 70% (setenta por cento) da aposentadoria calculada conforme o item I, arredondando-se o resultado para a unidade de cruzeiro imediatamente superior;" .
+lex:L6260\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo3    lex:temInciso    lex:L6260\/Artigo3\/IncisoIII .
+lex:L6260\/Artigo3\/IncisoIII    lex:temConteudo    "III - auxílio-funeral - concedido e pago nas mesmas bases e condições vigorantes no instituto Nacional de Previdência Social (INPS)." .
+lex:L6260\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo3    lex:temParagrafo    lex:L6260\/Artigo3\/Paragrafo1 .
+lex:L6260\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º Nos casos em que venha a caber a concessão da aposentadoria ou da pensão no exercício de 1977, será considerada como realizada, na forma do artigo 5º, para efeito de cálculo, a contribuição relativa à produção do ano de 1974." .
+lex:L6260\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo3    lex:temParagrafo    lex:L6260\/Artigo3\/Paragrafo2 .
+lex:L6260\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Os valores dos benefícios em manutenção serão reajustados segundo as normas que vigorarem para o reajustamento dos benefícios a cargo do INPS." .
+lex:L6260\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo3    lex:temParagrafo    lex:L6260\/Artigo3\/Paragrafo3 .
+lex:L6260\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º Os valores mensais da aposentadoria por velhice ou invalidez não poderão, em nenhuma hipótese, ser inferiores a 90% (noventa por cento) do maior salário mínimo vigente no País." .
+lex:L6260\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo4 .
+lex:L6260\/Artigo4    lex:temConteudo    "Art. 4º O direito aos benefícios instituídos por esta Lei fica condicionado aos seguintes prazos de carência." .
+lex:L6260\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo4    lex:temInciso    lex:L6260\/Artigo4\/IncisoI .
+lex:L6260\/Artigo4\/IncisoI    lex:temConteudo    "I - pecuniário (artigo 2º, itens I e II) - 12 (doze) meses após o pagamento da primeira contribuição, anual, desde que efetuado o recolhimento da segunda (artigo 5º);" .
+lex:L6260\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo4    lex:temInciso    lex:L6260\/Artigo4\/IncisoII .
+lex:L6260\/Artigo4\/IncisoII    lex:temConteudo    "II - outros benefícios (artigo 2º, item III) - 30 (trinta) dias após o pagamento da primeira contribuição anual." .
+lex:L6260\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo5 .
+lex:L6260\/Artigo5    lex:temConteudo    "Art. 5º Para custeio dos benefícios previstos nesta Lei, fica estabelecida uma contribuição anual obrigatória, a cargo do empregador rural, pagável até 31 de março de cada ano, e correspondente a 12% (doze por cento):" .
+lex:L6260\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo5    lex:temInciso    lex:L6260\/Artigo5\/IncisoI .
+lex:L6260\/Artigo5\/IncisoI    lex:temConteudo    "I - de um décimo do valor da produção rural do ano anterior, já vendida ou avaliada segundo as cotações do mercado; e" .
+lex:L6260\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo5    lex:temInciso    lex:L6260\/Artigo5\/IncisoII .
+lex:L6260\/Artigo5\/IncisoII    lex:temConteudo    "II - de um vigésimo do valor da parte da propriedade rural porventura mantida sem cultivo, segundo a última avaliação efetuada pelo INCRA." .
+lex:L6260\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo5    lex:temParagrafo    lex:L6260\/Artigo5\/ParagrafoUnico .
+lex:L6260\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O valor total que servirá de base de cálculo para a contribuição anual devida pelo empregador rural não será inferior a 12 (doze) nem superior a 120 (cento e vinte) salários mínimos de maior valor vigente no País, arredondando-se as frações para o milhar de cruzeiros imediatamente superior." .
+lex:L6260\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo6 .
+lex:L6260\/Artigo6    lex:temConteudo    "Art. 6º O empregador rural que entrar em gozo de aposentadoria continuará obrigado à contribuição que lhe couber, na forma do artigo anterior se prosseguir na exploração da respectiva atividade ou voltar a explorá-la." .
+lex:L6260\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo7 .
+lex:L6260\/Artigo7    lex:temConteudo    "Art. 7º Os benefícios previstos nesta Lei não serão concedidos ao empregador rural, ou a seus dependentes, na falta de pagamento da contribuição devida, até que esta seja recolhida com os seguintes acréscimos:" .
+lex:L6260\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo7    lex:temInciso    lex:L6260\/Artigo7\/IncisoI .
+lex:L6260\/Artigo7\/IncisoI    lex:temConteudo    "I - multa de 10% (dez por cento) por ano ou fração de atraso, calculada sobre o montante do débito, até o limite de 50% (cinquenta por cento) deste;" .
+lex:L6260\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6260\/Artigo7    lex:temInciso    lex:L6260\/Artigo7\/IncisoII .
+lex:L6260\/Artigo7\/IncisoII    lex:temConteudo    "II - juros moratórios de 1% (um por cento) ao mês e correção monetária sobre o aludido montante." .
+lex:L6260\/Artigo7\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo7    lex:temParagrafo    lex:L6260\/Artigo7\/Paragrafo1 .
+lex:L6260\/Artigo7\/Paragrafo1    lex:temConteudo    "§ 1º O débito verificado na forma deste artigo ficará sujeito à cobrança judicial, como dívida pública, pelo mesmo processo e com os privilégios reservados à Fazenda Nacional." .
+lex:L6260\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6260\/Artigo7    lex:temParagrafo    lex:L6260\/Artigo7\/Paragrafo2 .
+lex:L6260\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2º Não haverá incidência de (Vetado) multa e mora quando ocorrerem condições climáticas adversas que comprovadamente afetem a produção." .
+lex:L6260\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo8 .
+lex:L6260\/Artigo8    lex:temConteudo    "Art. 8º O empregador rural que perder essa qualidade e não estiver obrigado a ingressar em outro regime de previdência social poderá permanecer filiado ao FUNRURAL mediante o continuado pagamento da contribuição anual, prevalecendo, para tanto, o valor da última que haja recolhido, que não poderá ser inferior à contribuição mínima de que tratam o artigo 5º e seu parágrafo único." .
+lex:L6260\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo9 .
+lex:L6260\/Artigo9    lex:temConteudo    "Art. 9º Não será beneficiário do FUNRURAL, ficando desobrigado de pagar a contribuição nessa qualidade, o empregador rural que exercer, também, atividade diversa, em virtude da qual seja segurado obrigatório de outra entidade de previdência Social." .
+lex:L6260\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo10 .
+lex:L6260\/Artigo10    lex:temConteudo    "Art. 10. O diretor, sócio-gerente, sócio solidário, sócio cotista que receba pro labore e sócio de indústria em empresa de natureza agrária ou que preste serviços dessa natureza, são segurados obrigatórios do INPS." .
+lex:L6260\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo11 .
+lex:L6260\/Artigo11    lex:temConteudo    "Art. 11. O sistema previdenciário e assistencial instituído por esta Lei será administrado pelo Fundo de Assistência ao Trabalhador Rural - FUNRURAL, a ele se aplicando, em tudo aquilo que não o contraria, o disposto nas Leis Complementares nº 11, de 25 de maio de 1971, nº 16, de 30 de outubro de 1973, e respectiva regulamentação." .
+lex:L6260\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo12 .
+lex:L6260\/Artigo12    lex:temConteudo    "Art. 12. Esta Lei entrará em vigor no dia 1º de janeiro de 1976." .
+lex:L6260\/Artigo13    lex:ehUm    lex:Artigo .
+lex:L6260    lex:temArtigo    lex:L6260\/Artigo13 .
+lex:L6260\/Artigo13    lex:temConteudo    "Art. 13. Revogam-se as disposições em contrário." .
+lex:L6260\/Artigo1\/Paragrafo2    lex:remetePara    lex:L5889\/Artigo4 .
+lex:L6260\/Artigo11    lex:remetePara    lex:Lcp11 .
+lex:L6260\/Artigo11    lex:remetePara    lex:Lcp16 .

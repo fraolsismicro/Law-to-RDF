@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0429    lex:ehUm    lex:DocLegal .
+lex:Del0429    lex:temTextoIntegral    lex:HTMLs\/Del0429.htm .
+lex:Del0429\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0429    lex:temArtigo    lex:Del0429\/Artigo1 .
+lex:Del0429\/Artigo1    lex:temConteudo    "Art. 1º Fica o Ministério da Fazenda autorizado a dar baixa nas responsabilidades inscritas até 1967, decorrentes de despesas realizadas sem crédito orçamentário próprio e com apoio nos artigos 46 e 48 do Código de Contabilidade da União, aprovado pelo Decreto nº 4.536, de 28 de janeiro de 1922." .
+lex:Del0429\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0429\/Artigo1    lex:temParagrafo    lex:Del0429\/Artigo1\/ParagrafoUnico .
+lex:Del0429\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A baixa a que se refere êste artigo independerá de abertura de crédito regularizador de despesa e será registrada no sistema patrimonial." .
+lex:Del0429\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0429    lex:temArtigo    lex:Del0429\/Artigo2 .
+lex:Del0429\/Artigo2    lex:temConteudo    "Art. 2º. A Inspetoria Geral de Finanças do Ministério da Fazenda, em cumprimento ao artigo anterior, procederá, na contabilidade geral da União, aos lançamentos necessários à baixa das contas de responsabilidades registradas e promoverá a remessa, ao Tribunal de Contas, de cópia autêntica dos lançamentos contábeis efetuados." .
+lex:Del0429\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0429    lex:temArtigo    lex:Del0429\/Artigo3 .
+lex:Del0429\/Artigo3    lex:temConteudo    "Art. 3º. Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0429\/Artigo1    lex:remetePara    lex:D4536\/Artigo46 .

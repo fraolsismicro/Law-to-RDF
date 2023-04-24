@@ -1,0 +1,179 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7465    lex:ehUm    lex:DocLegal .
+lex:D7465    lex:temTextoIntegral    lex:HTMLs\/D7465.htm .
+lex:D7465\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo1 .
+lex:D7465\/Artigo1    lex:temConteudo    "Art. 1o  Fica a Secretaria do Conselho de Desenvolvimento Econômico e Social transferida da Secretaria de Relações Institucionais da Presidência da República para a Secretaria de Assuntos Estratégicos da Presidência da República." .
+lex:D7465\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7465\/Artigo1    lex:temParagrafo    lex:D7465\/Artigo1\/ParagrafoUnico .
+lex:D7465\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto neste artigo inclui a transferência das competências, dos acervos técnicos e patrimoniais, e dos direitos e obrigações relativos à Secretaria do Conselho de Desenvolvimento Econômico e Social." .
+lex:D7465\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo2 .
+lex:D7465\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo I, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7465\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo2    lex:temInciso    lex:D7465\/Artigo2\/IncisoI .
+lex:D7465\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Relações Institucionais da Presidência da República para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.6;" .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:temConteudo    "b) cinco DAS 101.5;" .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis    lex:temConteudo    "c) seis DAS 101.4;" .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temConteudo    "d) três DAS 102.3;" .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois .
+lex:D7465\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaCinco\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois    lex:temConteudo    "e) dois DAS 102.2;" .
+lex:D7465\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo2    lex:temInciso    lex:D7465\/Artigo2\/IncisoII .
+lex:D7465\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para a Secretaria de Assuntos Estratégicos da Presidência da República:" .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.6;" .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "b) três DAS 101.5;" .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:temConteudo    "d) seis DAS 101.4;" .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temConteudo    "e) três DAS 102.3;" .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois .
+lex:D7465\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaTres\/IncisoAlineaDois    lex:temConteudo    "f) dois DAS 102.2; e" .
+lex:D7465\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo2    lex:temInciso    lex:D7465\/Artigo2\/IncisoIII .
+lex:D7465\/Artigo2\/IncisoIII    lex:temConteudo    "III - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para a Secretaria de Relações Institucionais da Presidência da República: dois DAS 102.5" .
+lex:D7465\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo3 .
+lex:D7465\/Artigo3    lex:temConteudo    "Art. 3o  O Anexo I do Decreto no 6.207, de 18 de setembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7465\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo2 .
+lex:D7465\/Artigo2    lex:temConteudo    "Art. 2o  ......................................................................................................................................................" .
+lex:D7465\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo2    lex:temInciso    lex:D7465\/Artigo2\/IncisoIII .
+lex:D7465\/Artigo2\/IncisoIII    lex:temConteudo    "III - Secretaria-Executiva;" .
+lex:D7465\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo2    lex:temInciso    lex:D7465\/Artigo2\/IncisoII .
+lex:D7465\/Artigo2\/IncisoII    lex:temConteudo    "II - coordenar, em articulação com a Secretaria-Executiva, o planejamento das ações estratégicas dos órgãos integrantes da estrutura da Secretaria;" .
+lex:D7465\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo4 .
+lex:D7465\/Artigo4    lex:temConteudo    "Art. 4o  A Seção I do Capítulo IV do Anexo I do Decreto no 6.207, de 2007, passa a denominar-se Do Secretário-Executivo da Secretaria de Relações Institucionais." .
+lex:D7465\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo5 .
+lex:D7465\/Artigo5    lex:temConteudo    "Art. 5o  O inciso II do art. 2o do Decreto no 4.744, de 16 de junho de 2003, passa a vigorar com a seguinte redação:" .
+lex:D7465\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo6 .
+lex:D7465\/Artigo6    lex:temConteudo    "Art. 6o  O art. 3o do Decreto no 7.363, de 22 de novembro de 2010, passa a vigorar com a seguinte redação:" .
+lex:D7465\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo7 .
+lex:D7465\/Artigo7    lex:temConteudo    "Art. 7o  O Anexo II do Decreto no 6.207, de 18 de setembro de 2007, passa a vigorar na forma do Anexo II deste Decreto." .
+lex:D7465\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo8 .
+lex:D7465\/Artigo8    lex:temConteudo    "Art. 8o  O Anexo I do Decreto no 6.517, de 28 de julho de 2008, passa a vigorar com as seguintes alterações:" .
+lex:D7465\/Artigo8\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoV .
+lex:D7465\/Artigo8\/IncisoV    lex:temConteudo    "V - coordenação e secretariado do funcionamento do Conselho de Desenvolvimento Econômico e Social. (NR)" .
+lex:D7465\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoI .
+lex:D7465\/Artigo8\/IncisoI    lex:temConteudo    "I - ......................................................................................................................................................" .
+lex:D7465\/Artigo8\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo8\/IncisoI    lex:temIncisoAlinea    lex:D7465\/Artigo8\/IncisoI\/IncisoAlineaSecretaria-Executiva .
+lex:D7465\/Artigo8\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:temConteudo    "b) Secretaria-Executiva;" .
+lex:D7465\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoII .
+lex:D7465\/Artigo8\/IncisoII    lex:temConteudo    "II - ......................................................................................................................................................" .
+lex:D7465\/Artigo8\/IncisoII\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D7465\/Artigo8\/IncisoII    lex:temIncisoAlinea    lex:D7465\/Artigo8\/IncisoII\/IncisoAlineaSecretaria .
+lex:D7465\/Artigo8\/IncisoII\/IncisoAlineaSecretaria    lex:temConteudo    "c) Secretaria do Conselho de Desenvolvimento Econômico e Social." .
+lex:D7465\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoI .
+lex:D7465\/Artigo8\/IncisoI    lex:temConteudo    "I - coordenar e supervisionar a participação do Conselho de Desenvolvimento Econômico e Social junto a entidades e organismos nacionais e internacionais;" .
+lex:D7465\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoII .
+lex:D7465\/Artigo8\/IncisoII    lex:temConteudo    "II - assessorar e assistir ao Ministro de Estado em seu relacionamento com os órgãos da administração pública, com entidades  e  organizações da sociedade civil , nos temas  afetos  ao Conselho de Desenvolvimento Econômico e Social;" .
+lex:D7465\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoIII .
+lex:D7465\/Artigo8\/IncisoIII    lex:temConteudo    "III - acompanhar o andamento dos projetos de interesse do Conselho de Desenvolvimento Econômico e Social em tramitação no Congresso Nacional;" .
+lex:D7465\/Artigo8\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoIV .
+lex:D7465\/Artigo8\/IncisoIV    lex:temConteudo    "IV - assistir aos membros do Conselho de Desenvolvimento Econômico e Social na formulação de atividades e projetos, prestando o apoio logístico e os meios necessários à execução dos trabalhos desenvolvidos;" .
+lex:D7465\/Artigo8\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoV .
+lex:D7465\/Artigo8\/IncisoV    lex:temConteudo    "V - promover a elaboração e consolidação dos planos e programas das atividades de sua área de competência e submetê-los à decisão superior;" .
+lex:D7465\/Artigo8\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoVI .
+lex:D7465\/Artigo8\/IncisoVI    lex:temConteudo    "VI - subsidiar o Conselho de Desenvolvimento Econômico e Social com informações e estudos específicos que possibilitem a formulação consensual de indicações normativas, propostas de políticas e acordos de procedimento relacionados às políticas governamentais;" .
+lex:D7465\/Artigo8\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoVII .
+lex:D7465\/Artigo8\/IncisoVII    lex:temConteudo    "VII - elaborar estudos avaliativos das políticas governamentais e da conjuntura com base em indicadores de desenvolvimento econômico e social;" .
+lex:D7465\/Artigo8\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoVIII .
+lex:D7465\/Artigo8\/IncisoVIII    lex:temConteudo    "VIII - coordenar, promover e compatibilizar estudos  para subsidiar a formulação de políticas e diretrizes específicas, voltadas ao desenvolvimento econômico e social;" .
+lex:D7465\/Artigo8\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoIX .
+lex:D7465\/Artigo8\/IncisoIX    lex:temConteudo    "IX - desenvolver métodos e técnicas de diálogo social com o objetivo de  apoiar as atividades  do Conselho de Desenvolvimento Econômico e Social; e" .
+lex:D7465\/Artigo8\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo8    lex:temInciso    lex:D7465\/Artigo8\/IncisoX .
+lex:D7465\/Artigo8\/IncisoX    lex:temConteudo    "X - realizar outras atividades determinadas pelo Ministro de Estado. (NR)" .
+lex:D7465\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo9 .
+lex:D7465\/Artigo9    lex:temConteudo    "Art. 9o  A Seção I do Capítulo IV do Anexo I do Decreto no 6.517, de 2008, passa a denominar-se Do Secretário-Executivo da Secretaria de Assuntos Estratégicos." .
+lex:D7465\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo10 .
+lex:D7465\/Artigo10    lex:temConteudo    "Art. 10. O Anexo II do Decreto no 6.517, de 28 de julho de 2008, passa a vigorar na forma do Anexo III deste Decreto." .
+lex:D7465\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo11 .
+lex:D7465\/Artigo11    lex:temConteudo    "Art. 11.  A Secretaria de Relações Institucionais e a Secretaria de Assuntos Estratégicos adotarão até 23 de maio de 2011 as providências necessárias para a efetivação das transferências, inclusive quanto à movimentação das dotações orçamentárias destinadas ao órgão transferido." .
+lex:D7465\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo12 .
+lex:D7465\/Artigo12    lex:temConteudo    "Art. 12.  Os apostilamentos decorrentes do disposto neste Decreto deverão ocorrer até 23 de maio de 2011." .
+lex:D7465\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo13 .
+lex:D7465\/Artigo13    lex:temConteudo    "Art. 13.  Ficam revogados:" .
+lex:D7465\/Artigo13\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo13    lex:temInciso    lex:D7465\/Artigo13\/IncisoI .
+lex:D7465\/Artigo13\/IncisoI    lex:temConteudo    "I - o inciso IV do art. 1º, o inciso VI do art. 2º e o art. 8o do Anexo I do Decreto no 6.207, de 18 de setembro de 2007;" .
+lex:D7465\/Artigo13\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7465\/Artigo13    lex:temInciso    lex:D7465\/Artigo13\/IncisoII .
+lex:D7465\/Artigo13\/IncisoII    lex:temConteudo    "II - o Decreto no 6.221, de 4 de outubro de 2007." .
+lex:D7465\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D7465    lex:temArtigo    lex:D7465\/Artigo14 .
+lex:D7465\/Artigo14    lex:temConteudo    "Art. 14.  Este Decreto entra em vigor no dia 6 de maio de 2011.  (Redação dada pelo Decreto nº 7.466, de 2011)" .
+lex:D7465\/Artigo2\/IncisoIII    lex:remetePara    lex:D6207\/anexoArtigo2 .
+lex:D7465\/Artigo2\/IncisoII    lex:remetePara    lex:D6207\/anexoArtigo4 .
+lex:D7465\/Artigo2\/Texto00020    lex:remetePara    lex:D6207\/anexoArtigo5 .
+lex:D7465\/Artigo2\/Texto00020    lex:remetePara    lex:D6207\/anexoArtigo9 .
+lex:D7465\/Artigo2\/Texto00020    lex:remetePara    lex:D6207\/anexoArtigo10 .
+lex:D7465\/Artigo4    lex:remetePara    lex:D6207\/ .
+lex:D7465\/Texto00022    lex:remetePara    lex:D4744\/Artigo2 .
+lex:D7465\/Texto00023    lex:remetePara    lex:D7363\/Artigo3 .
+lex:D7465\/Texto00023    lex:remetePara    lex:D7363\/Artigo3 .
+lex:D7465\/Artigo7    lex:remetePara    lex:D6207\/ .
+lex:D7465\/Artigo8\/IncisoV    lex:remetePara    lex:D6517\/anexoArtigo1 .
+lex:D7465\/Artigo8\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:remetePara    lex:D6517\/anexoArtigo2 .
+lex:D7465\/Artigo8\/IncisoII\/IncisoAlineaSecretaria    lex:remetePara    lex:D6517\/anexoArtigo2 .
+lex:D7465\/Artigo8\/IncisoII\/Texto00030    lex:remetePara    lex:D6517\/anexoArtigo4 .
+lex:D7465\/Artigo8\/IncisoII\/Texto00030    lex:remetePara    lex:D6517\/anexoArtigo6 .
+lex:D7465\/Artigo8\/IncisoII\/Texto00030    lex:remetePara    lex:D6517\/anexoArtigo6 .
+lex:D7465\/Artigo8\/Texto00040    lex:remetePara    lex:D6517\/anexoArtigo7 .
+lex:D7465\/Artigo8\/Texto00040    lex:remetePara    lex:D6517\/anexoArtigo8 .
+lex:D7465\/Artigo9    lex:remetePara    lex:D6517\/ .
+lex:D7465\/Artigo10    lex:remetePara    lex:D6517\/ .
+lex:D7465\/Artigo13\/IncisoI    lex:remetePara    lex:D6207\/anexoiArtigo2 .
+lex:D7465\/Artigo13\/IncisoI    lex:remetePara    lex:D6207\/anexoiArtigo2 .
+lex:D7465\/Artigo13\/IncisoI    lex:remetePara    lex:D6207\/anexoiArtigo8 .
+lex:D7465\/Artigo13\/IncisoII    lex:remetePara    lex:D6221 .
+lex:D7465\/Artigo14    lex:remetePara    lex:D7466\/Artigo2 .

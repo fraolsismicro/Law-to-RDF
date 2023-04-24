@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5026    lex:ehUm    lex:DocLegal .
+lex:D5026    lex:temTextoIntegral    lex:HTMLs\/D5026.htm .
+lex:D5026\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5026    lex:temArtigo    lex:D5026\/Artigo3 .
+lex:D5026\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados o art. 1o do Decreto no 2.397, de 20 de novembro de 1997, o Decreto no 2.497, de 12 de fevereiro de 1998, e o Decreto no 3.639, de 23 de outubro de 2000." .
+lex:D5026\/Texto    lex:remetePara    lex:D5026 .
+lex:D5026\/Texto    lex:remetePara    lex:D93872\/Artigo47 .
+lex:D5026\/Artigo3    lex:remetePara    lex:D2397\/Artigo1 .
+lex:D5026\/Artigo3    lex:remetePara    lex:D2497 .
+lex:D5026\/Artigo3    lex:remetePara    lex:D3639 .

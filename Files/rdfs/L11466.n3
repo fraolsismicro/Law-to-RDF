@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11466    lex:ehUm    lex:DocLegal .
+lex:L11466    lex:temTextoIntegral    lex:HTMLs\/L11466.htm .
+lex:L11466\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11466    lex:temArtigo    lex:L11466\/Artigo1 .
+lex:L11466\/Artigo1    lex:temConteudo    "Art. 1o  O art. 50 da Lei no 7.210, de 11 de julho de 1984   Lei de Execução Penal, passa a vigorar acrescido do seguinte inciso VII:" .
+lex:L11466\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L11466\/Artigo1    lex:temInciso    lex:L11466\/Artigo1\/IncisoVII .
+lex:L11466\/Artigo1\/IncisoVII    lex:temConteudo    "VII   tiver em sua posse, utilizar ou fornecer aparelho telefônico, de rádio ou similar, que permita a comunicação com outros presos ou com o ambiente externo." .
+lex:L11466\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11466    lex:temArtigo    lex:L11466\/Artigo2 .
+lex:L11466\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto-Lei no 2.848, de 7 de dezembro de 1940   Código Penal, passa a vigorar acrescido do seguinte art. 319-A:" .
+lex:L11466\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11466    lex:temArtigo    lex:L11466\/Artigo3 .
+lex:L11466\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11466\/Artigo1\/IncisoVII    lex:remetePara    lex:L7210\/Artigo50 .
+lex:L11466\/Texto00003    lex:remetePara    lex:Del2848\/Artigo319 .

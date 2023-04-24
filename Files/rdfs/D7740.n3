@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7740    lex:ehUm    lex:DocLegal .
+lex:D7740    lex:temTextoIntegral    lex:HTMLs\/D7740.htm .
+lex:D7740\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7740    lex:temArtigo    lex:D7740\/Artigo1 .
+lex:D7740\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 7.680, de 17 de fevereiro de 2012, passa a vigorar com as seguintes alterações:" .
+lex:D7740\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7740\/Artigo1    lex:temInciso    lex:D7740\/Artigo1\/IncisoI .
+lex:D7740\/Artigo1\/IncisoI    lex:temConteudo    "I - mediante portaria interministerial, ampliar os limites estabelecidos para os órgãos e as unidades orçamentárias relacionados nos Anexos I e II, até os montantes de R$ 1.314.985.529,00 (um bilhão, trezentos e quatorze milhões, novecentos e oitenta e cinco mil, quinhentos e vinte e nove reais) e R$ 7.240.088.529,00 (sete bilhões, duzentos e quarenta milhões, oitenta e oito mil, quinhentos e vinte e nove reais), respectivamente; e" .
+lex:D7740\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7740    lex:temArtigo    lex:D7740\/Artigo2 .
+lex:D7740\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos VII, VIII e X ao Decreto no 7.680, de 2012, passam a vigorar, respectivamente, na forma dos Anexos I, II e III a este Decreto." .
+lex:D7740\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7740    lex:temArtigo    lex:D7740\/Artigo3 .
+lex:D7740\/Artigo3    lex:temConteudo    "Art. 3o  A Seção I do Anexo IV à Lei no 12.465, de 12 de agosto de 2011, passa a vigorar acrescida do item 65. Compensação ao Fundo do Regime Geral de Previdência Social - FRGPS (Lei no 12.546, de 14/12/2011)." .
+lex:D7740\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7740    lex:temArtigo    lex:D7740\/Artigo4 .
+lex:D7740\/Artigo4    lex:temConteudo    "Art. 4º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7740\/Artigo1\/IncisoI    lex:remetePara    lex:D7680\/Artigo8 .
+lex:D7740\/Artigo1\/Texto00002    lex:remetePara    lex:D7680\/Artigo12 .
+lex:D7740\/Artigo2    lex:remetePara    lex:D7680\/ .
+lex:D7740\/Artigo2    lex:remetePara    lex:D7680\/ .
+lex:D7740\/Artigo2    lex:remetePara    lex:D7680\/ .
+lex:D7740\/Artigo3    lex:remetePara    lex:L12465\/ .

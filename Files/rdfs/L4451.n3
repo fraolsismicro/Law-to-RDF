@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4451    lex:ehUm    lex:DocLegal .
+lex:L4451    lex:temTextoIntegral    lex:HTMLs\/L4451.htm .
+lex:L4451\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4451    lex:temArtigo    lex:L4451\/Artigo1 .
+lex:L4451\/Artigo1    lex:temConteudo    "Art 1 º O artigo 281 do Código Penal passa a vigorar com a seguinte redação:" .
+lex:L4451\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4451\/Artigo1    lex:temParagrafo    lex:L4451\/Artigo1\/Paragrafo1 .
+lex:L4451\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Se o agente é farmacêutico, médico ou dentista: Pena - reclusão de dois a oito anos e multa de três a doze mil cruzeiros." .
+lex:L4451\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4451\/Artigo1    lex:temParagrafo    lex:L4451\/Artigo1\/Paragrafo2 .
+lex:L4451\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Incorre em detenção, de seis meses a dois anos, e multa de quinhentos a cinco mil cruzeiros, o médico ou dentista que prescreve substâncias entorpecentes fora dos casos indicados pela terapêutica ou em dose evidentemente maior do que a necessária, ou com infração de preceito legal regulamentar." .
+lex:L4451\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L4451\/Artigo1    lex:temParagrafo    lex:L4451\/Artigo1\/Paragrafo3 .
+lex:L4451\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º As penas do parágrafo anterior são aplicados àquele que:" .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L4451\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - Instiga ou induz alguém a usar entorpecente;" .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L4451\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - Utilizar local, de que tem a propriedade, posse, administração ou vigilância, ou consente que outrem dêle se utilize, ainda que a título gratuito, para uso ou guarda ilegal de entorpecente;" .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L4451\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII .
+lex:L4451\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - Contribui de qualquer forma para incentivar ou difundir o uso de substância entorpecente." .
+lex:L4451\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L4451\/Artigo1    lex:temParagrafo    lex:L4451\/Artigo1\/Paragrafo4 .
+lex:L4451\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º As penas aumentam de um têrço, se a substância entorpecente é vendida, aplicada, fornecida ou prescrita a menor de dezoito anos.'" .
+lex:L4451\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4451    lex:temArtigo    lex:L4451\/Artigo2 .
+lex:L4451\/Artigo2    lex:temConteudo    "Art 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L4451\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4451    lex:temArtigo    lex:L4451\/Artigo3 .
+lex:L4451\/Artigo3    lex:temConteudo    "Art 3º Revogam-se as disposições em contrário." .
+lex:L4451\/Texto00001    lex:remetePara    lex:Del2848\/Artigo281 .

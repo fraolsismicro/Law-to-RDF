@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5608    lex:ehUm    lex:DocLegal .
+lex:D5608    lex:temTextoIntegral    lex:HTMLs\/D5608.htm .
+lex:D5608\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5608    lex:temArtigo    lex:D5608\/Artigo1 .
+lex:D5608\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo XI do Decreto no 5.379, de 25 de fevereiro de 2005, fica acrescido das programações constantes do Anexo deste Decreto." .
+lex:D5608\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5608    lex:temArtigo    lex:D5608\/Artigo2 .
+lex:D5608\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5608\/Artigo1    lex:remetePara    lex:D5379\/ .

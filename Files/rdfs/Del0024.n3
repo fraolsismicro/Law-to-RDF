@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0024    lex:ehUm    lex:DocLegal .
+lex:Del0024    lex:temTextoIntegral    lex:HTMLs\/Del0024.htm .
+lex:Del0024\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0024    lex:temArtigo    lex:Del0024\/Artigo1 .
+lex:Del0024\/Artigo1    lex:temConteudo    "Art 1º As isenções a que se refere o artigo 54 da Lei nº 5.025, de 10 de junho de 1966, abrangem, entre outras, a taxa de Melhoramento dos Portos, na exportação, porém, não compreendem as taxas constantes das tabelas de tarifas dos serviços portuários, inclusive seus adicionais, e que correspondam à efetiva contraprestação de serviços realizados." .
+lex:Del0024\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0024    lex:temArtigo    lex:Del0024\/Artigo2 .
+lex:Del0024\/Artigo2    lex:temConteudo    "Art 2º O artigo 7º da Lei nº 5.025, de 10 de junho de 1966, passa a ter a seguinte redação:" .
+lex:Del0024\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0024    lex:temArtigo    lex:Del0024\/Artigo3 .
+lex:Del0024\/Artigo3    lex:temConteudo    "Art 3º O artigo 33 e seu parágrafo único da Lei nº 5.025, de 10 de junho de 1966, passa a ter a seguinte redação:" .
+lex:Del0024\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0024\/Artigo3    lex:temParagrafo    lex:Del0024\/Artigo3\/ParagrafoUnico .
+lex:Del0024\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Sempre que a autoridade sanitária do pôrto receber, do comandante da embarcação, via rádio, informações satisfatórias quanto ao estado sanitário de bordo, deverá autorizar a 'Livre Prática' e conseqüente atracação, salvo indicação contrária, de natureza sanitária, de que tenha conhecimento, por fontes oficiais'." .
+lex:Del0024\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0024    lex:temArtigo    lex:Del0024\/Artigo4 .
+lex:Del0024\/Artigo4    lex:temConteudo    "Art 4º O artigo 55 da Lei nº 5.025, de 10 de junho de 1966, passa a ter a seguinte redação:" .
+lex:Del0024\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0024\/Artigo4    lex:temParagrafo    lex:Del0024\/Artigo4\/ParagrafoUnico .
+lex:Del0024\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Deixa de integrar o Conselho Nacional do Comércio Exterior o Presidente da Comissão de Marinha Mercante." .
+lex:Del0024\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del0024    lex:temArtigo    lex:Del0024\/Artigo6 .
+lex:Del0024\/Artigo6    lex:temConteudo    "Art 6º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0024\/Artigo1    lex:remetePara    lex:L5025\/Artigo54 .
+lex:Del0024\/Artigo2    lex:remetePara    lex:L5025\/Artigo7 .
+lex:Del0024\/Artigo3    lex:remetePara    lex:L5025\/Artigo33 .
+lex:Del0024\/Artigo4    lex:remetePara    lex:L5025\/Artigo55 .
+lex:Del0024\/Artigo5    lex:revogadoPor    lex:Del0487\/Artigo2 .
+lex:Del0487\/Artigo2    lex:revogou    lex:Del0024\/Artigo5 .

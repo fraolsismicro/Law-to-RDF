@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D19659    lex:ehUm    lex:DocLegal .
+lex:D19659    lex:temTextoIntegral    lex:HTMLs\/D19659.htm .
+lex:D19659\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D19659    lex:temParagrafo    lex:D19659\/ParagrafoUnico .
+lex:D19659\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O presente decreto entrará em vigor na data de sua publicação." .
+lex:D19659\/Texto    lex:revogadoPor    lex:D0011\/Artigo4 .
+lex:D0011\/Artigo4    lex:revogou    lex:D19659\/Texto .
+lex:D19659\/Texto    lex:remetePara    lex:D19659 .
+lex:D19659\/Texto    lex:remetePara    lex:D16752\/Artigo61 .

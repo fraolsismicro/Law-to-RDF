@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92385    lex:ehUm    lex:DocLegal .
+lex:D92385    lex:temTextoIntegral    lex:HTMLs\/D92385.htm .
+lex:D92385\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo1 .
+lex:D92385\/Artigo1    lex:temConteudo    "Art. 1º - A base de cálculo do Imposto Único sobre Lubrificantes e Combustíveis Líquidos e Gasosos, sobre a qual deverão incidir as alíquotas ad valorem previstas no artigo 2º da Lei nº 7.451, de 26 de dezembro de 1985, é representada, em relação a cada derivado do petróleo, considerado à temperatura de 20º C, pelo valor correspondente ao preço de venda fixado pelo Conselho Nacional do Petróleo para a última etapa de comercialização que haja sido objeto daquela fixação." .
+lex:D92385\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D92385\/Artigo1    lex:temParagrafo    lex:D92385\/Artigo1\/Paragrafo1 .
+lex:D92385\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A base de cálculo, no caso de óleos lubrificantes simples, compostos ou emulsivos, a granel ou embalados no País, será o maior preço de venda do óleo lubrificante básico, a granel, de produção nacional, fixado pelo Conselho Nacional do Petróleo - CNP." .
+lex:D92385\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D92385\/Artigo1    lex:temParagrafo    lex:D92385\/Artigo1\/Paragrafo2 .
+lex:D92385\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - O valor do imposto, apurado na forma deste artigo, integrará o preço de comercialização do derivado e o dos seus assemelhados." .
+lex:D92385\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo2 .
+lex:D92385\/Artigo2    lex:temConteudo    "Art. 2º - Constitui base de cálculo do imposto, no caso de derivado de procedência estrangeira:" .
+lex:D92385\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D92385\/Artigo2    lex:temInciso    lex:D92385\/Artigo2\/IncisoI .
+lex:D92385\/Artigo2\/IncisoI    lex:temConteudo    "I - a definida no artigo anterior, quando o produto tiver similar nacional;" .
+lex:D92385\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D92385\/Artigo2    lex:temInciso    lex:D92385\/Artigo2\/IncisoLI .
+lex:D92385\/Artigo2\/IncisoLI    lex:temConteudo    "lI - o preço CIF da importação, quando inexistente a similaridade referida no item anterior." .
+lex:D92385\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo3 .
+lex:D92385\/Artigo3    lex:temConteudo    "Art. 3º - Os produtos mencionados no artigo 2º da Lei nº 7.451, de 26 de dezembro de 1985, e seus assemelhados, serão definidos, inclusive para fins de incidência do Imposto Único sobre Lubrificantes e Combustíveis Líquidos e Gasosos, por especificações baixadas pelo Conselho Nacional do Petróleo, com prévia audiência da Secretaria da Receita Federal, do Ministério da Fazenda, quanto aos pertinentes aspectos tributários." .
+lex:D92385\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo4 .
+lex:D92385\/Artigo4    lex:temConteudo    "Art. 4º - O Conselho Nacional do Petróleo encaminhará à Secretaria da Receita Federal os valores do Imposto Único de que trata o artigo 1º deste Decreto, bem assim cada alteração posterior, discriminando a base de cálculo, alíquotas, imposto e adicional correspondente, cabendo à referida Secretaria expedir ato divulgando os novos valores." .
+lex:D92385\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo5 .
+lex:D92385\/Artigo5    lex:temConteudo    "Art. 5º - O disposto nos artigos 1º e 2º deste Decreto somente se aplicará após a primeira fixação de preços a que, na forma neles prevista, o Conselho Nacional do Petróleo - CNP proceder na vigência deste Decreto, adotando-se, até então, a sistemática de cálculo do imposto anterior à estabelecida na Lei nº 7.451, de 26 de dezembro de 1985." .
+lex:D92385\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo6 .
+lex:D92385\/Artigo6    lex:temConteudo    "Art. 6º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D92385\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D92385    lex:temArtigo    lex:D92385\/Artigo7 .
+lex:D92385\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:D92385\/Artigo1    lex:remetePara    lex:L7451\/Artigo2 .
+lex:D92385\/Artigo3    lex:remetePara    lex:L7451\/Artigo2 .
+lex:D92385\/Artigo5    lex:remetePara    lex:L7451 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D83939    lex:ehUm    lex:DocLegal .
+lex:D83939    lex:temTextoIntegral    lex:HTMLs\/D83939.htm .
+lex:D83939\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D83939    lex:temArtigo    lex:D83939\/Artigo1 .
+lex:D83939\/Artigo1    lex:temConteudo    "Art. 1º - Ficam reduzidas a 0 (zero) as alíquotas do Imposto sobre Produtos industrializados incidentes sobre as mercadorias a seguir indicadas, mediante a criação de destaques ('ex') nos respectivos códigos de classificação na de classificação na Tabela anexa ao Regulamento aprovado pelo Decreto nº 83.263, de 09 de março de 1979:" .
+lex:D83939\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83939    lex:temArtigo    lex:D83939\/Artigo2 .
+lex:D83939\/Artigo2    lex:temConteudo    "Art. 2º - Será de 12% (doze por cento) a alíquota do Imposto sopre Produtos Industrializados incidente sopre os formulários contínuos, impressos ou não." .
+lex:D83939\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D83939    lex:temArtigo    lex:D83939\/Artigo3 .
+lex:D83939\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições encontrada." .
+lex:D83939\/Texto    lex:remetePara    lex:D83939 .
+lex:D83939\/Artigo1    lex:remetePara    lex:D83263 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7993    lex:ehUm    lex:DocLegal .
+lex:L7993    lex:temTextoIntegral    lex:HTMLs\/L7993.htm .
+lex:L7993\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7993    lex:temArtigo    lex:L7993\/Artigo1 .
+lex:L7993\/Artigo1    lex:temConteudo    "Art. 1º O art. 1º da Lei nº 7.792, de 4 de julho de 1989, passa a vigorar com a seguinte redação:" .
+lex:L7993\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7993    lex:temArtigo    lex:L7993\/Artigo2 .
+lex:L7993\/Artigo2    lex:temConteudo    "Art. 2º As Zonas de Processamento de Exportações - ZPEs, de que dispõe o art. 1º da Lei nº 7.792, de 4 de julho de 1989, com a nova redação dada por esta Lei, serão instaladas nos Municípios de Maracanaú - CE, Macaíba - RN, Parnaíba - PI, São Luís - MA, João Pessoa - PB, Barcarena - PA, Nossa Senhora do Socorro - SE, Araguaína - TO, Ilhéus - BA, no Complexo Portuário de Suape, ao Sul do Recife, entre os Municípios do Cabo e Ipojuca - PE, Itacoatiara - AM e Cáceres - MT." .
+lex:L7993\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7993    lex:temArtigo    lex:L7993\/Artigo3 .
+lex:L7993\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7993\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7993    lex:temArtigo    lex:L7993\/Artigo4 .
+lex:L7993\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7993\/Artigo1    lex:remetePara    lex:L7792\/Artigo1 .
+lex:L7993\/Artigo2    lex:remetePara    lex:L7792\/Artigo1 .

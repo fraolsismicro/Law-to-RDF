@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8266    lex:ehUm    lex:DocLegal .
+lex:D8266    lex:temTextoIntegral    lex:HTMLs\/D8266.htm .
+lex:D8266\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8266    lex:temArtigo    lex:D8266\/Artigo1 .
+lex:D8266\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 6.759, de 5 de fevereiro de 2009, passa a vigorar com as seguintes alterações:" .
+lex:D8266\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8266\/Artigo1    lex:temParagrafo    lex:D8266\/Artigo1\/Paragrafo4 .
+lex:D8266\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4 º  Nas hipóteses previstas nos incisos III e IV do caput do art. 405, quando ocorrer rescisão de contrato ou sua não prorrogação por motivos alheios à vontade do beneficiário, a Secretaria da Receita Federal do Brasil poderá autorizar a permanência das mercadorias no regime até que haja formalização de novo contrato com empresa sediada no exterior, limitado ao prazo de até dois anos, contado da data de rescisão ou do termo final do prazo de vigência não prorrogado." .
+lex:D8266\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D8266\/Artigo1    lex:temParagrafo    lex:D8266\/Artigo1\/Paragrafo5 .
+lex:D8266\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5 º  Nas hipóteses a que se refere o § 4 º, a Secretaria da Receita Federal do Brasil poderá estabelecer restrições à operação do regime enquanto não formalizado novo contrato, com o mesmo ou com novo contratante. (NR)" .
+lex:D8266\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8266    lex:temArtigo    lex:D8266\/Artigo2 .
+lex:D8266\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8266\/Artigo1    lex:remetePara    lex:D6759 .
+lex:D8266\/Artigo1\/Paragrafo4    lex:remetePara    lex:D6759\/Artigo408\/Paragrafo4 .

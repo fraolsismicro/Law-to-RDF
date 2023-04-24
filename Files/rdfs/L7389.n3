@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7389    lex:ehUm    lex:DocLegal .
+lex:L7389    lex:temTextoIntegral    lex:HTMLs\/L7389.htm .
+lex:L7389\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo1 .
+lex:L7389\/Artigo1    lex:temConteudo    "Art. 1º - A Categoria Funcional de Geógrafo, código NS-919 ou LT-NS-919, do Grupo-Outras Atividades de Nível Superior, a que se refere a Lei nº 5.645, de 10 de setembro de 1970, fica alterada na forma constante do anexo desta Lei." .
+lex:L7389\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7389\/Artigo1    lex:temParagrafo    lex:L7389\/Artigo1\/ParagrafoUnico .
+lex:L7389\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O preenchimento dos cargos e empregos da classe especial e das intermediárias da Categoria Funcional de Geógrafo far-se-á mediante progressão funcional ou outras formas regulares de provimento." .
+lex:L7389\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo2 .
+lex:L7389\/Artigo2    lex:temConteudo    "Art. 2º - Os servidores atualmente posicionados nas referências NS-1 e NS-2 ficam automaticamente localizados na referência NS-3, inicial da classe A." .
+lex:L7389\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo3 .
+lex:L7389\/Artigo3    lex:temConteudo    "Art. 3º - Os servidores alcançados pelo disposto nesta Lei serão situados nas novas classes da categoria funcional, mantidas as atuais referências de salário, ressalvada a hipótese do seu art. 2º." .
+lex:L7389\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo4 .
+lex:L7389\/Artigo4    lex:temConteudo    "Art. 4º - A nova estrutura das classes da Categoria Funcional de Geógrafo não prejudicará a tramitação e a solução de pedidos de transferência e movimentação de servidores, apresentados até a data vigência desta Lei." .
+lex:L7389\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo5 .
+lex:L7389\/Artigo5    lex:temConteudo    "Art. 5º - A despesa com a execução desta Lei correrá à conta das dotações próprias do Orçamento da União e das autarquias federais." .
+lex:L7389\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo6 .
+lex:L7389\/Artigo6    lex:temConteudo    "Art. 6º - Esta Lei entra em vigor na data de sua publicação, inclusive quanto a seus efeitos financeiros." .
+lex:L7389\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7389    lex:temArtigo    lex:L7389\/Artigo7 .
+lex:L7389\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:L7389\/Artigo1    lex:remetePara    lex:L5645 .

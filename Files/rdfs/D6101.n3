@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6101    lex:ehUm    lex:DocLegal .
+lex:D6101    lex:temTextoIntegral    lex:HTMLs\/D6101.htm .
+lex:D6101\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo1 .
+lex:D6101\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério do Meio Ambiente, na forma dos Anexos I e II." .
+lex:D6101\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo2 .
+lex:D6101\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores:" .
+lex:D6101\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6101\/Artigo2    lex:temInciso    lex:D6101\/Artigo2\/IncisoI .
+lex:D6101\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério do Meio Ambiente: dez DAS 101.3; nove DAS 101.2; e seis DAS 101.1; e" .
+lex:D6101\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6101\/Artigo2    lex:temInciso    lex:D6101\/Artigo2\/IncisoII .
+lex:D6101\/Artigo2\/IncisoII    lex:temConteudo    "II - do Ministério do Meio Ambiente para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: oito DAS 102.3; nove DAS 102.2; e quatro DAS 102.1." .
+lex:D6101\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo3 .
+lex:D6101\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de vinte dias, contado da data de publicação deste Decreto." .
+lex:D6101\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6101\/Artigo3    lex:temParagrafo    lex:D6101\/Artigo3\/ParagrafoUnico .
+lex:D6101\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado do Meio Ambiente fará publicar no Diário Oficial da União, no prazo de trinta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D6101\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo4 .
+lex:D6101\/Artigo4    lex:temConteudo    "Art. 4o  O regimento interno do Ministério do Meio Ambiente será aprovado pelo Ministro de Estado e publicado no Diário Oficial da União, no prazo de noventa dias, contado da data de publicação deste Decreto." .
+lex:D6101\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo5 .
+lex:D6101\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 3 de maio de 2007." .
+lex:D6101\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6101    lex:temArtigo    lex:D6101\/Artigo6 .
+lex:D6101\/Artigo6    lex:temConteudo    "Art. 6o  Ficam revogados o Decreto no 5.776, de 12 de maio de 2006, e os arts. 3o e 4o do Decreto no 5.794, de 5 de junho de 2006." .
+lex:D6101\/Artigo6    lex:remetePara    lex:D5776 .
+lex:D6101\/Artigo6    lex:remetePara    lex:D5794\/Artigo3 .
+lex:D6101\/Artigo6    lex:remetePara    lex:D5794\/Artigo4 .

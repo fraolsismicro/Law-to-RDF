@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98635    lex:ehUm    lex:DocLegal .
+lex:D98635    lex:temTextoIntegral    lex:HTMLs\/D98635.htm .
+lex:D98635\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98635    lex:temArtigo    lex:D98635\/Artigo1 .
+lex:D98635\/Artigo1    lex:temConteudo    "Art. 1º Fica aberto ao Orçamento Fiscal da União (Lei nº 7.715, de 3 de janeiro de 1989) Anexo II, o crédito suplementar de NCz$ 102.341.567,00 (cento e dois milhões, trezentos e quarenta e um mil e quinhentos e sessenta e sete cruzados novos), em favor da Câmara dos Deputados, do Senado Federal, do Ministério da Justiça e do Ministério Público da União, de conformidade com a programação constante do Anexo I deste Decreto." .
+lex:D98635\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98635    lex:temArtigo    lex:D98635\/Artigo2 .
+lex:D98635\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior são provenientes da emissão de Títulos da Dívida Pública Mobiliária Federal." .
+lex:D98635\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98635    lex:temArtigo    lex:D98635\/Artigo3 .
+lex:D98635\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D98635\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D98635    lex:temArtigo    lex:D98635\/Artigo4 .
+lex:D98635\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:D98635\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D98635\/Texto .
+lex:D98635\/Texto    lex:remetePara    lex:D98635 .

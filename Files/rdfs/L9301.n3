@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9301    lex:ehUm    lex:DocLegal .
+lex:L9301    lex:temTextoIntegral    lex:HTMLs\/L9301.htm .
+lex:L9301\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9301    lex:temArtigo    lex:L9301\/Artigo1 .
+lex:L9301\/Artigo1    lex:temConteudo    "Art. 1º É revogado o art. 75 da Lei n° 9.100, de 29 de setembro de 1995." .
+lex:L9301\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9301    lex:temArtigo    lex:L9301\/Artigo2 .
+lex:L9301\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9301\/Artigo1    lex:remetePara    lex:L9100\/Artigo75 .

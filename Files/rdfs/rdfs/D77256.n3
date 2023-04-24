@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D77256    lex:ehUm    lex:DocLegal .
+lex:D77256    lex:temTextoIntegral    lex:HTMLs\/D77256.htm .
+lex:D77256\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D77256    lex:temArtigo    lex:D77256\/Artigo1A .
+lex:D77256\/Artigo1A    lex:temConteudo    "Art. 1Âº Fica extinto o Consulado-Geral do Brasil em Iocoama, ProvÃ­ncia de Kanagawa, no JapÃ£o." .
+lex:D77256\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D77256    lex:temArtigo    lex:D77256\/Artigo3A .
+lex:D77256\/Artigo3A    lex:temConteudo    "Art. 3Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D77256\/Texto    lex:remetePara    lex:Constituicao67\/Artigo81 .
+lex:D77256\/Texto    lex:remetePara    lex:D71534\/Artigo28 .
+lex:D77256\/Artigo2A    lex:revogadoPor    lex:D99564 .
+lex:D99564    lex:revogou    lex:D77256\/Artigo2A .

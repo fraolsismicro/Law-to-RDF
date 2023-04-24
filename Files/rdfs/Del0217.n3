@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0217    lex:ehUm    lex:DocLegal .
+lex:Del0217    lex:temTextoIntegral    lex:HTMLs\/Del0217.htm .
+lex:Del0217\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0217    lex:temArtigo    lex:Del0217\/Artigo1 .
+lex:Del0217\/Artigo1    lex:temConteudo    "Art. 1º Fica aberto ao Ministério das Relações Exteriores o crédito especial de NCr$ 700.000,00 (setecentos mil cruzeiros novos), destinado a atender despesas de qualquer natureza decorrentes da posse do Presidente da República, a realizar-se no dia 15 de março de 1967." .
+lex:Del0217\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0217\/Artigo1    lex:temParagrafo    lex:Del0217\/Artigo1\/ParagrafoUnico .
+lex:Del0217\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito especial de que trata êste decreto-lei será automàticamente registrado e distribuído ao Tesouro Nacional, pelo Tribunal de Contas." .
+lex:Del0217\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0217    lex:temArtigo    lex:Del0217\/Artigo2 .
+lex:Del0217\/Artigo2    lex:temConteudo    "Art. 2º Êste decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

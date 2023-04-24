@@ -1,0 +1,72 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9455    lex:ehUm    lex:DocLegal .
+lex:L9455    lex:temTextoIntegral    lex:HTMLs\/L9455.htm .
+lex:L9455\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9455    lex:temArtigo    lex:L9455\/Artigo1 .
+lex:L9455\/Artigo1    lex:temConteudo    "Art. 1º Constitui crime de tortura:" .
+lex:L9455\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9455\/Artigo1    lex:temInciso    lex:L9455\/Artigo1\/IncisoI .
+lex:L9455\/Artigo1\/IncisoI    lex:temConteudo    "I - constranger alguém com emprego de violência ou grave ameaça, causando-lhe sofrimento físico ou mental:" .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:ehUm    lex:IncisoAlinea .
+lex:L9455\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temConteudo    "a) com o fim de obter informação, declaração ou confissão da vítima ou de terceira pessoa;" .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temIncisoAlinea    lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara    lex:temConteudo    "b) para provocar ação ou omissão de natureza criminosa;" .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara    lex:temIncisoAlinea    lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara\/IncisoAlineaEm .
+lex:L9455\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaPara\/IncisoAlineaEm    lex:temConteudo    "c) em razão de discriminação racial ou religiosa;" .
+lex:L9455\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9455\/Artigo1    lex:temInciso    lex:L9455\/Artigo1\/IncisoII .
+lex:L9455\/Artigo1\/IncisoII    lex:temConteudo    "II - submeter alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo." .
+lex:L9455\/Artigo1\/IncisoII\/IncisoPena    lex:ehUm    lex:IncisoPena .
+lex:L9455\/Artigo1\/IncisoII    lex:temIncisoPena    lex:L9455\/Artigo1\/IncisoII\/IncisoPena .
+lex:L9455\/Artigo1\/IncisoII\/IncisoPena    lex:temConteudo    "Pena - reclusão, de dois a oito anos." .
+lex:L9455\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo1 .
+lex:L9455\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Na mesma pena incorre quem submete pessoa presa ou sujeita a medida de segurança a sofrimento físico ou mental, por intermédio da prática de ato não previsto em lei ou não resultante de medida legal." .
+lex:L9455\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo2 .
+lex:L9455\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Aquele que se omite em face dessas condutas, quando tinha o dever de evitá-las ou apurá-las, incorre na pena de detenção de um a quatro anos." .
+lex:L9455\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo3 .
+lex:L9455\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Se resulta lesão corporal de natureza grave ou gravíssima, a pena é de reclusão de quatro a dez anos; se resulta morte, a reclusão é de oito a dezesseis anos." .
+lex:L9455\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo4 .
+lex:L9455\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Aumenta-se a pena de um sexto até um terço:" .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L9455\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoI .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - se o crime é cometido por agente público;" .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L9455\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoII .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II   se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos; (Redação dada pela Lei nº 10.741, de 2003)" .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L9455\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - se o crime é cometido mediante seqüestro." .
+lex:L9455\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo5 .
+lex:L9455\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada." .
+lex:L9455\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo6 .
+lex:L9455\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º O crime de tortura é inafiançável e insuscetível de graça ou anistia." .
+lex:L9455\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L9455\/Artigo1    lex:temParagrafo    lex:L9455\/Artigo1\/Paragrafo7 .
+lex:L9455\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7º O condenado por crime previsto nesta Lei, salvo a hipótese do § 2º, iniciará o cumprimento da pena em regime fechado." .
+lex:L9455\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9455    lex:temArtigo    lex:L9455\/Artigo2 .
+lex:L9455\/Artigo2    lex:temConteudo    "Art. 2º O disposto nesta Lei aplica-se ainda quando o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou encontrando-se o agente em local sob jurisdição brasileira." .
+lex:L9455\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9455    lex:temArtigo    lex:L9455\/Artigo3 .
+lex:L9455\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9455\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9455    lex:temArtigo    lex:L9455\/Artigo4 .
+lex:L9455\/Artigo4    lex:temConteudo    "Art. 4º Revoga-se o art. 233 da Lei nº 8.069, de 13 de julho de 1990 - Estatuto da Criança e do Adolescente." .
+lex:L9455\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:remetePara    lex:L10741\/Artigo112 .
+lex:L9455\/Artigo4    lex:remetePara    lex:L8069\/233 .

@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10051    lex:ehUm    lex:DocLegal .
+lex:L10051    lex:temTextoIntegral    lex:HTMLs\/L10051.htm .
+lex:L10051\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10051    lex:temInciso    lex:L10051\/IncisoI .
+lex:L10051\/IncisoI    lex:temConteudo    "I   do cancelamento de dotações orçamentárias, no montante de R$ 95.299.305,00 (noventa e cinco milhões, duzentos e noventa e nove mil, trezentos e cinco reais), conforme indicado no Anexo II desta Lei; e" .
+lex:L10051\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10051    lex:temInciso    lex:L10051\/IncisoII .
+lex:L10051\/IncisoII    lex:temConteudo    "II   de incorporação de superávit financeiro da União, apurado no Balanço Patrimonial de 1999, no valor de R$ 8.200.000,00 (oito milhões e duzentos mil reais)." .
+lex:L10051\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10051    lex:temArtigo    lex:L10051\/Artigo3 .
+lex:L10051\/Artigo3    lex:temConteudo    "Art. 3o É vedado ao Poder Executivo a liberação dos recursos de suplementação aprovados para o subtítulo 26.782.0231.5743.0003   Duplicação de Trechos Rodoviários no Corredor Transmetropolitano   BR-381/SP   Divisa MG/SP   Entroncamento BR-116, da unidade orçamentária 39201   Departamento Nacional de Estradas de Rodagem   DNER, para execução dos serviços relacionados com os contratos no 9.642-8, de 23.3.1996, e no 156/96-00, de 17.9.1996." .
+lex:L10051\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10051\/Artigo3    lex:temParagrafo    lex:L10051\/Artigo3\/ParagrafoUnico .
+lex:L10051\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Tribunal de Contas da União acompanhará e fiscalizará a aplicação dos recursos liberados para o subtítulo citado no caput nos estritos termos previstos, certificando-se de que nenhum dos contratos relacionados recebam liberação financeira." .
+lex:L10051\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10051    lex:temArtigo    lex:L10051\/Artigo4 .
+lex:L10051\/Artigo4    lex:temConteudo    "Art. 4o É vedada ao Poder Executivo a execução orçamentária da dotação consignada no subtítulo 26.782.0237.5730.0004   Adequação de Trechos Rodoviários no Corredor Araguaia-Tocantins   BR-060/DF   Adequação do Trecho Distrito Federal   Divisa DF/GO, até deliberação em contrário da Comissão Mista prevista no art. 166, § 1o, da Constituição Federal, e do Congresso Nacional, aplicando-se o disposto no art. 5º, § 2º, da Lei no 9.969, de 11.5.2000." .
+lex:L10051\/Artigo1    lex:remetePara    lex:L9969 .
+lex:L10051\/Artigo4    lex:remetePara    lex:Constituicao\/Artigo166\/Paragrafo1 .
+lex:L10051\/Artigo4    lex:remetePara    lex:L9969\/Artigo5\/Paragrafo2 .

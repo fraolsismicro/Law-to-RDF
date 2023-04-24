@@ -1,0 +1,92 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0491    lex:ehUm    lex:DocLegal .
+lex:D0491    lex:temTextoIntegral    lex:HTMLs\/D0491.htm .
+lex:D0491\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo1 .
+lex:D0491\/Artigo1    lex:temConteudo    "Art. 1º A transformação dos cargos efetivos ocupados pelos servidores de que trata o art. 10 da Lei nº 8.270, de 17 de dezembro de 1991, far-se-á nos termos deste Decreto." .
+lex:D0491\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo2 .
+lex:D0491\/Artigo2    lex:temConteudo    "Art. 2º São transformados para a Carreira de Planejamento e Orçamento, constituída das categorias de Analista de Planejamento e Orçamento, de nível superior, e de Técnico de Planejamento e Orçamento de nível médio, os cargos efetivos na forma abaixo especificada:" .
+lex:D0491\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0491\/Artigo2    lex:temInciso    lex:D0491\/Artigo2\/IncisoI .
+lex:D0491\/Artigo2\/IncisoI    lex:temConteudo    "I - para o cargo de Analista de Planejamento e Orçamento:" .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D0491\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs    lex:temConteudo    "a) os cargos da categoria de Analista de Orçamento;" .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "b) os cargos efetivos de nível superior, ocupados por servidores do quadro permanente do Instituto de Pesquisa Econômica Aplicada - IPEA;" .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D0491\/Artigo2\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "c) os cargos efetivos, ocupados pelos servidores integrantes da categoria funcional de Técnico de Planejamento, P-1501, do Grupo Planejamento, P-1500, criado pelo Decreto nº 75.461, de 7 de março de 1975;" .
+lex:D0491\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0491\/Artigo2    lex:temInciso    lex:D0491\/Artigo2\/IncisoII .
+lex:D0491\/Artigo2\/IncisoII    lex:temConteudo    "II - para o cargo de Técnico de Planejamento e Orçamento:" .
+lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D0491\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs .
+lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs    lex:temConteudo    "a) os cargos da categoria de Técnico de Orçamento;" .
+lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D0491\/Artigo2\/IncisoII\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "b) os cargos efetivos de nível médio, ocupados por servidores do quadro permanente do Instituto de Pesquisa Econômica Aplicada - IPEA." .
+lex:D0491\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0491\/Artigo2    lex:temParagrafo    lex:D0491\/Artigo2\/ParagrafoUnico .
+lex:D0491\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São transformados em cargos de Analista de Planejamento e Orçamento e de Técnico de Planejamento e Orçamento os cargos vagos existentes, respectivamente, nas categorias de analista de Orçamento e Técnico de Orçamento." .
+lex:D0491\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo3 .
+lex:D0491\/Artigo3    lex:temConteudo    "Art. 3º A localização dos servidores nas classes e respectivos padrões da Carreira de Planejamento e Orçamento far-se-á mediante a aplicação dos seguintes critérios:" .
+lex:D0491\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0491\/Artigo3    lex:temInciso    lex:D0491\/Artigo3\/IncisoI .
+lex:D0491\/Artigo3\/IncisoI    lex:temConteudo    "I - posicionamento no padrão inicial do cargo de Analista de Planejamento e Orçamento ou no padrão inicial do cargo de Técnico de Planejamento e Orçamento, da Carreira de Planejamento e Orçamento, de acordo com o anexo IV da Lei nº 8.270, de 1991;" .
+lex:D0491\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0491\/Artigo3    lex:temInciso    lex:D0491\/Artigo3\/IncisoII .
+lex:D0491\/Artigo3\/IncisoII    lex:temConteudo    "II - deslocamento de um padrão para cada um ano de efetivo exercício em cargo efetivo ou emprego permanente, de mesmo nível, superior ou médio, exercido na administração pública federal direta autárquica ou fundacional;" .
+lex:D0491\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0491\/Artigo3    lex:temInciso    lex:D0491\/Artigo3\/IncisoIII .
+lex:D0491\/Artigo3\/IncisoIII    lex:temConteudo    "III - observância da posição do servidor no cargo efetivo ocupado no órgão de origem." .
+lex:D0491\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0491\/Artigo3    lex:temParagrafo    lex:D0491\/Artigo3\/Paragrafo1 .
+lex:D0491\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º O tempo de serviço computado para efeito de transposição a que se refere o Decreto-Lei nº 2.347, de 23 de julho de 1987, será considerado para transformação, observado o critério estabelecido no inciso II deste artigo." .
+lex:D0491\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0491\/Artigo3    lex:temParagrafo    lex:D0491\/Artigo3\/Paragrafo2 .
+lex:D0491\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Em qualquer caso, prevalecerá o critério que for mais favorável ao servidor enquadrado." .
+lex:D0491\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo4 .
+lex:D0491\/Artigo4    lex:temConteudo    "Art. 4º Na hipótese de os servidores de que trata este Decreto estarem percebendo vencimento superior ao resultante da transformação, ser-lhe-ão asseguradas diferenças individuais, como vantagem pessoal nominalmente identificável, sobre a qual incidirão os reajustes gerais de vencimentos." .
+lex:D0491\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo5 .
+lex:D0491\/Artigo5    lex:temConteudo    "Art. 5º Não poderão ser transformados, na forma de que tratam as alíneas 'b' dos incisos I e II do art. 2º deste Decreto, os cargos em comissão ocupados por servidores que não detenham cargo efetivo do quadro permanente do Instituto de Pesquisa Econômica Aplicada - IPEA." .
+lex:D0491\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo6 .
+lex:D0491\/Artigo6    lex:temConteudo    "Art. 6º Os critérios de concessão e os percentuais da gratificação de que trata o § 5º do art. 10 da Lei nº 8.270, de 1991, serão estabelecidos em conjunto pelo Ministério da Economia, Fazenda e Planejamento e pela Secretaria da Administração Federal da Presidência da República." .
+lex:D0491\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo7 .
+lex:D0491\/Artigo7    lex:temConteudo    "Art. 7º O Ministério da Economia, Fazenda e Planejamento, em articulação com a Secretaria da Administração Federal disciplinará as atribuições dos cargos das categorias de Analista de Planejamento e Orçamento e de Técnico de Planejamento e Orçamento." .
+lex:D0491\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo8 .
+lex:D0491\/Artigo8    lex:temConteudo    "Art. 8º O disposto neste Decreto aplica-se aos proventos de aposentadoria e aos beneficiários de pensões, observados os limites estabelecidos no art. 42 da Lei nº 8.112, de 11 de dezembro de 1990, e o disposto no art. 17 do Ato das Disposições Constitucionais Transitórias." .
+lex:D0491\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo9 .
+lex:D0491\/Artigo9    lex:temConteudo    "Art. 9º O Ministério da Economia, Fazenda e Planejamento, em articulação com a Secretaria da Administração Federal, no prazo de sessenta dias, procederá à revisão dos critérios de progressão funcional dos servidores das Carreiras de Planejamento e Orçamento." .
+lex:D0491\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo10 .
+lex:D0491\/Artigo10    lex:temConteudo    "Art. 10. O disposto neste Decreto aplica-se aos ocupantes de cargos da Carreira de Finanças e Controle, criada pelo Decreto-Lei nº 2.346, de 23 de julho de 1987." .
+lex:D0491\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo11 .
+lex:D0491\/Artigo11    lex:temConteudo    "Art. 11. As despesas decorrentes da execução do disposto neste Decreto correrão à conta das dotações orçamentárias do Ministério da Economia, Fazenda e Planejamento e do Instituto de Pesquisa Econômica Aplicada - IPEA." .
+lex:D0491\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D0491    lex:temArtigo    lex:D0491\/Artigo12 .
+lex:D0491\/Artigo12    lex:temConteudo    "Art. 12. Este Decreto entra em vigor na data de sua publicação." .
+lex:D0491\/Artigo1    lex:remetePara    lex:L8270\/Artigo10 .
+lex:D0491\/Artigo3\/IncisoI    lex:remetePara    lex:L8270\/ .
+lex:D0491\/Artigo3\/Paragrafo1    lex:remetePara    lex:Del2347 .
+lex:D0491\/Artigo6    lex:remetePara    lex:L8270\/Artigo10\/Paragrafo5 .
+lex:D0491\/Artigo8    lex:remetePara    lex:L8112cons\/Artigo42 .
+lex:D0491\/Artigo8    lex:remetePara    lex:Constituicao\/adctArtigo17 .
+lex:D0491\/Artigo10    lex:remetePara    lex:Del2346 .

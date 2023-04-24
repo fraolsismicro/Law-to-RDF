@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5202    lex:ehUm    lex:DocLegal .
+lex:D5202    lex:temTextoIntegral    lex:HTMLs\/D5202.htm .
+lex:D5202\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5202    lex:temArtigo    lex:D5202\/Artigo1 .
+lex:D5202\/Artigo1    lex:temConteudo    "Art. 1o  Fica criado, em Ramalá, na Cisjordânia, Escritório de Representação do Brasil, subordinado à Embaixada em Tel Aviv." .
+lex:D5202\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5202    lex:temArtigo    lex:D5202\/Artigo2 .
+lex:D5202\/Artigo2    lex:temConteudo    "Art. 2o  O Ministério das Relações Exteriores adotará, no prazo de cento e oitenta dias, contados da publicação deste Decreto, as medidas administrativas necessárias à sua execução." .
+lex:D5202\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5202    lex:temArtigo    lex:D5202\/Artigo3 .
+lex:D5202\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5202\/Texto    lex:remetePara    lex:D5032\/Artigo36 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3440    lex:ehUm    lex:DocLegal .
+lex:L3440    lex:temTextoIntegral    lex:HTMLs\/L3440.htm .
+lex:L3440\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3440    lex:temArtigo    lex:L3440\/Artigo1 .
+lex:L3440\/Artigo1    lex:temConteudo    "Art 1º Ao art. 682 do Decreto-lei nº 5.452, de 1º de maio de 1943 - Consolidação das Leis do Trabalho - é acrescido o seguinte parágrafo:" .
+lex:L3440\/Artigo1\/ParagrafoNa    lex:ehUm    lex:Paragrafo .
+lex:L3440\/Artigo1    lex:temParagrafo    lex:L3440\/Artigo1\/ParagrafoNa .
+lex:L3440\/Artigo1\/ParagrafoNa    lex:temConteudo    "3º Na falta ou impedimento de qualquer Juiz representante classista e seu respectivo Suplente, é facultado ao Presidente do Tribunal Regional designar um dos Vogais de Junta de Conciliação e Julgamento para funcionar nas sessões do Tribunal, respeitada a categoria profissional ou econômica do representante.'" .
+lex:L3440\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3440    lex:temArtigo    lex:L3440\/Artigo2 .
+lex:L3440\/Artigo2    lex:temConteudo    "Art 2º Revogam-se as disposições em contrário." .
+lex:L3440\/Artigo1\/ParagrafoNa    lex:remetePara    lex:Del5452\/Artigo682\/Paragrafo3 .

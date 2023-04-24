@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8995    lex:ehUm    lex:DocLegal .
+lex:L8995    lex:temTextoIntegral    lex:HTMLs\/L8995.htm .
+lex:L8995\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8995    lex:temArtigo    lex:L8995\/Artigo1 .
+lex:L8995\/Artigo1    lex:temConteudo    "Art. 1º Fica o Ministério dos Transportes, por intermédio da Companhia Brasileira de Trens Urbanos (CBTU), autorizado a transferir à Companhia Fluminense de Trens Urbanos (Flumitrens) os recursos necessários ao pagamento das despesas de pessoal e encargos sociais, no período compreendido entre 1º de janeiro e 31 de dezembro de 1995, dos empregados transferidos, por sucessão trabalhista, em decorrência da transferência do Sistema de Trens Urbanos do Rio de Janeiro para o Estado do Rio de Janeiro, de acordo com a Lei nº 8.693, de 3 de agosto de 1993." .
+lex:L8995\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8995\/Artigo1    lex:temParagrafo    lex:L8995\/Artigo1\/ParagrafoUnico .
+lex:L8995\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autorização de que trata este artigo fica condicionada até o limite de R$ 164.130.653,00 (cento e sessenta e quatro milhões, cento e trinta mil, seiscentos e cinqüenta e três reais) e correrá à conta de dotação orçamentária da CBTU. (Redação dada pela Lei nº 9.360, de 1996)" .
+lex:L8995\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8995    lex:temArtigo    lex:L8995\/Artigo2 .
+lex:L8995\/Artigo2    lex:temConteudo    "Art. 2º Caberá à CBTU analisar, acompanhar e fiscalizar em nome do Ministério dos Transportes, a utilização dos recursos supramencionados, de acordo com o disposto nesta lei e a legislação vigente." .
+lex:L8995\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8995    lex:temArtigo    lex:L8995\/Artigo3 .
+lex:L8995\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8995\/Artigo1    lex:remetePara    lex:L8693 .
+lex:L8995\/ParagrafoUnico    lex:remetePara    lex:1468-13\/Artigo1 .
+lex:L8995\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L9360\/Artigo1 .

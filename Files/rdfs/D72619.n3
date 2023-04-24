@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D72619    lex:ehUm    lex:DocLegal .
+lex:D72619    lex:temTextoIntegral    lex:HTMLs\/D72619.htm .
+lex:D72619\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D72619    lex:temArtigo    lex:D72619\/Artigo1 .
+lex:D72619\/Artigo1    lex:temConteudo    "Art. 1º O Parágrafo único, do artigo 15, do Regulamento aprovado pelo Decreto nº 40.359 de 16 de novembro de 1956, alterado pelo Decreto nº 53.540, de 5 de fevereiro de 1964, passa a ter a seguinte redação:" .
+lex:D72619\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D72619    lex:temArtigo    lex:D72619\/Artigo2 .
+lex:D72619\/Artigo2    lex:temConteudo    "Art. 2º Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D72619\/Artigo1    lex:remetePara    lex:D40359\/Artigo15 .
+lex:D72619\/Artigo1    lex:remetePara    lex:D53540 .

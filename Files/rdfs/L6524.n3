@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6524    lex:ehUm    lex:DocLegal .
+lex:L6524    lex:temTextoIntegral    lex:HTMLs\/L6524.htm .
+lex:L6524\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6524    lex:temArtigo    lex:L6524\/Artigo1 .
+lex:L6524\/Artigo1    lex:temConteudo    "Art. 1º - Fica a União autorizada a promover medidas no sentido de tornar efetiva a conversão das ações ordinárias que possua no capital social da Indústria Carboquímica Catarinense S.A. - ICC, em ações preferenciais sem direito a voto, e de ceder, a título gratuito, o direito de subscrição das ações ordinárias que restarem, após a mencionada conversão, observado o disposto no artigo 2º desta Lei." .
+lex:L6524\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6524    lex:temArtigo    lex:L6524\/Artigo2 .
+lex:L6524\/Artigo2    lex:temConteudo    "Art. 2º - Fica a União autorizada a negociar as ações de sua propriedade na ICC, sob a condição de imediata reaplicação do resultado da operação na aquisição de partes beneficiárias daquela Sociedade." .
+lex:L6524\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6524\/Artigo2    lex:temParagrafo    lex:L6524\/Artigo2\/ParagrafoUnico .
+lex:L6524\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O preço das ações não poderá ser inferior ao seu valor patrimonial contábil, em 31 de dezembro de 1977." .
+lex:L6524\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6524    lex:temArtigo    lex:L6524\/Artigo3 .
+lex:L6524\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário e, especialmente, as Leis nºs 4.122, de 27 de agosto de 1962; 4.509, de 30 de novembro de 1964 e 6.101, de 12 de setembro de 1974; e o Decreto-lei nº 631, de 16 de junho de 1969." .
+lex:L6524\/Artigo3    lex:remetePara    lex:L4122 .
+lex:L6524\/Artigo3    lex:remetePara    lex:L4509 .
+lex:L6524\/Artigo3    lex:remetePara    lex:L6101 .
+lex:L6524\/Artigo3    lex:remetePara    lex:Del0631 .

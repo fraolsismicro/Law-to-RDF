@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5705    lex:ehUm    lex:DocLegal .
+lex:L5705    lex:temTextoIntegral    lex:HTMLs\/L5705.htm .
+lex:L5705\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5705    lex:temArtigo    lex:L5705\/Artigo1 .
+lex:L5705\/Artigo1    lex:temConteudo    "Art. 1º O artigo 4º da Lei nº 5.107, de 13 de setembro de 1966, com as modificações introduzidas pelo Decreto-lei nº 20, de 14 de setembro de 1966, passa a vigorar com a seguinte redação, revogados os parágrafos 1º e 2º." .
+lex:L5705\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5705    lex:temArtigo    lex:L5705\/Artigo2 .
+lex:L5705\/Artigo2    lex:temConteudo    "Art. 2º Para as contas vinculadas aos empregados optantes existentes a data da publicação desta lei, a capitalização dos juros dos depósitos de que trata o art. 2º da Lei nº 5.107, de 13 de setembro de 1966, com as modificações introduzidas pelo Decreto-lei nº 20, de 14 de setembro de 1966, continuará a ser feita na seguinte progressão:" .
+lex:L5705\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L5705\/Artigo2    lex:temInciso    lex:L5705\/Artigo2\/IncisoI .
+lex:L5705\/Artigo2\/IncisoI    lex:temConteudo    "I - 3% (três por cento) durante os dois primeiros anos de permanência na mesma emprêsa;" .
+lex:L5705\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L5705\/Artigo2    lex:temInciso    lex:L5705\/Artigo2\/IncisoII .
+lex:L5705\/Artigo2\/IncisoII    lex:temConteudo    "II - 4% (quatro por cento) do terceiro ao quinto ano de permanência na mesma emprêsa;" .
+lex:L5705\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L5705\/Artigo2    lex:temInciso    lex:L5705\/Artigo2\/IncisoIII .
+lex:L5705\/Artigo2\/IncisoIII    lex:temConteudo    "III - 5% (cinco por cento) do sexto ao décimo ano de permanência na mesma emprêsa;" .
+lex:L5705\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L5705\/Artigo2    lex:temInciso    lex:L5705\/Artigo2\/IncisoIV .
+lex:L5705\/Artigo2\/IncisoIV    lex:temConteudo    "IV - 6% (seis por cento) do décimo primeiro ano de permanência na mesma emprêsa, em diante." .
+lex:L5705\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5705\/Artigo2    lex:temParagrafo    lex:L5705\/Artigo2\/ParagrafoUnico .
+lex:L5705\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso de mudança de emprêsa, a capitalização dos juros passará a ser feita sempre a taxa de 3% (três por cento) ao ano." .
+lex:L5705\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5705    lex:temArtigo    lex:L5705\/Artigo3 .
+lex:L5705\/Artigo3    lex:temConteudo    "Art. 3º O Banco Nacional da Habitação (BNH) poderá autorizar, independentemente do disposto no art. 10 e parágrafos da Lei nº 5.107, de 13 de setembro de 1966, que o empregado optante pelo regime do Fundo de Garantia do Tempo de Serviço (FGTS) utilize a sua conta vinculada para amortização total ou parcial, de dívida contraída para aquisição de moradia própria, pelo Sistema Financeiro da Habitação." .
+lex:L5705\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5705\/Artigo3    lex:temParagrafo    lex:L5705\/Artigo3\/ParagrafoUnico .
+lex:L5705\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autorização de que trata este artigo somente poderá ser concedida uma vez e no período de 1º de outubro de 1971 a 30 de setembro de 1972, cabendo ao BNH baixar as instruções necessárias a efetivação do saque na conta vinculada do empregado." .
+lex:L5705\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5705    lex:temArtigo    lex:L5705\/Artigo4 .
+lex:L5705\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5705\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5705    lex:temArtigo    lex:L5705\/Artigo5 .
+lex:L5705\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L5705\/Artigo1    lex:remetePara    lex:L5107\/Artigo4 .
+lex:L5705\/Artigo2    lex:remetePara    lex:L5107\/Artigo2 .
+lex:L5705\/Artigo3    lex:remetePara    lex:L5107\/Artigo10 .

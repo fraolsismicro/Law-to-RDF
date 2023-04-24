@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5229    lex:ehUm    lex:DocLegal .
+lex:L5229    lex:temTextoIntegral    lex:HTMLs\/L5229.htm .
+lex:L5229\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5229    lex:temArtigo    lex:L5229\/Artigo1 .
+lex:L5229\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a doar, pelo Ministério da Fazenda, ao Movimento Universitário de Desenvolvimento Econômico e Social - MUDES, Obrigações Reajustáveis do Tesouro Nacional, no valor de Cr$ 20.000.000.000 (vinte bilhões de cruzeiros), com vencimento no prazo de 20 (vinte) anos e juros de 6% (seis por cento) ao ano, emitidas de acôrdo com a Lei nº 4.357, de 16 de julho de 1964 e artigo 8º da Lei nº 4.539, de 10 de dezembro de 1964." .
+lex:L5229\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5229\/Artigo1    lex:temParagrafo    lex:L5229\/Artigo1\/ParagrafoUnico .
+lex:L5229\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As Obrigações a que se refere êste artigo, serão impenhoráveis, inalienáveis e intransferíveis, podendo a entidade beneficiada dar em garantia a estabelecimentos bancários os juros respectivos, a fim de antecipar o seu recebimento." .
+lex:L5229\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5229    lex:temArtigo    lex:L5229\/Artigo2 .
+lex:L5229\/Artigo2    lex:temConteudo    "Art. 2º No caso de extinção ou dissolução da entidade beneficiada, as Obrigações mencionadas retornarão à propriedade do Tesouro Nacional, que providenciará o seu cancelamento." .
+lex:L5229\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5229    lex:temArtigo    lex:L5229\/Artigo3 .
+lex:L5229\/Artigo3    lex:temConteudo    "Art. 3º O Conselho Monetário Nacional aprovará e expedirá as instruções que se tornarem necessárias à perfeita execução desta Lei." .
+lex:L5229\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5229    lex:temArtigo    lex:L5229\/Artigo4 .
+lex:L5229\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data de sua publicação, revogadas às disposições em contrário." .
+lex:L5229\/Artigo1    lex:remetePara    lex:L4357 .
+lex:L5229\/Artigo1    lex:remetePara    lex:L4539\/Artigo8 .

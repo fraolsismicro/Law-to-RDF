@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.761    lex:ehUm    lex:DocLegal .
+lex:L10.761    lex:temTextoIntegral    lex:HTMLs\/L10.761.htm .
+lex:L10761\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10761    lex:temInciso    lex:L10761\/IncisoI .
+lex:L10761\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União do exercício de 2002, no valor de R$ 11.869.866,00 (onze milhões, oitocentos e sessenta e nove mil, oitocentos e sessenta e seis reais);" .
+lex:L10761\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10761    lex:temInciso    lex:L10761\/IncisoII .
+lex:L10761\/IncisoII    lex:temConteudo    "II - excesso de arrecadação, no montante de R$ 111.951.848,00 (cento e onze milhões, novecentos e cinqüenta e um mil, oitocentos e quarenta e oito reais), sendo:" .
+lex:L10761\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10761\/IncisoII    lex:temIncisoAlinea    lex:L10761\/IncisoII\/IncisoAlineaRS .
+lex:L10761\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 4.076.308,00 (quatro milhões, setenta e seis mil, trezentos e oito reais) de Recursos Próprios Não-Financeiros;" .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10761\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 59.006,00 (cinqüenta e nove mil e seis reais) de Recursos Próprios Financeiros;" .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 11.317.032,00 (onze milhões, trezentos e dezessete mil e trinta e dois reais) de Recursos Destinados à Manutenção e Desenvolvimento do Ensino;" .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L10761\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 96.499.502,00 (noventa e seis milhões, quatrocentos e noventa e nove mil, quinhentos e dois reais) da Contribuição do Salário-Educação; e" .
+lex:L10761\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10761    lex:temInciso    lex:L10761\/IncisoIII .
+lex:L10761\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no valor de R$ 158.583.739,00 (cento e cinqüenta e oito milhões, quinhentos e oitenta e três mil, setecentos e trinta e nove reais), conforme indicado no Anexo II desta Lei." .
+lex:L10761\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10761    lex:temArtigo    lex:L10761\/Artigo3 .
+lex:L10761\/Artigo3    lex:temConteudo    "Art. 3o Ficam canceladas as programações constantes do Anexo III desta Lei, em atendimento ao disposto no art. 61, § 11, da Lei no 10.524, de 25 de julho de 2002." .

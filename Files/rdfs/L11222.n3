@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11222    lex:ehUm    lex:DocLegal .
+lex:L11222    lex:temTextoIntegral    lex:HTMLs\/L11222.htm .
+lex:L11222\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11222    lex:temArtigo    lex:L11222\/Artigo1 .
+lex:L11222\/Artigo1    lex:temConteudo    "Art. 1° Fica aberto aos Orçamentos Fiscal e da Seguridade Social da União (Lei n° 11.100, de 25 de janeiro de 2005), em favor de diversos Órgãos dos Poderes Legislativo e Judiciário e do Ministério Público da União, crédito suplementar no valor global de R$ 131.300.687,00 (cento e trinta e um milhões, trezentos mil, seiscentos e oitenta e sete reais), para atender às programações indicadas no Anexo I desta Lei." .
+lex:L11222\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11222    lex:temArtigo    lex:L11222\/Artigo2 .
+lex:L11222\/Artigo2    lex:temConteudo    "Art. 2° Os recursos necessários à abertura do crédito de que trata o art. 1° decorrem de:" .
+lex:L11222\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11222\/Artigo2    lex:temInciso    lex:L11222\/Artigo2\/IncisoI .
+lex:L11222\/Artigo2\/IncisoI    lex:temConteudo    "I - excesso de arrecadação, no valor de R$ 47.933.136,00 (quarenta e sete milhões, novecentos e trinta e três mil, cento e trinta e seis reais), sendo:" .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11222\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temConteudo    "a) R$ 32.565.000,00 (trinta e dois milhões, quinhentos e sessenta e cinco mil reais) de Recursos Ordinários;" .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 14.525.874,00 (quatorze milhões, quinhentos e vinte e cinco mil, oitocentos e setenta e quatro reais) de Recursos Próprios Não-Financeiros; e" .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11222\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 842.262,00 (oitocentos e quarenta e dois mil, duzentos e sessenta e dois reais) de Taxas e Multas pelo Exercício do Poder de Polícia; e" .
+lex:L11222\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11222\/Artigo2    lex:temInciso    lex:L11222\/Artigo2\/IncisoII .
+lex:L11222\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 83.367.551,00 (oitenta e três milhões, trezentos e sessenta e sete mil, quinhentos e cinqüenta e um reais), conforme indicado no Anexo II desta Lei." .
+lex:L11222\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11222    lex:temArtigo    lex:L11222\/Artigo3 .
+lex:L11222\/Artigo3    lex:temConteudo    "Art. 3° Esta Lei entra em vigor na data de sua publicação." .
+lex:L11222\/Artigo1    lex:remetePara    lex:L11100 .

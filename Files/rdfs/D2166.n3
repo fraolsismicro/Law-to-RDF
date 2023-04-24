@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2166    lex:ehUm    lex:DocLegal .
+lex:D2166    lex:temTextoIntegral    lex:HTMLs\/D2166.htm .
+lex:D2166\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2166    lex:temArtigo    lex:D2166\/Artigo1 .
+lex:D2166\/Artigo1    lex:temConteudo    "Art 1º Os arts. 32, 44 e 45 do Regulamento de Promoções de Graduados da Aeronáutica   REPROGAER, aprovado pelo Decreto nº 881, de 23 de julho de 1993, passam a vigorar com a seguinte redação:" .
+lex:D2166\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D2166\/Artigo1    lex:temParagrafo    lex:D2166\/Artigo1\/Paragrafo3 .
+lex:D2166\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A promoção por bravura exclui a promoção post mortem resultante das conseqüências do ato praticado." .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoXI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2166\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoXI .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoXI    lex:temConteudo    "XI - preso preventivamente, em virtude de Inquérito Policial Militar instaurado." .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2166\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - for considerado inabilitado para o acesso, a juízo da Comissão de Promoções de Graduados, por ser incapaz de atender a qualquer dos requisitos estabelecidos nos incisos II e III do art. 15." .
+lex:D2166\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2166\/Artigo1    lex:temParagrafo    lex:D2166\/Artigo1\/Paragrafo1 .
+lex:D2166\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O graduado, com estabilidade adquirida, que incidir no inciso II deste artigo, será considerado inabilitado para o acesso, em caráter provisório, e submetido a Conselho de Disciplina nos termos do Decreto nº 71.500, de 5 de dezembro de 1972." .
+lex:D2166\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2166\/Artigo1    lex:temParagrafo    lex:D2166\/Artigo1\/Paragrafo2 .
+lex:D2166\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O graduado, sem estabilidade assegurada, que incidir no inciso II deste artigo, será considerado inabilitado para o acesso, em caráter definitivo, e licenciado nos termos do Estatuto dos Militares." .
+lex:D2166\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2166    lex:temArtigo    lex:D2166\/Artigo2 .
+lex:D2166\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2166\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2166    lex:temArtigo    lex:D2166\/Artigo3 .
+lex:D2166\/Artigo3    lex:temConteudo    "Art 3º Revogam-se os § § 3º e 4º do art. 45 do Decreto nº 881, de 23 de julho de 1993." .
+lex:D2166\/Artigo1\/Paragrafo3    lex:remetePara    lex:D0881\/Artigo32\/Paragrafo3 .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoXI    lex:remetePara    lex:D0881\/Artigo44 .
+lex:D2166\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:remetePara    lex:D0881\/Artigo45 .
+lex:D2166\/Artigo3    lex:remetePara    lex:D0881\/Artigo45\/Paragrafo3 .

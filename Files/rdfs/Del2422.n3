@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2422    lex:ehUm    lex:DocLegal .
+lex:Del2422    lex:temTextoIntegral    lex:HTMLs\/Del2422.htm .
+lex:Del2422\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2422    lex:temArtigo    lex:Del2422\/Artigo1 .
+lex:Del2422\/Artigo1    lex:temConteudo    "Art. 1° Os incisos I e II do art. 1° do Decreto-Lei n° 2.398, de 21 de dezembro de 1987, passam a vigorar com a seguinte redação:" .
+lex:Del2422\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2422\/Artigo1    lex:temInciso    lex:Del2422\/Artigo1\/IncisoII .
+lex:Del2422\/Artigo1\/IncisoII    lex:temConteudo    "II - 5% (cinco por cento) para as ocupações cuja inscrição seja requerida ou promovida ex officio , a partir de 1° de outubro de 1988.'" .
+lex:Del2422\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2422    lex:temArtigo    lex:Del2422\/Artigo2 .
+lex:Del2422\/Artigo2    lex:temConteudo    "Art. 2° Este decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del2422\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2422    lex:temArtigo    lex:Del2422\/Artigo3 .
+lex:Del2422\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:Del2422\/Artigo1    lex:remetePara    lex:Del2398\/Artigo1 .

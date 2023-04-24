@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7706    lex:ehUm    lex:DocLegal .
+lex:L7706    lex:temTextoIntegral    lex:HTMLs\/L7706.htm .
+lex:L7706\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7706    lex:temArtigo    lex:L7706\/Artigo1 .
+lex:L7706\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1989, o mês de janeiro será considerado data - base das revisões dos vencimentos, salários, soldos e proventos dos servidores, civis e militares, da Administração Federal direta, das autarquias, dos extintos Territórios Federais e das fundações públicas." .
+lex:L7706\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7706\/Artigo1    lex:temParagrafo    lex:L7706\/Artigo1\/ParagrafoUnico .
+lex:L7706\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em janeiro de 1989, a revisão de que trata este artigo será feita considerando a variação do Índice de Preços ao Consumidor, verificada entre a data - base a que o servidor estava submetido em dezembro de 1988, observada a compensação prevista no parágrafo único do art. 9º do Decreto-Lei nº 2.335, de 12 de junho de 1987." .
+lex:L7706\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7706    lex:temArtigo    lex:L7706\/Artigo3 .
+lex:L7706\/Artigo3    lex:temConteudo    "Art. 3º A diferença verificada entre a remuneração percebida no órgão ou entidade de origem a que o servidor passa a fazer jus após a redistribuição, baseada no art. 5º da Lei nº 7.662, de 17 de maio de 1988, será assegurada como vantagem pessoal nominalmente identificável, sobre a qual incidirão os reajustamentos gerais de vencimentos e salários." .
+lex:L7706\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7706\/Artigo3    lex:temParagrafo    lex:L7706\/Artigo3\/ParagrafoUnico .
+lex:L7706\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As diferenças individuais a que se refere este artigo serão recalculadas sempre que os servidores forem transferidos, movimentos ou redistribuídos." .
+lex:L7706\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7706    lex:temArtigo    lex:L7706\/Artigo5 .
+lex:L7706\/Artigo5    lex:temConteudo    "Art. 5º Os efeitos financeiros decorrentes do disposto nesta Lei vigoram a partir de 1º de janeiro de 1989." .
+lex:L7706\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7706    lex:temArtigo    lex:L7706\/Artigo6 .
+lex:L7706\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7706\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7706    lex:temArtigo    lex:L7706\/Artigo7 .
+lex:L7706\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se as disposições em contrário." .
+lex:L7706\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2335\/Artigo9 .
+lex:L7706\/Artigo1\/Artigo2    lex:remetePara    lex:L7923\/Artigo12 .
+lex:L7706\/Artigo1\/Artigo2    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/Artigo2 .
+lex:L7706\/Artigo1\/Paragrafo1    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/Paragrafo1 .
+lex:L7706\/Artigo1\/IncisoI    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/IncisoI .
+lex:L7706\/Artigo1\/IncisoII    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/IncisoII .
+lex:L7706\/Artigo1\/IncisoIII    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/IncisoIII .
+lex:L7706\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del2335 .
+lex:L7706\/Artigo1\/Paragrafo2    lex:revogadoPor    lex:L8216\/Artigo38 .
+lex:L8216\/Artigo38    lex:revogou    lex:L7706\/Artigo1\/Paragrafo2 .
+lex:L7706\/Artigo3    lex:remetePara    lex:L7662\/Artigo5 .
+lex:L7706\/Artigo3\/Artigo4    lex:remetePara    lex:Del2365\/Artigo10 .
+lex:L7706\/Artigo3\/Artigo4    lex:revogadoPor    lex:L9007\/Artigo7 .
+lex:L9007\/Artigo7    lex:revogou    lex:L7706\/Artigo3\/Artigo4 .

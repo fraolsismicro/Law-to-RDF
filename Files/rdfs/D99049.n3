@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99049    lex:ehUm    lex:DocLegal .
+lex:D99049    lex:temTextoIntegral    lex:HTMLs\/D99049.htm .
+lex:D99049\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99049    lex:temArtigo    lex:D99049\/Artigo1 .
+lex:D99049\/Artigo1    lex:temConteudo    "Art. 1º - Fica, de acordo com o artigo 33, parágrafo terceiro, da Lei nº 4.117, de 27 de agosto de 1962, renovada por 10 (dez) anos, a partir de 12 de novembro de 1989, a concessão da RÁDIO HUMAITÁ LTDA, outorgada através do Decreto nº 84.026, de 25 de setembro de 1979, para explorar, na cidade de Campo Mourão, Estado do Paraná, sem direito de exclusividade, serviço de radiodifusão sonora em onda média." .
+lex:D99049\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99049\/Artigo1    lex:temParagrafo    lex:D99049\/Artigo1\/ParagrafoUnico .
+lex:D99049\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A execução do serviço de radiodifusão, cuja outorga é renovada por este Decreto, reger­se­á pelo Código Brasileiro de Telecomunicações, leis subseqüentes e seus regulamentos e, cumulativamente, pelas cláusulas aprovadas através do Decreto nº 88.066, de 26 de janeiro de 1983, às quais a entidade aderiu previamente." .
+lex:D99049\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99049    lex:temArtigo    lex:D99049\/Artigo2 .
+lex:D99049\/Artigo2    lex:temConteudo    "Art. 2º - A concessão ora renovada somente produzirá efeitos legais após deliberação do Congresso Nacional na forma do § 3º, do artigo 223, da Constituição." .
+lex:D99049\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99049    lex:temArtigo    lex:D99049\/Artigo3 .
+lex:D99049\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D99049\/Artigo1    lex:remetePara    lex:L4117\/Artigo33\/Paragrafo3 .
+lex:D99049\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D88066 .
+lex:D99049\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo223\/Paragrafo3 .

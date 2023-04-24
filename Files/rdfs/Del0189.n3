@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0189    lex:ehUm    lex:DocLegal .
+lex:Del0189    lex:temTextoIntegral    lex:HTMLs\/Del0189.htm .
+lex:Del0189\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0189    lex:temArtigo    lex:Del0189\/Artigo1 .
+lex:Del0189\/Artigo1    lex:temConteudo    "Art 1º A taxa de câmbio a que se refere o parágrafo único do art. 24 do Decreto-lei 37, de 18 de novembro de 1966, é fixada com base no valor de NCr$ 2,70 por dólar norte-americano ou seu equivalente em outras moedas." .
+lex:Del0189\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0189\/Artigo1    lex:temParagrafo    lex:Del0189\/Artigo1\/ParagrafoUnico .
+lex:Del0189\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo vigorará até o mês de maio de 1967, inclusive, ficando, a partir dessa data, restabelecida a norma prevista no parágrafo único do art. 24 do Decreto-lei 37, de 18 de novembro de 1966." .
+lex:Del0189\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0189    lex:temArtigo    lex:Del0189\/Artigo2 .
+lex:Del0189\/Artigo2    lex:temConteudo    "Art 2º Êste Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0189\/Artigo1    lex:remetePara    lex:Del0037\/Artigo24 .
+lex:Del0189\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del0037\/Artigo24 .

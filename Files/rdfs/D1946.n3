@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1946    lex:ehUm    lex:DocLegal .
+lex:D1946    lex:temTextoIntegral    lex:HTMLs\/D1946.htm .
+lex:D1946\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1946    lex:temAlinea    lex:D1946\/AlineaO .
+lex:D1946\/AlineaO    lex:temConteudo    "b) o Conselho Nacional do PRONAF, cabendo-lhe:     (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemAprovar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemAprovar .
+lex:D1946\/AlineaO\/ItemAprovar    lex:temConteudo    "1. aprovar o seu regimento interno;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemDefinir    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemDefinir .
+lex:D1946\/AlineaO\/ItemDefinir    lex:temConteudo    "2. definir diretrizes nacionais para o PRONAF;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemPropor    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemPropor .
+lex:D1946\/AlineaO\/ItemPropor    lex:temConteudo    "3. propor a adequação de políticas públicas às necessidades da agricultura familiar;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemRecomendar .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:temConteudo    "4. recomendar normas operacionais para o Programa;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemIdentificar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemIdentificar .
+lex:D1946\/AlineaO\/ItemIdentificar    lex:temConteudo    "5. identificar fontes de recursos para o PRONAF;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemRecomendar .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:temConteudo    "6. recomendar critérios para a alocação e aplicação de recursos;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemAprovar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemAprovar .
+lex:D1946\/AlineaO\/ItemAprovar    lex:temConteudo    "7. aprovar a programação físico-financeira anual do PRONAF e apreciar os pertinentes relatórios de execução;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/AlineaO\/ItemExaminar    lex:ehUm    lex:Item .
+lex:D1946\/AlineaO    lex:temItem    lex:D1946\/AlineaO\/ItemExaminar .
+lex:D1946\/AlineaO\/ItemExaminar    lex:temConteudo    "8. examinar estudos de avaliação do PRONAF e propor redirecionamentos;      (Ressalvado pelo Decreto 3.200, de 1999)" .
+lex:D1946\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1946    lex:temArtigo    lex:D1946\/Artigo7 .
+lex:D1946\/Artigo7    lex:temConteudo    "Art. 7° Este Decreto entra em vigor na data de sua publicação." .
+lex:D1946\/Texto    lex:revogadoPor    lex:D3200\/Artigo15 .
+lex:D3200\/Artigo15    lex:revogou    lex:D1946\/Texto .
+lex:D1946\/Texto    lex:remetePara    lex:D1946 .
+lex:D1946\/AlineaO    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemAprovar    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemDefinir    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemPropor    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemIdentificar    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemRecomendar    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemAprovar    lex:remetePara    lex:D3200\/Artigo15 .
+lex:D1946\/AlineaO\/ItemExaminar    lex:remetePara    lex:D3200\/Artigo15 .

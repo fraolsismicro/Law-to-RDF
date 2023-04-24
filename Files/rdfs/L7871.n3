@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7871    lex:ehUm    lex:DocLegal .
+lex:L7871    lex:temTextoIntegral    lex:HTMLs\/L7871.htm .
+lex:L7871\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7871    lex:temArtigo    lex:L7871\/Artigo1 .
+lex:L7871\/Artigo1    lex:temConteudo    "Art. 1° O art. 5° da Lei n° 1.060, de 5 de fevereiro de 1950, fica acrescido de um parágrafo, numerado como § 5°, com a seguinte redação:" .
+lex:L7871\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L7871\/Artigo1    lex:temParagrafo    lex:L7871\/Artigo1\/Paragrafo5 .
+lex:L7871\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5° Nos Estados onde a Assistência Judiciária seja organizada e por eles mantida, o Defensor Público, ou quem exerça cargo equivalente, será intimado pessoalmente de todos os atos do processo, em ambas as Instâncias, contando-se-lhes em dobro todos os prazos.'" .
+lex:L7871\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7871    lex:temArtigo    lex:L7871\/Artigo2 .
+lex:L7871\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L7871\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7871    lex:temArtigo    lex:L7871\/Artigo3 .
+lex:L7871\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:L7871\/Artigo1\/Paragrafo5    lex:remetePara    lex:L1060\/Artigo5\/Paragrafo5 .

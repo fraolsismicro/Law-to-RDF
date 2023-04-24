@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3545    lex:ehUm    lex:DocLegal .
+lex:L3545    lex:temTextoIntegral    lex:HTMLs\/L3545.htm .
+lex:L3545\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3545    lex:temArtigo    lex:L3545\/Artigo1 .
+lex:L3545\/Artigo1    lex:temConteudo    "Art. 1º É concedida isenção de direitos de importação, impôsto de consumo e mais taxas alfandegárias, exceto a de Despacho Aduaneiro, para equipamentos e maquinaria importados pela Companhia Gaspar Gasparian Industrial, sociedade brasileira com sede na Capital do Estado de São Paulo, e destinados à Companhia Mineira de Alimentação para instalação de uma Fábrica de Leite em Pó nas proximidades de Varginha, Estado de Minas Gerais." .
+lex:L3545\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3545\/Artigo1    lex:temParagrafo    lex:L3545\/Artigo1\/ParagrafoUnico .
+lex:L3545\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os equipamentos e maquinaria, a que se refere êste artigo, são os constantes da seguinte relação." .
+lex:L3545\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3545    lex:temArtigo    lex:L3545\/Artigo2 .
+lex:L3545\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

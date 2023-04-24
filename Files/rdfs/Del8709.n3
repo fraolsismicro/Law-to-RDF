@@ -1,0 +1,425 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del8709    lex:ehUm    lex:DocLegal .
+lex:Del8709    lex:temTextoIntegral    lex:HTMLs\/Del8709.htm .
+lex:Del8709\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del8709    lex:temInciso    lex:Del8709\/IncisoI .
+lex:Del8709\/IncisoI    lex:temConteudo    "I   órgão orientador e controlador; Junta Deliberativa;" .
+lex:Del8709\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del8709    lex:temInciso    lex:Del8709\/IncisoII .
+lex:Del8709\/IncisoII    lex:temConteudo    "II   órgãos executivos:" .
+lex:Del8709\/IncisoII\/IncisoAlineaDiretoria    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoII    lex:temIncisoAlinea    lex:Del8709\/IncisoII\/IncisoAlineaDiretoria .
+lex:Del8709\/IncisoII\/IncisoAlineaDiretoria    lex:temConteudo    "a) Diretoria;" .
+lex:Del8709\/IncisoII\/IncisoAlineaDiretoria\/IncisoAlineaPresidencia    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoII\/IncisoAlineaDiretoria    lex:temIncisoAlinea    lex:Del8709\/IncisoII\/IncisoAlineaDiretoria\/IncisoAlineaPresidencia .
+lex:Del8709\/IncisoII\/IncisoAlineaDiretoria\/IncisoAlineaPresidencia    lex:temConteudo    "b) Presidência." .
+lex:Del8709\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del8709    lex:temInciso    lex:Del8709\/IncisoIII .
+lex:Del8709\/IncisoIII    lex:temConteudo    "III   órgãos auxiliares," .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoIII    lex:temIncisoAlinea    lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria    lex:temConteudo    "a) Consultoria Jurídica;" .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria    lex:temIncisoAlinea    lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao    lex:temConteudo    "b) Divisão Econômica;" .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao    lex:temIncisoAlinea    lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao    lex:temConteudo    "c) Divisão Administrativa;" .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao    lex:temIncisoAlinea    lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias    lex:temConteudo    "d) Delegacias Regionais;" .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias\/IncisoAlineaAgencias    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias    lex:temIncisoAlinea    lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias\/IncisoAlineaAgencias .
+lex:Del8709\/IncisoIII\/IncisoAlineaConsultoria\/IncisoAlineaDivisao\/IncisoAlineaDivisao\/IncisoAlineaDelegacias\/IncisoAlineaAgencias    lex:temConteudo    "e) Agências no Exterior." .
+lex:Del8709\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709    lex:temParagrafo    lex:Del8709\/Paragrafo1 .
+lex:Del8709\/Paragrafo1    lex:temConteudo    "Parágrafo 1º Serão de livre escolha do Govêrno e nomeados em comissão pelo Presidente da República o Presidente e os Diretores." .
+lex:Del8709\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709    lex:temParagrafo    lex:Del8709\/Paragrafo2 .
+lex:Del8709\/Paragrafo2    lex:temConteudo    "Parágrafo 2º   O Presidente do Instituto e os Diretores perceberão os vencimentos que lhes forem assegurados em lei." .
+lex:Del8709\/Paragrafo2\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:Del8709\/Paragrafo2    lex:temAlinea    lex:Del8709\/Paragrafo2\/AlineaUm .
+lex:Del8709\/Paragrafo2\/AlineaUm    lex:temConteudo    "a) um representante dos produtores e outro dos industriais e exportadores de mate dos Estados do Paraná, Santa Catarina e Rio Grande do Sul e do Território de Ponta Porã;" .
+lex:Del8709\/Paragrafo2\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:Del8709\/Paragrafo2    lex:temAlinea    lex:Del8709\/Paragrafo2\/AlineaUm .
+lex:Del8709\/Paragrafo2\/AlineaUm    lex:temConteudo    "b) um representante, designado pelo Govêrno de cada um dos citados Estados e Território," .
+lex:Del8709\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709    lex:temParagrafo    lex:Del8709\/Paragrafo1 .
+lex:Del8709\/Paragrafo1    lex:temConteudo    "Parágrafo 1º   A Junta Deliberativa se reunirá sob a presidência do Presidente do Instituto, ou de seu substituto, que terá voto de qualidade e de desempate." .
+lex:Del8709\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709    lex:temParagrafo    lex:Del8709\/Paragrafo2 .
+lex:Del8709\/Paragrafo2    lex:temConteudo    "Parágrafo 2º   O representante dos produtores e o dos industriais e exportadores serão eleitos ou designados pelas respectivas associações de classe, registradas no Instituto, e exercerão o seu mandato pelo período de dois anos, podendo ser reeleitos." .
+lex:Del8709\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del8709    lex:temParagrafo    lex:Del8709\/Paragrafo3 .
+lex:Del8709\/Paragrafo3    lex:temConteudo    "Parágrafo 3º   Os representantes dos Govêrnos estaduais e do Território de Ponta Porã serão designados, também pelo período de dois anos, podendo ser reconduzidos, bem como destituídos, a juízo dos mesmos Govêrnos." .
+lex:Del8709\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo8 .
+lex:Del8709\/Artigo8    lex:temConteudo    "Art. 8º   A Junta Deliberativa reunir-se-á, ordinàriamente, no primeiro dia útil da segunda quinzena dos meses de março e outubro, e, extraordinàriamente, sempre que fôr convocada, com a antecedência mínima de quinze dias, pelo Presidente do Instituto ou por solicitação escrita de dois têrços dos seus membros." .
+lex:Del8709\/Artigo9    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo9 .
+lex:Del8709\/Artigo9    lex:temConteudo    "Art. 9º   A Junta Deliberativa têm por função orientar e controlar a administração e a atividade do I.N.M." .
+lex:Del8709\/Artigo10    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo10 .
+lex:Del8709\/Artigo10    lex:temConteudo    "Art. 10   São atribuições da Junta:" .
+lex:Del8709\/Artigo10\/AlineaTracar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaTracar .
+lex:Del8709\/Artigo10\/AlineaTracar    lex:temConteudo    "a) traçar a política econômica e aprovar o plano de administração anual, apresentado pelo Presidente do lnstituto;" .
+lex:Del8709\/Artigo10\/AlineaExaminar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaExaminar .
+lex:Del8709\/Artigo10\/AlineaExaminar    lex:temConteudo    "b) examinar, aprovando ou não, a gestão financeira do Instituto, à vista relatório apresentado pela Comissão Fiscal a que se refere o art. 11, bem como o relatório apresentado pelo Presidente do Instituto, sôbre os trabalhos executados durante o ano anterior;" .
+lex:Del8709\/Artigo10\/AlineaDeliberar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaDeliberar .
+lex:Del8709\/Artigo10\/AlineaDeliberar    lex:temConteudo    "c) deliberar sôbre o projeto de orçamento anual do Instituto, apresentado pelo Presidente;" .
+lex:Del8709\/Artigo10\/AlineaDeliberar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaDeliberar .
+lex:Del8709\/Artigo10\/AlineaDeliberar    lex:temConteudo    "d) deliberar sôbre a concessão de auxílio financeiro a produtores, industriais e exportadores de mate, inscritos no Instituto, e sôbre a constituição de fundos para êsse fim;" .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaFixar .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:temConteudo    "e) fixar anualmente as contribuições devidas ao Instituto e a taxa de propaganda prescrita neste decreto-lei;" .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaFixar .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:temConteudo    "f) fixar a importância a que terão direito, por ocasião das reuniões, os seus membros, a título de despesas de viagem e estada;" .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaFixar .
+lex:Del8709\/Artigo10\/AlineaFixar    lex:temConteudo    "g) fixar preços para a venda do mate e cotas de produção, industrialização e exportação;" .
+lex:Del8709\/Artigo10\/AlineaAutorizar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaAutorizar .
+lex:Del8709\/Artigo10\/AlineaAutorizar    lex:temConteudo    "h) autorizar o Presidente a realizar as operações de crédito ou financiamento que se tornarem indispensáveis à defesa e ao aperfeiçoamento da produção, ao contrôle do mercado e à propaganda do mate;" .
+lex:Del8709\/Artigo10\/AlineaJulgar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaJulgar .
+lex:Del8709\/Artigo10\/AlineaJulgar    lex:temConteudo    "i) julgar os recursos dos atos do Presidente do Instituto, relativos aos interêsses da economia ervateira;" .
+lex:Del8709\/Artigo10\/AlineaDeterminar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaDeterminar .
+lex:Del8709\/Artigo10\/AlineaDeterminar    lex:temConteudo    "j) determinar, no fim de cada biênio, a época e o modo de realização das eleições para a sua renovação;" .
+lex:Del8709\/Artigo10\/AlineaSugerir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo10    lex:temAlinea    lex:Del8709\/Artigo10\/AlineaSugerir .
+lex:Del8709\/Artigo10\/AlineaSugerir    lex:temConteudo    "l) sugerir ao Presidente do Instituto quaisquer providências para a defesa dá produção do mate e desenvolvimento do seu comércio." .
+lex:Del8709\/Artigo11    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo11 .
+lex:Del8709\/Artigo11    lex:temConteudo    "Art. 11   A Junta Deliberativa elegerá, anualmente três dos seus membros para constituírem uma Comissão Fiscal." .
+lex:Del8709\/Artigo11\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo11    lex:temParagrafo    lex:Del8709\/Artigo11\/Paragrafo1 .
+lex:Del8709\/Artigo11\/Paragrafo1    lex:temConteudo    "§ 1º   A Comissão Fiscal caberá, o exame contábil da gestão financeira do Instituto, referente ao exercício anterior, devendo apresentar à Junta um relatório circunstanciado dos seus trabalhos, em que conclua pela aprovação ou não das contas." .
+lex:Del8709\/Artigo11\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo11    lex:temParagrafo    lex:Del8709\/Artigo11\/Paragrafo2 .
+lex:Del8709\/Artigo11\/Paragrafo2    lex:temConteudo    "§ 2º   Auxiliará a Comissão Fiscal um funcionário especializado em contabilidade, designado pelo Ministro da Agricultura." .
+lex:Del8709\/Artigo12    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo12 .
+lex:Del8709\/Artigo12    lex:temConteudo    "Art. 12   Aos interessados, registrados no I.N.M., cabe recurso, sem efeito suspensivo, das decisões da J. D. para o Presidente da República, interposto por intermédio do Ministro da, Agricultura, que informará a respeito." .
+lex:Del8709\/Artigo13    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo13 .
+lex:Del8709\/Artigo13    lex:temConteudo    "Art. 13   A Diretoria têm por função estudar e decidir, na gestão dos negócios do Instituto, as questões de relevância, que afetem ao seu interêsse, quando convocada pelo Presidente." .
+lex:Del8709\/Artigo14    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo14 .
+lex:Del8709\/Artigo14    lex:temConteudo    "Art. 14   A Diretoria será constituída do Presidente do Instituto e de dois membros, nomeados pelo Presidente da República." .
+lex:Del8709\/Artigo15    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo15 .
+lex:Del8709\/Artigo15    lex:temConteudo    "Art. 15   São atribuições da Diretoria:" .
+lex:Del8709\/Artigo15\/AlineaEstudar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaEstudar .
+lex:Del8709\/Artigo15\/AlineaEstudar    lex:temConteudo    "a) estudar os assuntos que devam ser submetidos à apreciação da Junta Deliberativa, e outros, por iniciativa própria, ou que lhe sejam submetidos pelo Presidente, e emitir parecer a respeito;" .
+lex:Del8709\/Artigo15\/AlineaElaborar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaElaborar .
+lex:Del8709\/Artigo15\/AlineaElaborar    lex:temConteudo    "b) elaborar os contratos de propaganda e publicidade, a fim de serem submetidos à Junta Deliberativa;" .
+lex:Del8709\/Artigo15\/AlineaOpinar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaOpinar .
+lex:Del8709\/Artigo15\/AlineaOpinar    lex:temConteudo    "c) opinar sôbre os relatórios e contas dos encarregados de serviços de propaganda, no país e no exterior;" .
+lex:Del8709\/Artigo15\/AlineaEstudar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaEstudar .
+lex:Del8709\/Artigo15\/AlineaEstudar    lex:temConteudo    "d) estudar, em colaboração com as autoridades encarregadas do assunto, os meios de repressão às fraudes, adulterações e contrabando da erva-mate;" .
+lex:Del8709\/Artigo15\/AlineaOrganizar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaOrganizar .
+lex:Del8709\/Artigo15\/AlineaOrganizar    lex:temConteudo    "e) organizar o sistema de registro dos produtores, industriais e exportadores de mate e das entidades legalmente constituídas, com fins econômicos, para congregar os que se dedicam às atividades ervateiras;" .
+lex:Del8709\/Artigo15\/AlineaProvidenciar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaProvidenciar .
+lex:Del8709\/Artigo15\/AlineaProvidenciar    lex:temConteudo    "f) providenciar sôbre os trabalhos afetos ao laboratório de análises do Instituto, incentivando as pesquisas científicas e industriais, relativa ao mate, podendo solicitar, em casos especiais, a colaboração do Serviço Nacional de Pesquisas Agronômicas do Ministério da Agricultura;" .
+lex:Del8709\/Artigo15\/AlineaTomar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaTomar .
+lex:Del8709\/Artigo15\/AlineaTomar    lex:temConteudo    "g) tomar deliberações sôbre os trabalhos permanentes de estatística, relativos a tudo quanto interêsse ao mate;" .
+lex:Del8709\/Artigo15\/AlineaFixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaFixar .
+lex:Del8709\/Artigo15\/AlineaFixar    lex:temConteudo    "h) fixar a importância a que terão direito os seus membros, quanto tiverem de viajar a serviço do Instituto;" .
+lex:Del8709\/Artigo15\/AlineaDecidir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaDecidir .
+lex:Del8709\/Artigo15\/AlineaDecidir    lex:temConteudo    "i) decidir, ad-referendum da Junta Deliberativa, as questões que, dependendo, por sua natureza, do prévio assentimento daquela, não possam, pela sua urgência, aguardar a respectiva reunião ordinária ou extraordinária;" .
+lex:Del8709\/Artigo15\/AlineaColaborar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo15    lex:temAlinea    lex:Del8709\/Artigo15\/AlineaColaborar .
+lex:Del8709\/Artigo15\/AlineaColaborar    lex:temConteudo    "j) colaborar na elaboração do projeto de orçamento anual do Instituto a ser submetido à aprovação da Junta Deliberativa." .
+lex:Del8709\/Artigo15\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo15    lex:temParagrafo    lex:Del8709\/Artigo15\/ParagrafoUnico .
+lex:Del8709\/Artigo15\/ParagrafoUnico    lex:temConteudo    "Parágrafo único   As reuniões da Diretoria serão presididas pelo Presidente do Instituto, com voto de desempate, e assistidas pelo Consultor Jurídico, quando solicitado, lavrando-se ata dos trabalhos por funcionário para isso designado." .
+lex:Del8709\/Artigo16    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo16 .
+lex:Del8709\/Artigo16    lex:temConteudo    "Art. 16   São atribuições do Presidente do Instituto:" .
+lex:Del8709\/Artigo16\/AlineaGerir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaGerir .
+lex:Del8709\/Artigo16\/AlineaGerir    lex:temConteudo    "a) gerir as atividades do Instituto;" .
+lex:Del8709\/Artigo16\/AlineaCumprir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaCumprir .
+lex:Del8709\/Artigo16\/AlineaCumprir    lex:temConteudo    "b) cumprir e fazer cumprir a legislação vigente, as resoluções da Junta Deliberativa e as decisões da Diretoria;" .
+lex:Del8709\/Artigo16\/AlineaConvocar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaConvocar .
+lex:Del8709\/Artigo16\/AlineaConvocar    lex:temConteudo    "c) convocar extraordinàriamente e presidir as reuniões da Junta Deliberativa e da Diretoria;" .
+lex:Del8709\/Artigo16\/AlineaAssinar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaAssinar .
+lex:Del8709\/Artigo16\/AlineaAssinar    lex:temConteudo    "d) assinar com um dos Diretores os contratos ou quaisquer documentos que envolvam a responsabilidade do Instituto;" .
+lex:Del8709\/Artigo16\/AlineaRepresentar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaRepresentar .
+lex:Del8709\/Artigo16\/AlineaRepresentar    lex:temConteudo    "e) representar o Instituto em Juízo ou fora dêle, em suas relações com os Poderes Públicos e com os particulares;" .
+lex:Del8709\/Artigo16\/AlineaDesignar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaDesignar .
+lex:Del8709\/Artigo16\/AlineaDesignar    lex:temConteudo    "f) designar qualquer Diretor para o exercício de funções ou o desempenho de comissões, compatíveis  com o cargo, inclusive e preferencialmente a Direção da Divisão Econômica e da Divisão Administrativa;" .
+lex:Del8709\/Artigo16\/AlineaOrganizar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaOrganizar .
+lex:Del8709\/Artigo16\/AlineaOrganizar    lex:temConteudo    "g) organizar os serviços, admitir, dispensar, promover, transferir, licenciar, premiar e punir os empregados do Instituto, assim como praticar todos os atos a êles referentes, nos têrmos do presente Decreto-lei e seu Regulamento;" .
+lex:Del8709\/Artigo16\/AlineaSuprimir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaSuprimir .
+lex:Del8709\/Artigo16\/AlineaSuprimir    lex:temConteudo    "h) suprimir funções desnecessárias, quando se vagarem;" .
+lex:Del8709\/Artigo16\/AlineaAutorizar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaAutorizar .
+lex:Del8709\/Artigo16\/AlineaAutorizar    lex:temConteudo    "i) autorizar tôdas as despesas decorrentes de determinação legal, ou previstas em orçamento, ordenando os respectivos pagamentos;" .
+lex:Del8709\/Artigo16\/AlineaBaixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaBaixar .
+lex:Del8709\/Artigo16\/AlineaBaixar    lex:temConteudo    "j) baixar atos para por em execução as resoluções da Junta Deliberativa e as decisões da Diretoria;" .
+lex:Del8709\/Artigo16\/AlineaBaixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaBaixar .
+lex:Del8709\/Artigo16\/AlineaBaixar    lex:temConteudo    "l) baixar atos, regulando a produção, a indústria e o comércio da erva-mate, submetendo-os à apreciação da Junta, na primeira reunião;" .
+lex:Del8709\/Artigo16\/AlineaTomar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaTomar .
+lex:Del8709\/Artigo16\/AlineaTomar    lex:temConteudo    "m) tomar medidas tendentes a estabelecer equilíbrio entre a produção, a indústria e a exportação do mate, inclusive a suspensão da Guia de exportação aos exportadores que excederam, fora dos reajustes, os limites das suas cotas, ou descumprirem os reajustes ordenados pelo Instituto, em combinação com os respectivos sindicatos;" .
+lex:Del8709\/Artigo16\/AlineaVelar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaVelar .
+lex:Del8709\/Artigo16\/AlineaVelar    lex:temConteudo    "n) velar pela guarda e boa aplicação dos fundos do Instituto;" .
+lex:Del8709\/Artigo16\/AlineaApresentar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaApresentar .
+lex:Del8709\/Artigo16\/AlineaApresentar    lex:temConteudo    "o) apresentar à Junta Deliberativa, nas suas reuniões ordinárias, relatório circunstanciado das atividades do Instituto e fornecer todos os elementos necessários ao perfeito conhecimento da receita e das despesas;" .
+lex:Del8709\/Artigo16\/AlineaApresentar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaApresentar .
+lex:Del8709\/Artigo16\/AlineaApresentar    lex:temConteudo    "p) apresentar, anualmente, à J.D. um plano de administração e o projeto de orçamento;" .
+lex:Del8709\/Artigo16\/AlineaAplicar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaAplicar .
+lex:Del8709\/Artigo16\/AlineaAplicar    lex:temConteudo    "q) aplicar sanções aos infratores das leis, regulamentos, resoluções e instruções do Instituto sôbre as atividades ervateiras, julgando os respectivos processos ;" .
+lex:Del8709\/Artigo16\/AlineaFixar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaFixar .
+lex:Del8709\/Artigo16\/AlineaFixar    lex:temConteudo    "r) fixar a taxa de propaganda, ad-referendum da Junta Deliberativa, na ausência desta;" .
+lex:Del8709\/Artigo16\/AlineaProvidenciar    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaProvidenciar .
+lex:Del8709\/Artigo16\/AlineaProvidenciar    lex:temConteudo    "s) providenciar sôbre a contabilidade do I.N.M. ;" .
+lex:Del8709\/Artigo16\/AlineaSuperintender    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo16    lex:temAlinea    lex:Del8709\/Artigo16\/AlineaSuperintender .
+lex:Del8709\/Artigo16\/AlineaSuperintender    lex:temConteudo    "t) superintender os serviços de administração do Instituto e praticar todos os atos que lhe forem cometidos por êste Decreto-lei e seu Regulamento." .
+lex:Del8709\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo16    lex:temParagrafo    lex:Del8709\/Artigo16\/Paragrafo1 .
+lex:Del8709\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1º   O Presidente será substituído, nas suas ausências ou impedimentos, por um dos Diretores por êle indicado." .
+lex:Del8709\/Artigo16\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo16    lex:temParagrafo    lex:Del8709\/Artigo16\/Paragrafo2 .
+lex:Del8709\/Artigo16\/Paragrafo2    lex:temConteudo    "§ 2º   O ato de suspensão da Guia de exportação, a que se refere a letra m) dêste artigo, será mantido até que o exportador cumpra  os reajustes." .
+lex:Del8709\/Artigo17    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo17 .
+lex:Del8709\/Artigo17    lex:temConteudo    "Art. 17   Dos atos do Presidente, relativos aos interesses da produção, indústria e comércio do mate. caberá, recurso, sem efeito suspensivo, para a Junta Deliberativa." .
+lex:Del8709\/Artigo18    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo18 .
+lex:Del8709\/Artigo18    lex:temConteudo    "Art. 18. Dos atos administrativos do Presidente caberá recurso, sem efeito suspensivo, para o Ministro da Agricultura." .
+lex:Del8709\/Artigo19    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo19 .
+lex:Del8709\/Artigo19    lex:temConteudo    "Art. 19. A Consultoria Jurídica é um órgão auxiliar, técnico, que tem por funções :" .
+lex:Del8709\/Artigo19\/AlineaAssistir    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo19    lex:temAlinea    lex:Del8709\/Artigo19\/AlineaAssistir .
+lex:Del8709\/Artigo19\/AlineaAssistir    lex:temConteudo    "a) assistir à J.D., à Diretoria e ao Presidente, oficiando e dizendo de fato e de direito sôbre a legislação e os contratos de interêsses do Instituto;" .
+lex:Del8709\/Artigo19\/AlineaExercer    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo19    lex:temAlinea    lex:Del8709\/Artigo19\/AlineaExercer .
+lex:Del8709\/Artigo19\/AlineaExercer    lex:temConteudo    "b) exercer a representação judicial do Instituto quando para isso designado pelo Presidente;" .
+lex:Del8709\/Artigo19\/AlineaPromover    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo19    lex:temAlinea    lex:Del8709\/Artigo19\/AlineaPromover .
+lex:Del8709\/Artigo19\/AlineaPromover    lex:temConteudo    "c) promover e defender tôdas as causas em que seja parte o Instituto, podendo requisitar das autoridades competentes as diligências, certidões e esclarecimentos necessários." .
+lex:Del8709\/Artigo20    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo20 .
+lex:Del8709\/Artigo20    lex:temConteudo    "Art. 20. A Divisão Econômica compreende:" .
+lex:Del8709\/Artigo20\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo20    lex:temInciso    lex:Del8709\/Artigo20\/IncisoI .
+lex:Del8709\/Artigo20\/IncisoI    lex:temConteudo    "I   Seção de Produção e Indústria ;" .
+lex:Del8709\/Artigo20\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo20    lex:temInciso    lex:Del8709\/Artigo20\/IncisoII .
+lex:Del8709\/Artigo20\/IncisoII    lex:temConteudo    "II   Seção de Comércio e Transporte;" .
+lex:Del8709\/Artigo20\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo20    lex:temInciso    lex:Del8709\/Artigo20\/IncisoIII .
+lex:Del8709\/Artigo20\/IncisoIII    lex:temConteudo    "III   Seção de Contrôle, Pesquisas e Estatística;" .
+lex:Del8709\/Artigo20\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo20    lex:temInciso    lex:Del8709\/Artigo20\/IncisoIV .
+lex:Del8709\/Artigo20\/IncisoIV    lex:temConteudo    "IV   Seção de Propaganda." .
+lex:Del8709\/Artigo21    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo21 .
+lex:Del8709\/Artigo21    lex:temConteudo    "Art. 21. A Divisão Econômica terá a seu cargo, além das atividades enumeradas no Regulamento dêste Decreto-lei :" .
+lex:Del8709\/Artigo21\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo21    lex:temInciso    lex:Del8709\/Artigo21\/IncisoI .
+lex:Del8709\/Artigo21\/IncisoI    lex:temConteudo    "I   Quanto à produção:" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar    lex:temConteudo    "a) organizar o cadastro dos produtores;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:temConteudo    "b) determinar a cota de colheitas;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:temConteudo    "c) orientar a colheita e transporte da cancheada ;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:temConteudo    "d) classificar e padronizar a cancheada ;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar    lex:temConteudo    "e) fixar preços da cancheada;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar    lex:temConteudo    "f) projetar e orientar a construção de instalações para o preparo da cancheada;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar    lex:temConteudo    "g) incrementar o espírito cooperativista entre os produtores;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar    lex:temConteudo    "h) estudar as condições de trabalho na produção da cancheada;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "i) estudar as condições de vida da população ervateira;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar    lex:temConteudo    "j) declarar e propor medidas econômicas e financeiras de amparo ao produtor;" .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar\/IncisoAlineaFiscalizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar\/IncisoAlineaFiscalizar .
+lex:Del8709\/Artigo21\/IncisoI\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaFixar\/IncisoAlineaProjetar\/IncisoAlineaIncrementar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaDeclarar\/IncisoAlineaFiscalizar    lex:temConteudo    "l) fiscalizar a produção da cancheada." .
+lex:Del8709\/Artigo21\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo21    lex:temInciso    lex:Del8709\/Artigo21\/IncisoII .
+lex:Del8709\/Artigo21\/IncisoII    lex:temConteudo    "II   Quanto à Indústria :" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar    lex:temConteudo    "a) organizar o cadastro dos industriais;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:temConteudo    "b) determinar a cota de produção beneficiada ;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:temConteudo    "c) orientar o escoamento da beneficiada;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:temConteudo    "d) classificar e padronizar os tipos de beneficiada;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar    lex:temConteudo    "e) levantar as instalações industriais e sugerir melhoras;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar    lex:temConteudo    "f) estudar as condições de trabalho, no beneficiamento;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "g) estudar as condições de vida do trabalhador, na indústria;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "h) estudar e propor medidas econômicas e financeiras de amparo à indústria ;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar    lex:temConteudo    "i) fiscalizar a produção da beneficiada;" .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar\/IncisoAlineaPadronizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar\/IncisoAlineaPadronizar .
+lex:Del8709\/Artigo21\/IncisoII\/IncisoAlineaOrganizar\/IncisoAlineaDeterminar\/IncisoAlineaOrientar\/IncisoAlineaClassificar\/IncisoAlineaLevantar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaFiscalizar\/IncisoAlineaPadronizar    lex:temConteudo    "j) padronizar a embalagem." .
+lex:Del8709\/Artigo21\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo21    lex:temInciso    lex:Del8709\/Artigo21\/IncisoIII .
+lex:Del8709\/Artigo21\/IncisoIII    lex:temConteudo    "III   Quanto ao Comércio:" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar    lex:temConteudo    "a) organizar o cadastro dos exportadores;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar    lex:temConteudo    "b) fixar a cota de exportação;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar    lex:temConteudo    "c) orientar a exportação;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar    lex:temConteudo    "d) determinar os preços, para a exportação;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar    lex:temConteudo    "e) padronizar as vendas, para o exterior;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar    lex:temConteudo    "f) fiscalizar a exportação;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar    lex:temConteudo    "g) controlar a produção e a exportação;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar    lex:temConteudo    "h) estudar as condições, preferências e capacidade de consumo dos mercados;" .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar\/IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIII\/IncisoAlineaOrganizar\/IncisoAlineaFixar\/IncisoAlineaOrientar\/IncisoAlineaDeterminar\/IncisoAlineaPadronizar\/IncisoAlineaFiscalizar\/IncisoAlineaControlar\/IncisoAlineaEstudar\/IncisoAlinea    lex:temConteudo    "i)  organizar o boletim informativo." .
+lex:Del8709\/Artigo21\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Del8709\/Artigo21    lex:temInciso    lex:Del8709\/Artigo21\/IncisoIV .
+lex:Del8709\/Artigo21\/IncisoIV    lex:temConteudo    "IV   Quanto às Pesquisas:" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar    lex:temConteudo    "a) estudar a erva mate sob o ponto de vista botânico e químico." .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "b) estudar o aproveitamento industrial do mate e seus subprodutos;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "c) estudar as condições de colheita e replantio;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temConteudo    "d) estudar a conservação do produto;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar    lex:temConteudo    "e) organizar a defesa e proteção sanitária dos ervais;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar    lex:temConteudo    "f) criar estações experimentais;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar    lex:temConteudo    "g) providenciar sôbre a instalação de laboratórios de análises e a unificação dêstes, tendo em vista os regulamentos dos países consumidores;" .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar\/IncisoAlineaFomentar    lex:ehUm    lex:IncisoAlinea .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar    lex:temIncisoAlinea    lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar\/IncisoAlineaFomentar .
+lex:Del8709\/Artigo21\/IncisoIV\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaEstudar\/IncisoAlineaOrganizar\/IncisoAlineaCriar\/IncisoAlineaProvidenciar\/IncisoAlineaFomentar    lex:temConteudo    "h) fomentar outros trabalhos de caráter científico." .
+lex:Del8709\/Artigo22    lex:ehUm    lex:Artigo .
+lex:Del8709    lex:temArtigo    lex:Del8709\/Artigo22 .
+lex:Del8709\/Artigo22    lex:temConteudo    "Art. 22. A Divisão Administrativa compreende a Gerência de que ficam dependentes tôdas as seções da mesma Divisão, a saber:" .
+lex:Del8709\/Artigo22\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo22    lex:temAlinea    lex:Del8709\/Artigo22\/AlineaA .
+lex:Del8709\/Artigo22\/AlineaA    lex:temConteudo    "a) a Seção de Comunicações, abrangendo a Biblioteca e o Arquivo;" .
+lex:Del8709\/Artigo22\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo22    lex:temAlinea    lex:Del8709\/Artigo22\/AlineaA .
+lex:Del8709\/Artigo22\/AlineaA    lex:temConteudo    "b) a Seção do Pessoal;" .
+lex:Del8709\/Artigo22\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo22    lex:temAlinea    lex:Del8709\/Artigo22\/AlineaA .
+lex:Del8709\/Artigo22\/AlineaA    lex:temConteudo    "c) a Seção do Material, a que pertence a Portaria;" .
+lex:Del8709\/Artigo22\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo22    lex:temAlinea    lex:Del8709\/Artigo22\/AlineaO .
+lex:Del8709\/Artigo22\/AlineaO    lex:temConteudo    "d) o Caixa;" .
+lex:Del8709\/Artigo22\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del8709\/Artigo22    lex:temAlinea    lex:Del8709\/Artigo22\/AlineaA .
+lex:Del8709\/Artigo22\/AlineaA    lex:temConteudo    "e) a Contabilidade." .
+lex:Del8709\/Artigo22\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo1 .
+lex:Del8709\/Artigo22\/Paragrafo1    lex:temConteudo    "Parágrafo 1º. A taxa de propaganda, cobrada por quilo de mate comercializado, será, uniforme para todos os Estados e o Território de Ponta Porã e para todos os tipos de mate." .
+lex:Del8709\/Artigo22\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo2 .
+lex:Del8709\/Artigo22\/Paragrafo2    lex:temConteudo    "Parágrafo 2º. A juízo do Presidente a ad-referendum da Junta Deliberativa, poderá ser concedida isenção ou redução da taxa de propaganda sôbre certos tipos de mate." .
+lex:Del8709\/Artigo22\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo3 .
+lex:Del8709\/Artigo22\/Paragrafo3    lex:temConteudo    "Parágrafo 3º. O Presidente do Instituto poderá fixar,   ad,-referendum da Junta Deliberativa, a taxa de propaganda, observado o limite da percentagem estabelecida nêste Decreto-lei." .
+lex:Del8709\/Artigo22\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo1 .
+lex:Del8709\/Artigo22\/Paragrafo1    lex:temConteudo    "Parágrafo 1º. Novas nomeações e promoções serão feitas pela forma prescrita no mesmo Regulamento." .
+lex:Del8709\/Artigo22\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo2 .
+lex:Del8709\/Artigo22\/Paragrafo2    lex:temConteudo    "Parágrafo 2º. As despesas com o pessoal do Instituto deverão ser gradativamente reduzidas até o limite de 25% (vinte e cinco por cento) da despesa fixada para cada exercício." .
+lex:Del8709\/Artigo22\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo3 .
+lex:Del8709\/Artigo22\/Paragrafo3    lex:temConteudo    "Parágrafo 3º. Aplicam-se ao pessoal do I.N.M. os abonos e benefícios concedidos pelo Govêrno Federal aos funcionários públicos." .
+lex:Del8709\/Artigo22\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del8709\/Artigo22    lex:temParagrafo    lex:Del8709\/Artigo22\/Paragrafo4 .
+lex:Del8709\/Artigo22\/Paragrafo4    lex:temConteudo    "Parágrafo 4º. Os servidores do Instituto, quando viajarem em objeto de serviço, gozarão, por parte das emprêsas de transporte, das mesmas isenções e reduções concedidas aos funcionários da União." .
+lex:Del8709\/Artigo22\/Texto00138    lex:remetePara    lex:Del4657\/Artigo1 .

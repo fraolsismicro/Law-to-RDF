@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0129    lex:ehUm    lex:DocLegal .
+lex:D0129    lex:temTextoIntegral    lex:HTMLs\/D0129.htm .
+lex:D0129\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0129    lex:temArtigo    lex:D0129\/Artigo1 .
+lex:D0129\/Artigo1    lex:temConteudo    "Art. 1° A Convenção n° 159, da Organização Internacional do Trabalho - OIT, sobre Reabilitação Profissional e Emprego de Pessoas Deficientes, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D0129\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0129    lex:temArtigo    lex:D0129\/Artigo2 .
+lex:D0129\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0129\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0129\/Artigo2    lex:temAlinea    lex:D0129\/Artigo2\/AlineaA .
+lex:D0129\/Artigo2\/AlineaA    lex:temConteudo    "a) a ratificação, por um País Membro, de novo Convênio, implicará, ipso jure, a notificação imediata deste Convênio, não obstante as disposições contidas no Artigo 12, sempre que o novo Convênio tenha entrado em vigor;" .
+lex:D0129\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0129\/Artigo2    lex:temAlinea    lex:D0129\/Artigo2\/AlineaA .
+lex:D0129\/Artigo2\/AlineaA    lex:temConteudo    "b) a partir da data em que entre em vigor o novo Convênio, o presente Convênio cessará para as ratificações pelos Países Membros." .
+lex:D0129\/Artigo2\/AlineaA\/Item-    lex:ehUm    lex:Item .
+lex:D0129\/Artigo2\/AlineaA    lex:temItem    lex:D0129\/Artigo2\/AlineaA\/Item- .
+lex:D0129\/Artigo2\/AlineaA\/Item-    lex:temConteudo    "2 - Este Convênio continuará em vigor, em todo caso, em sua forma e conteúdo atuais, para os Países Membros, que o tenham ratificado e não ratifiquem um Convênio revisado." .

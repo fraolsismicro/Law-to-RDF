@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D12400    lex:ehUm    lex:DocLegal .
+lex:D12400    lex:temTextoIntegral    lex:HTMLs\/D12400.htm .
+lex:D12400\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D12400    lex:temArtigo    lex:D12400\/Artigo1A .
+lex:D12400\/Artigo1A    lex:temConteudo    "Art. 1Âº Fica prorogado por mais dous annos o prazo para o resgate das lettras do Thesouro (papel) emittidas de accÃ´rdo com o decreto n. 11.478, de 5 de fevereiro de 1915." .
+lex:D12400\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D12400    lex:temArtigo    lex:D12400\/Artigo2A .
+lex:D12400\/Artigo2A    lex:temConteudo    "Art. 2Âº Os juros desses titulos continuarÃ£o a ser pagos annualmente." .
+lex:D12400\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D12400    lex:temArtigo    lex:D12400\/Artigo3A .
+lex:D12400\/Artigo3A    lex:temConteudo    "Art. 3Âº Revogam-se as disposiÃ§Ãµes em contrario." .
+lex:D12400\/Texto    lex:revogadoPor    lex:Dnn25-4-91-4 .
+lex:Dnn25-4-91-4    lex:revogou    lex:D12400\/Texto .
+lex:D12400\/Texto    lex:remetePara    lex:D12400 .

@@ -1,0 +1,68 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0598    lex:ehUm    lex:DocLegal .
+lex:D0598    lex:temTextoIntegral    lex:HTMLs\/D0598.htm .
+lex:D0598\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0598    lex:temArtigo    lex:D0598\/Artigo1 .
+lex:D0598\/Artigo1    lex:temConteudo    "Art. 1° É delegada competência ao Ministro de Minas e Energia para:" .
+lex:D0598\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0598\/Artigo1    lex:temInciso    lex:D0598\/Artigo1\/IncisoI .
+lex:D0598\/Artigo1\/IncisoI    lex:temConteudo    "I - observado o disposto no Decreto n° 24.643, de 10 de julho de 1934 (Código de Águas), praticar os seguintes atos:" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar    lex:temConteudo    "a) outorgar concessão de aproveitamento de energia hidráulica de potência até 25.000 (vinte e cinco mil) quilowatts, de transmissão e de distribuição de energia elétrica;" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:temConteudo    "b) autorizar a transferência das concessões de geração transmissão e distribuição, referidas no inciso I;" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar    lex:temConteudo    "c) autorizar o estabelecimento de usinas termelétricas de qualquer potência, quando se destinarem a serviços públicos ou ao comércio de energia, ou de potência superior a 500 kw quando destinadas ao uso exclusivo;" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar    lex:temConteudo    "d) outorgar concessão para derivação de águas que se destinem ao abastecimento público;" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:temConteudo    "e) autorizar as ampliações e modificações das instalações vinculadas aos serviços públicos de produção, transmissão e distribuição de energia elétrica, executados por pessoas físicas ou jurídicas titulares de manifestos ou declarações de usinas termelétricas, devidamente aprovados e registrados;" .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar .
+lex:D0598\/Artigo1\/IncisoI\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar\/IncisoAlineaOutorgar\/IncisoAlineaAutorizar\/IncisoAlineaAutorizar    lex:temConteudo    "f) autorizar a desvinculação, destinada à venda, cessão ou dação em garantia hipotecária, dos bens e instalações utilizados na produção, transmissão e distribuição de energia elétrica." .
+lex:D0598\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0598\/Artigo1    lex:temInciso    lex:D0598\/Artigo1\/IncisoII .
+lex:D0598\/Artigo1\/IncisoII    lex:temConteudo    "II - observado o disposto nos Decretos-Leis n°s 7.841, de 8 de agosto de 1945 (Código de Águas Minerais), e 227, de 28 de fevereiro de 1967 (Código de Mineração), praticar os seguintes atos relativos à concessão de lavra:" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga    lex:temConteudo    "a) outorga;" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao    lex:temConteudo    "b) anulação;" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao    lex:temConteudo    "c) declaração de caducidade;" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao    lex:temConteudo    "d) revogação;" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao    lex:temConteudo    "e) invalidação por motivo de renúncia;" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao    lex:temConteudo    "f) instituição de perímetro de proteção de fontes de água mineral, termal ou gasosa; e" .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao\/IncisoAlineaAutorizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao    lex:temIncisoAlinea    lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao\/IncisoAlineaAutorizacao .
+lex:D0598\/Artigo1\/IncisoII\/IncisoAlineaOutorga\/IncisoAlineaAnulacao\/IncisoAlineaDeclaracao\/IncisoAlineaRevogacao\/IncisoAlineaInvalidacao\/IncisoAlineaInstituicao\/IncisoAlineaAutorizacao    lex:temConteudo    "g) autorização de constituição de consórcio de mineração." .
+lex:D0598\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0598    lex:temArtigo    lex:D0598\/Artigo2 .
+lex:D0598\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0598\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0598    lex:temArtigo    lex:D0598\/Artigo3 .
+lex:D0598\/Artigo3    lex:temConteudo    "Art. 3° Fica revogado o Decreto n° 99.428, de 31 de julho de 1990." .
+lex:D0598\/Artigo1\/IncisoI    lex:remetePara    lex:D24643 .
+lex:D0598\/Artigo1\/IncisoII    lex:remetePara    lex:Del7841 .
+lex:D0598\/Artigo1\/IncisoII    lex:remetePara    lex:Del0227 .
+lex:D0598\/Artigo3    lex:remetePara    lex:D99428 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12918    lex:ehUm    lex:DocLegal .
+lex:L12918    lex:temTextoIntegral    lex:HTMLs\/L12918.htm .
+lex:L12918\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12918    lex:temArtigo    lex:L12918\/Artigo1 .
+lex:L12918\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o da Lei no 7.150, de 1o de dezembro de 1983, passa a vigorar com as seguintes alterações:" .
+lex:L12918\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12918\/Artigo1    lex:temInciso    lex:L12918\/Artigo1\/IncisoI .
+lex:L12918\/Artigo1\/IncisoI    lex:temConteudo    "I - 182 (cento e oitenta e dois) Oficiais-Generais;" .
+lex:L12918\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12918\/Artigo1    lex:temInciso    lex:L12918\/Artigo1\/IncisoII .
+lex:L12918\/Artigo1\/IncisoII    lex:temConteudo    "II - 40.000 (quarenta mil) Oficiais;" .
+lex:L12918\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12918\/Artigo1    lex:temInciso    lex:L12918\/Artigo1\/IncisoIII .
+lex:L12918\/Artigo1\/IncisoIII    lex:temConteudo    "III - 75.000 (setenta e cinco mil) Subtenentes e Sargentos; e" .
+lex:L12918\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L12918\/Artigo1    lex:temInciso    lex:L12918\/Artigo1\/IncisoIV .
+lex:L12918\/Artigo1\/IncisoIV    lex:temConteudo    "IV - 210.510 (duzentos e dez mil, quinhentos e dez) Cabos e Soldados." .
+lex:L12918\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12918    lex:temArtigo    lex:L12918\/Artigo2 .
+lex:L12918\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12918\/Artigo1    lex:remetePara    lex:L7150 .
+lex:L12918\/Texto00001    lex:remetePara    lex:L7150\/Artigo1 .

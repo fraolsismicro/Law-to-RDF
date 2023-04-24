@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9127    lex:ehUm    lex:DocLegal .
+lex:L9127    lex:temTextoIntegral    lex:HTMLs\/L9127.htm .
+lex:L9127\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9127    lex:temArtigo    lex:L9127\/Artigo1 .
+lex:L9127\/Artigo1    lex:temConteudo    "Art. 1º O art. 332 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940, passa a vigorar com a seguinte redação:" .
+lex:L9127\/Artigo332    lex:ehUm    lex:Artigo .
+lex:L9127    lex:temArtigo    lex:L9127\/Artigo332 .
+lex:L9127\/Artigo332    lex:temConteudo    "Art. 332. Solicitar, exigir, cobrar ou obter, para si ou para outrem, vantagem ou promessa de vantagem, a pretexto de influir em ato praticado por funcionário público no exercício da função." .
+lex:L9127\/Artigo332\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L9127\/Artigo332    lex:temArtigoPena    lex:L9127\/Artigo332\/ArtigoPena .
+lex:L9127\/Artigo332\/ArtigoPena    lex:temConteudo    "Pena - Reclusão, de dois a cinco anos, e multa." .
+lex:L9127\/Artigo332\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9127\/Artigo332    lex:temParagrafo    lex:L9127\/Artigo332\/ParagrafoUnico .
+lex:L9127\/Artigo332\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A pena é aumentada da metade, se o agente alega ou insinua que a vantagem é também destinada ao funcionário.'" .
+lex:L9127\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9127    lex:temArtigo    lex:L9127\/Artigo2 .
+lex:L9127\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9127\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9127    lex:temArtigo    lex:L9127\/Artigo3 .
+lex:L9127\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9127\/Artigo1    lex:remetePara    lex:Del2848\/Artigo332 .

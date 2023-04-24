@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8343    lex:ehUm    lex:DocLegal .
+lex:D8343    lex:temTextoIntegral    lex:HTMLs\/D8343.htm .
+lex:D8343\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8343    lex:temArtigo    lex:D8343\/Artigo1 .
+lex:D8343\/Artigo1    lex:temConteudo    "Art. 1 º  Fica promulgada a Convenção sobre o Acesso Internacional à Justiça, firmada em Haia, em 25 de outubro de 1980, com a reserva prevista na alínea a do segundo parágrafo do artigo 28, relativa ao segundo parágrafo do artigo 7 º, anexa a este Decreto." .
+lex:D8343\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8343\/Artigo1    lex:temParagrafo    lex:D8343\/Artigo1\/ParagrafoUnico .
+lex:D8343\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A República Federativa do Brasil conserva o direito de estipular que os formulários e documentos a serem encaminhados para autoridades brasileiras deverão ser acompanhados de tradução para o português." .
+lex:D8343\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8343    lex:temArtigo    lex:D8343\/Artigo2 .
+lex:D8343\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão da Convenção e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D8343\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8343    lex:temArtigo    lex:D8343\/Artigo3 .
+lex:D8343\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8343\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1768    lex:ehUm    lex:DocLegal .
+lex:L1768    lex:temTextoIntegral    lex:HTMLs\/L1768.htm .
+lex:L1768\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1768    lex:temArtigo    lex:L1768\/Artigo1 .
+lex:L1768\/Artigo1    lex:temConteudo    "Art. 1º O artigo 141, e o item II, do artigo 134, do Código Civil Brasileiro passam a ter a seguinte redação:" .
+lex:L1768\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L1768\/Artigo1    lex:temInciso    lex:L1768\/Artigo1\/IncisoI .
+lex:L1768\/Artigo1\/IncisoI    lex:temConteudo    "I - .................................................................................................................................." .
+lex:L1768\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L1768\/Artigo1    lex:temInciso    lex:L1768\/Artigo1\/IncisoII .
+lex:L1768\/Artigo1\/IncisoII    lex:temConteudo    "II - Nos contratos constitutivos ou translativos de direitos reais sôbre imóveis de valor superior a Cr$10.000,00 (dez mil cruzeiros), excetuado o penhor agrícola." .
+lex:L1768\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1768    lex:temArtigo    lex:L1768\/Artigo2 .
+lex:L1768\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:L1768\/Artigo1    lex:remetePara    lex:L3071 .
+lex:L1768\/Texto00001    lex:remetePara    lex:L3071\/Artigo141 .
+lex:L1768\/Artigo1\/IncisoII    lex:remetePara    lex:L3071\/Artigo134 .

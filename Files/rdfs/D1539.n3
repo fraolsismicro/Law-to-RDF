@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1539    lex:ehUm    lex:DocLegal .
+lex:D1539    lex:temTextoIntegral    lex:HTMLs\/D1539.htm .
+lex:D1539\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1539    lex:temArtigo    lex:D1539\/Artigo1 .
+lex:D1539\/Artigo1    lex:temConteudo    "Art. 1º Fica acrescido parágrafo único ao art. 3º do Decreto nº 1.510, de 1º de junho de 1995:" .
+lex:D1539\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1539\/Artigo1    lex:temParagrafo    lex:D1539\/Artigo1\/ParagrafoUnico .
+lex:D1539\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os demais atos previstos no § 1º, art. 54, do decreto mencionado no caput deste artigo ficarão sujeitos à autorização prévia do Conselho Nacional de Desestatização (CND), após apreciação e encaminhamento pelo Ministro de Estado de Minas e Energia, de proposta elaborada pela Companhia.'" .
+lex:D1539\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1539    lex:temArtigo    lex:D1539\/Artigo2 .
+lex:D1539\/Artigo2    lex:temConteudo    "Art. 2º Este decreto entra em vigor na data de sua publicação." .
+lex:D1539\/Artigo1    lex:remetePara    lex:D1510 .

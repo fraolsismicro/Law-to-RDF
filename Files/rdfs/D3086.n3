@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3086    lex:ehUm    lex:DocLegal .
+lex:D3086    lex:temTextoIntegral    lex:HTMLs\/D3086.htm .
+lex:D3086\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3086    lex:temArtigo    lex:D3086\/Artigo1 .
+lex:D3086\/Artigo1    lex:temConteudo    "Art. 1º Fica alterado o Programa de Dispêndios Globais   PDG das empresas estatais federais para 1999, aprovado por intermédio do Decreto nº 2.912, de 29 de dezembro de 1998, para inclusão dos orçamentos das empresas Petrobrás Transportes S.A   TRANSPETRO e Fronape International Company   FIC, ambas do Grupo PETROBRÁS, conforme demonstrativos constantes do Anexo a este Decreto." .
+lex:D3086\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3086    lex:temArtigo    lex:D3086\/Artigo2 .
+lex:D3086\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D3086\/Artigo1    lex:remetePara    lex:D2912 .

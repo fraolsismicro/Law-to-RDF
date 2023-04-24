@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12415    lex:ehUm    lex:DocLegal .
+lex:L12415    lex:temTextoIntegral    lex:HTMLs\/L12415.htm .
+lex:L12415\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12415    lex:temArtigo    lex:L12415\/Artigo1 .
+lex:L12415\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei visa a compelir aquele que for afastado cautelarmente da moradia comum, na hipótese de maus-tratos, opressão ou abuso sexual contra criança ou adolescente, a prestar os alimentos de que eles necessitem." .
+lex:L12415\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12415    lex:temArtigo    lex:L12415\/Artigo2 .
+lex:L12415\/Artigo2    lex:temConteudo    "Art. 2o  O art. 130 da Lei no 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L12415\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12415\/Artigo2    lex:temParagrafo    lex:L12415\/Artigo2\/ParagrafoUnico .
+lex:L12415\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Da medida cautelar constará, ainda, a fixação provisória dos alimentos de que necessitem a criança ou o adolescente dependentes do agressor. (NR)" .
+lex:L12415\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12415    lex:temArtigo    lex:L12415\/Artigo3 .
+lex:L12415\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12415\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L8069\/Artigo130 .

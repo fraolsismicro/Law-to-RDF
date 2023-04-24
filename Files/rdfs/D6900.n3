@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6900    lex:ehUm    lex:DocLegal .
+lex:D6900    lex:temTextoIntegral    lex:HTMLs\/D6900.htm .
+lex:D6900\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6900    lex:temArtigo    lex:D6900\/Artigo1 .
+lex:D6900\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 3.112, de 6 de julho de 1999, passa a vigorar acrescido do seguinte art. 14-A:" .
+lex:D6900\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6900\/Artigo1    lex:temInciso    lex:D6900\/Artigo1\/IncisoI .
+lex:D6900\/Artigo1\/IncisoI    lex:temConteudo    "I - para os regimes próprios de previdência social credores da compensação financeira cujos entes instituidores não sejam devedores de contribuições previdenciárias ao Regime Geral de Previdência Social - RGPS, o pagamento será efetuado da seguinte forma:" .
+lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D6900\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm .
+lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm    lex:temConteudo    "a) em parcela única, se o crédito não superar R$ 500.000,00 (quinhentos mil reais);" .
+lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm\/IncisoAlineaEm    lex:ehUm    lex:IncisoAlinea .
+lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm    lex:temIncisoAlinea    lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm\/IncisoAlineaEm .
+lex:D6900\/Artigo1\/IncisoI\/IncisoAlineaEm\/IncisoAlineaEm    lex:temConteudo    "b) em tantas parcelas mensais quantas forem necessárias até o limite de R$ 500.000,00 (quinhentos mil reais), se o crédito superar esse montante;" .
+lex:D6900\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6900\/Artigo1    lex:temInciso    lex:D6900\/Artigo1\/IncisoII .
+lex:D6900\/Artigo1\/IncisoII    lex:temConteudo    "II - para os regimes próprios de previdência social credores da compensação financeira cujos entes instituidores sejam devedores de contribuições previdenciárias ao RGPS, o pagamento será efetuado nas mesmas condições de prazo estabelecidas nas alíneas a e b do inciso I após compensação dos débitos de contribuições previdenciárias, ainda que posteriores a 6 de maio de 1999." .
+lex:D6900\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6900\/Artigo1    lex:temParagrafo    lex:D6900\/Artigo1\/Paragrafo1 .
+lex:D6900\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Incluem-se na hipótese do inciso I do caput os devedores de contribuição previdenciária que tenham os respectivos débitos com exigibilidade suspensa." .
+lex:D6900\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6900\/Artigo1    lex:temParagrafo    lex:D6900\/Artigo1\/Paragrafo2 .
+lex:D6900\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Na hipótese de o regime próprio de previdência social ser operado por entidade com personalidade jurídica própria, o disposto no inciso II do caput fica condicionado à concordância formal do dirigente do respectivo regime próprio." .
+lex:D6900\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6900\/Artigo1    lex:temParagrafo    lex:D6900\/Artigo1\/Paragrafo3 .
+lex:D6900\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os regimes próprios de previdência social que ainda não entregaram os dados relativos aos benefícios em manutenção em 5 de maio de 1999 concedidos a partir de 5 de outubro de 1988 poderão fazê-lo até maio de 2010, nos termos do art. 12 da Lei no 10.666, de 2003, e a compensação, quando deferida, observará as regras previstas neste artigo. (NR)" .
+lex:D6900\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6900    lex:temArtigo    lex:D6900\/Artigo2 .
+lex:D6900\/Artigo2    lex:temConteudo    "Art. 2o  Fica revogado o § 2o do art. 14 do Decreto no 3.112, de 6 de julho de1999." .
+lex:D6900\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6900    lex:temArtigo    lex:D6900\/Artigo3 .
+lex:D6900\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6900\/Texto00001    lex:remetePara    lex:D3112\/Artigo14 .
+lex:D6900\/Artigo2    lex:remetePara    lex:D3112\/Artigo14\/Paragrafo2 .

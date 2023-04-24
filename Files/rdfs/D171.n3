@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D171    lex:ehUm    lex:DocLegal .
+lex:D171    lex:temTextoIntegral    lex:HTMLs\/D171.htm .
+lex:D171\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D171    lex:temArtigo    lex:D171\/Artigo1 .
+lex:D171\/Artigo1    lex:temConteudo    "Art. 1º E´ conservada como Hymno Nacional a composição musical do maestro Francisco Manoel da Silva." .
+lex:D171\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D171    lex:temArtigo    lex:D171\/Artigo2 .
+lex:D171\/Artigo2    lex:temConteudo    "Art. 2º E´ adoptada sob o titulo de Hymno da Proclamação da Republica a composição musical do maestro Leopoldo Miguez, baseada na poesia do cidadão José Joaquim de Campos da Costa de Medeiros e Albuquerque." .
+lex:D171\/Artigo2\/ParagrafoAugment    lex:ehUm    lex:Paragrafo .
+lex:D171\/Artigo2    lex:temParagrafo    lex:D171\/Artigo2\/ParagrafoAugment .
+lex:D171\/Artigo2\/ParagrafoAugment    lex:temConteudo    "1º Augmento de vencimento, sem augmento de despeza;" .
+lex:D171\/Artigo2\/ParagrafoReducca    lex:ehUm    lex:Paragrafo .
+lex:D171\/Artigo2    lex:temParagrafo    lex:D171\/Artigo2\/ParagrafoReducca .
+lex:D171\/Artigo2\/ParagrafoReducca    lex:temConteudo    "2º Reducção do pessoal;" .
+lex:D171\/Artigo2\/ParagrafoCoacca    lex:ehUm    lex:Paragrafo .
+lex:D171\/Artigo2    lex:temParagrafo    lex:D171\/Artigo2\/ParagrafoCoacca .
+lex:D171\/Artigo2\/ParagrafoCoacca    lex:temConteudo    "3º Coacção do trabalho;" .
+lex:D171\/Artigo2\/ParagrafoSimplificaca    lex:ehUm    lex:Paragrafo .
+lex:D171\/Artigo2    lex:temParagrafo    lex:D171\/Artigo2\/ParagrafoSimplificaca .
+lex:D171\/Artigo2\/ParagrafoSimplificaca    lex:temConteudo    "4º Simplificação dos serviços, accelerando o expediente." .

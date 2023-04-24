@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.692    lex:ehUm    lex:DocLegal .
+lex:L10.692    lex:temTextoIntegral    lex:HTMLs\/L10.692.htm .
+lex:L10692\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10692    lex:temArtigo    lex:L10692\/Artigo1 .
+lex:L10692\/Artigo1    lex:temConteudo    "Art. 1o Fica incluído no Quadro VI da Lei no 10.640, de 14 de janeiro de 2003, o seguinte item:" .
+lex:L10692\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10692    lex:temArtigo    lex:L10692\/Artigo2 .
+lex:L10692\/Artigo2    lex:temConteudo    "Art. 2o A alínea 'f' do inciso II do item 4 do Quadro VI da Lei no 10.640, de 14 de janeiro de 2003, passa a vigorar com a seguinte redação:" .
+lex:L10692\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10692    lex:temArtigo    lex:L10692\/Artigo3 .
+lex:L10692\/Artigo3    lex:temConteudo    "Art. 3o As despesas decorrentes da autorização incluídas na forma do art. 1o, limitadas ao montante de R$ 675.827.380,00 (seiscentos e sessenta e cinco milhões, oitocentos e vinte sete mil, trezentos e oitenta reais), correrão à conta das dotações orçamentárias suplementadas em crédito adicional específico." .
+lex:L10692\/Artigo1    lex:remetePara    lex:L10640\/quadrovi5 .
+lex:L10692\/Artigo2    lex:remetePara    lex:L10640\/quadrovi4 .

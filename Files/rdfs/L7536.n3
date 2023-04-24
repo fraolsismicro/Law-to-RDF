@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7536    lex:ehUm    lex:DocLegal .
+lex:L7536    lex:temTextoIntegral    lex:HTMLs\/L7536.htm .
+lex:L7536\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7536    lex:temArtigo    lex:L7536\/Artigo2 .
+lex:L7536\/Artigo2    lex:temConteudo    "Art 2º Acrescenta-se ao parágrafo único do artigo 1º da Lei nº 7.374, de 30 de setembro de 1985, o seguinte inciso:" .
+lex:L7536\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L7536\/Artigo2    lex:temParagrafo    lex:L7536\/Artigo2\/Paragraf .
+lex:L7536\/Artigo2\/Paragraf    lex:temConteudo    "'Art.1º......................................................." .
+lex:L7536\/Artigo2\/Paragraf\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L7536\/Artigo2\/Paragraf    lex:temInciso    lex:L7536\/Artigo2\/Paragraf\/IncisoIII .
+lex:L7536\/Artigo2\/Paragraf\/IncisoIII    lex:temConteudo    "III - estará sujeita à incidência do imposto sobre a renda proventos de qualquer natureza.'" .
+lex:L7536\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7536    lex:temArtigo    lex:L7536\/Artigo3 .
+lex:L7536\/Artigo3    lex:temConteudo    "Art 3º Esta lei entra em vigor na data de sua publicação, retroagindo seus efeitos a 1º de outubro de 1985." .
+lex:L7536\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7536    lex:temArtigo    lex:L7536\/Artigo4 .
+lex:L7536\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário." .
+lex:L7536\/Artigo1    lex:remetePara    lex:L7374 .
+lex:L7536\/Artigo1    lex:revogadoPor    lex:L8028\/Artigo60 .
+lex:L8028\/Artigo60    lex:revogou    lex:L7536\/Artigo1 .
+lex:L7536\/Artigo2\/Paragraf\/IncisoIII    lex:remetePara    lex:L7374\/Artigo1 .

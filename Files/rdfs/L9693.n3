@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9693    lex:ehUm    lex:DocLegal .
+lex:L9693    lex:temTextoIntegral    lex:HTMLs\/L9693.htm .
+lex:L9693\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9693    lex:temArtigo    lex:L9693\/Artigo1 .
+lex:L9693\/Artigo1    lex:temConteudo    "Art. 1º Esta lei modifica a Lei nº 9.096, de 19 de setembro de 1995, para dar nova disciplina à punição aplicada ao partido político mediante a suspensão do Fundo Partidário." .
+lex:L9693\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9693    lex:temArtigo    lex:L9693\/Artigo2 .
+lex:L9693\/Artigo2    lex:temConteudo    "Art. 2º O art. 28 da Lei nº 9.096, de 19 se setembro de 1995, passa a vigorar acrescido do seguinte § 3º:" .
+lex:L9693\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9693\/Artigo2    lex:temParagrafo    lex:L9693\/Artigo2\/Paragrafo3 .
+lex:L9693\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º O partido político, em nível nacional, não sofrerá a suspensão das cotas do Fundo Partidário, nem qualquer outra punição como conseqüência de atos praticados por órgãos regionais ou municipais.'" .
+lex:L9693\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9693    lex:temArtigo    lex:L9693\/Artigo3 .
+lex:L9693\/Artigo3    lex:temConteudo    "Art. 3º O art. 37 da Lei nº 9.096, de 19 de setembro de 1995, passa a vigorar com a seguinte redação, renumerando-se o atual parágrafo único como § 1º:" .
+lex:L9693\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9693\/Artigo3    lex:temParagrafo    lex:L9693\/Artigo3\/Paragrafo2 .
+lex:L9693\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º A sanção a que se refere o caput será aplicada exclusivamente à esfera partidária responsável pela irregularidade'" .
+lex:L9693\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9693    lex:temArtigo    lex:L9693\/Artigo4 .
+lex:L9693\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entra em vigor na data de sua publicação." .
+lex:L9693\/Artigo1    lex:remetePara    lex:L9096 .
+lex:L9693\/Artigo2\/Paragrafo3    lex:remetePara    lex:L9096\/Artigo28\/Paragrafo3 .
+lex:L9693\/Artigo3    lex:remetePara    lex:L9096\/Artigo37 .

@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2528    lex:ehUm    lex:DocLegal .
+lex:L2528    lex:temTextoIntegral    lex:HTMLs\/L2528.htm .
+lex:L2528\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2528    lex:temArtigo    lex:L2528\/Artigo1 .
+lex:L2528\/Artigo1    lex:temConteudo    "Art. 1º O item 4º do art. 9º do Decreto-lei nº 6.259, de 10 de fevereiro de 1944, que dispõe sôbre o serviço de loterias e dá outras providências, passa a vigorar com a seguinte redação:" .
+lex:L2528\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2528    lex:temArtigo    lex:L2528\/Artigo2 .
+lex:L2528\/Artigo2    lex:temConteudo    "Art. 2º Respeitados os contratos de concessão em curso de prazo e revogadas as disposições em contrário, esta lei entrará em vigor na data de sua publicação." .
+lex:L2528\/Artigo1    lex:remetePara    lex:Del6259 .
+lex:L2528\/Texto00001    lex:remetePara    lex:Del6259\/Artigo94 .

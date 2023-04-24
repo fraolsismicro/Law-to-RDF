@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12243    lex:ehUm    lex:DocLegal .
+lex:L12243    lex:temTextoIntegral    lex:HTMLs\/L12243.htm .
+lex:L12243\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12243    lex:temArtigo    lex:L12243\/Artigo1 .
+lex:L12243\/Artigo1    lex:temConteudo    "Art. 1o  Os incisos I e II do art. 1o da Lei no 11.320, de 6 de julho de 2006, passam a vigorar com a seguinte redação:" .
+lex:L12243\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12243\/Artigo1    lex:temInciso    lex:L12243\/Artigo1\/IncisoI .
+lex:L12243\/Artigo1\/IncisoI    lex:temConteudo    "I - ..................................................................................." .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:    lex:ehUm    lex:IncisoAlinea .
+lex:L12243\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores: .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:    lex:temConteudo    "b) Superiores: 3.200 (três mil e duzentos); e" .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:ehUm    lex:IncisoAlinea .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:    lex:temIncisoAlinea    lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:\/IncisoAlineaIntermediarios    lex:temConteudo    "c) Intermediários e Subalternos: 7.800 (sete mil e oitocentos);" .
+lex:L12243\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12243\/Artigo1    lex:temInciso    lex:L12243\/Artigo1\/IncisoII .
+lex:L12243\/Artigo1\/IncisoII    lex:temConteudo    "II - Praças:" .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:ehUm    lex:IncisoAlinea .
+lex:L12243\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temConteudo    "a) Suboficiais e Sargentos: 34.000 (trinta e quatro mil);" .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:ehUm    lex:IncisoAlinea .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais    lex:temIncisoAlinea    lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temConteudo    "b) Cabos e Soldados: 34.100 (trinta e quatro mil e cem); e" .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:ehUm    lex:IncisoAlinea .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos    lex:temIncisoAlinea    lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros: .
+lex:L12243\/Artigo1\/IncisoII\/IncisoAlineaSuboficiais\/IncisoAlineaCabos\/IncisoAlineaTaifeiros:    lex:temConteudo    "c) Taifeiros: 1.750 (mil setecentos e cinquenta). (NR)" .
+lex:L12243\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12243    lex:temArtigo    lex:L12243\/Artigo2 .
+lex:L12243\/Artigo2    lex:temConteudo    "Art. 2o  A criação dos cargos, postos e graduações previstos nesta Lei fica condicionada a sua expressa autorização em anexo próprio da lei orçamentária anual com a respectiva dotação suficiente para seu primeiro provimento, nos termos do § 1o do art. 169 da Constituição Federal." .
+lex:L12243\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12243\/Artigo2    lex:temParagrafo    lex:L12243\/Artigo2\/ParagrafoUnico .
+lex:L12243\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Se a autorização e os respectivos recursos orçamentários forem suficientes somente para provimento parcial dos cargos, postos e graduações, o saldo da autorização e das respectivas dotações para seu provimento deverá constar de anexo da lei orçamentária correspondente ao exercício em que forem considerados criados e providos." .
+lex:L12243\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12243    lex:temArtigo    lex:L12243\/Artigo3 .
+lex:L12243\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12243\/Artigo1    lex:remetePara    lex:L11320 .
+lex:L12243\/Artigo1\/IncisoI\/IncisoAlineaSuperiores:    lex:remetePara    lex:L11320\/Artigo1 .
+lex:L12243\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo169\/Paragrafo1 .

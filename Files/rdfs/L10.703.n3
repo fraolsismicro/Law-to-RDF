@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.703    lex:ehUm    lex:DocLegal .
+lex:L10.703    lex:temTextoIntegral    lex:HTMLs\/L10.703.htm .
+lex:L10703\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo1 .
+lex:L10703\/Artigo1    lex:temConteudo    "Art. 1o Incumbe aos prestadores de serviços de telecomunicações na modalidade pré-paga, em operação no território nacional, manter cadastro atualizado de usuários." .
+lex:L10703\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo1    lex:temParagrafo    lex:L10703\/Artigo1\/Paragrafo1 .
+lex:L10703\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o O cadastro referido no caput, além do nome e do endereço completos, deverá conter:" .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - no caso de pessoa física, o número do documento de identidade ou o número de registro no cadastro do Ministério da Fazenda;" .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - no caso de pessoa jurídica, o número de registro no cadastro do Ministério da Fazenda;" .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:L10703\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - (VETADO)" .
+lex:L10703\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo1    lex:temParagrafo    lex:L10703\/Artigo1\/Paragrafo2 .
+lex:L10703\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Os atuais usuários deverão ser convocados para fornecimento dos dados necessários ao atendimento do disposto neste artigo, no prazo de noventa dias, a partir da data da promulgação desta Lei, prorrogável por igual período, a critério do Poder Executivo. (Vide Decreto nº 4.860, de 18.10.2003)" .
+lex:L10703\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo1    lex:temParagrafo    lex:L10703\/Artigo1\/Paragrafo3 .
+lex:L10703\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Os dados constantes do cadastro, salvo motivo justificado, deverão ser imediatamente disponibilizados pelos prestadores de serviços para atender solicitação da autoridade judicial, sob pena de multa de até R$ 10.000,00 (dez mil reais) por infração cometida." .
+lex:L10703\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo2 .
+lex:L10703\/Artigo2    lex:temConteudo    "Art. 2o Os estabelecimentos que comercializam aparelhos de telefonia celular, na modalidade pré-paga, ficam obrigados a informar aos prestadores de serviços, no prazo de vinte e quatro horas após executada a venda, os dados referidos no art. 1o, sob pena de multa de até R$ 500,00 (quinhentos reais) por infração." .
+lex:L10703\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo3 .
+lex:L10703\/Artigo3    lex:temConteudo    "Art. 3o Os prestadores de serviços de que trata esta Lei devem disponibilizar para consulta do juiz, do Ministério Público ou da autoridade policial, mediante requisição, listagem das ocorrências de roubos e furtos de aparelhos de telefone celular, contendo nome do assinante, número de série e código dos telefones." .
+lex:L10703\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo3    lex:temParagrafo    lex:L10703\/Artigo3\/Paragrafo1 .
+lex:L10703\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o O cadastro de que cuida o caput deverá ser disponibilizado no prazo de cento e oitenta dias, a partir da promulgação desta Lei." .
+lex:L10703\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo3    lex:temParagrafo    lex:L10703\/Artigo3\/Paragrafo2 .
+lex:L10703\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o As empresas que não cumprirem o disposto no caput sofrerão as seguintes penalidades:" .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoI .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - (VETADO)" .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoII .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - multa de R$ 100.000,00 (cem mil reais);" .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10703\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L10703\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - rescisão contratual." .
+lex:L10703\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo4 .
+lex:L10703\/Artigo4    lex:temConteudo    "Art. 4o Os usuários ficam obrigados a:" .
+lex:L10703\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10703\/Artigo4    lex:temInciso    lex:L10703\/Artigo4\/IncisoI .
+lex:L10703\/Artigo4\/IncisoI    lex:temConteudo    "I - atender à convocação a que se refere o § 2o do art. 1o;" .
+lex:L10703\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10703\/Artigo4    lex:temInciso    lex:L10703\/Artigo4\/IncisoII .
+lex:L10703\/Artigo4\/IncisoII    lex:temConteudo    "II - comunicar imediatamente ao prestador de serviços ou seus credenciados:" .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L10703\/Artigo4\/IncisoII    lex:temIncisoAlinea    lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO    lex:temConteudo    "a) o roubo, furto ou extravio de aparelhos;" .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO    lex:temIncisoAlinea    lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA    lex:temConteudo    "b) a transferência de titularidade do aparelho;" .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaQualquer    lex:ehUm    lex:IncisoAlinea .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA    lex:temIncisoAlinea    lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaQualquer .
+lex:L10703\/Artigo4\/IncisoII\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaQualquer    lex:temConteudo    "c) qualquer alteração das informações cadastrais." .
+lex:L10703\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo4    lex:temParagrafo    lex:L10703\/Artigo4\/ParagrafoUnico .
+lex:L10703\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O usuário que deixar de atender ao disposto neste artigo ficará sujeito à multa de até R$ 50,00 (cinqüenta reais) por infração, cumulada com o bloqueio do sinal telefônico." .
+lex:L10703\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo5 .
+lex:L10703\/Artigo5    lex:temConteudo    "Art. 5o As multas previstas nesta Lei serão impostas pela Agência Nacional de Telecomunicações - ANATEL, mediante processo/procedimento administrativo, considerando-se a natureza, a gravidade e o prejuízo resultante da infração." .
+lex:L10703\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10703\/Artigo5    lex:temParagrafo    lex:L10703\/Artigo5\/ParagrafoUnico .
+lex:L10703\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos financeiros resultantes do recolhimento das multas estabelecidas nesta Lei serão destinados ao Fundo Nacional de Segurança Pública, de que trata a Lei no 10.201, de 14 de fevereiro de 2001." .
+lex:L10703\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo6 .
+lex:L10703\/Artigo6    lex:temConteudo    "Art. 6o A ANATEL, de comum acordo com os prestadores de serviços de que trata esta Lei, deverá promover ampla campanha institucional nos meios de comunicação, com mensagens a respeito da convocação de que trata o art. 1o, § 2o, desta Lei." .
+lex:L10703\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L10703    lex:temArtigo    lex:L10703\/Artigo7 .
+lex:L10703\/Artigo7    lex:temConteudo    "Art. 7o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10703\/Artigo1\/Paragrafo2    lex:remetePara    lex:D4860\/Artigo1 .
+lex:L10703\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:L10201 .

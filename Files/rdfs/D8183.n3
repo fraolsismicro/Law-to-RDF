@@ -1,0 +1,90 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8183    lex:ehUm    lex:DocLegal .
+lex:D8183    lex:temTextoIntegral    lex:HTMLs\/D8183.htm .
+lex:D8183\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8183    lex:temArtigo    lex:D8183\/Artigo1 .
+lex:D8183\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.079, de 20 de agosto de 2013, passa a vigorar com as seguintes alterações:" .
+lex:D8183\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8183\/Artigo1    lex:temInciso    lex:D8183\/Artigo1\/IncisoI .
+lex:D8183\/Artigo1\/IncisoI    lex:temConteudo    "I - beneficiários da subvenção - unidades industriais produtoras de etanol combustível, diretamente ou por intermédio de suas cooperativas, devidamente cadastradas no Sistema de Acompanhamento da Produção Canavieira - SapCana do Ministério da Agricultura, Pecuária e Abastecimento, ou do respectivo sindicato de produtores regularmente constituído;" .
+lex:D8183\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8183\/Artigo1    lex:temInciso    lex:D8183\/Artigo1\/IncisoIII .
+lex:D8183\/Artigo1\/IncisoIII    lex:temConteudo    "III - classificação do etanol combustível - códigos 2207.10.10, 2207.10.90, 2207.20.11 e 2207.20.19 da Nomenclatura Comum do Mercosul - NCM;" .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8183\/Artigo1    lex:temParagrafo    lex:D8183\/Artigo1\/ParagrafoUnico .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A unidade industrial que tenha adquirido o etanol combustível de outra unidade industrial para reprocessamento não fará jus ao recebimento da subvenção referente a esse volume.(NR)" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - no caso de unidades industriais:" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaA .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaA    lex:temConteudo    "a) a segunda via da Nota Fiscal de Venda de etanol combustível ou o Documento Auxiliar da Nota Fiscal Eletrônica - DANFE; e" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaO .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaO    lex:temConteudo    "b) o Extrato de Declaração de Despacho averbado, no caso da comprovação do produto destinado ao mercado externo;" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - no caso de unidades industriais produtoras cooperadas:" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA    lex:temConteudo    "a) a segunda via da Nota Fiscal de Entrada emitida pela cooperativa ou o DANFE, relativo ao volume de etanol combustível produzido pela cooperada;" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaA    lex:temConteudo    "b) a segunda via da Nota Fiscal de Venda de etanol combustível, emitida pela cooperativa, ou o DANFE; e" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaO .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaO    lex:temConteudo    "c) o Extrato de Declaração de Despacho averbado, no caso da comprovação do produto destinado ao mercado externo; e" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - no caso de unidades industriais produtoras ou cooperativas associadas a sindicato:" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOs .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOs    lex:temConteudo    "a) os documentos constantes no inciso I ou II, conforme o caso;" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO    lex:temConteudo    "b) o documento que comprove a condição da unidade industrial produtora ou da cooperativa associada ao sindicato;" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA    lex:temConteudo    "c) a cópia do estatuto social e da ata da assembleia que elegeu a diretoria em vigor do sindicato;" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaA    lex:temConteudo    "d) a cópia do contrato social ou do estatuto social da unidade industrial produtora ou da cooperativa; e" .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaO    lex:temConteudo    "e) o documento emitido pela unidade industrial produtora ou pela cooperativa, o qual autoriza o sindicato a representá-la perante a Conab para o recebimento da subvenção." .
+lex:D8183\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8183\/Artigo1    lex:temParagrafo    lex:D8183\/Artigo1\/Paragrafo1 .
+lex:D8183\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  A Conab disponibilizará em seu sítio eletrônico:" .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - o endereço para a entrega da documentação;" .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - a relação dos beneficiários por ordem cronológica de protocolo de entrega da documentação; e" .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8183\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8183\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - outras informações complementares à operacionalização para o pagamento das subvenções de que trata este Decreto." .
+lex:D8183\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8183\/Artigo1    lex:temParagrafo    lex:D8183\/Artigo1\/Paragrafo2 .
+lex:D8183\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Na hipótese de haver inconsistência na documentação entregue, o beneficiário perderá o direito à ordem cronológica, retornando com novo protocolo na data da correção.(NR)" .
+lex:D8183\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8183    lex:temArtigo    lex:D8183\/Artigo2 .
+lex:D8183\/Artigo2    lex:temConteudo    "Art. 2 º Este Decreto entra em vigor na data da sua publicação." .
+lex:D8183\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8183    lex:temArtigo    lex:D8183\/Artigo3 .
+lex:D8183\/Artigo3    lex:temConteudo    "Art. 3 º  Fica revogado o parágrafo único do art. 7º do Decreto nº 8.079, de 20 de agosto de 2013." .
+lex:D8183\/Texto00001    lex:remetePara    lex:D8079\/Artigo6 .
+lex:D8183\/Artigo1\/IncisoIII    lex:remetePara    lex:D8079\/Artigo6 .
+lex:D8183\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D8079\/Artigo6 .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:remetePara    lex:D8079\/Artigo10 .
+lex:D8183\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII\/Texto00017    lex:remetePara    lex:D8079\/Artigo11 .
+lex:D8183\/Artigo1\/Texto00022    lex:remetePara    lex:D8079\/Artigo12 .
+lex:D8183\/Artigo1\/Texto00022    lex:remetePara    lex:D8079\/Artigo16 .
+lex:D8183\/Artigo3    lex:remetePara    lex:D8079\/Artigo7 .

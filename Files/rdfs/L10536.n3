@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10536    lex:ehUm    lex:DocLegal .
+lex:L10536    lex:temTextoIntegral    lex:HTMLs\/L10536.htm .
+lex:L10536\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10536    lex:temArtigo    lex:L10536\/Artigo1 .
+lex:L10536\/Artigo1    lex:temConteudo    "Art. 1o Os arts. 1o e 4o da Lei no 9.140, de 4 de dezembro de 1995, passam a vigorar com as seguintes alterações:" .
+lex:L10536\/Artigo1\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:L10536\/Artigo1    lex:temAlinea    lex:L10536\/Artigo1\/AlineaQue .
+lex:L10536\/Artigo1\/AlineaQue    lex:temConteudo    "b) que, por terem participado, ou por terem sido acusadas de participação, em atividades políticas, no período de 2 de setembro de 1961 a 5 de outubro de 1988, tenham falecido por causas não-naturais, em dependências policiais ou assemelhadas;" .
+lex:L10536\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10536    lex:temArtigo    lex:L10536\/Artigo2 .
+lex:L10536\/Artigo2    lex:temConteudo    "Art. 2o Os prazos previstos nos arts. 7o e 10 da Lei no 9.140, de 4 de dezembro de 1995, serão reabertos, pelo prazo de 120 (cento e vinte) dias a contar da publicação desta Lei." .
+lex:L10536\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10536    lex:temArtigo    lex:L10536\/Artigo3 .
+lex:L10536\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10536\/Texto00001    lex:remetePara    lex:L9140\/Artigo1 .
+lex:L10536\/Artigo1\/AlineaQue    lex:remetePara    lex:L9140\/Artigo4 .
+lex:L10536\/Artigo2    lex:remetePara    lex:L9140\/Artigo7 .
+lex:L10536\/Artigo2    lex:remetePara    lex:L9140\/Artigo10\/Paragrafo1 .

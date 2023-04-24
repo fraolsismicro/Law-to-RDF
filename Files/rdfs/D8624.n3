@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8624    lex:ehUm    lex:DocLegal .
+lex:D8624    lex:temTextoIntegral    lex:HTMLs\/D8624.htm .
+lex:D8624\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8624    lex:temArtigo    lex:D8624\/Artigo1 .
+lex:D8624\/Artigo1    lex:temConteudo    "Art. 1 º   Fica promulgado o Acordo sobre o Novo Banco de Desenvolvimento, firmado entre a República Federativa do Brasil, a Federação da Rússia, a República da Índia, a República Popular da China e a República da África do Sul, em Fortaleza, em 15 de julho de 2014, anexo a este Decreto." .
+lex:D8624\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8624    lex:temArtigo    lex:D8624\/Artigo2 .
+lex:D8624\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão do Acordo e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do artigo 49 da Constituição." .
+lex:D8624\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8624    lex:temArtigo    lex:D8624\/Artigo3 .
+lex:D8624\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8624\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

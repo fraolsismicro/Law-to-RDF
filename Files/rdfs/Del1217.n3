@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1217    lex:ehUm    lex:DocLegal .
+lex:Del1217    lex:temTextoIntegral    lex:HTMLs\/Del1217.htm .
+lex:Del1217\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo1 .
+lex:Del1217\/Artigo1    lex:temConteudo    "Art. 1º Ficam prorrogados, até o exercício de 1977, inclusive, os incentivos fiscais previstos nos artigos 73, 78, 80 e 81 do Decreto-Lei nº 221, de 28 de fevereiro de 1967." .
+lex:Del1217\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo2 .
+lex:Del1217\/Artigo2    lex:temConteudo    "Art. 2º O Ministro da Agricultura fixará critérios de prioridade em função da região geográfica, do setor de produção e da espécie ictiológica, para a aprovação pela Superintendência do Desenvolvimento da Pesca (SUDEPE), dos projetos com vistas ao gozo dos incentivos fiscais a pesca." .
+lex:Del1217\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo3 .
+lex:Del1217\/Artigo3    lex:temConteudo    "Art. 3º Os artigos 74 e 77 Decreto-Lei nº 221, de 28 de fevereiro de 1967, passam a vigorar com a seguinte redação:" .
+lex:Del1217\/Artigo77    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo77 .
+lex:Del1217\/Artigo77    lex:temConteudo    "Art. 77. Ficam isentas do imposto sobre produtos industrializados, até o exercício de 1977, inclusive, as redes e partes de redes destinadas exclusivamente à pesca comercial ou à científica.'" .
+lex:Del1217\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo4 .
+lex:Del1217\/Artigo4    lex:temConteudo    "Art. 4º O Ministro da Fazenda, com base em parecer da SUDEPE, fica autorizado a conceder:" .
+lex:Del1217\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1217\/Artigo4    lex:temInciso    lex:Del1217\/Artigo4\/IncisoI .
+lex:Del1217\/Artigo4\/IncisoI    lex:temConteudo    "I - Isenção, até o exercício de 1977, inclusive, do imposto sobre produtos industrializados incidentes sobre as embarcações destinadas exclusivamente à pesca comercial ou à científica;" .
+lex:Del1217\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1217\/Artigo4    lex:temInciso    lex:Del1217\/Artigo4\/IncisoII .
+lex:Del1217\/Artigo4\/IncisoII    lex:temConteudo    "II - As isenções previstas nos artigos 73 e 80 do Decreto-Lei nº 221, de 28 de fevereiro de 1967." .
+lex:Del1217\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1217    lex:temArtigo    lex:Del1217\/Artigo5 .
+lex:Del1217\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-Lei entrará em vigor na data de 1º de janeiro de 1973, revogadas as disposições em contrário." .
+lex:Del1217\/Artigo1    lex:remetePara    lex:Del0221\/Artigo73 .
+lex:Del1217\/Artigo1    lex:remetePara    lex:Del0221\/Artigo78 .
+lex:Del1217\/Artigo1    lex:remetePara    lex:Del0221\/Artigo80 .
+lex:Del1217\/Artigo1    lex:remetePara    lex:Del0221\/Artigo81 .
+lex:Del1217\/Texto00003    lex:remetePara    lex:Del0221\/Artigo74 .
+lex:Del1217\/Artigo77    lex:remetePara    lex:Del0221\/Artigo77 .
+lex:Del1217\/Artigo4\/IncisoII    lex:remetePara    lex:Del0221\/Artigo73 .
+lex:Del1217\/Artigo4\/IncisoII    lex:remetePara    lex:Del0221\/Artigo80 .

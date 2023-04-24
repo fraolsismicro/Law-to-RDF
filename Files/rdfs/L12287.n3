@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12287    lex:ehUm    lex:DocLegal .
+lex:L12287    lex:temTextoIntegral    lex:HTMLs\/L12287.htm .
+lex:L12287\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12287    lex:temArtigo    lex:L12287\/Artigo1 .
+lex:L12287\/Artigo1    lex:temConteudo    "Art. 1o  O § 2o do art. 26 da Lei no 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, passa a vigorar com a seguinte redação:" .
+lex:L12287\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12287\/Artigo1    lex:temParagrafo    lex:L12287\/Artigo1\/Paragrafo2 .
+lex:L12287\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O ensino da arte, especialmente em suas expressões regionais, constituirá componente curricular obrigatório nos diversos níveis da educação básica, de forma a promover o desenvolvimento cultural dos alunos." .
+lex:L12287\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12287    lex:temArtigo    lex:L12287\/Artigo2 .
+lex:L12287\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12287\/Texto00001    lex:remetePara    lex:L9394\/Artigo26\/Paragrafo2 .

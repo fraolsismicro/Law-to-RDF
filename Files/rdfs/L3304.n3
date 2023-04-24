@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3304    lex:ehUm    lex:DocLegal .
+lex:L3304    lex:temTextoIntegral    lex:HTMLs\/L3304.htm .
+lex:L3304\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3304    lex:temArtigo    lex:L3304\/Artigo1 .
+lex:L3304\/Artigo1    lex:temConteudo    "Art. 1º Serão obrigatòriamente pagas às instituições de assistência social, hospitalar, cultural, educacional e rural, tôdas as cooperações financeiras constantes, nos anexos dos Ministérios da Agricultura, Educação e Cultura, Saúde e Justiça e Negócios Interiores, do Orçamento Geral da União para o exercício de 1951 e que, destinadas a obras equipamentos e serviços de manutenção, deixaram de ser relacionadas, no todo ou em parte, em 'restos a pagar' e, posteriormente, não foram, ainda satisfeitas por 'exercícios findos'." .
+lex:L3304\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3304\/Artigo1    lex:temParagrafo    lex:L3304\/Artigo1\/ParagrafoUnico .
+lex:L3304\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso de auxílio parcialmente não inscrito em 'restos a pagar', será paga apenas essa parcela." .
+lex:L3304\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3304    lex:temArtigo    lex:L3304\/Artigo2 .
+lex:L3304\/Artigo2    lex:temConteudo    "Art. 2º É extensivo, em todos os casos, ao pagamento das cooperações financeiras de que trata o artigo anterior, o disposto nos arts. 11, §§ 2º e 3º, 13, incisos I, II e V, e 17, da Lei nº 1.493, de 13 de dezembro de 1951, com as modificações da Lei nº 2.266, de 12 de julho de 1954." .
+lex:L3304\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3304\/Artigo2    lex:temParagrafo    lex:L3304\/Artigo2\/ParagrafoUnico .
+lex:L3304\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os estatutos sociais acompanharão sempre o pedido de pagamento formulado por entidade assistencial de direito privado." .
+lex:L3304\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3304    lex:temArtigo    lex:L3304\/Artigo3 .
+lex:L3304\/Artigo3    lex:temConteudo    "Art. 3º Se, por motivo justificado, as cooperações financeiras, de que trata esta lei, não forem satisfeitas no corrente exercício, serão elas incluídas, como subvenção extraordinária especial nos anexos correspondentes do primeiro orçamento que se elaborar após a obrigatoriedade de seu pagamento, observado o disposto no artigo anterior." .
+lex:L3304\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3304    lex:temArtigo    lex:L3304\/Artigo4 .
+lex:L3304\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3304\/Artigo2    lex:remetePara    lex:L1493\/Artigo11\/Paragrafo2 .
+lex:L3304\/Artigo2    lex:remetePara    lex:L1493\/Artigo13 .
+lex:L3304\/Artigo2    lex:remetePara    lex:L1493\/Artigo17 .

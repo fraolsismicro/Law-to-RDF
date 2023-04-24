@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9053    lex:ehUm    lex:DocLegal .
+lex:L9053    lex:temTextoIntegral    lex:HTMLs\/L9053.htm .
+lex:L9053\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9053    lex:temArtigo    lex:L9053\/Artigo1 .
+lex:L9053\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 50 da Lei nº 6.015, de 31 de dezembro de 1973, passa a vigorar com a seguinte redação:" .
+lex:L9053\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9053    lex:temArtigo    lex:L9053\/Artigo2 .
+lex:L9053\/Artigo2    lex:temConteudo    "Art. 2º É acrescentado ao art. 50 da Lei nº 6.015, de 31 de dezembro de 1973, o seguinte parágrafo, numerado como § 1º, renumerando-se os demais:" .
+lex:L9053\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9053\/Artigo2    lex:temParagrafo    lex:L9053\/Artigo2\/Paragrafo1 .
+lex:L9053\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Quando for diverso o lugar da residência dos pais, observar-se-á a ordem contida nos itens 1º e 2º do art. 52." .
+lex:L9053\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9053    lex:temArtigo    lex:L9053\/Artigo3 .
+lex:L9053\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L9053\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9053    lex:temArtigo    lex:L9053\/Artigo4 .
+lex:L9053\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L9053\/Artigo1    lex:remetePara    lex:L6015 .
+lex:L9053\/Texto00001    lex:remetePara    lex:L6015\/Artigo50 .
+lex:L9053\/Artigo2    lex:remetePara    lex:L6015 .
+lex:L9053\/Artigo2\/Paragrafo1    lex:remetePara    lex:L6015\/Artigo50\/Paragrafo1 .

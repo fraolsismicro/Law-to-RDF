@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3638    lex:ehUm    lex:DocLegal .
+lex:L3638    lex:temTextoIntegral    lex:HTMLs\/L3638.htm .
+lex:L3638\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3638    lex:temArtigo    lex:L3638\/Artigo1 .
+lex:L3638\/Artigo1    lex:temConteudo    "Art. 1º Passa a ter a seguinte redação o § 3º do art. 3º do Decreto-lei nº 4.804, de 6 de outubro de 1942:" .
+lex:L3638\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3638    lex:temArtigo    lex:L3638\/Artigo3 .
+lex:L3638\/Artigo3    lex:temConteudo    "Art. 3º ..........................................................................................................................." .
+lex:L3638\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L3638\/Artigo3    lex:temParagrafo    lex:L3638\/Artigo3\/Paragrafo3 .
+lex:L3638\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º Os professôres e assistentes não compreendidos no § 1º dêste artigo perceberão honorários por hora de aula dada ou trabalho executado, até o limite máximo de doze horas semanais, os quais serão fixados pelo Ministro da Justiça e Negócios Interiores, mediante proposta do Diretor-Geral do Departamento de Imprensa Nacional." .
+lex:L3638\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3638    lex:temArtigo    lex:L3638\/Artigo2 .
+lex:L3638\/Artigo2    lex:temConteudo    "Art. 2º O preenchimento de funções de natureza industrial da tabela numérica de mensalistas do Departamento de Imprensa Nacional será feito na seguinte proporção: 2/3 (dois terços), mediante apresentação de certificado de conclusão dos cursos básicos da Escola de Aprendizagem de Artes Gráficas, e o têrço restante, por candidatos habilitados em concurso público." .
+lex:L3638\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3638    lex:temArtigo    lex:L3638\/Artigo3 .
+lex:L3638\/Artigo3    lex:temConteudo    "Art. 3º São transformados em cargos em comissão, símbolo CC-5, as funções gratificadas, símbolo FG-1 e FG-2, de chefe da Divisão de Produção e chefe da Divisão de Administração do Departamento de Imprensa Nacional." .
+lex:L3638\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3638\/Artigo3    lex:temParagrafo    lex:L3638\/Artigo3\/ParagrafoUnico .
+lex:L3638\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As despesas decorrentes da execução dêste artigo, no presente exercício, serão atendidas pelos saldos das dotações próprias." .
+lex:L3638\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3638    lex:temArtigo    lex:L3638\/Artigo4 .
+lex:L3638\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3638\/Artigo3\/Paragrafo3    lex:remetePara    lex:Del4804\/Artigo3\/Paragrafo3 .

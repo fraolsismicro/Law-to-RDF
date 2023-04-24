@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8824    lex:ehUm    lex:DocLegal .
+lex:D8824    lex:temTextoIntegral    lex:HTMLs\/D8824.htm .
+lex:D8824\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8824    lex:temArtigo    lex:D8824\/Artigo1 .
+lex:D8824\/Artigo1    lex:temConteudo    "Art. 1 º  O  Decreto n º 8.670, de 12 de fevereiro de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8824\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8824\/Artigo1    lex:temInciso    lex:D8824\/Artigo1\/IncisoI .
+lex:D8824\/Artigo1\/IncisoI    lex:temConteudo    "I - ampliar os limites estabelecidos para os órgãos relacionados nos Anexos I e II até os montantes de R$ 9.513.664.335,00 (nove bilhões, quinhentos e treze milhões, seiscentos e sessenta e quatro mil, trezentos e trinta e cinco reais) e de R$ 11.922.751.062,00 (onze bilhões, novecentos e vinte e dois milhões, setecentos e cinquenta e um mil, sessenta e dois reais), respectivamente;" .
+lex:D8824\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8824    lex:temArtigo    lex:D8824\/Artigo2 .
+lex:D8824\/Artigo2    lex:temConteudo    "Art. 2 º  Os Anexos I, II, VII, VIII e X ao Decreto n º 8.670, de 2016, passam a vigorar, respectivamente, na forma dos Anexos I, II, III, IV e V a este Decreto." .
+lex:D8824\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8824    lex:temArtigo    lex:D8824\/Artigo3 .
+lex:D8824\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8824\/Artigo1    lex:remetePara    lex:D8670 .
+lex:D8824\/Artigo1\/IncisoI    lex:remetePara    lex:D8670\/Artigo7 .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670\/ .
+lex:D8824\/Artigo2    lex:remetePara    lex:D8670 .

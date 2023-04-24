@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0958    lex:ehUm    lex:DocLegal .
+lex:Del0958    lex:temTextoIntegral    lex:HTMLs\/Del0958.htm .
+lex:Del0958\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0958    lex:temParagrafo    lex:Del0958\/ParagrafoUnico .
+lex:Del0958\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Reverterão em favor dos militares, ou dos civis, conforme o caso, as vagas asseguradas e não preenchidas." .
+lex:Del0958\/ParagrafoUnico\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:Del0958\/ParagrafoUnico    lex:temAlinea    lex:Del0958\/ParagrafoUnico\/AlineaDe .
+lex:Del0958\/ParagrafoUnico\/AlineaDe    lex:temConteudo    "a) de habilitação em concurso de seleção;" .
+lex:Del0958\/ParagrafoUnico\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:Del0958\/ParagrafoUnico    lex:temAlinea    lex:Del0958\/ParagrafoUnico\/AlineaDe .
+lex:Del0958\/ParagrafoUnico\/AlineaDe    lex:temConteudo    "b) de exame de saúde e psicológico e de outras exigências no âmbito de cada Fôrça." .
+lex:Del0958\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0958    lex:temParagrafo    lex:Del0958\/ParagrafoUnico .
+lex:Del0958\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As vagas serão preenchidas segundo a ordem de classificação resultante do concurso." .
+lex:Del0958\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0958    lex:temParagrafo    lex:Del0958\/ParagrafoUnico .
+lex:Del0958\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica assegurado o direito ao limite de 38 (trinta e oito) anos de idade aos candidatos militares que, na data da publicação do presente Decreto-lei, sejam diplomados ou estejam matriculados em escolas superiores oficialmente reconhecidas que os habilitem ao ingresso no Curso de Formação de Oficiais Médicos, Farmacêuticos, Dentistas ou Veterinários das Fôrças Armadas." .
+lex:Del0958\/Artigo4    lex:remetePara    lex:D63704 .
+lex:Del0958\/Artigo6    lex:remetePara    lex:L3579 .

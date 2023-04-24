@@ -1,0 +1,58 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1899    lex:ehUm    lex:DocLegal .
+lex:D1899    lex:temTextoIntegral    lex:HTMLs\/D1899.htm .
+lex:D1899\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1899    lex:temArtigo    lex:D1899\/Artigo1 .
+lex:D1899\/Artigo1    lex:temConteudo    "Art. 1º A Convenção Interamericana sobre Cartas Rogatórias, assinada no Panamá, em 30 de janeiro de 1975, apensa por cópia ao presente Decreto, deverá ser executada e cumprida tão inteiramente como nela se contém." .
+lex:D1899\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1899    lex:temArtigo    lex:D1899\/Artigo2 .
+lex:D1899\/Artigo2    lex:temConteudo    "Art. 2º 0 presente Decreto entra em vigor na data de sua publicação." .
+lex:D1899\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoI .
+lex:D1899\/Artigo2\/IncisoI    lex:temConteudo    "I Emprego de Expressões" .
+lex:D1899\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoII .
+lex:D1899\/Artigo2\/IncisoII    lex:temConteudo    "II. Alcance da Convenção" .
+lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA .
+lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA    lex:temConteudo    "a) a realização de atos processuais de m,era tramitação, tais como notificações, citações ou emprazamentos no exterior;" .
+lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA\/IncisoAlineaO .
+lex:D1899\/Artigo2\/IncisoII\/IncisoAlineaA\/IncisoAlineaO    lex:temConteudo    "b) o recebimento e obtenção de provas e informações no exterior, salvo reserva expressa a tal respeito." .
+lex:D1899\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoIII .
+lex:D1899\/Artigo2\/IncisoIII    lex:temConteudo    "III. Transmissão de Cartas Rogatórias" .
+lex:D1899\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoIV .
+lex:D1899\/Artigo2\/IncisoIV    lex:temConteudo    "IV. Requisitos para o Cumprimento" .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue    lex:temConteudo    "a) que a carta rogatória esteja legalizada, salvo o disposto nos Artigos 6 e 7 desta Convenção. Presumir-se-á, que a carta rogatória está devidamente legalizada no Estado requerente quando o houver sido por funcionário consular ou agente diplomático competente;" .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue    lex:temConteudo    "b) que a carta rogatória e a documentação anexa estejam devidamente traduzidas para o idioma oficial do Estado requerido." .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia    lex:temConteudo    "a) cópia autenticada da petição inicial e seus anexos e dos documentos ou decisões que sirvam de fundamento à diligência solicitada:" .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao    lex:temConteudo    "b) informação escrita sobre qual é a autoridade judiciária requerente, os prazos de que dispõe para agir a pessoa afetada e as advertências que lhe faça a referida autoridade sobre as conseqüências que adviriam de sua inércia;" .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao    lex:temIncisoAlinea    lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao\/IncisoAlineaQuando .
+lex:D1899\/Artigo2\/IncisoIV\/IncisoAlineaQue\/IncisoAlineaQue\/IncisoAlineaCopia\/IncisoAlineaInformacao\/IncisoAlineaQuando    lex:temConteudo    "c) quando for o caso, informação sobre a existência e domicílio de defensor de oficio ou de sociedade de assistência jurídica competente no Estado requerente." .
+lex:D1899\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoV .
+lex:D1899\/Artigo2\/IncisoV    lex:temConteudo    "V. Tramitação" .
+lex:D1899\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoVI .
+lex:D1899\/Artigo2\/IncisoVI    lex:temConteudo    "VI. Disposições Gerais" .
+lex:D1899\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D1899\/Artigo2    lex:temInciso    lex:D1899\/Artigo2\/IncisoVII .
+lex:D1899\/Artigo2\/IncisoVII    lex:temConteudo    "VII. Disposições Finais" .

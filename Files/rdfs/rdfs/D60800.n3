@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D60800    lex:ehUm    lex:DocLegal .
+lex:D60800    lex:temTextoIntegral    lex:HTMLs\/D60800.htm .
+lex:D60800\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D60800    lex:temArtigo    lex:D60800\/Artigo1A .
+lex:D60800\/Artigo1A    lex:temConteudo    "Art. 1Âº. Fica declarada de utilidade pÃºblica, para fins de desapropriaÃ§Ã£o em favor da Universidade Federal do Rio grande do Sul, a Biblioteca particular, de propriedade do Doutor Gert Eduardo Secco Eichenberg instalada na residÃªncia dÃªste Ã  rua Santo InÃ¡cio nÂº 473, na cidade de PÃ´rto Alegre, capital do Estado do Rio Grande do Sul." .
+lex:D60800\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D60800    lex:temArtigo    lex:D60800\/Artigo2A .
+lex:D60800\/Artigo2A    lex:temConteudo    "Art. 2Âº. Fica autorizada a Universidade Federal do Rio Grande do Sul a promover, amigÃ¡velmente ou judicialmente, a desapropriaÃ§Ã£o aludida, na forma da lei." .
+lex:D60800\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D60800    lex:temArtigo    lex:D60800\/Artigo3A .
+lex:D60800\/Artigo3A    lex:temConteudo    "Art. 3Âº. Ãste decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D60800\/Texto    lex:revogadoPor    lex:Dnn0003-91 .
+lex:Dnn0003-91    lex:revogou    lex:D60800\/Texto .
+lex:D60800\/Texto    lex:remetePara    lex:D60800 .

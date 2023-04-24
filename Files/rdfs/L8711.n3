@@ -1,0 +1,57 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8711    lex:ehUm    lex:DocLegal .
+lex:L8711    lex:temTextoIntegral    lex:HTMLs\/L8711.htm .
+lex:L8711\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8711    lex:temArtigo    lex:L8711\/Artigo1 .
+lex:L8711\/Artigo1    lex:temConteudo    "Art. 1° Fica transformada em Centro Federal de Educação Tecnológica, nos termos da Lei n° 6.545, de 30 de junho de 1978, a Escola Técnica Federal da Bahia instituída na forma da Lei n° 3.552, de 16 de fevereiro de 1959, alterada pelo Decreto-Lei n° 796, de 27 de agosto de 1969." .
+lex:L8711\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8711\/Artigo1    lex:temParagrafo    lex:L8711\/Artigo1\/ParagrafoUnico .
+lex:L8711\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica incorporado ao Centro Federal de Educação Tecnológica de que trata este artigo o Centro de Educação Tecnológica da Bahia - CENTEC, criado pela Lei n° 6.344, de 6 de julho de 1976, inclusive seu acervo patrimonial, instalações físicas, recursos financeiros e orçamentários, e o seu pessoal docente e técnico-administrativo." .
+lex:L8711\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8711    lex:temArtigo    lex:L8711\/Artigo2 .
+lex:L8711\/Artigo2    lex:temConteudo    "Art. 2° O Centro Federal de Educação Tecnológica da Bahia, ora criado por transformação, tem sede e foro na Cidade de Salvador, Estado da Bahia, e é regido pela Lei n° 6.545, de 30 de junho de 1978, por esta Lei, por seu Estatuto e Regimento." .
+lex:L8711\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8711\/Artigo2    lex:temParagrafo    lex:L8711\/Artigo2\/Paragrafo1 .
+lex:L8711\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1° O prazo para a completa implantação da entidade será de dois anos." .
+lex:L8711\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8711\/Artigo2    lex:temParagrafo    lex:L8711\/Artigo2\/Paragrafo2 .
+lex:L8711\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º O atual Diretor da Escola Técnica Federal da Bahia exercerá as funções de Diretor-Geral do Centro Federal de Educação Tecnológica da Bahia até completa implantação da entidade, quando serão providos os cargos de direção, na forma da legislação pertinente." .
+lex:L8711\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8711    lex:temArtigo    lex:L8711\/Artigo3 .
+lex:L8711\/Artigo3    lex:temConteudo    "Art. 3° O art. 2° da Lei n° 6.545, de 30 de junho de 1978, passa a vigorar com a seguinte redação:" .
+lex:L8711\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8711\/Artigo3    lex:temInciso    lex:L8711\/Artigo3\/IncisoI .
+lex:L8711\/Artigo3\/IncisoI    lex:temConteudo    "I - ministrar em grau superior:" .
+lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:L8711\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe .
+lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe    lex:temConteudo    "a) de graduação e pós-graduação lato sensu e stricto sensu , visando à formação de profissionais e especialistas na área tecnológica;" .
+lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe    lex:temIncisoAlinea    lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:L8711\/Artigo3\/IncisoI\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "b) de licenciatura com vistas à formação de professores especializados para as disciplinas específicas do ensino técnico e tecnológico;" .
+lex:L8711\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8711\/Artigo3    lex:temInciso    lex:L8711\/Artigo3\/IncisoII .
+lex:L8711\/Artigo3\/IncisoII    lex:temConteudo    "II - ministrar cursos técnicos, em nível de 2° grau, visando à formação de técnicos, instrutores e auxiliares de nível médio;" .
+lex:L8711\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8711\/Artigo3    lex:temInciso    lex:L8711\/Artigo3\/IncisoIII .
+lex:L8711\/Artigo3\/IncisoIII    lex:temConteudo    "III - ministrar cursos de educação continuada visando à atualização e ao aperfeiçoamento de profissionais na área tecnológica;" .
+lex:L8711\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L8711\/Artigo3    lex:temInciso    lex:L8711\/Artigo3\/IncisoIV .
+lex:L8711\/Artigo3\/IncisoIV    lex:temConteudo    "IV - realizar pesquisas aplicadas na área tecnológica, estimulando atividades criadoras e estendendo seus benefícios à comunidade mediante cursos e serviços.'" .
+lex:L8711\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8711    lex:temArtigo    lex:L8711\/Artigo4 .
+lex:L8711\/Artigo4    lex:temConteudo    "Art. 4° Esta Lei entra em vigor na data de sua publicação." .
+lex:L8711\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8711    lex:temArtigo    lex:L8711\/Artigo5 .
+lex:L8711\/Artigo5    lex:temConteudo    "Art. 5° Revoga-se a Lei n° 6.344, de 6 de julho de 1976." .
+lex:L8711\/Artigo1    lex:remetePara    lex:L6545 .
+lex:L8711\/Artigo1    lex:remetePara    lex:L3552 .
+lex:L8711\/Artigo2    lex:remetePara    lex:L6545 .
+lex:L8711\/Texto00006    lex:remetePara    lex:L6545\/Artigo2 .
+lex:L8711\/Artigo5    lex:remetePara    lex:L6344 .

@@ -1,0 +1,67 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5793    lex:ehUm    lex:DocLegal .
+lex:D5793    lex:temTextoIntegral    lex:HTMLs\/D5793.htm .
+lex:D5793\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5793    lex:temArtigo    lex:D5793\/Artigo1 .
+lex:D5793\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 3.520, de 21 de junho de 2000, passa a vigorar com as seguintes alterações:" .
+lex:D5793\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoI .
+lex:D5793\/Artigo1\/IncisoI    lex:temConteudo    "I - ......................................................" .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento    lex:ehUm    lex:IncisoAlinea .
+lex:D5793\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento    lex:temConteudo    "m) incremento da participação dos biocombustíveis na matriz energética nacional;" .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia    lex:ehUm    lex:IncisoAlinea .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento    lex:temIncisoAlinea    lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia    lex:temConteudo    "n) garantia de suprimento de biocombustíveis em todo o território nacional;" .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia    lex:temIncisoAlineaItem    lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia\/IncisoAlineaItem .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento\/IncisoAlineaGarantia\/IncisoAlineaItem    lex:temConteudo    "......................................................" .
+lex:D5793\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoIV .
+lex:D5793\/Artigo1\/IncisoIV    lex:temConteudo    "IV - estabelecer diretrizes para programas específicos, como os de uso do gás natural, do carvão, da energia termonuclear, dos biocombustíveis, da energia solar, da energia eólica e da energia proveniente de outras fontes alternativas;" .
+lex:D5793\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoVIII .
+lex:D5793\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - o Ministro de Estado da Integração Nacional;" .
+lex:D5793\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoIX .
+lex:D5793\/Artigo1\/IncisoIX    lex:temConteudo    "IX - o Ministro de Estado da Agricultura, Pecuária e Abastecimento;" .
+lex:D5793\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoX .
+lex:D5793\/Artigo1\/IncisoX    lex:temConteudo    "X - um representante dos Estados e do Distrito Federal;" .
+lex:D5793\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoXI .
+lex:D5793\/Artigo1\/IncisoXI    lex:temConteudo    "XI - um representante da sociedade civil especialista em matéria de energia; e" .
+lex:D5793\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D5793\/Artigo1    lex:temInciso    lex:D5793\/Artigo1\/IncisoXII .
+lex:D5793\/Artigo1\/IncisoXII    lex:temConteudo    "XII - um representante de universidade brasileira, especialista em matéria de energia." .
+lex:D5793\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5793\/Artigo1    lex:temParagrafo    lex:D5793\/Artigo1\/Paragrafo2 .
+lex:D5793\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os membros referidos nos incisos X, XI e XII serão designados pelo Presidente da República para mandatos de dois anos, renováveis por mais um período, sendo o representante dos Estados e do Distrito Federal indicado pelos respectivos Secretários de Governo a que estejam afetos os assuntos de energia, e os demais pelo Ministro de Estado de Minas e Energia." .
+lex:D5793\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5793\/Artigo1    lex:temParagrafo    lex:D5793\/Artigo1\/ParagrafoUnico .
+lex:D5793\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Também poderão apoiar o CNPE, técnicos de entidades vinculadas aos Ministérios referidos nos incisos I a IX do art. 2o, devidamente autorizados pelos seus titulares. (NR)" .
+lex:D5793\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5793    lex:temArtigo    lex:D5793\/Artigo2 .
+lex:D5793\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5793\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5793    lex:temArtigo    lex:D5793\/Artigo3 .
+lex:D5793\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os arts. 2o-A,  2o-B,  2o-C e  2o-D, do Decreto no 3.520, de 21 de junho de 2000, e o art. 1o do Decreto no 4.505, de 11 de dezembro de 2002." .
+lex:D5793\/Artigo1\/IncisoI\/IncisoAlineaIncremento    lex:remetePara    lex:D3520\/Artigo1 .
+lex:D5793\/Artigo1\/IncisoIV    lex:remetePara    lex:D3520\/Artigo1 .
+lex:D5793\/Artigo1\/IncisoVIII    lex:remetePara    lex:D3520\/Artigo1 .
+lex:D5793\/Artigo1\/Paragrafo2    lex:remetePara    lex:D3520\/Artigo2\/Paragrafo2 .
+lex:D5793\/Artigo1\/Texto00012    lex:remetePara    lex:D3520\/Artigo3 .
+lex:D5793\/Artigo1\/Texto00012    lex:remetePara    lex:D3520\/Artigo4 .
+lex:D5793\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D3520\/Artigo5 .
+lex:D5793\/Artigo3    lex:remetePara    lex:D3520\/Artigo2 .
+lex:D5793\/Artigo3    lex:remetePara    lex:D3520\/Artigo2 .
+lex:D5793\/Artigo3    lex:remetePara    lex:D3520\/Artigo2 .
+lex:D5793\/Artigo3    lex:remetePara    lex:D3520\/Artigo2 .
+lex:D5793\/Artigo3    lex:remetePara    lex:D4505\/Artigo1 .

@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7382    lex:ehUm    lex:DocLegal .
+lex:L7382    lex:temTextoIntegral    lex:HTMLs\/L7382.htm .
+lex:L7382\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7382    lex:temArtigo    lex:L7382\/Artigo1 .
+lex:L7382\/Artigo1    lex:temConteudo    "Art. 1º - Fica o Ministério da Fazenda autorizado a transferir, para o patrimônio da sociedade de economia mista federal Petróleo Brasileiro S.A.- PETROBRÁS, a totalidade das ações, de propriedade do Tesouro Nacional, representativa do capital da sociedade de economia mista federal Companhia Nacional de Álcalis, bem como os créditos do Tesouro Nacional já contabilizados nesta última Companhia à conta de futuros aumentos de capital." .
+lex:L7382\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7382\/Artigo1    lex:temParagrafo    lex:L7382\/Artigo1\/Paragrafo1 .
+lex:L7382\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - O lote acionário será transferido por valor apurado nos termos da Lei nº 6.404, de 15 de dezembro de 1976, tomando por base o patrimônio líquido integrante do balanço da Companhia Nacional de Álcalis." .
+lex:L7382\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7382\/Artigo1    lex:temParagrafo    lex:L7382\/Artigo1\/Paragrafo2 .
+lex:L7382\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Para os fins do parágrafo anterior, a Companhia Nacional de Álcalis fará levantar balanço patrimonial nos trinta dias seguintes à data de entrada em vigor desta Lei." .
+lex:L7382\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L7382\/Artigo1    lex:temParagrafo    lex:L7382\/Artigo1\/Paragrafo3 .
+lex:L7382\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A transferência das ações para a Petróleo Brasileiro S.A. - PETROBRÁS far-se-á mediante a lavratura de termo no livro próprio da Procuradoria Geral da Fazenda Nacional, na forma da alínea b do inciso V do art. 10 do Decreto-lei nº 147, de 3 de fevereiro de 1967." .
+lex:L7382\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L7382\/Artigo1    lex:temParagrafo    lex:L7382\/Artigo1\/Paragrafo4 .
+lex:L7382\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º - O valor das ações e dos créditos será contabilizado pela Petróleo Brasileiro S.A. - PETROBRÁS, a crédito da União Federal e à conta de futuras integralizações de capital na sociedade, pelo Tesouro Nacional, observado, pela empresa, o disposto no art. 185 da Lei nº 6.404, de 15 de dezembro de 1976." .
+lex:L7382\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7382    lex:temArtigo    lex:L7382\/Artigo2 .
+lex:L7382\/Artigo2    lex:temConteudo    "Art. 2º - As ações e os créditos referidos no art. 1º desta Lei serão utilizados pela Petróleo Brasileiro S.A. - PETROBRÁS, para integralização de capital, na Petrobrás Química S.A. - PETROQUISA." .
+lex:L7382\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7382    lex:temArtigo    lex:L7382\/Artigo3 .
+lex:L7382\/Artigo3    lex:temConteudo    "Art. 3º - Efetuadas as operações referidas nos arts. 1º e 2º desta Lei, a Companhia Nacional de Álcalis passarão à classe de sociedade controlada pela Petrobrás Química S.A. - PETROQUISA." .
+lex:L7382\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7382    lex:temArtigo    lex:L7382\/Artigo4 .
+lex:L7382\/Artigo4    lex:temConteudo    "Art. 4º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7382\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7382    lex:temArtigo    lex:L7382\/Artigo5 .
+lex:L7382\/Artigo5    lex:temConteudo    "Art. 5º - Revogam-se as disposições em contrário." .
+lex:L7382\/Artigo1\/Paragrafo1    lex:remetePara    lex:L6404consol .
+lex:L7382\/Artigo1\/Paragrafo3    lex:remetePara    lex:del0147\/Artigo10 .
+lex:L7382\/Artigo1\/Paragrafo4    lex:remetePara    lex:L6404consol\/Artigo185 .

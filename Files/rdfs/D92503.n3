@@ -1,0 +1,422 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92503    lex:ehUm    lex:DocLegal .
+lex:D92503    lex:temTextoIntegral    lex:HTMLs\/D92503.htm .
+lex:D92503\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92503    lex:temArtigo    lex:D92503\/Artigo1 .
+lex:D92503\/Artigo1    lex:temConteudo    "Art. 1º - São privativos de oficial-general os seguintes cargos no Exército:" .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "a) Do posto de General-de-Exército:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Exército;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe de Departamento;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante Militar de Área;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario    lex:temConteudo    "- Secretário de Economia e Finanças;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario    lex:temConteudo    "- Secretário de Ciência e Tecnologia." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Operações Terrestres. (Incluído pelo Decreto nº 99.670, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "b) Do posto de General-de-Divisão Combatente:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe    lex:temConteudo    "- Vice-Chefe do Estado-Maior do Exército;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemVice-Chefe    lex:temConteudo    "- Vice-Chefe de Departamento;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante Militar de Área, Região Militar e Divisão de Exército;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante Militar de Área e Região Militar;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante Militar de Área e Divisão de Exército;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario    lex:temConteudo    "- Subsecretário de Economia e Finanças;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubsecretario    lex:temConteudo    "- Subsecretário de Ciência e Tecnologia;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Divisão de Exército;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Região Militar e Divisão de Exército." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "c) Do posto de General-de-Divisão ou de General-de-Brigada, Combatente, conforme constar dos respectivos Quadros de Organização, de Lotação de Pessoal Militar ou de Distribuição: (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Região Militar; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Gabinete do Ministro do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario-Geral    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario-Geral .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario-Geral    lex:temConteudo    "- Secretário-Geral do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Órgão de Apoio; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Centro de Avaliações do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubchefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubchefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubchefe    lex:temConteudo    "- Subchefe do Estado-Maior do Exército; e (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemInspetor-Geral    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemInspetor-Geral .
+lex:D92503\/Artigo1\/AlineaDo\/ItemInspetor-Geral    lex:temConteudo    "- Inspetor-Geral das Polícias Militares. (Incluído pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando de Operações Terrestres. (Incluído pelo Decreto nº 99.670, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "d) Do posto de General-de-Brigada Combatente: (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Gabinete do Estado-Maior do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Centro de Informações do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Centro de Comunicação Social do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante da Academia Militar das Agulhas Negras; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante da Escola de Comando e Estado-Maior do Exército; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante da Escola de Aperfeiçoamento de Oficiais; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Brigada; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Artilharia Divisionária; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante do Grupamento de Engenharia de Construção; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando Militar de Área; (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante do Apoio Regional. (Redação dada pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante da Escola de Sargentos das Armas. (Incluído pelo Decreto de 23 de dezembro de 1992)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Aviação do Exército. (Incluído pelo Decreto de 19 de julho de 1993)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "e) Do Posto de General-de-Divisão ou de General-de-Brigada, Engenheiro Militar, conforme constar do respectivo Quadro de Organização, de Lotação de Pessoal Militar ou de Distribuição: (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Centro Tecnológico do Exército; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Obras Militares; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Recuperação; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Telecomunicações; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Serviço Geográfico; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Fiscalização de Produtos Controlados; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Instituto de Projetos Especiais; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Instituto de Pesquisa e Desenvolvimento; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante do Instituto Militar de Engenharia. (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "f) Do Posto de General-de-Brigada Engenheiro Militar: (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Arsenal de Guerra; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Campo de Provas da Marambaia; (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:temConteudo    "- Subdiretor de Obras Militares (Redação dada pelo Decreto nº 95.873, de 1988)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "g) Do posto de General-de-Divisão Intendente:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Subsistência." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "h) Do posto de General-de-Brigada Intendente:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Contabilidade;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Material de Intendência;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:temConteudo    "- Subdiretor de Subsistência;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Centro de Pagamento do Exército." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Auditoria. (Incluído pelo Decreto de 19 de julho de 1993)." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "i) Do posto de General-de-Divisão Médico:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor de Saúde." .
+lex:D92503\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1    lex:temAlinea    lex:D92503\/Artigo1\/AlineaDo .
+lex:D92503\/Artigo1\/AlineaDo    lex:temConteudo    "j) Do posto de General-de-Brigada Médico:" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:temConteudo    "- Subdiretor de Saúde;" .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/AlineaDo    lex:temItem    lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:temConteudo    "- Diretor do Hospital Central do Exército." .
+lex:D92503\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D92503\/Artigo1    lex:temParagrafo    lex:D92503\/Artigo1\/Paragrafo1 .
+lex:D92503\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O cargo de Diretor de Informática poderá ser exercido por General-de-Divisão ou General-de-Brigada Combatente ou Engenheiro Militar. (Incluído pelo Decreto nº 98.259, de 1989). (Renumerado pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D92503\/Artigo1    lex:temParagrafo    lex:D92503\/Artigo1\/Paragrafo2 .
+lex:D92503\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Poderão ser ocupados por Generais-de-Brigada não possuidores do Curso de Altos Estudos Militares até 7 (sete) cargos, assim especificados: (Incluído pelo Decreto nº 98.259, de 1989). (Renumerado pelo Decreto nº 99.403, de 1990)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temConteudo    "a) No Quadro de Combatentes até 3 (três) cargos, dentre os abaixo: (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Informática (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Patrimônio (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor Patrimonial de Brasília (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Pessoal Civil (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temConteudo    "b) No Quadro de Engenheiros Militares até 2 (dois) cargos, dentre os abaixo: (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Arsenal de Guerra (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:temConteudo    "- Subdiretor de Obras Militares (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor do Campo de Provas da Marambaia (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Telecomunicações (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Recuperação (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Serviço Geográfico (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Fiscalização de Produtos Controlados (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Informática (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temConteudo    "c) No Serviço de Saúde até 1 (um) cargo, dentre os abaixo: (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item1    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item1    lex:temConteudo    "- 1º Subdiretor de Saúde (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item2    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item2 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item2    lex:temConteudo    "- 2º Subdiretor de Saúde (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor do Hospital Central do Exército (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D92503\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temConteudo    "d) No Serviço de Intendência até 1 (um) cargo, dentre os abaixo: (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Contabilidade (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:temConteudo    "- Diretor de Material de Intendência  (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:temConteudo    "- Subdiretor de Subsistência  (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:temItem    lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemChefe .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemChefe    lex:temConteudo    "- Chefe do Centro de Pagamento do Exército (Incluído pelo Decreto nº 98.259, de 1989)." .
+lex:D92503\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92503    lex:temArtigo    lex:D92503\/Artigo2 .
+lex:D92503\/Artigo2    lex:temConteudo    "Art. 2º - As nomeações de oficiais-generais para os cargos previstos no artigo anterior serão feitas através de Decreto do Poder Executivo, respeitados os limites fixados para os efetivos do Exército em tempo de paz." .
+lex:D92503\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D92503    lex:temArtigo    lex:D92503\/Artigo3 .
+lex:D92503\/Artigo3    lex:temConteudo    "Art. 3º - Os cargos de natureza militar privativos de oficial-general, em órgãos estranhos ao Ministério do Exército, serão regulados em legislação específica." .
+lex:D92503\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D92503    lex:temArtigo    lex:D92503\/Artigo4 .
+lex:D92503\/Artigo4    lex:temConteudo    "Art. 4º - Este Decreto entra em vigor na data de sua publicação, ficando revogado o Decreto nº 91.242, de 09 de maio de 1985, e demais disposições em contrário." .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99670\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/AlineaDo    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemAdido    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95835\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/AlineaDo    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemAdido    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97055\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/AlineaDo    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemAdido    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D97606\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSecretario-Geral    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubchefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemInspetor-Geral    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99670\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:Dnn378\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D99403\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:Dnn1301\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:Dnn1574\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/AlineaDo    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/AlineaDo    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:remetePara    lex:D94087\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemSubdiretor    lex:remetePara    lex:D95873\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/ItemDiretor    lex:remetePara    lex:Dnn1574\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/Paragrafo1    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/AlineaDo\/Paragrafo1    lex:remetePara    lex:D99403\/Artigo2 .
+lex:D92503\/Artigo1\/Paragrafo1    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo1    lex:remetePara    lex:D99403\/Artigo2 .
+lex:D92503\/Artigo1\/Paragrafo2    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2    lex:remetePara    lex:D99403\/Artigo2 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item1    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/Item2    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemDiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemSubdiretor    lex:remetePara    lex:D98259\/Artigo1 .
+lex:D92503\/Artigo1\/Paragrafo2\/AlineaNo\/ItemChefe    lex:remetePara    lex:D98259\/Artigo1 .

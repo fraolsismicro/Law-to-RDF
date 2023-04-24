@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6380    lex:ehUm    lex:DocLegal .
+lex:L6380    lex:temTextoIntegral    lex:HTMLs\/L6380.htm .
+lex:L6380\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6380    lex:temArtigo    lex:L6380\/Artigo1 .
+lex:L6380\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir ao Ministério da Fazenda, em favor do Fundo Especial de Desenvolvimento e Aperfeiçoamento das Atividades de Fiscalização - FUNDAF - o crédito especial até o limite de Cr$120.000.000,00 (cento e vinte milhões de cruzeiros), destinado no atendimento das despesas decorrentes dos encargos específicos inerentes ao desenvolvimento e aperfeiçoamento das atividades de fiscalização dos tributos federais." .
+lex:L6380\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6380    lex:temArtigo    lex:L6380\/Artigo2 .
+lex:L6380\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução desta Lei serão aqueles provenientes do fornecimento de selos de controle, de que trata o artigo 3º do Decreto-lei número 1.437, de 17 de dezembro de 1975, e os oriundos do excesso de arrecadação de que trata o § 1º inciso II, combinado com o § 3º do artigo 43 da Lei número 4.320, de 17 de março de 1964." .
+lex:L6380\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6380    lex:temArtigo    lex:L6380\/Artigo3 .
+lex:L6380\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6380\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6380    lex:temArtigo    lex:L6380\/Artigo4 .
+lex:L6380\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6380\/Artigo2    lex:remetePara    lex:Del1437 .
+lex:L6380\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

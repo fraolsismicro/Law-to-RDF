@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3843    lex:ehUm    lex:DocLegal .
+lex:D3843    lex:temTextoIntegral    lex:HTMLs\/D3843.htm .
+lex:D3843\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3843    lex:temParagrafo    lex:D3843\/ParagrafoUnico .
+lex:D3843\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Após os apostilamentos, previstos no caput deste artigo, o Ministro de Estado Chefe da Casa Civil da Presidência da República fará publicar, no Diário Oficial da União, no prazo de quarenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua      denominação e respectivo nível." .
+lex:D3843\/ParagrafoUnico\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D3843\/ParagrafoUnico    lex:temAlinea    lex:D3843\/ParagrafoUnico\/AlineaQUADRO .
+lex:D3843\/ParagrafoUnico\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO ARQUIVO NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D3843\/ParagrafoUnico\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D3843\/ParagrafoUnico    lex:temAlinea    lex:D3843\/ParagrafoUnico\/AlineaQUADRO .
+lex:D3843\/ParagrafoUnico\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO ARQUIVO NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D3843\/Artigo2    lex:remetePara    lex:L9649cons\/Artigo2 .
+lex:D3843\/AnexoII    lex:remetePara    lex:D4374\/ .

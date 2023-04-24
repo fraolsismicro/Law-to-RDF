@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10985    lex:ehUm    lex:DocLegal .
+lex:D10985    lex:temTextoIntegral    lex:HTMLs\/D10985.htm .
+lex:D10985\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10985    lex:temArtigo    lex:D10985\/Artigo3A .
+lex:D10985\/Artigo3A    lex:temConteudo    "Art. 3Âº  Os distribuidores de que trata o inciso II do caput do art. 2Âº da Lei nÂº 6.729, de 28 de novembro de 1979, poderÃ£o efetuar a devoluÃ§Ã£o ficta ao produtor de veÃ­culos classificados na posiÃ§Ã£o 87.03 da Tabela de IncidÃªncia do Imposto sobre Produtos Industrializados - TIPI dos automÃ³veis existentes em seu estoque em 25 de fevereiro de 2022 mediante emissÃ£o de nota fiscal de devoluÃ§Ã£o." .
+lex:D10985\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10985    lex:temArtigo    lex:D10985\/Artigo4A .
+lex:D10985\/Artigo4A    lex:temConteudo    "Art. 4Âº  Fica revogado o parÃ¡grafo Ãºnico do art. 1Âº do Decreto nÂº 10.979, de 2022." .
+lex:D10985\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D10985    lex:temArtigo    lex:D10985\/Artigo5A .
+lex:D10985\/Artigo5A    lex:temConteudo    "Art. 5Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10985\/Artigo1A    lex:remetePara    lex:D10979 .
+lex:D10985\/Artigo1A    lex:remetePara    lex:D11047\/Artigo2 .
+lex:D10985\/Artigo1A    lex:remetePara    lex:D11047\/Artigo3 .
+lex:D10985\/Artigo1A    lex:revogadoPor    lex:D11055\/Artigo2 .
+lex:D11055\/Artigo2    lex:revogou    lex:D10985\/Artigo1A .
+lex:D10985\/Artigo1A    lex:remetePara    lex:D11055\/Artigo3 .
+lex:D10985\/Artigo2A    lex:remetePara    lex:D10979\/ .
+lex:D10985\/Artigo2A    lex:remetePara    lex:D11047\/Artigo2 .
+lex:D10985\/Artigo2A    lex:remetePara    lex:D11047\/Artigo3 .
+lex:D10985\/Artigo2A    lex:revogadoPor    lex:D11055\/Artigo2 .
+lex:D11055\/Artigo2    lex:revogou    lex:D10985\/Artigo2A .
+lex:D10985\/Artigo2A    lex:remetePara    lex:D11055\/Artigo3 .
+lex:D10985\/Artigo3A    lex:remetePara    lex:L6729\/Artigo2 .
+lex:D10985\/Artigo4A    lex:remetePara    lex:D10979\/Artigo1 .

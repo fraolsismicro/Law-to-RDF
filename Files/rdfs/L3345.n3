@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3345    lex:ehUm    lex:DocLegal .
+lex:L3345    lex:temTextoIntegral    lex:HTMLs\/L3345.htm .
+lex:L3345\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3345    lex:temArtigo    lex:L3345\/Artigo1 .
+lex:L3345\/Artigo1    lex:temConteudo    "Art. 1º São considerados equivalentes aos cursos de comandante de pelotão, de seção ou de aperfeiçoamento das Escolas de Sargentos das Armas, do Exército, para os efeitos do § 1º do art. 51 da Lei nº 2.370, de 9 de dezembro de 1954, os cursos de cursos de aperfeiçoamento, técnico profissional e das Escolas Profissionais, da Marinha de Guerra." .
+lex:L3345\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3345    lex:temArtigo    lex:L3345\/Artigo2 .
+lex:L3345\/Artigo2    lex:temConteudo    "Art. 2º Serão revistas, com base nesta lei, tôdas as transferências para a inatividade, já concedidas." .
+lex:L3345\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3345\/Artigo2    lex:temParagrafo    lex:L3345\/Artigo2\/ParagrafoUnico .
+lex:L3345\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Gozarão dos benefícios dêste artigo os primeiros sargentos da Marinha de Guerra que foram transferidos para a reserva remunerada ou reformados, antes da vigência da Lei nº 2.370, de 9 de dezembro de 1954, e que sejam portadores dos cursos de aperfeiçoamento, técnico profissional ou das Escolas Profissionais, da Marinha de Guerra." .
+lex:L3345\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3345    lex:temArtigo    lex:L3345\/Artigo3 .
+lex:L3345\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3345\/Artigo1    lex:remetePara    lex:L2370\/Artigo51\/Paragrafo1 .
+lex:L3345\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L2370 .

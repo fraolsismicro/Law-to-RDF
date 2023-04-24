@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1013    lex:ehUm    lex:DocLegal .
+lex:Del1013    lex:temTextoIntegral    lex:HTMLs\/Del1013.htm .
+lex:Del1013\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo1 .
+lex:Del1013\/Artigo1    lex:temConteudo    "Art. 1º Fica abolido o escalonamento previsto no artigo 6º, do Decreto-lei nº 263, de 28 de fevereiro de 1967 com a alteração que lhe foi dada pelo artigo 1º do Decreto-lei nº 349, de 24 de janeiro de 1968, para utilização dos recibos do adicional restituível instituído pelas Leis nºs 1.474, de 26 novembro de 1951 e 2.973, de 26 de novembro de 1956, referente às pessoas físicas." .
+lex:Del1013\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo2 .
+lex:Del1013\/Artigo2    lex:temConteudo    "Art. 2º Os comprovantes do recolhimento do adicional instituído pelas Leis nºs 1.474, de 26 de novembro de 1951 e 2.973, de 26 de novembro de 1956, não atingidos pela prescrição estabelecida no § 4º do artigo 6º, do Decreto-lei nº 263, de 28 de fevereiro de 1967, e os dos empréstimos compulsórios criados pelas Leis nºs 4.069 de 11 de junho de 1962 e 4.242, de 17 de julho de 1963, referentes as pessoas físicas, serão resgatados pelo Ministério da Fazenda, que restituíra, em espécie, os valores correspondentes." .
+lex:Del1013\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo3 .
+lex:Del1013\/Artigo3    lex:temConteudo    "Art. 3º O resgate será efetivado independentemente de requerimento e não importará em quitação com a Fazenda Nacional, devendo os comprovantes ser apresentados, pelos respectivos titulares e portadores, no prazo de 180 (cento e oitenta) dias às repartições da Secretaria da Receita Federal no Ministério da Fazenda." .
+lex:Del1013\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1013\/Artigo3    lex:temParagrafo    lex:Del1013\/Artigo3\/ParagrafoUnico .
+lex:Del1013\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A não apresentação dos comprovantes no prazo fixado neste artigo acarretará a decadência do direito ao resgate ou a restituição." .
+lex:Del1013\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo4 .
+lex:Del1013\/Artigo4    lex:temConteudo    "Art. 4º O Ministério da Fazenda expedirá os atos normativos que se fizerem necessários à execução dêste Decreto-lei." .
+lex:Del1013\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo5 .
+lex:Del1013\/Artigo5    lex:temConteudo    "Art. 5º Fica o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda, crédito especial de NCr$140.000.000,00 (cento e quarenta milhões de cruzeiros novos), para atender às despesas decorrentes da execução dêste Decreto-lei." .
+lex:Del1013\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo6 .
+lex:Del1013\/Artigo6    lex:temConteudo    "Art. 6º Os recursos necessários à execução dêste Decreto-lei são os constituídos na forma do artigo 43, § 1º, item II, da Lei nº 4.320, de 17 de março de 1964." .
+lex:Del1013\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1013    lex:temArtigo    lex:Del1013\/Artigo7 .
+lex:Del1013\/Artigo7    lex:temConteudo    "Art. 7º Êste Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1013\/Artigo1    lex:remetePara    lex:L1474 .
+lex:Del1013\/Artigo1    lex:remetePara    lex:L2973 .
+lex:Del1013\/Artigo2    lex:remetePara    lex:L1474 .
+lex:Del1013\/Artigo2    lex:remetePara    lex:L2973 .
+lex:Del1013\/Artigo2    lex:remetePara    lex:Del0263\/Artigo6\/Paragrafo4 .

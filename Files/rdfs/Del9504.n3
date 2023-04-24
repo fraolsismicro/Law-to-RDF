@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9504    lex:ehUm    lex:DocLegal .
+lex:Del9504    lex:temTextoIntegral    lex:HTMLs\/Del9504.htm .
+lex:Del9504\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9504    lex:temArtigo    lex:Del9504\/Artigo1 .
+lex:Del9504\/Artigo1    lex:temConteudo    "Art. 1º A letra e do art. 34 do Decreto-lei 9.258, de 14 de Maio de 1946 passa a ter a seguinte redação:" .
+lex:Del9504\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9504    lex:temArtigo    lex:Del9504\/Artigo2 .
+lex:Del9504\/Artigo2    lex:temConteudo    "Art. 2º O parágrafo 2º do art. 34 do referido Decreto-lei passa a ser assim redigido:" .
+lex:Del9504\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del9504    lex:temArtigo    lex:Del9504\/Artigo3 .
+lex:Del9504\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entra em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:Del9504\/Artigo1    lex:remetePara    lex:Del9258 .
+lex:Del9504\/Texto00001    lex:remetePara    lex:Del9258\/Artigo34 .
+lex:Del9504\/Texto00002    lex:remetePara    lex:Del9258\/Artigo34\/Paragrafo2 .

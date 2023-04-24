@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6900    lex:ehUm    lex:DocLegal .
+lex:L6900    lex:temTextoIntegral    lex:HTMLs\/L6900.htm .
+lex:L6900\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6900    lex:temArtigo    lex:L6900\/Artigo1 .
+lex:L6900\/Artigo1    lex:temConteudo    "Art. 1º - Acrescenta-se ao art. 20 do Decreto-lei nº 3.689, de 3 de outubro de 1941 - Código de Processo Penal, o seguinte parágrafo:" .
+lex:L6900\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6900\/Artigo1    lex:temParagrafo    lex:L6900\/Artigo1\/ParagrafoUnico .
+lex:L6900\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Nos atestados de antecedentes que lhe forem solicitados, a autoridade policial não poderá mencionar quaisquer anotações referentes a instauração de inquérito contra os requerentes, salvo no caso de existir condenação anterior." .
+lex:L6900\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6900    lex:temArtigo    lex:L6900\/Artigo2 .
+lex:L6900\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6900\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6900    lex:temArtigo    lex:L6900\/Artigo3 .
+lex:L6900\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L6900\/Texto00001    lex:remetePara    lex:Del3689\/Artigo20 .

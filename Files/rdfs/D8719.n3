@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8719    lex:ehUm    lex:DocLegal .
+lex:D8719    lex:temTextoIntegral    lex:HTMLs\/D8719.htm .
+lex:D8719\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8719    lex:temArtigo    lex:D8719\/Artigo1 .
+lex:D8719\/Artigo1    lex:temConteudo    "Art. 1º O Decreto nº 8.701, de 31 de março de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8719\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8719\/Artigo1    lex:temInciso    lex:D8719\/Artigo1\/IncisoII .
+lex:D8719\/Artigo1\/IncisoII    lex:temConteudo    "II - no dia 3 de maio de 2016, quanto aos demais dispositivos.' (NR)" .
+lex:D8719\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8719    lex:temArtigo    lex:D8719\/Artigo2 .
+lex:D8719\/Artigo2    lex:temConteudo    "Art. 2º O Decreto nº 8.711, de 14 de abril de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8719\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8719    lex:temArtigo    lex:D8719\/Artigo3 .
+lex:D8719\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação" .
+lex:D8719\/Artigo1    lex:remetePara    lex:D8701 .
+lex:D8719\/Artigo1\/IncisoII    lex:remetePara    lex:D8701\/Artigo10 .
+lex:D8719\/Artigo2    lex:remetePara    lex:D8711 .
+lex:D8719\/Texto00003    lex:remetePara    lex:D8711\/Artigo3 .

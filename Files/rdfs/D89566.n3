@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D89566    lex:ehUm    lex:DocLegal .
+lex:D89566    lex:temTextoIntegral    lex:HTMLs\/D89566.htm .
+lex:D89566\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D89566    lex:temArtigo    lex:D89566\/Artigo1 .
+lex:D89566\/Artigo1    lex:temConteudo    "Art. 1º. Fica determinada a adoção de Medidas de Emergência, de acordo com as necessidades, na área do Distrito Federal e os Municípios de Formosa, Cristalina, Luziânia, Ipameri, Catalão, Goiânia, Anápolis, Itumbiara, Pires do Rio e Jataí, do Estado de Goiás." .
+lex:D89566\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D89566\/Artigo1    lex:temParagrafo    lex:D89566\/Artigo1\/Paragrafo1 .
+lex:D89566\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º As medidas de que trata este artiqo são as constantes das alíneas 'b', 'c', 'd', 'e' e 'g ' do § 2º do artigo 156 da Constituição." .
+lex:D89566\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D89566\/Artigo1    lex:temParagrafo    lex:D89566\/Artigo1\/Paragrafo2 .
+lex:D89566\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A medida prevista na alínea 'f' do mencionado § 2º do artigo 156, aplica-se-à somente às telecomunicações." .
+lex:D89566\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D89566\/Artigo1    lex:temParagrafo    lex:D89566\/Artigo1\/Paragrafo3 .
+lex:D89566\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º As gravações em 'video-tape' realizadas na área e nos municípios a que se refere este artigo deverão ser, antes de transmitidas, examinadas previamente pelo órgão competente do Departamento de Polícia Federal." .
+lex:D89566\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D89566\/Artigo1    lex:temParagrafo    lex:D89566\/Artigo1\/Paragrafo4 .
+lex:D89566\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Nenhuma transmissão oral de estações de radiodifusão sonora poderá ser realizada sem que a aprovação prévia do órgão competente do Ministério das Comunicações." .
+lex:D89566\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D89566\/Artigo1    lex:temParagrafo    lex:D89566\/Artigo1\/Paragrafo5 .
+lex:D89566\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º O órgão competente do Ministério das Comunicações estabelecerá normas para a execução do disposto no parágrafo anterior." .
+lex:D89566\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D89566    lex:temArtigo    lex:D89566\/Artigo2 .
+lex:D89566\/Artigo2    lex:temConteudo    "Art. 2º. Fica designado executor das medidas determinadas neste Decreto o Comandante do Comando Militar do Planalto." .
+lex:D89566\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D89566    lex:temArtigo    lex:D89566\/Artigo3 .
+lex:D89566\/Artigo3    lex:temConteudo    "Art. 3º. Fica fixado o período de 19 de abril a 17 de junho de 1984 para aplicação das medidas referidas no artigo 1º deste Decreto." .
+lex:D89566\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D89566    lex:temArtigo    lex:D89566\/Artigo4 .
+lex:D89566\/Artigo4    lex:temConteudo    "Art. 4º. Este Decreto entra em vigor na data de sua publicação." .
+lex:D89566\/Texto    lex:revogadoPor    lex:D89602 .
+lex:D89602    lex:revogou    lex:D89566\/Texto .
+lex:D89566\/Texto    lex:remetePara    lex:D89566 .
+lex:D89566\/Artigo1\/Paragrafo1    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2b .
+lex:D89566\/Artigo1\/Paragrafo1    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2c .
+lex:D89566\/Artigo1\/Paragrafo1    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2d .
+lex:D89566\/Artigo1\/Paragrafo1    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2e .
+lex:D89566\/Artigo1\/Paragrafo1    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2g .
+lex:D89566\/Artigo1\/Paragrafo2    lex:remetePara    lex:Constituicao67\/Artigo156\/Paragrafo2f .

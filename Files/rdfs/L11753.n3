@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11753    lex:ehUm    lex:DocLegal .
+lex:L11753    lex:temTextoIntegral    lex:HTMLs\/L11753.htm .
+lex:L11753\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11753    lex:temArtigo    lex:L11753\/Artigo1 .
+lex:L11753\/Artigo1    lex:temConteudo    "Art. 1o  É concedido, a título de indenização decorrente de responsabilidade civil da União, pensão especial mensal, no valor de R$ 600,00 (seiscentos reais), a Maria Aparecida da Silva, viúva, mãe de Roberto Vicente da Silva, morto nas dependências do 1o Batalhão de Infantaria Blindada, em Barra Mansa, Estado do Rio de Janeiro, em 25 de janeiro de 1972." .
+lex:L11753\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11753\/Artigo1    lex:temParagrafo    lex:L11753\/Artigo1\/ParagrafoUnico .
+lex:L11753\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As importâncias recebidas pela beneficiária serão deduzidas de qualquer indenização ulterior que a União venha a ser obrigada a pagar em razão do fato." .
+lex:L11753\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11753    lex:temArtigo    lex:L11753\/Artigo2 .
+lex:L11753\/Artigo2    lex:temConteudo    "Art. 2o  O benefício previsto nesta Lei será reajustado em conformidade com o art. 224 da Lei no 8.112, de 11 de dezembro de 1990, e seus efeitos financeiros retroagem a 25 de janeiro de 1972." .
+lex:L11753\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11753    lex:temArtigo    lex:L11753\/Artigo3 .
+lex:L11753\/Artigo3    lex:temConteudo    "Art. 3o  A despesa decorrente do disposto nesta Lei correrá à conta do programa orçamentário Indenizações e Pensões Especiais de Responsabilidade da União." .
+lex:L11753\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11753    lex:temArtigo    lex:L11753\/Artigo4 .
+lex:L11753\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11753\/Artigo2    lex:remetePara    lex:L8112cons\/Artigo244 .

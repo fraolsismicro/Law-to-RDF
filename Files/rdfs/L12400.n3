@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12400    lex:ehUm    lex:DocLegal .
+lex:L12400    lex:temTextoIntegral    lex:HTMLs\/L12400.htm .
+lex:L12400\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12400    lex:temArtigo    lex:L12400\/Artigo1 .
+lex:L12400\/Artigo1    lex:temConteudo    "Art. 1o  O parágrafo único do art. 7o da Lei no 11.668, de 2 de maio de 2008, passa a vigorar com a seguinte redação:" .
+lex:L12400\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12400\/Artigo1    lex:temParagrafo    lex:L12400\/Artigo1\/ParagrafoUnico .
+lex:L12400\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A ECT deverá concluir as contratações a que se refere este artigo até 30 de setembro de 2012. (NR)" .
+lex:L12400\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12400    lex:temArtigo    lex:L12400\/Artigo2 .
+lex:L12400\/Artigo2    lex:temConteudo    "Art. 2o  A Lei no 11.668, de 2 de maio de 2008, passa a vigorar acrescida do seguinte art. 7o-A:" .
+lex:L12400\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12400    lex:temArtigo    lex:L12400\/Artigo3 .
+lex:L12400\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12400\/Texto    lex:remetePara    lex:509 .
+lex:L12400\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L11668\/Artigo7 .
+lex:L12400\/Texto00003    lex:remetePara    lex:L11668\/Artigo7 .

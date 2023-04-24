@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9076    lex:ehUm    lex:DocLegal .
+lex:L9076    lex:temTextoIntegral    lex:HTMLs\/L9076.htm .
+lex:L9076\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9076    lex:temArtigo    lex:L9076\/Artigo1 .
+lex:L9076\/Artigo1    lex:temConteudo    "Art. 1º O art. 12 da Lei nº 6.815, de 19 de agosto de 1980, com as alterações introduzidas pela Lei nº 6.964, de 10 de dezembro de 1981, passa a vigorar com a seguinte redação, suprimindo-se, em conseqüência, o art. 53:" .
+lex:L9076\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9076    lex:temArtigo    lex:L9076\/Artigo2 .
+lex:L9076\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9076\/Artigo1    lex:remetePara    lex:L6815 .
+lex:L9076\/Artigo1    lex:remetePara    lex:L6815\/Artigo53 .
+lex:L9076\/Texto00001    lex:remetePara    lex:L6815\/Artigo12 .

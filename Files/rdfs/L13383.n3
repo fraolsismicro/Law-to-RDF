@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13383    lex:ehUm    lex:DocLegal .
+lex:L13383    lex:temTextoIntegral    lex:HTMLs\/L13383.htm .
+lex:L13383\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13383    lex:temArtigo    lex:L13383\/Artigo1 .
+lex:L13383\/Artigo1    lex:temConteudo    "Art. 1 º  Fica aberto ao Orçamento Fiscal da União (Lei nº 13.255, de 14 de janeiro de 2016), em favor do Ministério da Ciência, Tecnologia e Inovação, crédito suplementar no valor de R$ 27.934.749,00 (vinte e sete milhões, novecentos e trinta e quatro mil, setecentos e quarenta e nove reais), para atender à programação constante do Anexo I." .
+lex:L13383\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13383    lex:temArtigo    lex:L13383\/Artigo2 .
+lex:L13383\/Artigo2    lex:temConteudo    "Art. 2 º  Os recursos necessários à abertura do crédito de que trata o art. 1 º decorrem de:" .
+lex:L13383\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13383\/Artigo2    lex:temInciso    lex:L13383\/Artigo2\/IncisoI .
+lex:L13383\/Artigo2\/IncisoI    lex:temConteudo    "I - excesso de arrecadação de Recursos de Convênios, no valor de R$ 27.919.000,00 (vinte e sete milhões, novecentos e dezenove mil reais); e" .
+lex:L13383\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13383\/Artigo2    lex:temInciso    lex:L13383\/Artigo2\/IncisoII .
+lex:L13383\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotação orçamentária, no valor de R$ 15.749,00 (quinze mil, setecentos e quarenta e nove reais), conforme indicado no Anexo II." .
+lex:L13383\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13383    lex:temArtigo    lex:L13383\/Artigo3 .
+lex:L13383\/Artigo3    lex:temConteudo    "Art. 3 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13383\/Artigo1    lex:remetePara    lex:L13255 .

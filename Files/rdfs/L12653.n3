@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12653    lex:ehUm    lex:DocLegal .
+lex:L12653    lex:temTextoIntegral    lex:HTMLs\/L12653.htm .
+lex:L12653\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12653    lex:temArtigo    lex:L12653\/Artigo1 .
+lex:L12653\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar acrescido do seguinte art. 135-A:" .
+lex:L12653\/Artigo135-A    lex:ehUm    lex:Artigo .
+lex:L12653    lex:temArtigo    lex:L12653\/Artigo135-A .
+lex:L12653\/Artigo135-A    lex:temConteudo    "Art. 135-A.  Exigir cheque-caução, nota promissória ou qualquer garantia, bem como o preenchimento prévio de formulários administrativos, como condição para o atendimento médico-hospitalar emergencial:" .
+lex:L12653\/Artigo135-A\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L12653\/Artigo135-A    lex:temArtigoPena    lex:L12653\/Artigo135-A\/ArtigoPena .
+lex:L12653\/Artigo135-A\/ArtigoPena    lex:temConteudo    "Pena - detenção, de 3 (três) meses a 1 (um) ano, e multa." .
+lex:L12653\/Artigo135-A\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12653\/Artigo135-A    lex:temParagrafo    lex:L12653\/Artigo135-A\/ParagrafoUnico .
+lex:L12653\/Artigo135-A\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A pena é aumentada até o dobro se da negativa de atendimento resulta lesão corporal de natureza grave, e até o triplo se resulta a morte." .
+lex:L12653\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12653    lex:temArtigo    lex:L12653\/Artigo2 .
+lex:L12653\/Artigo2    lex:temConteudo    "Art. 2o  O estabelecimento de saúde que realize atendimento médico-hospitalar emergencial fica obrigado a afixar, em local visível, cartaz ou equivalente, com a seguinte informação: Constitui crime a exigência de cheque-caução, de nota promissória ou de qualquer garantia, bem como do preenchimento prévio de formulários administrativos, como condição para o atendimento médico-hospitalar emergencial, nos termos do art. 135-A do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal." .
+lex:L12653\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12653    lex:temArtigo    lex:L12653\/Artigo3 .
+lex:L12653\/Artigo3    lex:temConteudo    "Art. 3o  O Poder Executivo regulamentará o disposto nesta Lei." .
+lex:L12653\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12653    lex:temArtigo    lex:L12653\/Artigo4 .
+lex:L12653\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12653\/Texto00001    lex:remetePara    lex:Del2848\/ .
+lex:L12653\/Artigo2    lex:remetePara    lex:Del2848\/Artigo135 .

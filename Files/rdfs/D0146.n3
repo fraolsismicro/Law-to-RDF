@@ -1,0 +1,70 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0146    lex:ehUm    lex:DocLegal .
+lex:D0146    lex:temTextoIntegral    lex:HTMLs\/D0146.htm .
+lex:D0146\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0146    lex:temArtigo    lex:D0146\/Artigo1 .
+lex:D0146\/Artigo1    lex:temConteudo    "Art. 1° O Acordo Comercial, entre o Governo da República Federativa do Brasil e o Governo do Reino Hashemita da Jordânia, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0146\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0146    lex:temArtigo    lex:D0146\/Artigo2 .
+lex:D0146\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0146\/Artigo2\/AlineaTaxas    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaTaxas .
+lex:D0146\/Artigo2\/AlineaTaxas    lex:temConteudo    "a) taxas alfandegárias e outros gravames e taxas relativos à importação e exportação de bens;" .
+lex:D0146\/Artigo2\/AlineaRegulamentos    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaRegulamentos .
+lex:D0146\/Artigo2\/AlineaRegulamentos    lex:temConteudo    "b) regulamentos e formalidades;" .
+lex:D0146\/Artigo2\/AlineaEmissao    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaEmissao .
+lex:D0146\/Artigo2\/AlineaEmissao    lex:temConteudo    "c) emissão de licenças de importação e de exportação," .
+lex:D0146\/Artigo2\/AlineaAutorizacao    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAutorizacao .
+lex:D0146\/Artigo2\/AlineaAutorizacao    lex:temConteudo    "d) autorização de pagamentos." .
+lex:D0146\/Artigo2\/AlineaAutorizacao\/Item-    lex:ehUm    lex:Item .
+lex:D0146\/Artigo2\/AlineaAutorizacao    lex:temItem    lex:D0146\/Artigo2\/AlineaAutorizacao\/Item- .
+lex:D0146\/Artigo2\/AlineaAutorizacao\/Item-    lex:temConteudo    "2 - O estabelecido no parágrafo 1 do presente Artigo não se aplicará:" .
+lex:D0146\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAs .
+lex:D0146\/Artigo2\/AlineaAs    lex:temConteudo    "a) às vantagens, concessões ou isenções que qualquer das Partes Contratantes tenha concedido ou possa vir a conceder a países limítrofes, no intuito de facilitar o comércio fronteiriço;" .
+lex:D0146\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAs .
+lex:D0146\/Artigo2\/AlineaAs    lex:temConteudo    "b) às vantagens, concessões ou isenções que qualquer das Partes Contratantes tenha concedido ou possa a vir conceder a países com os quais tenham acordado uma união aduaneira, zona de livre comércio, zona monetária ou comunidade econômica, já estabelecidas ou que possam vir a ser estabelecidas;" .
+lex:D0146\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAs .
+lex:D0146\/Artigo2\/AlineaAs    lex:temConteudo    "c) às preferências concedidas por qualquer das Partes Contratantes a bens importados sob programas de ajuda estendidos à Parte por qualquer organização internacional, e" .
+lex:D0146\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAs .
+lex:D0146\/Artigo2\/AlineaAs    lex:temConteudo    "d) às preferências que o Reino Hashemita da Jordânia conceda ou possa a vir a conceder no futuro a qualquer país árabe." .
+lex:D0146\/Artigo2\/AlineaAmostras    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaAmostras .
+lex:D0146\/Artigo2\/AlineaAmostras    lex:temConteudo    "a) amostras e material publicitário destinados a gerar pedidos de mercadorias e a sua divulgação comercial. As amostras não poderão ser vendidas nem ter qualquer valor comercial;" .
+lex:D0146\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaOs .
+lex:D0146\/Artigo2\/AlineaOs    lex:temConteudo    "b) os importados sob o regime de admissão temporária destinados a atividades de pesquisa e experiência científica;" .
+lex:D0146\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaOs .
+lex:D0146\/Artigo2\/AlineaOs    lex:temConteudo    "c) os importados sob o regime de admissão temporária, destinados às amostras de feiras e exposições;" .
+lex:D0146\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaOs .
+lex:D0146\/Artigo2\/AlineaOs    lex:temConteudo    "d) os importados sob o regime de admissão temporária, destinados a reparos e à re-exportação, e" .
+lex:D0146\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaOs .
+lex:D0146\/Artigo2\/AlineaOs    lex:temConteudo    "e) os originários de um terceiro país, transportados através do território de uma das Partes Contratantes com destino à outra Parte Contratante." .
+lex:D0146\/Artigo2\/AlineaPermitir    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaPermitir .
+lex:D0146\/Artigo2\/AlineaPermitir    lex:temConteudo    "a) permitir a organização de feiras e exposições em seus territórios, de acordo com à leis e os regulamentos em vigor em cada país, e" .
+lex:D0146\/Artigo2\/AlineaProceder    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaProceder .
+lex:D0146\/Artigo2\/AlineaProceder    lex:temConteudo    "b) proceder ao intercâmbio de todas as informações úteis ao desenvolvimento do comércio entre os dois países." .
+lex:D0146\/Artigo2\/AlineaFacilitar    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaFacilitar .
+lex:D0146\/Artigo2\/AlineaFacilitar    lex:temConteudo    "a) facilitar o livre trânsito de produtos originários do território de qualquer uma das Partes com destino ao território de um terceiro país, e" .
+lex:D0146\/Artigo2\/AlineaFacilitar    lex:ehUm    lex:Alinea .
+lex:D0146\/Artigo2    lex:temAlinea    lex:D0146\/Artigo2\/AlineaFacilitar .
+lex:D0146\/Artigo2\/AlineaFacilitar    lex:temConteudo    "b) facilitar o trânsito de produtos originários do território de terceiros países e destinados ao território de qualquer uma das Partes Contratantes." .

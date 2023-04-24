@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5349    lex:ehUm    lex:DocLegal .
+lex:D5349    lex:temTextoIntegral    lex:HTMLs\/D5349.htm .
+lex:D5349\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5349    lex:temArtigo    lex:D5349\/Artigo1 .
+lex:D5349\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o, 7o e 10 do Decreto no 2.153, de 20 de fevereiro de 1997, passam a vigorar com a seguinte redação:" .
+lex:D5349\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5349\/Artigo1    lex:temInciso    lex:D5349\/Artigo1\/IncisoIV .
+lex:D5349\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ................................................................" .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea    lex:ehUm    lex:IncisoAlinea .
+lex:D5349\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea    lex:temConteudo    "c) área terrestre que abrange os Estados do Amapá, Maranhão, Pará e Piauí;" .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea    lex:temIncisoAlineaItem    lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaItem .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaItem    lex:temConteudo    "......................................................................" .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea    lex:ehUm    lex:IncisoAlinea .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea    lex:temIncisoAlinea    lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea    lex:temConteudo    "a) área fluvial e lacustre, que abrange as bacias fluviais, lagos e lagoas na área terrestre sob sua jurisdição; e" .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea\/IncisoAlineaArea    lex:ehUm    lex:IncisoAlinea .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea    lex:temIncisoAlinea    lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea\/IncisoAlineaArea .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea\/IncisoAlineaArea    lex:temConteudo    "b) área terrestre, que abrange os Estados do Acre, Amazonas, Rondônia e Roraima.' (NR)" .
+lex:D5349\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5349    lex:temArtigo    lex:D5349\/Artigo2 .
+lex:D5349\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5349\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5349    lex:temArtigo    lex:D5349\/Artigo3 .
+lex:D5349\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o parágrafo único do art. 7o do Decreto no 2.153, de 20 de fevereiro de 1997." .
+lex:D5349\/IncisoXI    lex:remetePara    lex:D2153\/Artigo1 .
+lex:D5349\/Texto00001    lex:remetePara    lex:D2153\/Artigo7 .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea    lex:remetePara    lex:D2153\/Artigo10 .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoIX    lex:remetePara    lex:D2153\/Artigo10 .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea    lex:remetePara    lex:D2153\/Artigo10 .
+lex:D5349\/Artigo1\/IncisoIV\/IncisoAlineaArea\/IncisoAlineaArea\/IncisoAlineaArea    lex:remetePara    lex:D2153\/Artigo10 .
+lex:D5349\/Artigo3    lex:remetePara    lex:D2153\/Artigo7 .

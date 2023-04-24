@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7708    lex:ehUm    lex:DocLegal .
+lex:D7708    lex:temTextoIntegral    lex:HTMLs\/D7708.htm .
+lex:D7708\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo1 .
+lex:D7708\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituída a Nomenclatura Brasileira de Serviços, Intangíveis e outras Operações que Produzam Variações no Patrimônio - NBS, na forma do Anexo I." .
+lex:D7708\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo2 .
+lex:D7708\/Artigo2    lex:temConteudo    "Art. 2o  A NBS será adotada como nomenclatura única na classificação das transações com serviços, intangíveis e outras operações que produzam variações no patrimônio das pessoas físicas, pessoas jurídicas e entes despersonalizados." .
+lex:D7708\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo3 .
+lex:D7708\/Artigo3    lex:temConteudo    "Art. 3o  Ficam instituídas as Notas Explicativas da Nomenclatura Brasileira de Serviços, Intangíveis e outras Operações que Produzam Variações no Patrimônio - NEBS, na forma do Anexo II." .
+lex:D7708\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7708\/Artigo3    lex:temParagrafo    lex:D7708\/Artigo3\/ParagrafoUnico .
+lex:D7708\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As NEBS constituem elemento subsidiário para interpretação do conteúdo." .
+lex:D7708\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo4 .
+lex:D7708\/Artigo4    lex:temConteudo    "Art. 4o  Os processos administrativos de consulta sobre a classificação dos serviços, intangíveis e outras operações que produzam variações no patrimônio com base na NBS observarão o disposto nos arts. 46 a 53 do Decreto no 70.235, de 6 de março de 1972, e nos arts. 48 a 50 da Lei no 9.430, de 27 de dezembro de 1996." .
+lex:D7708\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo5 .
+lex:D7708\/Artigo5    lex:temConteudo    "Art. 5o  As alterações que se fizerem necessárias na NBS e nas NEBS serão objeto de normas complementares editadas conjuntamente pelos Ministros de Estado da Fazenda e do Desenvolvimento, Indústria e Comércio Exterior." .
+lex:D7708\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7708    lex:temArtigo    lex:D7708\/Artigo6 .
+lex:D7708\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra era vigor na data de sua publicação." .
+lex:D7708\/Artigo4    lex:remetePara    lex:D70235cons\/Artigo46 .
+lex:D7708\/Artigo4    lex:remetePara    lex:L9430\/Artigo48 .

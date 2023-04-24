@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94884    lex:ehUm    lex:DocLegal .
+lex:D94884    lex:temTextoIntegral    lex:HTMLs\/D94884.htm .
+lex:D94884\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94884    lex:temArtigo    lex:D94884\/Artigo1 .
+lex:D94884\/Artigo1    lex:temConteudo    "Art. 1º Ficam declaradas de utilidade pública, para fins de desapropriação, as áreas adjacentes de terra de propriedade particular, com o total de 3.587,50m2 (três mil, quinhentos e oitenta e sete metros quadrados e cinqüenta decímetros quadrados), necessárias à ampliação da subestação Caiçara, no Município de Bebedouro, Estado de São Paulo." .
+lex:D94884\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94884    lex:temArtigo    lex:D94884\/Artigo2 .
+lex:D94884\/Artigo2    lex:temConteudo    "Art. 2º As áreas de terra, referidas no artigo anterior, compreendem aquelas constantes das plantas de situação nºs BX-SK-63.572 - Campinas e BX-SK-63.570 - Campinas, aprovadas mediante ato do Diretor da Divisão de Concessão de Águas e Eletricidade, do Departamento Nacional de Águas e Energia Elétrica, no Processo nº 27103.000107/87-90, e delimitadas pelos perímetros assim descritos:" .
+lex:D94884\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94884    lex:temArtigo    lex:D94884\/Artigo3 .
+lex:D94884\/Artigo3    lex:temConteudo    "Art. 3º Fica autorizada a Companhia Paulista de Força e Luz - CPFL a promover a desapropriação das referidas áreas de terra na forma da legislação vigente, com os recursos próprios." .
+lex:D94884\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94884\/Artigo3    lex:temParagrafo    lex:D94884\/Artigo3\/ParagrafoUnico .
+lex:D94884\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos termos do artigo 15 do Decreto-lei nº 3.365, de 21 de junho de 1941, modificado pela Lei nº 2.786, de 21 de maio de 1956, fica a expropriante autorizada a invocar o caráter de urgência no processo de desapropriação, para fins de imissão na posse das áreas de terra abrangidas por este decreto." .
+lex:D94884\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94884    lex:temArtigo    lex:D94884\/Artigo4 .
+lex:D94884\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D94884\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D94884    lex:temArtigo    lex:D94884\/Artigo5 .
+lex:D94884\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:D94884\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:Del3365\/Artigo15 .
+lex:D94884\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L2786 .

@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp13    lex:ehUm    lex:DocLegal .
+lex:Lcp13    lex:temTextoIntegral    lex:HTMLs\/Lcp13.htm .
+lex:Lcp13\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp13    lex:temArtigo    lex:Lcp13\/Artigo1 .
+lex:Lcp13\/Artigo1    lex:temConteudo    "Art. 1º - Fica a União autorizada a instituir, na forma da lei ordinária, empréstimo compulsório, em favor da Centrais Elétricas Brasileiras S.A. - ELETROBRÁS, destinado a financiar a aquisição de equipamentos, materiais e serviços necessárias à execução de projetos e obras da seguinte natureza:     (Vide Lei nº 5.824, de 1972)" .
+lex:Lcp13\/Artigo1\/AlineaCentrais    lex:ehUm    lex:Alinea .
+lex:Lcp13\/Artigo1    lex:temAlinea    lex:Lcp13\/Artigo1\/AlineaCentrais .
+lex:Lcp13\/Artigo1\/AlineaCentrais    lex:temConteudo    "a) centrais hidrelétricas de interesse regional;" .
+lex:Lcp13\/Artigo1\/AlineaCentrais    lex:ehUm    lex:Alinea .
+lex:Lcp13\/Artigo1    lex:temAlinea    lex:Lcp13\/Artigo1\/AlineaCentrais .
+lex:Lcp13\/Artigo1\/AlineaCentrais    lex:temConteudo    "b) centrais termonucleares;" .
+lex:Lcp13\/Artigo1\/AlineaSistemas    lex:ehUm    lex:Alinea .
+lex:Lcp13\/Artigo1    lex:temAlinea    lex:Lcp13\/Artigo1\/AlineaSistemas .
+lex:Lcp13\/Artigo1\/AlineaSistemas    lex:temConteudo    "c) sistemas de transmissão em extra alta tensão;" .
+lex:Lcp13\/Artigo1\/AlineaAtendimento    lex:ehUm    lex:Alinea .
+lex:Lcp13\/Artigo1    lex:temAlinea    lex:Lcp13\/Artigo1\/AlineaAtendimento .
+lex:Lcp13\/Artigo1\/AlineaAtendimento    lex:temConteudo    "d) atendimento energético aos principais pólos de desenvolvimento da Amazônia." .
+lex:Lcp13\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp13    lex:temArtigo    lex:Lcp13\/Artigo2 .
+lex:Lcp13\/Artigo2    lex:temConteudo    "Art. 2º - Enquanto não ocorrer o lançamento do empréstimo aludido no artigo anterior, fica ratificada e mantida a cobrança do atual empréstimo compulsório, efetuada com base na Lei nº 4.156, de 28 de novembro de 1962, com suas alterações posteriores, limitada a referida cobrança até 31 de dezembro de 1973, sem as restrições contidas na presente Lei Complementar." .
+lex:Lcp13\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp13    lex:temArtigo    lex:Lcp13\/Artigo3 .
+lex:Lcp13\/Artigo3    lex:temConteudo    "Art. 3º - A redução ou isenção do empréstimo compulsório poderá ser permitida, em lei ordinária, objetivando o desenvolvimento de regiões ou zonas de baixa renda per capita em relação a renda nacional.       (Vide Lei nº 5.824, de 1972)" .
+lex:Lcp13\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp13    lex:temArtigo    lex:Lcp13\/Artigo4 .
+lex:Lcp13\/Artigo4    lex:temConteudo    "Art. 4º - Esta Lei entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:Lcp13\/Artigo1    lex:remetePara    lex:L5824\/Artigo1 .
+lex:Lcp13\/Artigo2    lex:remetePara    lex:L4156 .
+lex:Lcp13\/Artigo3    lex:remetePara    lex:L5824\/Artigo3 .

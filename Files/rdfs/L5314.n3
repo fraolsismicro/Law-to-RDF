@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5314    lex:ehUm    lex:DocLegal .
+lex:L5314    lex:temTextoIntegral    lex:HTMLs\/L5314.htm .
+lex:L5314\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5314    lex:temArtigo    lex:L5314\/Artigo1 .
+lex:L5314\/Artigo1    lex:temConteudo    "Art 1º A fiscalização de mercadorias estrangeiras entradas no território nacional será exercida:" .
+lex:L5314\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L5314\/Artigo1    lex:temInciso    lex:L5314\/Artigo1\/IncisoI .
+lex:L5314\/Artigo1\/IncisoI    lex:temConteudo    "I - na zona aduaneira primária de que trata o art. 33, do Decreto-lei nº 37, de 18 de novembro de 1966 - pelos agentes fiscais do impôsto aduaneiro." .
+lex:L5314\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L5314\/Artigo1    lex:temInciso    lex:L5314\/Artigo1\/IncisoII .
+lex:L5314\/Artigo1\/IncisoII    lex:temConteudo    "II - fora da zona prevista no inciso anterior - indistintamente, pelos agentes fiscais de rendas internas ou agentes fiscais do impôsto aduaneiro, êstes últimos quando em exercício no Serviço Nacional de Fiscalização das Rendas Aduaneiras, criado pelo art. 19 da Lei nº 4.503, de 30 de novembro de 1964 com as alterações introduzidas pelo Decreto-lei nº 37, de 18 de novembro de 1966." .
+lex:L5314\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5314    lex:temArtigo    lex:L5314\/Artigo2 .
+lex:L5314\/Artigo2    lex:temConteudo    "Art 2º A competência para instauração, preparo e julgamento dos processos regula-se:" .
+lex:L5314\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L5314\/Artigo2    lex:temInciso    lex:L5314\/Artigo2\/IncisoI .
+lex:L5314\/Artigo2\/IncisoI    lex:temConteudo    "I - quando exercida por agente fiscal de rendas internas - pelas normas da Lei nº 4.502, de 30 de novembro de 1964." .
+lex:L5314\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L5314\/Artigo2    lex:temInciso    lex:L5314\/Artigo2\/IncisoII .
+lex:L5314\/Artigo2\/IncisoII    lex:temConteudo    "II - quando exercida por agente fiscal de rendas aduaneiras - pelas normas do Decreto-lei nº 37, de 18 de novembro de 1966." .
+lex:L5314\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5314    lex:temArtigo    lex:L5314\/Artigo3 .
+lex:L5314\/Artigo3    lex:temConteudo    "Art 3º A execução das decisões proferidas nos processos fiscais de que trata o art. 2º competirá à autoridade preparadora, e obedecerá às normas da legislação reguladora da competência para julgamento, estabelecidas no art. 2º inclusive quanto à destinação do produto dos leilões de mercadorias, sem prejuízo do disposto no artigo seguinte." .
+lex:L5314\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5314    lex:temArtigo    lex:L5314\/Artigo4 .
+lex:L5314\/Artigo4    lex:temConteudo    "Art 4º Nos casos do inciso I do Artigo 2º, deduzidas do produto de leilão as percentagens devidas aos apreensores e autoridades do processo e aos membros das comissões de leilão e de classificação e avaliação, nos têrmos da legislação vigente, será o restante classificado como receita do impôsto de importação, dispensado o processamento do respectivo despacho aduaneiro." .
+lex:L5314\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5314    lex:temArtigo    lex:L5314\/Artigo6 .
+lex:L5314\/Artigo6    lex:temConteudo    "Art 6º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5314\/Artigo1\/IncisoI    lex:remetePara    lex:Del0037\/Artigo33 .
+lex:L5314\/Artigo1\/IncisoII    lex:remetePara    lex:L4503\/Artigo19 .
+lex:L5314\/Artigo1\/IncisoII    lex:remetePara    lex:Del0037 .
+lex:L5314\/Artigo2\/IncisoI    lex:remetePara    lex:L4502 .
+lex:L5314\/Artigo2\/IncisoII    lex:remetePara    lex:Del0037 .
+lex:L5314\/Artigo5    lex:revogadoPor    lex:Del0346\/Artigo6 .
+lex:Del0346\/Artigo6    lex:revogou    lex:L5314\/Artigo5 .
+lex:L5314\/Artigo5    lex:revogadoPor    lex:Del0346\/Artigo6 .
+lex:Del0346\/Artigo6    lex:revogou    lex:L5314\/Artigo5 .

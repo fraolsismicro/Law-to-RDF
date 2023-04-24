@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1853    lex:ehUm    lex:DocLegal .
+lex:Del1853    lex:temTextoIntegral    lex:HTMLs\/Del1853.htm .
+lex:Del1853\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1853    lex:temArtigo    lex:Del1853\/Artigo1 .
+lex:Del1853\/Artigo1    lex:temConteudo    "Art. 1º - O parágrafo único do artigo 4º do Decreto-lei nº 1.732, de 20 de dezembro de 1979, passa a ter a seguinte redação:" .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1853\/Artigo1    lex:temParagrafo    lex:Del1853\/Artigo1\/ParagrafoUnico .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Em decorrência do disposto neste artigo:" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaA .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaA    lex:temConteudo    "a) a supressão e o deslocamento de referência não implicam que os servidores nela posicionados mudem de classe, sendo-lhes atribuída a referência inicial estabelecida no reescalonamento, excetuado o caso previsto no artigo 3º deste Decreto-lei;" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa    lex:temConteudo    "b) na hipótese do artigo 3º, os aumentos por mérito obtidos pelo servidor, até a data da vigência deste Decreto-lei, na categoria funcional a que pertença, serão aplicados desde a referência inicial em que ficar posicionado;" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaApos    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaApos .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaApos    lex:temConteudo    "c) após a aplicação do disposto na alínea b deste parágrafo, o servidor que for ultrapassado por outro que o precedia na escala de referências da respectiva Categoria Funcional, ficará posicionado na mesma referência por este alcançada, ainda que importe em mudança de classe;" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaOs .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "d) os ocupantes de cargos de Escrivão de Polícia Federal, Agente de Polícia Federal e Papiloscopista Policial ficam pertencendo à classe abrangente da referência em que são posicionados;" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaIndependentemente    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaIndependentemente .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaIndependentemente    lex:temConteudo    "e) independentemente de supressão ou deslocamento de referências, aos funcionários pertencentes às categorias funcionais do Grupo-Polícia Federal serão aplicados, desde a referência em que ficarem posicionados, os aumento por mérito obtidos até a data da vigência deste Decreto-lei;" .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa .
+lex:Del1853\/Artigo1\/ParagrafoUnico\/AlineaNa    lex:temConteudo    "f) na aplicação do disposto na alínea e, poderá ocorrer mudança de classe, se necessária para a concessão dos aumentos por mérito, observado o que dispõem as normas relativas à progressão funcional, vigentes na data deste Decreto-lei, excetuado o requisito de treinamento." .
+lex:Del1853\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1853    lex:temArtigo    lex:Del1853\/Artigo2 .
+lex:Del1853\/Artigo2    lex:temConteudo    "Art. 2º - Os efeitos deste Decreto-lei vigoram a partir da data da vigência do Decreto-lei nº 1.732, de 20 de dezembro de 1979." .
+lex:Del1853\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1853    lex:temArtigo    lex:Del1853\/Artigo3 .
+lex:Del1853\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1853\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1732\/Artigo4 .
+lex:Del1853\/Artigo2    lex:remetePara    lex:Del1732\/Artigo13 .
+lex:Del1853\/Texto00010    lex:remetePara    lex:Del1902 .

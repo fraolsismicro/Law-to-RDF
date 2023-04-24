@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4326    lex:ehUm    lex:DocLegal .
+lex:L4326    lex:temTextoIntegral    lex:HTMLs\/L4326.htm .
+lex:L4326\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo1 .
+lex:L4326\/Artigo1    lex:temConteudo    "Art. 1º Verificada vaga em cargo público regularmente criado em lei, o respectivo provimento será feito, por ato do Presidente da República, no prazo de 30 (trinta) dias." .
+lex:L4326\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4326\/Artigo1    lex:temParagrafo    lex:L4326\/Artigo1\/ParagrafoUnico .
+lex:L4326\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Será dispensada a nomeação se o Presidente da República, no mesmo prazo, enviar mensagem ao Congresso Nacional com projeto de extinção do cargo por desnecessário." .
+lex:L4326\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo2 .
+lex:L4326\/Artigo2    lex:temConteudo    "Art. 2º Se o provimento depender de indicação de outro órgão, ou de concurso, o prazo referido no artigo anterior contar-se-á da data em que fôr entregue ao Presidente da República a indicação ou resultado do concurso, com a habilitação ou classificação dos candidatos." .
+lex:L4326\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4326\/Artigo2    lex:temParagrafo    lex:L4326\/Artigo2\/ParagrafoUnico .
+lex:L4326\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ficará suspenso o curso do prazo, até final decisão, se houver recurso administrativo contra a regularidade da indicação, ou do concurso." .
+lex:L4326\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo3 .
+lex:L4326\/Artigo3    lex:temConteudo    "Art. 3º Se a vaga se verificar em cargo cujo provimento dependa de prévia aprovação do Senado (Constituição, art. 63, nº I), o nome proposto será encaminhado pelo Presidente da República àquela Casa do Congresso Nacional no prazo previsto no artigo primeiro." .
+lex:L4326\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo4 .
+lex:L4326\/Artigo4    lex:temConteudo    "Art. 4º Comunicado ao Presidente da República o pronunciamento do Senado, se êste fôr favorável, será de 10 (dez) dias o prazo para nomeação, mensagem com a proposta de outro nome." .
+lex:L4326\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo5 .
+lex:L4326\/Artigo5    lex:temConteudo    "Art. 5º Aplica-se esta lei, no que couber, às autoridades que tenham competência constitucional para prover cargos públicos." .
+lex:L4326\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4326    lex:temArtigo    lex:L4326\/Artigo6 .
+lex:L4326\/Artigo6    lex:temConteudo    "Art. 6º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4326\/Texto    lex:revogadoPor    lex:L4345\/Artigo22\/Paragrafo2 .
+lex:L4345\/Artigo22\/Paragrafo2    lex:revogou    lex:L4326\/Texto .
+lex:L4326\/Texto    lex:remetePara    lex:L4326 .
+lex:L4326\/Artigo3    lex:remetePara    lex:Constituicao46\/Artigo63 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D198    lex:ehUm    lex:DocLegal .
+lex:D198    lex:temTextoIntegral    lex:HTMLs\/D198.htm .
+lex:D198\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D198    lex:temArtigo    lex:D198\/Artigo1A .
+lex:D198\/Artigo1A    lex:temConteudo    "Art. 1Âº Ao presidente do Conselho de Intendencia Municipal da Capital Federal, alÃ©m das attribuiÃ§Ãµes mencionadas no decreto n. 50 A, de 7 de dezembro de 1889, compete constituir procuradores judiciaes e advogados em todos os pleitos em que o Conselho figurar como parte litigante ou interessada, podendo o mesmo presidente passar procuraÃ§Ãµes por instrumento tÃ£o sÃ³mente assignado e escripto por mÃ£o alheia." .
+lex:D198\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D198    lex:temArtigo    lex:D198\/Artigo2A .
+lex:D198\/Artigo2A    lex:temConteudo    "Art. 2Âº Continuam em vigor as leis anteriores, no que for applicavel, quanto Ã¡ alienaÃ§Ã£o de bens do patrimonio municipal." .
+lex:D198\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D198    lex:temArtigo    lex:D198\/Artigo3A .
+lex:D198\/Artigo3A    lex:temConteudo    "Art. 3Âº Ficam revogadas as disposiÃ§Ãµes em contrario." .
+lex:D198\/Texto    lex:revogadoPor    lex:D0011 .
+lex:D0011    lex:revogou    lex:D198\/Texto .
+lex:D198\/Texto    lex:remetePara    lex:D198 .
+lex:D198\/Artigo1A    lex:remetePara    lex:D0050A .

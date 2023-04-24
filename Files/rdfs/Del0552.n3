@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0552    lex:ehUm    lex:DocLegal .
+lex:Del0552    lex:temTextoIntegral    lex:HTMLs\/Del0552.htm .
+lex:Del0552\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0552    lex:temArtigo    lex:Del0552\/Artigo1 .
+lex:Del0552\/Artigo1    lex:temConteudo    "Art 1º Ao Ministério Público será sempre concedida, nos Tribunais Federais ou Estaduais, vista dos autos relativos a processos de ' habeas corpus ' originários ou em grau de recurso pelo prazo de 2 (dois) dias." .
+lex:Del0552\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0552\/Artigo1    lex:temParagrafo    lex:Del0552\/Artigo1\/Paragrafo1 .
+lex:Del0552\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Findo êsse prazo, os autos, com ou sem parecer serão conclusos ao relator para julgamento, independentemente de pauta." .
+lex:Del0552\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0552\/Artigo1    lex:temParagrafo    lex:Del0552\/Artigo1\/Paragrafo2 .
+lex:Del0552\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A vista ao Ministério Público será concedida após a prestação das informações pela autoridade coatora salvo se o relator entender desnecessário solicitá-las, ou se solicitadas, não tiverem sido prestadas." .
+lex:Del0552\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0552\/Artigo1    lex:temParagrafo    lex:Del0552\/Artigo1\/Paragrafo3 .
+lex:Del0552\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º No julgamento dos processos a que se refere êste artigo será assegurada a intervenção oral do representante do Ministério Público." .
+lex:Del0552\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0552    lex:temArtigo    lex:Del0552\/Artigo2 .
+lex:Del0552\/Artigo2    lex:temConteudo    "Art 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogados o artigo 611 do Código de Processo Penal e demais disposições em contrário." .
+lex:Del0552\/Artigo2    lex:remetePara    lex:Del3689\/Artigo611 .

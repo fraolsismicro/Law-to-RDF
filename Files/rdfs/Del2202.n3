@@ -1,0 +1,14 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2202    lex:ehUm    lex:DocLegal .
+lex:Del2202    lex:temTextoIntegral    lex:HTMLs\/Del2202.htm .
+lex:Del2202\/Texto    lex:remetePara    lex:Del2202 .
+lex:Del2202\/Artigo1    lex:remetePara    lex:Del1341\/ .
+lex:Del2202\/Artigo2    lex:remetePara    lex:Del1971\/Artigo1 .
+lex:Del2202\/Artigo9    lex:remetePara    lex:L6986\/Artigo3\/Paragrafo4 .

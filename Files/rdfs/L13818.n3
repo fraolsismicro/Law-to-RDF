@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13818    lex:ehUm    lex:DocLegal .
+lex:L13818    lex:temTextoIntegral    lex:HTMLs\/L13818.htm .
+lex:L13818\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13818    lex:temArtigo    lex:L13818\/Artigo1 .
+lex:L13818\/Artigo1    lex:temConteudo    "Art. 1o  O caput do art. 289 da Lei nÂº 6.404, de 15 de dezembro de 1976 (Lei das Sociedades AnÃ´nimas), passa a vigorar com a seguinte redaÃ§Ã£o:           (Vide)" .
+lex:L13818\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13818    lex:temArtigo    lex:L13818\/Artigo2A .
+lex:L13818\/Artigo2A    lex:temConteudo    "Art. 2Âº  O caput do art. 294 da Lei nÂº 6.404, de 15 de dezembro de 1976 (Lei das Sociedades AnÃ´nimas), passa a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:L13818\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L13818    lex:temArtigo    lex:L13818\/Artigo3A .
+lex:L13818\/Artigo3A    lex:temConteudo    "Art. 3Âº  Esta Lei entra em vigor na data de sua publicaÃ§Ã£o.              (RedaÃ§Ã£o dada pela Medida ProvisÃ³ria nÂº 892, de 2019)            (VigÃªncia encerrada)" .
+lex:L13818\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L13818    lex:temArtigo    lex:L13818\/Artigo3A .
+lex:L13818\/Artigo3A    lex:temConteudo    "Art. 3Âº  Esta Lei entra em vigor na data de sua publicaÃ§Ã£o, Ã  exceÃ§Ã£o do art. 1Âº, que entra em vigor em 1Âº de janeiro de 2022." .
+lex:L13818\/Artigo1    lex:remetePara    lex:L6404consol .
+lex:L13818\/Artigo1    lex:revogadoPor    lex:mpv892\/Artigo4 .
+lex:mpv892\/Artigo4    lex:revogou    lex:L13818\/Artigo1 .
+lex:L13818\/Artigo1    lex:remetePara    lex:adc-68-mpv892 .
+lex:L13818\/Artigo1    lex:remetePara    lex:L6404consol .
+lex:L13818\/Texto00001    lex:remetePara    lex:L6404consol\/Artigo2893 .
+lex:L13818\/Artigo2A    lex:remetePara    lex:L6404consol .
+lex:L13818\/Texto00002    lex:remetePara    lex:L6404consol\/Artigo2940 .
+lex:L13818\/Artigo3A    lex:remetePara    lex:mpv892\/Artigo3 .
+lex:L13818\/Artigo3A    lex:remetePara    lex:adc-68-mpv892 .

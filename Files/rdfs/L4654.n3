@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4654    lex:ehUm    lex:DocLegal .
+lex:L4654    lex:temTextoIntegral    lex:HTMLs\/L4654.htm .
+lex:L4654\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4654    lex:temArtigo    lex:L4654\/Artigo1 .
+lex:L4654\/Artigo1    lex:temConteudo    "Art 1º Os arts. 180 e 223, da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei nº 5.452, de 1º de maio de 1943, passam a vigorar com a seguinte redação:" .
+lex:L4654\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4654\/Artigo1    lex:temParagrafo    lex:L4654\/Artigo1\/ParagrafoUnico .
+lex:L4654\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Ministério do Trabalho e Previdência Social promoverá a expedição das normas necessárias à adaptação e aplicação do disposto neste artigo às diferentes categorias de empregados'." .
+lex:L4654\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4654\/Artigo1    lex:temParagrafo    lex:L4654\/Artigo1\/Paragrafo1 .
+lex:L4654\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A penalidade será sempre aplicada no grau máximo:" .
+lex:L4654\/Artigo1\/Paragrafo1\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:L4654\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L4654\/Artigo1\/Paragrafo1\/AlineaSe .
+lex:L4654\/Artigo1\/Paragrafo1\/AlineaSe    lex:temConteudo    "a) se ficar apurado o emprêgo de artifício ou simulação para fraudar a aplicação dos dispositivos dêste Capítulo;" .
+lex:L4654\/Artigo1\/Paragrafo1\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:L4654\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L4654\/Artigo1\/Paragrafo1\/AlineaNos .
+lex:L4654\/Artigo1\/Paragrafo1\/AlineaNos    lex:temConteudo    "b) nos casos de reincidência." .
+lex:L4654\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4654\/Artigo1    lex:temParagrafo    lex:L4654\/Artigo1\/Paragrafo2 .
+lex:L4654\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Nos casos de infração ao disposto no art. 180, a multa será de Cr$2.000 (dois mil cruzeiros)." .
+lex:L4654\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L4654\/Artigo1    lex:temParagrafo    lex:L4654\/Artigo1\/Paragrafo3 .
+lex:L4654\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O processo, na reverificação das infrações, bem como na aplicação e cobrança das multas será o previsto no Título 'Do Processo de Multas Administrativas', observadas as disposições dêste artigo'." .
+lex:L4654\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4654    lex:temArtigo    lex:L4654\/Artigo2 .
+lex:L4654\/Artigo2    lex:temConteudo    "Art 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L4654\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4654    lex:temArtigo    lex:L4654\/Artigo3 .
+lex:L4654\/Artigo3    lex:temConteudo    "Art 3º Revogam-se as disposições em contrário." .
+lex:L4654\/Texto00001    lex:remetePara    lex:Del5452\/Artigo180 .
+lex:L4654\/Artigo1\/Texto00002    lex:remetePara    lex:Del5452\/Artigo223 .

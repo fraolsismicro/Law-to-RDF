@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3370    lex:ehUm    lex:DocLegal .
+lex:L3370    lex:temTextoIntegral    lex:HTMLs\/L3370.htm .
+lex:L3370\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3370    lex:temArtigo    lex:L3370\/Artigo1 .
+lex:L3370\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda o crédito especial de Cr$ 28.500.000,00 (vinte e oito milhões e quinhentos mil cruzeiros) para atender aos seguintes pagamentos:" .
+lex:L3370\/Artigo1\/AlineaJuros    lex:ehUm    lex:Alinea .
+lex:L3370\/Artigo1    lex:temAlinea    lex:L3370\/Artigo1\/AlineaJuros .
+lex:L3370\/Artigo1\/AlineaJuros    lex:temConteudo    "a) juros relativos ao exercício de 1955 e primeiro semestre do exercício de 1956 das apólices emitidas de acôrdo com os Decretos números 33.712, de 1 de setembro de 1953, e 34.451, de 4 de setembro de 1953 ... ........... 22.500.000,00" .
+lex:L3370\/Artigo1\/AlineaServico    lex:ehUm    lex:Alinea .
+lex:L3370\/Artigo1    lex:temAlinea    lex:L3370\/Artigo1\/AlineaServico .
+lex:L3370\/Artigo1\/AlineaServico    lex:temConteudo    "b) serviço de resgate de que trata o art. 4º do Decreto nº 33.712 de 1 de setembro de 1953.......................................................................... 6.000.00,00" .
+lex:L3370\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3370    lex:temArtigo    lex:L3370\/Artigo2 .
+lex:L3370\/Artigo2    lex:temConteudo    "Art. 2º O crédito especial, de que trata a presente Lei, será automàticamente registrado e distribuído pelo Tribunal de Contas à Caixa de Amortização." .
+lex:L3370\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3370    lex:temArtigo    lex:L3370\/Artigo3 .
+lex:L3370\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

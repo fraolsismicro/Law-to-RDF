@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del5452    lex:ehUm    lex:DocLegal .
+lex:Del5452    lex:temTextoIntegral    lex:HTMLs\/Del5452.htm .
+lex:Del5452\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del5452    lex:temArtigo    lex:Del5452\/Artigo1 .
+lex:Del5452\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovada a Consolidação das Leis do Trabalho, que a este decreto-lei acompanha, com as alterações por ela introduzidas na legislação vigente." .
+lex:Del5452\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del5452\/Artigo1    lex:temParagrafo    lex:Del5452\/Artigo1\/ParagrafoUnico .
+lex:Del5452\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Continuam em vigor as disposições legais transitórias ou de emergência, bem como as que não tenham aplicação em todo o território nacional." .
+lex:Del5452\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del5452    lex:temArtigo    lex:Del5452\/Artigo2 .
+lex:Del5452\/Artigo2    lex:temConteudo    "Art. 2º O presente decreto-lei entrará em vigor em 10 de novembro de 1943." .
+lex:Del5452\/Texto    lex:remetePara    lex:Del0127\/Artigo12 .
+lex:Del5452\/Texto    lex:remetePara    lex:L12619 .
+lex:Del5452\/Texto    lex:remetePara    lex:L13015 .
+lex:Del5452\/Texto00003    lex:remetePara    lex:Del6353 .
+lex:Del5452\/Texto00003    lex:remetePara    lex:Del9797 .

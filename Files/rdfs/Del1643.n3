@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1643    lex:ehUm    lex:DocLegal .
+lex:Del1643    lex:temTextoIntegral    lex:HTMLs\/Del1643.htm .
+lex:Del1643\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1643    lex:temArtigo    lex:Del1643\/Artigo1 .
+lex:Del1643\/Artigo1    lex:temConteudo    "Art. 1º - Fica prorrogada, até o exercício financeiro de 1982, a vigência da alíquota especial incidente sobre o lucro real das empresas de serviços públicos de saneamento básico, de energia elétrica e de telecomunicações." .
+lex:Del1643\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1643\/Artigo1    lex:temParagrafo    lex:Del1643\/Artigo1\/ParagrafoUnico .
+lex:Del1643\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O disposto neste artigo é aplicável, também, às empresas Centrais Elétricas Brasileiras S.A. - ELETROBRÁS e Telecomunicações Brasileiras S.A. - TELEBRÁS." .
+lex:Del1643\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1643    lex:temArtigo    lex:Del1643\/Artigo2 .
+lex:Del1643\/Artigo2    lex:temConteudo    "Art. 2º - Fica prorrogada, até o exercício financeiro de 1982, a vigência do Decreto-lei nº 1.124, de 08 de setembro de 1970, com as alterações promovidas pelos Decretos-leis de nrs. 1.274, de 30 de maio de 1973, e 1.444, de 03 de fevereiro de 1976." .
+lex:Del1643\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1643    lex:temArtigo    lex:Del1643\/Artigo3 .
+lex:Del1643\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1643\/Artigo2    lex:remetePara    lex:Del1124 .

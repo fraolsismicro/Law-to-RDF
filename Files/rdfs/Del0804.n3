@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0804    lex:ehUm    lex:DocLegal .
+lex:Del0804    lex:temTextoIntegral    lex:HTMLs\/Del0804.htm .
+lex:Del0804\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0804    lex:temArtigo    lex:Del0804\/Artigo1 .
+lex:Del0804\/Artigo1    lex:temConteudo    "Art. 1º Ficam declarados de utilidade pública para fins de desapropriação os imóveis necessários à construção de uma estação receptora de energia elétrica na esquina da Rua do Lavradio com a Rua do Secado, na cidade do Rio de Janeiro, Estado da Guanabara cujos projetos e planta de situação nº 55.616 foram aprovados por Ato do Diretor-Geral do Departamento Nacional de Águas e Energia Elétrica no processo M.M.E. 702.311-69." .
+lex:Del0804\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0804\/Artigo1    lex:temParagrafo    lex:Del0804\/Artigo1\/ParagrafoUnico .
+lex:Del0804\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os imóveis, mencionados no artigo 1º compõem um lote desmembrado da quadra B-6 do P.A. 8530 medindo na planta 37,00 m (trinta e sete metros) x 7500 m (setenta e cinco metros) x 3900 m (trinta e nove metros) x 7500 m (setenta e cinco metros), em forma de um quadrilátero, com testadas para os futuros alinhamentos das ruas do Lavradio, do Senado e Silva Jardim, segundo prevê o referido P.A. 8530." .
+lex:Del0804\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0804    lex:temArtigo    lex:Del0804\/Artigo2 .
+lex:Del0804\/Artigo2    lex:temConteudo    "Art. 2º A Light Serviços de Eletricidade S.A. poderá promover, em juízo, as medidas necessárias de caráter urgente à desapropriação dos referidos imóveis, utilizando o processo judicial estabelecido no Decreto-lei nº 3.365, de 21 de junho de 1941, com as modificações introduzidas através da Lei nº 2.786, de 21 de maio de 1956." .
+lex:Del0804\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0804    lex:temArtigo    lex:Del0804\/Artigo3 .
+lex:Del0804\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:Del0804\/Artigo2    lex:remetePara    lex:Del3365 .
+lex:Del0804\/Artigo2    lex:remetePara    lex:L2786 .

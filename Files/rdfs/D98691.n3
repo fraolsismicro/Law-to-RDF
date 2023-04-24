@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98691    lex:ehUm    lex:DocLegal .
+lex:D98691    lex:temTextoIntegral    lex:HTMLs\/D98691.htm .
+lex:D98691\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98691    lex:temArtigo    lex:D98691\/Artigo1 .
+lex:D98691\/Artigo1    lex:temConteudo    "Art. 1° Fica aberto ao Ministério da Agricultura, em favor do Instituto Nacional de Colonização e Reforma Agrária, o crédito especial de NCz$296.958.000,00 (duzentos e noventa e seis milhões, novecentos e cinqüenta e oito mil cruzados novos), para atender a programação indicada no ANEXO I deste Decreto." .
+lex:D98691\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98691    lex:temArtigo    lex:D98691\/Artigo2 .
+lex:D98691\/Artigo2    lex:temConteudo    "Art. 2° Os recursos necessários ao atendimento do disposto no artigo anterior decorrerão de incorporação de receitas de Recursos Diretamente Arrecadados - Outras Fontes." .
+lex:D98691\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98691    lex:temArtigo    lex:D98691\/Artigo3 .
+lex:D98691\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D98691\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D98691\/Texto .
+lex:D98691\/Texto    lex:remetePara    lex:D98691 .

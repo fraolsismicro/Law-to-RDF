@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D76758    lex:ehUm    lex:DocLegal .
+lex:D76758    lex:temTextoIntegral    lex:HTMLs\/D76758.htm .
+lex:D76758\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D76758    lex:temArtigo    lex:D76758\/Artigo1A .
+lex:D76758\/Artigo1A    lex:temConteudo    "Art. 1Âº Os artigos 28, 29, 34 e 32, do Decreto n.Âº 71.534, de 12 de dezembro de 1972 , passam a ter a seguinte redaÃ§Ã£o:" .
+lex:D76758\/Artigo1A\/AlineaConsulados-Gerais    lex:ehUm    lex:Alinea .
+lex:D76758\/Artigo1A    lex:temAlinea    lex:D76758\/Artigo1A\/AlineaConsulados-Gerais .
+lex:D76758\/Artigo1A\/AlineaConsulados-Gerais    lex:temConteudo    "a) Consulados-Gerais" .
+lex:D76758\/Artigo1A\/AlineaConsulados    lex:ehUm    lex:Alinea .
+lex:D76758\/Artigo1A    lex:temAlinea    lex:D76758\/Artigo1A\/AlineaConsulados .
+lex:D76758\/Artigo1A\/AlineaConsulados    lex:temConteudo    "b) Consulados" .
+lex:D76758\/Artigo1A\/AlineaVice-Consulados    lex:ehUm    lex:Alinea .
+lex:D76758\/Artigo1A    lex:temAlinea    lex:D76758\/Artigo1A\/AlineaVice-Consulados .
+lex:D76758\/Artigo1A\/AlineaVice-Consulados    lex:temConteudo    "c) Vice-Consulados" .
+lex:D76758\/Artigo1A\/AlineaConsulados    lex:ehUm    lex:Alinea .
+lex:D76758\/Artigo1A    lex:temAlinea    lex:D76758\/Artigo1A\/AlineaConsulados .
+lex:D76758\/Artigo1A\/AlineaConsulados    lex:temConteudo    "d) Consulados HonorÃ¡rios" .
+lex:D76758\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D76758    lex:temArtigo    lex:D76758\/Artigo2A .
+lex:D76758\/Artigo2A    lex:temConteudo    "Art. 2.Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D76758\/Artigo1A    lex:remetePara    lex:D71534 .
+lex:D76758\/Texto00001    lex:remetePara    lex:D71534\/Artigo28 .
+lex:D76758\/Artigo1A\/Texto00005    lex:remetePara    lex:D71534\/Artigo29 .
+lex:D76758\/Artigo1A\/Texto00005    lex:remetePara    lex:D71534\/Artigo31 .
+lex:D76758\/Artigo1A\/Texto00005    lex:remetePara    lex:D71534\/Artigo32 .

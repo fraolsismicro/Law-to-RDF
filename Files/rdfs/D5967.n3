@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5967    lex:ehUm    lex:DocLegal .
+lex:D5967    lex:temTextoIntegral    lex:HTMLs\/D5967.htm .
+lex:D5967\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5967    lex:temArtigo    lex:D5967\/Artigo1 .
+lex:D5967\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, até 31 de janeiro de 2008, da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Cultura, dez cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, sendo: um DAS 101.5; cinco DAS 101.4; e quatro DAS 102.3." .
+lex:D5967\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5967\/Artigo1    lex:temParagrafo    lex:D5967\/Artigo1\/Paragrafo1 .
+lex:D5967\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os cargos destinam-se à implementação das ações previstas com a criação do Comissariado da Cultura Brasileira no Mundo, conforme Decreto de 27 de setembro de 2006, e não integrarão a estrutura do Ministério da Cultura, devendo constar do ato de nomeação seu caráter de transitoriedade, mediante remissão ao caput deste artigo." .
+lex:D5967\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5967\/Artigo1    lex:temParagrafo    lex:D5967\/Artigo1\/Paragrafo2 .
+lex:D5967\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Findo o prazo estabelecido no caput, os cargos em comissão ali referidos serão restituídos à Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, sendo considerados exonerados os titulares neles investidos." .
+lex:D5967\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5967    lex:temArtigo    lex:D5967\/Artigo2 .
+lex:D5967\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5967\/Texto    lex:remetePara    lex:D5967 .
+lex:D5967\/Artigo1\/Paragrafo1    lex:remetePara    lex:Dnn10988 .

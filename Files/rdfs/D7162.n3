@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7162    lex:ehUm    lex:DocLegal .
+lex:D7162    lex:temTextoIntegral    lex:HTMLs\/D7162.htm .
+lex:D7162\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7162    lex:temArtigo    lex:D7162\/Artigo1 .
+lex:D7162\/Artigo1    lex:temConteudo    "Art. 1o  Fica autorizado o aumento de capital social do Banco Nacional de Desenvolvimento Econômico e Social - BNDES, no montante de R$ 2.700.000.000,00 (dois bilhões e setecentos milhões de reais), sem emissão de ações, mediante a transferência de parte dos direitos da União decorrentes de adiantamentos para futuro aumento de capital efetuados na Centrais Elétricas Brasileiras S.A. - ELETROBRÁS." .
+lex:D7162\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7162\/Artigo1    lex:temParagrafo    lex:D7162\/Artigo1\/Paragrafo1 .
+lex:D7162\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A capitalização será efetivada após deliberação do Conselho de Administração e pronunciamento do Conselho Fiscal do BNDES." .
+lex:D7162\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7162\/Artigo1    lex:temParagrafo    lex:D7162\/Artigo1\/Paragrafo2 .
+lex:D7162\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A transferência da titularidade do crédito será realizada mediante a celebração de instrumento específico com o BNDES, sendo a União representada pela Procuradoria-Geral da Fazenda Nacional." .
+lex:D7162\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7162\/Artigo1    lex:temParagrafo    lex:D7162\/Artigo1\/Paragrafo3 .
+lex:D7162\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  As ações integralizadas com os direitos referidos no caput ficam excetuadas das exigências estabelecidas no Decreto no 1.068, de 2 de março de 1994." .
+lex:D7162\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7162    lex:temArtigo    lex:D7162\/Artigo2 .
+lex:D7162\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7162\/Artigo1\/Paragrafo3    lex:remetePara    lex:D1068 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3553    lex:ehUm    lex:DocLegal .
+lex:L3553    lex:temTextoIntegral    lex:HTMLs\/L3553.htm .
+lex:L3553\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3553    lex:temArtigo    lex:L3553\/Artigo1 .
+lex:L3553\/Artigo1    lex:temConteudo    "Art 1º No exercício de 1959, o impôsto complementar sôbre a renda das pessoas físicas será cobrado de acôrdo com a seguinte tabela:" .
+lex:L3553\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3553\/Artigo1    lex:temParagrafo    lex:L3553\/Artigo1\/Paragrafo1 .
+lex:L3553\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O Impôsto é calculado em cada classe sôbre a porção de renda compreendida nos respectivos limites, desprezada a fração de rendimento inferior a Cr$1.000,00 (mil cruzeiros)." .
+lex:L3553\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3553\/Artigo1    lex:temParagrafo    lex:L3553\/Artigo1\/Paragrafo2 .
+lex:L3553\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O impôsto complementar é a soma das parcelas correspondentes a cada classe." .
+lex:L3553\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L3553\/Artigo1    lex:temParagrafo    lex:L3553\/Artigo1\/Paragrafo3 .
+lex:L3553\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A tabela de que trata êste artigo, a partir de 1º de janeiro de 1960, será substituída pela seguinte:" .
+lex:L3553\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3553    lex:temArtigo    lex:L3553\/Artigo2 .
+lex:L3553\/Artigo2    lex:temConteudo    "Art 2º O prazo do art. 63 do Decreto-lei nº 5.844, de 23 de setembro de 1943, quanto às declarações de pessoas físicas, fica prorrogado, no exercício de 1959, até o dia 15 de maio." .
+lex:L3553\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3553    lex:temArtigo    lex:L3553\/Artigo3 .
+lex:L3553\/Artigo3    lex:temConteudo    "Art 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3553\/Artigo2    lex:remetePara    lex:Del5844\/Artigo63 .

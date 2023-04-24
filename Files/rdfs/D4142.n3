@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4142    lex:ehUm    lex:DocLegal .
+lex:D4142    lex:temTextoIntegral    lex:HTMLs\/D4142.htm .
+lex:D4142\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4142    lex:temArtigo    lex:D4142\/Artigo1 .
+lex:D4142\/Artigo1    lex:temConteudo    "Art. 1o  Fica terminada a proibição à abertura e funcionamento de escritórios da Ariana Afghan Airlines no território nacional." .
+lex:D4142\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4142    lex:temArtigo    lex:D4142\/Artigo2 .
+lex:D4142\/Artigo2    lex:temConteudo    "Art. 2o  As restrições, no território nacional, a trânsito (pouso e decolagem) de aeronaves que sejam de propriedade de talibãs, ou por eles arrendadas ou utilizadas, ou a serviço deles, determinadas pelo art. 1o do Decreto 3.267, de 30 de novembro de 1999, não mais se aplicarão à Ariana Afghan Airlines." .
+lex:D4142\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4142    lex:temArtigo    lex:D4142\/Artigo3 .
+lex:D4142\/Artigo3    lex:temConteudo    "Art. 3o  O disposto neste Decreto se aplica sem prejuízo às demais determinações do Decreto no 3.755, de 19 de fevereiro de 2001." .
+lex:D4142\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4142    lex:temArtigo    lex:D4142\/Artigo4 .
+lex:D4142\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4142\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D4142    lex:temArtigo    lex:D4142\/Artigo5 .
+lex:D4142\/Artigo5    lex:temConteudo    "Art. 5o Fica revogado o art. 6o do Decreto no 3.755, de 19 de fevereiro de 2001." .
+lex:D4142\/Artigo2    lex:remetePara    lex:D3267\/Artigo1 .
+lex:D4142\/Artigo3    lex:remetePara    lex:D3755 .
+lex:D4142\/Artigo5    lex:remetePara    lex:D3755\/Artigo6 .

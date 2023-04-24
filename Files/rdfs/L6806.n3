@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6806    lex:ehUm    lex:DocLegal .
+lex:L6806    lex:temTextoIntegral    lex:HTMLs\/L6806.htm .
+lex:L6806\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6806    lex:temArtigo    lex:L6806\/Artigo1 .
+lex:L6806\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir créditos adicionais ao Orçamento da União (Lei nº 6.730, de 3 de dezembro de 1979), até o limite de Cr$311.911.000.000,00 (trezentos e onze bilhões, novecentos e onze milhões de cruzeiros), a saber:" .
+lex:L6806\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6806\/Artigo1    lex:temInciso    lex:L6806\/Artigo1\/IncisoI .
+lex:L6806\/Artigo1\/IncisoI    lex:temConteudo    "I - créditos suplementares, até o limite de Cr$284.911.000.000,00 (duzentos e oitenta e quatro bilhões, novecentos e onze milhões de cruzeiros), utilizando os recursos provenientes do excesso de arrecadação, previsto em conformidade com o § 3º do artigo 43 da Lei nº 4.320, de 17 de março de 1964;" .
+lex:L6806\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6806\/Artigo1    lex:temInciso    lex:L6806\/Artigo1\/IncisoII .
+lex:L6806\/Artigo1\/IncisoII    lex:temConteudo    "II - créditos especiais, até o limite de Cr$27.000.000.000,00 (vinte e sete bilhões de cruzeiros), utilizando os recursos de que trata o artigo 3º do Decreto-lei nº 1.755, de 31 de dezembro de 1979." .
+lex:L6806\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6806    lex:temArtigo    lex:L6806\/Artigo2 .
+lex:L6806\/Artigo2    lex:temConteudo    "Art. 2º Na forma e no limite autorizado no item I do artigo 1º desta Lei, o excesso de arrecadação das receitas do Tesouro Nacional, independentemente de origem e de destinação específica, será aplicado no reforço da seguinte programação:" .
+lex:L6806\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6806    lex:temArtigo    lex:L6806\/Artigo3 .
+lex:L6806\/Artigo3    lex:temConteudo    "Art. 3º Na forma e no limite autorizado no item II do artigo 1º desta Lei, os recursos serão transferidos aos Estados, Distrito Federal e Municípios, respeitados os critérios de distribuição em vigor, sob a seguinte titulação:" .
+lex:L6806\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6806    lex:temArtigo    lex:L6806\/Artigo4 .
+lex:L6806\/Artigo4    lex:temConteudo    "Art. 4º Caso a arrecadação dos recursos mencionados no item II do artigo 1º desta Lei tenha um comportamento superior ao limite do crédito especial autorizado, a parcela excedente será suplementada de forma automática, em conformidade com o disposto no artigo 8º da Lei nº 6.730, de 3 de dezembro de 1979." .
+lex:L6806\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6806    lex:temArtigo    lex:L6806\/Artigo5 .
+lex:L6806\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6806\/Artigo1    lex:remetePara    lex:L6730 .
+lex:L6806\/Artigo1\/IncisoI    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .
+lex:L6806\/Artigo1\/IncisoII    lex:remetePara    lex:Del1755\/Artigo3 .
+lex:L6806\/Artigo4    lex:remetePara    lex:L6730\/Artigo8 .

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10196    lex:ehUm    lex:DocLegal .
+lex:L10196    lex:temTextoIntegral    lex:HTMLs\/L10196.htm .
+lex:L10196\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10196    lex:temArtigo    lex:L10196\/Artigo1 .
+lex:L10196\/Artigo1    lex:temConteudo    "Art. 1o  A Lei no 9.279, de 14 de maio de 1996, passa a vigorar com as seguintes alterações:" .
+lex:L10196\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L10196\/Artigo1    lex:temInciso    lex:L10196\/Artigo1\/IncisoVII .
+lex:L10196\/Artigo1\/IncisoVII    lex:temConteudo    "VII - aos atos praticados por terceiros não autorizados, relacionados à invenção protegida por patente, destinados exclusivamente à produção de informações, dados e resultados de testes, visando à obtenção do registro de comercialização, no Brasil ou em outro país, para a exploração e comercialização do produto objeto da patente, após a expiração dos prazos estipulados no art. 40.' (NR)" .
+lex:L10196\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10196\/Artigo1    lex:temParagrafo    lex:L10196\/Artigo1\/ParagrafoUnico .
+lex:L10196\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Aos pedidos relativos a produtos farmacêuticos e produtos químicos para a agricultura, que tenham sido depositados entre 1o de janeiro de 1995 e 14 de maio de 1997, aplicam-se os critérios de patenteabilidade desta Lei, na data efetiva do depósito do pedido no Brasil ou da prioridade, se houver, assegurando-se a proteção a partir da data da concessão da patente, pelo prazo remanescente a contar do dia do depósito no Brasil, limitado ao prazo previsto no caput do art. 40.' (NR)" .
+lex:L10196\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10196    lex:temArtigo    lex:L10196\/Artigo2 .
+lex:L10196\/Artigo2    lex:temConteudo    "Art. 2o  Ficam convalidados os atos praticados com base na Medida Provisória no 2.105-14, de 27 de dezembro de 2000." .
+lex:L10196\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10196    lex:temArtigo    lex:L10196\/Artigo3 .
+lex:L10196\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L10196\/Artigo1\/IncisoVII    lex:remetePara    lex:L9279\/Artigo43 .
+lex:L10196\/Artigo1\/Texto00002    lex:remetePara    lex:L9279\/Artigo229 .
+lex:L10196\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L9279\/Artigo229 .
+lex:L10196\/Artigo1\/Texto00003    lex:remetePara    lex:L9279\/Artigo229 .
+lex:L10196\/Artigo1\/Texto00003    lex:remetePara    lex:L9279\/Artigo229 .
+lex:L10196\/Artigo1\/Texto00003    lex:remetePara    lex:L9279\/Artigo229 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7739    lex:ehUm    lex:DocLegal .
+lex:D7739    lex:temTextoIntegral    lex:HTMLs\/D7739.htm .
+lex:D7739\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7739    lex:temArtigo    lex:D7739\/Artigo1 .
+lex:D7739\/Artigo1    lex:temConteudo    "Art. 1o  Fica promulgado o Acordo entre a República Federativa do Brasil e a Organização das Nações Unidas para a Realização da Conferência das Nações Unidas sobre Desenvolvimento Sustentável, no Rio de Janeiro, Brasil, de 13 a 22 de junho de 2012, firmado em Nova York, em 5 de abril de 2012, anexo a este Decreto." .
+lex:D7739\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7739    lex:temArtigo    lex:D7739\/Artigo2 .
+lex:D7739\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão do Acordo e ajustes complementares que, nos termos do inciso I do caput do art. 49 da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D7739\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7739    lex:temArtigo    lex:D7739\/Artigo3 .
+lex:D7739\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7739\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

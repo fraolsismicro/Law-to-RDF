@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1125    lex:ehUm    lex:DocLegal .
+lex:Del1125    lex:temTextoIntegral    lex:HTMLs\/Del1125.htm .
+lex:Del1125\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1125    lex:temArtigo    lex:Del1125\/Artigo1 .
+lex:Del1125\/Artigo1    lex:temConteudo    "Art. 1º É fixado o percentual 2,5% (dois e meio por cento) sôbre o preço de plano de bilhetes de loteria vendidos pela Caixa Econômica Federal, destinado a constituir o Fundo de Implantação do Programa de Integração Social para aplicação aquisição de equipamentos, material, pessoal e serviços especializados necessários à gestão inicial do Programa de Integração Social, instituído nos têrmos da Lei Complementar nº 7, de 7 de setembro de 1970." .
+lex:Del1125\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1125\/Artigo1    lex:temParagrafo    lex:Del1125\/Artigo1\/Paragrafo1 .
+lex:Del1125\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A percentagem de que trata êste artigo, incidirá sôbre os bilhetes vendidos pela Caixa Econômica Federal relativos as extrações que se realizarem período de 1 de janeiro de 1971, e até no máximo, 31 de dezembro de 1974." .
+lex:Del1125\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1125\/Artigo1    lex:temParagrafo    lex:Del1125\/Artigo1\/Paragrafo2 .
+lex:Del1125\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O produto resultante da aplicação do percentual de que trata êste artigo, será, após cada extração, contabilizado pela Caixa Econômica Federal a crédito da conta do Fundo de Implantação do Programa de Integração Social." .
+lex:Del1125\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1125    lex:temArtigo    lex:Del1125\/Artigo2 .
+lex:Del1125\/Artigo2    lex:temConteudo    "Art. 2º A renda líquida definida no parágrafo único do artigo 27 do Decreto-lei nº 204, de 27 de fevereiro de 1967, será obtida deduzindo-se da renda bruta o valor dos prêmios sorteados, as despesas de custeio e manutenção dos serviços da Loteria Federal, as comissões de venda e o percentual fixado para o Fundo de Implantação do Programa de Integração Social." .
+lex:Del1125\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1125    lex:temArtigo    lex:Del1125\/Artigo3 .
+lex:Del1125\/Artigo3    lex:temConteudo    "Art. 3º O Ministro da Fazenda baixará instruções para administração e aplicação, pela Caixa Econômica Federal, dos recursos levados a crédito da conta Fundo de Implantação do Programa de Integração Social." .
+lex:Del1125\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1125    lex:temArtigo    lex:Del1125\/Artigo4 .
+lex:Del1125\/Artigo4    lex:temConteudo    "Art. 4º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1125\/Artigo1    lex:remetePara    lex:Lcp07 .
+lex:Del1125\/Artigo2    lex:remetePara    lex:Del0204\/Artigo27 .

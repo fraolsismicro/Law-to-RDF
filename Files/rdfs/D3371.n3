@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3371    lex:ehUm    lex:DocLegal .
+lex:D3371    lex:temTextoIntegral    lex:HTMLs\/D3371.htm .
+lex:D3371\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3371    lex:temArtigo    lex:D3371\/Artigo1 .
+lex:D3371\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído, no âmbito do Ministério de Minas e Energia, o Programa Prioritário de Termeletricidade, visando à implantação de usinas termelétricas." .
+lex:D3371\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3371    lex:temArtigo    lex:D3371\/Artigo2 .
+lex:D3371\/Artigo2    lex:temConteudo    "Art. 2o  As usinas termelétricas, integrantes do Programa Prioritário de Termeletricidade, farão jus às seguintes prerrogativas:" .
+lex:D3371\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3371\/Artigo2    lex:temInciso    lex:D3371\/Artigo2\/IncisoI .
+lex:D3371\/Artigo2\/IncisoI    lex:temConteudo    "I - garantia de suprimento de gás natural, pelo prazo de até vinte anos, de acordo com as regras a serem estabelecidas pelo Ministério de Minas e Energia;" .
+lex:D3371\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3371\/Artigo2    lex:temInciso    lex:D3371\/Artigo2\/IncisoII .
+lex:D3371\/Artigo2\/IncisoII    lex:temConteudo    "II - garantia da aplicação do valor normativo à distribuidora de energia elétrica, por um período de até vinte anos, de acordo com a regulamentação da Agência Nacional de Energia Elétrica -ANEEL;" .
+lex:D3371\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3371\/Artigo2    lex:temInciso    lex:D3371\/Artigo2\/IncisoIII .
+lex:D3371\/Artigo2\/IncisoIII    lex:temConteudo    "III - garantia pelo Banco Nacional de Desenvolvimento Econômico e Social - BNDES de acesso ao Programa de Apoio Financeiro a Investimentos Prioritários no Setor Elétrico." .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3371\/Artigo2    lex:temParagrafo    lex:D3371\/Artigo2\/ParagrafoUnico .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Até 31 de dezembro de 2002 ou até a normalização da efetiva liquidação das operações do Mercado Atacadista de Energia Elétrica - MAE, o que ocorrer primeiro, fica autorizada a aquisição de energia elétrica e de recebíveis do MAE pela Comercializadora Brasileira de Energia Emergencial - CBEE, ou, enquanto esta não operar, por outra entidade vinculada ao Ministério de Minas e Energia, inclusive empresas do grupo ELETROBRÁS, como instrumentos do Programa Prioritário de Termeletricidade - PPT, observadas as seguintes condições: (Parágrafo incluído pelo Decreto nº 4.067, de 27.12.2001)" .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - aquisição ao valor máximo de noventa por cento do preço da energia praticado no MAE no período de referência; (Inciso incluído pelo Decreto nº 4.067, de 27.12.2001)" .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - aquisição somente junto àqueles agentes que, integrantes do PPT, tenham entrado em operação até 31 de março de 2002; (Inciso incluído pelo Decreto nº 4.067, de 27.12.2001)" .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - aquisição relativa a energia gerada cuja contabilização no MAE venha a ser divulgada a partir de 28 de dezembro de 2001; e (Inciso incluído pelo Decreto nº 4.067, de 27.12.2001)" .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - vedação à aquisição relativa a energia gerada por empreendimentos cuja capacidade de geração ou energia gerada seja objeto de contrato.(Inciso incluído pelo Decreto nº 4.067, de 27.12.2001)" .
+lex:D3371\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3371    lex:temArtigo    lex:D3371\/Artigo3 .
+lex:D3371\/Artigo3    lex:temConteudo    "Art. 3o  O Programa será coordenado pelo Ministério de Minas e Energia, que baixará as normas para a sua execução." .
+lex:D3371\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3371    lex:temArtigo    lex:D3371\/Artigo4 .
+lex:D3371\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3371\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:D4067 .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:remetePara    lex:D4067 .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:remetePara    lex:D4067 .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:remetePara    lex:D4067 .
+lex:D3371\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIV    lex:remetePara    lex:D4067 .
+lex:D3371\/Texto00012    lex:remetePara    lex:index .

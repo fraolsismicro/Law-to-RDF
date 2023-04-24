@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4763    lex:ehUm    lex:DocLegal .
+lex:L4763    lex:temTextoIntegral    lex:HTMLs\/L4763.htm .
+lex:L4763\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4763    lex:temArtigo    lex:L4763\/Artigo1 .
+lex:L4763\/Artigo1    lex:temConteudo    "Art. 1º Fica incluído nos limites da área do polígono das sêcas, previstos na Lei nº 175, de 7 de janeiro de 1936, no Decreto-lei nº 9.857, de 13 de setembro de 1946, e na Lei nº 1.348, de 10 de fevereiro de 1951, o município de Vitória da Conquista, no Estado da Bahia." .
+lex:L4763\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4763    lex:temArtigo    lex:L4763\/Artigo2 .
+lex:L4763\/Artigo2    lex:temConteudo    "Art. 2º O Município criado com o desdobramento da área de município, incluído total ou parcialmente no Polígono das Sêcas, será considerado como pertencente a este para todos os efeitos legais e administrativos." .
+lex:L4763\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4763    lex:temArtigo    lex:L4763\/Artigo3 .
+lex:L4763\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L4763\/Artigo1    lex:remetePara    lex:L175 .
+lex:L4763\/Artigo1    lex:remetePara    lex:Del9857 .
+lex:L4763\/Artigo1    lex:remetePara    lex:L1348 .

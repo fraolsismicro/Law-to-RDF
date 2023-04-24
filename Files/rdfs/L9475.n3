@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9475    lex:ehUm    lex:DocLegal .
+lex:L9475    lex:temTextoIntegral    lex:HTMLs\/L9475.htm .
+lex:L9475\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9475    lex:temArtigo    lex:L9475\/Artigo1 .
+lex:L9475\/Artigo1    lex:temConteudo    "Art. 1º O art. 33 da Lei n° 9.394, de 20 de dezembro de 1996, passa a vigorar com a seguinte redação:" .
+lex:L9475\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9475\/Artigo1    lex:temParagrafo    lex:L9475\/Artigo1\/Paragrafo1 .
+lex:L9475\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os sistemas de ensino regulamentarão os procedimentos para a definição dos conteúdos do ensino religioso e estabelecerão as normas para a habilitação e admissão dos professores." .
+lex:L9475\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9475\/Artigo1    lex:temParagrafo    lex:L9475\/Artigo1\/Paragrafo2 .
+lex:L9475\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os sistemas de ensino ouvirão entidade civil, constituída pelas diferentes denominações religiosas, para a definição dos conteúdos do ensino religioso.'" .
+lex:L9475\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9475    lex:temArtigo    lex:L9475\/Artigo2 .
+lex:L9475\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9475\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9475    lex:temArtigo    lex:L9475\/Artigo3 .
+lex:L9475\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:L9475\/Artigo1    lex:remetePara    lex:L9394 .
+lex:L9475\/Texto00001    lex:remetePara    lex:L9394\/Artigo33 .

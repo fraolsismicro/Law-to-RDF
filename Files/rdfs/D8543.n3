@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8543    lex:ehUm    lex:DocLegal .
+lex:D8543    lex:temTextoIntegral    lex:HTMLs\/D8543.htm .
+lex:D8543\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8543    lex:temArtigo    lex:D8543\/Artigo1 .
+lex:D8543\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.415, de 27 de fevereiro de 2015, passa a vigorar com as seguintes alterações:" .
+lex:D8543\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D8543\/Artigo1    lex:temParagrafo    lex:D8543\/Artigo1\/Paragrafo7 .
+lex:D8543\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7 º  ................................................................................" .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8543\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoI .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoI    lex:temConteudo    "I - 1% (um por cento), entre 1 º de março de 2015 e 30 de novembro de 2015;" .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8543\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoII .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoII    lex:temConteudo    "II - 0,1% (um décimo por cento), entre 1 º de dezembro de 2015 e 31 de dezembro de 2016;" .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8543\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIII .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIII    lex:temConteudo    "III - 2% (dois por cento), entre 1 º de janeiro de 2017 e 31 de dezembro de 2017; e" .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8543\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIV .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoIV    lex:temConteudo    "IV - 3% (três por cento), entre 1 º de janeiro de 2018 e 31 de dezembro de 2018." .
+lex:D8543\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8543    lex:temArtigo    lex:D8543\/Artigo2 .
+lex:D8543\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8543\/Artigo1    lex:remetePara    lex:D8415 .
+lex:D8543\/Artigo1\/Paragrafo7\/ParagrafoIncisoI    lex:remetePara    lex:D8415\/Artigo2\/Paragrafo7i .

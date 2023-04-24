@@ -1,0 +1,80 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1413    lex:ehUm    lex:DocLegal .
+lex:D1413    lex:temTextoIntegral    lex:HTMLs\/D1413.htm .
+lex:D1413\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo1 .
+lex:D1413\/Artigo1    lex:temConteudo    "Art. 1º O despacho de aeronave em vôo internacional será isento da Declaração Geral e do Manifesto de Passageiros." .
+lex:D1413\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo1    lex:temParagrafo    lex:D1413\/Artigo1\/Paragrafo1 .
+lex:D1413\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O transportador deverá fornecer ao Departamento de Polícia Federal e á autoridade competente de vigilância sanitária, por escrito, nos aeroportos de escala e destino, além do nome da empresa, número do vôo ou matrícula da aeronave, os seguintes dados:" .
+lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:D1413\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa .
+lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa    lex:temConteudo    "a) na chegada: rota e número de tripulantes e passageiros para desembarque e em trânsito;" .
+lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:D1413\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa .
+lex:D1413\/Artigo1\/Paragrafo1\/AlineaNa    lex:temConteudo    "b) na partida: rota e número de tripulantes e passageiros para embarque e em trânsito." .
+lex:D1413\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo1    lex:temParagrafo    lex:D1413\/Artigo1\/Paragrafo2 .
+lex:D1413\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Na ocorrência de qualquer fato de interesse médico-sanitário a bordo da aeronave, caberá ao seu comandante informá-lo, de imediato, à autoridade competente de vigilância sanitária do aeroporto, especialmente:" .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaCasos    lex:ehUm    lex:Alinea .
+lex:D1413\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1413\/Artigo1\/Paragrafo2\/AlineaCasos .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaCasos    lex:temConteudo    "a) casos de doenças observados durante o vôo ou de passageiros desembarcados por esse motivo em escalas anteriores;" .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaCondicoes    lex:ehUm    lex:Alinea .
+lex:D1413\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1413\/Artigo1\/Paragrafo2\/AlineaCondicoes .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaCondicoes    lex:temConteudo    "b) condições a bordo que favoreçam o surgimento ou propagação de enfermidades;" .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaProcessos    lex:ehUm    lex:Alinea .
+lex:D1413\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D1413\/Artigo1\/Paragrafo2\/AlineaProcessos .
+lex:D1413\/Artigo1\/Paragrafo2\/AlineaProcessos    lex:temConteudo    "c) processos de desinfetação a que a aeronave tiver sido submetida, quando procedente de países que apresentem áreas atingidas por doenças infecto-contagiosas, objeto de controle internacional ou infestadas por seus vetores." .
+lex:D1413\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo2 .
+lex:D1413\/Artigo2    lex:temConteudo    "Art. 2º O controle de passageiros e tripulantes estrangeiros será realizado através de verificação dos dados individuais contidos no documento oficial de identificação" .
+lex:D1413\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo2    lex:temParagrafo    lex:D1413\/Artigo2\/Paragrafo1 .
+lex:D1413\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O Cartão de Entrada e Saída será preenchido pelos passageiros tripulantes estrangeiros que não estiverem identificados por passaporte de leitura mecânica." .
+lex:D1413\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo2    lex:temParagrafo    lex:D1413\/Artigo2\/Paragrafo2 .
+lex:D1413\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º O controle de entrada de passageiros e tripulantes será realizado no local de destino dos mesmos ou, ocorrendo a transformação do vôo internacional em doméstico, no lugar onde ela se der, a critério do Departamento de Polícia Federal, ouvidos os demais órgãos competentes envolvidos." .
+lex:D1413\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo2    lex:temParagrafo    lex:D1413\/Artigo2\/Paragrafo3 .
+lex:D1413\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º O controle de saída de passageiros e tripulantes será realizado no aeroporto internacional do local de embarque ou, ocorrendo a transformação do vôo doméstico em internacional, no lugar onde ela se der, a critério do Departamento de Polícia Federal, ouvidos os demais órgãos competentes envolvidos." .
+lex:D1413\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo2    lex:temParagrafo    lex:D1413\/Artigo2\/Paragrafo4 .
+lex:D1413\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4º A viagem internacional que, eventualmente, tiver início ou término em aeroporto que não seja internacional, o transportador autorizado para tal pela autoridade aeronáutica solicitará, previamente, a anuência dos órgãos federais interessados, para efeito do cumprimento das formalidades legais." .
+lex:D1413\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo3 .
+lex:D1413\/Artigo3    lex:temConteudo    "Art. 3º Ao tripulante de aeronave portador de Certificado de Membro de Tripulação ou licença válida não será exigido passaporte e visto consular." .
+lex:D1413\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo4 .
+lex:D1413\/Artigo4    lex:temConteudo    "Art. 4º O passageiro, em viagem contínua pelo território nacional, deverá permanecer em local determinado pelo Departamento de Polícia Federal e dele não se exigirá passaporte e visto consular." .
+lex:D1413\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo5 .
+lex:D1413\/Artigo5    lex:temConteudo    "Art. 5º O transportador dará conhecimento, por escrito, ao Departamento de Polícia Federal, da viagem contínua que tiver de ser interrompida por motivo imperioso ou por impossibilidade de transbordo imediato." .
+lex:D1413\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo5    lex:temParagrafo    lex:D1413\/Artigo5\/Paragrafo1 .
+lex:D1413\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º O Departamento de Polícia Federal, se julgar procedentes os motivos alegados, determinará o local onde o passageiro deva permanecer e as condições a serem observadas por ele e pelo transportador. Não devendo o prazo da estada exceder ao estritamente necessário ao prosseguimento da viagem." .
+lex:D1413\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo5    lex:temParagrafo    lex:D1413\/Artigo5\/Paragrafo2 .
+lex:D1413\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2º Na hipótese de a interrupção da viagem ocorrer por motivo de saúde, o Departamento de Polícia Federal ouvirá a autoridade competente de vigilância sanitária." .
+lex:D1413\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo6 .
+lex:D1413\/Artigo6    lex:temConteudo    "Art. 6º Em caso de pouso efetuado eventualmente em aeroporto alternativo, não internacional, ou fora de aeroporto, os passageiros e tripulantes ficarão sob a responsabilidade do transportador até que sejam satisfeitas as formalidades de desembarque ou de prosseguimento do vôo." .
+lex:D1413\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1413\/Artigo6    lex:temParagrafo    lex:D1413\/Artigo6\/ParagrafoUnico .
+lex:D1413\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ocorrendo a pouso de que trata este artigo, deverá o transportador dar imediato conhecimento do fato à autoridade competente de vigilância sanitária, ao Departamento de Polícia Federal e à autoridade alfandegária para as providências a cargo dos mesmos." .
+lex:D1413\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo7 .
+lex:D1413\/Artigo7    lex:temConteudo    "Art. 7º As 'diferenças' relativas às disposições do Anexo à Convenção de Aviação Civil Internacional serão comunicadas à Organização de Aviação Cívil Internacional (Oacil), pela autoridade aeronáutica." .
+lex:D1413\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo8 .
+lex:D1413\/Artigo8    lex:temConteudo    "Art. 8º Este decreto entra em vigor na data de sua publicação." .
+lex:D1413\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D1413    lex:temArtigo    lex:D1413\/Artigo9 .
+lex:D1413\/Artigo9    lex:temConteudo    "Art. 9º Ficam revogados os Decretos nºs 86.228, de 28 de julho de 1981, e 94.317, de 11 de maio de 1987." .
+lex:D1413\/Artigo9    lex:remetePara    lex:D94317 .

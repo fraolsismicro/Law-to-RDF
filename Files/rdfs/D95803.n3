@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D95803    lex:ehUm    lex:DocLegal .
+lex:D95803    lex:temTextoIntegral    lex:HTMLs\/D95803.htm .
+lex:D95803\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D95803    lex:temArtigo    lex:D95803\/Artigo1 .
+lex:D95803\/Artigo1    lex:temConteudo    "Art. 1° Ficam alterados os artigos 5°, 7° e 8° do Decreto n° 90.116, de 29 de agosto de 1984, que passam a vigorar com a seguinte redação:" .
+lex:D95803\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D95803    lex:temArtigo    lex:D95803\/Artigo6 .
+lex:D95803\/Artigo6    lex:temConteudo    "Art. 6° .............................................................................." .
+lex:D95803\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D95803    lex:temArtigo    lex:D95803\/Artigo7 .
+lex:D95803\/Artigo7    lex:temConteudo    "Art. 7° O Ministro do Exército, a fim de assegurar o equilíbrio e a regularidade no ingresso no QAO, deverá estabelecer:" .
+lex:D95803\/Artigo7\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D95803\/Artigo7    lex:temAlinea    lex:D95803\/Artigo7\/AlineaA .
+lex:D95803\/Artigo7\/AlineaA    lex:temConteudo    "a) a participação de cada QMS ou categoria no correspondente Quadro de Acesso (QA);" .
+lex:D95803\/Artigo7\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D95803\/Artigo7    lex:temAlinea    lex:D95803\/Artigo7\/AlineaOs .
+lex:D95803\/Artigo7\/AlineaOs    lex:temConteudo    "b) os limites quantitativos de antigüidade para a organização dos Quadros de Acesso ou inclusão em Quota Compulsória." .
+lex:D95803\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D95803    lex:temArtigo    lex:D95803\/Artigo8 .
+lex:D95803\/Artigo8    lex:temConteudo    "Art. 8° Os limites quantitativos de antigüidade serão fixados, separadamente, para cada categoria e QMS, em quantidade igual ao percentual a ser estabelecido pelo Ministro do Exército, sobre o efetivo de cada categoria e QMS para o ano considerado e respeitando, entre as QMS que concorrem a uma mesma categoria, a situação hierárquica dos militares participantes.'" .
+lex:D95803\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D95803    lex:temArtigo    lex:D95803\/Artigo2 .
+lex:D95803\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D95803\/Texto00001    lex:remetePara    lex:D90116\/Artigo5 .
+lex:D95803\/Artigo7    lex:remetePara    lex:D90116\/Artigo7 .
+lex:D95803\/Artigo8    lex:remetePara    lex:D90116\/Artigo8 .

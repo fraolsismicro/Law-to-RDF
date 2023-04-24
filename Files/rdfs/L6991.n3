@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6991    lex:ehUm    lex:DocLegal .
+lex:L6991    lex:temTextoIntegral    lex:HTMLs\/L6991.htm .
+lex:L6991\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo1 .
+lex:L6991\/Artigo1    lex:temConteudo    "Art. 1º - Os valores de vencimentos e proventos dos servidores ativos e inativos do Senado Federal, decorrentes da aplicação da Lei nº 6.908, de 21 de maio de 1981, ficam reajustados em:" .
+lex:L6991\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6991\/Artigo1    lex:temInciso    lex:L6991\/Artigo1\/IncisoI .
+lex:L6991\/Artigo1\/IncisoI    lex:temConteudo    "I - 40% (quarenta por cento) a partir de 1º de janeiro de 1982; e" .
+lex:L6991\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6991\/Artigo1    lex:temInciso    lex:L6991\/Artigo1\/IncisoII .
+lex:L6991\/Artigo1\/IncisoII    lex:temConteudo    "II - 40% (quarenta por cento) a partir de 1º de maio de 1982." .
+lex:L6991\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6991\/Artigo1    lex:temParagrafo    lex:L6991\/Artigo1\/Paragrafo1 .
+lex:L6991\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - O percentual fixado pelo inciso Il incidirá sobre os valores resultantes do reajuste de que trata o inciso I." .
+lex:L6991\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6991\/Artigo1    lex:temParagrafo    lex:L6991\/Artigo1\/Paragrafo2 .
+lex:L6991\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Em decorrência do disposto neste artigo, os vencimentos do pessoal em atividade constantes dos Anexos da Lei nº 6.908, de 21 de maio de 1981, vigorarão com os valores fixados nos Anexos desta Lei, sobre os quais incidirão os percentuais de representação mensal neles estabelecidos." .
+lex:L6991\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6991\/Artigo1    lex:temParagrafo    lex:L6991\/Artigo1\/Paragrafo3 .
+lex:L6991\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - Serão descontadas dos reajustamentos ora estabelecidos quaisquer antecipações retributivas que tenham sido efetuadas com base nas majorações autorizadas pelo Decreto-lei nº 1.902, de 22 de dezembro de 1981." .
+lex:L6991\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo2 .
+lex:L6991\/Artigo2    lex:temConteudo    "Art. 2º - É elevado para Cr$ 600,00 (seiscentos cruzeiros) mensais, por dependente, o valor do salário-família." .
+lex:L6991\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo3 .
+lex:L6991\/Artigo3    lex:temConteudo    "Art. 3º - Nos cálculos decorrentes da execução desta Lei, serão desprezadas as frações de cruzeiro." .
+lex:L6991\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo4 .
+lex:L6991\/Artigo4    lex:temConteudo    "Art. 4º - A despesa decorrente da aplicação desta Lei correrá à conta do Orçamento da União para o exercício de 1982." .
+lex:L6991\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo5 .
+lex:L6991\/Artigo5    lex:temConteudo    "Art. 5º - Esta Lei entra em vigor a partir de 1º de janeiro de 1982." .
+lex:L6991\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6991    lex:temArtigo    lex:L6991\/Artigo6 .
+lex:L6991\/Artigo6    lex:temConteudo    "Art. 6º - Revogam-se as disposições em contrário." .
+lex:L6991\/Texto    lex:remetePara    lex:L7125 .
+lex:L6991\/Artigo1    lex:remetePara    lex:L6908 .
+lex:L6991\/Artigo1\/Paragrafo2    lex:remetePara    lex:L6908\/ .
+lex:L6991\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del1902 .
+lex:L6991\/Texto00011    lex:remetePara    lex:L7125 .

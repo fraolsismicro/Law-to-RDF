@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12551    lex:ehUm    lex:DocLegal .
+lex:L12551    lex:temTextoIntegral    lex:HTMLs\/L12551.htm .
+lex:L12551\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12551    lex:temArtigo    lex:L12551\/Artigo1 .
+lex:L12551\/Artigo1    lex:temConteudo    "Art. 1o  O art. 6o da Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei no 5.452, de 1o de maio de 1943, passa a vigorar com a seguinte redação:" .
+lex:L12551\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12551\/Artigo1    lex:temParagrafo    lex:L12551\/Artigo1\/ParagrafoUnico .
+lex:L12551\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os meios telemáticos e informatizados de comando, controle e supervisão se equiparam, para fins de subordinação jurídica, aos meios pessoais e diretos de comando, controle e supervisão do trabalho alheio. (NR)" .
+lex:L12551\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12551    lex:temArtigo    lex:L12551\/Artigo2 .
+lex:L12551\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12551\/Texto00001    lex:remetePara    lex:Del5452\/Artigo6 .

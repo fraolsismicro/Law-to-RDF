@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5161    lex:ehUm    lex:DocLegal .
+lex:D5161    lex:temTextoIntegral    lex:HTMLs\/D5161.htm .
+lex:D5161\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5161    lex:temArtigo    lex:D5161\/Artigo1 .
+lex:D5161\/Artigo1    lex:temConteudo    "Art. 1o  Fica prorrogado, em caráter excepcional, até 31 de dezembro de 2004, o prazo de remanejamento de dezenove cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, alocados ao Ministério dos Transportes, por meio do art. 5o do Decreto no 4.803, de 8 de agosto de 2003, sendo: um DAS 101.5; dois DAS 101.4; dois DAS 101.3; um DAS 102.4; e treze DAS 102.1." .
+lex:D5161\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5161\/Artigo1    lex:temParagrafo    lex:D5161\/Artigo1\/ParagrafoUnico .
+lex:D5161\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os cargos de que trata o caput destinam-se às atividades remanescente da inventariança do extinto Departamento Nacional de Estradas de Rodagem - DNER e não integrarão a estrutura do Ministério dos Transportes, devendo constar dos atos de nomeação seu caráter de transitoriedade, mediante remissão a este artigo." .
+lex:D5161\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5161    lex:temArtigo    lex:D5161\/Artigo2 .
+lex:D5161\/Artigo2    lex:temConteudo    "Art. 2o  Findo o prazo estabelecido no art. 1o, os cargos em comissão ali mencionados serão restituídos à Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão." .
+lex:D5161\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5161    lex:temArtigo    lex:D5161\/Artigo3 .
+lex:D5161\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5161\/Artigo1    lex:remetePara    lex:D4803\/Artigo5 .

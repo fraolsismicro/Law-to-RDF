@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7252    lex:ehUm    lex:DocLegal .
+lex:D7252    lex:temTextoIntegral    lex:HTMLs\/D7252.htm .
+lex:D7252\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7252    lex:temArtigo    lex:D7252\/Artigo1 .
+lex:D7252\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo entre o Governo da República Federativa do Brasil e o Governo da Nova Zelândia sobre um Programa de Férias e Trabalho, firmado em Auckland, em 28 de agosto de 2008, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D7252\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7252    lex:temArtigo    lex:D7252\/Artigo2 .
+lex:D7252\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo, assim como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D7252\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7252    lex:temArtigo    lex:D7252\/Artigo3 .
+lex:D7252\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7252\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

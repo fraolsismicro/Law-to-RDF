@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2136    lex:ehUm    lex:DocLegal .
+lex:Del2136    lex:temTextoIntegral    lex:HTMLs\/Del2136.htm .
+lex:Del2136\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2136    lex:temArtigo    lex:Del2136\/Artigo1 .
+lex:Del2136\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores dos vencimentos, gratificações e proventos do pessoal ativo e inativo do Quadro Permanente da Secretaria do Tribunal Superior Eleitoral, decorrentes da aplicação do Decreto-lei nº 2.090, de 27 de dezembro de 1983, serão reajustados em 65% (sessenta e cinco por cento), ressalvado o disposto no parágrafo único deste artigo." .
+lex:Del2136\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2136\/Artigo1    lex:temParagrafo    lex:Del2136\/Artigo1\/ParagrafoUnico .
+lex:Del2136\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os vencimentos, salários e proventos relativos ao pessoal de nível médio passam a vigorar na forma do Anexo ao Decreto-lei nº 2.130, de 25 de junho de 1984." .
+lex:Del2136\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2136    lex:temArtigo    lex:Del2136\/Artigo2 .
+lex:Del2136\/Artigo2    lex:temConteudo    "Art. 2º O salário-família dos servidores ativos e inativos do Tribunal Superior Eleitoral passa a ser pago na importância de Cr$4.800,00 (quatro mil e oitocentos cruzeiros)." .
+lex:Del2136\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2136    lex:temArtigo    lex:Del2136\/Artigo3 .
+lex:Del2136\/Artigo3    lex:temConteudo    "Art. 3º A despesa decorrente da aplicação deste Decreto-lei será atendida à conta das dotações constantes do orçamento da União, para 1984." .
+lex:Del2136\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2136    lex:temArtigo    lex:Del2136\/Artigo4 .
+lex:Del2136\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entra em vigor na data de sua publicação, com efeitos financeiros a partir de 1º de julho de 1984, revogadas as disposições em contrário." .
+lex:Del2136\/Texto    lex:remetePara    lex:Del2217 .
+lex:Del2136\/Artigo1    lex:remetePara    lex:Del2090 .
+lex:Del2136\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2130\/ .

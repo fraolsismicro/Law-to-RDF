@@ -1,0 +1,134 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4678    lex:ehUm    lex:DocLegal .
+lex:L4678    lex:temTextoIntegral    lex:HTMLs\/L4678.htm .
+lex:L4678\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo1 .
+lex:L4678\/Artigo1    lex:temConteudo    "Art. 1º O seguro de crédito à exportação tem por fim garantir, contra riscos a que estiverem sujeitas as operações resultantes da exportação a crédito de mercadorias e serviços, os contratantes no Brasil dessas operações ou as entidades de crédito que as financiarem." .
+lex:L4678\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo2 .
+lex:L4678\/Artigo2    lex:temConteudo    "Art. 2º Os riscos cobertos pelo seguro de crédito à exportação são os riscos comerciais e os riscos políticos e extraordinários." .
+lex:L4678\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo3 .
+lex:L4678\/Artigo3    lex:temConteudo    "Art. 3º Considera-se risco comercial a insolvência do importador de mercadorias e serviços brasileiros, efetivando-se o sinistro quando:" .
+lex:L4678\/Artigo3\/AlineaDecretada    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo3    lex:temAlinea    lex:L4678\/Artigo3\/AlineaDecretada .
+lex:L4678\/Artigo3\/AlineaDecretada    lex:temConteudo    "a) decretada judicialmente a falência ou concordata do devedor;" .
+lex:L4678\/Artigo3\/AlineaConcluido    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo3    lex:temAlinea    lex:L4678\/Artigo3\/AlineaConcluido .
+lex:L4678\/Artigo3\/AlineaConcluido    lex:temConteudo    "b) concluído um acôrdo particular do devedor com seus credores, com anuência do Instituto de Resseguros do Brasil, para pagamento com redução do débito." .
+lex:L4678\/Artigo3\/AlineaExecutado    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo3    lex:temAlinea    lex:L4678\/Artigo3\/AlineaExecutado .
+lex:L4678\/Artigo3\/AlineaExecutado    lex:temConteudo    "c) executado o devedor, revelarem-se insuficientes ou insuscetíveis de seqüestro ou penhor os seus bens." .
+lex:L4678\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo4 .
+lex:L4678\/Artigo4    lex:temConteudo    "Art. 4º Consideram-se riscos políticos e extraordinários as situações que determinem a falta de pagamento dos débitos contraídos pelos importadores de mercadorias e serviços:" .
+lex:L4678\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoI .
+lex:L4678\/Artigo4\/IncisoI    lex:temConteudo    "I - desde que, em conseqüência de medidas adotadas por governo estrangeiro:" .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:L4678\/Artigo4\/IncisoI    lex:temIncisoAlinea    lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao    lex:temConteudo    "a) não se realize, de nenhuma forma, o pagamento do débito;" .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao    lex:temIncisoAlinea    lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao    lex:temConteudo    "b) não se realize o pagamento na moeda convencionada e disto resulte perda para o exportador brasileiro de mercadorias e serviços;" .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao    lex:temIncisoAlinea    lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao    lex:temConteudo    "c) não tenha lugar a transferência das importâncias devidas, apesar de os devedores terem depositado as somas necessárias em banco ou conta oficial dentro do seu país;" .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao    lex:temIncisoAlinea    lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao .
+lex:L4678\/Artigo4\/IncisoI\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao\/IncisoAlineaNao    lex:temConteudo    "d) não se efetue o pagamento, dentro do prazo de 6 (meses) seguintes ao vencimento, por moratória estabelecida em caráter geral no país do devedor." .
+lex:L4678\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoII .
+lex:L4678\/Artigo4\/IncisoII    lex:temConteudo    "II - desde que, em decorrência de guerra civil ou estrangeira, revolução, ou qualquer acontecimento similar no país do devedor, não se realize o pagamento dos débitos;" .
+lex:L4678\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoIII .
+lex:L4678\/Artigo4\/IncisoIII    lex:temConteudo    "III - desde que o devedor estrangeiro não possa realizar o pagamento, por circunstâncias ou acontecimentos de caráter catastrófico;" .
+lex:L4678\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoIV .
+lex:L4678\/Artigo4\/IncisoIV    lex:temConteudo    "IV - desde que, por circunstâncias ou acontecimentos políticos, os bens objeto do crédito segurado sejam requisitados, destruídos ou avariados, sempre que a reparação do dano não se tenha obtido antes de transcorridos 6 (meses) da data do vencimento fixada no contrato;" .
+lex:L4678\/Artigo4\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoV .
+lex:L4678\/Artigo4\/IncisoV    lex:temConteudo    "V - desde que o exportador, previamente autorizado pelas autoridades brasileiras, recupere suas mercadorias para evitar um risco político latente e, em consequência dessa recuperação, advenha uma perda para o exportador;" .
+lex:L4678\/Artigo4\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoVI .
+lex:L4678\/Artigo4\/IncisoVI    lex:temConteudo    "VI - desde que, por decisão do Governo brasileiro ou dos Governos estrangeiros, posterior aos contratos firmados, se adotem medidas das quais resulte a impossibilidade de realizar a exportação ou a execução dos serviços e, por êste fato, se produzam perdas para o exportador ou contratante brasileiro;" .
+lex:L4678\/Artigo4\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L4678\/Artigo4    lex:temInciso    lex:L4678\/Artigo4\/IncisoVII .
+lex:L4678\/Artigo4\/IncisoVII    lex:temConteudo    "VII - quando o devedor for órgão de administração pública estrangeira ou entidade vinculada ao mesmo, ou quando fôr um particular com a operação garantida por um dêstes órgãos ou entidades, e, em qualquer dos casos, o pagamento não se efetuar, por qualque motivo." .
+lex:L4678\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo4    lex:temParagrafo    lex:L4678\/Artigo4\/ParagrafoUnico .
+lex:L4678\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As garantias de cobertura para riscos políticos e extrordinários se estenderão também aos casos de exportação em consignação, de feiras, mostras, exposições e similares, quando se verificar, por uma das situações descritas neste artigo, a impossibilidade de fazer retornar as mercadorias brasileiras não vendidas no exterior." .
+lex:L4678\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo5 .
+lex:L4678\/Artigo5    lex:temConteudo    "Art. 5º A cobertura do seguro de crédito à exportação incidirá sôbre as perdas líquidas definitivas, dos exportadores do Brasil de mercadorias e serviços, decorrentes da falta de cumprimento, por parte dos importadores do estrangeiro, das condições dos contratos, abrangendo, também, as ocorrências que determine ma rescisão dos contratos, entre a data em que êstes forem firmados e a data em que deveria ser efetivado o embarque das mercadorias ou iniciada a execução dos serviços." .
+lex:L4678\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo5    lex:temParagrafo    lex:L4678\/Artigo5\/ParagrafoUnico .
+lex:L4678\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A cobertura do seguro de crédito à exportação não abrangerá os prejuízos decorrentes de lucros esperados ou de oscilções de mercado." .
+lex:L4678\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo6 .
+lex:L4678\/Artigo6    lex:temConteudo    "Art. 6º A cobertura dos riscos comerciais e dos riscos políticos e extraordinários presumirá sempre uma participação obrigatória, do exportador de mercadorias e serviços, nas perdas líquidas definitivas, não podendo essa parcela ser objeto de seguro ou garantia de quaisquer pessoas ou instituições." .
+lex:L4678\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo7 .
+lex:L4678\/Artigo7    lex:temConteudo    "Art. 7º VETADO." .
+lex:L4678\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo8 .
+lex:L4678\/Artigo8    lex:temConteudo    "Art. 8º A cobertura dos riscos comerciais, atendido o disposto no artigo 6º, será concedida, para a totalidade ou parte das responsabilidades, por sociedades de seguros autorizadas a operar em ramos elementares e que tiverem aprovadas, pelo Departamento Nacional de Seguros Privados e Capitalização, suas apólices de seguro de crédito à exportação, as quais serão resseguradas pelo Instituto de Resseguros do Brasil, de conformidade com as normas e instruções que serão pelo mesmo baixadas." .
+lex:L4678\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo9 .
+lex:L4678\/Artigo9    lex:temConteudo    "Art. 9º A garantia dos riscos de que trata o artigo anterior, para as responsabilidades total ou parcialmente não assumidas pelas sociedades de seguros, bem como a dos riscos políticos e extraordinários, atendido o disposto no art. 6º, será concedida pelo Governo Federal, representado pelo Instituto de Resseguros do Brasil, mediante certificados de cobertura, expedidos de acôrdo com normas e instruções fixadas no regulamento da presente Lei." .
+lex:L4678\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo10 .
+lex:L4678\/Artigo10    lex:temConteudo    "Art. 10. Tanto as apólices de seguros como os certificados de cobertura deverão abranger, por tipo de risco coberto, a totalidade dos negócios de exportação a crédito de mercadorias e serviços." .
+lex:L4678\/Artigo10\/ParagrafoUnicoO    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo10    lex:temParagrafo    lex:L4678\/Artigo10\/ParagrafoUnicoO .
+lex:L4678\/Artigo10\/ParagrafoUnicoO    lex:temConteudo    "Parágrafo único.O Instituto de Resseguros do Brasil, a seu critério, poderá excluir determinadas operações da cobertura do seguro." .
+lex:L4678\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo11 .
+lex:L4678\/Artigo11    lex:temConteudo    "Art. 11. Nenhuma apólice de seguro poderá ser emitida pelas sociedades de seguro, senão depois de aceitos os respectivos resseguros pelo Instituto de Resseguros do Brasil." .
+lex:L4678\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo12 .
+lex:L4678\/Artigo12    lex:temConteudo    "Art. 12. Para garantia das responsabilidades a serem assumidas pelo Governo Federal, o Orçamento Geral da União consignará, ao Instituto de Resseguros do Brasil, anualmente, a dotação de Cr$1.500.000.000 (um bilhão e quinhentos milhões de cruzeiros) a partir do exercício orçamentário de 1966, e durante dez exercícios orçamentários consecutivos." .
+lex:L4678\/Artigo12\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo12    lex:temParagrafo    lex:L4678\/Artigo12\/Paragrafo1 .
+lex:L4678\/Artigo12\/Paragrafo1    lex:temConteudo    "§ 1º O Instituto de Resseguros do Brasil aplicará o valor dessas dotações na compra de títulos federais, com claúsula de reajustamento do valor monetário, os quais poderão ser vendidos em Bôlsa, ouvido previamente o Banco Central da República do Brasil sempre que fôr insuficiente a reserva de prêmios formada durante o exercício, para pagamento dos compromissos decorrentes das responsabilidades assumidas." .
+lex:L4678\/Artigo12\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo12    lex:temParagrafo    lex:L4678\/Artigo12\/Paragrafo2 .
+lex:L4678\/Artigo12\/Paragrafo2    lex:temConteudo    "§ 2º As vendas dos títulos federais não serão realizadas quando, pelo vulto dos compromissos a pagar, o Poder Executivo julgar oportuno solicitar créditos especiais para êsse fim." .
+lex:L4678\/Artigo12\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L4678\/Artigo12    lex:temParagrafo    lex:L4678\/Artigo12\/Paragrafo3 .
+lex:L4678\/Artigo12\/Paragrafo3    lex:temConteudo    "§ 3º Para os fins dêste artigo, no exercício de 1965, é o Poder Executivo autorizado a abrir um crédito especial de Cr$ 1.000.000.000 (um bilhão de cruzeiros)." .
+lex:L4678\/Artigo13    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo13 .
+lex:L4678\/Artigo13    lex:temConteudo    "Art. 13. O Instituto de Resseguros do Brasil providenciará no sentido de:" .
+lex:L4678\/Artigo13\/AlineaEstabelecer    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo13    lex:temAlinea    lex:L4678\/Artigo13\/AlineaEstabelecer .
+lex:L4678\/Artigo13\/AlineaEstabelecer    lex:temConteudo    "a) estabelecer e fomentar o intercâmbio internacional com organizações de seguro de crédito;" .
+lex:L4678\/Artigo13\/AlineaOrganizar    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo13    lex:temAlinea    lex:L4678\/Artigo13\/AlineaOrganizar .
+lex:L4678\/Artigo13\/AlineaOrganizar    lex:temConteudo    "b) organizar cadastro informativo sôbre importadores estrangeiros de mercadorias e serviços;" .
+lex:L4678\/Artigo13\/AlineaObter    lex:ehUm    lex:Alinea .
+lex:L4678\/Artigo13    lex:temAlinea    lex:L4678\/Artigo13\/AlineaObter .
+lex:L4678\/Artigo13\/AlineaObter    lex:temConteudo    "c) obter continuamente informações sôbre a situação política e econômica dos países estrangeiros que transacionem com o Brasil." .
+lex:L4678\/Artigo14    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo14 .
+lex:L4678\/Artigo14    lex:temConteudo    "Art. 14. Para atender às operações de seguros de créditos à exportação, os órgãos federais, estaduais e municipais, as autarquias e as sociedades de economia mista prestarão toda a colaboração que lhes fôr solicitada pelo Instituto de Resseguros do Brasil*" .
+lex:L4678\/Artigo15    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo15 .
+lex:L4678\/Artigo15    lex:temConteudo    "Art. 15. O Instituto de Resseguros do Brasil poderá manter intercâmbio com entidades do exterior que operem em seguros de crédito à exportação, com a finalidade de garantir no País o risco comercial do importador brasileiro." .
+lex:L4678\/Artigo16    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo16 .
+lex:L4678\/Artigo16    lex:temConteudo    "Art. 16. Executado o impôsto de renda, as operações de seguro de crédito à exportação ficam isentas de quaisquer impostos federais." .
+lex:L4678\/Artigo17    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo17 .
+lex:L4678\/Artigo17    lex:temConteudo    "Art. 17. A presente Lei entra em vigor na data de sua publicação e será regulamentada pelo Poder Executivo, no prazo de 120 (cento e vinte) dias." .
+lex:L4678\/Artigo18    lex:ehUm    lex:Artigo .
+lex:L4678    lex:temArtigo    lex:L4678\/Artigo18 .
+lex:L4678\/Artigo18    lex:temConteudo    "Art. 18. Revogam-se as disposições em contrário." .
+lex:L4678\/Texto    lex:remetePara    lex:L6704\/Artigo10 .

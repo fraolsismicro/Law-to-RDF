@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2087    lex:ehUm    lex:DocLegal .
+lex:Del2087    lex:temTextoIntegral    lex:HTMLs\/Del2087.htm .
+lex:Del2087\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2087    lex:temArtigo    lex:Del2087\/Artigo1 .
+lex:Del2087\/Artigo1    lex:temConteudo    "Art. 1º - A empresa deve recolher as contribuições descontadas da remuneração dos empregados, dos trabalhadores avulsos e dos trabalhadores temporários, até o 10º (décimo) dia útil do mês seguinte àquele a que elas se referirem." .
+lex:Del2087\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del2087\/Artigo1    lex:temParagrafo    lex:Del2087\/Artigo1\/Paragrafo1 .
+lex:Del2087\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Deverão ser recolhidas no mesmo prazo as contribuições para custeio das prestações por acidentes do trabalho." .
+lex:Del2087\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del2087\/Artigo1    lex:temParagrafo    lex:Del2087\/Artigo1\/Paragrafo2 .
+lex:Del2087\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - São mantidas inalteradas as disposições relativas ao recolhimento das demais importâncias arrecadadas pela Previdência Social." .
+lex:Del2087\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del2087\/Artigo1    lex:temParagrafo    lex:Del2087\/Artigo1\/Paragrafo3 .
+lex:Del2087\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A inobservância do disposto neste artigo sujeitará o responsável, além da correção monetária, às sanções previstas nos artigos 82 e 86 da Lei nº 3.807, de 26 de agosto de 1960." .
+lex:Del2087\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2087    lex:temArtigo    lex:Del2087\/Artigo3 .
+lex:Del2087\/Artigo3    lex:temConteudo    "Art. 3º - Este decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2087\/Artigo1\/Paragrafo3    lex:remetePara    lex:L3807\/Artigo82 .
+lex:Del2087\/Artigo1\/Paragrafo3    lex:remetePara    lex:L3807\/Artigo86 .
+lex:Del2087\/Artigo1\/Artigo2    lex:revogadoPor    lex:Del2113 .
+lex:Del2113    lex:revogou    lex:Del2087\/Artigo1\/Artigo2 .
+lex:Del2087\/Artigo1\/ParagrafoUnico    lex:revogadoPor    lex:Del2113 .
+lex:Del2113    lex:revogou    lex:Del2087\/Artigo1\/ParagrafoUnico .

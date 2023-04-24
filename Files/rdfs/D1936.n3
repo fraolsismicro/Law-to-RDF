@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1936    lex:ehUm    lex:DocLegal .
+lex:D1936    lex:temTextoIntegral    lex:HTMLs\/D1936.htm .
+lex:D1936\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1936    lex:temArtigo    lex:D1936\/Artigo1 .
+lex:D1936\/Artigo1    lex:temConteudo    "Art. 1° Os dispositivos abaixo indicados do Decreto n° 1.488, de 11 de maio de 1995, passam a vigorar com as seguintes alterações:" .
+lex:D1936\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1936\/Artigo1    lex:temParagrafo    lex:D1936\/Artigo1\/Paragrafo3 .
+lex:D1936\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° Medidas de salvaguarda provisórias serão aplicadas como elevação do imposto de importação, por meio de adicional à Tarifa Externa Comum - TEC, sob a forma de alíquota ad valorem, de alíquota específica ou da combinação de ambas." .
+lex:D1936\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D1936\/Artigo1    lex:temParagrafo    lex:D1936\/Artigo1\/Paragrafo4 .
+lex:D1936\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4° Ocorrerá a restituição do valor correspondente à medida de salvaguarda provisória, nos termos da legislação vigente, sempre que a investigação concluir pela improcedência de aplicação de medidas de salvaguarda definitivas.'" .
+lex:D1936\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D1936\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D1936\/Artigo1\/Paragrafo4\/ParagrafoIncisoI .
+lex:D1936\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - elevação do imposto de importação, por meio de adicional à Tarifa Externa Comum - TEC, sob a forma de alíquota ad valorem, de alíquota específica ou da combinação de ambas;" .
+lex:D1936\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1936    lex:temArtigo    lex:D1936\/Artigo2 .
+lex:D1936\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D1936\/Artigo1\/Paragrafo3    lex:remetePara    lex:D1488\/Artigo4\/Paragrafo3 .
+lex:D1936\/Artigo1\/Texto00003    lex:remetePara    lex:D1488\/Artigo5 .
+lex:D1936\/Artigo1\/Texto00003    lex:remetePara    lex:D1488\/Artigo8 .

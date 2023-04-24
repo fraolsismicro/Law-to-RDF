@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3306    lex:ehUm    lex:DocLegal .
+lex:L3306    lex:temTextoIntegral    lex:HTMLs\/L3306.htm .
+lex:L3306\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3306    lex:temArtigo    lex:L3306\/Artigo1 .
+lex:L3306\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado até o encerramento do exercício de 1959 - 2 (dois) exercícios - o prazo de vigência do crédito especial de Cr$ ...... 50.000.000,00 (cinqüenta milhões de cruzeiros), de que trata a lei número 2.634, de 26 de outubro de 1955, para construção do Monumento Nacional destinado a representar a participação ativa do Brasil na Segunda Grande Guerra e a guardar os despojos dos brasileiros das Fôrças Armadas tombados durante as operações de guerra." .
+lex:L3306\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3306    lex:temArtigo    lex:L3306\/Artigo2 .
+lex:L3306\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação." .
+lex:L3306\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3306    lex:temArtigo    lex:L3306\/Artigo3 .
+lex:L3306\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L3306\/Artigo1    lex:remetePara    lex:L2634 .

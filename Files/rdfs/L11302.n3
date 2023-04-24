@@ -1,0 +1,176 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11302    lex:ehUm    lex:DocLegal .
+lex:L11302    lex:temTextoIntegral    lex:HTMLs\/L11302.htm .
+lex:L11302\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo1 .
+lex:L11302\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo III da Lei no 10.355, de 26 de dezembro de 2001, passa a vigorar nos termos do Anexo I desta Lei." .
+lex:L11302\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11302\/Artigo1    lex:temInciso    lex:L11302\/Artigo1\/IncisoI .
+lex:L11302\/Artigo1\/IncisoI    lex:temConteudo    "I - até 31 de dezembro de 2005:" .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel    lex:temConteudo    "a) nível superior: R$ 513,00 (quinhentos e treze reais);" .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temConteudo    "b) nível intermediário: R$ 184,00 (cento e oitenta e quatro reais); e" .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoI\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temConteudo    "c) nível auxiliar: R$ 101,00 (cento e um reais);" .
+lex:L11302\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11302\/Artigo1    lex:temInciso    lex:L11302\/Artigo1\/IncisoII .
+lex:L11302\/Artigo1\/IncisoII    lex:temConteudo    "II - a partir de 1o de janeiro de 2006:" .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel    lex:temConteudo    "a) nível superior: R$ 765,00 (setecentos e sessenta e cinco reais);" .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temConteudo    "b) nível intermediário: R$ 350,00 (trezentos e cinqüenta reais); e" .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:ehUm    lex:IncisoAlinea .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temIncisoAlinea    lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temConteudo    "c) nível auxiliar: R$ 250,00 (duzentos e cinqüenta reais)." .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel    lex:temIncisoAlineaItem    lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaItem .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaItem    lex:temConteudo    "............................................................... ' (NR)" .
+lex:L11302\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11302\/Artigo1    lex:temInciso    lex:L11302\/Artigo1\/IncisoI .
+lex:L11302\/Artigo1\/IncisoI    lex:temConteudo    "I - R$ 184,00 (cento e oitenta e quatro reais) até 31 de dezembro de 2005;" .
+lex:L11302\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11302\/Artigo1    lex:temInciso    lex:L11302\/Artigo1\/IncisoII .
+lex:L11302\/Artigo1\/IncisoII    lex:temConteudo    "II - R$ 238,00 (duzentos e trinta e oito reais) a partir de 1o de janeiro de 2006.'" .
+lex:L11302\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo4 .
+lex:L11302\/Artigo4    lex:temConteudo    "Art. 4o  Os arts. 5o, 12, 14 e 15 da Lei no 10.876, de 2 de junho de 2004, passam a vigorar com a seguinte redação:" .
+lex:L11302\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo4    lex:temParagrafo    lex:L11302\/Artigo4\/Paragrafo1 .
+lex:L11302\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1o  A pontuação referente à GDAMP será assim distribuída:" .
+lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo1    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoI .
+lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - até 60 (sessenta) pontos serão atribuídos em função dos resultados obtidos na avaliação de desempenho institucional; e" .
+lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo1    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoII .
+lex:L11302\/Artigo4\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - até 40 (quarenta) pontos serão atribuídos em função dos resultados obtidos na avaliação de desempenho individual." .
+lex:L11302\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo4    lex:temParagrafo    lex:L11302\/Artigo4\/Paragrafo2 .
+lex:L11302\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o  A avaliação de desempenho individual visa a aferir o desempenho do servidor no exercício das atribuições do cargo ou função, com foco na contribuição individual para o alcance dos objetivos organizacionais." .
+lex:L11302\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo4    lex:temParagrafo    lex:L11302\/Artigo4\/Paragrafo3 .
+lex:L11302\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3o  A parcela referente à avaliação de desempenho institucional será:" .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoI .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - paga integralmente, quando o tempo médio apurado entre a marcação e a realização da perícia inicial no âmbito da Gerência Executiva de lotação do servidor for igual ou inferior a 5 (cinco) dias;" .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoII .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - paga conforme percentual definido em ato do Ministro de Estado da Previdência Social, quando o tempo médio apurado entre a marcação e a realização da perícia inicial no âmbito da Gerência Executiva de lotação do servidor for inferior a 40 (quarenta) e superior a 5 (cinco) dias; e" .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII .
+lex:L11302\/Artigo4\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - igual a 0 (zero), quando o tempo médio apurado entre a marcação e a realização da perícia inicial no âmbito da Gerência Executiva de lotação do servidor for igual ou superior a 40 (quarenta) dias." .
+lex:L11302\/Artigo4\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo4    lex:temParagrafo    lex:L11302\/Artigo4\/Paragrafo4 .
+lex:L11302\/Artigo4\/Paragrafo4    lex:temConteudo    "§ 4o  Os critérios de avaliação de desempenho individual e o percentual a que se refere o inciso II do § 3o deste artigo poderão variar segundo as condições específicas de cada Gerência Executiva.' (NR)" .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoI .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - (Revogado);" .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoII .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - (Revogado);" .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo4\/Paragrafo4    lex:temParagrafoInciso    lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII .
+lex:L11302\/Artigo4\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - (Revogado). (NR)" .
+lex:L11302\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo5 .
+lex:L11302\/Artigo5    lex:temConteudo    "Art. 5o  A Lei no 10.876, de 2 de junho de 2004, passa a vigorar acrescida dos seguintes artigos:" .
+lex:L11302\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo5    lex:temParagrafo    lex:L11302\/Artigo5\/Paragrafo1 .
+lex:L11302\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o  A GEPM integrará os proventos da aposentadoria e as pensões." .
+lex:L11302\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo5    lex:temParagrafo    lex:L11302\/Artigo5\/Paragrafo2 .
+lex:L11302\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o  A GEPM não servirá de base de cálculo para quaisquer outros benefícios, parcelas remuneratórias ou vantagens devidas aos servidores que a ela fazem jus.'" .
+lex:L11302\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo6 .
+lex:L11302\/Artigo6    lex:temConteudo    "Art. 6o  A Lei no 10.876, de 2 de junho de 2004, passa a vigorar com nova redação do Anexo II e acrescida dos Anexos V e VI, nos termos, respectivamente, dos Anexos II, III e IV desta Lei." .
+lex:L11302\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo7 .
+lex:L11302\/Artigo7    lex:temConteudo    "Art. 7o  O § 2o do art. 3o da Lei no 10.997, de 15 de dezembro de 2004, passa a vigorar com a seguinte redação:" .
+lex:L11302\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo7    lex:temParagrafo    lex:L11302\/Artigo7\/Paragrafo2 .
+lex:L11302\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2o  A opção prevista no caput deste artigo poderá ser realizada até 31 de março de 2006, gerando efeitos financeiros a partir da data de formalização do respectivo Termo de Opção." .
+lex:L11302\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo8 .
+lex:L11302\/Artigo8    lex:temConteudo    "Art. 8o  Até que sejam regulamentados novos critérios e procedimentos de aferição das avaliações de desempenho institucional e individual para fins de atribuição da Gratificação de Desempenho de Atividade Médico-Pericial - GDAMP e até que sejam processados os resultados da primeira avaliação de desempenho, a GDAMP será paga proporcionalmente aos resultados obtidos na última avaliação." .
+lex:L11302\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo8    lex:temParagrafo    lex:L11302\/Artigo8\/ParagrafoUnico .
+lex:L11302\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O resultado da primeira avaliação de desempenho nos termos do caput deste artigo gera efeitos financeiros a partir do início  do período de avaliação estabelecido no regulamento de que trata o caput deste artigo, devendo ser compensadas eventuais diferenças pagas a maior ou a menor." .
+lex:L11302\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo9 .
+lex:L11302\/Artigo9    lex:temConteudo    "Art. 9o  O art. 230 da Lei no 8.112, de 11 de dezembro de 1990, passa a vigorar com a seguinte redação:" .
+lex:L11302\/Artigo9\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo9    lex:temParagrafo    lex:L11302\/Artigo9\/Paragrafo3 .
+lex:L11302\/Artigo9\/Paragrafo3    lex:temConteudo    "§ 3o  Para os fins do disposto no caput deste artigo, ficam a União e suas entidades autárquicas e fundacionais autorizadas a:" .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo9\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoI .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - celebrar convênios exclusivamente para a  prestação de serviços de assistência à saúde para os seus servidores ou empregados ativos, aposentados, pensionistas, bem como para seus respectivos grupos familiares definidos, com entidades de autogestão por elas patrocinadas por meio de instrumentos jurídicos efetivamente celebrados e publicados até 12 de fevereiro de 2006 e que possuam autorização de funcionamento do órgão regulador, sendo certo que os convênios celebrados depois dessa data somente poderão sê-lo na forma da regulamentação específica sobre patrocínio de autogestões, a ser publicada pelo mesmo órgão regulador, no prazo de 180 (cento e oitenta) dias da vigência desta Lei, normas essas também aplicáveis aos convênios existentes até 12 de fevereiro de 2006;" .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo9\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoII .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - contratar, mediante licitação, na forma da Lei no 8.666, de 21 de junho de 1993, operadoras de planos e seguros privados de assistência à saúde que possuam autorização de funcionamento do órgão regulador;" .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11302\/Artigo9\/Paragrafo3    lex:temParagrafoInciso    lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoIII .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III -  (VETADO)" .
+lex:L11302\/Artigo9\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo9    lex:temParagrafo    lex:L11302\/Artigo9\/Paragrafo4 .
+lex:L11302\/Artigo9\/Paragrafo4    lex:temConteudo    "§ 4o  (VETADO)" .
+lex:L11302\/Artigo9\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L11302\/Artigo9    lex:temParagrafo    lex:L11302\/Artigo9\/Paragrafo5 .
+lex:L11302\/Artigo9\/Paragrafo5    lex:temConteudo    "§ 5o  O valor do ressarcimento fica limitado ao total despendido pelo servidor ou pensionista civil com plano ou seguro privado de assistência à saúde. (NR)" .
+lex:L11302\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo10 .
+lex:L11302\/Artigo10    lex:temConteudo    "Art. 10.  (VETADO)" .
+lex:L11302\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo11 .
+lex:L11302\/Artigo11    lex:temConteudo    "Art. 11.  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11302\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L11302    lex:temArtigo    lex:L11302\/Artigo12 .
+lex:L11302\/Artigo12    lex:temConteudo    "Art. 12.  Fica revogado o art. 1o da Lei no 10.997, de 15 de dezembro de 2004." .
+lex:L11302\/Artigo12\/Alinea    lex:ehUm    lex:Alinea .
+lex:L11302\/Artigo12    lex:temAlinea    lex:L11302\/Artigo12\/Alinea .
+lex:L11302\/Artigo12\/Alinea    lex:temConteudo    "a)  TABELA DE VENCIMENTO BÁSICO - 40 HORAS SEMANAIS" .
+lex:L11302\/Artigo12\/AlineaTABELA    lex:ehUm    lex:Alinea .
+lex:L11302\/Artigo12    lex:temAlinea    lex:L11302\/Artigo12\/AlineaTABELA .
+lex:L11302\/Artigo12\/AlineaTABELA    lex:temConteudo    "b) TABELA DE VENCIMENTO BÁSICO - 20 HORAS SEMANAIS" .
+lex:L11302\/Artigo12\/AlineaJORNADA    lex:ehUm    lex:Alinea .
+lex:L11302\/Artigo12    lex:temAlinea    lex:L11302\/Artigo12\/AlineaJORNADA .
+lex:L11302\/Artigo12\/AlineaJORNADA    lex:temConteudo    "a) JORNADA DE TRABALHO SEMANAL: 40 HORAS" .
+lex:L11302\/Artigo12\/AlineaJORNADA    lex:ehUm    lex:Alinea .
+lex:L11302\/Artigo12    lex:temAlinea    lex:L11302\/Artigo12\/AlineaJORNADA .
+lex:L11302\/Artigo12\/AlineaJORNADA    lex:temConteudo    "b) JORNADA DE TRABALHO SEMANAL: 20 HORAS" .
+lex:L11302\/Texto    lex:remetePara    lex:_Quadro20Geral\/272-05 .
+lex:L11302\/Artigo1    lex:remetePara    lex:L10355\/ .
+lex:L11302\/Artigo2    lex:remetePara    lex:L10855\/Artigo11 .
+lex:L11302\/Artigo2    lex:remetePara    lex:359\/Artigo14 .
+lex:L11302\/Artigo2    lex:revogadoPor    lex:L11501\/Artigo17 .
+lex:L11501\/Artigo17    lex:revogou    lex:L11302\/Artigo2 .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/Artigo3    lex:remetePara    lex:359\/Artigo14 .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/Artigo3    lex:revogadoPor    lex:L11501\/Artigo17 .
+lex:L11501\/Artigo17    lex:revogou    lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/Artigo3 .
+lex:L11302\/Artigo1\/IncisoII\/IncisoAlineaNivel\/IncisoAlineaNivel\/IncisoAlineaNivel\/Texto00010    lex:remetePara    lex:L10855\/Artigo17 .
+lex:L11302\/Texto00013    lex:remetePara    lex:L10876\/Artigo5 .
+lex:L11302\/Texto00013    lex:remetePara    lex:L10876\/Artigo12 .
+lex:L11302\/Artigo4\/Texto00022    lex:remetePara    lex:L10876\/Artigo14 .
+lex:L11302\/Artigo4\/Texto00022    lex:remetePara    lex:L10876\/Artigo15 .
+lex:L11302\/Texto00026    lex:remetePara    lex:L10876\/Artigo12 .
+lex:L11302\/Texto00026    lex:remetePara    lex:L10876\/Artigo18 .
+lex:L11302\/Artigo6    lex:remetePara    lex:L10876\/ .
+lex:L11302\/Artigo6    lex:remetePara    lex:L10876\/ .
+lex:L11302\/Artigo6    lex:remetePara    lex:L10876\/ .
+lex:L11302\/Artigo7    lex:remetePara    lex:L10997\/Artigo3\/Paragrafo2 .
+lex:L11302\/Artigo9    lex:remetePara    lex:L8112cons\/Artigo230 .
+lex:L11302\/Artigo9\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:VEP-347-06 .
+lex:L11302\/Artigo9\/Paragrafo4    lex:remetePara    lex:VEP-347-06 .
+lex:L11302\/Artigo10    lex:remetePara    lex:VEP-347-06 .
+lex:L11302\/Artigo12    lex:remetePara    lex:L10977\/Artigo1 .

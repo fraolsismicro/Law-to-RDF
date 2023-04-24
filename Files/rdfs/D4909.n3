@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4909    lex:ehUm    lex:DocLegal .
+lex:D4909    lex:temTextoIntegral    lex:HTMLs\/D4909.htm .
+lex:D4909\/AlineaDescricao    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDescricao .
+lex:D4909\/AlineaDescricao    lex:temConteudo    "a) descrição completa do produto objeto da petição, incluindo a classificação tarifária NCM;" .
+lex:D4909\/AlineaRepresentatividade    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaRepresentatividade .
+lex:D4909\/AlineaRepresentatividade    lex:temConteudo    "b) representatividade do peticionário;" .
+lex:D4909\/AlineaIdentificacao    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaIdentificacao .
+lex:D4909\/AlineaIdentificacao    lex:temConteudo    "c) identificação do exportador/produtor denunciado;" .
+lex:D4909\/AlineaDados    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDados .
+lex:D4909\/AlineaDados    lex:temConteudo    "d) dados relativos a valor normal e preço de exportação, no caso de petição para fins de abertura de investigação antidumping; no caso de petição relativa à investigação sobre subsídios, informações sobre os subsídios concedidos e, se possível, sobre o seu montante, com indicação das fontes desses dados e períodos a que se referem;" .
+lex:D4909\/AlineaDados    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDados .
+lex:D4909\/AlineaDados    lex:temConteudo    "e) dados relativos a importações, em volume, totais e por origem denunciada do produto em questão;" .
+lex:D4909\/AlineaDados    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDados .
+lex:D4909\/AlineaDados    lex:temConteudo    "f) dados dos indicadores de dano apresentados pelo peticionário, bem como fontes desses dados e períodos a que se referem." .
+lex:D4909\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDa .
+lex:D4909\/AlineaDa    lex:temConteudo    "a) Da Solicitação de Informações aos Exportadores sob Investigação:" .
+lex:D4909\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDa .
+lex:D4909\/AlineaDa    lex:temConteudo    "b) Da Tomada de Vistas do Processo:" .
+lex:D4909\/AlineaProcedimento    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaProcedimento .
+lex:D4909\/AlineaProcedimento    lex:temConteudo    "c) Procedimento de Intercâmbio de Informações entre Estados Partes no Curso da Investigação:" .
+lex:D4909\/AlineaCompromissos    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaCompromissos .
+lex:D4909\/AlineaCompromissos    lex:temConteudo    "a) Compromissos de Preços" .
+lex:D4909\/AlineaDireito    lex:ehUm    lex:Alinea .
+lex:D4909    lex:temAlinea    lex:D4909\/AlineaDireito .
+lex:D4909\/AlineaDireito    lex:temConteudo    "b) Direito Antidumping ou Compensatório" .

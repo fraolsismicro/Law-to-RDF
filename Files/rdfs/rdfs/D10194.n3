@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10194    lex:ehUm    lex:DocLegal .
+lex:D10194    lex:temTextoIntegral    lex:HTMLs\/D10194.htm .
+lex:D10194\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10194    lex:temArtigo    lex:D10194\/Artigo1A .
+lex:D10194\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 9.906, de 9 de julho de 2019, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10194\/Artigo1A\/AlineaCasa    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaCasa .
+lex:D10194\/Artigo1A\/AlineaCasa    lex:temConteudo    "a) Casa Civil da PresidÃªncia da RepÃºblica, que o coordenarÃ¡;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaMinistArio .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temConteudo    "b) MinistÃ©rio da JustiÃ§a e SeguranÃ§a PÃºblica;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaMinistArio .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temConteudo    "c) MinistÃ©rio da Defesa;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaMinistArio .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temConteudo    "d) MinistÃ©rio da Economia;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaMinistArio .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temConteudo    "e) MinistÃ©rio da EducaÃ§Ã£o;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:ehUm    lex:Alinea .
+lex:D10194\/Artigo1A    lex:temAlinea    lex:D10194\/Artigo1A\/AlineaMinistArio .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temConteudo    "f) MinistÃ©rio da Cidadania;" .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Item    lex:ehUm    lex:Item .
+lex:D10194\/Artigo1A\/AlineaMinistArio    lex:temItem    lex:D10194\/Artigo1A\/AlineaMinistArio\/Item .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Item    lex:temConteudo    ".............................................................................................................................................." .
+lex:D10194\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10194    lex:temArtigo    lex:D10194\/Artigo2A .
+lex:D10194\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10194\/Artigo1A    lex:remetePara    lex:D9906 .
+lex:D10194\/Texto00001    lex:remetePara    lex:D9906\/Artigo1 .
+lex:D10194\/Texto00001    lex:remetePara    lex:D9906\/Artigo4 .
+lex:D10194\/Texto00001    lex:remetePara    lex:D9906\/Artigo7 .
+lex:D10194\/Artigo1A\/AlineaCasa    lex:remetePara    lex:D9906\/Artigo8 .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Texto00008    lex:remetePara    lex:D9906\/Artigo8Â§2 .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Texto00008    lex:remetePara    lex:D9906\/Artigo13 .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Texto00008    lex:remetePara    lex:D9906\/Artigo16 .
+lex:D10194\/Artigo1A\/AlineaMinistArio\/Texto00008    lex:remetePara    lex:D9906\/Artigo17Â§1 .

@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9777    lex:ehUm    lex:DocLegal .
+lex:L9777    lex:temTextoIntegral    lex:HTMLs\/L9777.htm .
+lex:L9777\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9777    lex:temArtigo    lex:L9777\/Artigo1 .
+lex:L9777\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 132, 203 e 207 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, passam a vigorar com as seguintes alterações:" .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9777\/Artigo1    lex:temParagrafo    lex:L9777\/Artigo1\/ParagrafoUnico .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A pena é aumentada de um sexto a um terço se a exposição da vida ou da saúde de outrem a perigo decorre do transporte de pessoas para a prestação de serviços em estabelecimentos de qualquer natureza, em desacordo com as normas legais.'" .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoPena    lex:ehUm    lex:ParagrafoPena .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:temParagrafoPena    lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoPena .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoPena    lex:temConteudo    "Pena - detenção de um ano a dois anos, e multa, além da pena correspondente à violência.' (NR)" .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - obriga ou coage alguém a usar mercadorias de determinado estabelecimento, para impossibilitar o desligamento do serviço em virtude de dívida;" .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L9777\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - impede alguém de se desligar de serviços de qualquer natureza, mediante coação ou por meio da retenção de seus documentos pessoais ou contratuais." .
+lex:L9777\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9777\/Artigo1    lex:temParagrafo    lex:L9777\/Artigo1\/Paragrafo2 .
+lex:L9777\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A pena é aumentada de um sexto a um terço se a vítima é menor de dezoito anos, idosa, gestante, indígena ou portadora de deficiência física ou mental.'" .
+lex:L9777\/Artigo1\/Paragrafo2\/ParagrafoPena    lex:ehUm    lex:ParagrafoPena .
+lex:L9777\/Artigo1\/Paragrafo2    lex:temParagrafoPena    lex:L9777\/Artigo1\/Paragrafo2\/ParagrafoPena .
+lex:L9777\/Artigo1\/Paragrafo2\/ParagrafoPena    lex:temConteudo    "Pena - detenção de um a três anos, e multa.'(NR)" .
+lex:L9777\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9777\/Artigo1    lex:temParagrafo    lex:L9777\/Artigo1\/Paragrafo2 .
+lex:L9777\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A pena é aumentada de um sexto a um terço se a vítima é menor de dezoito anos, idosa, gestante, indígena ou portadora de deficiência física ou mental.'" .
+lex:L9777\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9777    lex:temArtigo    lex:L9777\/Artigo2 .
+lex:L9777\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9777\/Artigo1    lex:remetePara    lex:Del2848 .
+lex:L9777\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2848\/Artigo132 .
+lex:L9777\/Artigo1\/Texto00002    lex:remetePara    lex:Del2848\/Artigo203 .
+lex:L9777\/Artigo1\/Texto00006    lex:remetePara    lex:Del2848\/Artigo207 .

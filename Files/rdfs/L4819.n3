@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4819    lex:ehUm    lex:DocLegal .
+lex:L4819    lex:temTextoIntegral    lex:HTMLs\/L4819.htm .
+lex:L4819\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4819    lex:temArtigo    lex:L4819\/Artigo1 .
+lex:L4819\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, pelo Ministério das Relações Exteriores, o crédito especial de Cr$6.749.890 (seis milhões, setecentos e quarenta e nove mil, oitocentos e noventa cruzeiros), para regularização de despesas decorrentes da visita ao Brasil de personalidades ilustres estrangeiras, em 1960." .
+lex:L4819\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4819\/Artigo1    lex:temParagrafo    lex:L4819\/Artigo1\/ParagrafoUnico .
+lex:L4819\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito especial de que trata êste artigo será registrado pelo Tribunal de Contas e distribuído automàticamente ao Tesouro Nacional." .
+lex:L4819\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4819    lex:temArtigo    lex:L4819\/Artigo2 .
+lex:L4819\/Artigo2    lex:temConteudo    "Art. 2º A presente Lei entra em vigor na data de sua publicação." .

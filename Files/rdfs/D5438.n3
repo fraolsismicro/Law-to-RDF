@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5438    lex:ehUm    lex:DocLegal .
+lex:D5438    lex:temTextoIntegral    lex:HTMLs\/D5438.htm .
+lex:D5438\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5438    lex:temArtigo    lex:D5438\/Artigo1 .
+lex:D5438\/Artigo1    lex:temConteudo    "Art. 1o  Fica a Comissão Nacional de Energia Nuclear - CNEN autorizada a vender, na forma do disposto no art. 17 da Lei no 8.666, de 21 de junho de 1993, o terreno denominado 'Campo de Roma', composto pelas seguintes áreas:" .
+lex:D5438\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5438\/Artigo1    lex:temInciso    lex:D5438\/Artigo1\/IncisoI .
+lex:D5438\/Artigo1\/IncisoI    lex:temConteudo    "I - terreno havido da Fundação Abrigo do Cristo Redentor, na Avenida João XXIII, conforme escritura de 24 de fevereiro de 1983, lavrada nas Notas do 14o Ofício, no Livro 3422, fls 89, e Escritura Declaratória de 2 de junho de 1988, lavrada nas Notas do 18o Ofício, no Livro 3858, fls 64, e devidamente registradas no R-15 da Matrícula no 104.323, no Cartório do 4o Ofício de Registro de Imóveis da Cidade do Rio de Janeiro; e" .
+lex:D5438\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5438\/Artigo1    lex:temInciso    lex:D5438\/Artigo1\/IncisoII .
+lex:D5438\/Artigo1\/IncisoII    lex:temConteudo    "II - terreno na freguesia de Santa Cruz, havido por permuta de Empresas Nucleares Brasileiras S.A. - NUCLEBRÁS, conforme escritura de 10 de junho de 1981, lavrada nas Notas do 14o Ofício no Livro 3338, fls 31, Ato 15, na Cidade do Rio de Janeiro." .
+lex:D5438\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5438\/Artigo1    lex:temParagrafo    lex:D5438\/Artigo1\/ParagrafoUnico .
+lex:D5438\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os imóveis referidos nos incisos I e II acham-se inscritos na Prefeitura da Cidade do Rio de Janeiro, sob a matrícula única no 0599406-6." .
+lex:D5438\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5438    lex:temArtigo    lex:D5438\/Artigo2 .
+lex:D5438\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5438\/Artigo1    lex:remetePara    lex:L8666cons\/Artigo17 .

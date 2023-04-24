@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9027    lex:ehUm    lex:DocLegal .
+lex:L9027    lex:temTextoIntegral    lex:HTMLs\/L9027.htm .
+lex:L9027\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9027    lex:temArtigo    lex:L9027\/Artigo1 .
+lex:L9027\/Artigo1    lex:temConteudo    "Art. 1º O art. 5º da Lei nº 7.862, de 30 de outubro de 1989, alterado pelo art. 8º da Lei nº 8.177, de 1º de março de 1991, passa a vigorar com a seguinte redação:" .
+lex:L9027\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9027\/Artigo1    lex:temParagrafo    lex:L9027\/Artigo1\/Paragrafo1 .
+lex:L9027\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os saldos de que trata este artigo, a partir da vigência desta lei, serão remunerados pela taxa média referencial do Sistema Especial de Liquidação e de Custódia (Selic)." .
+lex:L9027\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9027\/Artigo1    lex:temParagrafo    lex:L9027\/Artigo1\/Paragrafo2 .
+lex:L9027\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º ..................................................................." .
+lex:L9027\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9027\/Artigo1    lex:temParagrafo    lex:L9027\/Artigo1\/Paragrafo3 .
+lex:L9027\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Nos exercícios de 1994 e 1995, o valor da remuneração dos saldos diários dos depósitos da União será destinado exclusivamente às despesas com a dívida mobiliária, interna e externa, e dívida externa de responsabilidade do Tesouro Nacional e com a aquisição de garantias da dívida mobiliária externa.'" .
+lex:L9027\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9027    lex:temArtigo    lex:L9027\/Artigo2 .
+lex:L9027\/Artigo2    lex:temConteudo    "Art. 2º Ficam convalidados os atos praticados com base na Medida Provisória nº 893, de 16 de fevereiro de 1995." .
+lex:L9027\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9027    lex:temArtigo    lex:L9027\/Artigo3 .
+lex:L9027\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L9027\/Artigo1    lex:remetePara    lex:L7862\/Artigo5 .
+lex:L9027\/Artigo2    lex:remetePara    lex:893 .

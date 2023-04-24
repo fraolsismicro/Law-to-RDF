@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D84616    lex:ehUm    lex:DocLegal .
+lex:D84616    lex:temTextoIntegral    lex:HTMLs\/D84616.htm .
+lex:D84616\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D84616    lex:temArtigo    lex:D84616\/Artigo1 .
+lex:D84616\/Artigo1    lex:temConteudo    "Art. 1º - A Medalha 'Bartolomeu de Gusmão', cujo uso nos uniformes militares está permitido pelo Decreto de sua criação, número 68.886, de 06 de julho de 1971, fica incluída na letra 'h' do artigo 2º do Decreto número 40.556, de 17 de dezembro de 1956, em seguida à Medalha Mérito Tamandaré." .
+lex:D84616\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D84616    lex:temArtigo    lex:D84616\/Artigo2 .
+lex:D84616\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação." .
+lex:D84616\/Artigo1    lex:remetePara    lex:D40556\/Artigo2 .

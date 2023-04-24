@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D61295    lex:ehUm    lex:DocLegal .
+lex:D61295    lex:temTextoIntegral    lex:HTMLs\/D61295.htm .
+lex:D61295\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D61295    lex:temArtigo    lex:D61295\/Artigo1 .
+lex:D61295\/Artigo1    lex:temConteudo    "Art. 1º É permitido o uso nos uniformes militares da condecoração da 'Ordem de Rio Branco', instituída pelo Decreto nº 51.697, de 5 de fevereiro de 1963." .
+lex:D61295\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D61295    lex:temArtigo    lex:D61295\/Artigo2 .
+lex:D61295\/Artigo2    lex:temConteudo    "Art. 2º Fica incluída nas condecorações relacionadas na letra d do art. 2º Decreto nº 40.556, de 17 de dezembro de 1956, entre a 'Ordem do Mérito Aeronáutico' (A) e a 'Ordem do Mérito Jurídico Militar', a 'Ordem de Rio Branco' a que se refere o presente decreto." .
+lex:D61295\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D61295    lex:temArtigo    lex:D61295\/Artigo3 .
+lex:D61295\/Artigo3    lex:temConteudo    "Art. 3º Êste decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D61295\/Artigo2    lex:remetePara    lex:D40556\/Artigo2 .

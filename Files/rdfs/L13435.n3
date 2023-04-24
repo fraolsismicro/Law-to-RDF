@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13435    lex:ehUm    lex:DocLegal .
+lex:L13435    lex:temTextoIntegral    lex:HTMLs\/L13435.htm .
+lex:L13435\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13435    lex:temArtigo    lex:L13435\/Artigo1 .
+lex:L13435\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído o mês de agosto como o Mês do Aleitamento Materno." .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13435\/Artigo1    lex:temParagrafo    lex:L13435\/Artigo1\/ParagrafoUnico .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No decorrer do mês de agosto serão intensificadas ações intersetoriais de conscientização e esclarecimento sobre a importância do aleitamento materno, como:" .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - realização de palestras e eventos;" .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - divulgação nas diversas mídias;" .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - reuniões com a comunidade;" .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - ações de divulgação em espaços públicos;" .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13435\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:L13435\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - iluminação ou decoração de espaços com a cor dourada." .
+lex:L13435\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13435    lex:temArtigo    lex:L13435\/Artigo2 .
+lex:L13435\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor após decorridos cento e oitenta dias de sua publicação oficial." .

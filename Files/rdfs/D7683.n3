@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7683    lex:ehUm    lex:DocLegal .
+lex:D7683    lex:temTextoIntegral    lex:HTMLs\/D7683.htm .
+lex:D7683\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7683    lex:temArtigo    lex:D7683\/Artigo1 .
+lex:D7683\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D7683\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:D7683\/Artigo1    lex:temParagrafo    lex:D7683\/Artigo1\/Paragrafo10 .
+lex:D7683\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10.  As informações a que se refere o § 8o poderão ser disponibilizadas em formato eletrônico. (NR)" .
+lex:D7683\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7683    lex:temArtigo    lex:D7683\/Artigo2 .
+lex:D7683\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D7683\/Texto00001    lex:revogadoPor    lex:D8325\/Artigo3 .
+lex:D8325\/Artigo3    lex:revogou    lex:D7683\/Texto00001 .
+lex:D7683\/IncisoXVI    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D7683\/IncisoXXII    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D7683\/IncisoXXIV    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D7683\/Paragrafo2    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo2 .
+lex:D7683\/Paragrafo2    lex:remetePara    lex:L4131\/Artigo23 .
+lex:D7683\/Paragrafo2    lex:remetePara    lex:L9069\/Artigo72 .
+lex:D7683\/Artigo1\/Paragrafo10    lex:remetePara    lex:D6306\/Artigo32\/Paragrafo10 .

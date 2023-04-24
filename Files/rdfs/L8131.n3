@@ -1,0 +1,66 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8131    lex:ehUm    lex:DocLegal .
+lex:L8131    lex:temTextoIntegral    lex:HTMLs\/L8131.htm .
+lex:L8131\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo1 .
+lex:L8131\/Artigo1    lex:temConteudo    "Art. 1° Os arts. 144, 159, 163 e 210 do Decreto-Lei n° 7.661, de 21 de junho de 1945, passam a vigorar com a seguinte redação:" .
+lex:L8131\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8131\/Artigo1    lex:temParagrafo    lex:L8131\/Artigo1\/ParagrafoUnico .
+lex:L8131\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Havendo embargos, o devedor, nas quarenta e oito horas seguintes ao vencimento do prazo dos mesmos, poderá apresentar contestação, indicando as provas do alegado." .
+lex:L8131\/Artigo159    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo159 .
+lex:L8131\/Artigo159    lex:temConteudo    "Art. 159. O devedor fundamentará a petição inicial explicando, minuciosamente, o seu estado econômico e as razões que justificam o pedido." .
+lex:L8131\/Artigo159\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoI .
+lex:L8131\/Artigo159\/IncisoI    lex:temConteudo    "I - prova de que não ocorre o impedimento do n° I do art. 140;" .
+lex:L8131\/Artigo159\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoII .
+lex:L8131\/Artigo159\/IncisoII    lex:temConteudo    "II - prova do requisito exigido no n° I do artigo anterior;" .
+lex:L8131\/Artigo159\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoIII .
+lex:L8131\/Artigo159\/IncisoIII    lex:temConteudo    "III - contrato social, ou documento equivalente, em vigor;" .
+lex:L8131\/Artigo159\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoIV .
+lex:L8131\/Artigo159\/IncisoIV    lex:temConteudo    "IV - demonstrações financeiras referentes ao último exercício social e as levantadas especialmente para instruir o pedido, confeccionadas com estrita observância da legislação societária aplicável e composta obrigatoriamente de:" .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco    lex:ehUm    lex:IncisoAlinea .
+lex:L8131\/Artigo159\/IncisoIV    lex:temIncisoAlinea    lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco    lex:temConteudo    "a) balanço patrimonial;" .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao    lex:ehUm    lex:IncisoAlinea .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco    lex:temIncisoAlinea    lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao    lex:temConteudo    "b) demonstração de lucros ou prejuízos acumulados;" .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao\/IncisoAlineaDemonstracao    lex:ehUm    lex:IncisoAlinea .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao    lex:temIncisoAlinea    lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao\/IncisoAlineaDemonstracao .
+lex:L8131\/Artigo159\/IncisoIV\/IncisoAlineaBalanco\/IncisoAlineaDemonstracao\/IncisoAlineaDemonstracao    lex:temConteudo    "c) demonstração do resultado desde o último exercício social;" .
+lex:L8131\/Artigo159\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoV .
+lex:L8131\/Artigo159\/IncisoV    lex:temConteudo    "V - inventário de todos os bens e a relação das dívidas ativas;" .
+lex:L8131\/Artigo159\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoVI .
+lex:L8131\/Artigo159\/IncisoVI    lex:temConteudo    "VI - lista nominativa de todos os credores, com domicílio e residência de cada um, a natureza e o valor dos respectivos créditos;" .
+lex:L8131\/Artigo159\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L8131\/Artigo159    lex:temInciso    lex:L8131\/Artigo159\/IncisoVII .
+lex:L8131\/Artigo159\/IncisoVII    lex:temConteudo    "VII - outros elementos de informação, a critério do órgão do Ministério Público." .
+lex:L8131\/Artigo163    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo163 .
+lex:L8131\/Artigo163    lex:temConteudo    "Art. 163. O despacho que manda processar a concordata preventiva determina o vencimento antecipado de todos os créditos sujeitos aos seus efeitos." .
+lex:L8131\/Artigo210    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo210 .
+lex:L8131\/Artigo210    lex:temConteudo    "Art. 210. O representante do Ministério Público, além das atribuições expressas na presente lei, será ouvido em toda ação proposta pela massa ou contra esta. Caber-lhe-á o dever, em qualquer fase do processo, de requerer o que for necessário aos interesses da justiça, tendo o direito, em qualquer tempo, de examinar todos os livros, papéis e atos relativos à falência ou à concordata'." .
+lex:L8131\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo2 .
+lex:L8131\/Artigo2    lex:temConteudo    "Art. 2° Esta lei entra em vigor na data de sua publicação." .
+lex:L8131\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8131    lex:temArtigo    lex:L8131\/Artigo3 .
+lex:L8131\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:L8131\/Artigo1    lex:remetePara    lex:Del7661 .
+lex:L8131\/Texto00001    lex:remetePara    lex:Del7661\/Artigo144 .
+lex:L8131\/Artigo159    lex:remetePara    lex:Del7661\/Artigo159 .
+lex:L8131\/Artigo163    lex:remetePara    lex:Del7661\/Artigo163 .
+lex:L8131\/Artigo210    lex:remetePara    lex:Del7661\/Artigo210 .

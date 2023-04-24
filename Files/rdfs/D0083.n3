@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0083    lex:ehUm    lex:DocLegal .
+lex:D0083    lex:temTextoIntegral    lex:HTMLs\/D0083.htm .
+lex:D0083\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0083    lex:temArtigo    lex:D0083\/Artigo1 .
+lex:D0083\/Artigo1    lex:temConteudo    "Art. 1° O Acordo de Cooperação Científica e Tecnológica, entre o Governo da República Federativa do Brasil e o Governo da República Islâmica do Paquistão, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0083\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0083    lex:temArtigo    lex:D0083\/Artigo2 .
+lex:D0083\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0083\/Artigo2\/AlineaIntercambio    lex:ehUm    lex:Alinea .
+lex:D0083\/Artigo2    lex:temAlinea    lex:D0083\/Artigo2\/AlineaIntercambio .
+lex:D0083\/Artigo2\/AlineaIntercambio    lex:temConteudo    "a) Intercâmbio de informação científica e tecnológica;" .
+lex:D0083\/Artigo2\/AlineaIntercambio    lex:ehUm    lex:Alinea .
+lex:D0083\/Artigo2    lex:temAlinea    lex:D0083\/Artigo2\/AlineaIntercambio .
+lex:D0083\/Artigo2\/AlineaIntercambio    lex:temConteudo    "b) intercâmbio e treinamento de pessoal científico e técnico;" .
+lex:D0083\/Artigo2\/AlineaImplementacao    lex:ehUm    lex:Alinea .
+lex:D0083\/Artigo2    lex:temAlinea    lex:D0083\/Artigo2\/AlineaImplementacao .
+lex:D0083\/Artigo2\/AlineaImplementacao    lex:temConteudo    "c) implementação conjunta ou coordenada de programas ou projetos de pesquisa científica ou desenvolvimento tecnológico;" .
+lex:D0083\/Artigo2\/AlineaEstabelecimento    lex:ehUm    lex:Alinea .
+lex:D0083\/Artigo2    lex:temAlinea    lex:D0083\/Artigo2\/AlineaEstabelecimento .
+lex:D0083\/Artigo2\/AlineaEstabelecimento    lex:temConteudo    "d) estabelecimento, operação e/ou utilização de instalações científicas e técnicas, e centros experimentais ou de teste, ou de produção-piloto;" .
+lex:D0083\/Artigo2\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D0083\/Artigo2    lex:temAlinea    lex:D0083\/Artigo2\/AlineaQualquer .
+lex:D0083\/Artigo2\/AlineaQualquer    lex:temConteudo    "e) qualquer outra forma de cooperação com a qual concordem as Partes Contratantes. Similarmente, quando pareça apropriado e depois de aprovação conjunta pelas Partes Contratantes, organizações e instituições de um terceiro país ou qualquer organização internacional poderão ser convidadas a participar nos programas, projetos e atividades relativas ao presente Acordo." .

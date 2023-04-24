@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0670    lex:ehUm    lex:DocLegal .
+lex:Del0670    lex:temTextoIntegral    lex:HTMLs\/Del0670.htm .
+lex:Del0670\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0670    lex:temArtigo    lex:Del0670\/Artigo1 .
+lex:Del0670\/Artigo1    lex:temConteudo    "Art. 1º O artigo 1º e o parágrafo único do artigo 4º do Decreto-lei nº 499, de 17 de março de 1969 passam a vigorar com as seguintes redações:" .
+lex:Del0670\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0670    lex:temArtigo    lex:Del0670\/Artigo2 .
+lex:Del0670\/Artigo2    lex:temConteudo    "Art. 2º Fica revogado o artigo 5º do Decreto-lei nº 499, de 17 de março de 1969." .
+lex:Del0670\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0670    lex:temArtigo    lex:Del0670\/Artigo3 .
+lex:Del0670\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor a 1º de outubro de 1969, revogadas as disposições em contrário." .
+lex:Del0670\/Texto00001    lex:remetePara    lex:Del0499\/Artigo1 .
+lex:Del0670\/Texto00001    lex:remetePara    lex:Del0499\/Artigo4 .
+lex:Del0670\/Artigo2    lex:remetePara    lex:Del0499\/Artigo5 .

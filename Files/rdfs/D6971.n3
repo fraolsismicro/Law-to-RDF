@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6971    lex:ehUm    lex:DocLegal .
+lex:D6971    lex:temTextoIntegral    lex:HTMLs\/D6971.htm .
+lex:D6971\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6971    lex:temArtigo    lex:D6971\/Artigo1 .
+lex:D6971\/Artigo1    lex:temConteudo    "Art. 1 º  O art. 2 º do Decreto n º 6.065, de 21 de março de 2007, passa a vigorar com a seguinte redação:" .
+lex:D6971\/Artigo1\/IncisoXX    lex:ehUm    lex:Inciso .
+lex:D6971\/Artigo1    lex:temInciso    lex:D6971\/Artigo1\/IncisoXX .
+lex:D6971\/Artigo1\/IncisoXX    lex:temConteudo    "XX - um representante do conjunto de empresas prestadoras de serviços em meteorologia e climatologia, indicado pelo Conselho Federal de Engenharia, Arquitetura e Agronomia;" .
+lex:D6971\/Artigo1\/IncisoXXI    lex:ehUm    lex:Inciso .
+lex:D6971\/Artigo1    lex:temInciso    lex:D6971\/Artigo1\/IncisoXXI .
+lex:D6971\/Artigo1\/IncisoXXI    lex:temConteudo    "XXI - um representante das indústrias de partes, de equipamentos e de sistemas de uso em meteorologia, climatologia e hidrologia, indicado pela Confederação Nacional das Indústrias; e" .
+lex:D6971\/Artigo1\/IncisoXXII    lex:ehUm    lex:Inciso .
+lex:D6971\/Artigo1    lex:temInciso    lex:D6971\/Artigo1\/IncisoXXII .
+lex:D6971\/Artigo1\/IncisoXXII    lex:temConteudo    "XXII - um representante do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM." .
+lex:D6971\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6971\/Artigo1    lex:temParagrafo    lex:D6971\/Artigo1\/Paragrafo2 .
+lex:D6971\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  Os representantes, titulares e suplentes, de que tratam os incisos IV a XV e XX a XXII, serão indicados pelos titulares dos respectivos órgãos e entidades, e designados pelo Ministro de Estado da Ciência e Tecnologia." .
+lex:D6971\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6971    lex:temArtigo    lex:D6971\/Artigo2 .
+lex:D6971\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6971\/Texto00001    lex:remetePara    lex:D6065\/Artigo2 .
+lex:D6971\/Artigo1\/Paragrafo2    lex:remetePara    lex:D6065\/Artigo2\/Paragrafo2 .

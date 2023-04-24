@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9857    lex:ehUm    lex:DocLegal .
+lex:D9857    lex:temTextoIntegral    lex:HTMLs\/D9857.htm .
+lex:D9857\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9857    lex:temArtigo    lex:D9857\/Artigo1A .
+lex:D9857\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 7.970, de 28 de marÃ§o de 2013, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9857\/Artigo1A\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D9857\/Artigo1A    lex:temAlinea    lex:D9857\/Artigo1A\/AlineaDe .
+lex:D9857\/Artigo1A\/AlineaDe    lex:temConteudo    "a) de bens, de serviÃ§os, de obras ou de informaÃ§Ãµes como Produto de Defesa - PRODE, nos termos do inciso I do caput do art. 2Âº da Lei nÂº 12.598, de 2012;" .
+lex:D9857\/Artigo1A\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D9857\/Artigo1A    lex:temAlinea    lex:D9857\/Artigo1A\/AlineaDe .
+lex:D9857\/Artigo1A\/AlineaDe    lex:temConteudo    "b) de PRODE como Produto EstratÃ©gico de Defesa - PED, nos termos do inciso II do caput do art. 2Âº da Lei nÂº 12.598, de 2012; e" .
+lex:D9857\/Artigo1A\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D9857\/Artigo1A    lex:temAlinea    lex:D9857\/Artigo1A\/AlineaDe .
+lex:D9857\/Artigo1A\/AlineaDe    lex:temConteudo    "c) de conjunto inter-relacionado ou interativo de PRODE como Sistema de Defesa - SD, nos termos do inciso III do caput do art. 2Âº da Lei nÂº 12.598, de 2012;" .
+lex:D9857\/Artigo1A\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D9857\/Artigo1A    lex:temAlinea    lex:D9857\/Artigo1A\/AlineaO .
+lex:D9857\/Artigo1A\/AlineaO    lex:temConteudo    "a) o credenciamento de empresa de defesa como Empresa EstratÃ©gica de Defesa - EED, nos termos do inciso IV do caput do art. 2Âº da Lei nÂº 12.598, de 2012; e" .
+lex:D9857\/Artigo1A\/AlineaPolAticas    lex:ehUm    lex:Alinea .
+lex:D9857\/Artigo1A    lex:temAlinea    lex:D9857\/Artigo1A\/AlineaPolAticas .
+lex:D9857\/Artigo1A\/AlineaPolAticas    lex:temConteudo    "b) polÃ­ticas e orientaÃ§Ãµes sobre os processos de aquisiÃ§Ã£o, de importaÃ§Ã£o e de financiamento de que tratam os art. 3Âº, art. 4Âº e art. 6Âº da Lei nÂº 12.598, de 2012; e" .
+lex:D9857\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9857    lex:temArtigo    lex:D9857\/Artigo2A .
+lex:D9857\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os Â§ 1Âº, Â§ 2Âº, Â§ 3Âº, Â§ 4Âº e Â§ 5Âº do art. 2Âº do Decreto nÂº 7.970, de 2013." .
+lex:D9857\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9857    lex:temArtigo    lex:D9857\/Artigo3A .
+lex:D9857\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D9857\/Artigo1A    lex:remetePara    lex:D7970 .
+lex:D9857\/Texto00001    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/AlineaDe    lex:remetePara    lex:L12598\/Artigo2 .
+lex:D9857\/Artigo1A\/AlineaDe    lex:remetePara    lex:L12598\/Artigo2 .
+lex:D9857\/Artigo1A\/AlineaDe    lex:remetePara    lex:L12598\/Artigo2 .
+lex:D9857\/Artigo1A\/AlineaO    lex:remetePara    lex:L12598\/Artigo2 .
+lex:D9857\/Artigo1A\/AlineaPolAticas    lex:remetePara    lex:L12598\/Artigo3 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo2 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo30 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo7Â§20 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo7Â§60 .
+lex:D9857\/Artigo1A\/Texto00006    lex:remetePara    lex:D7970\/Artigo100 .
+lex:D9857\/Artigo2A    lex:remetePara    lex:D7970\/Artigo2Â§1 .

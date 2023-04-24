@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8794    lex:ehUm    lex:DocLegal .
+lex:D8794    lex:temTextoIntegral    lex:HTMLs\/D8794.htm .
+lex:D8794\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8794    lex:temArtigo    lex:D8794\/Artigo1 .
+lex:D8794\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 5.209, de 17 de setembro de 2004, passa a vigorar com as seguintes alterações:" .
+lex:D8794\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8794\/Artigo1    lex:temInciso    lex:D8794\/Artigo1\/IncisoI .
+lex:D8794\/Artigo1\/IncisoI    lex:temConteudo    "I - benefício básico, no valor mensal de R$ 85,00 (oitenta e cinco reais), destinado a unidades familiares que se encontrem em situação de extrema pobreza;" .
+lex:D8794\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8794\/Artigo1    lex:temInciso    lex:D8794\/Artigo1\/IncisoII .
+lex:D8794\/Artigo1\/IncisoII    lex:temConteudo    "II - benefício variável, no valor mensal de R$ 39,00 (trinta e nove reais) por beneficiário, até o limite de R$ 195,00 (cento e noventa e cinco reais) por família, destinado a unidades familiares que se encontrem em situação de pobreza ou extrema pobreza e que tenham em sua composição:" .
+lex:D8794\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8794\/Artigo1    lex:temInciso    lex:D8794\/Artigo1\/IncisoIII .
+lex:D8794\/Artigo1\/IncisoIII    lex:temConteudo    "III - benefício variável vinculado ao adolescente, no valor mensal de R$ 46,00 (quarenta e seis reais) por beneficiário, até o limite de R$ 92,00 (noventa e dois reais) por família, destinado a unidades familiares que se encontrem em situação de pobreza ou extrema pobreza e que tenham em sua composição adolescentes com idade de dezesseis a dezessete anos matriculados em estabelecimentos de ensino;" .
+lex:D8794\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8794\/Artigo1    lex:temInciso    lex:D8794\/Artigo1\/IncisoV .
+lex:D8794\/Artigo1\/IncisoV    lex:temConteudo    "V - benefício para superação da extrema pobreza, cujo valor será calculado na forma do § 3o, no limite de um por família, destinado às unidades familiares beneficiárias do Programa Bolsa Família que apresentem soma da renda familiar mensal e dos benefícios financeiros previstos nos incisos I a III do caput igual ou inferior a R$ 85,00 (oitenta e cinco reais) per capita." .
+lex:D8794\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8794\/Artigo1    lex:temParagrafo    lex:D8794\/Artigo1\/Paragrafo3 .
+lex:D8794\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  O valor do benefício para superação da extrema pobreza será o resultado da diferença entre R$ 85,01 (oitenta e cinco reais e um centavo) e a soma per capita referida no inciso V do caput, multiplicado pela quantidade de membros da família, arredondado ao múltiplo de R$ 2,00 (dois reais) imediatamente superior. (NR)" .
+lex:D8794\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8794    lex:temArtigo    lex:D8794\/Artigo2 .
+lex:D8794\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto no 7.492, de 2 de junho de 2011, passa a vigorar com as seguintes alterações:" .
+lex:D8794\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8794\/Artigo2    lex:temParagrafo    lex:D8794\/Artigo2\/ParagrafoUnico .
+lex:D8794\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para efeito deste Decreto considera-se em extrema pobreza aquela população com renda familiar per capita mensal de até R$ 85,00 (oitenta e cinco reais). (NR)" .
+lex:D8794\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8794    lex:temArtigo    lex:D8794\/Artigo3 .
+lex:D8794\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação, com efeitos financeiros a partir de 1 º de julho de 2016." .
+lex:D8794\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8794    lex:temArtigo    lex:D8794\/Artigo4 .
+lex:D8794\/Artigo4    lex:temConteudo    "Art. 4º  Fica revogado o Decreto n º 8.747, de 5 de maio de 2016." .
+lex:D8794\/Artigo1    lex:remetePara    lex:D5209 .
+lex:D8794\/Texto00001    lex:remetePara    lex:D5209\/Artigo18 .
+lex:D8794\/Artigo1\/IncisoI    lex:remetePara    lex:D5209\/Artigo19 .
+lex:D8794\/Artigo1\/IncisoII    lex:remetePara    lex:D5209\/Artigo19 .
+lex:D8794\/Artigo1\/IncisoIII    lex:remetePara    lex:D5209\/Artigo19 .
+lex:D8794\/Artigo1\/IncisoV    lex:remetePara    lex:D5209\/Artigo19 .
+lex:D8794\/Artigo1\/Paragrafo3    lex:remetePara    lex:D5209\/Artigo19\/Paragrafo3 .
+lex:D8794\/Artigo2    lex:remetePara    lex:D7492 .
+lex:D8794\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:D7492\/Artigo2 .
+lex:D8794\/Artigo4    lex:remetePara    lex:D8747 .

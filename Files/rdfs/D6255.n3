@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6255    lex:ehUm    lex:DocLegal .
+lex:D6255    lex:temTextoIntegral    lex:HTMLs\/D6255.htm .
+lex:D6255\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6255    lex:temArtigo    lex:D6255\/Artigo1 .
+lex:D6255\/Artigo1    lex:temConteudo    "Art. 1º  Os arts. 12, 16 e 18 do Anexo ao Decreto nº 4.853, de 6 de outubro de 2003, passam a vigorar com a seguinte redação:" .
+lex:D6255\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6255\/Artigo1    lex:temParagrafo    lex:D6255\/Artigo1\/ParagrafoUnico .
+lex:D6255\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para ser promovido pelos critérios de antigüidade e de merecimento é imprescindível que o graduado esteja incluído em QA. (NR)" .
+lex:D6255\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6255\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D6255\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D6255\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - na ordem do resultado final de pontos apurados, resultante da soma algébrica do total de pontos da Ficha de Valorização do Mérito, pontos da avaliação na graduação e do total de pontos apurados pela Comissão de Promoções de Sargentos   CPS, para a constituição de QAM." .
+lex:D6255\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6255\/Artigo1    lex:temParagrafo    lex:D6255\/Artigo1\/Paragrafo1 .
+lex:D6255\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º  Os limites para organização dos QA são fixados pelo Comandante do Exército, por proposta do EME." .
+lex:D6255\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6255\/Artigo1    lex:temParagrafo    lex:D6255\/Artigo1\/Paragrafo2 .
+lex:D6255\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  O total de pontos da Ficha de Valorização do Mérito do militar corresponde aos eventos ocorridos e publicados até a data do encerramento das alterações, prevista em calendário, fixado pelo Comandante do Exército, para o processamento das promoções." .
+lex:D6255\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6255\/Artigo1    lex:temParagrafo    lex:D6255\/Artigo1\/Paragrafo3 .
+lex:D6255\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º  Os pontos referentes à avaliação na graduação correspondem à média dos valores das Fichas de Avaliação emitidas e processadas após a última promoção do militar, convertida mediante a aplicação de fator de multiplicação fixado pelo Comandante do Exército. (NR)" .
+lex:D6255\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6255\/Artigo1    lex:temParagrafo    lex:D6255\/Artigo1\/ParagrafoUnico .
+lex:D6255\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As alterações de situação que impliquem pontuação na Ficha de Valorização do Mérito do militar somente são consideradas, para o resultado final de pontos apurados no QAM, se ocorridas e publicadas até a data do encerramento das alterações, prevista em calendário, fixado pelo Comandante do Exército, para o processamento das promoções, conforme disposto no § 2o do art. 16 deste Regulamento. (NR)" .
+lex:D6255\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6255    lex:temArtigo    lex:D6255\/Artigo2 .
+lex:D6255\/Artigo2    lex:temConteudo    "Art. 2º  Este Decreto entra em vigor no dia 2 de dezembro de 2007." .
+lex:D6255\/Artigo1    lex:remetePara    lex:D4853 .
+lex:D6255\/Texto00001    lex:remetePara    lex:D4853\/Artigo12 .
+lex:D6255\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:remetePara    lex:D4853\/Artigo16 .
+lex:D6255\/Artigo1\/Texto00006    lex:remetePara    lex:D4853\/Artigo18 .

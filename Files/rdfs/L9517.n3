@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9517    lex:ehUm    lex:DocLegal .
+lex:L9517    lex:temTextoIntegral    lex:HTMLs\/L9517.htm .
+lex:L9517\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9517    lex:temArtigo    lex:L9517\/Artigo1 .
+lex:L9517\/Artigo1    lex:temConteudo    "Art 1º - Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 9.438, de 26 de fevereiro de 1997), em favor do Ministério de Minas e Energia, crédito suplementar no valor de R$26.897.396,00 (vinte e seis milhões, oitocentos e noventa e sete mil, trezentos e noventa e seis reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L9517\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9517    lex:temArtigo    lex:L9517\/Artigo2 .
+lex:L9517\/Artigo2    lex:temConteudo    "Art 2º - Os recursos necessários à execução do disposto no artigo anterior decorrerão da incorporação de:" .
+lex:L9517\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9517\/Artigo2    lex:temInciso    lex:L9517\/Artigo2\/IncisoI .
+lex:L9517\/Artigo2\/IncisoI    lex:temConteudo    "I - superávit financeiro do Tesouro Nacional, referente a receitas vinculadas, apurado no balanço patrimonial do exercício de 1996, no montante de R$11.298.606,00 (onze milhões, duzentos e noventa e oito mil, seiscentos e seis reais);" .
+lex:L9517\/Artigo2\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:L9517\/Artigo2    lex:temInciso    lex:L9517\/Artigo2\/IncisoIl .
+lex:L9517\/Artigo2\/IncisoIl    lex:temConteudo    "Il - excesso de arrecadação de receitas vinculadas, no valor de R$15.598.790,00 (quinze milhões, quinhentos e noventa e oito mil, setecentos e noventa reais)." .
+lex:L9517\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9517    lex:temArtigo    lex:L9517\/Artigo3 .
+lex:L9517\/Artigo3    lex:temConteudo    "Art 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L9517\/Artigo1    lex:remetePara    lex:L9438 .

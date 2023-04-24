@@ -1,0 +1,74 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7004    lex:ehUm    lex:DocLegal .
+lex:L7004    lex:temTextoIntegral    lex:HTMLs\/L7004.htm .
+lex:L7004\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo1 .
+lex:L7004\/Artigo1    lex:temConteudo    "Art. 1º - É instituído o Programa de Previdência Social aos Estudantes, nas condições estabelecidas na presente Lei." .
+lex:L7004\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo2 .
+lex:L7004\/Artigo2    lex:temConteudo    "Art. 2º - Considera-se estudante, para os efeitos desta Lei, aquele ainda não incluído entre os segurados obrigatórios da Previdência Social e que esteja matriculado em estabelecimento de ensino de 1º e 2º graus, em cursos universitários ou de formação profissional, devidamente reconhecidos ou autorizados pelos competentes órgãos do Poder Executivo Federal ou Estadual." .
+lex:L7004\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo3 .
+lex:L7004\/Artigo3    lex:temConteudo    "Art. 3º - O ingresso no Programa instituído por esta Lei será feito facultativamente pelo estudante, ainda que dependente de segurado obrigatório de qualquer regime de previdência." .
+lex:L7004\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7004\/Artigo3    lex:temParagrafo    lex:L7004\/Artigo3\/Paragrafo1 .
+lex:L7004\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º - O segurado-estudante poderá manter esta qualidade por um período de 12 (doze) meses, após a conclusão dos cursos a que se refere o artigo anterior, desde que permaneça em dia com o recolhimento de suas contribuições." .
+lex:L7004\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7004\/Artigo3    lex:temParagrafo    lex:L7004\/Artigo3\/Paragrafo2 .
+lex:L7004\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º - O segurado-estudante perderá esta qualidade se deixar de recolher 3 (três) contribuições mensais consecutivas, sendo-lhe permitido reingresso, nas mesmas condições estabelecidas nesta Lei." .
+lex:L7004\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo4 .
+lex:L7004\/Artigo4    lex:temConteudo    "Art. 4º - As prestações garantidas ao segurado-estudante compreendem os seguintes benefícios e serviços:" .
+lex:L7004\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7004\/Artigo4    lex:temInciso    lex:L7004\/Artigo4\/IncisoI .
+lex:L7004\/Artigo4\/IncisoI    lex:temConteudo    "I - benefícios:" .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez    lex:ehUm    lex:IncisoAlinea .
+lex:L7004\/Artigo4\/IncisoI    lex:temIncisoAlinea    lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez    lex:temConteudo    "a) auxílio-invalidez;" .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao    lex:ehUm    lex:IncisoAlinea .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez    lex:temIncisoAlinea    lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao    lex:temConteudo    "b) pensão;" .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao\/IncisoAlineaPeculio    lex:ehUm    lex:IncisoAlinea .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao    lex:temIncisoAlinea    lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao\/IncisoAlineaPeculio .
+lex:L7004\/Artigo4\/IncisoI\/IncisoAlineaAuxilio-invalidez\/IncisoAlineaPensao\/IncisoAlineaPeculio    lex:temConteudo    "c) pecúlio por morte;" .
+lex:L7004\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L7004\/Artigo4    lex:temInciso    lex:L7004\/Artigo4\/IncisoII .
+lex:L7004\/Artigo4\/IncisoII    lex:temConteudo    "II - serviços:" .
+lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia    lex:ehUm    lex:IncisoAlinea .
+lex:L7004\/Artigo4\/IncisoII    lex:temIncisoAlinea    lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia .
+lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia    lex:temConteudo    "a) assistência médica;" .
+lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia\/IncisoAlineaReabilitacao    lex:ehUm    lex:IncisoAlinea .
+lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia    lex:temIncisoAlinea    lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia\/IncisoAlineaReabilitacao .
+lex:L7004\/Artigo4\/IncisoII\/IncisoAlineaAssistencia\/IncisoAlineaReabilitacao    lex:temConteudo    "b) reabilitação." .
+lex:L7004\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo5 .
+lex:L7004\/Artigo5    lex:temConteudo    "Art. 5º - O auxílio-invalidez consistirá numa prestação mensal equivalente a 50% (cinqüenta por cento) do salário-mínimo regional e será devido ao estudante vítima de enfermidade ou lesão orgânica que o incapacite, totalmente, para a atividade estudantil ou para ingresso em atividade laboral." .
+lex:L7004\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo6 .
+lex:L7004\/Artigo6    lex:temConteudo    "Art. 6º - A pensão consistirá numa prestação mensal equivalente a 50% (cinqüenta por cento) do salário-mínimo regional e será concedida pela morte do pai ou responsável pela manutenção dos estudos, declarado na ocasião da inscrição, até o término do curso ou o ingresso em atividade laboral vinculada a sistema de previdência social obrigatório." .
+lex:L7004\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo7 .
+lex:L7004\/Artigo7    lex:temConteudo    "Art. 7º - O pecúlio por morte consistirá num pagamento único, no valor de 2 (dois) salários-mínimos regionais, e será devido pela morte do pai ou responsável pela manutenção dos estudos, declarado na ocasião da inscrição." .
+lex:L7004\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo8 .
+lex:L7004\/Artigo8    lex:temConteudo    "Art. 8º - A assistência médica e a reabilitação serão concedidas nas mesmas bases e condições vigentes para os segurados da Previdência Social em geral, de acordo com o sistema instituído pela Lei nº 6.439, de 1º de setembro de 1977, salvo quanto aos períodos de carência." .
+lex:L7004\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo9 .
+lex:L7004\/Artigo9    lex:temConteudo    "Art. 9º - O direito às prestações previstas nesta Lei fica sujeito ao prazo de carência de 6 (seis) meses para a assistência médica e reabilitação e de 12 (doze) meses para os benefícios." .
+lex:L7004\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo10 .
+lex:L7004\/Artigo10    lex:temConteudo    "Art. 10 - O custeio do programa ora instituído será atendido pela contribuição de 8,5% (oito e meio por cento) do salário-mínimo regional." .
+lex:L7004\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo11 .
+lex:L7004\/Artigo11    lex:temConteudo    "Art. 11 - O tempo de vinculação ao Programa de Previdência Social aos Estudantes não será considerado para efeito dos regimes de Previdência Social urbana e rural." .
+lex:L7004\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L7004    lex:temArtigo    lex:L7004\/Artigo12 .
+lex:L7004\/Artigo12    lex:temConteudo    "Art. 12 - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7004\/Artigo8    lex:remetePara    lex:L6439 .

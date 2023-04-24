@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12837    lex:ehUm    lex:DocLegal .
+lex:L12837    lex:temTextoIntegral    lex:HTMLs\/L12837.htm .
+lex:L12837\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo1 .
+lex:L12837\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o da Lei no 6.704, de 26 de outubro de 1979, passa a vigorar com as seguintes alterações:" .
+lex:L12837\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12837\/Artigo1    lex:temParagrafo    lex:L12837\/Artigo1\/Paragrafo1 .
+lex:L12837\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O Seguro de Crédito à Exportação poderá ser utilizado por exportadores, instituições financeiras e agências de crédito à exportação que financiarem, refinanciarem ou garantirem a produção de bens e a prestação de serviços, destinados à exportação brasileira, e as exportações brasileiras de bens e serviços." .
+lex:L12837\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12837\/Artigo1    lex:temParagrafo    lex:L12837\/Artigo1\/Paragrafo2 .
+lex:L12837\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Nas operações destinadas ao setor aeronáutico em que a análise do risco recair sobre pessoa jurídica diversa do devedor da operação de crédito à exportação, o Seguro de Crédito à Exportação poderá garantir os riscos comerciais, políticos e extraordinários a ela relacionados, conforme dispuser o regulamento desta Lei. (NR)" .
+lex:L12837\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo2 .
+lex:L12837\/Artigo2    lex:temConteudo    "Art. 2o  O § 3o do art. 8o da Lei no 11.494, de 20 de junho de 2007, passa a vigorar com a seguinte redação:" .
+lex:L12837\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12837\/Artigo2    lex:temParagrafo    lex:L12837\/Artigo2\/Paragrafo3 .
+lex:L12837\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Será admitido, até 31 de dezembro de 2016, o cômputo das matrículas das pré-escolas, comunitárias, confessionais ou filantrópicas, sem fins lucrativos, conveniadas com o poder público e que atendam a crianças de 4 (quatro) a 5 (cinco) anos, observadas as condições previstas nos incisos I a V do § 2o, efetivadas, conforme o censo escolar mais atualizado, realizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - INEP." .
+lex:L12837\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo3 .
+lex:L12837\/Artigo3    lex:temConteudo    "Art. 3o  O § 3o do art. 29 da Lei no 12.715, de 17 de setembro de 2012, passa a vigorar com a seguinte redação:" .
+lex:L12837\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12837\/Artigo3    lex:temParagrafo    lex:L12837\/Artigo3\/Paragrafo3 .
+lex:L12837\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o  O projeto de que trata o caput deverá ser apresentado ao Ministério das Comunicações até o dia 30 de junho de 2014." .
+lex:L12837\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo4 .
+lex:L12837\/Artigo4    lex:temConteudo    "Art. 4o  (VETADO)." .
+lex:L12837\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo5 .
+lex:L12837\/Artigo5    lex:temConteudo    "Art. 5o  (VETADO)." .
+lex:L12837\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L12837    lex:temArtigo    lex:L12837\/Artigo6 .
+lex:L12837\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12837\/Texto    lex:remetePara    lex:mpv606 .
+lex:L12837\/Artigo1    lex:remetePara    lex:L6704 .
+lex:L12837\/Artigo1\/Paragrafo1    lex:remetePara    lex:L6704\/Artigo1\/Paragrafo1 .
+lex:L12837\/Artigo2    lex:remetePara    lex:L11494 .
+lex:L12837\/Artigo2\/Paragrafo3    lex:remetePara    lex:L11494\/Artigo8\/Paragrafo3 .
+lex:L12837\/Artigo3    lex:remetePara    lex:L12715 .
+lex:L12837\/Artigo3\/Paragrafo3    lex:remetePara    lex:L12715\/Artigo29\/Paragrafo3 .
+lex:L12837\/Artigo3\/Paragrafo3    lex:remetePara    lex:L12715\/Artigo29\/Paragrafo3 .

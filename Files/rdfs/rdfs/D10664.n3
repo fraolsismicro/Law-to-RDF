@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10664    lex:ehUm    lex:DocLegal .
+lex:D10664    lex:temTextoIntegral    lex:HTMLs\/D10664.htm .
+lex:D10664\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10664    lex:temArtigo    lex:D10664\/Artigo1A .
+lex:D10664\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 8.139, de 7 de novembro de 2013, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10664\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10664    lex:temArtigo    lex:D10664\/Artigo2A .
+lex:D10664\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Decreto nÂº 10.312, de 4 de abril de 2020, passa a vigorar com as seguintes alteraÃ§Ãµes:   (Revogado pelo Decreto nÂº 11.026, de 2022)" .
+lex:D10664\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10664    lex:temArtigo    lex:D10664\/Artigo3A .
+lex:D10664\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10664\/Artigo1A    lex:remetePara    lex:D8139 .
+lex:D10664\/Texto00001    lex:remetePara    lex:D8139\/Artigo2Â§10 .
+lex:D10664\/Texto00001    lex:remetePara    lex:D8139\/Artigo2Â§20 .
+lex:D10664\/Texto00001    lex:remetePara    lex:D8139\/Artigo3Â§30 .
+lex:D10664\/Texto00001    lex:remetePara    lex:D8139\/Artigo40 .
+lex:D10664\/Texto00001    lex:remetePara    lex:D8139\/Artigo4Â§10 .
+lex:D10664\/Artigo2A    lex:remetePara    lex:D10312 .
+lex:D10664\/Artigo2A    lex:revogadoPor    lex:D11026\/Artigo2 .
+lex:D11026\/Artigo2    lex:revogou    lex:D10664\/Artigo2A .

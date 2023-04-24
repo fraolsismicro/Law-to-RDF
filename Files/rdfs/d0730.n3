@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:d0730    lex:ehUm    lex:DocLegal .
+lex:d0730    lex:temTextoIntegral    lex:HTMLs\/d0730.htm .
+lex:d0730\/Artigo1    lex:ehUm    lex:Artigo .
+lex:d0730    lex:temArtigo    lex:d0730\/Artigo1 .
+lex:d0730\/Artigo1    lex:temConteudo    "Art. 1° A letra j do art. 1° do Decreto n° 92.503, de 26 de março de 1986, passa a ter a seguinte redação:" .
+lex:d0730\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:d0730\/Artigo1    lex:temAlinea    lex:d0730\/Artigo1\/Alinea .
+lex:d0730\/Artigo1\/Alinea    lex:temConteudo    "a) ................................................................." .
+lex:d0730\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:d0730\/Artigo1    lex:temAlinea    lex:d0730\/Artigo1\/AlineaDo .
+lex:d0730\/Artigo1\/AlineaDo    lex:temConteudo    "j) Do posto de General-de-Brigada Médico:" .
+lex:d0730\/Artigo2    lex:ehUm    lex:Artigo .
+lex:d0730    lex:temArtigo    lex:d0730\/Artigo2 .
+lex:d0730\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:d0730\/Artigo3    lex:ehUm    lex:Artigo .
+lex:d0730    lex:temArtigo    lex:d0730\/Artigo3 .
+lex:d0730\/Artigo3    lex:temConteudo    "Art. 3° Ficam revogadas as demais disposições em contrário." .

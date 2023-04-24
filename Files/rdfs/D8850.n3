@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8850    lex:ehUm    lex:DocLegal .
+lex:D8850    lex:temTextoIntegral    lex:HTMLs\/D8850.htm .
+lex:D8850\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8850    lex:temInciso    lex:D8850\/IncisoI .
+lex:D8850\/IncisoI    lex:temConteudo    "I - dois DAS 102.5;           (Revogado pelo Decreto nº 9.038, de 2017         (Vigência)" .
+lex:D8850\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8850    lex:temInciso    lex:D8850\/IncisoII .
+lex:D8850\/IncisoII    lex:temConteudo    "II - dois DAS 102.4;           (Revogado pelo Decreto nº 9.038, de 2017         (Vigência)" .
+lex:D8850\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8850    lex:temInciso    lex:D8850\/IncisoIII .
+lex:D8850\/IncisoIII    lex:temConteudo    "III - dois DAS 102.2; e           (Revogado pelo Decreto nº 9.038, de 2017         (Vigência)" .
+lex:D8850\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8850    lex:temInciso    lex:D8850\/IncisoIV .
+lex:D8850\/IncisoIV    lex:temConteudo    "IV - dois DAS 102.1.            (Revogado pelo Decreto nº 9.038, de 2017         (Vigência)" .
+lex:D8850\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8850    lex:temArtigo    lex:D8850\/Artigo2 .
+lex:D8850\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo II ao Decreto no 8.579, de 26 de novembro de 2015, passa a vigorar com as alterações constantes do Anexo II a este Decreto.            (Revogado pelo Decreto nº 9.038, de 2017         (Vigência)" .
+lex:D8850\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8850    lex:temArtigo    lex:D8850\/Artigo3 .
+lex:D8850\/Artigo3    lex:temConteudo    "Art. 3o  Ficam restituídos à Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão os cargos em comissão de que trata o Decreto no 8.796, de 30 de junho de 2016, e seus ocupantes, automaticamente, exonerados.      (Vigência)" .
+lex:D8850\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8850    lex:temArtigo    lex:D8850\/Artigo4 .
+lex:D8850\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor:" .
+lex:D8850\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8850\/Artigo4    lex:temInciso    lex:D8850\/Artigo4\/IncisoI .
+lex:D8850\/Artigo4\/IncisoI    lex:temConteudo    "I - um dia após a data de sua publicação, quanto aos art. 3o  e art. 5o; e" .
+lex:D8850\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8850\/Artigo4    lex:temInciso    lex:D8850\/Artigo4\/IncisoII .
+lex:D8850\/Artigo4\/IncisoII    lex:temConteudo    "II - na data de sua publicação, quanto aos demais dispositivos." .
+lex:D8850\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8850    lex:temArtigo    lex:D8850\/Artigo5 .
+lex:D8850\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogado o Decreto nº 8.796, de 30 de junho de 2016.       (Vigência)" .
+lex:D8850\/Artigo1    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/Artigo1 .
+lex:D8850\/Artigo1    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/IncisoI    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/IncisoI .
+lex:D8850\/IncisoI    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/IncisoII    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/IncisoII .
+lex:D8850\/IncisoII    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/IncisoIII    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/IncisoIII .
+lex:D8850\/IncisoIII    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/IncisoIV    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/IncisoIV .
+lex:D8850\/IncisoIV    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/Artigo2    lex:remetePara    lex:D8579\/ .
+lex:D8850\/Artigo2    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8850\/Artigo2 .
+lex:D8850\/Artigo2    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8850\/Artigo3    lex:remetePara    lex:D8796 .
+lex:D8850\/Artigo5    lex:remetePara    lex:D8796 .

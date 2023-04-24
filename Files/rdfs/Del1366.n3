@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1366    lex:ehUm    lex:DocLegal .
+lex:Del1366    lex:temTextoIntegral    lex:HTMLs\/Del1366.htm .
+lex:Del1366\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1366    lex:temArtigo    lex:Del1366\/Artigo1 .
+lex:Del1366\/Artigo1    lex:temConteudo    "Art. 1º As Posições 88.01, 88.02 e 88.03, da Tarifa Aduaneira do Brasil em vigor, passam a vigorar com a redação, alíquotas e pautas de valor mínimo seguintes:" .
+lex:Del1366\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1366\/Artigo1    lex:temParagrafo    lex:Del1366\/Artigo1\/ParagrafoUnico .
+lex:Del1366\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Conselho de Política Aduaneira, dentro dos limites de sua competência prevista na legislação específica, poderá alterar a redação, as alíquotas e as pautas de valor mínimo estabelecidas neste artigo." .
+lex:Del1366\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1366    lex:temArtigo    lex:Del1366\/Artigo2 .
+lex:Del1366\/Artigo2    lex:temConteudo    "Art. 2º Fica revogada a Lei nº 5.618, de 3 de novembro de 1970." .
+lex:Del1366\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1366    lex:temArtigo    lex:Del1366\/Artigo3 .
+lex:Del1366\/Artigo3    lex:temConteudo    "Art. 3º Fica assegurado o despacho aduaneiro, com tratamento fiscal, anterior, à mercadoria embargada no exterior até a data de entrada em vigor deste Decreto-lei." .
+lex:Del1366\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1366    lex:temArtigo    lex:Del1366\/Artigo4 .
+lex:Del1366\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação e vigerá até 31 de dezembro de 1976, revogadas as disposições em contrário." .
+lex:Del1366\/Artigo2    lex:remetePara    lex:L5618 .

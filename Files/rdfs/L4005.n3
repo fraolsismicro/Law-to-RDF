@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4005    lex:ehUm    lex:DocLegal .
+lex:L4005    lex:temTextoIntegral    lex:HTMLs\/L4005.htm .
+lex:L4005\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4005    lex:temArtigo    lex:L4005\/Artigo1 .
+lex:L4005\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado pelo prazo de mais um exercício, a vigência da Lei nº 3.798, de 2 de agôsto de 1960, que abre um crédito especial de Cr$ 1.726.000.000,00 (hum bilhão, setecentos e vinte e seis milhões de cruzeiros), destinado à modernização e desenvolvimento dos serviços de segurança e proteção ao vôo, a cargo da Diretoria de Rotas Aéreas." .
+lex:L4005\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4005    lex:temArtigo    lex:L4005\/Artigo2 .
+lex:L4005\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4005\/Artigo1    lex:remetePara    lex:L3798 .

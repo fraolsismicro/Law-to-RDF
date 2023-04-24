@@ -1,0 +1,71 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9608    lex:ehUm    lex:DocLegal .
+lex:L9608    lex:temTextoIntegral    lex:HTMLs\/L9608.htm .
+lex:L9608\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9608    lex:temArtigo    lex:L9608\/Artigo1 .
+lex:L9608\/Artigo1    lex:temConteudo    "Art. 1º Considera-se serviço voluntário, para fins desta Lei, a atividade não remunerada, prestada por pessoa física a entidade pública de qualquer natureza, ou a instituição privada de fins não lucrativos, que tenha objetivos cívicos, culturais, educacionais, científicos, recreativos ou de assistência social, inclusive mutualidade." .
+lex:L9608\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9608\/Artigo1    lex:temParagrafo    lex:L9608\/Artigo1\/ParagrafoUnico .
+lex:L9608\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O serviço voluntário não gera vínculo empregatício, nem obrigação de natureza trabalhista previdenciária ou afim." .
+lex:L9608\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9608    lex:temArtigo    lex:L9608\/Artigo2 .
+lex:L9608\/Artigo2    lex:temConteudo    "Art. 2º O serviço voluntário será exercido mediante a celebração de termo de adesão entre a entidade, pública ou privada, e o prestador do serviço voluntário, dele devendo constar o objeto e as condições de seu exercício." .
+lex:L9608\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9608    lex:temArtigo    lex:L9608\/Artigo3 .
+lex:L9608\/Artigo3    lex:temConteudo    "Art. 3º O prestador do serviço voluntário poderá ser ressarcido pelas despesas que comprovadamente realizar no desempenho das atividades voluntárias." .
+lex:L9608\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9608\/Artigo3    lex:temParagrafo    lex:L9608\/Artigo3\/ParagrafoUnico .
+lex:L9608\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As despesas a serem ressarcidas deverão estar expressamente autorizadas pela entidade a que for prestado o serviço voluntário." .
+lex:L9608\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9608    lex:temArtigo    lex:L9608\/Artigo4 .
+lex:L9608\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9608\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9608    lex:temArtigo    lex:L9608\/Artigo5 .
+lex:L9608\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L9608\/Artigo3\/Artigo3o-A    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/Artigo3o-A    lex:regulamentadoPor    lex:D5313 .
+lex:D5313    lex:regulamenta    lex:L9608\/Artigo3\/Artigo3o-A .
+lex:L9608\/Artigo3\/Artigo3o-A    lex:remetePara    lex:D5313 .
+lex:L9608\/Artigo3\/Artigo3o-A    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Artigo3o-A .
+lex:L9608\/Artigo3\/Artigo3o-A    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Artigo3o-A .
+lex:L9608\/Artigo3\/Paragrafo1    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/Paragrafo1    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo1 .
+lex:L9608\/Artigo3\/Paragrafo1    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo1 .
+lex:L9608\/Artigo3\/IncisoI    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/IncisoI    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/IncisoI .
+lex:L9608\/Artigo3\/IncisoI    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/IncisoI .
+lex:L9608\/Artigo3\/IncisoII    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/IncisoII    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/IncisoII .
+lex:L9608\/Artigo3\/IncisoII    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/IncisoII .
+lex:L9608\/Artigo3\/Paragrafo2    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/Paragrafo2    lex:remetePara    lex:L10940\/Artigo3 .
+lex:L9608\/Artigo3\/Paragrafo2    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo2 .
+lex:L9608\/Artigo3\/Paragrafo2    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo2 .
+lex:L9608\/Artigo3\/Paragrafo3    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/Paragrafo3    lex:remetePara    lex:L10940\/Artigo3 .
+lex:L9608\/Artigo3\/Paragrafo3    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo3 .
+lex:L9608\/Artigo3\/Paragrafo3    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo3 .
+lex:L9608\/Artigo3\/Paragrafo4    lex:remetePara    lex:L10748\/Artigo13 .
+lex:L9608\/Artigo3\/Paragrafo4    lex:revogadoPor    lex:411\/Artigo24 .
+lex:411\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo4 .
+lex:L9608\/Artigo3\/Paragrafo4    lex:revogadoPor    lex:L11692\/Artigo24 .
+lex:L11692\/Artigo24    lex:revogou    lex:L9608\/Artigo3\/Paragrafo4 .

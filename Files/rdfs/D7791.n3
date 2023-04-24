@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7791    lex:ehUm    lex:DocLegal .
+lex:D7791    lex:temTextoIntegral    lex:HTMLs\/D7791.htm .
+lex:D7791\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo1 .
+lex:D7791\/Artigo1    lex:temConteudo    "Art. 1o  As emissoras de rádio e televisão obrigadas à divulgação gratuita da propaganda partidária e eleitoral, de plebiscitos e referendos poderão efetuar a compensação fiscal de que trata o parágrafo único do art. 52 da Lei no 9.096, de 19 de setembro de 1995, e o art. 99 da Lei no 9.504, de 30 de setembro de 1997, na apuração do Imposto sobre a Renda da Pessoa Jurídica - IRPJ, inclusive da base de cálculo dos recolhimentos mensais previstos na legislação fiscal, e da base de cálculo do lucro presumido." .
+lex:D7791\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo2 .
+lex:D7791\/Artigo2    lex:temConteudo    "Art. 2o  A apuração do valor da compensação fiscal de que trata o art. 1o se dará mensalmente, de acordo com o seguinte procedimento:" .
+lex:D7791\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoI .
+lex:D7791\/Artigo2\/IncisoI    lex:temConteudo    "I - parte-se do preço dos serviços de divulgação de mensagens de propaganda comercial, fixados em tabela pública pelo veículo de divulgação, conforme previsto no art. 14 do Decreto no 57.690, de 1o de fevereiro de 1966, para o mês de veiculação da propaganda partidária e eleitoral, do plebiscito ou referendo" .
+lex:D7791\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoII .
+lex:D7791\/Artigo2\/IncisoII    lex:temConteudo    "II - apura-se o valor do faturamento com base na tabela a que se refere o inciso anterior, de acordo com o seguinte procedimento:" .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se    lex:temConteudo    "a) parte-se do volume de serviço de divulgação de mensagens de propaganda comercial local efetivamente prestado pelo veículo de divulgação no mês da veiculação da propaganda partidária e eleitoral, do plebiscito ou referendo;" .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se    lex:temConteudo    "b) classifica-se o volume de serviço da alínea a por faixa de horário, identificando-se o respectivo valor com base na tabela pública para veiculações comerciais locais;" .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara    lex:temConteudo    "c) para cada faixa de horário, multiplica-se o respectivo valor unitário de prestação de serviço pelo volume de serviço a ela relativo; e" .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara\/IncisoAlineaO .
+lex:D7791\/Artigo2\/IncisoII\/IncisoAlineaParte-se\/IncisoAlineaClassifica-se\/IncisoAlineaPara\/IncisoAlineaO    lex:temConteudo    "d) o somatório dos resultados da multiplicação referida na alínea c, para cada faixa de horário, corresponde ao valor do faturamento, com base na tabela pública;" .
+lex:D7791\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoIII .
+lex:D7791\/Artigo2\/IncisoIII    lex:temConteudo    "III - apura-se o valor efetivamente faturado no mês de veiculação da propaganda partidária ou eleitoral com base nos documentos fiscais emitidos pelos serviços de divulgação de mensagens de propaganda comercial local efetivamente prestados;" .
+lex:D7791\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoIV .
+lex:D7791\/Artigo2\/IncisoIV    lex:temConteudo    "IV - calcula-se o coeficiente percentual entre os valores apurados conforme previsto nos incisos II e III do caput ,  de acordo com a seguinte fórmula:" .
+lex:D7791\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoV .
+lex:D7791\/Artigo2\/IncisoV    lex:temConteudo    "V - para cada espaço de serviço de divulgação de mensagens de propaganda cedido para o horário eleitoral e partidário gratuito:" .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoV    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se    lex:temConteudo    "a) identifica-se, na tabela pública de que trata o inciso I, o respectivo preço, multiplicando-o pelo espaço cedido e por 0,8 (oito décimos);" .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se    lex:temConteudo    "b) multiplica-se cada resultado obtido na alínea a por 0,25 (vinte e cinco décimos) no caso de transmissões em bloco, e por um, no caso de inserções; e" .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se\/IncisoAlineaAplica-se    lex:ehUm    lex:IncisoAlinea .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se    lex:temIncisoAlinea    lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se\/IncisoAlineaAplica-se .
+lex:D7791\/Artigo2\/IncisoV\/IncisoAlineaIdentifica-se\/IncisoAlineaMultiplica-se\/IncisoAlineaAplica-se    lex:temConteudo    "c) aplica-se sobre cada valor apurado na alínea b o coeficiente percentual a que se refere o inciso IV do caput; e" .
+lex:D7791\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo2    lex:temInciso    lex:D7791\/Artigo2\/IncisoVI .
+lex:D7791\/Artigo2\/IncisoVI    lex:temConteudo    "VI - apura-se o somatório dos valores decorrentes da operação de que trata a alínea c do inciso V do caput." .
+lex:D7791\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo3 .
+lex:D7791\/Artigo3    lex:temConteudo    "Art. 3o  O valor apurado na forma do inciso VI do caput do art. 2o poderá ser excluído:" .
+lex:D7791\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo3    lex:temInciso    lex:D7791\/Artigo3\/IncisoI .
+lex:D7791\/Artigo3\/IncisoI    lex:temConteudo    "I - do lucro líquido para determinação do lucro real;" .
+lex:D7791\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo3    lex:temInciso    lex:D7791\/Artigo3\/IncisoII .
+lex:D7791\/Artigo3\/IncisoII    lex:temConteudo    "II - da base de cálculo dos recolhimentos mensais previstos no art. 2o da Lei no 9.430, de 27 de dezembro de 1996; e" .
+lex:D7791\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7791\/Artigo3    lex:temInciso    lex:D7791\/Artigo3\/IncisoIII .
+lex:D7791\/Artigo3\/IncisoIII    lex:temConteudo    "III - da base de cálculo do IRPJ incidente sobre o lucro presumido." .
+lex:D7791\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo4 .
+lex:D7791\/Artigo4    lex:temConteudo    "Art. 4o  As empresas concessionárias de serviços públicos de telecomunicações, obrigadas ao tráfego gratuito de sinais de televisão e rádio também poderão fazer a exclusão de que trata o art. 3o." .
+lex:D7791\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo5 .
+lex:D7791\/Artigo5    lex:temConteudo    "Art. 5o  O disposto neste Decreto aplica-se também aos comunicados, às instruções e a outras requisições da Justiça Eleitoral, relativos aos programas partidários e eleitorais." .
+lex:D7791\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo6 .
+lex:D7791\/Artigo6    lex:temConteudo    "Art. 6o  Fica o Ministro de Estado da Fazenda autorizado a expedir atos normativos complementares a este Decreto." .
+lex:D7791\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo7 .
+lex:D7791\/Artigo7    lex:temConteudo    "Art. 7o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 21 de dezembro de 2010." .
+lex:D7791\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D7791    lex:temArtigo    lex:D7791\/Artigo8 .
+lex:D7791\/Artigo8    lex:temConteudo    "Art. 8o  Fica revogado o Decreto no 5.331, de 4 de janeiro de 2005." .
+lex:D7791\/Artigo1    lex:remetePara    lex:L9096\/Artigo52 .
+lex:D7791\/Artigo1    lex:remetePara    lex:L9504\/Artigo99 .
+lex:D7791\/Artigo2\/IncisoI    lex:remetePara    lex:D57690\/Artigo14 .
+lex:D7791\/Artigo3\/IncisoII    lex:remetePara    lex:L9430\/Artigo2 .
+lex:D7791\/Artigo8    lex:remetePara    lex:D5331 .

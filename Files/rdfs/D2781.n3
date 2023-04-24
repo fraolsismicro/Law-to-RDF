@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2781    lex:ehUm    lex:DocLegal .
+lex:D2781    lex:temTextoIntegral    lex:HTMLs\/D2781.htm .
+lex:D2781\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D2781    lex:temInciso    lex:D2781\/IncisoD .
+lex:D2781\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D2781\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2781    lex:temParagrafo    lex:D2781\/Paragrafo1 .
+lex:D2781\/Paragrafo1    lex:temConteudo    "§ 1o  A Comissão será composta por um representante de cada um dos seguintes órgãos e Ministérios, indicado pelo respectivo titular e designado em ato do Secretário da Receita Federal:" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoI .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - da Secretaria da Receita Federal, que a presidirá;" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoII .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - do Departamento de Polícia Federal;" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - da Casa Militar da Presidência da República;" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - do Ministério do Exército;" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoV .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoV    lex:temConteudo    "V - do Ministério da Aeronáutica;" .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo1    lex:temParagrafoInciso    lex:D2781\/Paragrafo1\/ParagrafoIncisoVI .
+lex:D2781\/Paragrafo1\/ParagrafoIncisoVI    lex:temConteudo    "VI - do Ministério da Marinha." .
+lex:D2781\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2781    lex:temParagrafo    lex:D2781\/Paragrafo2 .
+lex:D2781\/Paragrafo2    lex:temConteudo    "§ 2o  A Comissão funcionará nas dependências da Secretaria da Receita Federal." .
+lex:D2781\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2781\/Paragrafo2    lex:temParagrafoInciso    lex:D2781\/Paragrafo2\/ParagrafoIncisoI .
+lex:D2781\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - a forma de planejamento e execução de ações conjuntas de interesse comum;" .
+lex:D2781\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2781    lex:temArtigo    lex:D2781\/Artigo5 .
+lex:D2781\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D2781\/Texto00011    lex:remetePara    lex:decprinc .
+lex:D2781\/Texto00011    lex:remetePara    lex:index .

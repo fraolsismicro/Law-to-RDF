@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11446    lex:ehUm    lex:DocLegal .
+lex:L11446    lex:temTextoIntegral    lex:HTMLs\/L11446.htm .
+lex:L11446\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11446    lex:temArtigo    lex:L11446\/Artigo1 .
+lex:L11446\/Artigo1    lex:temConteudo    "Art. 1o  O art. 65 da Lei no 4.504, de 30 de novembro de 1964, passa a vigorar acrescido dos seguintes §§ 5o e 6o:" .
+lex:L11446\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L11446\/Artigo1    lex:temParagrafo    lex:L11446\/Artigo1\/Paragrafo5 .
+lex:L11446\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  Não se aplica o disposto no caput deste artigo aos parcelamentos de imóveis rurais em dimensão inferior à do módulo, fixada pelo órgão fundiário federal, quando promovidos pelo Poder Público, em programas oficiais de apoio à atividade agrícola familiar, cujos beneficiários sejam agricultores que não possuam outro imóvel rural ou urbano." .
+lex:L11446\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L11446\/Artigo1    lex:temParagrafo    lex:L11446\/Artigo1\/Paragrafo6 .
+lex:L11446\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  Nenhum imóvel rural adquirido na forma do § 5o deste artigo poderá ser desmembrado ou dividido. (NR)" .
+lex:L11446\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11446    lex:temArtigo    lex:L11446\/Artigo2 .
+lex:L11446\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11446\/Artigo1\/Paragrafo5    lex:remetePara    lex:L4504\/Artigo65\/Paragrafo5 .

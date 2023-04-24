@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0483    lex:ehUm    lex:DocLegal .
+lex:D0483    lex:temTextoIntegral    lex:HTMLs\/D0483.htm .
+lex:D0483\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0483    lex:temArtigo    lex:D0483\/Artigo1 .
+lex:D0483\/Artigo1    lex:temConteudo    "Art. 1° Ficam alteradas para os percentuais indicados no Anexo I as alíquotas do Imposto sobre Produtos Industrializados - IPI incidente sobre os veículos automotores nele relacionados, de acordo com sua classificação na Tabela de Incidência aprovada pelo Decreto n° 97.410, de 23 de dezembro de 1988, com as alterações decorrentes das modificações introduzidas na Nomenclatura Brasileira de Mercadorias - NBM/SH pela Resolução n° 77, de 15 de dezembro de 1988, do Comitê Brasileiro de Nomenclatura." .
+lex:D0483\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0483    lex:temArtigo    lex:D0483\/Artigo2 .
+lex:D0483\/Artigo2    lex:temConteudo    "Art. 2° Ficam alteradas para os percentuais indicados no Anexo II as alíquotas do IPI incidente sobre os veículos automotores nele relacionados, desdobrados, sob a forma de destaques ('ex'), dos respectivos códigos de classificação na Tabela a que se refere o artigo precedente." .
+lex:D0483\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0483    lex:temArtigo    lex:D0483\/Artigo3 .
+lex:D0483\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0483\/Texto    lex:remetePara    lex:D0483 .
+lex:D0483\/Artigo1    lex:remetePara    lex:D97410 .

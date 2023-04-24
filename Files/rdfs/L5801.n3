@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5801    lex:ehUm    lex:DocLegal .
+lex:L5801    lex:temTextoIntegral    lex:HTMLs\/L5801.htm .
+lex:L5801\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5801    lex:temArtigo    lex:L5801\/Artigo1 .
+lex:L5801\/Artigo1    lex:temConteudo    "Art 1º O parágrafo único do artigo 131 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei nº 5.452, de 1 de maio de 1943, passa a constituir o 1º do referido artigo." .
+lex:L5801\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5801    lex:temArtigo    lex:L5801\/Artigo2 .
+lex:L5801\/Artigo2    lex:temConteudo    "Art 2º Fica incluído no artigo 131 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei número 5.452, de 1º de maio de 1943, o § 2º, com a seguinte redação:" .
+lex:L5801\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5801    lex:temArtigo    lex:L5801\/Artigo3 .
+lex:L5801\/Artigo3    lex:temConteudo    "Art 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5801\/Artigo1    lex:remetePara    lex:Del5452\/Artigo131\/Paragrafo1 .
+lex:L5801\/Texto00002    lex:remetePara    lex:Del5452\/Artigo131\/Paragrafo2 .

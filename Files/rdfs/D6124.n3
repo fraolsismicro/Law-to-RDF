@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6124    lex:ehUm    lex:DocLegal .
+lex:D6124    lex:temTextoIntegral    lex:HTMLs\/D6124.htm .
+lex:D6124\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6124    lex:temArtigo    lex:D6124\/Artigo1 .
+lex:D6124\/Artigo1    lex:temConteudo    "Art. 1o  A despesa empenhada no exercício de 2007, relativa a diárias, passagens e locomoção, fica limitada, no âmbito dos órgãos e unidades orçamentárias do Poder Executivo, aos valores constantes do Anexo deste Decreto." .
+lex:D6124\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6124\/Artigo1    lex:temParagrafo    lex:D6124\/Artigo1\/Paragrafo1 .
+lex:D6124\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Entende-se por despesas com diárias, passagens e locomoção aquelas relativas aos elementos de despesa 14 - Diárias - Pessoal Civil, 15 - Diárias - Pessoal Militar e 33 - Passagens e Despesas com Locomoção." .
+lex:D6124\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6124\/Artigo1    lex:temParagrafo    lex:D6124\/Artigo1\/Paragrafo2 .
+lex:D6124\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O limite de que trata o caput não se aplica:" .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6124\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - às subfunções 125 - Normatização e Fiscalização, 181 - Policiamento, 182 - Defesa Civil, 183 - Informação e Inteligência, 304 - Vigilância Sanitária, 305 - Vigilância Epidemiológica, 603 - Defesa Sanitária Vegetal e 604 - Defesa Sanitária Animal;" .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6124\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - aos Censos Populacional e Agropecuário, constantes do programa 1059 - Recenseamentos Gerais; e" .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6124\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D6124\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - a diárias, passagens e locomoção de Ministros de Estado." .
+lex:D6124\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6124    lex:temArtigo    lex:D6124\/Artigo2 .
+lex:D6124\/Artigo2    lex:temConteudo    "Art. 2o  Cabe a cada órgão e unidade orçamentária a distribuição do limite de que trata o art. 1o às suas respectivas unidades orçamentárias, unidades administrativas e entidades supervisionadas." .
+lex:D6124\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6124    lex:temArtigo    lex:D6124\/Artigo3 .
+lex:D6124\/Artigo3    lex:temConteudo    "Art. 3o  O Ministro de Estado do Planejamento, Orçamento e Gestão poderá ampliar, alterar ou remanejar os limites autorizados para execução das despesas relacionadas no art. 1o, desde que observado o limite global do Poder Executivo, calculado na forma dos §§ 3o e 4o do art. 2o da Lei no 11.439, de 29 de dezembro de 2006." .
+lex:D6124\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6124    lex:temArtigo    lex:D6124\/Artigo4 .
+lex:D6124\/Artigo4    lex:temConteudo    "Art. 4o  Cabe à Controladoria-Geral da União e aos demais órgãos integrantes do Sistema de Controle Interno do Poder Executivo Federal zelar pelo cumprimento do disposto neste Decreto, bem como adotar as providências para a responsabilização dos dirigentes e dos servidores que praticarem atos em desacordo com as disposições nele contidas." .
+lex:D6124\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6124    lex:temArtigo    lex:D6124\/Artigo5 .
+lex:D6124\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6124\/Artigo3    lex:remetePara    lex:L11439\/Artigo2\/Paragrafo3 .

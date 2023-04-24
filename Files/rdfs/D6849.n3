@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6849    lex:ehUm    lex:DocLegal .
+lex:D6849    lex:temTextoIntegral    lex:HTMLs\/D6849.htm .
+lex:D6849\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6849    lex:temArtigo    lex:D6849\/Artigo1 .
+lex:D6849\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, na forma do Anexo I a este Decreto, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D6849\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6849\/Artigo1    lex:temInciso    lex:D6849\/Artigo1\/IncisoI .
+lex:D6849\/Artigo1\/IncisoI    lex:temConteudo    "I - do Gabinete Pessoal do Presidente da República para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: um DAS 102.6 e um DAS 101.5; e" .
+lex:D6849\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6849\/Artigo1    lex:temInciso    lex:D6849\/Artigo1\/IncisoII .
+lex:D6849\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Gabinete Pessoal do Presidente da República: um DAS 101.6 e um DAS 102.5." .
+lex:D6849\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6849    lex:temArtigo    lex:D6849\/Artigo2 .
+lex:D6849\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, o Anexo II ao Decreto no 6.188, de 17 de agosto de 2007, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D6849\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6849    lex:temArtigo    lex:D6849\/Artigo3 .
+lex:D6849\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes do remanejamento de que trata o art. 1o deverão ocorrer no prazo de vinte dias, contados da data da publicação deste Decreto." .
+lex:D6849\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6849    lex:temArtigo    lex:D6849\/Artigo4 .
+lex:D6849\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6849\/Texto    lex:remetePara    lex:D6849 .
+lex:D6849\/Artigo2    lex:remetePara    lex:D6188\/ .

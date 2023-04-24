@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7027    lex:ehUm    lex:DocLegal .
+lex:L7027    lex:temTextoIntegral    lex:HTMLs\/L7027.htm .
+lex:L7027\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7027    lex:temArtigo    lex:L7027\/Artigo1 .
+lex:L7027\/Artigo1    lex:temConteudo    "Art. 1º - É o Poder Executivo autorizado a abrir créditos suplementares ao Orçamento da União (Lei nº 6.962, de 07 de dezembro de 1981), até o limite de Cr$519.190.000.000,00 (quinhentos e dezenove bilhões, cento e noventa milhões de cruzeiros), utilizando os recursos provenientes do excesso de arrecadação de receitas ordinárias do Tesouro Nacional, de acordo com o item II do § 1º do art. 43 da Lei nº 4.320, de 17 de março de 1964, obedecida a seguinte destinação:" .
+lex:L7027\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7027    lex:temArtigo    lex:L7027\/Artigo2 .
+lex:L7027\/Artigo2    lex:temConteudo    "Art. 2º - O eventual excesso de arrecadação das receitas vinculadas do Tesouro Nacional será aplicado no reforço das dotações orçamentárias constantes da Lei nº 6.962 de 07 de dezembro de 1981, mediante abertura de crédito suplementar, observados a destinação específica dos recursos e os limites da efetiva arrecadação de caixa do exercício." .
+lex:L7027\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7027\/Artigo2    lex:temParagrafo    lex:L7027\/Artigo2\/Paragrafo1 .
+lex:L7027\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º - Incluem-se nesta disposição os recursos decorrentes de operações de crédito contratadas por Órgãos da Administração Direta." .
+lex:L7027\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7027\/Artigo2    lex:temParagrafo    lex:L7027\/Artigo2\/Paragrafo2 .
+lex:L7027\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º - O disposto neste artigo não se aplica aos recursos que devam ser transferidos, ao amparo do artigo 5º, item IV, da Lei nº 6.962, de 07 de dezembro de 1981, a Estados, Distrito Federal, Territórios e Municípios." .
+lex:L7027\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7027    lex:temArtigo    lex:L7027\/Artigo3 .
+lex:L7027\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7027\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7027    lex:temArtigo    lex:L7027\/Artigo4 .
+lex:L7027\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:L7027\/Artigo1    lex:remetePara    lex:L6962 .
+lex:L7027\/Artigo1    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .
+lex:L7027\/Artigo2    lex:remetePara    lex:L6962 .
+lex:L7027\/Artigo2\/Paragrafo2    lex:remetePara    lex:L6962\/Artigo5 .

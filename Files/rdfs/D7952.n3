@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7952    lex:ehUm    lex:DocLegal .
+lex:D7952    lex:temTextoIntegral    lex:HTMLs\/D7952.htm .
+lex:D7952\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7952    lex:temArtigo    lex:D7952\/Artigo1 .
+lex:D7952\/Artigo1    lex:temConteudo    "Art. 1 º  As Escolas Médias de Agropecuária Regional - EMARCs ficam vinculadas ao Ministério da Educação." .
+lex:D7952\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7952    lex:temArtigo    lex:D7952\/Artigo2 .
+lex:D7952\/Artigo2    lex:temConteudo    "Art. 2 º  O Ministério da Educação deverá:" .
+lex:D7952\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7952\/Artigo2    lex:temInciso    lex:D7952\/Artigo2\/IncisoI .
+lex:D7952\/Artigo2\/IncisoI    lex:temConteudo    "I - integrar as EMARCs aos Institutos Federais de Educação, Ciência e Tecnologia, conforme sua localização, de acordo com o art. 5 º da Lei n º 11.892, de 29 de dezembro de 2008, na condição de unidades de ensino;" .
+lex:D7952\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7952\/Artigo2    lex:temInciso    lex:D7952\/Artigo2\/IncisoII .
+lex:D7952\/Artigo2\/IncisoII    lex:temConteudo    "II - assegurar quadro de pessoal ativo permanente e quadro de cargos de direção e de funções gratificadas das unidades de ensino, em conformidade com os quantitativos de cargos e funções criados pela Lei n º 11.740, de 16 de julho de 2008;" .
+lex:D7952\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7952\/Artigo2    lex:temInciso    lex:D7952\/Artigo2\/IncisoIII .
+lex:D7952\/Artigo2\/IncisoIII    lex:temConteudo    "III - destinar os recursos orçamentários necessários à manutenção das unidades de ensino, à contratação de serviços e à aquisição dos bens necessários ao seu funcionamento; e" .
+lex:D7952\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7952\/Artigo2    lex:temInciso    lex:D7952\/Artigo2\/IncisoIV .
+lex:D7952\/Artigo2\/IncisoIV    lex:temConteudo    "IV - apoiar a revisão do projeto político-pedagógico de cada unidade de ensino, para adequá-los às diretrizes de atuação dos Institutos Federais de Educação, Ciência e Tecnologia." .
+lex:D7952\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7952    lex:temArtigo    lex:D7952\/Artigo3 .
+lex:D7952\/Artigo3    lex:temConteudo    "Art. 3 º  O Ministério da Agricultura, Pecuária e Abastecimento, por meio da Comissão Executiva do Plano da Lavoura Cacaueira, transferirá o acervo patrimonial das EMARCs para os Institutos Federais de Educação, Ciência e Tecnologia indicados pelo Ministério da Educação." .
+lex:D7952\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7952    lex:temArtigo    lex:D7952\/Artigo4 .
+lex:D7952\/Artigo4    lex:temConteudo    "Art. 4 º  O Ministério do Planejamento, Orçamento e Gestão adotará as medidas necessárias à composição da força de trabalho das unidades de ensino, em conformidade com o § 7 º do art. 93 da Lei n º 8.112, de 11 de dezembro de 1990." .
+lex:D7952\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7952    lex:temArtigo    lex:D7952\/Artigo5 .
+lex:D7952\/Artigo5    lex:temConteudo    "Art. 5 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7952\/Artigo2\/IncisoI    lex:remetePara    lex:L11892\/Artigo5 .
+lex:D7952\/Artigo2\/IncisoII    lex:remetePara    lex:L11740 .
+lex:D7952\/Artigo2\/IncisoII    lex:remetePara    lex:L11740 .
+lex:D7952\/Artigo4    lex:remetePara    lex:L8112cons\/Artigo93\/Paragrafo7 .

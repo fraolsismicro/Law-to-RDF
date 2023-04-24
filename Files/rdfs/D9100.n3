@@ -1,0 +1,53 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9100    lex:ehUm    lex:DocLegal .
+lex:D9100    lex:temTextoIntegral    lex:HTMLs\/D9100.htm .
+lex:D9100\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9100    lex:temArtigo    lex:D9100\/Artigo1 .
+lex:D9100\/Artigo1    lex:temConteudo    "Art. 1 º  Fica promulgado o Acordo sobre a Concessão de Visto para Estudantes Nacionais dos Estados Membros da Comunidade de Países de Língua Portuguesa - CPLP, firmado em Lisboa, em 2 de novembro de 2007, anexo a este Decreto." .
+lex:D9100\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9100    lex:temArtigo    lex:D9100\/Artigo2 .
+lex:D9100\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão do Acordo e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D9100\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9100    lex:temArtigo    lex:D9100\/Artigo3 .
+lex:D9100\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9100\/Artigo3\/AlineaEstudanteas    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaEstudanteas .
+lex:D9100\/Artigo3\/AlineaEstudanteas    lex:temConteudo    "a) Estudanteas, os cidadãos de um Estado-membro, aceites ou inscritos em curso acadêmico ou técnicoprofissional, com um mínimo de duração de 3 (três) meses, leccionado em estabelecimento de ensino reconhecido, situado no outro Estado-membro." .
+lex:D9100\/Artigo3\/AlineaEstabelecimento    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaEstabelecimento .
+lex:D9100\/Artigo3\/AlineaEstabelecimento    lex:temConteudo    "b) Estabelecimento de ensino reconhecido, o estabelecimento de ensino público ou privado, reconhecido pelas normas internas de cada Estado-membro." .
+lex:D9100\/Artigo3\/AlineaEstabelecimento\/ItemAs    lex:ehUm    lex:Item .
+lex:D9100\/Artigo3\/AlineaEstabelecimento    lex:temItem    lex:D9100\/Artigo3\/AlineaEstabelecimento\/ItemAs .
+lex:D9100\/Artigo3\/AlineaEstabelecimento\/ItemAs    lex:temConteudo    "2. As autoridades dos Estados-membros manterão, nos seus sítios electrónicos, lista actualizada dos estabelecimentos de ensino por eles reconhecidos ou informarão os serviços competentes da lista actualizada dos estabelecimentos de ensino atrás referidos." .
+lex:D9100\/Artigo3\/AlineaDocumento    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaDocumento .
+lex:D9100\/Artigo3\/AlineaDocumento    lex:temConteudo    "a) Documento de viagem com validade superior a 6 (seis) meses à data da solicitação do respectivo visto e nunca inferior ao período de estada previsto;" .
+lex:D9100\/Artigo3\/AlineaDuas    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaDuas .
+lex:D9100\/Artigo3\/AlineaDuas    lex:temConteudo    "b) Duas fotografias iguais e actuais, tipo passe (3x4 cm) a cores;" .
+lex:D9100\/Artigo3\/AlineaDocumento    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaDocumento .
+lex:D9100\/Artigo3\/AlineaDocumento    lex:temConteudo    "c) Documento comprovativo da aceitação da candidatura ou da inscrição em estabelecimento de ensino reconhecido;" .
+lex:D9100\/Artigo3\/AlineaProva    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaProva .
+lex:D9100\/Artigo3\/AlineaProva    lex:temConteudo    "d) Prova de meios de subsistência;" .
+lex:D9100\/Artigo3\/AlineaCertificados    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaCertificados .
+lex:D9100\/Artigo3\/AlineaCertificados    lex:temConteudo    "e) Certificados médicos conforme as exigências do Estado de destino;" .
+lex:D9100\/Artigo3\/AlineaCertidao    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaCertidao .
+lex:D9100\/Artigo3\/AlineaCertidao    lex:temConteudo    "f) Certidão de registro criminal ou equivalente, quando exigido pelo Estado de destino;" .
+lex:D9100\/Artigo3\/AlineaSeguro    lex:ehUm    lex:Alinea .
+lex:D9100\/Artigo3    lex:temAlinea    lex:D9100\/Artigo3\/AlineaSeguro .
+lex:D9100\/Artigo3\/AlineaSeguro    lex:temConteudo    "g) Seguro médico de saúde ou comprovativo de que o estudante se encontra abrangido por outro sistema que lhe garante o acesso a cuidados de saúde no Estado de destino, quando exigido por este." .
+lex:D9100\/Artigo3\/AlineaSeguro\/ItemTratando-se    lex:ehUm    lex:Item .
+lex:D9100\/Artigo3\/AlineaSeguro    lex:temItem    lex:D9100\/Artigo3\/AlineaSeguro\/ItemTratando-se .
+lex:D9100\/Artigo3\/AlineaSeguro\/ItemTratando-se    lex:temConteudo    "2. Tratando-se de pedido de visto respeitante a menor ou incapaz, sujeito ao exercício de poder paternal ou de tutela, deve ser apresentada a respectiva autorização." .
+lex:D9100\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

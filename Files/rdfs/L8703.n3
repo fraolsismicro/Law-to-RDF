@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8703    lex:ehUm    lex:DocLegal .
+lex:L8703    lex:temTextoIntegral    lex:HTMLs\/L8703.htm .
+lex:L8703\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8703    lex:temArtigo    lex:L8703\/Artigo1 .
+lex:L8703\/Artigo1    lex:temConteudo    "Art. 1° O art. 57 da Lei n° 8.078, de 11 de setembro de 1990, fica acrescido do seguinte parágrafo único:" .
+lex:L8703\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8703\/Artigo1    lex:temParagrafo    lex:L8703\/Artigo1\/ParagrafoUnico .
+lex:L8703\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A multa será em montante não inferior a duzentas e não superior a três milhões de vezes o valor da Unidade Fiscal de Referência (Ufir), ou índice equivalente que venha a substituí-lo.'" .
+lex:L8703\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8703    lex:temArtigo    lex:L8703\/Artigo2 .
+lex:L8703\/Artigo2    lex:temConteudo    "Art. 2º Ficam convalidados os atos e efeitos jurídicos decorrentes da Medida Provisória n° 333, de 6 de julho de 1993." .
+lex:L8703\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8703    lex:temArtigo    lex:L8703\/Artigo3 .
+lex:L8703\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8703\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8703    lex:temArtigo    lex:L8703\/Artigo4 .
+lex:L8703\/Artigo4    lex:temConteudo    "Art. 4º Revoga-se o art. 3° da Lei n° 8.656, de 21 de maio de 1993." .
+lex:L8703\/Texto00001    lex:remetePara    lex:L8078\/Artigo57 .
+lex:L8703\/Artigo4    lex:remetePara    lex:L8656\/Artigo3 .

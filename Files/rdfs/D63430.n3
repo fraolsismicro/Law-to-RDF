@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D63430    lex:ehUm    lex:DocLegal .
+lex:D63430    lex:temTextoIntegral    lex:HTMLs\/D63430.htm .
+lex:D63430\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D63430    lex:temArtigo    lex:D63430\/Artigo1 .
+lex:D63430\/Artigo1    lex:temConteudo    "Art. 1º Fica outorgada à Radio e Televisão Cultura Ltda. nos têrmos do art. 28, do Regulamento dos Serviços de Radiodifusão, para estabelecer, na cidade de Florianópolis, Estado de Santa Catarina, sem direito de exclusividade, uma estação de radiodifusão de sons e imagens (televisão), utilizando o canal 6." .
+lex:D63430\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D63430\/Artigo1    lex:temParagrafo    lex:D63430\/Artigo1\/ParagrafoUnico .
+lex:D63430\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O contrato decorrente desta concessão obedecerá as cláusulas que com êste baixam, rubricadas pelo Secretário-Geral do Ministério das Comunicações e Presidente do CONTEL e deverá ser assinado dentro de 60 (sessenta) dias, a contar da data da publicação dêste Decreto no Diário Oficial da União, sob pena de se tornar nulo, de pleno direito, o ato da outorga." .
+lex:D63430\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D63430    lex:temArtigo    lex:D63430\/Artigo2 .
+lex:D63430\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .

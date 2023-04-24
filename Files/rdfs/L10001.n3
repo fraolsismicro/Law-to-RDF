@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10001    lex:ehUm    lex:DocLegal .
+lex:L10001    lex:temTextoIntegral    lex:HTMLs\/L10001.htm .
+lex:L10001\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10001    lex:temArtigo    lex:L10001\/Artigo1 .
+lex:L10001\/Artigo1    lex:temConteudo    "Art. 1o Os Presidentes da Câmara dos Deputados, do Senado Federal ou do Congresso Nacional encaminharão o relatório da Comissão Parlamentar de Inquérito respectiva, e a resolução que o aprovar, aos chefes do Ministério Público da União ou dos Estados, ou ainda às autoridades administrativas ou judiciais com poder de decisão, conforme o caso, para a prática de atos de sua competência." .
+lex:L10001\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10001    lex:temArtigo    lex:L10001\/Artigo2 .
+lex:L10001\/Artigo2    lex:temConteudo    "Art. 2o A autoridade a quem for encaminhada a resolução informará ao remetente, no prazo de trinta dias, as providências adotadas ou a justificativa pela omissão." .
+lex:L10001\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10001\/Artigo2    lex:temParagrafo    lex:L10001\/Artigo2\/ParagrafoUnico .
+lex:L10001\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A autoridade que presidir processo ou procedimento, administrativo ou judicial, instaurado em decorrência de conclusões de Comissão Parlamentar de Inquérito, comunicará, semestralmente, a fase em que se encontra, até a sua conclusão." .
+lex:L10001\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10001    lex:temArtigo    lex:L10001\/Artigo3 .
+lex:L10001\/Artigo3    lex:temConteudo    "Art. 3o O processo ou procedimento referido no art. 2o terá prioridade sobre qualquer outro, exceto sobre aquele relativo a pedido de habeas corpus, habeas data e mandado de segurança." .
+lex:L10001\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10001    lex:temArtigo    lex:L10001\/Artigo4 .
+lex:L10001\/Artigo4    lex:temConteudo    "Art. 4o O descumprimento das normas desta Lei sujeita a autoridade a sanções administrativas, civis e penais." .
+lex:L10001\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L10001    lex:temArtigo    lex:L10001\/Artigo5 .
+lex:L10001\/Artigo5    lex:temConteudo    "Art. 5o Esta Lei entra em vigor na data de sua publicação." .

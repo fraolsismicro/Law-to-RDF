@@ -1,0 +1,53 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D346    lex:ehUm    lex:DocLegal .
+lex:D346    lex:temTextoIntegral    lex:HTMLs\/D346.htm .
+lex:D346\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D346    lex:temArtigo    lex:D346\/Artigo1 .
+lex:D346\/Artigo1    lex:temConteudo    "Art. 1º As letras c e d do inciso I do art. 1º do Decreto nº 99.659, de 31 de outubro de 1990, passam a vigorar com as seguintes alterações:" .
+lex:D346\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D346\/Artigo1    lex:temInciso    lex:D346\/Artigo1\/IncisoI .
+lex:D346\/Artigo1\/IncisoI    lex:temConteudo    "I - Quadro de Oficiais Aviadores:" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D346\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:temConteudo    "c) Do Posto de Major-Brigadeiro ou Brigadeiro:" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir    lex:temConteudo    "- Incluir os seguintes cargos:" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral do Ar;" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral do Pessoal;" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral de Apoio." .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "d) Do Posto de Brigadeiro:" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir    lex:temConteudo    "- Excluir os seguintes cargos:" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral do Ar;" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral do Pessoal;" .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:ehUm    lex:IncisoAlineaItem .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temIncisoAlineaItem    lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando-Geral de Apoio." .
+lex:D346\/Texto    lex:remetePara    lex:D346 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaItemIncluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .
+lex:D346\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaItemExcluir\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe\/IncisoAlineaItemChefe    lex:remetePara    lex:D99659\/Artigo1 .

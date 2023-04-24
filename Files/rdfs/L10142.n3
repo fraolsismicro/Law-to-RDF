@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10142    lex:ehUm    lex:DocLegal .
+lex:L10142    lex:temTextoIntegral    lex:HTMLs\/L10142.htm .
+lex:L10142\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10142    lex:temArtigo    lex:L10142\/Artigo1 .
+lex:L10142\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto ao Orçamento Fiscal da União (Lei no 9.969, de 11 de maio de 2000), em favor do Ministério da Integração Nacional, crédito suplementar no valor de R$ 40.857.485,00 (quarenta milhões, oitocentos e cinqüenta e sete mil, quatrocentos e oitenta e cinco reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L10142\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10142\/Artigo1    lex:temInciso    lex:L10142\/Artigo1\/IncisoI .
+lex:L10142\/Artigo1\/IncisoI    lex:temConteudo    "I - excesso de arrecadação de recursos, no valor de R$ 27.000.000,00 (vinte e sete milhões de reais), proveniente de convênio celebrado entre o Departamento Nacional de Obras contra as Secas   DNOCS e o Governo do Estado de Pernambuco; e" .
+lex:L10142\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10142\/Artigo1    lex:temInciso    lex:L10142\/Artigo1\/IncisoII .
+lex:L10142\/Artigo1\/IncisoII    lex:temConteudo    "II - cancelamento parcial de dotações orçamentárias, no valor de R$ 13.857.485,00 (treze milhões, oitocentos e cinqüenta e sete mil, quatrocentos e oitenta e cinco reais), conforme indicado no Anexo II desta Lei." .
+lex:L10142\/Artigo1    lex:remetePara    lex:L9969 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6789    lex:ehUm    lex:DocLegal .
+lex:D6789    lex:temTextoIntegral    lex:HTMLs\/D6789.htm .
+lex:D6789\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6789    lex:temArtigo    lex:D6789\/Artigo1 .
+lex:D6789\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituída a Medalha Mérito Aeroterrestre, destinada a premiar os militares pára-quedistas do Exército brasileiro da ativa ou na inatividade, que tenham se destacado pelo excelente desempenho funcional, irrepreensível conduta civil e militar, bem como pelos bons serviços prestados em organizações militares da Brigada de Infantaria Pára-Quedista ou da Brigada de Operações Especiais." .
+lex:D6789\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6789\/Artigo1    lex:temParagrafo    lex:D6789\/Artigo1\/ParagrafoUnico .
+lex:D6789\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A Medalha Mérito Aeroterrestre poderá ser concedida com passadores de bronze, prata ou ouro." .
+lex:D6789\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6789    lex:temArtigo    lex:D6789\/Artigo2 .
+lex:D6789\/Artigo2    lex:temConteudo    "Art. 2o  A Medalha Mérito Aeroterrestre, com passador de bronze, poderá ser concedida, também, aos militares da Marinha ou da Aeronáutica, não pára-quedistas, que tenham se destacado no relacionamento profissional e na manutenção dos laços de amizade com o Exército brasileiro." .
+lex:D6789\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6789    lex:temArtigo    lex:D6789\/Artigo3 .
+lex:D6789\/Artigo3    lex:temConteudo    "Art. 3o  A Medalha Mérito Aeroterrestre será concedida pelo Comandante do Exército, a quem cabe baixar os atos complementares necessários à implementação do disposto neste Decreto." .
+lex:D6789\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6789    lex:temArtigo    lex:D6789\/Artigo4 .
+lex:D6789\/Artigo4    lex:temConteudo    "Art. 4o  A condecoração a que se refere este Decreto fica incluída na alínea h do art. 2o do Decreto no 40.556, de 17 de dezembro de 1956, seguindo-se à Medalha Bartolomeu de Gusmão." .
+lex:D6789\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6789    lex:temArtigo    lex:D6789\/Artigo5 .
+lex:D6789\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6789\/Artigo4    lex:remetePara    lex:D40556\/Artigo2 .

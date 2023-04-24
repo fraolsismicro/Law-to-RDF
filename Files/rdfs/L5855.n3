@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5855    lex:ehUm    lex:DocLegal .
+lex:L5855    lex:temTextoIntegral    lex:HTMLs\/L5855.htm .
+lex:L5855\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5855    lex:temArtigo    lex:L5855\/Artigo1 .
+lex:L5855\/Artigo1    lex:temConteudo    "Art 1º O artigo 10, da Lei nº 4.024, de 20 de dezembro de 1961, passa a vigorar com a seguinte redação:" .
+lex:L5855\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5855\/Artigo1    lex:temParagrafo    lex:L5855\/Artigo1\/ParagrafoUnico .
+lex:L5855\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As funções exercidas nos Conselhos referidos neste artigo são consideradas de relevante interesse, e os funcionários públicos federais que as exercerem, na qualidade de Conselheiros, terão abonadas as suas faltas ao serviço durante o período das reuniões dos respectivos Conselhos.'" .
+lex:L5855\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5855    lex:temArtigo    lex:L5855\/Artigo2 .
+lex:L5855\/Artigo2    lex:temConteudo    "Art 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5855\/Texto00001    lex:remetePara    lex:L4024\/Artigo10 .

@@ -1,0 +1,71 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4421    lex:ehUm    lex:DocLegal .
+lex:D4421    lex:temTextoIntegral    lex:HTMLs\/D4421.htm .
+lex:D4421\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4421    lex:temArtigo    lex:D4421\/Artigo1 .
+lex:D4421\/Artigo1    lex:temConteudo    "Art. 1o O Sexagésimo Protocolo Adicional ao Acordo de Complementação Econômica no 2 (Veículos automotores), entre os Governos da República Federativa do Brasil e da República Oriental do Uruguai, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D4421\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4421    lex:temArtigo    lex:D4421\/Artigo2 .
+lex:D4421\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4421\/Artigo2\/AlineaAutomoveis    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaAutomoveis .
+lex:D4421\/Artigo2\/AlineaAutomoveis    lex:temConteudo    "a) automóveis e veículos comerciais leves (até 1.500 kg de capacidade de carga)" .
+lex:D4421\/Artigo2\/AlineaOnibus    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaOnibus .
+lex:D4421\/Artigo2\/AlineaOnibus    lex:temConteudo    "b) ônibus" .
+lex:D4421\/Artigo2\/AlineaCaminhoes    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaCaminhoes .
+lex:D4421\/Artigo2\/AlineaCaminhoes    lex:temConteudo    "c) caminhões" .
+lex:D4421\/Artigo2\/AlineaTratores    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaTratores .
+lex:D4421\/Artigo2\/AlineaTratores    lex:temConteudo    "d) tratores rodoviários para semi-reboques" .
+lex:D4421\/Artigo2\/AlineaChassis    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaChassis .
+lex:D4421\/Artigo2\/AlineaChassis    lex:temConteudo    "e) chassis com motor" .
+lex:D4421\/Artigo2\/AlineaReboques    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaReboques .
+lex:D4421\/Artigo2\/AlineaReboques    lex:temConteudo    "f) reboques e semi-reboques" .
+lex:D4421\/Artigo2\/AlineaCarrocerias    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaCarrocerias .
+lex:D4421\/Artigo2\/AlineaCarrocerias    lex:temConteudo    "g) carrocerias e cabines" .
+lex:D4421\/Artigo2\/AlineaTratores    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaTratores .
+lex:D4421\/Artigo2\/AlineaTratores    lex:temConteudo    "h) tratores agrícolas, colheitadeiras e máquinas agrícolas autopropulsadas" .
+lex:D4421\/Artigo2\/AlineaMaquinas    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaMaquinas .
+lex:D4421\/Artigo2\/AlineaMaquinas    lex:temConteudo    "i) máquinas rodoviárias autopropulsadas" .
+lex:D4421\/Artigo2\/AlineaAutopecas    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaAutopecas .
+lex:D4421\/Artigo2\/AlineaAutopecas    lex:temConteudo    "j) autopeças" .
+lex:D4421\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaAs .
+lex:D4421\/Artigo2\/AlineaAs    lex:temConteudo    "a) As empresas automotivas instaladas no território da República Oriental do Uruguai terão o acesso ao mercado da República Federativa do Brasil com a margem de preferência estabelecida no Artigo 1, sem limitações quantitativas nos seguintes casos:" .
+lex:D4421\/Artigo2\/AlineaAs\/ItemQuando    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemQuando .
+lex:D4421\/Artigo2\/AlineaAs\/ItemQuando    lex:temConteudo    "- Quando se tratar de produtos automotivos incluídos nas alíneas 'a' a 'i' do Artigo 3, bem como os conjuntos e subconjuntos incluídos na alínea 'j' do mesmo artigo, que atendam o Índice de Conteúdo Regional (ICR) estabelecido nos Artigos 8 e 11 deste Protocolo." .
+lex:D4421\/Artigo2\/AlineaAs\/ItemQuando    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemQuando .
+lex:D4421\/Artigo2\/AlineaAs\/ItemQuando    lex:temConteudo    "- Quando se tratar de autopeças consideradas peças (alínea 'j' do Artigo 3) que atendam o Regime Geral de Origem do MERCOSUL." .
+lex:D4421\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D4421\/Artigo2    lex:temAlinea    lex:D4421\/Artigo2\/AlineaAs .
+lex:D4421\/Artigo2\/AlineaAs    lex:temConteudo    "b) As empresas automotivas instaladas no território da República Oriental do Uruguai que atenderem o requisito de origem preferencial estabelecido neste Protocolo (Artigos 9 e 12) terão acesso ao mercado da República Federativa do Brasil com a margem de preferência estabelecida no Artigo 1, limitado às seguintes quantidades anuais:" .
+lex:D4421\/Artigo2\/AlineaAs\/ItemAutomoveis    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemAutomoveis .
+lex:D4421\/Artigo2\/AlineaAs\/ItemAutomoveis    lex:temConteudo    "- Automóveis e veículos comerciais leves   (alínea 'a' do Artigo 3): ano 2002, 8.000 unidades; ano 2003, 17.000 unidades; ano 2004, 18.000 unidades e anos 2005 e 2006, 20.000 unidades anuais. Para os anos seguintes as Partes estabelecerão o aumento da quota correspondente." .
+lex:D4421\/Artigo2\/AlineaAs\/ItemOnibus    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemOnibus .
+lex:D4421\/Artigo2\/AlineaAs\/ItemOnibus    lex:temConteudo    "- Ônibus   (alínea 'b' do Artigo 3): a Comissão Monitora Bilateral analisará as condições de acesso de ônibus (alínea 'b') ao mercado brasileiro." .
+lex:D4421\/Artigo2\/AlineaAs\/ItemCaminhoes    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemCaminhoes .
+lex:D4421\/Artigo2\/AlineaAs\/ItemCaminhoes    lex:temConteudo    "- Caminhões   (alínea 'c' do Artigo 3): 800 unidades, das quais até 500 unidades poderão ser da categoria de pesados (mais de 5 toneladas de carga máxima), incluídas na quota definida para automóveis e veículos comerciais leves." .
+lex:D4421\/Artigo2\/AlineaAs\/ItemAutopecas    lex:ehUm    lex:Item .
+lex:D4421\/Artigo2\/AlineaAs    lex:temItem    lex:D4421\/Artigo2\/AlineaAs\/ItemAutopecas .
+lex:D4421\/Artigo2\/AlineaAs\/ItemAutopecas    lex:temConteudo    "- Autopeças (peças, conjuntos e subconjuntos)   (alínea 'j' do Artigo 3):" .
+lex:D4421\/Texto    lex:remetePara    lex:D88419 .

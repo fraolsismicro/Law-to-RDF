@@ -1,0 +1,100 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9467    lex:ehUm    lex:DocLegal .
+lex:L9467    lex:temTextoIntegral    lex:HTMLs\/L9467.htm .
+lex:L9467\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9467    lex:temArtigo    lex:L9467\/Artigo1 .
+lex:L9467\/Artigo1    lex:temConteudo    "Art. 1º O art. 9º da Lei nº 8.036, de 11 de maio de 1990, passa a vigorar com a seguinte redação:" .
+lex:L9467\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9467\/Artigo1    lex:temInciso    lex:L9467\/Artigo1\/IncisoI .
+lex:L9467\/Artigo1\/IncisoI    lex:temConteudo    "I - Garantias:" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria    lex:temConteudo    "a) hipotecária;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao    lex:temConteudo    "b) caução de Créditos hipotecários próprios, relativos a financiamentos concedidos com recursos do agente financeiro;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao    lex:temConteudo    "c) caução dos créditos hipotecários vinculados aos imóveis objeto de financiamento;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca    lex:temConteudo    "d) hipoteca sobre outros imóveis de propriedade do agente financeiro, desde que livres e desembaraçados de quaisquer ônus;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao    lex:temConteudo    "e) cessão de créditos do agente financeiro, derivados de financiamentos concedidos com recursos próprios, garantidos por penhor ou hipoteca;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca    lex:temConteudo    "f) hipoteca sobre imóvel de propriedade de terceiros;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro    lex:temConteudo    "g) seguro de crédito;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia    lex:temConteudo    "h) garantia real ou vinculação de receitas, inclusive tarifárias, nas aplicações contratadas com pessoa jurídica de direito público ou de direito privado a ela vinculada;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval    lex:temConteudo    "i) aval em nota promissória;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca    lex:temConteudo    "j) fiança pessoal;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao    lex:temConteudo    "l) alienação fiduciária de bens móveis em garantia;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca    lex:temConteudo    "m) fiança bancária;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras    lex:ehUm    lex:IncisoAlinea .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca    lex:temIncisoAlinea    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras    lex:temConteudo    "n) outras, a critério do Conselho Curador do FGTS;" .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras    lex:temIncisoAlineaItem    lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras\/IncisoAlineaItem .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras\/IncisoAlineaItem    lex:temConteudo    "........................................................................." .
+lex:L9467\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L9467\/Artigo1    lex:temParagrafo    lex:L9467\/Artigo1\/Paragrafo5 .
+lex:L9467\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º As garantias, nas diversas modalidades discriminadas no inciso I do caput deste artigo, serão admitidas singular ou supletivamente, considerada a suficiência de cobertura para os empréstimos e financiamentos concedidos:" .
+lex:L9467\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9467    lex:temArtigo    lex:L9467\/Artigo2 .
+lex:L9467\/Artigo2    lex:temConteudo    "Art. 2º o art. 2º da Lei nº 8.844, de 20 de janeiro 1994, passa a vigorar com a seguinte redação:" .
+lex:L9467\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9467\/Artigo2    lex:temParagrafo    lex:L9467\/Artigo2\/Paragrafo1 .
+lex:L9467\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O Fundo de Garantia do Tempo de Serviço fica isento de custas nos processos judiciais de cobrança de seus créditos." .
+lex:L9467\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9467\/Artigo2    lex:temParagrafo    lex:L9467\/Artigo2\/Paragrafo2 .
+lex:L9467\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º As despesas, inclusive as de sucumbência, que vierem a ser incorridas pela Procuradoria-Geral da Fazenda Nacional e pela Caixa Economica Federal, para a realização da inscrição em Dívida Ativa, do ajuizamento e do controle e acompanhamento dos processos judiciais, serão efetuadas a débito do Fundo de Garantia do Tempo de Servico." .
+lex:L9467\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9467\/Artigo2    lex:temParagrafo    lex:L9467\/Artigo2\/Paragrafo3 .
+lex:L9467\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Os créditos relativos ao FGTS gozam dos mesmos privilégios atribuídos aos créditos trabalhistas." .
+lex:L9467\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L9467\/Artigo2    lex:temParagrafo    lex:L9467\/Artigo2\/Paragrafo4 .
+lex:L9467\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4º Na cobrança judicial dos créditos do FGTS, incidirá um encargo de vinte por cento, que reverterá para o Fundo, para ressarcimento dos custos por ele incorridos, o qual será reduzido para dez por cento, se o pagamento se der antes do ajuizamento da cobrança." .
+lex:L9467\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9467    lex:temArtigo    lex:L9467\/Artigo3 .
+lex:L9467\/Artigo3    lex:temConteudo    "Art. 3º Ficam convalidados os atos praticados com base na Medida Provisória nº 1.478-24, de 15 de maio de 1997." .
+lex:L9467\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9467    lex:temArtigo    lex:L9467\/Artigo4 .
+lex:L9467\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9467\/Texto00001    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/IncisoI\/IncisoAlineaHipotecaria\/IncisoAlineaCaucao\/IncisoAlineaCaucao\/IncisoAlineaHipoteca\/IncisoAlineaCessao\/IncisoAlineaHipoteca\/IncisoAlineaSeguro\/IncisoAlineaGarantia\/IncisoAlineaAval\/IncisoAlineaFianca\/IncisoAlineaAlienacao\/IncisoAlineaFianca\/IncisoAlineaOutras    lex:remetePara    lex:L8036consol\/Artigo9 .
+lex:L9467\/Artigo1\/Paragrafo5    lex:remetePara    lex:L8036consol\/Artigo9\/Paragrafo5 .
+lex:L9467\/Texto00018    lex:remetePara    lex:L8844\/Artigo2 .
+lex:L9467\/Artigo3    lex:remetePara    lex:1478-24 .

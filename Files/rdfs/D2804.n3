@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2804    lex:ehUm    lex:DocLegal .
+lex:D2804    lex:temTextoIntegral    lex:HTMLs\/D2804.htm .
+lex:D2804\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2804    lex:temArtigo    lex:D2804\/Artigo1 .
+lex:D2804\/Artigo1    lex:temConteudo    "Art 1º Ficam remanejados, na forma deste artigo, os seguintes cargos em comissão:" .
+lex:D2804\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2804\/Artigo1    lex:temInciso    lex:D2804\/Artigo1\/IncisoI .
+lex:D2804\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério da Administração Federal e Reforma do Estado para a Secretaria-Geral da Presidência da República: trinta e seis DAS 101.1, onze DAS 102.3 e oito DAS 102.1;" .
+lex:D2804\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2804\/Artigo1    lex:temInciso    lex:D2804\/Artigo1\/IncisoII .
+lex:D2804\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria-Geral da Presidência da República para o Ministério da Administração Federal e Reforma do Estado: um DAS 101.3, quatro DAS 101.2, quatro DAS 102.4 e dois DAS 102.2." .
+lex:D2804\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2804\/Artigo1    lex:temParagrafo    lex:D2804\/Artigo1\/Paragrafo1 .
+lex:D2804\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Em decorrência do disposto neste artigo, o Quadro Demonstrativo dos Cargos em Comissão da Subsecretaria-Geral da Presidência da República, passa a ser o constante do Anexo I a este Decreto." .
+lex:D2804\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2804\/Artigo1    lex:temParagrafo    lex:D2804\/Artigo1\/Paragrafo2 .
+lex:D2804\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Para fins de compensação financeira, permanecerão, sem provimento na Secretaria-Geral da Presidência da República 81 Gratificações de Representação-GR, sendo 29 GR-II e 52 GR-I." .
+lex:D2804\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2804    lex:temArtigo    lex:D2804\/Artigo3 .
+lex:D2804\/Artigo3    lex:temConteudo    "Art 3º Os regimentos internos que definirão o detalhamento dos órgãos integrantes da Estrutura Regimental da Subsecretaria-Geral, as competências das respectivas unidades e as atribuições de seus dirigentes serão aprovados pelo Secretário-Geral da Presidência da República e publicados no Diário Oficial da União, no prazo de sessenta dias contados da data de publicação deste Decreto." .
+lex:D2804\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2804    lex:temArtigo    lex:D2804\/Artigo4 .
+lex:D2804\/Artigo4    lex:temConteudo    "Art 4º Em decorrência do disposto no art. 1º deste Decreto, o Anexo III ao Decreto nº 1.351, de 28 de dezembro de 1994, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D2804\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2804    lex:temArtigo    lex:D2804\/Artigo5 .
+lex:D2804\/Artigo5    lex:temConteudo    "Art 5º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2804\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D2804    lex:temArtigo    lex:D2804\/Artigo6 .
+lex:D2804\/Artigo6    lex:temConteudo    "Art 6º Revogam-se os arts. 12 a 64 do Decreto nº 115, de 13 de maio de 1991." .
+lex:D2804\/Artigo1\/Artigo2    lex:remetePara    lex:D0820\/Artigo12 .
+lex:D2804\/Artigo1\/Artigo2    lex:revogadoPor    lex:D3455\/Artigo4 .
+lex:D3455\/Artigo4    lex:revogou    lex:D2804\/Artigo1\/Artigo2 .
+lex:D2804\/Artigo1\/Paragrafo2    lex:remetePara    lex:L7474 .
+lex:D2804\/Artigo4    lex:remetePara    lex:D1351-94\/ .
+lex:D2804\/Artigo6    lex:remetePara    lex:D0115\/Artigo12 .

@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9845    lex:ehUm    lex:DocLegal .
+lex:L9845    lex:temTextoIntegral    lex:HTMLs\/L9845.htm .
+lex:L9845\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9845    lex:temArtigo    lex:L9845\/Artigo1 .
+lex:L9845\/Artigo1    lex:temConteudo    "Art. 1o É transferida, na Justiça do Trabalho da 20ª Região, a Sede da 2ª Junta de Conciliação e Julgamento do Município de Maruim para a cidade de Aracaju (5ª JCJ), com todo o acervo e respectivos cargos." .
+lex:L9845\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9845    lex:temArtigo    lex:L9845\/Artigo2 .
+lex:L9845\/Artigo2    lex:temConteudo    "Art. 2o A Lei no 8.432, de 11 de junho de 1992, passa a vigorar acrescida do seguinte art. 38-A:" .
+lex:L9845\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoI .
+lex:L9845\/Artigo2\/IncisoI    lex:temConteudo    "I   Aracaju: o respectivo Município e os de Barra dos Coqueiros, Itaporanga D´Ajuda, Nossa Senhora do Socorro e São Cristóvão;" .
+lex:L9845\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoII .
+lex:L9845\/Artigo2\/IncisoII    lex:temConteudo    "II   Estância: o respectivo Município e os de Arauá, Cristinápolis, Indiaroba, Itabaianinha, Santa Luzia do Itanhy, Tomar do Geru e Umbaúba;" .
+lex:L9845\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoIII .
+lex:L9845\/Artigo2\/IncisoIII    lex:temConteudo    "III   Itabaiana: o respectivo Município e os de Areia Branca, Campo do Brito, Carira, Frei Paulo, Macambira, Malhador, Moita Bonita, Pedra Mole, Pinhão, Ribeirópolis e São Domingos;" .
+lex:L9845\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoIV .
+lex:L9845\/Artigo2\/IncisoIV    lex:temConteudo    "IV   Lagarto: o respectivo Município e os de Boquim, Pedrinhas, Poço Verde, Riachão do Dantas, Salgado, Simão Dias e Tobias Barreto;" .
+lex:L9845\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoV .
+lex:L9845\/Artigo2\/IncisoV    lex:temConteudo    "V   Maruim: o respectivo Município e os de Capela, Carmópolis, Divina Pastora, General Maynard, Japaratuba, Laranjeiras, Pirambu, Riachuelo, Rosário do Catete, Santa Rosa de Lima, Santo Amaro das Brotas e Siriri;" .
+lex:L9845\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoVI .
+lex:L9845\/Artigo2\/IncisoVI    lex:temConteudo    "VI   Nossa Senhora da Glória: o respectivo Município e os de Canindé de São Francisco, Cumbe, Feira Nova, Gararu, Graccho Cardoso, Monte Alegre de Sergipe, Nossa Senhora Aparecida, Nossa Senhora das Dores, Poço Redondo, Porto da Folha e São Miguel do Aleixo;" .
+lex:L9845\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L9845\/Artigo2    lex:temInciso    lex:L9845\/Artigo2\/IncisoVII .
+lex:L9845\/Artigo2\/IncisoVII    lex:temConteudo    "VII   Propriá: o respectivo Município e os de Amparo do São Francisco, Aquidabã, Brejo Grande, Canhoba, Cedro de São João, Ilha das Flores, Itabi, Japoatã, Malhada dos Bois, Muribeca, Neópolis, Nossa Senhora de Lourdes, Pacatuba, São Francisco, Santana do São Francisco e Telha.'" .
+lex:L9845\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9845    lex:temArtigo    lex:L9845\/Artigo3 .
+lex:L9845\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9845\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9845    lex:temArtigo    lex:L9845\/Artigo4 .
+lex:L9845\/Artigo4    lex:temConteudo    "Art. 4o É revogada a alínea b do art. 25 da Lei no 8.432, de 11 de junho de 1992." .
+lex:L9845\/Artigo2    lex:remetePara    lex:L8432 .
+lex:L9845\/Texto00002    lex:remetePara    lex:L8432\/Artigo38 .
+lex:L9845\/Artigo4    lex:remetePara    lex:L8432\/Artigo25 .

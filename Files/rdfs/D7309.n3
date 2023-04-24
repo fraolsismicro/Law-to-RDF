@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7309    lex:ehUm    lex:DocLegal .
+lex:D7309    lex:temTextoIntegral    lex:HTMLs\/D7309.htm .
+lex:D7309\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7309    lex:temArtigo    lex:D7309\/Artigo1 .
+lex:D7309\/Artigo1    lex:temConteudo    "Art. 1o  O art. 4o do Decreto no 7.167, de 5 de maio de 2010, passa a vigorar com a seguinte redação:" .
+lex:D7309\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D7309\/Artigo1    lex:temInciso    lex:D7309\/Artigo1\/IncisoX .
+lex:D7309\/Artigo1\/IncisoX    lex:temConteudo    "X - um representante dos trabalhadores indicado pela Confederação Nacional dos Trabalhadores da Indústria de Madeira e Construção - CONTICOM;" .
+lex:D7309\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D7309\/Artigo1    lex:temInciso    lex:D7309\/Artigo1\/IncisoXI .
+lex:D7309\/Artigo1\/IncisoXI    lex:temConteudo    "XI - um representante do setor empresarial, indicado pela Confederação Nacional da Indústria - CNI; e" .
+lex:D7309\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D7309\/Artigo1    lex:temInciso    lex:D7309\/Artigo1\/IncisoXII .
+lex:D7309\/Artigo1\/IncisoXII    lex:temConteudo    "XII - um representante dos trabalhadores, indicado pela Confederação Nacional dos Trabalhadores na Agricultura - CONTAG." .
+lex:D7309\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7309    lex:temArtigo    lex:D7309\/Artigo2 .
+lex:D7309\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7309\/Texto00001    lex:remetePara    lex:D7167\/Artigo4 .

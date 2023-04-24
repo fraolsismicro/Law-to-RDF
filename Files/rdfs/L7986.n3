@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7986    lex:ehUm    lex:DocLegal .
+lex:L7986    lex:temTextoIntegral    lex:HTMLs\/L7986.htm .
+lex:L7986\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo1 .
+lex:L7986\/Artigo1    lex:temConteudo    "Art. 1º É assegurado aos seringueiros recrutados nos termos do Decreto-Lei nº 5.813, de 14 de setembro de 1943, que tenham trabalhado durante a Segunda Guerra Mundial nos Seringais da Região Amazônica, amparados pelo Decreto-Lei nº9.882, de 16 de setembro de 1946, e que não possuam meios para a sua subsistência e da sua família, o pagamento de pensão mensal vitalícia correspondente ao valor de 2 (dois) salários-mínimos vigentes no País." .
+lex:L7986\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7986\/Artigo1    lex:temParagrafo    lex:L7986\/Artigo1\/ParagrafoUnico .
+lex:L7986\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O benefício a que se refere este artigo estende-se aos seringueiros que, atendendo ao chamamento do governo brasileiro, trabalharam na produção de borracha, na região Amazônica, contribuindo para o esforço de guerra." .
+lex:L7986\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo2 .
+lex:L7986\/Artigo2    lex:temConteudo    "Art. 2º O benefício de que trata esta Lei é transferível aos dependentes que comprovem o estado de carência." .
+lex:L7986\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo4 .
+lex:L7986\/Artigo4    lex:temConteudo    "Art. 4º A comprovação da carência do beneficiário ou do dependente será feita com a apresentação de atestado fornecido por órgão oficial." .
+lex:L7986\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo5 .
+lex:L7986\/Artigo5    lex:temConteudo    "Art. 5º Os pedidos de concessão do benefício ou de sua transferência, devidamente instruídos, serão processados e julgados no prazo de 45 (quarenta e cinco) dias, sob pena de responsabilidade." .
+lex:L7986\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7986\/Artigo5    lex:temParagrafo    lex:L7986\/Artigo5\/ParagrafoUnico .
+lex:L7986\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os pagamentos de pensão especial iniciar-se-ão no prazo máximo de 30 (trinta) dias após o reconhecimento do direito." .
+lex:L7986\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo6 .
+lex:L7986\/Artigo6    lex:temConteudo    "Art. 6º O Ministério da Previdência e Assistência Social baixará as instruções necessárias à execução desta Lei, no prazo de 60 (sessenta) dias." .
+lex:L7986\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo7 .
+lex:L7986\/Artigo7    lex:temConteudo    "Art. 7º O órgão previdenciário encarregado do pagamento da pensão deverá firmar convênios com outros órgãos públicos federais, estaduais ou municipais, a fim de possibilitar aos beneficiários desta Lei perceberem mensalmente as respectivas pensões, preferencialmente nos locais onde residem, sem necessidade de grandes deslocamentos." .
+lex:L7986\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo8 .
+lex:L7986\/Artigo8    lex:temConteudo    "Art. 8º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7986\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L7986    lex:temArtigo    lex:L7986\/Artigo9 .
+lex:L7986\/Artigo9    lex:temConteudo    "Art. 9º Revogam-se as disposições em contrário." .
+lex:L7986\/Artigo1    lex:remetePara    lex:Del9882 .
+lex:L7986\/Artigo3    lex:remetePara    lex:L9711\/Artigo21 .
+lex:L7986\/Paragrafo1    lex:remetePara    lex:L9711\/Artigo21 .
+lex:L7986\/Paragrafo2    lex:remetePara    lex:L9711\/Artigo21 .
+lex:L7986\/Paragrafo3    lex:remetePara    lex:L9711\/Artigo21 .

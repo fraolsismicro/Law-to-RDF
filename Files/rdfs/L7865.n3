@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7865    lex:ehUm    lex:DocLegal .
+lex:L7865    lex:temTextoIntegral    lex:HTMLs\/L7865.htm .
+lex:L7865\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7865    lex:temArtigo    lex:L7865\/Artigo1 .
+lex:L7865\/Artigo1    lex:temConteudo    "Art. 1° O inciso I, alínea b , do art. 32, da Lei n° 7.729, de 16 de janeiro de 1989, passa a vigorar com a seguinte redação:" .
+lex:L7865\/Artigo1\/Alinea    lex:ehUm    lex:Alinea .
+lex:L7865\/Artigo1    lex:temAlinea    lex:L7865\/Artigo1\/Alinea .
+lex:L7865\/Artigo1\/Alinea    lex:temConteudo    "b) .........................................................................." .
+lex:L7865\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7865\/Artigo1    lex:temInciso    lex:L7865\/Artigo1\/IncisoI .
+lex:L7865\/Artigo1\/IncisoI    lex:temConteudo    "I - Teresina: o respectivo município e os de Altos, Demerval Lobão, Campo Maior, José de Freitas, Monsenhor Gil e União; e no Estado do Maranhão o de Timon;'" .
+lex:L7865\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7865    lex:temArtigo    lex:L7865\/Artigo2 .
+lex:L7865\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L7865\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7865    lex:temArtigo    lex:L7865\/Artigo3 .
+lex:L7865\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se disposições em contrário." .
+lex:L7865\/Artigo1\/IncisoI    lex:remetePara    lex:L7729\/Artigo32 .

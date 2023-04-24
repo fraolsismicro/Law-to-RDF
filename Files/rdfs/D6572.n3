@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6572    lex:ehUm    lex:DocLegal .
+lex:D6572    lex:temTextoIntegral    lex:HTMLs\/D6572.htm .
+lex:D6572\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6572    lex:temArtigo    lex:D6572\/Artigo1 .
+lex:D6572\/Artigo1    lex:temConteudo    "Art. 1o  O inciso IV do art. 4o do Decreto no 5.390, de 8 de março de 2005, passa a vigorar com a seguinte redação:" .
+lex:D6572\/Artigo1\/AlineaMinisterio    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaMinisterio .
+lex:D6572\/Artigo1\/AlineaMinisterio    lex:temConteudo    "n) Ministério do Meio Ambiente;" .
+lex:D6572\/Artigo1\/AlineaMinisterio    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaMinisterio .
+lex:D6572\/Artigo1\/AlineaMinisterio    lex:temConteudo    "o) Ministério da Agricultura, Pecuária e Abastecimento;" .
+lex:D6572\/Artigo1\/AlineaSecretaria-Geral    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaSecretaria-Geral .
+lex:D6572\/Artigo1\/AlineaSecretaria-Geral    lex:temConteudo    "p) Secretaria-Geral da Presidência da República;" .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaSecretaria .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:temConteudo    "q) Secretaria Especial dos Direitos Humanos da Presidência da República;" .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaSecretaria .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:temConteudo    "r) Secretaria Especial de Políticas de Promoção da Igualdade Racial da Presidência da República;" .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaSecretaria .
+lex:D6572\/Artigo1\/AlineaSecretaria    lex:temConteudo    "s) Secretaria de Comunicação Social da Presidência da República;" .
+lex:D6572\/Artigo1\/AlineaFundacao    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaFundacao .
+lex:D6572\/Artigo1\/AlineaFundacao    lex:temConteudo    "t) Fundação Nacional do Índio;" .
+lex:D6572\/Artigo1\/AlineaInstituto    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaInstituto .
+lex:D6572\/Artigo1\/AlineaInstituto    lex:temConteudo    "u) Instituto de Pesquisa Econômica Aplicada;" .
+lex:D6572\/Artigo1\/AlineaInstituto    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaInstituto .
+lex:D6572\/Artigo1\/AlineaInstituto    lex:temConteudo    "v) Instituto Brasileiro de Geografia e Estatística; e" .
+lex:D6572\/Artigo1\/AlineaCaixa    lex:ehUm    lex:Alinea .
+lex:D6572\/Artigo1    lex:temAlinea    lex:D6572\/Artigo1\/AlineaCaixa .
+lex:D6572\/Artigo1\/AlineaCaixa    lex:temConteudo    "x) Caixa Econômica Federal. (NR)" .
+lex:D6572\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6572    lex:temArtigo    lex:D6572\/Artigo2 .
+lex:D6572\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6572\/Artigo1\/AlineaMinisterio    lex:remetePara    lex:D5390\/Artigo4 .

@@ -1,0 +1,865 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4490    lex:ehUm    lex:DocLegal .
+lex:D4490    lex:temTextoIntegral    lex:HTMLs\/D4490.htm .
+lex:D4490\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490    lex:temInciso    lex:D4490\/IncisoI .
+lex:D4490\/IncisoI    lex:temConteudo    "I - da Casa Civil da Presidência da República para a Corregedoria-Geral da União, três DAS 101.6; três DAS 101.5; dez DAS 101.4; um DAS 101.3; um DAS 102.5; sete DAS 102.4; quatro DAS 102.2; e três DAS 102.1; e" .
+lex:D4490\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4490    lex:temParagrafo    lex:D4490\/ParagrafoUnico .
+lex:D4490\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado Corregedor-Geral da União fará publicar, no Diário Oficial da União, no prazo de quarenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - unidades de assistência direta e imediata ao Ministro de Estado Corregedor-Geral da União:" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaGabinete    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaGabinete .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaGabinete    lex:temConteudo    "a) Gabinete; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaAssessoria    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaAssessoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaAssessoria    lex:temConteudo    "b) Assessoria Jurídica;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - unidades setoriais:" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria    lex:temConteudo    "a) Diretoria de Gestão Interna; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretoria    lex:temConteudo    "b) Diretoria de Sistemas e Informação;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - unidades específicas singulares:" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOuvidoria-Geral    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOuvidoria-Geral .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaOuvidoria-Geral    lex:temConteudo    "a) Ouvidoria-Geral; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:ehUm    lex:Alinea .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temAlinea    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:temConteudo    "b) Subcorregedoria-Geral;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:ehUm    lex:Item .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:temItem    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:temConteudo    "1. Corregedoria de Instrução;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:ehUm    lex:Item .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:temItem    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:temConteudo    "2. Corregedoria de Execução;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:ehUm    lex:Item .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:temItem    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemCorregedoria    lex:temConteudo    "3. Corregedoria de Procedimentos; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemSecretaria    lex:ehUm    lex:Item .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral    lex:temItem    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemSecretaria .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII\/AlineaSubcorregedoria-Geral\/ItemSecretaria    lex:temConteudo    "4. Secretaria Federal de Controle Interno;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - unidades descentralizadas: Corregedorias-Gerais da União nos Estados; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - órgão colegiado: Comissão de Coordenação de Controle Interno." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - assistir ao Ministro de Estado Corregedor-Geral da União em sua representação política e social; ocupar-se das relações públicas e do preparo e despacho de seu expediente pessoal;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - acompanhar o andamento dos projetos de interesse da Corregedoria-Geral da União, em tramitação no Congresso          Nacional;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - providenciar o atendimento às consultas e aos requerimentos formulados pelo Congresso Nacional;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - planejar, coordenar e supervisionar o desenvolvimento das atividades de comunicação social da Corregedoria-Geral da União; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - exercer outras atribuições que lhe forem cometidas pelo Ministro de Estado Corregedor-Geral da União." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - assessorar o Ministro de Estado Corregedor-Geral da União em assuntos de natureza jurídica;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - assistir ao Ministro de Estado Corregedor-Geral da União no controle interno da legalidade administrativa dos atos a serem por ele praticados ou já efetivados;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - elaborar estudos sobre temas jurídicos, quando solicitado e examinar, prévia e conclusivamente, anteprojetos de lei, medidas provisórias, decretos e outros atos normativos de interesse da Corregedoria-Geral da União;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - emitir parecer jurídico nas representações e denúncias que lhe forem encaminhadas, por determinação do Ministro de     Estado Corregedor-Geral da União, sugerindo as providências cabíveis;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - preparar informações para instrução de processos judiciais de interesse da Corregedoria-Geral da União;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - propor a declaração de nulidade de ato administrativo praticado no âmbito da Corregedoria-Geral da União; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVII    lex:temConteudo    "VII - examinar, prévia e conclusivamente, no âmbito da Corregedoria-Geral da União, os textos de edital de licitação e dos respectivos contratos ou instrumentos congêneres, a serem publicados e celebrados, bem como os atos pelos quais se vá reconhecer a inexigibilidade, ou decidir a dispensa de licitação." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - planejar e coordenar, em articulação com a Secretaria de Administração da Casa Civil da Presidência da República, a execução das atividades relacionadas aos sistemas de organização e modernização administrativa, de gestão dos recursos humanos, de serviços gerais, de planejamento e de orçamento da Corregedoria-Geral da União;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - promover a elaboração e consolidação dos planos e programas das atividades de sua área de competência e submetê-los à decisão superior; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - supervisionar, coordenar, controlar e acompanhar, as atividades administrativas dos órgãos da Corregedoria-Geral da União nos Estados." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - planejar, coordenar e controlar as atividades de modelagem de dados, desenvolvimento, implantação, treinamento de usuários, avaliação e manutenção de sistemas de informação e recursos de informática;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - apoiar e participar na aplicação da metodologia de estratégia e análise de dados e disponibilizar informações de apoio ao processo de tomada de decisões estratégicas;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - promover em articulação com outros órgãos da Administração Pública Federal, a integração de sistemas de informação de interesse da Corregedoria-Geral da União;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - desenvolver, implantar e prover manutenção aos sistemas informatizados de controle dos planos e programas da Corregedoria-Geral da União;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - planejar, coordenar e controlar os convênios e contratos, referentes ao uso dos sistemas de informação, firmados com órgãos e entidades da Administração Pública, entidades privadas e organismos internacionais; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - planejar, coordenar e controlar a atividade de prospecção de novas tecnologias voltadas para a área de informação." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - examinar manifestações referentes a procedimentos e ações de agentes, órgãos e entidades do Poder Executivo Federal;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - propor a adoção de medidas para a correção e a prevenção de falhas e omissões dos responsáveis pela inadequada prestação do serviço público;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - produzir estatísticas indicativas do nível de satisfação dos usuários dos serviços públicos prestados no âmbito do Poder Executivo Federal, a partir de manifestações recebidas;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - contribuir com a disseminação das formas de participação popular no acompanhamento e fiscalização da prestação dos serviços públicos; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - congregar e orientar a atuação das demais unidades de ouvidoria dos órgãos e entidades do Poder Executivo Federal." .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - assistir ao Ministro de Estado Corregedor-Geral da União na supervisão e coordenação das atividades das Corregedorias e da Secretaria Federal de Controle Interno;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - propor ao Ministro de Estado Corregedor-Geral da União a instauração de procedimento de correição;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - coordenar os estudos relacionados a anteprojetos de lei, medidas provisórias, decretos e outros atos normativos, a serem propostos com o fim de evitar a repetição de irregularidades constatadas em procedimentos analisados na área de sua competência;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - supervisionar e coordenar a consolidação dos planos de trabalho das unidades de auditoria interna das entidades da Administração Pública Federal indireta;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - coordenar a avaliação de desempenho da auditoria interna das entidades da Administração Federal indireta, a fim de evitar duplicidade de esforços e buscar a otimização dos recursos disponíveis; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - coordenar os Grupos Especiais de Trabalho constituídos, no âmbito da Corregedoria-Geral da União, com o objetivo de proceder a análise final de imputações de irregularidades e acompanhar as ações de aplicações dos recursos públicos federais de responsabilidade das entidades da administração direta do Poder Executivo Federal;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - propor a realização das diligências iniciais, objetivando a apuração, de ofício ou como decorrência de representações ou denúncias recebidas, de ocorrências relacionadas a lesão ou ameaça de lesão ao patrimônio público, requisitando informações e documentos para subsidiar o exame da matéria, com vista a orientar os procedimentos e medidas a serem adotados;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - acompanhar e controlar o atendimento das diligências requeridas, fiscalizando o cumprimento dos prazos;" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - analisar os processos encaminhados para diligências, objetivando a requisição de outros dados sistêmicos que possam contribuir para a sua análise; e" .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4490\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4490\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - analisar as informações recebidas e propor o encaminhamento dos procedimentos e medidas a serem adotados." .
+lex:D4490\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo10 .
+lex:D4490\/Artigo10    lex:temConteudo    "Art. 10. À Corregedoria de Execução compete:" .
+lex:D4490\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo10    lex:temInciso    lex:D4490\/Artigo10\/IncisoI .
+lex:D4490\/Artigo10\/IncisoI    lex:temConteudo    "I - instaurar e conduzir, por determinação do Ministro de Estado Corregedor-Geral da União, ou de ofício, os procedimentos correicionais para apurar irregularidades praticadas no âmbito do Poder Executivo Federal;" .
+lex:D4490\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo10    lex:temInciso    lex:D4490\/Artigo10\/IncisoII .
+lex:D4490\/Artigo10\/IncisoII    lex:temConteudo    "II - promover inspeções para instruir procedimentos em curso no âmbito da Corregedoria-Geral da União;" .
+lex:D4490\/Artigo10\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo10    lex:temInciso    lex:D4490\/Artigo10\/IncisoIII .
+lex:D4490\/Artigo10\/IncisoIII    lex:temConteudo    "III - propor a constituição de Grupos Especiais ou Temporários de Trabalho, visando examinar e sugerir medidas referentes à apuração de irregularidades;" .
+lex:D4490\/Artigo10\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo10    lex:temInciso    lex:D4490\/Artigo10\/IncisoIV .
+lex:D4490\/Artigo10\/IncisoIV    lex:temConteudo    "IV - propor à Subcorregedoria-Geral o encaminhamento de peças de informação, ao Ministério Público Federal e ao Departamento de Polícia Federal, visando apuração e responsabilização penal, quando verificado indício de delito ou constatada denunciação caluniosa; e" .
+lex:D4490\/Artigo10\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo10    lex:temInciso    lex:D4490\/Artigo10\/IncisoV .
+lex:D4490\/Artigo10\/IncisoV    lex:temConteudo    "V - propor à Subcorregedoria-Geral a provocação da Advocacia-Geral da União, para adoção das providências necessárias à indisponibilidade dos bens, quando necessária à proteção do patrimônio público." .
+lex:D4490\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo11 .
+lex:D4490\/Artigo11    lex:temConteudo    "Art. 11. À Corregedoria de Procedimentos compete:" .
+lex:D4490\/Artigo11\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo11    lex:temInciso    lex:D4490\/Artigo11\/IncisoI .
+lex:D4490\/Artigo11\/IncisoI    lex:temConteudo    "I - acompanhar a aplicação das decisões provenientes dos órgãos de controle interno e externo, promovendo registros dos responsáveis e acompanhar as ações desenvolvidas pelos órgãos e entidades integrantes dos sistemas de gestão de recursos públicos, bem como as ações dos gerentes de programas integrantes do Plano Plurianual;" .
+lex:D4490\/Artigo11\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo11    lex:temInciso    lex:D4490\/Artigo11\/IncisoII .
+lex:D4490\/Artigo11\/IncisoII    lex:temConteudo    "II - promover registros referentes à instauração de tomada de contas especial;" .
+lex:D4490\/Artigo11\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo11    lex:temInciso    lex:D4490\/Artigo11\/IncisoIII .
+lex:D4490\/Artigo11\/IncisoIII    lex:temConteudo    "III - propor à Subcorregedoria-Geral a instauração de sindicância ou processo administrativo disciplinar, quando constatada a omissão da autoridade competente; e" .
+lex:D4490\/Artigo11\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo11    lex:temInciso    lex:D4490\/Artigo11\/IncisoIV .
+lex:D4490\/Artigo11\/IncisoIV    lex:temConteudo    "IV - efetuar a permanente fiscalização das informações prestadas pelos órgãos do Poder Executivo Federal, acerca do curso das sindicâncias e dos processos administrativos instaurados, para apuração de irregularidades, e manter cadastro atualizado das punições impostas em razão da prática de irregularidades." .
+lex:D4490\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo12 .
+lex:D4490\/Artigo12    lex:temConteudo    "Art. 12. Compete, ainda, às Corregedorias:" .
+lex:D4490\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo12    lex:temInciso    lex:D4490\/Artigo12\/IncisoI .
+lex:D4490\/Artigo12\/IncisoI    lex:temConteudo    "I - analisar, sob a supervisão da Subcorregedoria-Geral, as representações e as denúncias que lhes forem encaminhadas;" .
+lex:D4490\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo12    lex:temInciso    lex:D4490\/Artigo12\/IncisoII .
+lex:D4490\/Artigo12\/IncisoII    lex:temConteudo    "II - propor a requisição de perícias ou laudos periciais de órgãos e entidades da Administração Pública Federal, podendo indicar os servidores necessários à prestação dos serviços relacionados com os procedimentos em curso ou em fase de instauração; e" .
+lex:D4490\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo12    lex:temInciso    lex:D4490\/Artigo12\/IncisoIII .
+lex:D4490\/Artigo12\/IncisoIII    lex:temConteudo    "III - propor à Subcorregedoria-Geral as alterações de diplomas legais e instrumentos normativos, visando fortalecer os mecanismos de controle e evitar a ocorrência de irregularidades ou a sua repetição." .
+lex:D4490\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo13 .
+lex:D4490\/Artigo13    lex:temConteudo    "Art. 13.  À Secretaria Federal de Controle Interno compete desempenhar as funções operacionais do Sistema de Controle Interno do Poder Executivo Federal, devendo:" .
+lex:D4490\/Artigo13\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoI .
+lex:D4490\/Artigo13\/IncisoI    lex:temConteudo    "I - propor ao Ministro de Estado Corregedor-Geral da União a normatização, a sistematização e a padronização dos procedimentos operacionais dos órgãos e das unidades integrantes do Sistema de Controle Interno do Poder Executivo Federal;" .
+lex:D4490\/Artigo13\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoII .
+lex:D4490\/Artigo13\/IncisoII    lex:temConteudo    "II - coordenar as atividades que exijam ações integradas dos órgãos e das unidades do Sistema de Controle Interno do Poder Executivo Federal, com vistas à efetividade das competências que lhe são comuns;" .
+lex:D4490\/Artigo13\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoIII .
+lex:D4490\/Artigo13\/IncisoIII    lex:temConteudo    "III - auxiliar o Ministro de Estado Corregedor-Geral da União na supervisão técnica das atividades desempenhadas pelos órgãos e pelas unidades integrantes do Sistema de Controle Interno do Poder Executivo Federal;" .
+lex:D4490\/Artigo13\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoIV .
+lex:D4490\/Artigo13\/IncisoIV    lex:temConteudo    "IV - consolidar os planos de trabalho das unidades de auditoria interna das entidades da Administração Pública Federal      indireta;" .
+lex:D4490\/Artigo13\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoV .
+lex:D4490\/Artigo13\/IncisoV    lex:temConteudo    "V - apoiar o Órgão Central na instituição e manutenção de sistema de informações para o exercício das atividades finalísticas do Sistema de Controle Interno do Poder Executivo Federal;" .
+lex:D4490\/Artigo13\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoVI .
+lex:D4490\/Artigo13\/IncisoVI    lex:temConteudo    "VI - prestar informações ao Órgão Central sobre o desempenho e a conduta funcional dos servidores da carreira Finanças e Controle;" .
+lex:D4490\/Artigo13\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoVIII .
+lex:D4490\/Artigo13\/IncisoVIII    lex:temConteudo    "VIII - auxiliar o Ministro de Estado Corregedor-Geral da União na elaboração da prestação de contas anual do Presidente da República a ser encaminhada ao Congresso Nacional, nos termos do inciso XXIV do art. 84 da Constituição;" .
+lex:D4490\/Artigo13\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoIX .
+lex:D4490\/Artigo13\/IncisoIX    lex:temConteudo    "IX - exercer o controle das operações de crédito, avais, garantias, direitos e haveres da União;" .
+lex:D4490\/Artigo13\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoX .
+lex:D4490\/Artigo13\/IncisoX    lex:temConteudo    "X - avaliar o desempenho da auditoria interna das entidades da Administração Pública Federal indireta;" .
+lex:D4490\/Artigo13\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXI .
+lex:D4490\/Artigo13\/IncisoXI    lex:temConteudo    "XI - planejar, coordenar, controlar e avaliar as atividades de controle interno de suas unidades administrativas;" .
+lex:D4490\/Artigo13\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXII .
+lex:D4490\/Artigo13\/IncisoXII    lex:temConteudo    "XII - verificar a observância dos limites e das condições para realização de operações de crédito e inscrição em Restos a     Pagar;" .
+lex:D4490\/Artigo13\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXVI .
+lex:D4490\/Artigo13\/IncisoXVI    lex:temConteudo    "XVI - avaliar o cumprimento das metas estabelecidas no Plano Plurianual e na Lei de Diretrizes Orçamentárias;" .
+lex:D4490\/Artigo13\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXVII .
+lex:D4490\/Artigo13\/IncisoXVII    lex:temConteudo    "XVII - avaliar a execução dos orçamentos da União;" .
+lex:D4490\/Artigo13\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXVIII .
+lex:D4490\/Artigo13\/IncisoXVIII    lex:temConteudo    "XVIII - fiscalizar e avaliar a execução dos programas de governo, inclusive ações descentralizadas realizadas à conta de recursos oriundos dos orçamentos da União, quanto ao nível de execução das metas e dos objetivos estabelecidos e à qualidade do gerenciamento;" .
+lex:D4490\/Artigo13\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXIX .
+lex:D4490\/Artigo13\/IncisoXIX    lex:temConteudo    "XIX - fornecer informações sobre a situação físico-financeira dos projetos e das atividades constantes dos orçamentos da União;" .
+lex:D4490\/Artigo13\/IncisoXX    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXX .
+lex:D4490\/Artigo13\/IncisoXX    lex:temConteudo    "XX - propor medidas ao Ministro de Estado Corregedor-Geral da União visando criar condições para o exercício do controle social sobre os programas contemplados com recursos oriundos dos orçamentos da União;" .
+lex:D4490\/Artigo13\/IncisoXXI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXXI .
+lex:D4490\/Artigo13\/IncisoXXI    lex:temConteudo    "XXI - auxiliar o Ministro de Estado Corregedor-Geral da União na aferição da adequação dos mecanismos de controle social sobre os programas contemplados com recursos oriundos dos orçamentos da União;" .
+lex:D4490\/Artigo13\/IncisoXXII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXXII .
+lex:D4490\/Artigo13\/IncisoXXII    lex:temConteudo    "XXII - realizar auditorias sobre a gestão dos recursos públicos federais sob a responsabilidade de órgãos e entidades públicos e privados, bem como sobre a aplicação de subvenções e renúncia de receitas;" .
+lex:D4490\/Artigo13\/IncisoXXIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXXIII .
+lex:D4490\/Artigo13\/IncisoXXIII    lex:temConteudo    "XXIII - realizar auditorias e fiscalizações nos sistemas contábil, financeiro, orçamentário, de pessoal e demais sistemas administrativos e operacionais;" .
+lex:D4490\/Artigo13\/IncisoXXIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXXIV .
+lex:D4490\/Artigo13\/IncisoXXIV    lex:temConteudo    "XXIV - manter atualizado o cadastro de gestores públicos federais; e" .
+lex:D4490\/Artigo13\/IncisoXXV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo13    lex:temInciso    lex:D4490\/Artigo13\/IncisoXXV .
+lex:D4490\/Artigo13\/IncisoXXV    lex:temConteudo    "XXV - apurar os atos ou fatos inquinados de ilegais ou irregulares, praticados por agentes públicos ou privados, na utilização de recursos públicos federais; dar ciência ao controle externo e ao Ministro de Estado Corregedor-Geral da União e, quando for o caso, comunicar à unidade responsável pela contabilidade, para as providências cabíveis." .
+lex:D4490\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo14 .
+lex:D4490\/Artigo14    lex:temConteudo    "Art. 14.  Às Diretorias de Auditorias de Programas das áreas econômica, social e de infra-estrutura, compete realizar as atividades relacionadas com o processo de auditoria nos programas do Plano Plurianual e dos orçamentos anuais e nas atividades específicas de cada Ministério, exceto da Presidência da República, da Advocacia-Geral da União, do Ministério das Relações Exteriores do Ministério da Defesa." .
+lex:D4490\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo15 .
+lex:D4490\/Artigo15    lex:temConteudo    "Art. 15. À Diretoria de Auditoria de Contas compete:" .
+lex:D4490\/Artigo15\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo15    lex:temInciso    lex:D4490\/Artigo15\/IncisoI .
+lex:D4490\/Artigo15\/IncisoI    lex:temConteudo    "I - realizar auditoria sobre a gestão de recursos públicos federais sob a responsabilidade de órgãos e entidades públicos e privados, bem como sobre a aplicação de subvenções e renúncia de receitas;" .
+lex:D4490\/Artigo15\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo15    lex:temInciso    lex:D4490\/Artigo15\/IncisoII .
+lex:D4490\/Artigo15\/IncisoII    lex:temConteudo    "II - realizar auditorias e fiscalizações nos sistemas contábil, financeiro e demais sistemas administrativos;" .
+lex:D4490\/Artigo15\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo15    lex:temInciso    lex:D4490\/Artigo15\/IncisoIII .
+lex:D4490\/Artigo15\/IncisoIII    lex:temConteudo    "III - avaliar o desempenho da auditoria interna das entidades da Administração Pública Federal indireta; e" .
+lex:D4490\/Artigo15\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo15    lex:temInciso    lex:D4490\/Artigo15\/IncisoIV .
+lex:D4490\/Artigo15\/IncisoIV    lex:temConteudo    "IV - realizar auditorias especiais não alcançadas pelas demais diretorias." .
+lex:D4490\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo16 .
+lex:D4490\/Artigo16    lex:temConteudo    "Art. 16. À Diretoria de Auditoria de Pessoal e de Tomada de Contas Especial compete:" .
+lex:D4490\/Artigo16\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo16    lex:temInciso    lex:D4490\/Artigo16\/IncisoI .
+lex:D4490\/Artigo16\/IncisoI    lex:temConteudo    "I - realizar auditorias e fiscalizações no sistema de pessoal;" .
+lex:D4490\/Artigo16\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo16    lex:temInciso    lex:D4490\/Artigo16\/IncisoII .
+lex:D4490\/Artigo16\/IncisoII    lex:temConteudo    "II - orientar e acompanhar as atividades de verificação da exatidão e suficiência dos dados relativos à admissão e desligamento de pessoal e concessão de aposentadorias e pensões na Administração Pública Federal direta, autárquica e fundacional, bem como as admissões e desligamentos nas empresas públicas e sociedades de economia mista;" .
+lex:D4490\/Artigo16\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo16    lex:temInciso    lex:D4490\/Artigo16\/IncisoIII .
+lex:D4490\/Artigo16\/IncisoIII    lex:temConteudo    "III - verificar, certificar e controlar a tomada de contas especial; e" .
+lex:D4490\/Artigo16\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo16    lex:temInciso    lex:D4490\/Artigo16\/IncisoIV .
+lex:D4490\/Artigo16\/IncisoIV    lex:temConteudo    "IV - realizar auditorias e certificar as contas dos inventariantes dos órgãos extintos." .
+lex:D4490\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo17 .
+lex:D4490\/Artigo17    lex:temConteudo    "Art. 17. À Diretoria de Gestão do Sistema de Controle Interno compete:" .
+lex:D4490\/Artigo17\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo17    lex:temInciso    lex:D4490\/Artigo17\/IncisoI .
+lex:D4490\/Artigo17\/IncisoI    lex:temConteudo    "I - exercer o planejamento operacional e a estatística das atividades da Secretaria Federal de Controle Interno;" .
+lex:D4490\/Artigo17\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo17    lex:temInciso    lex:D4490\/Artigo17\/IncisoII .
+lex:D4490\/Artigo17\/IncisoII    lex:temConteudo    "II - realizar a aferição da qualidade e dos procedimentos de auditoria, fiscalização e outras ações de controle interno;" .
+lex:D4490\/Artigo17\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo17    lex:temInciso    lex:D4490\/Artigo17\/IncisoIII .
+lex:D4490\/Artigo17\/IncisoIII    lex:temConteudo    "III - planejar, coordenar e executar auditorias de recursos externos;" .
+lex:D4490\/Artigo17\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo17    lex:temInciso    lex:D4490\/Artigo17\/IncisoIV .
+lex:D4490\/Artigo17\/IncisoIV    lex:temConteudo    "IV - elaborar as contas do governo e o acompanhamento da gestão fiscal, em auxílio ao Órgão Central; e" .
+lex:D4490\/Artigo17\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo17    lex:temInciso    lex:D4490\/Artigo17\/IncisoV .
+lex:D4490\/Artigo17\/IncisoV    lex:temConteudo    "V - elaborar normas e orientação relativas à área de competência do Sistema de Controle Interno do Poder Executivo Federal." .
+lex:D4490\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo18 .
+lex:D4490\/Artigo18    lex:temConteudo    "Art. 18.  Às Corregedorias-Gerais da União nos Estados compete desempenhar, no âmbito de sua área de atuação, sob a supervisão dos dirigentes das unidades competentes nas respectivas áreas, as atribuições estabelecidas em regimento interno." .
+lex:D4490\/Artigo20    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo20 .
+lex:D4490\/Artigo20    lex:temConteudo    "Art. 20. Ao Subcorregedor-Geral incumbe:" .
+lex:D4490\/Artigo20\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo20    lex:temInciso    lex:D4490\/Artigo20\/IncisoI .
+lex:D4490\/Artigo20\/IncisoI    lex:temConteudo    "I - coordenar, consolidar e submeter ao Ministro de Estado Corregedor-Geral da União o plano de ação global da Subcorregedoria-Geral;" .
+lex:D4490\/Artigo20\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo20    lex:temInciso    lex:D4490\/Artigo20\/IncisoII .
+lex:D4490\/Artigo20\/IncisoII    lex:temConteudo    "II - planejar, dirigir, coordenar, orientar, acompanhar e avaliar a execução dos procedimentos e atividades desenvolvidos na Subcorregedoria-Geral; e" .
+lex:D4490\/Artigo20\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4490\/Artigo20    lex:temInciso    lex:D4490\/Artigo20\/IncisoIII .
+lex:D4490\/Artigo20\/IncisoIII    lex:temConteudo    "III - exercer outras atribuições que lhe forem cometidas ou delegadas pelo Ministro de Estado Corregedor-Geral da União." .
+lex:D4490\/Artigo21    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo21 .
+lex:D4490\/Artigo21    lex:temConteudo    "Art. 21.  Aos Corregedores e ao Secretário Federal de Controle Interno incumbe planejar, dirigir, coordenar, orientar, acompanhar e avaliar a execução das atividades das respectivas unidades,e exercer outras atribuições que lhe sejam cometidas." .
+lex:D4490\/Artigo22    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo22 .
+lex:D4490\/Artigo22    lex:temConteudo    "Art. 22.  Ao Chefe de Gabinete do Ministro de Estado Corregedor-Geral da União, ao Chefe da Assessoria, ao Ouvidor-Geral, aos Diretores e aos demais dirigentes incumbe planejar, dirigir, coordenar, orientar, acompanhar e avaliar a execução dos procedimentos e atividades desenvolvidos nas unidades que lhe são subordinadas e exercer outras atribuições que lhes forem cometidas pelo Ministro de Estado Corregedor-Geral da União." .
+lex:D4490\/Artigo23    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo23 .
+lex:D4490\/Artigo23    lex:temConteudo    "Art. 23.  As requisições de servidores e empregados públicos para unidades da Corregedoria-Geral da União serão feitas por intermédio da Casa Civil da Presidência da República." .
+lex:D4490\/Artigo24    lex:ehUm    lex:Artigo .
+lex:D4490    lex:temArtigo    lex:D4490\/Artigo24 .
+lex:D4490\/Artigo24    lex:temConteudo    "Art. 24.  Os regimentos internos definirão o detalhamento dos órgãos integrantes da Estrutura Regimental da Corregedoria-Geral da União, as competências das respectivas unidades, as atribuições dos seus dirigentes, a descentralização dos serviços e as áreas de atuação dos órgãos descentralizados." .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D4490\/Artigo24    lex:temAlinea    lex:D4490\/Artigo24\/AlineaQUADRO .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA CORREGEDORIA-GERAL DA UNIÃO" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "5" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "9" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "5" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "6" .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temItem    lex:D4490\/Artigo24\/AlineaQUADRO\/Item .
+lex:D4490\/Artigo24\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D4490\/Artigo24    lex:temAlinea    lex:D4490\/Artigo24\/AlineaQUADRO .
+lex:D4490\/Artigo24\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA CORREGEDORIA-GERAL DA UNIÃO" .
+lex:D4490\/Texto    lex:remetePara    lex:L9649cons\/Artigo32 .
+lex:D4490\/IncisoII    lex:remetePara    lex:L10539 .
+lex:D4490\/Artigo6    lex:remetePara    lex:D4308 .

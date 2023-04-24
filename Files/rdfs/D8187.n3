@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8187    lex:ehUm    lex:DocLegal .
+lex:D8187    lex:temTextoIntegral    lex:HTMLs\/D8187.htm .
+lex:D8187\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8187    lex:temArtigo    lex:D8187\/Artigo1 .
+lex:D8187\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 6.759, de 5 de fevereiro de 2009, passa a vigorar com as seguintes alterações:" .
+lex:D8187\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8187\/Artigo1    lex:temParagrafo    lex:D8187\/Artigo1\/Paragrafo1 .
+lex:D8187\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O prazo máximo de vigência do regime de que trata o art. 373 será de cem meses." .
+lex:D8187\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8187\/Artigo1    lex:temParagrafo    lex:D8187\/Artigo1\/Paragrafo2 .
+lex:D8187\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Antes do término do prazo estipulado no § 1 º, o beneficiário deverá providenciar a extinção do regime, conforme previsto no art. 367, sendo facultada a transferência para outro regime aduaneiro especial, inclusive a concessão de nova admissão temporária, que poderá ocorrer sem a necessidade de saída física dos bens do território nacional." .
+lex:D8187\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8187\/Artigo1    lex:temParagrafo    lex:D8187\/Artigo1\/Paragrafo3 .
+lex:D8187\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º O prazo estipulado no § 1 º não se aplica ao regime aduaneiro de que trata o art. 458. (NR)" .
+lex:D8187\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8187    lex:temArtigo    lex:D8187\/Artigo2 .
+lex:D8187\/Artigo2    lex:temConteudo    "Art. 2 º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8187\/Artigo1    lex:remetePara    lex:D6759 .
+lex:D8187\/Artigo1\/Paragrafo1    lex:remetePara    lex:D6759\/Artigo374\/Paragrafo1 .

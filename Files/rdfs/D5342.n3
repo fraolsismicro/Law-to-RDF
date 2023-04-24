@@ -1,0 +1,252 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5342    lex:ehUm    lex:DocLegal .
+lex:D5342    lex:temTextoIntegral    lex:HTMLs\/D5342.htm .
+lex:D5342\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo1 .
+lex:D5342\/Artigo1    lex:temConteudo    "Art. 1o  A Bolsa-Atleta, instituída pela Lei no 10.891, de 9 de julho de 2004, será implementada pelo Ministério do Esporte que, com base na dotação orçamentária específica, disporá sobre os procedimentos operacionais para a concessão do benefício e distribuição que assegure o atendimento a todas as categorias de beneficiários." .
+lex:D5342\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo2 .
+lex:D5342\/Artigo2    lex:temConteudo    "Art. 2 º  Podem ser beneficiários da Bolsa-Atleta:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoI .
+lex:D5342\/Artigo2\/IncisoI    lex:temConteudo    "I - na categoria Atleta de Base, o atleta de catorze a dezenove anos de idade que:       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha    lex:temConteudo    "a) tenha participado com destaque das categorias iniciantes, em competições organizadas no ano anterior ao do pleito direta ou indiretamente por entidade nacional de administração do desporto, reconhecidas pelo Ministério do Esporte;       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temConteudo    "b) tenha obtido o primeiro, segundo ou terceiro lugar em modalidade individual ou tenha sido considerado um dos dez melhores atletas, por sexo, em modalidade coletiva; e       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:temConteudo    "c) continue treinando para competições nacionais oficiais;        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoII .
+lex:D5342\/Artigo2\/IncisoII    lex:temConteudo    "II - na categoria Atleta Estudantil, o atleta de catorze a vinte anos de idade que:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha    lex:temConteudo    "a) tenha participado dos jogos estudantis ou universitários nacionais organizados no ano anterior ao do pleito direta ou indiretamente pelo Comitê Olímpico Brasileiro - COB ou pelo Comitê Paralímpico Brasileiro - CPB, reconhecidos pelo Ministério do Esporte;        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temConteudo    "b) tenha obtido o primeiro, segundo ou terceiro lugar em modalidade individual ou tenha sido considerado um dos três melhores atletas, por sexo, em modalidade coletiva; e        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:temConteudo    "c) continue treinando para competições nacionais oficiais;        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoIII .
+lex:D5342\/Artigo2\/IncisoIII    lex:temConteudo    "III - na categoria Atleta Nacional, o atleta a partir de catorze anos de idade que:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha    lex:temConteudo    "a) tenha obtido na competição máxima da temporada nacional da modalidade, indicada pela entidade nacional de administração do desporto, no ano anterior ao do pleito, o primeiro, segundo ou terceiro lugar, e continue treinando para competições nacionais ou internacionais oficiais; ou        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha\/IncisoAlineaEsteja    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha\/IncisoAlineaEsteja .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha\/IncisoAlineaEsteja    lex:temConteudo    "b) esteja em primeiro, segundo ou terceiro lugar no ranking nacional de sua modalidade, indicado pela entidade nacional de administração do desporto, e continuem treinando para competições nacionais ou internacionais oficiais;        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoIV .
+lex:D5342\/Artigo2\/IncisoIV    lex:temConteudo    "IV - na categoria Atleta Internacional, o atleta a partir de catorze anos que:       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha    lex:temConteudo    "a) tenha integrado a seleção nacional de sua modalidade, representando o Brasil em campeonatos ou jogos sul-americanos, pan-americanos ou mundiais;       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temConteudo    "b) tenha obtido primeiro, segundo ou terceiro lugar em competição reconhecida pela confederação da modalidade como um dos principais eventos; e        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:temConteudo    "c) continue treinando para competições internacionais oficiais.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoV .
+lex:D5342\/Artigo2\/IncisoV    lex:temConteudo    "V - na categoria Atleta Olímpico ou Paraolímpico, o atleta que:       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoV    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha    lex:temConteudo    "a) tenha representado o Brasil nos últimos Jogos Olímpicos ou Paraolímpicos adultos organizados pelo Comitê Olímpico Internacional - COI ou Comitê Paralímpico Internacional - IPC, como titular em modalidade individual ou com seu nome presente na súmula de modalidade coletiva;        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:temConteudo    "b) continue treinando para competições internacionais oficiais; e       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue\/IncisoAlineaCumpra    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:temIncisoAlinea    lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue\/IncisoAlineaCumpra .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue\/IncisoAlineaCumpra    lex:temConteudo    "c) cumpra os outros critérios fixados pelo Ministério do Esporte; e       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo2    lex:temInciso    lex:D5342\/Artigo2\/IncisoVI .
+lex:D5342\/Artigo2\/IncisoVI    lex:temConteudo    "VI - na categoria Atleta Pódio, o atleta de modalidade individual olímpica ou paraolímpica vinculado ao Programa Atleta Pódio.       (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo3 .
+lex:D5342\/Artigo3    lex:temConteudo    "Art. 3o  A concessão da Bolsa-Atleta, destinada prioritariamente aos atletas praticantes do esporte de alto rendimento em modalidades olímpicas e paraolímpicas, deverá ser requerida junto ao Ministério do Esporte, por meio de formulário próprio acompanhado dos seguintes documentos:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoI .
+lex:D5342\/Artigo3\/IncisoI    lex:temConteudo    "I - cópia do documento de identidade e do registro no Cadastro de Pessoa Física do Ministério da Fazenda - CPF;      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoII .
+lex:D5342\/Artigo3\/IncisoII    lex:temConteudo    "II - declaração da entidade desportiva, dispensada na categoria Atleta Estudantil, atestando que o atleta:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta    lex:temConteudo    "a) está vinculado à entidade; e      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta\/IncisoAlineaEncontra-se .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:temConteudo    "b) encontra-se em plena atividade esportiva e participa regularmente de treinamento para competições nacionais ou internacionais oficiais;      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoIII .
+lex:D5342\/Artigo3\/IncisoIII    lex:temConteudo    "III - declaração da entidade nacional de administração do desporto, dispensada na categoria Atleta Estudantil, acompanhada de cópia da súmula da competição  que configura hipótese prevista no art. 2o, atestando que o atleta:" .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIII    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta    lex:temConteudo    "a) está regularmente inscrito junto à entidade nacional de administração do desporto;       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta    lex:temConteudo    "b) está vinculado à entidade estadual de administração do desporto; e      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta\/IncisoAlineaTenha .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta\/IncisoAlineaTenha    lex:temConteudo    "c) tenha obtido primeiro, segundo ou terceiro lugar na competição nacional ou internacional, conforme o caso, no ano anterior ao do pleito do benefício;       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoIV .
+lex:D5342\/Artigo3\/IncisoIV    lex:temConteudo    "IV - declaração de instituição de ensino, exigida apenas na categoria Atleta Estudantil, atestando que o atleta:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIV    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta    lex:temConteudo    "a) está regularmente matriculado, com indicação do curso e nível de estudo;      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:temConteudo    "b) encontra-se em plena atividade esportiva e participa regularmente de treinamento para competições oficiais; e      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se\/IncisoAlineaTenha    lex:ehUm    lex:IncisoAlinea .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:temIncisoAlinea    lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se\/IncisoAlineaTenha .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se\/IncisoAlineaTenha    lex:temConteudo    "c) tenha obtido primeiro, segundo ou terceiro lugar em competição representando a instituição nos jogos estudantis ou universitários nacionais reconhecidos pelo Ministério do Esporte, no ano anterior ao do pleito do benefício;       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoV .
+lex:D5342\/Artigo3\/IncisoV    lex:temConteudo    "V - declaração sobre valores recebidos como patrocínio de pessoas jurídicas públicas ou privadas, incluído qualquer montante percebido eventual ou regularmente, diverso do salário, e qualquer tipo de apoio em troca de vinculação de marca; e      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo3    lex:temInciso    lex:D5342\/Artigo3\/IncisoVI .
+lex:D5342\/Artigo3\/IncisoVI    lex:temConteudo    "VI - plano esportivo anual, com plano de treinamento, objetivos e metas esportivas para o ano de recebimento do benefício.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo3    lex:temParagrafo    lex:D5342\/Artigo3\/Paragrafo1 .
+lex:D5342\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  O Conselho Nacional do Esporte deliberará acerca dos pleitos submetidos pelo Ministro de Estado do Esporte para concessão de bolsas para atletas de modalidades não olímpicas ou paraolímpicas, podendo autorizar o pagamento do benefício no exercício subsequente, observado o Plano Nacional do Desporto, a disponibilidade financeira e o limite imposto pelo § 4o do art. 1o da Lei no 10.891, de 2004.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo3    lex:temParagrafo    lex:D5342\/Artigo3\/Paragrafo2 .
+lex:D5342\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Caso não preenchidos os requisitos previstos no caput, o candidato será notificado pelo Ministério do Esporte para, no prazo de trinta dias, complementar a documentação ou as informações, sob pena de indeferimento do pedido.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo3    lex:temParagrafo    lex:D5342\/Artigo3\/Paragrafo3 .
+lex:D5342\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o  O plano esportivo anual será elaborado conforme modelo disponibilizado pelo Ministério do Esporte.         (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo3    lex:temParagrafo    lex:D5342\/Artigo3\/Paragrafo4 .
+lex:D5342\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4o  Ato do Ministro de Estado do Esporte definirá critérios para análise dos planos esportivos anuais e instituirá comissão para sua avaliação.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo4 .
+lex:D5342\/Artigo4    lex:temConteudo    "Art. 4o  Deferido o pedido, o atleta terá o prazo de trinta dias a contar da notificação para assinatura do termo de adesão junto ao agente operador credenciado, sob pena de perda do direito ao benefício, podendo o prazo ser dilatado por igual período pelo Ministério do Esporte, desde que comprovada a justa causa por meio de atestado emitido pela entidade nacional de administração do desporto respectiva ou instituição de ensino, no caso de categoria atleta estudantil." .
+lex:D5342\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo4    lex:temParagrafo    lex:D5342\/Artigo4\/ParagrafoUnico .
+lex:D5342\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O termo de adesão terá suas cláusulas e condições padronizadas pelo Ministério do Esporte e será firmado por meio do agente operador com o atleta." .
+lex:D5342\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo5 .
+lex:D5342\/Artigo5    lex:temConteudo    "Art. 5o  A bolsa será paga ao beneficiário a partir do mês subseqüente ao da assinatura do termo de adesão pelo beneficiário ou seu responsável legal, no caso de menor de dezoito anos, na forma do art. 4o." .
+lex:D5342\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo5    lex:temParagrafo    lex:D5342\/Artigo5\/ParagrafoUnico .
+lex:D5342\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O benefício será cancelado quando o atleta deixar de satisfazer quaisquer dos requisitos exigidos para sua concessão, diante de condenação por uso de doping e comprovada utilização de documento ou declaração falsos para obtenção do benefício." .
+lex:D5342\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo6 .
+lex:D5342\/Artigo6    lex:temConteudo    "Art. 6o  O Ministério do Esporte manterá em seu endereço eletrônico relação atualizada dos atletas beneficiados com a Bolsa-Atleta, informando, no mínimo, o nome, o tipo da bolsa, a modalidade esportiva e a cidade de residência do atleta." .
+lex:D5342\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo7 .
+lex:D5342\/Artigo7    lex:temConteudo    "Art. 7o  Qualquer interessado poderá impugnar a concessão da Bolsa-Atleta junto ao Ministério do Esporte, mediante requerimento, o qual deverá estar instruído com os elementos comprobatórios ou com os indícios que motivem a impugnação." .
+lex:D5342\/Artigo7\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo7    lex:temParagrafo    lex:D5342\/Artigo7\/Paragrafo1 .
+lex:D5342\/Artigo7\/Paragrafo1    lex:temConteudo    "§ 1o  Formalizada a impugnação, será instaurado procedimento administrativo para aferir a responsabilidade do atleta, aplicando-se, no que couber, o disposto na Lei no 9.784, de 29 de janeiro de 1999, observado o contraditório e a ampla defesa." .
+lex:D5342\/Artigo7\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo7    lex:temParagrafo    lex:D5342\/Artigo7\/Paragrafo2 .
+lex:D5342\/Artigo7\/Paragrafo2    lex:temConteudo    "§ 2o  Acolhida a impugnação, será cancelada a Bolsa-Atleta, com ressarcimento à administração dos valores recebidos pelo atleta beneficiado, devidamente corrigidos, no prazo de sessenta dias a partir da data da notificação do devedor." .
+lex:D5342\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo8 .
+lex:D5342\/Artigo8    lex:temConteudo    "Art. 8o  O atleta beneficiado deverá apresentar ao Ministério do Esporte prestação de contas no prazo de trinta dias após o recebimento da última parcela.      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo8    lex:temParagrafo    lex:D5342\/Artigo8\/Paragrafo1 .
+lex:D5342\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1o  A prestação de contas deverá conter:      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5342\/Artigo8\/Paragrafo1    lex:temParagrafoInciso    lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoI .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - declaração da entidade desportiva, ou da instituição de ensino na categoria Atleta Estudantil, atestando que o atleta manteve-se em plena atividade esportiva durante o período de recebimento do benefício; e      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5342\/Artigo8\/Paragrafo1    lex:temParagrafoInciso    lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - declaração da entidade nacional de administração do desporto, dispensada na categoria Atleta Estudantil, atestando que o atleta:       (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaManteve-se    lex:ehUm    lex:Alinea .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaManteve-se .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaManteve-se    lex:temConteudo    "a) manteve-se regularmente inscrito junto à entidade; e        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaParticipou    lex:ehUm    lex:Alinea .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaParticipou .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaParticipou    lex:temConteudo    "b) participou de competição promovida pela entidade no período de recebimento do benefício, especificando denominação, data, local e resultados obtidos.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5342\/Artigo8    lex:temParagrafo    lex:D5342\/Artigo8\/Paragrafo2 .
+lex:D5342\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2o  Caso a prestação de contas não seja apresentada no prazo ou não tenha sido aprovada, o benefício não será renovado até que seja regularizada a pendência.      (Redação dada pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo9 .
+lex:D5342\/Artigo9    lex:temConteudo    "Art. 9o  A não-aprovação da prestação de contas obrigará o atleta ou seu responsável a restituir os valores recebidos indevidamente, na forma do § 2o do art. 7o." .
+lex:D5342\/Artigo9-A    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo9-A .
+lex:D5342\/Artigo9-A    lex:temConteudo    "Art. 9º-A.  Ato do Ministro de Estado do Esporte disporá sobre:        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo9-A\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo9-A    lex:temInciso    lex:D5342\/Artigo9-A\/IncisoI .
+lex:D5342\/Artigo9-A\/IncisoI    lex:temConteudo    "I - critérios e procedimentos complementares para o pleito, para a concessão e para a renovação do benefício;         (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo9-A\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo9-A    lex:temInciso    lex:D5342\/Artigo9-A\/IncisoII .
+lex:D5342\/Artigo9-A\/IncisoII    lex:temConteudo    "II - critérios para reconhecimento de competições; e        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo9-A\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5342\/Artigo9-A    lex:temInciso    lex:D5342\/Artigo9-A\/IncisoIII .
+lex:D5342\/Artigo9-A\/IncisoIII    lex:temConteudo    "III - prazos, forma de ingresso, prestação de contas, metas esportivas propostas e resultados alcançados pelos atletas do Programa Atleta Pódio.        (Incluído pelo Decreto nº 7.802, de 2012)" .
+lex:D5342\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo10 .
+lex:D5342\/Artigo10    lex:temConteudo    "Art. 10.  O Ministério do Esporte poderá celebrar acordos e convênios com os Estados, Municípios, Distrito Federal e entidades de administração do desporto, visando à participação dessas unidades na implementação do programa Bolsa-Atleta." .
+lex:D5342\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D5342    lex:temArtigo    lex:D5342\/Artigo11 .
+lex:D5342\/Artigo11    lex:temConteudo    "Art. 11.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5342\/Artigo1    lex:remetePara    lex:L10891 .
+lex:D5342\/Artigo2    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoI\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoII    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoII\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIII    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIII\/IncisoAlineaTenha\/IncisoAlineaEsteja    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIV    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoIV\/IncisoAlineaTenha\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoV    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoV\/IncisoAlineaTenha\/IncisoAlineaContinue\/IncisoAlineaCumpra    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo2\/IncisoVI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoII    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoII\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIII\/IncisoAlineaEsta\/IncisoAlineaEsta\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIV    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoIV\/IncisoAlineaEsta\/IncisoAlineaEncontra-se\/IncisoAlineaTenha    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoV    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/IncisoVI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/Paragrafo1    lex:remetePara    lex:L10891\/Artigo1\/Paragrafo4 .
+lex:D5342\/Artigo3\/Paragrafo1    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/Paragrafo2    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/Paragrafo3    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo3\/Paragrafo4    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo7\/Paragrafo1    lex:remetePara    lex:L9784 .
+lex:D5342\/Artigo8    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo1    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaManteve-se    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo1\/ParagrafoIncisoII\/AlineaParticipou    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo8\/Paragrafo2    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo9-A    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo9-A\/IncisoI    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo9-A\/IncisoII    lex:remetePara    lex:D7802\/Artigo1 .
+lex:D5342\/Artigo9-A\/IncisoIII    lex:remetePara    lex:D7802\/Artigo1 .

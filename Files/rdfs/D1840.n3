@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1840    lex:ehUm    lex:DocLegal .
+lex:D1840    lex:temTextoIntegral    lex:HTMLs\/D1840.htm .
+lex:D1840\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1840    lex:temParagrafo    lex:D1840\/Paragrafo2 .
+lex:D1840\/Paragrafo2    lex:temConteudo    "§ 2° O ressarcimento de que trata este artigo alcança, também, aqueles empossados a partir de 1° de janeiro de 1995 até a data da publicação deste Decreto." .
+lex:D1840\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1840    lex:temArtigo    lex:D1840\/Artigo2 .
+lex:D1840\/Artigo2    lex:temConteudo    "Art. 2° O órgão ou entidade em que o agente público tiver exercício poderá efetuar, em caráter excepcional, o ressarcimento do valor da estada do nomeado, mediante a apresentação de documento comprobatório da realização da despesa, até o valor máximo fixado pelo Ministério da Administração Federal e Reforma do Estado, realizando o lançamento no elemento de despesa '3490.93 - INDENIZAÇÕES E RESTITUIÇÕES'." .
+lex:D1840\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1840\/Artigo2    lex:temInciso    lex:D1840\/Artigo2\/IncisoI .
+lex:D1840\/Artigo2\/IncisoI    lex:temConteudo    "I - até noventa dias após a data em que tenha sido colocado imóvel funcional à disposição do beneficiário; (Inciso incluído pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1840\/Artigo2    lex:temInciso    lex:D1840\/Artigo2\/IncisoII .
+lex:D1840\/Artigo2\/IncisoII    lex:temConteudo    "II - até trinta dias quando o beneficiário: (Inciso incluído pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor    lex:ehUm    lex:IncisoAlinea .
+lex:D1840\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor    lex:temConteudo    "a) for exonerado, destituído, renunciar ou encerrar o mandato do cargo que o habilitou ao uso da moradia; (Alínea incluída pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer    lex:ehUm    lex:IncisoAlinea .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor    lex:temIncisoAlinea    lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer    lex:temConteudo    "b) falecer; (Alínea incluída pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar    lex:ehUm    lex:IncisoAlinea .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer    lex:temIncisoAlinea    lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar    lex:temConteudo    "c) passar à condição de proprietário, promitente comprador, cessionário ou promitente cessionário de imóvel residencial na cidade onde exercerá as atribuições do cargo para o qual foi nomeado, incluída a hipótese de lote edificado sem averbação de construção; ou (Alínea incluída pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar    lex:temIncisoAlinea    lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/IncisoAlineaO .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/IncisoAlineaO    lex:temConteudo    "d) o cônjuge, companheiro ou companheira, amparados por lei, se encontrar na situação descrita na alínea 'c'.' (Alínea incluída pelo Decreto nº 4.040, de 3.12.2001)" .
+lex:D1840\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1840    lex:temArtigo    lex:D1840\/Artigo5 .
+lex:D1840\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1840\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1840    lex:temArtigo    lex:D1840\/Artigo6 .
+lex:D1840\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se os arts. 2° e 12 do Decreto n° 1.445, de 5 de abril de 1995, e os Decretos n°s 1.587, de 8 de agosto de 1995, e 1.659, de 5 de outubro de 1995." .
+lex:D1840\/Artigo1    lex:remetePara    lex:D4040 .
+lex:D1840\/Paragrafo1    lex:remetePara    lex:D4040 .
+lex:D1840\/Paragrafo3    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo3    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoI    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/IncisoAlineaO    lex:remetePara    lex:D4040 .
+lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/Artigo4    lex:revogadoPor    lex:D5992\/Artigo15 .
+lex:D5992\/Artigo15    lex:revogou    lex:D1840\/Artigo2\/IncisoII\/IncisoAlineaFor\/IncisoAlineaFalecer\/IncisoAlineaPassar\/Artigo4 .
+lex:D1840\/Artigo6    lex:remetePara    lex:D1445\/Artigo2 .
+lex:D1840\/Artigo6    lex:remetePara    lex:D1445\/Artigo12 .
+lex:D1840\/Artigo6    lex:remetePara    lex:d1587 .

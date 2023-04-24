@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L765    lex:ehUm    lex:DocLegal .
+lex:L765    lex:temTextoIntegral    lex:HTMLs\/L765.htm .
+lex:L765\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L765    lex:temArtigo    lex:L765\/Artigo1 .
+lex:L765\/Artigo1    lex:temConteudo    "Art. 1º - Os brasileiros de um e outro sexo, ainda não inscritos no registro civil de nascimento serão registrados independente do pagamento da multa regulamentar, mediante petição isenta de selos, taxas, emolumentos e custas, despachada pelo juiz competente e apenas atestada por duas testemunhas idôneas, na forma e sob as penas da lei;" .
+lex:L765\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L765\/Artigo1    lex:temInciso    lex:L765\/Artigo1\/IncisoI .
+lex:L765\/Artigo1\/IncisoI    lex:temConteudo    "I - se o registrando fôr maior de dezoito anos de idade ou menor de vinte e um ou os nascidos anteriormente à obrigatoriedade do registro civil;" .
+lex:L765\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L765\/Artigo1    lex:temInciso    lex:L765\/Artigo1\/IncisoII .
+lex:L765\/Artigo1\/IncisoII    lex:temConteudo    "II - se o registrando fôr maior de dezoito anos e durante o período do alistamento eleitoral ou se maior de dezessete anos durante o período do alistamento militar, determinados em lei;" .
+lex:L765\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L765\/Artigo1    lex:temInciso    lex:L765\/Artigo1\/IncisoIII .
+lex:L765\/Artigo1\/IncisoIII    lex:temConteudo    "III - se o registrando fôr menor de dezoito anos ou maior de vinte e um, quando apresentado atestado firmado por autoridade competente desde que considerado pessoa pobre, dispensada, para os menores de doze anos de idade, a petição de que trata este artigo, porém, com atestação de duas testemunhas idôneas." .
+lex:L765\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L765    lex:temArtigo    lex:L765\/Artigo2 .
+lex:L765\/Artigo2    lex:temConteudo    "Art. 2º - As custas dos registros lavrados nos têrmos desta Lei serão cobrados apenas sôbre os atos taxados nos regimentos respectivos para a inscrição do nascimento e sua primeira certidão extraída no talão excluídas quaisquer outras previstas nos mesmos regimentos de custas, dispensados do pagamento dessas custas mínimas os que apresentarem atestado de pobreza extrema nos têrmos do artigo 40, do Decreto número 4.857 de 9 de novembro de 1939." .
+lex:L765\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L765    lex:temArtigo    lex:L765\/Artigo3 .
+lex:L765\/Artigo3    lex:temConteudo    "Art. 3º - O Juiz terá o prazo de quarenta e oito horas para despachar a petição respectiva." .
+lex:L765\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L765    lex:temArtigo    lex:L765\/Artigo4 .
+lex:L765\/Artigo4    lex:temConteudo    "Art. 4º - Esta Lei entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:L765\/Texto    lex:remetePara    lex:L3764 .
+lex:L765\/Texto    lex:remetePara    lex:L6015inal .
+lex:L765\/Texto    lex:remetePara    lex:L9534 .
+lex:L765\/Artigo2    lex:remetePara    lex:D4857\/Artigo40 .

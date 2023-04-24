@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12720    lex:ehUm    lex:DocLegal .
+lex:L12720    lex:temTextoIntegral    lex:HTMLs\/L12720.htm .
+lex:L12720\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo1 .
+lex:L12720\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei altera o Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, para dispor sobre os crimes praticados por grupos de extermínio ou milícias privadas." .
+lex:L12720\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo2 .
+lex:L12720\/Artigo2    lex:temConteudo    "Art. 2o  O art. 121 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar acrescido do seguinte § 6o:" .
+lex:L12720\/Artigo2\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L12720\/Artigo2    lex:temParagrafo    lex:L12720\/Artigo2\/Paragrafo6 .
+lex:L12720\/Artigo2\/Paragrafo6    lex:temConteudo    "§ 6o  A pena é aumentada de 1/3 (um terço) até a metade se o crime for praticado por milícia privada, sob o pretexto de prestação de serviço de segurança, ou por grupo de extermínio. (NR)" .
+lex:L12720\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo3 .
+lex:L12720\/Artigo3    lex:temConteudo    "Art. 3o  O § 7o do art. 129 do Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar com a seguinte redação:" .
+lex:L12720\/Artigo3\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L12720\/Artigo3    lex:temParagrafo    lex:L12720\/Artigo3\/Paragrafo7 .
+lex:L12720\/Artigo3\/Paragrafo7    lex:temConteudo    "§ 7o  Aumenta-se a pena de 1/3 (um terço) se ocorrer qualquer das hipóteses dos §§ 4o e 6o do art. 121 deste Código." .
+lex:L12720\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo4 .
+lex:L12720\/Artigo4    lex:temConteudo    "Art. 4o  O Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar acrescido do seguinte art. 288-A:" .
+lex:L12720\/Artigo288-A    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo288-A .
+lex:L12720\/Artigo288-A    lex:temConteudo    "Art. 288-A.  Constituir, organizar, integrar, manter ou custear organização paramilitar, milícia particular, grupo ou esquadrão com a finalidade de praticar qualquer dos crimes previstos neste Código:" .
+lex:L12720\/Artigo288-A\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L12720\/Artigo288-A    lex:temArtigoPena    lex:L12720\/Artigo288-A\/ArtigoPena .
+lex:L12720\/Artigo288-A\/ArtigoPena    lex:temConteudo    "Pena - reclusão, de 4 (quatro) a 8 (oito) anos." .
+lex:L12720\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L12720    lex:temArtigo    lex:L12720\/Artigo5 .
+lex:L12720\/Artigo5    lex:temConteudo    "Art. 5o  Esta Lei entra vigor na data de sua publicação." .
+lex:L12720\/Artigo1    lex:remetePara    lex:Del2848 .
+lex:L12720\/Artigo2\/Paragrafo6    lex:remetePara    lex:Del2848\/Artigo121\/Paragrafo6 .
+lex:L12720\/Artigo3\/Paragrafo7    lex:remetePara    lex:Del2848\/Artigo129\/Paragrafo7 .
+lex:L12720\/Artigo288-A    lex:remetePara    lex:Del2848\/Artigo288 .

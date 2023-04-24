@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5035    lex:ehUm    lex:DocLegal .
+lex:L5035    lex:temTextoIntegral    lex:HTMLs\/L5035.htm .
+lex:L5035\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5035    lex:temArtigo    lex:L5035\/Artigo1 .
+lex:L5035\/Artigo1    lex:temConteudo    "Art. 1º Às ex-praças da Marinha licenciadas do Serviço Ativo, em decorrência de atos de indisciplina ocorridos em março de 1964, e que contavam na data do licenciamento mais de 10 (dez) anos de serviço, aplicam-se as disposições do parágrafo único do art. 20 da Lei nº 3.765, de 4 de maio de 1960." .
+lex:L5035\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5035\/Artigo1    lex:temParagrafo    lex:L5035\/Artigo1\/Paragrafo1 .
+lex:L5035\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os benefícios desta Lei são devidos a partir da data do licenciamento." .
+lex:L5035\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5035\/Artigo1    lex:temParagrafo    lex:L5035\/Artigo1\/Paragrafo2 .
+lex:L5035\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O Ministério da Marinha fará publicar no Diário Oficial, dentro de 30 dias, a relação das praças de que trata esta Lei." .
+lex:L5035\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5035    lex:temArtigo    lex:L5035\/Artigo2 .
+lex:L5035\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5035\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5035    lex:temArtigo    lex:L5035\/Artigo3 .
+lex:L5035\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5035\/Artigo1    lex:remetePara    lex:L3765\/Artigo20 .

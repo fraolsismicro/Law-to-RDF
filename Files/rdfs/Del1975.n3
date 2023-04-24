@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1975    lex:ehUm    lex:DocLegal .
+lex:Del1975    lex:temTextoIntegral    lex:HTMLs\/Del1975.htm .
+lex:Del1975\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1975    lex:temArtigo    lex:Del1975\/Artigo1 .
+lex:Del1975\/Artigo1    lex:temConteudo    "Art. 1º - As alíquotas do Imposto sobre a Transmissão de Bens Imóveis(ITBI), nos Territórios Federais, a partir de 1º de janeiro de 1983, serão as seguintes:" .
+lex:Del1975\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1975\/Artigo1    lex:temInciso    lex:Del1975\/Artigo1\/IncisoI .
+lex:Del1975\/Artigo1\/IncisoI    lex:temConteudo    "I - transmissões compreendidas no sistema financeiro de habitação a que se refere a Lei nº 4.380, de 21 de agosto de 1964 e legislação complementar:" .
+lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:ehUm    lex:IncisoAlinea .
+lex:Del1975\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre .
+lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:temConteudo    "a) sobre o valor efetivamente financiado: 0,5% (meio por cento);" .
+lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre    lex:ehUm    lex:IncisoAlinea .
+lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:temIncisoAlinea    lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre .
+lex:Del1975\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre    lex:temConteudo    "b) sobre o valor restante: 2% (dois por cento)." .
+lex:Del1975\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1975\/Artigo1    lex:temInciso    lex:Del1975\/Artigo1\/IncisoII .
+lex:Del1975\/Artigo1\/IncisoII    lex:temConteudo    "II - demais transmissões a título oneroso: 2% (dois por cento);" .
+lex:Del1975\/Artigo1\/IncisoIlI    lex:ehUm    lex:Inciso .
+lex:Del1975\/Artigo1    lex:temInciso    lex:Del1975\/Artigo1\/IncisoIlI .
+lex:Del1975\/Artigo1\/IncisoIlI    lex:temConteudo    "IlI - quaisquer outras transmissões: 4% (quatro por cento)." .
+lex:Del1975\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1975    lex:temArtigo    lex:Del1975\/Artigo2 .
+lex:Del1975\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1975\/Artigo1\/IncisoI    lex:remetePara    lex:L4380 .

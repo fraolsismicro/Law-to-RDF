@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3480    lex:ehUm    lex:DocLegal .
+lex:D3480    lex:temTextoIntegral    lex:HTMLs\/D3480.htm .
+lex:D3480\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3480    lex:temInciso    lex:D3480\/IncisoD .
+lex:D3480\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3480\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3480    lex:temArtigo    lex:D3480\/Artigo1 .
+lex:D3480\/Artigo1    lex:temConteudo    "Art. 1o  Fica prorrogado, até 30 de setembro de 2000, o prazo de remanejamento, em caráter temporário, do cargo em comissão do Grupo-Direção e Assessoramento Superiores, DAS 102.4, alocado ao Ministério da Agricultura e do Abastecimento, por meio do art. 1o do Decreto no 2.916, de 30 de dezembro de 1998." .
+lex:D3480\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3480\/Artigo1    lex:temParagrafo    lex:D3480\/Artigo1\/ParagrafoUnico .
+lex:D3480\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Aos cargos remanescentes do remanejamento inicial aplica-se o disposto no § 2o do art. 1o do Decreto no 2.916, de 1998." .
+lex:D3480\/Artig    lex:ehUm    lex:Artigo .
+lex:D3480    lex:temArtigo    lex:D3480\/Artig .
+lex:D3480\/Artig    lex:temConteudo    "Art.  2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3480\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3480    lex:temArtigo    lex:D3480\/Artigo3 .
+lex:D3480\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 3.375, de 2 de março de 2000." .
+lex:D3480\/Artigo1    lex:remetePara    lex:D2916 .
+lex:D3480\/Artigo3    lex:remetePara    lex:D3375 .
+lex:D3480\/Texto00005    lex:remetePara    lex:index .

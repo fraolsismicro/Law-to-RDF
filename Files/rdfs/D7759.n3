@@ -1,0 +1,64 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7759    lex:ehUm    lex:DocLegal .
+lex:D7759    lex:temTextoIntegral    lex:HTMLs\/D7759.htm .
+lex:D7759\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo1 .
+lex:D7759\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo I ao Decreto no 5.135, de 7 de julho de 2004, passa a vigorar com as seguintes alterações:" .
+lex:D7759\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7759\/Artigo1    lex:temInciso    lex:D7759\/Artigo1\/IncisoI .
+lex:D7759\/Artigo1\/IncisoI    lex:temConteudo    "I -..........................................................................................." .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:ehUm    lex:IncisoAlinea .
+lex:D7759\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:temConteudo    "c) Secretaria-Executiva;" .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia    lex:ehUm    lex:IncisoAlinea .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:temIncisoAlinea    lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia    lex:temConteudo    "d) Subchefia de Análise e Acompanhamento de Políticas Governamentais;" .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia    lex:temIncisoAlineaItem    lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia\/IncisoAlineaItem .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva\/IncisoAlineaSubchefia\/IncisoAlineaItem    lex:temConteudo    "................................................................................................" .
+lex:D7759\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7759\/Artigo1    lex:temInciso    lex:D7759\/Artigo1\/IncisoII .
+lex:D7759\/Artigo1\/IncisoII    lex:temConteudo    "II - órgãos específicos singulares:" .
+lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa    lex:ehUm    lex:IncisoAlinea .
+lex:D7759\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa .
+lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa    lex:temConteudo    "a) Imprensa Nacional; e" .
+lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa\/IncisoAlineaSecretaria-Executiva    lex:ehUm    lex:IncisoAlinea .
+lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa    lex:temIncisoAlinea    lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa\/IncisoAlineaSecretaria-Executiva .
+lex:D7759\/Artigo1\/IncisoII\/IncisoAlineaImprensa\/IncisoAlineaSecretaria-Executiva    lex:temConteudo    "b) Secretaria-Executiva da Comissão de Ética Pública;" .
+lex:D7759\/Artigo17-A    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo17-A .
+lex:D7759\/Artigo17-A    lex:temConteudo    "Art. 17-A.  À Imprensa Nacional compete:" .
+lex:D7759\/Artigo17-A\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7759\/Artigo17-A    lex:temInciso    lex:D7759\/Artigo17-A\/IncisoI .
+lex:D7759\/Artigo17-A\/IncisoI    lex:temConteudo    "I - publicar e divulgar os atos oficiais da administração pública federal;" .
+lex:D7759\/Artigo17-A\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7759\/Artigo17-A    lex:temInciso    lex:D7759\/Artigo17-A\/IncisoII .
+lex:D7759\/Artigo17-A\/IncisoII    lex:temConteudo    "II - executar, com prévia autorização do Ministro de Estado Chefe da Casa Civil da Presidência da República, trabalhos gráficos destinados a órgãos e entidades da administração pública federal; e" .
+lex:D7759\/Artigo17-A\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7759\/Artigo17-A    lex:temInciso    lex:D7759\/Artigo17-A\/IncisoIII .
+lex:D7759\/Artigo17-A\/IncisoIII    lex:temConteudo    "III - coordenar e executar as atividades relacionadas ao Museu e à Biblioteca da Imprensa Nacional." .
+lex:D7759\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo18 .
+lex:D7759\/Artigo18    lex:temConteudo    "Art. 18. .............................................................................." .
+lex:D7759\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo2 .
+lex:D7759\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo II ao Decreto nº 5.135, de 2004, passa a vigorar com as alterações constantes do Anexo a este Decreto." .
+lex:D7759\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo3 .
+lex:D7759\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7759\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7759    lex:temArtigo    lex:D7759\/Artigo4 .
+lex:D7759\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o art. 12 do Anexo I ao Decreto nº 5.135, de 7 de julho de 2004." .
+lex:D7759\/Artigo1    lex:remetePara    lex:D5135 .
+lex:D7759\/Artigo1\/IncisoI\/IncisoAlineaSecretaria-Executiva    lex:remetePara    lex:D5135\/anexo1Artigo2 .
+lex:D7759\/Artigo1\/IncisoII    lex:remetePara    lex:D5135\/Artigo2 .
+lex:D7759\/Artigo17-A    lex:remetePara    lex:D5135\/Artigo17 .
+lex:D7759\/Artigo2    lex:remetePara    lex:D5135\/ .
+lex:D7759\/Artigo4    lex:remetePara    lex:D5135\/ .

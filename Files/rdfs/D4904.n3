@@ -1,0 +1,124 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4904    lex:ehUm    lex:DocLegal .
+lex:D4904    lex:temTextoIntegral    lex:HTMLs\/D4904.htm .
+lex:D4904\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo1 .
+lex:D4904\/Artigo1    lex:temConteudo    "Art. 1o É concedido indulto condicional ao:" .
+lex:D4904\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo1    lex:temInciso    lex:D4904\/Artigo1\/IncisoI .
+lex:D4904\/Artigo1\/IncisoI    lex:temConteudo    "I - condenado à pena privativa de liberdade não superior a seis anos que, até 25 de dezembro de 2003, tenha cumprido um terço da pena, se não reincidente, ou metade, se reincidente;" .
+lex:D4904\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo1    lex:temInciso    lex:D4904\/Artigo1\/IncisoII .
+lex:D4904\/Artigo1\/IncisoII    lex:temConteudo    "II - condenado à pena privativa de liberdade superior a seis anos que, até 25 de dezembro de 2003, tenha completado sessenta anos de idade e cumprido um terço da pena, se não reincidente, ou metade, se reincidente;" .
+lex:D4904\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo1    lex:temInciso    lex:D4904\/Artigo1\/IncisoIII .
+lex:D4904\/Artigo1\/IncisoIII    lex:temConteudo    "III - condenado à pena privativa de liberdade que, até 25 de dezembro de 2003, tenha cumprido, em regime fechado ou semi-aberto, ininterruptamente, quinze anos da pena, se não reincidente, ou vinte anos, se reincidente;" .
+lex:D4904\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo1    lex:temInciso    lex:D4904\/Artigo1\/IncisoIV .
+lex:D4904\/Artigo1\/IncisoIV    lex:temConteudo    "IV - condenado à pena privativa de liberdade que seja:" .
+lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico    lex:ehUm    lex:IncisoAlinea .
+lex:D4904\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico .
+lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico    lex:temConteudo    "a) paraplégico, tetraplégico ou portador de cegueira total, desde que tais condições não sejam anteriores à prática do ato e comprovadas por laudo médico oficial ou, na falta deste, por dois médicos, designados pelo Juízo da Execução;" .
+lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico\/IncisoAlineaAcometido    lex:ehUm    lex:IncisoAlinea .
+lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico    lex:temIncisoAlinea    lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico\/IncisoAlineaAcometido .
+lex:D4904\/Artigo1\/IncisoIV\/IncisoAlineaParaplegico\/IncisoAlineaAcometido    lex:temConteudo    "b) acometido, cumulativamente, de doença grave, permanente, apresentando incapacidade severa, com grave limitação de atividade e restrição de participação, exigindo cuidados contínuos, comprovada por laudo médico oficial ou, na falta deste, por dois médicos, designados pelo Juízo da Execução, constando o histórico da doença, desde que não haja oposição do beneficiado, mantido o direito de assistência nos termos do art. 196 da Constituição." .
+lex:D4904\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo1    lex:temParagrafo    lex:D4904\/Artigo1\/Paragrafo1 .
+lex:D4904\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Para o condenado por crime doloso, cometido com violência ou grave ameaça à pessoa, a concessão do indulto ficará subordinada:" .
+lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4904\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - à constatação de inexistência da prática de falta grave nos últimos vinte e quatro meses, contados retroativamente da publicação deste Decreto até a decisão judicial; e" .
+lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4904\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D4904\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - à avaliação pelo Juiz, por decisão motivada, da existência de circunstâncias favoráveis a concessão." .
+lex:D4904\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo1    lex:temParagrafo    lex:D4904\/Artigo1\/Paragrafo2 .
+lex:D4904\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O indulto de que cuida este Decreto não se estende às penas acessórias previstas no Código Penal Militar e aos efeitos da condenação." .
+lex:D4904\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo2 .
+lex:D4904\/Artigo2    lex:temConteudo    "Art. 2o  O condenado que, até 25 de dezembro de 2003, tenha cumprido um quarto da pena, se não reincidente, ou um terço, se reincidente e não preencha os requisitos deste Decreto para receber indulto terá comutada a pena remanescente de um quarto, se não reincidente, e de um quinto, se reincidente." .
+lex:D4904\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo2    lex:temParagrafo    lex:D4904\/Artigo2\/ParagrafoUnico .
+lex:D4904\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O agraciado por anterior comutação terá seu benefício calculado sobre o remanescente da pena em 25 de dezembro de 2003, sem prejuízo da remição, nos termos do art. 126 da Lei no 7.210, de 11 de julho de 1984." .
+lex:D4904\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo3 .
+lex:D4904\/Artigo3    lex:temConteudo    "Art. 3o  Constituem também requisitos para concessão do indulto e da comutação que o condenado:" .
+lex:D4904\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo3    lex:temInciso    lex:D4904\/Artigo3\/IncisoI .
+lex:D4904\/Artigo3\/IncisoI    lex:temConteudo    "I - não tenha sofrido sanção disciplinar por falta grave, praticada nos últimos doze meses do cumprimento da pena, apurada na forma do art. 59 e seguintes da Lei no 7.210, de 1984, contados retroativamente a partir da publicação deste Decreto, computada a detração de que trata o art. 42 do Código Penal, sendo que, em caso de crime praticado com violência ou grave ameaça contra a pessoa, a aferição temporal estende-se aos últimos vinte e quatro meses; e" .
+lex:D4904\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo3    lex:temInciso    lex:D4904\/Artigo3\/IncisoII .
+lex:D4904\/Artigo3\/IncisoII    lex:temConteudo    "II - não esteja sendo processado por outro crime praticado com violência ou grave ameaça contra a pessoa, excetuadas as infrações penais de menor potencial ofensivo, ou por aqueles descritos no art. 7o deste Decreto." .
+lex:D4904\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo4 .
+lex:D4904\/Artigo4    lex:temConteudo    "Art. 4o Os benefícios previstos neste Decreto são aplicáveis, ainda que:" .
+lex:D4904\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo4    lex:temInciso    lex:D4904\/Artigo4\/IncisoI .
+lex:D4904\/Artigo4\/IncisoI    lex:temConteudo    "I - a sentença condenatória tenha transitado em julgado somente para a acusação, sem prejuízo do julgamento de recurso da defesa na instância superior; ou" .
+lex:D4904\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo4    lex:temInciso    lex:D4904\/Artigo4\/IncisoII .
+lex:D4904\/Artigo4\/IncisoII    lex:temConteudo    "II - haja recurso da acusação que não vise a majorar a quantidade da pena ou as condições exigidas para concessão do indulto e da comutação." .
+lex:D4904\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo5 .
+lex:D4904\/Artigo5    lex:temConteudo    "Art. 5o  A inadimplência da pena de multa não impede a concessão do indulto ou da comutação." .
+lex:D4904\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo6 .
+lex:D4904\/Artigo6    lex:temConteudo    "Art. 6o  As penas correspondentes a infrações diversas devem somar-se para efeito do indulto e da comutação." .
+lex:D4904\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo6    lex:temParagrafo    lex:D4904\/Artigo6\/ParagrafoUnico .
+lex:D4904\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na hipótese de haver concurso com infração descrita no art. 7o, o condenado não terá direito a indulto ou comutação enquanto não cumprir, integralmente, a pena correspondente ao crime impeditivo dos benefícios (art. 76 do Código Penal)." .
+lex:D4904\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo7 .
+lex:D4904\/Artigo7    lex:temConteudo    "Art. 7o Os benefícios previstos neste Decreto não alcançam os condenados:" .
+lex:D4904\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo7    lex:temInciso    lex:D4904\/Artigo7\/IncisoI .
+lex:D4904\/Artigo7\/IncisoI    lex:temConteudo    "I - por crime de tortura, de terrorismo ou de tráfico ilícito de entorpecentes e drogas afins;" .
+lex:D4904\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo7    lex:temInciso    lex:D4904\/Artigo7\/IncisoII .
+lex:D4904\/Artigo7\/IncisoII    lex:temConteudo    "II - condenados por crime hediondo, praticado após a edição da Lei no 8.072, de 25 de julho de 1990, observadas as alterações posteriores;" .
+lex:D4904\/Artigo7\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4904\/Artigo7    lex:temInciso    lex:D4904\/Artigo7\/IncisoIII .
+lex:D4904\/Artigo7\/IncisoIII    lex:temConteudo    "III - por crimes definidos no Código Penal Militar que correspondam às hipóteses previstas nos incisos I e II deste artigo." .
+lex:D4904\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo7    lex:temParagrafo    lex:D4904\/Artigo7\/ParagrafoUnico .
+lex:D4904\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As restrições deste artigo, do § 1o do art. 1o e do art. 3o deste Decreto não se aplicam às hipóteses previstas no inciso IV do art. 1o." .
+lex:D4904\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo8 .
+lex:D4904\/Artigo8    lex:temConteudo    "Art. 8o  A autoridade que custodiar o condenado e o Conselho Penitenciário encaminharão ao Juízo da Execução a indicação daqueles que satisfaçam os requisitos necessários para a concessão dos benefícios previstos neste Decreto, no prazo de trinta dias, contados de sua publicação." .
+lex:D4904\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo8    lex:temParagrafo    lex:D4904\/Artigo8\/Paragrafo1 .
+lex:D4904\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1o  O procedimento previsto no caput deste artigo poderá iniciar-se de ofício, a requerimento do interessado, de quem o represente, de seu cônjuge, parente ou descendente, do Ministério Público, do Conselho Penitenciário, da autoridade administrativa e do médico que assiste o condenado que se enquadre nas situações previstas no art. 1o, inciso IV." .
+lex:D4904\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo8    lex:temParagrafo    lex:D4904\/Artigo8\/Paragrafo2 .
+lex:D4904\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2o  O Juízo da Execução proferirá decisão ouvindo-se o Conselho Penitenciário, o Ministério Público e a defesa." .
+lex:D4904\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo9 .
+lex:D4904\/Artigo9    lex:temConteudo    "Art. 9o  Aperfeiçoar-se-á o indulto depois de vinte e quatro meses a contar da expedição do termo de que trata o art. 11, devendo o beneficiário, nesse prazo, manter bom comportamento e não ser indiciado ou processado por crime doloso, excetuadas as infrações penais de menor potencial ofensivo." .
+lex:D4904\/Artigo9\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo9    lex:temParagrafo    lex:D4904\/Artigo9\/Paragrafo1 .
+lex:D4904\/Artigo9\/Paragrafo1    lex:temConteudo    "§ 1o  Se o beneficiário vier a ser processado por crime doloso, praticado no período previsto no caput desse artigo, considera-se prorrogado o prazo para o aperfeiçoamento do indulto, até o julgamento definitivo do processo." .
+lex:D4904\/Artigo9\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo9    lex:temParagrafo    lex:D4904\/Artigo9\/Paragrafo2 .
+lex:D4904\/Artigo9\/Paragrafo2    lex:temConteudo    "§ 2o  Não impedirá o aperfeiçoamento do indulto superveniência de decisão absolutória ou decisão condenatória da qual resulte, exclusivamente, penas restritivas de direitos." .
+lex:D4904\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo10 .
+lex:D4904\/Artigo10    lex:temConteudo    "Art. 10.  Decorrido o prazo previsto no art. 9o e cumpridos os requisitos do benefício, o Juiz, ouvidos o Conselho Penitenciário e o Ministério Público e a defesa, declarará extinta a pena privativa de liberdade." .
+lex:D4904\/Artigo10\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo10    lex:temParagrafo    lex:D4904\/Artigo10\/ParagrafoUnico .
+lex:D4904\/Artigo10\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O descumprimento das condições de que trata o art. 9o torna sem efeito o indulto condicional, retornando o beneficiário ao regime em que se encontrava ao tempo da concessão da liberdade, excluído, para novo cálculo de pena, o prazo fruído nos limites do mesmo artigo." .
+lex:D4904\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo11 .
+lex:D4904\/Artigo11    lex:temConteudo    "Art. 11.  O Presidente do Conselho Penitenciário ou a autoridade responsável pela custódia do preso, após a sentença concessiva do benefício aceito pelo interessado, chamará a sua atenção, em cerimônia solene, para as condições estabelecidas por este Decreto, colocando-o em liberdade, de tudo lavrando, em livro próprio, termo circunstanciado, cuja cópia será remetida ao Juízo da Execução Penal, entregando-se outra ao beneficiário." .
+lex:D4904\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D4904    lex:temArtigo    lex:D4904\/Artigo12 .
+lex:D4904\/Artigo12    lex:temConteudo    "Art. 12.  Os órgãos centrais da administração penitenciária preencherão o quadro estatístico, de acordo com o modelo Anexo a este Decreto, devendo encaminhá-lo, até 31 de março de 2004, ao Departamento Penitenciário Nacional da Secretaria Nacional de Justiça do Ministério da Justiça." .
+lex:D4904\/Artigo12\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4904\/Artigo12    lex:temParagrafo    lex:D4904\/Artigo12\/ParagrafoUnico .
+lex:D4904\/Artigo12\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O cumprimento do disposto neste artigo será fiscalizado pelo Conselho Nacional de Política Criminal e Penitenciária e pelo Departamento Penitenciário Nacional e verificado nas oportunidades de inspeção ou de estudo de projetos lastreados em recursos do Fundo Penitenciário Nacional - FUNPEN." .

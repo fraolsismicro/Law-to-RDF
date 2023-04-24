@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3269    lex:ehUm    lex:DocLegal .
+lex:L3269    lex:temTextoIntegral    lex:HTMLs\/L3269.htm .
+lex:L3269\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3269    lex:temArtigo    lex:L3269\/Artigo1 .
+lex:L3269\/Artigo1    lex:temConteudo    "Art. 1º São feitas as seguintes retificações na Lei nº 2.996, de 10 de dezembro de 1956:" .
+lex:L3269\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3269    lex:temArtigo    lex:L3269\/Artigo2 .
+lex:L3269\/Artigo2    lex:temConteudo    "Art. 2º Ficam retificados de Cr$ 115.971.917.100,00 (cento e quinze bilhões, novecentos e setenta e um milhões, novecentos e dezessete mil e cem cruzeiros) Cr$ 6.487.352.503,00 (seis bilhões, quatrocentos e oitenta e sete milhões, trezentos e cinqüenta e dois mil, quinhentos e três cruzeiros) e Cr$ 114.508.174.309,00 (cento e quatorze bilhões, quinhentos e oito milhões, cento e setenta e quatro mil trezentos e nove cruzeiros) para Cr$ 115.972.089.889,00 (cento e quinze bilhões, novecentos e setenta e dois milhões, oitocentos e nove mil, oitocentos e oitenta e nove mil cruzeiros), Cr$ 6.487.525.292,00 (seis bilhões, quatrocentos e oitenta e sete milhões, quinhentos e vinte e cinco mil, duzentos e noventa e dois cruzeiros) e Cr$ 114.508.347.098,00 (cento e quatorze bilhões, quinhentos e oito milhões, trezentos e quarenta e sete mil, novecentos e oito cruzeiros), os totais da Despesa, do Subanexo 4.12 - Ministério da Agricultura e do Anexo 4 - Poder Executivo, mencionados nos arts. 1º e 4º, da Lei nº 2.996, de 10 de dezembro de 1956." .
+lex:L3269\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3269    lex:temArtigo    lex:L3269\/Artigo3 .
+lex:L3269\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L3269\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3269    lex:temArtigo    lex:L3269\/Artigo4 .
+lex:L3269\/Artigo4    lex:temConteudo    "Art. 4º Revogadas as disposições em contrário, a presente Lei vigorará a partir de 1º de janeiro de 1957." .
+lex:L3269\/Artigo1    lex:remetePara    lex:L2996 .
+lex:L3269\/Texto00001    lex:remetePara    lex:L2613\/Artigo15 .
+lex:L3269\/Texto00001    lex:remetePara    lex:L2656\/Artigo2 .
+lex:L3269\/Texto00001    lex:remetePara    lex:L2266 .
+lex:L3269\/Artigo2    lex:remetePara    lex:L2996\/Artigo1 .
+lex:L3269\/Artigo2    lex:remetePara    lex:L2996\/Artigo4 .

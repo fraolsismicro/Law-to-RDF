@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7524    lex:ehUm    lex:DocLegal .
+lex:L7524    lex:temTextoIntegral    lex:HTMLs\/L7524.htm .
+lex:L7524\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7524    lex:temArtigo    lex:L7524\/Artigo1 .
+lex:L7524\/Artigo1    lex:temConteudo    "Art 1º Respeitados os limites estabelecidos na lei civil, é facultado ao militar inativo, independentemente das disposições constantes dos Regulamentos Disciplinares das Forças Armadas, opinar livremente sobre assunto político, e externar pensamento e conceito ideológico, filosófico ou relativo à matéria pertinente ao interesse público." .
+lex:L7524\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7524\/Artigo1    lex:temParagrafo    lex:L7524\/Artigo1\/ParagrafoUnico .
+lex:L7524\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A faculdade assegurada neste artigo não se aplica aos assuntos de natureza militar de caráter sigiloso e independe de filiação político-partidária." .
+lex:L7524\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7524    lex:temArtigo    lex:L7524\/Artigo2 .
+lex:L7524\/Artigo2    lex:temConteudo    "Art 2º O disposto nesta lei aplica-se ao militar agregado a que se refere a alínea b do § 1º do art. 150 da Constituição Federal." .
+lex:L7524\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7524    lex:temArtigo    lex:L7524\/Artigo3 .
+lex:L7524\/Artigo3    lex:temConteudo    "Art 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L7524\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7524    lex:temArtigo    lex:L7524\/Artigo4 .
+lex:L7524\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário." .
+lex:L7524\/Artigo2    lex:remetePara    lex:Constituicao67\/Artigo150\/Paragrafo1b .
+lex:L7524\/Artigo2    lex:remetePara    lex:Constituicao67\/Artigo150\/Paragrafo1b .

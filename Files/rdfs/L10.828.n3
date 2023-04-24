@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.828    lex:ehUm    lex:DocLegal .
+lex:L10.828    lex:temTextoIntegral    lex:HTMLs\/L10.828.htm .
+lex:L10828\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10828    lex:temArtigo    lex:L10828\/Artigo1 .
+lex:L10828\/Artigo1    lex:temConteudo    "Art. 1o Até 31 de dezembro de 2005, o imposto de renda incidente sobre os rendimentos de pessoas físicas será calculado de acordo com as tabelas progressivas mensal e anual de que trata o art. 1o da Lei no 10.451, de 10 de maio de 2002." .
+lex:L10828\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10828    lex:temArtigo    lex:L10828\/Artigo2 .
+lex:L10828\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10828\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10828    lex:temArtigo    lex:L10828\/Artigo3 .
+lex:L10828\/Artigo3    lex:temConteudo    "Art. 3o Fica revogado o parágrafo único do art. 21 da Lei no 9.532, de 10 de dezembro de 1997, alterado pelos arts. 1o da Lei no 9.887, de 7 de dezembro de 1999, e 63 da Lei no 10.637, de 30 de dezembro de 2002." .
+lex:L10828\/Artigo1    lex:remetePara    lex:L10451\/Artigo1 .
+lex:L10828\/Artigo3    lex:remetePara    lex:L9532\/Artigo21 .
+lex:L10828\/Artigo3    lex:remetePara    lex:L10637\/Artigo63 .

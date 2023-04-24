@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0942    lex:ehUm    lex:DocLegal .
+lex:D0942    lex:temTextoIntegral    lex:HTMLs\/D0942.htm .
+lex:D0942\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0942    lex:temArtigo    lex:D0942\/Artigo1 .
+lex:D0942\/Artigo1    lex:temConteudo    "Art. 1° A alínea a) do inciso IV do art. 4.1.9 e a alínea e) do art. 5.1.7, do Decreto n° 87.427, de 27 de julho de 1982, passam a vigorar com a seguinte redação:" .
+lex:D0942\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0942\/Artigo1    lex:temInciso    lex:D0942\/Artigo1\/IncisoIV .
+lex:D0942\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ..............................................................................." .
+lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D0942\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO .
+lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO    lex:temConteudo    "a) o Oficial mais antigo ou, na sua falta, o patrão da embarcação, fará continência individual; os demais que estiverem no paneiro levantar-se-ão, fazendo continência os que estiverem uniformizados e descobrindo-se os que se encontrarem em traje civil, ressalvadas as situações previstas no art. 4.18.13'." .
+lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO    lex:temIncisoAlinea    lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO\/IncisoAlineaNao .
+lex:D0942\/Artigo1\/IncisoIV\/IncisoAlineaO\/IncisoAlineaNao    lex:temConteudo    "e) não dispuser de liberdade de movimento com a mão direita'." .
+lex:D0942\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0942    lex:temArtigo    lex:D0942\/Artigo2 .
+lex:D0942\/Artigo2    lex:temConteudo    "Art. 2° Fica cancelada a alínea f) do artigo 5.1.7." .
+lex:D0942\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0942    lex:temArtigo    lex:D0942\/Artigo3 .
+lex:D0942\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0942\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0942    lex:temArtigo    lex:D0942\/Artigo4 .
+lex:D0942\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .

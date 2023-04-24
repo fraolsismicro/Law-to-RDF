@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3780D    lex:ehUm    lex:DocLegal .
+lex:L3780D    lex:temTextoIntegral    lex:HTMLs\/L3780D.htm .
+lex:L3780D\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3780D    lex:temArtigo    lex:L3780D\/Artigo1 .
+lex:L3780D\/Artigo1    lex:temConteudo    "Art. 1º O item I do art. 3º da Lei nº 2.656, de 26 de novembro de 1955, passa a ter a seguinte redação:" .
+lex:L3780D\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L3780D\/Artigo1    lex:temInciso    lex:L3780D\/Artigo1\/IncisoI .
+lex:L3780D\/Artigo1\/IncisoI    lex:temConteudo    "I - Tenham sido reconhecidas de acôrdo com o disposto no art. 10 do Decreto-lei nº 8.127, de 24 de outubro de 1945'." .
+lex:L3780D\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3780D    lex:temArtigo    lex:L3780D\/Artigo2 .
+lex:L3780D\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3780D\/Artigo1\/IncisoI    lex:remetePara    lex:L2656\/Artigo3 .

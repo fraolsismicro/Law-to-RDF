@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13367    lex:ehUm    lex:DocLegal .
+lex:L13367    lex:temTextoIntegral    lex:HTMLs\/L13367.htm .
+lex:L13367\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo1 .
+lex:L13367\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o da Lei no 1.579, de 18 de março de 1952, passa a vigorar com a seguinte redação:" .
+lex:L13367\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13367\/Artigo1    lex:temParagrafo    lex:L13367\/Artigo1\/ParagrafoUnico .
+lex:L13367\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A criação de Comissão Parlamentar de Inquérito dependerá de requerimento de um terço da totalidade dos membros da Câmara dos Deputados e do Senado Federal, em conjunto ou separadamente. (NR)" .
+lex:L13367\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo2 .
+lex:L13367\/Artigo2    lex:temConteudo    "Art. 2o  O art. 2o da Lei nº 1.579, de 18 de março de 1952, passa a vigorar com a seguinte redação:" .
+lex:L13367\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo3 .
+lex:L13367\/Artigo3    lex:temConteudo    "Art. 3o  O § 1o do art. 3o da Lei nº 1.579, de 18 de março de 1952, passa a vigorar com a seguinte redação:" .
+lex:L13367\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13367\/Artigo3    lex:temParagrafo    lex:L13367\/Artigo3\/Paragrafo1 .
+lex:L13367\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o Em caso de não comparecimento da testemunha sem motivo justificado, a sua intimação será solicitada ao juiz criminal da localidade em que resida ou se encontre, nos termos dos arts. 218 e 219 do Decreto-Lei no 3.689, de 3 de outubro de 1941 - Código de Processo Penal." .
+lex:L13367\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo4 .
+lex:L13367\/Artigo4    lex:temConteudo    "Art. 4o  A Lei nº 1.579, de 18 de março de 1952, passa a vigorar acrescida do seguinte art. 3o-A:" .
+lex:L13367\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo5 .
+lex:L13367\/Artigo5    lex:temConteudo    "Art. 5o  A Lei nº 1.579, de 18 de março de 1952, passa a vigorar acrescida do seguinte art. 6o-A:" .
+lex:L13367\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L13367    lex:temArtigo    lex:L13367\/Artigo6 .
+lex:L13367\/Artigo6    lex:temConteudo    "Art. 6o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13367\/Artigo1    lex:remetePara    lex:L1579 .
+lex:L13367\/Texto00001    lex:remetePara    lex:L1579\/Artigo1 .
+lex:L13367\/Texto00001    lex:remetePara    lex:Constituicao\/Artigo58\/Paragrafo3 .
+lex:L13367\/Artigo2    lex:remetePara    lex:L1579 .
+lex:L13367\/Texto00003    lex:remetePara    lex:L1579\/Artigo2 .
+lex:L13367\/Artigo3    lex:remetePara    lex:L1579 .
+lex:L13367\/Artigo3\/Paragrafo1    lex:remetePara    lex:L1579\/Artigo3\/Paragrafo1 .
+lex:L13367\/Artigo3\/Paragrafo1    lex:remetePara    lex:Del3689\/Artigo218 .
+lex:L13367\/Artigo4    lex:remetePara    lex:L1579 .
+lex:L13367\/Texto00006    lex:remetePara    lex:L1579\/Artigo3 .
+lex:L13367\/Artigo5    lex:remetePara    lex:L1579 .
+lex:L13367\/Texto00007    lex:remetePara    lex:L1579\/Artigo6 .

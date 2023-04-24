@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D73796    lex:ehUm    lex:DocLegal .
+lex:D73796    lex:temTextoIntegral    lex:HTMLs\/D73796.htm .
+lex:D73796\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D73796    lex:temArtigo    lex:D73796\/Artigo1 .
+lex:D73796\/Artigo1    lex:temConteudo    "Art. 1º Fica outorgada à Televisão Guaíba Ltda., nos termos do artigo 28 do Regulamento dos Serviços de Radiodifusão, aprovado pelo Decreto nº 52.795, de 31 de outubro de 1963, concessão para estabelecer uma estação de radiodifusão de sons e imagens ( televisão), na cidade de Porto Alegre, Estado do Rio Grande do Sul, sem direito de exclusividade, utilizando o canal 2 (dois)." .
+lex:D73796\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D73796\/Artigo1    lex:temParagrafo    lex:D73796\/Artigo1\/ParagrafoUnico .
+lex:D73796\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O contrato decorrente desta concessão obedecerá às cláusulas baixadas com o presente e deverá ser assinado dentro de 60 ( sessenta) dias, a contar da publicação deste Diário Oficial da União, sob pena de se tornar nulo de pleno direito, o ato de outorga." .
+lex:D73796\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D73796    lex:temArtigo    lex:D73796\/Artigo2 .
+lex:D73796\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .

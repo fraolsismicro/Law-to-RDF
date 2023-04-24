@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9665    lex:ehUm    lex:DocLegal .
+lex:L9665    lex:temTextoIntegral    lex:HTMLs\/L9665.htm .
+lex:L9665\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9665    lex:temArtigo    lex:L9665\/Artigo1 .
+lex:L9665\/Artigo1    lex:temConteudo    "Art. 1o Observado o disposto nos incisos V e VII do art. 52 da Constituição, fica o Poder Executivo autorizado a conceder o seguinte tratamento a créditos externos da União em relação a outros países ou garantias por estes:" .
+lex:L9665\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9665\/Artigo1    lex:temInciso    lex:L9665\/Artigo1\/IncisoI .
+lex:L9665\/Artigo1\/IncisoI    lex:temConteudo    "I   conceder remissão parcial, em consonância com parâmetros estabelecidos nas Atas de Entendimentos originadas do chamado 'Clube de Paris' ou em Memorandos de Entendimentos decorrentes de negociações bilaterais;" .
+lex:L9665\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9665\/Artigo1    lex:temInciso    lex:L9665\/Artigo1\/IncisoII .
+lex:L9665\/Artigo1\/IncisoII    lex:temConteudo    "II   negociar a valor de mercado os títulos representativos dos créditos referidos no caput deste artigo;" .
+lex:L9665\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L9665\/Artigo1    lex:temInciso    lex:L9665\/Artigo1\/IncisoIII .
+lex:L9665\/Artigo1\/IncisoIII    lex:temConteudo    "III   receber em pagamento títulos da dívida externa do Brasil e de outros países." .
+lex:L9665\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9665    lex:temArtigo    lex:L9665\/Artigo2 .
+lex:L9665\/Artigo2    lex:temConteudo    "Art. 2o Nos contratos abrangidos por esta Lei deverá constar cláusula disciplinando solução de controvérsia entre as partes, sendo aceitável, para tal finalidade, a indicação do foro brasileiro ou de arbitragem internacional." .
+lex:L9665\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9665    lex:temArtigo    lex:L9665\/Artigo3 .
+lex:L9665\/Artigo3    lex:temConteudo    "Art. 3o Compete ao Ministro de Estado da Fazenda firmar os contratos resultantes de renegociação de crédito externo da União, abrangidos ou não pelo art. 1o, podendo ele delegar a referida competência ao Procurador-Geral da Fazenda Nacional, a Procuradores da Fazenda Nacional ou a representantes diplomáticos do País." .
+lex:L9665\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9665    lex:temArtigo    lex:L9665\/Artigo4 .
+lex:L9665\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9665\/Artigo1    lex:remetePara    lex:Constituicao\/Artigo52 .
+lex:L9665\/Artigo1    lex:remetePara    lex:Constituicao\/Artigo52 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0907    lex:ehUm    lex:DocLegal .
+lex:Del0907    lex:temTextoIntegral    lex:HTMLs\/Del0907.htm .
+lex:Del0907\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0907    lex:temArtigo    lex:Del0907\/Artigo1 .
+lex:Del0907\/Artigo1    lex:temConteudo    "Art. 1º Ficam criados, na carreira do Ministério Público dos Territórios Federais, três cargos de Curador, três de Promotor e sete de Defensor Público, providos mediante concurso público, na forma da lei." .
+lex:Del0907\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0907\/Artigo1    lex:temParagrafo    lex:Del0907\/Artigo1\/ParagrafoUnico .
+lex:Del0907\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os Membros do Ministério Público serão lotados nas comarcas dos Territórios, de acôrdo com a necessidade de serviço." .
+lex:Del0907\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0907    lex:temArtigo    lex:Del0907\/Artigo2 .
+lex:Del0907\/Artigo2    lex:temConteudo    "Art. 2º Os cargos ora criados terão os mesmos vencimentos atribuídos aos de igual denominação do Ministério Público do Distrito Federal, acrescidos da gratificação prevista no artigo 12 do Decreto-Lei número 113, de 25 de janeiro de 1967." .
+lex:Del0907\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0907    lex:temArtigo    lex:Del0907\/Artigo3 .
+lex:Del0907\/Artigo3    lex:temConteudo    "Art. 3º Os membros do Ministério Público dos Territórios Federais concorrerão, em igualdade de condições com os do Ministério Público do Distrito Federal, à composição do Tribunal de Justiça do Distrito Federal." .
+lex:Del0907\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0907    lex:temArtigo    lex:Del0907\/Artigo4 .
+lex:Del0907\/Artigo4    lex:temConteudo    "Art. 4º O provimento dos cargos criados pelo artigo 1º condiciona-se à existência de recursos disponíveis nas dotações orçamentárias próprias." .
+lex:Del0907\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0907    lex:temArtigo    lex:Del0907\/Artigo5 .
+lex:Del0907\/Artigo5    lex:temConteudo    "Art. 5º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0907\/Artigo2    lex:remetePara    lex:Del0113\/Artigo12 .

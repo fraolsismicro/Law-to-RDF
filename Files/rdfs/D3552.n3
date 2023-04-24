@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3552    lex:ehUm    lex:DocLegal .
+lex:D3552    lex:temTextoIntegral    lex:HTMLs\/D3552.htm .
+lex:D3552\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3552    lex:temInciso    lex:D3552\/IncisoD .
+lex:D3552\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3552\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3552    lex:temParagrafo    lex:D3552\/ParagrafoUnico .
+lex:D3552\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Até 19 de agosto de 2000, permanecerá em vinte e quatro por cento o percentual obrigatório de adição de álcool etílico anidro combustível à gasolina." .
+lex:D3552\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3552    lex:temArtigo    lex:D3552\/Artigo3 .
+lex:D3552\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 2.607, de 28 de maio de 1998." .
+lex:D3552\/Artigo3    lex:remetePara    lex:D2607 .

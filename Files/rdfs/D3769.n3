@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3769    lex:ehUm    lex:DocLegal .
+lex:D3769    lex:temTextoIntegral    lex:HTMLs\/D3769.htm .
+lex:D3769\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3769    lex:temArtigo    lex:D3769\/Artigo2 .
+lex:D3769\/Artigo2    lex:temConteudo    "Art. 2o  Fica criado o Comitê de Gestão e Acompanhamento do Projeto Alvorada, com a finalidade de exercer a coordenação geral das ações dos diversos órgãos executores de projetos voltados para a área social." .
+lex:D3769\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3769\/Artigo2    lex:temParagrafo    lex:D3769\/Artigo2\/ParagrafoUnico .
+lex:D3769\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Comitê estabelecerá os procedimentos necessários ao cumprimento das diretrizes referidas no artigo anterior." .
+lex:D3769\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3769    lex:temArtigo    lex:D3769\/Artigo3 .
+lex:D3769\/Artigo3    lex:temConteudo    "Art. 3o  O Comitê terá a seguinte composição:" .
+lex:D3769\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3769\/Artigo3    lex:temInciso    lex:D3769\/Artigo3\/IncisoI .
+lex:D3769\/Artigo3\/IncisoI    lex:temConteudo    "I - Chefe da Casa Civil da Presidência da República, que o coordenará;" .
+lex:D3769\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3769\/Artigo3    lex:temInciso    lex:D3769\/Artigo3\/IncisoII .
+lex:D3769\/Artigo3\/IncisoII    lex:temConteudo    "II - Chefe da Secretaria de Comunicação de Governo da Presidência da República;" .
+lex:D3769\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3769\/Artigo3    lex:temInciso    lex:D3769\/Artigo3\/IncisoIII .
+lex:D3769\/Artigo3\/IncisoIII    lex:temConteudo    "III - Secretário de Estado de Assistência Social do Ministério da Previdência e Assistência Social; e" .
+lex:D3769\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3769\/Artigo3    lex:temInciso    lex:D3769\/Artigo3\/IncisoIV .
+lex:D3769\/Artigo3\/IncisoIV    lex:temConteudo    "IV - Secretários-Executivos dos Ministérios da Educação, da Saúde e da Previdência e Assistência Social." .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao    lex:ehUm    lex:IncisoAlinea .
+lex:D3769\/Artigo3\/IncisoIV    lex:temIncisoAlinea    lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao    lex:temConteudo    "a) educação, voltadas ao ensino fundamental, ao ensino médio e à educação de jovens e adultos;" .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude    lex:ehUm    lex:IncisoAlinea .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao    lex:temIncisoAlinea    lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude    lex:temConteudo    "b) saúde e saneamento, com impacto no aumento da esperança de vida;" .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento    lex:ehUm    lex:IncisoAlinea .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude    lex:temIncisoAlinea    lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento    lex:temConteudo    "c) desenvolvimento sócio-econômico, com ênfase nos programas de renda familiar e de infra-estrutura básica;" .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes    lex:ehUm    lex:IncisoAlinea .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento    lex:temIncisoAlinea    lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes    lex:temConteudo    "d) comunicações, esporte, turismo, agricultura e do desenvolvimento da indústria e comércio que concorram para o fortalecimento das ações acima definidas." .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes\/IncisoAlineaItemObservar    lex:ehUm    lex:IncisoAlineaItem .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes    lex:temIncisoAlineaItem    lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes\/IncisoAlineaItemObservar .
+lex:D3769\/Artigo3\/IncisoIV\/IncisoAlineaEducacao\/IncisoAlineaSaude\/IncisoAlineaDesenvolvimento\/IncisoAlineaComunicacoes\/IncisoAlineaItemObservar    lex:temConteudo    "1.2. Observar os critérios de focalização e as fases de implantação do Projeto Alvorada." .

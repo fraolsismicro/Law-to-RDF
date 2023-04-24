@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99961    lex:ehUm    lex:DocLegal .
+lex:D99961    lex:temTextoIntegral    lex:HTMLs\/D99961.htm .
+lex:D99961\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99961    lex:temArtigo    lex:D99961\/Artigo1 .
+lex:D99961\/Artigo1    lex:temConteudo    "Art. 1° São assim distribuídos os efetivos de Oficiais dos seguintes Corpos e Quadros da Marinha para vigorarem em 1991:" .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D99961\/Artigo1    lex:temAlinea    lex:D99961\/Artigo1\/AlineaQuadro .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro de Médicos" .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D99961\/Artigo1    lex:temAlinea    lex:D99961\/Artigo1\/AlineaQuadro .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Auxiliares da Armada" .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D99961\/Artigo1    lex:temAlinea    lex:D99961\/Artigo1\/AlineaQuadro .
+lex:D99961\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro Complementar do Corpo da Armada" .
+lex:D99961\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99961    lex:temArtigo    lex:D99961\/Artigo2 .
+lex:D99961\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .

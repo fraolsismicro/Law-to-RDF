@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4722    lex:ehUm    lex:DocLegal .
+lex:D4722    lex:temTextoIntegral    lex:HTMLs\/D4722.htm .
+lex:D4722\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4722    lex:temArtigo    lex:D4722\/Artigo3 .
+lex:D4722\/Artigo3    lex:temConteudo    "Art. 3o  Salvo o disposto no art. 1o, fica proibido o abate de árvores da espécie Swietenia Macrophylla King (mogno), inclusive em áreas nas quais seja autorizada a supressão de vegetação. (Redação dada pelo Decreto nº 6.472, de 2008)" .
+lex:D4722\/Texto    lex:remetePara    lex:Constituiçao\/Artigo225\/Paragrafo1i .
+lex:D4722\/Texto    lex:remetePara    lex:D76623 .
+lex:D4722\/Texto    lex:remetePara    lex:L4771\/Artigo14 .
+lex:D4722\/Artigo1    lex:remetePara    lex:D4593 .
+lex:D4722\/Artigo2    lex:remetePara    lex:D4593 .
+lex:D4722\/Paragrafo1    lex:remetePara    lex:D4593 .
+lex:D4722\/Artigo3    lex:remetePara    lex:D6472\/Artigo1 .

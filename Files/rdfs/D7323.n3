@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7323    lex:ehUm    lex:DocLegal .
+lex:D7323    lex:temTextoIntegral    lex:HTMLs\/D7323.htm .
+lex:D7323\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7323    lex:temArtigo    lex:D7323\/Artigo1 .
+lex:D7323\/Artigo1    lex:temConteudo    "Art. 1o  O art. 15 do Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com a seguinte redação:" .
+lex:D7323\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7323\/Artigo1    lex:temParagrafo    lex:D7323\/Artigo1\/Paragrafo1 .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ................................................................................" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII    lex:temConteudo    "XII - nas liquidações de operações de câmbio para remessa de juros sobre o capital próprio e dividendos recebidos por investidor estrangeiro, referentes às aplicações de que tratam os incisos XXIV, XXV, XXVI e XXVII: zero;" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:temConteudo    "XXIV - nas liquidações de operações de câmbio contratadas a partir de 5 de outubro de 2010 por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para aplicação no mercado financeiro e de capitais, excetuadas as operações de que tratam os incisos XXV e XXVI: quatro por cento;" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXV .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXV    lex:temConteudo    "XXV - nas liquidações de operações de câmbio contratadas a partir de 5 de outubro de 2010 por investidor estrangeiro, relativas a transferências do exterior de recursos para aplicação no País em renda variável realizada em bolsa de valores ou em bolsa de mercadorias e futuros, na forma regulamentada pelo Conselho Monetário Nacional - CMN, excetuadas operações com derivativos que resultem em rendimentos predeterminados: dois por cento;" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVI .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVI    lex:temConteudo    "XXVI - nas liquidações de operações de câmbio contratadas a partir de 5 de outubro de 2010, para ingresso de recursos no País para aquisição de ações, por investidor estrangeiro, em oferta pública registrada ou dispensada de registro na Comissão de Valores Mobiliários ou para a subscrição de ações, desde que, nos dois casos, as companhias emissoras tenham registro para negociação das ações em bolsas de valores: dois por cento;" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVII .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVII    lex:temConteudo    "XXVII - nas liquidações de operações de câmbio para fins de retorno de recursos aplicados por investidor estrangeiro no mercado financeiro e de capitais, nas operações de que tratam os incisos XXIV, XXV e XXVI: zero;" .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7323\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII    lex:temConteudo    "XXVIII - nas demais operações de câmbio: trinta e oito centésimos por cento." .
+lex:D7323\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7323    lex:temArtigo    lex:D7323\/Artigo2 .
+lex:D7323\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7323\/Texto    lex:remetePara    lex:D7323 .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xii .
+lex:D7323\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xxiv .
+lex:D7323\/Artigo3    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xxi .

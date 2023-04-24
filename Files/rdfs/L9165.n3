@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9165    lex:ehUm    lex:DocLegal .
+lex:L9165    lex:temTextoIntegral    lex:HTMLs\/L9165.htm .
+lex:L9165\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9165    lex:temArtigo    lex:L9165\/Artigo1 .
+lex:L9165\/Artigo1    lex:temConteudo    "Art. 1º O art. 110 da Lei nº 8.443, de 16 de julho de 1992 - Lei Orgânica do Tribunal de Contas da União, alterado o inciso IV e acrescido de parágrafo único, passa a vigorar com a seguinte redação:" .
+lex:L9165\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L9165\/Artigo1    lex:temInciso    lex:L9165\/Artigo1\/IncisoIV .
+lex:L9165\/Artigo1\/IncisoIV    lex:temConteudo    "IV - provimento dos cargos em comissão e funções de confiança por servidores do quadro de pessoal, exceto quanto aos Gabinetes de Ministro, do Procurador-Geral e de Auditor em relação a um Oficial de Gabinete e a um Assistente, que serão de livre escolha da autoridade, obedecidos os requisitos legais e regimentais;" .
+lex:L9165\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9165\/Artigo1    lex:temParagrafo    lex:L9165\/Artigo1\/ParagrafoUnico .
+lex:L9165\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. É vedada a nomeação, para cargos em comissão, e a designação, para funções de confiança, de cônjuge, companheiro ou parentes, consangüíneos ou afins, em linha reta ou colateral, até o terceiro grau, de ministro, auditor ou membro do Ministério Público junto ao Tribunal, em atividade ou aposentados há menos de cinco anos, exceto se admitidos no quadro próprio de pessoal mediante concurso público.'" .
+lex:L9165\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9165    lex:temArtigo    lex:L9165\/Artigo2 .
+lex:L9165\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra vigor na data de sua publicação." .
+lex:L9165\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9165    lex:temArtigo    lex:L9165\/Artigo3 .
+lex:L9165\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9165\/Artigo1    lex:remetePara    lex:L8443\/Artigo110 .

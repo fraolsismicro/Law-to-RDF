@@ -1,0 +1,87 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6656    lex:ehUm    lex:DocLegal .
+lex:D6656    lex:temTextoIntegral    lex:HTMLs\/D6656.htm .
+lex:D6656\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6656    lex:temArtigo    lex:D6656\/Artigo1 .
+lex:D6656\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 3o, 7o, 11 e 13, do Anexo I do Decreto no 5.683, de 24 de janeiro de 2006, passam a vigorar com a seguinte redação:" .
+lex:D6656\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoI .
+lex:D6656\/Artigo1\/IncisoI    lex:temConteudo    "I - ............................................................................" .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D6656\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea    lex:temConteudo    "c) .............................................................................................................................." .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria    lex:temConteudo    "1. Assessoria Especial de Gestão de Projetos;" .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria\/IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria\/IncisoAlineaItem    lex:temConteudo    "................................................................................................................................." .
+lex:D6656\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoII .
+lex:D6656\/Artigo1\/IncisoII    lex:temConteudo    "II - ............................................................................................................................" .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D6656\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea    lex:temConteudo    "a) ............................................................................................................................." .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "................................................................................................................................." .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temConteudo    "4. Diretoria de Auditoria da Área de Produção e Tecnologia;" .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem    lex:temConteudo    ".................................................................................................................................." .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:ehUm    lex:IncisoAlineaItem .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem\/IncisoAlineaItemDiretoria .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:temConteudo    "6. Diretoria de Auditoria de Pessoal, Previdência e Trabalho; (NR)" .
+lex:D6656\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoI .
+lex:D6656\/Artigo1\/IncisoI    lex:temConteudo    "I - assessorar o Secretário-Executivo no desenvolvimento, implantação e acompanhamento de projetos e ações estratégicas para a CGU;" .
+lex:D6656\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoII .
+lex:D6656\/Artigo1\/IncisoII    lex:temConteudo    "II - formular  e implementar estratégias e mecanismos de integração, desenvolvimento e fortalecimento institucional;" .
+lex:D6656\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoIII .
+lex:D6656\/Artigo1\/IncisoIII    lex:temConteudo    "III - coordenar a elaboração e a consolidação dos planos e programas anuais e plurianuais da Controladoria-Geral da União, bem como acompanhar sua execução;" .
+lex:D6656\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoIV .
+lex:D6656\/Artigo1\/IncisoIV    lex:temConteudo    "IV - coordenar, em articulação com a Diretoria de Gestão Interna, a elaboração de relatórios de atividades, inclusive o relatório anual de gestão;" .
+lex:D6656\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoV .
+lex:D6656\/Artigo1\/IncisoV    lex:temConteudo    "V - planejar, coordenar e supervisionar a sistematização, padronização e implantação de técnicas e instrumentos de gestão e melhoria de processos;" .
+lex:D6656\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoVI .
+lex:D6656\/Artigo1\/IncisoVI    lex:temConteudo    "VI - disponibilizar informações gerenciais, visando dar suporte ao processo decisório e à supervisão ministerial;" .
+lex:D6656\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoVII .
+lex:D6656\/Artigo1\/IncisoVII    lex:temConteudo    "VII - proceder à articulação estratégica de assuntos institucionais específicos, determinados pelo Secretário-Executivo; e" .
+lex:D6656\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D6656\/Artigo1    lex:temInciso    lex:D6656\/Artigo1\/IncisoVIII .
+lex:D6656\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - auxiliar o Secretário-Executivo na promoção da gestão estratégica da Controladoria-Geral da União. (NR)" .
+lex:D6656\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6656    lex:temArtigo    lex:D6656\/Artigo2 .
+lex:D6656\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo II ao Decreto no 5.683, de 24 de janeiro de 2006, passa a vigorar na forma do Anexo a este Decreto." .
+lex:D6656\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6656    lex:temArtigo    lex:D6656\/Artigo3 .
+lex:D6656\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes das alterações impostas pelo art. 1o deverão ocorrer no prazo de vinte dias contado da publicação deste Decreto." .
+lex:D6656\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6656\/Artigo3    lex:temParagrafo    lex:D6656\/Artigo3\/ParagrafoUnico .
+lex:D6656\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado do Controle e da Transparência fará publicar no Diário Oficial da União, no prazo de trinta dias contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, a que se refere o Anexo II do Decreto no 5.683, de 2006, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D6656\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6656    lex:temArtigo    lex:D6656\/Artigo4 .
+lex:D6656\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6656\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemAssessoria    lex:remetePara    lex:D5683\/Artigo3ic1 .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:remetePara    lex:D5683\/Artigo3iia4 .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem\/IncisoAlineaItemDiretoria    lex:remetePara    lex:D5683\/Artigo3iia6 .
+lex:D6656\/Artigo1\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDiretoria\/IncisoAlineaItem\/Texto00011    lex:remetePara    lex:D5683\/Artigo7 .
+lex:D6656\/Artigo1\/Texto00019    lex:remetePara    lex:D5683\/Artigo11 .
+lex:D6656\/Artigo1\/Texto00019    lex:remetePara    lex:D5683\/Artigo13 .
+lex:D6656\/Artigo2    lex:remetePara    lex:D5683\/ .
+lex:D6656\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D5683\/ .

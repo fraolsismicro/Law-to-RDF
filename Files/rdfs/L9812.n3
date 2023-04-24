@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9812    lex:ehUm    lex:DocLegal .
+lex:L9812    lex:temTextoIntegral    lex:HTMLs\/L9812.htm .
+lex:L9812\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9812    lex:temArtigo    lex:L9812\/Artigo1 .
+lex:L9812\/Artigo1    lex:temConteudo    "Art. 1o O art. 30 da Lei no 6.015, de 31 de dezembro de 1973, com a redação dada pela Lei no 9.534, de 10 de dezembro de 1997, passa a vigorar acrescido dos seguintes §§ 3oA e 3oB:" .
+lex:L9812\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9812    lex:temArtigo    lex:L9812\/Artigo2 .
+lex:L9812\/Artigo2    lex:temConteudo    "Art. 2o O art. 39 da Lei no 8.935, de 18 de novembro de 1994, passa a vigorar acrescido do seguinte inciso VI:" .
+lex:L9812\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9812    lex:temArtigo    lex:L9812\/Artigo3 .
+lex:L9812\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9812\/Artigo1    lex:remetePara    lex:L6015 .
+lex:L9812\/Texto00001    lex:remetePara    lex:L6015\/Artigo30\/Paragrafo3a .
+lex:L9812\/Artigo2    lex:remetePara    lex:L8935\/Artigo39 .
+lex:L9812\/Texto00002    lex:remetePara    lex:L8935\/Artigo39 .

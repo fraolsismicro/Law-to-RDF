@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D96991    lex:ehUm    lex:DocLegal .
+lex:D96991    lex:temTextoIntegral    lex:HTMLs\/D96991.htm .
+lex:D96991\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D96991    lex:temArtigo    lex:D96991\/Artigo1 .
+lex:D96991\/Artigo1    lex:temConteudo    "Art. 1º Em casos excepcionais, e para atender situações de emergência, poderá o Ministro da Fazenda autorizar a realização, por outras instituições financeiras, de pagamentos e recebimentos decorrentes da movimentação da Conta Única do Tesouro Nacional." .
+lex:D96991\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D96991\/Artigo1    lex:temParagrafo    lex:D96991\/Artigo1\/ParagrafoUnico .
+lex:D96991\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para a seleção das instituições financeiras a serem autorizadas serão levados em conta os seguintes critérios:" .
+lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaMaior    lex:ehUm    lex:Alinea .
+lex:D96991\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaMaior .
+lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaMaior    lex:temConteudo    "a) maior coincidência entre as localidades em que se situam a rede de agências das instituições financeiras e as unidades gestoras dos recursos da Conta Única;" .
+lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaCompatibilidade    lex:ehUm    lex:Alinea .
+lex:D96991\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaCompatibilidade .
+lex:D96991\/Artigo1\/ParagrafoUnico\/AlineaCompatibilidade    lex:temConteudo    "b) compatibilidade dos seus sistemas de processamento eletrônico de dados com os atualmente em uso pela Secretaria do Tesouro Nacional." .
+lex:D96991\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D96991    lex:temArtigo    lex:D96991\/Artigo2 .
+lex:D96991\/Artigo2    lex:temConteudo    "Art. 2º A execução deste Decreto não acarretará despesas ao Tesouro Nacional." .
+lex:D96991\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D96991    lex:temArtigo    lex:D96991\/Artigo3 .
+lex:D96991\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D96991\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D96991    lex:temArtigo    lex:D96991\/Artigo4 .
+lex:D96991\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .

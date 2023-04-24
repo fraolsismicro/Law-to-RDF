@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0784    lex:ehUm    lex:DocLegal .
+lex:Del0784    lex:temTextoIntegral    lex:HTMLs\/Del0784.htm .
+lex:Del0784\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0784    lex:temArtigo    lex:Del0784\/Artigo1 .
+lex:Del0784\/Artigo1    lex:temConteudo    "Art 1º O item III do artigo 11, da Lei nº 4.829, de 5 de novembro de 1965, passa a vigorar com a seguinte redação:" .
+lex:Del0784\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0784    lex:temArtigo    lex:Del0784\/Artigo2 .
+lex:Del0784\/Artigo2    lex:temConteudo    "Art 2º O artigo 29, da Lei nº 4.829, de 5 de novembro de 1965, passa a vigorar com a seguinte redação:" .
+lex:Del0784\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0784\/Artigo2    lex:temParagrafo    lex:Del0784\/Artigo2\/ParagrafoUnico .
+lex:Del0784\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em qualquer caso, os bens e culturas a que se refere êste artigo sòmente poderão ser alienados ou gravados em favor de terceiros, mediante concordância expressa da entidade financiadora'." .
+lex:Del0784\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0784    lex:temArtigo    lex:Del0784\/Artigo3 .
+lex:Del0784\/Artigo3    lex:temConteudo    "Art 3º Os benefícios previstos para o crédito rural pela Lei nº 4.829, de 5 de novembro de 1965, ficam extensivos às pessoas físicas ou jurídicas que, embora não conceituadas como 'produtor rural', se dedicam à pesquisa e à produção de sementes e mudas melhoradas ou à prestação em imóveis rurais, de serviços mecanizados de natureza agrícola, inclusive de proteção do solo." .
+lex:Del0784\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0784    lex:temArtigo    lex:Del0784\/Artigo4 .
+lex:Del0784\/Artigo4    lex:temConteudo    "Art 4º Êste Decreto-lei entrará em vigor na data de sua publicação, revogados o parágrafo único do artigo 14, da Lei nº 4.829, de 5 de novembro da 1965, os artigos 16 e 29 do Decreto-lei nº 167, de 14 de fevereiro de 1967 e demais disposições em contrário." .
+lex:Del0784\/Artigo1    lex:remetePara    lex:L4829\/Artigo11 .
+lex:Del0784\/Artigo2    lex:remetePara    lex:L4829\/Artigo29 .
+lex:Del0784\/Artigo3    lex:remetePara    lex:L4829 .
+lex:Del0784\/Artigo4    lex:remetePara    lex:L4829\/Artigo14 .
+lex:Del0784\/Artigo4    lex:remetePara    lex:Del0167\/Artigo16 .
+lex:Del0784\/Artigo4    lex:remetePara    lex:Del0167\/Artigo29 .

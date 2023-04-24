@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5619    lex:ehUm    lex:DocLegal .
+lex:D5619    lex:temTextoIntegral    lex:HTMLs\/D5619.htm .
+lex:D5619\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5619    lex:temArtigo    lex:D5619\/Artigo1 .
+lex:D5619\/Artigo1    lex:temConteudo    "Art. 1o  Fica autorizada a Secretaria Especial dos Direitos Humanos da Presidência da República a promover as gestões necessárias à negociação, à assinatura e ao adimplemento de Acordo de Composição Amistosa com vistas ao encerramento dos casos nos 12.426 e 12.427, em tramitação perante a Comissão Interamericana de Direitos Humanos." .
+lex:D5619\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5619\/Artigo1    lex:temParagrafo    lex:D5619\/Artigo1\/ParagrafoUnico .
+lex:D5619\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Representante do Governo do Estado do Maranhão poderá firmar o Acordo previsto no caput." .
+lex:D5619\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5619    lex:temArtigo    lex:D5619\/Artigo2 .
+lex:D5619\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5619\/Texto    lex:remetePara    lex:D0678 .

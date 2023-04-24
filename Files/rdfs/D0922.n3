@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0922    lex:ehUm    lex:DocLegal .
+lex:D0922    lex:temTextoIntegral    lex:HTMLs\/D0922.htm .
+lex:D0922\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0922    lex:temArtigo    lex:D0922\/Artigo1 .
+lex:D0922\/Artigo1    lex:temConteudo    "Art. 1° O Protocolo para a Solução de Controvérsias, firmado em Brasília em 17 de dezembro de 1991, no âmbito do Mercado Comum do Sul (MERCOSUL), apenso por cópia ao presente Decreto, deverá ser cumprido tão inteiramente como nele se contém." .
+lex:D0922\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0922    lex:temArtigo    lex:D0922\/Artigo2 .
+lex:D0922\/Artigo2    lex:temConteudo    "Art. 2° O presente Decreto entra em vigor na data de sua publicação ." .
+lex:D0922\/Artigo2\/AlineaCada    lex:ehUm    lex:Alinea .
+lex:D0922\/Artigo2    lex:temAlinea    lex:D0922\/Artigo2\/AlineaCada .
+lex:D0922\/Artigo2\/AlineaCada    lex:temConteudo    "i) Cada Estado parte na controvérsia designará um (1) árbitro. O terceiro árbitro, que não poderá ser nacional dos Estados-Partes na controvérsia, será designado de comum acordo por elas e presidirá o Tribunal Arbitral. Os árbitros deverão ser nomeados no prazo de quinze (15) dias a partir da data na qual a Secretaria Administrativa haja comunicado aos demais Estados-Partes na controvérsia a intenção de um deles de recorrer à arbitrafem;" .
+lex:D0922\/Artigo2\/AlineaEstabelecer    lex:ehUm    lex:Alinea .
+lex:D0922\/Artigo2    lex:temAlinea    lex:D0922\/Artigo2\/AlineaEstabelecer .
+lex:D0922\/Artigo2\/AlineaEstabelecer    lex:temConteudo    "i) Estabelecer contatos diretos com a Seção Nacional do Grupo Mercado Comum do Estado-Parte a que atribui a infração a fim de procurar, por meio de consultas, uma solução imediata para a questão suscitada; ou" .

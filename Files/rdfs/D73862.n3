@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D73862    lex:ehUm    lex:DocLegal .
+lex:D73862    lex:temTextoIntegral    lex:HTMLs\/D73862.htm .
+lex:D73862\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D73862    lex:temArtigo    lex:D73862\/Artigo1 .
+lex:D73862\/Artigo1    lex:temConteudo    "Art 1º As classes integrantes da Categoria Funcional de Arquiteto, código NS-917, do Grupo - Outras Atividades de Nível Superior, são distribuídas pela escala de níveis de que trata o artigo 2º do Decreto número 72.493, de 19 de julho de 1973, na forma do Anexo." .
+lex:D73862\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D73862    lex:temArtigo    lex:D73862\/Artigo2 .
+lex:D73862\/Artigo2    lex:temConteudo    "Art 2º Fica excluída do Nível 6 da escala a que se refere o artigo anterior a característica constante do respectivo item II, a qual passa a integrar, sob o número XII, o Nível 7 da mesma escala, ficando, igualmente, excluída da alínea C do Nível 4, da mesma escala, a referência ao mencionado item II." .
+lex:D73862\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D73862    lex:temArtigo    lex:D73862\/Artigo3 .
+lex:D73862\/Artigo3    lex:temConteudo    "Art 3º Na aplicação do disposto neste Decreto serão observadas, integralmente, as normas constantes do Decreto nº 72.493, de 19 de julho de 1973, que estruturou o Grupo Outras Atividades de Nível Superior." .
+lex:D73862\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D73862    lex:temArtigo    lex:D73862\/Artigo4 .
+lex:D73862\/Artigo4    lex:temConteudo    "Art 4º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D73862\/Artigo1    lex:remetePara    lex:D72493\/Artigo2 .
+lex:D73862\/Artigo2    lex:remetePara    lex:D72493\/nivel6 .
+lex:D73862\/Artigo2    lex:remetePara    lex:D72493\/nivel4 .
+lex:D73862\/Artigo3    lex:remetePara    lex:D72493\/Artigo2 .

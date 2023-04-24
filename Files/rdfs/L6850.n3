@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6850    lex:ehUm    lex:DocLegal .
+lex:L6850    lex:temTextoIntegral    lex:HTMLs\/L6850.htm .
+lex:L6850\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6850    lex:temArtigo    lex:L6850\/Artigo1 .
+lex:L6850\/Artigo1    lex:temConteudo    "Art 1º Fica revogado o número 22 do inciso I do art. 167 da Lei nº 6.015, de 31 de dezembro de 1973." .
+lex:L6850\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6850    lex:temArtigo    lex:L6850\/Artigo2 .
+lex:L6850\/Artigo2    lex:temConteudo    "Art 2º Fica acrescentado ao inciso II do art. 167 da Lei nº 6.015, de 31 de dezembro de 1973, o seguinte número 14:" .
+lex:L6850\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6850\/Artigo2    lex:temInciso    lex:L6850\/Artigo2\/IncisoI .
+lex:L6850\/Artigo2\/IncisoI    lex:temConteudo    "I - ............................................................................................." .
+lex:L6850\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6850\/Artigo2    lex:temInciso    lex:L6850\/Artigo2\/IncisoII .
+lex:L6850\/Artigo2\/IncisoII    lex:temConteudo    "II - ............................................................................................" .
+lex:L6850\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6850    lex:temArtigo    lex:L6850\/Artigo3 .
+lex:L6850\/Artigo3    lex:temConteudo    "Art 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6850\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6850    lex:temArtigo    lex:L6850\/Artigo4 .
+lex:L6850\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário." .
+lex:L6850\/Artigo1    lex:remetePara    lex:L6015\/Artigo167i22 .
+lex:L6850\/Artigo2    lex:remetePara    lex:L6015\/Artigo167ii14 .

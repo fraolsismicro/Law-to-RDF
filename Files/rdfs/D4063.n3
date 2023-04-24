@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4063    lex:ehUm    lex:DocLegal .
+lex:D4063    lex:temTextoIntegral    lex:HTMLs\/D4063.htm .
+lex:D4063\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4063    lex:temInciso    lex:D4063\/IncisoI .
+lex:D4063\/IncisoI    lex:temConteudo    "I - ao ocupante de cargo em comissão, mesmo quando não titular de cargo efetivo; e" .
+lex:D4063\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4063    lex:temInciso    lex:D4063\/IncisoII .
+lex:D4063\/IncisoII    lex:temConteudo    "II - a qualquer ocupante de cargo público, exonerado no interesse da Administração, que não faça jus a auxílio da mesma espécie pago por outro órgão ou entidade, exceto nos casos de demissão ou destituição." .
+lex:D4063\/Artigo1    lex:remetePara    lex:D4004 .
+lex:D4063\/Texto    lex:remetePara    lex:D4004\/Artigo9 .

@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1117    lex:ehUm    lex:DocLegal .
+lex:Del1117    lex:temTextoIntegral    lex:HTMLs\/Del1117.htm .
+lex:Del1117\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo1 .
+lex:Del1117\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1º de setembro de 1970 as alíquotas referentes aos produtos classificados nas posições 84.24 e 87.01, da Tabela anexa ao Decreto nº 61.514 de 12 de outubro de 1967, passarão a ser as seguintes:" .
+lex:Del1117\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo2 .
+lex:Del1117\/Artigo2    lex:temConteudo    "Art. 2º Ficam isentos do Imposto sobre Produtos Industrializados os arames farpados ovalados, as máquinas e implementos agrícolas e os tratores, aqueles e estes quando produzidos no País. (Redação dada pelo Decreto-Lei nº 1.234, de 1972)" .
+lex:Del1117\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo3 .
+lex:Del1117\/Artigo3    lex:temConteudo    "Art. 3º Consideram-se máquinas e implementos agrícolas, para o gôzo dos benefícios concedidos pela legislação fiscal, os produtos relacionados pelo Ministério da Fazenda, ouvido o Ministério da Agricultura." .
+lex:Del1117\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo5 .
+lex:Del1117\/Artigo5    lex:temConteudo    "Art. 5º Fica assegurado aos contribuintes do Impôsto Sôbre Produtos Industrializados o direito à utilização dos créditos relativos às matérias-primas, produtos intermediários e materiais de embalagem, efetivamente utilizados na industrialização dos produtos a que se referem os artigos 2º, 3º e 4º dêste Decreto-lei, nos têrmos fixados pelo Ministério da Fazenda." .
+lex:Del1117\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo6 .
+lex:Del1117\/Artigo6    lex:temConteudo    "Art. 6º As isenções outorgadas por êste Decreto-lei vigorarão até o dia 31 de dezembro de 1974." .
+lex:Del1117\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1117    lex:temArtigo    lex:Del1117\/Artigo7 .
+lex:Del1117\/Artigo7    lex:temConteudo    "Art. 7º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1117\/Artigo1    lex:remetePara    lex:D61514 .
+lex:Del1117\/Artigo2    lex:remetePara    lex:Del1234 .
+lex:Del1117\/Artigo4    lex:revogadoPor    lex:Del1158\/Artigo3 .
+lex:Del1158\/Artigo3    lex:revogou    lex:Del1117\/Artigo4 .
+lex:Del1117\/ParagrafoUnico    lex:revogadoPor    lex:Del1158\/Artigo3 .
+lex:Del1158\/Artigo3    lex:revogou    lex:Del1117\/ParagrafoUnico .

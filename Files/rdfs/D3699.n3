@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3699    lex:ehUm    lex:DocLegal .
+lex:D3699    lex:temTextoIntegral    lex:HTMLs\/D3699.htm .
+lex:D3699\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3699    lex:temArtigo    lex:D3699\/Artigo1 .
+lex:D3699\/Artigo1    lex:temConteudo    "Art. 1o  A cessão de servidor integrante da Carreira Auditoria da Receita Federal para Estados, Distrito Federal e Municípios, hipótese de que trata o inciso II do art. 2º do Decreto nº 925, de 10 de setembro de 1993, fica condicionada à anuência do Ministro de Estado da Fazenda, ouvida a Secretaria da Receita Federal." .
+lex:D3699\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3699\/Artigo1    lex:temParagrafo    lex:D3699\/Artigo1\/Paragrafo1 .
+lex:D3699\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o A cessão de que trata o caput somente ocorrerá por prazo determinado e para o exercício do cargo de Secretário de Fazenda ou equivalente." .
+lex:D3699\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3699\/Artigo1    lex:temParagrafo    lex:D3699\/Artigo1\/Paragrafo2 .
+lex:D3699\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Na hipótese de município, a cessão apenas será autorizada para o da capital de Estado" .
+lex:D3699\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3699    lex:temArtigo    lex:D3699\/Artigo2 .
+lex:D3699\/Artigo2    lex:temConteudo    "Art. 2o  A cessão somente se fará sem ônus para o órgão cedente, inadmitido ressarcimento em qualquer hipótese." .
+lex:D3699\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3699    lex:temArtigo    lex:D3699\/Artigo3 .
+lex:D3699\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3699\/Artigo1    lex:remetePara    lex:D0925\/Artigo2i2 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2906    lex:ehUm    lex:DocLegal .
+lex:D2906    lex:temTextoIntegral    lex:HTMLs\/D2906.htm .
+lex:D2906\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2906    lex:temArtigo    lex:D2906\/Artigo1 .
+lex:D2906\/Artigo1    lex:temConteudo    "Art 1º Fica extinta, no Ministério do Exército, a Diretoria do Pessoal Civil, Órgão de Apoio Setorial do Exército, Sediada em Brasília-DF, subordinada ao Departamento Geral do Pessoal." .
+lex:D2906\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2906    lex:temArtigo    lex:D2906\/Artigo2 .
+lex:D2906\/Artigo2    lex:temConteudo    "Art 2º O Ministro de Estado do Exército elaborará os atos normativos complementares decorrentes do presente Decreto." .
+lex:D2906\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2906    lex:temArtigo    lex:D2906\/Artigo3 .
+lex:D2906\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2906\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2906    lex:temArtigo    lex:D2906\/Artigo4 .
+lex:D2906\/Artigo4    lex:temConteudo    "Art 4º Ficam revogados o nº 6) do art. 5º e o art. 16 do Regulamento do Departamento-Geral do Pessoal do Ministério do Exército, aprovado pelo Decreto nº 78.724, de 12 de novembro de 1976." .
+lex:D2906\/Artigo4    lex:remetePara    lex:D78724\/Artigo5 .
+lex:D2906\/Artigo4    lex:remetePara    lex:D78724\/Artigo16 .

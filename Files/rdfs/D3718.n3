@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3718    lex:ehUm    lex:DocLegal .
+lex:D3718    lex:temTextoIntegral    lex:HTMLs\/D3718.htm .
+lex:D3718\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3718    lex:temInciso    lex:D3718\/IncisoIII .
+lex:D3718\/IncisoIII    lex:temConteudo    "III - Relatório Técnico" .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos    lex:ehUm    lex:IncisoAlinea .
+lex:D3718\/IncisoIII    lex:temIncisoAlinea    lex:D3718\/IncisoIII\/IncisoAlineaAspectos .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos    lex:temConteudo    "b) Aspectos do Controle de Qualidade" .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos    lex:temIncisoAlineaItem    lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem    lex:temConteudo    "............................................................................" .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem\/IncisoAlineaItemCaso    lex:ehUm    lex:IncisoAlineaItem .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem\/IncisoAlineaItemCaso .
+lex:D3718\/IncisoIII\/IncisoAlineaAspectos\/IncisoAlineaItem\/IncisoAlineaItemCaso    lex:temConteudo    "4. Caso o medicamento de referência utilizado nos ensaios não seja da mesma empresa do medicamento de referência nacional, ou de empresa licenciada desta, a empresa interessada no registro deverá apresentar, além do certificado de equivalência farmacêutica, o estudo comparativo dos perfis de dissolução, empregando os fatores f1 e f2 entre o medicamento genérico e a referência nacional, e os ensaios de correlação in vitro/in vivo, quando couber, ou justificativa de sua realização." .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D73419    lex:ehUm    lex:DocLegal .
+lex:D73419    lex:temTextoIntegral    lex:HTMLs\/D73419.htm .
+lex:D73419\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D73419    lex:temArtigo    lex:D73419\/Artigo1 .
+lex:D73419\/Artigo1    lex:temConteudo    "Art. 1º Ficam aprovadas as alterações introduzidas nos artigos 5º e 32, dos Estatutos da Companhia Auxiliar de Empresas Elétricas Brasileiras - CAEEB, sociedade de economia mista, criada pela Lei nº 5.736, de 22 de novembro de 1971, conforme deliberação de suas Assembléias Gerais Extraordinárias realizadas em 25 de setembro e 20 de novembro de 1973, os quais passarão a ter a seguinte redação;" .
+lex:D73419\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D73419    lex:temArtigo    lex:D73419\/Artigo2 .
+lex:D73419\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D73419\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D73419\/Texto .
+lex:D73419\/Texto    lex:remetePara    lex:D73419 .
+lex:D73419\/Artigo1    lex:remetePara    lex:L5736 .
+lex:D73419\/Texto00001    lex:remetePara    lex:ESTATUTO_CAEEB\/Artigo5 .
+lex:D73419\/Texto00001    lex:remetePara    lex:ESTATUTO_CAEEB\/Artigo32 .

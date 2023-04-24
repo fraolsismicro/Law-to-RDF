@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5689    lex:ehUm    lex:DocLegal .
+lex:L5689    lex:temTextoIntegral    lex:HTMLs\/L5689.htm .
+lex:L5689\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5689    lex:temArtigo    lex:L5689\/Artigo1 .
+lex:L5689\/Artigo1    lex:temConteudo    "Art. 1º A Tabela L, a que se refere o art. 1º do Decreto-lei nº 115, de 25 de janeiro de 1967, passa a viger com as seguintes modificações:" .
+lex:L5689\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L5689\/Artigo1    lex:temInciso    lex:L5689\/Artigo1\/IncisoVI .
+lex:L5689\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Averbação de documentos constantes do item III. Observar-se-á o que dispõe o referido item III, com a redução de 50% (cinqüenta por cento).'" .
+lex:L5689\/Artigo1\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:L5689\/Artigo1    lex:temParagrafo    lex:L5689\/Artigo1\/ParagrafoO .
+lex:L5689\/Artigo1\/ParagrafoO    lex:temConteudo    "2º o item III passa a ser item IV; o item IV passa a ser item V; o item V passa a ser item VII, o item VI passa a ser item VIII e o item VII passa a ser item IX." .
+lex:L5689\/Artigo1\/ParagrafoRedija-se    lex:ehUm    lex:Paragrafo .
+lex:L5689\/Artigo1    lex:temParagrafo    lex:L5689\/Artigo1\/ParagrafoRedija-se .
+lex:L5689\/Artigo1\/ParagrafoRedija-se    lex:temConteudo    "3º Redija-se, na Nota 3:" .
+lex:L5689\/Artigo1\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:L5689\/Artigo1    lex:temParagrafo    lex:L5689\/Artigo1\/Paragrafo- .
+lex:L5689\/Artigo1\/Paragrafo-    lex:temConteudo    "4º - É acrescida da seguinte Nota que recebe o nº 4:" .
+lex:L5689\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5689    lex:temArtigo    lex:L5689\/Artigo2 .
+lex:L5689\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5689\/Texto00001    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/IncisoVI    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/ParagrafoO    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/ParagrafoO    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/ParagrafoO    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/ParagrafoO    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/ParagrafoO    lex:remetePara    lex:Del0115\/ .
+lex:L5689\/Artigo1\/Texto00004    lex:remetePara    lex:Del0115\/nota3 .
+lex:L5689\/Artigo1\/Texto00005    lex:remetePara    lex:Del0115\/nota4 .

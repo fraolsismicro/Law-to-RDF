@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7634    lex:ehUm    lex:DocLegal .
+lex:D7634    lex:temTextoIntegral    lex:HTMLs\/D7634.htm .
+lex:D7634\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7634    lex:temArtigo    lex:D7634\/Artigo1 .
+lex:D7634\/Artigo1    lex:temConteudo    "Art. 1 º  São obrigatórias, para efeitos do exercício de 2011, as transferências destinadas aos órgãos e entidades dos Municípios com menos de cinquenta mil habitantes, para a execução das ações do Programa Territórios da Cidadania, constantes do Anexo a este Decreto." .
+lex:D7634\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7634    lex:temArtigo    lex:D7634\/Artigo2 .
+lex:D7634\/Artigo2    lex:temConteudo    "Art. 2 º  Compete ao órgão ou entidade da administração pública federal ao qual estiver consignada a dotação orçamentária relativa à ação constante do Anexo a este Decreto, a análise e aprovação formal do termo de compromisso de que trata o art. 106 da Lei no 12.249, de 11 de junho de 2010." .
+lex:D7634\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7634\/Artigo2    lex:temParagrafo    lex:D7634\/Artigo2\/ParagrafoUnico .
+lex:D7634\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Caberá a instituição ou a agente público federal, atuando como mandatário da União, a aprovação de que trata o caput, nos casos em que a transferência obrigatória foi efetivada por seu intermédio." .
+lex:D7634\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7634    lex:temArtigo    lex:D7634\/Artigo3 .
+lex:D7634\/Artigo3    lex:temConteudo    "Art. 3 º  Caberá ao Comitê Gestor Nacional do Programa Territórios da Cidadania divulgar em sítio na Internet a relação das programações de que trata o art. 105 da Lei nº 12.249, de 2010, e atualizá-la, inclusive no que se refere a alterações nas funcionais programáticas decorrentes de lei orçamentária e seus créditos adicionais." .
+lex:D7634\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7634    lex:temArtigo    lex:D7634\/Artigo4 .
+lex:D7634\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7634\/Artigo2    lex:remetePara    lex:L12249\/Artigo106 .
+lex:D7634\/Artigo3    lex:remetePara    lex:L12249\/Artigo105 .

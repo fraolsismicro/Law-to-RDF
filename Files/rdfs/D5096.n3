@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5096    lex:ehUm    lex:DocLegal .
+lex:D5096    lex:temTextoIntegral    lex:HTMLs\/D5096.htm .
+lex:D5096\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5096    lex:temArtigo    lex:D5096\/Artigo1 .
+lex:D5096\/Artigo1    lex:temConteudo    "Art. 1o  Ficam as autoridades brasileiras obrigadas, no âmbito de suas respectivas atribuições, ao cumprimento do disposto na Resolução no 1.532 (2004), adotada pelo Conselho de Segurança das Nações Unidas, em 12 de março de 2004, anexa a este Decreto." .
+lex:D5096\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5096    lex:temArtigo    lex:D5096\/Artigo2 .
+lex:D5096\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5096\/Artigo2\/AlineaJuros    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaJuros .
+lex:D5096\/Artigo2\/AlineaJuros    lex:temConteudo    "a) juros ou outros benefícios a que fazem jus; e" .
+lex:D5096\/Artigo2\/AlineaPagamentos    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaPagamentos .
+lex:D5096\/Artigo2\/AlineaPagamentos    lex:temConteudo    "b) pagamentos referentes a contratos, acordos ou obrigações anteriores à data em que essas contas tornaram-se objeto do parágrafo 1° supracitado, desde que esses juros, outros benefícios e pagamentos permaneçam sujeitos àquelas disposições;" .
+lex:D5096\/Artigo2\/AlineaPagamentos\/ItemDecide    lex:ehUm    lex:Item .
+lex:D5096\/Artigo2\/AlineaPagamentos    lex:temItem    lex:D5096\/Artigo2\/AlineaPagamentos\/ItemDecide .
+lex:D5096\/Artigo2\/AlineaPagamentos\/ItemDecide    lex:temConteudo    "4. Decide também que o Comitê deve:" .
+lex:D5096\/Artigo2\/AlineaIdentificar    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaIdentificar .
+lex:D5096\/Artigo2\/AlineaIdentificar    lex:temConteudo    "a) identificar pessoas e entidades nos moldes descritos no parágrafo 1° supracitado e circular, imediatamente, para todos os Estados lista das referidas pessoas e entidades, inclusive por meio da divulgação dessa lista na página do Comitê na Internet;" .
+lex:D5096\/Artigo2\/AlineaManter    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaManter .
+lex:D5096\/Artigo2\/AlineaManter    lex:temConteudo    "b) manter e atualizar periodicamente, bem como revisar a cada seis meses, a lista dessas pessoas e entidades às quais o Comitê tenha decidido aplicar as medidas enunciadas no parágrafo 1° supracitado;" .
+lex:D5096\/Artigo2\/AlineaAjudar    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaAjudar .
+lex:D5096\/Artigo2\/AlineaAjudar    lex:temConteudo    "c) ajudar os Estados, quando necessário, a localizar e congelar os fundos, outros ativos financeiros e recursos econômicos das referidas pessoas e entidades;" .
+lex:D5096\/Artigo2\/AlineaObter    lex:ehUm    lex:Alinea .
+lex:D5096\/Artigo2    lex:temAlinea    lex:D5096\/Artigo2\/AlineaObter .
+lex:D5096\/Artigo2\/AlineaObter    lex:temConteudo    "d) obter de todos os Estados informações sobre as medidas que estes tenham adotado para localizar e congelar os referidos fundos, ativos financeiros e recursos econômicos;" .
+lex:D5096\/Artigo2\/AlineaObter\/ItemDecide    lex:ehUm    lex:Item .
+lex:D5096\/Artigo2\/AlineaObter    lex:temItem    lex:D5096\/Artigo2\/AlineaObter\/ItemDecide .
+lex:D5096\/Artigo2\/AlineaObter\/ItemDecide    lex:temConteudo    "5. Decide revisar as medidas impostas pelo parágrafo 1° supracitado ao menos uma vez ao ano, sendo a primeira revisão em 22 de dezembro de 2004, em conjunto com a revisão das medidas previstas nos parágrafos 2°, 4°, 6° e 10 da Resolução n° 1.521 (2003), ocasião em que decidirá sobre a necessidade de medidas adicionais;" .
+lex:D5096\/Artigo2\/AlineaObter\/ItemExpressa    lex:ehUm    lex:Item .
+lex:D5096\/Artigo2\/AlineaObter    lex:temItem    lex:D5096\/Artigo2\/AlineaObter\/ItemExpressa .
+lex:D5096\/Artigo2\/AlineaObter\/ItemExpressa    lex:temConteudo    "6. Expressa a intenção de considerar se e quando serão postos à disposição do Governo da Libéria os fundos, outros ativos financeiros e recursos econômicos congelados em virtude do disposto no parágrafo 1° supracitado, desde que aquele Governo tenha estabelecido mecanismos transparentes de contabilidade e auditoria com vistas a garantir o uso responsável da receita governamental de forma a beneficiar diretamente o povo da Libéria." .
+lex:D5096\/Artigo2\/AlineaObter\/ItemDecide    lex:ehUm    lex:Item .
+lex:D5096\/Artigo2\/AlineaObter    lex:temItem    lex:D5096\/Artigo2\/AlineaObter\/ItemDecide .
+lex:D5096\/Artigo2\/AlineaObter\/ItemDecide    lex:temConteudo    "7. Decide continuar ocupando-se ativamente da questão.'" .
+lex:D5096\/Texto    lex:remetePara    lex:D4299 .
+lex:D5096\/Texto    lex:remetePara    lex:D4742 .
+lex:D5096\/Texto    lex:remetePara    lex:D4995 .

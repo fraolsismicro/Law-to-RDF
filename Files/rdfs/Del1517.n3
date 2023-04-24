@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1517    lex:ehUm    lex:DocLegal .
+lex:Del1517    lex:temTextoIntegral    lex:HTMLs\/Del1517.htm .
+lex:Del1517\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1517    lex:temArtigo    lex:Del1517\/Artigo1 .
+lex:Del1517\/Artigo1    lex:temConteudo    "Art. 1º As alíquotas do imposto sobre operações relativas à circulação de mercadorias nos Territórios Federais, a partir de 1º de janeiro 1977, serão as seguintes:" .
+lex:Del1517\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1517\/Artigo1    lex:temInciso    lex:Del1517\/Artigo1\/IncisoI .
+lex:Del1517\/Artigo1\/IncisoI    lex:temConteudo    "I - Nas operações internas e quando houver saída para outra unidade da Federação, 15% (quinze por cento);" .
+lex:Del1517\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1517\/Artigo1    lex:temInciso    lex:Del1517\/Artigo1\/IncisoII .
+lex:Del1517\/Artigo1\/IncisoII    lex:temConteudo    "II - Nas operações de exportação, 13% (treze por cento)." .
+lex:Del1517\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1517    lex:temArtigo    lex:Del1517\/Artigo2 .
+lex:Del1517\/Artigo2    lex:temConteudo    "Art. 2º O disposto no artigo 1º do Decreto-lei nº 88, de 28 de dezembro de 1966, aplica-se, inclusive, aos convênios e demais atos celebrados pelos Estados e pelo Distrito Federal, com fundamento na Lei Complementar nº 24, de 7 de janeiro de 1975.     (Vide Decreto-Lei nº 1.744, de 1979)" .
+lex:Del1517\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1517    lex:temArtigo    lex:Del1517\/Artigo3 .
+lex:Del1517\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1517\/Artigo2    lex:remetePara    lex:Del0088\/Artigo1 .
+lex:Del1517\/Artigo2    lex:remetePara    lex:Lcp24 .
+lex:Del1517\/Artigo2    lex:remetePara    lex:Del1744\/Artigo2 .

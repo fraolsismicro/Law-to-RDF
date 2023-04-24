@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8922    lex:ehUm    lex:DocLegal .
+lex:L8922    lex:temTextoIntegral    lex:HTMLs\/L8922.htm .
+lex:L8922\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8922    lex:temArtigo    lex:L8922\/Artigo1 .
+lex:L8922\/Artigo1    lex:temConteudo    "Art. 1º O art. 20 da Lei nº 8.036, de 11 de maio de 1990, passa a vigorar acrescido do seguinte inciso XI:" .
+lex:L8922\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:L8922\/Artigo1    lex:temInciso    lex:L8922\/Artigo1\/IncisoXI .
+lex:L8922\/Artigo1\/IncisoXI    lex:temConteudo    "XI - quando o trabalhador ou qualquer de seus dependentes for acometido de neoplasia maligna.'" .
+lex:L8922\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8922    lex:temArtigo    lex:L8922\/Artigo2 .
+lex:L8922\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L8922\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8922    lex:temArtigo    lex:L8922\/Artigo3 .
+lex:L8922\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L8922\/Artigo1\/IncisoXI    lex:remetePara    lex:L8036consol\/Artigo20 .

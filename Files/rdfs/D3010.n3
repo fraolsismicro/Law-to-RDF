@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3010    lex:ehUm    lex:DocLegal .
+lex:D3010    lex:temTextoIntegral    lex:HTMLs\/D3010.htm .
+lex:D3010\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3010    lex:temArtigo    lex:D3010\/Artigo1 .
+lex:D3010\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o do Decreto no 2.661, de 8 de julho de 1998, passa a vigorar com a seguinte redação:" .
+lex:D3010\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3010\/Artigo1    lex:temInciso    lex:D3010\/Artigo1\/IncisoIV .
+lex:D3010\/Artigo1\/IncisoIV    lex:temConteudo    "IV - no limite da linha que simultaneamente corresponda:" .
+lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D3010\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA .
+lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:temConteudo    "a) à área definida pela circunferência de raio igual a seis mil metros, tendo como ponto de referência o centro geométrico da pista de pouso e decolagem de aeródromos públicos;" .
+lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:temIncisoAlinea    lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA .
+lex:D3010\/Artigo1\/IncisoIV\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "b) à área cuja linha perimetral é definida a partir da linha que delimita a área patrimonial de aeródromo público, dela distanciando no mínimo dois mil metros, externamente, em qualquer de seus pontos." .
+lex:D3010\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3010\/Artigo1    lex:temParagrafo    lex:D3010\/Artigo1\/Paragrafo1 .
+lex:D3010\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Quando se tratar de aeródromos públicos que operem somente nas condições visuais diurnas (VFR) e a queima se realizar no período noturno compreendido entre o por e o nascer do Sol, será observado apenas o limite de que trata a alínea 'b' do inciso IV." .
+lex:D3010\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3010\/Artigo1    lex:temParagrafo    lex:D3010\/Artigo1\/Paragrafo2 .
+lex:D3010\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Quando se tratar de aeródromos privados, que operem apenas nas condições visuais diurnas (VFR) e a queima se realizar no período noturno, compreendido entre o por e o nascer do Sol, o limite de que trata a alínea 'b' do inciso IV será reduzido para mil metros." .
+lex:D3010\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3010\/Artigo1    lex:temParagrafo    lex:D3010\/Artigo1\/Paragrafo3 .
+lex:D3010\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Após 9 de julho de 2003, fica proibido o uso do fogo, mesmo sob a forma de queima controlada, para queima de vegetação contida numa faixa de mil metros de aglomerado urbano de qualquer porte, delimitado a partir do seu centro urbanizado, ou de quinhentos metros a partir do seu perímetro urbano, se superior.' (NR)" .
+lex:D3010\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3010    lex:temArtigo    lex:D3010\/Artigo2 .
+lex:D3010\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3010\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3010    lex:temArtigo    lex:D3010\/Artigo3 .
+lex:D3010\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 2.905, de 28 de dezembro de 1998." .
+lex:D3010\/Artigo1\/IncisoIV    lex:remetePara    lex:D2661\/Artigo1 .
+lex:D3010\/Artigo3    lex:remetePara    lex:D2905 .

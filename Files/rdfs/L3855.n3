@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3855    lex:ehUm    lex:DocLegal .
+lex:L3855    lex:temTextoIntegral    lex:HTMLs\/L3855.htm .
+lex:L3855\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3855    lex:temParagrafo    lex:L3855\/ParagrafoUnico .
+lex:L3855\/ParagrafoUnico    lex:temConteudo    "Parágrafo único   São extintas as agências de arrecadação existentes nos municípios relacionados no presente artigo." .
+lex:L3855\/Texto    lex:remetePara    lex:L4941 .
+lex:L3855\/Texto    lex:remetePara    lex:L4962\/Artigo1 .

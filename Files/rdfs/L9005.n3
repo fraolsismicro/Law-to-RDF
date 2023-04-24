@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9005    lex:ehUm    lex:DocLegal .
+lex:L9005    lex:temTextoIntegral    lex:HTMLs\/L9005.htm .
+lex:L9005\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9005    lex:temArtigo    lex:L9005\/Artigo1 .
+lex:L9005\/Artigo1    lex:temConteudo    "Art. 1º O art. 1º da Lei nº 6.150, de 3 de dezembro de 1974, passa a vigorar com a seguinte redação:" .
+lex:L9005\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9005    lex:temArtigo    lex:L9005\/Artigo2 .
+lex:L9005\/Artigo2    lex:temConteudo    "Art. 2º O inciso XXX do art. 10 da Lei nº 6.437, de 20 de agosto de 1977, passa a vigorar com a seguinte redação:" .
+lex:L9005\/Artigo2\/IncisoXXX    lex:ehUm    lex:Inciso .
+lex:L9005\/Artigo2    lex:temInciso    lex:L9005\/Artigo2\/IncisoXXX .
+lex:L9005\/Artigo2\/IncisoXXX    lex:temConteudo    "XXX - expor ou entregar ao consumo humano, sal refinado, moído ou granulado, que não contenha iodo na proporção estabelecida pelo Ministério da Saúde." .
+lex:L9005\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9005    lex:temArtigo    lex:L9005\/Artigo4 .
+lex:L9005\/Artigo4    lex:temConteudo    "Art. 4º Ficam convalidados os atos praticados com base na Medida Provisória nº 834, de 19 de janeiro de 1995." .
+lex:L9005\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9005    lex:temArtigo    lex:L9005\/Artigo5 .
+lex:L9005\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entra em vigor na data de sua publicação." .
+lex:L9005\/Artigo1    lex:remetePara    lex:L6150 .
+lex:L9005\/Texto00001    lex:remetePara    lex:L6150\/Artigo1 .
+lex:L9005\/Artigo2\/IncisoXXX    lex:remetePara    lex:L6437\/Artigo10 .
+lex:L9005\/Artigo2\/Artigo3    lex:revogadoPor    lex:2190-34\/Artigo15 .
+lex:2190-34\/Artigo15    lex:revogou    lex:L9005\/Artigo2\/Artigo3 .
+lex:L9005\/Artigo4    lex:remetePara    lex:834 .

@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2676    lex:ehUm    lex:DocLegal .
+lex:D2676    lex:temTextoIntegral    lex:HTMLs\/D2676.htm .
+lex:D2676\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2676    lex:temArtigo    lex:D2676\/Artigo1 .
+lex:D2676\/Artigo1    lex:temConteudo    "Art 1º O art. 68 do Decreto nº 71.848, de 16 de fevereiro de 1973, que regulamenta, para o Exército, a Lei nº 5.821, de 10 de novembro de 1972, que dispõe sobre as promoções dos oficiais da ativa das Forças Armadas, passa a vigorar com a seguinte redação:" .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:ehUm    lex:Alinea .
+lex:D2676\/Artigo1    lex:temAlinea    lex:D2676\/Artigo1\/AlineaEfetivos: .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temConteudo    "b) Efetivos:" .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item11onze    lex:ehUm    lex:Item .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temItem    lex:D2676\/Artigo1\/AlineaEfetivos:\/Item11onze .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item11onze    lex:temConteudo    "- 11(onze) Oficiais-Generais Combatentes;" .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:ehUm    lex:Item .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temItem    lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:temConteudo    "- 01(um) Oficial-General Engenheiro Militar;" .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:ehUm    lex:Item .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temItem    lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:temConteudo    "- 01(um) Oficial-General Médico;" .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:ehUm    lex:Item .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temItem    lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/Item01um    lex:temConteudo    "- 01(um) Oficial-General Intendente." .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/ItemNR    lex:ehUm    lex:Item .
+lex:D2676\/Artigo1\/AlineaEfetivos:    lex:temItem    lex:D2676\/Artigo1\/AlineaEfetivos:\/ItemNR .
+lex:D2676\/Artigo1\/AlineaEfetivos:\/ItemNR    lex:temConteudo    ".................................................................. ......................................................'(NR)" .
+lex:D2676\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2676    lex:temArtigo    lex:D2676\/Artigo2 .
+lex:D2676\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .

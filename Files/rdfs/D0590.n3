@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0590    lex:ehUm    lex:DocLegal .
+lex:D0590    lex:temTextoIntegral    lex:HTMLs\/D0590.htm .
+lex:D0590\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0590    lex:temArtigo    lex:D0590\/Artigo1 .
+lex:D0590\/Artigo1    lex:temConteudo    "Art. 1° O art. 2° do Estatuto aprovado pelo Decreto n° 466, de 28 de fevereiro de 1992, fica acrescido dos incisos V e VI e o seu parágrafo único passa a vigorar com a seguinte redação:" .
+lex:D0590\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D0590\/Artigo1    lex:temInciso    lex:D0590\/Artigo1\/IncisoV .
+lex:D0590\/Artigo1\/IncisoV    lex:temConteudo    "V - desenvolver e executar planos e programas de formação de mão-de-obra profissional;" .
+lex:D0590\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D0590\/Artigo1    lex:temInciso    lex:D0590\/Artigo1\/IncisoVI .
+lex:D0590\/Artigo1\/IncisoVI    lex:temConteudo    "VI - promover estudos que visem à melhoria do desempenho da mão-de-obra, com vistas ao estabelecimento de padrões de eficiência e qualidade de setores produtivos e do trabalhador." .
+lex:D0590\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0590\/Artigo1    lex:temParagrafo    lex:D0590\/Artigo1\/ParagrafoUnico .
+lex:D0590\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A FUNDACENTRO poderá, na execução de suas atribuições, celebrar convênios, acordos ou contratos com os Governos da União, Estados, Distrito Federal e Municípios, com Universidades, Estabelecimentos de Ensino Superior, bem como outras entidades públicas ou particulares, nacionais ou internacionais, para o fim de obter ou prestar colaboração e assistência em atividades destinadas a promover o desenvolvimento de programas de segurança, higiene e medicina do trabalho e de formação de mão-de-obra.'" .
+lex:D0590\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0590    lex:temArtigo    lex:D0590\/Artigo2 .
+lex:D0590\/Artigo2    lex:temConteudo    "Art. 2° O art. 18 do Decreto n° 466, de 1992, fica acrescido do inciso XV e o seu inciso XIV passa a vigorar com a seguinte redação:" .
+lex:D0590\/Artigo2\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:D0590\/Artigo2    lex:temInciso    lex:D0590\/Artigo2\/IncisoXIV .
+lex:D0590\/Artigo2\/IncisoXIV    lex:temConteudo    "XIV - constituir grupos de trabalho, comissões, comitês, e conselhos interinstitucionais de apoio consultivo, designando os seus membros;" .
+lex:D0590\/Artigo2\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:D0590\/Artigo2    lex:temInciso    lex:D0590\/Artigo2\/IncisoXV .
+lex:D0590\/Artigo2\/IncisoXV    lex:temConteudo    "XV - delegar competência na forma da legislação vigente.'" .
+lex:D0590\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0590    lex:temArtigo    lex:D0590\/Artigo3 .
+lex:D0590\/Artigo3    lex:temConteudo    "Art. 3° O Quadro Demonstrativo dos Cargos em Comissão e Funções de Confiança e o Quadro Demonstrativo de Custo/Função, da FUNDACENTRO, passam a ser os constantes dos Anexos I e II deste Decreto." .
+lex:D0590\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0590    lex:temArtigo    lex:D0590\/Artigo4 .
+lex:D0590\/Artigo4    lex:temConteudo    "Art. 4° Este Decreto entra em vigor na data de sua publicação." .

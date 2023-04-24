@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5919    lex:ehUm    lex:DocLegal .
+lex:D5919    lex:temTextoIntegral    lex:HTMLs\/D5919.htm .
+lex:D5919\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5919    lex:temArtigo    lex:D5919\/Artigo1 .
+lex:D5919\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção Interamericana sobre o Cumprimento de Sentenças Penais no Exterior, concluída em Manágua, em 9 de junho de 1993, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém, com reserva à primeira parte do parágrafo 2o do Artigo VII, relativa à redução dos períodos de prisão ou de cumprimento alternativo da pena." .
+lex:D5919\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5919    lex:temArtigo    lex:D5919\/Artigo2 .
+lex:D5919\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão da referida Convenção ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D5919\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5919    lex:temArtigo    lex:D5919\/Artigo3 .
+lex:D5919\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5919\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5919\/Artigo3    lex:temAlinea    lex:D5919\/Artigo3\/AlineaAs .
+lex:D5919\/Artigo3\/AlineaAs    lex:temConteudo    "a) as sentenças impostas em um dos Estados Partes a nacionais de outro Estado Parte poderão ser cumpridas pela pessoa sentenciada no Estado do qual seja nacional; e" .
+lex:D5919\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5919\/Artigo3    lex:temAlinea    lex:D5919\/Artigo3\/AlineaOs .
+lex:D5919\/Artigo3\/AlineaOs    lex:temConteudo    "b) os Estados Partes comprometem-se a prestar a mais ampla cooperação no tocante à transferência de pessoas sentenciadas." .
+lex:D5919\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

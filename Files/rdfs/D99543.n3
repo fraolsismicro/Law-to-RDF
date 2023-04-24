@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99543    lex:ehUm    lex:DocLegal .
+lex:D99543    lex:temTextoIntegral    lex:HTMLs\/D99543.htm .
+lex:D99543\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99543    lex:temArtigo    lex:D99543\/Artigo1 .
+lex:D99543\/Artigo1    lex:temConteudo    "Art. 1° O Sexto Protocolo Adicional ao Acordo Comercial n° 26, no Setor da Indústria de Artigos e Aparelhos para Usos Hospitalares, Médicos, Odontológicos, Veterinários e Afins, entre o Brasil, a Argentina e o México, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D99543\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99543    lex:temArtigo    lex:D99543\/Artigo2 .
+lex:D99543\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99543\/Artigo2\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoC .
+lex:D99543\/Artigo2\/IncisoC    lex:temConteudo    "C. Preferência pactuadas entre o Brasil e o México.                                                                    90" .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoC    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto    lex:temConteudo    "a) Decreto nº 4.070, de 28/XII/1984, a disposições complementares." .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei    lex:temConteudo    "b) lei nº 22.766, de 28/III/83, e Decretos nos. 1.411, de 3/VI/83 e 390, de 28/III/89." .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei\/IncisoAlineaLei    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei\/IncisoAlineaLei .
+lex:D99543\/Artigo2\/IncisoC\/IncisoAlineaDecreto\/IncisoAlineaLei\/IncisoAlineaLei    lex:temConteudo    "c) Lei nº 23.664, de 1º/VI/1989." .
+lex:D99543\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoLI .
+lex:D99543\/Artigo2\/IncisoLI    lex:temConteudo    "LI -Livra importação" .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoLI    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs    lex:temConteudo    "a) As mercadorias elaboradas integralmente no território de qualquer um deles, quando em sua elaboração forem utilizados exclusivamente materiais originários dos países signatários do presente Acordo, exceto quando essas mercadorias resultarem de processos que consistam em simples montagens ou ensamblagens, embalagem, fracionamento em lotes, peças ou volumes, seleção, classificação, marcação e composição de sortimentos de mercadorias ou outras operações que não impliquem um processo de transformação substancial nos termos de letra c)." .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs    lex:temConteudo    "b) As mercadorias compreendidas nos capítulos ou posições da NALADI indicados no presente Acordo, pelo simples foto de serem produzidas em seus respectivos territórios." .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:temConteudo    "c) As mercadorias em cuja elaboração se utilizem materiais não originários dos países signatários do presente Acordo quando resultantes de um processo de transformação realizado no território de algum deles, que lhes confira uma nova individualidade, caracterizada pelo fato de estarem classificadas nas Nomenclaturas nacionais ou da Associação em posição diferente à dos mencionados materiais, exceto nos casos de simples fracionamento, acondicionamento e outras operações semelhantes." .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:temConteudo    "d) As mercadorias resultantes de operações de montagem ou ensamblagem realizadas no território de um país signatário, utilizando materiais originários dos países signatários e de terceiros países, quando o valor CIF porto de destino ou CIF porto marítimo dos materiais não originários dos países signatários não exceda 50 por cento do valor FAS desses produtos." .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoLI\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaAs    lex:temConteudo    "e) As mercadorias que cumpram com os requisitos específicos estabelecidos no presente Acordo." .
+lex:D99543\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoI .
+lex:D99543\/Artigo2\/IncisoI    lex:temConteudo    "I. Materiais empregados na produção:" .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima: .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:    lex:temConteudo    "a) Matérias-prima:" .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima    lex:temConteudo    "i) Matéria-prima preponderante ou que confira ao produto sua característica essencial; e" .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes    lex:temConteudo    "b) Partes ou peças:" .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes\/IncisoAlineaParte    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes\/IncisoAlineaParte .
+lex:D99543\/Artigo2\/IncisoI\/IncisoAlineaMaterias-prima:\/IncisoAlineaMateria-prima\/IncisoAlineaPartes\/IncisoAlineaParte    lex:temConteudo    "i) Parte ou pela que confira ao produto sua característica essencial;" .
+lex:D99543\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoII .
+lex:D99543\/Artigo2\/IncisoII    lex:temConteudo    "II. Processo de transformação ou elaboração realizado." .
+lex:D99543\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoIII .
+lex:D99543\/Artigo2\/IncisoIII    lex:temConteudo    "III. Proporção máxima do valor dos materiais importados de países não signatários em relação com o valor total do produto, resultante do procedimento de valorização acordado em cada caso. Ao aplicar-se este procedimento serão considerados também originários dos países signatários, a energia e o combustível utilizados no processo de produção, bem como a depreciação e manutenção das instalações e dos equipamentos." .
+lex:D99543\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D99543\/Artigo2    lex:temInciso    lex:D99543\/Artigo2\/IncisoIV .
+lex:D99543\/Artigo2\/IncisoIV    lex:temConteudo    "IV. Outros critérios sobre base percentual." .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs    lex:temConteudo    "a) As mercadorias transportadas sem passar pelo território de algum país não signatário do Acordo." .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs    lex:temConteudo    "b) As mercadorias transportadas em trânsito por um ou mais países não signatários com ou sem trasbordo ou armazenamento temporário, sob vigilância da autoridade aduaneira competente nesses países, sempre que:" .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO    lex:temConteudo    "i) O trânsito esteja justificado por razões geográficas ou por considerações referentes a requerimentos do transportes;" .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue    lex:temConteudo    "a) Que a expressão 'território' compreende as zonas francas localizadas dentro dos limites geográficos de qualquer um dos países signatários; e" .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue\/IncisoAlineaQue    lex:ehUm    lex:IncisoAlinea .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue    lex:temIncisoAlinea    lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue\/IncisoAlineaQue .
+lex:D99543\/Artigo2\/IncisoIV\/IncisoAlineaAs\/IncisoAlineaAs\/IncisoAlineaO\/IncisoAlineaQue\/IncisoAlineaQue    lex:temConteudo    "b) Que a expressão 'materiais' compreende as matérias-primas, os produtos intermediários e as partes e peças, utilizados na elaboração das mercadorias." .

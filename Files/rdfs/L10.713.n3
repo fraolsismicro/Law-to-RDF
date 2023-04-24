@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.713    lex:ehUm    lex:DocLegal .
+lex:L10.713    lex:temTextoIntegral    lex:HTMLs\/L10.713.htm .
+lex:L10713\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10713    lex:temArtigo    lex:L10713\/Artigo1 .
+lex:L10713\/Artigo1    lex:temConteudo    "Art. 1o O art. 41 da Lei no 7.210, de 11 de julho de 1984, passa a vigorar acrescido do seguinte inciso XVI:" .
+lex:L10713\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:L10713\/Artigo1    lex:temInciso    lex:L10713\/Artigo1\/IncisoXVI .
+lex:L10713\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI   atestado de pena a cumprir, emitido anualmente, sob pena da responsabilidade da autoridade judiciária competente." .
+lex:L10713\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10713    lex:temArtigo    lex:L10713\/Artigo2 .
+lex:L10713\/Artigo2    lex:temConteudo    "Art. 2o O art. 66 da Lei no 7.210, de 11 de julho de 1984, passa a vigorar acrescido do seguinte inciso X:" .
+lex:L10713\/Artigo2\/IncisoX    lex:ehUm    lex:Inciso .
+lex:L10713\/Artigo2    lex:temInciso    lex:L10713\/Artigo2\/IncisoX .
+lex:L10713\/Artigo2\/IncisoX    lex:temConteudo    "X   emitir anualmente atestado de pena a cumprir.' (NR)" .
+lex:L10713\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10713    lex:temArtigo    lex:L10713\/Artigo3 .
+lex:L10713\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor noventa dias após sua publicação." .
+lex:L10713\/Artigo1\/IncisoXVI    lex:remetePara    lex:L7210\/Artigo41 .
+lex:L10713\/Artigo2\/IncisoX    lex:remetePara    lex:L7210\/Artigo66 .

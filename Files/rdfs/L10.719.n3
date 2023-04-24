@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.719    lex:ehUm    lex:DocLegal .
+lex:L10.719    lex:temTextoIntegral    lex:HTMLs\/L10.719.htm .
+lex:L10719\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10719    lex:temArtigo    lex:L10719\/Artigo2 .
+lex:L10719\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no art. 1o decorrerão de:" .
+lex:L10719\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10719\/Artigo2    lex:temInciso    lex:L10719\/Artigo2\/IncisoI .
+lex:L10719\/Artigo2\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial do exercício de 2002 do Fundo Nacional de Desenvolvimento, no valor de R$ 158.191.626,00 (cento e cinqüenta e oito milhões, cento e noventa e um mil, seiscentos e vinte e seis reais);" .
+lex:L10719\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10719\/Artigo2    lex:temInciso    lex:L10719\/Artigo2\/IncisoII .
+lex:L10719\/Artigo2\/IncisoII    lex:temConteudo    "II - excesso de arrecadação de Recursos Próprios Financeiros, no montante de R$ 59.833.639,00 (cinqüenta e nove milhões, oitocentos e trinta e três mil, seiscentos e trinta e nove reais); e" .
+lex:L10719\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10719\/Artigo2    lex:temInciso    lex:L10719\/Artigo2\/IncisoIII .
+lex:L10719\/Artigo2\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no montante de R$ 13.008.280,00 (treze milhões, oito mil, duzentos e oitenta reais), conforme indicado no Anexo II desta Lei, sendo R$ 13.000.000,00 (treze milhões de reais) da Reserva de Contingência." .
+lex:L10719\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10719    lex:temArtigo    lex:L10719\/Artigo3 .
+lex:L10719\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10719\/Artigo1    lex:remetePara    lex:L10640 .

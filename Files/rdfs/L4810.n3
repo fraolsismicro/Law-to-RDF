@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4810    lex:ehUm    lex:DocLegal .
+lex:L4810    lex:temTextoIntegral    lex:HTMLs\/L4810.htm .
+lex:L4810\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4810    lex:temArtigo    lex:L4810\/Artigo1 .
+lex:L4810\/Artigo1    lex:temConteudo    "Art. 1º Fica transferido para a Parte Permanente do Quadro do Pessoal do Ministério da Fazenda (Tesouro Nacional) 1 (um) cargo de Tesoureiro-Auxiliar, Símbolo 4-C, do Quadro I - Parte Permanente - do Ministério da Viação e Obras Públicas, com o respectivo ocupante, Miguel Cruz Silva." .
+lex:L4810\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4810\/Artigo1    lex:temParagrafo    lex:L4810\/Artigo1\/ParagrafoUnico .
+lex:L4810\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O cargo transferido passará a denominar-se Fiel do Tesouro, na forma do § 5º do artigo 7º da Lei nº 4.345, de 26 de junho de 1964, ficando também extintos, quando vagarem, mais 2 (dois) cargos de Tesoureiro-Auxiliar, nível 18, do Quadro I do Ministério da Viação e Obras Públicas." .
+lex:L4810\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4810    lex:temArtigo    lex:L4810\/Artigo2 .
+lex:L4810\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L4810\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4810    lex:temArtigo    lex:L4810\/Artigo3 .
+lex:L4810\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L4810\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L4345\/Artigo7\/Paragrafo5 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9083    lex:ehUm    lex:DocLegal .
+lex:D9083    lex:temTextoIntegral    lex:HTMLs\/D9083.htm .
+lex:D9083\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9083    lex:temArtigo    lex:D9083\/Artigo1 .
+lex:D9083\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 3.088, de 21 de junho de 1999, passa a vigorar com as seguintes alterações:" .
+lex:D9083\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9083\/Artigo1    lex:temParagrafo    lex:D9083\/Artigo1\/Paragrafo2 .
+lex:D9083\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  ......................................................................." .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D9083\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - para os anos de 2002 a 2018, inclusive, até 30 de junho de cada segundo ano imediatamente anterior;" .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D9083\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - para os anos de 2019 e 2020, até 30 de junho de 2017; e" .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D9083\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - para os anos de 2021 e seguintes, até 30 de junho de cada terceiro ano imediatamente anterior. (NR)" .
+lex:D9083\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9083    lex:temArtigo    lex:D9083\/Artigo2 .
+lex:D9083\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9083\/Artigo1    lex:remetePara    lex:D3088 .
+lex:D9083\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:remetePara    lex:D3088\/Artigo1\/Paragrafo1ii .

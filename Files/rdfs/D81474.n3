@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D81474    lex:ehUm    lex:DocLegal .
+lex:D81474    lex:temTextoIntegral    lex:HTMLs\/D81474.htm .
+lex:D81474\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D81474    lex:temArtigo    lex:D81474\/Artigo1 .
+lex:D81474\/Artigo1    lex:temConteudo    "Art. 1º - O valor do soldo do posto de Coronel PM das Polícias Militares dos Territórios Federais do Amapá, de Rondônia e de Roraima, de que trata o artigo 10, § 3º, da Lei nº 6.270, de 26 de novembro de 1975, é fixado, a partir de 1º de março de 1978, em Cr$9.687,00 (nove mil, seiscentos e oitenta e sete cruzeiros), observados os índices estabelecidos na Tabela de Escalonamento Vertical anexa à mencionada Lei." .
+lex:D81474\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D81474\/Artigo1    lex:temParagrafo    lex:D81474\/Artigo1\/ParagrafoUnico .
+lex:D81474\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Nos resultados dos cálculos decorrentes da aplicação deste artigo serão desprezadas as frações de cruzeiro." .
+lex:D81474\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D81474    lex:temArtigo    lex:D81474\/Artigo2 .
+lex:D81474\/Artigo2    lex:temConteudo    "Art. 2º - A despesa com a execução do presente Decreto será atendida à conta dos recursos orçamentários dos Territórios Federais referidos no artigo 1º." .
+lex:D81474\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D81474    lex:temArtigo    lex:D81474\/Artigo3 .
+lex:D81474\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entrará em vigor na data de sua publicação, ressalvados os efeitos financeiros que vigoram a contar de 1º de março de 1978." .
+lex:D81474\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D81474    lex:temArtigo    lex:D81474\/Artigo4 .
+lex:D81474\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:D81474\/Artigo1    lex:remetePara    lex:L6270\/Artigo10\/Paragrafo3 .

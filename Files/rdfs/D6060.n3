@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6060    lex:ehUm    lex:DocLegal .
+lex:D6060    lex:temTextoIntegral    lex:HTMLs\/D6060.htm .
+lex:D6060\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6060    lex:temArtigo    lex:D6060\/Artigo1 .
+lex:D6060\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção Interamericana sobre Transparência nas Aquisições de Armas Convencionais, celebrada na Cidade da Guatemala, em 7 de junho de 1999, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D6060\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6060    lex:temArtigo    lex:D6060\/Artigo2 .
+lex:D6060\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão da referida Convenção ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D6060\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6060    lex:temArtigo    lex:D6060\/Artigo3 .
+lex:D6060\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6060\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

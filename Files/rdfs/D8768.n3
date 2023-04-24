@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8768    lex:ehUm    lex:DocLegal .
+lex:D8768    lex:temTextoIntegral    lex:HTMLs\/D8768.htm .
+lex:D8768\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8768    lex:temArtigo    lex:D8768\/Artigo1 .
+lex:D8768\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.634, de 12 de janeiro de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8768\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8768\/Artigo1    lex:temParagrafo    lex:D8768\/Artigo1\/Paragrafo1 .
+lex:D8768\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O CRSNSP será composto por conselheiros indicados pelo setor público e, em igual número, por conselheiros indicados, em lista tríplice, pelas entidades representantes dos mercados sujeitos à regulação da SUSEP, designados pelo Ministro de Estado da Fazenda." .
+lex:D8768\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8768\/Artigo1    lex:temParagrafo    lex:D8768\/Artigo1\/Paragrafo2 .
+lex:D8768\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  O Ministério da Fazenda e a SUSEP fornecerão o apoio técnico e administrativo necessário ao funcionamento do CRSNSP. (NR)" .
+lex:D8768\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8768    lex:temArtigo    lex:D8768\/Artigo2 .
+lex:D8768\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8768\/Artigo1    lex:remetePara    lex:D8634 .
+lex:D8768\/Artigo1\/Paragrafo1    lex:remetePara    lex:D8634\/Artigo2\/Paragrafo1 .
+lex:D8768\/Artigo1\/Texto00002    lex:remetePara    lex:D8634\/Artigo3 .
+lex:D8768\/Artigo1\/Paragrafo2    lex:remetePara    lex:D8634\/Artigo3\/Paragrafo2 .

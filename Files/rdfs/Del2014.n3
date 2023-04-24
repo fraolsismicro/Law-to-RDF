@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2014    lex:ehUm    lex:DocLegal .
+lex:Del2014    lex:temTextoIntegral    lex:HTMLs\/Del2014.htm .
+lex:Del2014\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo1 .
+lex:Del2014\/Artigo1    lex:temConteudo    "Art. 1º O valor cambial das Obrigações Reajustáveis do Tesouro Nacional - ORTN, com cláusula de opção de resgate pela correção cambial, que exceder a variação da correção monetária do título, a partir do valor cambial em 17 de fevereiro de 1983, fica sujeito ao desconto do Imposto de Renda pela fonte pagadora, exigível, no seu resgate, mediante a aplicação da alíquota de quarenta e cinco por cento.   (Redação dada pelo Decreto-Lei nº 2.065, de 1983)" .
+lex:Del2014\/Artigo1\/Alinea45    lex:ehUm    lex:Alinea .
+lex:Del2014\/Artigo1    lex:temAlinea    lex:Del2014\/Artigo1\/Alinea45 .
+lex:Del2014\/Artigo1\/Alinea45    lex:temConteudo    "a) 45% (quarenta e cinco por cento) no caso das ORTN vencíveis em 1983;" .
+lex:Del2014\/Artigo1\/Alinea30    lex:ehUm    lex:Alinea .
+lex:Del2014\/Artigo1    lex:temAlinea    lex:Del2014\/Artigo1\/Alinea30 .
+lex:Del2014\/Artigo1\/Alinea30    lex:temConteudo    "b) 30% (trinta por cento) no caso das ORTN vencíveis a partir de 1984." .
+lex:Del2014\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo2 .
+lex:Del2014\/Artigo2    lex:temConteudo    "Art. 2º - No exercício financeiro de 1984 e seguintes, o valor excedente apurado na forma do artigo 1º deste Decreto-lei, constituirá rendimento tributável da pessoa física, bem como lucro tributável das pessoas jurídicas que estejam isentas do imposto de renda, na forma da legislação em vigor." .
+lex:Del2014\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2014\/Artigo2    lex:temParagrafo    lex:Del2014\/Artigo2\/ParagrafoUnico .
+lex:Del2014\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. No caso deste artigo, aplica-se à pessoa jurídica isenta a alíquota prevista no art. 24, inciso I, do Decreto-lei nº 1.967, de 23 de novembro de 1982." .
+lex:Del2014\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo3 .
+lex:Del2014\/Artigo3    lex:temConteudo    "Art. 3º - O desconto do imposto de renda de que trata o artigo 1º será aplicado nos casos de pagamento efetuado a pessoa física ou jurídica, constituindo antecipação do imposto de renda do exercício financeiro." .
+lex:Del2014\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2014\/Artigo3    lex:temParagrafo    lex:Del2014\/Artigo3\/ParagrafoUnico .
+lex:Del2014\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Nos casos previstos neste artigo, não se aplicará o disposto no artigo 2º do Decreto-lei nº 1.968, de 23 de novembro de 1982, em se tratando de pessoa física, e no caput do artigo 14 do Decreto-lei nº 1.967, de 23 de novembro de 1982, em se tratando de pessoa jurídica." .
+lex:Del2014\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo4 .
+lex:Del2014\/Artigo4    lex:temConteudo    "Art. 4º - O disposto neste Decreto-lei não se aplica às operações típicas de hedge cambial, relativas às operações em moeda estrangeira, na forma estabelecida pelo Conselho Monetário Nacional." .
+lex:Del2014\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo5 .
+lex:Del2014\/Artigo5    lex:temConteudo    "Art. 5º - O Ministro da Fazenda regulamentará os procedimentos operacionais que se fizerem necessários à implementação deste Decreto-lei." .
+lex:Del2014\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del2014    lex:temArtigo    lex:Del2014\/Artigo6 .
+lex:Del2014\/Artigo6    lex:temConteudo    "Art. 6º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2014\/Artigo1    lex:remetePara    lex:Del2064\/Artigo3 .
+lex:Del2014\/Artigo1    lex:remetePara    lex:Del2065\/Artigo3 .
+lex:Del2014\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:Del1967\/Artigo24 .
+lex:Del2014\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:Del1968\/Artigo2 .
+lex:Del2014\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:Del1967\/Artigo14 .

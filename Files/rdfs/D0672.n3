@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0672    lex:ehUm    lex:DocLegal .
+lex:D0672    lex:temTextoIntegral    lex:HTMLs\/D0672.htm .
+lex:D0672\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0672    lex:temArtigo    lex:D0672\/Artigo1 .
+lex:D0672\/Artigo1    lex:temConteudo    "Art. 1° O art. 88 das Normas do Cerimonial Público, aprovadas pelo Decreto n° 70.274, de 9 de março de 1972, passa a vigorar acrescido de parágrafo único, com a seguinte redação:" .
+lex:D0672\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0672\/Artigo1    lex:temParagrafo    lex:D0672\/Artigo1\/ParagrafoUnico .
+lex:D0672\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo aplica-se à situação de desaparecimento de autoridades civis ou militares, quando haja indícios veementes de morte por acidente." .
+lex:D0672\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0672    lex:temArtigo    lex:D0672\/Artigo2 .
+lex:D0672\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .
+lex:D0672\/Artigo1    lex:remetePara    lex:D70274\/Artigo88 .
+lex:D0672\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D70274\/Artigo88 .

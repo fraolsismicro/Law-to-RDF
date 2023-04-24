@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1311    lex:ehUm    lex:DocLegal .
+lex:Del1311    lex:temTextoIntegral    lex:HTMLs\/Del1311.htm .
+lex:Del1311\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1311    lex:temInciso    lex:Del1311\/IncisoI .
+lex:Del1311\/IncisoI    lex:temConteudo    "I - ao FMM" .
+lex:Del1311\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Del1311\/IncisoI    lex:temIncisoAlinea    lex:Del1311\/IncisoI\/IncisoAlinea .
+lex:Del1311\/IncisoI\/IncisoAlinea    lex:temConteudo    "a) ............................................................................................................................." .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Del1311\/IncisoI\/IncisoAlinea    lex:temIncisoAlinea    lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) ............................................................................................................................." .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea65    lex:ehUm    lex:IncisoAlinea .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea65 .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea65    lex:temConteudo    "c) 65% (sessenta e cinco por cento) do AFRMM arrecadado por armadores e empresas nacionais de navegação, operando embarcação própria ou afretada de bandeira nacional;" .
+lex:Del1311\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1311    lex:temInciso    lex:Del1311\/IncisoII .
+lex:Del1311\/IncisoII    lex:temConteudo    "II - ao armador ou empresa de navegação nacional que opere embarcação própria ou afretada de bandeira nacional, os restantes 35% (trinta e cinco por cento) do AFRMM de que trata a alínea c do item I deste artigo." .
+lex:Del1311\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1311    lex:temParagrafo    lex:Del1311\/Paragrafo1 .
+lex:Del1311\/Paragrafo1    lex:temConteudo    "§ 1º As aplicações previstas na alínea a do inciso II, deste artigo obedecerão a programas de construção naval aprovados pelo Presidente da República e serão atendidas:" .
+lex:Del1311\/Paragrafo1\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:Del1311\/Paragrafo1    lex:temAlinea    lex:Del1311\/Paragrafo1\/AlineaCom .
+lex:Del1311\/Paragrafo1\/AlineaCom    lex:temConteudo    "a) com recursos correspondentes a 40% (quarenta por cento) do total do AFRMM atribuído à conta do FMM no exercício anterior;" .
+lex:Del1311\/Paragrafo1\/AlineaCom    lex:ehUm    lex:Alinea .
+lex:Del1311\/Paragrafo1    lex:temAlinea    lex:Del1311\/Paragrafo1\/AlineaCom .
+lex:Del1311\/Paragrafo1\/AlineaCom    lex:temConteudo    "b) com recursos do Tesouro Nacional, até o limite das dotações incluídas no Orçamento da União para esta finalidade específica." .
+lex:Del1311\/Texto    lex:remetePara    lex:Del1142\/Artigo4 .
+lex:Del1311\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea65    lex:remetePara    lex:Del1142\/Artigo4 .
+lex:Del1311\/IncisoII    lex:remetePara    lex:Del1142\/Artigo4 .
+lex:Del1311\/Texto00005    lex:remetePara    lex:Del1142\/Artigo5 .
+lex:Del1311\/Texto00005    lex:remetePara    lex:Del1142\/Artigo12\/Paragrafo1 .

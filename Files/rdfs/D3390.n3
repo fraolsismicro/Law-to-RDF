@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3390    lex:ehUm    lex:DocLegal .
+lex:D3390    lex:temTextoIntegral    lex:HTMLs\/D3390.htm .
+lex:D3390\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3390    lex:temInciso    lex:D3390\/IncisoI .
+lex:D3390\/IncisoI    lex:temConteudo    "I - até vinte pontos percentuais, em função do alcance de metas de arrecadação e de resultados de fiscalização; e" .
+lex:D3390\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3390    lex:temInciso    lex:D3390\/IncisoII .
+lex:D3390\/IncisoII    lex:temConteudo    "II - até trinta pontos percentuais, em função do efetivo desempenho do servidor." .
+lex:D3390\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3390    lex:temParagrafo    lex:D3390\/ParagrafoUnico .
+lex:D3390\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os critérios e procedimentos relativos à avaliação institucional e à avaliação individual serão estabelecidos pelos Ministros de Estado da Fazenda, da Previdência e Assistência Social e do Trabalho e Emprego, para a respectiva área de competência, em consonância com o estabelecido neste Decreto." .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3390\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - quando cedidos para a Presidência ou Vice-Presidência da República, calculada com base nas mesmas regras válidas como se estivessem em exercício no órgão cedente;" .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3390\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - quando cedidos para órgãos ou entidades do Poder Executivo Federal distintos dos indicados no inciso I deste artigo, da seguinte forma:" .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs    lex:temConteudo    "a) os servidores investidos em cargo em comissão de Natureza Especial e do Grupo-Direção e Assessoramento Superiores, DAS-6 ou DAS-5, ou equivalentes, perceberão a GDAT conforme disposto no inciso I deste artigo;" .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOs    lex:temConteudo    "b) os servidores que não se encontrem nas condições referidas na alínea anterior perceberão a GDAT, por prazo predeterminado pelo órgão cedente, calculada com base em trinta pontos percentuais do limite máximo a que fariam jus, se estivessem no seu órgão de lotação, deixando de percebê-la caso se esgote o prazo em questão sem que tenham retornado ao respectivo órgão; e" .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3390\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - quando em exercício nos Ministérios da Previdência e Assistência Social ou do Trabalho e Emprego e entidades vinculadas, na Secretaria da Receita Federal e nos Conselhos de Contribuintes do Ministério da Fazenda, respectivamente, calculada conforme disposto no inciso I deste artigo." .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3390\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - quando em exercício na Escola Nacional de Administração Fazendária, para treinamento, ou na Procuradoria-Geral da Fazenda Nacional, para execução de atividades de cobrança e defesa relativa a tributos e contribuições federais, observado o disposto em portaria conjunta expedida pelos respectivos titulares e pelo Secretário da Receita Federal, calculada conforme estabelecido no inciso I deste artigo. (Incluído pelo decreto nº 3.610, de 2000)" .
+lex:D3390\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3390    lex:temParagrafo    lex:D3390\/ParagrafoUnico .
+lex:D3390\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A avaliação institucional do servidor referido no inciso I deste artigo corresponderá ao mesmo percentual a que faria jus se em exercício na unidade cedente." .
+lex:D3390\/ParagrafoUnico\/ParagrafoIncisoIV    lex:remetePara    lex:D3610 .
+lex:D3390\/Artigo10    lex:remetePara    lex:D97667 .
+lex:D3390\/Artigo10    lex:remetePara    lex:D98967 .
+lex:D3390\/Artigo10    lex:remetePara    lex:d2017 .

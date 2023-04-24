@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6399    lex:ehUm    lex:DocLegal .
+lex:L6399    lex:temTextoIntegral    lex:HTMLs\/L6399.htm .
+lex:L6399\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo1 .
+lex:L6399\/Artigo1    lex:temConteudo    "Art. 1º O artigo 4º do Decreto-lei nº 764, de 15 de agosto de 1969, passa a vigorar acrescido do seguinte item:" .
+lex:L6399\/Artigo1\/IncisoV-    lex:ehUm    lex:Inciso .
+lex:L6399\/Artigo1    lex:temInciso    lex:L6399\/Artigo1\/IncisoV- .
+lex:L6399\/Artigo1\/IncisoV-    lex:temConteudo    "V- incentivar a lavra mineral, mediante associação com os cessionários de seus trabalhos de pesquisa." .
+lex:L6399\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo2 .
+lex:L6399\/Artigo2    lex:temConteudo    "Art. 2º Os §§ 2º e 3º do artigo 6º, o artigo 7º e o § 2º do artigo 25 do Decreto-lei nº 764, de 15 de agosto de 1969, passam a vigorar com a seguinte redação:" .
+lex:L6399\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L6399\/Artigo2    lex:temParagrafo    lex:L6399\/Artigo2\/Paragraf .
+lex:L6399\/Artigo2\/Paragraf    lex:temConteudo    "6º.................................................................................................................................." .
+lex:L6399\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6399\/Artigo2    lex:temParagrafo    lex:L6399\/Artigo2\/Paragrafo2 .
+lex:L6399\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º. Aprovado pelo DNPM o Relatório de Pesquisa apresentado pela CPRM, fica esta autorizada a negociar os resultados dos trabalhos realizados." .
+lex:L6399\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6399\/Artigo2    lex:temParagrafo    lex:L6399\/Artigo2\/Paragrafo3 .
+lex:L6399\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º. O adquirente dos resultados dos trabalhos de pesquisa terá o prazo de 180 (cento e oitenta) dias a contar da efetivação da cessão e transferência dos direitos respectivos, para requerer a concessão de lavra. Findo aquele prazo, sem que haja requerido a concessão de lavra ou deixando de satisfazer os requisitos legais para a outorga da concessão, caducará o respectivo direito, devendo a CPRM proceder a nova negociação na forma do parágrafo anterior." .
+lex:L6399\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo7 .
+lex:L6399\/Artigo7    lex:temConteudo    "Art. 7º É facultado à CPRM desempenhar suas atividades diretamente, por convênios com órgãos públicos, por contratos com especialistas e empresas privadas ou mediante associação com outras empresas e entidades." .
+lex:L6399\/Artigo25    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo25 .
+lex:L6399\/Artigo25    lex:temConteudo    "Art. 25............................................................................................................................" .
+lex:L6399\/Artigo25\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6399\/Artigo25    lex:temParagrafo    lex:L6399\/Artigo25\/Paragrafo2 .
+lex:L6399\/Artigo25\/Paragrafo2    lex:temConteudo    "§ 2º Os financiamentos que a CPRM conceder serão realizados por intermédio de agência financeira da Administração Pública." .
+lex:L6399\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo3 .
+lex:L6399\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6399\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6399    lex:temArtigo    lex:L6399\/Artigo4 .
+lex:L6399\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário" .
+lex:L6399\/Artigo1    lex:remetePara    lex:Del0764 .
+lex:L6399\/Artigo1\/IncisoV-    lex:remetePara    lex:Del0764\/Artigo4 .
+lex:L6399\/Artigo2    lex:remetePara    lex:Del0764 .
+lex:L6399\/Artigo2\/Paragrafo2    lex:remetePara    lex:Del0764\/Artigo6\/Paragrafo2 .
+lex:L6399\/Artigo2\/Paragrafo3    lex:remetePara    lex:Del0764\/Artigo6\/Paragrafo3 .
+lex:L6399\/Artigo7    lex:remetePara    lex:Del0764\/Artigo7 .
+lex:L6399\/Artigo25\/Paragrafo2    lex:remetePara    lex:Del0764\/Artigo25\/Paragrafo2 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7657    lex:ehUm    lex:DocLegal .
+lex:D7657    lex:temTextoIntegral    lex:HTMLs\/D7657.htm .
+lex:D7657\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7657    lex:temArtigo    lex:D7657\/Artigo1 .
+lex:D7657\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 7.403, de 23 de dezembro de 2010, passa a vigorar com as seguintes alterações:" .
+lex:D7657\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7657\/Artigo1    lex:temInciso    lex:D7657\/Artigo1\/IncisoI .
+lex:D7657\/Artigo1\/IncisoI    lex:temConteudo    "I - em relação aos royalties dos campos que iniciaram sua produção até 31 de dezembro de 2009, aplica-se conforme o disposto:" .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:ehUm    lex:IncisoAlinea .
+lex:D7657\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:temConteudo    "a) no art. 48 da Lei no 9.478, de 1997;" .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa    lex:ehUm    lex:IncisoAlinea .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:temIncisoAlinea    lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa    lex:temConteudo    "b) na alínea d do inciso I do caput do art. 49 da Lei no 9.478, de 1997; e" .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa\/IncisoAlineaNas    lex:ehUm    lex:IncisoAlinea .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa    lex:temIncisoAlinea    lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa\/IncisoAlineaNas .
+lex:D7657\/Artigo1\/IncisoI\/IncisoAlineaNo\/IncisoAlineaNa\/IncisoAlineaNas    lex:temConteudo    "c) nas alíneas c e f do inciso II do caput do art. 49 da Lei no 9.478, de 1997; e" .
+lex:D7657\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7657\/Artigo1    lex:temInciso    lex:D7657\/Artigo1\/IncisoII .
+lex:D7657\/Artigo1\/IncisoII    lex:temConteudo    "II - em relação à participação especial dos campos que iniciaram a produção até 31 de dezembro de 2009, aplica-se conforme estabelecem os incisos I e II do § 2o do art. 50 da Lei no 9.478, de 1997. (NR)" .
+lex:D7657\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7657    lex:temArtigo    lex:D7657\/Artigo2 .
+lex:D7657\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor a partir de 1o de janeiro de 2012." .
+lex:D7657\/Artigo1\/IncisoI    lex:remetePara    lex:D7403\/Artigo2 .
+lex:D7657\/Artigo1\/Texto00006    lex:remetePara    lex:D7403\/Artigo3 .

@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92560    lex:ehUm    lex:DocLegal .
+lex:D92560    lex:temTextoIntegral    lex:HTMLs\/D92560.htm .
+lex:D92560\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92560    lex:temArtigo    lex:D92560\/Artigo1 .
+lex:D92560\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado, por mais dez anos, o prazo de vigência das isenções tributárias concedidas à Zona Franca de Manaus, de que trata o Decreto-lei nº 288, de 28 de fevereiro de 1967, ressalvadas as exceções contidas no Decreto-lei nº 340, de 22 de dezembro de 1967." .
+lex:D92560\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92560    lex:temArtigo    lex:D92560\/Artigo2 .
+lex:D92560\/Artigo2    lex:temConteudo    "Art. 2º A prorrogação do prazo de vigência das isenções, a que se refere o artigo anterior, estende-se às áreas da Amazônia Ocidental, na forma do Decreto-lei nº 356, de 15 de agosto de 1968.  (Vide Decreto nº 7.212, de 2010)" .
+lex:D92560\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D92560    lex:temArtigo    lex:D92560\/Artigo3 .
+lex:D92560\/Artigo3    lex:temConteudo    "Art. 3º Os Ministros do Interior, da Fazenda, da Indústria e do Comércio e o Ministro-Chefe da Secretaria de Planejamento da Presidência da República expedirão, através de Portaria Interministerial, no prazo de 60 (sessenta) dias, instruções referentes às condições a serem observadas para a instalação de novos empreendimentos na Zona Franca de Manaus e nas áreas da Amazônia Ocidental, assim como para a fruição dos incentivos, no prazo da prorrogação estabelecida no artigo 1º, pelos empreendimentos já autorizados.       (Vide Decreto nº 92,743, de 1986)" .
+lex:D92560\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D92560    lex:temArtigo    lex:D92560\/Artigo4 .
+lex:D92560\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D92560\/Artigo1    lex:remetePara    lex:Del0288 .
+lex:D92560\/Artigo1    lex:remetePara    lex:Del0340 .
+lex:D92560\/Artigo2    lex:remetePara    lex:Del0356 .
+lex:D92560\/Artigo2    lex:remetePara    lex:D7212\/Artigo98 .
+lex:D92560\/Artigo3    lex:remetePara    lex:D92743\/Artigo1 .

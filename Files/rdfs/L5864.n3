@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5864    lex:ehUm    lex:DocLegal .
+lex:L5864    lex:temTextoIntegral    lex:HTMLs\/L5864.htm .
+lex:L5864\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5864    lex:temArtigo    lex:L5864\/Artigo1 .
+lex:L5864\/Artigo1    lex:temConteudo    "Art 1º O artigo 4º da Lei nº 5.768, de 20 de dezembro de 1971, passa a vigorar com a seguinte redação:" .
+lex:L5864\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5864\/Artigo1    lex:temParagrafo    lex:L5864\/Artigo1\/Paragrafo1 .
+lex:L5864\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Compete ao Ministério da Fazenda promover a regulamentação, a fiscalização e controle, das autorizações dadas em caráter excepcional nos termos deste artigo, que ficarão basicamente sujeitas às seguintes exigências:" .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaComprovacao    lex:ehUm    lex:Alinea .
+lex:L5864\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L5864\/Artigo1\/Paragrafo1\/AlineaComprovacao .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaComprovacao    lex:temConteudo    "a) comprovação de que a requerente satisfaz as condições especificadas nesta lei, no que couber, inclusive quanto à perfeita regularidade de sua situação como pessoa jurídica de direito civil;" .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaIndicacao    lex:ehUm    lex:Alinea .
+lex:L5864\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L5864\/Artigo1\/Paragrafo1\/AlineaIndicacao .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaIndicacao    lex:temConteudo    "b) indicação precisa da destinação dos recursos a obter através da mencionada autorização;" .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaProva    lex:ehUm    lex:Alinea .
+lex:L5864\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L5864\/Artigo1\/Paragrafo1\/AlineaProva .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaProva    lex:temConteudo    "c) prova de que a propriedade dos bens a sortear se tenha originado de doação de terceiros, devidamente formalizada;" .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaRealizacao    lex:ehUm    lex:Alinea .
+lex:L5864\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L5864\/Artigo1\/Paragrafo1\/AlineaRealizacao .
+lex:L5864\/Artigo1\/Paragrafo1\/AlineaRealizacao    lex:temConteudo    "d) realização de um único sorteio por ano, exclusivamente com base nos resultados das extrações da Loteria Federal somente admitida uma única transferência de data, por autorização do Ministério da Fazenda e por motivo de força maior." .
+lex:L5864\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5864\/Artigo1    lex:temParagrafo    lex:L5864\/Artigo1\/Paragrafo2 .
+lex:L5864\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Sempre que for comprovado o desvirtuamento da aplicação dos recursos oriundos dos sorteios excepcionalmente autorizados neste artigo, bem como o descumprimento das normas baixadas para sua execução, será cassada a declaração de utilidade pública da infratora, sem prejuízo das penalidades do art. 13 desta lei." .
+lex:L5864\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L5864\/Artigo1    lex:temParagrafo    lex:L5864\/Artigo1\/Paragrafo3 .
+lex:L5864\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Será também considerada desvirtuamento da aplicação dos recursos obtidos pela forma excepcional prevista neste artigo a interveniência de terceiros, pessoas físicas ou jurídicas, que de qualquer forma venham a participar dos resultados da promoção.'" .
+lex:L5864\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5864    lex:temArtigo    lex:L5864\/Artigo2 .
+lex:L5864\/Artigo2    lex:temConteudo    "Art 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5864\/Artigo1    lex:remetePara    lex:L5768 .
+lex:L5864\/Texto00001    lex:remetePara    lex:L5768consol\/Artigo4 .

@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1634    lex:ehUm    lex:DocLegal .
+lex:Del1634    lex:temTextoIntegral    lex:HTMLs\/Del1634.htm .
+lex:Del1634\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1634    lex:temArtigo    lex:Del1634\/Artigo1 .
+lex:Del1634\/Artigo1    lex:temConteudo    "Art. 1º - O empréstimo compulsório em favor da Centrais Elétricas Brasileiras S.A. - ELETROBRÁS, incidente sobre o consumo decorrente de geração própria, referido no artigo 1º do Decreto-lei nº 1.513, de 29 de dezembro de 1976, não será devido por indústria autoprodutora que preencha as seguintes condições:" .
+lex:Del1634\/Artigo1\/AlineaNa    lex:ehUm    lex:Alinea .
+lex:Del1634\/Artigo1    lex:temAlinea    lex:Del1634\/Artigo1\/AlineaNa .
+lex:Del1634\/Artigo1\/AlineaNa    lex:temConteudo    "a) na geração da energia elétrica sejam utilizadas, exclusivamente, turbinas de extração sem possibilidade de condensação;" .
+lex:Del1634\/Artigo1\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del1634\/Artigo1    lex:temAlinea    lex:Del1634\/Artigo1\/AlineaO .
+lex:Del1634\/Artigo1\/AlineaO    lex:temConteudo    "b) o vapor produzido pelas turbinas de extração tenha aproveitamento industrial." .
+lex:Del1634\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1634    lex:temArtigo    lex:Del1634\/Artigo2 .
+lex:Del1634\/Artigo2    lex:temConteudo    "Art. 2º - O empréstimo compulsório em favor da Centrais Elétricas Brasileiras S.A. - ELETROBRÁS não incidirá sobre o consumo de energia elétrica fornecida por indústria auto produtora a seus acionistas-usuários, componentes de complexo industrial integrado, desde que:" .
+lex:Del1634\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del1634\/Artigo2    lex:temAlinea    lex:Del1634\/Artigo2\/AlineaO .
+lex:Del1634\/Artigo2\/AlineaO    lex:temConteudo    "a) o sistema de geração da sociedade autoprodutora atenda ao disposto nas alíneas a e b do artigo anterior;" .
+lex:Del1634\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:Del1634\/Artigo2    lex:temAlinea    lex:Del1634\/Artigo2\/AlineaA .
+lex:Del1634\/Artigo2\/AlineaA    lex:temConteudo    "b) a sociedade autoprodutora esteja devidamente autorizada a fornecer energia elétrica aos acionistas-usuários." .
+lex:Del1634\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1634    lex:temArtigo    lex:Del1634\/Artigo3 .
+lex:Del1634\/Artigo3    lex:temConteudo    "Art. 3º - As isenções de que trata este Decreto-lei serão declaradas por ato do Ministro das Minas e Energia com base em proposta da Centrais Elétricas Brasileiras S.A. - ELETROBRÁS." .
+lex:Del1634\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1634    lex:temArtigo    lex:Del1634\/Artigo4 .
+lex:Del1634\/Artigo4    lex:temConteudo    "Art. 4º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1634\/Artigo1    lex:remetePara    lex:Del1513\/Artigo1 .

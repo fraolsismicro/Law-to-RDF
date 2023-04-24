@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5842    lex:ehUm    lex:DocLegal .
+lex:D5842    lex:temTextoIntegral    lex:HTMLs\/D5842.htm .
+lex:D5842\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D5842    lex:temAlinea    lex:D5842\/AlineaQUADRO .
+lex:D5842\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO INSTITUTO NACIONAL DE METROLOGIA, NORMALIZAÇÃO E QUALIDADE INDUSTRIAL - INMETRO." .
+lex:D5842\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D5842\/AlineaQUADRO    lex:temItem    lex:D5842\/AlineaQUADRO\/Item .
+lex:D5842\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D5842\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D5842\/AlineaQUADRO    lex:temItem    lex:D5842\/AlineaQUADRO\/Item .
+lex:D5842\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D5842\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D5842\/AlineaQUADRO    lex:temItem    lex:D5842\/AlineaQUADRO\/Item .
+lex:D5842\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D5842\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D5842    lex:temAlinea    lex:D5842\/AlineaQUADRO .
+lex:D5842\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO INSTITUTO NACIONAL DE METROLOGIA, NORMALIZAÇÃO E QUALIDADE INDUSTRIAL - INMETRO." .
+lex:D5842\/Texto    lex:revogadoPor    lex:D6275\/Artigo6 .
+lex:D6275\/Artigo6    lex:revogou    lex:D5842\/Texto .
+lex:D5842\/Texto    lex:remetePara    lex:D5842 .
+lex:D5842\/Artigo6    lex:remetePara    lex:D4630 .
+lex:D5842\/Artigo1    lex:remetePara    lex:L5966 .
+lex:D5842\/IncisoIX    lex:remetePara    lex:D5965\/Artigo3 .
+lex:D5842\/IncisoIII    lex:remetePara    lex:Lcp73\/Artigo11 .
+lex:D5842\/AnexoII    lex:remetePara    lex:D5965\/Artigo2 .

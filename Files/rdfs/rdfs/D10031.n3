@@ -1,0 +1,58 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10031    lex:ehUm    lex:DocLegal .
+lex:D10031    lex:temTextoIntegral    lex:HTMLs\/D10031.htm .
+lex:D10031\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10031    lex:temArtigo    lex:D10031\/Artigo1A .
+lex:D10031\/Artigo1A    lex:temConteudo    "Art. 1Âº O Decreto nÂº 9.215, de 29 de novembro de 2017, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10031\/Artigo1A\/AlineaArgAos    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo1A    lex:temAlinea    lex:D10031\/Artigo1A\/AlineaArgAos .
+lex:D10031\/Artigo1A\/AlineaArgAos    lex:temConteudo    "a) Ã³rgÃ£os da UniÃ£o, independentemente do Poder que integrarem;" .
+lex:D10031\/Artigo1A\/AlineaAutarquias    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo1A    lex:temAlinea    lex:D10031\/Artigo1A\/AlineaAutarquias .
+lex:D10031\/Artigo1A\/AlineaAutarquias    lex:temConteudo    "b) autarquias federais;" .
+lex:D10031\/Artigo1A\/AlineaFundaAAes    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo1A    lex:temAlinea    lex:D10031\/Artigo1A\/AlineaFundaAAes .
+lex:D10031\/Artigo1A\/AlineaFundaAAes    lex:temConteudo    "c) fundaÃ§Ãµes pÃºblicas federais; e" .
+lex:D10031\/Artigo1A\/AlineaEmpresas    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo1A    lex:temAlinea    lex:D10031\/Artigo1A\/AlineaEmpresas .
+lex:D10031\/Artigo1A\/AlineaEmpresas    lex:temConteudo    "d) empresas estatais dependentes de recursos do Tesouro Nacional para o custeio de despesas de pessoal ou para o custeio em geral; e" .
+lex:D10031\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10031    lex:temArtigo    lex:D10031\/Artigo2A .
+lex:D10031\/Artigo2A    lex:temConteudo    "Art. 2Âº As alteraÃ§Ãµes realizadas nos art. 15, art. 16 e art. 18 do Decreto nÂº 9.215, de 2017, por este Decreto aplicam-se apenas Ã s publicaÃ§Ãµes remetidas para a Imprensa Nacional a partir de 1Âº de novembro de 2019." .
+lex:D10031\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10031    lex:temArtigo    lex:D10031\/Artigo3A .
+lex:D10031\/Artigo3A    lex:temConteudo    "Art. 3Âº  Ficam revogados:" .
+lex:D10031\/Artigo3A\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo3A    lex:temAlinea    lex:D10031\/Artigo3A\/AlineaAs .
+lex:D10031\/Artigo3A\/AlineaAs    lex:temConteudo    "a) as alÃ­neas âaâ a âfâ do inciso II do caput do art. 15; e" .
+lex:D10031\/Artigo3A\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D10031\/Artigo3A    lex:temAlinea    lex:D10031\/Artigo3A\/AlineaO .
+lex:D10031\/Artigo3A\/AlineaO    lex:temConteudo    "b) o inciso II do caput do art. 18; e" .
+lex:D10031\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10031    lex:temArtigo    lex:D10031\/Artigo4A .
+lex:D10031\/Artigo4A    lex:temConteudo    "Art. 4Âº  Este Decreto entra em vigor no dia 1Âº de novembro de 2019." .
+lex:D10031\/Artigo1A    lex:remetePara    lex:D9215 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo20 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo6p0 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo8a0 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo100 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo10pii0 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo150 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo150 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo170 .
+lex:D10031\/Texto00001    lex:remetePara    lex:D9215\/Artigo18i0 .
+lex:D10031\/Artigo1A\/Texto00005    lex:remetePara    lex:D9215\/Artigo200 .
+lex:D10031\/Artigo2A    lex:remetePara    lex:D9215\/Artigo15 .
+lex:D10031\/Artigo2A    lex:remetePara    lex:D9215\/Artigo16 .
+lex:D10031\/Artigo2A    lex:remetePara    lex:D9215\/Artigo18 .
+lex:D10031\/Texto00007    lex:remetePara    lex:D9215 .
+lex:D10031\/Artigo3A\/AlineaAs    lex:remetePara    lex:D9215\/Artigo15 .
+lex:D10031\/Artigo3A\/AlineaO    lex:remetePara    lex:D9215\/Artigo18 .
+lex:D10031\/Artigo3A\/Texto00009    lex:remetePara    lex:D9794\/Artigo24 .

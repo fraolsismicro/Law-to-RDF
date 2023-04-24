@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1972    lex:ehUm    lex:DocLegal .
+lex:D1972    lex:temTextoIntegral    lex:HTMLs\/D1972.htm .
+lex:D1972\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1972    lex:temArtigo    lex:D1972\/Artigo1 .
+lex:D1972\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 2º do Decreto n° 1.507, de 30 de maio de 1995, passa a vigorar com a seguinte redação:" .
+lex:D1972\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1972\/Artigo1    lex:temInciso    lex:D1972\/Artigo1\/IncisoI .
+lex:D1972\/Artigo1\/IncisoI    lex:temConteudo    "I - da Justiça, que a presidirá;" .
+lex:D1972\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1972\/Artigo1    lex:temInciso    lex:D1972\/Artigo1\/IncisoII .
+lex:D1972\/Artigo1\/IncisoII    lex:temConteudo    "II - da Marinha;" .
+lex:D1972\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1972\/Artigo1    lex:temInciso    lex:D1972\/Artigo1\/IncisoIII .
+lex:D1972\/Artigo1\/IncisoIII    lex:temConteudo    "III - da Fazenda;" .
+lex:D1972\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1972\/Artigo1    lex:temInciso    lex:D1972\/Artigo1\/IncisoIV .
+lex:D1972\/Artigo1\/IncisoIV    lex:temConteudo    "IV - das Relações Exteriores;" .
+lex:D1972\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1972\/Artigo1    lex:temInciso    lex:D1972\/Artigo1\/IncisoV .
+lex:D1972\/Artigo1\/IncisoV    lex:temConteudo    "V - dos Transportes." .
+lex:D1972\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1972    lex:temArtigo    lex:D1972\/Artigo2 .
+lex:D1972\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .

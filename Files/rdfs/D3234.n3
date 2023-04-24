@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3234    lex:ehUm    lex:DocLegal .
+lex:D3234    lex:temTextoIntegral    lex:HTMLs\/D3234.htm .
+lex:D3234\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3234    lex:temInciso    lex:D3234\/IncisoD .
+lex:D3234\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3234\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3234    lex:temArtigo    lex:D3234\/Artigo1 .
+lex:D3234\/Artigo1    lex:temConteudo    "Art. 1o  Ficam ampliadas em R$ 70.000.000,00 (setenta milhões de reais) os limites de movimentação e empenho das dotações orçamentárias do Ministério da Fazenda, dos grupos 'outras despesas correntes', 'investimentos' e 'inversões financeiras', bem como o pagamento das despesas correspondentes, inclusive de 'restos a pagar', estabelecidos, respectivamente, nos anexos I e IV do Decreto no 3.031, de 20 de abril de 1999, com suas alterações, na forma dos Anexos I e II deste Decreto." .
+lex:D3234\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3234    lex:temArtigo    lex:D3234\/Artigo2 .
+lex:D3234\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3234\/Artigo1    lex:remetePara    lex:D3031 .
+lex:D3234\/Texto00003    lex:remetePara    lex:index .

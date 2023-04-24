@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1405    lex:ehUm    lex:DocLegal .
+lex:Del1405    lex:temTextoIntegral    lex:HTMLs\/Del1405.htm .
+lex:Del1405\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1405    lex:temArtigo    lex:Del1405\/Artigo1 .
+lex:Del1405\/Artigo1    lex:temConteudo    "Art. 1º A renda líquida das Loterias Esportiva e Federal que for recolhida ao Fundo de Apoio ao Desenvolvimento Social - FAS, conforme dispõem o inciso I do artigo 2º e o § 1º do artigo 4º da Lei nº 6.168, de 9 de dezembro de 1974, será repassada diretamente, pela Caixa Econômica Federal - CEF, aos Ministérios da Educação e Cultura, da Saúde e da Previdência e Assistência Social." .
+lex:Del1405\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1405\/Artigo1    lex:temParagrafo    lex:Del1405\/Artigo1\/Paragrafo1 .
+lex:Del1405\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A Caixa Econômica Federal procederá, a partir do exercício de 1975, semestralmente, à apuração da renda líquida das Loterias Esportiva e Federal, para efeito de recolhimento ao FAS." .
+lex:Del1405\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1405\/Artigo1    lex:temParagrafo    lex:Del1405\/Artigo1\/Paragrafo2 .
+lex:Del1405\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A renda líquida poderá ser recolhida, por antecipação, ao FAS, com base nos registros contábeis da Caixa Econômica Federal - C. E. F." .
+lex:Del1405\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1405    lex:temArtigo    lex:Del1405\/Artigo2 .
+lex:Del1405\/Artigo2    lex:temConteudo    "Art. 2º Sem prejuízo da soma dos percentuais assegurados aos Ministérios setoriais contemplados, segundo o disposto nos parágrafos 1º e 2º do artigo 4º, da Lei nº 6.168, de 9 de dezembro de 1974, fica constituída, como fonte de recursos do FAS, na forma autorizada pelo item IV do artigo 2º, e para efeito das aplicações previstas no item II, do artigo 3º, do mesmo diploma legal, a parcela de 8,125% (oito inteiros e cento e vinte e cinco milésimos por cento) sobre a renda bruta de cada extração realizada pela Loteria Federal, conforme os planos de sorteio.     (Redação dada pelo Decreto -lei nº 1.923, de 1981)" .
+lex:Del1405\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1405\/Artigo2    lex:temParagrafo    lex:Del1405\/Artigo2\/Paragrafo1 .
+lex:Del1405\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Para os efeitos deste artigo, considera-se renda bruta de cada concurso de prognósticos, realizado pela Loteria Esportiva Federal, o valor global das apostas que forem computadas para a apuração dos resultados e proclamação dos vencedores.     (Redação dada pelo Decreto -lei nº 1.923, de 1981)" .
+lex:Del1405\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1405\/Artigo2    lex:temParagrafo    lex:Del1405\/Artigo2\/Paragrafo2 .
+lex:Del1405\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º A renda bruta de cada extração, realizada conforme os planos de sorteio da Loteria Federal, é constituída do valor global dos bilhete que, integrantes da emissão respectiva, forem efetivamente vendidos, a preço de plano.     (Redação dada pelo Decreto -lei nº 1.923, de 1981)" .
+lex:Del1405\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1405    lex:temArtigo    lex:Del1405\/Artigo3 .
+lex:Del1405\/Artigo3    lex:temConteudo    "Art. 3º O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1405\/Artigo1    lex:remetePara    lex:L6168\/Artigo2 .
+lex:Del1405\/Artigo1    lex:remetePara    lex:L6168\/Artigo4\/Paragrafo1 .
+lex:Del1405\/Artigo1\/Artigo2    lex:remetePara    lex:L6168\/Artigo4\/Paragrafo1 .
+lex:Del1405\/Artigo1\/Artigo2    lex:remetePara    lex:L6168\/Artigo4\/Paragrafo2 .
+lex:Del1405\/Artigo1\/Artigo2    lex:remetePara    lex:L6168\/Artigo2 .
+lex:Del1405\/Artigo2    lex:remetePara    lex:L6168\/Artigo4\/Paragrafo1 .
+lex:Del1405\/Artigo2    lex:remetePara    lex:L6168\/Artigo4\/Paragrafo2 .
+lex:Del1405\/Artigo2    lex:remetePara    lex:L6168\/Artigo2 .
+lex:Del1405\/Artigo2    lex:remetePara    lex:L6168\/Artigo2 .
+lex:Del1405\/Artigo2    lex:remetePara    lex:Del1923\/Artigo2 .
+lex:Del1405\/Artigo2\/Paragrafo1    lex:remetePara    lex:Del1923\/Artigo2 .
+lex:Del1405\/Artigo2\/Paragrafo2    lex:remetePara    lex:Del1923\/Artigo2 .

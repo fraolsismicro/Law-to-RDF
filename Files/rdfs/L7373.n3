@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7373    lex:ehUm    lex:DocLegal .
+lex:L7373    lex:temTextoIntegral    lex:HTMLs\/L7373.htm .
+lex:L7373\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7373    lex:temArtigo    lex:L7373\/Artigo1 .
+lex:L7373\/Artigo1    lex:temConteudo    "Art. 1º Não se aplicará a multa prevista no art. 8º da Lei nº 4.737, de 15 de julho de 1965 - Código Eleitoral aos cidadãos que se alistarem eleitores até a data do encerramento do prazo de alistamento para as eleições de 1986." .
+lex:L7373\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7373    lex:temArtigo    lex:L7373\/Artigo2 .
+lex:L7373\/Artigo2    lex:temConteudo    "Art. 2º O Poder Executivo depositará, no Fundo Partidário a que se refere o art. 95 da Lei nº 5.682, de 21 de julho de 1971, dentro de 30 (trinta) dias, a contar da publicação desta Lei, as importâncias efetivamente arrecadadas no corrente exercício, para imediata distribuição, pelo Tribunal Superior Eleitoral, aos partidos políticos." .
+lex:L7373\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7373\/Artigo2    lex:temParagrafo    lex:L7373\/Artigo2\/ParagrafoUnico .
+lex:L7373\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Poder Executivo consignará, para o Fundo Partidário, no Orçamento de 1986, dotação especial destinada a compensar a redução de receita determinada pelo art. 1º desta Lei, de acordo com as estimativas constantes da proposta orçamentária." .
+lex:L7373\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7373    lex:temArtigo    lex:L7373\/Artigo3 .
+lex:L7373\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7373\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7373    lex:temArtigo    lex:L7373\/Artigo4 .
+lex:L7373\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7373\/Artigo1    lex:remetePara    lex:L4737\/Artigo8 .
+lex:L7373\/Artigo2    lex:remetePara    lex:L5682\/Artigo95 .

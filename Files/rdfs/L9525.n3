@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9525    lex:ehUm    lex:DocLegal .
+lex:L9525    lex:temTextoIntegral    lex:HTMLs\/L9525.htm .
+lex:L9525\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9525    lex:temArtigo    lex:L9525\/Artigo1 .
+lex:L9525\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 77 e 78 da Lei nº 8.112, de 11 de dezembro de 1990, passam a vigorar com a seguinte redação:" .
+lex:L9525\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9525\/Artigo1    lex:temParagrafo    lex:L9525\/Artigo1\/Paragrafo3 .
+lex:L9525\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º As férias poderão ser parceladas em até três etapas, desde que assim requeridas pelo servidor, e no interesse da administração pública.'" .
+lex:L9525\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L9525\/Artigo1    lex:temParagrafo    lex:L9525\/Artigo1\/Paragrafo5 .
+lex:L9525\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Em caso de parcelamento, o servidor receberá o valor adicional previsto no inciso XVII do art. 7º da Constituição Federal quando da utilização do primeiro período.'" .
+lex:L9525\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9525    lex:temArtigo    lex:L9525\/Artigo2 .
+lex:L9525\/Artigo2    lex:temConteudo    "Art. 2o  Aplica-se aos Ministros de Estado o disposto nos arts. 77, 78 e 80 da Lei nº 8.112, de 11 de dezembro de 1990, exceto quanto ao limite de parcelamento das férias, cabendo àquelas autoridades dar ciência prévia ao Presidente da República de cada período a ser utilizado. (Redação dada pela Medida Provisória nº 2.225-45, de 4.9.2001)" .
+lex:L9525\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9525    lex:temArtigo    lex:L9525\/Artigo3 .
+lex:L9525\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9525\/Texto00001    lex:remetePara    lex:L8112cons\/Artigo77 .
+lex:L9525\/Artigo1\/Paragrafo3    lex:remetePara    lex:L8112cons\/Artigo77\/Paragrafo3 .
+lex:L9525\/Artigo1\/Paragrafo5    lex:remetePara    lex:L8112cons\/Artigo78\/Paragrafo5 .
+lex:L9525\/Artigo2    lex:remetePara    lex:L8112cons\/Artigo77 .
+lex:L9525\/Artigo2    lex:remetePara    lex:L8112cons\/Artigo78 .
+lex:L9525\/Artigo2    lex:remetePara    lex:L8112cons\/Artigo80 .
+lex:L9525\/Artigo2    lex:remetePara    lex:2225-45\/Artigo5 .

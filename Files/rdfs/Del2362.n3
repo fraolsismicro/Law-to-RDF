@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2362    lex:ehUm    lex:DocLegal .
+lex:Del2362    lex:temTextoIntegral    lex:HTMLs\/Del2362.htm .
+lex:Del2362\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2362    lex:temArtigo    lex:Del2362\/Artigo1 .
+lex:Del2362\/Artigo1    lex:temConteudo    "Art. 1º Ficam isentos do Imposto sobre Produtos Industrializados (IPI) os produtos da Posição 92.12.00.00 da Tabela de Incidência aprovada pelo Decreto nº 89.241, de 23 de dezembro de 1983, com as modificações da Nomenclatura Brasileira de Mercadorias, ora incorporadas àquela, efetivadas pela Resolução CBN nº 69, de 26 de dezembro de 1984, do Comitê Brasileiro de Nomenclatura, quando adquiridos e comercializados pela Cruz Vermelha Brasileira para seus programas assistenciais." .
+lex:Del2362\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2362\/Artigo1    lex:temParagrafo    lex:Del2362\/Artigo1\/ParagrafoUnico .
+lex:Del2362\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A isenção a que se refere este artigo aplica-se somente aos produtos abrangidos pela citada Posição, gravados com o concerto da Orquestra Filarmônica Mundial, realizado no Rio de Janeiro em dezembro de 1986, ou destinados a essa gravação." .
+lex:Del2362\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2362    lex:temArtigo    lex:Del2362\/Artigo2 .
+lex:Del2362\/Artigo2    lex:temConteudo    "Art. 2º Fica assegurada a manutenção do crédito do Imposto sobre Produtos Industrializados, relativo às matérias-primas, produtos intermediários e material de embalagem efetivamente utilizados na industrialização dos produtos a que se refere o artigo anterior." .
+lex:Del2362\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2362    lex:temArtigo    lex:Del2362\/Artigo3 .
+lex:Del2362\/Artigo3    lex:temConteudo    "Art. 3º Este decreto-lei entrará em vigor na data de sua publicação e vigorará até 31 de dezembro de 1988, revogadas as disposições em contrário." .
+lex:Del2362\/Artigo1    lex:remetePara    lex:D89241\/ .

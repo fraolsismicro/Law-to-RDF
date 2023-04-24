@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8729    lex:ehUm    lex:DocLegal .
+lex:D8729    lex:temTextoIntegral    lex:HTMLs\/D8729.htm .
+lex:D8729\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8729    lex:temArtigo    lex:D8729\/Artigo1 .
+lex:D8729\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam promulgadas as emendas à Convenção sobre o Banco Internacional de Reconstrução e Desenvolvimento - BIRD constantes das Resoluções n º 417, de 1987, e n º 596, de 2009, de sua Junta Governativa, anexas a este Decreto." .
+lex:D8729\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8729    lex:temArtigo    lex:D8729\/Artigo2 .
+lex:D8729\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitas à aprovação do Congresso Nacional atos que possam resultar em revisão das emendas e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D8729\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8729    lex:temArtigo    lex:D8729\/Artigo3 .
+lex:D8729\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8729\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

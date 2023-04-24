@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6214    lex:ehUm    lex:DocLegal .
+lex:D6214    lex:temTextoIntegral    lex:HTMLs\/D6214.htm .
+lex:D6214\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6214    lex:temArtigo    lex:D6214\/Artigo1 .
+lex:D6214\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado, na forma do Anexo deste Decreto, o Regulamento do Benefício de Prestação Continuada instituído pelo art. 20 da Lei no 8.742, de 7 de dezembro de 1993." .
+lex:D6214\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6214    lex:temArtigo    lex:D6214\/Artigo2 .
+lex:D6214\/Artigo2    lex:temConteudo    "Art. 2o  O art. 162 do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999, passa a vigorar acrescido do seguinte parágrafo:" .
+lex:D6214\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6214    lex:temArtigo    lex:D6214\/Artigo3 .
+lex:D6214\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6214\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6214    lex:temArtigo    lex:D6214\/Artigo4 .
+lex:D6214\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados os Decretos nos 1.744, de 8 de dezembro de 1995, e 4.712, de 29 de maio de 2003." .
+lex:D6214\/Artigo1    lex:remetePara    lex:L8742\/Artigo20 .
+lex:D6214\/Texto00002    lex:remetePara    lex:D3048\/Artigo162 .
+lex:D6214\/Artigo4    lex:remetePara    lex:D1744 .
+lex:D6214\/Artigo4    lex:remetePara    lex:D4712 .

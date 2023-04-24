@@ -1,0 +1,66 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8774    lex:ehUm    lex:DocLegal .
+lex:D8774    lex:temTextoIntegral    lex:HTMLs\/D8774.htm .
+lex:D8774\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8774    lex:temInciso    lex:D8774\/IncisoI .
+lex:D8774\/IncisoI    lex:temConteudo    "I - do Ministério do Esporte para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoI    lex:temIncisoAlinea    lex:D8774\/IncisoI\/IncisoAlineaQuatro .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro    lex:temConteudo    "a) quatro DAS 102.4;" .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete    lex:temConteudo    "b) sete DAS 102.3;" .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e quatro DAS 102.2; e" .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaNove .
+lex:D8774\/IncisoI\/IncisoAlineaQuatro\/IncisoAlineaSete\/IncisoAlineaVinte\/IncisoAlineaNove    lex:temConteudo    "d) nove DAS 102.1;" .
+lex:D8774\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8774    lex:temInciso    lex:D8774\/IncisoII .
+lex:D8774\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para o Ministério do Esporte:" .
+lex:D8774\/IncisoII\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoII    lex:temIncisoAlinea    lex:D8774\/IncisoII\/IncisoAlineaCinco .
+lex:D8774\/IncisoII\/IncisoAlineaCinco    lex:temConteudo    "a) cinco DAS 101.4;" .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoII\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco    lex:temConteudo    "b) cinco DAS 101.3;" .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e dois DAS 101.2; e" .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte\/IncisoAlineaSete .
+lex:D8774\/IncisoII\/IncisoAlineaCinco\/IncisoAlineaCinco\/IncisoAlineaVinte\/IncisoAlineaSete    lex:temConteudo    "d) sete DAS 101.1." .
+lex:D8774\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8774    lex:temParagrafo    lex:D8774\/ParagrafoUnico .
+lex:D8774\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado do Esporte fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e da funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis." .
+lex:D8774\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8774    lex:temParagrafo    lex:D8774\/ParagrafoUnico .
+lex:D8774\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Presidente da APFUT, no âmbito das competências previstas no art. 4º do Decreto nº 8.642, de 2016, adotará as medidas necessárias para a publicação do regimento interno da APFUT a que se refere o caput." .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8774\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - na data de sua publicação quanto ao disposto:" .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNo .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNo    lex:temConteudo    "b) no art. 28 do Anexo I; e" .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8774\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8774\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8774\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - vinte e um dias após a data de sua publicação para os demais artigos." .
+lex:D8774\/Texto    lex:revogadoPor    lex:D8782\/Artigo8 .
+lex:D8782\/Artigo8    lex:revogou    lex:D8774\/Texto .
+lex:D8774\/Texto    lex:remetePara    lex:D8774 .
+lex:D8774\/Artigo6    lex:remetePara    lex:L13155\/Artigo19 .
+lex:D8774\/Artigo6    lex:remetePara    lex:D8642\/Artigo6 .
+lex:D8774\/ParagrafoUnico    lex:remetePara    lex:D8642\/Artigo4 .
+lex:D8774\/Artigo7    lex:remetePara    lex:D8642 .
+lex:D8774\/Paragrafo8    lex:remetePara    lex:D8642\/Artigo2\/Paragrafo8 .
+lex:D8774\/ParagrafoUnico\/IncisoI    lex:remetePara    lex:D7784 .
+lex:D8774\/ParagrafoUnico\/IncisoII    lex:remetePara    lex:D7985 .
+lex:D8774\/ParagrafoUnico\/IncisoIII    lex:remetePara    lex:D8087 .

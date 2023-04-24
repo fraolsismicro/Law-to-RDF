@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc50    lex:ehUm    lex:DocLegal .
+lex:emc50    lex:temTextoIntegral    lex:HTMLs\/emc50.htm .
+lex:emc50\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc50    lex:temArtigo    lex:emc50\/Artigo1 .
+lex:emc50\/Artigo1    lex:temConteudo    "Art. 1º O art. 57 da Constituição Federal passa a vigorar com a seguinte redação:" .
+lex:emc50\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:emc50\/Artigo1    lex:temParagrafo    lex:emc50\/Artigo1\/Paragrafo4 .
+lex:emc50\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Cada uma das Casas reunir-se-á em sessões preparatórias, a partir de 1º de fevereiro, no primeiro ano da legislatura, para a posse de seus membros e eleição das respectivas Mesas, para mandato de 2 (dois) anos, vedada a recondução para o mesmo cargo na eleição imediatamente subseqüente." .
+lex:emc50\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:emc50\/Artigo1    lex:temParagrafo    lex:emc50\/Artigo1\/Paragrafo6 .
+lex:emc50\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º A convocação extraordinária do Congresso Nacional far-se-á:" .
+lex:emc50\/Artigo1\/Paragrafo6\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc50\/Artigo1\/Paragrafo6    lex:temParagrafoInciso    lex:emc50\/Artigo1\/Paragrafo6\/ParagrafoIncisoII .
+lex:emc50\/Artigo1\/Paragrafo6\/ParagrafoIncisoII    lex:temConteudo    "II - pelo Presidente da República, pelos Presidentes da Câmara dos Deputados e do Senado Federal ou a requerimento da maioria dos membros de ambas as Casas, em caso de urgência ou interesse público relevante, em todas as hipóteses deste inciso com a aprovação da maioria absoluta de cada uma das Casas do Congresso Nacional." .
+lex:emc50\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:emc50\/Artigo1    lex:temParagrafo    lex:emc50\/Artigo1\/Paragrafo7 .
+lex:emc50\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7º Na sessão legislativa extraordinária, o Congresso Nacional somente deliberará sobre a matéria para a qual foi convocado, ressalvada a hipótese do § 8º deste artigo, vedado o pagamento de parcela indenizatória, em razão da convocação." .
+lex:emc50\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc50    lex:temArtigo    lex:emc50\/Artigo2 .
+lex:emc50\/Artigo2    lex:temConteudo    "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc50\/Texto00001    lex:remetePara    lex:Constituicao\/Artigo57 .
+lex:emc50\/Artigo1\/Paragrafo4    lex:remetePara    lex:Constituicao\/Artigo57\/Paragrafo4 .
+lex:emc50\/Artigo1\/Paragrafo6    lex:remetePara    lex:Constituicao\/Artigo57\/Paragrafo6 .
+lex:emc50\/Artigo1\/Paragrafo6\/ParagrafoIncisoII    lex:remetePara    lex:Constituicao\/Artigo57 .

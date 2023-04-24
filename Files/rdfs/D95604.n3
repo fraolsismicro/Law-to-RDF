@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D95604    lex:ehUm    lex:DocLegal .
+lex:D95604    lex:temTextoIntegral    lex:HTMLs\/D95604.htm .
+lex:D95604\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D95604    lex:temArtigo    lex:D95604\/Artigo1 .
+lex:D95604\/Artigo1    lex:temConteudo    "Art. 1° O Acordo Comercial entre o Governo da República Federativa do Brasil e o Governo da República Popular do Congo, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D95604\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D95604    lex:temArtigo    lex:D95604\/Artigo2 .
+lex:D95604\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D95604\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D95604\/Artigo2    lex:temAlinea    lex:D95604\/Artigo2\/AlineaAs .
+lex:D95604\/Artigo2\/AlineaAs    lex:temConteudo    "a) as amostras das mercadorias necessárias à obtenção de encomendas;" .
+lex:D95604\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D95604\/Artigo2    lex:temAlinea    lex:D95604\/Artigo2\/AlineaOs .
+lex:D95604\/Artigo2\/AlineaOs    lex:temConteudo    "b) os objetos e amostras das mercadorias destinadas a feiras e exposições;" .
+lex:D95604\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D95604\/Artigo2    lex:temAlinea    lex:D95604\/Artigo2\/AlineaOs .
+lex:D95604\/Artigo2\/AlineaOs    lex:temConteudo    "c) os objetos destinados a provas e experiências." .

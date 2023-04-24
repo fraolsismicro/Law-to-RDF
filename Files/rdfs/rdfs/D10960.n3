@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10960    lex:ehUm    lex:DocLegal .
+lex:D10960    lex:temTextoIntegral    lex:HTMLs\/D10960.htm .
+lex:D10960\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10960    lex:temArtigo    lex:D10960\/Artigo1A .
+lex:D10960\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 1.091, de 21 de marÃ§o de 1994, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10960\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10960    lex:temArtigo    lex:D10960\/Artigo2A .
+lex:D10960\/Artigo2A    lex:temConteudo    "Art. 2Âº  O disposto no art. 3Âº do Decreto nÂº 1.091, de 1994, nÃ£o se aplica ao processo de desestatizaÃ§Ã£o das Centrais ElÃ©tricas Brasileiras S.A. - Eletrobras, especialmente em relaÃ§Ã£o ao aumento do capital social da Eletrobras Termonuclear S.A. - Eletronuclear." .
+lex:D10960\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10960    lex:temArtigo    lex:D10960\/Artigo3A .
+lex:D10960\/Artigo3A    lex:temConteudo    "Art. 3Âº  Ficam revogados:" .
+lex:D10960\/Artigo3A\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D10960\/Artigo3A    lex:temAlinea    lex:D10960\/Artigo3A\/AlineaO .
+lex:D10960\/Artigo3A\/AlineaO    lex:temConteudo    "a) o parÃ¡grafo Ãºnico do art. 2Âº; e" .
+lex:D10960\/Artigo3A\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D10960\/Artigo3A    lex:temAlinea    lex:D10960\/Artigo3A\/AlineaO .
+lex:D10960\/Artigo3A\/AlineaO    lex:temConteudo    "b) o parÃ¡grafo Ãºnico do art. 5Âº; e" .
+lex:D10960\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10960    lex:temArtigo    lex:D10960\/Artigo4A .
+lex:D10960\/Artigo4A    lex:temConteudo    "Art. 4Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10960\/Artigo1A    lex:remetePara    lex:D1091 .
+lex:D10960\/Texto00001    lex:remetePara    lex:D1091\/Artigo20 .
+lex:D10960\/Texto00001    lex:remetePara    lex:L6404consol\/Artigo118 .
+lex:D10960\/Artigo2A    lex:remetePara    lex:D1091\/Artigo3 .
+lex:D10960\/Texto00003    lex:remetePara    lex:D1091 .
+lex:D10960\/Artigo3A\/AlineaO    lex:remetePara    lex:D1091\/Artigo2 .
+lex:D10960\/Artigo3A\/AlineaO    lex:remetePara    lex:D1091\/Artigo5 .
+lex:D10960\/Artigo3A\/Texto00005    lex:remetePara    lex:D8945\/Artigo75 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13725    lex:ehUm    lex:DocLegal .
+lex:L13725    lex:temTextoIntegral    lex:HTMLs\/L13725.htm .
+lex:L13725\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L13725    lex:temArtigo    lex:L13725\/Artigo1A .
+lex:L13725\/Artigo1A    lex:temConteudo    "Art. 1Âº O art. 22 da Lei nÂº 8.906, de 4 de julho de 1994 , passa a vigorar acrescido dos seguintes Â§Â§ 6Âº e 7Âº:" .
+lex:L13725\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13725    lex:temArtigo    lex:L13725\/Artigo2A .
+lex:L13725\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L13725\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L13725    lex:temArtigo    lex:L13725\/Artigo3A .
+lex:L13725\/Artigo3A    lex:temConteudo    "Art. 3Âº Revoga-se o art. 16 da Lei nÂº 5.584, de 26 de junho de 1970 ." .
+lex:L13725\/Artigo1A    lex:remetePara    lex:L8906 .
+lex:L13725\/Texto00001    lex:remetePara    lex:L8906\/Artigo22Â§6 .
+lex:L13725\/Artigo3A    lex:remetePara    lex:L5584\/Artigo16 .

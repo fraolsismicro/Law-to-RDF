@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0562    lex:ehUm    lex:DocLegal .
+lex:D0562    lex:temTextoIntegral    lex:HTMLs\/D0562.htm .
+lex:D0562\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0562    lex:temArtigo    lex:D0562\/Artigo1 .
+lex:D0562\/Artigo1    lex:temConteudo    "Art. 1º O valor da indenização, de que trata o art. 16 da Lei nº 8.216, de 13 de agosto de 1991, concedida aos servidores que se afastam do seu local de trabalho, sem direito à percepção de diária, para a execução de trabalho de campo, é reajustado para Cr$ 33.480,00 (trinta e três mil quatrocentos e oitenta cruzeiros)." .
+lex:D0562\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0562    lex:temArtigo    lex:D0562\/Artigo2 .
+lex:D0562\/Artigo2    lex:temConteudo    "Art. 2º É delegada competência à Secretaria da Administração Federal, do Ministério do Trabalho e da Administração, para reajustar o valor da indenização de que trata este decreto, na mesma data e percentual de revisão dos valores das diárias, percebidos pelos servidores públicos federais." .
+lex:D0562\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0562    lex:temArtigo    lex:D0562\/Artigo3 .
+lex:D0562\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação, retroagindo seus efeitos financeiros a 4 de maio de 1992." .
+lex:D0562\/Artigo1    lex:remetePara    lex:L8216\/Artigo16 .

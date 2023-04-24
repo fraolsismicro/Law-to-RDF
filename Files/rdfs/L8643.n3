@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8643    lex:ehUm    lex:DocLegal .
+lex:L8643    lex:temTextoIntegral    lex:HTMLs\/L8643.htm .
+lex:L8643\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8643    lex:temArtigo    lex:L8643\/Artigo1 .
+lex:L8643\/Artigo1    lex:temConteudo    "Art. 1º É prorrogado até 31 de dezembro de 1994 o prazo de que trata o art. 1º da Lei nº 8.191, de 11 de junho de 1991." .
+lex:L8643\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8643\/Artigo1    lex:temParagrafo    lex:L8643\/Artigo1\/ParagrafoUnico .
+lex:L8643\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A isenção do Imposto sobre Produtos Industrializados, a que se refere o art. 1º da Lei nº 8.191, de 11 de junho de 1991, não abrangerá os bens relacionados, de acordo com a Tarifa Aduaneira do Brasil - TAB, no Anexo desta Lei." .
+lex:L8643\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8643    lex:temArtigo    lex:L8643\/Artigo2 .
+lex:L8643\/Artigo2    lex:temConteudo    "Art. 2º O caput do art. 46 da Lei nº 8.383, de 30 de dezembro de 1991, mantidos os seus parágrafos, passa a vigorar com a seguinte redação:" .
+lex:L8643\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8643    lex:temArtigo    lex:L8643\/Artigo3 .
+lex:L8643\/Artigo3    lex:temConteudo    "Art. 3º O Poder Executivo estimará o montante da renúncia fiscal relativa ao art. 1º e indicará a despesa, em montante equivalente, a ser anulada no Orçamento Geral da União de 1993, nos termos dispostos na Lei de Diretrizes Orçamentárias em vigor." .
+lex:L8643\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8643    lex:temArtigo    lex:L8643\/Artigo4 .
+lex:L8643\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L8643\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8643    lex:temArtigo    lex:L8643\/Artigo5 .
+lex:L8643\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:L8643\/Artigo1    lex:remetePara    lex:L8191\/Artigo1 .
+lex:L8643\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8191\/Artigo1 .
+lex:L8643\/Artigo2    lex:remetePara    lex:L8383 .
+lex:L8643\/Texto00003    lex:remetePara    lex:L8383\/Artigo46 .

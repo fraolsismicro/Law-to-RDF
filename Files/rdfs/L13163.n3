@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13163    lex:ehUm    lex:DocLegal .
+lex:L13163    lex:temTextoIntegral    lex:HTMLs\/L13163.htm .
+lex:L13163\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13163    lex:temArtigo    lex:L13163\/Artigo1 .
+lex:L13163\/Artigo1    lex:temConteudo    "Art. 1o  (VETADO)." .
+lex:L13163\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13163    lex:temArtigo    lex:L13163\/Artigo2 .
+lex:L13163\/Artigo2    lex:temConteudo    "Art. 2o  A Lei no 7.210, de 11 de julho de 1984, passa a vigorar acrescida dos seguintes artigos:" .
+lex:L13163\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13163\/Artigo2    lex:temParagrafo    lex:L13163\/Artigo2\/Paragrafo1 .
+lex:L13163\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  O ensino ministrado aos presos e presas integrar-se-á ao sistema estadual e municipal de ensino e será mantido, administrativa e financeiramente, com o apoio da União, não só com os recursos destinados à educação, mas pelo sistema estadual de justiça ou administração penitenciária." .
+lex:L13163\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13163\/Artigo2    lex:temParagrafo    lex:L13163\/Artigo2\/Paragrafo2 .
+lex:L13163\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Os sistemas de ensino oferecerão aos presos e às presas cursos supletivos de educação de jovens e adultos." .
+lex:L13163\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L13163\/Artigo2    lex:temParagrafo    lex:L13163\/Artigo2\/Paragrafo3 .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  A União, os Estados, os Municípios e o Distrito Federal incluirão em seus programas de educação à distância e de utilização de novas tecnologias de ensino, o atendimento aos presos e às presas." .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoI .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - o nível de escolaridade dos presos e das presas;" .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoII .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - a existência de cursos nos níveis fundamental e médio e o número de presos e presas atendidos;" .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - a implementação de cursos profissionais em nível de iniciação ou aperfeiçoamento técnico e o número de presos e presas atendidos;" .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIV .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoIV    lex:temConteudo    "IV - a existência de bibliotecas e as condições de seu acervo;" .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L13163\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoV .
+lex:L13163\/Artigo2\/Paragrafo3\/ParagrafoIncisoV    lex:temConteudo    "V - outros dados relevantes para o aprimoramento educacional de presos e presas." .
+lex:L13163\/Artig    lex:ehUm    lex:Artigo .
+lex:L13163    lex:temArtigo    lex:L13163\/Artig .
+lex:L13163\/Artig    lex:temConteudo    "Art  3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13163\/Texto    lex:remetePara    lex:VEP-336 .
+lex:L13163\/Artigo2    lex:remetePara    lex:L7210 .
+lex:L13163\/Texto00002    lex:remetePara    lex:L7210\/Artigo18 .
+lex:L13163\/Artigo2\/Texto00005    lex:remetePara    lex:L7210\/Artigo21 .

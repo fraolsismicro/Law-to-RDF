@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1296    lex:ehUm    lex:DocLegal .
+lex:Del1296    lex:temTextoIntegral    lex:HTMLs\/Del1296.htm .
+lex:Del1296\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1296    lex:temArtigo    lex:Del1296\/Artigo2 .
+lex:Del1296\/Artigo2    lex:temConteudo    "Art 2º Permanecem inalterados os demais parágrafos do artigo 1º do Decreto-lei nº 61, de 21 de novembro de 1966, passando a faculdade outorgada ao Poder Executivo pelo § 3º do citado artigo, de alterar em até 40% as alíquotas do imposto único sobre Lubrificantes e Combustíveis Líquidos e Gasosos, a incidir sobre as alíquotas fixadas neste Decreto-lei." .
+lex:Del1296\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1296    lex:temArtigo    lex:Del1296\/Artigo3 .
+lex:Del1296\/Artigo3    lex:temConteudo    "Art 3º O artigo 13, caput, da Lei nº 4.452, de 5 de novembro de 1964, passa a vigorar com a seguinte redação:" .
+lex:Del1296\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1296\/Artigo3    lex:temParagrafo    lex:Del1296\/Artigo3\/Paragrafo1 .
+lex:Del1296\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º O Ministério da Fazenda, ouvido o Ministro das Minas e Energia, estabelecerá as alíquotas do imposto para as naftas derivadas do petróleo, tendo em vista as suas aplicações nos limites fixados neste Decreto-lei." .
+lex:Del1296\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1296\/Artigo3    lex:temParagrafo    lex:Del1296\/Artigo3\/Paragrafo2 .
+lex:Del1296\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º As concessões de quotas de naftas destinadas à produção de gás canalizado e para uso industrial dependerá, em cada caso de autorização prévia do Conselho Nacional de Petróleo." .
+lex:Del1296\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1296    lex:temArtigo    lex:Del1296\/Artigo6 .
+lex:Del1296\/Artigo6    lex:temConteudo    "Art 6º Este Decreto-lei entrará em vigor em 1º de janeiro de 1974, revogadas as disposições em contrário." .
+lex:Del1296\/Artigo1    lex:remetePara    lex:Del0061 .
+lex:Del1296\/Artigo1    lex:remetePara    lex:Del1091\/Artigo1 .
+lex:Del1296\/Artigo1    lex:remetePara    lex:d73370\/Artigo1 .
+lex:Del1296\/Artigo1    lex:remetePara    lex:D73875\/Artigo1 .
+lex:Del1296\/Artigo1    lex:revogadoPor    lex:Del1785\/Artigo11 .
+lex:Del1785\/Artigo11    lex:revogou    lex:Del1296\/Artigo1 .
+lex:Del1296\/Texto    lex:remetePara    lex:Del0061\/Artigo1 .
+lex:Del1296\/Artigo2    lex:remetePara    lex:Del0061\/Artigo1 .
+lex:Del1296\/Artigo2    lex:remetePara    lex:Del0061\/Artigo1\/Paragrafo3 .
+lex:Del1296\/Artigo3    lex:remetePara    lex:L4452 .
+lex:Del1296\/Texto00002    lex:remetePara    lex:L4452\/Artigo13 .
+lex:Del1296\/Texto00002    lex:remetePara    lex:Del0061\/Artigo2 .
+lex:Del1296\/Artigo4    lex:revogadoPor    lex:Del1785\/Artigo11 .
+lex:Del1785\/Artigo11    lex:revogou    lex:Del1296\/Artigo4 .
+lex:Del1296\/Artigo4    lex:revogadoPor    lex:Del1785\/Artigo11 .
+lex:Del1785\/Artigo11    lex:revogou    lex:Del1296\/Artigo4 .

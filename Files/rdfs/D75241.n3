@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D75241    lex:ehUm    lex:DocLegal .
+lex:D75241    lex:temTextoIntegral    lex:HTMLs\/D75241.htm .
+lex:D75241\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D75241    lex:temArtigo    lex:D75241\/Artigo1 .
+lex:D75241\/Artigo1    lex:temConteudo    "Art. 1º O Conselho Nacional de Desenvolvimento Cientifico e Tecnológico (CNPq), fundação instituída pela Lei nº 6.129, de 6 de novembro de 1974, reger-se-á pelos Estatutos que a este acompanham, assinados pelo Ministro de Estado Chefe da Secretaria de Planejamento da Presidência da República." .
+lex:D75241\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D75241    lex:temArtigo    lex:D75241\/Artigo2 .
+lex:D75241\/Artigo2    lex:temConteudo    "Art. 2º Os bens imóveis de que trata a Lei nº 6.129, de 6 de novembro de 1974, são os constantes da relação anexa." .
+lex:D75241\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D75241    lex:temArtigo    lex:D75241\/Artigo3 .
+lex:D75241\/Artigo3    lex:temConteudo    "Art. 3º É extinto  o Conselho Nacional de Pesquisa, criado pela Lei nº 1.310, de 15 de janeiro de 1951, alterada pela Lei nº 4.533, de 8 de dezembro de 1964." .
+lex:D75241\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D75241\/Artigo3    lex:temParagrafo    lex:D75241\/Artigo3\/Paragrafo1 .
+lex:D75241\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º - Ficam transferidos para o Conselho Nacional de Desenvolvimento Científico e Tecnológico os recursos orçamentários e extra-orçamentários consignados ao Conselho Nacional de Pesquisas, assim como todos os bens, direitos e obrigações." .
+lex:D75241\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D75241\/Artigo3    lex:temParagrafo    lex:D75241\/Artigo3\/Paragrafo2 .
+lex:D75241\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º - Aos funcionários de que trata o artigo 7º, § 4º, da Lei nº 6.129, de 6 de novembro de 1974, a aplicar-se-ão as normas da Lei nº 6.184, de 11 de dezembro de 1974." .
+lex:D75241\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D75241    lex:temArtigo    lex:D75241\/Artigo4 .
+lex:D75241\/Artigo4    lex:temConteudo    "Art. 4º Passam a integrar o CNPq, na qualidade de Unidades Subordinados, o Instituto Nacional de Pesquisas Espaciais, o Instituto Nacional de Pesquisas da Amazônia, o Instituto Brasileiro de Bibliografia e Documentação e o Instituto de Matemática Pura e Aplicada." .
+lex:D75241\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D75241\/Artigo4    lex:temParagrafo    lex:D75241\/Artigo4\/ParagrafoUnico .
+lex:D75241\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As Unidades Subordinadas terão suas atribuições, sua estrutura e seu funcionamento previstos em Regimento Interno aprovado pelo Presidente do CNPq." .
+lex:D75241\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D75241    lex:temArtigo    lex:D75241\/Artigo5 .
+lex:D75241\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D75241\/Texto    lex:remetePara    lex:D75241 .
+lex:D75241\/Artigo1    lex:remetePara    lex:L6129 .
+lex:D75241\/Artigo2    lex:remetePara    lex:L6129 .
+lex:D75241\/Artigo3    lex:remetePara    lex:L1310 .
+lex:D75241\/Artigo3\/Paragrafo2    lex:remetePara    lex:L6129\/Artigo7\/Paragrafo4 .
+lex:D75241\/Artigo3\/Paragrafo2    lex:remetePara    lex:L6184 .

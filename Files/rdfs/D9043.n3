@@ -1,0 +1,129 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9043    lex:ehUm    lex:DocLegal .
+lex:D9043    lex:temTextoIntegral    lex:HTMLs\/D9043.htm .
+lex:D9043\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo1 .
+lex:D9043\/Artigo1    lex:temConteudo    "Art. 1o  O Conselho Nacional de Metrologia, Normalização e Qualidade Industrial - Conmetro, é composto pelos seguintes membros:" .
+lex:D9043\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo1    lex:temInciso    lex:D9043\/Artigo1\/IncisoI .
+lex:D9043\/Artigo1\/IncisoI    lex:temConteudo    "I - Ministros de Estado:" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "a) da Indústria, Comércio Exterior e Serviços, que o presidirá;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "b) da Justiça e Segurança Pública;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "c) da Defesa;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas    lex:temConteudo    "d) das Relações Exteriores;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa    lex:temConteudo    "e) da Agricultura, Pecuária e Abastecimento;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "f) da Educação;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "g) do Trabalho;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "h) da Saúde;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "i) da Ciência, Tecnologia, Inovações e Comunicações;" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "j) do Meio Ambiente; e" .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas .
+lex:D9043\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDas\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDas    lex:temConteudo    "k) das Cidades;" .
+lex:D9043\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo1    lex:temInciso    lex:D9043\/Artigo1\/IncisoII .
+lex:D9043\/Artigo1\/IncisoII    lex:temConteudo    "II - Presidente do Instituto Nacional de Metrologia, Qualidade e Tecnologia - INMETRO; e" .
+lex:D9043\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo1    lex:temInciso    lex:D9043\/Artigo1\/IncisoIII .
+lex:D9043\/Artigo1\/IncisoIII    lex:temConteudo    "III - Presidentes das seguintes instituições privadas:" .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao    lex:temConteudo    "a) Associação Brasileira de Normas Técnicas - ABNT;" .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:temConteudo    "b) Confederação Nacional da Indústria - CNI;" .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto    lex:temConteudo    "c) Instituto Brasileiro de Defesa do Consumidor - Idec; e" .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto    lex:temIncisoAlinea    lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto\/IncisoAlineaConfederacao .
+lex:D9043\/Artigo1\/IncisoIII\/IncisoAlineaAssociacao\/IncisoAlineaConfederacao\/IncisoAlineaInstituto\/IncisoAlineaConfederacao    lex:temConteudo    "d) Confederação Nacional do Comércio de Bens, Serviços e Turismo - CNC." .
+lex:D9043\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo2 .
+lex:D9043\/Artigo2    lex:temConteudo    "Art. 2o   As competências do Conmetro são as estabelecidas no art. 3o da Lei no 5.966, de 11 de dezembro de 1973." .
+lex:D9043\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo3 .
+lex:D9043\/Artigo3    lex:temConteudo    "Art. 3o  O Ministro de Estado da Indústria, Comércio Exterior e Serviços poderá se fazer representar no Conmetro pelo Secretário-Executivo do Ministério da Indústria, Comércio Exterior e Serviços e os demais membros do Conmetro, por seus suplentes." .
+lex:D9043\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9043\/Artigo3    lex:temParagrafo    lex:D9043\/Artigo3\/Paragrafo1 .
+lex:D9043\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Os suplentes serão indicados pela autoridade máxima do órgão, entidade ou instituição representada e designados em ato do Ministro de Estado da Indústria, Comércio Exterior e Serviços." .
+lex:D9043\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9043\/Artigo3    lex:temParagrafo    lex:D9043\/Artigo3\/Paragrafo2 .
+lex:D9043\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Os suplentes dos órgãos e entidades da administração pública federal de que tratam o os incisos I e II do caput do art. 1o, serão indicados entre servidores de graduação igual ou superior ao nível 5 do Grupo-Direção e Assessoramento Superiores - DAS ou equivalente." .
+lex:D9043\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo4 .
+lex:D9043\/Artigo4    lex:temConteudo    "Art. 4 º  O Conmetro terá a seguinte estrutura:" .
+lex:D9043\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo4    lex:temInciso    lex:D9043\/Artigo4\/IncisoI .
+lex:D9043\/Artigo4\/IncisoI    lex:temConteudo    "I - Plenário;" .
+lex:D9043\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo4    lex:temInciso    lex:D9043\/Artigo4\/IncisoII .
+lex:D9043\/Artigo4\/IncisoII    lex:temConteudo    "II - Secretaria-Executiva; e" .
+lex:D9043\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9043\/Artigo4    lex:temInciso    lex:D9043\/Artigo4\/IncisoIII .
+lex:D9043\/Artigo4\/IncisoIII    lex:temConteudo    "III - comitês técnicos de assessoramento." .
+lex:D9043\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo5 .
+lex:D9043\/Artigo5    lex:temConteudo    "Art. 5 º  Compete ao INMETRO exercer as atividades de Secretaria-Executiva do Conmetro e dar apoio administrativo e assessoramento jurídico para o Conmetro e para os comitês técnicos de assessoramento." .
+lex:D9043\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo6 .
+lex:D9043\/Artigo6    lex:temConteudo    "Art. 6o  O Conmetro se reunirá, ordinariamente, uma vez a cada quadrimestre e, extraordinariamente, sempre que convocado por seu Presidente." .
+lex:D9043\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo7 .
+lex:D9043\/Artigo7    lex:temConteudo    "Art. 7o  As reuniões do Conmetro poderão ocorrer por meio de conferência de vídeo ou de voz e os documentos do Conmetro ou de seu Presidente poderão ser expedidos por meio eletrônico." .
+lex:D9043\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo8 .
+lex:D9043\/Artigo8    lex:temConteudo    "Art. 8o  O quórum de reunião do Conmetro é de maioria dos membros." .
+lex:D9043\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo9 .
+lex:D9043\/Artigo9    lex:temConteudo    "Art. 9o  As deliberações do Conmetro serão tomadas pela maioria simples dos membros presentes e serão consubstanciadas em resoluções." .
+lex:D9043\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo10 .
+lex:D9043\/Artigo10    lex:temConteudo    "Art. 10.  Cabe ao Presidente do Conmetro, além do voto comum, o voto de qualidade." .
+lex:D9043\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo11 .
+lex:D9043\/Artigo11    lex:temConteudo    "Art. 11.  O Presidente do Conmetro poderá decidir sobre matérias urgentes, ad referendum do Plenário, devendo submetê-las à apreciação do Plenário na reunião subsequente." .
+lex:D9043\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo12 .
+lex:D9043\/Artigo12    lex:temConteudo    "Art. 12.  O Conmetro poderá convidar representantes de entidades, autoridades, cientistas e técnicos, brasileiros ou estrangeiros, para colaborar em estudos ou participar de comitês técnicos de assessoramento." .
+lex:D9043\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo13 .
+lex:D9043\/Artigo13    lex:temConteudo    "Art. 13.  O regimento interno do Conmetro será aprovado pelo Ministro de Estado da Indústria, Comércio Exterior e Serviços." .
+lex:D9043\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo14 .
+lex:D9043\/Artigo14    lex:temConteudo    "Art. 14.  A participação no Conmetro será considerada prestação de serviço relevante, não remunerada." .
+lex:D9043\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo15 .
+lex:D9043\/Artigo15    lex:temConteudo    "Art. 15.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9043\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D9043    lex:temArtigo    lex:D9043\/Artigo16 .
+lex:D9043\/Artigo16    lex:temConteudo    "Art. 16.  Fica revogado o Decreto no 1.422, de 20 de março de 1995." .
+lex:D9043\/Artigo2    lex:remetePara    lex:L5966\/Artigo3 .
+lex:D9043\/Artigo16    lex:remetePara    lex:D1422 .

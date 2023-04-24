@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2269    lex:ehUm    lex:DocLegal .
+lex:Del2269    lex:temTextoIntegral    lex:HTMLs\/Del2269.htm .
+lex:Del2269\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2269    lex:temArtigo    lex:Del2269\/Artigo1 .
+lex:Del2269\/Artigo1    lex:temConteudo    "Art. 1º Fica estendida aos ocupantes de cargos e empregos de nível superior do Quadro e das Tabelas de Pessoal do Distrito Federal e de suas autarquias a concessão da Gratificação de Atividade Técnica-Administrativa, instituída pelo Decreto-lei nº 2.239, de 28 de janeiro de 1985, nas mesmas bases e condições." .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2269\/Artigo1    lex:temParagrafo    lex:Del2269\/Artigo1\/ParagrafoUnico .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A gratificação a que se refere este artigo não poderá ser paga aos integrantes do Grupo Magistério do Distrito Federal que percebam remuneração superior à do Plano de Classificação de Cargos instituído pela Lei nº 5.920, de 19 de setembro de 1973, em face do disposto no artigo 28 da Lei nº 6.366, de 15 de outubro de 1976, bem como aos servidores que façam jus às gratificações criadas pelos Decretos-leis nºs 2.107, de 13 de fevereiro de 1984, 2.126, de 19 de junho de 1984, 2.160, de 06 de setembro de 1984, 2.255, 2.256 e 2.257, de 04 de março de 1985." .
+lex:Del2269\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2269    lex:temArtigo    lex:Del2269\/Artigo2 .
+lex:Del2269\/Artigo2    lex:temConteudo    "Art. 2º No caso de acumulação licita de 2 (dois)cargos ou empregos de nível superior, a gratificação será devida somente em relação a um vinculo funcional." .
+lex:Del2269\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2269    lex:temArtigo    lex:Del2269\/Artigo3 .
+lex:Del2269\/Artigo3    lex:temConteudo    "Art. 3º A despesa decorrente da execução deste Decreto-lei correrá à conta das dotações orçamentárias do Distrito Federal." .
+lex:Del2269\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2269    lex:temArtigo    lex:Del2269\/Artigo4 .
+lex:Del2269\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entra em vigor na data de sua publicação, revogados as disposições em contrário." .
+lex:Del2269\/Artigo1    lex:remetePara    lex:Del2239 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5920 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6366 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2107 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2126 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2160 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2255 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2256 .
+lex:Del2269\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2257 .

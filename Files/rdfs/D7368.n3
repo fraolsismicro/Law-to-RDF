@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7368    lex:ehUm    lex:DocLegal .
+lex:D7368    lex:temTextoIntegral    lex:HTMLs\/D7368.htm .
+lex:D7368\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7368    lex:temArtigo    lex:D7368\/Artigo1 .
+lex:D7368\/Artigo1    lex:temConteudo    "Art. 1 º O art. 8º do Decreto no 7.094, de 3 de fevereiro de 2010, passa a vigorar com a seguinte redação:" .
+lex:D7368\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7368\/Artigo1    lex:temInciso    lex:D7368\/Artigo1\/IncisoI .
+lex:D7368\/Artigo1\/IncisoI    lex:temConteudo    "I - mediante portaria interministerial, ampliar os limites estabelecidos para os órgãos e unidades orçamentárias relacionados nos Anexos I e II deste Decreto, até o montante de R$ 14.091.694.365,00 (quatorze bilhões, noventa e um milhões, seiscentos e noventa e quatro mil, trezentos e sessenta e cinco reais) e R$ 14.805.798.465,00 (quatorze bilhões, oitocentos e cinco milhões, setecentos e noventa e oito mil, quatrocentos e sessenta e cinco reais), respectivamente; e" .
+lex:D7368\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7368    lex:temArtigo    lex:D7368\/Artigo2 .
+lex:D7368\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos VII, VIII, IX e X do Decreto no  7.094, de 2010, passam a vigorar, respectivamente, na forma dos Anexos I, II, III e IV deste Decreto." .
+lex:D7368\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7368    lex:temArtigo    lex:D7368\/Artigo3 .
+lex:D7368\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7368\/Artigo1\/IncisoI    lex:remetePara    lex:D7094\/Artigo8 .
+lex:D7368\/Artigo2    lex:remetePara    lex:D7094\/ .

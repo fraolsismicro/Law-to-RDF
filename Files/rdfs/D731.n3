@@ -1,0 +1,103 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D731    lex:ehUm    lex:DocLegal .
+lex:D731    lex:temTextoIntegral    lex:HTMLs\/D731.htm .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "I" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "II" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "III" .
+lex:D731\/Inciso\/IncisoAlineaConstituir    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir .
+lex:D731\/Inciso\/IncisoAlineaConstituir    lex:temConteudo    "a) constituir sua directoria com dois terços (2/3), no minimo, de brasileiros natos, nttribuindo a estes funcçõe: effectivas de administração;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir    lex:temConteudo    "b) admittir, exclusivamente, operadores e speakers brasisileiros natos, o bem assim a empregar, offectivamente, nos outros serviços technicos e administrativos,dois terços (2/3), no minimo, de pessoal brasileiro;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao    lex:temConteudo    "c) não transferir, directa ou indirectamente, a concessão, sem prévia audiencia do governo;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender    lex:temConteudo    "d) suspender, por tempo que fôr determinado, o serviço, todo ou em parte, nos casos previstos no regulamento dos serviços de radiocommunicação (dereto n. 21.11) ou no que vier a reger a materia e obedecerá primeira requisição da autoridade competente e, havendo urgencia, fazer cessar o serviço em acto successivo á intimação, sem que, por isso, assista á sociedade direito a qualquer indemnização;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se    lex:temConteudo    "e) submetter-se ao regimen de fiscalização que fôr instituido pelo governo, bem como ao pagamento, adeantadamente, da quota mensal para as despezas de fiscalização e de quaesquer contribuições que venham a ser estabelecidas em lei ou regulamento sobre a materia;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer    lex:temConteudo    "f) fornecer ao Departamento dos Correios e Telegraphos todos os elementos quo este venha a exigir para os effeitos de fiscalização, e, bem assim, prestar-lhe, em qualquer tempo, todas as informações que permittam ao governo apreciar o modo como esti sendo executada a concessão;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter    lex:temConteudo    "g) manter sempre em ordem e em dia o registro de todos os programmas e irradiações lidas ao microphone, devidamente authenticadas e com o visto do orgão fiscalizador;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer    lex:temConteudo    "h) obedecer ás posturas municipaes applicaveis ao serviço da concesaão;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar    lex:temConteudo    "i) irradiar, diariamente, os boletins ou avisos de serviço meteorologico, bem como transmittir e receber, nos dias e horas determinados, o programma nacional e o panamericano;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter    lex:temConteudo    "j) submetter, no prazo de tres (3) mezes, a contar da data do registro do contracto pelo Tribunal de Contas, á approvação do governo o local escolhido para a montagem da estação;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter    lex:temConteudo    "k) submetter, no prazo de seis (6) mezes, a contar da mesma data de que trata a alinea anterior, á approvação do governo as plantas, orçamentos e todas as especificações technicas das installações, inclusive a relação minuciosa do material a empregar;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar    lex:temConteudo    "l) inaugurar, no prazo de dois (2) annos, a contar da data da approvação de que trata a alinea anterior, o serviço definitivo, salvo motivo de força maior, devidamente comprovado e reconhmeido pelo governo;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se    lex:temConteudo    "m) submetter-se á resalva de direito da União sobre todo o acervo da sociedade, para garantia de liquidação de qualquer debito para com ella;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se    lex:temConteudo    "n) submetter-se á resalva de que a frequencia distribuida sociedade não constitue direito de propriedade, e ficará sujeita, ás regras estabelecidas no regulamento dos serviços de radiocommunicação (decreto n. 21.111) ou em outro que vier a ser baixado sobre o assumpto, incidindo sempre sobre essa frequencia o direito de posse da União;" .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se .
+lex:D731\/Inciso\/IncisoAlineaConstituir\/IncisoAlineaAdmittir\/IncisoAlineaNao\/IncisoAlineaSuspender\/IncisoAlineaSubmetter-se\/IncisoAlineaFornecer\/IncisoAlineaManter\/IncisoAlineaObedecer\/IncisoAlineaIrradiar\/IncisoAlineaSubmetter\/IncisoAlineaSubmetter\/IncisoAlineaInaugurar\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se\/IncisoAlineaSubmetter-se    lex:temConteudo    "o) submetter-se aos preceitos instituidos nas convenções e regulamentos internacionaes, bem como a todas as disposições contidas em leis, regulamentos o instrucções que existam ou venham a existir, referentes ou applicaveis ao serviço da concessão." .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "IV" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "V" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "VI" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "VII" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "VIII" .
+lex:D731\/Inciso    lex:ehUm    lex:Inciso .
+lex:D731    lex:temInciso    lex:D731\/Inciso .
+lex:D731\/Inciso    lex:temConteudo    "IX" .
+lex:D731\/Inciso\/IncisoAlineaSi    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaSi .
+lex:D731\/Inciso\/IncisoAlineaSi    lex:temConteudo    "a) si, em todo tempo, for verificada a inobservancia das disposições contidas nas alineas a, b, c, d, i (in-fine), j, k, e l da clausula III." .
+lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaSi    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi .
+lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi    lex:temConteudo    "b) si não forem pagas, dentro dos prazos estabelecidos, a quota e contribuições a que se refere a alinea e da clausula III, bem como a importancia de qualquer multa imposta nos termos da clausula VII;" .
+lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi\/IncisoAlineaSi    lex:ehUm    lex:IncisoAlinea .
+lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi    lex:temIncisoAlinea    lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi\/IncisoAlineaSi .
+lex:D731\/Inciso\/IncisoAlineaSi\/IncisoAlineaSi\/IncisoAlineaSi    lex:temConteudo    "c) si, em qualquer tempo, se verificar o emprego da estação para outros fins que não os determinads na concessão e admittidos pela legislação que reger a materia." .
+lex:D731\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D731    lex:temParagrafo    lex:D731\/Paragrafo1 .
+lex:D731\/Paragrafo1    lex:temConteudo    "§ 1º Poderá a concessão ser declarada caduca, a juizo do governo, sem direito a qualquer indemnização:" .
+lex:D731\/Paragrafo1\/AlineaSi    lex:ehUm    lex:Alinea .
+lex:D731\/Paragrafo1    lex:temAlinea    lex:D731\/Paragrafo1\/AlineaSi .
+lex:D731\/Paragrafo1\/AlineaSi    lex:temConteudo    "a) si, depois de estabelecido, for o serviço interrompido por mais de trinta (30) dias consecutivos, ou si se verificar a incapacidade da concessionaria para executar o serviço salvo motivo de força maior, devidamente provado e reconhecido pelo governo;" .
+lex:D731\/Paragrafo1\/AlineaSi    lex:ehUm    lex:Alinea .
+lex:D731\/Paragrafo1    lex:temAlinea    lex:D731\/Paragrafo1\/AlineaSi .
+lex:D731\/Paragrafo1\/AlineaSi    lex:temConteudo    "b) si a concessionaria incidir reiteradamente em infracções passiveis de multa." .
+lex:D731\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D731    lex:temParagrafo    lex:D731\/Paragrafo2 .
+lex:D731\/Paragrafo2    lex:temConteudo    "§ 2º A concessão será considerada perempta si o governo não julgar conveniente renovar-lhe o prazo." .

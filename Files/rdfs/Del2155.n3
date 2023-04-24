@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2155    lex:ehUm    lex:DocLegal .
+lex:Del2155    lex:temTextoIntegral    lex:HTMLs\/Del2155.htm .
+lex:Del2155\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2155    lex:temArtigo    lex:Del2155\/Artigo1 .
+lex:Del2155\/Artigo1    lex:temConteudo    "Art. 1º Os limites-base, mínimo e máximo, para efeito de cálculo do valor do Beneficio Fiscal instituído pelo Decreto-lei nº 1358, de 12 de novembro de 1974, com as alterações posteriormente introduzidas pela legislação, ficam elevados, a partir do exercício financeiro de 1984, respectivamente, para Cr$39.588,00 (trinta e nove mil, quinhentos e oitenta e oito cruzeiros) e Cr$47.664,00 (quarenta e sete mil, seiscentos e sessenta e quatro cruzeiros)." .
+lex:Del2155\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2155    lex:temArtigo    lex:Del2155\/Artigo2 .
+lex:Del2155\/Artigo2    lex:temConteudo    "Art. 2º Fica mantida em 12% (doze por cento) a porcentagem para cálculo do Beneficio Fiscal, fixado pelo Decreto-lei nº 1431, de 5 de dezembro de 1975, aplicável de acordo com as normas estabelecidas no artigo 1º do Decreto-lei nº 1358, de 12 de novembro de 1974, respeitado o disposto no § 1º do artigo 1º do Decreto-Lei nº 1728, de 12 de dezembro de 1979." .
+lex:Del2155\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2155    lex:temArtigo    lex:Del2155\/Artigo3 .
+lex:Del2155\/Artigo3    lex:temConteudo    "Art. 3º O valor do Beneficio Fiscal será desdobrado em 12 (doze) cotas de valor fixado em cruzeiros, a serem utilizadas pelos mutuários na forma de abatimento do valor de cada uma das prestações devidas ao Agente Financeiro, vicendas no período de julho de 1984 a junho de 1985." .
+lex:Del2155\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2155\/Artigo3    lex:temParagrafo    lex:Del2155\/Artigo3\/ParagrafoUnico .
+lex:Del2155\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O valor de cada uma das cotas do crédito de que trata este artigo não poderá exceder ao valor da prestação a que estiver vinculada." .
+lex:Del2155\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2155    lex:temArtigo    lex:Del2155\/Artigo4 .
+lex:Del2155\/Artigo4    lex:temConteudo    "Art. 4º A Secretaria de Planejamento da Presidência da República, o Ministério do Interior e o Ministério da Fazenda adotarão as providencias que se fizerem necessárias à aplicação deste Decreto-Lei." .
+lex:Del2155\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2155    lex:temArtigo    lex:Del2155\/Artigo5 .
+lex:Del2155\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2155\/Artigo1    lex:remetePara    lex:Del1358 .
+lex:Del2155\/Artigo2    lex:remetePara    lex:Del1431 .
+lex:Del2155\/Artigo2    lex:remetePara    lex:Del1358\/Artigo1 .
+lex:Del2155\/Artigo2    lex:remetePara    lex:Del1728\/Artigo1\/Paragrafo1 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D73174    lex:ehUm    lex:DocLegal .
+lex:D73174    lex:temTextoIntegral    lex:HTMLs\/D73174.htm .
+lex:D73174\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D73174    lex:temArtigo    lex:D73174\/Artigo1 .
+lex:D73174\/Artigo1    lex:temConteudo    "Art. 1º Ficam extintas, no Ministério da Aeronáutica, as Esquadrilhas Aeroterrestres de Salvamento (EAS)." .
+lex:D73174\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D73174    lex:temArtigo    lex:D73174\/Artigo2 .
+lex:D73174\/Artigo2    lex:temConteudo    "Art. 2º Fica criado o Esquadrão Aeroterrestre de Salvamento, tendo como finalidade e adestramento das Equipes de Salvamento das organizações militares, a realizações de missões de Busca e Salvamento e a execução de missões especiais que lhe forem determinadas." .
+lex:D73174\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D73174    lex:temArtigo    lex:D73174\/Artigo3 .
+lex:D73174\/Artigo3    lex:temConteudo    "Art. 3º O Ministro da Aeronáutica baixará os atos administrativos de desativação das Esquadrilhas e de ativação do Esquadrão de que trata o presente Decreto." .
+lex:D73174\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D73174\/Artigo3    lex:temParagrafo    lex:D73174\/Artigo3\/ParagrafoUnico .
+lex:D73174\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O ato de ativação do Esquadrão estabelecerá sua subordinação e sede." .
+lex:D73174\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D73174    lex:temArtigo    lex:D73174\/Artigo4 .
+lex:D73174\/Artigo4    lex:temConteudo    "Art. 4º O Ministro da Aeronáutica baixará instruções reguladoras para organização e funcionamento do Esquadrão Aeroterrestre de Salvamento, ora criado." .
+lex:D73174\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D73174    lex:temArtigo    lex:D73174\/Artigo5 .
+lex:D73174\/Artigo5    lex:temConteudo    "Art. 5º O presente Decreto entrará em vigor na data de sua publicação, revogados o Decreto nº 52.432, de 2 de setembro de 1963, e demais disposições em contrário." .
+lex:D73174\/Texto    lex:remetePara    lex:D73174 .
+lex:D73174\/Artigo5    lex:remetePara    lex:D52432 .

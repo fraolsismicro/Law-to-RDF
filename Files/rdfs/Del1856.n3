@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1856    lex:ehUm    lex:DocLegal .
+lex:Del1856    lex:temTextoIntegral    lex:HTMLs\/Del1856.htm .
+lex:Del1856\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1856    lex:temArtigo    lex:Del1856\/Artigo1 .
+lex:Del1856\/Artigo1    lex:temConteudo    "Art. 1º - O Ministro da Fazenda fica autorizado a conceder isenção dos impostos de importação e sobre produtos industrializados, relativamente a navios especializados, sem similar nacional e desde que aprovada a sua importação, em cada caso, pela Superintendência Nacional da Marinha Mercante - SUNAMAM." .
+lex:Del1856\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1856\/Artigo1    lex:temParagrafo    lex:Del1856\/Artigo1\/ParagrafoUnico .
+lex:Del1856\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O pagamento dos referidos navios especializados deverá ser efetuado com recursos provenientes de financiamento externo." .
+lex:Del1856\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1856    lex:temArtigo    lex:Del1856\/Artigo2 .
+lex:Del1856\/Artigo2    lex:temConteudo    "Art. 2º - O Ministro da Fazenda poderá exigir outras condições para a concessão da isenção de que trata o artigo anterior." .
+lex:Del1856\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1856    lex:temArtigo    lex:Del1856\/Artigo3 .
+lex:Del1856\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

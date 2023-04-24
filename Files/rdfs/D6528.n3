@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6528    lex:ehUm    lex:DocLegal .
+lex:D6528    lex:temTextoIntegral    lex:HTMLs\/D6528.htm .
+lex:D6528\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6528    lex:temArtigo    lex:D6528\/Artigo1 .
+lex:D6528\/Artigo1    lex:temConteudo    "Art. 1 º  Fica autorizado o aumento do capital social da Empresa Brasileira de Infra-Estrutura Aeroportuária (Infraero) em R$ 1.052.000.000,00 (um bilhão e cinqüenta e dois milhões de reais), conforme dotação orçamentária consignada no Orçamento da União pela Lei no 11.647, de 24 de março de 2008, e crédito extraordinário em favor do Ministério da Defesa, previsto na Lei no 11.735, de 10 de julho de 2008." .
+lex:D6528\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6528\/Artigo1    lex:temParagrafo    lex:D6528\/Artigo1\/ParagrafoUnico .
+lex:D6528\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A efetivação do aumento do capital de que trata o caput dar-se-á por meio de assembléia geral de acionistas, observada a transferência de recursos aprovada e liberada pelo Ministério da Defesa." .
+lex:D6528\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6528    lex:temArtigo    lex:D6528\/Artigo2 .
+lex:D6528\/Artigo2    lex:temConteudo    "Art. 2o  Fica a União autorizada a subscrever ações, na proporção de sua participação no capital social da Infraero, uma vez aprovado o aumento do capital pela assembléia geral de acionistas." .
+lex:D6528\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6528    lex:temArtigo    lex:D6528\/Artigo3 .
+lex:D6528\/Artigo3    lex:temConteudo    "Art. 3o  Fica a União autorizada a subscrever ações, na proporção da participação dos acionistas minoritários, caso eles não exerçam o seu direito de preferência dentro do prazo legal, uma vez aprovado o aumento de capital pela assembléia geral de acionistas." .
+lex:D6528\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6528    lex:temArtigo    lex:D6528\/Artigo4 .
+lex:D6528\/Artigo4    lex:temConteudo    "Art. 4o  Os recursos recebidos na forma do art. 1o deverão ser atualizados pela taxa referencial do Sistema Especial de Liquidação e de Custódia (SELIC), nos termos do Decreto no 2.673, de 16 de julho de 1998." .
+lex:D6528\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6528    lex:temArtigo    lex:D6528\/Artigo5 .
+lex:D6528\/Artigo5    lex:temConteudo    "Art. 5 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6528\/Artigo1    lex:remetePara    lex:L11647 .
+lex:D6528\/Artigo4    lex:remetePara    lex:D2677 .

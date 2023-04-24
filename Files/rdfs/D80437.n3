@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D80437    lex:ehUm    lex:DocLegal .
+lex:D80437    lex:temTextoIntegral    lex:HTMLs\/D80437.htm .
+lex:D80437\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D80437    lex:temArtigo    lex:D80437\/Artigo1 .
+lex:D80437\/Artigo1    lex:temConteudo    "Art. 1º Fica incluído no artigo 1º do Decreto nº 51.061, de 27 de julho de 1961, parágrafo com a seguinte redação:" .
+lex:D80437\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D80437    lex:temArtigo    lex:D80437\/Artigo2 .
+lex:D80437\/Artigo2    lex:temConteudo    "Art. 2º Os itens I, letra 'a', e III, letra 'a' do artigo 1º do Decreto número 55.249, de 21 de dezembro de 1964, passam a vigorar com esta redação:" .
+lex:D80437\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D80437\/Artigo2    lex:temAlinea    lex:D80437\/Artigo2\/AlineaO .
+lex:D80437\/Artigo2\/AlineaO    lex:temConteudo    "a) o tempo de efetivo serviço público prestado à União, Estados-membros, Distrito Federal, Territórios e Municípios e respectivas entidades de administração descentralizada, em cargo, emprego ou função civil ou militar;" .
+lex:D80437\/Artigo2\/AlineaO\/Item    lex:ehUm    lex:Item .
+lex:D80437\/Artigo2\/AlineaO    lex:temItem    lex:D80437\/Artigo2\/AlineaO\/Item .
+lex:D80437\/Artigo2\/AlineaO\/Item    lex:temConteudo    "..........................................................................................................................................................." .
+lex:D80437\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D80437\/Artigo2    lex:temInciso    lex:D80437\/Artigo2\/IncisoIII .
+lex:D80437\/Artigo2\/IncisoIII    lex:temConteudo    "III - .........................................................................................................................................." .
+lex:D80437\/Artigo2\/IncisoIII\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D80437\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D80437\/Artigo2\/IncisoIII\/IncisoAlineaO .
+lex:D80437\/Artigo2\/IncisoIII\/IncisoAlineaO    lex:temConteudo    "a) o órgão de pessoal apurará, à vista dos elementos averbados no assentamento individual do funcionário, se ele completou 50 (cinqüenta) anos de serviço se não cometeu falta grave e se prestou serviços relevantes para a Administração.'" .
+lex:D80437\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D80437    lex:temArtigo    lex:D80437\/Artigo3 .
+lex:D80437\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entrará em vigor no dia seguinte ao de sua publicação, revogadas as disposições em contrário." .
+lex:D80437\/Texto00001    lex:remetePara    lex:D51061\/Artigo1 .
+lex:D80437\/Artigo2\/AlineaO    lex:remetePara    lex:D55249\/Artigo1 .
+lex:D80437\/Artigo2\/IncisoIII\/IncisoAlineaO    lex:remetePara    lex:D55249\/Artigo1 .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8301    lex:ehUm    lex:DocLegal .
+lex:D8301    lex:temTextoIntegral    lex:HTMLs\/D8301.htm .
+lex:D8301\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8301    lex:temArtigo    lex:D8301\/Artigo1 .
+lex:D8301\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 3.937, de 25 de setembro de 2001, passa a vigorar com as seguintes alterações:" .
+lex:D8301\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8301\/Artigo1    lex:temInciso    lex:D8301\/Artigo1\/IncisoIII .
+lex:D8301\/Artigo1\/IncisoIII    lex:temConteudo    "III - inadimplemento das obrigações contratuais do exportador, nos casos de garantia de execução, garantia de reembolso de adiantamento de recursos e garantia de termos e condições de oferta para operações de exportação de bens e serviços das indústrias do setor de defesa. (NR)" .
+lex:D8301\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8301\/Artigo1    lex:temParagrafo    lex:D8301\/Artigo1\/Paragrafo1 .
+lex:D8301\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  ................................................................................" .
+lex:D8301\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8301\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8301\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI .
+lex:D8301\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI    lex:temConteudo    "VI - no máximo cem por cento em operações de seguro para micro, pequenas e médias empresas e, no caso de seguro contra os riscos de obrigações contratuais sob a forma de garantia de execução, garantia de reembolso de adiantamento de recursos e garantia de termos e condições de oferta para operações de bens e serviços das indústrias do setor de defesa." .
+lex:D8301\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8301\/Artigo1    lex:temParagrafo    lex:D8301\/Artigo1\/Paragrafo4 .
+lex:D8301\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º  As garantias de que trata o art. 5 º da Lei n º 9.818, de 23 de agosto de 1999, concedidas para operações de bens e serviços das indústrias do setor de defesa poderão contar com a cobertura do Fundo de Garantia à Exportação - FGE, observado o disposto no caput deste artigo." .
+lex:D8301\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8301    lex:temArtigo    lex:D8301\/Artigo2 .
+lex:D8301\/Artigo2    lex:temConteudo    "Art. 2 º  Fica revogado o § 5º do art. 8º do Decreto nº 3.937, de 25 de setembro de 2001." .
+lex:D8301\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8301    lex:temArtigo    lex:D8301\/Artigo3 .
+lex:D8301\/Artigo3    lex:temConteudo    "Art. 3 º   Este Decreto entra em vigor na data de sua publicação." .
+lex:D8301\/Artigo1    lex:remetePara    lex:D3937 .
+lex:D8301\/Artigo1\/IncisoIII    lex:remetePara    lex:D3937\/Artigo4 .
+lex:D8301\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI    lex:remetePara    lex:D3937\/Artigo8\/Paragrafo1vi .
+lex:D8301\/Artigo1\/Paragrafo4    lex:remetePara    lex:D3937\/Artigo8\/Paragrafo4 .
+lex:D8301\/Artigo2    lex:remetePara    lex:D3937\/Artigo8\/Paragrafo5 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp19    lex:ehUm    lex:DocLegal .
+lex:Lcp19    lex:temTextoIntegral    lex:HTMLs\/Lcp19.htm .
+lex:Lcp19\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp19    lex:temArtigo    lex:Lcp19\/Artigo1 .
+lex:Lcp19\/Artigo1    lex:temConteudo    "Art. 1º - A partir de 1º de julho de 1974, os recursos gerados pelo Programa de Integração Social (PIS) e pelo Programa de Formação do Patrimônio de Servidor Público (PASEP), de que tratam as Leis Complementares nº 7, de 7 de setembro de 1970, e 8, de 3 de dezembro de 1970, respectivamente, passarão a ser aplicados de forma unificada, destinando-se, preferencialmente, a programas especiais de investimentos elaborados e revistos periodicamente segundo as diretrizes e prazos de vigências dos Planos Nacionais de Desenvolvimento (PND)." .
+lex:Lcp19\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp19\/Artigo1    lex:temParagrafo    lex:Lcp19\/Artigo1\/ParagrafoUnico .
+lex:Lcp19\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Compete ao Banco Nacional do Desenvolvimento Econômico (BNDE) elaborar os programas especiais e processar a aplicação dos recursos de que trata este artigo em investimentos e financiamentos consoante as diretrizes de aplicação aprovadas pelo Presidente da República." .
+lex:Lcp19\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp19    lex:temArtigo    lex:Lcp19\/Artigo2 .
+lex:Lcp19\/Artigo2    lex:temConteudo    "Art. 2º - O Conselho Monetário Nacional estabelecerá as condições de repasse dos recursos ao BNDE, para efeito do disposto no artigo anterior, bem como as bases de remuneração dos serviços de arrecadação de controle das contribuições e de distribuição de resultados, que permanecem a cargo das entidades a que foram atribuídos pela legislação específica de cada um dos programas referidos." .
+lex:Lcp19\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp19    lex:temArtigo    lex:Lcp19\/Artigo3 .
+lex:Lcp19\/Artigo3    lex:temConteudo    "Art. 3º - A presente Lei Complementar entrará em vigor na data de sua publicação, revogados o art. 6º da Lei Complementar nº 8, de 3 de dezembro de 1970, e demais disposições em contrário." .
+lex:Lcp19\/Artigo1    lex:remetePara    lex:Lcp07 .
+lex:Lcp19\/Artigo1    lex:remetePara    lex:Lcp08 .
+lex:Lcp19\/Artigo3    lex:remetePara    lex:Lcp08\/Artigo6 .

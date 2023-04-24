@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1137    lex:ehUm    lex:DocLegal .
+lex:L1137    lex:temTextoIntegral    lex:HTMLs\/L1137.htm .
+lex:L1137\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1137    lex:temArtigo    lex:L1137\/Artigo1 .
+lex:L1137\/Artigo1    lex:temConteudo    "Art. 1º O art. 7º da lei nº 324, de 11 de agôsto de 1948, passa, em virtude do Decreto-lei nº 9.584, de 14 de agôsto de 1946, a ter a seguinte redação:" .
+lex:L1137\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1137    lex:temArtigo    lex:L1137\/Artigo2 .
+lex:L1137\/Artigo2    lex:temConteudo    "Art. 2º Por terem ficado sem objetivo, são suprimidos, no Quadro Permanente do Ministério da Guerra, os seguintes cargos e funções gratificadas:" .
+lex:L1137\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1137    lex:temArtigo    lex:L1137\/Artigo3 .
+lex:L1137\/Artigo3    lex:temConteudo    "Art. 3º O saldo correspondente às funções gratificadas e cargos suprimidos pelo artigo anterior reverterá à conta corrente do respectivo Quadro." .
+lex:L1137\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1137    lex:temArtigo    lex:L1137\/Artigo4 .
+lex:L1137\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:L1137\/Artigo1    lex:remetePara    lex:L0324 .
+lex:L1137\/Artigo1    lex:remetePara    lex:Del9584 .
+lex:L1137\/Texto00001    lex:remetePara    lex:L0324\/Artigo7 .
+lex:L1137\/Texto00001    lex:remetePara    lex:Del8184\/Artigo2 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc77    lex:ehUm    lex:DocLegal .
+lex:emc77    lex:temTextoIntegral    lex:HTMLs\/emc77.htm .
+lex:emc77\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:emc77    lex:temParagrafo    lex:emc77\/Paragrafo3 .
+lex:emc77\/Paragrafo3    lex:temConteudo    "§ 3º. .................................................................................................................................................................................................................................." .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc77\/Paragrafo3    lex:temParagrafoInciso    lex:emc77\/Paragrafo3\/ParagrafoIncisoII .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - o militar em atividade que tomar posse em cargo ou emprego público civil permanente, ressalvada a hipótese prevista no art. 37, inciso XVI, alínea 'c', será transferido para a reserva," .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc77\/Paragrafo3    lex:temParagrafoInciso    lex:emc77\/Paragrafo3\/ParagrafoIncisoIII .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - o militar da ativa que, de acordo com a lei, tomar posse em cargo, emprego ou função pública civil temporária, não eletiva, ainda que da administração indireta, ressalvada a hipótese prevista no art. 37, inciso XVI, alínea 'c', ficará agregado ao respectivo quadro e somente poderá, enquanto permanecer nessa situação, ser promovido por antiguidade, contando-se-lhe o tempo de serviço apenas para aquela promoção e transferência para a reserva, sendo depois de dois anos de afastamento, contínuos ou não, transferido para a reserva, nos termos da lei;" .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:emc77\/Paragrafo3    lex:temParagrafoInciso    lex:emc77\/Paragrafo3\/ParagrafoIncisoVIII .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - aplica-se aos militares o disposto no art. 7º, incisos VIII, XII, XVII, XVIII, XIX e XXV, e no art. 37, incisos XI, XIII, XIV e XV, bem como, na forma da lei e com prevalência da atividade militar, no art. 37, inciso XVI, alínea 'c';" .
+lex:emc77\/Texto    lex:remetePara    lex:Constituicao .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoII    lex:remetePara    lex:Constituicao\/Artigo142\/Paragrafo3ii .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:Constituicao\/Artigo142\/Paragrafo3iii .
+lex:emc77\/Paragrafo3\/ParagrafoIncisoVIII    lex:remetePara    lex:Constituicao\/Artigo142\/Paragrafo3viii .

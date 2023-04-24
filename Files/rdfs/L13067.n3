@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13067    lex:ehUm    lex:DocLegal .
+lex:L13067    lex:temTextoIntegral    lex:HTMLs\/L13067.htm .
+lex:L13067\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13067    lex:temArtigo    lex:L13067\/Artigo1 .
+lex:L13067\/Artigo1    lex:temConteudo    "Art. 1o A Lei no 12.919, de 24 de dezembro de 2013, passa a vigorar com as seguintes alterações:" .
+lex:L13067\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L13067\/Artigo1    lex:temParagrafo    lex:L13067\/Artigo1\/Paragraf .
+lex:L13067\/Artigo1\/Paragraf    lex:temConteudo    "§  10. O prazo estabelecido no § 1o não se aplica a proposição de aumento da remuneração para os seguintes cargos:" .
+lex:L13067\/Artigo1\/Paragraf\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13067\/Artigo1\/Paragraf    lex:temInciso    lex:L13067\/Artigo1\/Paragraf\/IncisoI .
+lex:L13067\/Artigo1\/Paragraf\/IncisoI    lex:temConteudo    "I - de Escrivão de Polícia Federal, de Agente de Polícia Federal e de Papiloscopista Policial Federal, integrantes da Carreira Policial Federal, de que trata o art. 1o do Decreto-Lei no 2.251, de 26 de fevereiro de 1985; e" .
+lex:L13067\/Artigo1\/Paragraf\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13067\/Artigo1\/Paragraf    lex:temInciso    lex:L13067\/Artigo1\/Paragraf\/IncisoII .
+lex:L13067\/Artigo1\/Paragraf\/IncisoII    lex:temConteudo    "II - integrantes da Carreira de Perito Federal Agrário, de que trata o art. 1o da Lei no 10.550, de 13 de novembro de 2002." .
+lex:L13067\/Artigo1\/Paragrafo11    lex:ehUm    lex:Paragrafo .
+lex:L13067\/Artigo1    lex:temParagrafo    lex:L13067\/Artigo1\/Paragrafo11 .
+lex:L13067\/Artigo1\/Paragrafo11    lex:temConteudo    "§ 11.  A lei aprovada e sancionada em decorrência da proposição de que trata o § 10 poderá ter efeitos financeiros a partir de 20 de junho de 2014. (NR)" .
+lex:L13067\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13067    lex:temArtigo    lex:L13067\/Artigo2 .
+lex:L13067\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L13067\/Artigo1    lex:remetePara    lex:L12919 .
+lex:L13067\/Artigo1\/Paragraf    lex:remetePara    lex:L12919\/Artigo80\/Paragrafo10 .
+lex:L13067\/Artigo1\/Paragraf\/IncisoI    lex:remetePara    lex:Del2251\/Artigo1 .
+lex:L13067\/Artigo1\/Paragraf\/IncisoII    lex:remetePara    lex:L10550\/Artigo1 .

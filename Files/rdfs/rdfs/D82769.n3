@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D82769    lex:ehUm    lex:DocLegal .
+lex:D82769    lex:temTextoIntegral    lex:HTMLs\/D82769.htm .
+lex:D82769\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D82769    lex:temArtigo    lex:D82769\/Artigo1A .
+lex:D82769\/Artigo1A    lex:temConteudo    "Art. 1Âº, Fica alterado o Quadro Efetivo de PraÃ§as do Estado-Maior das ForÃ§as Armadas, aprovado pelo Decreto nÂº 81.453, de 15 de marÃ§o de 1978 , passando a vigorar o novo Quadro anexo ao presente Decreto ." .
+lex:D82769\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D82769    lex:temArtigo    lex:D82769\/Artigo2A .
+lex:D82769\/Artigo2A    lex:temConteudo    "Art. 2Âº - Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o." .
+lex:D82769\/Artigo1A    lex:remetePara    lex:D81453 .
+lex:D82769\/Texto00002    lex:regulamentadoPor    lex:D79031\/Artigo42 .
+lex:D79031\/Artigo42    lex:regulamenta    lex:D82769\/Texto00002 .

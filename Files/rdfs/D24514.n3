@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D24514    lex:ehUm    lex:DocLegal .
+lex:D24514    lex:temTextoIntegral    lex:HTMLs\/D24514.htm .
+lex:D24514\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo1 .
+lex:D24514\/Artigo1    lex:temConteudo    "Art. 1º Ficam redigidos pela forma que se segue os parágrafos e artigos do decreto n. 4.238, de 15 de novembro de 1901, a saber:" .
+lex:D24514\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo2 .
+lex:D24514\/Artigo2    lex:temConteudo    "Art. 2º ....................................................................................................................." .
+lex:D24514\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D24514\/Artigo2    lex:temParagrafo    lex:D24514\/Artigo2\/ParagrafoUnico .
+lex:D24514\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Será de ouro com passadeira de platina concedidas aos militares do Exército e da armada em serviço ativo, que tiverem quatro decênios; de ouro com passadeira de outro, três decênios; de prata com passadeira de prata, dois decênios; de bronze com passadeira de bronze, um decênio, de bons serviços." .
+lex:D24514\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo6 .
+lex:D24514\/Artigo6    lex:temConteudo    "Art. 6º. ................................................................................................................................" .
+lex:D24514\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D24514\/Artigo6    lex:temParagrafo    lex:D24514\/Artigo6\/Paragrafo1 .
+lex:D24514\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1º ....................................................................................................................................." .
+lex:D24514\/Artigo6\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D24514\/Artigo6    lex:temParagrafo    lex:D24514\/Artigo6\/Paragrafo5 .
+lex:D24514\/Artigo6\/Paragrafo5    lex:temConteudo    "§ 5º Esse parecer, com todos os papéis, servirá de base para a lavratura do decreto da concessão da medalha, que deverá conter as datas limites do respectivo decênio a ser escriturado nos assentamentos do interessado." .
+lex:D24514\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo7 .
+lex:D24514\/Artigo7    lex:temConteudo    "Art. 7º Para obtenção da medalha representativas do maior tempo, o processo a seguir será consignado no artigo anterior e seus parágrafos: a fé de ofício ou certidão de assentamentos remetida referir-se-á apenas ao segundo, terceiro ou quarto decênio, caso seja de prata, ouro ou ouro com passadeira de platina, respectivamente, a medalha a ser concedida, devendo neste caso nas notas remetidas pelos comandos de corpos ou repartições, fazer-se referência ao período anterior, discriminado a espécie de medalha recebida pelo interessado." .
+lex:D24514\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo8 .
+lex:D24514\/Artigo8    lex:temConteudo    "Art. 8º .........................................................................................................................." .
+lex:D24514\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D24514    lex:temArtigo    lex:D24514\/Artigo9 .
+lex:D24514\/Artigo9    lex:temConteudo    "Art. 9º As medalhas, fitas e passadeira serão fornecidas pelo Governo, isentas de qualquer despesa, sendo o seu uso obrigatório nas formaturas e nos primeiros uniformes; e nos demais uniformes usarão somente a fita com as respectivas passadeira de platina, ouro, prata ou bronze." .
+lex:D24514\/Artigo9\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D24514\/Artigo9    lex:temParagrafo    lex:D24514\/Artigo9\/ParagrafoUnico .
+lex:D24514\/Artigo9\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As passadeira terão as dimensões de 0m,0245 de largura por 0m,015 de altura, fornecidas pela Casa da Moeda, que deverá organizar o modelo respectivo." .
+lex:D24514\/Artigo2    lex:remetePara    lex:D4238\/Artigo2 .
+lex:D24514\/Artigo6    lex:remetePara    lex:D4238\/Artigo6\/Paragrafo1 .
+lex:D24514\/Artigo6\/Paragrafo5    lex:remetePara    lex:D4238\/Artigo6\/Paragrafo5 .
+lex:D24514\/Artigo7    lex:remetePara    lex:D4238\/Artigo7 .
+lex:D24514\/Artigo9    lex:remetePara    lex:D4238\/Artigo9 .

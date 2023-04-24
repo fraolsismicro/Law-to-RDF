@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5460    lex:ehUm    lex:DocLegal .
+lex:D5460    lex:temTextoIntegral    lex:HTMLs\/D5460.htm .
+lex:D5460\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5460    lex:temArtigo    lex:D5460\/Artigo1 .
+lex:D5460\/Artigo1    lex:temConteudo    "Art. 1o  O § 1o do art. 2o e o art. 7o do Decreto no 5.286, de 25 de novembro de 2004, passam a vigorar com as seguintes redações:" .
+lex:D5460\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5460\/Artigo1    lex:temParagrafo    lex:D5460\/Artigo1\/Paragrafo1 .
+lex:D5460\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O quantitativo de gratificações de que trata cada um dos incisos deste artigo poderá ser aumentado ou diminuído, mediante ato do Ministro de Estado do Planejamento, Orçamento e Gestão, desde que seja feita a correspondente compensação do quantitativo de gratificações de um inciso para o outro, de forma que, em qualquer hipótese, o número de servidores ocupantes de cargos de provimento efetivo, regidos pela Lei no 8.112, de 1990, em exercício na Secretaria do Patrimônio da União, não ultrapasse o quantitativo máximo fixado no caput e não haja aumento de despesa." .
+lex:D5460\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5460\/Artigo1    lex:temParagrafo    lex:D5460\/Artigo1\/ParagrafoUnico .
+lex:D5460\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na hipótese a que se refere o caput, a diferença será paga, em parcelas, proporcionalmente, para cada servidor que a ela faça jus, nos meses de fevereiro, março e abril do ano subseqüente.' (NR)" .
+lex:D5460\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5460    lex:temArtigo    lex:D5460\/Artigo3 .
+lex:D5460\/Artigo3    lex:temConteudo    "Art. 3o  Fica excluída do Anexo I do Decreto no 5.286, de 2004, a referência ao Anexo IV - Ficha de Avaliação Individual." .
+lex:D5460\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5460    lex:temArtigo    lex:D5460\/Artigo4 .
+lex:D5460\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5460\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5460    lex:temArtigo    lex:D5460\/Artigo5 .
+lex:D5460\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogado o Anexo IV do Decreto no 5.286, de 25 de novembro de 2004." .
+lex:D5460\/Artigo1\/Paragrafo1    lex:remetePara    lex:D5286\/Artigo2\/Paragrafo1 .
+lex:D5460\/Artigo1\/Texto00002    lex:remetePara    lex:D5286\/Artigo7 .
+lex:D5460\/Artigo1\/Texto00002    lex:remetePara    lex:D5286\/Artigo5 .
+lex:D5460\/Artigo3    lex:remetePara    lex:D5286\/ .
+lex:D5460\/Artigo5    lex:remetePara    lex:D5286\/ .

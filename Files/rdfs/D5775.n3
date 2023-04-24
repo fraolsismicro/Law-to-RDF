@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5775    lex:ehUm    lex:DocLegal .
+lex:D5775    lex:temTextoIntegral    lex:HTMLs\/D5775.htm .
+lex:D5775\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5775    lex:temArtigo    lex:D5775\/Artigo1 .
+lex:D5775\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 2o e 9o do Decreto no 74.170, de 10 de junho de 1974, passam a vigorar com a seguinte redação:" .
+lex:D5775\/Artigo1\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:D5775\/Artigo1    lex:temInciso    lex:D5775\/Artigo1\/IncisoXVIII .
+lex:D5775\/Artigo1\/IncisoXVIII    lex:temConteudo    "XVIII - fracionamento: procedimento que integra a dispensação de medicamentos na forma fracionada, efetuado sob a supervisão e responsabilidade de profissional farmacêutico habilitado para atender à prescrição ou ao tratamento correspondente nos casos de medicamentos isentos de prescrição, caracterizado pela subdivisão de um medicamento em frações individualizadas, a partir de sua embalagem original, sem o rompimento da embalagem primária, mantendo seus dados de identificação;" .
+lex:D5775\/Artigo1\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D5775\/Artigo1    lex:temInciso    lex:D5775\/Artigo1\/IncisoXIX .
+lex:D5775\/Artigo1\/IncisoXIX    lex:temConteudo    "XIX - embalagem original: acondicionamento aprovado para fins de registro pelo órgão competente do Ministério da Saúde, destinado à proteção e manutenção das características de qualidade, de segurança e de eficácia do produto, compreendendo as embalagens destinadas ao fracionamento. (NR)" .
+lex:D5775\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5775\/Artigo1    lex:temParagrafo    lex:D5775\/Artigo1\/ParagrafoUnico .
+lex:D5775\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As farmácias e drogarias poderão fracionar medicamentos, desde que garantidas as características asseguradas no produto original registrado, ficando a cargo do órgão competente do Ministério da Saúde estabelecer, por norma própria, as condições técnicas e operacionais, necessárias à dispensação de medicamentos na forma fracionada. (NR)" .
+lex:D5775\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5775    lex:temArtigo    lex:D5775\/Artigo2 .
+lex:D5775\/Artigo2    lex:temConteudo    "Art. 2o  As condições para a adequação das embalagens ao fracionamento por parte das empresas titulares de registro de medicamentos serão estabelecidas pelo órgão da União competente, no âmbito do Sistema Único de Saúde." .
+lex:D5775\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5775    lex:temArtigo    lex:D5775\/Artigo3 .
+lex:D5775\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5775\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5775    lex:temArtigo    lex:D5775\/Artigo4 .
+lex:D5775\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados os Decretos nos 947, de 4 de outubro de 1993, e 5.348, de 19 de janeiro de 2005." .
+lex:D5775\/Artigo1    lex:remetePara    lex:D74170\/Artigo2 .
+lex:D5775\/Artigo1    lex:remetePara    lex:D74170\/Artigo9 .
+lex:D5775\/Artigo4    lex:remetePara    lex:D0947 .
+lex:D5775\/Artigo4    lex:remetePara    lex:D5348 .

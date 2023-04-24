@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7163    lex:ehUm    lex:DocLegal .
+lex:L7163    lex:temTextoIntegral    lex:HTMLs\/L7163.htm .
+lex:L7163\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7163    lex:temArtigo    lex:L7163\/Artigo1 .
+lex:L7163\/Artigo1    lex:temConteudo    "Art. 1º - Para efeito da progressão funcional a que se refere a lei nº 5.645, de 10 de dezembro de 1970, o correspondente regulamento disciplinará a mudança do servidor de uma para outra classe, com o respectivo cargo ou emprego." .
+lex:L7163\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7163    lex:temArtigo    lex:L7163\/Artigo2 .
+lex:L7163\/Artigo2    lex:temConteudo    "Art. 2º - O parágrafo único do art. 7º do Decreto-lei nº 1.445, de 13 de fevereiro de 1976, passa a vigorar com a seguinte redação:" .
+lex:L7163\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L7163\/Artigo2    lex:temParagrafo    lex:L7163\/Artigo2\/Paragraf .
+lex:L7163\/Artigo2\/Paragraf    lex:temConteudo    "'Art.7º.................................................................................." .
+lex:L7163\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7163\/Artigo2    lex:temParagrafo    lex:L7163\/Artigo2\/ParagrafoUnico .
+lex:L7163\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - As referências que ultrapassarem o valor de vencimento ou salário, estabelecido para a classe final ou única de cada Categoria Funcional, corresponderão à Classe Especial.'" .
+lex:L7163\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7163    lex:temArtigo    lex:L7163\/Artigo3 .
+lex:L7163\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7163\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7163    lex:temArtigo    lex:L7163\/Artigo4 .
+lex:L7163\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:L7163\/Artigo1    lex:remetePara    lex:L5645 .
+lex:L7163\/Artigo2    lex:remetePara    lex:Del1445\/Artigo7 .

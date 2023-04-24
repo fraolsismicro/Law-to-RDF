@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3283    lex:ehUm    lex:DocLegal .
+lex:D3283    lex:temTextoIntegral    lex:HTMLs\/D3283.htm .
+lex:D3283\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3283    lex:temInciso    lex:D3283\/IncisoD .
+lex:D3283\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3283\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3283    lex:temArtigo    lex:D3283\/Artigo1 .
+lex:D3283\/Artigo1    lex:temConteudo    "Art. 1o  O art. 2o do Decreto no 2.912, de 29 de dezembro de 1998, passa a vigorar com a seguinte redação:" .
+lex:D3283\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3283\/Artigo1    lex:temParagrafo    lex:D3283\/Artigo1\/Paragrafo1 .
+lex:D3283\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Uma vez formalizado contrato específico entre a União e a PETROBRÁS e liquidado o saldo devedor da Conta Petróleo, Derivados e Álcool, mediante a emissão de títulos escriturais de crédito em favor da PETROBRÁS, fica a empresa obrigada a utilizar o equivalente a cinqüenta por cento dos recursos oriundos do recebimento dos valores correspondentes aos resgates antecipados dos referidos títulos, que porventura venham a ser efetuados pela Secretaria do Tesouro Nacional do Ministério da Fazenda, para liquidação extraordinária de parcela de suas dívidas vincendas, nas mesmas condições especificadas no caput deste artigo." .
+lex:D3283\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3283\/Artigo1    lex:temParagrafo    lex:D3283\/Artigo1\/Paragrafo2 .
+lex:D3283\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Não será consideradas, para efeito do disposto no caput deste artigo, eventuais reduções de dívidas decorrentes do encontro de contas entre a PETROBRÁS e a União ou entidades da administração direta e indireta, inclusive do acerto de contas com o Banco Central do Brasil referente à operação de 'relending' de que trata o Voto CMN - 203/90." .
+lex:D3283\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3283\/Artigo1    lex:temParagrafo    lex:D3283\/Artigo1\/Paragrafo3 .
+lex:D3283\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Para efeito de acompanhamento do disposto no caput deste artigo, a PETROBRÁS encaminhará ao Departamento de Coordenação e Controle das Empresas Estatais, do Ministério do Planejamento, Orçamento e Gestão, até o 15o dia do mês subseqüente ao de competência, relatório contendo as seguintes informações:" .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3283\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - balanço mensal da arrecadação da Parcela de Preço Específica e das despesas por ela suportadas;" .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3283\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - evolução mensal do saldo da,e Conta Petróleo, Derivados e Álcool; e" .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3283\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D3283\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - valores das dívidas vincendas amortizadas com a parcela dos recursos a que se refere o caput deste artigo, o agente financeiro, bem como os respectivos vencimentos.' (NR)" .
+lex:D3283\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3283    lex:temArtigo    lex:D3283\/Artigo2 .
+lex:D3283\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3283\/Texto00009    lex:remetePara    lex:index .

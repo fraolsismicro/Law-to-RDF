@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13323    lex:ehUm    lex:DocLegal .
+lex:L13323    lex:temTextoIntegral    lex:HTMLs\/L13323.htm .
+lex:L13323\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13323    lex:temArtigo    lex:L13323\/Artigo1 .
+lex:L13323\/Artigo1    lex:temConteudo    "Art. 1o  A remuneração dos servidores integrantes do Quadro de Pessoal da Câmara dos Deputados fica reajustada nos seguintes percentuais:" .
+lex:L13323\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13323\/Artigo1    lex:temInciso    lex:L13323\/Artigo1\/IncisoI .
+lex:L13323\/Artigo1\/IncisoI    lex:temConteudo    "I - 5,5% (cinco inteiros e cinco décimos por cento), a partir de 1o de janeiro de 2016;" .
+lex:L13323\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13323\/Artigo1    lex:temInciso    lex:L13323\/Artigo1\/IncisoII .
+lex:L13323\/Artigo1\/IncisoII    lex:temConteudo    "II - 5% (cinco por cento), a partir de 1o de janeiro de 2017, aplicados sobre as remunerações vigentes em 31 de dezembro de 2016;" .
+lex:L13323\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L13323\/Artigo1    lex:temInciso    lex:L13323\/Artigo1\/IncisoIII .
+lex:L13323\/Artigo1\/IncisoIII    lex:temConteudo    "III - 4,8% (quatro inteiros e oito décimos por cento), a partir de 1o de janeiro de 2018, aplicados sobre as remunerações vigentes em 31 de dezembro de 2017;" .
+lex:L13323\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L13323\/Artigo1    lex:temInciso    lex:L13323\/Artigo1\/IncisoIV .
+lex:L13323\/Artigo1\/IncisoIV    lex:temConteudo    "IV - 4,5% (quatro inteiros e cinco décimos por cento), a partir de 1o de janeiro de 2019, aplicados sobre as remunerações vigentes em 31 de dezembro de 2018." .
+lex:L13323\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13323\/Artigo1    lex:temParagrafo    lex:L13323\/Artigo1\/ParagrafoUnico .
+lex:L13323\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As tabelas constantes da Lei no 12.777, de 28 de dezembro de 2012, ficam reajustadas de acordo com os incisos I a IV do caput deste artigo." .
+lex:L13323\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13323    lex:temArtigo    lex:L13323\/Artigo2 .
+lex:L13323\/Artigo2    lex:temConteudo    "Art. 2o  O disposto nesta Lei aplica-se aos proventos de aposentadoria e às pensões sujeitos a reajustes com base na remuneração do servidor ativo." .
+lex:L13323\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13323    lex:temArtigo    lex:L13323\/Artigo3 .
+lex:L13323\/Artigo3    lex:temConteudo    "Art. 3o  As despesas decorrentes desta Lei correrão à conta das dotações orçamentárias da Câmara dos Deputados." .
+lex:L13323\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13323    lex:temArtigo    lex:L13323\/Artigo4 .
+lex:L13323\/Artigo4    lex:temConteudo    "Art. 4o  (VETADO)." .
+lex:L13323\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L12777\/ .

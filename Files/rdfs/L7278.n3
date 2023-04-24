@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7278    lex:ehUm    lex:DocLegal .
+lex:L7278    lex:temTextoIntegral    lex:HTMLs\/L7278.htm .
+lex:L7278\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7278    lex:temArtigo    lex:L7278\/Artigo1 .
+lex:L7278\/Artigo1    lex:temConteudo    "Art. 1º - Dê-se ao art. 4º da Lei nº 4.594, de 29 de dezembro de 1964, a seguinte redação:" .
+lex:L7278\/Artigo1\/AlineaHaver    lex:ehUm    lex:Alinea .
+lex:L7278\/Artigo1    lex:temAlinea    lex:L7278\/Artigo1\/AlineaHaver .
+lex:L7278\/Artigo1\/AlineaHaver    lex:temConteudo    "a) haver concluído curso técnico profissional de seguros, oficial ou reconhecido;" .
+lex:L7278\/Artigo1\/AlineaApresentar    lex:ehUm    lex:Alinea .
+lex:L7278\/Artigo1    lex:temAlinea    lex:L7278\/Artigo1\/AlineaApresentar .
+lex:L7278\/Artigo1\/AlineaApresentar    lex:temConteudo    "b) apresentar atestado de exercício profissional anterior a esta Lei, fornecido pelo sindicato de classe ou pelo Departamento Nacional de Seguros Privados e Capitalização.'" .
+lex:L7278\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7278    lex:temArtigo    lex:L7278\/Artigo2 .
+lex:L7278\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7278\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7278    lex:temArtigo    lex:L7278\/Artigo3 .
+lex:L7278\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L7278\/Artigo1    lex:remetePara    lex:L4594\/Artigo4\/Paragrafo2a .

@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2895    lex:ehUm    lex:DocLegal .
+lex:D2895    lex:temTextoIntegral    lex:HTMLs\/D2895.htm .
+lex:D2895\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2895    lex:temArtigo    lex:D2895\/Artigo1 .
+lex:D2895\/Artigo1    lex:temConteudo    "Art 1º Fica revogado o Decreto nº 97.499, de 9 de fevereiro de 1989." .
+lex:D2895\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2895    lex:temArtigo    lex:D2895\/Artigo2 .
+lex:D2895\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2895\/Artigo1    lex:remetePara    lex:D97499 .

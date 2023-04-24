@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8015    lex:ehUm    lex:DocLegal .
+lex:L8015    lex:temTextoIntegral    lex:HTMLs\/L8015.htm .
+lex:L8015\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8015    lex:temArtigo    lex:L8015\/Artigo1 .
+lex:L8015\/Artigo1    lex:temConteudo    "Art. 1º É elevado para catorze o limite estabelecido no art. 1º da Lei nº 7.792, de 4 de julho de 1989, na redação dada pela Lei nº 7.993, de 5 de janeiro de 1990." .
+lex:L8015\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8015    lex:temArtigo    lex:L8015\/Artigo2 .
+lex:L8015\/Artigo2    lex:temConteudo    "Art. 2º É autorizada a criação de uma Zona de Processamento de Exportação no Município de Rio Grande, Estado do Rio Grande do Sul, e de outra no Município de Corumbá, Estado do Mato Grosso do Sul, observados os requisitos do Decreto-Lei nº 2.452, de 29 de julho de 1988." .
+lex:L8015\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8015    lex:temArtigo    lex:L8015\/Artigo3 .
+lex:L8015\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8015\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8015    lex:temArtigo    lex:L8015\/Artigo4 .
+lex:L8015\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L8015\/Artigo1    lex:remetePara    lex:L7792\/Artigo1 .
+lex:L8015\/Artigo1    lex:remetePara    lex:L7993 .
+lex:L8015\/Artigo2    lex:remetePara    lex:Del2452 .

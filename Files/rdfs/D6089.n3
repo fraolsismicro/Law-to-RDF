@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6089    lex:ehUm    lex:DocLegal .
+lex:D6089    lex:temTextoIntegral    lex:HTMLs\/D6089.htm .
+lex:D6089\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6089    lex:temArtigo    lex:D6089\/Artigo1 .
+lex:D6089\/Artigo1    lex:temConteudo    "Art. 1o  Ficam distribuídos os efetivos de Oficiais pelos Postos, Corpos e Quadros de Oficiais da Marinha, para o ano de 2007, na forma a seguir:" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais da Armada (CA)" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais da Armada (QC-CA):" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Fuzileiros Navais (FN):" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Fuzileiros Navais (QC-FN):" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Intendentes da Marinha (IM):" .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:ehUm    lex:Alinea .
+lex:D6089\/Artigo1    lex:temAlinea    lex:D6089\/Artigo1\/AlineaQuadro .
+lex:D6089\/Artigo1\/AlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Intendentes da Marinha (QC-IM):" .
+lex:D6089\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6089\/Artigo1    lex:temInciso    lex:D6089\/Artigo1\/IncisoIV .
+lex:D6089\/Artigo1\/IncisoIV    lex:temConteudo    "IV - CORPO DE ENGENHEIROS DA MARINHA (EN):" .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Médicos (Md):" .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões-Dentistas (CD):" .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoIV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Apoio à Saúde (S):" .
+lex:D6089\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6089\/Artigo1    lex:temInciso    lex:D6089\/Artigo1\/IncisoVI .
+lex:D6089\/Artigo1\/IncisoVI    lex:temConteudo    "VI - CORPO AUXILIAR DA MARINHA:" .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoVI    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro Técnico (T):" .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Capelães Navais (CN):" .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro Auxiliar da Armada (AA):" .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo1\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "d) Quadro Auxiliar de Fuzileiros Navais (AFN):" .
+lex:D6089\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6089    lex:temArtigo    lex:D6089\/Artigo2 .
+lex:D6089\/Artigo2    lex:temConteudo    "Art. 2o  Ficam fixados os seguintes percentuais mínimos dos cargos do Corpo de Intendentes da Marinha e do Corpo de Saúde da Marinha, que deverão ser ocupados exclusivamente por oficiais do sexo masculino:" .
+lex:D6089\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6089\/Artigo2    lex:temInciso    lex:D6089\/Artigo2\/IncisoI .
+lex:D6089\/Artigo2\/IncisoI    lex:temConteudo    "I - CORPO DE INTENDENTES DA MARINHA" .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Intendentes da Marinha - 100%" .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Intendentes da Marinha - 0%" .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Médicos - 26%;" .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões-Dentistas - 21%;" .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D6089\/Artigo2\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Apoio à Saúde - 27%." .
+lex:D6089\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6089\/Artigo2    lex:temParagrafo    lex:D6089\/Artigo2\/Paragrafo1 .
+lex:D6089\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os percentuais mínimos ora estabelecidos deverão ser observados por ocasião do ingresso de oficiais nos referidos Corpos e Quadros, a fim de garantir a aplicação do caput deste artigo." .
+lex:D6089\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6089\/Artigo2    lex:temParagrafo    lex:D6089\/Artigo2\/Paragrafo2 .
+lex:D6089\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Na admissão aos Quadros de Médicos, Cirurgiões-Dentistas e de Apoio à Saúde, ficará a critério do Comandante da Marinha redistribuir, por especialidades de interesse da Marinha, as parcelas dos percentuais fixados no inciso II deste artigo." .
+lex:D6089\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6089    lex:temArtigo    lex:D6089\/Artigo3 .
+lex:D6089\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4839    lex:ehUm    lex:DocLegal .
+lex:D4839    lex:temTextoIntegral    lex:HTMLs\/D4839.htm .
+lex:D4839\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4839    lex:temArtigo    lex:D4839\/Artigo1 .
+lex:D4839\/Artigo1    lex:temConteudo    "Art. 1o  O inciso I do art. 3o do Decreto no 3.277, de 7 de dezembro de 1999, passa a vigorar com a seguinte redação:" .
+lex:D4839\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4839    lex:temArtigo    lex:D4839\/Artigo2 .
+lex:D4839\/Artigo2    lex:temConteudo    "Art. 2o  Até que seja concluído o processo de liquidação da Rede Ferroviária Federal S.A. - RFFSA e da Empresa Brasileira de Planejamento de Transportes - GEIPOT, poderá ser autorizada, pelo Ministro de Estado dos Transportes, a cessão temporária de empregados das entidades liquidandas, com ônus integral para o cessionário, para órgãos da administração pública federal, estadual ou municipal, ouvido previamente os respectivos Liquidantes." .
+lex:D4839\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4839    lex:temArtigo    lex:D4839\/Artigo3 .
+lex:D4839\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4839\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4839    lex:temArtigo    lex:D4839\/Artigo4 .
+lex:D4839\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o parágrafo único do art. 4o do Decreto no 4.135, de 20 de fevereiro de 2002." .
+lex:D4839\/Artigo1    lex:remetePara    lex:D3277\/Artigo3 .
+lex:D4839\/Artigo4    lex:remetePara    lex:D4135\/Artigo4 .

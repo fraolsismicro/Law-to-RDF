@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13372    lex:ehUm    lex:DocLegal .
+lex:L13372    lex:temTextoIntegral    lex:HTMLs\/L13372.htm .
+lex:L13372\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13372    lex:temArtigo    lex:L13372\/Artigo1 .
+lex:L13372\/Artigo1    lex:temConteudo    "Art. 1 º  Fica aberto ao Orçamento da Seguridade Social da União (Lei n º 13.255, de 14 de janeiro de 2016), em favor do Ministério da Saúde, crédito suplementar no valor de R$ 1.700.000.000,00 (um bilhão e setecentos milhões de reais), para atender à programação constante do Anexo I." .
+lex:L13372\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13372    lex:temArtigo    lex:L13372\/Artigo2 .
+lex:L13372\/Artigo2    lex:temConteudo    "Art. 2 º  Os recursos necessários à abertura do crédito de que trata o art. 1 º decorrem de:" .
+lex:L13372\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13372\/Artigo2    lex:temInciso    lex:L13372\/Artigo2\/IncisoI .
+lex:L13372\/Artigo2\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no balanço patrimonial do exercício de 2015, no valor de R$ 1.412.600.000,00 (um bilhão, quatrocentos e doze milhões e seiscentos mil reais), sendo:" .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13372\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temConteudo    "a) R$ 100.728.000,00 (cem milhões, setecentos e vinte e oito mil reais) de Recursos Próprios Não Financeiros;" .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 664.977.000,00 (seiscentos e sessenta e quatro milhões, novecentos e setenta e sete mil reais) de Contribuição para Financiamento da Seguridade Social - Cofins;" .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 15.178.000,00 (quinze milhões, cento e setenta e oito mil reais) de Recursos Próprios Financeiros; e" .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13372\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 631.717.000,00 (seiscentos e trinta e um milhões, setecentos e dezessete mil reais) de Outras Receitas Vinculadas; e" .
+lex:L13372\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13372\/Artigo2    lex:temInciso    lex:L13372\/Artigo2\/IncisoII .
+lex:L13372\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 287.400.000,00 (duzentos e oitenta e sete milhões e quatrocentos mil reais), conforme indicado no Anexo II." .
+lex:L13372\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13372    lex:temArtigo    lex:L13372\/Artigo3 .
+lex:L13372\/Artigo3    lex:temConteudo    "Art. 3 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13372\/Artigo1    lex:remetePara    lex:L13255 .

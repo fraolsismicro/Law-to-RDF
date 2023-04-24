@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3815    lex:ehUm    lex:DocLegal .
+lex:D3815    lex:temTextoIntegral    lex:HTMLs\/D3815.htm .
+lex:D3815\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3815    lex:temArtigo    lex:D3815\/Artigo1 .
+lex:D3815\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas, da Casa Civil da Presidência da República, na parte referente à organização da Imprensa Nacional, na forma do Anexo II a este Decreto." .
+lex:D3815\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3815    lex:temArtigo    lex:D3815\/Artigo2 .
+lex:D3815\/Artigo2    lex:temConteudo    "Art. 2o  A Imprensa Nacional, órgão específico singular, integrante da estrutura básica da Casa Civil da Presidência da República, a que se refere o art. 2o da Lei no 9.649, de 27 de maio de 1998, diretamente subordinado à Secretaria-Executiva, tem por finalidade publicar e divulgar os atos oficiais da Administração Pública Federal." .
+lex:D3815\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3815\/Artigo2    lex:temInciso    lex:D3815\/Artigo2\/IncisoI .
+lex:D3815\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, provenientes da extinção de órgãos da Administração Pública Federal, para a Casa Civil da Presidência da República, a serem alocados na Imprensa Nacional, três DAS 101.4, três DAS 101.3, um DAS 102.3, quinze DAS 102.2, e sete DAS 102.1; e" .
+lex:D3815\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3815\/Artigo2    lex:temInciso    lex:D3815\/Artigo2\/IncisoII .
+lex:D3815\/Artigo2\/IncisoII    lex:temConteudo    "II - da Casa Civil da Presidência da República, alocados na Imprensa Nacional, para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, oito DAS 101.2, um DAS 101.1, e quinze FG-3." .
+lex:D3815\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3815    lex:temArtigo    lex:D3815\/Artigo4 .
+lex:D3815\/Artigo4    lex:temConteudo    "Art. 4o  O Regimento Interno da Imprensa Nacional será aprovado pelo Ministro de Estado Chefe da Casa Civil da Presidência da República e publicado no Diário Oficial da União, no prazo de vinte dias, contado da data de publicação deste Decreto." .
+lex:D3815\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3815\/Artigo4    lex:temParagrafo    lex:D3815\/Artigo4\/ParagrafoUnico .
+lex:D3815\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos, previstos no caput deste artigo, o Ministro de Estado Chefe da Casa Civil da Presidência da República fará publicar, no Diário Oficial da União, no prazo de quarenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D3815\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D3815    lex:temArtigo    lex:D3815\/Artigo6 .
+lex:D3815\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3815\/Artigo6\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D3815\/Artigo6    lex:temAlinea    lex:D3815\/Artigo6\/AlineaQUADRO .
+lex:D3815\/Artigo6\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA IMPRENSA NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D3815\/Artigo6\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D3815\/Artigo6    lex:temAlinea    lex:D3815\/Artigo6\/AlineaQUADRO .
+lex:D3815\/Artigo6\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA IMPRENSA NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D3815\/Artigo2    lex:remetePara    lex:L9649cons\/Artigo2 .
+lex:D3815\/AnexoII    lex:remetePara    lex:D4323\/ .
+lex:D3815\/AnexoII    lex:remetePara    lex:D4374\/ .

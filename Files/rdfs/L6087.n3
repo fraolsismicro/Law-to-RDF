@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6087    lex:ehUm    lex:DocLegal .
+lex:L6087    lex:temTextoIntegral    lex:HTMLs\/L6087.htm .
+lex:L6087\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6087    lex:temArtigo    lex:L6087\/Artigo1 .
+lex:L6087\/Artigo1    lex:temConteudo    "Art 1º O § 3º do Artigo 654 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei número 5.452 de 1º de maio de 1943, passa a vigorar com a seguinte redação:" .
+lex:L6087\/Artigo1\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:L6087\/Artigo1    lex:temParagrafo    lex:L6087\/Artigo1\/ParagrafoOs .
+lex:L6087\/Artigo1\/ParagrafoOs    lex:temConteudo    "3º Os Juízes Substitutos serão nomeados após aprovação em concurso público de provas e títulos realizado perante o Tribunal Regional do Trabalho da Região, válido por dois anos e prorrogável, a critério do mesmo órgão, por igual período, uma só vez, e organizado de acordo com as instruções expedidas pelo Tribunal Superior do Trabalho'." .
+lex:L6087\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6087    lex:temArtigo    lex:L6087\/Artigo2 .
+lex:L6087\/Artigo2    lex:temConteudo    "Art 2º Ficam prorrogados por dois anos os prazos de validade dos concursos para provimento de cargos de Juízes Substitutos do Trabalho homologados nos dois anos anteriores à vigência desta Lei. (Vide Lei nº 6.400. de 1976)" .
+lex:L6087\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6087    lex:temArtigo    lex:L6087\/Artigo3 .
+lex:L6087\/Artigo3    lex:temConteudo    "Art 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6087\/Texto00001    lex:remetePara    lex:Del5452\/Artigo654\/Paragrafo3 .
+lex:L6087\/Artigo2    lex:remetePara    lex:L6400\/Artigo1 .

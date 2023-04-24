@@ -1,0 +1,106 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8668    lex:ehUm    lex:DocLegal .
+lex:D8668    lex:temTextoIntegral    lex:HTMLs\/D8668.htm .
+lex:D8668\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo1 .
+lex:D8668\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e Funções de Confiança do Ministério da Justiça, na forma dos Anexos I e II." .
+lex:D8668\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo2 .
+lex:D8668\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8668\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo2    lex:temInciso    lex:D8668\/Artigo2\/IncisoI .
+lex:D8668\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério da Justiça para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.6;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:temConteudo    "b) dois DAS 101.5;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete    lex:temConteudo    "c) sete DAS 101.4;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois    lex:temConteudo    "d) dois DAS 102.5;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis    lex:temConteudo    "e) seis DAS 102.4;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis    lex:temConteudo    "f) dezesseis DAS 102.3;" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete    lex:temConteudo    "g) dezessete DAS 102.2; e" .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete\/IncisoAlineaDezessete    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete\/IncisoAlineaDezessete .
+lex:D8668\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaSete\/IncisoAlineaDois\/IncisoAlineaSeis\/IncisoAlineaDezesseis\/IncisoAlineaDezessete\/IncisoAlineaDezessete    lex:temConteudo    "h) dezessete DAS 102.1; e" .
+lex:D8668\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo2    lex:temInciso    lex:D8668\/Artigo2\/IncisoII .
+lex:D8668\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para o Ministério da Justiça:" .
+lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete .
+lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete    lex:temConteudo    "a) sete DAS 101.3; e" .
+lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete\/IncisoAlineaDois .
+lex:D8668\/Artigo2\/IncisoII\/IncisoAlineaSete\/IncisoAlineaDois    lex:temConteudo    "b) dois DAS 101.1." .
+lex:D8668\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo3 .
+lex:D8668\/Artigo3    lex:temConteudo    "Art. 3o  Ficam alocadas no Departamento de Polícia Rodoviária Federal do Ministério da Justiça as seguintes Funções Comissionadas do Departamento de Polícia Rodoviária Federal - FCPRF:" .
+lex:D8668\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo3    lex:temInciso    lex:D8668\/Artigo3\/IncisoI .
+lex:D8668\/Artigo3\/IncisoI    lex:temConteudo    "I - seis FCPRF-4; e" .
+lex:D8668\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo3    lex:temInciso    lex:D8668\/Artigo3\/IncisoII .
+lex:D8668\/Artigo3\/IncisoII    lex:temConteudo    "II - oito FCPRF-3." .
+lex:D8668\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo4 .
+lex:D8668\/Artigo4    lex:temConteudo    "Art. 4o  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do Ministério da Justiça por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D8668\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo5 .
+lex:D8668\/Artigo5    lex:temConteudo    "Art. 5o  Os apostilamentos decorrentes das alterações promovidas deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D8668\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8668\/Artigo5    lex:temParagrafo    lex:D8668\/Artigo5\/ParagrafoUnico .
+lex:D8668\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado da Justiça fará publicar no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis." .
+lex:D8668\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo6 .
+lex:D8668\/Artigo6    lex:temConteudo    "Art. 6o  O Ministro de Estado da Justiça poderá editar  regimentos internos detalhando a estrutura dos órgãos, as competências das suas unidades e as atribuições de seus dirigentes." .
+lex:D8668\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo7 .
+lex:D8668\/Artigo7    lex:temConteudo    "Art. 7o  As Funções Comissionadas Técnicas alocadas na estrutura do Ministério da Justiça ficam divulgadas na forma do Anexo IV." .
+lex:D8668\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo8 .
+lex:D8668\/Artigo8    lex:temConteudo    "Art. 8o  Ficam mantidas, na Defensoria Pública da União, a atual estrutura de cargos em comissão e as Funções Comissionadas Técnicas previstas, respectivamente, nos Anexos V e VI." .
+lex:D8668\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8668\/Artigo8    lex:temParagrafo    lex:D8668\/Artigo8\/Paragrafo1 .
+lex:D8668\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1o  Não se aplica aos cargos em comissão da Defensoria Pública da União o disposto nos art. 4o e art. 5o." .
+lex:D8668\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8668\/Artigo8    lex:temParagrafo    lex:D8668\/Artigo8\/Paragrafo2 .
+lex:D8668\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2 º  Os cargos em comissão e as Funções Comissionadas Técnicas previstos nos Anexos V e VI serão remanejados para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão na data de entrada em vigor da estrutura própria de cargos em comissão da Defensoria Pública da União, ficando seus ocupantes automaticamente exonerados." .
+lex:D8668\/Artigo8\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8668\/Artigo8    lex:temParagrafo    lex:D8668\/Artigo8\/Paragrafo3 .
+lex:D8668\/Artigo8\/Paragrafo3    lex:temConteudo    "§ 3o  Os cargos em comissão e as Funções Comissionadas Técnicas previstos nos Anexos V e VI serão geridos segundo as normas da Defensoria Pública da União." .
+lex:D8668\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo9 .
+lex:D8668\/Artigo9    lex:temConteudo    "Art. 9o  Este Decreto entra em vigor vinte e oito dias após a data de sua publicação." .
+lex:D8668\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo9 .
+lex:D8668\/Artigo9    lex:temConteudo    "Art. 9º Este Decreto entra em vigor no dia 5 de abril de 2016.         (Redação dada pelo Decreto nº 8.689, de 2016)" .
+lex:D8668\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D8668    lex:temArtigo    lex:D8668\/Artigo10 .
+lex:D8668\/Artigo10    lex:temConteudo    "Art. 10.  Ficam revogados:" .
+lex:D8668\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo10    lex:temInciso    lex:D8668\/Artigo10\/IncisoI .
+lex:D8668\/Artigo10\/IncisoI    lex:temConteudo    "I - o Decreto no 4.826, de 2 de setembro de 2003; e" .
+lex:D8668\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8668\/Artigo10    lex:temInciso    lex:D8668\/Artigo10\/IncisoII .
+lex:D8668\/Artigo10\/IncisoII    lex:temConteudo    "II - o Decreto no 6.061, de 15 de março de 2007." .
+lex:D8668\/Artigo9    lex:remetePara    lex:D8689\/Artigo1 .
+lex:D8668\/Artigo10\/IncisoI    lex:remetePara    lex:D4826 .
+lex:D8668\/Artigo10\/IncisoII    lex:remetePara    lex:D6061 .

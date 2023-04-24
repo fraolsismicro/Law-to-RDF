@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2053    lex:ehUm    lex:DocLegal .
+lex:Del2053    lex:temTextoIntegral    lex:HTMLs\/Del2053.htm .
+lex:Del2053\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2053    lex:temArtigo    lex:Del2053\/Artigo1 .
+lex:Del2053\/Artigo1    lex:temConteudo    "Art. 1º - É concedida isenção da Taxa do Melhoramento dos Portos às obras de arte importadas para exibição em Bienais Internacionais de Artes Plásticas, realizadas sob auspícios da Fundação Bienal de São Paulo." .
+lex:Del2053\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2053\/Artigo1    lex:temParagrafo    lex:Del2053\/Artigo1\/ParagrafoUnico .
+lex:Del2053\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A isenção alcança também os materiais informativos e de propaganda referentes às obras de arte de que trata este artigo." .
+lex:Del2053\/Artigo1\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:Del2053\/Artigo1    lex:temParagrafo    lex:Del2053\/Artigo1\/Paragrafo- .
+lex:Del2053\/Artigo1\/Paragrafo-    lex:temConteudo    "Art.2º - O Ministro da Fazenda poderá estabelecer termos, limites e condições para o gozo de isenção." .
+lex:Del2053\/Artigo1\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:Del2053\/Artigo1    lex:temParagrafo    lex:Del2053\/Artigo1\/Paragrafo- .
+lex:Del2053\/Artigo1\/Paragrafo-    lex:temConteudo    "Art.3º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3394    lex:ehUm    lex:DocLegal .
+lex:D3394    lex:temTextoIntegral    lex:HTMLs\/D3394.htm .
+lex:D3394\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3394    lex:temArtigo    lex:D3394\/Artigo1 .
+lex:D3394\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 13, 18 e 36 do Estatuto Social da Casa da Moeda do Brasil - CMB, aprovado pelo Decreto no 2.122, de 13 de janeiro de 1997, alterado pelos Decretos nos 2.325, de 17 de setembro de 1997, e 2.476, de 27 de janeiro de 1998, passam a vigorar com as seguintes alterações:" .
+lex:D3394\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3394\/Artigo1    lex:temParagrafo    lex:D3394\/Artigo1\/ParagrafoUnico .
+lex:D3394\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Compete ao Ministro de Estado da Fazenda decidir sobre as matérias constantes do art. 1o do Decreto no 1.091, de 21 de março de 1994.' (NR)" .
+lex:D3394\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3394\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3394\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI .
+lex:D3394\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI    lex:temConteudo    "XI - elaborar, em cada exercício, o Relatório da Administração, o Balanço Patrimonial, a Demonstração do Resultado do Exercício, a Demonstração de Mutações do Patrimônio Líquido, a Demonstração das Origens e Aplicações de Recursos, as notas explicativas e a proposta de destinação dos resultados, a serem submetidos à deliberação do Conselho de Administração e à manifestação do Conselho Fiscal;" .
+lex:D3394\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3394\/Artigo1    lex:temParagrafo    lex:D3394\/Artigo1\/Paragrafo1 .
+lex:D3394\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Deverá ser recolhido ao Tesouro Nacional valor não inferior a 25% do lucro líquido apurado no balanço, diminuído ou acrescido dos lucros ou prejuízos acumulados e da quota destinada à reserva legal." .
+lex:D3394\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3394\/Artigo1    lex:temParagrafo    lex:D3394\/Artigo1\/Paragrafo2 .
+lex:D3394\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Sobre os valores dos dividendos e dos juros, a título de remuneração sobre o capital próprio, devidos ao Tesouro Nacional, incidirão encargos financeiros equivalentes à taxa do Sistema Especial de Liquidação e Custódia - SELIC, a partir do encerramento do exercício social até o dia do efetivo recolhimento ou pagamento, sem prejuízo da incidência de juros moratórios quando esse recolhimento não se verificar na data fixada pelo Conselho de Administração." .
+lex:D3394\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3394\/Artigo1    lex:temParagrafo    lex:D3394\/Artigo1\/Paragrafo3 .
+lex:D3394\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os valores antecipados pela empresa ao Tesouro, a título de dividendos ou juros sobre o capital próprio, serão corrigidos pela taxa SELIC, desde a data do efetivo pagamento até o encerramento do respectivo exercício social." .
+lex:D3394\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D3394\/Artigo1    lex:temParagrafo    lex:D3394\/Artigo1\/Paragrafo4 .
+lex:D3394\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  Sobre os recursos transferidos pela União, para fins de aumento do capital da empresa, incidirão encargos financeiros equivalentes à taxa SELIC, desde o dia da transferência até a data da capitalização.' (NR)" .
+lex:D3394\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3394    lex:temArtigo    lex:D3394\/Artigo2 .
+lex:D3394\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3394\/Artigo1    lex:remetePara    lex:D2325 .
+lex:D3394\/Artigo1    lex:remetePara    lex:D2476 .
+lex:D3394\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D2122\/Artigo13 .
+lex:D3394\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI    lex:remetePara    lex:D2122\/Artigo18 .
+lex:D3394\/Artigo1\/Paragrafo1    lex:remetePara    lex:D2122\/Artigo36\/Paragrafo1 .
+lex:D3394\/Artigo1\/Paragrafo2    lex:remetePara    lex:D2122\/Artigo36\/Paragrafo2 .
+lex:D3394\/Artigo1\/Paragrafo3    lex:remetePara    lex:D2122\/Artigo36\/Paragrafo3 .
+lex:D3394\/Artigo1\/Paragrafo4    lex:remetePara    lex:D2122\/Artigo36\/Paragrafo4 .

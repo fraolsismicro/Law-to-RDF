@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2380    lex:ehUm    lex:DocLegal .
+lex:Del2380    lex:temTextoIntegral    lex:HTMLs\/Del2380.htm .
+lex:Del2380\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2380    lex:temArtigo    lex:Del2380\/Artigo1 .
+lex:Del2380\/Artigo1    lex:temConteudo    "Art. 1º A Tabela de Escalonamento Vertical, de que trata o artigo 1º do Decreto-lei nº 1.447, de 13 de fevereiro de 1976, fica substituída pela Tabela anexa a este decreto-lei." .
+lex:Del2380\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2380    lex:temArtigo    lex:Del2380\/Artigo2 .
+lex:Del2380\/Artigo2    lex:temConteudo    "Art. 2º O artigo 148 da Lei nº 5.787, de 27 de junho de 1972, passa a vigorar acrescido de um § 2º, renumerando-se o atual parágrafo único para § 1º:" .
+lex:Del2380\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:Del2380\/Artigo2    lex:temParagrafo    lex:Del2380\/Artigo2\/Paragraf .
+lex:Del2380\/Artigo2\/Paragraf    lex:temConteudo    "1º ..........................................................................................................." .
+lex:Del2380\/Artigo2\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:Del2380\/Artigo2    lex:temParagrafo    lex:Del2380\/Artigo2\/ParagrafoO .
+lex:Del2380\/Artigo2\/ParagrafoO    lex:temConteudo    "2º O valor do soldo de Almirante-de-Esquadra não poderá ser inferior ao dos vencimentos mensais de que trata o artigo 156, desta lei.'" .
+lex:Del2380\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2380    lex:temArtigo    lex:Del2380\/Artigo3 .
+lex:Del2380\/Artigo3    lex:temConteudo    "Art. 3º A despesa decorrente da aplicação deste decreto-lei será atendida à conta das dotações constantes do Orçamento Geral da União." .
+lex:Del2380\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2380    lex:temArtigo    lex:Del2380\/Artigo4 .
+lex:Del2380\/Artigo4    lex:temConteudo    "Art. 4º Este decreto-lei entrará em vigor a partir de 1º de janeiro de 1988." .
+lex:Del2380\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2380    lex:temArtigo    lex:Del2380\/Artigo5 .
+lex:Del2380\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:Del2380\/Artigo1    lex:remetePara    lex:Del1447\/Artigo1 .
+lex:Del2380\/Artigo2\/ParagrafoO    lex:remetePara    lex:L5787\/Artigo148\/Paragrafo2 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:del1862    lex:ehUm    lex:DocLegal .
+lex:del1862    lex:temTextoIntegral    lex:HTMLs\/del1862.htm .
+lex:del1862\/Artigo1    lex:ehUm    lex:Artigo .
+lex:del1862    lex:temArtigo    lex:del1862\/Artigo1 .
+lex:del1862\/Artigo1    lex:temConteudo    "Art. 1º - Fica o Poder Executivo autorizado a elevar o capital do Banco Nacional do Desenvolvimento Econômico - BNDE para Cr$120.000.000.000,00 (cento e vinte bilhões de cruzeiros), integralmente subscrito pela União." .
+lex:del1862\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:del1862\/Artigo1    lex:temParagrafo    lex:del1862\/Artigo1\/Paragrafo1 .
+lex:del1862\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Para atender ao aumento de capital autorizado neste artigo, o Poder Executivo transferirá ao Banco Nacional do Desenvolvimento Econômico - BNDE ações preferenciais, sem direito a voto, representativas de participação da União em sociedades de economia mista." .
+lex:del1862\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:del1862\/Artigo1    lex:temParagrafo    lex:del1862\/Artigo1\/Paragrafo2 .
+lex:del1862\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - A transferência prevista no parágrafo anterior efetivar-se-á mediante a lavratura de termo na Procuradoria-Geral da Fazenda Nacional, de acordo com o disposto no artigo 10, itens V, alínea b, e VII, do Decreto-lei nº 147, de 3 de fevereiro de 1967, tomando-se como valor básico a cotação média do dia em que se realizar a operação." .
+lex:del1862\/Artigo2    lex:ehUm    lex:Artigo .
+lex:del1862    lex:temArtigo    lex:del1862\/Artigo2 .
+lex:del1862\/Artigo2    lex:temConteudo    "Art. 2º - O presente Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:del1862\/Artigo1\/Paragrafo2    lex:remetePara    lex:del0147\/Artigo10 .
+lex:del1862\/Artigo1\/Paragrafo2    lex:remetePara    lex:del0147\/Artigo10 .

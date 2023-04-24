@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11968    lex:ehUm    lex:DocLegal .
+lex:L11968    lex:temTextoIntegral    lex:HTMLs\/L11968.htm .
+lex:L11968\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11968    lex:temArtigo    lex:L11968\/Artigo1 .
+lex:L11968\/Artigo1    lex:temConteudo    "Art. 1o  Inclua-se na relação descritiva das rodovias do Sistema Rodoviário Federal, integrante do Anexo do Plano Nacional de Viação, aprovado pela Lei no 5.917, de 10 de setembro de 1973, o seguinte trecho rodoviário:" .
+lex:L11968\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11968\/Artigo1    lex:temParagrafo    lex:L11968\/Artigo1\/ParagrafoUnico .
+lex:L11968\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A nomenclatura do novo trecho rodoviário será definida pelo órgão do Poder Executivo responsável pelas questões atinentes ao Plano Nacional de Viação." .
+lex:L11968\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11968    lex:temArtigo    lex:L11968\/Artigo2 .
+lex:L11968\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11968\/Artigo1    lex:remetePara    lex:L5917\/222 .

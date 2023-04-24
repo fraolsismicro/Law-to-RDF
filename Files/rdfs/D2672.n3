@@ -1,0 +1,73 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2672    lex:ehUm    lex:DocLegal .
+lex:D2672    lex:temTextoIntegral    lex:HTMLs\/D2672.htm .
+lex:D2672\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2672    lex:temArtigo    lex:D2672\/Artigo1 .
+lex:D2672\/Artigo1    lex:temConteudo    "Art 1º Os arts. 5º, 6º, 10, 11, 12, 16, 17, 26, 28 e 29 do Estatuto da Empresa Gerencial de Projetos Navais - EMGEPRON, aprovado pelo Decreto nº 98.160, de 21 de setembro de 1989, passam a vigorar com a seguinte redação:" .
+lex:D2672\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoUnico .
+lex:D2672\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Ministro de Estado da Marinha especificará os recursos que devem ser levados à conta capital na forma da legislação em vigor.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2672\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D2672\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D2672\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - designados:" .
+lex:D2672\/Artigo1\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoOs .
+lex:D2672\/Artigo1\/ParagrafoOs    lex:temConteudo    "5º Os Conselheiros de Administração perceberão remuneração a ser fixada pelo Ministro de Estado da Marinha, observado o disposto na Lei nº 9.292, de 12 de julho de 1996.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D2672\/Artigo1\/ParagrafoOs    lex:temParagrafoInciso    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temConteudo    "X - deliberar, após anuência do Ministério da Fazenda, sobre:" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAlienacao    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAlienacao .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAlienacao    lex:temConteudo    "a) alienação de ações do capital social;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAbertura    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAbertura .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAbertura    lex:temConteudo    "b) abertura do capital;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAumento    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAumento .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaAumento    lex:temConteudo    "c) aumento do capital social por subscrição de novas ações;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaRenuncia    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaRenuncia .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaRenuncia    lex:temConteudo    "d) renúncia a direitos de subscrição;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaLancamento    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaLancamento .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaLancamento    lex:temConteudo    "e) lançamento de debêntures conversíveis em ações;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaVenda    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaVenda .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaVenda    lex:temConteudo    "f) venda de debêntures conversíveis em ações;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaEmissao    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaEmissao .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaEmissao    lex:temConteudo    "g) emissão de quaisquer títulos ou valores mobiliários, no País ou no exterior;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaCisao    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaCisao .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaCisao    lex:temConteudo    "h) cisão, fusão ou incorporação de empresas;" .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaPermuta    lex:ehUm    lex:Alinea .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX    lex:temAlinea    lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaPermuta .
+lex:D2672\/Artigo1\/ParagrafoOs\/ParagrafoIncisoX\/AlineaPermuta    lex:temConteudo    "i) permuta de ações ou outros valores mobiliários.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoAlem .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:temConteudo    "4º Além das demais hipóteses previstas em lei, considerar-se-á vago o cargo de membro do Conselho de Administração que, sem causa justificada, deixar de exercer suas funções por mais de 2 (duas) reuniões consecutivas ou três alternadas.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoOs .
+lex:D2672\/Artigo1\/ParagrafoOs    lex:temConteudo    "6º Os Conselheiros Fiscais perceberão remuneração a ser fixada pelo Ministro de Estado da Marinha, observado o disposto na Lei nº 9.292, de 1996.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoAlem .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:temConteudo    "3º Além das demais hipóteses previstas em lei, considerar-se-á vago o cargo de membro do Conselho Fiscal que, sem causa justificada, deixar de exercer suas funções por mais de duas reuniões consecutivas ou três alternadas.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:temParagrafoInciso    lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoI .
+lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoI    lex:temConteudo    "I - cinco por cento para a constituição da reserva legal, até que alcance vinte por cento do capital social; e" .
+lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2672\/Artigo1\/ParagrafoAlem    lex:temParagrafoInciso    lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoII .
+lex:D2672\/Artigo1\/ParagrafoAlem\/ParagrafoIncisoII    lex:temConteudo    "II - vinte e cinco por cento, no mínimo, para o pagamento de dividendos.'(NR)" .
+lex:D2672\/Artigo1\/ParagrafoA    lex:ehUm    lex:Paragrafo .
+lex:D2672\/Artigo1    lex:temParagrafo    lex:D2672\/Artigo1\/ParagrafoA .
+lex:D2672\/Artigo1\/ParagrafoA    lex:temConteudo    "7º A contratação de funcionários dar-se-á mediante a realização de concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargos em comissão de livre nomeação e exoneração '(NR)" .
+lex:D2672\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2672    lex:temArtigo    lex:D2672\/Artigo2 .
+lex:D2672\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .

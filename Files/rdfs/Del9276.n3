@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9276    lex:ehUm    lex:DocLegal .
+lex:Del9276    lex:temTextoIntegral    lex:HTMLs\/Del9276.htm .
+lex:Del9276\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9276    lex:temArtigo    lex:Del9276\/Artigo1 .
+lex:Del9276\/Artigo1    lex:temConteudo    "Art. 1º Fica suprimido o parágrafo único do art. 195 do Decreto-lei nº 7.404, de 22 de Março de 1945 (Lei do Impôsto de Consumo)." .
+lex:Del9276\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9276    lex:temArtigo    lex:Del9276\/Artigo2 .
+lex:Del9276\/Artigo2    lex:temConteudo    "Art. 2º Fica acrescentado ao artigo 200 do Decreto-lei referido no artigo anterior, o seguinte:" .
+lex:Del9276\/Artigo2\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:Del9276\/Artigo2    lex:temAlinea    lex:Del9276\/Artigo2\/AlineaDe .
+lex:Del9276\/Artigo2\/AlineaDe    lex:temConteudo    "a) de 10%, quando se verificar até quinze (15) dias da data da entrega do produto a consumo;" .
+lex:Del9276\/Artigo2\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:Del9276\/Artigo2    lex:temAlinea    lex:Del9276\/Artigo2\/AlineaDe .
+lex:Del9276\/Artigo2\/AlineaDe    lex:temConteudo    "b) de 20%, depois de quinze (15) até trinta (30) dias; e" .
+lex:Del9276\/Artigo2\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:Del9276\/Artigo2    lex:temAlinea    lex:Del9276\/Artigo2\/AlineaDe .
+lex:Del9276\/Artigo2\/AlineaDe    lex:temConteudo    "c) de 50%, depois de trinta (30) dias." .
+lex:Del9276\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del9276    lex:temArtigo    lex:Del9276\/Artigo3 .
+lex:Del9276\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del9276\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del9276    lex:temArtigo    lex:Del9276\/Artigo4 .
+lex:Del9276\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:Del9276\/Artigo1    lex:remetePara    lex:Del7404\/Artigo195 .
+lex:Del9276\/Artigo2    lex:remetePara    lex:Del7404\/Artigo200 .
+lex:Del9276\/Texto00002    lex:remetePara    lex:Del7404\/Artigo200 .

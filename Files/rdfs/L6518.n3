@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6518    lex:ehUm    lex:DocLegal .
+lex:L6518    lex:temTextoIntegral    lex:HTMLs\/L6518.htm .
+lex:L6518\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo1 .
+lex:L6518\/Artigo1    lex:temConteudo    "Art. 1º - Os atuais valores de vencimentos e proventos dos servidores ativos e inativos do Senado Federal, decorrentes da aplicação da Lei nº 6.409, de 29 de março de 1977, são reajustados em 38% (trinta e oito por cento)." .
+lex:L6518\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6518\/Artigo1    lex:temParagrafo    lex:L6518\/Artigo1\/ParagrafoUnico .
+lex:L6518\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Em decorrência do disposto neste artigo, os vencimentos do pessoal em atividade, constantes dos Anexos I e II da Lei nº 6.409, de 29 de março de 1977, passam a vigorar com os valores especificados nos Anexos I e II desta Lei." .
+lex:L6518\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo2 .
+lex:L6518\/Artigo2    lex:temConteudo    "Art. 2º - O salário-família passa a ser pago na importância de Cr$ 81,00 (oitenta e um cruzeiros) mensais, por dependente, a partir de 1º de março de 1978." .
+lex:L6518\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo3 .
+lex:L6518\/Artigo3    lex:temConteudo    "Art. 3º - Nos cálculos decorrentes da aplicação desta Lei, serão desprezadas as frações de cruzeiro, inclusive em relação aos descontos que incidirem no vencimento." .
+lex:L6518\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo4 .
+lex:L6518\/Artigo4    lex:temConteudo    "Art. 4º - O reajustamento de vencimentos e proventos, concedido pela presente Lei, vigora a partir de 1º de março de 1978." .
+lex:L6518\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo5 .
+lex:L6518\/Artigo5    lex:temConteudo    "Art. 5º - A despesa decorrente da aplicação desta Lei será atendida à conta das dotações constantes do Orçamento da União." .
+lex:L6518\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo6 .
+lex:L6518\/Artigo6    lex:temConteudo    "Art. 6º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6518\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6518    lex:temArtigo    lex:L6518\/Artigo7 .
+lex:L6518\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:L6518\/Texto    lex:remetePara    lex:L6626 .
+lex:L6518\/Artigo1    lex:remetePara    lex:L6409 .
+lex:L6518\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6409\/ .

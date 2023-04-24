@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1620    lex:ehUm    lex:DocLegal .
+lex:Del1620    lex:temTextoIntegral    lex:HTMLs\/Del1620.htm .
+lex:Del1620\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo1 .
+lex:Del1620\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores de vencimentos, salários e proventos do pessoal ativo e inativo dos Quadros Permanente e Suplementar da Justiça do Trabalho são reajustados em 38% (trinta e oito por cento)." .
+lex:Del1620\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1620\/Artigo1    lex:temParagrafo    lex:Del1620\/Artigo1\/ParagrafoUnico .
+lex:Del1620\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em decorrência do disposto neste artigo, os vencimentos e salários dos cargos efetivos, bem como as retribuições dos cargos em comissão, funções de direção e assistência intermediárias e representação mensal, do pessoal em atividade, passam a ser os constantes dos Anexos II, III e, no que couber, IV, do Decreto-lei nº 1.604, de 22 de fevereiro de 1978." .
+lex:Del1620\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo2 .
+lex:Del1620\/Artigo2    lex:temConteudo    "Art. 2º A reestruturação do Grupo Direção e Assessoramento Superiores e a classificação, na respectiva escala de níveis dos cargos que o integram, far-se-ão por ato da Presidência dos Tribunais, observados os níveis de classificação constantes do artigo 1º da Lei nº 5.843, de 06 de dezembro de 1972, com os valores reajustados na forma deste Decreto-lei e observados os limites dos recursos orçamentários próprios.  (Vide Lei nº 7.396, de 1985)" .
+lex:Del1620\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo3 .
+lex:Del1620\/Artigo3    lex:temConteudo    "Art. 3º O salário-família passa a ser pago na importância de Cr$81,00 (oitenta e um cruzeiros) por dependente, a partir de 1º de março de 1978." .
+lex:Del1620\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo4 .
+lex:Del1620\/Artigo4    lex:temConteudo    "Art. 4º Nos resultados dos cálculos decorrentes da aplicação deste Decreto-lei serão desprezadas as frações de cruzeiro, inclusive em relação aos descontos sobre os vencimentos, salários ou proventos." .
+lex:Del1620\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo5 .
+lex:Del1620\/Artigo5    lex:temConteudo    "Art. 5º O reajustamento de vencimentos, salários, gratificações e proventos, concedido por este Decreto-lei vigora a partir de 1º de março de 1978." .
+lex:Del1620\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo6 .
+lex:Del1620\/Artigo6    lex:temConteudo    "Art. 6º A despesa decorrente da aplicação deste Decreto-lei será atendida à conta das dotações constantes do orçamento da União." .
+lex:Del1620\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1620    lex:temArtigo    lex:Del1620\/Artigo7 .
+lex:Del1620\/Artigo7    lex:temConteudo    "Art. 7º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1620\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1604\/ .
+lex:Del1620\/Artigo2    lex:remetePara    lex:L5843\/Artigo1 .
+lex:Del1620\/Artigo2    lex:remetePara    lex:L7396\/Artigo4 .

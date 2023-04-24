@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2116    lex:ehUm    lex:DocLegal .
+lex:Del2116    lex:temTextoIntegral    lex:HTMLs\/Del2116.htm .
+lex:Del2116\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2116    lex:temArtigo    lex:Del2116\/Artigo1 .
+lex:Del2116\/Artigo1    lex:temConteudo    "Art. 1º A remuneração do Diplomata, agregado de conformidade com o artigo 4º, item VI, da Lei nº 5 887, de 31 de maio de 1973, é fixada na forma estabelecida no artigo 7º da Lei nº 5 809, de 10 de outubro de 1972, quando for do interesse do Governo brasileiro prestar colaboração ao Secretariado de organismo internacional no qual a funcionário exercer cargo ou comissão." .
+lex:Del2116\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2116\/Artigo1    lex:temParagrafo    lex:Del2116\/Artigo1\/ParagrafoUnico .
+lex:Del2116\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Da remuneração de que trata este artigo, será deduzido o valor correspondente ao montante global dos vencimentos, salários e quaisquer indenizações ou vantagens pecuniárias, em moeda estrangeira, percebidos pelo Diplomata do Organismo Internacional em que tenha exercício." .
+lex:Del2116\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2116    lex:temArtigo    lex:Del2116\/Artigo2 .
+lex:Del2116\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2116\/Artigo1    lex:remetePara    lex:L5887\/Artigo4 .
+lex:Del2116\/Artigo1    lex:remetePara    lex:L5809\/Artigo7 .

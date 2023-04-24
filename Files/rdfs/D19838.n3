@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D19838    lex:ehUm    lex:DocLegal .
+lex:D19838    lex:temTextoIntegral    lex:HTMLs\/D19838.htm .
+lex:D19838\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D19838    lex:temArtigo    lex:D19838\/Artigo1 .
+lex:D19838\/Artigo1    lex:temConteudo    "Art. 1º Para o efeito da aposentadoria dos funcionários públicos de qualquer categoria bastará uma única inspeção de saude, na forma da legislação em vigor, ficando revogado o art. 303 do decreto número 16.300, de 31 de dezembro de 1923." .
+lex:D19838\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D19838\/Artigo1    lex:temParagrafo    lex:D19838\/Artigo1\/ParagrafoUnico .
+lex:D19838\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso do laudo não reconhecer a invalidez nessa inspeção, o funcionário só poderá ser inspecionado novamente, decorrido o prazo de três meses, e a juízo do Governo." .
+lex:D19838\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D19838    lex:temArtigo    lex:D19838\/Artigo2 .
+lex:D19838\/Artigo2    lex:temConteudo    "Art. 2º Nos laudos de inspeção feita para o efeito de aposentadoria deverá constar, detalhadamente, a natureza e a sede do mal que invalidou o funcionário para o exercício das funções do seu cargo." .
+lex:D19838\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D19838    lex:temArtigo    lex:D19838\/Artigo3 .
+lex:D19838\/Artigo3    lex:temConteudo    "Art. 3º O Governo reserva-se o direito de sujeitar o interessado a uma segunda inspeção, por profissionais de sua imediata confiança e cuja designação será feita pelo titular da nesta a que pertencer a repartição em que serve n candidato à aposentadoria." .
+lex:D19838\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D19838    lex:temArtigo    lex:D19838\/Artigo4 .
+lex:D19838\/Artigo4    lex:temConteudo    "Art. 4º O presente decreto entrará em vigor na data de sua publicação; revogadas as disposições em contrário." .
+lex:D19838\/Texto    lex:revogadoPor    lex:Dnn0004-91\/Artigo4 .
+lex:Dnn0004-91\/Artigo4    lex:revogou    lex:D19838\/Texto .
+lex:D19838\/Texto    lex:remetePara    lex:D19838 .
+lex:D19838\/Artigo1    lex:remetePara    lex:D16300\/Artigo303 .

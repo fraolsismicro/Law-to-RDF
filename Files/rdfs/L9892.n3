@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9892    lex:ehUm    lex:DocLegal .
+lex:L9892    lex:temTextoIntegral    lex:HTMLs\/L9892.htm .
+lex:L9892\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9892    lex:temArtigo    lex:L9892\/Artigo1 .
+lex:L9892\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto aos Orçamentos Fiscal e da Seguridade Social da União (Lei no 9.789, de 23 de fevereiro de 1999), em favor do Senado Federal, do Ministério das Relações Exteriores e do Ministério da Defesa, crédito suplementar no valor global de R$ 115.771.900,00 (cento e quinze milhões, setecentos e setenta e um mil e novecentos reais), para atender às programações constantes do Anexo I desta Lei." .
+lex:L9892\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9892    lex:temArtigo    lex:L9892\/Artigo2 .
+lex:L9892\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior decorrerão de:" .
+lex:L9892\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9892\/Artigo2    lex:temInciso    lex:L9892\/Artigo2\/IncisoI .
+lex:L9892\/Artigo2\/IncisoI    lex:temConteudo    "I   excesso de arrecadação de recursos ordinários do Tesouro Nacional, no valor de R$ 109.371.900,00 (cento e nove milhões, trezentos e setenta e um mil e novecentos reais); e" .
+lex:L9892\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9892\/Artigo2    lex:temInciso    lex:L9892\/Artigo2\/IncisoII .
+lex:L9892\/Artigo2\/IncisoII    lex:temConteudo    "II   excesso de arrecadação de recursos não-financeiros diretamente arrecadados, no valor de R$ 6.400.000,00 (seis milhões e quatrocentos mil reais)." .
+lex:L9892\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9892    lex:temArtigo    lex:L9892\/Artigo3 .
+lex:L9892\/Artigo3    lex:temConteudo    "Art. 3o Em decorrência do disposto nos arts. 1o e 2o, fica alterada a receita do Fundo de Administração do Hospital das Forças Armadas, na forma indicada no Anexo II desta Lei, no montante especificado." .
+lex:L9892\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9892    lex:temArtigo    lex:L9892\/Artigo4 .
+lex:L9892\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9892\/Artigo1    lex:remetePara    lex:L9789 .

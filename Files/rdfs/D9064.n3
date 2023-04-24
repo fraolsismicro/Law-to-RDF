@@ -1,0 +1,105 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9064    lex:ehUm    lex:DocLegal .
+lex:D9064    lex:temTextoIntegral    lex:HTMLs\/D9064.htm .
+lex:D9064\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo1 .
+lex:D9064\/Artigo1    lex:temConteudo    "Art. 1 º  As políticas públicas direcionadas à agricultura familiar e aos empreendimentos familiares rurais deverá considerar a Unidade Familiar de Produção Agrária - UFPA, os empreendimentos familiares rurais e o Cadastro Nacional da Agricultura Familiar - CAF." .
+lex:D9064\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo2 .
+lex:D9064\/Artigo2    lex:temConteudo    "Art. 2 º  Para os fins deste Decreto, considera-se:" .
+lex:D9064\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoI .
+lex:D9064\/Artigo2\/IncisoI    lex:temConteudo    "I - Unidade Familiar de Produção Agrária - UFPA - conjunto de indivíduos composto por família que explore uma combinação de fatores de produção, com a finalidade de atender à própria subsistência e à demanda da sociedade por alimentos e por outros bens e serviços, e que resida no estabelecimento ou em local próximo a ele;" .
+lex:D9064\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoII .
+lex:D9064\/Artigo2\/IncisoII    lex:temConteudo    "II - família - unidade nuclear composta por um ou mais indivíduos, eventualmente ampliada por outros que contribuam para o rendimento ou que tenham suas despesas atendidas pela UFPA;" .
+lex:D9064\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoIII .
+lex:D9064\/Artigo2\/IncisoIII    lex:temConteudo    "III - estabelecimento - unidade territorial, contígua ou não, à disposição da UFPA, sob as formas de domínio ou posse admitidas em lei;" .
+lex:D9064\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoIV .
+lex:D9064\/Artigo2\/IncisoIV    lex:temConteudo    "IV - módulo fiscal - unidade de medida agrária para classificação fundiária do imóvel, expressa em hectares, a qual poderá variar conforme o Município, calculada pelo Instituto Nacional de Colonização e Reforma Agrária - Incra;" .
+lex:D9064\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoV .
+lex:D9064\/Artigo2\/IncisoV    lex:temConteudo    "V - imóvel agrário - área contínua, qualquer que seja a sua localização, destinada à atividade agrária; e" .
+lex:D9064\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo2    lex:temInciso    lex:D9064\/Artigo2\/IncisoVI .
+lex:D9064\/Artigo2\/IncisoVI    lex:temConteudo    "VI - empreendimento familiar rural - forma associativa ou individual da agricultura familiar instituída por pessoa jurídica, admitidos os seguintes arranjos:" .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa    lex:ehUm    lex:IncisoAlinea .
+lex:D9064\/Artigo2\/IncisoVI    lex:temIncisoAlinea    lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa    lex:temConteudo    "a) empresa familiar rural - aquela constituída com a finalidade de beneficiamento, processamento ou comercialização de produtos agropecuários, ou ainda para prestação de serviços de turismo rural, desde que formada exclusivamente por um ou mais agricultores familiares com inscrição ativa no CAF;" .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa    lex:ehUm    lex:IncisoAlinea .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa    lex:temIncisoAlinea    lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa    lex:temConteudo    "b) cooperativa singular da agricultura familiar - aquela que comprove que, no mínimo, sessenta por cento de seus cooperados são agricultores familiares com inscrição ativa no CAF;" .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa    lex:ehUm    lex:IncisoAlinea .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa    lex:temIncisoAlinea    lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa    lex:temConteudo    "c) cooperativa central da agricultura familiar - aquela constituída exclusivamente por cooperativas singulares da agricultura familiar com inscrição ativa no CAF; e" .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa\/IncisoAlineaAssociacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa    lex:temIncisoAlinea    lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa\/IncisoAlineaAssociacao .
+lex:D9064\/Artigo2\/IncisoVI\/IncisoAlineaEmpresa\/IncisoAlineaCooperativa\/IncisoAlineaCooperativa\/IncisoAlineaAssociacao    lex:temConteudo    "d) associação da agricultura familiar - aquela que comprove a totalidade dos associados com personalidade jurídica e com inscrição ativa no CAF e que possua o mínimo de sessenta por cento das pessoas físicas associadas com inscrição ativa no CAF ou demonstre ambas as situações no caso de composição mista." .
+lex:D9064\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo3 .
+lex:D9064\/Artigo3    lex:temConteudo    "Art. 3 º  A UFPA e o empreendimento familiar rural deverão atender aos seguintes requisitos:" .
+lex:D9064\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo3    lex:temInciso    lex:D9064\/Artigo3\/IncisoI .
+lex:D9064\/Artigo3\/IncisoI    lex:temConteudo    "I - possuir, a qualquer título, área de até quatro módulos fiscais;" .
+lex:D9064\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo3    lex:temInciso    lex:D9064\/Artigo3\/IncisoII .
+lex:D9064\/Artigo3\/IncisoII    lex:temConteudo    "II - utilizar, no mínimo, metade da força de trabalho familiar no processo produtivo e de geração de renda;" .
+lex:D9064\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo3    lex:temInciso    lex:D9064\/Artigo3\/IncisoIII .
+lex:D9064\/Artigo3\/IncisoIII    lex:temConteudo    "III - auferir, no mínimo, metade da renda familiar de atividades econômicas do seu estabelecimento ou empreendimento; e" .
+lex:D9064\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo3    lex:temInciso    lex:D9064\/Artigo3\/IncisoIV .
+lex:D9064\/Artigo3\/IncisoIV    lex:temConteudo    "IV - ser a gestão do estabelecimento ou do empreendimento estritamente familiar." .
+lex:D9064\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo3    lex:temParagrafo    lex:D9064\/Artigo3\/Paragrafo1 .
+lex:D9064\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1 º  O disposto no inciso I do caput não se aplica à UFPA e ao empreendimento familiar rural compostos por extrativistas, pescadores, povos indígenas, integrantes de comunidades remanescentes de quilombos e demais comunidades tradicionais." .
+lex:D9064\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo3    lex:temParagrafo    lex:D9064\/Artigo3\/Paragrafo2 .
+lex:D9064\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2 º  Na hipótese de pescadores artesanais, de aquicultores, de maricultores e de extrativistas que desenvolvam tais atividades não combinadas com produção agropecuária, para fins do cumprimento do inciso I do caput, a área do estabelecimento será considerada igual a zero." .
+lex:D9064\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo3    lex:temParagrafo    lex:D9064\/Artigo3\/Paragrafo3 .
+lex:D9064\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3 º  Ato da Secretaria Especial de Agricultura Familiar e do Desenvolvimento Agrário disporá sobre a composição da renda familiar para fins do disposto no inciso III do caput." .
+lex:D9064\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo4 .
+lex:D9064\/Artigo4    lex:temConteudo    "Art. 4 º  Fica instituído o Cadastro Nacional da Agricultura Familiar - CAF, destinado à identificação e à qualificação da UFPA e do empreendimento familiar rural." .
+lex:D9064\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo4    lex:temParagrafo    lex:D9064\/Artigo4\/Paragrafo1 .
+lex:D9064\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1 º  Compete à Secretaria Especial de Agricultura Familiar e do Desenvolvimento Agrário a implementação e a gestão do CAF." .
+lex:D9064\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo4    lex:temParagrafo    lex:D9064\/Artigo4\/Paragrafo2 .
+lex:D9064\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2 º  O cadastro ativo no CAF será requisito para acesso às ações e às políticas públicas destinadas à UFPA e ao empreendimento familiar rural." .
+lex:D9064\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo5 .
+lex:D9064\/Artigo5    lex:temConteudo    "Art. 5 º  Serão cadastrados no CAF:" .
+lex:D9064\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo5    lex:temInciso    lex:D9064\/Artigo5\/IncisoI .
+lex:D9064\/Artigo5\/IncisoI    lex:temConteudo    "I - os beneficiários que se enquadrarem nos requisitos estabelecidos no art. 3 º da Lei n º 11.326, de 24 de julho de 2006;" .
+lex:D9064\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo5    lex:temInciso    lex:D9064\/Artigo5\/IncisoII .
+lex:D9064\/Artigo5\/IncisoII    lex:temConteudo    "II - os assentados do Programa Nacional de Reforma Agrária - PNRA;" .
+lex:D9064\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo5    lex:temInciso    lex:D9064\/Artigo5\/IncisoIII .
+lex:D9064\/Artigo5\/IncisoIII    lex:temConteudo    "III - os beneficiários do Programa Nacional de Crédito Fundiário - PNCF; e" .
+lex:D9064\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9064\/Artigo5    lex:temInciso    lex:D9064\/Artigo5\/IncisoIV .
+lex:D9064\/Artigo5\/IncisoIV    lex:temConteudo    "IV - as demais UFPA e os empreendedores familiares rurais que explorem imóvel agrário em área urbana." .
+lex:D9064\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo6 .
+lex:D9064\/Artigo6    lex:temConteudo    "Art. 6 º  O CAF substituirá a Declaração de Aptidão ao Programa Nacional de Fortalecimento da Agricultura Familiar - Pronaf para fins de acesso às ações e às políticas públicas destinadas à UFPA e aos empreendimentos familiares rurais." .
+lex:D9064\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9064\/Artigo6    lex:temParagrafo    lex:D9064\/Artigo6\/ParagrafoUnico .
+lex:D9064\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Até que se conclua a implementação do CAF, a Declaração de Aptidão ao Pronaf permanece como instrumento de identificação e de qualificação da UFPA e dos empreendimentos familiares rurais." .
+lex:D9064\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D9064    lex:temArtigo    lex:D9064\/Artigo7 .
+lex:D9064\/Artigo7    lex:temConteudo    "Art. 7 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9064\/Texto    lex:remetePara    lex:L11326 .
+lex:D9064\/Artigo5\/IncisoI    lex:remetePara    lex:L11326\/Artigo3 .

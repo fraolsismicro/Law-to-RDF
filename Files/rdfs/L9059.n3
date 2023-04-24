@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9059    lex:ehUm    lex:DocLegal .
+lex:L9059    lex:temTextoIntegral    lex:HTMLs\/L9059.htm .
+lex:L9059\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9059    lex:temArtigo    lex:L9059\/Artigo1 .
+lex:L9059\/Artigo1    lex:temConteudo    "Art. 1º O art. 29 do Decreto-Lei nº 221, de 28 de fevereiro de 1967, passa a vigorar acrescido do seguinte parágrafo:" .
+lex:L9059\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L9059\/Artigo1    lex:temParagrafo    lex:L9059\/Artigo1\/Paragrafo4 .
+lex:L9059\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Ficam dispensados do pagamento da taxa de que trata o § 1º deste artigo, os aposentados e os maiores de sessenta e cinco anos, se do sexo masculino, e de sessenta anos, se do sexo feminino, que utilizem, para o exercício da pesca, linha de mão, caniço simples, caniço com molinete, empregados com anzóis simples ou múltiplos, e que não sejam filiados aos clubes ou associações referidos no art. 31, e desde que o exercício da pesca não importe em atividade comercial.'" .
+lex:L9059\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9059    lex:temArtigo    lex:L9059\/Artigo2 .
+lex:L9059\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9059\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9059    lex:temArtigo    lex:L9059\/Artigo3 .
+lex:L9059\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9059\/Artigo1\/Paragrafo4    lex:remetePara    lex:Del0221\/Artigo29\/Paragrafo4 .

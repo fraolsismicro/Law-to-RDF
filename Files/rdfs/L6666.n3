@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6666    lex:ehUm    lex:DocLegal .
+lex:L6666    lex:temTextoIntegral    lex:HTMLs\/L6666.htm .
+lex:L6666\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo1 .
+lex:L6666\/Artigo1    lex:temConteudo    "Art. 1º Para realizar a coleta de elementos necessários ao estudo e à produção de informações pertinentes aos censos gerais e demais programas que lhe incumbe legalmente, a Fundação Instituto Brasileiro de Geografia e Estatística - IBGE poderá contratar pessoal na forma desta Lei." .
+lex:L6666\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo2 .
+lex:L6666\/Artigo2    lex:temConteudo    "Art. 2º A prestação dos serviços de que trata o artigo 1º constitui trabalho de natureza eventual, não caracterizando relação de emprego." .
+lex:L6666\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo3 .
+lex:L6666\/Artigo3    lex:temConteudo    "Art. 3º O pessoal contratado nos termos desta Lei será investido pelo IBGE na função de agente credenciado e executará suas tarefas segundo as instruções e os prazos que forem estabelecidos pela entidade." .
+lex:L6666\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo4 .
+lex:L6666\/Artigo4    lex:temConteudo    "Art. 4º Os serviços realizados pelo agente credenciado serão retribuídos de acordo com sistema aprovado pela Secretaria de Planejamento da Presidência da República, observada sempre a dotação orçamentária específica de que trata o artigo 15 da Lei nº 5.878, de 11 de maio de 1973." .
+lex:L6666\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6666\/Artigo4    lex:temParagrafo    lex:L6666\/Artigo4\/ParagrafoUnico .
+lex:L6666\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A retribuição do agente credenciado será isenta de encargos sociais e só estará sujeita ao imposto de renda." .
+lex:L6666\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo5 .
+lex:L6666\/Artigo5    lex:temConteudo    "Art. 5º A utilização dos serviços de agente credenciado não poderá ultrapassar o prazo de um ano." .
+lex:L6666\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6666    lex:temArtigo    lex:L6666\/Artigo6 .
+lex:L6666\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6666\/Artigo4    lex:remetePara    lex:L5878\/Artigo15 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93071    lex:ehUm    lex:DocLegal .
+lex:D93071    lex:temTextoIntegral    lex:HTMLs\/D93071.htm .
+lex:D93071\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93071    lex:temArtigo    lex:D93071\/Artigo1 .
+lex:D93071\/Artigo1    lex:temConteudo    "Art. 1º - Ficam declaradas de ocupação dos indígenas Kaxinawá, para os efeitos dos artigos 4º, IV e 198 da Constituição, as terras localizadas no Município de Tarauacá, no Estado do Acre, com a seguinte delimitação: NORTE: Partindo do Ponto '1', de coordenadas geográficas aproximadas 08º14´15' S e 70º45´47' WGr, situado na confluência do Igarapé Dezoito no Rio Moru; daí, segue por uma linha reta de azimute e distância aproximados 95º e 8.400 m, até a cabeceira do Igarapé Extrema, no Ponto '2' de coordenadas geográficas aproximadas 08º14´40' S e 70º41´15' WGr, LESTE: Do Ponto '2', segue por uma linha reta de azimute e distância aproximados 130º e 4.900 m, até o Ponto '3' de coordenadas geográficas aproximadas 08º16´22' S e 70º39´12' WGr, situado na estaca 375 da divisa da Fazenda 'Cinco Estrêlas'; daí, segue pela divisa da citada fazenda de azimute e distância aproximados 138º e 4.700 m, até o Ponto '4' de coordenadas geográficas aproximadas 08º18´30' S e 70º37´30' WGr, situado na estaca 477 da divisa da Fazenda 'Cinco Estrêlas'; SUL: Do Ponto '4', segue por uma linha reta de azimute e distância aproximados 220º e 2.800 m, até a cabeceira do Igarapé sem denominação, no Ponto '5' de coordenada geográficas aproximadas 70º38´30' S e 08º19´26' WGr; daí, segue no sentido jusante pelo citado Igarapé até sua confluência do Igarapé Tamandaré, no Ponto '6' de coordenadas geográficas aproximadas 08º20´10' S e 70º39´10' WGr; daí, segue no sentido jusante pelo citado Igarapé até sua confluência no Rio Moru, no Ponto '7' de coordenadas geográficas aproximadas 70º45´10' S e 08º17´15' WGr; OESTE: Do Ponto '7', segue no sentido jusante pelo Rio Moru, até a confluência do Igarapé Dezoito, no Ponto '1' inicial da presente descrição." .
+lex:D93071\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93071\/Artigo1    lex:temParagrafo    lex:D93071\/Artigo1\/ParagrafoUnico .
+lex:D93071\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A área descrita neste artigo, denominada ÁREA INDÍGENA IGARAPÉ DO CAUCHO, será demarcada administrativamente, pela Fundação Nacional do Índio - FUNAI." .
+lex:D93071\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93071    lex:temArtigo    lex:D93071\/Artigo2 .
+lex:D93071\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D93071\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo4 .
+lex:D93071\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo198 .

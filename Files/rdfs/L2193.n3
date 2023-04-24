@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2193    lex:ehUm    lex:DocLegal .
+lex:L2193    lex:temTextoIntegral    lex:HTMLs\/L2193.htm .
+lex:L2193\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo1 .
+lex:L2193\/Artigo1    lex:temConteudo    "Art. 1º Os serviços a cargo da Superintendência das Emprêsas Incorporadas ao Patrimônio Nacional serão executados:" .
+lex:L2193\/Artigo1\/AlineaPor    lex:ehUm    lex:Alinea .
+lex:L2193\/Artigo1    lex:temAlinea    lex:L2193\/Artigo1\/AlineaPor .
+lex:L2193\/Artigo1\/AlineaPor    lex:temConteudo    "b) por pessoal empregado, que ficará sujeito ao regime de emprêgo previsto na Consolidação das Leis do Trabalho." .
+lex:L2193\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo2 .
+lex:L2193\/Artigo2    lex:temConteudo    "Art. 2º O pessoal mensalista é admitido exclusivamente para atender aos serviços da Superintendência." .
+lex:L2193\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo3 .
+lex:L2193\/Artigo3    lex:temConteudo    "Art. 3º O pessoal empregado é destinado a atender às necessidades dos serviços afetos às Emprêsas Subordinadas a Superintendência." .
+lex:L2193\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo4 .
+lex:L2193\/Artigo4    lex:temConteudo    "Art. 4º A admissão, movimentação, dispensa e demais atos relativos ao pessoal de que tratam os arts. 2º e 3º são da alçada do Superintendente." .
+lex:L2193\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo5 .
+lex:L2193\/Artigo5    lex:temConteudo    "Art. 5º Os atuais extranumerários da Superintendência e das Emprêsas Incorporadas ao Patrimônio Nacional, amparados pelo art. 23 do Ato das Disposições Transitórias da Constituição passam a integrar funções, extintas, quando vagarem, em tabela numérica de mensalista, parte suplementar do Ministério da Fazenda, até seu aproveitamento em cargos, assegurados pelos art. 257, da Lei nº 1.711, de 28 de outubro de 1952." .
+lex:L2193\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo6 .
+lex:L2193\/Artigo6    lex:temConteudo    "Art. 6º Os atuais quadros de pessoal da Superintendência e das Emprêsas subordinadas serão reorganizados a fim de se ajustarem às reais necessidades dos serviços e às responsabilidades financeiras." .
+lex:L2193\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo7 .
+lex:L2193\/Artigo7    lex:temConteudo    "Art. 7º A Superintendência e as Emprêsas Incorporadas ao Patrimônio Nacional estão incluídas na letra a do art. 139 da Lei nº 830, de 23 de setembro de 1949." .
+lex:L2193\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L2193    lex:temArtigo    lex:L2193\/Artigo8 .
+lex:L2193\/Artigo8    lex:temConteudo    "Art. 8º Revogadas as disposições em contrário e, especialmente o Decreto-lei nº 8.249, de 29 de novembro de 1945, esta Lei entrará em vigor à data de sua publicação." .
+lex:L2193\/Artigo5    lex:remetePara    lex:Constituicao46\/adctArtigo23 .
+lex:L2193\/Artigo5    lex:remetePara    lex:L1711\/Artigo257 .
+lex:L2193\/Artigo7    lex:remetePara    lex:L0830\/Artigo139 .
+lex:L2193\/Artigo8    lex:remetePara    lex:Del8249 .

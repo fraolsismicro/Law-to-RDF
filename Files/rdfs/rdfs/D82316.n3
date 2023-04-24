@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D82316    lex:ehUm    lex:DocLegal .
+lex:D82316    lex:temTextoIntegral    lex:HTMLs\/D82316.htm .
+lex:D82316\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D82316    lex:temArtigo    lex:D82316\/Artigo1A .
+lex:D82316\/Artigo1A    lex:temConteudo    "Art. 1Âº, A letra b , do inciso I, do artigo 29 do Regulamento da Escola Superior de Guerra, aprovado pelo Decreto nÂº 72.699, de 27 de agosto de 1973 , passa a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D82316\/Artigo1A\/Alinea    lex:ehUm    lex:Alinea .
+lex:D82316\/Artigo1A    lex:temAlinea    lex:D82316\/Artigo1A\/Alinea .
+lex:D82316\/Artigo1A\/Alinea    lex:temConteudo    "a) ............................................................................................................................................." .
+lex:D82316\/Artigo1A\/Alinea\/Item    lex:ehUm    lex:Item .
+lex:D82316\/Artigo1A\/Alinea    lex:temItem    lex:D82316\/Artigo1A\/Alinea\/Item .
+lex:D82316\/Artigo1A\/Alinea\/Item    lex:temConteudo    "...................................................................................................................................................." .
+lex:D82316\/Artigo1A\/AlineaPossuir    lex:ehUm    lex:Alinea .
+lex:D82316\/Artigo1A    lex:temAlinea    lex:D82316\/Artigo1A\/AlineaPossuir .
+lex:D82316\/Artigo1A\/AlineaPossuir    lex:temConteudo    "b) possuir o Curso de Comando e Estado-Maior da Escola de Guerra Naval, ou o de qualificaÃ§Ã£o para FunÃ§Ãµes TÃ©cnicas (C-QFT) ou, nos seus mais altos graus, para os respectivos quadros ou corpos, o Curso de Altos Estudos Militares da Escola de Comando e Estado-Maior do ExÃ©rcito ou o Curso Superior de Comando da Escola de Comando e Estado-Maior da AeronÃ¡utica; os Oficiais dos quadros e corpos para os quais nÃ£o Ã© previsto o Curso de Estado-Maior poderÃ£o ser matriculados desde que tenham terminado os cursos de mais alto grau estabelecidos pela legislaÃ§Ã£o vigente para o seu corpo ou quadro.'" .
+lex:D82316\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D82316    lex:temArtigo    lex:D82316\/Artigo2A .
+lex:D82316\/Artigo2A    lex:temConteudo    "Art. 2Âº - Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D82316\/Artigo1A    lex:remetePara    lex:D72699 .
+lex:D82316\/Artigo1A\/AlineaPossuir    lex:remetePara    lex:D72699\/regulamentoArtigo29 .

@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0519    lex:ehUm    lex:DocLegal .
+lex:Del0519    lex:temTextoIntegral    lex:HTMLs\/Del0519.htm .
+lex:Del0519\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0519    lex:temArtigo    lex:Del0519\/Artigo1 .
+lex:Del0519\/Artigo1    lex:temConteudo    "Art. 1º O artigo 12 e seus parágrafos, do Decreto-lei nº 401, de 30 de dezembro de 1968, passam a vigorar com a seguinte redação:" .
+lex:Del0519\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0519\/Artigo1    lex:temParagrafo    lex:Del0519\/Artigo1\/Paragrafo1 .
+lex:Del0519\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Para os efeitos dêste artigo serão computados os lucros em suspenso ou reservas oriundos de lucros apurados em balanço mesmo quando ainda não tributados." .
+lex:Del0519\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0519\/Artigo1    lex:temParagrafo    lex:Del0519\/Artigo1\/Paragrafo2 .
+lex:Del0519\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º As disposições dêste artigo não serão aplicadas:" .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:Del0519\/Artigo1\/Paragrafo2    lex:temAlinea    lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:temConteudo    "a) às pessoas jurídicas que estiverem em débito com o imposto de renda, na data da realização do aumento de capital;" .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:Del0519\/Artigo1\/Paragrafo2    lex:temAlinea    lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:temConteudo    "b) às pessoas jurídicas que tenham diminuído seu capital a partir de 30 de dezembro de 1968, inclusive;" .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:Del0519\/Artigo1\/Paragrafo2    lex:temAlinea    lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs .
+lex:Del0519\/Artigo1\/Paragrafo2\/AlineaAs    lex:temConteudo    "c) às pessoas jurídicas que se extinguirem ou reduzirem seu capital antes de 5 (cinco) anos, contados da data em que tenha sido realizado o aumento de capital." .
+lex:Del0519\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0519\/Artigo1    lex:temParagrafo    lex:Del0519\/Artigo1\/Paragrafo3 .
+lex:Del0519\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Não sofrerão tributação do impôsto de renda, os aumentos de capital das pessoas jurídicas, mediante utilização do acréscimo de seu ativo quando decorrente de aumentos de capital realizados por pessoas jurídicas, das quais sejam, acionistas ou sócias, bem como as ações novas ou cotas distribuídas em virtude daqueles aumentos." .
+lex:Del0519\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0519    lex:temArtigo    lex:Del0519\/Artigo2 .
+lex:Del0519\/Artigo2    lex:temConteudo    "Art. 2º A inobservância de qualquer das condições estabelecidas no artigo anterior importará na cobrança do impôsto de renda das pessoas jurídicas e físicas, ou na fonte, às taxas normais." .
+lex:Del0519\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0519    lex:temArtigo    lex:Del0519\/Artigo3 .
+lex:Del0519\/Artigo3    lex:temConteudo    "Art. 3º O presente Decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del0519\/Texto00001    lex:remetePara    lex:Del0401\/Artigo12 .

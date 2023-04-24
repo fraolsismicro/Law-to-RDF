@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D84637    lex:ehUm    lex:DocLegal .
+lex:D84637    lex:temTextoIntegral    lex:HTMLs\/D84637.htm .
+lex:D84637\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo1 .
+lex:D84637\/Artigo1    lex:temConteudo    "Art. 1º - Ficam reduzidas a zero as alíquotas do Imposto sobre Produtos Industrializados incidente sobre as mercadorias indicadas no Anexo I a este Decreto, mediante a criação de destaques ('ex') nos respectivos códigos de classificação na Tabela aprovada pelo Decreto nº 84.338, de 26 de dezembro de 1979." .
+lex:D84637\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo2 .
+lex:D84637\/Artigo2    lex:temConteudo    "Art. 2º - Ficam reduzidas aos percentuais constantes do Anexo II a este Decreto, as alíquotas do Imposto sobre Produtos Industrializados incidente sobre as mercadorias nela relacionadas, com classificação específica na Tabela a provada pelo Decreto nº 84.338, de 26 de dezembro de 1979, ou desdobradas dos respectivos códigos de classificação sob a forma de destaques ('ex')." .
+lex:D84637\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo3 .
+lex:D84637\/Artigo3    lex:temConteudo    "Art. 3º - Ficam elevadas para 32% as alíquotas do Imposto sobre Produtos Industrializados incidente sobre as mercadorias classificadas nos códigos 22.02.01.01 e 22.02.02.01 da Tabela aprovada pelo Decreto nº 84.338, de 26 de dezembro de1979." .
+lex:D84637\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo4 .
+lex:D84637\/Artigo4    lex:temConteudo    "Art. 4º - São criadas as Notas Complementares VC (21-1) e NC (22-2) aos Capítulos 21 e 22 da Tabela a que se refere o artigo anterior, com a seguinte redação:" .
+lex:D84637\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo5 .
+lex:D84637\/Artigo5    lex:temConteudo    "Art. 5º - O artigo 336 do Regulamento do Imposto sobre Produtos Industrializados aprovado pelo Decreto nº 83.263, de 9 de março de 1979, passa a vigorar com a seguinte redação:" .
+lex:D84637\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D84637\/Artigo5    lex:temParagrafo    lex:D84637\/Artigo5\/ParagrafoUnico .
+lex:D84637\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os Ministros da Fazenda e da Agricultura poderão expedir normas complementares para execução do disposto neste artigo.'" .
+lex:D84637\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo6 .
+lex:D84637\/Artigo6    lex:temConteudo    "Art. 6º Este Decreto entrará em vigor na data de sua publicação, retroagindo seus efeitos a 1º de janeiro de 1980." .
+lex:D84637\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D84637    lex:temArtigo    lex:D84637\/Artigo7 .
+lex:D84637\/Artigo7    lex:temConteudo    "Art. 7º - Ficam revogadas Nota Complementar NC (87-5) ao Capítulo 87 da Tabela aprovada pelo Decreto nº 84.338, de 26 de dezembro de 1979, e as demais disposições em contrário." .
+lex:D84637\/Artigo1    lex:remetePara    lex:D84338 .
+lex:D84637\/Artigo2    lex:remetePara    lex:D84338 .
+lex:D84637\/Artigo3    lex:remetePara    lex:D84338 .
+lex:D84637\/Artigo5    lex:remetePara    lex:D83263 .
+lex:D84637\/Artigo7    lex:remetePara    lex:D84338 .

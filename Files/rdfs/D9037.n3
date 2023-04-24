@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9037    lex:ehUm    lex:DocLegal .
+lex:D9037    lex:temTextoIntegral    lex:HTMLs\/D9037.htm .
+lex:D9037\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9037    lex:temArtigo    lex:D9037\/Artigo1 .
+lex:D9037\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.943, de 27 de dezembro de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D9037\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9037\/Artigo1    lex:temParagrafo    lex:D9037\/Artigo1\/Paragrafo3 .
+lex:D9037\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  ............................................................................." .
+lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D9037\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - limitada à variação observada do índice de reajuste pactuado no contrato com o fornecedor, ou, na inexistência desse, do índice de preços geral ou setorial que reflita a variação dos insumos utilizados, desde a assinatura até a aprovação do novo plano de trabalho, observado o disposto no art. 2 º da Lei n º 10.192, de 14 de fevereiro de 2001; e" .
+lex:D9037\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9037    lex:temArtigo    lex:D9037\/Artigo2 .
+lex:D9037\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9037\/Artigo1    lex:remetePara    lex:D8943 .
+lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:D8943\/Artigo2\/Paragrafo3iii .
+lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:L10192\/Artigo2 .
+lex:D9037\/Artigo1\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:L10192\/Artigo2 .

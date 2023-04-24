@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9934    lex:ehUm    lex:DocLegal .
+lex:L9934    lex:temTextoIntegral    lex:HTMLs\/L9934.htm .
+lex:L9934\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9934    lex:temArtigo    lex:L9934\/Artigo1 .
+lex:L9934\/Artigo1    lex:temConteudo    "Art. 1o O art. 290 da Lei no 6.015, de 31 de dezembro de 1973, passa a vigorar acrescido dos seguintes §§ 4o e 5o:" .
+lex:L9934\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L9934\/Artigo1    lex:temParagrafo    lex:L9934\/Artigo1\/Paragrafo5 .
+lex:L9934\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o Os cartórios que não cumprirem o disposto no § 4o ficarão sujeitos a multa de até R$ 1.120,00 (um mil, cento e vinte reais) a ser aplicada pelo juiz, com a atualização que se fizer necessária, em caso de desvalorização da moeda.'" .
+lex:L9934\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9934    lex:temArtigo    lex:L9934\/Artigo2 .
+lex:L9934\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9934\/Artigo1    lex:remetePara    lex:L6015 .
+lex:L9934\/Texto00001    lex:remetePara    lex:L6015\/Artigo290\/Paragrafo4 .
+lex:L9934\/Artigo1\/Paragrafo5    lex:remetePara    lex:L6015\/Artigo290\/Paragrafo5 .

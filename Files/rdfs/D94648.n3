@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94648    lex:ehUm    lex:DocLegal .
+lex:D94648    lex:temTextoIntegral    lex:HTMLs\/D94648.htm .
+lex:D94648\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94648    lex:temArtigo    lex:D94648\/Artigo1 .
+lex:D94648\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 3º e 4º do Decreto nº 93.597, de 21 de novembro de 1986 passam a vigorar com a seguinte redação:" .
+lex:D94648\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94648\/Artigo1    lex:temParagrafo    lex:D94648\/Artigo1\/ParagrafoUnico .
+lex:D94648\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os limites estabelecidos neste artigo aplicam-se, também, às patrocinadoras que aderirem a planos de entidades já em funcionamento." .
+lex:D94648\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94648    lex:temArtigo    lex:D94648\/Artigo4 .
+lex:D94648\/Artigo4    lex:temConteudo    "Art. 4º Fica vedado às autarquias, empresas e fundações públicas e sociedades de economia mista que patrocinam entidades fechadas de previdência privada:" .
+lex:D94648\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D94648\/Artigo4    lex:temInciso    lex:D94648\/Artigo4\/IncisoI .
+lex:D94648\/Artigo4\/IncisoI    lex:temConteudo    "I - a ampliação do elenco de benefícios previstos nos planos atualmente em vigor ou a alteração nas características destes benefícios que implique no aumento de contribuições dessas patrocinadoras;" .
+lex:D94648\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D94648\/Artigo4    lex:temInciso    lex:D94648\/Artigo4\/IncisoII .
+lex:D94648\/Artigo4\/IncisoII    lex:temConteudo    "II - responsabilizarem-se por encargos adicionais referentes a benefícios concedidos resultantes de ajustamentos em bases superiores às previstas nos respectivos estatutos e regulamentos;" .
+lex:D94648\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D94648\/Artigo4    lex:temInciso    lex:D94648\/Artigo4\/IncisoIII .
+lex:D94648\/Artigo4\/IncisoIII    lex:temConteudo    "III - a utilização, na revisão obrigatória de planos, dos superávits para aumentar o valor previsto em regulamento dos benefícios concedidos ou a conceder'." .
+lex:D94648\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94648    lex:temArtigo    lex:D94648\/Artigo2 .
+lex:D94648\/Artigo2    lex:temConteudo    "Art. 2º Fica acrescentado ao art. 5º do Decreto nº 93.597, de 21 de novembro de 1986, o seguinte parágrafo único:" .
+lex:D94648\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94648    lex:temArtigo    lex:D94648\/Artigo3 .
+lex:D94648\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D94648\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94648    lex:temArtigo    lex:D94648\/Artigo4 .
+lex:D94648\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário, e em especial o art. 2º do Decreto nº 93.597, de 21 de novembro de 1986." .
+lex:D94648\/Artigo1    lex:remetePara    lex:D93597 .
+lex:D94648\/Texto00001    lex:remetePara    lex:D93597\/Artigo3 .
+lex:D94648\/Artigo4    lex:remetePara    lex:D93597\/Artigo4 .
+lex:D94648\/Artigo2    lex:remetePara    lex:D93597\/Artigo5 .
+lex:D94648\/Artigo4    lex:remetePara    lex:D93597\/Artigo2 .

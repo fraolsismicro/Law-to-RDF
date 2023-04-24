@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1662    lex:ehUm    lex:DocLegal .
+lex:D1662    lex:temTextoIntegral    lex:HTMLs\/D1662.htm .
+lex:D1662\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D1662    lex:temInciso    lex:D1662\/IncisoC .
+lex:D1662\/IncisoC    lex:temConteudo    "c. II   quanto à qualidade do produto terminado os controles do produto acabado deverão demonstrar as condições químicas, físico-químicas e biológicas de seus componentes em qualidade e quantidade, de acordo com a formulação e dentro de margens aceitas pela regulamentação, de acordo com o tipo e características do produto. Quando não for possível obter a montagem da técnica de controle específica do produto acabado o Ministério da Agricultura, do Abastecimento e da Reforma Agrária estabelecerá sistemas intermediários durante o processo de elaboração." .
+lex:D1662\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D1662    lex:temInciso    lex:D1662\/IncisoC .
+lex:D1662\/IncisoC    lex:temConteudo    "c. as provas e os controles deverão ser delineados de modo a abranger aspectos experimentais e estatísticos que satisfaçam a representatividade dos resultados. Para isto, deverão incluir grupos representativos de provas, com controles testemunhas ou placebo, que permitam margens cientificamente aceitáveis para interpretação e obtenção de conclusões confiáveis;" .
+lex:D1662\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D1662    lex:temInciso    lex:D1662\/IncisoD .
+lex:D1662\/IncisoD    lex:temConteudo    "d. Para produtos injetáveis, deverão ainda respeitar as normas de controle de esterilidade, inocuidade, absorção e ausência de pirogênios, de acordo com a via de aplicação dos mesmos" .
+lex:D1662\/Texto    lex:remetePara    lex:D1662 .
+lex:D1662\/ParagrafoUnico    lex:remetePara    lex:D1662 .

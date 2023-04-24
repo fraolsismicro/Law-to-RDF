@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13156    lex:ehUm    lex:DocLegal .
+lex:L13156    lex:temTextoIntegral    lex:HTMLs\/L13156.htm .
+lex:L13156\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13156    lex:temArtigo    lex:L13156\/Artigo1 .
+lex:L13156\/Artigo1    lex:temConteudo    "Art. 1o   O § 2 º do art. 5 º da Lei n º 7.797, de 10 de julho de 1989, passa a vigorar com a seguinte redação:" .
+lex:L13156\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13156\/Artigo1    lex:temParagrafo    lex:L13156\/Artigo1\/Paragrafo2 .
+lex:L13156\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º Sem prejuízo das ações em âmbito nacional, será dada prioridade aos projetos que tenham sua área de atuação na Amazônia Legal ou no Pantanal Mato-Grossense. (NR)" .
+lex:L13156\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13156    lex:temArtigo    lex:L13156\/Artigo2 .
+lex:L13156\/Artigo2    lex:temConteudo    "Art. 2 º Esta Lei entra em vigor na data de sua publicação." .
+lex:L13156\/Artigo1    lex:remetePara    lex:L7797 .
+lex:L13156\/Artigo1\/Paragrafo2    lex:remetePara    lex:L7797\/Artigo5\/Paragrafo2 .

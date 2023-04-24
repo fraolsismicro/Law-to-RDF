@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10938    lex:ehUm    lex:DocLegal .
+lex:D10938    lex:temTextoIntegral    lex:HTMLs\/D10938.htm .
+lex:D10938\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10938    lex:temArtigo    lex:D10938\/Artigo1A .
+lex:D10938\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 6.038, de 7 de fevereiro de 2007, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10938\/Artigo1A\/AlineaTrAs    lex:ehUm    lex:Alinea .
+lex:D10938\/Artigo1A    lex:temAlinea    lex:D10938\/Artigo1A\/AlineaTrAs .
+lex:D10938\/Artigo1A\/AlineaTrAs    lex:temConteudo    "a) trÃªs da Secretaria Especial da Receita Federal do Brasil do MinistÃ©rio da Economia; e" .
+lex:D10938\/Artigo1A\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D10938\/Artigo1A    lex:temAlinea    lex:D10938\/Artigo1A\/AlineaUm .
+lex:D10938\/Artigo1A\/AlineaUm    lex:temConteudo    "b) um da Subsecretaria de Desenvolvimento das Micro e Pequenas Empresas, Empreendedorismo e Artesanato da Secretaria de Desenvolvimento da IndÃºstria, ComÃ©rcio, ServiÃ§os e InovaÃ§Ã£o da Secretaria Especial de Produtividade, Emprego e Competitividade do MinistÃ©rio da Economia;" .
+lex:D10938\/Artigo1A\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D10938\/Artigo1A    lex:temAlinea    lex:D10938\/Artigo1A\/AlineaUm .
+lex:D10938\/Artigo1A\/AlineaUm    lex:temConteudo    "b) um pela ConfederaÃ§Ã£o Nacional de MunicÃ­pios;" .
+lex:D10938\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10938    lex:temArtigo    lex:D10938\/Artigo2A .
+lex:D10938\/Artigo2A    lex:temConteudo    "Art. 2Âº  Fica revogado o inciso V do Â§ 2Âº do art. 8Âº do Decreto nÂº 6.038, de 2007." .
+lex:D10938\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10938    lex:temArtigo    lex:D10938\/Artigo3A .
+lex:D10938\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10938\/Artigo1A    lex:remetePara    lex:D6038 .
+lex:D10938\/Texto00001    lex:remetePara    lex:D6038\/Artigo2i0 .
+lex:D10938\/Artigo1A\/Texto00003    lex:remetePara    lex:D6038\/Artigo2 .
+lex:D10938\/Artigo1A\/Texto00003    lex:remetePara    lex:D6038\/Artigo2 .
+lex:D10938\/Artigo1A\/Texto00003    lex:remetePara    lex:D6038\/Artigo2Â§1i0 .
+lex:D10938\/Artigo1A\/Texto00003    lex:remetePara    lex:D6038\/Artigo2Â§1ii0 .
+lex:D10938\/Artigo1A\/AlineaUm    lex:remetePara    lex:D6038\/Artigo2Â§1 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo2Â§1 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo2Â§20 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo2Â§6 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo3iii0 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo6 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D10416 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo8Â§2 .
+lex:D10938\/Artigo1A\/Texto00004    lex:remetePara    lex:D6038\/Artigo8Â§2 .
+lex:D10938\/Artigo2A    lex:remetePara    lex:D6038\/Artigo8Â§2 .

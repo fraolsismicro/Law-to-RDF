@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4133    lex:ehUm    lex:DocLegal .
+lex:D4133    lex:temTextoIntegral    lex:HTMLs\/D4133.htm .
+lex:D4133\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4133    lex:temArtigo    lex:D4133\/Artigo1 .
+lex:D4133\/Artigo1    lex:temConteudo    "Art. 1o O Acordo-Quadro de Cooperação Financeira entre a República Federativa do Brasil e o Banco Nórdico de Investimento, celebrado em Helsinki, em 17 de setembro de 1999, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D4133\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4133    lex:temArtigo    lex:D4133\/Artigo2 .
+lex:D4133\/Artigo2    lex:temConteudo    "Art. 2o São sujeitos à aprovação do Congresso Nacional quaisquer atos que alterem o referido Acordo, assim como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição Federal, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D4133\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4133    lex:temArtigo    lex:D4133\/Artigo3 .
+lex:D4133\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4133\/Artigo3\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D4133\/Artigo3    lex:temInciso    lex:D4133\/Artigo3\/IncisoC .
+lex:D4133\/Artigo3\/IncisoC    lex:temConteudo    "C. Que, para que esse objetivo seja atingido, é necessário serem estabelecidas as regras sob as quais o Banco operará no Brasil," .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar    lex:ehUm    lex:IncisoAlinea .
+lex:D4133\/Artigo3\/IncisoC    lex:temIncisoAlinea    lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar    lex:temConteudo    "a) facultar aos mutuários beneficiários dos mencionados empréstimos e aos seus garantidores as divisas estrangeiras necessárias ao pagamento do principal, dos juros, das comissões e dos demais encargos, na forma da legislação brasileira e, em todo caso, dar um tratamento não menos favorável do que o dado aos pagamentos feitos a outras instituições financeiras multilaterais;" .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:ehUm    lex:IncisoAlinea .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar    lex:temIncisoAlinea    lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:temConteudo    "b) facultar ao Banco as divisas necessárias para a conversão de todas as importâncias que este possa ter recebido em moeda nacional, na forma da legislação brasileira e, em todo caso, dar um tratamento não menos favorável do que o dado a outras instituições financeiras multilaterais." .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:temIncisoAlinea    lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO    lex:temConteudo    "a) o Brasil e o Banco escolhem, cada um, um árbitro e estes árbitros escolhem, em conjunto e de comum acordo, o terceiro;" .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO\/IncisoAlineaCaso    lex:ehUm    lex:IncisoAlinea .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO    lex:temIncisoAlinea    lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO\/IncisoAlineaCaso .
+lex:D4133\/Artigo3\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaO\/IncisoAlineaCaso    lex:temConteudo    "b) caso os árbitros escolhidos pelo Brasil e pelo Banco não cheguem a um acordo sobre o terceiro árbitro, este será definido pela UNCITRAL." .

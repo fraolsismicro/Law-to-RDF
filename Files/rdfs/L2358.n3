@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2358    lex:ehUm    lex:DocLegal .
+lex:L2358    lex:temTextoIntegral    lex:HTMLs\/L2358.htm .
+lex:L2358\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2358    lex:temArtigo    lex:L2358\/Artigo1 .
+lex:L2358\/Artigo1    lex:temConteudo    "Art. 1º O quadro do pessoal da Secretaria do Tribunal Regional Eleitoral do Rio Grande do Norte passa a ser o do Grupo B-1 constante da Lei nº 1.975, de 4 de setembro de 1953." .
+lex:L2358\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2358    lex:temArtigo    lex:L2358\/Artigo2 .
+lex:L2358\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir ao Poder Judiciário - Tribunais Regionais Eleitorais - o crédito suplementar de Cr$ 60.000,00 (sessenta mil cruzeiros) ao Orçamento Geral da União vigente, em refôrço da seguinte dotação:" .
+lex:L2358\/Artigo2\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:L2358\/Artigo2    lex:temParagrafo    lex:L2358\/Artigo2\/Paragrafo- .
+lex:L2358\/Artigo2\/Paragrafo-    lex:temConteudo    "1º - Rio Grande do Norte - Cr$ 60.000,00." .
+lex:L2358\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2358    lex:temArtigo    lex:L2358\/Artigo3 .
+lex:L2358\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na da data de sua publicação, revogadas as disposições em contrário." .
+lex:L2358\/Texto    lex:remetePara    lex:L3422 .
+lex:L2358\/Artigo1    lex:remetePara    lex:L1975 .

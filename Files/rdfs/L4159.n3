@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4159    lex:ehUm    lex:DocLegal .
+lex:L4159    lex:temTextoIntegral    lex:HTMLs\/L4159.htm .
+lex:L4159\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo1 .
+lex:L4159\/Artigo1    lex:temConteudo    "Art. 1º É integrado na Universidade de Minas Gerais o Conservatório Mineiro de Música de Belo Horizonte, mantido pela União, nos têrmos da Lei nº 1.254, de 4 de dezembro de 1950." .
+lex:L4159\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo2 .
+lex:L4159\/Artigo2    lex:temConteudo    "Art. 2º O patrimônio do Conservatório, incorporado à União de acôrdo com o art. 4º da referida Lei 1.254, é devolvido ao mencionado estabelecimento de ensino, cujo regime jurídico será o da aludida Universidade, federalizada pela Lei 971, de 16 de dezembro de 1949." .
+lex:L4159\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo3 .
+lex:L4159\/Artigo3    lex:temConteudo    "Art. 3º Em cumprimento do que dispõe o § 2º do art. 5º da Lei nº 1.254, de 4 de dezembro de 1950, serão submetidos a concurso de provas e títulos, abertos a quaisquer competidores, os professôres candidatos a efetivação na cátedra." .
+lex:L4159\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo4 .
+lex:L4159\/Artigo4    lex:temConteudo    "Art. 4º É igualmente incorporado ao Instituto de Belas Artes do Rio Grande do Sul, a que se referem as Leis nºs 1.254, de 4 de dezembro de 1950, art. 3º, inciso II, e 3.333, de 6 de dezembro de 1957, à Universidade do Rio Grande do Sul." .
+lex:L4159\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4159\/Artigo4    lex:temParagrafo    lex:L4159\/Artigo4\/ParagrafoUnico .
+lex:L4159\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. É o Poder Executivo autorizado a abrir, pelo Ministério da Educação e Cultura, o crédito especial de Cr$ 4.233.500,00 (quatro milhões duzentos e trinta e três mil e quinhentos cruzeiros); para atender ao pagamento da parte da vigência da Lei nº 2.403, de 13 de janeiro de 1955, da diferença de vencimento dos servidores aproveitados de acôrdo com a Lei nº 3.333, de 6 de dezembro de 1957." .
+lex:L4159\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo5 .
+lex:L4159\/Artigo5    lex:temConteudo    "Art. 5º As verbas consideradas no Orçamento Geral da República ao Instituto de Belas Artes do Rio Grande do Sul ficarão na data desta lei, automàticamente transferidas para à Universidade do Rio Grande do Sul." .
+lex:L4159\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4159    lex:temArtigo    lex:L4159\/Artigo6 .
+lex:L4159\/Artigo6    lex:temConteudo    "Art. 6º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4159\/Artigo1    lex:remetePara    lex:L1254 .
+lex:L4159\/Artigo2    lex:remetePara    lex:L1254\/Artigo4 .
+lex:L4159\/Artigo2    lex:remetePara    lex:L0971 .
+lex:L4159\/Artigo3    lex:remetePara    lex:L1254\/Artigo5\/Paragrafo2 .
+lex:L4159\/Artigo4    lex:remetePara    lex:L1254\/Artigo3 .
+lex:L4159\/Artigo4    lex:remetePara    lex:L3333 .
+lex:L4159\/Artigo4\/ParagrafoUnico    lex:remetePara    lex:L2403 .
+lex:L4159\/Artigo4\/ParagrafoUnico    lex:remetePara    lex:L3333 .

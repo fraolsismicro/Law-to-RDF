@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99523    lex:ehUm    lex:DocLegal .
+lex:D99523    lex:temTextoIntegral    lex:HTMLs\/D99523.htm .
+lex:D99523\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99523    lex:temArtigo    lex:D99523\/Artigo1 .
+lex:D99523\/Artigo1    lex:temConteudo    "Art. 1° Ficam incluídas no Programa Nacional de Desestatização, para os fins da Lei n° 8.031, de 12 de abril de 1990, as seguintes empresas:" .
+lex:D99523\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99523\/Artigo1    lex:temInciso    lex:D99523\/Artigo1\/IncisoI .
+lex:D99523\/Artigo1\/IncisoI    lex:temConteudo    "I - Fertilizantes Nitrogenados do Nordeste S.A. NITROFÉRTIL;  (Revogado pelo Decreto nº 844, de 1993)" .
+lex:D99523\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99523\/Artigo1    lex:temInciso    lex:D99523\/Artigo1\/IncisoII .
+lex:D99523\/Artigo1\/IncisoII    lex:temConteudo    "II - Fertilizantes Fosfatados S.A. FOSFÉRTIL; e" .
+lex:D99523\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99523\/Artigo1    lex:temInciso    lex:D99523\/Artigo1\/IncisoIII .
+lex:D99523\/Artigo1\/IncisoIII    lex:temConteudo    "III - ULTRAFÉRTIL S.A. - Indústria e Comércio de Fertilizantes." .
+lex:D99523\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99523    lex:temArtigo    lex:D99523\/Artigo2 .
+lex:D99523\/Artigo2    lex:temConteudo    "Art. 2° As ações representativas das participações acionárias da União e das entidades da Administração Pública Federal indireta nas sociedades referidas no artigo anterior deverão ser depositadas no Fundo Nacional de Desestatização no prazo máximo de cinco dias, contados na data da publicação deste decreto, nos termos do art. 10 da Lei n° 8.031, de 1990." .
+lex:D99523\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99523    lex:temArtigo    lex:D99523\/Artigo3 .
+lex:D99523\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99523\/Artigo1    lex:remetePara    lex:L8031 .
+lex:D99523\/Artigo1\/IncisoI    lex:revogadoPor    lex:D0844\/Artigo2 .
+lex:D0844\/Artigo2    lex:revogou    lex:D99523\/Artigo1\/IncisoI .

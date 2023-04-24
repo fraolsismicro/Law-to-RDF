@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11646    lex:ehUm    lex:DocLegal .
+lex:L11646    lex:temTextoIntegral    lex:HTMLs\/L11646.htm .
+lex:L11646\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11646    lex:temArtigo    lex:L11646\/Artigo1 .
+lex:L11646\/Artigo1    lex:temConteudo    "Art. 1o  O art. 2o da Lei no 8.313, de 23 de dezembro de 1991, passa a vigorar com a seguinte redação:" .
+lex:L11646\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11646\/Artigo1    lex:temParagrafo    lex:L11646\/Artigo1\/Paragrafo1 .
+lex:L11646\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os incentivos criados por esta Lei somente serão concedidos a projetos culturais cuja exibição, utilização e circulação dos bens culturais deles resultantes sejam abertas, sem distinção, a qualquer pessoa, se gratuitas, e a público pagante, se cobrado ingresso." .
+lex:L11646\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11646\/Artigo1    lex:temParagrafo    lex:L11646\/Artigo1\/Paragrafo2 .
+lex:L11646\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  É vedada a concessão de incentivo a obras, produtos, eventos ou outros decorrentes, destinados ou circunscritos a coleções particulares ou circuitos privados que estabeleçam limitações de acesso. (NR)" .
+lex:L11646\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11646    lex:temArtigo    lex:L11646\/Artigo2 .
+lex:L11646\/Artigo2    lex:temConteudo    "Art. 2o  O § 3o do art. 18 da Lei no 8.313, de 23 de dezembro de 1991, com a redação dada pela Medida Provisória no 2.228-1, de 6 de setembro de 2001, passa a vigorar com a seguinte redação:" .
+lex:L11646\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L11646\/Artigo2    lex:temParagrafo    lex:L11646\/Artigo2\/Paragrafo3 .
+lex:L11646\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  ..............................................................................." .
+lex:L11646\/Artigo2\/Paragrafo3\/AlineaConstrucao    lex:ehUm    lex:Alinea .
+lex:L11646\/Artigo2\/Paragrafo3    lex:temAlinea    lex:L11646\/Artigo2\/Paragrafo3\/AlineaConstrucao .
+lex:L11646\/Artigo2\/Paragrafo3\/AlineaConstrucao    lex:temConteudo    "h) construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em Municípios com menos de 100.000 (cem mil) habitantes. (NR)" .
+lex:L11646\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11646    lex:temArtigo    lex:L11646\/Artigo3 .
+lex:L11646\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11646\/Artigo1    lex:remetePara    lex:L8313cons\/Artigo2\/Paragrafo1 .
+lex:L11646\/Artigo2    lex:remetePara    lex:L8313cons\/Artigo18\/Paragrafo3h .

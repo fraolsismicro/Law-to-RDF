@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11694    lex:ehUm    lex:DocLegal .
+lex:L11694    lex:temTextoIntegral    lex:HTMLs\/L11694.htm .
+lex:L11694\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11694    lex:temArtigo    lex:L11694\/Artigo1 .
+lex:L11694\/Artigo1    lex:temConteudo    "Art. 1o  A Lei no 9.096, de 19 de setembro de 1995, passa a vigorar acrescida do seguinte art. 15-A:" .
+lex:L11694\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11694    lex:temArtigo    lex:L11694\/Artigo2 .
+lex:L11694\/Artigo2    lex:temConteudo    "Art. 2o  O caput do art. 649 da Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, passa a vigorar acrescido do seguinte inciso XI:" .
+lex:L11694\/Artigo2\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:L11694\/Artigo2    lex:temInciso    lex:L11694\/Artigo2\/IncisoXI .
+lex:L11694\/Artigo2\/IncisoXI    lex:temConteudo    "XI - os recursos públicos do fundo partidário recebidos, nos termos da lei, por partido político." .
+lex:L11694\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11694    lex:temArtigo    lex:L11694\/Artigo3 .
+lex:L11694\/Artigo3    lex:temConteudo    "Art. 3o  O art. 655-A da Lei no 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, passa a vigorar acrescido do seguinte § 4o:" .
+lex:L11694\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L11694\/Artigo3    lex:temParagrafo    lex:L11694\/Artigo3\/Paragrafo4 .
+lex:L11694\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4o  Quando se tratar de execução contra partido político, o juiz, a requerimento do exeqüente, requisitará à autoridade supervisora do sistema bancário, nos termos do que estabelece o caput deste artigo, informações sobre a existência de ativos tão-somente em nome do órgão partidário que tenha contraído a dívida executada ou que tenha dado causa a violação de direito ou ao dano, ao qual cabe exclusivamente a responsabilidade pelos atos praticados, de acordo com o disposto no art. 15-A da Lei no 9.096, de 19 de setembro de 1995. (NR)" .
+lex:L11694\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11694    lex:temArtigo    lex:L11694\/Artigo4 .
+lex:L11694\/Artigo4    lex:temConteudo    "Art. 4o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11694\/Artigo1    lex:remetePara    lex:L9096 .
+lex:L11694\/Texto00001    lex:remetePara    lex:L9096\/Artigo15 .
+lex:L11694\/Artigo2\/IncisoXI    lex:remetePara    lex:L5869\/Artigo649 .
+lex:L11694\/Artigo3\/Paragrafo4    lex:remetePara    lex:L5869\/Artigo655\/Paragrafo4 .

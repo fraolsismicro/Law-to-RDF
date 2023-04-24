@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1683    lex:ehUm    lex:DocLegal .
+lex:D1683    lex:temTextoIntegral    lex:HTMLs\/D1683.htm .
+lex:D1683\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1683    lex:temArtigo    lex:D1683\/Artigo1 .
+lex:D1683\/Artigo1    lex:temConteudo    "Art. 1º O art. 91 do Regimento do Código Nacional de Trânsito, aprovado pelo Decreto nº 62.127, de 16 de janeiro de 1968, alterado pelo Decreto nº 84.513, de 27 de fevereiro de 1980, passa a vigorar com a seguinte redação:" .
+lex:D1683\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1683\/Artigo1    lex:temParagrafo    lex:D1683\/Artigo1\/Paragrafo1 .
+lex:D1683\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Para efeito de redução de tarifa, o poder concedente poderá disciplinar a utilização de publicidade nos veículos de transporte coletivo de passageiros." .
+lex:D1683\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1683\/Artigo1    lex:temParagrafo    lex:D1683\/Artigo1\/Paragrafo2 .
+lex:D1683\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Não se configuram como publicidade as inscrições de marca, logotipo, razão social ou nome do fabricante, do proprietário do veículo ou da carga, nem as inscrições de advertência e indicação do combustível utilizado.'" .
+lex:D1683\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1683    lex:temArtigo    lex:D1683\/Artigo2 .
+lex:D1683\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1683\/Texto00001    lex:remetePara    lex:D62127\/Artigo91 .

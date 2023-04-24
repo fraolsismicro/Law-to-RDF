@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7391    lex:ehUm    lex:DocLegal .
+lex:L7391    lex:temTextoIntegral    lex:HTMLs\/L7391.htm .
+lex:L7391\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo1 .
+lex:L7391\/Artigo1    lex:temConteudo    "Art 1º - Ressalvado o estabelecido no art. 2º desta Lei, aplica-se o disposto no art. 2º da Lei nº 6.185, 11 de dezembro de 1974, com a redação dada pela Lei nº 6.335, de 31 de maio de 1976, aos servidores pertencentes à categoria funcional de Fiscal do Trabalho, código NS-933, integrante do Grupo-Outras Atividades de Nível Superior." .
+lex:L7391\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo2 .
+lex:L7391\/Artigo2    lex:temConteudo    "Art 2º - Os atuais ocupantes de emprego de Fiscal do Trabalho da Tabela Permanente do Ministério do Trabalho, desde que admitidos após aprovação em concurso público, poderão optar pelo regime jurídico de que trata a Lei nº 1.711, de 28 de outubro de 1952, no prazo de 60 (sessenta) dias, contados a partir da data da vigência desta Lei." .
+lex:L7391\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7391\/Artigo2    lex:temParagrafo    lex:L7391\/Artigo2\/ParagrafoUnico .
+lex:L7391\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os empregos ocupados pelos servidores que optarem pelo regime estatutário ficarão transformados em cargos na data em que for apresentado o termo de opção." .
+lex:L7391\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo3 .
+lex:L7391\/Artigo3    lex:temConteudo    "Art 3º - Ficam transformados em cargos os empregos de Fiscal do Trabalho, previstos na Tabela Permanente a que alude o artigo anterior." .
+lex:L7391\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo4 .
+lex:L7391\/Artigo4    lex:temConteudo    "Art 4º - Ficam criados os cargos de Fiscal do Trabalho correspondentes aos claros previstos na lotação do Ministério do Trabalho." .
+lex:L7391\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo5 .
+lex:L7391\/Artigo5    lex:temConteudo    "Art 5º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7391\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7391    lex:temArtigo    lex:L7391\/Artigo6 .
+lex:L7391\/Artigo6    lex:temConteudo    "Art 6º - Revogam-se as disposições em contrário." .
+lex:L7391\/Artigo1    lex:remetePara    lex:L6185\/Artigo2 .
+lex:L7391\/Artigo1    lex:remetePara    lex:L6856 .
+lex:L7391\/Artigo2    lex:remetePara    lex:L1711 .

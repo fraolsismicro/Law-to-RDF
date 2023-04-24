@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94314    lex:ehUm    lex:DocLegal .
+lex:D94314    lex:temTextoIntegral    lex:HTMLs\/D94314.htm .
+lex:D94314\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94314    lex:temArtigo    lex:D94314\/Artigo1 .
+lex:D94314\/Artigo1    lex:temConteudo    "Art. 1º O parágrafo único do artigo 1º do Decreto nº 92.395, de 12 de fevereiro de 1986, que instituiu o Programa Nacional de Irrigação - PRONI, passa a vigorar com a seguinte redação:" .
+lex:D94314\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94314\/Artigo1    lex:temParagrafo    lex:D94314\/Artigo1\/ParagrafoUnico .
+lex:D94314\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O programa a que se refere este artigo terá duração até 31 de dezembro de 1993.'" .
+lex:D94314\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94314    lex:temArtigo    lex:D94314\/Artigo2 .
+lex:D94314\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D94314\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94314    lex:temArtigo    lex:D94314\/Artigo3 .
+lex:D94314\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .

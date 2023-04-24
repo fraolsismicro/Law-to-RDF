@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99670    lex:ehUm    lex:DocLegal .
+lex:D99670    lex:temTextoIntegral    lex:HTMLs\/D99670.htm .
+lex:D99670\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99670    lex:temArtigo    lex:D99670\/Artigo1 .
+lex:D99670\/Artigo1    lex:temConteudo    "Art. 1° Ficam acrescidos às letras 'a' e 'c' do art. 1°, do Decreto n° 92.503, de 26 de março de 1986, modificado pelo Decreto n° 99.403, de 19 de julho de 1990, os seguintes cargos:" .
+lex:D99670\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D99670\/Artigo1    lex:temAlinea    lex:D99670\/Artigo1\/AlineaDo .
+lex:D99670\/Artigo1\/AlineaDo    lex:temConteudo    "a) Do posto de General-de-Exército:" .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:ehUm    lex:Item .
+lex:D99670\/Artigo1\/AlineaDo    lex:temItem    lex:D99670\/Artigo1\/AlineaDo\/Item .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:temConteudo    "...................................................................................................................................." .
+lex:D99670\/Artigo1\/AlineaDo\/ItemComandante    lex:ehUm    lex:Item .
+lex:D99670\/Artigo1\/AlineaDo    lex:temItem    lex:D99670\/Artigo1\/AlineaDo\/ItemComandante .
+lex:D99670\/Artigo1\/AlineaDo\/ItemComandante    lex:temConteudo    "- Comandante de Operações Terrestres." .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:ehUm    lex:Item .
+lex:D99670\/Artigo1\/AlineaDo    lex:temItem    lex:D99670\/Artigo1\/AlineaDo\/Item .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:temConteudo    "......................................................................................................................................." .
+lex:D99670\/Artigo1\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D99670\/Artigo1    lex:temAlinea    lex:D99670\/Artigo1\/AlineaDo .
+lex:D99670\/Artigo1\/AlineaDo    lex:temConteudo    "c) Do posto de General-de-Divisão ou General-de-Brigada, Combatente, conforme constar dos respectivos Quadros de Organização, de Lotação de Pessoal Militar ou de Distribuição:" .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:ehUm    lex:Item .
+lex:D99670\/Artigo1\/AlineaDo    lex:temItem    lex:D99670\/Artigo1\/AlineaDo\/Item .
+lex:D99670\/Artigo1\/AlineaDo\/Item    lex:temConteudo    "........................................................................................................................................" .
+lex:D99670\/Artigo1\/AlineaDo\/ItemChefe    lex:ehUm    lex:Item .
+lex:D99670\/Artigo1\/AlineaDo    lex:temItem    lex:D99670\/Artigo1\/AlineaDo\/ItemChefe .
+lex:D99670\/Artigo1\/AlineaDo\/ItemChefe    lex:temConteudo    "- Chefe do Estado-Maior do Comando de Operações Terrestres.'" .
+lex:D99670\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99670    lex:temArtigo    lex:D99670\/Artigo2 .
+lex:D99670\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99670\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99670    lex:temArtigo    lex:D99670\/Artigo3 .
+lex:D99670\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:D99670\/Artigo1\/AlineaDo\/ItemComandante    lex:remetePara    lex:D92503\/Artigo1 .
+lex:D99670\/Artigo1\/AlineaDo\/ItemChefe    lex:remetePara    lex:D92503\/Artigo1 .

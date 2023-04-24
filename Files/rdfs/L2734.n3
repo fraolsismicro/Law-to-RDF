@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2734    lex:ehUm    lex:DocLegal .
+lex:L2734    lex:temTextoIntegral    lex:HTMLs\/L2734.htm .
+lex:L2734\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2734    lex:temArtigo    lex:L2734\/Artigo1 .
+lex:L2734\/Artigo1    lex:temConteudo    "Art. 1º É acrescentada a seguinte alínea ao art. 5º da Lei nº 1.316, de 20 de janeiro de 1951 (Código de Vencimentos e Vantagens dos Militares):" .
+lex:L2734\/Artigo1\/AlineaJornada    lex:ehUm    lex:Alinea .
+lex:L2734\/Artigo1    lex:temAlinea    lex:L2734\/Artigo1\/AlineaJornada .
+lex:L2734\/Artigo1\/AlineaJornada    lex:temConteudo    "i) Jornada é a atividade exercida continuadamente num mesmo dia, durante 10 (dez) ou mais horas, sem recessos ininterruptos de mais de 2 (duas) horas.'" .
+lex:L2734\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2734    lex:temArtigo    lex:L2734\/Artigo2 .
+lex:L2734\/Artigo2    lex:temConteudo    "Art. 2º Passam a ter a seguinte redação os §§ 2º e 4º do art. 92 da Lei nº 1.316 de 20 de janeiro de 1951 (Código de Vencimentos e Vantagens dos Militares):" .
+lex:L2734\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L2734\/Artigo2    lex:temParagrafo    lex:L2734\/Artigo2\/Paragrafo2 .
+lex:L2734\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Os militares com direito à alimentação, quando de serviço com duração continuada de 24 horas, em organização sem rancho e não existir nas proximidades organização com rancho, serão indenizados pelo triplo do valor das etapas que tiverem vencido." .
+lex:L2734\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L2734\/Artigo2    lex:temParagrafo    lex:L2734\/Artigo2\/Paragrafo4 .
+lex:L2734\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4º As praças podem desarranchar, na forma estabelecida pelos regulamentos a que estiverem sujeitas.'" .
+lex:L2734\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2734    lex:temArtigo    lex:L2734\/Artigo3 .
+lex:L2734\/Artigo3    lex:temConteudo    "Art. 3º É acrescentado ao art. 100 da Lei nº 1.316, de 20 de janeiro de 1951 (Código de Vencimentos e Vantagens dos Militares) o seguinte parágrafo único:" .
+lex:L2734\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L2734\/Artigo3    lex:temParagrafo    lex:L2734\/Artigo3\/ParagrafoUnico .
+lex:L2734\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Do mesmo ato constarão instruções gerais disciplinadoras, para o ano financeiro em questão, dos dispositivos referentes a etapas e rações.'" .
+lex:L2734\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L2734    lex:temArtigo    lex:L2734\/Artigo4 .
+lex:L2734\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L2734\/Artigo1    lex:remetePara    lex:L1316 .
+lex:L2734\/Artigo1\/AlineaJornada    lex:remetePara    lex:L1316\/Artigo5 .
+lex:L2734\/Artigo2    lex:remetePara    lex:L1316 .
+lex:L2734\/Artigo2\/Paragrafo2    lex:remetePara    lex:L1316\/Artigo92\/Paragrafo2 .
+lex:L2734\/Artigo2\/Paragrafo4    lex:remetePara    lex:L1316\/Artigo92\/Paragrafo4 .
+lex:L2734\/Artigo3    lex:remetePara    lex:L1316 .
+lex:L2734\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L1316\/Artigo100 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7680    lex:ehUm    lex:DocLegal .
+lex:L7680    lex:temTextoIntegral    lex:HTMLs\/L7680.htm .
+lex:L7680\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7680    lex:temArtigo    lex:L7680\/Artigo1 .
+lex:L7680\/Artigo1    lex:temConteudo    "Art. 1º A taxa de fiscalização da instalação de que trata o art. 7º da Lei nº 5.070, de 7 de julho de 1966, cujo valores foram alterados pelo Decreto-Lei nº 1.995, de 29 de dezembro de 1982, passa a ser calculada de conformidade com o Anexo I a esta Lei, a partir de 1º de janeiro de 1989." .
+lex:L7680\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7680    lex:temArtigo    lex:L7680\/Artigo2 .
+lex:L7680\/Artigo2    lex:temConteudo    "Art. 2º Consideram-se válidos, para os fins desta Lei, os atos praticados durante a vigência do Decreto-Lei nº 2.473, de 8 de setembro de 1988, mantidos os efeitos deles decorrentes." .
+lex:L7680\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7680    lex:temArtigo    lex:L7680\/Artigo3 .
+lex:L7680\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7680\/Artigo1    lex:remetePara    lex:L5070\/Artigo7 .
+lex:L7680\/Artigo1    lex:remetePara    lex:Del1995 .
+lex:L7680\/Artigo2    lex:remetePara    lex:Del2473 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99469    lex:ehUm    lex:DocLegal .
+lex:D99469    lex:temTextoIntegral    lex:HTMLs\/D99469.htm .
+lex:D99469\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99469    lex:temArtigo    lex:D99469\/Artigo1 .
+lex:D99469\/Artigo1    lex:temConteudo    "Art. 1° Fica considerada insubsistente, a partir da data de publicação do Decreto n° 99.247, de 11 de maio de 1990, a extinção de 1 (um) emprego de Técnico em Assuntos Educacionais e 1 (um) de Engenheiro Agrônomo, que voltam a ser ocupados, respectivamente, pelas servidoras MARIA DE FÁTIMA RIOS DA SILVA e TEREZINHA RABELO DE QUADROS, na Tabela Permanente da extinta Superintendência do Desenvolvimento da Região Centro-Oeste-SUDECO." .
+lex:D99469\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99469\/Artigo1    lex:temParagrafo    lex:D99469\/Artigo1\/ParagrafoUnico .
+lex:D99469\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ficam modificados os Anexos I e IV do Decreto n° 99.247, de 1990, em relação às alterações de que trata este artigo." .
+lex:D99469\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99469    lex:temArtigo    lex:D99469\/Artigo2 .
+lex:D99469\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99469\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99469    lex:temArtigo    lex:D99469\/Artigo3 .
+lex:D99469\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:D99469\/Artigo1    lex:remetePara    lex:D99247\/Artigo1 .
+lex:D99469\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D99247\/ .
+lex:D99469\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D99247\/ .

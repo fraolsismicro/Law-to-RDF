@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D74518    lex:ehUm    lex:DocLegal .
+lex:D74518    lex:temTextoIntegral    lex:HTMLs\/D74518.htm .
+lex:D74518\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D74518    lex:temArtigo    lex:D74518\/Artigo1 .
+lex:D74518\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovada a alteração introduzida no artigo 5º dos Estatutos Sociais da Companhia Auxiliar de Empresas Elétricas Brasileiras - CAEEB, sociedade de economia mista, criada pela Lei nº 5.736 de 22 de novembro de 1971, conforme deliberação de suas assembléias Extraordinárias realizadas em 4 de março e 17 de junho de 1974, o qual passará a ter a seguinte redação:" .
+lex:D74518\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D74518    lex:temArtigo    lex:D74518\/Artigo2 .
+lex:D74518\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D74518\/Artigo1    lex:remetePara    lex:L5736 .
+lex:D74518\/Texto00001    lex:remetePara    lex:ESTATUTO_CAEEB\/Artigo5 .

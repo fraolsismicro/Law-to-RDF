@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98870    lex:ehUm    lex:DocLegal .
+lex:D98870    lex:temTextoIntegral    lex:HTMLs\/D98870.htm .
+lex:D98870\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98870    lex:temArtigo    lex:D98870\/Artigo1 .
+lex:D98870\/Artigo1    lex:temConteudo    "Art. 1º Fica, de acordo com o artigo 33, § 3º, da Lei nº 4.117, de 27 de agosto de 1962, renovada por 10 (dez) anos, a partir de 8 de fevereiro de 1988, a concessão da RÁDIO DIDUSORA DE TRÊS PASSOS LTDA., outorgada através do Decreto nº 61.818 de 4 de dezembro de 1967, para explorar, na Cidade de Três Passos, Estado do Rio Grande do Sul, sem direito de exclusividade, serviço de radiodifusão sonora em onda média." .
+lex:D98870\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D98870\/Artigo1    lex:temParagrafo    lex:D98870\/Artigo1\/ParagrafoUnico .
+lex:D98870\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A execução do serviço de radiodifusão, cuja outorga é renovada por este Decreto, reger-se-á pelo Código Brasileiro de Telecomunicações, leis subseqüentes e seus regulamentos e, cumulativamente pelas cláusulas aprovadas através do Decreto nº 88.066, de 26 de janeiro de 1983, às quais a entidade aderiu previamente." .
+lex:D98870\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98870    lex:temArtigo    lex:D98870\/Artigo2 .
+lex:D98870\/Artigo2    lex:temConteudo    "Art. 2º A concessão ora renovada somente produzirá efeitos legais após deliberação do Congresso Nacional na forma do § 3º do artigo 223 da Constituição." .
+lex:D98870\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98870    lex:temArtigo    lex:D98870\/Artigo3 .
+lex:D98870\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D98870\/Artigo1    lex:remetePara    lex:L4117\/Artigo33\/Paragrafo3 .
+lex:D98870\/Artigo1    lex:remetePara    lex:D61818 .
+lex:D98870\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D88066 .
+lex:D98870\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo223\/Paragrafo3 .

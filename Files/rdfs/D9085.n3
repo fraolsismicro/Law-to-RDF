@@ -1,0 +1,92 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9085    lex:ehUm    lex:DocLegal .
+lex:D9085    lex:temTextoIntegral    lex:HTMLs\/D9085.htm .
+lex:D9085\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo1 .
+lex:D9085\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, na forma do Anexo II, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Comissionadas do Poder Executivo - FCPE:" .
+lex:D9085\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9085\/Artigo1    lex:temInciso    lex:D9085\/Artigo1\/IncisoI .
+lex:D9085\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério do Meio Ambiente para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 102.2;" .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete    lex:temConteudo    "b) sete FCPE 102.3;" .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:temConteudo    "c) uma FCPE 102.2; e" .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma .
+lex:D9085\/Artigo1\/IncisoI\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma    lex:temConteudo    "d) uma FCPE 102.1; e" .
+lex:D9085\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9085\/Artigo1    lex:temInciso    lex:D9085\/Artigo1\/IncisoII .
+lex:D9085\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério do Meio Ambiente:" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5;" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "b) três DAS 101.4;" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:temConteudo    "c) seis DAS 101.3;" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm    lex:temConteudo    "d) um DAS 101.2;" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete    lex:temConteudo    "e) sete FCPE 101.3;" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:temConteudo    "f) uma FCPE 101.2; e" .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma    lex:temIncisoAlinea    lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma .
+lex:D9085\/Artigo1\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis\/IncisoAlineaUm\/IncisoAlineaSete\/IncisoAlineaUma\/IncisoAlineaUma    lex:temConteudo    "g) uma FCPE 101.1." .
+lex:D9085\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo2 .
+lex:D9085\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo I ao Decreto no 8.975, de 24 de janeiro de 2017, passa a vigorar com as seguintes alterações:" .
+lex:D9085\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9085\/Artigo2    lex:temInciso    lex:D9085\/Artigo2\/IncisoII .
+lex:D9085\/Artigo2\/IncisoII    lex:temConteudo    "II - ........................................................................." .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D9085\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea    lex:temConteudo    "b) .........................................................................." .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "....................................................................................." .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento    lex:temConteudo    "3. Departamento de Áreas Protegidas;" .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "4. Departamento de Patrimônio Genético; e" .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "5. Departamento de Apoio ao Conselho de Gestão do Patrimônio Genético;" .
+lex:D9085\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo3 .
+lex:D9085\/Artigo3    lex:temConteudo    "Art. 3o  O Anexo II ao Decreto no 8.975, de 24 de janeiro de 2017, passa a vigorar na forma do Anexo I a este Decreto." .
+lex:D9085\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo4 .
+lex:D9085\/Artigo4    lex:temConteudo    "Art. 4o  Os ocupantes dos cargos em comissão que deixam de existir na Estrutura Regimental do Ministério do Meio Ambiente por força deste Decreto ficam automaticamente exonerados." .
+lex:D9085\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo5 .
+lex:D9085\/Artigo5    lex:temConteudo    "Art. 5o  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do Ministério do Meio Ambiente deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D9085\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9085\/Artigo5    lex:temParagrafo    lex:D9085\/Artigo5\/ParagrafoUnico .
+lex:D9085\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado do Meio Ambiente publicará, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo I, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D9085\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D9085    lex:temArtigo    lex:D9085\/Artigo6 .
+lex:D9085\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor em 27 de julho de 2017." .
+lex:D9085\/Artigo2    lex:remetePara    lex:D8975\/anexo1 .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento    lex:remetePara    lex:D8975\/anexo1Artigo2iia3b3 .
+lex:D9085\/Artigo2\/IncisoII\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/Texto00021    lex:remetePara    lex:D8975\/Artigo21 .
+lex:D9085\/Artigo3    lex:remetePara    lex:D8975\/anexo2 .

@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9812    lex:ehUm    lex:DocLegal .
+lex:D9812    lex:temTextoIntegral    lex:HTMLs\/D9812.htm .
+lex:D9812\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9812    lex:temArtigo    lex:D9812\/Artigo1A .
+lex:D9812\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 9.759, de 11 de abril de 2019, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9812\/Artigo1A\/AlineaOrganizaAAes    lex:ehUm    lex:Alinea .
+lex:D9812\/Artigo1A    lex:temAlinea    lex:D9812\/Artigo1A\/AlineaOrganizaAAes .
+lex:D9812\/Artigo1A\/AlineaOrganizaAAes    lex:temConteudo    "a) organizaÃ§Ãµes sociais ou agÃªncias executivas qualificadas pelo Poder Executivo federal;" .
+lex:D9812\/Artigo1A\/AlineaServiAos    lex:ehUm    lex:Alinea .
+lex:D9812\/Artigo1A    lex:temAlinea    lex:D9812\/Artigo1A\/AlineaServiAos .
+lex:D9812\/Artigo1A\/AlineaServiAos    lex:temConteudo    "b) serviÃ§os sociais autÃ´nomos; e" .
+lex:D9812\/Artigo1A\/AlineaComissAes    lex:ehUm    lex:Alinea .
+lex:D9812\/Artigo1A    lex:temAlinea    lex:D9812\/Artigo1A\/AlineaComissAes .
+lex:D9812\/Artigo1A\/AlineaComissAes    lex:temConteudo    "c) comissÃµes de que trata o art. 3Âº da Lei nÂº 10.881, de 9 de junho de 2004.â (NR)" .
+lex:D9812\/Artigo1A\/AlineaEstabelecido    lex:ehUm    lex:Alinea .
+lex:D9812\/Artigo1A    lex:temAlinea    lex:D9812\/Artigo1A\/AlineaEstabelecido .
+lex:D9812\/Artigo1A\/AlineaEstabelecido    lex:temConteudo    "b) estabelecido carÃ¡ter temporÃ¡rio e duraÃ§Ã£o nÃ£o superior a um ano; e" .
+lex:D9812\/Artigo1A\/AlineaEstabelecido\/Item    lex:ehUm    lex:Item .
+lex:D9812\/Artigo1A\/AlineaEstabelecido    lex:temItem    lex:D9812\/Artigo1A\/AlineaEstabelecido\/Item .
+lex:D9812\/Artigo1A\/AlineaEstabelecido\/Item    lex:temConteudo    "...................................................................................................................." .
+lex:D9812\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9812    lex:temArtigo    lex:D9812\/Artigo2A .
+lex:D9812\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os seguintes dispositivos do Decreto nÂº 9.759, de 2019:" .
+lex:D9812\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9812    lex:temArtigo    lex:D9812\/Artigo3A .
+lex:D9812\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D9812\/Artigo1A    lex:remetePara    lex:D9759 .
+lex:D9812\/Texto00001    lex:remetePara    lex:D9759\/Artigo1Â§1 .
+lex:D9812\/Texto00001    lex:remetePara    lex:D9759\/Artigo2pii0 .
+lex:D9812\/Texto00001    lex:remetePara    lex:D9759\/Artigo2piii0 .
+lex:D9812\/Texto00001    lex:remetePara    lex:D9759\/Artigo2 .
+lex:D9812\/Texto00001    lex:remetePara    lex:L12846\/Artigo10 .
+lex:D9812\/Texto00001    lex:remetePara    lex:D1171 .
+lex:D9812\/Artigo1A\/AlineaComissAes    lex:remetePara    lex:L10881\/Artigo3 .
+lex:D9812\/Artigo1A\/Texto00004    lex:remetePara    lex:D9759\/Artigo3p0 .
+lex:D9812\/Artigo1A\/Texto00004    lex:remetePara    lex:D9759\/Artigo3pi0 .
+lex:D9812\/Artigo1A\/Texto00004    lex:remetePara    lex:D9759\/Artigo60 .
+lex:D9812\/Artigo1A\/Texto00004    lex:remetePara    lex:D9759\/Artigo6vi0 .
+lex:D9812\/Artigo1A\/AlineaEstabelecido    lex:remetePara    lex:D9759\/Artigo6vib0 .
+lex:D9812\/Artigo1A\/AlineaEstabelecido\/Texto00006    lex:remetePara    lex:D9759\/Artigo6Â§1 .
+lex:D9812\/Artigo1A\/AlineaEstabelecido\/Texto00006    lex:remetePara    lex:D9191\/Artigo36 .
+lex:D9812\/Artigo2A    lex:remetePara    lex:D9759 .
+lex:D9812\/Texto00007    lex:remetePara    lex:D9759\/Artigo1 .
+lex:D9812\/Texto00007    lex:remetePara    lex:D9759\/Artigo6 .

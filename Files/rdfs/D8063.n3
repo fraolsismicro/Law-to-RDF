@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8063    lex:ehUm    lex:DocLegal .
+lex:D8063    lex:temTextoIntegral    lex:HTMLs\/D8063.htm .
+lex:D8063\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo1 .
+lex:D8063\/Artigo1    lex:temConteudo    "Art. 1o  Fica criada a empresa pública denominada Empresa Brasileira de Administração de Petróleo e Gás Natural S.A. - Pré-Sal Petróleo S.A. - PPSA, empresa pública federal, sob a forma de sociedade anônima de capital fechado, vinculada ao Ministério de Minas e Energia." .
+lex:D8063\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo2 .
+lex:D8063\/Artigo2    lex:temConteudo    "Art. 2o  A Procuradoria-Geral da Fazenda Nacional convocará Assembleia Geral de acionistas para a constituição da PPSA, nos termos do art. 87, da Lei no 6.404, de 15 de dezembro de 1976." .
+lex:D8063\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo3 .
+lex:D8063\/Artigo3    lex:temConteudo    "Art. 3o  O capital social inicial da PPSA será de R$ 50.000.000,00 (cinquenta milhões de reais), dividido em cinquenta mil ações ordinárias nominativas e sem valor nominal, com integralização de trinta por cento em pecúnia pela União, conforme o disposto no inciso II do caput do art. 80 da Lei  no 6.404, de 1976." .
+lex:D8063\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo4 .
+lex:D8063\/Artigo4    lex:temConteudo    "Art. 4o  O Ministro de Estado de Minas e Energia designará representante para a prática dos atos necessários à constituição e instalação da PPSA." .
+lex:D8063\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8063\/Artigo4    lex:temParagrafo    lex:D8063\/Artigo4\/ParagrafoUnico .
+lex:D8063\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A função de representante, de que trata o caput, será considerada de relevante interesse público, não remunerada." .
+lex:D8063\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo5 .
+lex:D8063\/Artigo5    lex:temConteudo    "Art. 5o  Fica aprovado o Estatuto Social da PPSA, nos termos do Anexo a este Decreto." .
+lex:D8063\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8063    lex:temArtigo    lex:D8063\/Artigo6 .
+lex:D8063\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8063\/Artigo2    lex:remetePara    lex:L6404consol\/Artigo87 .
+lex:D8063\/Artigo3    lex:remetePara    lex:L6404consol\/Artigo80 .

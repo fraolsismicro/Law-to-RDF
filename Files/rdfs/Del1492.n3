@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1492    lex:ehUm    lex:DocLegal .
+lex:Del1492    lex:temTextoIntegral    lex:HTMLs\/Del1492.htm .
+lex:Del1492\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1492    lex:temArtigo    lex:Del1492\/Artigo1 .
+lex:Del1492\/Artigo1    lex:temConteudo    "Art. 1º Os créditos do Imposto sobre Circulação de Mercadorias concedidos a título de estímulo fiscal às exportações de manufaturados, gerados a partir de 1º de janeiro de 1977, poderão ser parcialmente utilizados, até o limite de 50 % (cinquenta por cento) do respectivo valor, para dedução no Imposto sobre Produtos Industrializados devido nas operações internas, ou em outras modalidades de aproveitamento indicadas pelo Ministro da Fazenda, inclusive por via de compensação ou restituição em espécie, desde que a situação financeira da unidade federativa em que estiver localizado o estabelecimento fabricante-exportador não permita a sua pronta utilização, compensação ou ressarcimento." .
+lex:Del1492\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1492\/Artigo1    lex:temParagrafo    lex:Del1492\/Artigo1\/ParagrafoUnico .
+lex:Del1492\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica o Ministro da Fazenda autorizado a celebrar convênios com os Secretários de Fazenda ou Finanças dos Estados e do Distrito Federal para fins de aplicação do disposto neste artigo, podendo estabelecer os termos e as condições em que será admitido o aproveitamento dos créditos do Imposto sobre Circulação de Mercadorias de que trata este Decreto-lei." .
+lex:Del1492\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1492    lex:temArtigo    lex:Del1492\/Artigo2 .
+lex:Del1492\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, ficando revogados o artigo 1º Decreto-lei nº 1.426, de 2 de dezembro de 1975, e demais disposições em contrário." .
+lex:Del1492\/Artigo2    lex:remetePara    lex:Del1426\/Artigo1 .

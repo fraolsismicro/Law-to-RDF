@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1806    lex:ehUm    lex:DocLegal .
+lex:Del1806    lex:temTextoIntegral    lex:HTMLs\/Del1806.htm .
+lex:Del1806\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1806    lex:temArtigo    lex:Del1806\/Artigo1 .
+lex:Del1806\/Artigo1    lex:temConteudo    "Art. 1º - Fica reaberto, por 180 (cento e oitenta) dias, a contar da publicação deste Decreto-lei, o prazo a que se refere o § 1º do artigo 4º do Decreto-lei nº 1.699, de 16 de outubro de 1979, mantidas as demais disposições quanto ao parcelamento de débitos previdenciários." .
+lex:Del1806\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1806    lex:temArtigo    lex:Del1806\/Artigo2 .
+lex:Del1806\/Artigo2    lex:temConteudo    "Art. 2º - Os Estados, Municípios e respectivas autarquias, bem como as entidades filantrópicas poderão obter o parcelamento de seus débitos previdenciários em até 120 (cento e vinte) prestações mensais, desde que o requeiram no prazo mencionado no artigo anterior." .
+lex:Del1806\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1806    lex:temArtigo    lex:Del1806\/Artigo3 .
+lex:Del1806\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1806\/Artigo1    lex:remetePara    lex:del1699\/Artigo4\/Paragrafo1 .

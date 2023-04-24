@@ -1,0 +1,95 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6957    lex:ehUm    lex:DocLegal .
+lex:D6957    lex:temTextoIntegral    lex:HTMLs\/D6957.htm .
+lex:D6957\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6957    lex:temArtigo    lex:D6957\/Artigo1 .
+lex:D6957\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 202-A, 303, 305 e 337 do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999, passam a vigorar com as seguintes alterações:" .
+lex:D6957\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo1 .
+lex:D6957\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O FAP consiste num multiplicador variável num intervalo contínuo de cinco décimos (0,5000) a dois inteiros (2,0000), aplicado com quatro casas decimais, considerado o critério de arredondamento na quarta casa decimal, a ser aplicado à respectiva alíquota." .
+lex:D6957\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo2 .
+lex:D6957\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Para fins da redução ou majoração a que se refere o caput, proceder-se-á à discriminação do desempenho da empresa, dentro da respectiva atividade econômica, a partir da criação de um índice composto pelos índices de gravidade, de frequência e de custo que pondera os respectivos percentis com pesos de cinquenta por cento, de trinta cinco por cento e de quinze por cento, respectivamente." .
+lex:D6957\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo4 .
+lex:D6957\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  ....................................................." .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6957\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoI .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - para o índice de freqüência, os registros de acidentes e doenças do trabalho informados ao INSS por meio de Comunicação de Acidente do Trabalho - CAT e de benefícios acidentários estabelecidos por nexos técnicos pela perícia médica do INSS, ainda que sem CAT a eles vinculados;" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6957\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - para o índice de gravidade, todos os casos de auxílio-doença, auxílio-acidente, aposentadoria por invalidez e pensão por morte, todos de natureza acidentária, aos quais são atribuídos pesos diferentes em razão da gravidade da ocorrência, como segue:" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaPensao    lex:ehUm    lex:Alinea .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaPensao .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaPensao    lex:temConteudo    "a) pensão por morte: peso de cinquenta por cento;" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAposentadoria    lex:ehUm    lex:Alinea .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAposentadoria .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAposentadoria    lex:temConteudo    "b) aposentadoria por invalidez: peso de trinta por cento; e" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAuxilio-doenca    lex:ehUm    lex:Alinea .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAuxilio-doenca .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoII\/AlineaAuxilio-doenca    lex:temConteudo    "c) auxílio-doença e auxílio-acidente: peso de dez por cento para cada um; e" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6957\/Artigo1\/Paragrafo4    lex:temParagrafoInciso    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - para o índice de custo, os valores dos benefícios de natureza acidentária pagos ou devidos pela Previdência Social, apurados da seguinte forma:" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos    lex:temConteudo    "a) nos casos de auxílio-doença, com base no tempo de afastamento do trabalhador, em meses e fração de mês; e" .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII    lex:temAlinea    lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos .
+lex:D6957\/Artigo1\/Paragrafo4\/ParagrafoIncisoIII\/AlineaNos    lex:temConteudo    "b) nos casos de morte ou de invalidez, parcial ou total, mediante projeção da expectativa de sobrevida do segurado, na data de início do benefício, a partir da tábua de mortalidade construída pela Fundação Instituto Brasileiro de Geografia e Estatística - IBGE para toda a população brasileira, considerando-se a média nacional única para ambos os sexos." .
+lex:D6957\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo5 .
+lex:D6957\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  O Ministério da Previdência Social publicará anualmente, sempre no mesmo mês, no Diário Oficial da União, os róis dos percentis de frequência, gravidade e custo por Subclasse da Classificação Nacional de Atividades Econômicas - CNAE e divulgará na rede mundial de computadores o FAP de cada empresa, com as respectivas ordens de freqüência, gravidade, custo e demais elementos que possibilitem a esta verificar o respectivo desempenho dentro da sua CNAE-Subclasse." .
+lex:D6957\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo7 .
+lex:D6957\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Para o cálculo anual do FAP, serão utilizados os dados de janeiro a dezembro de cada ano, até completar o período de dois anos, a partir do qual os dados do ano inicial serão substituídos pelos novos dados anuais incorporados." .
+lex:D6957\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo8 .
+lex:D6957\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o  Para a empresa constituída após janeiro de 2007, o FAP será calculado a partir de 1o de janeiro do ano ano seguinte ao que completar dois anos de constituição." .
+lex:D6957\/Artigo1\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo9 .
+lex:D6957\/Artigo1\/Paragrafo9    lex:temConteudo    "§ 9o  Excepcionalmente, no primeiro processamento do FAP serão utilizados os dados de abril de 2007 a dezembro de 2008." .
+lex:D6957\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo10 .
+lex:D6957\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10.  A metodologia aprovada pelo Conselho Nacional de Previdência Social indicará a sistemática de cálculo e a forma de aplicação de índices e critérios acessórios à composição do índice composto do FAP. (NR)" .
+lex:D6957\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo1 .
+lex:D6957\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ....................................................." .
+lex:D6957\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6957\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6957\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D6957\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - vinte e nove Juntas de Recursos, com competência para julgar, em primeira instância, os recursos interpostos contra as decisões prolatadas pelos órgãos regionais do INSS, em matéria de benefício administrado pela autarquia ou quanto a controvérsias relativas à apuração do FAP, a que se refere o art. 202-A, conforme sistemática a ser definida em ato conjunto dos Ministérios da Previdência Social e da Fazenda;" .
+lex:D6957\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6957\/Artigo1    lex:temParagrafo    lex:D6957\/Artigo1\/Paragrafo3 .
+lex:D6957\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Considera-se estabelecido o nexo entre o trabalho e o agravo quando se verificar nexo técnico epidemiológico entre a atividade da empresa e a entidade mórbida motivadora da incapacidade, elencada na Classificação Internacional de Doenças - CID em conformidade com o disposto na Lista C do Anexo II deste Regulamento." .
+lex:D6957\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6957    lex:temArtigo    lex:D6957\/Artigo2 .
+lex:D6957\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos II e V do Regulamento da Previdência Social passam a vigorar na forma dos Anexos a este Decreto." .
+lex:D6957\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6957    lex:temArtigo    lex:D6957\/Artigo3 .
+lex:D6957\/Artigo3    lex:temConteudo    "Art. 3o  No ano de 2010, o Fator Acidentário de Prevenção - FAP, na redação dada por este Decreto, será aplicado, no que exceder a um inteiro, com redução de vinte e cinco por cento, consistindo dessa forma num multiplicador variável num intervalo contínuo de um inteiro a um inteiro e setenta e cinco centésimos." .
+lex:D6957\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6957    lex:temArtigo    lex:D6957\/Artigo4 .
+lex:D6957\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação, produzindo seus efeitos, quanto à nova redação dada ao Anexo V do Regulamento da Previdência Social, a partir do primeiro dia do mês de janeiro de 2010, mantidas até essa data as contribuições devidas na forma da legislação precedente." .
+lex:D6957\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6957    lex:temArtigo    lex:D6957\/Artigo5 .
+lex:D6957\/Artigo5    lex:temConteudo    "Art. 5o  Revoga-se o § 3o do art. 202-A do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999." .
+lex:D6957\/Texto00001    lex:remetePara    lex:D3048\/Artigo202\/Paragrafo1 .
+lex:D6957\/Artigo1\/Paragrafo4    lex:remetePara    lex:D3048\/Artigo202\/Paragrafo4i .
+lex:D6957\/Artigo1\/Paragrafo5    lex:remetePara    lex:D3048\/Artigo202\/Paragrafo5 .
+lex:D6957\/Artigo1\/Paragrafo7    lex:remetePara    lex:D3048\/Artigo202\/Paragrafo7 .
+lex:D6957\/Artigo1\/Texto00017    lex:remetePara    lex:D3048\/Artigo303\/Paragrafo1i .
+lex:D6957\/Artigo1\/Paragrafo1\/Texto00019    lex:remetePara    lex:D3048\/Artigo305 .
+lex:D6957\/Artigo1\/Paragrafo1\/Texto00019    lex:remetePara    lex:D3048\/Artigo337\/Paragrafo3 .
+lex:D6957\/Artigo2    lex:remetePara    lex:D3048\/ .
+lex:D6957\/Artigo2    lex:regulamentadoPor    lex:D3048\/ .
+lex:D3048\/    lex:regulamenta    lex:D6957\/Artigo2 .
+lex:D6957\/Artigo5    lex:regulamentadoPor    lex:D3048\/Artigo202\/Paragrafo3 .
+lex:D3048\/Artigo202\/Paragrafo3    lex:regulamenta    lex:D6957\/Artigo5 .
+lex:D6957\/Artigo5    lex:remetePara    lex:D3048\/Artigo202\/Paragrafo3 .

@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5549    lex:ehUm    lex:DocLegal .
+lex:D5549    lex:temTextoIntegral    lex:HTMLs\/D5549.htm .
+lex:D5549\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5549    lex:temArtigo    lex:D5549\/Artigo1 .
+lex:D5549\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 29 e 30, o caput do art. 43 e o item 7.2 do Anexo IV do Decreto no 4.074, de 4 de janeiro de 2002, passam a vigorar com a seguinte redação:" .
+lex:D5549\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo1 .
+lex:D5549\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os componentes serão registrados mediante inscrição no SIC, após liberação dos laudos de avaliação de periculosidade ambiental (PPA) e toxicológica dos produtos técnicos, pré-misturas, agrotóxicos e afins." .
+lex:D5549\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo2 .
+lex:D5549\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Serão consideradas registradas as matérias-primas especificadas no processo de síntese do produto técnico registrado." .
+lex:D5549\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo3 .
+lex:D5549\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  A empresa poderá solicitar, em requerimento único, o registro no SIC dos ingredientes inertes e aditivos sobre os quais tenha interesse." .
+lex:D5549\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo4 .
+lex:D5549\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  Os ingredientes inertes e aditivos já inscritos no SIC não dispensam exigência de registro por parte de outras empresas produtoras, importadoras ou usuárias." .
+lex:D5549\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo5 .
+lex:D5549\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  A requerente deverá apresentar justificativa quando não dispuser de informação solicitada no Anexo IV." .
+lex:D5549\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D5549\/Artigo1    lex:temParagrafo    lex:D5549\/Artigo1\/Paragrafo6 .
+lex:D5549\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  Os pedidos de registro de produtos técnicos, pré-misturas, agrotóxicos e afins deverão ser acompanhados do comprovante de inscrição no SIC ou sua solicitação para os respectivos ingredientes inertes e aditivos, caso a requerente não os tenha registrado.' (NR)" .
+lex:D5549\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5549    lex:temArtigo    lex:D5549\/Artigo2 .
+lex:D5549\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5549\/Texto00001    lex:remetePara    lex:D4074\/Artigo29 .
+lex:D5549\/Artigo1\/Texto00007    lex:remetePara    lex:D4074\/Artigo30 .
+lex:D5549\/Artigo1\/Texto00007    lex:remetePara    lex:D4074\/Artigo43 .
+lex:D5549\/Artigo1\/Texto00007    lex:remetePara    lex:D4074\/72 .

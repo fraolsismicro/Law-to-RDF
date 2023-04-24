@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9272    lex:ehUm    lex:DocLegal .
+lex:L9272    lex:temTextoIntegral    lex:HTMLs\/L9272.htm .
+lex:L9272\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9272    lex:temArtigo    lex:L9272\/Artigo1 .
+lex:L9272\/Artigo1    lex:temConteudo    "Art. 1º É o art. 30 da Lei n° 8.171, de 17 de janeiro de 1991, acrescido dos seguintes incisos:" .
+lex:L9272\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoV .
+lex:L9272\/Artigo1\/IncisoV    lex:temConteudo    "V - cadastro, cartografia e solo das propriedades rurais;" .
+lex:L9272\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoXIV .
+lex:L9272\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - informações sobre doenças e pragas;" .
+lex:L9272\/Artigo1\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoXV .
+lex:L9272\/Artigo1\/IncisoXV    lex:temConteudo    "XV - indústria de produtos de origem vegetal e animal e de insumos;" .
+lex:L9272\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoXVI .
+lex:L9272\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - classificação de produtos agropecuários;" .
+lex:L9272\/Artigo1\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoXVII .
+lex:L9272\/Artigo1\/IncisoXVII    lex:temConteudo    "XVII - inspeção de produtos e insumos;" .
+lex:L9272\/Artigo1\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo1    lex:temInciso    lex:L9272\/Artigo1\/IncisoXVIII .
+lex:L9272\/Artigo1\/IncisoXVIII    lex:temConteudo    "XVIII - infratores das várias legislações relativas à agropecuária.'" .
+lex:L9272\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9272    lex:temArtigo    lex:L9272\/Artigo2 .
+lex:L9272\/Artigo2    lex:temConteudo    "Art. 2° O inciso VI do art. 30 da Lei n° 8.171, de 17 de janeiro de 1991, passa a ter a seguinte redação:" .
+lex:L9272\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L9272\/Artigo2    lex:temInciso    lex:L9272\/Artigo2\/IncisoVI .
+lex:L9272\/Artigo2\/IncisoVI    lex:temConteudo    "VI - volume dos estoques públicos e privados, reguladores e estratégicos, discriminados por produtos, tipos e localização;" .
+lex:L9272\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9272    lex:temArtigo    lex:L9272\/Artigo3 .
+lex:L9272\/Artigo3    lex:temConteudo    "Art. 3° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9272\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9272    lex:temArtigo    lex:L9272\/Artigo4 .
+lex:L9272\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .
+lex:L9272\/Artigo1    lex:remetePara    lex:L8171 .
+lex:L9272\/Artigo1\/IncisoV    lex:remetePara    lex:L8171\/Artigo30 .
+lex:L9272\/Artigo1\/IncisoXIV    lex:remetePara    lex:L8171\/Artigo30 .
+lex:L9272\/Artigo2\/IncisoVI    lex:remetePara    lex:L8171\/Artigo30 .

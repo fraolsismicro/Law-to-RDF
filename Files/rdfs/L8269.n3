@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8269    lex:ehUm    lex:DocLegal .
+lex:L8269    lex:temTextoIntegral    lex:HTMLs\/L8269.htm .
+lex:L8269\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8269    lex:temArtigo    lex:L8269\/Artigo1 .
+lex:L8269\/Artigo1    lex:temConteudo    "Art. 1° O art. 25 da Lei n° 7.713, de 22 de dezembro de 1988, passa a vigorar com a seguinte redação:" .
+lex:L8269\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8269\/Artigo1    lex:temInciso    lex:L8269\/Artigo1\/IncisoI .
+lex:L8269\/Artigo1\/IncisoI    lex:temConteudo    "I - se o rendimento mensal for de até Cr$ 750.000,00, será deduzida uma parcela correspondente a Cr$ 250.000,00 e, sobre o saldo remanescente incidirá alíquota de 10%;" .
+lex:L8269\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8269\/Artigo1    lex:temInciso    lex:L8269\/Artigo1\/IncisoII .
+lex:L8269\/Artigo1\/IncisoII    lex:temConteudo    "II - se o rendimento mensal for superior a Cr$ 750.000,00, será deduzida uma parcela correspondente a Cr$ 550.000,00 e, sobre o saldo remanescente incidirá alíquota de 25%." .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS    lex:ehUm    lex:IncisoAlinea .
+lex:L8269\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS    lex:temConteudo    "a) Cr$ 20.000,00 por dependente, até o limite de cinco dependentes;" .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS    lex:ehUm    lex:IncisoAlinea .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS    lex:temIncisoAlinea    lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS    lex:temConteudo    "b) Cr$ 250.000,00, correspondentes à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para reserva remunerada ou reforma pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, ou por qualquer pessoa jurídica de direito público interno, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade;" .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS    lex:temIncisoAlinea    lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO    lex:temConteudo    "c) o valor da contribuição paga, no mês, para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;" .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO    lex:temIncisoAlinea    lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO\/IncisoAlineaO .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO\/IncisoAlineaO    lex:temConteudo    "d) o valor da pensão judicial paga." .
+lex:L8269\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8269    lex:temArtigo    lex:L8269\/Artigo2 .
+lex:L8269\/Artigo2    lex:temConteudo    "Art. 2° Esta lei entra em vigor na data de sua publicação." .
+lex:L8269\/Texto00001    lex:remetePara    lex:L7713\/Artigo25 .
+lex:L8269\/Artigo1\/IncisoI    lex:remetePara    lex:L7713\/Artigo25 .
+lex:L8269\/Artigo1\/IncisoII    lex:remetePara    lex:L7713\/Artigo25 .
+lex:L8269\/Artigo1\/Texto00003    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo1 .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo1a .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo1b .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo1c .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO\/IncisoAlineaO    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo1d .
+lex:L8269\/Artigo1\/IncisoII\/IncisoAlineaCrS\/IncisoAlineaCrS\/IncisoAlineaO\/Texto00007    lex:remetePara    lex:L7713\/Artigo25\/Paragrafo2 .

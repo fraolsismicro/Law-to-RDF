@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L14132    lex:ehUm    lex:DocLegal .
+lex:L14132    lex:temTextoIntegral    lex:HTMLs\/L14132.htm .
+lex:L14132\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L14132    lex:temArtigo    lex:L14132\/Artigo1A .
+lex:L14132\/Artigo1A    lex:temConteudo    "Art. 1Âº  Esta Lei acrescenta o art. 147-A ao Decreto-Lei nÂº 2.848, de 7 de dezembro de 1940 (CÃ³digo Penal), para prever o crime de perseguiÃ§Ã£o." .
+lex:L14132\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L14132    lex:temArtigo    lex:L14132\/Artigo2A .
+lex:L14132\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Decreto-Lei nÂº 2.848, de 7 de dezembro de 1940 (CÃ³digo Penal), passa a vigorar acrescido do seguinte art. 147-A:" .
+lex:L14132\/Artigo147-A    lex:ehUm    lex:Artigo .
+lex:L14132    lex:temArtigo    lex:L14132\/Artigo147-A .
+lex:L14132\/Artigo147-A    lex:temConteudo    "Art. 147-A.  Perseguir alguÃ©m, reiteradamente e por qualquer meio, ameaÃ§ando-lhe a integridade fÃ­sica ou psicolÃ³gica, restringindo-lhe a capacidade de locomoÃ§Ã£o ou, de qualquer forma, invadindo ou perturbando sua esfera de liberdade ou privacidade." .
+lex:L14132\/Artigo147-A\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L14132\/Artigo147-A    lex:temArtigoPena    lex:L14132\/Artigo147-A\/ArtigoPena .
+lex:L14132\/Artigo147-A\/ArtigoPena    lex:temConteudo    "Pena â reclusÃ£o, de 6 (seis) meses a 2 (dois) anos, e multa." .
+lex:L14132\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L14132    lex:temArtigo    lex:L14132\/Artigo3A .
+lex:L14132\/Artigo3A    lex:temConteudo    "Art. 3Âº  Revoga-se o art. 65 do Decreto-Lei nÂº 3.688, de 3 de outubro de 1941 (Lei das ContravenÃ§Ãµes Penais)." .
+lex:L14132\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:L14132    lex:temArtigo    lex:L14132\/Artigo4A .
+lex:L14132\/Artigo4A    lex:temConteudo    "Art. 4Âº  Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L14132\/Artigo1A    lex:remetePara    lex:Del2848\/Artigo147 .
+lex:L14132\/Artigo2A    lex:remetePara    lex:Del2848 .
+lex:L14132\/Artigo147-A    lex:remetePara    lex:Del2848\/Artigo147 .
+lex:L14132\/Artigo3A    lex:remetePara    lex:Del3688\/Artigo65 .

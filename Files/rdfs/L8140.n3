@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8140    lex:ehUm    lex:DocLegal .
+lex:L8140    lex:temTextoIntegral    lex:HTMLs\/L8140.htm .
+lex:L8140\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo1 .
+lex:L8140\/Artigo1    lex:temConteudo    "Art. 1° A Fundação Centro de Formação do Servidor Público - FUNCEP passa a denominar-se Fundação Escola Nacional de Administração Pública - ENAP, vinculada à Secretaria da Administração Federal - SAF/PR." .
+lex:L8140\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo2 .
+lex:L8140\/Artigo2    lex:temConteudo    "Art. 2° A Enap terá como finalidade básica promover, elaborar e executar os programas de capacitação de recursos humanos para a Administração Pública Federal, visando ao desenvolvimento e à aplicação de tecnologias de gestão que aumentem a eficácia e a qualidade permanente dos serviços prestados pelo Estado aos cidadãos." .
+lex:L8140\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8140\/Artigo2    lex:temParagrafo    lex:L8140\/Artigo2\/ParagrafoUnico .
+lex:L8140\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Caberão ainda à ENAP a coordenação e supervisão dos programas de capacitação gerencial de pessoal civil executados pelos demais centros de formação da Administração Pública Federal." .
+lex:L8140\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo3 .
+lex:L8140\/Artigo3    lex:temConteudo    "Art. 3° A Enap é autorizada a contratar pessoal para funções docentes, de pesquisa e de consultoria técnica, por prazo não superior a dois anos, prorrogável uma única vez para atender a programações e projetos de natureza especial, que não possam ser desenvolvidos pelos servidores de seu quadro permanente." .
+lex:L8140\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo4 .
+lex:L8140\/Artigo4    lex:temConteudo    "Art. 4° É o Poder Executivo autorizado a extinguir ou incorporar em Quadro Único de Cargos, mediante alteração de denominação e especificação, sem aumento de despesas, os cargos de provimento efetivo e em comissão do Quadro Permanente da Fundação Centro de Formação do Servidor Público - FUNCEP." .
+lex:L8140\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo5 .
+lex:L8140\/Artigo5    lex:temConteudo    "Art. 5° O aproveitamento dos atuais ocupantes dos cargos de provimento efetivo da FUNCEP far-se-á:" .
+lex:L8140\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8140\/Artigo5    lex:temInciso    lex:L8140\/Artigo5\/IncisoI .
+lex:L8140\/Artigo5\/IncisoI    lex:temConteudo    "I - por transposição, quanto aos servidores aprovados em concurso público de provas ou provas e títulos; ou" .
+lex:L8140\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8140\/Artigo5    lex:temInciso    lex:L8140\/Artigo5\/IncisoII .
+lex:L8140\/Artigo5\/IncisoII    lex:temConteudo    "II - na forma do art. 19, § 1°, das Disposições Constitucionais Transitórias, para os servidores que tenham adquirido estabilidade." .
+lex:L8140\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo6 .
+lex:L8140\/Artigo6    lex:temConteudo    "Art. 6° Esta lei entra em vigor na data de sua publicação." .
+lex:L8140\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L8140    lex:temArtigo    lex:L8140\/Artigo7 .
+lex:L8140\/Artigo7    lex:temConteudo    "Art. 7° Revogam-se os arts. 3°, 6° e 11 da Lei n° 6.871, de 3 de dezembro de 1980 e demais disposições em contrário." .
+lex:L8140\/Artigo7    lex:remetePara    lex:L6871\/Artigo3 .
+lex:L8140\/Artigo7    lex:remetePara    lex:L6871\/Artigo6 .
+lex:L8140\/Artigo7    lex:remetePara    lex:L6871\/Artigo11 .

@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2395    lex:ehUm    lex:DocLegal .
+lex:L2395    lex:temTextoIntegral    lex:HTMLs\/L2395.htm .
+lex:L2395\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2395    lex:temArtigo    lex:L2395\/Artigo1 .
+lex:L2395\/Artigo1    lex:temConteudo    "Art. 1º Ficam criados no Departamento Nacional de Obras de Saneamento, do Ministério da Viação e Obras Públicas, e incluídos entre os constantes do item I da alínea d do art. 3º do Decreto-lei nº 8.847, de 24 de janeiro de 1946, dois Distritos de 1ª classe, com sede nas cidades de Paranaguá e Florianópolis e com jurisdição nos Estados do Paraná (D.PR) e de Santa Catarina (D.SC), respectivamente." .
+lex:L2395\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2395    lex:temArtigo    lex:L2395\/Artigo2 .
+lex:L2395\/Artigo2    lex:temConteudo    "Art. 2º Ficam criadas no Quadro:" .
+lex:L2395\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L2395\/Artigo2    lex:temInciso    lex:L2395\/Artigo2\/IncisoI .
+lex:L2395\/Artigo2\/IncisoI    lex:temConteudo    "I - Parte Permanente do Ministério da Viação e Obras Públicas - as seguintes funções gratificadas:" .
+lex:L2395\/Artigo2\/ParagrafoDe    lex:ehUm    lex:Paragrafo .
+lex:L2395\/Artigo2    lex:temParagrafo    lex:L2395\/Artigo2\/ParagrafoDe .
+lex:L2395\/Artigo2\/ParagrafoDe    lex:temConteudo    "Nº de Funções - Denominação - Símbolo" .
+lex:L2395\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L2395\/Artigo2    lex:temParagrafo    lex:L2395\/Artigo2\/ParagrafoUnico .
+lex:L2395\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os símbolos referidos neste artigo terão os valores constantes da Lei nº 488, de 15 de novembro de 1948." .
+lex:L2395\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2395    lex:temArtigo    lex:L2395\/Artigo2 .
+lex:L2395\/Artigo2    lex:temConteudo    "Art. 2º Ficam criadas no Quadro I - Parte Permanente do Ministério da Viação e Obras Públicas - as seguintes funções gratificadas:         (Redação dada pela Lei nº 3.521, de 1959)" .
+lex:L2395\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2395    lex:temArtigo    lex:L2395\/Artigo3 .
+lex:L2395\/Artigo3    lex:temConteudo    "Art. 3º Para atender a despesa decorrente do disposto no art. 2º desta lei, é o Poder Executivo autorizado a abrir, pelo Ministério da Viação e Obras Públicas, o crédito suplementar de Cr$ 34.800,00 (trinta e quatro mil oitocentos cruzeiros), como refôrço à Verba 1 - Pessoal Consignação 3 - Vantagens, Subconsiganção 08 - Funções gratificadas, 04 - Departamento de Administração, 06 - Divisão do Pessoal, do Anexo nº 25 do Orçamento em vigor (Lei nº 1.757, de 10 de dezembro de 1952)." .
+lex:L2395\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L2395    lex:temArtigo    lex:L2395\/Artigo4 .
+lex:L2395\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2395\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L0488 .
+lex:L2395\/Artigo2    lex:remetePara    lex:L3521\/Artigo1 .
+lex:L2395\/Artigo3    lex:remetePara    lex:L1757 .

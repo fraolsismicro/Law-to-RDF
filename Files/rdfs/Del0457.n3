@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0457    lex:ehUm    lex:DocLegal .
+lex:Del0457    lex:temTextoIntegral    lex:HTMLs\/Del0457.htm .
+lex:Del0457\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0457    lex:temArtigo    lex:Del0457\/Artigo1 .
+lex:Del0457\/Artigo1    lex:temConteudo    "Art. 1º Compete à Comissão Geral de Investigações, criada pelo Decreto-lei nº 359, de 17 de dezembro de 1968, promover investigações sumárias para o confisco de bens de que trata o Ato Complementar nº 42, de 27 de janeiro de 1969, observado o disposto no referido Decreto-lei e no de número 446, de 3 de fevereiro de 1969." .
+lex:Del0457\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0457    lex:temArtigo    lex:Del0457\/Artigo2 .
+lex:Del0457\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0457\/Artigo1    lex:remetePara    lex:del0359 .
+lex:Del0457\/Artigo1    lex:remetePara    lex:acp-42-69 .
+lex:Del0457\/Artigo1    lex:remetePara    lex:Del0446 .

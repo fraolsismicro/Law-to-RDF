@@ -1,0 +1,210 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3550    lex:ehUm    lex:DocLegal .
+lex:D3550    lex:temTextoIntegral    lex:HTMLs\/D3550.htm .
+lex:D3550\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3550    lex:temInciso    lex:D3550\/IncisoD .
+lex:D3550\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3550\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3550    lex:temArtigo    lex:D3550\/Artigo1 .
+lex:D3550\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 33, 38, 41, 45, 48, 58 e 72 do Decreto no 98.816, de 11 de janeiro de 1990, passam a vigorar com a seguinte redação:" .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo1    lex:temParagrafo    lex:D3550\/Artigo1\/ParagrafoUnico .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As alterações que se fizerem necessárias em rótulos e bulas decorrentes de restrições, estabelecidas por órgãos competentes dos Estados ou do Distrito Federal, deverão ser comunicadas pelo titular do registro do agrotóxico ou afim aos órgãos federais, no prazo de até trinta dias e, nesse mesmo lapso, encaminhadas cópias dos documentos modificados e aprovados pelo órgão que estabeleceu as exigências.' (NR)" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - ............................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome    lex:temConteudo    "f) nome, endereço do registrante, fabricante, formulador, manipulador e importador;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome\/Item    lex:ehUm    lex:Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome    lex:temItem    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome\/Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome\/Item    lex:temConteudo    "................................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaOs .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaOs    lex:temConteudo    "o) os dizeres: RESTRIÇÕES ESTADUAIS E DO DISTRITO FEDERAL: VIDE BULA." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - ............................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOrientacao    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOrientacao .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOrientacao    lex:temConteudo    "c) orientação para que sejam seguidas as instruções contidas na bula referentes ao destino de embalagens e de produtos impróprios para utilização ou em desuso." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - ............................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:temConteudo    "j) informações sobre os equipamentos a serem usados e a descrição dos processos de tríplice lavagem da embalagem ou tecnologia equivalente;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:temConteudo    "l) informações sobre os procedimentos para a devolução, destinação, transporte, reciclagem, reutilização e inutilização das embalagens vazias;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:temConteudo    "m) informações sobre os procedimentos para a devolução e destinação de produtos impróprios para utilização ou em desuso." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes\/Item    lex:ehUm    lex:Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:temItem    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes\/Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes\/Item    lex:temConteudo    "............................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - dados relativos à proteção do meio ambiente e informações sobre os efeitos decorrentes da destinação inadequada de embalagens;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - restrições estabelecidas por órgão competente do Estado ou do Distrito Federal.' (NR)" .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo1    lex:temParagrafo    lex:D3550\/Artigo1\/ParagrafoUnico .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nos casos em que não houver possibilidade de identificação ou responsabilização da empresa produtora ou comercializadora, o infrator assumirá a responsabilidade e os custos referentes a quaisquer procedimentos definidos pela autoridade fiscalizadora.' (NR)" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - ........................................................................................" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:temConteudo    "c) quando se tratar de devolução e destinação adequada de embalagens de agrotóxicos, seus componentes e afins, de produtos apreendidos pela ação fiscalizadora e daqueles impróprios para utilização ou em desuso;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando\/Item    lex:ehUm    lex:Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:temItem    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando\/Item .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando\/Item    lex:temConteudo    "............................................................................................." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:temConteudo    "f) quando do armazenamento, transporte, reciclagem, reutilização e inutilização de embalagens vazias e dos produtos apreendidos pela ação fiscalizadora e daqueles impróprios para utilização ou em desuso.' (NR)" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - o produtor, quando produzir mercadorias em desacordo com as especificações constantes do registro do produto, do rótulo, da bula e da propaganda, ou não der destinação às embalagens vazias em conformidade com a legislação pertinente." .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - o comerciante, quando efetuar a venda sem o respectivo receituário ou em desacordo com a receita ou recomendações do fabricante e órgãos registrantes e sanitário-ambientais;" .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - o usuário ou o prestador de serviços, quando proceder em desacordo com o receituário ou as recomendações do fabricante e órgãos registrantes e sanitário-ambientais.' (NR)" .
+lex:D3550\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3550    lex:temArtigo    lex:D3550\/Artigo2 .
+lex:D3550\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto no 98.816, de 11 de janeiro de 1990, passa a vigorar acrescido dos seguintes artigos:" .
+lex:D3550\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3550\/Artigo2    lex:temInciso    lex:D3550\/Artigo2\/IncisoI .
+lex:D3550\/Artigo2\/IncisoI    lex:temConteudo    "I - devem ser projetadas e fabricadas de forma a impedir qualquer vazamento, evaporação, perda ou alteração de seu conteúdo e de modo a facilitar as operações de lavagem, classificação, reutilização e reciclagem;" .
+lex:D3550\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3550\/Artigo2    lex:temInciso    lex:D3550\/Artigo2\/IncisoII .
+lex:D3550\/Artigo2\/IncisoII    lex:temConteudo    "II - os materiais de que forem feitas devem ser imunes à ação de seu conteúdo ou insuscetíveis de formar com ele combinações nocivas ou perigosas;" .
+lex:D3550\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3550\/Artigo2    lex:temInciso    lex:D3550\/Artigo2\/IncisoIII .
+lex:D3550\/Artigo2\/IncisoIII    lex:temConteudo    "III - devem ser suficientemente resistentes em todas as suas partes e satisfazer adequadamente às exigências de sua normal conservação;" .
+lex:D3550\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3550\/Artigo2    lex:temInciso    lex:D3550\/Artigo2\/IncisoIV .
+lex:D3550\/Artigo2\/IncisoIV    lex:temConteudo    "IV - devem ser providas de lacre ou outro dispositivo que seja irremediavelmente destruído ao ser aberto pela primeira vez, acompanhadas de tampa de segurança;" .
+lex:D3550\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D3550\/Artigo2    lex:temInciso    lex:D3550\/Artigo2\/IncisoV .
+lex:D3550\/Artigo2\/IncisoV    lex:temConteudo    "V - as embalagens rígidas deverão apresentar, de forma indelével e preferencialmente no seu fundo, o nome da empresa titular do registro.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo1 .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os órgãos federais, interagentes no processo de registro do produto, examinarão os pedidos de autorização para fracionamento e reembalagem após o registro do estabelecimento no órgão competente, na categoria de manipulador e comerciante." .
+lex:D3550\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo2 .
+lex:D3550\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Os agrotóxicos e afins comercializados a partir do fracionamento ou da reembalagem deverão dispor de rótulos, bulas e embalagens aprovados pelos órgãos federais." .
+lex:D3550\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo3 .
+lex:D3550\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Deverão constar do rótulo e da bula dos produtos que podem sofrer fracionamento ou reembalagem, além das exigências já estabelecidas na legislação em vigor, o nome e o endereço do estabelecimento que efetuou o fracionamento ou a reembalagem." .
+lex:D3550\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo4 .
+lex:D3550\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  O fracionamento e reembalagem de agrotóxicos e afins, com o objetivo de comercialização será facultado a formulações que se apresentem em estado líquido e para volumes unitários finais previamente autorizados pelos órgãos federais competentes.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo1 .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Se, ao término do prazo de que trata o caput, remanescer produto na embalagem, ainda no seu prazo de validade, será facultada a devolução da embalagem no final deste prazo." .
+lex:D3550\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo2 .
+lex:D3550\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  É facultada ao usuário a devolução das embalagens vazias a qualquer unidade de recebimento credenciada." .
+lex:D3550\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo3 .
+lex:D3550\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  Os usuários deverão manter à disposição dos órgãos fiscalizadores os comprovantes de devolução de embalagens vazias, fornecidas pelos estabelecimentos comerciais ou pelas unidades de recebimento, pelo prazo de, no mínimo, um ano, após a devolução da embalagem." .
+lex:D3550\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo4 .
+lex:D3550\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  No caso de embalagens contendo produtos impróprios para utilização ou em desuso, o usuário observará as orientações contidas nas respectivas bulas, cabendo às empresas produtoras e comercializadoras promover o recolhimento e a destinação admitidos pelo órgão ambiental competente." .
+lex:D3550\/Artigo2\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo5 .
+lex:D3550\/Artigo2\/Paragrafo5    lex:temConteudo    "§ 5o  As embalagens rígidas, que contiverem formulações miscíveis ou dispersíveis em água, deverão ser submetidas pelo usuário à operação de tríplice lavagem, ou tecnologia equivalente, conforme orientação constante de seus rótulos e bulas." .
+lex:D3550\/Artigo2\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo6 .
+lex:D3550\/Artigo2\/Paragrafo6    lex:temConteudo    "§ 6o  Os usuários de componentes deverão efetuar a devolução das embalagens vazias aos estabelecimentos comerciais onde foram adquiridos e, quando se tratar de produto adquirido no exterior, incumbir-se de sua destinação adequada.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo1 .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os estabelecimentos comerciais:" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - deverão disponibilizar unidades de recebimento, cujas condições de funcionamento e acesso não venham a dificultar a devolução pelos usuários, se não tiverem condições de receber ou armazenar embalagens vazias no mesmo local onde são realizadas as vendas dos produtos;" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - farão constar da nota fiscal de venda do produtos o endereço para devolução da embalagem vazia e comunicarão ao usuário, formalmente, qualquer alteração no endereço;" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - ficam obrigados a manter à disposição do serviço de fiscalização o sistema de controle das quantidades e dos tipos de embalagens adquiridas e devolvidas pelos usuários, com as respectivas datas das ocorrências.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - nome da pessoa física ou jurídica que efetuou a devolução;" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - data do recebimento;" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - quantidades e tipos de embalagens recebidas; e" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - nomes das empresas responsáveis pela destinação final das embalagens.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - apreendidos pela ação fiscalizatória;" .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D3550\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - impróprios para utilização ou em desuso, com vistas à sua reciclagem ou inutilização, de acordo com normas e instruções dos órgãos registrante e sanitário-ambientais competentes." .
+lex:D3550\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo1 .
+lex:D3550\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  As empresas registrantes e produtoras de agrotóxicos e afins podem instalar e manter postos ou centros de recolhimento de embalagens usadas e vazias." .
+lex:D3550\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo2 .
+lex:D3550\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  As empresas produtoras de componentes estabelecidas no País são responsáveis pelo recebimento e destinação final adequada das embalagens vazias que contiveram produtos por elas produzidas." .
+lex:D3550\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo3 .
+lex:D3550\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  O prazo para recolhimento e destinação final das embalagens pelas empresas registrantes e produtoras é de, no máximo, um ano, a contar data de devolução pelos usuários." .
+lex:D3550\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/Paragrafo4 .
+lex:D3550\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  Os responsáveis por postos e centros de recolhimento de embalagens vazias deverão manter à disposição dos órgãos de fiscalização sistema de controle das quantidades e dos tipos de embalagens recebidas e encaminhadas à destinação final.' (NR)" .
+lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoI .
+lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - das embalagens vazias dos produtos importados e comercializados, após a devolução pelos usuários;" .
+lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/Paragrafo4    lex:temParagrafoInciso    lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoII .
+lex:D3550\/Artigo2\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - dos produtos apreendidos pela ação fiscalizatória e dos impróprios para utilização ou em desuso." .
+lex:D3550\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3550\/Artigo2    lex:temParagrafo    lex:D3550\/Artigo2\/ParagrafoUnico .
+lex:D3550\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Tratando-se de produto importado submetido a processamento industrial ou a novo acondicionamento, caberá ao órgão registrante definir a responsabilidade de que trata o caput.' (NR)" .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - estruturar-se adequadamente para as operações de recebimento, recolhimento e destinação de embalagens vazias e produtos de que trata este Decreto, até 22 de janeiro de 2001;" .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - implementar, em colaboração com o Poder Público, programas educativos e mecanismos de controle e estímulo à devolução das embalagens vazias por parte dos usuários, até 4 de dezembro de 2000; e" .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3550\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D3550\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - implementar, em colaboração com o Poder Público, medidas transitórias para orientação dos usuários quanto ao atendimento às exigências previstas neste Decreto, enquanto se realizam as adequações dos estabelecimentos comerciais e dos rótulos e bulas.' (NR)" .
+lex:D3550\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3550    lex:temArtigo    lex:D3550\/Artigo3 .
+lex:D3550\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3550\/Texto    lex:remetePara    lex:L7802 .
+lex:D3550\/Texto    lex:remetePara    lex:L9974 .
+lex:D3550\/Artigo1    lex:remetePara    lex:D98816 .
+lex:D3550\/Texto00002    lex:remetePara    lex:D98816\/Artigo33 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaNome    lex:remetePara    lex:D98816\/Artigo38 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaOs    lex:remetePara    lex:D98816\/Artigo38 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:remetePara    lex:D98816\/Artigo38 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaOrientacao    lex:remetePara    lex:D98816\/Artigo38 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInformacoes    lex:remetePara    lex:D98816\/Artigo41 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:remetePara    lex:D98816\/Artigo41 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:remetePara    lex:D98816\/Artigo41 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/Texto00016    lex:remetePara    lex:D98816\/Artigo45 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/Texto00016    lex:remetePara    lex:D98816\/Artigo48 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:remetePara    lex:D98816\/Artigo58 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaQuando    lex:remetePara    lex:D98816\/Artigo58 .
+lex:D3550\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/Texto00021    lex:remetePara    lex:D98816\/Artigo72 .
+lex:D3550\/Artigo2    lex:remetePara    lex:D98816 .

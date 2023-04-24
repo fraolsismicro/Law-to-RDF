@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3488    lex:ehUm    lex:DocLegal .
+lex:L3488    lex:temTextoIntegral    lex:HTMLs\/L3488.htm .
+lex:L3488\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3488    lex:temArtigo    lex:L3488\/Artigo1 .
+lex:L3488\/Artigo1    lex:temConteudo    "Art. 1° O art. 226 da Consolidação das Leis do Trabalho (Decreto-lei nº 5.452, de 1 de maio de 1943) passa a ter a seguinte redação:" .
+lex:L3488\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3488\/Artigo1    lex:temParagrafo    lex:L3488\/Artigo1\/ParagrafoUnico .
+lex:L3488\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A direção de cada Banco organizará a escala de serviço do estabelecimento de maneira a haver empregados do quadro da portaria em função meia hora antes e até meia hora após o encerramento dos trabalhos, respeitando o limite de 6 (seis) horas diárias'." .
+lex:L3488\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3488    lex:temArtigo    lex:L3488\/Artigo2 .
+lex:L3488\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:L3488\/Texto00001    lex:remetePara    lex:Del5452\/Artigo226 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3612    lex:ehUm    lex:DocLegal .
+lex:L3612    lex:temTextoIntegral    lex:HTMLs\/L3612.htm .
+lex:L3612\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3612    lex:temArtigo    lex:L3612\/Artigo1 .
+lex:L3612\/Artigo1    lex:temConteudo    "Art. 1º E´ o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda, o crédito especial de Cr$.. 700.000.000,00 (setecentos milhões de cruzeiros), para ocorrer a despesas de exercícios encerrados." .
+lex:L3612\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3612\/Artigo1    lex:temParagrafo    lex:L3612\/Artigo1\/Paragrafo1 .
+lex:L3612\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Dessa importância destacam-se Cr$ 200.000.000,00 (duzentos milhões de cruzeiros) para pagamento das dívidas cujas liquidação obedece às normas estabelecidas no art. 78 do Código de Contabilidade da União." .
+lex:L3612\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3612\/Artigo1    lex:temParagrafo    lex:L3612\/Artigo1\/Paragrafo2 .
+lex:L3612\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Não se incluem nesse destaque os processos já relacionados pelo Ministério da Fazenda, de acôrdo com o § 4º do mencionado art. 78, cujos pagamentos já estejam autorizados por lei." .
+lex:L3612\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L3612\/Artigo1    lex:temParagrafo    lex:L3612\/Artigo1\/Paragrafo3 .
+lex:L3612\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A autorização para pagamento dessas despesas é da competência do Diretor da Despesa Pública do Tesouro Nacional, que poderá delegá-la." .
+lex:L3612\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L3612\/Artigo1    lex:temParagrafo    lex:L3612\/Artigo1\/Paragrafo4 .
+lex:L3612\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º O processamento das despesas de que trata êste artigo obedecerá à ordem de entrada dos pedidos no Ministério da Fazenda." .
+lex:L3612\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3612    lex:temArtigo    lex:L3612\/Artigo2 .
+lex:L3612\/Artigo2    lex:temConteudo    "Art. 2º Do referido crédito será destacada ainda a parcela de Cr$.. 1.500.000,00 (um milhão e quinhentos mil cruzeiros), destinada ao pagamento de gratificação pela prestação de serviços extraordinários e com base no art. 145, item III, e art. 150, inciso I, da Lei nº 1.711, de 28 de outubro de 1952." .
+lex:L3612\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3612    lex:temArtigo    lex:L3612\/Artigo3 .
+lex:L3612\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3612\/Artigo2    lex:remetePara    lex:L1711\/Artigo145 .
+lex:L3612\/Artigo2    lex:remetePara    lex:L1711\/Artigo150 .

@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5472    lex:ehUm    lex:DocLegal .
+lex:D5472    lex:temTextoIntegral    lex:HTMLs\/D5472.htm .
+lex:D5472\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5472    lex:temArtigo    lex:D5472\/Artigo1 .
+lex:D5472\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção de Estocolmo sobre Poluentes Orgânicos Persistentes, adotada naquela cidade, em 22 de maio de 2001, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D5472\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5472    lex:temArtigo    lex:D5472\/Artigo2 .
+lex:D5472\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão da referida Convenção ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D5472\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5472    lex:temArtigo    lex:D5472\/Artigo3 .
+lex:D5472\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5472\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5472\/Artigo3    lex:temAlinea    lex:D5472\/Artigo3\/AlineaA .
+lex:D5472\/Artigo3\/AlineaA    lex:temConteudo    "i) a produção e utilização das substâncias químicas relacionadas no Anexo A, de acordo com as disposições especificadas naquele Anexo; e," .
+lex:D5472\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D5472\/Artigo3    lex:temAlinea    lex:D5472\/Artigo3\/AlineaPara .
+lex:D5472\/Artigo3\/AlineaPara    lex:temConteudo    "i) para sua disposição ambientalmente adequada, na forma disposta no Art. 6º, parágrafo 1 (d); ou," .
+lex:D5472\/Artigo3\/AlineaSua    lex:ehUm    lex:Alinea .
+lex:D5472\/Artigo3    lex:temAlinea    lex:D5472\/Artigo3\/AlineaSua .
+lex:D5472\/Artigo3\/AlineaSua    lex:temConteudo    "i)para sua disposição ambientalmente adequada, na forma disposta no Art. 6º, parágrafo 1(d); ou," .
+lex:D5472\/Artigo3\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D5472\/Artigo3    lex:temInciso    lex:D5472\/Artigo3\/IncisoC .
+lex:D5472\/Artigo3\/IncisoC    lex:temConteudo    "c. cumprir, quando proceder, o disposto no parágrafo 2 da Parte II do Anexo B." .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao    lex:temConteudo    "i) avaliação das liberações atuais e as projetadas, incluindo a elaboração e manutenção dos inventários de fontes e estimativas de liberações, levando em consideração as categorias das fontes identificadas no Anexo C;" .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao    lex:temConteudo    "v) revisão qüinqüenal dessas estratégias e seu êxito no cumprimento das obrigações decorrentes deste parágrafo; tais revisões serão incluídas no relatório a ser apresentado de acordo com o Art. 15;" .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara    lex:temConteudo    "i) para fontes existentes, dentro das categorias de fontes relacionadas na Parte II do Anexo C e das categorias de fontes tais como as relacionadas na Parte III daquele Anexo; e" .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO    lex:temConteudo    "i) o termo 'melhores técnicas disponíveis' significa o estágio mais eficaz e avançado no desenvolvimento das atividades e dos métodos de operação que indicam a adequabilidade prática das técnicas específicas que forneçam, em princípio, a base da limitação das liberações destinada a prevenir e, onde não seja viável, reduzir em geral as liberações das substâncias químicas relacionadas na Parte I do Anexo C e seus impactos no meio ambiente como um todo. A esse respeito:" .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO    lex:temConteudo    "v) o termo 'melhores práticas ambientais' significa a aplicação da combinação mais adequada de medidas e estratégias de controle ambiental;" .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs    lex:temConteudo    "i) os estoques que consistam de, ou que contenham, as substâncias químicas relacionadas no Anexo A ou Anexo B; e," .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs\/IncisoAlineaSejam    lex:ehUm    lex:IncisoAlinea .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs\/IncisoAlineaSejam .
+lex:D5472\/Artigo3\/IncisoC\/IncisoAlineaAvaliacao\/IncisoAlineaRevisao\/IncisoAlineaPara\/IncisoAlineaO\/IncisoAlineaO\/IncisoAlineaOs\/IncisoAlineaSejam    lex:temConteudo    "i) sejam manejados, coletados, transportados e armazenados de maneira ambientalmente saudável;" .
+lex:D5472\/Artigo3\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D5472\/Artigo3    lex:temInciso    lex:D5472\/Artigo3\/IncisoC .
+lex:D5472\/Artigo3\/IncisoC    lex:temConteudo    "C. Melhores práticas ambientais" .
+lex:D5472\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

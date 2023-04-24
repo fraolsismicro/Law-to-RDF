@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D61779    lex:ehUm    lex:DocLegal .
+lex:D61779    lex:temTextoIntegral    lex:HTMLs\/D61779.htm .
+lex:D61779\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D61779    lex:temArtigo    lex:D61779\/Artigo1 .
+lex:D61779\/Artigo1    lex:temConteudo    "Art. 1º A alínea 'v', do art. 33, do Regulamento aprovado pelo Decreto nº 57.375, de 2 de dezembro de 1965, passa a vigorar com a seguinte redação:" .
+lex:D61779\/Artigo1\/AlineaRepresentar    lex:ehUm    lex:Alinea .
+lex:D61779\/Artigo1    lex:temAlinea    lex:D61779\/Artigo1\/AlineaRepresentar .
+lex:D61779\/Artigo1\/AlineaRepresentar    lex:temConteudo    "v) representar o Serviço Social da Indústria em juizo, ou fora dele, podendo constituir, para êsse fim, procuradores, mandatários ou prepostos, ressalvada a autonomia dos diretores regionais, prevista no parágrafo único do art. 37, e no art. 62.'" .
+lex:D61779\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D61779    lex:temArtigo    lex:D61779\/Artigo2 .
+lex:D61779\/Artigo2    lex:temConteudo    "Art. 2º A alínea '1' do art. 45, do Regulamento a que se refere o art. 1º, passa a vigorar com a seguinte redação:" .
+lex:D61779\/Artigo2\/AlineaRepresentar    lex:ehUm    lex:Alinea .
+lex:D61779\/Artigo2    lex:temAlinea    lex:D61779\/Artigo2\/AlineaRepresentar .
+lex:D61779\/Artigo2\/AlineaRepresentar    lex:temConteudo    "l) representar o Departametno Regional perante podêres públicos, autarquias e intituições privadas, restrita a representação em juízo aos assuntos decorrentes da autonomia prevista no art. 37, parágrafo único e art. 62, podendo, para êsse fim, constituir procuradores, mandatários ou prepostos.'" .
+lex:D61779\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D61779    lex:temArtigo    lex:D61779\/Artigo3 .
+lex:D61779\/Artigo3    lex:temConteudo    "Art. 3º Ao art. 37, do mesmo Regulamento, fica acrescido parágrafo, constituindo o atual parágrafo único o 1º:" .
+lex:D61779\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D61779\/Artigo3    lex:temParagrafo    lex:D61779\/Artigo3\/Paragrafo2 .
+lex:D61779\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Não haverá qualquer vinculação de natureza salarial entre os servidores dos Departamentos Regionais, nem dêstes com os do Departamento Nacional." .
+lex:D61779\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D61779    lex:temArtigo    lex:D61779\/Artigo4 .
+lex:D61779\/Artigo4    lex:temConteudo    "Art. 4º O presente decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D61779\/Artigo1    lex:regulamentadoPor    lex:D57375\/Artigo33 .
+lex:D57375\/Artigo33    lex:regulamenta    lex:D61779\/Artigo1 .
+lex:D61779\/Artigo2    lex:regulamentadoPor    lex:D57375\/Artigo45 .
+lex:D57375\/Artigo45    lex:regulamenta    lex:D61779\/Artigo2 .

@@ -1,0 +1,60 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10629    lex:ehUm    lex:DocLegal .
+lex:D10629    lex:temTextoIntegral    lex:HTMLs\/D10629.htm .
+lex:D10629\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10629    lex:temArtigo    lex:D10629\/Artigo1A .
+lex:D10629\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 9.846, de 25 de junho de 2019 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10629\/Artigo1A\/AlineaArma    lex:ehUm    lex:Alinea .
+lex:D10629\/Artigo1A    lex:temAlinea    lex:D10629\/Artigo1A\/AlineaArma .
+lex:D10629\/Artigo1A\/AlineaArma    lex:temConteudo    "a) arma de fogo e muniÃ§Ã£o da entidade de tiro ou da agremiaÃ§Ã£o;" .
+lex:D10629\/Artigo1A\/AlineaArma    lex:ehUm    lex:Alinea .
+lex:D10629\/Artigo1A    lex:temAlinea    lex:D10629\/Artigo1A\/AlineaArma .
+lex:D10629\/Artigo1A\/AlineaArma    lex:temConteudo    "b) arma de fogo registrada e cedida por outro desportista; ou" .
+lex:D10629\/Artigo1A\/AlineaArma    lex:ehUm    lex:Alinea .
+lex:D10629\/Artigo1A    lex:temAlinea    lex:D10629\/Artigo1A\/AlineaArma .
+lex:D10629\/Artigo1A\/AlineaArma    lex:temConteudo    "c) arma de fogo do responsÃ¡vel legal." .
+lex:D10629\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10629    lex:temArtigo    lex:D10629\/Artigo2A .
+lex:D10629\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os seguintes dispositivos do Decreto nÂº 9.846, de 2019:" .
+lex:D10629\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10629    lex:temArtigo    lex:D10629\/Artigo3A .
+lex:D10629\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor sessenta dias apÃ³s a data de sua publicaÃ§Ã£o." .
+lex:D10629\/Artigo1A    lex:remetePara    lex:D9846 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo1Â§10 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo20 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D10030\/anexo1 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo2p0 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D10030\/anexo1Artigo3 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo30 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo3Â§2i0 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo3Â§2v0 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo3Â§2vi0 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo3A75ii0 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo3Â§6 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo4Â§11 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo4Â§1 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo4Â§20 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo4Â§40 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo5Â§20 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo5Â§30 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo5Â§6 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo5Â§7 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo60 .
+lex:D10629\/Texto00001    lex:remetePara    lex:D9846\/Artigo7iii0 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:D9846\/Artigo7Â§1 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:D9846\/Artigo7 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:L10826\/Artigo6 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:D9846\/Artigo80 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:D9846\/Artigo8 .
+lex:D10629\/Artigo1A\/Texto00004    lex:remetePara    lex:L13105\/Artigo105 .
+lex:D10629\/Artigo2A    lex:remetePara    lex:D9846 .
+lex:D10629\/Texto00005    lex:remetePara    lex:D9846\/Artigo2 .
+lex:D10629\/Texto00005    lex:remetePara    lex:D9846\/Artigo6 .
+lex:D10629\/Texto00005    lex:remetePara    lex:D9846\/Artigo7 .

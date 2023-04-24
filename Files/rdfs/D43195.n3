@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D43195    lex:ehUm    lex:DocLegal .
+lex:D43195    lex:temTextoIntegral    lex:HTMLs\/D43195.htm .
+lex:D43195\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D43195    lex:temArtigo    lex:D43195\/Artigo1 .
+lex:D43195\/Artigo1    lex:temConteudo    "Art. 1º É permitido o uso nos uniformes militares da condecoração da 'Ordem do Mérito Jurídico Militar' do modêlo anexo, criada pelo Superior Tribunal Militar. (Vide Decreto nº nº 7.190, de 2010)." .
+lex:D43195\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D43195    lex:temArtigo    lex:D43195\/Artigo2 .
+lex:D43195\/Artigo2    lex:temConteudo    "Art. 2º A condecoração a que se refere o presente Decreto fica incluída na letra 'd' do art. 2º do Decreto nº 40.556, de 17 de dezembro de 1956, em seguida à da 'Ordem do Mérito Aeronáutico'. (Vide Decreto nº nº 7.190, de 2010)." .
+lex:D43195\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D43195    lex:temArtigo    lex:D43195\/Artigo3 .
+lex:D43195\/Artigo3    lex:temConteudo    "Art. 3º Êste decreto entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:D43195\/Artigo1    lex:remetePara    lex:D7190\/Artigo1 .
+lex:D43195\/Artigo2    lex:remetePara    lex:D40556\/Artigo2 .
+lex:D43195\/Artigo2    lex:remetePara    lex:D7190\/Artigo2 .

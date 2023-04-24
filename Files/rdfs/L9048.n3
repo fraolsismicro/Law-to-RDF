@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9048    lex:ehUm    lex:DocLegal .
+lex:L9048    lex:temTextoIntegral    lex:HTMLs\/L9048.htm .
+lex:L9048\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9048    lex:temArtigo    lex:L9048\/Artigo1 .
+lex:L9048\/Artigo1    lex:temConteudo    "Art. 1º Os postos de revenda de gás liqüefeito de petróleo para uso doméstico são obrigados a dispor de balanças que permitam aos consumidores a aferição de peso real do produto." .
+lex:L9048\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9048\/Artigo1    lex:temParagrafo    lex:L9048\/Artigo1\/ParagrafoUnico .
+lex:L9048\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para fins da aferição referida neste artigo, o peso do vasilhame de acondicionamento deve ser gravado ou etiquetado no próprio vasilhame, em local visível para o consumidor, ficando os infratores destas normas sujeitos, conforme o caso, às sanções administrativas estabelecidas no art. 56 da Lei nº 8.078, de 11 de setembro de 1990." .
+lex:L9048\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9048    lex:temArtigo    lex:L9048\/Artigo2 .
+lex:L9048\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor noventa dias após sua publicação." .
+lex:L9048\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9048    lex:temArtigo    lex:L9048\/Artigo3 .
+lex:L9048\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9048\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8078\/Artigo56 .

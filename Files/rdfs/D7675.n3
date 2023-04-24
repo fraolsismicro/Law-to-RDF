@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7675    lex:ehUm    lex:DocLegal .
+lex:D7675    lex:temTextoIntegral    lex:HTMLs\/D7675.htm .
+lex:D7675\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7675    lex:temArtigo    lex:D7675\/Artigo1 .
+lex:D7675\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo de Cargos em Comissão e das Funções Gratificadas do Ministério do Planejamento, Orçamento e Gestão, na forma dos Anexos I e II." .
+lex:D7675\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7675    lex:temArtigo    lex:D7675\/Artigo2 .
+lex:D7675\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores DAS:" .
+lex:D7675\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7675\/Artigo2    lex:temInciso    lex:D7675\/Artigo2\/IncisoI .
+lex:D7675\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério do Planejamento, Orçamento e Gestão para a Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão: um DAS 101.4, quatorze DAS 102.3, um DAS 102.2 e dois DAS 102.1; e" .
+lex:D7675\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7675\/Artigo2    lex:temInciso    lex:D7675\/Artigo2\/IncisoII .
+lex:D7675\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão para o Ministério do Planejamento, Orçamento e Gestão: quatorze DAS 101.3, um DAS 101.2, dois DAS 101.1 e um DAS 102.4." .
+lex:D7675\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7675    lex:temArtigo    lex:D7675\/Artigo3 .
+lex:D7675\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes do remanejamento de cargos de que trata o art. 2o deverão ocorrer no prazo de trinta dias, contado da data de entrada em vigor deste Decreto." .
+lex:D7675\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7675    lex:temArtigo    lex:D7675\/Artigo4 .
+lex:D7675\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor sete dias após a sua publicação." .
+lex:D7675\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7675    lex:temArtigo    lex:D7675\/Artigo5 .
+lex:D7675\/Artigo5    lex:temConteudo    "Art. 5o  Ficam revogados:" .
+lex:D7675\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7675\/Artigo5    lex:temInciso    lex:D7675\/Artigo5\/IncisoI .
+lex:D7675\/Artigo5\/IncisoI    lex:temConteudo    "I - o Decreto no 7.063, de 13 de janeiro de 2010;" .
+lex:D7675\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7675\/Artigo5    lex:temInciso    lex:D7675\/Artigo5\/IncisoII .
+lex:D7675\/Artigo5\/IncisoII    lex:temConteudo    "II - os arts. 1o e 4º do Decreto nº 7.470, de 4 de maio de 2011; e" .
+lex:D7675\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7675\/Artigo5    lex:temInciso    lex:D7675\/Artigo5\/IncisoIII .
+lex:D7675\/Artigo5\/IncisoIII    lex:temConteudo    "III - o Decreto no 7.577, de 11 de outubro de 2011." .
+lex:D7675\/Texto    lex:remetePara    lex:D7675 .
+lex:D7675\/Artigo5\/IncisoI    lex:remetePara    lex:D7063 .
+lex:D7675\/Artigo5\/IncisoII    lex:remetePara    lex:D7470\/Artigo1 .
+lex:D7675\/Artigo5\/IncisoII    lex:remetePara    lex:D7470\/Artigo4 .
+lex:D7675\/Artigo5\/IncisoIII    lex:remetePara    lex:D7577 .

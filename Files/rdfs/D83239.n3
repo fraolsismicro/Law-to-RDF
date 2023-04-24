@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D83239    lex:ehUm    lex:DocLegal .
+lex:D83239    lex:temTextoIntegral    lex:HTMLs\/D83239.htm .
+lex:D83239\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D83239    lex:temArtigo    lex:D83239\/Artigo1 .
+lex:D83239\/Artigo1    lex:temConteudo    "Art. 1º O item VII do artigo 17 e o parágrafo único do artigo 93, do Decreto nº 79.094, de 5 de janeiro de 1977, passam a vigorar com a seguinte redação:" .
+lex:D83239\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D83239\/Artigo1    lex:temInciso    lex:D83239\/Artigo1\/IncisoVII .
+lex:D83239\/Artigo1\/IncisoVII    lex:temConteudo    "VII - Apresentação dos textos datilografados contendo os dizeres dos rótulos e bulas; as amostras de embalagens somente serão exigidas, quando forem consideradas necessárias pelo órgão de vigilância sanitária competente do Ministério da Saúde, na hipótese prevista no artigo 120, in fine, deste regulamento.'" .
+lex:D83239\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D83239\/Artigo1    lex:temParagrafo    lex:D83239\/Artigo1\/ParagrafoUnico .
+lex:D83239\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Não poderão constar da rotulagem ou da publicidade e propaganda dos produtos submetidos ao regime deste Regulamento, designações, nomes geográficos, símbolos, figuras, desenhos ou quaisquer indicações que possibilitem interpretação falsa, erro ou confusão quanto à origem, procedência, natureza, composição ou qualidade, ou que atribuam ao produto, finalidades ou características diferentes daquelas que realmente possua.'" .
+lex:D83239\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83239    lex:temArtigo    lex:D83239\/Artigo2 .
+lex:D83239\/Artigo2    lex:temConteudo    "Art. 2º Os artigos 94 e 96, do Decreto nº 79.094, de 5 de janeiro de 1977, ficam acrescentados, respectivamente, de § 3º e Parágrafo único, com a seguinte redação:" .
+lex:D83239\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D83239\/Artigo2    lex:temParagrafo    lex:D83239\/Artigo2\/Paragrafo3 .
+lex:D83239\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Em casos excepcionais a Câmara Técnica competente do Conselho Nacional de Saúde poderá dispensar a menção de qualquer elemento constante dos itens I a VII, do § 1º deste artigo, desde que não haja prejuízo para as ações correspondentes de vigilância sanitária.'" .
+lex:D83239\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D83239\/Artigo2    lex:temParagrafo    lex:D83239\/Artigo2\/ParagrafoUnico .
+lex:D83239\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos casos em que não haja necessidade da menção de contra-indicações de uso ou esclarecimentos quanto a reações ou efeitos colaterais dos medicamentos, fica dispensada a apresentação de bulas nos medicamentos submetidos ao regime deste regulamento, desde que seja mencionado na rotulagem ou embalagem externa, o modo de usar ou de aplicar o produto." .
+lex:D83239\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D83239    lex:temArtigo    lex:D83239\/Artigo3 .
+lex:D83239\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D83239\/Texto00001    lex:remetePara    lex:D79094\/Artigo17 .
+lex:D83239\/Artigo1\/Texto00002    lex:remetePara    lex:D79094\/Artigo93 .
+lex:D83239\/Texto00004    lex:remetePara    lex:D79094\/Artigo94\/Paragrafo3 .
+lex:D83239\/Artigo2\/Texto00005    lex:remetePara    lex:D79094\/Artigo96 .

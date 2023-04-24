@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0861    lex:ehUm    lex:DocLegal .
+lex:L0861    lex:temTextoIntegral    lex:HTMLs\/L0861.htm .
+lex:L0861\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0861    lex:temArtigo    lex:L0861\/Artigo1 .
+lex:L0861\/Artigo1    lex:temConteudo    "Art 1º - Os artigos 893; 896, letras a e b e § 1º; e parágrafo único do 899, do Decreto-lei nº 5.452, de 1 de maio de 1943, passam a ter esta redação:" .
+lex:L0861\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L0861\/Artigo1    lex:temInciso    lex:L0861\/Artigo1\/IncisoI .
+lex:L0861\/Artigo1\/IncisoI    lex:temConteudo    "I - embargos;" .
+lex:L0861\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L0861\/Artigo1    lex:temInciso    lex:L0861\/Artigo1\/IncisoII .
+lex:L0861\/Artigo1\/IncisoII    lex:temConteudo    "II - recurso ordinário;" .
+lex:L0861\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L0861\/Artigo1    lex:temInciso    lex:L0861\/Artigo1\/IncisoIII .
+lex:L0861\/Artigo1\/IncisoIII    lex:temConteudo    "III - recurso de revista;" .
+lex:L0861\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L0861\/Artigo1    lex:temInciso    lex:L0861\/Artigo1\/IncisoIV .
+lex:L0861\/Artigo1\/IncisoIV    lex:temConteudo    "IV - agravo." .
+lex:L0861\/Artigo896    lex:ehUm    lex:Artigo .
+lex:L0861    lex:temArtigo    lex:L0861\/Artigo896 .
+lex:L0861\/Artigo896    lex:temConteudo    "Art. 896 - Cabe recurso de revista das decisões de última instância, quando:" .
+lex:L0861\/Artigo896\/AlineaDerem    lex:ehUm    lex:Alinea .
+lex:L0861\/Artigo896    lex:temAlinea    lex:L0861\/Artigo896\/AlineaDerem .
+lex:L0861\/Artigo896\/AlineaDerem    lex:temConteudo    "a) derem à mesma norma jurídica interpretação diversa da que tiver sido dada pelo mesmo Tribunal Regional ou pelo Tribunal Superior do Trabalho;" .
+lex:L0861\/Artigo896\/AlineaProferida    lex:ehUm    lex:Alinea .
+lex:L0861\/Artigo896    lex:temAlinea    lex:L0861\/Artigo896\/AlineaProferida .
+lex:L0861\/Artigo896\/AlineaProferida    lex:temConteudo    "b) proferida com violação da norma jurídica ou princípios gerais de direito." .
+lex:L0861\/Artigo896\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L0861\/Artigo896    lex:temParagrafo    lex:L0861\/Artigo896\/Paragrafo1 .
+lex:L0861\/Artigo896\/Paragrafo1    lex:temConteudo    "§ 1º O recurso de revista será apresentado no prazo de quinze dias, ao Presidente do Tribunal recorrido, que poderá recebê-lo ou denegá-lo, fundamentando, em qualquer caso, a sua decisão." .
+lex:L0861\/Artigo899    lex:ehUm    lex:Artigo .
+lex:L0861    lex:temArtigo    lex:L0861\/Artigo899 .
+lex:L0861\/Artigo899    lex:temConteudo    "Art. 899 - ..................................................................." .
+lex:L0861\/Artigo899\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L0861\/Artigo899    lex:temParagrafo    lex:L0861\/Artigo899\/ParagrafoUnico .
+lex:L0861\/Artigo899\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Tratando-se, porém, de reclamação sôbre férias, salários ou contrato de trabalho, de valor até Cr$ 10.000,00 (dez mil cruzeiros) só serão admitidos recursos, inclusive o de revista, mediante a prova do depósito da importância da condenação'." .
+lex:L0861\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0861    lex:temArtigo    lex:L0861\/Artigo2 .
+lex:L0861\/Artigo2    lex:temConteudo    "Art 2º - Esta Lei entrará em vigor na data da sua publicação; revogadas as disposições em contrário." .
+lex:L0861\/Artigo1    lex:remetePara    lex:Del5452 .
+lex:L0861\/Texto00001    lex:remetePara    lex:Del5452\/Artigo893 .
+lex:L0861\/Artigo896    lex:remetePara    lex:Del5452\/Artigo896 .
+lex:L0861\/Artigo899    lex:remetePara    lex:Del5452\/Artigo899 .

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10377    lex:ehUm    lex:DocLegal .
+lex:D10377    lex:temTextoIntegral    lex:HTMLs\/D10377.htm .
+lex:D10377\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10377    lex:temArtigo    lex:D10377\/Artigo2A .
+lex:D10377\/Artigo2A    lex:temConteudo    "Art. 2Âº  A reduÃ§Ã£o de alÃ­quota de que trata o inciso XXXIII do caput do art. 8Âº do Decreto nÂº 6.306, de 2007, somente se aplica aos fatos geradores ocorridos atÃ© 31 de dezembro de 2020." .
+lex:D10377\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10377    lex:temArtigo    lex:D10377\/Artigo3A .
+lex:D10377\/Artigo3A    lex:temConteudo    "Art. 3Âº  Fica revogado o inciso XXIX do caput do art. 8Âº do Decreto nÂº 6.306, de 2007." .
+lex:D10377\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10377    lex:temArtigo    lex:D10377\/Artigo4A .
+lex:D10377\/Artigo4A    lex:temConteudo    "Art. 4Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10377\/Artigo1A    lex:remetePara    lex:D6306 .
+lex:D10377\/Texto    lex:remetePara    lex:D6306\/Artigo8xxxi0 .
+lex:D10377\/Texto    lex:remetePara    lex:D6306\/Artigo8xxxii0 .
+lex:D10377\/Texto    lex:remetePara    lex:L12793\/Artigo6Â§3 .
+lex:D10377\/Texto    lex:revogadoPor    lex:D11000\/Artigo3 .
+lex:D11000\/Artigo3    lex:revogou    lex:D10377\/Texto .
+lex:D10377\/Texto    lex:remetePara    lex:D6306\/Artigo8 .
+lex:D10377\/Texto    lex:remetePara    lex:D10350 .
+lex:D10377\/Texto    lex:revogadoPor    lex:D11000\/Artigo3 .
+lex:D11000\/Artigo3    lex:revogou    lex:D10377\/Texto .
+lex:D10377\/Artigo2A    lex:remetePara    lex:D6306\/Artigo8 .
+lex:D10377\/Artigo3A    lex:remetePara    lex:D6306\/Artigo8 .

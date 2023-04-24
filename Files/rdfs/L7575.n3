@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7575    lex:ehUm    lex:DocLegal .
+lex:L7575    lex:temTextoIntegral    lex:HTMLs\/L7575.htm .
+lex:L7575\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7575    lex:temArtigo    lex:L7575\/Artigo1 .
+lex:L7575\/Artigo1    lex:temConteudo    "Art. 1º O artigo 3º do Decreto-lei nº 2.258, de 4 de março de 1985, dá a seguinte redação:" .
+lex:L7575\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L7575\/Artigo1    lex:temParagrafo    lex:L7575\/Artigo1\/Paragraf .
+lex:L7575\/Artigo1\/Paragraf    lex:temConteudo    "Art.3º.................................................................................................." .
+lex:L7575\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L7575\/Artigo1    lex:temParagrafo    lex:L7575\/Artigo1\/Paragrafo6 .
+lex:L7575\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º O disposto no § 1º não se aplica a servidor ocupante de cargo ou emprego do Quadro da Tabela de Pessoal do Distrito Federal que em 5 de março de 1985, se encontrava lotado e em efetivo exercício na Secretaria de Finanças do Distrito Federal." .
+lex:L7575\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L7575\/Artigo1    lex:temParagrafo    lex:L7575\/Artigo1\/Paragrafo7 .
+lex:L7575\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7º O processo seletivo de ascensão funcional, na hipótese ressalvada no § 6º deste artigo, realizar-se-á, sempre, simultaneamente com o concurso público para o respectivo nível de carreira, abrangendo idênticas disciplinas, programas e provas." .
+lex:L7575\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7575    lex:temArtigo    lex:L7575\/Artigo2 .
+lex:L7575\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L7575\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7575    lex:temArtigo    lex:L7575\/Artigo3 .
+lex:L7575\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7575\/Artigo1    lex:remetePara    lex:Del2258 .
+lex:L7575\/Artigo1\/Paragrafo6    lex:remetePara    lex:Del2258\/Artigo3\/Paragrafo6 .

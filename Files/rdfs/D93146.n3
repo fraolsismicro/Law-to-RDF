@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93146    lex:ehUm    lex:DocLegal .
+lex:D93146    lex:temTextoIntegral    lex:HTMLs\/D93146.htm .
+lex:D93146\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93146    lex:temArtigo    lex:D93146\/Artigo1 .
+lex:D93146\/Artigo1    lex:temConteudo    "Art. 1º - Ficam declaradas de ocupação dos indígenas Kulina, para efeito dos artigos 4º, IV e 198, da Constituição, as terras localizadas no Município de Envira, Estado do Amazonas, com a seguinte delimitação: NORTE: Partindo do Ponto '1', de coordenadas geográficas aproximadas longitude 69º57´20' WGr. e latitude 07º20´22' S, situado na foz do Igarapé Buriti no Rio Tarauacá; daí, segue por uma reta na direção sudeste até o Ponto '2', de coordenadas geográficas aproximadas longitude 69º55´00' WGr. e latitude 07º20´50' S, situado na confluência do Igarapé Boa Vista no Igarapé Tabocal. LESTE: Do ponto antes descrito, segue no sentido montante pelo Igarapé Boa Vista até sua cabeceira, no Ponto '3', de coordenadas geográficas aproximadas longitude 69º52´45' WGr. e latitude 07º24´05' S; daí, segue por uma linha reta na direção sudeste até o Ponto '4', de coordenadas geográficas aproximadas longitude 69º51´40' WGr. e latitude 07º29´35' S, situado na confluência do Igarapé sem denominação no Igarapé Curupaí. SUL: Do ponto antes descrito, segue no sentido montante pelo Igarapé sem denominação até sua cabeceira, no Ponto '5', de coordenadas geográficas aproximadas longitude 69º55´15' WGr. e latitude 07º32´15' S. OESTE: Do ponto antes descrito, segue pelo divisor d´água que separa a bacia formada da margem esquerda do Igarapé Cacau, da bacia formadora da margem direta do Igarapé Queimadal até o Ponto '6', de coordenadas geográficas aproximadas longitude 69º59´25' WGr. e latitude 07º28´05' S, situado na cabeceira do Igarapé Areia; daí, segue no sentido jusante pelo citado Igarapé até sua confluência no Paranã sem denominação, no Ponto '7', de coordenadas geográficas aproximadas longitude 70º00´15' WGr. e latitude 07º23´35' S; daí, segue por uma linha reta na direção nordeste até o Ponto '1', inicial da descrição." .
+lex:D93146\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93146\/Artigo1    lex:temParagrafo    lex:D93146\/Artigo1\/ParagrafoUnico .
+lex:D93146\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A área descrita neste artigo, denominada Área Indígena CACAU DO TARAUACÁ, será demarcada administrativamente pela Fundação Nacional do Índio - FUNAI." .
+lex:D93146\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93146    lex:temArtigo    lex:D93146\/Artigo2 .
+lex:D93146\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D93146\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo4 .
+lex:D93146\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo198 .

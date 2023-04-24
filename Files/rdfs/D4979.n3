@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4979    lex:ehUm    lex:DocLegal .
+lex:D4979    lex:temTextoIntegral    lex:HTMLs\/D4979.htm .
+lex:D4979\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4979    lex:temParagrafo    lex:D4979\/ParagrafoUnico .
+lex:D4979\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na execução e cumprimento do referido Acordo pelo Governo da República Federativa do Brasil, deverá ser observado o disposto no art. 167, incisos I e II, da Constituição." .
+lex:D4979\/ParagrafoUnico\/AlineaReunir    lex:ehUm    lex:Alinea .
+lex:D4979\/ParagrafoUnico    lex:temAlinea    lex:D4979\/ParagrafoUnico\/AlineaReunir .
+lex:D4979\/ParagrafoUnico\/AlineaReunir    lex:temConteudo    "a) reunir os antecedentes necessários a fim de elaborar os Termos de Referência relativos aos aspectos físicos, ambientais, econômicos, financeiros e legais do empreendimento, levando em conta a decisão de ambos os países de que a construção e exploração da nova ponte sejam efetuadas sob o regime de concessão de obra pública, sem aval dos Governos e sem garantia de trânsito mínimo, com a sua atribuição a um consórcio privado do qual participem empresas brasileiras e uruguaias em proporção significativa;" .
+lex:D4979\/ParagrafoUnico\/AlineaPreparar    lex:ehUm    lex:Alinea .
+lex:D4979\/ParagrafoUnico    lex:temAlinea    lex:D4979\/ParagrafoUnico\/AlineaPreparar .
+lex:D4979\/ParagrafoUnico\/AlineaPreparar    lex:temConteudo    "b) preparar a documentação necessária e levar a cabo a licitação pública e a posterior adjudicação para a construção e exploração da segunda ponte, a realização das suas obras complementares e acessos, bem como as concomitantes obras de recuperação da Ponte Barão de Mauá, devendo a adjudicação contar com a prévia aprovação das Partes;" .
+lex:D4979\/ParagrafoUnico\/AlineaSupervisionar    lex:ehUm    lex:Alinea .
+lex:D4979\/ParagrafoUnico    lex:temAlinea    lex:D4979\/ParagrafoUnico\/AlineaSupervisionar .
+lex:D4979\/ParagrafoUnico\/AlineaSupervisionar    lex:temConteudo    "c) supervisionar a execução e exercer a fiscalização dos estudos, serviços e trabalhos contratados, durante a etapa de realização dos mesmos, observado o prazo definido na letra (e) deste Artigo;" .
+lex:D4979\/ParagrafoUnico\/AlineaEstabelecer    lex:ehUm    lex:Alinea .
+lex:D4979\/ParagrafoUnico    lex:temAlinea    lex:D4979\/ParagrafoUnico\/AlineaEstabelecer .
+lex:D4979\/ParagrafoUnico\/AlineaEstabelecer    lex:temConteudo    "d) estabelecer as condições a serem cumpridas pelo concessionário para a realização das obras e a exploração da concessão;" .
+lex:D4979\/ParagrafoUnico\/AlineaAcompanhar    lex:ehUm    lex:Alinea .
+lex:D4979\/ParagrafoUnico    lex:temAlinea    lex:D4979\/ParagrafoUnico\/AlineaAcompanhar .
+lex:D4979\/ParagrafoUnico\/AlineaAcompanhar    lex:temConteudo    "e) acompanhar e supervisionar a manutenção, a operação e a exploração da nova ponte durante o primeiro ano do período de vigência da exploração da concessão." .
+lex:D4979\/ParagrafoUnico\/AlineaAcompanhar\/ItemA    lex:ehUm    lex:Item .
+lex:D4979\/ParagrafoUnico\/AlineaAcompanhar    lex:temItem    lex:D4979\/ParagrafoUnico\/AlineaAcompanhar\/ItemA .
+lex:D4979\/ParagrafoUnico\/AlineaAcompanhar\/ItemA    lex:temConteudo    "2. A Comissão Mista terá plenos poderes para solicitar a assistência técnica e toda a informação que considerar necessária para o cumprimento de suas funções." .
+lex:D4979\/ParagrafoUnico    lex:remetePara    lex:Constituiçao\/Artigo167 .
+lex:D4979\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

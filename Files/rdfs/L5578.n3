@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5578    lex:ehUm    lex:DocLegal .
+lex:L5578    lex:temTextoIntegral    lex:HTMLs\/L5578.htm .
+lex:L5578\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5578    lex:temArtigo    lex:L5578\/Artigo1 .
+lex:L5578\/Artigo1    lex:temConteudo    "Art. 1º Aplica-se o art. 1º do Decreto-lei nº 146, de 3 de fevereiro de 1967, a partir de sua vigência, aos titulares dos cargos nêle previstos, admitidos em regime de interinidade e amparados pelo art. 50 da Lei número 4.242, de 17 de julho de 1963." .
+lex:L5578\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5578    lex:temArtigo    lex:L5578\/Artigo2 .
+lex:L5578\/Artigo2    lex:temConteudo    "Art. 2º Fica o Poder Executivo autorizado a abrir crédito especial para atender às despesas resultantes da aplicação da presente Lei." .
+lex:L5578\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5578\/Artigo2    lex:temParagrafo    lex:L5578\/Artigo2\/ParagrafoUnico .
+lex:L5578\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O decreto de abertura de crédito indicará a receita correspondente (Art. 61, § 1º, letra c, da Constituição da República Federativa do Brasil, Emenda Constitucional nº 1, de 17 de outubro de 1969)." .
+lex:L5578\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5578    lex:temArtigo    lex:L5578\/Artigo3 .
+lex:L5578\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5578\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5578    lex:temArtigo    lex:L5578\/Artigo4 .
+lex:L5578\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L5578\/Artigo4\/IncisoL    lex:ehUm    lex:Inciso .
+lex:L5578\/Artigo4    lex:temInciso    lex:L5578\/Artigo4\/IncisoL .
+lex:L5578\/Artigo4\/IncisoL    lex:temConteudo    "L. F. Cirne Lima" .
+lex:L5578\/Artigo1    lex:remetePara    lex:Del0146\/Artigo1 .
+lex:L5578\/Artigo1    lex:remetePara    lex:L4242\/Artigo50 .
+lex:L5578\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:emc01-69 .

@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8383    lex:ehUm    lex:DocLegal .
+lex:D8383    lex:temTextoIntegral    lex:HTMLs\/D8383.htm .
+lex:D8383\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo1 .
+lex:D8383\/Artigo1    lex:temConteudo    "Art. 1 º Fica aprovado o Programa de Dispêndios Globais - PDG das empresas estatais federais, para o exercício de 2015, conforme demonstrativos, por empresa, constantes do Anexo I." .
+lex:D8383\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo2 .
+lex:D8383\/Artigo2    lex:temConteudo    "Art. 2 º As empresas estatais a que se refere o art. 1 º deverão:" .
+lex:D8383\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8383\/Artigo2    lex:temInciso    lex:D8383\/Artigo2\/IncisoI .
+lex:D8383\/Artigo2\/IncisoI    lex:temConteudo    "I - gerar, na execução do Programa de Dispêndios Globais - PDG, no exercício de 2015, os resultados fixados no Anexo II, calculados segundo o critério de necessidade de financiamento líquido; e" .
+lex:D8383\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8383\/Artigo2    lex:temInciso    lex:D8383\/Artigo2\/IncisoII .
+lex:D8383\/Artigo2\/IncisoII    lex:temConteudo    "II - encaminhar ao Departamento de Coordenação e Governança das Empresas Estatais   DEST, do Ministério do Planejamento, Orçamento e Gestão, por intermédio do respectivo Ministério supervisor, utilizando o Sistema de Informação das Estatais - SIEST, o detalhamento mensal do PDG para 2015, no prazo máximo de sessenta dias, contados da data de publicação deste Decreto, tomando por base, no tocante à rubrica Investimentos, os valores constantes do Projeto da Lei Orçamentária Anual para 2015." .
+lex:D8383\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo3 .
+lex:D8383\/Artigo3    lex:temConteudo    "Art. 3 º As empresas estatais, a que se refere o art. 1 º deste Decreto, poderão encaminhar, até 16 de outubro de 2015, ao Departamento de Coordenação e Governança das Empresas Estatais, por intermédio do respectivo Ministério supervisor, propostas de reprogramação do Programa de Dispêndios Globais - PDG para 2015, acompanhadas de justificativas detalhadas sobre as principais alterações solicitadas." .
+lex:D8383\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo4 .
+lex:D8383\/Artigo4    lex:temConteudo    "Art. 4 º Fica o Departamento de Coordenação e Governança das Empresas Estatais autorizado a:" .
+lex:D8383\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8383\/Artigo4    lex:temInciso    lex:D8383\/Artigo4\/IncisoI .
+lex:D8383\/Artigo4\/IncisoI    lex:temConteudo    "I - adequar o Programa de Dispêndios Globais - PDG das empresas estatais que:" .
+lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem    lex:ehUm    lex:IncisoAlinea .
+lex:D8383\/Artigo4\/IncisoI    lex:temIncisoAlinea    lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem .
+lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem    lex:temConteudo    "a) virem a ter o seu Orçamento de Investimento constante do Projeto da Lei Orçamentária Anual para 2015 alterado por emenda parlamentar, aos valores aprovados; e" .
+lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem\/IncisoAlineaReceberem    lex:ehUm    lex:IncisoAlinea .
+lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem    lex:temIncisoAlinea    lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem\/IncisoAlineaReceberem .
+lex:D8383\/Artigo4\/IncisoI\/IncisoAlineaVirem\/IncisoAlineaReceberem    lex:temConteudo    "b) receberem recursos provenientes dos Orçamentos Fiscal e da Seguridade Social, ao limite dos créditos adicionais que vierem a ser aprovados para aqueles orçamentos, bem como para o Orçamento de Investimento; e" .
+lex:D8383\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8383\/Artigo4    lex:temInciso    lex:D8383\/Artigo4\/IncisoII .
+lex:D8383\/Artigo4\/IncisoII    lex:temConteudo    "II - efetuar, até o dia 18 de dezembro de 2015, remanejamentos de valores entre as diversas rubricas do PDG, exceto na rubrica de investimentos, desde que não impliquem alteração do limite global de dispêndios e de recursos fixados para cada empresa, nem da meta de resultado primário a que se refere o inciso I do art. 2 º deste Decreto." .
+lex:D8383\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8383\/Artigo4    lex:temParagrafo    lex:D8383\/Artigo4\/ParagrafoUnico .
+lex:D8383\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As empresas estatais encaminharão ao Departamento de Coordenação e Governança das Empresas Estatais, por intermédio do respectivo Ministério supervisor, a proposta de remanejamento até o dia 27 de novembro de 2015." .
+lex:D8383\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo5 .
+lex:D8383\/Artigo5    lex:temConteudo    "Art. 5 º A execução dos projetos aprovados no Orçamento de Investimento para 2015, à conta de Recursos para Aumento do Patrimônio Líquido - Tesouro, fica condicionada à efetiva liberação dos recursos financeiros pelo Tesouro Nacional." .
+lex:D8383\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8383    lex:temArtigo    lex:D8383\/Artigo6 .
+lex:D8383\/Artigo6    lex:temConteudo    "Art. 6 º Este Decreto entra em vigor na data de sua publicação." .

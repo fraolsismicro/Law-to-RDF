@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5500    lex:ehUm    lex:DocLegal .
+lex:D5500    lex:temTextoIntegral    lex:HTMLs\/D5500.htm .
+lex:D5500\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5500    lex:temArtigo    lex:D5500\/Artigo1 .
+lex:D5500\/Artigo1    lex:temConteudo    "Art. 1o  É facultado aos Ministros de Estado autorizar, excepcionalmente, no âmbito dos respectivos órgãos e entidades vinculadas, a compensação das faltas ocorridas no presente exercício, decorrentes de participação de servidores em paralisação de serviços públicos, mediante a adoção de plano de reposição de trabalho, com a assistência da Secretaria de Recursos Humanos do Ministério do Planejamento, Orçamento e Gestão, sem prejuízo nas remunerações." .
+lex:D5500\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5500\/Artigo1    lex:temParagrafo    lex:D5500\/Artigo1\/Paragrafo1 .
+lex:D5500\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O disposto no caput somente se aplica aos servidores que retomarem o trabalho até a data limite estabelecida nos termos dos acordos firmados entre os representantes dos servidores e do Governo. (Redação dada pelo Decreto nº 5.594, de 2005)" .
+lex:D5500\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5500\/Artigo1    lex:temParagrafo    lex:D5500\/Artigo1\/Paragrafo2 .
+lex:D5500\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Será excluído do plano de reposição de trabalho, com prejuízo na remuneração, relativamente ao total dos dias não trabalhados, o servidor que retomar a paralisação antes da sua conclusão." .
+lex:D5500\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5500    lex:temArtigo    lex:D5500\/Artigo2 .
+lex:D5500\/Artigo2    lex:temConteudo    "Art. 2o  Os planos de reposição de trabalho acordados em cada órgão ou entidade serão encaminhados ao Ministério do Planejamento, Orçamento e Gestão para homologação." .
+lex:D5500\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5500    lex:temArtigo    lex:D5500\/Artigo3 .
+lex:D5500\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5500\/Artigo1\/Paragrafo1    lex:remetePara    lex:D5594\/Artigo1 .

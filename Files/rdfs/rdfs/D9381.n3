@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9381    lex:ehUm    lex:DocLegal .
+lex:D9381    lex:temTextoIntegral    lex:HTMLs\/D9381.htm .
+lex:D9381\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9381    lex:temArtigo    lex:D9381\/Artigo1A .
+lex:D9381\/Artigo1A    lex:temConteudo    "Art. 1Âº O Anexo I ao Decreto nÂº 9.137, de 21 de agosto de 2017 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9381\/Artigo1A\/AlineaSecretaria-Executiva:    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaSecretaria-Executiva: .
+lex:D9381\/Artigo1A\/AlineaSecretaria-Executiva:    lex:temConteudo    "d) Secretaria-Executiva: Departamento de GestÃ£o Interna;" .
+lex:D9381\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaSecretaria .
+lex:D9381\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "e) Secretaria de RelaÃ§Ãµes Institucionais;" .
+lex:D9381\/Artigo1A\/AlineaSubchefia    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaSubchefia .
+lex:D9381\/Artigo1A\/AlineaSubchefia    lex:temConteudo    "f) Subchefia de Assuntos Parlamentares; e" .
+lex:D9381\/Artigo1A\/AlineaSubchefia    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaSubchefia .
+lex:D9381\/Artigo1A\/AlineaSubchefia    lex:temConteudo    "g) Subchefia de Assuntos Federativos:" .
+lex:D9381\/Artigo1A\/AlineaSubchefia\/Item    lex:ehUm    lex:Item .
+lex:D9381\/Artigo1A\/AlineaSubchefia    lex:temItem    lex:D9381\/Artigo1A\/AlineaSubchefia\/Item .
+lex:D9381\/Artigo1A\/AlineaSubchefia\/Item    lex:temConteudo    "........................................................................................" .
+lex:D9381\/Artigo1A\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaConselho .
+lex:D9381\/Artigo1A\/AlineaConselho    lex:temConteudo    "b) Conselho Nacional dos Direitos da Mulher;" .
+lex:D9381\/Artigo1A\/AlineaConselho    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaConselho .
+lex:D9381\/Artigo1A\/AlineaConselho    lex:temConteudo    "c) Conselho Deliberativo do Programa Bem Mais Simples Brasil; e" .
+lex:D9381\/Artigo1A\/AlineaComissAo    lex:ehUm    lex:Alinea .
+lex:D9381\/Artigo1A    lex:temAlinea    lex:D9381\/Artigo1A\/AlineaComissAo .
+lex:D9381\/Artigo1A\/AlineaComissAo    lex:temConteudo    "d) ComissÃ£o Nacional para os Objetivos de Desenvolvimento SustentÃ¡vel.â (NR)" .
+lex:D9381\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9381    lex:temArtigo    lex:D9381\/Artigo2A .
+lex:D9381\/Artigo2A    lex:temConteudo    "Art. 2Âº Os apostilamentos decorrentes das alteraÃ§Ãµes promovidas na Estrutura Regimental da Secretaria de Governo da PresidÃªncia da RepÃºblica deverÃ£o ocorrer na data de entrada em vigor deste Decreto." .
+lex:D9381\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9381    lex:temArtigo    lex:D9381\/Artigo3A .
+lex:D9381\/Artigo3A    lex:temConteudo    "Art. 3Âº Fica revogado o inciso III do caput do art. 6Âº do Anexo I ao Decreto nÂº 9.137, de 2017 ." .
+lex:D9381\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D9381    lex:temArtigo    lex:D9381\/Artigo4A .
+lex:D9381\/Artigo4A    lex:temConteudo    "Art. 4Âº Este Decreto entra em vigor em 7 de junho de 2018." .
+lex:D9381\/Artigo1A    lex:remetePara    lex:D9137 .
+lex:D9381\/Artigo1A\/AlineaSecretaria-Executiva:    lex:remetePara    lex:D9137\/anexo1Artigo2 .
+lex:D9381\/Artigo1A\/AlineaConselho    lex:remetePara    lex:D9137\/anexo1Artigo2 .
+lex:D9381\/Artigo1A\/Texto00009    lex:remetePara    lex:D9137\/anexo1Artigo8 .
+lex:D9381\/Artigo1A\/Texto00009    lex:remetePara    lex:D9137\/anexo1Artigo13 .
+lex:D9381\/Artigo1A\/Texto00009    lex:remetePara    lex:D9137\/anexo1Artigo14 .
+lex:D9381\/Artigo1A\/Texto00009    lex:remetePara    lex:D9137\/anexo1Artigo26 .
+lex:D9381\/Artigo1A\/Texto00009    lex:remetePara    lex:D8892 .
+lex:D9381\/Artigo3A    lex:remetePara    lex:D9137\/anexo1Artigo6 .

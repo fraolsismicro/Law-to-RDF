@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12062    lex:ehUm    lex:DocLegal .
+lex:L12062    lex:temTextoIntegral    lex:HTMLs\/L12062.htm .
+lex:L12062\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12062    lex:temArtigo    lex:L12062\/Artigo1 .
+lex:L12062\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o da Lei no 9.875, de 25 de novembro de 1999, que denomina Rodovia Ulysses Guimarães a BR-282, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L12062\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12062\/Artigo1    lex:temParagrafo    lex:L12062\/Artigo1\/ParagrafoUnico .
+lex:L12062\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O trecho da rodovia localizado entre o trevo da BR-116 (Km 223,1), no Município de Lages, e o entroncamento com a via de acesso à localidade de São José do Cerrito (Km 255,2), no Município do mesmo nome, no Estado de Santa Catarina, passa a receber a denominação suplementar Rodovia Ulysses Guimarães - Trecho Carlos Joffre do Amaral. (NR)" .
+lex:L12062\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12062    lex:temArtigo    lex:L12062\/Artigo2 .
+lex:L12062\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12062\/Artigo1    lex:remetePara    lex:L9875 .
+lex:L12062\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L9875\/Artigo1 .

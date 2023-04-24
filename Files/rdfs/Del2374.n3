@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2374    lex:ehUm    lex:DocLegal .
+lex:Del2374    lex:temTextoIntegral    lex:HTMLs\/Del2374.htm .
+lex:Del2374\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo1 .
+lex:Del2374\/Artigo1    lex:temConteudo    "Art. 1º A gratificação instituída pelo Decreto-lei nº 2.365, de 27 de outubro de 1987, com a alteração introduzida pelo Decreto-lei nº 2.366, de 4 de novembro de 1987, é concedida aos servidores integrantes da Tabela de Pessoal da Superintendência do Desenvolvimento do Nordeste - Sudene, no percentual de 33% (trinta e três por cento), incidente sobre o salário básico." .
+lex:Del2374\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2374\/Artigo1    lex:temParagrafo    lex:Del2374\/Artigo1\/ParagrafoUnico .
+lex:Del2374\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O percentual de 33% (trinta e três por cento), previsto neste artigo, não incide sobre a vantagem individual de que trata o art. 6º da Lei nº 7.388, de 23 de outubro de 1985." .
+lex:Del2374\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo2 .
+lex:Del2374\/Artigo2    lex:temConteudo    "Art. 2º Os servidores investidos nas funções de confiança pertencentes à Tabela de Pessoal a que se refere o artigo anterior perceberão a gratificação de que trata este decreto-lei." .
+lex:Del2374\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2374\/Artigo2    lex:temParagrafo    lex:Del2374\/Artigo2\/ParagrafoUnico .
+lex:Del2374\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O valor da gratificação será determinado mediante a incidência do percentual fixado no artigo anterior sobre o salário básico da função de confiança." .
+lex:Del2374\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo3 .
+lex:Del2374\/Artigo3    lex:temConteudo    "Art. 3º Os efeitos financeiros decorrentes do disposto neste decreto-lei vigoram a partir de 1º de outubro de 1987, mantido o reajustamento previsto no parágrafo único do art. 13 do Decreto-lei nº 2.365, de 1987." .
+lex:Del2374\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo4 .
+lex:Del2374\/Artigo4    lex:temConteudo    "Art. 4º A despesa decorrente da execução do disposto neste decreto-lei correrá à conta dos recursos consignados no orçamento da Sudene." .
+lex:Del2374\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo5 .
+lex:Del2374\/Artigo5    lex:temConteudo    "Art. 5º Este decreto-lei entra em vigor na data de sua publicação." .
+lex:Del2374\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del2374    lex:temArtigo    lex:Del2374\/Artigo6 .
+lex:Del2374\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:Del2374\/Artigo1    lex:remetePara    lex:Del2365 .
+lex:Del2374\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L7388\/Artigo6 .
+lex:Del2374\/Artigo3    lex:remetePara    lex:Del2365\/Artigo13 .

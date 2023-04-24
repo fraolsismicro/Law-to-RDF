@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10042    lex:ehUm    lex:DocLegal .
+lex:D10042    lex:temTextoIntegral    lex:HTMLs\/D10042.htm .
+lex:D10042\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10042    lex:temArtigo    lex:D10042\/Artigo1A .
+lex:D10042\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 9.569, de 20 de novembro de 2018, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10042\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10042    lex:temArtigo    lex:D10042\/Artigo2A .
+lex:D10042\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os incisos I a IV do parÃ¡grafo Ãºnico do art. 5Âº do Decreto nÂº 9.569, de 2018." .
+lex:D10042\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10042    lex:temArtigo    lex:D10042\/Artigo3A .
+lex:D10042\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10042\/Artigo1A    lex:remetePara    lex:D9569 .
+lex:D10042\/Texto00001    lex:remetePara    lex:D9569\/Artigo2 .
+lex:D10042\/Texto00001    lex:remetePara    lex:D9569\/Artigo5 .
+lex:D10042\/Texto00001    lex:remetePara    lex:D9569\/Artigo6 .
+lex:D10042\/Artigo2A    lex:remetePara    lex:D9569\/Artigo5 .

@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7004    lex:ehUm    lex:DocLegal .
+lex:D7004    lex:temTextoIntegral    lex:HTMLs\/D7004.htm .
+lex:D7004\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7004    lex:temArtigo    lex:D7004\/Artigo1 .
+lex:D7004\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 4o, 7o, 8o e 9o do Decreto no 1.910, de 21 de maio de 1996, passam a vigorar com a seguinte redação:" .
+lex:D7004\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7004\/Artigo1    lex:temParagrafo    lex:D7004\/Artigo1\/Paragrafo4 .
+lex:D7004\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  O edital fixará o prazo da permissão ou concessão em vinte e cinco anos, podendo ser prorrogado por dez anos, nos termos em que dispõe o § 2o do art. 1o da Lei no 9.074, de 7 de julho de 1995, alterada pela Lei no 10.684, de 30 de maio de 2003." .
+lex:D7004\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7004    lex:temArtigo    lex:D7004\/Artigo2 .
+lex:D7004\/Artigo2    lex:temConteudo    "Art. 2o  Ficam revogados os §§ 1o e 2o do art. 8o do Decreto no 1.910, de 21 de maio de 1996." .
+lex:D7004\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7004    lex:temArtigo    lex:D7004\/Artigo3 .
+lex:D7004\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7004\/Texto00001    lex:remetePara    lex:D1910\/Artigo4 .
+lex:D7004\/Texto00001    lex:remetePara    lex:D1910\/Artigo7 .
+lex:D7004\/Texto00001    lex:remetePara    lex:D1910\/Artigo8 .
+lex:D7004\/Artigo1\/Paragrafo4    lex:remetePara    lex:D1910\/Artigo9\/Paragrafo4 .
+lex:D7004\/Artigo2    lex:remetePara    lex:D1910\/Artigo8\/Paragrafo1 .
+lex:D7004\/Artigo2    lex:remetePara    lex:D1910\/Artigo8\/Paragrafo2 .

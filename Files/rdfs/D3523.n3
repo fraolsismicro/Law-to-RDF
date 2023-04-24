@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3523    lex:ehUm    lex:DocLegal .
+lex:D3523    lex:temTextoIntegral    lex:HTMLs\/D3523.htm .
+lex:D3523\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3523    lex:temArtigo    lex:D3523\/Artigo1 .
+lex:D3523\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, na forma deste artigo e do Anexo I a este Decreto, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D3523\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3523\/Artigo1    lex:temInciso    lex:D3523\/Artigo1\/IncisoI .
+lex:D3523\/Artigo1\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, provenientes de órgãos extintos da Administração Pública Federal, para o Departamento Nacional de Estradas de Rodagem - DNER, autarquia federal vinculada ao Ministério dos Transportes: dois DAS 101.3;" .
+lex:D3523\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3523\/Artigo1    lex:temInciso    lex:D3523\/Artigo1\/IncisoII .
+lex:D3523\/Artigo1\/IncisoII    lex:temConteudo    "II - do Departamento Nacional de Estradas de Rodagem - DNER, para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: um DAS 101.1; um DAS 102.1 e duas FG-2;" .
+lex:D3523\/Artig    lex:ehUm    lex:Artigo .
+lex:D3523    lex:temArtigo    lex:D3523\/Artig .
+lex:D3523\/Artig    lex:temConteudo    "Art.  2o  Em decorrência do disposto no artigo anterior, o Anexo II ao Decreto no 3.153, de 26 de agosto de 1999, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D3523\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3523    lex:temArtigo    lex:D3523\/Artigo3 .
+lex:D3523\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3523\/Artig    lex:remetePara    lex:D3153\/ .

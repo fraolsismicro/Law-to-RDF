@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D68806    lex:ehUm    lex:DocLegal .
+lex:D68806    lex:temTextoIntegral    lex:HTMLs\/D68806.htm .
+lex:D68806\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D68806    lex:temArtigo    lex:D68806\/Artigo1 .
+lex:D68806\/Artigo1    lex:temConteudo    "Art. 1º É instituída a Central de Medicamentos (CEME), órgão da Presidência da República, destinada à promover e organizar o fornecimento, por preços acessíveis, de medicamentos de uso humano àqueles que, por suas condições econômicas, não puderam adquiri-los por preços comuns no mercado. (Redação dada pelo Decreto nº 69.451, de 1971)." .
+lex:D68806\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D68806    lex:temArtigo    lex:D68806\/Artigo4 .
+lex:D68806\/Artigo4    lex:temConteudo    "Art. 4º A CEME, à qual caberá a organização de planos e projetos específicos, será dirigida por uma comissão composta de um representante de cada um dos Ministérios enumerados no artigo 2º deste Decreto. (Redação dada pelo Decreto nº 69.451, de 1971)." .
+lex:D68806\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D68806\/Artigo4    lex:temParagrafo    lex:D68806\/Artigo4\/Paragrafo1 .
+lex:D68806\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º Os demais Ministérios não integrantes da Comissão poderão ser convidados a participar das reuniões que tratarem de assuntos compreendidos nas respectivas áreas de competência. (Incluído pelo Decreto nº 69.451, de 1971)." .
+lex:D68806\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D68806\/Artigo4    lex:temParagrafo    lex:D68806\/Artigo4\/Paragrafo2 .
+lex:D68806\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º Igual convite poderás ser formulado às Secretárias Estaduais de Saúde. (Incluído pelo Decreto nº 69.451, de 1971)." .
+lex:D68806\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D68806    lex:temArtigo    lex:D68806\/Artigo8 .
+lex:D68806\/Artigo8    lex:temConteudo    "Art. 8º Os representantes de Ministério designados para a Comissão Diretora receberão gratificação de presença, fixada pelo Presidente da República, pelas reuniões a que comparecerem. (Redação dada pelo Decreto nº 69.451, de 1971)." .
+lex:D68806\/Texto    lex:remetePara    lex:D71205 .
+lex:D68806\/Texto    lex:revogadoPor    lex:D75985\/Artigo12 .
+lex:D75985\/Artigo12    lex:revogou    lex:D68806\/Texto .
+lex:D68806\/Texto    lex:revogadoPor    lex:D2283\/Artigo9 .
+lex:D2283\/Artigo9    lex:revogou    lex:D68806\/Texto .
+lex:D68806\/Texto    lex:remetePara    lex:D68806 .
+lex:D68806\/Artigo1    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4\/Paragrafo1    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4\/Paragrafo2    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4\/Paragrafo3    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4\/Paragrafo4    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo4\/Artigo5    lex:remetePara    lex:D69451\/Artigo1 .
+lex:D68806\/Artigo8    lex:remetePara    lex:D69451\/Artigo1 .

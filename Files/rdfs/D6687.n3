@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6687    lex:ehUm    lex:DocLegal .
+lex:D6687    lex:temTextoIntegral    lex:HTMLs\/D6687.htm .
+lex:D6687\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6687    lex:temArtigo    lex:D6687\/Artigo2 .
+lex:D6687\/Artigo2    lex:temConteudo    "Art. 2o  As Notas Complementares NC (87-2), NC (87-3) e NC (87-4) da TIPI, passam a vigorar com a redação dada pelo Anexo II. (Redação dada pelo Decreto nº 6.743, de 2009)" .
+lex:D6687\/Artigo1    lex:remetePara    lex:D6006 .
+lex:D6687\/Artigo2    lex:remetePara    lex:D6723\/Artigo3 .
+lex:D6687\/Artigo2    lex:remetePara    lex:D6743\/Artigo1 .
+lex:D6687\/Artigo3    lex:remetePara    lex:L6729 .
+lex:D6687\/Artigo3o-A    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo1    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo2    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo3    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo4    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo5    lex:remetePara    lex:D6723\/Artigo1 .
+lex:D6687\/Paragrafo6    lex:remetePara    lex:D6723\/Artigo1 .

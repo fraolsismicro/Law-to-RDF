@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.932    lex:ehUm    lex:DocLegal .
+lex:L10.932    lex:temTextoIntegral    lex:HTMLs\/L10.932.htm .
+lex:L10932\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10932    lex:temArtigo    lex:L10932\/Artigo1 .
+lex:L10932\/Artigo1    lex:temConteudo    "Art. 1o Esta Lei altera o art. 4o da Lei no 6.766, de 19 de dezembro de 1979, dispondo sobre a reserva de faixa não-edificável referente a dutovias." .
+lex:L10932\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10932    lex:temArtigo    lex:L10932\/Artigo2 .
+lex:L10932\/Artigo2    lex:temConteudo    "Art. 2o O inciso III do art. 4o da Lei no 6.766, de 19 de dezembro de 1979, passa a vigorar com a seguinte redação:" .
+lex:L10932\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10932\/Artigo2    lex:temInciso    lex:L10932\/Artigo2\/IncisoIII .
+lex:L10932\/Artigo2\/IncisoIII    lex:temConteudo    "III - ao longo das águas correntes e dormentes e das faixas de domínio público das rodovias e ferrovias, será obrigatória a reserva de uma faixa não-edificável de 15 (quinze) metros de cada lado, salvo maiores exigências da legislação específica;" .
+lex:L10932\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10932    lex:temArtigo    lex:L10932\/Artigo3 .
+lex:L10932\/Artigo3    lex:temConteudo    "Art. 3o O art. 4o da Lei no 6.766, de 19 de dezembro de 1979, passa a vigorar acrescido do seguinte § 3o:" .
+lex:L10932\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10932\/Artigo3    lex:temParagrafo    lex:L10932\/Artigo3\/Paragrafo3 .
+lex:L10932\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o Se necessária, a reserva de faixa não-edificável vinculada a dutovias será exigida no âmbito do respectivo licenciamento ambiental, observados critérios e parâmetros que garantam a segurança da população e a proteção do meio ambiente, conforme estabelecido nas normas técnicas pertinentes.' (NR)" .
+lex:L10932\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10932    lex:temArtigo    lex:L10932\/Artigo4 .
+lex:L10932\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10932\/Artigo1    lex:remetePara    lex:L6766\/Artigo4 .
+lex:L10932\/Artigo2\/IncisoIII    lex:remetePara    lex:L6766\/Artigo4 .
+lex:L10932\/Artigo3\/Paragrafo3    lex:remetePara    lex:L6766\/Artigo4\/Paragrafo3 .

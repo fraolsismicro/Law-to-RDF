@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0168    lex:ehUm    lex:DocLegal .
+lex:Del0168    lex:temTextoIntegral    lex:HTMLs\/Del0168.htm .
+lex:Del0168\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0168    lex:temArtigo    lex:Del0168\/Artigo1 .
+lex:Del0168\/Artigo1    lex:temConteudo    "Art. 1º - Os artigos ns 37, 38, 136, 137, 138, 139 e 149 do Decreto-lei nº 73, de 21 de novembro de 1966, passam a vigorar com a seguinte redação:" .
+lex:Del0168\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0168\/Artigo1    lex:temParagrafo    lex:Del0168\/Artigo1\/Paragrafo1 .
+lex:Del0168\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Até que entre em funcionamento a SUSEP, as atribuições a ela conferidas pelo presente Decreto-lei continuarão a ser desempenhadas pelo DNSPC." .
+lex:Del0168\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0168\/Artigo1    lex:temParagrafo    lex:Del0168\/Artigo1\/Paragrafo2 .
+lex:Del0168\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Fica extinto, no Quadro de Pessoal do Ministério da Indústria e do Comércio, o cargo em comissão de Diretor-Geral do Departamento Nacional de Seguros Privados e Capitalização, símbolo 2-C." .
+lex:Del0168\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0168\/Artigo1    lex:temParagrafo    lex:Del0168\/Artigo1\/Paragrafo3 .
+lex:Del0168\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Serão considerados extintos, no Quadro de Pessoal do Ministério da Indústria e do Comércio, a partir da criação dos cargos correspondentes nos quadros da SUSEP, os 8 (oito) cargos em comissão do Delegado Regional de Seguros, símbolo 5-C'." .
+lex:Del0168\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0168    lex:temArtigo    lex:Del0168\/Artigo2 .
+lex:Del0168\/Artigo2    lex:temConteudo    "Art. 2º. Êste Decreto-lei terá a mesma vigência dada ao Decreto-Iei número 73, de 21 de novembro de 1966." .
+lex:Del0168\/Texto00001    lex:remetePara    lex:Del0073\/Artigo37 .
+lex:Del0168\/Texto00001    lex:remetePara    lex:Del0073\/Artigo37 .
+lex:Del0168\/Texto00001    lex:remetePara    lex:Del0073\/Artigo38 .
+lex:Del0168\/Texto00001    lex:remetePara    lex:Del0073\/Artigo38 .
+lex:Del0168\/Texto00001    lex:remetePara    lex:Del0073\/Artigo136 .
+lex:Del0168\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del0073\/Artigo136\/Paragrafo1 .
+lex:Del0168\/Artigo1\/Paragrafo2    lex:remetePara    lex:Del0073\/Artigo136\/Paragrafo2 .
+lex:Del0168\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0073\/Artigo136\/Paragrafo3 .
+lex:Del0168\/Artigo1\/Texto00004    lex:remetePara    lex:Del0073\/Artigo137 .
+lex:Del0168\/Artigo1\/Texto00004    lex:remetePara    lex:Del0073\/Artigo138 .
+lex:Del0168\/Artigo1\/Texto00004    lex:remetePara    lex:Del0073\/Artigo139 .
+lex:Del0168\/Artigo1\/Texto00004    lex:remetePara    lex:Del0073\/Artigo139 .
+lex:Del0168\/Artigo1\/Texto00004    lex:remetePara    lex:Del0073\/Artigo149 .
+lex:Del0168\/Artigo2    lex:remetePara    lex:Del0073\/Artigo153 .

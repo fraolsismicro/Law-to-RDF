@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5006    lex:ehUm    lex:DocLegal .
+lex:D5006    lex:temTextoIntegral    lex:HTMLs\/D5006.htm .
+lex:D5006\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5006    lex:temArtigo    lex:D5006\/Artigo1 .
+lex:D5006\/Artigo1    lex:temConteudo    "Art. 1o  O Protocolo Facultativo à Convenção sobre os Direitos da Criança relativo ao envolvimento de crianças em conflitos armados, adotado em Nova York em 25 de maio de 2000, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D5006\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5006    lex:temArtigo    lex:D5006\/Artigo2 .
+lex:D5006\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Protocolo ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D5006\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5006    lex:temArtigo    lex:D5006\/Artigo3 .
+lex:D5006\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5006\/Artigo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D5006\/Artigo3    lex:temAlinea    lex:D5006\/Artigo3\/AlineaO .
+lex:D5006\/Artigo3\/AlineaO    lex:temConteudo    "a) o referido recrutamento seja genuinamente voluntário;" .
+lex:D5006\/Artigo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D5006\/Artigo3    lex:temAlinea    lex:D5006\/Artigo3\/AlineaO .
+lex:D5006\/Artigo3\/AlineaO    lex:temConteudo    "b) o referido recrutamento seja feito com o consentimento informado dos pais do menor ou de seus tutores legais;" .
+lex:D5006\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5006\/Artigo3    lex:temAlinea    lex:D5006\/Artigo3\/AlineaOs .
+lex:D5006\/Artigo3\/AlineaOs    lex:temConteudo    "c) os menores em questão sejam devidamente informados das responsabilidades envolvidas no referido serviço militar;" .
+lex:D5006\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5006\/Artigo3    lex:temAlinea    lex:D5006\/Artigo3\/AlineaOs .
+lex:D5006\/Artigo3\/AlineaOs    lex:temConteudo    "d) os menores em questão forneçam comprovação fiável de sua idade antes de serem aceitos no serviço militar nacional." .
+lex:D5006\/Artigo3\/AlineaOs\/ItemOs    lex:ehUm    lex:Item .
+lex:D5006\/Artigo3\/AlineaOs    lex:temItem    lex:D5006\/Artigo3\/AlineaOs\/ItemOs .
+lex:D5006\/Artigo3\/AlineaOs\/ItemOs    lex:temConteudo    "4. Os Estados Partes poderão ampliar sua declaração a qualquer tempo por meio de notificação para tal fim encaminhada ao Secretário Geral das Nações Unidas, o qual informará todos os Estados Partes. A referida notificação entrará em vigor na data de seu recebimento pelo Secretário Geral." .
+lex:D5006\/Artigo3\/AlineaOs\/ItemA    lex:ehUm    lex:Item .
+lex:D5006\/Artigo3\/AlineaOs    lex:temItem    lex:D5006\/Artigo3\/AlineaOs\/ItemA .
+lex:D5006\/Artigo3\/AlineaOs\/ItemA    lex:temConteudo    "5. A exigência relativa à elevação da idade a que se refere o parágrafo 1 do presente Artigo não se aplica a escolas operadas ou controladas pelas forças armadas dos Estados Partes, em conformidade com os Artigos 28 e 29 da Convenção sobre os Direitos da Criança." .
+lex:D5006\/Artigo2    lex:remetePara    lex:Constituiçao\/ART49 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3742    lex:ehUm    lex:DocLegal .
+lex:D3742    lex:temTextoIntegral    lex:HTMLs\/D3742.htm .
+lex:D3742\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3742    lex:temArtigo    lex:D3742\/Artigo1 .
+lex:D3742\/Artigo1    lex:temConteudo    "Art. 1o  Fica fixado em R$ 363,00 (trezentos e sessenta e três reais), para o exercício de 2001, o valor mínimo de que trata o art. 6o, § 1o, da Lei no 9.424, de 24 de dezembro de 1996." .
+lex:D3742\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3742\/Artigo1    lex:temParagrafo    lex:D3742\/Artigo1\/ParagrafoUnico .
+lex:D3742\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Em função do disposto no caput, fica fixado em R$ 381,15 (trezentos e oitenta e um reais e quinze centavos) o valor mínimo garantido pela União para os alunos referidos no inciso II do art. 2o do Decreto no 3.326, de 31 de dezembro de 1999." .
+lex:D3742\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3742    lex:temArtigo    lex:D3742\/Artigo2 .
+lex:D3742\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos financeiros a partir de 1o de janeiro de 2001." .
+lex:D3742\/Artigo1    lex:remetePara    lex:L9424\/Artigo6 .
+lex:D3742\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D3326\/Artigo2 .

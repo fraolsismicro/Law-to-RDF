@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8654    lex:ehUm    lex:DocLegal .
+lex:D8654    lex:temTextoIntegral    lex:HTMLs\/D8654.htm .
+lex:D8654\/Artig    lex:ehUm    lex:Artigo .
+lex:D8654    lex:temArtigo    lex:D8654\/Artig .
+lex:D8654\/Artig    lex:temConteudo    "Art.  1o  Fica aprovado o Regulamento para Adidos, Adjuntos e Auxiliares de Adidos Militares das Forças Armadas junto às Missões Diplomáticas Brasileiras, na forma do Anexo." .
+lex:D8654\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8654    lex:temArtigo    lex:D8654\/Artigo2 .
+lex:D8654\/Artigo2    lex:temConteudo    "Art. 2o  O Ministro de Estado da Defesa expedirá normas complementares para o cumprimento do disposto neste Decreto." .
+lex:D8654\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8654    lex:temArtigo    lex:D8654\/Artigo3 .
+lex:D8654\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8654\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8654    lex:temArtigo    lex:D8654\/Artigo4 .
+lex:D8654\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Decreto no 79.900, de 1o de julho de 1977." .
+lex:D8654\/Artigo4    lex:remetePara    lex:D79900 .

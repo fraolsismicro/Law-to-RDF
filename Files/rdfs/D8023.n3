@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8023    lex:ehUm    lex:DocLegal .
+lex:D8023    lex:temTextoIntegral    lex:HTMLs\/D8023.htm .
+lex:D8023\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D8023    lex:temInciso    lex:D8023\/IncisoXI .
+lex:D8023\/IncisoXI    lex:temConteudo    "XI - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para constituição de margem de garantia, inicial ou adicional, exigida por bolsas de valores, de mercadorias e futuros: zero;" .
+lex:D8023\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D8023    lex:temInciso    lex:D8023\/IncisoXII .
+lex:D8023\/IncisoXII    lex:temConteudo    "XII - nas liquidações de operações de câmbio contratadas por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para aplicação no mercado financeiro e de capitais, excetuadas as operações de que tratam os incisos XIII, XIV, XV, XVII, XVIII e XXIII do caput: zero;" .
+lex:D8023\/Texto    lex:remetePara    lex:D8023 .
+lex:D8023\/IncisoXI    lex:remetePara    lex:D6306\/Artigo15 .
+lex:D8023\/IncisoXII    lex:remetePara    lex:D6306\/Artigo15 .

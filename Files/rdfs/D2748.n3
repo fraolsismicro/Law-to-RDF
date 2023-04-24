@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2748    lex:ehUm    lex:DocLegal .
+lex:D2748    lex:temTextoIntegral    lex:HTMLs\/D2748.htm .
+lex:D2748\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2748    lex:temArtigo    lex:D2748\/Artigo1 .
+lex:D2748\/Artigo1    lex:temConteudo    "Art 1º O art. 1º do Decreto nº 75.924, de 2 de julho de 1975, passa a vigorar com a seguinte a redação:" .
+lex:D2748\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2748\/Artigo1    lex:temParagrafo    lex:D2748\/Artigo1\/ParagrafoUnico .
+lex:D2748\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Medalha 'Marechal Hermes - Aplicação e Estudo' poderá também ser conferida, a critério do Ministro do Exército, ao diplomata que obtiver o primeiro lugar em sua turma no Programa de Formação e Aperfeiçoamento - Primeira Fase (PROPA-I)do Instituto Rio Branco, do Ministério das Relações Exteriores.' (NR)" .
+lex:D2748\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2748    lex:temArtigo    lex:D2748\/Artigo2 .
+lex:D2748\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2748\/Texto00003    lex:remetePara    lex:index .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8363    lex:ehUm    lex:DocLegal .
+lex:D8363    lex:temTextoIntegral    lex:HTMLs\/D8363.htm .
+lex:D8363\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8363    lex:temArtigo    lex:D8363\/Artigo1 .
+lex:D8363\/Artigo1    lex:temConteudo    "Art. 1 º  Fica promulgado o Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Índia sobre Assistência Mútua em Matéria Aduaneira, firmado em Nova Delhi, em 4 de maio de 2007, anexo a este Decreto." .
+lex:D8363\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8363    lex:temArtigo    lex:D8363\/Artigo2 .
+lex:D8363\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão do Acordo e ajustes complementares que acarretam encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do art. 49 da Constituição." .
+lex:D8363\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8363    lex:temArtigo    lex:D8363\/Artigo3 .
+lex:D8363\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8363\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

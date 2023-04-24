@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98723    lex:ehUm    lex:DocLegal .
+lex:D98723    lex:temTextoIntegral    lex:HTMLs\/D98723.htm .
+lex:D98723\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98723    lex:temArtigo    lex:D98723\/Artigo1 .
+lex:D98723\/Artigo1    lex:temConteudo    "Art. 1° Passam a vigorar com as redações que se seguem, a alínea a do inciso II do parágrafo único do artigo 1° e a alínea a do inciso II do parágrafo único do artigo 2° do Decreto n° 98.224, de 29 de setembro de 1989, respectivamente:" .
+lex:D98723\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98723    lex:temArtigo    lex:D98723\/Artigo2 .
+lex:D98723\/Artigo2    lex:temConteudo    "Art. 2° Fica incluído no Decreto n° 98.224, de 29 de setembro de 1989, o ANEXO IX de que trata este Decreto, no valor de NCz$ 49.550.000,00 (quarenta e nove milhões, quinhentos e cinqüenta mil cruzados novos), decorrente de aplicação do disposto no artigo 2° da Lei n° 7.791, de 4 de julho de 1989." .
+lex:D98723\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98723    lex:temArtigo    lex:D98723\/Artigo3 .
+lex:D98723\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D98723\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D98723\/Texto .
+lex:D98723\/Texto    lex:remetePara    lex:D98723 .
+lex:D98723\/Artigo1    lex:remetePara    lex:D98224 .

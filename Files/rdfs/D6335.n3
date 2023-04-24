@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6335    lex:ehUm    lex:DocLegal .
+lex:D6335    lex:temTextoIntegral    lex:HTMLs\/D6335.htm .
+lex:D6335\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6335    lex:temArtigo    lex:D6335\/Artigo1 .
+lex:D6335\/Artigo1    lex:temConteudo    "Art. 1 º  Os art. 1 º  e 4 º  do Decreto n º 5.115, 24 de junho de 2004, passam a vigorar com a seguinte redação:" .
+lex:D6335\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6335\/Artigo1    lex:temParagrafo    lex:D6335\/Artigo1\/Paragrafo3 .
+lex:D6335\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  Durante o período em que integrarem a CEI, os representantes de que tratam os incisos I a IV ficarão dispensados do exercício das atribuições inerentes aos respectivos cargos efetivos ou em comissão, dedicando-se integralmente às atividades a cargo da CEI. (NR)" .
+lex:D6335\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6335\/Artigo1    lex:temParagrafo    lex:D6335\/Artigo1\/Paragrafo1 .
+lex:D6335\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Caberá à CEI decidir, em caráter terminativo, sobre a existência da motivação política referida no inciso III do art. 1 º da Lei n º 8.878, de 1994, desde que devidamente caracterizada e comprovada, em cada caso, nos autos do respectivo processo." .
+lex:D6335\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6335\/Artigo1    lex:temParagrafo    lex:D6335\/Artigo1\/Paragrafo2 .
+lex:D6335\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  Das decisões de mérito da CEI referidas no § 1 º não caberá reexame por qualquer autoridade, no âmbito do Poder Executivo." .
+lex:D6335\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6335\/Artigo1    lex:temParagrafo    lex:D6335\/Artigo1\/Paragrafo3 .
+lex:D6335\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3 º  O retorno dos anistiados está condicionado ao disposto nos art. 2 º e 3 º da Lei n º 8.878, de 1994. (NR)" .
+lex:D6335\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6335    lex:temArtigo    lex:D6335\/Artigo2 .
+lex:D6335\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6335\/Artigo1\/Paragrafo3    lex:remetePara    lex:D5115\/Artigo1\/Paragrafo3 .
+lex:D6335\/Artigo1\/Paragrafo1    lex:remetePara    lex:D5115\/Artigo4\/Paragrafo1 .

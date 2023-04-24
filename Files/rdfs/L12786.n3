@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12786    lex:ehUm    lex:DocLegal .
+lex:L12786    lex:temTextoIntegral    lex:HTMLs\/L12786.htm .
+lex:L12786\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12786    lex:temArtigo    lex:L12786\/Artigo1 .
+lex:L12786\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o, 2o, 4o e 11 da Lei nº 7.831, de 2 de outubro de 1989, passam a vigorar com as seguintes alterações:" .
+lex:L12786\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12786\/Artigo1    lex:temInciso    lex:L12786\/Artigo1\/IncisoI .
+lex:L12786\/Artigo1\/IncisoI    lex:temConteudo    "I - Coronel;" .
+lex:L12786\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12786\/Artigo1    lex:temInciso    lex:L12786\/Artigo1\/IncisoII .
+lex:L12786\/Artigo1\/IncisoII    lex:temConteudo    "II - Tenente-Coronel;" .
+lex:L12786\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12786\/Artigo1    lex:temInciso    lex:L12786\/Artigo1\/IncisoIII .
+lex:L12786\/Artigo1\/IncisoIII    lex:temConteudo    "III - Major;" .
+lex:L12786\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L12786\/Artigo1    lex:temInciso    lex:L12786\/Artigo1\/IncisoIV .
+lex:L12786\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Capitão; e" .
+lex:L12786\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L12786\/Artigo1    lex:temInciso    lex:L12786\/Artigo1\/IncisoV .
+lex:L12786\/Artigo1\/IncisoV    lex:temConteudo    "V - Primeiro-Tenente." .
+lex:L12786\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12786\/Artigo1    lex:temParagrafo    lex:L12786\/Artigo1\/Paragrafo2 .
+lex:L12786\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  Caberá ao Comandante do Exército a distribuição do efetivo do QCO por áreas de atividade. (NR)" .
+lex:L12786\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L12786\/Artigo1    lex:temParagrafo    lex:L12786\/Artigo1\/Paragrafo4 .
+lex:L12786\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º  O número de vagas para cada processo seletivo de admissão será estabelecido em ato do Comandante do Exército." .
+lex:L12786\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L12786\/Artigo1    lex:temParagrafo    lex:L12786\/Artigo1\/Paragrafo5 .
+lex:L12786\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  Os requisitos deste artigo aplicam-se sem prejuízo do constante de outras leis. (NR)" .
+lex:L12786\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12786    lex:temArtigo    lex:L12786\/Artigo2 .
+lex:L12786\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12786\/Artigo1    lex:remetePara    lex:L7831 .
+lex:L12786\/Texto00001    lex:remetePara    lex:L7831\/Artigo1 .
+lex:L12786\/Texto00001    lex:remetePara    lex:L7831\/Artigo2 .
+lex:L12786\/Artigo1\/Paragrafo2    lex:remetePara    lex:L7831\/Artigo2\/Paragrafo2 .
+lex:L12786\/Artigo1\/Paragrafo4    lex:remetePara    lex:L7831\/Artigo4\/Paragrafo4 .

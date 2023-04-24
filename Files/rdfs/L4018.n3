@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4018    lex:ehUm    lex:DocLegal .
+lex:L4018    lex:temTextoIntegral    lex:HTMLs\/L4018.htm .
+lex:L4018\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4018    lex:temArtigo    lex:L4018\/Artigo1 .
+lex:L4018\/Artigo1    lex:temConteudo    "Art. 1º A taxa de custeio a que se refere a letra a do art. 8º da Lei número 3.137, de 13 de maio de 1957, passa a ser de 5% (cinco por centro) sôbre a média dos preços, fixados nas duas zonas salineiras, definidas no art. 21 da referida lei." .
+lex:L4018\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4018    lex:temArtigo    lex:L4018\/Artigo2 .
+lex:L4018\/Artigo2    lex:temConteudo    "Art. 2º A declaração da taxa de que trata o artigo anterior será feita pelo Conselho Deliberativo do Instituto Brasileiro do Sal, ao fixar anualmente os preços do sal, na conformidade da letra g do art. 7º da Lei número 3.137, de 13 de maio de 1957." .
+lex:L4018\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4018\/Artigo2    lex:temParagrafo    lex:L4018\/Artigo2\/ParagrafoUnico .
+lex:L4018\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para o presente ano salineiro, prevalecerá para efeito da cobrança da taxa do Instituto Brasileiro do Sal, a média dos preços ora vigentes nas duas zonas salineiras." .
+lex:L4018\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4018    lex:temArtigo    lex:L4018\/Artigo3 .
+lex:L4018\/Artigo3    lex:temConteudo    "Art. 3º A arrecadação da taxa de que trata esta lei se fará no momento da retirada do sal da salina, para qualquer destino dentro do País." .
+lex:L4018\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4018    lex:temArtigo    lex:L4018\/Artigo4 .
+lex:L4018\/Artigo4    lex:temConteudo    "Art. 4º Fica acrescentado ao artigo 14 da Lei número 3.137, de 13 de maio de 1957, o seguinte parágrafo único:" .
+lex:L4018\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4018    lex:temArtigo    lex:L4018\/Artigo5 .
+lex:L4018\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4018\/Artigo1    lex:remetePara    lex:L3137\/Artigo8 .
+lex:L4018\/Artigo2    lex:remetePara    lex:L3137\/Artigo7 .
+lex:L4018\/Artigo4    lex:remetePara    lex:L3137\/Artigo14 .

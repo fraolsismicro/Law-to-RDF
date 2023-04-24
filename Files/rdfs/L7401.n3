@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7401    lex:ehUm    lex:DocLegal .
+lex:L7401    lex:temTextoIntegral    lex:HTMLs\/L7401.htm .
+lex:L7401\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7401    lex:temArtigo    lex:L7401\/Artigo1 .
+lex:L7401\/Artigo1    lex:temConteudo    "Art 1º - Os arts. 2º, 3º e 4º da Lei nº 6.690, de 25 de setembro de 1979, passam a viger com a seguinte redação, renumerando-se como § 1º o atual parágrafo único do art. 2º:" .
+lex:L7401\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7401\/Artigo1    lex:temParagrafo    lex:L7401\/Artigo1\/Paragrafo1 .
+lex:L7401\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º -................................................................................ ........................................" .
+lex:L7401\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7401\/Artigo1    lex:temParagrafo    lex:L7401\/Artigo1\/Paragrafo2 .
+lex:L7401\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Na impossibilidade de exibir o título protestado, o devedor, para obter o cancelamento do protesto, deverá apresentar declaração de anuência de todos que figurem no registro de protesto, com qualificação completa e firmas reconhecidas, devendo ser arquivada em cartório a referida declaração." .
+lex:L7401\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7401    lex:temArtigo    lex:L7401\/Artigo3 .
+lex:L7401\/Artigo3    lex:temConteudo    "Art. 3º - Na hipótese de cancelamento de protesto não fundado no pagamento posterior do título, será bastante a apresentação, pelo interessado, de declaração nos termos do § 2º do art. 2º desta Lei." .
+lex:L7401\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7401    lex:temArtigo    lex:L7401\/Artigo4 .
+lex:L7401\/Artigo4    lex:temConteudo    "Art. 4º - O cancelamento de protesto que não se enquadre nas disposições dos artigos antecedentes somente se efetuará por determinação judicial de ação própria." .
+lex:L7401\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7401    lex:temArtigo    lex:L7401\/Artigo2 .
+lex:L7401\/Artigo2    lex:temConteudo    "Art 2º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7401\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7401    lex:temArtigo    lex:L7401\/Artigo3 .
+lex:L7401\/Artigo3    lex:temConteudo    "Art 3º - Revogam-se as disposições em contrário." .
+lex:L7401\/Texto00001    lex:remetePara    lex:L6690\/Artigo2 .
+lex:L7401\/Artigo3    lex:remetePara    lex:L6690\/Artigo3 .
+lex:L7401\/Artigo4    lex:remetePara    lex:L6690\/Artigo4 .

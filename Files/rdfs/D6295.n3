@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6295    lex:ehUm    lex:DocLegal .
+lex:D6295    lex:temTextoIntegral    lex:HTMLs\/D6295.htm .
+lex:D6295\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6295    lex:temArtigo    lex:D6295\/Artigo1 .
+lex:D6295\/Artigo1    lex:temConteudo    "Art. 1o  O art. 48 do Decreto no 99.066, de 8 de março de 1990, passa a vigorar acrescido do seguinte § 4o:" .
+lex:D6295\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6295    lex:temArtigo    lex:D6295\/Artigo2 .
+lex:D6295\/Artigo2    lex:temConteudo    "Art. 2o  Os arts. 127, 130 e 131 do Decreto no 99.066, de 1990, passam a vigorar com a seguinte redação:" .
+lex:D6295\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6295\/Artigo2    lex:temInciso    lex:D6295\/Artigo2\/IncisoI .
+lex:D6295\/Artigo2\/IncisoI    lex:temConteudo    "I - três unidades de amostras representativas do lote do produto, para a análise fiscal; ou" .
+lex:D6295\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6295\/Artigo2    lex:temInciso    lex:D6295\/Artigo2\/IncisoII .
+lex:D6295\/Artigo2\/IncisoII    lex:temConteudo    "II - uma unidade de amostra representativa do lote do produto, para a análise de controle. (NR)" .
+lex:D6295\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6295    lex:temArtigo    lex:D6295\/Artigo3 .
+lex:D6295\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6295\/Texto    lex:remetePara    lex:D6295 .
+lex:D6295\/Artigo1    lex:remetePara    lex:D99066\/Artigo48\/Paragrafo4 .
+lex:D6295\/Texto00002    lex:remetePara    lex:D99066\/Artigo127 .
+lex:D6295\/Artigo2\/Texto00004    lex:remetePara    lex:D99066\/Artigo130 .
+lex:D6295\/Artigo2\/Texto00004    lex:remetePara    lex:D99066\/Artigo131 .

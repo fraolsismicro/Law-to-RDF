@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12501    lex:ehUm    lex:DocLegal .
+lex:L12501    lex:temTextoIntegral    lex:HTMLs\/L12501.htm .
+lex:L12501\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12501    lex:temArtigo    lex:L12501\/Artigo1 .
+lex:L12501\/Artigo1    lex:temConteudo    "Art. 1º Fica o Ministério da Defesa autorizado a prorrogar, em caráter excepcional e respeitado o prazo limite de 31 de dezembro de 2012, os contratos por tempo determinado para atender a necessidade temporária de excepcional interesse público no âmbito do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - CENSIPAM, vigentes em 1° de junho de 2011, firmados com fundamento no art. 2º, inciso VI, alínea 'g', da Lei nº 8.745, de 9 de dezembro de 1993, independentemente da limitação do art. 4º, parágrafo único, inciso IV, daquela Lei." .
+lex:L12501\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12501\/Artigo1    lex:temParagrafo    lex:L12501\/Artigo1\/ParagrafoUnico .
+lex:L12501\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os quantitativos de contratos passíveis de prorrogação são os relacionados no Anexo desta Lei." .
+lex:L12501\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12501    lex:temArtigo    lex:L12501\/Artigo2 .
+lex:L12501\/Artigo2    lex:temConteudo    "Art. 2º O art. 4º da Lei n° 12.337, de 12 de novembro de 2010, passa a vigorar com a seguinte redação:" .
+lex:L12501\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12501    lex:temArtigo    lex:L12501\/Artigo3 .
+lex:L12501\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L12501\/Artigo1    lex:remetePara    lex:L8745cons\/Artigo2 .
+lex:L12501\/Texto00003    lex:remetePara    lex:L12337\/Artigo4 .

@@ -1,0 +1,335 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9103    lex:ehUm    lex:DocLegal .
+lex:D9103    lex:temTextoIntegral    lex:HTMLs\/D9103.htm .
+lex:D9103\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9103    lex:temArtigo    lex:D9103\/Artigo1 .
+lex:D9103\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam qualificados, no âmbito do Programa de Parcerias de Investimentos da Presidência da República - PPI, na forma do inciso II do caput do art. 4 º da Lei n º 13.334, de 13 de setembro de 2016, os seguintes empreendimentos públicos federais de instalações de transmissão de energia elétrica, para execução por meio de contratos de parceria:" .
+lex:D9103\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoI .
+lex:D9103\/Artigo1\/IncisoI    lex:temConteudo    "I - Lote 1, composto pelas seguintes instalações no Estado do Paraná:" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 525 kV Guaíra - Sarandi, Circuito Duplo, C1 e C2;" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 525 kV Foz do Iguaçu - Guaíra, Circuito Duplo, C1 e C2;" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão 525 kV Londrina - Sarandi, Circuito Duplo, C1 e C2;" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "d) Linha de Transmissão 230 kV Sarandi - Paranavaí Norte, Circuito Duplo;" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "e) Subestação 525/230 kV Guaíra (Novo pátio 525 kV);" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "f) Subestação 525/230/138 kV Sarandi (Novo pátio 525 kV); e" .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "g) Subestação 230/138 kV Paranavaí Norte;" .
+lex:D9103\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoII .
+lex:D9103\/Artigo1\/IncisoII    lex:temConteudo    "II - Lote 2, composto pelas seguintes instalações no Estado do Paraná:" .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Umuarama Sul - Guaíra, C2, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 230/138 kV Londrina Sul; e" .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho .
+lex:D9103\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:temConteudo    "c) Trecho de Linha de Transmissão da Subestação Londrina Sul ao Seccionamento da Linha de Transmissão 230 kV Londrina - Apucarana, C1, Circuito Duplo;" .
+lex:D9103\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoIII .
+lex:D9103\/Artigo1\/IncisoIII    lex:temConteudo    "III - Lote 3, composto pelas seguintes instalações no Estado de Goiás:" .
+lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Rio Verde Norte - Jataí, Circuito Duplo, C1 e C2; e" .
+lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 500/230 kV Rio Verde Norte (novo pátio 230 kV);" .
+lex:D9103\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoIV .
+lex:D9103\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Lote 4, composto pelas seguintes instalações nos Estados de Mato Grosso do Sul e de São Paulo:" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Rio Brilhante - Dourados 2, C1;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Rio Brilhante - Campo Grande 2, C1;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão 230 kV Imbirussu - Campo Grande 2, C2;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "d) Linha de Transmissão 230 kV Nova Porto Primavera - Rio Brilhante, C2;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "e) Linha de Transmissão 230 kV Nova Porto Primavera - Ivinhema 2, C2;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "f) Linha de Transmissão 230 kV Dourados - Dourados II, C2;" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "g) Subestação 230/138 kV Dourados 2; e" .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho .
+lex:D9103\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:temConteudo    "h) Trecho de Linha de Transmissão da Subestação Dourados 2 ao Seccionamento da Linha de Transmissão 230 kV Dourados - Ivinhema 2, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoV .
+lex:D9103\/Artigo1\/IncisoV    lex:temConteudo    "V - Lote 5, composto pelas seguintes instalações nos Estados de São Paulo e do Paraná:" .
+lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Nova Porto Primavera - Rosana, Circuito Duplo; e" .
+lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 230/138 kV Rosana (novo pátio 230 kV);" .
+lex:D9103\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoVI .
+lex:D9103\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Lote 6, composto pela Subestação Araraquara 2 - 3 x Compensadores Síncronos 500 kV, no Estado de São Paulo;" .
+lex:D9103\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoVII .
+lex:D9103\/Artigo1\/IncisoVII    lex:temConteudo    "VII - Lote 7, composto pelas seguintes instalações no Estado do Maranhão:" .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoVII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 500 kV Miranda II - São Luís II, C3;" .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 500 kV São Luís II - São Luís IV, Circuito Duplo, C1 e C2;" .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "c) Subestação 500/230/69 kV São Luís IV - 500/230 kV; e" .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho .
+lex:D9103\/Artigo1\/IncisoVII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:temConteudo    "d) Trecho de Linha de Transmissão da Subestação São Luís IV ao Seccionamento da Linha de Transmissão UTE Porto de Itaqui - São Luís II, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoVIII .
+lex:D9103\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - Lote 8, composto pela Subestação 500/138 kV Resende (Novo pátio 138 kV), no Estado do Rio de Janeiro;" .
+lex:D9103\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoIX .
+lex:D9103\/Artigo1\/IncisoIX    lex:temConteudo    "IX - Lote 9, composto pelas seguintes instalações no Estado do Rio Grande do Norte:" .
+lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIX    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Lagoa Nova II - Currais Novos II, Circuito Duplo; e" .
+lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoIX\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação Currais Novos II 230/69 kV;" .
+lex:D9103\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoX .
+lex:D9103\/Artigo1\/IncisoX    lex:temConteudo    "X - Lote 10, composto pelas seguintes instalações no Estado do Rio Grande do Sul:" .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoX    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Garibaldi - Lajeado 3, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Lajeado 2 - Lajeado 3, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão 230 kV Candiota 2 - Bagé 2, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "d) Subestação Vinhedos 230/69 kV; e" .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoX\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "e) Subestação Lajeado 3 230/69 kV;" .
+lex:D9103\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXI .
+lex:D9103\/Artigo1\/IncisoXI    lex:temConteudo    "XI - Lote 11, composto pelas seguintes instalações no Estado do Maranhão:" .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXI    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Coelho Neto - Chapadinha II, Circuito Simples;" .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Miranda II - Chapadinha II, Circuito Simples; e" .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "c) Subestação 230/69 kV Chapadinha II;" .
+lex:D9103\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXII .
+lex:D9103\/Artigo1\/IncisoXII    lex:temConteudo    "XII - Lote 12, composto pela Linha de Transmissão 230 kV Imperatriz - Porto Franco, C2, nos Estados do Maranhão e de Tocantins;" .
+lex:D9103\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXIII .
+lex:D9103\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - Lote 13, composto pelas seguintes instalações nos Estados de Alagoas, da Bahia, de Sergipe e de Pernambuco:" .
+lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXIII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 500 kV Xingó - Jardim, C2; e" .
+lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXIII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 500 kV Paulo Afonso IV - Luiz Gonzaga, C2;" .
+lex:D9103\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXIV .
+lex:D9103\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - Lote 14, composto pela Linha de Transmissão 230 kV Nossa Senhora do Socorro - Penedo, C2, nos Estados de Alagoas e de Sergipe;" .
+lex:D9103\/Artigo1\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXV .
+lex:D9103\/Artigo1\/IncisoXV    lex:temConteudo    "XV - Lote 15, composto pelas seguintes instalações no Estado de Pernambuco:" .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXV    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Garanhuns II - Arcoverde II;" .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Caetés II - Arcoverde II;" .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "c) Subestação 230/69 kV Arcoverde II; e" .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "d) Subestação 230/69 kV Garanhuns II;" .
+lex:D9103\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXVI .
+lex:D9103\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - Lote 16, composto pela Linha de Transmissão 230 kV Ribeiro Gonçalves - Balsas, C2, nos Estados do Piauí e do Maranhão;" .
+lex:D9103\/Artigo1\/IncisoXVII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXVII .
+lex:D9103\/Artigo1\/IncisoXVII    lex:temConteudo    "XVII - Lote 17, composto pela Linha de Transmissão 230 kV Guaíba 3 - Nova Santa Rita, no Estado do Rio Grande do Sul;" .
+lex:D9103\/Artigo1\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXVIII .
+lex:D9103\/Artigo1\/IncisoXVIII    lex:temConteudo    "XVIII - Lote 18, composto pela Linha de Transmissão 500 kV Estreito - Cachoeira Paulista, C1 e C2, ambos Circuito Simples, nos Estados de São Paulo e de Minas Gerais;" .
+lex:D9103\/Artigo1\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXIX .
+lex:D9103\/Artigo1\/IncisoXIX    lex:temConteudo    "XIX - Lote 19, composto pela Linha de Transmissão 500 kV Fernão Dias - Terminal Rio, nos Estados de São Paulo e do Rio de Janeiro;" .
+lex:D9103\/Artigo1\/IncisoXX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXX .
+lex:D9103\/Artigo1\/IncisoXX    lex:temConteudo    "XX - Lote 20, composto pela Subestação 500 kV Fernão Dias - Compensador Estático 500 kV, no Estado de São Paulo;" .
+lex:D9103\/Artigo1\/IncisoXXI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXI .
+lex:D9103\/Artigo1\/IncisoXXI    lex:temConteudo    "XXI - Lote 21, composto pelas seguintes instalações nos Estados de Santa Catarina e do Rio Grande do Sul:" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 525 kV Abdon Batista - Siderópolis 2, Circuito Duplo;" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 525 kV Biguaçu - Siderópolis 2, C1;" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão 525 kV Campos Novos - Abdon Batista, C2;" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "d) Linha de Transmissão 230 kV Siderópolis 2 - Forquilhinha, C1;" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "e) Linha de Transmissão 230 kV Siderópolis 2 - Siderópolis, Circuito Duplo; e" .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "f) Subestação 525/230 kV Siderópolis 2;" .
+lex:D9103\/Artigo1\/IncisoXXII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXII .
+lex:D9103\/Artigo1\/IncisoXXII    lex:temConteudo    "XXII - Lote 22, composto pela Subestação 525 kV Biguaçu - Compensador Estático, no Estado de Santa Catarina;" .
+lex:D9103\/Artigo1\/IncisoXXIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXIII .
+lex:D9103\/Artigo1\/IncisoXXIII    lex:temConteudo    "XXIII - Lote 23, composto pela Linha de Transmissão 500 kV Campina Grande III - Pau Ferro, nos Estados da Paraíba e de Pernambuco;" .
+lex:D9103\/Artigo1\/IncisoXXIV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXIV .
+lex:D9103\/Artigo1\/IncisoXXIV    lex:temConteudo    "XXIV - Lote 24, composto pela Linha de Transmissão 440 kV Cabreúva - Fernão Dias, C1 e C2, Circuito Duplo, no Estado de São Paulo;" .
+lex:D9103\/Artigo1\/IncisoXXV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXV .
+lex:D9103\/Artigo1\/IncisoXXV    lex:temConteudo    "XXV - Lote 25, composto pela Subestação 440 kV Bauru - Compensador Estático 440 kV, no Estado de São Paulo;" .
+lex:D9103\/Artigo1\/IncisoXXVI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXVI .
+lex:D9103\/Artigo1\/IncisoXXVI    lex:temConteudo    "XXVI - Lote 26, composto pelas seguintes instalações no Estado do Pará:" .
+lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXVI    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Xinguara II - Santana do Araguaia, C1 e C2, Circuito Duplo; e" .
+lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXVI\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 230/138 kV Santana do Araguaia (Novo pátio 230 kV);" .
+lex:D9103\/Artigo1\/IncisoXXVII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXVII .
+lex:D9103\/Artigo1\/IncisoXXVII    lex:temConteudo    "XXVII - Lote 27, composto pela Subestação 500/230 kV Sobral III - Compensador Estático 500 kV, no Estado do Ceará;" .
+lex:D9103\/Artigo1\/IncisoXXVIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXVIII .
+lex:D9103\/Artigo1\/IncisoXXVIII    lex:temConteudo    "XXVIII - Lote 28, composto pelas seguintes instalações nos Estados do Piauí e do Maranhão:" .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXVIII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao    lex:temConteudo    "a) Subestação 230/69-13,8 kV Caxias II;" .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 230/69 kV Boa Esperança II (pátio novo 69 kV); e" .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXVIII\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "c) Subestação 230/69 kV Teresina II (pátio novo 69 kV);" .
+lex:D9103\/Artigo1\/IncisoXXIX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXIX .
+lex:D9103\/Artigo1\/IncisoXXIX    lex:temConteudo    "XXIX - Lote 29, composto pelas seguintes instalações no Estado de São Paulo:" .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXIX    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao    lex:temConteudo    "a) Subestação 440/138 kV Baguaçu;" .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 440/138 kV Alta Paulista;" .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:temConteudo    "c) Trecho de Linha de Transmissão da Subestação Alta Paulista ao Seccionamento da Linha de Transmissão 440 kV Marechal Rondon - Taquaruçu, Circuito Simples; e" .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho\/IncisoAlineaTrecho    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho\/IncisoAlineaTrecho .
+lex:D9103\/Artigo1\/IncisoXXIX\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaTrecho\/IncisoAlineaTrecho    lex:temConteudo    "d) Trecho de Linha de Transmissão da Subestação Baguaçu ao Seccionamento da Linha de Transmissão 440 kV Ilha Solteira - Bauru, C1 e C2, Circuito Duplo;" .
+lex:D9103\/Artigo1\/IncisoXXX    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXX .
+lex:D9103\/Artigo1\/IncisoXXX    lex:temConteudo    "XXX - Lote 30, composto pela Linha de Transmissão 500 kV Queimada Nova II - Milagres II, C1, nos Estados do Piauí, de Pernambuco e do Ceará;" .
+lex:D9103\/Artigo1\/IncisoXXXI    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXXI .
+lex:D9103\/Artigo1\/IncisoXXXI    lex:temConteudo    "XXXI - Lote 31, composto pelas seguintes instalações no Estado do Pará:" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Xingu - Altamira, C1;" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Altamira - Transamazônica, C2;" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão 230 kV Transamazônica - Tapajós, C1;" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "d) Subestação 230/138 kV Tapajós;" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "e) Subestação Tapajós - Compensador Síncrono; e" .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXI\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "f) Subestação Rurópolis - Compensador Síncrono;" .
+lex:D9103\/Artigo1\/IncisoXXXII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXXII .
+lex:D9103\/Artigo1\/IncisoXXXII    lex:temConteudo    "XXXII - Lote 32, composto pelas seguintes instalações no Estado de Rondônia:" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Samuel - Ariquemes, C4;" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão 230 kV Ariquemes - Ji-Paraná, C4;" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "c) Subestação Ji-Paraná - Compensador Síncrono;" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "d) Subestação Ariquemes - Compensador Síncrono;" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "e) Subestação 230/138 kV Jaru; e" .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao\/IncisoAlineaSubestacao    lex:temConteudo    "f) Subestação 230/69 kV Coletora Porto Velho - (novo pátio 69 kV);" .
+lex:D9103\/Artigo1\/IncisoXXXIII    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXXIII .
+lex:D9103\/Artigo1\/IncisoXXXIII    lex:temConteudo    "XXXIII - Lote 33, composto pelas seguintes instalações no Estado do Pará:" .
+lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXIII    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha .
+lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão 230 kV Vila do Conde - Tomé-Açu, C2; e" .
+lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:ehUm    lex:IncisoAlinea .
+lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao .
+lex:D9103\/Artigo1\/IncisoXXXIII\/IncisoAlineaLinha\/IncisoAlineaSubestacao    lex:temConteudo    "b) Subestação 230/138 kV Tomé-Açu;" .
+lex:D9103\/Artigo1\/IncisoXXXIV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXXIV .
+lex:D9103\/Artigo1\/IncisoXXXIV    lex:temConteudo    "XXXIV - Lote 34, composto pela Subestação 230/138 kV Castanhal (Novo pátio em 138 kV), no Estado do Pará; e" .
+lex:D9103\/Artigo1\/IncisoXXXV    lex:ehUm    lex:Inciso .
+lex:D9103\/Artigo1    lex:temInciso    lex:D9103\/Artigo1\/IncisoXXXV .
+lex:D9103\/Artigo1\/IncisoXXXV    lex:temConteudo    "XXXV - Lote 35, composto pela Linha de Transmissão 230 kV Marituba - Utinga, C3 e C4, Circuito Duplo, no Estado do Pará." .
+lex:D9103\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9103    lex:temArtigo    lex:D9103\/Artigo2 .
+lex:D9103\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9103\/Artigo1    lex:remetePara    lex:L13334\/Artigo4 .

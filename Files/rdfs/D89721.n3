@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D89721    lex:ehUm    lex:DocLegal .
+lex:D89721    lex:temTextoIntegral    lex:HTMLs\/D89721.htm .
+lex:D89721\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D89721    lex:temArtigo    lex:D89721\/Artigo1 .
+lex:D89721\/Artigo1    lex:temConteudo    "Art. 1º - O Artigo 14 do Decreto nº 89.250, de 27 dezembro de 1983, passa a vigorar com a seguinte redação:" .
+lex:D89721\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D89721\/Artigo1    lex:temParagrafo    lex:D89721\/Artigo1\/ParagrafoUnico .
+lex:D89721\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - As Carteiras de Identidade emitidas até 30 de junho de 1984, com base nos atuais modelos, continuarão válidas em todo o território nacional'." .
+lex:D89721\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D89721    lex:temArtigo    lex:D89721\/Artigo2 .
+lex:D89721\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação." .
+lex:D89721\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D89721    lex:temArtigo    lex:D89721\/Artigo3 .
+lex:D89721\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:D89721\/Artigo1    lex:remetePara    lex:D89250\/Artigo14 .

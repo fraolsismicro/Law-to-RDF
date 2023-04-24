@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D67342    lex:ehUm    lex:DocLegal .
+lex:D67342    lex:temTextoIntegral    lex:HTMLs\/D67342.htm .
+lex:D67342\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaSer .
+lex:D67342\/AlineaSer    lex:temConteudo    "a) ser efetuados sob a responsabilidade e supervisão de médico qualificado aprovado pela autoridade competente;" .
+lex:D67342\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaSer .
+lex:D67342\/AlineaSer    lex:temConteudo    "b) ser atestados de maneira apropriada." .
+lex:D67342\/AlineaSer\/ItemUma    lex:ehUm    lex:Item .
+lex:D67342\/AlineaSer    lex:temItem    lex:D67342\/AlineaSer\/ItemUma .
+lex:D67342\/AlineaSer\/ItemUma    lex:temConteudo    "1. Uma radiografia dos pulmões será exigida no início do exame médico e da mesma forma, se isto for considerado necessário do ponto de vista médico, por ocasião de reexames ulteriores." .
+lex:D67342\/AlineaSer\/ItemOs    lex:ehUm    lex:Item .
+lex:D67342\/AlineaSer    lex:temItem    lex:D67342\/AlineaSer\/ItemOs .
+lex:D67342\/AlineaSer\/ItemOs    lex:temConteudo    "2. Os exames médicos exigidos pela presente convenção não deverão envolver gastos nem para os adolescentes nem para seus parentes ou tutores." .
+lex:D67342\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaA .
+lex:D67342\/AlineaA    lex:temConteudo    "a) a data de nascimento, devidamente atestada na medida do possível;" .
+lex:D67342\/AlineaIndicacoes    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaIndicacoes .
+lex:D67342\/AlineaIndicacoes    lex:temConteudo    "b) indicações sobre a natureza da tarefa;" .
+lex:D67342\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaUm .
+lex:D67342\/AlineaUm    lex:temConteudo    "c) um certificado atestando a aptidão para o emprego, mas que não forneça nenhuma indicação de ordem médica." .
+lex:D67342\/AlineaUm\/ItemO    lex:ehUm    lex:Item .
+lex:D67342\/AlineaUm    lex:temItem    lex:D67342\/AlineaUm\/ItemO .
+lex:D67342\/AlineaUm\/ItemO    lex:temConteudo    "5. O empregador deverá colocar a disposição dos representantes dos trabalhadores, sob sua solicitação, as informações mencionadas no parágrafo 4." .
+lex:D67342\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaA .
+lex:D67342\/AlineaA    lex:temConteudo    "a) a ratificação por Membro da nova Convenção de revisão provocará, de pleno direito, não obstante o artigo 8 acima, denúncia imediata da presente Convenção, sob reserva de que a nova convenção de revisão tenha entrado em vigor;" .
+lex:D67342\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D67342    lex:temAlinea    lex:D67342\/AlineaA .
+lex:D67342\/AlineaA    lex:temConteudo    "b) a partir da data da entrada em vigor da nova Convenção de revisão, a presente Convenção não estará mais aberta a ratificação dos membros." .
+lex:D67342\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D67342\/AlineaA    lex:temItem    lex:D67342\/AlineaA\/ItemA .
+lex:D67342\/AlineaA\/ItemA    lex:temConteudo    "2. A presente Convenção ficará em qualquer caso, em vigor em sua forma e teor, para os Membros que a tiverem ratificado e que não ratificarem a Convenção de revisão." .

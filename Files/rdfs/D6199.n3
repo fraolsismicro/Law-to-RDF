@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6199    lex:ehUm    lex:DocLegal .
+lex:D6199    lex:temTextoIntegral    lex:HTMLs\/D6199.htm .
+lex:D6199\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6199    lex:temArtigo    lex:D6199\/Artigo1 .
+lex:D6199\/Artigo1    lex:temConteudo    "Art. 1o  Para a instalação da Superintendência do Desenvolvimento da Amazônia - SUDAM e o início de suas atividades, ficam aprovados a sua Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas, na forma dos Anexos I e II." .
+lex:D6199\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6199    lex:temArtigo    lex:D6199\/Artigo4 .
+lex:D6199\/Artigo4    lex:temConteudo    "Art. 4o  O regimento interno da SUDAM será aprovado pela Diretoria Colegiada e publicado no Diário Oficial da União, no prazo de noventa dias, contado da data de publicação deste Decreto." .
+lex:D6199\/Texto    lex:remetePara    lex:D6199 .
+lex:D6199\/Artigo7    lex:remetePara    lex:L8112cons\/Artigo37 .
+lex:D6199\/Artigo11    lex:remetePara    lex:D4652 .

@@ -1,0 +1,203 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6464    lex:ehUm    lex:DocLegal .
+lex:D6464    lex:temTextoIntegral    lex:HTMLs\/D6464.htm .
+lex:D6464\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo1 .
+lex:D6464\/Artigo1    lex:temConteudo    "Art. 1o  Este Decreto estabelece normas e diretrizes gerais referentes à designação e atuação de adidos agrícolas." .
+lex:D6464\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo1    lex:temParagrafo    lex:D6464\/Artigo1\/ParagrafoUnico .
+lex:D6464\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O adido agrícola, para os efeitos deste Decreto, exercerá missão permanente de assessoramento em assuntos agrícolas junto às Missões Diplomáticas brasileiras referidas no art. 4o." .
+lex:D6464\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo2 .
+lex:D6464\/Artigo2    lex:temConteudo    "Art. 2o  Somente poderá ser designado adido agrícola aquele que preencher os seguintes requisitos:" .
+lex:D6464\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo2    lex:temInciso    lex:D6464\/Artigo2\/IncisoI .
+lex:D6464\/Artigo2\/IncisoI    lex:temConteudo    "I - ser brasileiro nato ou naturalizado;" .
+lex:D6464\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo2    lex:temInciso    lex:D6464\/Artigo2\/IncisoII .
+lex:D6464\/Artigo2\/IncisoII    lex:temConteudo    "II - ser, há pelo menos quatro anos:" .
+lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor    lex:ehUm    lex:IncisoAlinea .
+lex:D6464\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor .
+lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor    lex:temConteudo    "a) servidor público federal ocupante de cargo efetivo do quadro de pessoal do Ministério da Agricultura, Pecuária e Abastecimento; ou" .
+lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor\/IncisoAlineaEmpregado    lex:ehUm    lex:IncisoAlinea .
+lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor    lex:temIncisoAlinea    lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor\/IncisoAlineaEmpregado .
+lex:D6464\/Artigo2\/IncisoII\/IncisoAlineaServidor\/IncisoAlineaEmpregado    lex:temConteudo    "b) empregado do quadro efetivo de empresa pública ou de sociedade de economia mista federais, desde que cedido ao Ministério da Agricultura, Pecuária e Abastecimento;" .
+lex:D6464\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo2    lex:temInciso    lex:D6464\/Artigo2\/IncisoIII .
+lex:D6464\/Artigo2\/IncisoIII    lex:temConteudo    "III - ter curso superior completo reconhecido pelo Ministério da Educação, preferencialmente em áreas relacionadas ao agronegócio;" .
+lex:D6464\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo2    lex:temInciso    lex:D6464\/Artigo2\/IncisoIV .
+lex:D6464\/Artigo2\/IncisoIV    lex:temConteudo    "IV - atestar proficiência em idioma estrangeiro; e" .
+lex:D6464\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo2    lex:temInciso    lex:D6464\/Artigo2\/IncisoV .
+lex:D6464\/Artigo2\/IncisoV    lex:temConteudo    "V - ter concluído curso de preparação para o exercício da missão de assessoramento em assuntos agrícolas, organizado e ministrado pelo Instituto Rio Branco, do Ministério das Relações Exteriores, em colaboração com o Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D6464\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo2    lex:temParagrafo    lex:D6464\/Artigo2\/ParagrafoUnico .
+lex:D6464\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério da Agricultura, Pecuária e Abastecimento e o Ministério das Relações Exteriores definirão, em ato conjunto, o idioma estrangeiro exigido, que poderá ser mais de um, considerando o país onde os designados desempenharão suas missões, e as formas de comprovação de proficiência, conforme previsto no inciso IV." .
+lex:D6464\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo3 .
+lex:D6464\/Artigo3    lex:temConteudo    "Art. 3o  O adido agrícola será designado em ato do Presidente da República, mediante indicação do Ministro de Estado da Agricultura, Pecuária e Abastecimento, ouvido, previamente, o Ministério das Relações Exteriores." .
+lex:D6464\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo3    lex:temParagrafo    lex:D6464\/Artigo3\/ParagrafoUnico .
+lex:D6464\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A designação para desempenhar a missão de que trata este Decreto ficará condicionada à concessão de beneplácito do governo do país de destino, quando for o caso, a ser obtido pelo Ministério das Relações Exteriores." .
+lex:D6464\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo4 .
+lex:D6464\/Artigo4    lex:temConteudo    "Art. 4o  Fica autorizado o exercício da atividade de adido agrícola junto às Missões Diplomáticas do Brasil em Buenos Aires, Bruxelas, Genebra, Moscou, Pequim, Pretória, Tóquio e Washington." .
+lex:D6464\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo4    lex:temParagrafo    lex:D6464\/Artigo4\/ParagrafoUnico .
+lex:D6464\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Cada missão será exercida por somente um adido agrícola que, para os efeitos do disposto na Lei no 5.809, de 10 de outubro de 1972, será considerado equivalente a Conselheiro da Carreira de Diplomata." .
+lex:D6464\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo5 .
+lex:D6464\/Artigo5    lex:temConteudo    "Art. 5o  A duração da missão de assessoramento em assuntos agrícolas será de dois anos consecutivos, prorrogáveis uma única vez por igual período, contados da data de apresentação do adido agrícola à missão diplomática para a qual tiver sido designado." .
+lex:D6464\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo5    lex:temParagrafo    lex:D6464\/Artigo5\/Paragrafo1 .
+lex:D6464\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o  A prorrogação prevista no caput dependerá de avaliação e de justificativa da Secretaria de Relações Internacionais do Agronegócio do Ministério da Agricultura, Pecuária e Abastecimento, em coordenação com o chefe da missão diplomática." .
+lex:D6464\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo5    lex:temParagrafo    lex:D6464\/Artigo5\/Paragrafo2 .
+lex:D6464\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o  A qualquer tempo, por decisão conjunta do Ministério da Agricultura, Pecuária e Abastecimento e do Ministério das Relações Exteriores, poderão ser interrompidos os períodos de tempo previstos neste artigo." .
+lex:D6464\/Artigo5\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo5    lex:temParagrafo    lex:D6464\/Artigo5\/Paragrafo3 .
+lex:D6464\/Artigo5\/Paragrafo3    lex:temConteudo    "§ 3o  O servidor ou empregado público, que tenha exercido a missão de que trata este Decreto, não poderá ser novamente designado para ocupá-la antes de decorridos quatro anos do término da missão anterior." .
+lex:D6464\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo6 .
+lex:D6464\/Artigo6    lex:temConteudo    "Art. 6o  O adido agrícola poderá ser assistido por até dois auxiliares locais, para cada posto, que poderão ser contratados em consonância com os dispositivos do Capítulo V do Título I da Lei no 11.440, de 29 de dezembro de 2006." .
+lex:D6464\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo7 .
+lex:D6464\/Artigo7    lex:temConteudo    "Art. 7o  São atribuições gerais dos adidos agrícolas:" .
+lex:D6464\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoI .
+lex:D6464\/Artigo7\/IncisoI    lex:temConteudo    "I - buscar melhores condições de acesso de produtos do agronegócio brasileiro nos mercados local ou regional;" .
+lex:D6464\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoII .
+lex:D6464\/Artigo7\/IncisoII    lex:temConteudo    "II - prospectar novas oportunidades para os produtos do agronegócio brasileiro;" .
+lex:D6464\/Artigo7\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoIII .
+lex:D6464\/Artigo7\/IncisoIII    lex:temConteudo    "III - coletar, analisar e disseminar informações sobre o mercado local e tendências de comércio;" .
+lex:D6464\/Artigo7\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoIV .
+lex:D6464\/Artigo7\/IncisoIV    lex:temConteudo    "IV - articular ações de apoio à promoção externa dos produtos do agronegócio brasileiro nos mercados local ou regional;" .
+lex:D6464\/Artigo7\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoV .
+lex:D6464\/Artigo7\/IncisoV    lex:temConteudo    "V - informar ao Ministério da Agricultura, Pecuária e Abastecimento sobre problemas efetivos ou potenciais que afetem o comércio de produtos do agronegócio brasileiro;" .
+lex:D6464\/Artigo7\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoVI .
+lex:D6464\/Artigo7\/IncisoVI    lex:temConteudo    "VI - acompanhar, analisar e informar sobre as políticas agrícolas e legislações de interesse do agronegócio brasileiro;" .
+lex:D6464\/Artigo7\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoVII .
+lex:D6464\/Artigo7\/IncisoVII    lex:temConteudo    "VII - acompanhar, informar e antecipar possíveis modificações nas políticas sanitárias e fitossanitárias de outros países;" .
+lex:D6464\/Artigo7\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoVIII .
+lex:D6464\/Artigo7\/IncisoVIII    lex:temConteudo    "VIII - acompanhar e informar as tendências de consumo e de exigências de qualidade de produtos do agronegócio;" .
+lex:D6464\/Artigo7\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoIX .
+lex:D6464\/Artigo7\/IncisoIX    lex:temConteudo    "IX - acompanhar e informar notícias de interesse do agronegócio brasileiro veiculadas na mídia local;" .
+lex:D6464\/Artigo7\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoX .
+lex:D6464\/Artigo7\/IncisoX    lex:temConteudo    "X - organizar e participar de reuniões ou eventos sobre assuntos de interesse do agronegócio brasileiro;" .
+lex:D6464\/Artigo7\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoXI .
+lex:D6464\/Artigo7\/IncisoXI    lex:temConteudo    "XI - indicar e facilitar contatos com especialistas, importadores e autoridades locais; e" .
+lex:D6464\/Artigo7\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo7    lex:temInciso    lex:D6464\/Artigo7\/IncisoXII .
+lex:D6464\/Artigo7\/IncisoXII    lex:temConteudo    "XII - elaborar relatórios periódicos a serem submetidos ao chefe da missão diplomática, para conhecimento e subseqüente encaminhamento ao Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D6464\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo8 .
+lex:D6464\/Artigo8    lex:temConteudo    "Art. 8o  São deveres do adido agrícola:" .
+lex:D6464\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoI .
+lex:D6464\/Artigo8\/IncisoI    lex:temConteudo    "I - conhecer e observar as leis e normas do país para o qual for designado;" .
+lex:D6464\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoII .
+lex:D6464\/Artigo8\/IncisoII    lex:temConteudo    "II - abster-se de quaisquer manifestações públicas, escritas ou orais, sobre assuntos relativos às políticas interna e externa brasileira, sem a prévia autorização do chefe da missão diplomática;" .
+lex:D6464\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoIII .
+lex:D6464\/Artigo8\/IncisoIII    lex:temConteudo    "III - assessorar, em assuntos da esfera de competência do Ministério da Agricultura, Pecuária e Abastecimento, o chefe da missão diplomática, sempre que assim lhe for solicitado;" .
+lex:D6464\/Artigo8\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoIV .
+lex:D6464\/Artigo8\/IncisoIV    lex:temConteudo    "IV - informar o chefe da missão diplomática sobre todos os assuntos que, no âmbito de suas atribuições, forem relevantes ao desempenho das atividades da repartição;" .
+lex:D6464\/Artigo8\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoV .
+lex:D6464\/Artigo8\/IncisoV    lex:temConteudo    "V - manter intercâmbio de informações com os órgãos relevantes do país onde estiver acreditado;" .
+lex:D6464\/Artigo8\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoVI .
+lex:D6464\/Artigo8\/IncisoVI    lex:temConteudo    "VI - prestar assistência aos servidores do Ministério da Agricultura, Pecuária e Abastecimento no exterior, em trânsito ou em missão de caráter permanente ou transitório; e" .
+lex:D6464\/Artigo8\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6464\/Artigo8    lex:temInciso    lex:D6464\/Artigo8\/IncisoVII .
+lex:D6464\/Artigo8\/IncisoVII    lex:temConteudo    "VII - seguir as orientações do Ministério da Agricultura, Pecuária e Abastecimento sobre as atividades técnicas, em coordenação com o Ministério das Relações Exteriores." .
+lex:D6464\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo9 .
+lex:D6464\/Artigo9    lex:temConteudo    "Art. 9o  O adido agrícola, durante o período em que permanecer desempenhando a missão de que trata este Decreto, será considerado membro da missão diplomática para a qual for designado." .
+lex:D6464\/Artigo9\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo9    lex:temParagrafo    lex:D6464\/Artigo9\/Paragrafo1 .
+lex:D6464\/Artigo9\/Paragrafo1    lex:temConteudo    "§ 1o  Será concedido passaporte diplomático ao adido agrícola e a seus dependentes." .
+lex:D6464\/Artigo9\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo9    lex:temParagrafo    lex:D6464\/Artigo9\/Paragrafo2 .
+lex:D6464\/Artigo9\/Paragrafo2    lex:temConteudo    "§ 2o  O adido agrícola ficará subordinado, administrativamente, ao chefe da missão diplomática, de quem receberá instruções para a sua atuação, devendo, ainda, apresentar seus relatórios, prestar assistência e colaboração, e, tecnicamente, à Secretaria de Relações Internacionais do Agronegócio do Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D6464\/Artigo9\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo9    lex:temParagrafo    lex:D6464\/Artigo9\/Paragrafo3 .
+lex:D6464\/Artigo9\/Paragrafo3    lex:temConteudo    "§ 3o  Não haverá remoção de adidos agrícolas entre postos no exterior." .
+lex:D6464\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo10 .
+lex:D6464\/Artigo10    lex:temConteudo    "Art. 10.  O adido agrícola e seus auxiliares locais ocuparão escritório nas instalações da missão diplomática brasileira no país para o qual tiverem sido designados." .
+lex:D6464\/Artigo10\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo10    lex:temParagrafo    lex:D6464\/Artigo10\/Paragrafo1 .
+lex:D6464\/Artigo10\/Paragrafo1    lex:temConteudo    "§ 1o  Na hipótese de o adido agrícola ser designado para exercer suas atividades junto a mais de uma missão diplomática, seu escritório ficará instalado na missão-sede." .
+lex:D6464\/Artigo10\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo10    lex:temParagrafo    lex:D6464\/Artigo10\/Paragrafo2 .
+lex:D6464\/Artigo10\/Paragrafo2    lex:temConteudo    "§ 2o  As missões diplomáticas brasileiras no exterior disponibilizarão a infra-estrutura necessária para o desempenho das atividades do adido agrícola e de seus auxiliares locais, cabendo ao Ministério da Agricultura, Pecuária e Abastecimento o repasse dos recursos necessários ao Ministério das Relações Exteriores para esse fim." .
+lex:D6464\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo11 .
+lex:D6464\/Artigo11    lex:temConteudo    "Art. 11.  O adido agrícola poderá afastar-se de sua missão-sede, desde que previamente autorizado pelo Ministério da Agricultura, Pecuária e Abastecimento e pelo chefe de sua missão diplomática." .
+lex:D6464\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo12 .
+lex:D6464\/Artigo12    lex:temConteudo    "Art. 12.  A correspondência oficial do adido agrícola observará as prescrições estabelecidas no Decreto no 4.553, de 27 de dezembro de 2002." .
+lex:D6464\/Artigo12\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo12    lex:temParagrafo    lex:D6464\/Artigo12\/ParagrafoUnico .
+lex:D6464\/Artigo12\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Nas correspondências com as autoridades do país onde estiver acreditado, o  adido agrícola observará as normas editadas pela autoridade nacional competente, devendo adotar idioma e forma que satisfaçam as exigências locais." .
+lex:D6464\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo13 .
+lex:D6464\/Artigo13    lex:temConteudo    "Art. 13.  A retribuição e demais direitos do adido agrícola serão providos pelo Ministério da Agricultura, Pecuária e Abastecimento, observando-se o regime legal de cessão previsto no art. 2o, inciso II, alínea b, as disposições da Lei no 5.809, de 1972, e do Decreto no 71.733, de 18 de janeiro de 1973, bem como as demais normas que regem a permanência de servidores públicos no exterior." .
+lex:D6464\/Artigo13\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo13    lex:temParagrafo    lex:D6464\/Artigo13\/ParagrafoUnico .
+lex:D6464\/Artigo13\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério da Agricultura, Pecuária e Abastecimento proverá, na forma da legislação vigente, os recursos necessários ao pagamento de despesas administrativas e de salários e encargos decorrentes da contratação dos auxiliares locais previstos no art. 6o." .
+lex:D6464\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo14 .
+lex:D6464\/Artigo14    lex:temConteudo    "Art. 14.  O gozo de férias durante a missão ficará limitado a um período de trinta dias para cada ano de duração, observado o interesse do serviço." .
+lex:D6464\/Artigo14\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6464\/Artigo14    lex:temParagrafo    lex:D6464\/Artigo14\/ParagrafoUnico .
+lex:D6464\/Artigo14\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O servidor ou empregado público, designado para desempenhar a missão de que trata este Decreto deverá gozar, antes de iniciar sua missão no exterior, as férias a que fizer jus." .
+lex:D6464\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo15 .
+lex:D6464\/Artigo15    lex:temConteudo    "Art. 15.  Não será concedido o gozo de licença-prêmio por assiduidade ou de licença para capacitação durante o período da missão no exterior." .
+lex:D6464\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo16 .
+lex:D6464\/Artigo16    lex:temConteudo    "Art. 16.  As despesas médico-hospitalares do adido agrícola, bem como dos dependentes que o acompanhem, serão cobertas por seguro-saúde contratado pelo Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D6464\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo17 .
+lex:D6464\/Artigo17    lex:temConteudo    "Art. 17.  Concluído o prazo da missão, o adido agrícola manterá suas atividades até que seu substituto as assuma, salvo determinação em contrário." .
+lex:D6464\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo18 .
+lex:D6464\/Artigo18    lex:temConteudo    "Art. 18.  Ato conjunto dos Ministros de Estado da Agricultura, Pecuária e Abastecimento e das Relações Exteriores estabelecerá normas, diretrizes e procedimentos específicos necessários à aplicação deste Decreto" .
+lex:D6464\/Artigo19    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo19 .
+lex:D6464\/Artigo19    lex:temConteudo    "Art. 19.  O art. 28 do Anexo I do Decreto no 5.351, de 21 de janeiro de 2005, passa a vigorar acrescido do inciso XVII:" .
+lex:D6464\/Artigo20    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo20 .
+lex:D6464\/Artigo20    lex:temConteudo    "Art. 20.  O art. 1o do Decreto no 72.021, de 28 de março de 1973, passa a vigorar acrescido do inciso VIII:" .
+lex:D6464\/Artigo21    lex:ehUm    lex:Artigo .
+lex:D6464    lex:temArtigo    lex:D6464\/Artigo21 .
+lex:D6464\/Artigo21    lex:temConteudo    "Art. 21.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6464\/Artigo6    lex:remetePara    lex:L11440\/ .
+lex:D6464\/Artigo13    lex:remetePara    lex:L5809 .
+lex:D6464\/Artigo13    lex:remetePara    lex:D71733 .
+lex:D6464\/Artigo19    lex:remetePara    lex:D5351\/anexoIArtigo28 .
+lex:D6464\/Texto00060    lex:remetePara    lex:D5351\/anexoIArtigo28 .
+lex:D6464\/Artigo20    lex:remetePara    lex:D72021\/Artigo1 .
+lex:D6464\/Texto00061    lex:remetePara    lex:D72021\/Artigo1 .

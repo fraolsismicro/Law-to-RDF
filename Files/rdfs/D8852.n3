@@ -1,0 +1,130 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8852    lex:ehUm    lex:DocLegal .
+lex:D8852    lex:temTextoIntegral    lex:HTMLs\/D8852.htm .
+lex:D8852\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo1 .
+lex:D8852\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo de Cargos em Comissão e das Funções de Confiança do Ministério da Agricultura, Pecuária e Abastecimento, na forma dos Anexos I e II." .
+lex:D8852\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo2 .
+lex:D8852\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, em decorrência do disposto no Decreto nº 8.785, de 10 de junho de 2016, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D8852\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo2    lex:temInciso    lex:D8852\/Artigo2\/IncisoI .
+lex:D8852\/Artigo2\/IncisoI    lex:temConteudo    "I - do Ministério da Agricultura, Pecuária e Abastecimento para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.5;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove    lex:temConteudo    "c) nove DAS 101.4;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez    lex:temConteudo    "d) dez DAS 101.3;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito    lex:temConteudo    "e) oito DAS 101.2;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete    lex:temConteudo    "f) sete DAS 102.2;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito    lex:temConteudo    "g) oito DAS 101.1;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze    lex:temConteudo    "h) onze DAS 102.1;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove    lex:temConteudo    "i) nove FG-1;" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze    lex:temConteudo    "j) quinze FG-2; e" .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze\/IncisoAlineaQuarenta    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze    lex:temIncisoAlinea    lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze\/IncisoAlineaQuarenta .
+lex:D8852\/Artigo2\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove\/IncisoAlineaDez\/IncisoAlineaOito\/IncisoAlineaSete\/IncisoAlineaOito\/IncisoAlineaOnze\/IncisoAlineaNove\/IncisoAlineaQuinze\/IncisoAlineaQuarenta    lex:temConteudo    "k) quarenta e quatro FG-3; e" .
+lex:D8852\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo2    lex:temInciso    lex:D8852\/Artigo2\/IncisoII .
+lex:D8852\/Artigo2\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério da Agricultura, Pecuária e Abastecimento: três DAS 102.4." .
+lex:D8852\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo3 .
+lex:D8852\/Artigo3    lex:temConteudo    "Art. 3o  Ficam remanejadas, na forma do Anexo IV, em cumprimento à Medida Provisória no 731, de 10 de junho de 2016, da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério da Agricultura, Pecuária e Abastecimento as seguintes Funções Comissionadas do Poder Executivo - FCPE:" .
+lex:D8852\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoI .
+lex:D8852\/Artigo3\/IncisoI    lex:temConteudo    "I - dezoito FCPE 101.4;" .
+lex:D8852\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoII .
+lex:D8852\/Artigo3\/IncisoII    lex:temConteudo    "II - cinco FCPE 102.4;" .
+lex:D8852\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoIII .
+lex:D8852\/Artigo3\/IncisoIII    lex:temConteudo    "III - sessenta e cinco FCPE 101.3;" .
+lex:D8852\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoIV .
+lex:D8852\/Artigo3\/IncisoIV    lex:temConteudo    "IV - uma FCPE 102.3;" .
+lex:D8852\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoV .
+lex:D8852\/Artigo3\/IncisoV    lex:temConteudo    "V - cento e sessenta e sete FCPE 101.2;" .
+lex:D8852\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoVI .
+lex:D8852\/Artigo3\/IncisoVI    lex:temConteudo    "VI - duas FCPE 102.2;" .
+lex:D8852\/Artigo3\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoVII .
+lex:D8852\/Artigo3\/IncisoVII    lex:temConteudo    "VII - duzentas e oito FCPE 101.1; e" .
+lex:D8852\/Artigo3\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo3    lex:temInciso    lex:D8852\/Artigo3\/IncisoVIII .
+lex:D8852\/Artigo3\/IncisoVIII    lex:temConteudo    "VIII - dez FCPE 102.1." .
+lex:D8852\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8852\/Artigo3    lex:temParagrafo    lex:D8852\/Artigo3\/ParagrafoUnico .
+lex:D8852\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam extintos quatrocentos e setenta e seis cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, conforme demonstrado no Anexo IV." .
+lex:D8852\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo4 .
+lex:D8852\/Artigo4    lex:temConteudo    "Art. 4o  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do Ministério da Agricultura, Pecuária e Abastecimento por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D8852\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo5 .
+lex:D8852\/Artigo5    lex:temConteudo    "Art. 5o  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do Ministério da Agricultura, Pecuária e Abastecimento deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D8852\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8852\/Artigo5    lex:temParagrafo    lex:D8852\/Artigo5\/ParagrafoUnico .
+lex:D8852\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado da Agricultura, Pecuária e Abastecimento fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D8852\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo6 .
+lex:D8852\/Artigo6    lex:temConteudo    "Art. 6o  O Ministro de Estado da Agricultura, Pecuária e Abastecimento editará regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do Ministério, suas competências e as atribuições de seus dirigentes, no prazo de noventa dias, contado da data de entrada em vigor deste Decreto." .
+lex:D8852\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8852\/Artigo6    lex:temParagrafo    lex:D8852\/Artigo6\/ParagrafoUnico .
+lex:D8852\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O regimento interno conterá o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D8852\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo7 .
+lex:D8852\/Artigo7    lex:temConteudo    "Art. 7o  O Ministro de Estado da Agricultura, Pecuária e Abastecimento poderá, mediante alteração do regimento interno, permutar cargos em comissão do Grupo-DAS com FCPE desde que não sejam alteradas as unidades da estrutura organizacional básica especificadas na Tabela a do Anexo II e sejam mantidas as categorias, os níveis e os quantitativos previstos na Tabela b do Anexo II, conforme o disposto no art. 9o do Decreto no 6.944, de 21 de agosto de 2009." .
+lex:D8852\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo8 .
+lex:D8852\/Artigo8    lex:temConteudo    "Art. 8o  Este Decreto entre em vigor vinte e oito dias após a data de sua publicação." .
+lex:D8852\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8852    lex:temArtigo    lex:D8852\/Artigo9 .
+lex:D8852\/Artigo9    lex:temConteudo    "Art. 9o  Ficam revogados:" .
+lex:D8852\/Artigo9\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo9    lex:temInciso    lex:D8852\/Artigo9\/IncisoI .
+lex:D8852\/Artigo9\/IncisoI    lex:temConteudo    "I - os seguintes dispositivos do Decreto no 8.701, de 31 de março de 2016:" .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo9\/IncisoI    lex:temIncisoAlinea    lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt    lex:temConteudo    "a) art. 1º a art. 6º; e" .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt    lex:temIncisoAlinea    lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs    lex:temConteudo    "b) os Anexos I, II e III; e" .
+lex:D8852\/Artigo9\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8852\/Artigo9    lex:temInciso    lex:D8852\/Artigo9\/IncisoII .
+lex:D8852\/Artigo9\/IncisoII    lex:temConteudo    "II - o Decreto no 8.711, de 14 de abril de 2016." .
+lex:D8852\/Artigo2    lex:remetePara    lex:D8785 .
+lex:D8852\/Artigo3    lex:remetePara    lex:mpv731 .
+lex:D8852\/Artigo7    lex:remetePara    lex:D6944\/Artigo9 .
+lex:D8852\/Artigo9\/IncisoI    lex:remetePara    lex:D8701 .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt    lex:remetePara    lex:D8701\/Artigo1 .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs    lex:remetePara    lex:D8701\/ .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs    lex:remetePara    lex:D8701\/ .
+lex:D8852\/Artigo9\/IncisoI\/IncisoAlineaArt\/IncisoAlineaOs    lex:remetePara    lex:D8701\/ .
+lex:D8852\/Artigo9\/IncisoII    lex:remetePara    lex:D8711 .

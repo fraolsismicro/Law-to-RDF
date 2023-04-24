@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3213    lex:ehUm    lex:DocLegal .
+lex:D3213    lex:temTextoIntegral    lex:HTMLs\/D3213.htm .
+lex:D3213\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoD .
+lex:D3213\/IncisoD    lex:temConteudo    "D E C R E T A:" .
+lex:D3213\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoI .
+lex:D3213\/IncisoI    lex:temConteudo    "I - Comando Militar da Amazônia - CMA - com sede na cidade de Manaus - AM e jurisdição sobre os territórios das 8ª e 12ª Regiões Militares;" .
+lex:D3213\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoI .
+lex:D3213\/IncisoI    lex:temConteudo    "I - Comando Militar da Amazônia - CMA, com sede na cidade de Manaus - AM e jurisdição sobre o território da 12a Região Militar;  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoVI .
+lex:D3213\/IncisoVI    lex:temConteudo    "VI - Comando Militar do Sudeste - CMSE, com sede na cidade de São Paulo - SP e jurisdição sobre o território da 2a Região Militar; (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoVII .
+lex:D3213\/IncisoVII    lex:temConteudo    "VII - Comando Militar do Sul - CMS, com sede na cidade de Porto Alegre - RS e jurisdição sobre os territórios das 3a e 5a Regiões Militares; e  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D3213    lex:temInciso    lex:D3213\/IncisoVIII .
+lex:D3213\/IncisoVIII    lex:temConteudo    "VIII - Comando Militar do Norte - CMN, com sede na cidade de Belém - PA e jurisdição sobre o território da 8a Região Militar.  (Incluído pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:D3213    lex:temParagrafo    lex:D3213\/ParagrafoOs .
+lex:D3213\/ParagrafoOs    lex:temConteudo    "§2o Os Comandos Militares de Área de que trata este artigo ficam subordinados diretamente ao Comandante do Exército.  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3213\/ParagrafoOs    lex:temParagrafoInciso    lex:D3213\/ParagrafoOs\/ParagrafoIncisoVIII .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - 8a Região Militar - com jurisdição sobre os Estados do Pará, do Amapá e do Maranhão, e sede do Comando na cidade de Belém - PA;  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D3213\/ParagrafoOs    lex:temParagrafoInciso    lex:D3213\/ParagrafoOs\/ParagrafoIncisoX .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoX    lex:temConteudo    "X - 10a Região Militar - com jurisdição sobre os Estados do Ceará e do Piauí, e sede do Comando na cidade de Fortaleza - CE;  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoXI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3213\/ParagrafoOs    lex:temParagrafoInciso    lex:D3213\/ParagrafoOs\/ParagrafoIncisoXI .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoXI    lex:temConteudo    "XI - 11a Região Militar - com jurisdição sobre o Distrito Federal, os Estados de Goiás e do Tocantins e a área do Triângulo Mineiro, e sede do Comando na cidade de Brasília - DF; e  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3213    lex:temParagrafo    lex:D3213\/ParagrafoUnico .
+lex:D3213\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para efeito do disposto nos incisos IV e XI do caput, entende-se como Triângulo Mineiro a área limitada a Leste pelos Municípios de Araguari, Indianópolis, Nova Ponte e Uberaba (estes inclusive)  (Redação dada pelo Decreto nº 8.053, de 2013)" .
+lex:D3213\/IncisoI    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/IncisoVI    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/IncisoVII    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/IncisoVIII    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/Paragrafo1    lex:revogadoPor    lex:D8053\/Artigo4 .
+lex:D8053\/Artigo4    lex:revogou    lex:D3213\/Paragrafo1 .
+lex:D3213\/ParagrafoOs    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoVIII    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoX    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/ParagrafoOs\/ParagrafoIncisoXI    lex:remetePara    lex:D8053\/Artigo1 .
+lex:D3213\/ParagrafoUnico    lex:remetePara    lex:D8053\/Artigo1 .

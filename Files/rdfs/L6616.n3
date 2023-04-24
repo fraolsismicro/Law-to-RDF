@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6616    lex:ehUm    lex:DocLegal .
+lex:L6616    lex:temTextoIntegral    lex:HTMLs\/L6616.htm .
+lex:L6616\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo1 .
+lex:L6616\/Artigo1    lex:temConteudo    "Art 1º - Os artigos 31 e 32 da Lei nº 6.385, de 7 de dezembro de 1976, passam a ter a seguinte redação:" .
+lex:L6616\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6616\/Artigo1    lex:temParagrafo    lex:L6616\/Artigo1\/Paragrafo1 .
+lex:L6616\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A intimação far-se-á, logo após a contestação, por mandado ou por carta com aviso de recebimento, conforme a Comissão tenha, ou não, sede ou representação na comarca em que tenha sido proposta a ação." .
+lex:L6616\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6616\/Artigo1    lex:temParagrafo    lex:L6616\/Artigo1\/Paragrafo2 .
+lex:L6616\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Se a Comissão oferecer parecer ou prestar esclarecimentos, será intimada de todos os atos processuais subseqüentes, pelo jornal oficial que publica expedientes forense ou por carta com aviso de recebimento, nos termos do parágrafo anterior." .
+lex:L6616\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6616\/Artigo1    lex:temParagrafo    lex:L6616\/Artigo1\/Paragrafo3 .
+lex:L6616\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A comissão é atribuída legitimidade para interpor recursos, quando as partes não o fizeram." .
+lex:L6616\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L6616\/Artigo1    lex:temParagrafo    lex:L6616\/Artigo1\/Paragrafo4 .
+lex:L6616\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º - O prazo para os efeitos do parágrafo anterior começará a correr, independentemente de nova intimação, no dia imediato aquele em que findar o das partes." .
+lex:L6616\/Artigo32    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo32 .
+lex:L6616\/Artigo32    lex:temConteudo    "Art. 32 - As multas impostas pela Comissão de Valores Mobiliários, após a decisão final que as impôs na esfera administrativa, terão eficácia de título executivo e serão cobradas judicialmente, de acordo com o rito estabelecido pelo código de Processo Civil para o processo de execução'." .
+lex:L6616\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo2 .
+lex:L6616\/Artigo2    lex:temConteudo    "Art 2º - A intimação da Comissão de Valores Mobiliários, consoante previsto no art. 31 da Lei nº 6.385, de 7 de dezembro de 1976, far-se-á, em relação aos processos em curso na data da entrada em vigor desta Lei, dentro de trinta dias dessa data." .
+lex:L6616\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6616\/Artigo2    lex:temParagrafo    lex:L6616\/Artigo2\/ParagrafoUnico .
+lex:L6616\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A intimação, na hipótese deste artigo, será dispensada relativamente aos processos que, na data a que se refere o caput , estiverem conclusos, ou incluídos em pauta, para julgamento." .
+lex:L6616\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo3 .
+lex:L6616\/Artigo3    lex:temConteudo    "Art 3º - Os atuais artigos 31 e 32 da Lei nº 6.385, de 7 de dezembro de 1976, passam a ter, respectivamente, os nºs 33 e 34." .
+lex:L6616\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo4 .
+lex:L6616\/Artigo4    lex:temConteudo    "Art 4º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6616\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6616    lex:temArtigo    lex:L6616\/Artigo5 .
+lex:L6616\/Artigo5    lex:temConteudo    "Art 5º - Revogam-se as disposições em contrário." .
+lex:L6616\/Texto00001    lex:remetePara    lex:L6385\/Artigo31 .
+lex:L6616\/Artigo32    lex:remetePara    lex:L6385 .
+lex:L6616\/Artigo2    lex:remetePara    lex:L6385\/Artigo31 .

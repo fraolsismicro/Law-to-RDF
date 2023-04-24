@@ -1,0 +1,62 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9818    lex:ehUm    lex:DocLegal .
+lex:D9818    lex:temTextoIntegral    lex:HTMLs\/D9818.htm .
+lex:D9818\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9818    lex:temArtigo    lex:D9818\/Artigo1A .
+lex:D9818\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 8.903, de 16 de novembro de 2016, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaSecretaria .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "a) Secretaria de Assuntos de Defesa e SeguranÃ§a Nacional, que o coordenarÃ¡; e" .
+lex:D9818\/Artigo1A\/AlineaAgAncia    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaAgAncia .
+lex:D9818\/Artigo1A\/AlineaAgAncia    lex:temConteudo    "b) AgÃªncia Brasileira de InteligÃªncia;" .
+lex:D9818\/Artigo1A\/AlineaAgAncia\/Item    lex:ehUm    lex:Item .
+lex:D9818\/Artigo1A\/AlineaAgAncia    lex:temItem    lex:D9818\/Artigo1A\/AlineaAgAncia\/Item .
+lex:D9818\/Artigo1A\/AlineaAgAncia\/Item    lex:temConteudo    "....................................................................................................................." .
+lex:D9818\/Artigo1A\/AlineaPolAcia    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaPolAcia .
+lex:D9818\/Artigo1A\/AlineaPolAcia    lex:temConteudo    "a) PolÃ­cia Federal;" .
+lex:D9818\/Artigo1A\/AlineaPolAcia    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaPolAcia .
+lex:D9818\/Artigo1A\/AlineaPolAcia    lex:temConteudo    "b) PolÃ­cia RodoviÃ¡ria Federal;" .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaSecretaria .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "c) Secretaria Nacional de SeguranÃ§a PÃºblica; e" .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D9818\/Artigo1A    lex:temAlinea    lex:D9818\/Artigo1A\/AlineaSecretaria .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "d) Secretaria de OperaÃ§Ãµes Integradas; e" .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Item    lex:ehUm    lex:Item .
+lex:D9818\/Artigo1A\/AlineaSecretaria    lex:temItem    lex:D9818\/Artigo1A\/AlineaSecretaria\/Item .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Item    lex:temConteudo    "....................................................................................................................." .
+lex:D9818\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9818    lex:temArtigo    lex:D9818\/Artigo2A .
+lex:D9818\/Artigo2A    lex:temConteudo    "Art. 2Âº  Ficam revogados os seguintes dispositivos do Decreto nÂº 8.903, de 2016:" .
+lex:D9818\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D9818    lex:temArtigo    lex:D9818\/Artigo3A .
+lex:D9818\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D9818\/Artigo1A    lex:remetePara    lex:D8903 .
+lex:D9818\/Texto00001    lex:remetePara    lex:D8903\/Artigo1p0 .
+lex:D9818\/Texto00001    lex:remetePara    lex:D8903\/Artigo4ii0 .
+lex:D9818\/Texto00001    lex:remetePara    lex:D8903\/Artigo4iii0 .
+lex:D9818\/Texto00001    lex:remetePara    lex:D8903\/Artigo50 .
+lex:D9818\/Texto00001    lex:remetePara    lex:D8903\/Artigo5i0 .
+lex:D9818\/Artigo1A\/AlineaAgAncia\/Texto00004    lex:remetePara    lex:D8903\/Artigo5iv0 .
+lex:D9818\/Artigo1A\/AlineaAgAncia\/Texto00004    lex:remetePara    lex:D8903\/Artigo5v0 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo5Â§20 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo5Â§30 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo5Â§40 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo5Â§5 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo6v0 .
+lex:D9818\/Artigo1A\/AlineaSecretaria\/Texto00009    lex:remetePara    lex:D8903\/Artigo6Â§20 .
+lex:D9818\/Artigo2A    lex:remetePara    lex:D8903 .
+lex:D9818\/Texto00010    lex:remetePara    lex:D8903\/Artigo5 .
+lex:D9818\/Texto00010    lex:remetePara    lex:D8903\/Artigo5 .
+lex:D9818\/Texto00010    lex:remetePara    lex:D8903\/Artigo5 .
+lex:D9818\/Texto00010    lex:remetePara    lex:D8903\/Artigo6Â§2 .

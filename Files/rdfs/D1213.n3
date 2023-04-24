@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1213    lex:ehUm    lex:DocLegal .
+lex:D1213    lex:temTextoIntegral    lex:HTMLs\/D1213.htm .
+lex:D1213\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1213    lex:temArtigo    lex:D1213\/Artigo1 .
+lex:D1213\/Artigo1    lex:temConteudo    "Art. 1º A Convenção Interamericana sobre o Regime Legal das Procurações para serem utilizadas no Exterior, concluída na Cidade do Panamá, em 30 de janeiro de 1975, apensa por cópia a este Decreto, deverá ser cumprida tão inteiramente como nela se contém." .
+lex:D1213\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1213    lex:temArtigo    lex:D1213\/Artigo2 .
+lex:D1213\/Artigo2    lex:temConteudo    "Art. 2º O presente Decreto entra em vigor na data de sua publicação." .
+lex:D1213\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaA .
+lex:D1213\/Artigo2\/AlineaA    lex:temConteudo    "a) a identidade do outorgante e a declaração do mesmo sobre sua nacionalidade, idade, domicílio e estado civil;" .
+lex:D1213\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaO .
+lex:D1213\/Artigo2\/AlineaO    lex:temConteudo    "b) o direito que tiver o outorgante para dar procuração em nome de outra pessoa física ou natural;" .
+lex:D1213\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaA .
+lex:D1213\/Artigo2\/AlineaA    lex:temConteudo    "c) a existência legal da pessoa moral ou jurídica em cujo nome for outorgada a procuração;" .
+lex:D1213\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaA .
+lex:D1213\/Artigo2\/AlineaA    lex:temConteudo    "d) a representação da pessoa moral ou jurídica, assim como o direito que tiver o outorgante para dar a procuração." .
+lex:D1213\/Artigo2\/AlineaConstara    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaConstara .
+lex:D1213\/Artigo2\/AlineaConstara    lex:temConteudo    "a) constará da procuração uma declaração jurada ou uma afirmação do outorgante de que diz a verdade sobre o disposto na alínea a do artigo 6;" .
+lex:D1213\/Artigo2\/AlineaJuntar-se-ao    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaJuntar-se-ao .
+lex:D1213\/Artigo2\/AlineaJuntar-se-ao    lex:temConteudo    "b) juntar-se-ão à procuração cópias autenticadas ou outras provas no que diz respeito aos pontos indicados nas alíneas b, c e d do mesmo artigo;" .
+lex:D1213\/Artigo2\/AlineaDevera    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaDevera .
+lex:D1213\/Artigo2\/AlineaDevera    lex:temConteudo    "c) deverá ser reconhecida a firma do outorgante;" .
+lex:D1213\/Artigo2\/AlineaSerao    lex:ehUm    lex:Alinea .
+lex:D1213\/Artigo2    lex:temAlinea    lex:D1213\/Artigo2\/AlineaSerao .
+lex:D1213\/Artigo2\/AlineaSerao    lex:temConteudo    "d) serão observados os demais requisitos estabelecidos pela lei da outorga." .

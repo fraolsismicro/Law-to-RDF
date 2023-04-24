@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6167    lex:ehUm    lex:DocLegal .
+lex:D6167    lex:temTextoIntegral    lex:HTMLs\/D6167.htm .
+lex:D6167\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6167    lex:temArtigo    lex:D6167\/Artigo1 .
+lex:D6167\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 5o, 6o, 7o e 13 do Decreto no 6.144, de 3 de julho de 2007, passam a vigorar com a seguinte redação:" .
+lex:D6167\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6167\/Artigo1    lex:temParagrafo    lex:D6167\/Artigo1\/Paragrafo2 .
+lex:D6167\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A pessoa jurídica sujeita ao regime de apuração cumulativa da Contribuição para o PIS/PASEP e da COFINS, que aufira receitas decorrentes da execução por empreitada de obras de construção civil, contratada pela pessoa jurídica habilitada ao REIDI, poderá requerer co-habilitação ao regime." .
+lex:D6167\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6167\/Artigo1    lex:temParagrafo    lex:D6167\/Artigo1\/Paragrafo7 .
+lex:D6167\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Não se aplica o disposto no inciso I do § 1o no caso de contratação de empreendimentos de geração ou transmissão de energia elétrica, quando precedida de licitação na modalidade leilão." .
+lex:D6167\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D6167\/Artigo1    lex:temParagrafo    lex:D6167\/Artigo1\/Paragrafo8 .
+lex:D6167\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o  A pessoa jurídica referida no caput do art. 5o poderá apresentar os documentos de que tratam os incisos I, II e III do art. 7o ao Ministério responsável pela aprovação do projeto, o qual, após a devida análise, deverá fazer constar este fato na portaria de que trata o § 3o. (NR)" .
+lex:D6167\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6167\/Artigo1    lex:temParagrafo    lex:D6167\/Artigo1\/Paragrafo3 .
+lex:D6167\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  A apresentação dos documentos de que tratam os incisos I, II e III do caput fica dispensada se atendido o disposto no § 8o do art. 6o. (NR)" .
+lex:D6167\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6167\/Artigo1    lex:temParagrafo    lex:D6167\/Artigo1\/ParagrafoUnico .
+lex:D6167\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto no caput não se aplica quando a pessoa jurídica habilitada ou co-habilitada optar por efetuar aquisições e importações fora do REIDI, sem a suspensão de que trata o art. 2o. (NR)" .
+lex:D6167\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6167    lex:temArtigo    lex:D6167\/Artigo2 .
+lex:D6167\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6167\/Artigo1\/Paragrafo2    lex:remetePara    lex:D6144\/Artigo5\/Paragrafo2 .
+lex:D6167\/Artigo1\/Paragrafo7    lex:remetePara    lex:D6144\/Artigo6\/Paragrafo7 .
+lex:D6167\/Artigo1\/Paragrafo3    lex:remetePara    lex:D6144\/Artigo7\/Paragrafo3 .
+lex:D6167\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D6144\/Artigo13 .

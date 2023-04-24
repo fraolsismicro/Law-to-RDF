@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1285    lex:ehUm    lex:DocLegal .
+lex:Del1285    lex:temTextoIntegral    lex:HTMLs\/Del1285.htm .
+lex:Del1285\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1285    lex:temArtigo    lex:Del1285\/Artigo1 .
+lex:Del1285\/Artigo1    lex:temConteudo    "Art. 1º A Taxa de Exploração de Loterias, a que se refere o artigo 13, do Decreto-lei nº 6.259 de 10 de fevereiro de 1944, alterada pelo artigo 14, § 3º, do Decreto-lei nº 34, de 18 de novembro de 1966 e artigo 4º do Decreto-lei nº 717, de 30 de julho de 1969, passa a ser devida sobre o valor dos bilhetes efetivamente vendidos, em cada emissão." .
+lex:Del1285\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1285\/Artigo1    lex:temParagrafo    lex:Del1285\/Artigo1\/ParagrafoUnico .
+lex:Del1285\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nenhuma extração de loteria estadual será permitida sem que, até a véspera da data designada para o sorteio, se efetue o pagamento da taxa a que se refere este artigo, correspondente à extração imediatamente anterior." .
+lex:Del1285\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1285    lex:temArtigo    lex:Del1285\/Artigo2 .
+lex:Del1285\/Artigo2    lex:temConteudo    "Art. 2º A cota de previdência a que se refere o artigo 4º do Decreto-lei nº 204, de 27 de fevereiro de 1967, alterada pelo artigo 1º do Decreto-lei nº 717, de 30 de julho de 1969, passa a ser devida sobre o valor dos bilhetes efetivamente vendidos em cada emissão." .
+lex:Del1285\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1285    lex:temArtigo    lex:Del1285\/Artigo3 .
+lex:Del1285\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1285\/Artigo1    lex:remetePara    lex:Del6259\/Artigo13 .
+lex:Del1285\/Artigo1    lex:remetePara    lex:Del0034\/Artigo14\/Paragrafo3 .
+lex:Del1285\/Artigo1    lex:remetePara    lex:Del0717\/Artigo4 .
+lex:Del1285\/Artigo2    lex:remetePara    lex:Del0204\/Artigo4 .
+lex:Del1285\/Artigo2    lex:remetePara    lex:Del0717\/Artigo1 .

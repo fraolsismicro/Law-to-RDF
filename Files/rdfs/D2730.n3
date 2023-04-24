@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2730    lex:ehUm    lex:DocLegal .
+lex:D2730    lex:temTextoIntegral    lex:HTMLs\/D2730.htm .
+lex:D2730\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2730    lex:temArtigo    lex:D2730\/Artigo1 .
+lex:D2730\/Artigo1    lex:temConteudo    "Art 1º O Auditor-Fiscal do Tesouro Nacional formalizará representação fiscal, para os fins do art. 83 da Lei nº 9.430, de 27 de dezembro de 1996, em autos separados e protocolizada na mesma data da lavratura do auto de infração, sempre que, no curso de ação fiscal de que resulte lavratura de auto de infração de exigência de crédito de tributos e contribuições administrados pela Secretaria da Receita Federal do Ministério da Fazenda ou decorrente de apreensão de bens sujeitos à pena de perdimento, constatar fato que configure, em tese;" .
+lex:D2730\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2730\/Artigo1    lex:temInciso    lex:D2730\/Artigo1\/IncisoI .
+lex:D2730\/Artigo1\/IncisoI    lex:temConteudo    "I - crime contra a ordem tributária tipificado nos arts. 1º e 2º da Lei nº 8.137, de 27 de dezembro de 1990;" .
+lex:D2730\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2730\/Artigo1    lex:temInciso    lex:D2730\/Artigo1\/IncisoII .
+lex:D2730\/Artigo1\/IncisoII    lex:temConteudo    "II - crime de contrabando ou descaminho." .
+lex:D2730\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2730    lex:temArtigo    lex:D2730\/Artigo2 .
+lex:D2730\/Artigo2    lex:temConteudo    "Art 2º Encerrado o processo administrativo-fiscal, os autos da representação fiscal para fins penais serão remetidos ao Ministério Público Federal, se:" .
+lex:D2730\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2730\/Artigo2    lex:temInciso    lex:D2730\/Artigo2\/IncisoI .
+lex:D2730\/Artigo2\/IncisoI    lex:temConteudo    "I - mantida a imputação de multa agravada, o crédito de tributos e contribuições, inclusive acessórios, não for extinto pelo pagamento;" .
+lex:D2730\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2730\/Artigo2    lex:temInciso    lex:D2730\/Artigo2\/IncisoII .
+lex:D2730\/Artigo2\/IncisoII    lex:temConteudo    "II - aplicada, administrativamente, a pena de perdimento de bens, estiver configurado em tese, crime de contrabando ou descaminho." .
+lex:D2730\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2730    lex:temArtigo    lex:D2730\/Artigo3 .
+lex:D2730\/Artigo3    lex:temConteudo    "Art 3º O Secretário da Receita Federal disciplinará os procedimentos necessários à execução deste Decreto." .
+lex:D2730\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2730    lex:temArtigo    lex:D2730\/Artigo4 .
+lex:D2730\/Artigo4    lex:temConteudo    "Art 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2730\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D2730    lex:temArtigo    lex:D2730\/Artigo5 .
+lex:D2730\/Artigo5    lex:temConteudo    "Art 5º Fica revogado o Decreto nº 982, de 12 de novembro de 1993." .
+lex:D2730\/Artigo1    lex:remetePara    lex:L9430\/Artigo83 .
+lex:D2730\/Artigo1\/IncisoI    lex:remetePara    lex:L8137\/Artigo1 .
+lex:D2730\/Artigo5    lex:remetePara    lex:D982 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6467    lex:ehUm    lex:DocLegal .
+lex:D6467    lex:temTextoIntegral    lex:HTMLs\/D6467.htm .
+lex:D6467\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6467    lex:temArtigo    lex:D6467\/Artigo1 .
+lex:D6467\/Artigo1    lex:temConteudo    "Art. 1o  O art. 3o do Decreto no 6.370, de 1o de fevereiro de 2008, passa a vigorar acrescido dos seguintes §§ 1o e 2o:" .
+lex:D6467\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6467\/Artigo1    lex:temParagrafo    lex:D6467\/Artigo1\/Paragrafo2 .
+lex:D6467\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Para os órgãos citados no § 1o, poderão ser abertas novas contas bancárias destinadas à movimentação de suprimento de fundos. (NR)" .
+lex:D6467\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6467    lex:temArtigo    lex:D6467\/Artigo2 .
+lex:D6467\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6467\/Artigo1    lex:remetePara    lex:D6370\/Artigo3 .
+lex:D6467\/Texto00001    lex:remetePara    lex:D6370\/Artigo3\/Paragrafo1 .

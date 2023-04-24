@@ -1,0 +1,96 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6641    lex:ehUm    lex:DocLegal .
+lex:D6641    lex:temTextoIntegral    lex:HTMLs\/D6641.htm .
+lex:D6641\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo1 .
+lex:D6641\/Artigo1    lex:temConteudo    "Art. 1o  Ficam estabelecidas, na forma deste Decreto, as atribuições da Carreira de Auditoria da Receita Federal do Brasil, composta pelos cargos de nível superior de Auditor-Fiscal da Receita Federal do Brasil e de Analista-Tributário da Receita Federal do Brasil." .
+lex:D6641\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6641\/Artigo1    lex:temParagrafo    lex:D6641\/Artigo1\/ParagrafoUnico .
+lex:D6641\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Secretário da Receita Federal do Brasil poderá dispor sobre o detalhamento das atribuições dos cargos de que trata o caput." .
+lex:D6641\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo2 .
+lex:D6641\/Artigo2    lex:temConteudo    "Art. 2o  São atribuições dos ocupantes do cargo de Auditor-Fiscal da Receita Federal do Brasil:" .
+lex:D6641\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo2    lex:temInciso    lex:D6641\/Artigo2\/IncisoI .
+lex:D6641\/Artigo2\/IncisoI    lex:temConteudo    "I - no exercício da competência da Secretaria da Receita Federal do Brasil e em caráter privativo:" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir    lex:temConteudo    "a) constituir, mediante lançamento, o crédito tributário e de contribuições;" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar    lex:temConteudo    "b) elaborar e proferir decisões ou delas participar em processo administrativo-fiscal, bem como em processos de consulta, restituição ou compensação de tributos e contribuições e de reconhecimento de benefícios fiscais;" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar    lex:temConteudo    "c) executar procedimentos de fiscalização, praticando os atos definidos na legislação específica, inclusive os relacionados com o controle aduaneiro, apreensão de mercadorias, livros, documentos, materiais, equipamentos e assemelhados;" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar    lex:temConteudo    "d) examinar a contabilidade de sociedades empresariais, empresários, órgãos, entidades, fundos e demais contribuintes, não se lhes aplicando as restrições previstas nos arts. 1.190 a 1,192  do Código Civil e observado o disposto no art. 1.193 do mesmo diploma legal;" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder    lex:temConteudo    "e) proceder à orientação do sujeito passivo no tocante à interpretação da legislação tributária; e" .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder\/IncisoAlineaSupervisionar    lex:ehUm    lex:IncisoAlinea .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder    lex:temIncisoAlinea    lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder\/IncisoAlineaSupervisionar .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar\/IncisoAlineaProceder\/IncisoAlineaSupervisionar    lex:temConteudo    "f) supervisionar as demais atividades de orientação ao contribuinte; e" .
+lex:D6641\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo2    lex:temInciso    lex:D6641\/Artigo2\/IncisoII .
+lex:D6641\/Artigo2\/IncisoII    lex:temConteudo    "II - em caráter geral, exercer as demais atividades inerentes à competência da Secretaria da Receita Federal do Brasil." .
+lex:D6641\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo3 .
+lex:D6641\/Artigo3    lex:temConteudo    "Art. 3o  Incumbe aos ocupantes dos cargos de Analista-Tributário da Receita Federal do Brasil, resguardadas as atribuições privativas referidas no inciso I do art. 2o:" .
+lex:D6641\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo3    lex:temInciso    lex:D6641\/Artigo3\/IncisoI .
+lex:D6641\/Artigo3\/IncisoI    lex:temConteudo    "I - exercer atividades de natureza técnica, acessórias ou preparatórias ao exercício das atribuições privativas dos Auditores-Fiscais da Receita Federal do Brasil;" .
+lex:D6641\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo3    lex:temInciso    lex:D6641\/Artigo3\/IncisoII .
+lex:D6641\/Artigo3\/IncisoII    lex:temConteudo    "II - atuar no exame de matérias e processos administrativos, ressalvado o disposto na alínea b do inciso I do art. 2o; e" .
+lex:D6641\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo3    lex:temInciso    lex:D6641\/Artigo3\/IncisoIII .
+lex:D6641\/Artigo3\/IncisoIII    lex:temConteudo    "III - exercer, em caráter geral e concorrente, as demais atividades inerentes às competências da Secretaria da Receita Federal do Brasil." .
+lex:D6641\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo4 .
+lex:D6641\/Artigo4    lex:temConteudo    "Art. 4o  São atribuições dos ocupantes dos cargos efetivos de Auditor-Fiscal da Receita Federal do Brasil e de Analista-Tributário da Receita Federal do Brasil, em caráter geral e concorrente:" .
+lex:D6641\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo4    lex:temInciso    lex:D6641\/Artigo4\/IncisoI .
+lex:D6641\/Artigo4\/IncisoI    lex:temConteudo    "I - lavrar termo de revelia e de perempção;" .
+lex:D6641\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo4    lex:temInciso    lex:D6641\/Artigo4\/IncisoII .
+lex:D6641\/Artigo4\/IncisoII    lex:temConteudo    "II - analisar o desempenho e efetuar a previsão da arrecadação; e" .
+lex:D6641\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo4    lex:temInciso    lex:D6641\/Artigo4\/IncisoIII .
+lex:D6641\/Artigo4\/IncisoIII    lex:temConteudo    "III - analisar pedido de retificação de documento de arrecadação." .
+lex:D6641\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo5 .
+lex:D6641\/Artigo5    lex:temConteudo    "Art. 5o  Os ocupantes dos cargos efetivos de Auditor-Fiscal da Receita Federal do Brasil e de Analista-Tributário da Receita Federal do Brasil, em caráter geral e concorrente, poderão ainda exercer atribuições inespecíficas da Carreira de Auditoria da Receita Federal do Brasil, desde que inerentes às competências da Secretaria da Receita Federal do Brasil, em especial:" .
+lex:D6641\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo5    lex:temInciso    lex:D6641\/Artigo5\/IncisoI .
+lex:D6641\/Artigo5\/IncisoI    lex:temConteudo    "I - executar atividades pertinentes às áreas de programação e de execução orçamentária e financeira, contabilidade, licitação e contratos, material, patrimônio, recursos humanos e serviços gerais;" .
+lex:D6641\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo5    lex:temInciso    lex:D6641\/Artigo5\/IncisoII .
+lex:D6641\/Artigo5\/IncisoII    lex:temConteudo    "II - executar atividades na área de informática, inclusive as relativas à prospecção, avaliação, internalização e disseminação de novas tecnologias e metodologias;" .
+lex:D6641\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo5    lex:temInciso    lex:D6641\/Artigo5\/IncisoIII .
+lex:D6641\/Artigo5\/IncisoIII    lex:temConteudo    "III - executar procedimentos que garantam a integridade, a segurança e o acesso aos dados e às informações da Secretaria da Receita Federal do Brasil;" .
+lex:D6641\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo5    lex:temInciso    lex:D6641\/Artigo5\/IncisoIV .
+lex:D6641\/Artigo5\/IncisoIV    lex:temConteudo    "IV - atuar nas auditorias internas das atividades dos sistemas operacionais da Secretaria da Receita Federal do Brasil; e" .
+lex:D6641\/Artigo5\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6641\/Artigo5    lex:temInciso    lex:D6641\/Artigo5\/IncisoV .
+lex:D6641\/Artigo5\/IncisoV    lex:temConteudo    "V - integrar comissão de processo administrativo disciplinar." .
+lex:D6641\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo6 .
+lex:D6641\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6641\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D6641    lex:temArtigo    lex:D6641\/Artigo7 .
+lex:D6641\/Artigo7    lex:temConteudo    "Art. 7o  Fica revogado o Decreto no 3.611, de 27 de setembro de 2000." .
+lex:D6641\/Texto    lex:remetePara    lex:L10593\/Artigo6\/Paragrafo3 .
+lex:D6641\/Texto    lex:remetePara    lex:L10593\/Artigo6\/Paragrafo3 .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar    lex:remetePara    lex:L10406\/Artigo1190 .
+lex:D6641\/Artigo2\/IncisoI\/IncisoAlineaConstituir\/IncisoAlineaElaborar\/IncisoAlineaExecutar\/IncisoAlineaExaminar    lex:remetePara    lex:L10406\/Artigo1193 .
+lex:D6641\/Artigo7    lex:remetePara    lex:D3611 .

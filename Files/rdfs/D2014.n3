@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2014    lex:ehUm    lex:DocLegal .
+lex:D2014    lex:temTextoIntegral    lex:HTMLs\/D2014.htm .
+lex:D2014\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2014    lex:temArtigo    lex:D2014\/Artigo1 .
+lex:D2014\/Artigo1    lex:temConteudo    "Art. 1º É delegada competência ao Ministro de Estado da Educação e do Desporto para, observada a legislação pertinente, nomear:" .
+lex:D2014\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2014\/Artigo1    lex:temInciso    lex:D2014\/Artigo1\/IncisoI .
+lex:D2014\/Artigo1\/IncisoI    lex:temConteudo    "I - os Vice-Reitores das universidades, qualquer que seja a sua forma de constituição, os Diretores e os Vice-Diretores de estabelecimentos isolados de ensino superior, mantidos pela União;" .
+lex:D2014\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2014\/Artigo1    lex:temInciso    lex:D2014\/Artigo1\/IncisoII .
+lex:D2014\/Artigo1\/IncisoII    lex:temConteudo    "II - os Diretores-Gerais dos centros federais de educação tecnológica;" .
+lex:D2014\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2014\/Artigo1    lex:temInciso    lex:D2014\/Artigo1\/IncisoIII .
+lex:D2014\/Artigo1\/IncisoIII    lex:temConteudo    "III - os Diretores das escolas técnicas e agrotécnicas federais;" .
+lex:D2014\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D2014\/Artigo1    lex:temInciso    lex:D2014\/Artigo1\/IncisoIV .
+lex:D2014\/Artigo1\/IncisoIV    lex:temConteudo    "IV - o Diretor-Geral do Colégio Pedro II;" .
+lex:D2014\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D2014\/Artigo1    lex:temInciso    lex:D2014\/Artigo1\/IncisoV .
+lex:D2014\/Artigo1\/IncisoV    lex:temConteudo    "V - Presidentes e membros de Conselhos Diretor e Curador das fundações públicas mantenedoras de universidades, desde que não implique em nomeação de dirigente máximo da instituição federal de ensino superior." .
+lex:D2014\/Artigo1o-A    lex:ehUm    lex:Artigo .
+lex:D2014    lex:temArtigo    lex:D2014\/Artigo1o-A .
+lex:D2014\/Artigo1o-A    lex:temConteudo    "Art. 1o-A.  Fica delegada competência ao Ministro de Estado da Educação para designar o Reitor pro tempore, na hipótese de que trata o art. 7o do Decreto no 1.916, de 23 de maio de 1996, vedada a subdelegação. (Incluído pelo Decreto nº 6.642, de 2008)" .
+lex:D2014\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2014    lex:temArtigo    lex:D2014\/Artigo2 .
+lex:D2014\/Artigo2    lex:temConteudo    "Art. 2º O Ministro de Estado da Educação e do Desporto poderá subdelegar aos Reitores das universidades, aos Diretores-Gerais dos centros federais de educação tecnológica e do Colégio Pedro II e aos Diretores das escolas técnicas e agrotécnicas federais competência para nomear os respectivos Vice-Reitores e Vice-Diretores." .
+lex:D2014\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2014    lex:temArtigo    lex:D2014\/Artigo3 .
+lex:D2014\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2014\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2014    lex:temArtigo    lex:D2014\/Artigo4 .
+lex:D2014\/Artigo4    lex:temConteudo    "Art. 4º Ficam revogados o Decreto nº 86.868, de 21 de janeiro de 1982, e o Decreto de 7 de fevereiro de 1996, que delegam competência para nomeação das autoridades que mencionam, e dá outras providências." .
+lex:D2014\/Artigo1o-A    lex:remetePara    lex:D1916\/Artigo7 .
+lex:D2014\/Artigo1o-A    lex:remetePara    lex:D6642\/Artigo1 .
+lex:D2014\/Artigo4    lex:remetePara    lex:Dnn3855 .

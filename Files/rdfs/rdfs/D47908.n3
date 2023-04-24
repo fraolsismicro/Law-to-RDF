@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D47908    lex:ehUm    lex:DocLegal .
+lex:D47908    lex:temTextoIntegral    lex:HTMLs\/D47908.htm .
+lex:D47908\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D47908    lex:temAlinea    lex:D47908\/AlineaO .
+lex:D47908\/AlineaO    lex:temConteudo    "a) o regime estabelecido pela ConvenÃ§Ã£o de 1931 para as drogas especificadas no Artigo 1, parÃ¡grafo 2, grupo I, dessa ConvenÃ§Ã£o; ou" .
+lex:D47908\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D47908    lex:temAlinea    lex:D47908\/AlineaO .
+lex:D47908\/AlineaO    lex:temConteudo    "b) o regime estabelecido pela ConvenÃ§Ã£o de 1931 para as drogas especificadas no Artigo 1, parÃ¡grafo 2, grupo II, dessa ConvenÃ§Ã£o." .
+lex:D47908\/AlineaO\/ItemQuaisquer    lex:ehUm    lex:Item .
+lex:D47908\/AlineaO    lex:temItem    lex:D47908\/AlineaO\/ItemQuaisquer .
+lex:D47908\/AlineaO\/ItemQuaisquer    lex:temConteudo    "3. Quaisquer conclusÃµes ou decisÃµes tomadas de acÃ´rdo com o parÃ¡grafo precedente serÃ£o levadas, sem demora, ao conhecimento do SecretÃ¡rio Geral das NaÃ§Ãµes Unidas que as comunicarÃ¡ imediatamente a todos os Estados Membros das NaÃ§Ãµes Unidas e aos Estados nÃ£o-membros Partes neste Protocolo, bem como Ã  ComissÃ£o de NarcÃ³ticos e ao ComitÃª Central Permanente." .
+lex:D47908\/AlineaO\/ItemA    lex:ehUm    lex:Item .
+lex:D47908\/AlineaO    lex:temItem    lex:D47908\/AlineaO\/ItemA .
+lex:D47908\/AlineaO\/ItemA    lex:temConteudo    "4. A partir do recebimento da comunicaÃ§Ã£o do SecretÃ¡rio Geral das NaÃ§Ãµes Unidas que notifica uma decisÃ£o tomada em virtude do parÃ¡grafo 2, alÃ­neas a) ou b) acima, os Estados Partes no Presente Protocolo aplicarÃ£o Ã  droga em aprÃªÃ§o o regime apropriado estabelecido pela ConvenÃ§Ã£o de 1931." .
+lex:D47908\/AlineaAssinar    lex:ehUm    lex:Alinea .
+lex:D47908    lex:temAlinea    lex:D47908\/AlineaAssinar .
+lex:D47908\/AlineaAssinar    lex:temConteudo    "a) assinar sem reserva quanto Ã  aceitaÃ§Ã£o;" .
+lex:D47908\/AlineaAssinar    lex:ehUm    lex:Alinea .
+lex:D47908    lex:temAlinea    lex:D47908\/AlineaAssinar .
+lex:D47908\/AlineaAssinar    lex:temConteudo    "b) assinar sob reserva de aceitaÃ§Ã£o e aceitar posteriormente, ou" .
+lex:D47908\/AlineaAceitar    lex:ehUm    lex:Alinea .
+lex:D47908    lex:temAlinea    lex:D47908\/AlineaAceitar .
+lex:D47908\/AlineaAceitar    lex:temConteudo    "c) aceitar." .

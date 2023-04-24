@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1912    lex:ehUm    lex:DocLegal .
+lex:D1912    lex:temTextoIntegral    lex:HTMLs\/D1912.htm .
+lex:D1912\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo1 .
+lex:D1912\/Artigo1    lex:temConteudo    "Art. 1º A Secretaria da Receita Federal poderá alfandegar:" .
+lex:D1912\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1912\/Artigo1    lex:temInciso    lex:D1912\/Artigo1\/IncisoI .
+lex:D1912\/Artigo1\/IncisoI    lex:temConteudo    "I - portos organizados;" .
+lex:D1912\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1912\/Artigo1    lex:temInciso    lex:D1912\/Artigo1\/IncisoII .
+lex:D1912\/Artigo1\/IncisoII    lex:temConteudo    "II - instalações portuárias de uso público;" .
+lex:D1912\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1912\/Artigo1    lex:temInciso    lex:D1912\/Artigo1\/IncisoIII .
+lex:D1912\/Artigo1\/IncisoIII    lex:temConteudo    "III - instalações portuárias de uso privativo localizadas dentro do porto organizado;" .
+lex:D1912\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1912\/Artigo1    lex:temInciso    lex:D1912\/Artigo1\/IncisoIV .
+lex:D1912\/Artigo1\/IncisoIV    lex:temConteudo    "IV - instalações portuárias de uso privativo localizadas fora do porto organizado." .
+lex:D1912\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo1 .
+lex:D1912\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O alfandegamento de que trata este artigo independe de abertura de concorrência por parte da Secretaria da Receita Federal, mas somente será admitido, nas hipóteses dos incisos I e II, quando houver sido observado o procedimento licitatório, para a concessão de sua exploração, nos termos do § 2º do art. 1º e inciso I do art. 4º da Lei nº 8.630, de 25 de fevereiro de 1993." .
+lex:D1912\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo2 .
+lex:D1912\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O alfandegamento somente será efetivado se houver disponibilidade de recursos humanos e materiais, após definidas as condições de instalação dos órgãos de fiscalização aduaneira e de infra-estrutura indispensável à segurança fiscal, e desde que a empresa interessada assuma a condição de fiel depositário da mercadoria sob sua guarda." .
+lex:D1912\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo3 .
+lex:D1912\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Salvo no caso de que trata o § 6º deste artigo, o alfandegamento é subordinado ao preenchimento pela empresa interessada dos seguintes requisitos, além de outros que a Secretaria da Receita Federal venha a estabelecer:" .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaComprovacao    lex:ehUm    lex:Alinea .
+lex:D1912\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1912\/Artigo1\/Paragrafo3\/AlineaComprovacao .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaComprovacao    lex:temConteudo    "a) comprovação da concessão, no caso de porto organizado, ou do direito de construir, reformar, ampliar, melhorar, arrendar e explorar, em se tratando de instalação portuária;" .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaPrevia    lex:ehUm    lex:Alinea .
+lex:D1912\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1912\/Artigo1\/Paragrafo3\/AlineaPrevia .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaPrevia    lex:temConteudo    "b) prévia habilitação ao tráfego internacional pelo Ministério dos Transportes;" .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaPre-qualificacao    lex:ehUm    lex:Alinea .
+lex:D1912\/Artigo1\/Paragrafo3    lex:temAlinea    lex:D1912\/Artigo1\/Paragrafo3\/AlineaPre-qualificacao .
+lex:D1912\/Artigo1\/Paragrafo3\/AlineaPre-qualificacao    lex:temConteudo    "c) pré-qualificação como operador portuário do responsável pela exploração da instalação portuária de uso público." .
+lex:D1912\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo4 .
+lex:D1912\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º O alfandegamento poderá abranger a totalidade ou parte da área do porto organizado ou da instalação portuária." .
+lex:D1912\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo5 .
+lex:D1912\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º Os pedidos de alfandegamento requeridos antes da vigência deste Decreto deverão ajustar-se, se necessário, às exigências deste artigo, no prazo de noventa dias." .
+lex:D1912\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo6 .
+lex:D1912\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º Poderão, ainda, ser alfandegados silos ou tanques para armazenamento de produtos a granel, localizados em áreas contíguas a porto organizado ou instalações portuárias, ligados a estes por tubulações, esteiras rolantes ou similares, instaladas em caráter permanente." .
+lex:D1912\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo7 .
+lex:D1912\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7º O alfandegamento de que trata o parágrafo anterior é subordinado à comprovação do direito de construção e uso das tubulações, esteiras rolantes ou similares, devendo ser observado também o disposto no § 2º." .
+lex:D1912\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo1    lex:temParagrafo    lex:D1912\/Artigo1\/Paragrafo8 .
+lex:D1912\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8º O alfandegamento será revogado se, a qualquer tempo, a empresa interessada deixar de preencher os requisitos previstos no § 3º ou no § 7º." .
+lex:D1912\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo2 .
+lex:D1912\/Artigo2    lex:temConteudo    "Art. 2º Os administradores de portos organizados, de instalações portuárias de uso público ou de instalações portuárias de uso privativo, alfandegados anteriormente à edição da Lei nº 8.630, de 1993, deverão, nos termos deste Decreto, requerer renovação de alfandegamento, no prazo de seis meses, a partir da data de sua publicação." .
+lex:D1912\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo2    lex:temParagrafo    lex:D1912\/Artigo2\/Paragrafo1 .
+lex:D1912\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Os pedidos de renovação de alfandegamento requeridos antes da vigência deste Decreto deverão ajustar-se, se necessário, às exigências do artigo anterior, no prazo de noventa dias." .
+lex:D1912\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo2    lex:temParagrafo    lex:D1912\/Artigo2\/Paragrafo2 .
+lex:D1912\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º A não apresentação do requerimento, no prazo estipulado neste artigo, acarretará caducidade imediata do alfandegamento." .
+lex:D1912\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo3 .
+lex:D1912\/Artigo3    lex:temConteudo    "Art. 3º Os contratos de arrendamento de instalações portuárias de uso público firmados antes da vigência da Lei nº 8.630, de 1993, permanecerão válidos pelo prazo de 24 meses, contado da data de publicação deste Decreto, de conformidade com o disposto no § 2º do art. 42 da Lei nº 8.987, de 13 de fevereiro de 1995." .
+lex:D1912\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo3    lex:temParagrafo    lex:D1912\/Artigo3\/Paragrafo1 .
+lex:D1912\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º O Ministério dos Transportes publicará no Diário Oficial da União a relação dos contratos de arrendamento celebrados nos termos deste artigo." .
+lex:D1912\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo3    lex:temParagrafo    lex:D1912\/Artigo3\/Paragrafo2 .
+lex:D1912\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Se, no prazo previsto neste artigo, não tiver sido possível a realização de licitação, o Ministério dos Transportes ou a administração do porto poderá prorrogá-lo por período não superior a três anos." .
+lex:D1912\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo3    lex:temParagrafo    lex:D1912\/Artigo3\/Paragrafo3 .
+lex:D1912\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º A vigência do alfandegamento das instalações portuárias de que trata este artigo corresponderá à do respectivo contrato." .
+lex:D1912\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo4 .
+lex:D1912\/Artigo4    lex:temConteudo    "Art. 4º A título de ressarcimento das despesas administrativas decorrentes das atividades extraordinárias da fiscalização aduaneira, aplica-se aos portos organizados e instalações portuárias, a partir da data de publicação do ato de alfandegamento, o disposto no art. 566 do Regulamento Aduaneiro, aprovado pelo Decreto nº 91.030, de 5 de março de 1985, conforme previsto no art. 22 do Decreto-lei nº 1.455, de 7 de abril de 1976." .
+lex:D1912\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1912\/Artigo4    lex:temParagrafo    lex:D1912\/Artigo4\/ParagrafoUnico .
+lex:D1912\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os portos organizados e instalações portuárias alfandegados anteriormente à edição da Lei nº 8.630, de 1993, que obtiverem a renovação do alfandegamento nos termos do art. 2º, ficam dispensados do pagamento do ressarcimento, pelo prazo de cinco anos, contado da citada data." .
+lex:D1912\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo5 .
+lex:D1912\/Artigo5    lex:temConteudo    "Art. 5º Compete ao Secretário da Receita Federal declarar o alfandegamento de recintos de zona primária e zona secundária." .
+lex:D1912\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo6 .
+lex:D1912\/Artigo6    lex:temConteudo    "Art. 6º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1912\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1912    lex:temArtigo    lex:D1912\/Artigo7 .
+lex:D1912\/Artigo7    lex:temConteudo    "Art. 7º Revoga-se o inciso II do art. 7º do Regulamento Aduaneiro, aprovado pelo Decreto nº 91.030, de 1985." .

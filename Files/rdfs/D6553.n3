@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6553    lex:ehUm    lex:DocLegal .
+lex:D6553    lex:temTextoIntegral    lex:HTMLs\/D6553.htm .
+lex:D6553\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6553    lex:temArtigo    lex:D6553\/Artigo1 .
+lex:D6553\/Artigo1    lex:temConteudo    "Art. 1o  O limite máximo de área, para efeitos de concessão de título de propriedade ou de direito real de uso, a ser observado para fins do disposto no inciso II do § 2o do art. 17 da Lei no 8.666, de 21 de junho de 1993, é de quinze módulos fiscais." .
+lex:D6553\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6553    lex:temArtigo    lex:D6553\/Artigo2 .
+lex:D6553\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6553\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6553    lex:temArtigo    lex:D6553\/Artigo3 .
+lex:D6553\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o Decreto no 6.232, de 11 de outubro de 2007." .
+lex:D6553\/Artigo1    lex:remetePara    lex:L8666cons\/Artigo17\/Paragrafo2ii .
+lex:D6553\/Artigo3    lex:remetePara    lex:D6232 .

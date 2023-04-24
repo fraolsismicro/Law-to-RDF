@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12896    lex:ehUm    lex:DocLegal .
+lex:L12896    lex:temTextoIntegral    lex:HTMLs\/L12896.htm .
+lex:L12896\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12896    lex:temArtigo    lex:L12896\/Artigo1 .
+lex:L12896\/Artigo1    lex:temConteudo    "Art. 1o O art. 15 da Lei no 10.741, de 1o de outubro de 2003, passa a vigorar acrescido dos seguintes §§ 5o e 6o:" .
+lex:L12896\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L12896\/Artigo1    lex:temParagrafo    lex:L12896\/Artigo1\/Paragrafo5 .
+lex:L12896\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o É vedado exigir o comparecimento do idoso enfermo perante os órgãos públicos, hipótese na qual será admitido o seguinte procedimento:" .
+lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L12896\/Artigo1\/Paragrafo5    lex:temParagrafoInciso    lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoI .
+lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoI    lex:temConteudo    "I - quando de interesse do poder público, o agente promoverá o contato necessário com o idoso em sua residência; ou" .
+lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12896\/Artigo1\/Paragrafo5    lex:temParagrafoInciso    lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoII .
+lex:L12896\/Artigo1\/Paragrafo5\/ParagrafoIncisoII    lex:temConteudo    "II - quando de interesse do próprio idoso, este se fará representar por procurador legalmente constituído." .
+lex:L12896\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L12896\/Artigo1    lex:temParagrafo    lex:L12896\/Artigo1\/Paragrafo6 .
+lex:L12896\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o É assegurado ao idoso enfermo o atendimento domiciliar pela perícia médica do Instituto Nacional do Seguro Social - INSS, pelo serviço público de saúde ou pelo serviço privado de saúde, contratado ou conveniado, que integre o Sistema Único de Saúde - SUS, para expedição do laudo de saúde necessário ao exercício de seus direitos sociais e de isenção tributária. (NR)" .
+lex:L12896\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12896    lex:temArtigo    lex:L12896\/Artigo2 .
+lex:L12896\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L12896\/Artigo1    lex:remetePara    lex:L10741 .
+lex:L12896\/Artigo1\/Paragrafo5    lex:remetePara    lex:L10741\/Artigo15\/Paragrafo5 .

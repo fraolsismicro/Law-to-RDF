@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D23174    lex:ehUm    lex:DocLegal .
+lex:D23174    lex:temTextoIntegral    lex:HTMLs\/D23174.htm .
+lex:D23174\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D23174    lex:temArtigo    lex:D23174\/Artigo1 .
+lex:D23174\/Artigo1    lex:temConteudo    "Art. 1º O art. 64 do regulamento aprovado pelo decreto n. 22.981, de 25 de julho de 1933, passa a ter a seguinte redação:" .
+lex:D23174\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo1 .
+lex:D23174\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Para esse efeito o Instituto do Açúcar e do Álcool fornecerá às Alfândegas que despacham gasolina a granél a relação, nunca inferior a quatro, dos técnicos de que dispõe nas cidades onde se processam tais despachos, e as eles serão as medições distribuidas de forma que ao mesmo não toquem duas seguidas." .
+lex:D23174\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo2 .
+lex:D23174\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Quando o número de técnicos oficiais fôr inferior a quatro, poderá o inspetor da Alfândega completá-lo, incluido na lista engenheiros de sua escôlha e a êstes últimos será abonada a gratificação de duzentos mil réis (200$00) pelo primeiro tanque de gasolina medido e a de cem mil réis (100$000) pelos seguintes de uma mesma partida, pagas pelo Instituto do Açúcar e do Álcool, mediante atestado passado pela Alfândega e rubricado pelo respectivo inspetor." .
+lex:D23174\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo3 .
+lex:D23174\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O técnico deverá sempre orientar o seu serviço de forma a assegurar a perfeita que lhe forem solicitadas, trabalhando juntamente e de acôrdo com o conferente." .
+lex:D23174\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo4 .
+lex:D23174\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Terminada a medição, o técnico ministrará a Alfândega as informações necessárias, de conformidade com a norma estabelecida pelo Ministério da Fazenda, e ao Instituto do Açúcar e do Álcool entregará imediatamente cópia autêntica dêsse trabalho." .
+lex:D23174\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo5 .
+lex:D23174\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º A designação do técnico será requerida pelo importador de gasolina ao inspetor da Alfândega que a vai despachar, sete dias, pelos menos, antes da chegada do vapor que a transporta, e feita será imediatamente comunicada por aquela autoridade ao técnico escolhido e ao Instituto do Açúcar e do Álcool." .
+lex:D23174\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D23174\/Artigo1    lex:temParagrafo    lex:D23174\/Artigo1\/Paragrafo6 .
+lex:D23174\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º Pelo serviço de medição da gasolina importada a granél não poderá ser cobrada do importador quantia alguma, além da taxa de dois réis por quilo, criada pelo art. 14 do decreto n. 20.356, de 1 de setembro de 1931, sendo, porém, de seu encargo o transporte dos funcionários para o local onde se vai proceder à conferência e medição." .
+lex:D23174\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D23174    lex:temArtigo    lex:D23174\/Artigo2 .
+lex:D23174\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:D23174\/Texto    lex:remetePara    lex:D23174 .
+lex:D23174\/Artigo1    lex:regulamentadoPor    lex:D22981\/Artigo64 .
+lex:D22981\/Artigo64    lex:regulamenta    lex:D23174\/Artigo1 .
+lex:D23174\/Artigo1\/Paragrafo6    lex:remetePara    lex:D20356\/Artigo14 .

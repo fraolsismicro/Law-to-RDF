@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1589    lex:ehUm    lex:DocLegal .
+lex:Del1589    lex:temTextoIntegral    lex:HTMLs\/Del1589.htm .
+lex:Del1589\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1589    lex:temArtigo    lex:Del1589\/Artigo1 .
+lex:Del1589\/Artigo1    lex:temConteudo    "Art. 1º - Fica prorrogado até 30 de junho de 1979 o prazo previsto no artigo 1º do Decreto-lei número 1.501, de 20 de dezembro de 1976, que dispõe sobre vigência dos Decretos-leis nºs 1.334, 1.364 e 1.421, respectivamente de 25 de junho de 1974; 28 de novembro de 1974 e 09 de outubro de 1975, mantidas as suas demais disposições e as alterações posteriores introduzidas por Resoluções do Conselho de Política Aduaneira ou de sua Comissão Executiva." .
+lex:Del1589\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1589    lex:temArtigo    lex:Del1589\/Artigo2 .
+lex:Del1589\/Artigo2    lex:temConteudo    "Art. 2º - Em decorrência de alterações introduzidas na Nomenclatura Brasileira de mercadorias, pelo Comitê Brasileiro de Nomenclatura, a posição 87.02 a seus desdobramentos passam a constar no anexo do Decreto-lei nº 1.364, de 28 de novembro de 1974, sob a forma abaixo:" .
+lex:Del1589\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1589    lex:temArtigo    lex:Del1589\/Artigo3 .
+lex:Del1589\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entrará em vigor a 1º de Janeiro de 1978, revogadas as disposições em contrário." .
+lex:Del1589\/Artigo1    lex:remetePara    lex:Del1501\/Artigo1 .
+lex:Del1589\/Artigo1    lex:remetePara    lex:Del1334\/ .
+lex:Del1589\/Artigo1    lex:remetePara    lex:Del1364 .
+lex:Del1589\/Artigo1    lex:remetePara    lex:Del1421 .
+lex:Del1589\/Artigo2    lex:remetePara    lex:Del1364 .

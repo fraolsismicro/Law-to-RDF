@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8590    lex:ehUm    lex:DocLegal .
+lex:D8590    lex:temTextoIntegral    lex:HTMLs\/D8590.htm .
+lex:D8590\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8590    lex:temArtigo    lex:D8590\/Artigo1 .
+lex:D8590\/Artigo1    lex:temConteudo    "Art. 1 º  Fica aprovado, na forma do Anexo, o Estatuto Social da Empresa Gestora de Ativos - EMGEA." .
+lex:D8590\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8590    lex:temArtigo    lex:D8590\/Artigo2 .
+lex:D8590\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8590\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8590    lex:temArtigo    lex:D8590\/Artigo3 .
+lex:D8590\/Artigo3    lex:temConteudo    "Art. 3 º  Fica revogado o Decreto n º 7.122, de 3 de março de 2010." .
+lex:D8590\/Artigo3    lex:remetePara    lex:D7122 .

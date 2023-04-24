@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10477    lex:ehUm    lex:DocLegal .
+lex:D10477    lex:temTextoIntegral    lex:HTMLs\/D10477.htm .
+lex:D10477\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10477    lex:temArtigo    lex:D10477\/Artigo1A .
+lex:D10477\/Artigo1A    lex:temConteudo    "Art. 1Âº  Ficam remanejados, na forma do Anexo I, da Secretaria de GestÃ£o da Secretaria Especial de DesburocratizaÃ§Ã£o, GestÃ£o e Governo Digital do MinistÃ©rio da Economia para o MinistÃ©rio da SaÃºde, os seguintes cargos em comissÃ£o do Grupo-DireÃ§Ã£o e Assessoramento Superiores - DAS:" .
+lex:D10477\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10477    lex:temArtigo    lex:D10477\/Artigo2A .
+lex:D10477\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Anexo I ao Decreto nÂº 9.795, de 17 de maio de 2019, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10477\/Artigo2A\/Alinea    lex:ehUm    lex:Alinea .
+lex:D10477\/Artigo2A    lex:temAlinea    lex:D10477\/Artigo2A\/Alinea .
+lex:D10477\/Artigo2A\/Alinea    lex:temConteudo    "b) ........................................................................................................................." .
+lex:D10477\/Artigo2A\/Alinea\/Item    lex:ehUm    lex:Item .
+lex:D10477\/Artigo2A\/Alinea    lex:temItem    lex:D10477\/Artigo2A\/Alinea\/Item .
+lex:D10477\/Artigo2A\/Alinea\/Item    lex:temConteudo    "..................................................................................................................................." .
+lex:D10477\/Artigo2A\/Alinea\/ItemDepartamento    lex:ehUm    lex:Item .
+lex:D10477\/Artigo2A\/Alinea    lex:temItem    lex:D10477\/Artigo2A\/Alinea\/ItemDepartamento .
+lex:D10477\/Artigo2A\/Alinea\/ItemDepartamento    lex:temConteudo    "9. Departamento de SaÃºde Digital;" .
+lex:D10477\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10477    lex:temArtigo    lex:D10477\/Artigo3A .
+lex:D10477\/Artigo3A    lex:temConteudo    "Art. 3Âº  Aplica-se o disposto nos art. 13 ao art. 19 do Decreto nÂº 9.739, de 28 de marÃ§o de 2019, quanto ao regimento interno, ao registro de dados no Sistema de OrganizaÃ§Ã£o e InovaÃ§Ã£o Institucional do Governo Federal - Siorg, Ã  permuta entre DAS e FCPE e Ã  realocaÃ§Ã£o de cargos em comissÃ£o e funÃ§Ãµes de confianÃ§a na Estrutura Regimental do MinistÃ©rio da SaÃºde." .
+lex:D10477\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D10477    lex:temArtigo    lex:D10477\/Artigo5A .
+lex:D10477\/Artigo5A    lex:temConteudo    "Art. 5Âº  Fica revogado o inciso IV do caput do art. 23 do Anexo I ao Decreto nÂº 9.795, de 2019." .
+lex:D10477\/Artigo6A    lex:ehUm    lex:Artigo .
+lex:D10477    lex:temArtigo    lex:D10477\/Artigo6A .
+lex:D10477\/Artigo6A    lex:temConteudo    "Art. 6Âº  Este Decreto entra em vigor em 4 de setembro de 2020." .
+lex:D10477\/Artigo2A    lex:remetePara    lex:D9795 .
+lex:D10477\/Artigo2A\/Alinea\/ItemDepartamento    lex:remetePara    lex:D9795\/anexo1Artigo2ib90 .
+lex:D10477\/Artigo2A\/Alinea\/Texto00005    lex:remetePara    lex:D9795\/anexo1Artigo2ib100 .
+lex:D10477\/Artigo2A\/Alinea\/Texto00005    lex:remetePara    lex:D9795\/anexo1Artigo2ib11 .
+lex:D10477\/Artigo2A\/Alinea\/Texto00005    lex:remetePara    lex:D9795\/anexo1Artigo14 .
+lex:D10477\/Artigo2A\/Alinea\/Texto00005    lex:remetePara    lex:D9795\/anexo1Artigo22vi0 .
+lex:D10477\/Artigo3A    lex:remetePara    lex:D9739\/Artigo13 .
+lex:D10477\/Artigo4A    lex:remetePara    lex:D9795\/anexo21 .
+lex:D10477\/Artigo4A    lex:revogadoPor    lex:D10697\/Artigo8 .
+lex:D10697\/Artigo8    lex:revogou    lex:D10477\/Artigo4A .
+lex:D10477\/Artigo4A    lex:remetePara    lex:D10697\/Artigo9 .
+lex:D10477\/Artigo5A    lex:remetePara    lex:D9795\/anexo1Artigo23 .
+lex:D10477\/Texto00008    lex:remetePara    lex:D9795\/anexo21 .
+lex:D10477\/Texto00008    lex:revogadoPor    lex:D10697\/Artigo8 .
+lex:D10697\/Artigo8    lex:revogou    lex:D10477\/Texto00008 .
+lex:D10477\/Texto00008    lex:remetePara    lex:D10697\/Artigo9 .

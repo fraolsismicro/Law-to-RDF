@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1333    lex:ehUm    lex:DocLegal .
+lex:D1333    lex:temTextoIntegral    lex:HTMLs\/D1333.htm .
+lex:D1333\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1333    lex:temArtigo    lex:D1333\/Artigo1 .
+lex:D1333\/Artigo1    lex:temConteudo    "Art. 1º Fica o Ministério dos Transportes autorizado:" .
+lex:D1333\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1333\/Artigo1    lex:temInciso    lex:D1333\/Artigo1\/IncisoI .
+lex:D1333\/Artigo1\/IncisoI    lex:temConteudo    "I - a descentralizar às companhias docas federais ou às Unidades Federadas, mediante convênio, com prazo de vigência até 31 de dezembro de 1995, a execução das atividades de administração dos portos, das hidrovias, das eclusas e dos serviços a que se refere o art. 1º do Decreto nº 99.475, de 24 de agosto de 1990." .
+lex:D1333\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1333\/Artigo1    lex:temInciso    lex:D1333\/Artigo1\/IncisoII .
+lex:D1333\/Artigo1\/IncisoII    lex:temConteudo    "II - a constituir Grupo de Trabalho com o objetivo específico de examinar e propor ao Poder Executivo as alternativas legais e regulamentares de organização das atividades de administração dos portos, das hidrovias, das eclusas e dos serviços a que se refere o art. 1º do Decreto nº 99.475, de 24 de agosto de 1990." .
+lex:D1333\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1333\/Artigo1    lex:temParagrafo    lex:D1333\/Artigo1\/ParagrafoUnico .
+lex:D1333\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Além de técnicos do Ministério dos Transportes, integrarão o Grupo de Trabalho um representante do Ministério da Fazenda, da Secretaria de Administração Federal, da Presidência da República, por indicação dos respectivos titulares." .
+lex:D1333\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1333    lex:temArtigo    lex:D1333\/Artigo2 .
+lex:D1333\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .

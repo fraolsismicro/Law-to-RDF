@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D96458    lex:ehUm    lex:DocLegal .
+lex:D96458    lex:temTextoIntegral    lex:HTMLs\/D96458.htm .
+lex:D96458\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D96458    lex:temInciso    lex:D96458\/IncisoI .
+lex:D96458\/IncisoI    lex:temConteudo    "I - ..................................................." .
+lex:D96458\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D96458    lex:temInciso    lex:D96458\/IncisoII .
+lex:D96458\/IncisoII    lex:temConteudo    "II - ..................................................." .
+lex:D96458\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D96458    lex:temInciso    lex:D96458\/IncisoIII .
+lex:D96458\/IncisoIII    lex:temConteudo    "III - ..................................................." .
+lex:D96458\/Texto    lex:revogadoPor    lex:D0967\/Artigo46 .
+lex:D0967\/Artigo46    lex:revogou    lex:D96458\/Texto .
+lex:D96458\/Texto    lex:remetePara    lex:D96458 .

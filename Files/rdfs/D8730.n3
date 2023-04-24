@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8730    lex:ehUm    lex:DocLegal .
+lex:D8730    lex:temTextoIntegral    lex:HTMLs\/D8730.htm .
+lex:D8730\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoI .
+lex:D8730\/IncisoI    lex:temConteudo    "I - um DAS 101.6;" .
+lex:D8730\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoII .
+lex:D8730\/IncisoII    lex:temConteudo    "II - dois DAS 101.5;" .
+lex:D8730\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoIII .
+lex:D8730\/IncisoIII    lex:temConteudo    "III - onze DAS 101.3;" .
+lex:D8730\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoIV .
+lex:D8730\/IncisoIV    lex:temConteudo    "IV - três DAS 101.2;" .
+lex:D8730\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoV .
+lex:D8730\/IncisoV    lex:temConteudo    "V - seis DAS 102.4;" .
+lex:D8730\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoVI .
+lex:D8730\/IncisoVI    lex:temConteudo    "VI - quatro DAS 102.3;" .
+lex:D8730\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoVII .
+lex:D8730\/IncisoVII    lex:temConteudo    "VII - onze DAS 102.2; e" .
+lex:D8730\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D8730    lex:temInciso    lex:D8730\/IncisoVIII .
+lex:D8730\/IncisoVIII    lex:temConteudo    "VIII - doze DAS 102.1." .
+lex:D8730\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8730    lex:temParagrafo    lex:D8730\/ParagrafoUnico .
+lex:D8730\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado das Comunicações fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagos, suas denominações e seus níveis." .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D8730\/ParagrafoUnico    lex:temAlinea    lex:D8730\/ParagrafoUnico\/AlineaOs .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "b) os Anexos I, II, III, VIII e IX; e" .
+lex:D8730\/Texto    lex:revogadoPor    lex:D8779 .
+lex:D8779    lex:revogou    lex:D8730\/Texto .
+lex:D8730\/Texto    lex:remetePara    lex:D8730 .
+lex:D8730\/IncisoI    lex:remetePara    lex:D7462 .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/Artigo2 .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/Artigo6 .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/Artigo11 .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/Artigo16 .
+lex:D8730\/AlineaOs    lex:remetePara    lex:D7462\/Artigo17 .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/ParagrafoUnico\/AlineaOs    lex:remetePara    lex:D7462\/ .
+lex:D8730\/ParagrafoUnico\/IncisoII    lex:remetePara    lex:D7665 .

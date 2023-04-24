@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2560    lex:ehUm    lex:DocLegal .
+lex:D2560    lex:temTextoIntegral    lex:HTMLs\/D2560.htm .
+lex:D2560\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2560    lex:temArtigo    lex:D2560\/Artigo1 .
+lex:D2560\/Artigo1    lex:temConteudo    "Art 1º O disposto no art. 1º, incisos I e II, do Decreto nº 757, de 19 de fevereiro de 1993, não se aplica ao Banco do Estado de São Pauto S.A - BANESPA." .
+lex:D2560\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2560    lex:temArtigo    lex:D2560\/Artigo2 .
+lex:D2560\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2560\/Artigo1    lex:remetePara    lex:D0757\/Artigo1 .
+lex:D2560\/Artigo1    lex:remetePara    lex:D0757\/Artigo1 .

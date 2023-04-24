@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6630    lex:ehUm    lex:DocLegal .
+lex:D6630    lex:temTextoIntegral    lex:HTMLs\/D6630.htm .
+lex:D6630\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6630    lex:temArtigo    lex:D6630\/Artigo1 .
+lex:D6630\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 5o e 6o do Decreto no 6.226, de 4 de outubro de 2007, passam a vigorar com a seguinte redação:" .
+lex:D6630\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6630\/Artigo1    lex:temParagrafo    lex:D6630\/Artigo1\/Paragrafo1 .
+lex:D6630\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ............................................................................" .
+lex:D6630\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6630\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6630\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI .
+lex:D6630\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:temConteudo    "XVI - Secretaria Especial de Políticas para as Mulheres da Presidência da República." .
+lex:D6630\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6630\/Artigo1    lex:temParagrafo    lex:D6630\/Artigo1\/Paragrafo2 .
+lex:D6630\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O Ministério da Cultura será representado por seu Ministro de Estado, e os demais membros e respectivos suplentes indicados pelos titulares dos órgãos representados e designados em portaria do Ministro de Estado da Cultura." .
+lex:D6630\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6630\/Artigo1    lex:temParagrafo    lex:D6630\/Artigo1\/Paragrafo1 .
+lex:D6630\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º  O Comitê Executivo será presidido pelo Ministro de Estado da Cultura." .
+lex:D6630\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6630\/Artigo1    lex:temParagrafo    lex:D6630\/Artigo1\/Paragrafo2 .
+lex:D6630\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A Coordenação-Executiva do programa ficará a cargo da Secretaria de Articulação Institucional do Ministério da Cultura. (NR)" .
+lex:D6630\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6630    lex:temArtigo    lex:D6630\/Artigo2 .
+lex:D6630\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6630\/Artigo1    lex:remetePara    lex:D6226 .
+lex:D6630\/Artigo1\/Paragrafo1\/ParagrafoIncisoXVI    lex:remetePara    lex:D6226\/Artigo5\/Paragrafo1xvi .
+lex:D6630\/Artigo1\/Paragrafo1    lex:remetePara    lex:D6226\/Artigo6\/Paragrafo1 .

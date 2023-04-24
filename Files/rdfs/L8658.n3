@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8658    lex:ehUm    lex:DocLegal .
+lex:L8658    lex:temTextoIntegral    lex:HTMLs\/L8658.htm .
+lex:L8658\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8658    lex:temArtigo    lex:L8658\/Artigo1 .
+lex:L8658\/Artigo1    lex:temConteudo    "Art. 1° As normas dos arts. 1° a 12, inclusive, da Lei n° 8.038, de 28 de maio de 1990, aplicam-se às ações penais de competência originária dos Tribunais de Justiça dos Estados e do Distrito Federal, e dos Tribunais Regionais Federais." .
+lex:L8658\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8658    lex:temArtigo    lex:L8658\/Artigo2 .
+lex:L8658\/Artigo2    lex:temConteudo    "Art. 2° Esta lei entra em vigor na data de sua publicação." .
+lex:L8658\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8658    lex:temArtigo    lex:L8658\/Artigo3 .
+lex:L8658\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se o Título III do Livro II do Decreto-Lei n° 3.689, de 3 de outubro de 1941, e demais disposições em contrário." .
+lex:L8658\/Artigo1    lex:remetePara    lex:L8038\/Artigo1 .
+lex:L8658\/Artigo3    lex:remetePara    lex:Del3689\/ .

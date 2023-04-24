@@ -1,0 +1,84 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4426    lex:ehUm    lex:DocLegal .
+lex:D4426    lex:temTextoIntegral    lex:HTMLs\/D4426.htm .
+lex:D4426\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4426    lex:temArtigo    lex:D4426\/Artigo1 .
+lex:D4426\/Artigo1    lex:temConteudo    "Art. 1o  Ficam incluídos no Programa Nacional de Desestatização - PND, para os fins da Lei no 9.491, de 9 de setembro de 1997, os seguintes empreendimentos de transmissão da Rede Básica do Sistema Elétrico Interligado:" .
+lex:D4426\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoI .
+lex:D4426\/Artigo1\/IncisoI    lex:temConteudo    "I - SISTEMA NORDESTE:" .
+lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Milagres - Tauá - 230 kV, Estado do Ceará; e" .
+lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Teresina - Sobral - Fortaleza - C2 - 500 kV, Estados do Piauí e do Ceará;" .
+lex:D4426\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoII .
+lex:D4426\/Artigo1\/IncisoII    lex:temConteudo    "II - SISTEMA CENTRO-OESTE:" .
+lex:D4426\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoIII .
+lex:D4426\/Artigo1\/IncisoIII    lex:temConteudo    "III - SISTEMA SUDESTE:" .
+lex:D4426\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoIV .
+lex:D4426\/Artigo1\/IncisoIV    lex:temConteudo    "IV - SISTEMA SUL:" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Passo Real - Tapera 2 - 230 kV, Estado do Rio Grande do Sul;" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Palhoça - J. Lacerda B - 230 kV, Estado de Santa Catarina;" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão Salto Santiago - Ivaiporã - 500 kV, Estado do Paraná;" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "d) Linha de Transmissão Ivaiporã - Cascavel Oeste - 500 kV, Estado do Paraná;" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "e) Linha de Transmissão Machadinho - Campos Novos II - 500 kV, Estado de Santa Catarina;" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "f) Linha de Transmissão Taquara - Arroio do Sal - 230 kV, Estado do Rio grande do Sul; e" .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoIV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "g) Linha de Transmissão UHE São Jerônimo - Jaguariaíva - 230 kV, Estado do Paraná;" .
+lex:D4426\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoV .
+lex:D4426\/Artigo1\/IncisoV    lex:temConteudo    "V - INTERLIGAÇÃO DOS SISTEMAS CENTRO-OESTE E SUDESTE:" .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Cuiabá - Barra do Peixe - 500 kV, Estado de Mato Grosso;" .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Barra do Peixe - Subestação Seccionadora - 500 kV, Estados de Mato Grosso e Goiás; e" .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão Subestação Seccionadora - Itumbiara - 500 kV, Estado de Goiás e Minas Gerais;" .
+lex:D4426\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4426\/Artigo1    lex:temInciso    lex:D4426\/Artigo1\/IncisoVI .
+lex:D4426\/Artigo1\/IncisoVI    lex:temConteudo    "VI - INTERLIGAÇÃO DOS SISTEMAS SUL E SUDESTE:" .
+lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoVI    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Londrina - Assis - 500 kV, Estados do Paraná e São Paulo; e" .
+lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D4426\/Artigo1\/IncisoVI\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Assis - Araraquara - 500 kV, Estado de São Paulo." .
+lex:D4426\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4426\/Artigo1    lex:temParagrafo    lex:D4426\/Artigo1\/ParagrafoUnico .
+lex:D4426\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os empreendimentos de transmissão da Rede Básica do Sistema Elétrico Interligado, referidos neste artigo, compreendem ainda as implantações e ampliações das subestações associadas às linhas de transmissão e serão explorados, mediante contrato de concessão, pelos vencedores das respectivas licitações, processadas na conformidade da legislação específica." .
+lex:D4426\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4426    lex:temArtigo    lex:D4426\/Artigo2 .
+lex:D4426\/Artigo2    lex:temConteudo    "Art. 2o  A Agência Nacional de Energia Elétrica - ANEEL será a responsável, nos termos do § 1o do art. 6o da Lei no 9.491, de 1997, pela execução e acompanhamento dos procedimentos relacionados à outorga das concessões dos empreendimentos de transmissão de energia elétrica a que se refere este Decreto." .
+lex:D4426\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4426    lex:temArtigo    lex:D4426\/Artigo3 .
+lex:D4426\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4426\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D4426\/Artigo2    lex:remetePara    lex:L9491\/Artigo6\/Paragrafo1 .

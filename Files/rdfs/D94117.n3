@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94117    lex:ehUm    lex:DocLegal .
+lex:D94117    lex:temTextoIntegral    lex:HTMLs\/D94117.htm .
+lex:D94117\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94117    lex:temArtigo    lex:D94117\/Artigo1 .
+lex:D94117\/Artigo1    lex:temConteudo    "Art. 1° A tabela para o cálculo do imposto de renda na fonte, prevista no artigo 4° da Lei n° 7.450, de 23 de dezembro de 1985, observada a dispensa da retenção de imposto no caso de rendimento bruto do trabalho assalariado de até 5 (cinco) salários mínimos, fica reajustada na forma abaixo:" .
+lex:D94117\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94117\/Artigo1    lex:temParagrafo    lex:D94117\/Artigo1\/ParagrafoUnico .
+lex:D94117\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As deduções admitidas para o cálculo da renda líquida mensal ficam reajustadas para:" .
+lex:D94117\/Artigo1\/ParagrafoUnico\/Alinea25    lex:ehUm    lex:Alinea .
+lex:D94117\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D94117\/Artigo1\/ParagrafoUnico\/Alinea25 .
+lex:D94117\/Artigo1\/ParagrafoUnico\/Alinea25    lex:temConteudo    "a) 25% do rendimento bruto, limitado, conforme o disposto no inciso I do artigo 6° da Lei n° 7.450/85, a CZ$2.400,00 (dois mil e quatrocentos cruzados) mensais." .
+lex:D94117\/Artigo1\/ParagrafoUnico\/AlineaCZS45000    lex:ehUm    lex:Alinea .
+lex:D94117\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D94117\/Artigo1\/ParagrafoUnico\/AlineaCZS45000 .
+lex:D94117\/Artigo1\/ParagrafoUnico\/AlineaCZS45000    lex:temConteudo    "b) CZ$450,00 (quatrocentos e cinqüenta cruzados) mensais por dependente." .
+lex:D94117\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94117    lex:temArtigo    lex:D94117\/Artigo2 .
+lex:D94117\/Artigo2    lex:temConteudo    "Art. 2° No exercício financeiro de 1987 a declaração de rendimentos de pessoa física poderá ser entregue até 15 de abril de 1987." .
+lex:D94117\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D94117\/Artigo2    lex:temParagrafo    lex:D94117\/Artigo2\/ParagrafoUnico .
+lex:D94117\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Observado o limite mínimo de valor para cada cota, o imposto de renda devido poderá ser pago em até 8 (oito) parcelas mensais, vencível a primeira delas até 15 de abril de 1987." .
+lex:D94117\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94117    lex:temArtigo    lex:D94117\/Artigo3 .
+lex:D94117\/Artigo3    lex:temConteudo    "Art. 3° O reajuste da tabela contida no artigo 1° é aplicável aos rendimentos auferidos a partir de 1° de março de 1987, pagos ou creditados a partir da publicação deste decreto." .
+lex:D94117\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D94117    lex:temArtigo    lex:D94117\/Artigo4 .
+lex:D94117\/Artigo4    lex:temConteudo    "Art. 4° A Secretaria da Receita Federal poderá baixar os atos necessários à execução deste decreto." .
+lex:D94117\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D94117    lex:temArtigo    lex:D94117\/Artigo5 .
+lex:D94117\/Artigo5    lex:temConteudo    "Art. 5° Revogam-se as disposições em contrário." .
+lex:D94117\/Artigo1    lex:remetePara    lex:L7450\/Artigo4 .
+lex:D94117\/Artigo1\/ParagrafoUnico\/Alinea25    lex:remetePara    lex:L7450\/Artigo6 .

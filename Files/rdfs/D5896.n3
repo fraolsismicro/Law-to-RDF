@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5896    lex:ehUm    lex:DocLegal .
+lex:D5896    lex:temTextoIntegral    lex:HTMLs\/D5896.htm .
+lex:D5896\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5896    lex:temArtigo    lex:D5896\/Artigo1 .
+lex:D5896\/Artigo1    lex:temConteudo    "Art. 1o  O art. 21 do Regulamento para as Polícias Militares e Corpos de Bombeiros Militares (R-200), aprovado pelo Decreto no 88.777, de 30 de setembro de 1983, passa a vigorar com a seguinte redação:" .
+lex:D5896\/Artigo1o-A    lex:ehUm    lex:Artigo .
+lex:D5896    lex:temArtigo    lex:D5896\/Artigo1o-A .
+lex:D5896\/Artigo1o-A    lex:temConteudo    "Art. 1o-A.  A caracterização das cessões para a Secretaria-Geral da Presidência da República e para o Núcleo de Assuntos Estratégicos da Presidência da República como exercício de função de natureza policial-militar ou de interesse policial-militar ou de bombeiro-militar, dos militares dos Estados, do Distrito Federal ou dos Territórios, produz efeitos a partir de 1o de julho de 2005. (Incluído Pelo Decreto nº 6.787, de 2009)." .
+lex:D5896\/Artigo1o-A\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5896\/Artigo1o-A    lex:temParagrafo    lex:D5896\/Artigo1o-A\/ParagrafoUnico .
+lex:D5896\/Artigo1o-A\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Aplica-se o disposto no caput às cessões realizadas para a extinta Secretaria de Comunicação de Governo e Gestão Estratégica da Presidência da República. (Incluído Pelo Decreto nº 6.787, de 2009)." .
+lex:D5896\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5896    lex:temArtigo    lex:D5896\/Artigo2 .
+lex:D5896\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data da sua publicação." .
+lex:D5896\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5896    lex:temArtigo    lex:D5896\/Artigo3 .
+lex:D5896\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os Decretos nos 4.431, de 18 de outubro de 2002, 5.182, de 13 de agosto de 2004, e 5.238, de 8 de outubro de 2004." .
+lex:D5896\/Artigo1    lex:regulamentadoPor    lex:D88777\/Artigo21 .
+lex:D88777\/Artigo21    lex:regulamenta    lex:D5896\/Artigo1 .
+lex:D5896\/Texto00001    lex:revogadoPor    lex:D6604\/Artigo3 .
+lex:D6604\/Artigo3    lex:revogou    lex:D5896\/Texto00001 .
+lex:D5896\/Artigo1o-A    lex:remetePara    lex:D6787\/Artigo1 .
+lex:D5896\/Artigo1o-A\/ParagrafoUnico    lex:remetePara    lex:D6787\/Artigo1 .
+lex:D5896\/Artigo3    lex:remetePara    lex:D4431 .
+lex:D5896\/Artigo3    lex:remetePara    lex:D5182 .
+lex:D5896\/Artigo3    lex:remetePara    lex:D5238 .

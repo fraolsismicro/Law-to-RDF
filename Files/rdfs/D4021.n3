@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4021    lex:ehUm    lex:DocLegal .
+lex:D4021    lex:temTextoIntegral    lex:HTMLs\/D4021.htm .
+lex:D4021\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4021    lex:temArtigo    lex:D4021\/Artigo1 .
+lex:D4021\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção sobre a Marcação de Explosivos Plásticos para Fins de Detecção, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela contém." .
+lex:D4021\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4021    lex:temArtigo    lex:D4021\/Artigo2 .
+lex:D4021\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão da mencionada Convenção, assim como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D4021\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4021    lex:temArtigo    lex:D4021\/Artigo3 .
+lex:D4021\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4021\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4021\/Artigo3    lex:temInciso    lex:D4021\/Artigo3\/IncisoI .
+lex:D4021\/Artigo3\/IncisoI    lex:temConteudo    "I. Os explosivos mencionados no parágrafo 1 do Artigo I desta Convenção são:" .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs    lex:temConteudo    "a) os que contêm em sua fórmula um ou mais explosivos de grande potência, os quais em sua fórmula pura têm uma pressão de vapor inferior a 10-4 Pa em uma temperatura de 25° C;" .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "b) os que contêm em sua fórmula um plastificante; e" .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs .
+lex:D4021\/Artigo3\/IncisoI\/IncisoAlineaOs\/IncisoAlineaOs\/IncisoAlineaOs    lex:temConteudo    "c) os que, uma vez misturados, são maleáveis ou flexíveis em temperatura ambiente normal." .
+lex:D4021\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4021\/Artigo3    lex:temInciso    lex:D4021\/Artigo3\/IncisoII .
+lex:D4021\/Artigo3\/IncisoII    lex:temConteudo    "II. Os seguintes explosivos, mesmo respondendo à descrição dos explosivos contida no parágrafo I desta Parte, não serão considerados explosivos enquanto forem utilizados para os fins especificados a seguir, ou enquanto permanecerem incorporados como especificado adiante, ou seja, os explosivos que:" .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam    lex:temConteudo    "a) sejam fabricados ou que existam em quantidades limitadas unicamente para uso, com a devida autorização, em pesquisa, desenvolvimento ou teste de explosivos novos ou modificados;" .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam    lex:temConteudo    "b) sejam fabricados ou que existam em quantidades limitadas unicamente para uso, com a devida autorização, no treinamento de detecção de explosivos e/ou no desenvolvimento ou teste de equipamentos de detecção de explosivos;" .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam\/IncisoAlineaSejam    lex:ehUm    lex:IncisoAlinea .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam    lex:temIncisoAlinea    lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam\/IncisoAlineaSejam .
+lex:D4021\/Artigo3\/IncisoII\/IncisoAlineaSejam\/IncisoAlineaSejam\/IncisoAlineaSejam    lex:temConteudo    "c) sejam fabricados ou que existam em quantidades limitadas unicamente para uso, com a devida autorização, para os fins das ciências auxiliares da administração da justiça; ou" .
+lex:D4021\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4021\/Artigo3    lex:temInciso    lex:D4021\/Artigo3\/IncisoIII .
+lex:D4021\/Artigo3\/IncisoIII    lex:temConteudo    "III. Nesta Parte:" .
+lex:D4021\/Artigo2    lex:remetePara    lex:Constituiçao\/49 .

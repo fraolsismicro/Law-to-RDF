@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:Lcp164    lex:ehUm    lex:DocLegal .
+lex:Lcp164    lex:temTextoIntegral    lex:HTMLs\/Lcp164.htm .
+lex:Lcp164\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp164    lex:temArtigo    lex:Lcp164\/Artigo1 .
+lex:Lcp164\/Artigo1    lex:temConteudo    "Art. 1o  O art. 23 da Lei Complementar nÂº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), passa a vigorar acrescido dos seguintes Â§Â§ 5Âº e 6Âº:" .
+lex:Lcp164\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:Lcp164    lex:temArtigo    lex:Lcp164\/Artigo2A .
+lex:Lcp164\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei Complementar entra em vigor na data de sua publicaÃ§Ã£o e produzirÃ¡ efeitos a partir do exercÃ­cio financeiro subsequente." .
+lex:Lcp164\/Artigo1    lex:remetePara    lex:Lcp101 .
+lex:Lcp164\/Texto00001    lex:remetePara    lex:Lcp101\/Artigo23Â§5 .

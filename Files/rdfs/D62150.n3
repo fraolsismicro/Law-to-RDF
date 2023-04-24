@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D62150    lex:ehUm    lex:DocLegal .
+lex:D62150    lex:temTextoIntegral    lex:HTMLs\/D62150.htm .
+lex:D62150\/AlineaToda    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaToda .
+lex:D62150\/AlineaToda    lex:temConteudo    "a) Tôda distinção, exclusão ou preferência fundada na raça, côr, sexo, religião, opinião política, ascendência nacional ou origem social, que tenha por efeito destruir ou alterar a igualdade de oportunidades ou de tratamento em matéria de emprêgo ou profissão;" .
+lex:D62150\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaQualquer .
+lex:D62150\/AlineaQualquer    lex:temConteudo    "b) Qualquer outra distinção, exclusão ou preferência que tenha por efeito destruir ou alterar a igualdade de oportunidades ou tratamento em matéria de emprêgo ou profissão, que poderá ser especificada pelo Membro Interessado depois de consultadas as organizações representativas de empregadores e trabalhadores, quando estas existam, e outros organismos adequados." .
+lex:D62150\/AlineaQualquer\/ItemAs    lex:ehUm    lex:Item .
+lex:D62150\/AlineaQualquer    lex:temItem    lex:D62150\/AlineaQualquer\/ItemAs .
+lex:D62150\/AlineaQualquer\/ItemAs    lex:temConteudo    "2. As distinção, exclusões ou preferências fundadas em qualificações exigidas para um determinado emprêgo não são consideradas como discriminação." .
+lex:D62150\/AlineaQualquer\/ItemPara    lex:ehUm    lex:Item .
+lex:D62150\/AlineaQualquer    lex:temItem    lex:D62150\/AlineaQualquer\/ItemPara .
+lex:D62150\/AlineaQualquer\/ItemPara    lex:temConteudo    "3. Para os fins da presente convenção as palavras 'emprêgo' e 'profissão' incluem o acesso à formação profissional, ao emprêgo e às diferentes profissões, bem como as condições de emprêgo." .
+lex:D62150\/AlineaEsforcar-se    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaEsforcar-se .
+lex:D62150\/AlineaEsforcar-se    lex:temConteudo    "a) Esforçar-se por obter a colaboração das organização de empregadores e Trabalhadores e de outros organismos apropriados, com o fim de favorecer a aceitação e aplicação desta política;" .
+lex:D62150\/AlineaPromulgar    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaPromulgar .
+lex:D62150\/AlineaPromulgar    lex:temConteudo    "b) Promulgar leis e encorajar os programas de educação próprios a assegurar esta aceitação e esta aplicação;" .
+lex:D62150\/AlineaRevogar    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaRevogar .
+lex:D62150\/AlineaRevogar    lex:temConteudo    "c) Revogar tôdas as disposições legislativas e modificar tôdas as disposições ou práticas, administrativas que sejam incompatíveis com a referida política." .
+lex:D62150\/AlineaSeguir    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaSeguir .
+lex:D62150\/AlineaSeguir    lex:temConteudo    "d) Seguir a referida política no que diz respeito a emprêgos dependentes do contrôle direto de uma autoridade nacional;" .
+lex:D62150\/AlineaAssegurar    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaAssegurar .
+lex:D62150\/AlineaAssegurar    lex:temConteudo    "e) Assegurar a aplicação da referida política nas atividades dos serviços de orientação profissional, formação profissional e colocação dependentes do contrôle de uma autoridade nacional;" .
+lex:D62150\/AlineaIndicar    lex:ehUm    lex:Alinea .
+lex:D62150    lex:temAlinea    lex:D62150\/AlineaIndicar .
+lex:D62150\/AlineaIndicar    lex:temConteudo    "f) Indicar, nos seus relatórios anuais sôbre a aplicação da convenção, as medidas tomadas em conformidades com esta política e os resultados obtidos." .

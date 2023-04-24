@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3897    lex:ehUm    lex:DocLegal .
+lex:D3897    lex:temTextoIntegral    lex:HTMLs\/D3897.htm .
+lex:D3897\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3897    lex:temParagrafo    lex:D3897\/ParagrafoUnico .
+lex:D3897\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Consideram-se esgotados os meios previstos no art. 144 da Constituição, inclusive no que concerne às Polícias Militares, quando, em determinado momento, indisponíveis, inexistentes, ou insuficientes ao desempenho regular de sua missão constitucional." .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3897\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - do Ministério da Defesa, especialmente:" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaEmpregar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaEmpregar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaEmpregar    lex:temConteudo    "a) empregar as Forças Armadas em operações decorrentes de decisão do Presidente da República;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPlanejar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPlanejar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPlanejar    lex:temConteudo    "b) planejar e coordenar as ações militares destinadas à garantia da lei e da ordem, em qualquer parte do território nacional, conforme determinado pelo Presidente da República, observadas as disposições deste Decreto, além de outras que venham a ser estabelecidas, bem como a legislação pertinente em vigor;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConstituir    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConstituir .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaConstituir    lex:temConteudo    "c) constituir órgãos operacionais, quando a situação assim o exigir, e assessorar o Presidente da República com relação ao momento da ativação, desativação, início e fim de seu emprego;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSolicitar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSolicitar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaSolicitar    lex:temConteudo    "d) solicitar, quando for o caso, os recursos orçamentários necessários ao cumprimento da missão determinada, devendo diligenciar, junto aos Ministérios do Planejamento, Orçamento e Gestão e da Fazenda, no sentido de que os créditos e os respectivos recursos sejam tempestivamente liberados, em coordenação com os demais órgãos envolvidos;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaManter    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaManter .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaManter    lex:temConteudo    "e) manter o Ministério das Relações Exteriores informado sobre as medidas adotadas pela União, na área militar, quando houver possibilidade de repercussão internacional;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPrestar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPrestar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaPrestar    lex:temConteudo    "f) prestar apoio logístico, de inteligência, de comunicações e de instrução, bem como assessoramento aos órgãos governamentais envolvidos nas ações de garantia da lei e da ordem, inclusive nas de combate aos delitos transfronteiriços e ambientais, quando determinado;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3897\/ParagrafoUnico    lex:temParagrafoInciso    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - do Gabinete de Segurança Institucional da Presidência da República:" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaCentralizar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaCentralizar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaCentralizar    lex:temConteudo    "a) centralizar, por meio da Agência Brasileira de Inteligência, os conhecimentos que interessem ao planejamento e à execução de medidas a serem adotadas pelo Governo Federal, produzidos pelos órgãos de inteligência como subsídios às decisões presidenciais;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaProver    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaProver .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaProver    lex:temConteudo    "b) prover informações ao Presidente da República nos assuntos referentes à garantia da lei e da ordem, particularmente os discutidos na Câmara de Relações Exteriores e Defesa Nacional;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaPrevenir    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaPrevenir .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaPrevenir    lex:temConteudo    "c) prevenir a ocorrência e articular o gerenciamento de crises, inclusive, se necessário, ativando e fazendo operar o Gabinete de Crise;" .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaContatar    lex:ehUm    lex:Alinea .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaContatar .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaContatar    lex:temConteudo    "e) contatar, em situação de atuação das Forças Armadas com as polícias militares, o Governador do Estado, ou do Distrito Federal, conforme o caso, a fim de articular a passagem de efetivos da respectiva polícia militar ao controle operacional do comando militar responsável pelas operações terrestres." .
+lex:D3897\/Artigo3    lex:remetePara    lex:Constituiçao\/Artigo144 .
+lex:D3897\/ParagrafoUnico    lex:remetePara    lex:Constituiçao\/Artigo144 .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/Paragrafo3    lex:remetePara    lex:L9028\/Artigo22 .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/Artigo8    lex:remetePara    lex:Constituiçao\/Artigo34 .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/Artigo8    lex:remetePara    lex:Constituiçao\/136 .
+lex:D3897\/ParagrafoUnico\/ParagrafoIncisoII\/Artigo8    lex:remetePara    lex:Constituiçao\/Artigo137 .

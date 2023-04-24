@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5065    lex:ehUm    lex:DocLegal .
+lex:D5065    lex:temTextoIntegral    lex:HTMLs\/D5065.htm .
+lex:D5065\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5065    lex:temInciso    lex:D5065\/IncisoI .
+lex:D5065\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Justiça: um DAS 101.3; e sessenta e três FG-1; e" .
+lex:D5065\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5065    lex:temInciso    lex:D5065\/IncisoII .
+lex:D5065\/IncisoII    lex:temConteudo    "II - do Ministério da Justiça, para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: um DAS 101.4; um DAS 102.3; um DAS 102.1; e sessenta e quatro FG-3." .
+lex:D5065\/IncisoII\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5065\/IncisoII    lex:temIncisoAlinea    lex:D5065\/IncisoII\/IncisoAlinea .
+lex:D5065\/IncisoII\/IncisoAlinea    lex:temConteudo    "a)  QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA JUSTIÇA." .
+lex:D5065\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:D5065    lex:temParagrafo    lex:D5065\/Paragraf .
+lex:D5065\/Paragraf    lex:temConteudo    "Nº" .
+lex:D5065\/Paragraf\/Alinea    lex:ehUm    lex:Alinea .
+lex:D5065\/Paragraf    lex:temAlinea    lex:D5065\/Paragraf\/Alinea .
+lex:D5065\/Paragraf\/Alinea    lex:temConteudo    "b)  QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA JUSTIÇA." .
+lex:D5065\/Artigo2    lex:remetePara    lex:D4991\/ .

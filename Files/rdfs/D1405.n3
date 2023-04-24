@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1405    lex:ehUm    lex:DocLegal .
+lex:D1405    lex:temTextoIntegral    lex:HTMLs\/D1405.htm .
+lex:D1405\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1405    lex:temArtigo    lex:D1405\/Artigo1 .
+lex:D1405\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovada a alteração do Estatuto Social da Petróleo Brasileiro S.A. (Petrobrás), conforme deliberação da Assembléia Geral Extraordinária, realizada em 8 de julho de 1994, passando o seu art. 8º a ter a seguinte redação:" .
+lex:D1405\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1405\/Artigo1    lex:temParagrafo    lex:D1405\/Artigo1\/ParagrafoUnico .
+lex:D1405\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Existindo certificados de ações da Companhia, esta poderá emitir títulos múltiplos de ações ou cautelas que as representem'." .
+lex:D1405\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1405    lex:temArtigo    lex:D1405\/Artigo2 .
+lex:D1405\/Artigo2    lex:temConteudo    "Art. 2 º Este decreto entra em vigor na data de sua publicação." .
+lex:D1405\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1405    lex:temArtigo    lex:D1405\/Artigo3 .
+lex:D1405\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:D1405\/Texto00001    lex:remetePara    lex:Dnn0001\/Artigo8 .

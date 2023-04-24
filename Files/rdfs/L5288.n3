@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5288    lex:ehUm    lex:DocLegal .
+lex:L5288    lex:temTextoIntegral    lex:HTMLs\/L5288.htm .
+lex:L5288\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5288    lex:temArtigo    lex:L5288\/Artigo1 .
+lex:L5288\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a doar à Prefeitura Municipal de Campina Grande, Estado da Paraíba, o prédio nº 312, situado na Avenida Marechal Floriano, nessa Cidade, para instalação do Museu do Município." .
+lex:L5288\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5288\/Artigo1    lex:temParagrafo    lex:L5288\/Artigo1\/ParagrafoUnico .
+lex:L5288\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prédio doado não poderá ser alienado e nem desviado para outro fim, sob pena de reverter ao patrimônio da União." .
+lex:L5288\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5288    lex:temArtigo    lex:L5288\/Artigo2 .
+lex:L5288\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5288\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5288    lex:temArtigo    lex:L5288\/Artigo3 .
+lex:L5288\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .

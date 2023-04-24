@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8390    lex:ehUm    lex:DocLegal .
+lex:L8390    lex:temTextoIntegral    lex:HTMLs\/L8390.htm .
+lex:L8390\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8390    lex:temArtigo    lex:L8390\/Artigo1 .
+lex:L8390\/Artigo1    lex:temConteudo    "Art. 1° A antecipação concedida de acordo com a Lei n° 8.216, de 15 de agosto de 1991, passa a ser considerada como reajuste, não sendo compensada na data-base." .
+lex:L8390\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8390    lex:temArtigo    lex:L8390\/Artigo2 .
+lex:L8390\/Artigo2    lex:temConteudo    "Art. 2° São fixados, para fins da revisão geral de vencimentos, soldos, proventos, pensões e demais retribuições dos servidores civis e militares do Poder Executivo, na administração direta, autarquias, inclusive as de regime especial e fundações, os seguintes percentuais, calculados sobre os valores vigentes no mês de dezembro de 1991, de forma não cumulativa:" .
+lex:L8390\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8390\/Artigo2    lex:temInciso    lex:L8390\/Artigo2\/IncisoI .
+lex:L8390\/Artigo2\/IncisoI    lex:temConteudo    "I - quarenta por cento a partir de 1° de janeiro;" .
+lex:L8390\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8390\/Artigo2    lex:temInciso    lex:L8390\/Artigo2\/IncisoII .
+lex:L8390\/Artigo2\/IncisoII    lex:temConteudo    "II - setenta e cinco por cento a partir de 1° de fevereiro; e" .
+lex:L8390\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8390\/Artigo2    lex:temInciso    lex:L8390\/Artigo2\/IncisoIII .
+lex:L8390\/Artigo2\/IncisoIII    lex:temConteudo    "III - cem por cento a partir de 1° de março de 1992." .
+lex:L8390\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8390    lex:temArtigo    lex:L8390\/Artigo3 .
+lex:L8390\/Artigo3    lex:temConteudo    "Art. 3° Esta lei entra em vigor na data de sua publicação." .
+lex:L8390\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8390    lex:temArtigo    lex:L8390\/Artigo4 .
+lex:L8390\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .
+lex:L8390\/Artigo1    lex:remetePara    lex:L8216 .

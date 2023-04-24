@@ -1,0 +1,73 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7690    lex:ehUm    lex:DocLegal .
+lex:D7690    lex:temTextoIntegral    lex:HTMLs\/D7690.htm .
+lex:D7690\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo1 .
+lex:D7690\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério da Educação, na forma dos Anexos I e II." .
+lex:D7690\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo2 .
+lex:D7690\/Artigo2    lex:temConteudo    "Art. 2o  Ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7690\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7690\/Artigo2    lex:temInciso    lex:D7690\/Artigo2\/IncisoI .
+lex:D7690\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão para o Ministério da Educação:" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze    lex:temConteudo    "a) treze DAS 101.3;" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco    lex:temConteudo    "b) cinco DAS 101.2;" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze    lex:temConteudo    "c) treze DAS 101.1;" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres    lex:temConteudo    "d) três DAS 102.5;" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove    lex:temConteudo    "e) nove DAS 102.4; e" .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaTres .
+lex:D7690\/Artigo2\/IncisoI\/IncisoAlineaTreze\/IncisoAlineaCinco\/IncisoAlineaTreze\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaTres    lex:temConteudo    "f) três DAS 102.2; e" .
+lex:D7690\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7690\/Artigo2    lex:temInciso    lex:D7690\/Artigo2\/IncisoII .
+lex:D7690\/Artigo2\/IncisoII    lex:temConteudo    "II - do Ministério da Educação para a Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.5;" .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "b) três DAS 101.4; e" .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:ehUm    lex:IncisoAlinea .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis .
+lex:D7690\/Artigo2\/IncisoII\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaSeis    lex:temConteudo    "c) seis DAS 102.1." .
+lex:D7690\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo3 .
+lex:D7690\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de trinta dias, contado da data de entrada em vigor deste Decreto." .
+lex:D7690\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7690\/Artigo3    lex:temParagrafo    lex:D7690\/Artigo3\/ParagrafoUnico .
+lex:D7690\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado da Educação fará publicar no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções gratificadas a que se refere o Anexo II, indicando, inclusive, o número de cargos e funções vagos, sua denominação e respectivo nível." .
+lex:D7690\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo4 .
+lex:D7690\/Artigo4    lex:temConteudo    "Art. 4o  O Ministro de Estado da Educação poderá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do Ministério, suas competências e as atribuições dos seus dirigentes." .
+lex:D7690\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo5 .
+lex:D7690\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor quatorze dias após a data de sua publicação." .
+lex:D7690\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7690    lex:temArtigo    lex:D7690\/Artigo6 .
+lex:D7690\/Artigo6    lex:temConteudo    "Art. 6o  Ficam revogados:" .
+lex:D7690\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7690\/Artigo6    lex:temInciso    lex:D7690\/Artigo6\/IncisoI .
+lex:D7690\/Artigo6\/IncisoI    lex:temConteudo    "I -  o Decreto no 7.480, de 16 de maio de 2011; e" .
+lex:D7690\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7690\/Artigo6    lex:temInciso    lex:D7690\/Artigo6\/IncisoII .
+lex:D7690\/Artigo6\/IncisoII    lex:temConteudo    "II - o art. 3o e o Anexo III do Decreto no 7.548, de 12 de agosto de 2011." .
+lex:D7690\/Artigo6\/IncisoI    lex:remetePara    lex:D7480 .
+lex:D7690\/Artigo6\/IncisoII    lex:remetePara    lex:D7548\/Artigo3 .
+lex:D7690\/Artigo6\/IncisoII    lex:remetePara    lex:D7548\/ .

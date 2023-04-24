@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5236    lex:ehUm    lex:DocLegal .
+lex:D5236    lex:temTextoIntegral    lex:HTMLs\/D5236.htm .
+lex:D5236\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5236    lex:temParagrafo    lex:D5236\/ParagrafoUnico .
+lex:D5236\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A prorrogação a que se refere o caput somente poderá ser efetivada após a devida verificação, pelo Departamento de Aviação Civil do Comando da Aeronáutica do Ministério da Defesa, da estrita observância das normas de segurança da aviação civil, bem como a adequada prestação dos serviços." .
+lex:D5236\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5236    lex:temArtigo    lex:D5236\/Artigo2 .
+lex:D5236\/Artigo2    lex:temConteudo    "Art. 2o  No ato da assinatura do contrato de que trata o art. 1o, a VASP deverá, obrigatoriamente, comprovar a regularidade fiscal, tributária, previdenciária, jurídica, técnica e econômico-financeira." .
+lex:D5236\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5236    lex:temArtigo    lex:D5236\/Artigo3 .
+lex:D5236\/Artigo3    lex:temConteudo    "Art. 3o  O Ministério da Defesa poderá editar instruções complementares necessárias à execução deste Decreto." .
+lex:D5236\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5236    lex:temArtigo    lex:D5236\/Artigo4 .
+lex:D5236\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5236\/Artigo1    lex:remetePara    lex:D4856\/Artigo2 .
+lex:D5236\/Artigo1    lex:remetePara    lex:D5034\/Artigo1 .

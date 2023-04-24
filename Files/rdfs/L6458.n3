@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6458    lex:ehUm    lex:DocLegal .
+lex:L6458    lex:temTextoIntegral    lex:HTMLs\/L6458.htm .
+lex:L6458\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo1 .
+lex:L6458\/Artigo1    lex:temConteudo    "Art 1º - O § 2º do art. 7º, o Capítulo V (arts. 15 a 18) e o § 4º do art. 22 da lei nº 5.474, de 18 de julho de 1968, passam a vigorar com a seguinte redação:" .
+lex:L6458\/Artigo1\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo1    lex:temParagrafo    lex:L6458\/Artigo1\/Paragrafo- .
+lex:L6458\/Artigo1\/Paragrafo-    lex:temConteudo    "2º - A comunicação de que trata o parágrafo anterior substituirá, quando necessário, no ato do protesto ou na execução judicial, a duplicata a que se refere." .
+lex:L6458\/Artigo15    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo15 .
+lex:L6458\/Artigo15    lex:temConteudo    "Art 15 - A cobrança judicial de duplicata ou triplicata será efetuada de conformidade com o processo aplicável aos títulos executivos extrajudiciais, de que cogita o Livro II do Código de Processo Civil ,quando se tratar:" .
+lex:L6458\/Artigo15\/IncisoL    lex:ehUm    lex:Inciso .
+lex:L6458\/Artigo15    lex:temInciso    lex:L6458\/Artigo15\/IncisoL .
+lex:L6458\/Artigo15\/IncisoL    lex:temConteudo    "l - de duplicata ou triplicata aceita, protestada ou não;" .
+lex:L6458\/Artigo15\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6458\/Artigo15    lex:temInciso    lex:L6458\/Artigo15\/IncisoII .
+lex:L6458\/Artigo15\/IncisoII    lex:temConteudo    "II - de duplicata ou triplicata não aceita, contanto que, cumulativamente:" .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja    lex:ehUm    lex:IncisoAlinea .
+lex:L6458\/Artigo15\/IncisoII    lex:temIncisoAlinea    lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja    lex:temConteudo    "a) haja sido protestada;" .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja    lex:ehUm    lex:IncisoAlinea .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja    lex:temIncisoAlinea    lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja    lex:temConteudo    "b) esteja acompanhada de documento hábil comprobatório da entrega e recebimento da mercadoria; e" .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja    lex:temIncisoAlinea    lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja\/IncisoAlineaO .
+lex:L6458\/Artigo15\/IncisoII\/IncisoAlineaHaja\/IncisoAlineaEsteja\/IncisoAlineaO    lex:temConteudo    "c) o sacado não tenha, comprovadamente, recusado o aceite, no prazo, nas condições e pelos motivos previstos nos arts. 7º e 8º desta Lei." .
+lex:L6458\/Artigo15\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo15    lex:temParagrafo    lex:L6458\/Artigo15\/Paragrafo1 .
+lex:L6458\/Artigo15\/Paragrafo1    lex:temConteudo    "§ 1º - Contra o sacador, os endossantes e respectivos avalistas caberá o processo de execução referido neste artigo, quaisquer que sejam a forma e as condições do protesto." .
+lex:L6458\/Artigo15\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo15    lex:temParagrafo    lex:L6458\/Artigo15\/Paragrafo2 .
+lex:L6458\/Artigo15\/Paragrafo2    lex:temConteudo    "§ 2º - Processar-se-á também da mesma maneira a execução de duplicata ou triplicata não aceita e não devolvida, desde que haja sido protestada mediante indicações do credor ou do apresentante do título, nos termos do art. 14, preenchidas as condições do inciso II deste artigo." .
+lex:L6458\/Artigo16    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo16 .
+lex:L6458\/Artigo16    lex:temConteudo    "Art 16 - Aplica-se o procedimento ordinário previsto no Código de Processo Civil à ação do credor contra o devedor, por duplicata ou triplicata que não preencha os requisitos do art. 15, incisos l e II, e §§ 1º e 2º, bem como à ação para ilidir as razões invocadas pelo devedor para o não aceite do título, nos casos previstos no art. 8º." .
+lex:L6458\/Artigo17    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo17 .
+lex:L6458\/Artigo17    lex:temConteudo    "Art 17 - O foro competente para a cobrança judicial da duplicata ou da triplicata é o da praça de pagamento constante do título, ou outra de domicílio do comprador e, no caso de ação regressiva, a dos sacadores, dos endossantes e respectivos avalistas." .
+lex:L6458\/Artigo18    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo18 .
+lex:L6458\/Artigo18    lex:temConteudo    "Art 18 - A pretensão à execução da duplicata prescreve:" .
+lex:L6458\/Artigo18\/IncisoL    lex:ehUm    lex:Inciso .
+lex:L6458\/Artigo18    lex:temInciso    lex:L6458\/Artigo18\/IncisoL .
+lex:L6458\/Artigo18\/IncisoL    lex:temConteudo    "l - contra o sacado e respectivos avalistas, em 3(três) anos, contados da data do vencimento do título;" .
+lex:L6458\/Artigo18\/IncisoLl    lex:ehUm    lex:Inciso .
+lex:L6458\/Artigo18    lex:temInciso    lex:L6458\/Artigo18\/IncisoLl .
+lex:L6458\/Artigo18\/IncisoLl    lex:temConteudo    "ll - contra endossante e seus avalistas, em 1 (um) ano, contado da data do protesto;" .
+lex:L6458\/Artigo18\/IncisoIll    lex:ehUm    lex:Inciso .
+lex:L6458\/Artigo18    lex:temInciso    lex:L6458\/Artigo18\/IncisoIll .
+lex:L6458\/Artigo18\/IncisoIll    lex:temConteudo    "Ill - de qualquer dos coobrigados contra os demais, em 1 (um) ano, contado da data em que haja sido efetuado o pagamento do título." .
+lex:L6458\/Artigo18\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo18    lex:temParagrafo    lex:L6458\/Artigo18\/Paragrafo1 .
+lex:L6458\/Artigo18\/Paragrafo1    lex:temConteudo    "§ 1º - A cobrança judicial poderá ser proposta contra um ou contra todos os coobrigados, sem observância da ordem em que figurem no título." .
+lex:L6458\/Artigo18\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo18    lex:temParagrafo    lex:L6458\/Artigo18\/Paragrafo2 .
+lex:L6458\/Artigo18\/Paragrafo2    lex:temConteudo    "§ 2º - Os coobrigados da duplicata respondem solidariamente pelo aceite e pelo pagamento." .
+lex:L6458\/Artigo22    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo22 .
+lex:L6458\/Artigo22    lex:temConteudo    "Art 22 - ....................... ......................................." .
+lex:L6458\/Artigo22\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo22    lex:temParagrafo    lex:L6458\/Artigo22\/Paragrafo- .
+lex:L6458\/Artigo22\/Paragrafo-    lex:temConteudo    "4º - O instrumento do protesto, elaborado com as cautelas do art. 14, discriminando a fatura ou conta original ou a certidão do Cartório de Títulos e Documentos, autorizará o ajuizamento do competente processo de execução na forma prescrita nesta Lei.'" .
+lex:L6458\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo2 .
+lex:L6458\/Artigo2    lex:temConteudo    "Art 2º - Para os efeitos do art. 586 do Código de Processo Civil, considera-se título líquido, certo e exigível a duplicata ou a triplicata que, nos termos da Lei nº 5.474, de 18 de julho de 1968, com as alterações introduzidas por esta Lei, legitimar a processo de execução." .
+lex:L6458\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo3 .
+lex:L6458\/Artigo3    lex:temConteudo    "Art 3º - Fica acrescentado ao art. 1º do Decreto-lei nº 7.661, de 21 de junho de 1945, Lei de Falências, o seguinte parágrafo:" .
+lex:L6458\/Artigo3\/Paragrafo-    lex:ehUm    lex:Paragrafo .
+lex:L6458\/Artigo3    lex:temParagrafo    lex:L6458\/Artigo3\/Paragrafo- .
+lex:L6458\/Artigo3\/Paragrafo-    lex:temConteudo    "3º - Para os efeitos desta Lei, considera-se obrigação líquida, legitimando o pedido de falência, a constante dos títulos executivos extrajudiciais mencionados no art. 15 da Lei nº 5.474, de 18 de julho de 1968.'" .
+lex:L6458\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo4 .
+lex:L6458\/Artigo4    lex:temConteudo    "Art 4º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6458\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6458    lex:temArtigo    lex:L6458\/Artigo5 .
+lex:L6458\/Artigo5    lex:temConteudo    "Art 5º - Revogam-se as disposições em contrário." .
+lex:L6458\/Artigo1\/Paragrafo-    lex:remetePara    lex:L5474\/Artigo7\/Paragrafo2 .
+lex:L6458\/Artigo15    lex:remetePara    lex:L5474\/Artigo15 .
+lex:L6458\/Artigo16    lex:remetePara    lex:L5474\/Artigo16 .
+lex:L6458\/Artigo17    lex:remetePara    lex:L5474\/Artigo17 .
+lex:L6458\/Artigo18    lex:remetePara    lex:L5474\/Artigo18 .
+lex:L6458\/Artigo22\/Paragrafo-    lex:remetePara    lex:L5474\/Artigo22\/Paragrafo4 .
+lex:L6458\/Artigo2    lex:remetePara    lex:L5869\/Artigo586 .
+lex:L6458\/Artigo2    lex:remetePara    lex:L5474 .
+lex:L6458\/Artigo3\/Paragrafo-    lex:remetePara    lex:Del7661\/Artigo1\/Paragrafo3 .

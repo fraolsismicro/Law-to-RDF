@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10033    lex:ehUm    lex:DocLegal .
+lex:L10033    lex:temTextoIntegral    lex:HTMLs\/L10033.htm .
+lex:L10033\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10033    lex:temArtigo    lex:L10033\/Artigo1 .
+lex:L10033\/Artigo1    lex:temConteudo    "Art. 1o Ficam criados trezentos e quatro cargos de Procurador da República na carreira do Ministério Público Federal." .
+lex:L10033\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10033\/Artigo1    lex:temParagrafo    lex:L10033\/Artigo1\/ParagrafoUnico .
+lex:L10033\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os cargos de Procuradores da República serão providos por nomeação, mediante concurso público, nos termos do inciso II do art. 93 da Constituição Federal e da Lei Complementar no 75, de 20 de maio de 1993." .
+lex:L10033\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10033    lex:temArtigo    lex:L10033\/Artigo2 .
+lex:L10033\/Artigo2    lex:temConteudo    "Art. 2o As despesas decorrentes desta Lei correrão à conta das dotações orçamentárias consignadas ao Ministério Público Federal." .
+lex:L10033\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10033    lex:temArtigo    lex:L10033\/Artigo3 .
+lex:L10033\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10033\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Constituicao\/Artigo93 .
+lex:L10033\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Lcp75 .

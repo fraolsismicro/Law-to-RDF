@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D37772    lex:ehUm    lex:DocLegal .
+lex:D37772    lex:temTextoIntegral    lex:HTMLs\/D37772.htm .
+lex:D37772\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D37772    lex:temArtigo    lex:D37772\/Artigo1 .
+lex:D37772\/Artigo1    lex:temConteudo    "Art. 1º O artigo 10 do Decreto nº 28.140, de 19 de maio de 1950, passa a ter a seguinte redação:" .
+lex:D37772\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D37772    lex:temArtigo    lex:D37772\/Artigo2 .
+lex:D37772\/Artigo2    lex:temConteudo    "Art. 2º Os efeitos dêste Decreto retroagem à data da vigência da Lei a que se refere o artigo anterior." .
+lex:D37772\/Texto00001    lex:remetePara    lex:D28140\/Artigo10 .

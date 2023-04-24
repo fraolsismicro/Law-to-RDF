@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L14212    lex:ehUm    lex:DocLegal .
+lex:L14212    lex:temTextoIntegral    lex:HTMLs\/L14212.htm .
+lex:L14212\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L14212    lex:temArtigo    lex:L14212\/Artigo1A .
+lex:L14212\/Artigo1A    lex:temConteudo    "Art. 1Âº A Lei nÂº 14.116, de 31 de dezembro de 2020, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:L14212\/Artigo1A\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:L14212\/Artigo1A    lex:temAlinea    lex:L14212\/Artigo1A\/AlineaSer .
+lex:L14212\/Artigo1A\/AlineaSer    lex:temConteudo    "a) ser demonstrada pelo proponente que a reduÃ§Ã£o foi considerada na estimativa de receita da Lei OrÃ§amentÃ¡ria, na forma prevista no art. 12 da Lei Complementar nÂº 101, de 2000 - Lei de Responsabilidade Fiscal;" .
+lex:L14212\/Artigo1A\/AlineaEstar    lex:ehUm    lex:Alinea .
+lex:L14212\/Artigo1A    lex:temAlinea    lex:L14212\/Artigo1A\/AlineaEstar .
+lex:L14212\/Artigo1A\/AlineaEstar    lex:temConteudo    "b) estar acompanhada de medida compensatÃ³ria que anule o efeito da reduÃ§Ã£o de receita no resultado primÃ¡rio, por meio de aumento de receita corrente ou reduÃ§Ã£o de despesa; ou" .
+lex:L14212\/Artigo1A\/AlineaEstar\/Item    lex:ehUm    lex:Item .
+lex:L14212\/Artigo1A\/AlineaEstar    lex:temItem    lex:L14212\/Artigo1A\/AlineaEstar\/Item .
+lex:L14212\/Artigo1A\/AlineaEstar\/Item    lex:temConteudo    "......................................................................................................................" .
+lex:L14212\/Artigo1A\/AlineaEstar\/Item    lex:ehUm    lex:Item .
+lex:L14212\/Artigo1A\/AlineaEstar    lex:temItem    lex:L14212\/Artigo1A\/AlineaEstar\/Item .
+lex:L14212\/Artigo1A\/AlineaEstar\/Item    lex:temConteudo    "......................................................................................................................" .
+lex:L14212\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L14212    lex:temArtigo    lex:L14212\/Artigo2A .
+lex:L14212\/Artigo2A    lex:temConteudo    "Art. 2Âº Ficam revogados os seguintes dispositivos da Lei nÂº 14.116, de 2020:" .
+lex:L14212\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L14212    lex:temArtigo    lex:L14212\/Artigo3A .
+lex:L14212\/Artigo3A    lex:temConteudo    "Art. 3Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L14212\/Artigo1A    lex:remetePara    lex:L14116 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo19Â§8 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo45 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo46Â§2 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo56 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L11540\/Artigo11Â§3 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo68 .
+lex:L14212\/Texto00001    lex:remetePara    lex:L14116\/Artigo84Â§3 .
+lex:L14212\/Artigo1A\/AlineaSer    lex:remetePara    lex:L14116\/Artigo126 .
+lex:L14212\/Artigo1A\/AlineaSer    lex:remetePara    lex:Lcp101\/Artigo12 .
+lex:L14212\/Artigo1A\/AlineaEstar    lex:remetePara    lex:L14116\/Artigo126 .
+lex:L14212\/Artigo1A\/AlineaEstar\/Texto00005    lex:remetePara    lex:L14116\/Artigo126Â§10 .
+lex:L14212\/Artigo1A\/AlineaEstar\/Texto00005    lex:remetePara    lex:L14116\/Artigo161Â§1 .
+lex:L14212\/Artigo1A\/AlineaEstar\/Texto00005    lex:remetePara    lex:Constituicao\/Artigo165Â§15 .
+lex:L14212\/Artigo1A\/AlineaEstar\/Texto00005    lex:remetePara    lex:L13971\/Artigo8 .
+lex:L14212\/Artigo2A    lex:remetePara    lex:L14116 .
+lex:L14212\/Texto00006    lex:remetePara    lex:L14116\/Artigo151Â§1 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6443    lex:ehUm    lex:DocLegal .
+lex:L6443    lex:temTextoIntegral    lex:HTMLs\/L6443.htm .
+lex:L6443\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6443    lex:temArtigo    lex:L6443\/Artigo1 .
+lex:L6443\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir ao Fundo Nacional de Desenvolvimento - Recursos sob Supervisão do Ministério dos Transportes, crédito especial até o limite de Cr$1.092.852.000,00 (hum bilhão, noventa e dois milhões, oitocentos e cinqüenta e dois mil cruzeiros), em favor da Rede Ferroviária Federal S.A., para atender despesas com o Reaparelhamento, Modernização e Melhoramento do Sistema Ferroviário." .
+lex:L6443\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6443    lex:temArtigo    lex:L6443\/Artigo2 .
+lex:L6443\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução desta Lei serão aqueles provenientes da alteração procedida na destinação da receita do Imposto Único sobre Lubrificantes e Combustíveis Líquidos e Gasosos, na forma do Decreto-lei nº 1.511, de 28 de dezembro de 1976." .
+lex:L6443\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6443    lex:temArtigo    lex:L6443\/Artigo3 .
+lex:L6443\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6443\/Artigo2    lex:remetePara    lex:Del1511 .

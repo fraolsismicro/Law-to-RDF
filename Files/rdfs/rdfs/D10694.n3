@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10694    lex:ehUm    lex:DocLegal .
+lex:D10694    lex:temTextoIntegral    lex:HTMLs\/D10694.htm .
+lex:D10694\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10694    lex:temArtigo    lex:D10694\/Artigo1A .
+lex:D10694\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 10.609, de 26 de janeiro de 2021, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D10694\/Artigo1A    lex:temAlinea    lex:D10694\/Artigo1A\/AlineaSecretaria .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "f) Secretaria de Governo da PresidÃªncia da RepÃºblica;" .
+lex:D10694\/Artigo1A\/AlineaAdvocacia-Geral    lex:ehUm    lex:Alinea .
+lex:D10694\/Artigo1A    lex:temAlinea    lex:D10694\/Artigo1A\/AlineaAdvocacia-Geral .
+lex:D10694\/Artigo1A\/AlineaAdvocacia-Geral    lex:temConteudo    "g) Advocacia-Geral da UniÃ£o; e" .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:ehUm    lex:Alinea .
+lex:D10694\/Artigo1A    lex:temAlinea    lex:D10694\/Artigo1A\/AlineaSecretaria .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:temConteudo    "h) Secretaria Especial de ModernizaÃ§Ã£o do Estado da Secretaria-Geral da PresidÃªncia da RepÃºblica." .
+lex:D10694\/Artigo1A\/AlineaSecretaria\/Item    lex:ehUm    lex:Item .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:temItem    lex:D10694\/Artigo1A\/AlineaSecretaria\/Item .
+lex:D10694\/Artigo1A\/AlineaSecretaria\/Item    lex:temConteudo    ".........................................................................................................................." .
+lex:D10694\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10694    lex:temArtigo    lex:D10694\/Artigo2A .
+lex:D10694\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10694\/Artigo1A    lex:remetePara    lex:D10609 .
+lex:D10694\/Artigo1A\/AlineaSecretaria    lex:remetePara    lex:D10609\/Artigo9 .
+lex:D10694\/Artigo1A\/AlineaAdvocacia-Geral    lex:remetePara    lex:D10609\/Artigo9 .
+lex:D10694\/Artigo1A\/AlineaSecretaria\/Texto00005    lex:remetePara    lex:D10609\/Artigo9Â§2 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D9910    lex:ehUm    lex:DocLegal .
+lex:D9910    lex:temTextoIntegral    lex:HTMLs\/D9910.htm .
+lex:D9910\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D9910    lex:temArtigo    lex:D9910\/Artigo1A .
+lex:D9910\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto 9.305, de 13 de marÃ§o de 2018 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D9910\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D9910    lex:temArtigo    lex:D9910\/Artigo2A .
+lex:D9910\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data da sua publicaÃ§Ã£o." .
+lex:D9910\/Artigo1A    lex:remetePara    lex:D9305 .
+lex:D9910\/Texto00001    lex:remetePara    lex:D9305\/Artigo10 .
+lex:D9910\/Texto00001    lex:remetePara    lex:D9305\/Artigo4Â§4 .
+lex:D9910\/Texto00001    lex:remetePara    lex:D9305\/Artigo7 .
+lex:D9910\/Texto00001    lex:remetePara    lex:D9305\/Artigo80 .
+lex:D9910\/Texto00001    lex:remetePara    lex:D9305\/Artigo10p0 .

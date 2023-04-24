@@ -1,0 +1,165 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2434    lex:ehUm    lex:DocLegal .
+lex:Del2434    lex:temTextoIntegral    lex:HTMLs\/Del2434.htm .
+lex:Del2434\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo1 .
+lex:Del2434\/Artigo1    lex:temConteudo    "Art. 1° As isenções e reduções do Imposto de Importação e do Imposto Sobre Produtos Industrializados, incidentes sobre bens de procedência estrangeira, somente poderão ser concedidas:" .
+lex:Del2434\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo1    lex:temInciso    lex:Del2434\/Artigo1\/IncisoI .
+lex:Del2434\/Artigo1\/IncisoI    lex:temConteudo    "I - nas importações realizadas:" .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas    lex:temConteudo    "a) pelas missões diplomáticas e repartições consulares de caráter permanente e pelos respectivos integrantes;" .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas    lex:temConteudo    "b) pelas representações de organismos internacionais de caráter permanente, inclusive os de âmbito regional, dos quais o Brasil seja membro, e pelos seus integrantes; e" .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas\/IncisoAlineaPelas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas\/IncisoAlineaPelas .
+lex:Del2434\/Artigo1\/IncisoI\/IncisoAlineaPelas\/IncisoAlineaPelas\/IncisoAlineaPelas    lex:temConteudo    "c) pelas instituições científicas;" .
+lex:Del2434\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo1    lex:temInciso    lex:Del2434\/Artigo1\/IncisoII .
+lex:Del2434\/Artigo1\/IncisoII    lex:temConteudo    "II - nos casos de:" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras    lex:temConteudo    "a) amostras e remessas postais internacionais, sem valor comercial;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas    lex:temConteudo    "b) remessas postais e encomendas aéreas, internacionais, destinadas a pessoa física;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem    lex:temConteudo    "c) bagagem de viajantes procedentes do exterior ou da Zona Franca de Manaus;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens    lex:temConteudo    "d) bens adquiridos em loja franca, no País;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens    lex:temConteudo    "e) bens trazidos do exterior, referidos na alínea b do § 2° do art. 1° do Decreto-lei n° 2.120, de 14 de maio de 1984;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temConteudo    "f) bens importados sob o regime aduaneiro especial de que trata o inciso III do art. 78 do Decreto-lei nº 37, de 18 de novembro de 1966;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temConteudo    "g) bens importados nos termos do Decreto-lei n° 2.433, de 19 de maio de 1988;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temConteudo    "h) bens importados ao amparo do Decreto-lei n° 2.324, de 30 de março de 1987;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros    lex:temConteudo    "i) gêneros alimentícios de primeira necessidade; de fertilizantes e defensivos para aplicação na agricultura ou pecuária, bem assim das matérias-primas para sua produção no País, importados ao amparo do art. 4° da Lei n° 3.244, de 14 de agosto de 1957, com a redação dada pelo art. 7° do Decreto-lei n° 63, de 21 de novembro de 1966;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens    lex:temConteudo    "j) bens importados ao amparo da Lei n° 7.232, de 29 de outubro de 1984; e" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes    lex:temConteudo    "l) partes, peças e componentes destinados ao reparo, revisão e manutenção de aeronaves e embarcações." .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas    lex:temConteudo    "a) realizadas pela União, pelos Estados, pelo Distrito Federal, pelos Territórios, pelos Municípios e pelas respectivas autarquias, inexistindo similar nacional;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas    lex:temConteudo    "b) realizadas pelos partidos políticos e pelas instituições educacionais ou de assistência social, observado o disposto no final da alínea anterior;" .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas    lex:temIncisoAlinea    lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas\/IncisoAlineaDe .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens\/IncisoAlineaPartes\/IncisoAlineaRealizadas\/IncisoAlineaRealizadas\/IncisoAlineaDe    lex:temConteudo    "c) de livro, jornal e periódicos, assim como do papel destinado à sua impressão." .
+lex:Del2434\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo2 .
+lex:Del2434\/Artigo2    lex:temConteudo    "Art. 2° É concedida redução do Imposto de Importação:" .
+lex:Del2434\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo2    lex:temInciso    lex:Del2434\/Artigo2\/IncisoI .
+lex:Del2434\/Artigo2\/IncisoI    lex:temConteudo    "I - de oitenta por cento, nas importações de máquinas, equipamentos, aparelhos e instrumentos, a serem incorporados ao ativo fixo de empresas de geração, transmissão e distribuição de energia elétrica;" .
+lex:Del2434\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo2    lex:temInciso    lex:Del2434\/Artigo2\/IncisoII .
+lex:Del2434\/Artigo2\/IncisoII    lex:temConteudo    "II - de oitenta por cento, nas importações de aeronaves, por empresas nacionais concessionárias de linhas regulares de transporte aéreo, por aeroclubes considerados de utilidade pública, com funcionamento regular, por empresas que explorem serviços de táxis aéreos ou de aerolevantamento;" .
+lex:Del2434\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo2    lex:temInciso    lex:Del2434\/Artigo2\/IncisoIII .
+lex:Del2434\/Artigo2\/IncisoIII    lex:temConteudo    "III - de oitenta por cento, nas importações de máquinas, equipamentos, aparelhos e instrumentos para uso de importador, desde que se destinem a empresa de televisão e radiodifusão.   (Vide Lei nº 7.988, de 1989)" .
+lex:Del2434\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo3 .
+lex:Del2434\/Artigo3    lex:temConteudo    "Art. 3° A isenção ou redução do Imposto sobre Produtos Industrializados será concedida, desde que satisfeitos os requisitos e condições para a concessão de benefício análogo relativo ao Imposto de Importação de que trata este decreto-lei.    (Vide Lei nº 7.988, de 1989)" .
+lex:Del2434\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2434\/Artigo3    lex:temParagrafo    lex:Del2434\/Artigo3\/ParagrafoUnico .
+lex:Del2434\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica assegurada a isenção do Imposto sobre Produtos Industrializados nos casos de tributação especial de bagagem ou tributação simplificada de remessas postais e encomendas aéreas, internacionais." .
+lex:Del2434\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo4 .
+lex:Del2434\/Artigo4    lex:temConteudo    "Art. 4° Fica mantido o tratamento tributário previsto para as importações efetuadas para:" .
+lex:Del2434\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo4    lex:temInciso    lex:Del2434\/Artigo4\/IncisoI .
+lex:Del2434\/Artigo4\/IncisoI    lex:temConteudo    "I - a Zona Franca de Manaus, nos termos dos arts. 3° e 7° do Decreto-lei n° 288, de 28 de fevereiro de 1967, e alterações posteriores;" .
+lex:Del2434\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo4    lex:temInciso    lex:Del2434\/Artigo4\/IncisoII .
+lex:Del2434\/Artigo4\/IncisoII    lex:temConteudo    "II - a Amazônia Ocidental, nos termos do art. 2° do Decreto-lei n° 356, de 15 de agosto de 1968, com a redação dada pelo art. 3° do Decreto-lei n° 1.435, de 16 de dezembro de 1975." .
+lex:Del2434\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo5 .
+lex:Del2434\/Artigo5    lex:temConteudo    "Art. 5° Os bens importados com alíquota zero do Imposto de Importação estão sujeitos aos demais tributos, nos termos das respectivas legislações." .
+lex:Del2434\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo6 .
+lex:Del2434\/Artigo6    lex:temConteudo    "Art. 6° Ficam isentas do Imposto sobre Operações de Crédito, Câmbio e Seguro e sobre Operações relativas a Títulos e Valores Mobiliários as operações de câmbio realizadas para o pagamento de bens importados, ao amparo de Guia de Importação ou documento as semelhado, emitida a partir de 1° de julho de 1988." .
+lex:Del2434\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2434\/Artigo6    lex:temParagrafo    lex:Del2434\/Artigo6\/ParagrafoUnico .
+lex:Del2434\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Quando se tratar de bens importados sem Guia de Importação ou documento assemelhado, ou dela dispensados, a isenção a que se refere este artigo abrangerá os bens com Declaração de Importação registrada a partir de 1° de julho de 1988." .
+lex:Del2434\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo7 .
+lex:Del2434\/Artigo7    lex:temConteudo    "Art. 7° Fica extinta, a partir de 1° de julho de 1988, a Taxa de Melhoramento dos Portos, de que trata o art. 3° da Lei n° 3.421, de 10 de julho de 1958, com a redação dada pelo art. 1° do Decreto-lei n° 1.507, de 23 de dezembro de 1976." .
+lex:Del2434\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo8 .
+lex:Del2434\/Artigo8    lex:temConteudo    "Art. 8° Continua em vigor a competência da Comissão de Política Aduaneira prevista na alínea b do art. 22 da Lei n° 3.244, de 14 de agosto de 1957, para alterar alíquotas do Imposto de Importação, na forma do art. 3° da referida lei, modificado pelo art. 1° do Decreto-lei n° 2.162, de 19 de setembro de 1984, e do art. 5° do Decreto-lei n° 63, de 21 de novembro de 1966." .
+lex:Del2434\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2434\/Artigo8    lex:temParagrafo    lex:Del2434\/Artigo8\/ParagrafoUnico .
+lex:Del2434\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A competência da Comissão de Política Aduaneira prevista no Decreto-lei n° 1.953, de 3 de agosto de 1982, fica limitada à redução de até oitenta por cento do Imposto de Importação." .
+lex:Del2434\/Artigo9    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo9 .
+lex:Del2434\/Artigo9    lex:temConteudo    "Art. 9° O art. 2° e a alínea a do art. 22 da Lei n° 3.244, de 14 de agosto de 1957, passam a ter a seguinte redação:" .
+lex:Del2434\/Artigo9\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2434\/Artigo9    lex:temParagrafo    lex:Del2434\/Artigo9\/ParagrafoUnico .
+lex:Del2434\/Artigo9\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A alíquota específica poderá ser determinada em moeda nacional ou estrangeira, podendo ser alterada de acordo com o disposto no art. 3°, modificado pelo art. 5° do Decreto-lei n° 63, de 21 de novembro de 1966, e pelo art. 1° do Decreto-lei n° 2.162, de 19 de setembro de 1984." .
+lex:Del2434\/Artigo9\/ParagrafoUnico\/AlineaDeterminar    lex:ehUm    lex:Alinea .
+lex:Del2434\/Artigo9\/ParagrafoUnico    lex:temAlinea    lex:Del2434\/Artigo9\/ParagrafoUnico\/AlineaDeterminar .
+lex:Del2434\/Artigo9\/ParagrafoUnico\/AlineaDeterminar    lex:temConteudo    "a) determinar a alíquota específica, na forma do art. 2°;'" .
+lex:Del2434\/Artigo10    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo10 .
+lex:Del2434\/Artigo10    lex:temConteudo    "Art. 10. Ressalvado o disposto neste decreto-lei, ficam revogadas as isenções e reduções, de caráter geral ou especial, do Imposto de Importação e do Imposto sobre Produtos Industrializados incidente sobre bens de procedência estrangeira, exceto:" .
+lex:Del2434\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo10    lex:temInciso    lex:Del2434\/Artigo10\/IncisoI .
+lex:Del2434\/Artigo10\/IncisoI    lex:temConteudo    "I - as comprovadamente concedidas, nos termos da legislação respectiva, até a data da publicação deste decreto-lei; e" .
+lex:Del2434\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2434\/Artigo10    lex:temInciso    lex:Del2434\/Artigo10\/IncisoII .
+lex:Del2434\/Artigo10\/IncisoII    lex:temConteudo    "II - as importações beneficiadas com isenção ou redução, na forma da legislação anterior, cujas Guias de Importação tenham sido emitidas até a data da publicação deste decreto-lei." .
+lex:Del2434\/Artigo10\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2434\/Artigo10    lex:temParagrafo    lex:Del2434\/Artigo10\/ParagrafoUnico .
+lex:Del2434\/Artigo10\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo inclui as importações efetuadas por entidades da administração pública indireta, federal, estadual ou municipal." .
+lex:Del2434\/Artigo11    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo11 .
+lex:Del2434\/Artigo11    lex:temConteudo    "Art. 11. Este decreto-lei entra em vigor na data de sua publicação." .
+lex:Del2434\/Artigo12    lex:ehUm    lex:Artigo .
+lex:Del2434    lex:temArtigo    lex:Del2434\/Artigo12 .
+lex:Del2434\/Artigo12    lex:temConteudo    "Art. 12. Ficam revogados o art. 12 do Decreto-lei nº 491, de 5 de março de 1969; o Decreto-lei n° 1.726, de 17 de dezembro de 1979; o Decreto-lei n° 1.857, de 10 de fevereiro de 1981, e demais disposições em contrário." .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens    lex:remetePara    lex:Del2120\/Artigo1\/Paragrafo2b .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens    lex:remetePara    lex:Del2120\/Artigo1\/Paragrafo2b .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:remetePara    lex:Del0037\/Artigo78 .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:remetePara    lex:Del2433 .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens    lex:remetePara    lex:Del2324 .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros    lex:remetePara    lex:L3244\/Artigo4 .
+lex:Del2434\/Artigo1\/IncisoII\/IncisoAlineaAmostras\/IncisoAlineaRemessas\/IncisoAlineaBagagem\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaBens\/IncisoAlineaGeneros\/IncisoAlineaBens    lex:remetePara    lex:L7232 .
+lex:Del2434\/Artigo2\/IncisoIII    lex:remetePara    lex:L7988\/Artigo4 .
+lex:Del2434\/Artigo3    lex:remetePara    lex:L7988\/Artigo4 .
+lex:Del2434\/Artigo4\/IncisoI    lex:remetePara    lex:Del0288\/Artigo3 .
+lex:Del2434\/Artigo4\/IncisoI    lex:remetePara    lex:Del0288\/Artigo7 .
+lex:Del2434\/Artigo4\/IncisoII    lex:remetePara    lex:Del0356\/Artigo2 .
+lex:Del2434\/Artigo7    lex:remetePara    lex:L3421\/Artigo3 .
+lex:Del2434\/Artigo7    lex:remetePara    lex:Del1507\/Artigo1 .
+lex:Del2434\/Artigo8    lex:remetePara    lex:L3244\/Artigo22 .
+lex:Del2434\/Artigo8    lex:remetePara    lex:L3244\/Artigo22 .
+lex:Del2434\/Artigo8    lex:remetePara    lex:Del0063\/Artigo5 .
+lex:Del2434\/Artigo8\/ParagrafoUnico    lex:remetePara    lex:Del1953 .
+lex:Del2434\/Texto00036    lex:remetePara    lex:L3244\/Artigo2 .
+lex:Del2434\/Artigo9\/ParagrafoUnico\/AlineaDeterminar    lex:remetePara    lex:L3244\/Artigo22 .
+lex:Del2434\/Artigo12    lex:remetePara    lex:Del0491\/Artigo12 .
+lex:Del2434\/Artigo12    lex:remetePara    lex:Del1726 .
+lex:Del2434\/Artigo12    lex:remetePara    lex:Del1857 .

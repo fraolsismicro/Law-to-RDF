@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8326    lex:ehUm    lex:DocLegal .
+lex:D8326    lex:temTextoIntegral    lex:HTMLs\/D8326.htm .
+lex:D8326\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8326    lex:temArtigo    lex:D8326\/Artigo1 .
+lex:D8326\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 6.944, de 21 de agosto de 2009, passa a vigorar com as seguintes alterações:" .
+lex:D8326\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8326\/Artigo1    lex:temParagrafo    lex:D8326\/Artigo1\/Paragrafo1 .
+lex:D8326\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  .........................................................................." .
+lex:D8326\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8326\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8326\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D8326\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - na Carreira de Policial Federal, cujos atos serão praticados pelo Diretor-Geral do Departamento de Polícia Federal." .
+lex:D8326\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8326\/Artigo1    lex:temParagrafo    lex:D8326\/Artigo1\/Paragrafo3 .
+lex:D8326\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  Os concursos públicos para o provimento de cargos da carreira prevista no inciso IV do § 1o devem ser realizados quando o número de vagas exceder a cinco por cento dos respectivos cargos, ou, com menor número, de acordo com a necessidade e a critério do Ministro de Estado da Justiça." .
+lex:D8326\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8326\/Artigo1    lex:temParagrafo    lex:D8326\/Artigo1\/Paragrafo4 .
+lex:D8326\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  Nas hipóteses dos §§ 1o e 3o os atos ali referidos dependerão de manifestação do Ministério do Planejamento, Orçamento e Gestão, emitida previamente à realização do concurso, que confirme a existência de disponibilidade orçamentária para cobrir as despesas com o provimento dos cargos. (NR)" .
+lex:D8326\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8326    lex:temArtigo    lex:D8326\/Artigo2 .
+lex:D8326\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8326\/Artigo1    lex:remetePara    lex:D6944 .
+lex:D8326\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:remetePara    lex:D6944\/Artigo10\/Paragrafo1iv .
+lex:D8326\/Artigo1\/Paragrafo3    lex:remetePara    lex:D6944\/Artigo10\/Paragrafo3 .

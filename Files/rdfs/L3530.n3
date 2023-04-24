@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3530    lex:ehUm    lex:DocLegal .
+lex:L3530    lex:temTextoIntegral    lex:HTMLs\/L3530.htm .
+lex:L3530\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3530    lex:temArtigo    lex:L3530\/Artigo1 .
+lex:L3530\/Artigo1    lex:temConteudo    "Art. 1º O quadro da Secretaria do Tribunal Regional Eleitoral de Sergipe, criado pela Lei nº 486, de 14 de novembro de 1948, e modificado pela Lei nº 867, de 15 de outubro de 1949, passa a ser o constante da Tabela anexa à presente Lei." .
+lex:L3530\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3530\/Artigo1    lex:temParagrafo    lex:L3530\/Artigo1\/ParagrafoUnico .
+lex:L3530\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Caberá ao Presidente do Tribunal determinar a apostila dos títulos de nomeação dos atuais funcionários, em face da nova situação decorrente desta Lei." .
+lex:L3530\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3530    lex:temArtigo    lex:L3530\/Artigo2 .
+lex:L3530\/Artigo2    lex:temConteudo    "Art. 2º Na nomeação, promoção, licença, exoneração, demissão, readmissão, readaptação e aposentadoria dos funcionários da Secretaria do Tribunal Regional Eleitoral de Sergipe serão aplicadas as normas do Estatuto dos Funcionários Públicos Civis da União (Lei nº 1.711, de 28 de outubro de 1952)." .
+lex:L3530\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3530    lex:temArtigo    lex:L3530\/Artigo3 .
+lex:L3530\/Artigo3    lex:temConteudo    "Art. 3º Para atender às despesas decorrentes da execução desta Lei, no corrente exercício, fica o Poder Executivo autorizado a abrir ao Poder Judiciário, Justiça Eleitoral - Tribunal Regional Eleitoral de Sergipe - o crédito especial de Cr$250.000,00 (duzentos e cinqüenta mil cruzeiros)." .
+lex:L3530\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3530    lex:temArtigo    lex:L3530\/Artigo4 .
+lex:L3530\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3530\/Texto    lex:remetePara    lex:L4049\/Artigo4 .
+lex:L3530\/Artigo1    lex:remetePara    lex:L0486 .
+lex:L3530\/Artigo1    lex:remetePara    lex:L0867 .
+lex:L3530\/Artigo2    lex:remetePara    lex:L1711 .

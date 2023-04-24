@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9713    lex:ehUm    lex:DocLegal .
+lex:L9713    lex:temTextoIntegral    lex:HTMLs\/L9713.htm .
+lex:L9713\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9713    lex:temArtigo    lex:L9713\/Artigo2 .
+lex:L9713\/Artigo2    lex:temConteudo    "Art. 2o São extintos o Quadro de Oficiais Policiais Militares Femininos (QOPMF) e o Quadro de Praças Policiais Militares Femininos (QPPMF), remanejando-se seus efetivos, respectivamente, para o Quadro de Oficiais Policiais Militares (QOPM) e para o Quadro de Praças Policiais Militares Combatentes (QPPMC)." .
+lex:L9713\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9713\/Artigo2    lex:temParagrafo    lex:L9713\/Artigo2\/ParagrafoUnico .
+lex:L9713\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O remanejamento de que trata este artigo será feito, procedendo-se às necessárias reclassificações das policiais militares femininas, no Quadro de Oficiais Policiais Militares (QOPM) ou no Quadro de Praças Policiais Militares Combatentes (QPPMC), estabelecendo-se a precedência e a antigüidade pelo tempo de serviço no Posto ou na Graduação, conforme preceitua a Lei no 7.289, de 18 de dezembro de 1984, modificada pela Lei no 7.475, de 13 de maio de 1986." .
+lex:L9713\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9713    lex:temArtigo    lex:L9713\/Artigo3 .
+lex:L9713\/Artigo3    lex:temConteudo    "Art. 3o As vagas previstas nos incisos II (QOPMF) e IX (QPPMF), constantes do art. 1o da Lei no 9.237, de 22 de dezembro de 1995, são remanejadas, respectivamente, para os incisos I (QOPM) e VIII (QPPMC), daquele mesmo artigo, observando-se os níveis hierárquicos estabelecidos." .
+lex:L9713\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9713    lex:temArtigo    lex:L9713\/Artigo4 .
+lex:L9713\/Artigo4    lex:temConteudo    "Art. 4o O efetivo de policiais militares femininos será de até dez por cento do efetivo de cada Quadro." .
+lex:L9713\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9713\/Artigo4    lex:temParagrafo    lex:L9713\/Artigo4\/ParagrafoUnico .
+lex:L9713\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Caberá ao Comandante-Geral da Polícia Militar fixar, de acordo com o previsto no caput, o percentual ideal para cada concurso, conforme as necessidades da Corporação." .
+lex:L9713\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9713    lex:temArtigo    lex:L9713\/Artigo5 .
+lex:L9713\/Artigo5    lex:temConteudo    "Art. 5o As policiais femininas, pertencentes ao Quadro de Praças Policiais Militares Combatentes (QPPMC), poderão, no prazo de noventa dias, a contar da data da publicação desta Lei, requerer ao Comandante-Geral da Polícia Militar sua transferência para o Quadro de Praças Policiais Militares Especialistas (QPPME)." .
+lex:L9713\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9713\/Artigo5    lex:temParagrafo    lex:L9713\/Artigo5\/ParagrafoUnico .
+lex:L9713\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Caberá ao Comandante-Geral da Polícia Militar fixar os critérios e estabelecer os requisitos a serem exigidos para cada especialidade, em consonância com a disponibilidade de vagas e as necessidades da Corporação." .
+lex:L9713\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L9713    lex:temArtigo    lex:L9713\/Artigo6 .
+lex:L9713\/Artigo6    lex:temConteudo    "Art. 6o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9713\/Artigo1    lex:remetePara    lex:L6450 .
+lex:L9713\/Artigo1    lex:revogadoPor    lex:L12086\/Artigo123 .
+lex:L12086\/Artigo123    lex:revogou    lex:L9713\/Artigo1 .
+lex:L9713\/Texto    lex:remetePara    lex:L6450\/Artigo36 .
+lex:L9713\/Artigo3    lex:remetePara    lex:L9237 .

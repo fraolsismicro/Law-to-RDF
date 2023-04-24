@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:l8093    lex:ehUm    lex:DocLegal .
+lex:l8093    lex:temTextoIntegral    lex:HTMLs\/l8093.htm .
+lex:l8093\/Artigo1    lex:ehUm    lex:Artigo .
+lex:l8093    lex:temArtigo    lex:l8093\/Artigo1 .
+lex:l8093\/Artigo1    lex:temConteudo    "Art. 1° É o Poder Executivo autorizado a abrir aos Orçamentos da União (Lei n° 7.999, de 31 de janeiro de 1990) créditos adicionais no valor de Cr$ 617.953.200.000,00 (seiscentos e dezessete bilhões, novecentos e cinqüenta e três milhões e duzentos mil cruzeiros), para atender despesas com pessoal e encargos sociais, conforme indicado no Anexo I desta lei, sendo:" .
+lex:l8093\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:l8093\/Artigo1    lex:temInciso    lex:l8093\/Artigo1\/IncisoI .
+lex:l8093\/Artigo1\/IncisoI    lex:temConteudo    "I - Créditos suplementares: Cr$ 615.945.700.000,00;" .
+lex:l8093\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:l8093\/Artigo1    lex:temInciso    lex:l8093\/Artigo1\/IncisoII .
+lex:l8093\/Artigo1\/IncisoII    lex:temConteudo    "II - Créditos especiais: Cr$ 2.007.500.000,00." .
+lex:l8093\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:l8093\/Artigo1    lex:temParagrafo    lex:l8093\/Artigo1\/ParagrafoUnico .
+lex:l8093\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes do excesso de arrecadação das receitas do Tesouro Nacional, nos termos do disposto no art. 43, § 1°, inciso II, e § 3°, da Lei n° 4.320, de 17 de março de 1964." .
+lex:l8093\/Artigo2    lex:ehUm    lex:Artigo .
+lex:l8093    lex:temArtigo    lex:l8093\/Artigo2 .
+lex:l8093\/Artigo2    lex:temConteudo    "Art. 2° Respeitado o limite global fixado, e por ocasião da abertura dos créditos de que trata o artigo anterior, o Poder Executivo poderá efetuar o remanejamento dos valores constantes do Anexo I, para atender despesas entre os órgãos, até o limite de dez por cento do total do crédito autorizado." .
+lex:l8093\/Artigo3    lex:ehUm    lex:Artigo .
+lex:l8093    lex:temArtigo    lex:l8093\/Artigo3 .
+lex:l8093\/Artigo3    lex:temConteudo    "Art. 3° Esta lei entra em vigor na data de sua publicação." .
+lex:l8093\/Artigo4    lex:ehUm    lex:Artigo .
+lex:l8093    lex:temArtigo    lex:l8093\/Artigo4 .
+lex:l8093\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .
+lex:l8093\/Artigo1    lex:remetePara    lex:L7999 .
+lex:l8093\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L4320\/Artigo43\/Paragrafoii .
+lex:l8093\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

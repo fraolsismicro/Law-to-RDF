@@ -1,0 +1,68 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:ecr3    lex:ehUm    lex:DocLegal .
+lex:ecr3    lex:temTextoIntegral    lex:HTMLs\/ecr3.htm .
+lex:ecr3\/Artigo1    lex:ehUm    lex:Artigo .
+lex:ecr3    lex:temArtigo    lex:ecr3\/Artigo1 .
+lex:ecr3\/Artigo1    lex:temConteudo    "Art. 1.º A alínea 'c' do inciso I, a alínea 'b' do inciso II, o § 1.º e o inciso II do § 4.º do art. 12 da Constituição Federal passam a vigorar com a seguinte redação:" .
+lex:ecr3\/Artigo12    lex:ehUm    lex:Artigo .
+lex:ecr3    lex:temArtigo    lex:ecr3\/Artigo12 .
+lex:ecr3\/Artigo12    lex:temConteudo    "Art. 12 .................." .
+lex:ecr3\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:ecr3\/Artigo12    lex:temInciso    lex:ecr3\/Artigo12\/IncisoI .
+lex:ecr3\/Artigo12\/IncisoI    lex:temConteudo    "I - ........................." .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoI    lex:temIncisoAlinea    lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea    lex:temConteudo    "a) .........................." .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea    lex:temIncisoAlinea    lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) .........................." .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs .
+lex:ecr3\/Artigo12\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs    lex:temConteudo    "c) os nascidos no estrangeiro, de pai brasileiro ou de mãe brasileira, desde que venham a residir na República Federativa do Brasil e optem, em qualquer tempo, pela nacionalidade brasileira;" .
+lex:ecr3\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:ecr3\/Artigo12    lex:temInciso    lex:ecr3\/Artigo12\/IncisoII .
+lex:ecr3\/Artigo12\/IncisoII    lex:temConteudo    "II - ...................." .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoII    lex:temIncisoAlinea    lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea    lex:temConteudo    "a) ......................" .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea    lex:temIncisoAlinea    lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea\/IncisoAlineaOs .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea\/IncisoAlineaOs    lex:temConteudo    "b) os estrangeiros de qualquer nacionalidade residentes na República Federativa do Brasil há mais de quinze anos ininterruptos e sem condenação penal, desde que requeiram a nacionalidade brasileira." .
+lex:ecr3\/Artigo12\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:ecr3\/Artigo12    lex:temParagrafo    lex:ecr3\/Artigo12\/Paragrafo1 .
+lex:ecr3\/Artigo12\/Paragrafo1    lex:temConteudo    "§ 1.º Aos portugueses com residência permanente no País, se houver reciprocidade em favor de brasileiros, serão atribuídos os direitos inerentes ao brasileiro, salvo os casos previstos nesta Constituição." .
+lex:ecr3\/Artigo12\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:ecr3\/Artigo12    lex:temParagrafo    lex:ecr3\/Artigo12\/Paragrafo2 .
+lex:ecr3\/Artigo12\/Paragrafo2    lex:temConteudo    "§ 2.º ...................." .
+lex:ecr3\/Artigo12\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:ecr3\/Artigo12    lex:temParagrafo    lex:ecr3\/Artigo12\/Paragrafo3 .
+lex:ecr3\/Artigo12\/Paragrafo3    lex:temConteudo    "§ 3.º ...................." .
+lex:ecr3\/Artigo12\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:ecr3\/Artigo12    lex:temParagrafo    lex:ecr3\/Artigo12\/Paragrafo4 .
+lex:ecr3\/Artigo12\/Paragrafo4    lex:temConteudo    "§ 4.º ...................." .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:ecr3\/Artigo12\/Paragrafo4    lex:temParagrafoInciso    lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoI .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - ......................." .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:ecr3\/Artigo12\/Paragrafo4    lex:temParagrafoInciso    lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - adquirir outra nacionalidade, salvo nos casos:" .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe    lex:temConteudo    "a) de reconhecimento de nacionalidade originária pela lei estrangeira;" .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII    lex:temAlinea    lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII\/AlineaDe    lex:temConteudo    "b) de imposição de naturalização, pela norma estrangeira, ao brasileiro residente em Estado estrangeiro, como condição para permanência em seu território ou para o exercício de direitos civis." .
+lex:ecr3\/Artigo2    lex:ehUm    lex:Artigo .
+lex:ecr3    lex:temArtigo    lex:ecr3\/Artigo2 .
+lex:ecr3\/Artigo2    lex:temConteudo    "Art. 2.º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:ecr3\/Artigo1    lex:remetePara    lex:Constituiçao\/Artigo12 .
+lex:ecr3\/Artigo12\/IncisoII\/IncisoAlinea\/IncisoAlineaOs    lex:remetePara    lex:Constituiçao\/Artigo12 .
+lex:ecr3\/Artigo12\/Paragrafo1    lex:remetePara    lex:Constituiçao\/Artigo12\/Paragrafo1 .
+lex:ecr3\/Artigo12\/Paragrafo4\/ParagrafoIncisoII    lex:remetePara    lex:Constituiçao\/Artigo12\/Paragrafo4ii .

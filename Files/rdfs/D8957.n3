@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8957    lex:ehUm    lex:DocLegal .
+lex:D8957    lex:temTextoIntegral    lex:HTMLs\/D8957.htm .
+lex:D8957\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8957    lex:temArtigo    lex:D8957\/Artigo1 .
+lex:D8957\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 2.233, de 23 de maio de 1997, passa a vigorar com as seguintes alterações:" .
+lex:D8957\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8957\/Artigo1    lex:temInciso    lex:D8957\/Artigo1\/IncisoI .
+lex:D8957\/Artigo1\/IncisoI    lex:temConteudo    "I - setor de infraestrutura dos seguintes segmentos:" .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes    lex:temConteudo    "b) telecomunicações de qualquer natureza;" .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos    lex:temConteudo    "c) portos e sistemas de transportes, inclusive de carga e de passageiros, compreendendo os sistemas de logística e de distribuição de bens;" .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos\/IncisoAlineaSaneamento    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos\/IncisoAlineaSaneamento .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos\/IncisoAlineaSaneamento    lex:temConteudo    "d) saneamento ambiental, inclusive de saneamento básico e de gestão de resíduos sólidos;" .
+lex:D8957\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8957\/Artigo1    lex:temInciso    lex:D8957\/Artigo1\/IncisoII .
+lex:D8957\/Artigo1\/IncisoII    lex:temConteudo    "II - complexos industriais e de serviços dos seguintes segmentos:" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico    lex:temConteudo    "a) químico-petroquímico, compreendendo as indústrias químicas de base, petroquímica, química fina, fertilizantes e química a partir de fontes renováveis;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao    lex:temConteudo    "b) mineração e transformação mineral;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao    lex:temIncisoAlineaItem    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaItem    lex:temConteudo    ".............................................................................................." .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial    lex:temConteudo    "d) agroindustrial e florestal, compreendendo os seus fornecedores de insumos, os produtores, os processadores e os distribuidores, entre outros, de produtos agropecuários, de alimentos, de bebidas, de painéis de madeira, de papel e produtos de papel, de celulose e de bioprodutos a partir de biomassa;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial    lex:temIncisoAlineaItem    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaItem    lex:temConteudo    ".............................................................................................." .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias    lex:temConteudo    "f) tecnologias da informação e comunicações, compreendendo os complexos industriais de componentes eletrônicos, de equipamentos de telecomunicações e de automação, fabricação e distribuição de eletrônicos de consumo e de informática, outros equipamentos eletrônicos e de hardware de qualquer natureza, desenvolvimento de soluções de software e serviços de tecnologia da informação;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo    lex:temConteudo    "g) petróleo e gás natural, compreendendo a exploração e a produção de hidrocarbonetos e toda a sua cadeia produtiva, inclusive indústria de bens de capital, demais indústrias, serviços de engenharia e demais serviços aplicáveis;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude    lex:temConteudo    "h) saúde, compreendendo a fabricação de insumos e produtos farmacêuticos, vacinas e kits de diagnóstico, de base química ou biotecnológica, a fabricação de equipamentos e materiais médicos, odontológicos e hospitalares, os serviços de saúde e os ensaios clínicos e não clínicos;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil    lex:temConteudo    "i) têxtil; e" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura    lex:ehUm    lex:IncisoAlinea .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil    lex:temIncisoAlinea    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura    lex:temConteudo    "j) infraestrutura dos complexos audiovisual e gráfico;" .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura    lex:temIncisoAlineaItem    lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura\/IncisoAlineaItem .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo\/IncisoAlineaSaude\/IncisoAlineaTextil\/IncisoAlineaInfraestrutura\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:D8957\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8957\/Artigo1    lex:temInciso    lex:D8957\/Artigo1\/IncisoV .
+lex:D8957\/Artigo1\/IncisoV    lex:temConteudo    "V - serviços de educação;" .
+lex:D8957\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8957\/Artigo1    lex:temInciso    lex:D8957\/Artigo1\/IncisoVI .
+lex:D8957\/Artigo1\/IncisoVI    lex:temConteudo    "VI - serviços de eficiência energética; e" .
+lex:D8957\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D8957\/Artigo1    lex:temInciso    lex:D8957\/Artigo1\/IncisoVII .
+lex:D8957\/Artigo1\/IncisoVII    lex:temConteudo    "VII - setor de comércio. (NR)" .
+lex:D8957\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8957    lex:temArtigo    lex:D8957\/Artigo2 .
+lex:D8957\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8957\/Artigo1    lex:remetePara    lex:D2233 .
+lex:D8957\/Artigo1\/IncisoI    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoI\/IncisoAlineaTelecomunicacoes\/IncisoAlineaPortos\/IncisoAlineaSaneamento    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoII\/IncisoAlineaQuimico-petroquimico\/IncisoAlineaMineracao\/IncisoAlineaAgroindustrial\/IncisoAlineaTecnologias\/IncisoAlineaPetroleo    lex:remetePara    lex:D2233\/Artigo1 .
+lex:D8957\/Artigo1\/IncisoV    lex:remetePara    lex:D2233\/Artigo1 .

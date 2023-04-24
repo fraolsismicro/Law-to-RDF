@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:Lcp153    lex:ehUm    lex:DocLegal .
+lex:Lcp153    lex:temTextoIntegral    lex:HTMLs\/Lcp153.htm .
+lex:Lcp153\/Artig    lex:ehUm    lex:Artigo .
+lex:Lcp153    lex:temArtigo    lex:Lcp153\/Artig .
+lex:Lcp153\/Artig    lex:temConteudo    "Art.  1o  Esta Lei Complementar altera o art. 3 Âº da Lei Complementar n Âº 79, de 7 de janeiro de 1994, que cria o Fundo PenitenciÃ¡rio Nacional - FUNPEN, e dÃ¡ outras providÃªncias, a fim de destinar recursos do Funpen Ã s finalidades que especifica." .
+lex:Lcp153\/Artig    lex:ehUm    lex:Artigo .
+lex:Lcp153    lex:temArtigo    lex:Lcp153\/Artig .
+lex:Lcp153\/Artig    lex:temConteudo    "Art.  2 Âº  O art. 3 Âº da Lei Complementar n Âº 79, de 7 de janeiro de 1994, passa a vigorar acrescido do seguinte inciso XV:" .
+lex:Lcp153\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp153    lex:temArtigo    lex:Lcp153\/Artigo3 .
+lex:Lcp153\/Artigo3    lex:temConteudo    "Art. 3 Âº Esta Lei Complementar entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:Lcp153\/Artig    lex:remetePara    lex:Lcp79 .
+lex:Lcp153\/Texto00002    lex:remetePara    lex:Lcp79\/Artigo3 .

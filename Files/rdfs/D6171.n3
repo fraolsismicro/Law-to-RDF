@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6171    lex:ehUm    lex:DocLegal .
+lex:D6171    lex:temTextoIntegral    lex:HTMLs\/D6171.htm .
+lex:D6171\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6171    lex:temArtigo    lex:D6171\/Artigo1 .
+lex:D6171\/Artigo1    lex:temConteudo    "Art. 1o  A Medalha-Prêmio Almirante Alexandrino de Alencar, prevista na alínea l do art. 2o do Decreto no 40.556, de 17 de dezembro de 1956, destina-se a agraciar praças da Marinha do Brasil e das Marinhas amigas que concluírem, em primeiro lugar, os cursos de formação de sargentos ou correspondentes." .
+lex:D6171\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6171\/Artigo1    lex:temParagrafo    lex:D6171\/Artigo1\/ParagrafoUnico .
+lex:D6171\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O prêmio a que se refere o caput consiste na outorga de uma medalha, com miniatura e barreta, e o respectivo diploma, cujas características serão estabelecidas pelo Comandante da Marinha." .
+lex:D6171\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6171    lex:temArtigo    lex:D6171\/Artigo2 .
+lex:D6171\/Artigo2    lex:temConteudo    "Art. 2o  A Medalha-Prêmio Almirante Alexandrino de Alencar será concedida em ato próprio do Comandante da Marinha, ao qual incumbe a outorga anual, a expedição, a assinatura do respectivo diploma e a edição dos atos complementares necessários à implementação do disposto neste Decreto." .
+lex:D6171\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6171\/Artigo2    lex:temParagrafo    lex:D6171\/Artigo2\/Paragrafo1 .
+lex:D6171\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  A imposição da comenda aos militares das Marinhas de nações amigas será procedida pelo Adido brasileiro no respectivo país, ao qual será encaminhado o ato de concessão juntamente com a medalha e seus apensos." .
+lex:D6171\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6171\/Artigo2    lex:temParagrafo    lex:D6171\/Artigo2\/Paragrafo2 .
+lex:D6171\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  A concessão e a imposição da comenda no âmbito da Marinha do Brasil seguirão as normas estabelecidas pelo Comandante da Marinha." .
+lex:D6171\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6171    lex:temArtigo    lex:D6171\/Artigo3 .
+lex:D6171\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6171\/Artigo1    lex:remetePara    lex:D40556\/Artigo2 .

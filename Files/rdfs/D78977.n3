@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D78977    lex:ehUm    lex:DocLegal .
+lex:D78977    lex:temTextoIntegral    lex:HTMLs\/D78977.htm .
+lex:D78977\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D78977    lex:temArtigo    lex:D78977\/Artigo1 .
+lex:D78977\/Artigo1    lex:temConteudo    "Art 1º O inciso II do artigo 11 do Regulamento do Imposto Único sobre Minerais, aprovado pelo Decreto n.º 66.694, de 11 de junho de 1970, modificado pelo artigo 1º do Decreto n.º 75.757, de 23 de maio de 1975, passa a vigorar com a seguinte redação:" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "a) para estabelcimento onde se industrializem adubos simples ou compostos, fertilizantes e defensivos agricolas;" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "b) para outro estabelecimento do mesmo titular daquele onde se deva processar a industrialização;" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "c) para estabelecimento produtor;" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "d) para cooperativas agropastoris;" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "e) para depósitos ou filiais de estabelecimentos industriais localizados nas zonas de consumo do produto;" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "f) para firmas revendedoras; e" .
+lex:D78977\/Artigo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D78977\/Artigo1    lex:temAlinea    lex:D78977\/Artigo1\/AlineaPara .
+lex:D78977\/Artigo1\/AlineaPara    lex:temConteudo    "g) para órgãos e entidades de admnistração pública que tenham por objetivo o fomento de atividades agropécuarias.'" .
+lex:D78977\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D78977    lex:temArtigo    lex:D78977\/Artigo2 .
+lex:D78977\/Artigo2    lex:temConteudo    "Art 2º Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D78977\/Artigo1    lex:remetePara    lex:D75757\/Artigo1 .
+lex:D78977\/Texto00001    lex:remetePara    lex:D66694\/Artigo11 .

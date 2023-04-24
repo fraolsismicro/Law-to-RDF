@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8198    lex:ehUm    lex:DocLegal .
+lex:D8198    lex:temTextoIntegral    lex:HTMLs\/D8198.htm .
+lex:D8198\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8198    lex:temArtigo    lex:D8198\/Artigo1 .
+lex:D8198\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado, na forma do Anexo a este Decreto, o Regulamento da Lei no 7.678, de 8 de novembro de 1988." .
+lex:D8198\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8198    lex:temArtigo    lex:D8198\/Artigo2 .
+lex:D8198\/Artigo2    lex:temConteudo    "Art. 2o  A execução da Lei no 7.678, de 1988, e do Regulamento anexo será exercida pelo Ministério da Agricultura, Pecuária e Abastecimento." .
+lex:D8198\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8198    lex:temArtigo    lex:D8198\/Artigo3 .
+lex:D8198\/Artigo3    lex:temConteudo    "Art. 3o  Fica fixado o prazo de cento e oitenta dias para a adequação dos produtores e comerciantes de uva, vinho e derivados da uva e do vinho às alterações estabelecidas neste Regulamento." .
+lex:D8198\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8198    lex:temArtigo    lex:D8198\/Artigo4 .
+lex:D8198\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8198\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8198    lex:temArtigo    lex:D8198\/Artigo5 .
+lex:D8198\/Artigo5    lex:temConteudo    "Art. 5o  Ficam revogados:" .
+lex:D8198\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8198\/Artigo5    lex:temInciso    lex:D8198\/Artigo5\/IncisoI .
+lex:D8198\/Artigo5\/IncisoI    lex:temConteudo    "I - o Decreto no 99.066, de 8 de março de 1990;" .
+lex:D8198\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8198\/Artigo5    lex:temInciso    lex:D8198\/Artigo5\/IncisoII .
+lex:D8198\/Artigo5\/IncisoII    lex:temConteudo    "II - o Decreto no 113, de 6 de maio de 1991;" .
+lex:D8198\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8198\/Artigo5    lex:temInciso    lex:D8198\/Artigo5\/IncisoIII .
+lex:D8198\/Artigo5\/IncisoIII    lex:temConteudo    "III - o Decreto no 6.295, de 11 de dezembro de 2007; e" .
+lex:D8198\/Artigo5\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8198\/Artigo5    lex:temInciso    lex:D8198\/Artigo5\/IncisoIV .
+lex:D8198\/Artigo5\/IncisoIV    lex:temConteudo    "IV - o Decreto no 6.344, de 4 de janeiro de 2008." .
+lex:D8198\/Artigo1    lex:regulamentadoPor    lex:L7678 .
+lex:L7678    lex:regulamenta    lex:D8198\/Artigo1 .
+lex:D8198\/Artigo2    lex:remetePara    lex:L7678 .
+lex:D8198\/Artigo5\/IncisoI    lex:remetePara    lex:D99066 .
+lex:D8198\/Artigo5\/IncisoII    lex:remetePara    lex:D113 .
+lex:D8198\/Artigo5\/IncisoIII    lex:remetePara    lex:D6295 .
+lex:D8198\/Artigo5\/IncisoIV    lex:remetePara    lex:D6344 .

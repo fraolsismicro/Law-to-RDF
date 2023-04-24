@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8716    lex:ehUm    lex:DocLegal .
+lex:D8716    lex:temTextoIntegral    lex:HTMLs\/D8716.htm .
+lex:D8716\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8716    lex:temArtigo    lex:D8716\/Artigo1 .
+lex:D8716\/Artigo1    lex:temConteudo    "Art. 1 º  Fica instituído o programa de prevenção e proteção individual de gestantes em situação de vulnerabilidade socioeconômica contra o Aedes aegypti." .
+lex:D8716\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8716\/Artigo1    lex:temParagrafo    lex:D8716\/Artigo1\/ParagrafoUnico .
+lex:D8716\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para os fins deste Decreto, são caracterizadas como em situação de vulnerabilidade socioeconômica as gestantes integrantes de famílias beneficiárias do Programa Bolsa Família, nos termos da Lei n º 10.836, de 9 de janeiro de 2004." .
+lex:D8716\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8716    lex:temArtigo    lex:D8716\/Artigo2 .
+lex:D8716\/Artigo2    lex:temConteudo    "Art. 2 º  O programa será desenvolvido por meio da implementação e da execução de ações voltadas principalmente à aquisição e à distribuição de insumos estratégicos para prevenção e proteção individual de gestantes em situação de vulnerabilidade socioeconômica contra o Aedes aegypti." .
+lex:D8716\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8716\/Artigo2    lex:temParagrafo    lex:D8716\/Artigo2\/Paragrafo1 .
+lex:D8716\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º  Para os fins do disposto no caput, são considerados como insumos estratégicos para a saúde os repelentes para uso tópico contra mosquitos, em especial o Aedes aegypti." .
+lex:D8716\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8716\/Artigo2    lex:temParagrafo    lex:D8716\/Artigo2\/Paragrafo2 .
+lex:D8716\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º  O Ministério da Saúde definirá quais insumos estratégicos para a saúde que serão adquiridos e distribuídos nos termos do caput." .
+lex:D8716\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8716    lex:temArtigo    lex:D8716\/Artigo3 .
+lex:D8716\/Artigo3    lex:temConteudo    "Art. 3 º  Os Ministérios do Desenvolvimento Social e Combate à Fome e da Saúde atuarão de forma conjunta para a implementação do programa." .
+lex:D8716\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8716\/Artigo3    lex:temParagrafo    lex:D8716\/Artigo3\/Paragrafo1 .
+lex:D8716\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1 º  A implementação do programa ocorrerá mediante articulação com outros órgãos e entidades públicas da União, dos Estados, do Distrito Federal e dos Municípios." .
+lex:D8716\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8716\/Artigo3    lex:temParagrafo    lex:D8716\/Artigo3\/Paragrafo2 .
+lex:D8716\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2 º  Os Ministérios de que trata o caput poderão expedir atos complementares para a coordenação e implantação do programa." .
+lex:D8716\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8716    lex:temArtigo    lex:D8716\/Artigo4 .
+lex:D8716\/Artigo4    lex:temConteudo    "Art. 4 º  A aquisição e a distribuição dos insumos previstas no art. 2 º serão realizadas pelo Ministério da Saúde, com os recursos relativos ao crédito extraordinário em favor do Ministério do Desenvolvimento Social e Combate à Fome aberto pela Medida Provisória n º 716, de 11 de março de 2016, mediante assinatura de termo de execução descentralizada entre os referidos Ministérios." .
+lex:D8716\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8716    lex:temArtigo    lex:D8716\/Artigo5 .
+lex:D8716\/Artigo5    lex:temConteudo    "Art. 5 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8716\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L10836 .
+lex:D8716\/Artigo4    lex:remetePara    lex:mpv716 .

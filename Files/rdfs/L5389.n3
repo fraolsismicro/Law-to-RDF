@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5389    lex:ehUm    lex:DocLegal .
+lex:L5389    lex:temTextoIntegral    lex:HTMLs\/L5389.htm .
+lex:L5389\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5389    lex:temParagrafo    lex:L5389\/Paragrafo1 .
+lex:L5389\/Paragrafo1    lex:temConteudo    "§ 1º Os membros da comissão devem ser reconhecidamente versados na matéria da forma dos símbolos a que se refere êste artigo." .
+lex:L5389\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5389    lex:temParagrafo    lex:L5389\/Paragrafo2 .
+lex:L5389\/Paragrafo2    lex:temConteudo    "§ 2º Ter-se-á em vista, com relação à Bandeira Nacional, que o aumento ou redução do número de estrêlas obedecerá aos critérios de ordem histórica, astronômica e estética que orientaram a criação dêsse símbolo pelo Decreto nº 4, de 19 de novembro de 1889." .
+lex:L5389\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L5389    lex:temParagrafo    lex:L5389\/Paragrafo3 .
+lex:L5389\/Paragrafo3    lex:temConteudo    "§ 3º As modificações serão estabelecidas mediante decreto do Poder Executivo." .
+lex:L5389\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5389    lex:temParagrafo    lex:L5389\/ParagrafoUnico .
+lex:L5389\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As letras dessa denominação terão nas Armas e no Sêlo, a altura e largura que a conveniência estética indicar." .
+lex:L5389\/Texto    lex:remetePara    lex:L5389 .
+lex:L5389\/Artigo1    lex:remetePara    lex:D0004 .
+lex:L5389\/Artigo1    lex:remetePara    lex:Del4545 .

@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5091    lex:ehUm    lex:DocLegal .
+lex:L5091    lex:temTextoIntegral    lex:HTMLs\/L5091.htm .
+lex:L5091\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5091    lex:temArtigo    lex:L5091\/Artigo1 .
+lex:L5091\/Artigo1    lex:temConteudo    "Art. 1º Prescreve em 1 (um) ano, a contar da data da homologação do respectivo resultado final, o direito de ação judicial contra o julgamento de provas de concursos para o provimento de cargos, empregos ou funções da Administração Federal, centralizada ou autárquica, bem como as decisões administrativas de qualquer natureza adotadas no processamento dos concursos." .
+lex:L5091\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5091    lex:temArtigo    lex:L5091\/Artigo2 .
+lex:L5091\/Artigo2    lex:temConteudo    "Art. 2º Prescreve em 180 (cento e oitenta) dias o direito de reclamação administrativa, de qualquer natureza, contra os concursos a que se refere o artigo anterior." .
+lex:L5091\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5091\/Artigo2    lex:temParagrafo    lex:L5091\/Artigo2\/ParagrafoUnico .
+lex:L5091\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo estabelecido neste artigo contar-se-á da data da identificação de cada prova e poderá ser interrompido, até três vêzes, por pedido de revisão, de reconsideração ou recurso tempestivamente interposto." .
+lex:L5091\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5091    lex:temArtigo    lex:L5091\/Artigo3 .
+lex:L5091\/Artigo3    lex:temConteudo    "Art. 3º Do resultado do julgamento de concursos públicos cabe, exclusivamente:" .
+lex:L5091\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L5091\/Artigo3    lex:temInciso    lex:L5091\/Artigo3\/IncisoI .
+lex:L5091\/Artigo3\/IncisoI    lex:temConteudo    "I - pedido de revisão de provas, no prazo de 90 (noventa) dias, a contar da sua identificação e vista pelos candidatos;" .
+lex:L5091\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L5091\/Artigo3    lex:temInciso    lex:L5091\/Artigo3\/IncisoII .
+lex:L5091\/Artigo3\/IncisoII    lex:temConteudo    "II - pedido de reconsideração ao Diretor do órgão que houver realizado o concurso, quando indeferido ou não decidido o pedido de reconsideração, no prazo de 60 (ssessenta) dias a contar da sua apresentação;" .
+lex:L5091\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L5091\/Artigo3    lex:temInciso    lex:L5091\/Artigo3\/IncisoIII .
+lex:L5091\/Artigo3\/IncisoIII    lex:temConteudo    "III - recurso à autoridade imediatamente superior, quando indeferido ou não decidido o pedido de reconsideração, no prazo de 30 (trinta) dias, a contar da sua apresentação." .
+lex:L5091\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5091    lex:temArtigo    lex:L5091\/Artigo4 .
+lex:L5091\/Artigo4    lex:temConteudo    "Art. 4º É autorizada a incineração das provas e de todo o material inservível de cada concurso, uma vez prescritos o direito de reclamação administrativa e de ação judicial na forma desta lei." .
+lex:L5091\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5091    lex:temArtigo    lex:L5091\/Artigo5 .
+lex:L5091\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5091\/Texto    lex:revogadoPor    lex:Del0797\/Artigo8 .
+lex:Del0797\/Artigo8    lex:revogou    lex:L5091\/Texto .
+lex:L5091\/Texto    lex:remetePara    lex:L5091 .

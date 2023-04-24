@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7399    lex:ehUm    lex:DocLegal .
+lex:L7399    lex:temTextoIntegral    lex:HTMLs\/L7399.htm .
+lex:L7399\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7399    lex:temArtigo    lex:L7399\/Artigo1 .
+lex:L7399\/Artigo1    lex:temConteudo    "Art. 1º - A Lei nº 6.664, de 26 de junho de 1979, que disciplina a profissão de Geógrafo, passa a vigorar com seu art. 2º acrescido dos seguintes dispositivos:" .
+lex:L7399\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L7399\/Artigo1    lex:temInciso    lex:L7399\/Artigo1\/IncisoIV .
+lex:L7399\/Artigo1\/IncisoIV    lex:temConteudo    "IV - aos licenciados em Geografia e em Geografia e História, diplomados em estabelecimento de ensino superior oficial ou reconhecido que, na data da publicação desta Lei, estejam:" .
+lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom    lex:ehUm    lex:IncisoAlinea .
+lex:L7399\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom .
+lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom    lex:temConteudo    "a) com contrato de trabalho como Geógrafo em órgão da administração direta ou indireta ou em entidade privada;" .
+lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom\/IncisoAlineaExercendo    lex:ehUm    lex:IncisoAlinea .
+lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom    lex:temIncisoAlinea    lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom\/IncisoAlineaExercendo .
+lex:L7399\/Artigo1\/IncisoIV\/IncisoAlineaCom\/IncisoAlineaExercendo    lex:temConteudo    "b) exercendo a docência universitária;" .
+lex:L7399\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L7399\/Artigo1    lex:temInciso    lex:L7399\/Artigo1\/IncisoV .
+lex:L7399\/Artigo1\/IncisoV    lex:temConteudo    "V - aos portadores de títulos de Mestre e Doutor em Geografia, expedidos por Universidades oficiais ou reconhecidas;" .
+lex:L7399\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L7399\/Artigo1    lex:temInciso    lex:L7399\/Artigo1\/IncisoVI .
+lex:L7399\/Artigo1\/IncisoVI    lex:temConteudo    "VI - a todos aqueles que, na data da publicação desta Lei, estejam comprovadamente exercendo, há cinco anos ou mais, atividades profissionais de Geógrafo." .
+lex:L7399\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7399    lex:temArtigo    lex:L7399\/Artigo2 .
+lex:L7399\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei será regulamentada no prazo de 60 (sessenta) dias." .
+lex:L7399\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7399    lex:temArtigo    lex:L7399\/Artigo3 .
+lex:L7399\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7399\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7399    lex:temArtigo    lex:L7399\/Artigo4 .
+lex:L7399\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:L7399\/Texto    lex:regulamentadoPor    lex:D92290 .
+lex:D92290    lex:regulamenta    lex:L7399\/Texto .
+lex:L7399\/Artigo1\/IncisoIV    lex:remetePara    lex:L6664\/Artigo2 .

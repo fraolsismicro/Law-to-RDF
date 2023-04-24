@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0871    lex:ehUm    lex:DocLegal .
+lex:D0871    lex:temTextoIntegral    lex:HTMLs\/D0871.htm .
+lex:D0871\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0871    lex:temArtigo    lex:D0871\/Artigo1 .
+lex:D0871\/Artigo1    lex:temConteudo    "Art. 1° O Décimo Sexto Protocolo Adicional ao Acordo de Complementação Econômica n° 14, entre Brasil e Argentina, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D0871\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0871    lex:temArtigo    lex:D0871\/Artigo2 .
+lex:D0871\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0871\/Artigo2\/AlineaVeiculo    lex:ehUm    lex:Alinea .
+lex:D0871\/Artigo2    lex:temAlinea    lex:D0871\/Artigo2\/AlineaVeiculo .
+lex:D0871\/Artigo2\/AlineaVeiculo    lex:temConteudo    "a) veículo de passageiros de qualquer peso e cilindrada e veículos de uso misto de até 1.500 kg de carga útil." .
+lex:D0871\/Artigo2\/AlineaOnibus    lex:ehUm    lex:Alinea .
+lex:D0871\/Artigo2    lex:temAlinea    lex:D0871\/Artigo2\/AlineaOnibus .
+lex:D0871\/Artigo2\/AlineaOnibus    lex:temConteudo    "b) ônibus (item 87.02.2.99 da NALADI)" .
+lex:D0871\/Artigo2\/AlineaOnibus\/ItemAte    lex:ehUm    lex:Item .
+lex:D0871\/Artigo2\/AlineaOnibus    lex:temItem    lex:D0871\/Artigo2\/AlineaOnibus\/ItemAte .
+lex:D0871\/Artigo2\/AlineaOnibus\/ItemAte    lex:temConteudo    "- Até 200 HP ................................................................................................400 UNIDADES" .
+lex:D0871\/Artigo2\/AlineaOnibus\/ItemDe    lex:ehUm    lex:Item .
+lex:D0871\/Artigo2\/AlineaOnibus    lex:temItem    lex:D0871\/Artigo2\/AlineaOnibus\/ItemDe .
+lex:D0871\/Artigo2\/AlineaOnibus\/ItemDe    lex:temConteudo    "- De mais de 200 HP .....................................................................................68 UNIDADES" .
+lex:D0871\/Artigo2\/AlineaCaminhoes    lex:ehUm    lex:Alinea .
+lex:D0871\/Artigo2    lex:temAlinea    lex:D0871\/Artigo2\/AlineaCaminhoes .
+lex:D0871\/Artigo2\/AlineaCaminhoes    lex:temConteudo    "c) caminhões (itens 87.01.2.01, 87.02.3.01 e 87.02.3.99 da NALADI)" .
+lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemAte    lex:ehUm    lex:Item .
+lex:D0871\/Artigo2\/AlineaCaminhoes    lex:temItem    lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemAte .
+lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemAte    lex:temConteudo    "- Até 15 t de carga útil .................................................................................527 UNIDADES" .
+lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemDe    lex:ehUm    lex:Item .
+lex:D0871\/Artigo2\/AlineaCaminhoes    lex:temItem    lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemDe .
+lex:D0871\/Artigo2\/AlineaCaminhoes\/ItemDe    lex:temConteudo    "- De mais de 15 t de carga útil ....................................................................405 UNIDADES" .

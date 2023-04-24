@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D90823    lex:ehUm    lex:DocLegal .
+lex:D90823    lex:temTextoIntegral    lex:HTMLs\/D90823.htm .
+lex:D90823\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D90823    lex:temArtigo    lex:D90823\/Artigo1 .
+lex:D90823\/Artigo1    lex:temConteudo    "Art. 1º - Os limites do Parque Nacional da Amazônia, descritos no art. 1º do Decreto nº 73.683, de 19 de fevereiro de 1984, passam a ser os seguintes:" .
+lex:D90823\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D90823    lex:temArtigo    lex:D90823\/Artigo2 .
+lex:D90823\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:D90823\/Artigo1    lex:remetePara    lex:D73683\/Artigo1 .
+lex:D90823\/Texto00002    lex:remetePara    lex:Retd90823-85 .

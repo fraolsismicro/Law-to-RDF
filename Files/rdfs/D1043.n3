@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1043    lex:ehUm    lex:DocLegal .
+lex:D1043    lex:temTextoIntegral    lex:HTMLs\/D1043.htm .
+lex:D1043\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo1 .
+lex:D1043\/Artigo1    lex:temConteudo    "Art. 1º O pagamento da remuneração dos servidores públicos, civis e militares, da União, das autarquias e das fundações públicas federais, será efetuado:" .
+lex:D1043\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1043\/Artigo1    lex:temInciso    lex:D1043\/Artigo1\/IncisoI .
+lex:D1043\/Artigo1\/IncisoI    lex:temConteudo    "I - nos meses de abril, maio e junho de 1994, até o último dia útil do mês de competência;" .
+lex:D1043\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1043\/Artigo1    lex:temInciso    lex:D1043\/Artigo1\/IncisoII .
+lex:D1043\/Artigo1\/IncisoII    lex:temConteudo    "II - a partir de julho de 1994, até o segundo dia útil posterior ao dia 20 do mês de competência." .
+lex:D1043\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1043\/Artigo1    lex:temParagrafo    lex:D1043\/Artigo1\/ParagrafoUnico .
+lex:D1043\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste decreto aplica-se aos proventos dos inativos e às pensões devidas a beneficiários do servidor falecido." .
+lex:D1043\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo2 .
+lex:D1043\/Artigo2    lex:temConteudo    "Art. 2º A Secretaria do Tesouro Nacional adotará as providências cabíveis relativas à liberação dos recursos financeiros de forma a possibilitar o cumprimento dos dispositivos anteriores." .
+lex:D1043\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo3 .
+lex:D1043\/Artigo3    lex:temConteudo    "Art. 3º Os recursos necessários ao pagamento da Gratificação Natalina dos servidores, inclusive inativos e pensionistas a que se refere este decreto serão liberados pela Secretaria do Tesouro Nacional em duas parcelas, nos meses de junho e dezembro." .
+lex:D1043\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo4 .
+lex:D1043\/Artigo4    lex:temConteudo    "Art. 4º O Ministério da Fazenda e a Secretaria da Administração Federal da Presidência da República, no âmbito de suas respectivas competências, adotarão as providências necessárias à execução do disposto neste decreto." .
+lex:D1043\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo5 .
+lex:D1043\/Artigo5    lex:temConteudo    "Art. 5º Este decreto entra em vigor na data de sua publicação." .
+lex:D1043\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1043    lex:temArtigo    lex:D1043\/Artigo6 .
+lex:D1043\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se o Decreto nº 97.970, de 17 de julho de 1989 e demais disposições em contrário." .
+lex:D1043\/Artigo6    lex:remetePara    lex:D97970 .

@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3739    lex:ehUm    lex:DocLegal .
+lex:D3739    lex:temTextoIntegral    lex:HTMLs\/D3739.htm .
+lex:D3739\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3739    lex:temArtigo    lex:D3739\/Artigo1 .
+lex:D3739\/Artigo1    lex:temConteudo    "Art. 1o  O valor total da energia produzida, para fins da compensação financeira de que trata o art. 1o da Lei no 8.001, de 13 de março de 1990, será obtido pelo produto da energia de origem hidráulica efetivamente verificada, medida em megawatt-hora, multiplicado pela Tarifa Atualizada de Referência-TAR, fixada pela Agência Nacional de Energia Elétrica - ANEEL." .
+lex:D3739\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3739\/Artigo1    lex:temParagrafo    lex:D3739\/Artigo1\/Paragrafo1 .
+lex:D3739\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A ANEEL fixará a TAR com base nos preços de venda de energia destinada ao suprimento das concessionárias de serviço público de distribuição de energia elétrica, excluindo-se os encargos setoriais vinculados à atividade de geração, os tributos e empréstimos compulsórios, bem como os custos incorridos na transmissão de energia elétrica." .
+lex:D3739\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3739\/Artigo1    lex:temParagrafo    lex:D3739\/Artigo1\/Paragrafo2 .
+lex:D3739\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  A TAR será calculada pelo quociente entre o total despendido pelas concessionárias de serviço público de distribuição de energia elétrica, relativo à parcela de energia adquirida nos últimos doze meses, e a correspondente quantidade de energia." .
+lex:D3739\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3739    lex:temArtigo    lex:D3739\/Artigo2 .
+lex:D3739\/Artigo2    lex:temConteudo    "Art. 2o  Nas usinas hidrelétricas beneficiadas por reservatórios de montante, o acréscimo de energia por eles propiciado será considerado como geração associada a estes reservatórios regularizadores, competindo à ANEEL efetuar a avaliação correspondente e determinar a proporção da compensação financeira devida aos Estados, ao Distrito Federal e aos Municípios por eles afetados." .
+lex:D3739\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3739\/Artigo2    lex:temParagrafo    lex:D3739\/Artigo2\/ParagrafoUnico .
+lex:D3739\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A ANEEL disciplinará, em ato normativo específico, a proporção da compensação financeira de que trata este artigo." .
+lex:D3739\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3739    lex:temArtigo    lex:D3739\/Artigo3 .
+lex:D3739\/Artigo3    lex:temConteudo    "Art. 3o  A ANEEL, mediante solicitação da Agência Nacional de Águas - ANA, poderá adotar as medidas previstas nos arts. 32, 33, 34 e 38 da Lei no 8.987, de 13 de fevereiro de 1995, sempre que resultar ineficaz a aplicação das sanções previstas na Lei no 9.433, de 8 de janeiro de 1997, no caso de outorga de direito de uso de recursos hídricos para fins de geração de energia elétrica." .
+lex:D3739\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3739    lex:temArtigo    lex:D3739\/Artigo4 .
+lex:D3739\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3739\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D3739    lex:temArtigo    lex:D3739\/Artigo5 .
+lex:D3739\/Artigo5    lex:temConteudo    "Art. 5o  Ficam revogados os arts. 2o a 12 do Decreto no l, de 11 de janeiro de 1991." .
+lex:D3739\/Artigo1    lex:remetePara    lex:L8001\/Artigo1 .
+lex:D3739\/Artigo3    lex:remetePara    lex:L8987cons\/Artigo32 .
+lex:D3739\/Artigo3    lex:remetePara    lex:L9433 .
+lex:D3739\/Artigo5    lex:remetePara    lex:D0001 .

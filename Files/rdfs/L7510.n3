@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7510    lex:ehUm    lex:DocLegal .
+lex:L7510    lex:temTextoIntegral    lex:HTMLs\/L7510.htm .
+lex:L7510\/ParagrafoOs    lex:ehUm    lex:Paragrafo .
+lex:L7510    lex:temParagrafo    lex:L7510\/ParagrafoOs .
+lex:L7510\/ParagrafoOs    lex:temConteudo    "Art.1º Os artigos 1º e 4º da Lei nº 1.060, de 5 de fevereiro de 1950, passam a vigorar com a seguinte redação:" .
+lex:L7510\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7510    lex:temArtigo    lex:L7510\/Artigo4 .
+lex:L7510\/Artigo4    lex:temConteudo    "Art. 4º A parte gozará dos benefícios da assistência judiciária, mediante simples afirmação, na própria petição inicial, de que não está em condições de pagar as custas do processo e os honorários de advogado, sem prejuízo próprio ou de sua família." .
+lex:L7510\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7510\/Artigo4    lex:temParagrafo    lex:L7510\/Artigo4\/Paragrafo1 .
+lex:L7510\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1º Presume-se pobre, até prova em contrário, quem afirmar essa condição nos termos desta lei, sob pena de pagamento até o décuplo das custas judiciais." .
+lex:L7510\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7510\/Artigo4    lex:temParagrafo    lex:L7510\/Artigo4\/Paragrafo2 .
+lex:L7510\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º A impugnação do direito à assistência judiciária não suspende o curso do processo e será feita em autos apartados." .
+lex:L7510\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7510    lex:temArtigo    lex:L7510\/Artigo2 .
+lex:L7510\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L7510\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7510    lex:temArtigo    lex:L7510\/Artigo3 .
+lex:L7510\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário, (vetado)." .
+lex:L7510\/Texto00001    lex:remetePara    lex:L1060\/Artigo1 .
+lex:L7510\/Artigo4    lex:remetePara    lex:L1060\/Artigo4 .
+lex:L7510\/Artigo4\/Paragrafo1    lex:remetePara    lex:L1060\/Artigo4\/Paragrafo1 .
+lex:L7510\/Artigo4\/Paragrafo2    lex:remetePara    lex:L1060\/Artigo4\/Paragrafo2 .

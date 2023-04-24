@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7605    lex:ehUm    lex:DocLegal .
+lex:D7605    lex:temTextoIntegral    lex:HTMLs\/D7605.htm .
+lex:D7605\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7605    lex:temArtigo    lex:D7605\/Artigo1 .
+lex:D7605\/Artigo1    lex:temConteudo    "Art. 1o  Os Anexos I e II ao Decreto no 7.375, de 29 de novembro de 2010, relativos ao Programa de Dispêndios Globais - PDG das empresas estatais federais para 2011, passam a vigorar na forma dos Anexos I e II a este Decreto." .
+lex:D7605\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7605    lex:temArtigo    lex:D7605\/Artigo2 .
+lex:D7605\/Artigo2    lex:temConteudo    "Art. 2o  As empresas estatais a que se refere o art. 1o deverão observar, na execução dos investimentos, o teto da rubrica Investimentos constante do seu Programa de Dispêndios Globais e o limite de cada ação aprovado pela Lei no 12.381, de 9 de fevereiro de 2011, acrescido dos créditos adicionais aprovados em 2011." .
+lex:D7605\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7605    lex:temArtigo    lex:D7605\/Artigo3 .
+lex:D7605\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7605\/Artigo1    lex:remetePara    lex:D7375\/ .
+lex:D7605\/Artigo2    lex:remetePara    lex:L12381 .

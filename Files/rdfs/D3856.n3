@@ -1,0 +1,67 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3856    lex:ehUm    lex:DocLegal .
+lex:D3856    lex:temTextoIntegral    lex:HTMLs\/D3856.htm .
+lex:D3856\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3856    lex:temArtigo    lex:D3856\/Artigo1 .
+lex:D3856\/Artigo1    lex:temConteudo    "Art. 1o O Protocolo de São Luiz sobre Matéria de Responsabilidade Civil Emergente de Acidentes de Trânsito entre os Estados Partes do Mercosul, concluído em São Luiz, República Argentina, em 25 de junho de 1996, e a respectiva Errata, feita em Assunção, em 19 de junho de 1997, apensos por cópia a este Decreto, deverão ser executados e cumpridos tão inteiramente como neles se contém." .
+lex:D3856\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3856\/Artigo1    lex:temParagrafo    lex:D3856\/Artigo1\/ParagrafoUnico .
+lex:D3856\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Protocolo, bem como quaisquer ajustes complementares que, nos termos do art. 49, I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D3856\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3856    lex:temArtigo    lex:D3856\/Artigo2 .
+lex:D3856\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3856\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaQuando .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temConteudo    "a) quando se tratar de pessoas físicas:" .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemA    lex:ehUm    lex:Item .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temItem    lex:D3856\/Artigo2\/AlineaQuando\/ItemA .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemA    lex:temConteudo    "1. a residência habitual;" .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemO    lex:ehUm    lex:Item .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temItem    lex:D3856\/Artigo2\/AlineaQuando\/ItemO .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemO    lex:temConteudo    "2. o centro principal de seus negócios;" .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemO    lex:ehUm    lex:Item .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temItem    lex:D3856\/Artigo2\/AlineaQuando\/ItemO .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemO    lex:temConteudo    "3. o lugar onde se encontra a residência não habitual;" .
+lex:D3856\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaQuando .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temConteudo    "b) quando se tratar de pessoas jurídicas:" .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemA    lex:ehUm    lex:Item .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temItem    lex:D3856\/Artigo2\/AlineaQuando\/ItemA .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemA    lex:temConteudo    "1. a sede principal da administração;" .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemCaso    lex:ehUm    lex:Item .
+lex:D3856\/Artigo2\/AlineaQuando    lex:temItem    lex:D3856\/Artigo2\/AlineaQuando\/ItemCaso .
+lex:D3856\/Artigo2\/AlineaQuando\/ItemCaso    lex:temConteudo    "2. caso possuam sucursais, estabelecimentos, agências ou qualquer outra espécie de representação, o lugar onde qualquer destas funcionem." .
+lex:D3856\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaAs .
+lex:D3856\/Artigo2\/AlineaAs    lex:temConteudo    "a) as condições e a extensão da responsabilidade;" .
+lex:D3856\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaAs .
+lex:D3856\/Artigo2\/AlineaAs    lex:temConteudo    "b) as causas de isenção, assim como toda delimitação de responsabilidade;" .
+lex:D3856\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaA .
+lex:D3856\/Artigo2\/AlineaA    lex:temConteudo    "c) a existência e a natureza dos danos suscetíveis de reparação;" .
+lex:D3856\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaAs .
+lex:D3856\/Artigo2\/AlineaAs    lex:temConteudo    "d) as modalidades e extensão da reparação;" .
+lex:D3856\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaA .
+lex:D3856\/Artigo2\/AlineaA    lex:temConteudo    "e) a responsabilização do proprietário do veículo, por atos ou fatos de seus dependentes, subordinados ou qualquer outro usuário a título legítimo;" .
+lex:D3856\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaA .
+lex:D3856\/Artigo2\/AlineaA    lex:temConteudo    "f) a prescrição e a caducidade." .
+lex:D3856\/Artigo2\/AlineaOnde    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaOnde .
+lex:D3856\/Artigo2\/AlineaOnde    lex:temConteudo    "a) onde ocorreu o acidente;" .
+lex:D3856\/Artigo2\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaDo .
+lex:D3856\/Artigo2\/AlineaDo    lex:temConteudo    "b) do domicílio do demandado; e" .
+lex:D3856\/Artigo2\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D3856\/Artigo2    lex:temAlinea    lex:D3856\/Artigo2\/AlineaDo .
+lex:D3856\/Artigo2\/AlineaDo    lex:temConteudo    "c) do domicílio do demandante." .

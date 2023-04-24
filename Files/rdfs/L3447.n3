@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3447    lex:ehUm    lex:DocLegal .
+lex:L3447    lex:temTextoIntegral    lex:HTMLs\/L3447.htm .
+lex:L3447\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3447    lex:temArtigo    lex:L3447\/Artigo1 .
+lex:L3447\/Artigo1    lex:temConteudo    "Art. 1º Dê-se ao art. 649 e seus parágrafos do Código Civil a seguinte redação:" .
+lex:L3447\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L3447\/Artigo1    lex:temParagrafo    lex:L3447\/Artigo1\/Paragrafo1 .
+lex:L3447\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os herdeiros e sucessores do autor gozarão dêsse direito pelo tempo de 60 (sessenta) anos, a contar do dia de seu falecimento." .
+lex:L3447\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L3447\/Artigo1    lex:temParagrafo    lex:L3447\/Artigo1\/Paragrafo2 .
+lex:L3447\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Se morrer o autor, sem herdeiros ou sucessores até o 2º grau, a obra cairá no domínio comum." .
+lex:L3447\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L3447\/Artigo1    lex:temParagrafo    lex:L3447\/Artigo1\/Paragrafo3 .
+lex:L3447\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º No caso de caber a sucessão aos filhos, aos pais ou ao cônjuge do autor, não prevalecerá o prazo do § 1º e o direito só se extinguirá com a morte do sucessor'." .
+lex:L3447\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3447    lex:temArtigo    lex:L3447\/Artigo2 .
+lex:L3447\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:L3447\/Texto00001    lex:remetePara    lex:L3071\/Artigo649 .

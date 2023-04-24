@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2266    lex:ehUm    lex:DocLegal .
+lex:L2266    lex:temTextoIntegral    lex:HTMLs\/L2266.htm .
+lex:L2266\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo1 .
+lex:L2266\/Artigo1    lex:temConteudo    "Art. 1º O art. 3º da Lei nº 1.493, de 13 de dezembro de 1951, passa  a Ter a seguinte redação:" .
+lex:L2266\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L2266\/Artigo1    lex:temParagrafo    lex:L2266\/Artigo1\/ParagrafoUnico .
+lex:L2266\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As entidades  públicas, beneficiadas com dotações referidas nêste artigo, apresentarão programa de aplicação dos recursos ao Ministério a que estiver consignado o  respectivo crédito'." .
+lex:L2266\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo2 .
+lex:L2266\/Artigo2    lex:temConteudo    "Art. 2º É revogada letra 'd' do item I do art. 6º da Lei nº 1.493, de 13 de dezembro de 1951." .
+lex:L2266\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo3 .
+lex:L2266\/Artigo3    lex:temConteudo    "Art. 3º Os §§ 1º e 2º do art. 11 da Lei nº 1.493, de 13 de dezembro de 1951, passam a ter a seguinte redação:" .
+lex:L2266\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L2266\/Artigo3    lex:temParagrafo    lex:L2266\/Artigo3\/Paragrafo2 .
+lex:L2266\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º O Ministro de Estado competente solicitará ao Banco do Brasil, à conta dos créditos postos à sua disposição, o pagamento das subvenções extraordinárias às instituições beneficiadas, no local das sédes destas ou nas localidades mais próximas, por intermédio das Agências do referido Banco, deduzidas de cada uma as taxas de serviço bancário'." .
+lex:L2266\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo4 .
+lex:L2266\/Artigo4    lex:temConteudo    "Art. 4º O art. 21 da Lei nº 1.493, de 13 de dezembro de 1951, transformado seu parágrafo único em § 1º e acrescentado mais um parágrafo, passa ater a seguinte redação:" .
+lex:L2266\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L2266\/Artigo4    lex:temParagrafo    lex:L2266\/Artigo4\/Paragrafo2 .
+lex:L2266\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2º É extensivo às subvenções ordinárias consignadas nos anexos dos Ministérios da Aeronáutica, Agricultura e Justiça e Negócios Interiores, o caráter continuado previsto no § 1º do art. 3° da mesma lei." .
+lex:L2266\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo5 .
+lex:L2266\/Artigo5    lex:temConteudo    "Art. 5º Não se aplica, quanto a subvenções constantes do Orçamento Ministério da Agricultura para 1053, e anteriores, o disposto nos artigos 6º, letra e, e 19, da Lei número 1.493, de 13 de dezembro de 1951." .
+lex:L2266\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo6 .
+lex:L2266\/Artigo6    lex:temConteudo    "Art. 6º As alterações resultantes de nova redação do art. 3º da Lei n.º 1.493, de 13 de dezembro de 1951, aplicar-se-ão também na execução do Orçamento da União de 1963." .
+lex:L2266\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo8 .
+lex:L2266\/Artigo8    lex:temConteudo    "Art. 8º São consideradas como feitas distintamente aos Ministérios da Educação e Cultura e de Saúde, e aos respectivos Ministros, as referências a Ministério ou a Ministro da Educação e Saúde que constam da Lei n.º 1.493, de 13 de dezembro de 1951." .
+lex:L2266\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L2266    lex:temArtigo    lex:L2266\/Artigo9 .
+lex:L2266\/Artigo9    lex:temConteudo    "Art. 9º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2266\/Texto00001    lex:remetePara    lex:L1493\/Artigo3 .
+lex:L2266\/Artigo2    lex:remetePara    lex:L1493\/Artigo6 .
+lex:L2266\/Texto00004    lex:remetePara    lex:L1493\/Artigo11\/Paragrafo1 .
+lex:L2266\/Texto00006    lex:remetePara    lex:L1493\/Artigo21 .
+lex:L2266\/Artigo5    lex:remetePara    lex:L1493\/Artigo6 .
+lex:L2266\/Artigo5    lex:remetePara    lex:L1493\/Artigo6 .
+lex:L2266\/Artigo6    lex:remetePara    lex:L1493\/Artigo3 .
+lex:L2266\/Artigo7    lex:remetePara    lex:L1493\/Artigo4\/Paragrafo2 .
+lex:L2266\/Artigo7    lex:revogadoPor    lex:L4762\/Artigo4 .
+lex:L4762\/Artigo4    lex:revogou    lex:L2266\/Artigo7 .
+lex:L2266\/Artigo8    lex:remetePara    lex:L1493 .

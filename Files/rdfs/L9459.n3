@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9459    lex:ehUm    lex:DocLegal .
+lex:L9459    lex:temTextoIntegral    lex:HTMLs\/L9459.htm .
+lex:L9459\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9459    lex:temArtigo    lex:L9459\/Artigo1 .
+lex:L9459\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 1º e 20 da Lei nº 7.716, de 5 de janeiro de 1989, passam a vigorar com a seguinte redação:" .
+lex:L9459\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9459\/Artigo1    lex:temParagrafo    lex:L9459\/Artigo1\/Paragrafo1 .
+lex:L9459\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Fabricar, comercializar, distribuir ou veicular símbolos, emblemas, ornamentos, distintivos ou propaganda que utilizem a cruz suástica ou gamada, para fins de divulgação do nazismo." .
+lex:L9459\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9459\/Artigo1    lex:temParagrafo    lex:L9459\/Artigo1\/Paragrafo2 .
+lex:L9459\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Se qualquer dos crimes previstos no caput é cometido por intermédio dos meios de comunicação social ou publicação de qualquer natureza:" .
+lex:L9459\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9459\/Artigo1    lex:temParagrafo    lex:L9459\/Artigo1\/Paragrafo3 .
+lex:L9459\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º No caso do parágrafo anterior, o juiz poderá determinar, ouvido o Ministério Público ou a pedido deste, ainda antes do inquérito policial, sob pena de desobediência:" .
+lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L9459\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - o recolhimento imediato ou a busca e apreensão dos exemplares do material respectivo;" .
+lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L9459\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:L9459\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - a cessação das respectivas transmissões radiofônicas ou televisivas." .
+lex:L9459\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L9459\/Artigo1    lex:temParagrafo    lex:L9459\/Artigo1\/Paragrafo4 .
+lex:L9459\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º Na hipótese do § 2º, constitui efeito da condenação, após o trânsito em julgado da decisão, a destruição do material apreendido.'" .
+lex:L9459\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9459    lex:temArtigo    lex:L9459\/Artigo2 .
+lex:L9459\/Artigo2    lex:temConteudo    "Art. 2º O art. 140 do Código Penal fica acrescido do seguinte parágrafo:" .
+lex:L9459\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9459\/Artigo2    lex:temParagrafo    lex:L9459\/Artigo2\/Paragrafo3 .
+lex:L9459\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Se a injúria consiste na utilização de elementos referentes a raça, cor, etnia, religião ou origem:" .
+lex:L9459\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9459    lex:temArtigo    lex:L9459\/Artigo3 .
+lex:L9459\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9459\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9459    lex:temArtigo    lex:L9459\/Artigo4 .
+lex:L9459\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário, especialmente o art. 1º da Lei nº 8.081, de 21 de setembro de 1990, e a Lei nº 8.882, de 3 de junho de 1994." .
+lex:L9459\/Artigo1    lex:remetePara    lex:L7716 .
+lex:L9459\/Texto00001    lex:remetePara    lex:L7716\/Artigo1 .
+lex:L9459\/Texto00001    lex:remetePara    lex:L7716\/Artigo20 .
+lex:L9459\/Artigo2\/Paragrafo3    lex:remetePara    lex:Del2848\/Artigo140\/Paragrafo3 .
+lex:L9459\/Artigo4    lex:remetePara    lex:L8081 .
+lex:L9459\/Artigo4    lex:remetePara    lex:L8882 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2153    lex:ehUm    lex:DocLegal .
+lex:Del2153    lex:temTextoIntegral    lex:HTMLs\/Del2153.htm .
+lex:Del2153\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2153    lex:temArtigo    lex:Del2153\/Artigo1 .
+lex:Del2153\/Artigo1    lex:temConteudo    "Art 1º - O artigo 3º da Lei nº 6.732, de 04 de dezembro de 1979, com a redação dada pelo artigo 1º do Decreto-lei nº 1.746, de 27 de dezembro de 1979, acrescido dos seguintes parágrafos:" .
+lex:Del2153\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del2153\/Artigo1    lex:temParagrafo    lex:Del2153\/Artigo1\/Paragrafo2 .
+lex:Del2153\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - A contagem de período de exercício em cargo em comissão, função gratificada ou função de confiança, não poderá ser feita de modo diferente dos critérios expressamente estabelecidos neste artigo.'" .
+lex:Del2153\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2153    lex:temArtigo    lex:Del2153\/Artigo2 .
+lex:Del2153\/Artigo2    lex:temConteudo    "Art 2º - O disposto no § 2º do artigo 3º da Lei nº 6 732, de 1979, acrescentado pelo artigo anterior, alcança, também, a contagem de período de exercício pleiteada anteriormente à vigência deste Decreto-lei." .
+lex:Del2153\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2153    lex:temArtigo    lex:Del2153\/Artigo3 .
+lex:Del2153\/Artigo3    lex:temConteudo    "Art 3º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2153\/Artigo1    lex:remetePara    lex:L6732\/Artigo3\/Paragrafo1 .
+lex:Del2153\/Artigo2    lex:remetePara    lex:L6732\/Artigo3\/Paragrafo2 .

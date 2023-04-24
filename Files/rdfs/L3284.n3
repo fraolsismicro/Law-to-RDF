@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3284    lex:ehUm    lex:DocLegal .
+lex:L3284    lex:temTextoIntegral    lex:HTMLs\/L3284.htm .
+lex:L3284\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3284    lex:temArtigo    lex:L3284\/Artigo1 .
+lex:L3284\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda, o crédito especial de ..... Cr$ 400.000.000,00 (quatrocentos milhões de cruzeiros) para a construção de uma, refinaria de petróleo, com a capacidade inicial de cinco mil barris diários, na cidade de Corumbá no Estado de Mato Grosso." .
+lex:L3284\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3284    lex:temArtigo    lex:L3284\/Artigo2 .
+lex:L3284\/Artigo2    lex:temConteudo    "Art. 2º De conformidade com o art. 28 da Lei nº 2.004, de 3 de outubro de 1953, a construção da refinaria de petróleo ficará a cargo da Petróleo Brasileiro S.A. (Petrobrás) à qual incumbirá sua direção e administração." .
+lex:L3284\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3284    lex:temArtigo    lex:L3284\/Artigo3 .
+lex:L3284\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L3284\/Artigo2    lex:remetePara    lex:L2004\/Artigo28 .

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:l8089    lex:ehUm    lex:DocLegal .
+lex:l8089    lex:temTextoIntegral    lex:HTMLs\/l8089.htm .
+lex:l8089\/Artigo1    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo1 .
+lex:l8089\/Artigo1    lex:temConteudo    "Art. 1° É o Poder Executivo autorizado a abrir aos Orçamentos da União (Lei n° 7.999, de 31 de janeiro de 1990), em favor do Ministério da Justiça, o crédito suplementar no valor de Cr$ 1.596.725.000,00 (um bilhão, quinhentos e noventa e seis milhões, setecentos e vinte e cinco mil cruzeiros) para atender à programação constante do Anexo I desta lei." .
+lex:l8089\/Artigo2    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo2 .
+lex:l8089\/Artigo2    lex:temConteudo    "Art. 2° (VETADO)." .
+lex:l8089\/Artigo3    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo3 .
+lex:l8089\/Artigo3    lex:temConteudo    "Art. 3° Os recursos necessários à execução do disposto no artigo anterior são provenientes do excesso de arrecadação de recursos diretamente arrecadados de outras fontes, na forma do Anexo III desta lei, nos termos do art. 43, §§ 1°, inciso II, e 3°, da Lei n° 4.320, de 17 de março de 1964." .
+lex:l8089\/Artigo4    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo4 .
+lex:l8089\/Artigo4    lex:temConteudo    "Art. 4° Os valores constantes desta lei foram calculados com base na Unidade de Referência Orçamentária relativa ao mês de março de 1990." .
+lex:l8089\/Artigo5    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo5 .
+lex:l8089\/Artigo5    lex:temConteudo    "Art. 5° Esta lei entra em vigor na data de sua publicação." .
+lex:l8089\/Artigo6    lex:ehUm    lex:Artigo .
+lex:l8089    lex:temArtigo    lex:l8089\/Artigo6 .
+lex:l8089\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:l8089\/Artigo1    lex:remetePara    lex:L7999 .
+lex:l8089\/Artigo3    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .
+lex:l8089\/Artigo3    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .

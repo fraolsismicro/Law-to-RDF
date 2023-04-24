@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0709    lex:ehUm    lex:DocLegal .
+lex:D0709    lex:temTextoIntegral    lex:HTMLs\/D0709.htm .
+lex:D0709\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0709    lex:temArtigo    lex:D0709\/Artigo1 .
+lex:D0709\/Artigo1    lex:temConteudo    "Art. 1° O acordo sobre Cooperação Cultural entre o Governo da República Federativa do Brasil e o Governo da República Popular da Bulgária, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0709\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0709    lex:temArtigo    lex:D0709\/Artigo2 .
+lex:D0709\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0709\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaO .
+lex:D0709\/Artigo2\/AlineaO    lex:temConteudo    "a) O intercâmbio de escritores, tradutores, diretores, atores e técnicos teatrais e cinematográficos, artistas plásticos, dançarinos, músicos, arquitetos e esportistas;" .
+lex:D0709\/Artigo2\/AlineaIntercambio    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaIntercambio .
+lex:D0709\/Artigo2\/AlineaIntercambio    lex:temConteudo    "b) intercambio de professores e estudantes de pós-graduação;" .
+lex:D0709\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaA .
+lex:D0709\/Artigo2\/AlineaA    lex:temConteudo    "c) a criação de cursos regulares de língua portuguesa, literatura e civilização brasileira em universidades búlgaras, e de língua, literatura e civilização búlgara em universidades brasileiras;" .
+lex:D0709\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaA .
+lex:D0709\/Artigo2\/AlineaA    lex:temConteudo    "d) a tradução e publicação de obras literárias e artísticas da outra Parte, de reconhecida qualidade;" .
+lex:D0709\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaO .
+lex:D0709\/Artigo2\/AlineaO    lex:temConteudo    "e) o intercâmbio de livros, publicações culturais e de informações sobre os museus, bibliotecas e outras instituições culturais;" .
+lex:D0709\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaO .
+lex:D0709\/Artigo2\/AlineaO    lex:temConteudo    "f) o intercâmbio de missões educacionais de interesse recíproco; e" .
+lex:D0709\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaA .
+lex:D0709\/Artigo2\/AlineaA    lex:temConteudo    "g) a organização de manifestações culturais, tais como exposições, conferências, representações teatrais, mostras cinematográficas, programas de televisão, apresentações musicais, espetáculos de dança, exibições circenses e certames esportivos." .
+lex:D0709\/Artigo2\/AlineaA\/ItemNa    lex:ehUm    lex:Item .
+lex:D0709\/Artigo2\/AlineaA    lex:temItem    lex:D0709\/Artigo2\/AlineaA\/ItemNa .
+lex:D0709\/Artigo2\/AlineaA\/ItemNa    lex:temConteudo    "2. Na medida de suas disponibilidades, as Partes Contratantes concederão vagas e bolsas-de-estudo em cursos de pós-graduação de suas universidades para estudantes da outra Parte, em áreas de estudo escolhidos de comum acordo." .
+lex:D0709\/Artigo2\/AlineaAnalisar    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaAnalisar .
+lex:D0709\/Artigo2\/AlineaAnalisar    lex:temConteudo    "a) analisar o desenvolvimento do intercâmbio e da cooperação bilateral nos campos cultural, educacional e esportivo;" .
+lex:D0709\/Artigo2\/AlineaAvaliar    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaAvaliar .
+lex:D0709\/Artigo2\/AlineaAvaliar    lex:temConteudo    "b) avaliar o cumprimento dos programas bilaterais de intercambia, examinar e aprovar programas bienais elaborados e projetos específicos; e" .
+lex:D0709\/Artigo2\/AlineaPropor    lex:ehUm    lex:Alinea .
+lex:D0709\/Artigo2    lex:temAlinea    lex:D0709\/Artigo2\/AlineaPropor .
+lex:D0709\/Artigo2\/AlineaPropor    lex:temConteudo    "c) propor medidas para o aperfeiçoamento da implementação do presente Acordo." .
+lex:D0709\/Artigo2\/AlineaPropor\/ItemA    lex:ehUm    lex:Item .
+lex:D0709\/Artigo2\/AlineaPropor    lex:temItem    lex:D0709\/Artigo2\/AlineaPropor\/ItemA .
+lex:D0709\/Artigo2\/AlineaPropor\/ItemA    lex:temConteudo    "2. A Comissão Mista reunir-se-á alternadamente em Brasília e em Sófia a cada dois anos ou de acordo com a conveniência de ambas as Partes Contratantes." .
+lex:D0709\/Artigo2\/AlineaPropor\/ItemAs    lex:ehUm    lex:Item .
+lex:D0709\/Artigo2\/AlineaPropor    lex:temItem    lex:D0709\/Artigo2\/AlineaPropor\/ItemAs .
+lex:D0709\/Artigo2\/AlineaPropor\/ItemAs    lex:temConteudo    "3. As decisões e recomendações estipuladas nas reuniões da Comissão Mista Cultural deverão constas de uma Ata Final, feita em dois textos originais, em português e em búlgaro, ambos igualmente autênticos." .

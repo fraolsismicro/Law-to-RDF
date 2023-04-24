@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6708    lex:ehUm    lex:DocLegal .
+lex:D6708    lex:temTextoIntegral    lex:HTMLs\/D6708.htm .
+lex:D6708\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6708    lex:temArtigo    lex:D6708\/Artigo1 .
+lex:D6708\/Artigo1    lex:temConteudo    "Art. 1o  A validade dos restos a pagar não processados, inscritos no exercício financeiro de 2007, fica prorrogada até 30 de dezembro de 2009." .
+lex:D6708\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6708    lex:temArtigo    lex:D6708\/Artigo2 .
+lex:D6708\/Artigo2    lex:temConteudo    "Art. 2o  O art. 68 do Decreto no 93.872, de 23 de dezembro de 1986, passa a vigorar com a seguinte redação:" .
+lex:D6708\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6708\/Artigo2    lex:temParagrafo    lex:D6708\/Artigo2\/ParagrafoUnico .
+lex:D6708\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A inscrição de restos a pagar relativa às despesas não processadas terá validade até 31 de dezembro do ano subseqüente. (NR)" .
+lex:D6708\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6708    lex:temArtigo    lex:D6708\/Artigo3 .
+lex:D6708\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6708\/Texto00002    lex:remetePara    lex:D93872\/Artigo68 .

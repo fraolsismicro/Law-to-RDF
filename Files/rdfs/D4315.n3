@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4315    lex:ehUm    lex:DocLegal .
+lex:D4315    lex:temTextoIntegral    lex:HTMLs\/D4315.htm .
+lex:D4315\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4315    lex:temArtigo    lex:D4315\/Artigo1 .
+lex:D4315\/Artigo1    lex:temConteudo    "Art. 1o O art. 70 do Decreto no 2.574, de 29 de abril de 1998, passa a vigorar com as seguintes alterações:" .
+lex:D4315\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4315\/Artigo1    lex:temInciso    lex:D4315\/Artigo1\/IncisoII .
+lex:D4315\/Artigo1\/IncisoII    lex:temConteudo    "II - um por cento do valor da multa contratual, nos casos de transferências nacionais e internacionais, a ser pago pelo atleta;" .
+lex:D4315\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4315\/Artigo1    lex:temInciso    lex:D4315\/Artigo1\/IncisoIV .
+lex:D4315\/Artigo1\/IncisoIV    lex:temConteudo    "IV - penalidades disciplinares pecuniárias aplicadas aos atletas profissionais pelas entidades de prática desportiva, pelas de administração do desporto ou pelos órgãos da Justiça Desportiva." .
+lex:D4315\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4315\/Artigo1    lex:temParagrafo    lex:D4315\/Artigo1\/Paragrafo1 .
+lex:D4315\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O pagamento das importâncias resultantes da aplicação dos incisos I, II, III e IV deste artigo será efetuado mediante o recolhimento direto à FAAP, por intermédio da rede bancária, por meio de guia de recolhimento, em até cinco dias úteis após a ocorrência do fato gerador, ou no dia imediatamente posterior, se na data prevista não houver expediente bancário." .
+lex:D4315\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4315\/Artigo1    lex:temParagrafo    lex:D4315\/Artigo1\/Paragrafo4 .
+lex:D4315\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  As entidades de administração e de prática deverão prestar todas as informações financeiras, cadastrais e de registro, necessárias ao recebimento das contribuições e, no caso de recusa, sonegação de qualquer documento ou informação, ou sua apresentação deficiente, a FAAP fixará, de ofício, sem prejuízo da penalidade cabível, a importância que julgar devida, cabendo à entidade devedora o ônus da prova em contrário." .
+lex:D4315\/Artigo1\/Paragrafo11    lex:ehUm    lex:Paragrafo .
+lex:D4315\/Artigo1    lex:temParagrafo    lex:D4315\/Artigo1\/Paragrafo11 .
+lex:D4315\/Artigo1\/Paragrafo11    lex:temConteudo    "§ 11.  Será exibida, quando do registro dos contratos e transferências de atletas profissionais nas entidades nacionais e regionais de administração, cópia do comprovante de recolhimento das contribuições devidas à FAAP previstas nos incisos I e II do art. 57 da Lei no 9.615, de 1998." .
+lex:D4315\/Artigo1\/Paragrafo12    lex:ehUm    lex:Paragrafo .
+lex:D4315\/Artigo1    lex:temParagrafo    lex:D4315\/Artigo1\/Paragrafo12 .
+lex:D4315\/Artigo1\/Paragrafo12    lex:temConteudo    "§ 12.  A contribuição prevista no inciso III do art. 57 da Lei no 9.615, de 1998, será retida e recolhida pelas entidades nacionais de administração do desporto profissional. (NR)" .
+lex:D4315\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4315    lex:temArtigo    lex:D4315\/Artigo2 .
+lex:D4315\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4315\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4315    lex:temArtigo    lex:D4315\/Artigo3 .
+lex:D4315\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os §§ 5o, 6o, 7o, 8o, 9o e 10 do art. 70 do Decreto no 2.574, de 29 de abril de 1998." .
+lex:D4315\/Texto00001    lex:remetePara    lex:D2574\/70 .
+lex:D4315\/Artigo1\/IncisoIV    lex:remetePara    lex:D2574\/4 .
+lex:D4315\/Artigo1\/Paragrafo1    lex:remetePara    lex:D2574\/1 .
+lex:D4315\/Artigo1\/Paragrafo4    lex:remetePara    lex:D2574\/4 .
+lex:D4315\/Artigo1\/Paragrafo11    lex:remetePara    lex:D2574\/11 .
+lex:D4315\/Artigo1\/Paragrafo11    lex:remetePara    lex:L9615consol\/1 .
+lex:D4315\/Artigo1\/Paragrafo12    lex:remetePara    lex:D2574\/12 .
+lex:D4315\/Artigo1\/Paragrafo12    lex:remetePara    lex:L9615consol\/3 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/5 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/6 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/7 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/8 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/9 .
+lex:D4315\/Artigo3    lex:remetePara    lex:D2574\/10 .

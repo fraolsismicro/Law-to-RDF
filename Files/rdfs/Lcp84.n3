@@ -1,0 +1,14 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp84    lex:ehUm    lex:DocLegal .
+lex:Lcp84    lex:temTextoIntegral    lex:HTMLs\/Lcp84.htm .
+lex:Lcp84\/Texto    lex:regulamentadoPor    lex:D1826 .
+lex:D1826    lex:regulamenta    lex:Lcp84\/Texto .
+lex:Lcp84\/Texto    lex:remetePara    lex:Constituicao\/Artigo195\/Paragrafo4 .
+lex:Lcp84\/Artigo5    lex:remetePara    lex:L8212cons .

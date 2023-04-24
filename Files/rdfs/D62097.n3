@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D62097    lex:ehUm    lex:DocLegal .
+lex:D62097    lex:temTextoIntegral    lex:HTMLs\/D62097.htm .
+lex:D62097\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D62097    lex:temArtigo    lex:D62097\/Artigo1 .
+lex:D62097\/Artigo1    lex:temConteudo    "Art. 1º Fica outorgada concessão à Televisão Tibagi S.A, nos têrmos do art. 28 do Regulamento dos Serviços de Radiodifusão, para estabelecer na cidade de Apucarana, Estado do Paraná, sem direito de exclusividade, uma estação de radiodifusão de sons e imagens (Televisão) utilizando o canal 11." .
+lex:D62097\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D62097\/Artigo1    lex:temParagrafo    lex:D62097\/Artigo1\/ParagrafoUnico .
+lex:D62097\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O contrato decorrente desta concessão obedecerá as cláusulas que com êste baixam, rubricadas pelo Secretário-Geral do Ministério das Comunicações - Presidente do CONTEL - e deverá ser assinado dentro de 60 (sessenta) dias, a contar da data de sua publicação dêste decreto no Diário Oficial da União, sob pena de se tornar nulo, de pleno direito o ato da outorga." .
+lex:D62097\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D62097    lex:temArtigo    lex:D62097\/Artigo2 .
+lex:D62097\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se s disposições em contrário." .

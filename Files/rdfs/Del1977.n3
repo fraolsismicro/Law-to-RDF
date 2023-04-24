@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1977    lex:ehUm    lex:DocLegal .
+lex:Del1977    lex:temTextoIntegral    lex:HTMLs\/Del1977.htm .
+lex:Del1977\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1977    lex:temArtigo    lex:Del1977\/Artigo1 .
+lex:Del1977\/Artigo1    lex:temConteudo    "Art. 1º São prorrogados, até 31 de dezembro de 1983, os prazos de vigência dos Decretos-leis nºs 1.334, de 25 de junho de 1974, 1.364, de 28 de novembro de 1974, e 1.421, de 09 de outubro de 1975, vigentes por força do artigo 2º do Decreto-lei nº 1.857, de 10 de fevereiro de 1981, mantidas as demais disposições e as alterações posteriores introduzidas peIo então Conselho de Política Aduaneira e sua Comissão Executiva e, bem assim, pela atual Comissão de Política Aduaneira." .
+lex:Del1977\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1977    lex:temArtigo    lex:Del1977\/Artigo2 .
+lex:Del1977\/Artigo2    lex:temConteudo    "Art. 2º Findo o prazo de vigência dos Decretos-leis enumerados no artigo anterior, passarão a viger, para as mercadorias por eles abrangidas, as alíquotas fixadas na Tarifa Aduaneira do Brasil, anexa ao Decreto-lei nº 1.753, de 31,de dezembro de 1979, ressalvadas as alterações e atualizações." .
+lex:Del1977\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1977    lex:temArtigo    lex:Del1977\/Artigo3 .
+lex:Del1977\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1977\/Artigo1    lex:remetePara    lex:Del1334 .
+lex:Del1977\/Artigo1    lex:remetePara    lex:Del1364 .
+lex:Del1977\/Artigo1    lex:remetePara    lex:Del1421 .
+lex:Del1977\/Artigo1    lex:remetePara    lex:Del1857\/Artigo2 .
+lex:Del1977\/Artigo2    lex:remetePara    lex:Del1753\/ .

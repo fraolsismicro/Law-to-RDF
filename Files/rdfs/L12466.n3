@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12466    lex:ehUm    lex:DocLegal .
+lex:L12466    lex:temTextoIntegral    lex:HTMLs\/L12466.htm .
+lex:L12466\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12466    lex:temArtigo    lex:L12466\/Artigo1 .
+lex:L12466\/Artigo1    lex:temConteudo    "Art. 1o  O Capítulo III do Título II da Lei no 8.080, de 19 de setembro de 1990, passa a vigorar acrescido dos seguintes arts. 14-A e 14-B:" .
+lex:L12466\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L12466\/Artigo1    lex:temParagrafo    lex:L12466\/Artigo1\/ParagrafoUnico .
+lex:L12466\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A atuação das Comissões Intergestores Bipartite e Tripartite terá por objetivo:" .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L12466\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - decidir sobre os aspectos operacionais, financeiros e administrativos da gestão compartilhada do SUS, em conformidade com a definição da política consubstanciada em planos de saúde, aprovados pelos conselhos de saúde;" .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12466\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - definir diretrizes, de âmbito nacional, regional e intermunicipal, a respeito da organização das redes de ações e serviços de saúde, principalmente no tocante à sua governança institucional e à integração das ações e serviços dos entes federados;" .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L12466\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:L12466\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - fixar diretrizes sobre as regiões de saúde, distrito sanitário, integração de territórios, referência e contrarreferência e demais aspectos vinculados à integração das ações e serviços de saúde entre os entes federados." .
+lex:L12466\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12466\/Artigo1    lex:temParagrafo    lex:L12466\/Artigo1\/Paragrafo1 .
+lex:L12466\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O Conass e o Conasems receberão recursos do orçamento geral da União por meio do Fundo Nacional de Saúde, para auxiliar no custeio de suas despesas institucionais, podendo ainda celebrar convênios com a União." .
+lex:L12466\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12466\/Artigo1    lex:temParagrafo    lex:L12466\/Artigo1\/Paragrafo2 .
+lex:L12466\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Os Conselhos de Secretarias Municipais de Saúde (Cosems) são reconhecidos como entidades que representam os entes municipais, no âmbito estadual, para tratar de matérias referentes à saúde, desde que vinculados institucionalmente ao Conasems, na forma que dispuserem seus estatutos." .
+lex:L12466\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12466    lex:temArtigo    lex:L12466\/Artigo2 .
+lex:L12466\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12466\/Texto00001    lex:remetePara    lex:L8080\/Artigo14 .
+lex:L12466\/Artigo1\/ParagrafoUnico\/Texto00005    lex:remetePara    lex:L8080\/Artigo14 .

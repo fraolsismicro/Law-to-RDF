@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D69313    lex:ehUm    lex:DocLegal .
+lex:D69313    lex:temTextoIntegral    lex:HTMLs\/D69313.htm .
+lex:D69313\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D69313    lex:temArtigo    lex:D69313\/Artigo1 .
+lex:D69313\/Artigo1    lex:temConteudo    "Art. 1° O artigo 12 do Regulamento da Medalha Militar, aprovado pelo Decreto n° 39.207, de 22 de maio de 1956, passa a vigorar com a seguinte redação:" .
+lex:D69313\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D69313    lex:temArtigo    lex:D69313\/Artigo2 .
+lex:D69313\/Artigo2    lex:temConteudo    "Art. 2° Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D69313\/Artigo1    lex:remetePara    lex:D39207 .
+lex:D69313\/Texto00001    lex:remetePara    lex:D39207\/Artigo12 .

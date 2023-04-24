@@ -1,0 +1,151 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1366    lex:ehUm    lex:DocLegal .
+lex:D1366    lex:temTextoIntegral    lex:HTMLs\/D1366.htm .
+lex:D1366\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo1 .
+lex:D1366\/Artigo1    lex:temConteudo    "Art. 1º O Programa Comunidade Solidária, vinculado à Presidência da República, tem por objeto coordenar as ações governamentais voltadas para o atendimento da parcela da população que não dispõe de meios para prover suas necessidades básicas e, em especial, o combate à fome e à pobreza." .
+lex:D1366\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo1    lex:temParagrafo    lex:D1366\/Artigo1\/ParagrafoUnico .
+lex:D1366\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Receberão atenção preferencial na implementação do Programa as ações governamentais nas áreas de alimentação e nutrição, serviços urbanos, desenvolvimento rural, geração de emprego e renda, defesa de direitos e promoção social." .
+lex:D1366\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo2 .
+lex:D1366\/Artigo2    lex:temConteudo    "Art. 2º O Programa terá um conselho, com finalidade consultiva, integrado:" .
+lex:D1366\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo2    lex:temInciso    lex:D1366\/Artigo2\/IncisoI .
+lex:D1366\/Artigo2\/IncisoI    lex:temConteudo    "I - pelos Ministros de Estado:" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe    lex:temConteudo    "a) Chefe da Casa Civil da Presidência da República;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa    lex:temConteudo    "b) da Agricultura, do Abastecimento e da Reforma Agrária;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "c) da Educação e do Desporto;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario    lex:temConteudo    "d) Extraordinário dos Esportes;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa    lex:temConteudo    "e) da Fazenda;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "f) da Justiça;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "g) do Planejamento e Orçamento;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "h) da Previdência e Assistência Social;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "i) da Saúde;" .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D1366\/Artigo2\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaExtraordinario\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "j) do Trabalho." .
+lex:D1366\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo2    lex:temInciso    lex:D1366\/Artigo2\/IncisoII .
+lex:D1366\/Artigo2\/IncisoII    lex:temConteudo    "II - pelo Secretário Executivo do Programa Comunidade e Solidária;" .
+lex:D1366\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo2    lex:temInciso    lex:D1366\/Artigo2\/IncisoIII .
+lex:D1366\/Artigo2\/IncisoIII    lex:temConteudo    "III - por 21 membros da sociedade, vinculados ou não a entidades representativas da sociedade civil, designados pelo Presidente da República." .
+lex:D1366\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo2    lex:temParagrafo    lex:D1366\/Artigo2\/Paragrafo1 .
+lex:D1366\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Os Conselheiros a que se refere o inciso III terão mandatos coincidentes de dois anos, admitida uma recondução. No caso de vacância, o substituto completará o mandato do substituído." .
+lex:D1366\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo2    lex:temParagrafo    lex:D1366\/Artigo2\/Paragrafo2 .
+lex:D1366\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Na hipótese da impossibilidade de comparecimento à reunião do Conselho, o Ministro de Estado designará um servidor para representá-lo." .
+lex:D1366\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo2    lex:temParagrafo    lex:D1366\/Artigo2\/Paragrafo3 .
+lex:D1366\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3º Os trabalhos do Conselho serão considerados relevantes e o exercício da função de Conselheiro não será remunerado, observando-se o disposto no art. 11 do Decreto n° 343, de 11 de novembro de 1991." .
+lex:D1366\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo2    lex:temParagrafo    lex:D1366\/Artigo2\/Paragrafo4 .
+lex:D1366\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4º Ficam absorvidas pelo Conselho as atribuições do Conselho criado pelo Decreto nº 807, de 24 de abril de 1993." .
+lex:D1366\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo3 .
+lex:D1366\/Artigo3    lex:temConteudo    "Art. 3º Compete ao Conselho do Programa Comunidade Solidária:" .
+lex:D1366\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoI .
+lex:D1366\/Artigo3\/IncisoI    lex:temConteudo    "I - propor e opinar sobre ações prioritárias na área social;" .
+lex:D1366\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoII .
+lex:D1366\/Artigo3\/IncisoII    lex:temConteudo    "II - incentivar na sociedade o desenvolvimento de organizações que realizem, em parceria com o governo, o combate à pobreza e à fome;" .
+lex:D1366\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoIII .
+lex:D1366\/Artigo3\/IncisoIII    lex:temConteudo    "III - incentivar a parceria e a integração entre os órgãos públicos federais, estaduais e municipais, visando à complementariedade das ações desenvolvidas;" .
+lex:D1366\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoIV .
+lex:D1366\/Artigo3\/IncisoIV    lex:temConteudo    "IV - promover campanhas de conscientização da opinião pública para o combate à pobreza e à fome, visando à integração de esforços do governo e da sociedade;" .
+lex:D1366\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoV .
+lex:D1366\/Artigo3\/IncisoV    lex:temConteudo    "V - estimular e apoiar a criação de conselhos estaduais e municipais de combate à fome e à pobreza;" .
+lex:D1366\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D1366\/Artigo3    lex:temInciso    lex:D1366\/Artigo3\/IncisoVI .
+lex:D1366\/Artigo3\/IncisoVI    lex:temConteudo    "VI - elaborar seu regimento interno." .
+lex:D1366\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo4 .
+lex:D1366\/Artigo4    lex:temConteudo    "Art. 4º O Presidente da República designará, entre os membros representantes da sociedade, o Presidente do Conselho, para um mandato de dois anos, admitida uma recondução." .
+lex:D1366\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo5 .
+lex:D1366\/Artigo5    lex:temConteudo    "Art. 5º O Secretário-Executivo do Programa Comunidade Solidária será de livre nomeação do Presidente da República." .
+lex:D1366\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo6 .
+lex:D1366\/Artigo6    lex:temConteudo    "Art. 6º O Programa terá uma Secretaria-Executiva, vinculada à Casa Civil da Presidência da República, que será responsável pela sua coordenação no âmbito da Administração Pública Federal." .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo6    lex:temParagrafo    lex:D1366\/Artigo6\/ParagrafoUnico .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Compete ao Secretário-Executivo do Programa:" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaParticipar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaParticipar .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaParticipar    lex:temConteudo    "a) participar das audiências concedidas pelo Presidente da República ao Presidente do Conselho;" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaEncaminhar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaEncaminhar .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaEncaminhar    lex:temConteudo    "b) encaminhar as recomendações do Conselho aos Ministros de Estado;" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular    lex:temConteudo    "c) articular com os Ministérios responsáveis pela execução das ações, as estratégias para a implementação das recomendações do Conselho;" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaArticular    lex:temConteudo    "d) articular a ação dos Ministérios responsáveis pela gestão dos programas setoriais de combate à fome e à pobreza;" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaCoordenar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaCoordenar .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaCoordenar    lex:temConteudo    "e) coordenar as ações de governo da alçada do Programa Comunidade Solidária;" .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaSecretariar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo6\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaSecretariar .
+lex:D1366\/Artigo6\/ParagrafoUnico\/AlineaSecretariar    lex:temConteudo    "f) secretariar o Conselho do Programa." .
+lex:D1366\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo7 .
+lex:D1366\/Artigo7    lex:temConteudo    "Art. 7º Em cada um dos Ministérios representados no Conselho será criado, por portaria ministerial, Grupo-Executivo Setorial, sob supervisão direta do respectivo Ministros de Estado." .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1366\/Artigo7    lex:temParagrafo    lex:D1366\/Artigo7\/ParagrafoUnico .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São atribuições dos Grupos-Executivos Setoriais:" .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaSupervisionar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaSupervisionar .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaSupervisionar    lex:temConteudo    "a) supervisionar as atividades do Programa Comunidade Solidária em sua área de atuação;" .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaPropor    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaPropor .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaPropor    lex:temConteudo    "b) propor a assinatura de convênios para a execução descentralizada destas atividades;" .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaManifestar-se    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaManifestar-se .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaManifestar-se    lex:temConteudo    "c) manifestar-se sobre o repasse de recursos públicos para a execução das atividades do Programa no âmbito do Ministério;" .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaAtuar    lex:ehUm    lex:Alinea .
+lex:D1366\/Artigo7\/ParagrafoUnico    lex:temAlinea    lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaAtuar .
+lex:D1366\/Artigo7\/ParagrafoUnico\/AlineaAtuar    lex:temConteudo    "d) atuar em estreito relacionamento e articulação com a Secretaria-Executiva do Programa Comunidade Solidária." .
+lex:D1366\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo8 .
+lex:D1366\/Artigo8    lex:temConteudo    "Art. 8º A Secretaria-Executiva do Programa poderá credenciar órgão da Administração Pública Federal e Estadual para análise e avaliação das solicitações de recursos apresentados ao Programa Comunidade Solidária." .
+lex:D1366\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo9 .
+lex:D1366\/Artigo9    lex:temConteudo    "Art. 9º A Secretaria-Executiva do Programa terá o apoio técnico do Ministério do Planejamento e Orçamento, podendo, quando necessário, requisitá-lo dos demais Ministérios." .
+lex:D1366\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo10 .
+lex:D1366\/Artigo10    lex:temConteudo    "Art. 10. Ficam revogados os Decretos n°s 807, de 24 de abril de 1993, 859, de 6 de julho de 1993, e 1.098, de 25 de março de 1994." .
+lex:D1366\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D1366    lex:temArtigo    lex:D1366\/Artigo11 .
+lex:D1366\/Artigo11    lex:temConteudo    "Art. 11. Este Decreto entra em vigor na data de sua publicação." .

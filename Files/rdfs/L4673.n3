@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4673    lex:ehUm    lex:DocLegal .
+lex:L4673    lex:temTextoIntegral    lex:HTMLs\/L4673.htm .
+lex:L4673\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4673    lex:temArtigo    lex:L4673\/Artigo1 .
+lex:L4673\/Artigo1    lex:temConteudo    "Art. 1º Nas execuções fiscais promovidas nos têrmos do Decreto-lei nº 960, de 1938, aplicam-se, quanto aos bens e direitos objeto de penhora, as cláusulas de impenhorabilidade prevista no art. 942 do Código do Processo Civil." .
+lex:L4673\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4673    lex:temArtigo    lex:L4673\/Artigo2 .
+lex:L4673\/Artigo2    lex:temConteudo    "Art. 2º O executado nomeará bens à penhora, obedecendo-se à gradação prevista no Código do Processo Civil." .
+lex:L4673\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4673    lex:temArtigo    lex:L4673\/Artigo3 .
+lex:L4673\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4673\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4673    lex:temArtigo    lex:L4673\/Artigo4 .
+lex:L4673\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L4673\/Artigo1    lex:remetePara    lex:Del0960 .
+lex:L4673\/Artigo1    lex:remetePara    lex:L5869\/Artigo942 .

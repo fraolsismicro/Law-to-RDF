@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7222    lex:ehUm    lex:DocLegal .
+lex:L7222    lex:temTextoIntegral    lex:HTMLs\/L7222.htm .
+lex:L7222\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7222    lex:temArtigo    lex:L7222\/Artigo1 .
+lex:L7222\/Artigo1    lex:temConteudo    "Art. 1º - O art. 31 da Lei nº 5.682, de 21 de julho de 1971 - Lei Orgânica dos Partidos Políticos passa a vigorar acrescido do seguinte parágrafo, numerado como § 2º, alterando-se para § 1º seu atual parágrafo único:" .
+lex:L7222\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7222\/Artigo1    lex:temParagrafo    lex:L7222\/Artigo1\/Paragrafo1 .
+lex:L7222\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - ....................................................................................................................." .
+lex:L7222\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7222\/Artigo1    lex:temParagrafo    lex:L7222\/Artigo1\/Paragrafo2 .
+lex:L7222\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Entende-se como voto cumulativo aquele dado por um mesmo convencional credenciado por mais de um titulo." .
+lex:L7222\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7222    lex:temArtigo    lex:L7222\/Artigo2 .
+lex:L7222\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7222\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7222    lex:temArtigo    lex:L7222\/Artigo3 .
+lex:L7222\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L7222\/Texto00001    lex:remetePara    lex:L5682\/Artigo31\/Paragrafo1 .

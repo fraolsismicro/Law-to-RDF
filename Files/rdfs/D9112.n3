@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9112    lex:ehUm    lex:DocLegal .
+lex:D9112    lex:temTextoIntegral    lex:HTMLs\/D9112.htm .
+lex:D9112\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9112    lex:temParagrafo    lex:D9112\/Paragrafo1 .
+lex:D9112\/Paragrafo1    lex:temConteudo    "§ 1 º  A participação nos Conselhos de Supervisão será considerada prestação de serviço público relevante, não remunerada, até a criação dos cargos de que trata o § 4 º do art. 6 º da Lei Complementar n º 159, de 2017." .
+lex:D9112\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9112    lex:temParagrafo    lex:D9112\/Paragrafo2 .
+lex:D9112\/Paragrafo2    lex:temConteudo    "§ 2 º  Os membros dos Conselhos de Supervisão farão jus ao recebimento de diárias ao se deslocarem a serviço da localidade onde têm exercício para o Estado em Regime de Recuperação Fiscal, nos termos do disposto no Decreto n º 5.992, de 19 de dezembro de 2006." .
+lex:D9112\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9112    lex:temParagrafo    lex:D9112\/Paragrafo3 .
+lex:D9112\/Paragrafo3    lex:temConteudo    "§ 3 º  Os prazos das cessões dos servidores públicos cedidos para a União para integrar os Conselhos de Supervisão coincidirão com os períodos de vigência dos Regimes de Recuperação Fiscal." .
+lex:D9112\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9112    lex:temArtigo    lex:D9112\/Artigo2 .
+lex:D9112\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto n º 6.573, de 19 de setembro de 2008, passa a vigorar com as seguintes alterações:" .
+lex:D9112\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9112\/Artigo2    lex:temInciso    lex:D9112\/Artigo2\/IncisoII .
+lex:D9112\/Artigo2\/IncisoII    lex:temConteudo    "II - 0,6611 (seis mil, seiscentos e onze décimos de milésimo) para o distribuidor. (NR)" .
+lex:D9112\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9112\/Artigo2    lex:temInciso    lex:D9112\/Artigo2\/IncisoII .
+lex:D9112\/Artigo2\/IncisoII    lex:temConteudo    "II - R$ 19,81 (dezenove reais e oitenta e um centavos) e R$ 91,10 (noventa e um reais e dez centavos) por metro cúbico de álcool, no caso de venda realizada por distribuidor. (NR)" .
+lex:D9112\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9112    lex:temArtigo    lex:D9112\/Artigo3 .
+lex:D9112\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9112\/Texto    lex:remetePara    lex:Lcp159\/Artigo6\/Paragrafo4 .
+lex:D9112\/Texto    lex:remetePara    lex:Constituicao\/Artigo169\/Paragrafo1 .
+lex:D9112\/Paragrafo1    lex:remetePara    lex:Lcp159\/Artigo6\/Paragrafo4 .
+lex:D9112\/Paragrafo2    lex:remetePara    lex:D5992 .
+lex:D9112\/Artigo2    lex:remetePara    lex:D6573 .
+lex:D9112\/Artigo2\/IncisoII    lex:remetePara    lex:D6573\/Artigo1 .
+lex:D9112\/Artigo2\/IncisoII    lex:remetePara    lex:D6573\/Artigo2 .

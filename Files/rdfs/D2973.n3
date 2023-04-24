@@ -1,0 +1,81 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2973    lex:ehUm    lex:DocLegal .
+lex:D2973    lex:temTextoIntegral    lex:HTMLs\/D2973.htm .
+lex:D2973\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D2973    lex:temInciso    lex:D2973\/IncisoD .
+lex:D2973\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D2973\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2973    lex:temArtigo    lex:D2973\/Artigo1 .
+lex:D2973\/Artigo1    lex:temConteudo    "Art. 1o Na assunção, pela União, das obrigações referidas no art. 1o da Medida Provisória no 1.811, de 25 de fevereiro de 1999, serão emitidas Letras Financeiras do Tesouro, Série 'B' (LFT-B)." .
+lex:D2973\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2973\/Artigo1    lex:temParagrafo    lex:D2973\/Artigo1\/Paragrafo1 .
+lex:D2973\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Para as obrigações previstas nos incisos I e III do art. 1o da Medida Provisória referida no caput deste artigo, as LFT-B terão as seguintes características:" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2973\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - para as dívidas vincendas e para as vencidas em prazo igual ou inferior a cento e oitenta dias, a contar de 31 de janeiro de 1999:" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaForma    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaForma .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaForma    lex:temConteudo    "a) forma de emissão: em noventa e seis lotes, correspondendo cada lote a um noventa e seis avos da quantidade de títulos a ser emitida, sendo a quantidade remanescente da divisão incorporada ao nonagésimo sexto lote;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaVencimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaVencimento: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaVencimento:    lex:temConteudo    "b) vencimento: lotes com vencimentos mensais e consecutivos, a contar da data de emissão;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaRendimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaRendimento: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaRendimento:    lex:temConteudo    "c) rendimento: definido pela taxa média ajustada dos financiamentos diários apurados no Sistema Especial de Liquidação e Custódia (SELIC) para títulos públicos federais, divulgada pelo Banco Central do Brasil;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaResgate:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaResgate: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoI\/AlineaResgate:    lex:temConteudo    "d) resgate: em parcela única, na data de vencimento de cada lote;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2973\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - para as dívidas vencidas em prazo superior a cento e oitenta dias, a contar de 31 de janeiro de 1999:" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaForma    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaForma .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaForma    lex:temConteudo    "a) forma de emissão: em lote único;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaVencimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaVencimento: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaVencimento:    lex:temConteudo    "b) vencimento: em vinte e quatro meses a contar da data de emissão;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaRendimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaRendimento: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaRendimento:    lex:temConteudo    "c) rendimento: definido pela taxa média ajustada dos financiamentos diários apurados no Sistema Especial de Liquidação e Custódia (SELIC) para títulos públicos federais, divulgada pelo Banco Central do Brasil;" .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaResgate:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaResgate: .
+lex:D2973\/Artigo1\/Paragrafo1\/ParagrafoIncisoII\/AlineaResgate:    lex:temConteudo    "d) resgate: em parcela única, na data de vencimento." .
+lex:D2973\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2973\/Artigo1    lex:temParagrafo    lex:D2973\/Artigo1\/Paragrafo2 .
+lex:D2973\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Para as obrigações previstas no inciso II do art. 1o da Medida Provisória referida no caput deste artigo, as LFT-B terão as seguintes características:" .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaForma    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo2\/AlineaForma .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaForma    lex:temConteudo    "a) forma de emissão: em lote único;" .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaVencimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo2\/AlineaVencimento: .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaVencimento:    lex:temConteudo    "b) vencimento: em doze meses, a contar da data de emissão;" .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaRendimento:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo2\/AlineaRendimento: .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaRendimento:    lex:temConteudo    "c) rendimento: definido pela taxa média ajustada dos financiamentos diários apurados no Sistema Especial de Liquidação e Custódia (SELIC) para títulos públicos federais, divulgada pelo Banco Central do Brasil;" .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaResgate:    lex:ehUm    lex:Alinea .
+lex:D2973\/Artigo1\/Paragrafo2    lex:temAlinea    lex:D2973\/Artigo1\/Paragrafo2\/AlineaResgate: .
+lex:D2973\/Artigo1\/Paragrafo2\/AlineaResgate:    lex:temConteudo    "d) resgate: em parcela única, na data de vencimento;" .
+lex:D2973\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2973    lex:temArtigo    lex:D2973\/Artigo2 .
+lex:D2973\/Artigo2    lex:temConteudo    "Art. 2o Sobre os saldos das obrigações a serem assumidas na forma da Medida Provisória no 1.811, de 1999, apurados em 31 de janeiro de 1999, serão aplicados os seguintes deságios:" .
+lex:D2973\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2973\/Artigo2    lex:temInciso    lex:D2973\/Artigo2\/IncisoI .
+lex:D2973\/Artigo2\/IncisoI    lex:temConteudo    "I - trinta por cento para as obrigações de que trata o inciso II do § 1o do artigo anterior;" .
+lex:D2973\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2973\/Artigo2    lex:temInciso    lex:D2973\/Artigo2\/IncisoII .
+lex:D2973\/Artigo2\/IncisoII    lex:temConteudo    "II - sete e meio por cento para as obrigações de que trata o § 2o do artigo anterior." .
+lex:D2973\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2973    lex:temArtigo    lex:D2973\/Artigo3 .
+lex:D2973\/Artigo3    lex:temConteudo    "Art. 3o Os saldos apurados em 31 de janeiro de 1999, após a aplicação dos correspondentes deságios, serão atualizados, até a data da emissão dos títulos, pela taxa média ajustada dos financiamentos diários apurados no Sistema Especial de Liquidação e Custódia (SELIC) para títulos públicos federais, divulgada pelo Banco Central do Brasil." .
+lex:D2973\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2973    lex:temArtigo    lex:D2973\/Artigo4 .
+lex:D2973\/Artigo4    lex:temConteudo    "Art. 4o Este Decreto entra em vigor na data de sua publicação." .
+lex:D2973\/Artigo1    lex:remetePara    lex:1811 .
+lex:D2973\/Fecho    lex:remetePara    lex:index .

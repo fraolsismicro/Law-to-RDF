@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D71495    lex:ehUm    lex:DocLegal .
+lex:D71495    lex:temTextoIntegral    lex:HTMLs\/D71495.htm .
+lex:D71495\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D71495    lex:temArtigo    lex:D71495\/Artigo1 .
+lex:D71495\/Artigo1    lex:temConteudo    "Art. 1º Fica transferida, para o Chefe do Departamento Geral do Pessoal do Ministério do Exército, a atribuição conferida, pelo artigo 1º do Decreto nº 52.711, de 21 de outubro de 1963, ao Secretário-Geral do Exército, de assinar as Cartas-Patentes dos Capitães e Oficiais Subalternos do Exército." .
+lex:D71495\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D71495    lex:temArtigo    lex:D71495\/Artigo2 .
+lex:D71495\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D71495\/Texto    lex:revogadoPor    lex:D2144\/Artigo5 .
+lex:D2144\/Artigo5    lex:revogou    lex:D71495\/Texto .
+lex:D71495\/Texto    lex:remetePara    lex:D71495 .
+lex:D71495\/Artigo1    lex:remetePara    lex:D52711\/Artigo1 .

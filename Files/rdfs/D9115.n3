@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9115    lex:ehUm    lex:DocLegal .
+lex:D9115    lex:temTextoIntegral    lex:HTMLs\/D9115.htm .
+lex:D9115\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9115    lex:temArtigo    lex:D9115\/Artigo1 .
+lex:D9115\/Artigo1    lex:temConteudo    "Art. 1 º  Fica promulgada a Convenção entre o Governo da República Federativa do Brasil e o Governo da Federação Russa para Evitar a Dupla Tributação e Prevenir a Evasão Fiscal em Matéria de Impostos sobre a Renda, firmada em Brasília, em 22 de novembro de 2004, anexa a este Decreto." .
+lex:D9115\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9115    lex:temArtigo    lex:D9115\/Artigo2 .
+lex:D9115\/Artigo2    lex:temConteudo    "Art. 2 º  São sujeitos à aprovação do Congresso Nacional atos que possam resultar em revisão da Convenção e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do inciso I do caput do artigo 49 da Constituição." .
+lex:D9115\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9115    lex:temArtigo    lex:D9115\/Artigo3 .
+lex:D9115\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D9115\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

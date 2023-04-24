@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8755    lex:ehUm    lex:DocLegal .
+lex:D8755    lex:temTextoIntegral    lex:HTMLs\/D8755.htm .
+lex:D8755\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8755    lex:temArtigo    lex:D8755\/Artigo1 .
+lex:D8755\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 7.689, de 2 de março de 2012, passa a vigorar com as seguintes alterações:" .
+lex:D8755\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8755\/Artigo1    lex:temParagrafo    lex:D8755\/Artigo1\/Paragrafo1 .
+lex:D8755\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Nos casos dos incisos I, II e III do caput, a competência poderá ser delegada, vedada a subdelegação, salvo na hipótese do § 8o:" .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8755\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - ao Secretário-Executivo ou autoridade equivalente;" .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8755\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - aos dirigentes máximos das entidades vinculadas; e" .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8755\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - no âmbito do Ministério da Justiça, aos dirigentes máximos:" .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temAlinea    lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo    lex:temConteudo    "a) do Departamento de Polícia Federal; e" .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temAlinea    lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo .
+lex:D8755\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII\/AlineaDo    lex:temConteudo    "b) do Departamento de Polícia Rodoviária Federal." .
+lex:D8755\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8755    lex:temArtigo    lex:D8755\/Artigo2 .
+lex:D8755\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8755\/Artigo1    lex:remetePara    lex:D7689 .
+lex:D8755\/Artigo1\/Paragrafo1    lex:remetePara    lex:D7689\/Artigo7\/Paragrafo1 .

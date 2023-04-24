@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3545    lex:ehUm    lex:DocLegal .
+lex:D3545    lex:temTextoIntegral    lex:HTMLs\/D3545.htm .
+lex:D3545\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3545    lex:temArtigo    lex:D3545\/Artigo1 .
+lex:D3545\/Artigo1    lex:temConteudo    "Art. 1o  É facultado aos Ministros de Estado autorizar, excepcionalmente, a compensação das faltas ocorridas no período de 6 de abril a 14 de julho de 2000, decorrentes de participação de servidor na paralisação de serviços públicos." .
+lex:D3545\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3545\/Artigo1    lex:temParagrafo    lex:D3545\/Artigo1\/ParagrafoUnico .
+lex:D3545\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto no caput somente se aplica aos servidores que tenham retornado ao trabalho até 17 de julho de 2000." .
+lex:D3545\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3545    lex:temArtigo    lex:D3545\/Artigo2 .
+lex:D3545\/Artigo2    lex:temConteudo    "Art. 2o  O disposto no artigo anterior não se aplicará ao servidor que retomar a paralisação." .
+lex:D3545\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3545    lex:temArtigo    lex:D3545\/Artigo3 .
+lex:D3545\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3545\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3545    lex:temArtigo    lex:D3545\/Artigo4 .
+lex:D3545\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Decreto no 3.506, de 13 de junho de 2000." .
+lex:D3545\/Artigo4    lex:remetePara    lex:D3506 .
+lex:D3545\/Texto00005    lex:remetePara    lex:index .

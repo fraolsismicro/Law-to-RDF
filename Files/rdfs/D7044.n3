@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7044    lex:ehUm    lex:DocLegal .
+lex:D7044    lex:temTextoIntegral    lex:HTMLs\/D7044.htm .
+lex:D7044\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7044    lex:temArtigo    lex:D7044\/Artigo1 .
+lex:D7044\/Artigo1    lex:temConteudo    "Art. 1 º  Os arts. 174, 246 e 305 do Decreto no 6.759, de 5 de fevereiro de 2009, passam a vigorar com a seguinte redação:" .
+lex:D7044\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7044\/Artigo1    lex:temParagrafo    lex:D7044\/Artigo1\/Paragrafo1 .
+lex:D7044\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Para cumprimento do disposto no caput, o importador deverá fazer prova da posse ou propriedade da aeronave ou embarcação." .
+lex:D7044\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7044\/Artigo1    lex:temParagrafo    lex:D7044\/Artigo1\/Paragrafo2 .
+lex:D7044\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  Na hipótese de a importação ser promovida por oficina especializada em reparo, revisão ou manutenção de aeronaves, esta deverá:" .
+lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7044\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - apresentar contrato de prestação de serviços, indicando o proprietário ou possuidor da aeronave; e" .
+lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7044\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D7044\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - estar homologada pelo órgão competente do Ministério da Defesa. (NR)" .
+lex:D7044\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7044\/Artigo1    lex:temParagrafo    lex:D7044\/Artigo1\/Paragrafo2 .
+lex:D7044\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  O disposto neste artigo aplica-se, também, à empresa comercial atacadista adquirente dos produtos resultantes da industrialização por encomenda a que se refere o art. 427 (Lei n º 9.826, de 1999, art. 5 º, § 6 º, com a redação dada pela Lei n º 10.865, de 2004, art. 33). (NR)" .
+lex:D7044\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7044\/Artigo1    lex:temParagrafo    lex:D7044\/Artigo1\/ParagrafoUnico .
+lex:D7044\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A isenção de que trata o caput somente será concedida se satisfeitos os termos, limites e condições estabelecidos nos arts. 183 a 185, no que couberem (Lei n º 11.488, de 2007, art. 38, caput). (NR)" .
+lex:D7044\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7044    lex:temArtigo    lex:D7044\/Artigo2 .
+lex:D7044\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 6 de fevereiro de 2009." .
+lex:D7044\/Texto00001    lex:remetePara    lex:D6759\/Artigo174 .
+lex:D7044\/Artigo1\/Paragrafo2    lex:remetePara    lex:D6759\/Artigo246\/Paragrafo2 .
+lex:D7044\/Artigo1\/Texto00006    lex:remetePara    lex:D6759\/Artigo305 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6322    lex:ehUm    lex:DocLegal .
+lex:L6322    lex:temTextoIntegral    lex:HTMLs\/L6322.htm .
+lex:L6322\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6322    lex:temArtigo    lex:L6322\/Artigo1 .
+lex:L6322\/Artigo1    lex:temConteudo    "Art. 1º É dispensada a prestação de fiança para o provimento e exercício de qualquer cargo, função ou emprego na Administração Federal." .
+lex:L6322\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6322\/Artigo1    lex:temParagrafo    lex:L6322\/Artigo1\/ParagrafoUnico .
+lex:L6322\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Independerá de tomada de contas o levantamento da fiança que tenha sido prestada pelo servidor em razão do cargo, emprego ou função." .
+lex:L6322\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6322    lex:temArtigo    lex:L6322\/Artigo2 .
+lex:L6322\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogados os artigos 83 e 86 do Decreto Legislativo nº 4.536, de 28 de janeiro de 1922, o artigo 28 e seus parágrafos da Lei nº 1.711, de 28 de outubro de 1952, e demais disposições em contrário." .
+lex:L6322\/Artigo2    lex:remetePara    lex:DPL4536\/Artigo83 .
+lex:L6322\/Artigo2    lex:remetePara    lex:DPL4536\/Artigo86 .
+lex:L6322\/Artigo2    lex:remetePara    lex:L1711\/Artigo28 .

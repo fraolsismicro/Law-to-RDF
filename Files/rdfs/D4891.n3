@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4891    lex:ehUm    lex:DocLegal .
+lex:D4891    lex:temTextoIntegral    lex:HTMLs\/D4891.htm .
+lex:D4891\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4891    lex:temArtigo    lex:D4891\/Artigo1 .
+lex:D4891\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 18, 21, 22 e 23 do Estatuto da RADIOBRÁS - Empresa Brasileira de Comunicação S.A., aprovado pelo Decreto no 2.958, de 8 de fevereiro de 1999, passam a vigorar com a seguinte redação:" .
+lex:D4891\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D4891\/Artigo1    lex:temInciso    lex:D4891\/Artigo1\/IncisoVIII .
+lex:D4891\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - autorizar a baixa de créditos inscritos no Ativo Circulante e Realizável a Longo Prazo, sempre que os créditos forem considerados incobráveis, administrativa ou judicialmente.' (NR)" .
+lex:D4891\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4891\/Artigo1    lex:temInciso    lex:D4891\/Artigo1\/IncisoIV .
+lex:D4891\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ordenar despesas e, juntamente com o agente responsável pelo setor financeiro da Empresa, assinar ordens de pagamento;" .
+lex:D4891\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:D4891\/Artigo1    lex:temInciso    lex:D4891\/Artigo1\/IncisoXIII .
+lex:D4891\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - conceder Declaração de Anuência para Cancelamento de Protestos." .
+lex:D4891\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4891\/Artigo1    lex:temParagrafo    lex:D4891\/Artigo1\/Paragrafo1 .
+lex:D4891\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O Presidente da Empresa poderá delegar, no todo ou em parte, por meio de ato específico, as atribuições que lhe são cometidas pelos incisos IV, XI, XII e XIII deste artigo." .
+lex:D4891\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4891    lex:temArtigo    lex:D4891\/Artigo2 .
+lex:D4891\/Artigo2    lex:temConteudo    "Art. 2o  A implementação do disposto neste Decreto será efetuada sem aumento da despesa total com pessoal e encargos sociais na RADIOBRÁS." .
+lex:D4891\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4891    lex:temArtigo    lex:D4891\/Artigo3 .
+lex:D4891\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4891\/Texto00001    lex:remetePara    lex:D2958\/Artigo18 .
+lex:D4891\/Texto00001    lex:remetePara    lex:D2958\/Artigo21 .
+lex:D4891\/Artigo1\/IncisoVIII    lex:remetePara    lex:D2958\/Artigo22 .
+lex:D4891\/Artigo1\/IncisoIV    lex:remetePara    lex:D2958\/Artigo23 .
+lex:D4891\/Artigo1\/IncisoXIII    lex:remetePara    lex:D2958\/Artigo23 .
+lex:D4891\/Artigo1\/Paragrafo1    lex:remetePara    lex:D2958\/Artigo23\/Paragrafo1 .

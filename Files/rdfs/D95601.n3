@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D95601    lex:ehUm    lex:DocLegal .
+lex:D95601    lex:temTextoIntegral    lex:HTMLs\/D95601.htm .
+lex:D95601\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D95601    lex:temArtigo    lex:D95601\/Artigo1 .
+lex:D95601\/Artigo1    lex:temConteudo    "Art. 1° O caput do art. 1°, o art. 2°, o item II do art. 6° e o parágrafo único do art. 7° do Decreto n° 88.455, de 4 de julho de 1983, passam a vigorar com a seguinte redação, revogado o item III de seu art. 6°:" .
+lex:D95601\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D95601\/Artigo1    lex:temParagrafo    lex:D95601\/Artigo1\/ParagrafoUnico .
+lex:D95601\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. ..............................................................." .
+lex:D95601\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D95601    lex:temArtigo    lex:D95601\/Artigo2 .
+lex:D95601\/Artigo2    lex:temConteudo    "Art. 2° O período para a permanência do militar na situação de designado para o serviço ativo será de, no mínimo, seis meses, e, no máximo, três anos." .
+lex:D95601\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D95601\/Artigo2    lex:temParagrafo    lex:D95601\/Artigo2\/ParagrafoUnico .
+lex:D95601\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo total de permanência nessa situação poderá ser prorrogado em períodos de até três anos, segundo o interesse de cada Ministério Militar." .
+lex:D95601\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D95601    lex:temArtigo    lex:D95601\/Artigo6 .
+lex:D95601\/Artigo6    lex:temConteudo    "Art. 6° ............................................................................." .
+lex:D95601\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D95601\/Artigo6    lex:temInciso    lex:D95601\/Artigo6\/IncisoI .
+lex:D95601\/Artigo6\/IncisoI    lex:temConteudo    "I - ...................................................................................." .
+lex:D95601\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D95601\/Artigo6    lex:temInciso    lex:D95601\/Artigo6\/IncisoII .
+lex:D95601\/Artigo6\/IncisoII    lex:temConteudo    "II - pelo respectivo Ministro Militar, nos demais casos." .
+lex:D95601\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D95601    lex:temArtigo    lex:D95601\/Artigo7 .
+lex:D95601\/Artigo7    lex:temConteudo    "Art. 7° ............................................................................" .
+lex:D95601\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D95601\/Artigo7    lex:temInciso    lex:D95601\/Artigo7\/IncisoI .
+lex:D95601\/Artigo7\/IncisoI    lex:temConteudo    "I - .................................................................................." .
+lex:D95601\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D95601\/Artigo7    lex:temInciso    lex:D95601\/Artigo7\/IncisoII .
+lex:D95601\/Artigo7\/IncisoII    lex:temConteudo    "II - ................................................................................." .
+lex:D95601\/Artigo7\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D95601\/Artigo7    lex:temInciso    lex:D95601\/Artigo7\/IncisoIII .
+lex:D95601\/Artigo7\/IncisoIII    lex:temConteudo    "III - ................................................................................" .
+lex:D95601\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D95601\/Artigo7    lex:temParagrafo    lex:D95601\/Artigo7\/ParagrafoUnico .
+lex:D95601\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O militar de que trata este artigo só poderá exercer comissão fora de sua força, naquelas consideradas de natureza militar; nas organizações militares de outra Força Singular; bem como na Presidência da República, Vice-Presidência da República e nos demais órgãos quando previsto em lei, ou quando incorporados às Forças Armadas'." .
+lex:D95601\/Artigo7\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D95601\/Artigo7    lex:temArtigo    lex:D95601\/Artigo7\/Artigo2 .
+lex:D95601\/Artigo7\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D95601\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D95601    lex:temArtigo    lex:D95601\/Artigo3 .
+lex:D95601\/Artigo3    lex:temConteudo    "Art. 3° Revogadas as disposições em contrário." .
+lex:D95601\/Texto00001    lex:remetePara    lex:D88455\/Artigo1 .
+lex:D95601\/Artigo2    lex:remetePara    lex:D88455\/Artigo2 .
+lex:D95601\/Artigo6\/IncisoII    lex:remetePara    lex:D88455\/Artigo6 .
+lex:D95601\/Artigo7\/ParagrafoUnico    lex:remetePara    lex:D88455\/Artigo7 .

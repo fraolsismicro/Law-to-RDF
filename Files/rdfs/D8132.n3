@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8132    lex:ehUm    lex:DocLegal .
+lex:D8132    lex:temTextoIntegral    lex:HTMLs\/D8132.htm .
+lex:D8132\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8132    lex:temArtigo    lex:D8132\/Artigo1 .
+lex:D8132\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam remanejados, na forma do Anexo II, da Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão, para o Departamento Nacional de Infraestrutura de Transportes - DNIT, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8132\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8132\/Artigo1    lex:temInciso    lex:D8132\/Artigo1\/IncisoI .
+lex:D8132\/Artigo1\/IncisoI    lex:temConteudo    "I - quatro DAS 101.4; e" .
+lex:D8132\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8132\/Artigo1    lex:temInciso    lex:D8132\/Artigo1\/IncisoII .
+lex:D8132\/Artigo1\/IncisoII    lex:temConteudo    "II - oito DAS 101.3." .
+lex:D8132\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8132    lex:temArtigo    lex:D8132\/Artigo2 .
+lex:D8132\/Artigo2    lex:temConteudo    "Art. 2 º  O Anexo II ao Decreto n º 5.765, de 27 de abril de 2006, passa a vigorar com as alterações constantes do Anexo I." .
+lex:D8132\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8132    lex:temArtigo    lex:D8132\/Artigo3 .
+lex:D8132\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor quatorze dias após a data de sua publicação." .
+lex:D8132\/Artigo2    lex:remetePara    lex:D5765\/ .

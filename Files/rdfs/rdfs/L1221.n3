@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L1221    lex:ehUm    lex:DocLegal .
+lex:L1221    lex:temTextoIntegral    lex:HTMLs\/L1221.htm .
+lex:L1221\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L1221    lex:temArtigo    lex:L1221\/Artigo1A .
+lex:L1221\/Artigo1A    lex:temConteudo    "Art. 1Âº Os aspirantes e oficiais da Reserva de 2Âª classe da AeronÃ¡utica que, nos tÃªrmos do Decreto-lei nÂº 9.631 de 22 de agÃ´sto de 1946, foram matriculados nos cursos de formaÃ§Ã£o de Oficial Aviador, de Oficial MecÃ¢nico ou de SaÃºde, e os concluÃ­rem com proveito, serÃ£o depois disso inscritos no Almanaque como agregados, imediatamente abaixo do Ãºltimo oficial de igual pÃ´sto jÃ¡ promovido, e assim permanecerÃ£o atÃ© que, pela ordem da sua classificaÃ§Ã£o intelectual dentro da respectiva turma escolar, lhes venha a caber a inclusÃ£o no Quadro que lhes seja relativo." .
+lex:L1221\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L1221    lex:temArtigo    lex:L1221\/Artigo3A .
+lex:L1221\/Artigo3A    lex:temConteudo    "Art. 3Âº Continuam em vigor tÃ´das as disposiÃ§Ãµes do Decreto-lei nÂº 9.631, de 22 de agÃ´sto de 1946, que nÃ£o colidirem com os tÃªrmos da presente Lei, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:L1221\/Artigo1A    lex:remetePara    lex:Del9631 .
+lex:L1221\/Artigo2A    lex:revogadoPor    lex:L1307\/Artigo6 .
+lex:L1307\/Artigo6    lex:revogou    lex:L1221\/Artigo2A .
+lex:L1221\/Texto00001    lex:revogadoPor    lex:L1307\/Artigo6 .
+lex:L1307\/Artigo6    lex:revogou    lex:L1221\/Texto00001 .
+lex:L1221\/Artigo3A    lex:remetePara    lex:Del9631 .

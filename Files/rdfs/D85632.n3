@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D85632    lex:ehUm    lex:DocLegal .
+lex:D85632    lex:temTextoIntegral    lex:HTMLs\/D85632.htm .
+lex:D85632\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D85632    lex:temArtigo    lex:D85632\/Artigo1 .
+lex:D85632\/Artigo1    lex:temConteudo    "Art. 1º - As disposições adiante indicadas do Decreto nº 84.268, de 07 de dezembro de 1979, passam a vigorar com a seguinte redação, suprimindo-se o parágrafo 1º do artigo 1º e transformando-se seu atual parágrafo 2º em parágrafo único, bem como acrescentando-se parágrafo 3º ao artigo 6º:" .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D85632\/Artigo1    lex:temParagrafo    lex:D85632\/Artigo1\/ParagrafoUnico .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os limites globais de valor e suas subdivisões referir-se-ão:" .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNo .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNo    lex:temConteudo    "a) no caso de importações, aos valores relativos às entradas efetivas dos bens durante cada exercício;" .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNos    lex:ehUm    lex:Alinea .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNos .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaNos    lex:temConteudo    "b) nos demais casos, aos dispêndios correspondentes às operações a serem realizadas durante cada exercício'." .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores    lex:ehUm    lex:Alinea .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores    lex:temConteudo    "a) valores correspondentes à alínea 'a' do parágrafo único do artigo anterior;" .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores    lex:ehUm    lex:Alinea .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores    lex:temConteudo    "b) valores correspondentes à alínea 'b' do parágrafo único do artigo anterior;" .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValor    lex:ehUm    lex:Alinea .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValor .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValor    lex:temConteudo    "c) valor das importações decorrentes de compromissos já assumidos e cuja entrada física no País deva ocorrer em anos posteriores ao da proposta'." .
+lex:D85632\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D85632\/Artigo1    lex:temParagrafo    lex:D85632\/Artigo1\/Paragrafo3 .
+lex:D85632\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - As normas especiais de registro, controle e auditoria previstas neste artigo aplicam-se, também, às aquisições de combustíveis derivados do petróleo, observado o disposto no Decreto nº 79.133, de 17 de janeiro de 1977, revigorado pelo Decreto nº 83.090, de 24 de janeiro de 1979, e respeitados os limites globais aprovados nos termos do artigo 4º, item IX, do Decreto nº 84.128, de 29 de outubro de 1979'." .
+lex:D85632\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D85632    lex:temArtigo    lex:D85632\/Artigo2 .
+lex:D85632\/Artigo2    lex:temConteudo    "Art. 2º - O presente Decreto entrará em vigor a 1º de janeiro de 1981, revogadas as disposições em contrário." .
+lex:D85632\/Artigo1    lex:remetePara    lex:D84268 .
+lex:D85632\/Artigo1    lex:remetePara    lex:D84268\/Artigo1\/Paragrafo1 .
+lex:D85632\/Texto00001    lex:remetePara    lex:D84268\/Artigo1 .
+lex:D85632\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D84268\/Artigo1 .
+lex:D85632\/Artigo1\/ParagrafoUnico\/AlineaValores    lex:remetePara    lex:D84268\/Artigo2 .
+lex:D85632\/Artigo1\/Paragrafo3    lex:remetePara    lex:D84268\/Artigo6\/Paragrafo3 .

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2217    lex:ehUm    lex:DocLegal .
+lex:Del2217    lex:temTextoIntegral    lex:HTMLs\/Del2217.htm .
+lex:Del2217\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2217    lex:temArtigo    lex:Del2217\/Artigo1 .
+lex:Del2217\/Artigo1    lex:temConteudo    "Art. 1º Os atuais valores dos vencimentos e proventos do Pessoal ativo e inativo do Quadro Permanente da Secretaria do Tribunal Superior Eleitoral, decorrentes da aplicação do Decreto-lei nº 2.136, de 27 de junho de 1984, são reajustados em 75% (setenta e cinco por cento)." .
+lex:Del2217\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2217    lex:temArtigo    lex:Del2217\/Artigo2 .
+lex:Del2217\/Artigo2    lex:temConteudo    "Art. 2º O servidor do Quadro Permanente da Secretaria do Tribunal Superior Eleitoral, quando investido em cargo em comissão ou função de confiança do Grupo-DAS-100,continuará percebendo a Gratificação de Nível Superior a que se refere o artigo 6º do Decreto-lei nº 1.838, de 23 de dezembro de 1980." .
+lex:Del2217\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2217\/Artigo2    lex:temParagrafo    lex:Del2217\/Artigo2\/ParagrafoUnico .
+lex:Del2217\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo aplica-se ao funcionário aposentado com fundamento no artigo 180, da Lei nº 1.711, de 28 de outubro de 1952, e alterações posteriores, desde que fizesse jus à referida gratificação na atividade." .
+lex:Del2217\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2217    lex:temArtigo    lex:Del2217\/Artigo3 .
+lex:Del2217\/Artigo3    lex:temConteudo    "Art. 3º Fica elevado para Cr$8.300 (oito mil e trezentos cruzeiros) o valor do salário-família." .
+lex:Del2217\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2217    lex:temArtigo    lex:Del2217\/Artigo4 .
+lex:Del2217\/Artigo4    lex:temConteudo    "Art. 4º A despesa decorrente da execução deste Decreto-lei correrá à conta das dotações do Orçamento Geral da União para 1985." .
+lex:Del2217\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2217    lex:temArtigo    lex:Del2217\/Artigo5 .
+lex:Del2217\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entra em vigor na data de sua publicação, com os efeitos financeiros a partir de 1º de janeiro de 1985, revogadas as disposições em contrário." .
+lex:Del2217\/Artigo1    lex:remetePara    lex:Del2136 .
+lex:Del2217\/Artigo2    lex:remetePara    lex:Del1838\/Artigo6 .
+lex:Del2217\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L1711\/Artigo180 .

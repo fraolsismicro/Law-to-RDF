@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11073    lex:ehUm    lex:DocLegal .
+lex:L11073    lex:temTextoIntegral    lex:HTMLs\/L11073.htm .
+lex:L11073\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11073    lex:temInciso    lex:L11073\/IncisoI .
+lex:L11073\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União em 31 de dezembro de 2003, no valor de R$ 24.015.300,00 (vinte e quatro milhões, quinze mil e trezentos reais);" .
+lex:L11073\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11073    lex:temInciso    lex:L11073\/IncisoII .
+lex:L11073\/IncisoII    lex:temConteudo    "II - excesso de arrecadação no valor de R$ 91.846.706,00 (noventa e um milhões, oitocentos e quarenta e seis mil, setecentos e seis reais), sendo:" .
+lex:L11073\/IncisoII\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11073\/IncisoII    lex:temIncisoAlinea    lex:L11073\/IncisoII\/IncisoAlineaRS .
+lex:L11073\/IncisoII\/IncisoAlineaRS    lex:temConteudo    "a) R$ 68.095.429,00 (sessenta e oito milhões, noventa e cinco mil, quatrocentos e vinte e nove reais) de Recursos Ordinários; e" .
+lex:L11073\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L11073\/IncisoII\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L11073\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L11073\/IncisoII\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 23.751.277,00 (vinte e três milhões, setecentos e cinqüenta e um mil, duzentos e setenta e sete reais) de Recursos Próprios Não-Financeiros;" .
+lex:L11073\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11073    lex:temInciso    lex:L11073\/IncisoIII .
+lex:L11073\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias, no valor de R$ 31.704.975,00 (trinta e um milhões, setecentos e quatro mil, novecentos e setenta e cinco reais), conforme indicado no Anexo II desta Lei; e" .
+lex:L11073\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L11073    lex:temInciso    lex:L11073\/IncisoIV .
+lex:L11073\/IncisoIV    lex:temConteudo    "IV - ingresso de operações de crédito externas, no valor de R$ 5.974.954,00 (cinco milhões, novecentos e setenta e quatro mil, novecentos e cinqüenta e quatro reais)." .
+lex:L11073\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11073    lex:temArtigo    lex:L11073\/Artigo3 .
+lex:L11073\/Artigo3    lex:temConteudo    "Art. 3o Fica cancelada a programação constante do Anexo III desta Lei, no valor de R$ 1.414.954,00 (um milhão, quatrocentos e quatorze mil, novecentos e cinqüenta e quatro reais) em atendimento ao disposto no art. 63, § 11, da Lei no 10.707, de 30 de julho de 2003." .
+lex:L11073\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11073    lex:temArtigo    lex:L11073\/Artigo4 .
+lex:L11073\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L11073\/Artigo1    lex:remetePara    lex:L10837 .

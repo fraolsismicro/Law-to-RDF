@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6823    lex:ehUm    lex:DocLegal .
+lex:L6823    lex:temTextoIntegral    lex:HTMLs\/L6823.htm .
+lex:L6823\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6823    lex:temArtigo    lex:L6823\/Artigo1 .
+lex:L6823\/Artigo1    lex:temConteudo    "Art. 1º O valor do vencimento mensal fixado pelo artigo 5º da Lei nº 5.921, de 19 de setembro de 1973, alterado pelo § 1º do artigo 8º do Decreto-lei nº 1.313, de 28 de fevereiro de 1974, para os remanescentes ocupantes efetivos de cargos de Fiel do Tesouro, Tesoureiro-Auxiliar e Tesoureiro, dos quadros dos Ministérios, Órgãos integrantes da Presidência da República e Autarquias, que não foram incluídos no sistema de classificação de cargos de que trata a Lei nº 5.645, de 10 de dezembro de 1970, corresponderá, a partir da vigência desta Lei, ao valor atribuído à Referência 46 da Escala de Vencimentos e Salários do Serviço Público Federal." .
+lex:L6823\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6823\/Artigo1    lex:temParagrafo    lex:L6823\/Artigo1\/ParagrafoUnico .
+lex:L6823\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os funcionários que, antes de serem incluídos no Plano de Classificação de Cargos, eram ocupantes de cargos referidos neste artigo, sem prejuízo de sua lotação, poderão optar, no prazo de 60 (sessenta) dias, pelo retorno à situação anterior, com aplicação do novo valor de vencimento, a partir da opção." .
+lex:L6823\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6823    lex:temArtigo    lex:L6823\/Artigo2 .
+lex:L6823\/Artigo2    lex:temConteudo    "Art. 2º A alteração do valor de vencimento mensal de que trata esta Lei servirá de base de proventos dos aposentados, nas condições referidas." .
+lex:L6823\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6823    lex:temArtigo    lex:L6823\/Artigo3 .
+lex:L6823\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, inclusive quanto aos efeitos financeiros." .
+lex:L6823\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6823    lex:temArtigo    lex:L6823\/Artigo4 .
+lex:L6823\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6823\/Texto    lex:regulamentadoPor    lex:L7080\/Artigo1\/Paragrafo2 .
+lex:L7080\/Artigo1\/Paragrafo2    lex:regulamenta    lex:L6823\/Texto .
+lex:L6823\/Texto    lex:remetePara    lex:Del2125 .
+lex:L6823\/Texto    lex:remetePara    lex:L7345 .
+lex:L6823\/Artigo1    lex:remetePara    lex:L5921\/Artigo5 .
+lex:L6823\/Artigo1    lex:remetePara    lex:Del1313\/Artigo8\/Paragrafo1 .
+lex:L6823\/Artigo1    lex:remetePara    lex:L5645 .

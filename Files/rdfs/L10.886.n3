@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.886    lex:ehUm    lex:DocLegal .
+lex:L10.886    lex:temTextoIntegral    lex:HTMLs\/L10.886.htm .
+lex:L10886\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10886    lex:temArtigo    lex:L10886\/Artigo1 .
+lex:L10886\/Artigo1    lex:temConteudo    "Art. 1o O art. 129 do Decreto-Lei no 2.848, de 7 de dezembro de 1940   Código Penal, passa a vigorar acrescido dos seguintes §§ 9o e 10:" .
+lex:L10886\/Artigo1\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:L10886\/Artigo1    lex:temParagrafo    lex:L10886\/Artigo1\/Paragrafo9 .
+lex:L10886\/Artigo1\/Paragrafo9    lex:temConteudo    "§ 9o Se a lesão for praticada contra ascendente, descendente, irmão, cônjuge ou companheiro, ou com quem conviva ou tenha convivido, ou, ainda, prevalecendo-se o agente das relações domésticas, de coabitação ou de hospitalidade:" .
+lex:L10886\/Artigo1\/Paragrafo9\/ParagrafoPena    lex:ehUm    lex:ParagrafoPena .
+lex:L10886\/Artigo1\/Paragrafo9    lex:temParagrafoPena    lex:L10886\/Artigo1\/Paragrafo9\/ParagrafoPena .
+lex:L10886\/Artigo1\/Paragrafo9\/ParagrafoPena    lex:temConteudo    "Pena   detenção, de 6 (seis) meses a 1 (um) ano." .
+lex:L10886\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:L10886\/Artigo1    lex:temParagrafo    lex:L10886\/Artigo1\/Paragrafo10 .
+lex:L10886\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10. Nos casos previstos nos §§ 1o a 3o deste artigo, se as circunstâncias são as indicadas no § 9o deste artigo, aumenta-se a pena em 1/3 (um terço).' (NR)" .
+lex:L10886\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10886    lex:temArtigo    lex:L10886\/Artigo2 .
+lex:L10886\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10886\/Texto00001    lex:remetePara    lex:Del2848\/Artigo129\/Paragrafo9 .

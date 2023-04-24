@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2674    lex:ehUm    lex:DocLegal .
+lex:D2674    lex:temTextoIntegral    lex:HTMLs\/D2674.htm .
+lex:D2674\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2674    lex:temArtigo    lex:D2674\/Artigo1 .
+lex:D2674\/Artigo1    lex:temConteudo    "Art 1º Ficam remanejados, na forma deste artigo e do Anexo I a este Decreto, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D2674\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2674\/Artigo1    lex:temInciso    lex:D2674\/Artigo1\/IncisoI .
+lex:D2674\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério da Administração Federal e Reforma do Estado para o Ministério da Ciência e Tecnologia, oriundos da extinção de órgãos da Administração Pública Federal, dois DAS 102.1;" .
+lex:D2674\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2674\/Artigo1    lex:temInciso    lex:D2674\/Artigo1\/IncisoII .
+lex:D2674\/Artigo1\/IncisoII    lex:temConteudo    "II - do Ministério da Ciência e Tecnologia para o Ministério da Administração Federal e Reforma do Estado, um DAS 102.3 e quatro FG-3." .
+lex:D2674\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2674    lex:temArtigo    lex:D2674\/Artigo2 .
+lex:D2674\/Artigo2    lex:temConteudo    "Art 2º Em decorrência do disposto no artigo anterior, o Anexo II ao Decreto nº 1.753, de 20 de dezembro de 1995, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D2674\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2674    lex:temArtigo    lex:D2674\/Artigo3 .
+lex:D2674\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2674\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2674    lex:temArtigo    lex:D2674\/Artigo4 .
+lex:D2674\/Artigo4    lex:temConteudo    "Art 4º Revoga-se o Decreto nº 2.260, de 24 de junho de 1997." .
+lex:D2674\/Artigo4\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D2674\/Artigo4    lex:temAlinea    lex:D2674\/Artigo4\/AlineaQUADRO .
+lex:D2674\/Artigo4\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA CIÊNCIA E TECNOLOGIA" .
+lex:D2674\/Artigo4\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:D2674\/Artigo4    lex:temParagrafo    lex:D2674\/Artigo4\/Paragraf .
+lex:D2674\/Artigo4\/Paragraf    lex:temConteudo    "Nº" .
+lex:D2674\/Artigo4\/Paragraf\/Item    lex:ehUm    lex:Item .
+lex:D2674\/Artigo4\/Paragraf    lex:temItem    lex:D2674\/Artigo4\/Paragraf\/Item .
+lex:D2674\/Artigo4\/Paragraf\/Item    lex:temConteudo    "2" .
+lex:D2674\/Artigo4\/Paragraf\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D2674\/Artigo4\/Paragraf    lex:temAlinea    lex:D2674\/Artigo4\/Paragraf\/AlineaQUADRO .
+lex:D2674\/Artigo4\/Paragraf\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E FUNÇÕES GRATIFICADAS DO MINISTÉRIO DA CIÊNCIA E TECNOLOGIA" .
+lex:D2674\/Texto    lex:remetePara    lex:D2260 .

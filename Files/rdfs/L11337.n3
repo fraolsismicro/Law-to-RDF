@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11337    lex:ehUm    lex:DocLegal .
+lex:L11337    lex:temTextoIntegral    lex:HTMLs\/L11337.htm .
+lex:L11337\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11337    lex:temArtigo    lex:L11337\/Artigo1 .
+lex:L11337\/Artigo1    lex:temConteudo    "Art. 1o  As edificações cuja construção se inicie a partir da vigência desta Lei deverão obrigatoriamente possuir sistema de aterramento e instalações elétricas compatíveis com a utilização do condutor-terra de proteção, bem como tomadas com o terceiro contato correspondente." .
+lex:L11337\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11337    lex:temArtigo    lex:L11337\/Artigo2 .
+lex:L11337\/Artigo2    lex:temConteudo    "Art. 2o  Os aparelhos elétricos com carcaça metálica e aqueles sensíveis a variações bruscas de tensão, produzidos ou comercializados no País, deverão, obrigatoriamente, dispor de condutor-terra de proteção e do respectivo adaptador macho tripolar." .
+lex:L11337\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11337\/Artigo2    lex:temParagrafo    lex:L11337\/Artigo2\/ParagrafoUnico .
+lex:L11337\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo entra em vigor quinze meses após a publicação desta Lei." .
+lex:L11337\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11337    lex:temArtigo    lex:L11337\/Artigo2 .
+lex:L11337\/Artigo2    lex:temConteudo    "Art. 2o  Os aparelhos elétricos e eletrônicos, com carcaça metálica comercializados no País, enquadrados na classe I, em conformidade com as normas técnicas brasileiras pertinentes, deverão dispor de condutor terra de proteção e do respectivo plugue, também definido em conformidade com as normas técnicas brasileiras. (Redação dada pela Lei nº 12.119, de 2009)" .
+lex:L11337\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11337\/Artigo2    lex:temParagrafo    lex:L11337\/Artigo2\/ParagrafoUnico .
+lex:L11337\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O disposto neste artigo entra em vigor a partir de 1o de janeiro de 2010. (Redação dada pela Lei nº 12.119, de 2009)" .
+lex:L11337\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11337    lex:temArtigo    lex:L11337\/Artigo3 .
+lex:L11337\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor noventa dias após sua publicação." .
+lex:L11337\/Artigo2    lex:remetePara    lex:L12119\/Artigo1 .
+lex:L11337\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L12119\/Artigo1 .

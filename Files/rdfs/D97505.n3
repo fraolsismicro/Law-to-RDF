@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97505    lex:ehUm    lex:DocLegal .
+lex:D97505    lex:temTextoIntegral    lex:HTMLs\/D97505.htm .
+lex:D97505\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97505    lex:temArtigo    lex:D97505\/Artigo1 .
+lex:D97505\/Artigo1    lex:temConteudo    "Art. 1° Ficam aprovadas as normas e critérios anexos ao presente Decreto, a serem aplicados na conversão do franco-ouro Poincaré, constante da Convenção de Varsóvia, de 1929, e no Protocolo de Haia, de 1955, em moeda nacional." .
+lex:D97505\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D97505\/Artigo1    lex:temParagrafo    lex:D97505\/Artigo1\/ParagrafoUnico .
+lex:D97505\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Critério idêntico será aplicado às demais Convenções de Direito Aéreo que adotarem o franco-ouro como unidade monetária." .
+lex:D97505\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97505    lex:temArtigo    lex:D97505\/Artigo2 .
+lex:D97505\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

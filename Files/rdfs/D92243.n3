@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92243    lex:ehUm    lex:DocLegal .
+lex:D92243    lex:temTextoIntegral    lex:HTMLs\/D92243.htm .
+lex:D92243\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D92243    lex:temParagrafo    lex:D92243\/ParagrafoUnico .
+lex:D92243\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A execução do serviço de radiodifusão, cuja outorga é renovada por este Decreto, reger-se-á pelo Código Brasileiro de Telecomunicações, leis subseqüentes e seus regulamentos e, cumulativamente, pelas cláusulas aprovadas através do Decreto nº 88.066, de 26 de janeiro de 1983, às quais a entidade aderiu previamente." .
+lex:D92243\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92243    lex:temArtigo    lex:D92243\/Artigo2 .
+lex:D92243\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D92243\/Texto    lex:revogadoPor    lex:Dnn0004-91 .
+lex:Dnn0004-91    lex:revogou    lex:D92243\/Texto .
+lex:D92243\/Texto    lex:remetePara    lex:D92243 .
+lex:D92243\/Artigo1    lex:remetePara    lex:L4117\/Artigo33\/Paragrafo3 .
+lex:D92243\/ParagrafoUnico    lex:remetePara    lex:D88066 .

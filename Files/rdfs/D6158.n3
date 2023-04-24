@@ -1,0 +1,84 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6158    lex:ehUm    lex:DocLegal .
+lex:D6158    lex:temTextoIntegral    lex:HTMLs\/D6158.htm .
+lex:D6158\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo1 .
+lex:D6158\/Artigo1    lex:temConteudo    "Art. 1o A tabela constante do art. 149 do Decreto no 4.544, de 26 de dezembro de 2002, Regulamento do Imposto sobre Produtos Industrializados - RIPI, passa a vigorar na forma do Anexo a este Decreto." .
+lex:D6158\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo2 .
+lex:D6158\/Artigo2    lex:temConteudo    "Art. 2o  O art. 150 do Decreto no 4.544, de 2002, passa a vigorar com a seguinte redação:" .
+lex:D6158\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo2    lex:temParagrafo    lex:D6158\/Artigo2\/Paragrafo2 .
+lex:D6158\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o ............................................................." .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6158\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - ..............................................................." .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:temAlinea    lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe    lex:temConteudo    "b) se o cálculo de que trata o inciso II resultar em valor intermediário aos valores de duas classes consecutivas será considerada a classe correspondente ao maior valor;" .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe\/Item    lex:ehUm    lex:Item .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe    lex:temItem    lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe\/Item .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe\/Item    lex:temConteudo    "...................................................................." .
+lex:D6158\/Artigo2\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo2    lex:temParagrafo    lex:D6158\/Artigo2\/Paragrafo8 .
+lex:D6158\/Artigo2\/Paragrafo8    lex:temConteudo    "§ 8o  O disposto no inciso III do § 2o, alíneas a e b, não se aplica aos produtos classificados nos Códigos 2204.2 e 22.06 da TIPI, exceto os Ex 01 desses Códigos, cujo enquadramento se dará na classe de menor valor que mais se aproxime do valor encontrado na operação a que se refere o inciso II do § 2o. (NR)" .
+lex:D6158\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo3 .
+lex:D6158\/Artigo3    lex:temConteudo    "Art. 3o  O art. 152 do Decreto no 4.544, de 2002, passa a vigorar com a seguinte redação:" .
+lex:D6158\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D6158\/Artigo3    lex:temAlinea    lex:D6158\/Artigo3\/AlineaPara .
+lex:D6158\/Artigo3\/AlineaPara    lex:temConteudo    "a) para importações sujeitas ao pagamento integral do imposto de importação, o enquadramento se dará na segunda classe posterior a maior classe prevista;" .
+lex:D6158\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D6158\/Artigo3    lex:temAlinea    lex:D6158\/Artigo3\/AlineaPara .
+lex:D6158\/Artigo3\/AlineaPara    lex:temConteudo    "b) para importações sujeitas ao pagamento parcial do imposto de importação, o enquadramento se dará na classe posterior a maior classe prevista;" .
+lex:D6158\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D6158\/Artigo3    lex:temAlinea    lex:D6158\/Artigo3\/AlineaPara .
+lex:D6158\/Artigo3\/AlineaPara    lex:temConteudo    "c) para importações não sujeitas ao pagamento do imposto de importação, o enquadramento se dará na maior classe prevista;" .
+lex:D6158\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6158\/Artigo3    lex:temInciso    lex:D6158\/Artigo3\/IncisoII .
+lex:D6158\/Artigo3\/IncisoII    lex:temConteudo    "II - os chocolates classificados no código 1704.90.10 e nas subposições 1806.31, 1806.32 e 1806.90 (exceto o Ex 01) da TIPI, os sorvetes classificados na subposição 2105.00 da TIPI que se enquadrem como sorvetes de massa ou cremosos ou como sorvetes especiais e os produtos das posições 21.06, 22.01, 22.02 e 22.03, e do Ex 02 do código 2106.90.10 da TIPI sujeitam-se ao imposto conforme estabelecido na NC (17-1), na NC (18-1), na NC (21-2), na NC (21-3) e na NC (22-2) da TIPI." .
+lex:D6158\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo3    lex:temParagrafo    lex:D6158\/Artigo3\/Paragrafo1 .
+lex:D6158\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Os vinhos de mesa finos ou nobres e especiais produzidos com uvas viníferas classificados no código 2204.2 da TIPI e as bebidas tipo champanha classificadas no código 2204.10.10 da TIPI, ambos de valor FOB unitário igual ou superior a setenta dólares americanos, ficam excluídos do regime previsto no art. 139, sujeitando-se ao que estabelece o art. 145." .
+lex:D6158\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo3    lex:temParagrafo    lex:D6158\/Artigo3\/Paragrafo2 .
+lex:D6158\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Relativamente aos produtos do código 2208.30 da TIPI, originários de países integrantes do Mercado Comum do Sul - MERCOSUL:" .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6158\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoI .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - aplicar-se-ão as regras de que trata o art. 150, inclusive quanto à necessidade de solicitação de enquadramento pelo importador, observado o disposto no inciso I do art. 131;" .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6158\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoII .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - na hipótese de o importador não solicitar o enquadramento ou, ainda, enquanto não editado o ato de enquadramento pelo Ministro de Estado da Fazenda, os produtos serão enquadrados de acordo com a regra estabelecida no inciso I do caput deste artigo;" .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6158\/Artigo3\/Paragrafo2    lex:temParagrafoInciso    lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D6158\/Artigo3\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - o enquadramento divulgado para determinada marca de produto poderá ser utilizado para importações subseqüentes da mesma marca do produto, pelo mesmo importador, desde que não resulte, das condições de comercialização, enquadramento em classe distinta daquela anteriormente divulgada. (NR)" .
+lex:D6158\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo4 .
+lex:D6158\/Artigo4    lex:temConteudo    "Art. 4o O art. 275 do Decreto no 4.544, de 2002, passa a vigorar com a seguinte redação:" .
+lex:D6158\/Artigo4\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo4    lex:temParagrafo    lex:D6158\/Artigo4\/Paragrafo3 .
+lex:D6158\/Artigo4\/Paragrafo3    lex:temConteudo    "§ 3o  Estão excluídas da prescrição deste artigo, além de outras que venham a ser objeto de autorização do Ministro de Estado da Fazenda, as bebidas das Posições 22.01 a 22.04, 22.06, 22.07, 22.09, e dos códigos 2208.30, 2208.90.00 Ex 01." .
+lex:D6158\/Artigo4\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D6158\/Artigo4    lex:temParagrafo    lex:D6158\/Artigo4\/Paragrafo4 .
+lex:D6158\/Artigo4\/Paragrafo4    lex:temConteudo    "§ 4o  Aplica-se o disposto no § 3o às bebidas do Código 2208.40.00, exceto o rum e outras aguardentes provenientes do melaço de cana, nos termos, limites e condições definidos pela Secretaria da Receita Federal do Brasil. (NR)" .
+lex:D6158\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo5 .
+lex:D6158\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6158\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6158    lex:temArtigo    lex:D6158\/Artigo6 .
+lex:D6158\/Artigo6    lex:temConteudo    "Art. 6o  Fica revogado o art. 1o do Decreto no 4.859, de 14 de outubro de 2003, na parte a que se refere aos arts. 149 e 275 do Decreto no 4.544, de 26 de dezembro de 2002." .
+lex:D6158\/Texto    lex:remetePara    lex:D6158 .
+lex:D6158\/Artigo1    lex:remetePara    lex:D4544\/Artigo149 .
+lex:D6158\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII\/AlineaSe    lex:remetePara    lex:D4544\/Artigo150\/Paragrafo2iib .
+lex:D6158\/Artigo2\/Paragrafo8    lex:remetePara    lex:D4544\/Artigo150\/Paragrafo8 .
+lex:D6158\/Artigo3    lex:remetePara    lex:D4544\/Artigo152 .
+lex:D6158\/Artigo4\/Paragrafo3    lex:remetePara    lex:D4544\/Artigo275\/Paragrafo3 .
+lex:D6158\/Artigo6    lex:remetePara    lex:D4859\/Artigo149 .
+lex:D6158\/Artigo6    lex:remetePara    lex:D4859\/Artigo275 .

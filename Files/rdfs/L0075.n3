@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0075    lex:ehUm    lex:DocLegal .
+lex:L0075    lex:temTextoIntegral    lex:HTMLs\/L0075.htm .
+lex:L0075\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0075    lex:temArtigo    lex:L0075\/Artigo1 .
+lex:L0075\/Artigo1    lex:temConteudo    "Art. 1º Todos os pedidos de abertura de creditos feitos pelo Poder Executivo serão encaminhados ao Poder Legislativo por exclusivo intermedio do Ministerio da Fazenda, com a indicação dos recursos a que se refere o art. 183, da Constituição." .
+lex:L0075\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0075    lex:temArtigo    lex:L0075\/Artigo2 .
+lex:L0075\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrario." .
+lex:L0075\/Artigo1    lex:remetePara    lex:Constituicao34\/Artigo183 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3381    lex:ehUm    lex:DocLegal .
+lex:D3381    lex:temTextoIntegral    lex:HTMLs\/D3381.htm .
+lex:D3381\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3381    lex:temArtigo    lex:D3381\/Artigo1 .
+lex:D3381\/Artigo1    lex:temConteudo    "Art. 1o  Os §§ 2o e 4o do art. 1o do Decreto no 2.673, de 16 de julho de 1998, passam a vigorar com a seguinte redação:" .
+lex:D3381\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3381\/Artigo1    lex:temParagrafo    lex:D3381\/Artigo1\/Paragrafo2 .
+lex:D3381\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  O recolhimento, ao Tesouro Nacional, de dividendos ou juros, de que trata este Decreto, far-se-á na Conta Única do Tesouro Nacional, na forma a ser estabelecida pela Secretaria do Tesouro Nacional, nos prazos a seguir:" .
+lex:D3381\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D3381\/Artigo1    lex:temParagrafo    lex:D3381\/Artigo1\/Paragrafo4 .
+lex:D3381\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º  Sobre os valores dos dividendos e dos juros, a título de remuneração sobre o capital próprio, devidos ao Tesouro Nacional e aos demais acionistas, incidirão encargos financeiros equivalentes à taxa SELIC, a partir do encerramento do exercício social até o dia do efetivo recolhimento ou pagamento, sem prejuízo da incidência de juros moratórios quando esse recolhimento ou pagamento não se verificar na data fixada em lei, assembléia ou deliberação do Conselho Diretor, devendo ser considerada como a taxa diária, para a atualização desse valor durante os cinco dias úteis anteriores à data do pagamento ou recolhimento, a mesma taxa SELIC divulgada no quinto dia útil que antecede o dia da efetiva quitação da obrigação." .
+lex:D3381\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3381    lex:temArtigo    lex:D3381\/Artigo2 .
+lex:D3381\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3381\/Artigo1    lex:remetePara    lex:D2673 .
+lex:D3381\/Artigo1\/Paragrafo2    lex:remetePara    lex:D2673\/Artigo1\/Paragrafo2 .
+lex:D3381\/Artigo1\/Paragrafo4    lex:remetePara    lex:D2673\/Artigo1\/Paragrafo4 .

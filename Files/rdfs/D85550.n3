@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D85550    lex:ehUm    lex:DocLegal .
+lex:D85550    lex:temTextoIntegral    lex:HTMLs\/D85550.htm .
+lex:D85550\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo1 .
+lex:D85550\/Artigo1    lex:temConteudo    "Art. 1º - Fica extinta a Secretaria de Comunicação Social da Presidência da República (SECOM)." .
+lex:D85550\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D85550\/Artigo1    lex:temParagrafo    lex:D85550\/Artigo1\/ParagrafoUnico .
+lex:D85550\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A competência do órgão de que trata este artigo será exercida pelo Gabinete Civil da Presidência da República." .
+lex:D85550\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo2 .
+lex:D85550\/Artigo2    lex:temConteudo    "Art. 2º - Compete à diretoria Administrativa da Presidência da República a gestão dos recursos a que se refere o artigo 1º do Decreto-lei nº 1.823, de 18 de dezembro de 1980." .
+lex:D85550\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo3 .
+lex:D85550\/Artigo3    lex:temConteudo    "Art. 3º - Fica Extinto o cargo de Ministro de Estado Chefe da Secretaria de Comunicação Social da Presidência da República." .
+lex:D85550\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo4 .
+lex:D85550\/Artigo4    lex:temConteudo    "Art. 4º - Serão extintos em 1º de janeiro de 1981, os cargos de Secretário-Geral, Inspetor-Geral de Finanças, chefe de Gabinete e consultor Jurídico da SECOM." .
+lex:D85550\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D85550\/Artigo4    lex:temParagrafo    lex:D85550\/Artigo4\/ParagrafoUnico .
+lex:D85550\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Até que se dê nova organização às atividades de comunicação social do Poder Executivo, ficam mantidos os demais cargos, empregos e funções da extinta SECOM." .
+lex:D85550\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo5 .
+lex:D85550\/Artigo5    lex:temConteudo    "Art. 5º - A Empresa Brasileira de Radiodifusão - RADIOBRÁS, para efeito da supervisão de que trata o Título IV do Decreto-lei 200, de 25 de fevereiro de 1967, passa a ser vinculada ao Ministério das Comunicações, sem prejuízo dos objetivos a que se refere o artigo 4º, item I, da Lei nº 6.650, de 23 de maio de 1979." .
+lex:D85550\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo6 .
+lex:D85550\/Artigo6    lex:temConteudo    "Art. 6º - A Empresa Brasileira de Notícias, para efeito da supervisão de que trata o Título IV do Decreto-lei 200, de 25 de fevereiro de 1967, passa a ser vinculada ao Gabinete Civil da Presidência da República." .
+lex:D85550\/Artigo7-    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo7- .
+lex:D85550\/Artigo7-    lex:temConteudo    "Art. 7º- O Ministro de Estado Chefe do Gabinete Civil baixará os atos necessários à execução deste Decreto." .
+lex:D85550\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D85550    lex:temArtigo    lex:D85550\/Artigo8 .
+lex:D85550\/Artigo8    lex:temConteudo    "Art. 8º - Este Decreto entra em vigor na data da publicação, revogadas as disposições em contrário." .
+lex:D85550\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91\/ .
+lex:Dnn7-05-09-91\/    lex:revogou    lex:D85550\/Texto .
+lex:D85550\/Texto    lex:remetePara    lex:D85526 .

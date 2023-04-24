@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6705    lex:ehUm    lex:DocLegal .
+lex:L6705    lex:temTextoIntegral    lex:HTMLs\/L6705.htm .
+lex:L6705\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo1 .
+lex:L6705\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir créditos suplementares ao Orçamento da União, aprovado pela Lei nº 6.597, de 1º de dezembro de 1978, até o limite de Cr$51.442.300.000,00 (cinqüenta e um bilhões, quatrocentos e quarenta e dois milhões e trezentos mil cruzeiros)." .
+lex:L6705\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo2 .
+lex:L6705\/Artigo2    lex:temConteudo    "Art. 2º Para atendimento dos créditos suplementares de que trata o artigo anterior, serão utilizados como recursos os provenientes do excesso de arrecadação, previsto em conformidade com o § 1º, inciso II, e § 3º do art. 43 da Lei nº 4.320, de 17 de março de 1964." .
+lex:L6705\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo3 .
+lex:L6705\/Artigo3    lex:temConteudo    "Art. 3º Na forma e no limite autorizado nesta Lei, o excesso de arrecadação das receitas do Tesouro Nacional, independentemente de origem e destinação específica, será aplicado no atendimento das despesas a que alude o parágrafo único do art. 3º do Decreto-Lei nº 1.678, de 22 de fevereiro de 1979, e na seguinte programação:" .
+lex:L6705\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6705\/Artigo3    lex:temParagrafo    lex:L6705\/Artigo3\/ParagrafoUnico .
+lex:L6705\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A parcela de recursos atribuída à Reserva de Contingência será aplicada no reforço de eventuais insuficiências nas dotações constantes do vigente Orçamento." .
+lex:L6705\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo4 .
+lex:L6705\/Artigo4    lex:temConteudo    "Art. 4º O excesso de arrecadação das receitas do Tesouro Nacional a que se refere a presente Lei, exclui a parcela que, nos termos da legislação em vigor, deva ser transferida de forma automática aos Estados, Distrito Federal, Territórios e Municípios." .
+lex:L6705\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo5 .
+lex:L6705\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6705\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6705    lex:temArtigo    lex:L6705\/Artigo6 .
+lex:L6705\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L6705\/Artigo1    lex:remetePara    lex:L6597 .
+lex:L6705\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .
+lex:L6705\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo3 .
+lex:L6705\/Artigo3    lex:remetePara    lex:Del1678\/Artigo3 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10109    lex:ehUm    lex:DocLegal .
+lex:L10109    lex:temTextoIntegral    lex:HTMLs\/L10109.htm .
+lex:L10109\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10109    lex:temArtigo    lex:L10109\/Artigo2 .
+lex:L10109\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à execução do disposto no artigo anterior são provenientes de incorporação:" .
+lex:L10109\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10109\/Artigo2    lex:temInciso    lex:L10109\/Artigo2\/IncisoI .
+lex:L10109\/Artigo2\/IncisoI    lex:temConteudo    "I   de excesso de arrecadação de Receitas Financeiras Diretamente Arrecadadas, no valor de R$ 603.703,00 (seiscentos e três mil, setecentos e três reais); e" .
+lex:L10109\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10109\/Artigo2    lex:temInciso    lex:L10109\/Artigo2\/IncisoII .
+lex:L10109\/Artigo2\/IncisoII    lex:temConteudo    "II   de superávit financeiro apurado em Balanço Patrimonial do exercício de 1999, no valor de R$ 8.552.594,00 (oito milhões, quinhentos e cinqüenta e dois mil, quinhentos e noventa e quatro reais), sendo R$ 8.051.226,00 (oito milhões, cinqüenta e um mil, duzentos e vinte e seis reais) do Tesouro Nacional." .
+lex:L10109\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10109    lex:temArtigo    lex:L10109\/Artigo3 .
+lex:L10109\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10109\/Artigo1    lex:remetePara    lex:L9969 .

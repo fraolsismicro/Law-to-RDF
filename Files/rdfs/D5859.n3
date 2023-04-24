@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5859    lex:ehUm    lex:DocLegal .
+lex:D5859    lex:temTextoIntegral    lex:HTMLs\/D5859.htm .
+lex:D5859\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5859    lex:temArtigo    lex:D5859\/Artigo1 .
+lex:D5859\/Artigo1    lex:temConteudo    "Art. 1o   Os arts. 19 e 21 do Estatuto da Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba - CODEVASF, aprovado pelo Decreto no 3.604, de 20 de setembro de 2000, passam a vigorar com a seguinte redação:" .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5859\/Artigo1    lex:temParagrafo    lex:D5859\/Artigo1\/ParagrafoUnico .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A Diretoria Executiva tem seu regime de funcionamento definido por regimento interno próprio. (NR)" .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - de Gestão Estratégica;" .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - de Desenvolvimento Integrado e Infra-estrutura;" .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - de Gestão dos Empreendimentos de Irrigação;" .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - de Revitalização das Bacias Hidrográficas; e" .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D5859\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - de Gestão Administrativa e Suporte Logístico." .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5859\/Artigo1    lex:temParagrafo    lex:D5859\/Artigo1\/ParagrafoUnico .
+lex:D5859\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As áreas para as quais não haja nomeação específica de Diretor serão administradas diretamente pelo Presidente, que poderá delegar tais atribuições. (NR)" .
+lex:D5859\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5859    lex:temArtigo    lex:D5859\/Artigo2 .
+lex:D5859\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5859\/Texto    lex:remetePara    lex:D5859 .
+lex:D5859\/Texto00001    lex:remetePara    lex:D3604\/Artigo19 .
+lex:D5859\/Artigo1\/Texto00002    lex:remetePara    lex:D3604\/Artigo21 .

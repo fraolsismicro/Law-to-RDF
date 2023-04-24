@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92298    lex:ehUm    lex:DocLegal .
+lex:D92298    lex:temTextoIntegral    lex:HTMLs\/D92298.htm .
+lex:D92298\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoII .
+lex:D92298\/IncisoII    lex:temConteudo    "II - CORPO DE FUZILEIROS NAVAIS" .
+lex:D92298\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoIII .
+lex:D92298\/IncisoIII    lex:temConteudo    "III - CORPO DE ENGENHEIROS E TÉCNICOS NAVAIS" .
+lex:D92298\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoIV .
+lex:D92298\/IncisoIV    lex:temConteudo    "IV - CORPO DE INTENDENTES DA MARINHA" .
+lex:D92298\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoV .
+lex:D92298\/IncisoV    lex:temConteudo    "V - CORPO DE SAÚDE DA MARINHA" .
+lex:D92298\/IncisoV\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D92298\/IncisoV    lex:temIncisoAlinea    lex:D92298\/IncisoV\/IncisoAlineaQuadro .
+lex:D92298\/IncisoV\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões Dentistas" .
+lex:D92298\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D92298\/IncisoV\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D92298\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D92298\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Farmacêuticos" .
+lex:D92298\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoVI .
+lex:D92298\/IncisoVI    lex:temConteudo    "VI - QUADRO DE OFICIAIS AUXILIARES" .
+lex:D92298\/IncisoVI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D92298\/IncisoVI    lex:temIncisoAlinea    lex:D92298\/IncisoVI\/IncisoAlineaQuadro .
+lex:D92298\/IncisoVI\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Oficiais Auxiliares do Corpo de Fuzileiros Navais" .
+lex:D92298\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D92298    lex:temInciso    lex:D92298\/IncisoVII .
+lex:D92298\/IncisoVII    lex:temConteudo    "VII - QUADROS COMPLEMENTARES" .
+lex:D92298\/IncisoVII\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D92298\/IncisoVII    lex:temIncisoAlinea    lex:D92298\/IncisoVII\/IncisoAlineaQuadro .
+lex:D92298\/IncisoVII\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar do Corpo de Fuzileiros Navais" .

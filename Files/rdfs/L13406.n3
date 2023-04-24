@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13406    lex:ehUm    lex:DocLegal .
+lex:L13406    lex:temTextoIntegral    lex:HTMLs\/L13406.htm .
+lex:L13406\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13406    lex:temArtigo    lex:L13406\/Artigo1 .
+lex:L13406\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei altera os §§ 3o e 4o do art. 24 da Lei no 12.587, de 3 de janeiro de 2012, para estender o prazo exigido para a elaboração do Plano de Mobilidade Urbana e para sua compatibilização com o plano diretor municipal." .
+lex:L13406\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13406    lex:temArtigo    lex:L13406\/Artigo2 .
+lex:L13406\/Artigo2    lex:temConteudo    "Art. 2o  Os §§ 3o e 4o do art. 24 da Lei no 12.587, de 3 de janeiro de 2012, passam a vigorar com a seguinte redação:" .
+lex:L13406\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L13406\/Artigo2    lex:temParagrafo    lex:L13406\/Artigo2\/Paragrafo3 .
+lex:L13406\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  O Plano de Mobilidade Urbana deverá ser compatibilizado com o plano diretor municipal, existente ou em elaboração, no prazo máximo de 6 (seis) anos da entrada em vigor desta Lei." .
+lex:L13406\/Artigo2\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L13406\/Artigo2    lex:temParagrafo    lex:L13406\/Artigo2\/Paragrafo4 .
+lex:L13406\/Artigo2\/Paragrafo4    lex:temConteudo    "§ 4o  Os Municípios que não tenham elaborado o Plano de Mobilidade Urbana até a data de promulgação desta Lei terão o prazo máximo de 6 (seis) anos de sua entrada em vigor para elaborá-lo, findo o qual ficam impedidos de receber recursos orçamentários federais destinados à mobilidade urbana, até que atendam à exigência desta Lei. (NR)" .
+lex:L13406\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13406    lex:temArtigo    lex:L13406\/Artigo3 .
+lex:L13406\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13406\/Artigo2    lex:remetePara    lex:L12587 .
+lex:L13406\/Artigo2\/Paragrafo3    lex:remetePara    lex:L12587\/Artigo24\/Paragrafo3 .
+lex:L13406\/Artigo2\/Paragrafo4    lex:remetePara    lex:L12587\/Artigo24\/Paragrafo4 .

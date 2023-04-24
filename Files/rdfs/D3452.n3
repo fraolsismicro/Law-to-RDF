@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3452    lex:ehUm    lex:DocLegal .
+lex:D3452    lex:temTextoIntegral    lex:HTMLs\/D3452.htm .
+lex:D3452\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3452    lex:temInciso    lex:D3452\/IncisoI .
+lex:D3452\/IncisoI    lex:temConteudo    "I - o salário-de-contribuição do segurado nessa condição;" .
+lex:D3452\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3452    lex:temInciso    lex:D3452\/IncisoII .
+lex:D3452\/IncisoII    lex:temConteudo    "II - a maior remuneração paga a empregados da empresa; ou" .
+lex:D3452\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3452    lex:temInciso    lex:D3452\/IncisoIII .
+lex:D3452\/IncisoIII    lex:temConteudo    "III - o salário mínimo, caso não ocorra nenhuma das hipóteses anteriores." .
+lex:D3452\/Paragrafo19    lex:ehUm    lex:Paragrafo .
+lex:D3452    lex:temParagrafo    lex:D3452\/Paragrafo19 .
+lex:D3452\/Paragrafo19    lex:temConteudo    "§ 19.  A cooperativa de trabalho não está sujeita à contribuição de que trata o inciso II do caput, em relação às importâncias por ela pagas, distribuídas ou creditadas aos respectivos cooperados, a título de remuneração ou retribuição pelos serviços que, por seu intermédio, tenham prestado a empresas.' (NR)" .
+lex:D3452\/Paragrafo19\/ParagrafoIncisoXIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3452\/Paragrafo19    lex:temParagrafoInciso    lex:D3452\/Paragrafo19\/ParagrafoIncisoXIII .
+lex:D3452\/Paragrafo19\/ParagrafoIncisoXIII    lex:temConteudo    "XIII - cabe ao empregador, durante o período de licença-maternidade da empregada, recolher apenas a parcela da contribuição a seu cargo." .
+lex:D3452\/Paragrafo13    lex:remetePara    lex:D3048\/Artigo9\/Paragrafo13 .
+lex:D3452\/Paragrafo3    lex:remetePara    lex:D3048\/Artigo10\/Paragrafo3 .
+lex:D3452\/IncisoIII    lex:remetePara    lex:D3048\/Artigo29 .
+lex:D3452\/Paragrafo3    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo3 .
+lex:D3452\/IncisoI    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo3i .
+lex:D3452\/IncisoII    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo3ii .
+lex:D3452\/IncisoIII    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo3iii .
+lex:D3452\/Paragrafo19    lex:remetePara    lex:D3048\/Artigo201\/Paragrafo19 .
+lex:D3452\/IncisoVII    lex:remetePara    lex:D3048\/Artigo216 .
+lex:D3452\/Paragrafo19\/ParagrafoIncisoXIII    lex:remetePara    lex:D3048\/Artigo216 .
+lex:D3452\/Paragrafo19\/Paragrafo3    lex:remetePara    lex:D3048\/Artigo278\/Paragrafo3 .
+lex:D3452\/Paragrafo19\/Paragrafo2    lex:remetePara    lex:D3048\/Artigo303\/Paragrafo2 .
+lex:D3452\/Paragrafo19\/Texto00005    lex:remetePara    lex:D3048\/Artigo309 .
+lex:D3452\/Paragrafo19\/Artigo3    lex:remetePara    lex:D3048\/Artigo216 .
+lex:D3452\/Paragrafo19\/Artigo3    lex:regulamentadoPor    lex:D3048\/Artigo303\/Paragrafo8 .
+lex:D3048\/Artigo303\/Paragrafo8    lex:regulamenta    lex:D3452\/Paragrafo19\/Artigo3 .

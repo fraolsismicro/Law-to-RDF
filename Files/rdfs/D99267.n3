@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99267    lex:ehUm    lex:DocLegal .
+lex:D99267    lex:temTextoIntegral    lex:HTMLs\/D99267.htm .
+lex:D99267\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99267    lex:temArtigo    lex:D99267\/Artigo1 .
+lex:D99267\/Artigo1    lex:temConteudo    "Art. 1° O art. 166 do Decreto n° 99.244, de 10 de maio de 1990, passa a vigorar com a seguinte redação:" .
+lex:D99267\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D99267\/Artigo1    lex:temInciso    lex:D99267\/Artigo1\/IncisoI .
+lex:D99267\/Artigo1\/IncisoI    lex:temConteudo    "I - orientar, avaliar e coordenar a execução das políticas industrial e comercial, em conformidade com os objetivos e diretrizes dos planos nacionais de desenvolvimento e os parâmetros macroeconômicos da política governamental;" .
+lex:D99267\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D99267\/Artigo1    lex:temInciso    lex:D99267\/Artigo1\/IncisoII .
+lex:D99267\/Artigo1\/IncisoII    lex:temConteudo    "II - propor as diretrizes da política governamental relativa a importações industriais, na hipótese de concessão de benefício fiscal, mediante o estabelecimento de critérios de seleção e listagem de itens a importar;" .
+lex:D99267\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D99267\/Artigo1    lex:temInciso    lex:D99267\/Artigo1\/IncisoIII .
+lex:D99267\/Artigo1\/IncisoIII    lex:temConteudo    "III - aprovar alterações dos programas e projetos industriais ou de exportação, inclusive quanto à prorrogação dos respectivos prazos, bem assim autorizar, em tais casos, a atualização do valor de máquinas, peças e equipamentos, ou sua inclusão, ou substituição, desde que mantida a concepção original dos referidos projetos e programas;" .
+lex:D99267\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D99267\/Artigo1    lex:temInciso    lex:D99267\/Artigo1\/IncisoIV .
+lex:D99267\/Artigo1\/IncisoIV    lex:temConteudo    "IV - controlar a execução dos projetos ou programas referidos no inciso anterior, bem assim revogar os atos administrativos concessivos de incentivos fiscais ou de autorização de produção, nos casos de descumprimento dos compromissos assumidos'." .
+lex:D99267\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99267    lex:temArtigo    lex:D99267\/Artigo2 .
+lex:D99267\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D99267\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99267    lex:temArtigo    lex:D99267\/Artigo3 .
+lex:D99267\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:D99267\/Artigo1    lex:remetePara    lex:D99244\/Artigo166 .

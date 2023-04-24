@@ -1,0 +1,59 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7838    lex:ehUm    lex:DocLegal .
+lex:L7838    lex:temTextoIntegral    lex:HTMLs\/L7838.htm .
+lex:L7838\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo1 .
+lex:L7838\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 3 de janeiro de 1989), Anexo II, com a respectiva aplicação no Anexo IV, créditos suplementares no valor de NCz$ 4.697.542.785,00 (quatro bilhões, seiscentos e noventa e sete milhões, quinhentos e quarenta e dois mil, setecentos e oitenta e cinco cruzados novos), de conformidade com a programação constante dos Anexos I, II e III desta Lei." .
+lex:L7838\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7838\/Artigo1    lex:temParagrafo    lex:L7838\/Artigo1\/ParagrafoUnico .
+lex:L7838\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de excesso de arrecadação de:" .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaRecursos    lex:ehUm    lex:Alinea .
+lex:L7838\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaRecursos .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaRecursos    lex:temConteudo    "a) Recursos Ordinários do Tesouro: NCz$ 2.200.000.000,00 (dois bilhões e duzentos milhões de cruzados novos);" .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaContribuicao    lex:ehUm    lex:Alinea .
+lex:L7838\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaContribuicao .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaContribuicao    lex:temConteudo    "b) Contribuição para o Fundo de Investimento Social: NCz$ 2.403.231.785,00 (dois bilhões, quatrocentos e três milhões, duzentos e trinta e um mil, setecentos e oitenta e cinco cruzados novos);" .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaCota    lex:ehUm    lex:Alinea .
+lex:L7838\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaCota .
+lex:L7838\/Artigo1\/ParagrafoUnico\/AlineaCota    lex:temConteudo    "c) Cota de Previdência: NCz$ 94.311.000,00 (noventa e quatro milhões, trezentos e onze mil cruzados novos)." .
+lex:L7838\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo2 .
+lex:L7838\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 1989), Anexo II, crédito suplementar no valor de NCz$ 385.000.000,00 (trezentos e oitenta e cinco milhões de cruzados novos), com a respectiva aplicação no Anexo IV, através de crédito especial, e em conformidade com a programação constante dos Anexos I e IV desta Lei." .
+lex:L7838\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7838\/Artigo2    lex:temParagrafo    lex:L7838\/Artigo2\/ParagrafoUnico .
+lex:L7838\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de excesso de arrecadação da Contribuição para o Fundo de Investimento Social." .
+lex:L7838\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo3 .
+lex:L7838\/Artigo3    lex:temConteudo    "Art. 3º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 1989), Anexo IV, créditos suplementares no valor de NCz$ 26.509.012.893,00 (vinte e seis bilhões, quinhentos e nove milhões, doze mil, oitocentos e noventa e três cruzados novos), de conformidade com a programação constante dos Anexos II e V desta Lei." .
+lex:L7838\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7838\/Artigo3    lex:temParagrafo    lex:L7838\/Artigo3\/ParagrafoUnico .
+lex:L7838\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de:" .
+lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaCancelamento    lex:ehUm    lex:Alinea .
+lex:L7838\/Artigo3\/ParagrafoUnico    lex:temAlinea    lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaCancelamento .
+lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaCancelamento    lex:temConteudo    "a) cancelamento de dotações orçamentárias no valor de NCz$ 221.714,00 (duzentos e vinte e um mil, setecentos e quatorze cruzados novos), especificado no Anexo VI desta Lei;" .
+lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaIncorporacao    lex:ehUm    lex:Alinea .
+lex:L7838\/Artigo3\/ParagrafoUnico    lex:temAlinea    lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaIncorporacao .
+lex:L7838\/Artigo3\/ParagrafoUnico\/AlineaIncorporacao    lex:temConteudo    "b) incorporação do excesso de arrecadação de recursos Diretamente Arrecadados - Outras Fontes, no montante de NCz$ 26.508.791.179,00 (vinte e seis bilhões, quinhentos e oito milhões, setecentos e noventa e um mil, cento e setenta e nove cruzados novos)." .
+lex:L7838\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo4 .
+lex:L7838\/Artigo4    lex:temConteudo    "Art. 4º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 7.715, de 1989), Anexo IV, crédito especial até o limite de NCz$ 86.458.870,00 (oitenta e seis milhões, quatrocentos e cinqüenta e oito mil, oitocentos e setenta cruzados novos), de conformidade com a programação constante do Anexo IV desta Lei." .
+lex:L7838\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7838\/Artigo4    lex:temParagrafo    lex:L7838\/Artigo4\/ParagrafoUnico .
+lex:L7838\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de Recursos Diretamente Arrecadados - Outras Fontes." .
+lex:L7838\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo5 .
+lex:L7838\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7838\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L7838    lex:temArtigo    lex:L7838\/Artigo6 .
+lex:L7838\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L7838\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7838\/Artigo2    lex:remetePara    lex:L7715 .
+lex:L7838\/Artigo3    lex:remetePara    lex:L7715 .
+lex:L7838\/Artigo4    lex:remetePara    lex:L7715 .

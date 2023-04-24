@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D75310    lex:ehUm    lex:DocLegal .
+lex:D75310    lex:temTextoIntegral    lex:HTMLs\/D75310.htm .
+lex:D75310\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D75310    lex:temArtigo    lex:D75310\/Artigo1A .
+lex:D75310\/Artigo1A    lex:temConteudo    "Art. 1Âº O artigo 1Âº, do Decreto nÂº 74.463, de 26 de agosto de 1974 , passa a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D75310\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D75310    lex:temArtigo    lex:D75310\/Artigo2A .
+lex:D75310\/Artigo2A    lex:temConteudo    "Art. 2Âº Este Decreto entrarÃ¡ em vigor na data de sus publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D75310\/Artigo1A    lex:remetePara    lex:D74463 .
+lex:D75310\/Texto00001    lex:remetePara    lex:D74463\/Artigo1 .

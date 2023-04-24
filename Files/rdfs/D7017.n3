@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7017    lex:ehUm    lex:DocLegal .
+lex:D7017    lex:temTextoIntegral    lex:HTMLs\/D7017.htm .
+lex:D7017\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7017    lex:temArtigo    lex:D7017\/Artigo1 .
+lex:D7017\/Artigo1    lex:temConteudo    "Art. 1o  Os Anexos V e VII do Decreto no 6.890, de 29 de junho de 2009, passam a vigorar com a redação constante do Anexo, conforme a Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto no 6.006, de 28 de dezembro de 2006." .
+lex:D7017\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7017    lex:temArtigo    lex:D7017\/Artigo2 .
+lex:D7017\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir de 1o de dezembro de 2009." .
+lex:D7017\/Texto    lex:remetePara    lex:D7017 .
+lex:D7017\/Artigo1    lex:remetePara    lex:D6890\/ .
+lex:D7017\/Artigo1    lex:remetePara    lex:D6890\/ .
+lex:D7017\/Artigo1    lex:remetePara    lex:D6890 .
+lex:D7017\/Artigo1    lex:remetePara    lex:D6006 .

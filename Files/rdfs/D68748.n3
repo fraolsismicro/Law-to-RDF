@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D68748    lex:ehUm    lex:DocLegal .
+lex:D68748    lex:temTextoIntegral    lex:HTMLs\/D68748.htm .
+lex:D68748\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D68748    lex:temArtigo    lex:D68748\/Artigo1 .
+lex:D68748\/Artigo1    lex:temConteudo    "Art. 1º Fica alterada para Financiadora de Estudos e Projetos S.A. - FINEP - a denominação da empresa pública criada pelo Decreto nº 61.056, de 24 de julho de 1967." .
+lex:D68748\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D68748    lex:temArtigo    lex:D68748\/Artigo2 .
+lex:D68748\/Artigo2    lex:temConteudo    "Art. 2º A FINEP passa a constituir a Secretaria-Executiva do Fundo Nacional de Desenvolvimento Científico e Tecnológico - FNDCT - prevista no Decreto-lei nº 719, de 31 de julho de 1969." .
+lex:D68748\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D68748\/Artigo2    lex:temParagrafo    lex:D68748\/Artigo2\/ParagrafoUnico .
+lex:D68748\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Presidente da FINEP funcionará como Secretário-Executivo do FNDCT, cabendo-lhe praticar todos os atos de natureza técnica e administrativa necessários à gestão do referido Fundo." .
+lex:D68748\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D68748    lex:temArtigo    lex:D68748\/Artigo3 .
+lex:D68748\/Artigo3    lex:temConteudo    "Art. 3º No prazo de 30 (trinta) dias, contados da vigência deste Decreto, será promovida a alteração dos Estatutos da FINEP, tendo em vista o disposto no artigo 1º do presente Decreto." .
+lex:D68748\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D68748    lex:temArtigo    lex:D68748\/Artigo4 .
+lex:D68748\/Artigo4    lex:temConteudo    "Art. 4º Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D68748\/Texto    lex:remetePara    lex:Dnn2254 .
+lex:D68748\/Artigo1    lex:remetePara    lex:D61056 .
+lex:D68748\/Artigo2    lex:remetePara    lex:Del0719 .

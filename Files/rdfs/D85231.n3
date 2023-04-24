@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D85231    lex:ehUm    lex:DocLegal .
+lex:D85231    lex:temTextoIntegral    lex:HTMLs\/D85231.htm .
+lex:D85231\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D85231    lex:temArtigo    lex:D85231\/Artigo1 .
+lex:D85231\/Artigo1    lex:temConteudo    "Art. 1º - O inciso I do artigo 1º do Decreto nº 72.021, de 28 de março de 1973, passa a vigorar com a seguinte redação:" .
+lex:D85231\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D85231\/Artigo1    lex:temInciso    lex:D85231\/Artigo1\/IncisoI .
+lex:D85231\/Artigo1\/IncisoI    lex:temConteudo    "I - Ministério da Marinha:" .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D85231\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao    lex:temConteudo    "a) Comissão Naval Brasileira em Washington;" .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao    lex:temIncisoAlinea    lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:temConteudo    "b) Comissão Naval Brasileira na Europa;" .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao    lex:temIncisoAlinea    lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao    lex:temConteudo    "c) Organização Marítima Consultiva Intergovernamental;" .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria    lex:ehUm    lex:IncisoAlinea .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao    lex:temIncisoAlinea    lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria    lex:temConteudo    "d) Assessoria Brasileira do Coordenador da Área Marítima do Atlântico, quando no exterior; e" .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria    lex:temIncisoAlinea    lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria .
+lex:D85231\/Artigo1\/IncisoI\/IncisoAlineaComissao\/IncisoAlineaComissao\/IncisoAlineaOrganizacao\/IncisoAlineaAssessoria\/IncisoAlineaSecretaria    lex:temConteudo    "e) Secretaria da Rede Naval Interamericana de Telecomunicações.'" .
+lex:D85231\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D85231    lex:temArtigo    lex:D85231\/Artigo2 .
+lex:D85231\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D85231\/Artigo1    lex:remetePara    lex:D72021\/Artigo1 .

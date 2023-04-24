@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3230    lex:ehUm    lex:DocLegal .
+lex:L3230    lex:temTextoIntegral    lex:HTMLs\/L3230.htm .
+lex:L3230\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3230    lex:temArtigo    lex:L3230\/Artigo1 .
+lex:L3230\/Artigo1    lex:temConteudo    "Art. 1º O portador do mal de Hansen que deixar de pagar as contribuições do Decreto-lei nº 2.004, de 7 de fevereiro de 1940, não perderá a qualidade de associado de Instituto ou Caixa a que estiver vinculado." .
+lex:L3230\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3230\/Artigo1    lex:temParagrafo    lex:L3230\/Artigo1\/ParagrafoUnico .
+lex:L3230\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Na hipótese acima prevista poderá o interessado restabelecer a qualquer tempo o vínculo associativo, mediante o pagamento das contribuições em atraso, na forma dos arts. 4º e 7º do Decreto-lei nº 2.004, de 7 de fevereiro de 1940." .
+lex:L3230\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3230    lex:temArtigo    lex:L3230\/Artigo2 .
+lex:L3230\/Artigo2    lex:temConteudo    "Art. 2º Os benefícios desta lei aplicam-se também às situações anteriores de associados perante Instituto ou Caixa." .
+lex:L3230\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3230    lex:temArtigo    lex:L3230\/Artigo3 .
+lex:L3230\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3230\/Artigo1    lex:remetePara    lex:Del2004 .
+lex:L3230\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2004\/Artigo4 .
+lex:L3230\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del2004\/Artigo7 .

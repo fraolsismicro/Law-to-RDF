@@ -1,0 +1,108 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4481    lex:ehUm    lex:DocLegal .
+lex:D4481    lex:temTextoIntegral    lex:HTMLs\/D4481.htm .
+lex:D4481\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo1 .
+lex:D4481\/Artigo1    lex:temConteudo    "Art. 1o  São definidos como hospitais estratégicos, no âmbito do Sistema Único de Saúde - SUS, aqueles que preencham, pelo menos, uma das condições abaixo relacionadas:" .
+lex:D4481\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoI .
+lex:D4481\/Artigo1\/IncisoI    lex:temConteudo    "I - ser hospital-geral que preste serviços ao SUS em todas as áreas assistenciais de que disponha e que comprove, anualmente, a prestação de serviços ao SUS, medida por paciente-dia, no percentual mínimo de trinta por cento, nos sistemas de alta complexidade que integrem pelo menos quatro grupos constantes do art. 2o deste Decreto, sendo um deles, obrigatoriamente, de realização de transplantes de órgãos;" .
+lex:D4481\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoII .
+lex:D4481\/Artigo1\/IncisoII    lex:temConteudo    "II - ser hospital-geral que disponha de pelo menos dois programas de ensino na área da saúde em nível de pós-graduação, reconhecidos pelo Ministério da Educação, desenvolva atividades de pesquisa na área da saúde, e que comprove, anualmente, a prestação de serviços ao SUS, medida por paciente-dia, no percentual mínimo de trinta por cento, nos sistemas de alta complexidade que integrem pelo menos três grupos constantes do art. 2o deste Decreto;" .
+lex:D4481\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoIII .
+lex:D4481\/Artigo1\/IncisoIII    lex:temConteudo    "III - ser hospital especializado que disponha de pelo menos um programa de ensino na área da saúde em nível de pós-graduação, reconhecido pelo Ministério da Educação, desenvolva atividades de pesquisa na área da saúde, e que comprove, anualmente, a prestação de serviços ao SUS em alta complexidade, medida por paciente-dia, no percentual mínimo de trinta por cento no sistema da sua especialidade;" .
+lex:D4481\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoIV .
+lex:D4481\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ser hospital-geral ou especializado que preste serviço ao SUS em todas as áreas assistenciais de que disponha, medido por paciente-dia, no percentual mínimo de trinta por cento, e que comprove o enquadramento no Sistema Estadual de Referência Hospitalar para Atendimento à Urgência e Emergência ou Gestação de Alto Risco;" .
+lex:D4481\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoV .
+lex:D4481\/Artigo1\/IncisoV    lex:temConteudo    "V - ser hospital-geral ou especializado que disponha de pelo menos um programa de ensino na área da saúde em nível de pós-graduação, reconhecido pelo Ministério da Educação, desenvolva atividades de pesquisa em uma das áreas abaixo identificadas, que preste serviço ao SUS, em todas as áreas assistenciais de que disponha, medido por paciente-dia, no mínimo de trinta por cento, e que seja reconhecido pelo Ministério da Saúde como centro de referência em uma das seguintes áreas:" .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa    lex:ehUm    lex:IncisoAlinea .
+lex:D4481\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa    lex:temConteudo    "a) pesquisa, diagnóstico e tratamento da tuberculose;" .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa    lex:ehUm    lex:IncisoAlinea .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa    lex:temIncisoAlinea    lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa    lex:temConteudo    "b) pesquisa, diagnóstico e tratamento da hanseníase; ou" .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa    lex:ehUm    lex:IncisoAlinea .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa    lex:temIncisoAlinea    lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa .
+lex:D4481\/Artigo1\/IncisoV\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa\/IncisoAlineaPesquisa    lex:temConteudo    "c) pesquisa, diagnóstico e tratamento da AIDS;" .
+lex:D4481\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4481\/Artigo1    lex:temInciso    lex:D4481\/Artigo1\/IncisoVI .
+lex:D4481\/Artigo1\/IncisoVI    lex:temConteudo    "VI - ser hospital-geral que disponha de pelo menos um programa de ensino na área da saúde em nível de pós-graduação, reconhecido pelo Ministério da Educação, desenvolva atividades de pesquisa na área da saúde, preste serviço ao SUS, medido por paciente-dia, no percentual mínimo de trinta por cento, e que execute ações estratégicas na área da saúde, de interesse do gestor de sua jurisdição, devidamente formalizado, em termo de acordo, e homologado pelo Ministério da Saúde." .
+lex:D4481\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo1    lex:temParagrafo    lex:D4481\/Artigo1\/Paragrafo1 .
+lex:D4481\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  No caso de hospitais beneficentes, havendo impossibilidade, declarada pelo gestor local do SUS, na contratação dos serviços de saúde da instituição nos percentuais mínimos estabelecidos nos incisos deste artigo, as entidades deverão completar o referido quantitativo das internações, medido por paciente-dia, com assistência gratuita devidamente informada por meio de Comunicação de Internação Hospitalar - CIH, não financiados pelo SUS ou qualquer outra fonte." .
+lex:D4481\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo1    lex:temParagrafo    lex:D4481\/Artigo1\/Paragrafo2 .
+lex:D4481\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Para fins de comprovação da prestação de serviços em alta complexidade, medida por paciente-dia, a entidade poderá considerar atendimentos em outros níveis de complexidade prestados àqueles pacientes, desde que decorrentes do vínculo inicial objeto do atendimento no sistema de Alta Complexidade em que se encontra credenciado." .
+lex:D4481\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo2 .
+lex:D4481\/Artigo2    lex:temConteudo    "Art. 2o  Os sistemas de alta complexidade de que trata o art. 1o são regulamentados pelo Ministério da Saúde e, para fins deste Decreto, são agrupados como segue:" .
+lex:D4481\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo2    lex:temParagrafo    lex:D4481\/Artigo2\/Paragrafo1 .
+lex:D4481\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  A assistência prestada nos sistemas de alta complexidade de que trata o caput deste artigo deve compreender, além daquela hospitalar, o acompanhamento ambulatorial dos pacientes." .
+lex:D4481\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo2    lex:temParagrafo    lex:D4481\/Artigo2\/Paragrafo2 .
+lex:D4481\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  No caso de prestação de serviços nos Grupos II e X, o percentual mínimo exigido de prestação de serviços ao SUS, também medida por paciente-dia, é reduzido para vinte por centro." .
+lex:D4481\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo3 .
+lex:D4481\/Artigo3    lex:temConteudo    "Art. 3o  O hospital que se enquadrar nos critérios definidos no art. 1o deste Decreto será declarado, em ato do Ministro de Estado da Saúde, como hospital estratégico." .
+lex:D4481\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo3    lex:temParagrafo    lex:D4481\/Artigo3\/Paragrafo1 .
+lex:D4481\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  A declaração de que trata o caput terá validade de um ano a contar de sua publicação, renovável, automaticamente, por igual período, desde que verificada a plena observância pelo hospital do disposto neste Decreto." .
+lex:D4481\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo3    lex:temParagrafo    lex:D4481\/Artigo3\/Paragrafo2 .
+lex:D4481\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  A verificação do cumprimento dos critérios estabelecidos no art. 1o deste Decreto será efetivada, para fins de enquadramento da instituição de saúde como hospital estratégico, com base nas informações de cada hospital, disponíveis no cadastro do Ministério da Saúde." .
+lex:D4481\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo3    lex:temParagrafo    lex:D4481\/Artigo3\/Paragrafo3 .
+lex:D4481\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o  O Ministério da Saúde, pela sua Secretaria de Assistência à Saúde, poderá, a qualquer tempo, proceder à avaliação dos serviços, por intermédio de informações do gestor correspondente, inclusive mediante a verificação no local, com vistas ao cumprimento das exigências previstas neste Decreto." .
+lex:D4481\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo3    lex:temParagrafo    lex:D4481\/Artigo3\/Paragrafo4 .
+lex:D4481\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4o  O Ministério da Saúde, com base no § 3o, tendo constatado o descumprimento das exigências previstas neste Decreto, que descaracterize a condição de hospital estratégico, adotará as providencias cabíveis, conforme o caso, para a anulação ou revogação do ato declaratório." .
+lex:D4481\/Artigo3\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo3    lex:temParagrafo    lex:D4481\/Artigo3\/Paragrafo5 .
+lex:D4481\/Artigo3\/Paragrafo5    lex:temConteudo    "§ 5o  No caso do descumprimento das exigências, por parte do hospital beneficente, o Ministério da Saúde também notificará o Conselho Nacional de Assistência Social - CNAS." .
+lex:D4481\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo4 .
+lex:D4481\/Artigo4    lex:temConteudo    "Art. 4o  Observado o disposto nos §§ 1o e 2o do art. 199 da Constituição Federal, os hospitais enquadrados como estratégicos terão prioridade no estabelecimento de parcerias, contratos, convênios, acordos técnicos e operacionais, financiamentos e outras medidas ou atividades voltadas para o incremento ou o aperfeiçoamento da capacidade assistencial do SUS." .
+lex:D4481\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo4    lex:temParagrafo    lex:D4481\/Artigo4\/ParagrafoUnico .
+lex:D4481\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O hospital beneficente que tenha sido declarado como estratégico em função do atendimento das condições estabelecidas no art. 1o deste Decreto somente fará jus ao recebimento do Programa Nacional de Incentivo à Parceria entre os Hospitais Beneficentes sem fins Lucrativos com o Sistema Único de Saúde - INTEGRASUS, nos termos do regulamento próprio do Ministério da Saúde, se, adicionalmente ao estabelecido neste Decreto, prestar serviço ao SUS em todas as áreas assistenciais de que disponha, medido por paciente-dia, no percentual mínimo de sessenta por cento." .
+lex:D4481\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo5 .
+lex:D4481\/Artigo5    lex:temConteudo    "Art. 5o  A instituição de saúde que venha a ser declarada pelo Ministério da Saúde, até 31 de dezembro de 2002, como hospital estratégico nos termos deste Decreto e que no período de 1998 a 2001 não tenha, exclusivamente, atingido o percentual de que trata o § 4o do art. 3o do Decreto no 2.536, de 6 de abril de 1998, poderá ter seu Certificado de Entidade Beneficente de Assistência Social - CEAS concedido ou renovado, mediante a comprovação, atestada pelo gestor de saúde local, de ter, nesse período, disponibilizado a ele a prestação de serviços ao SUS e realizado, efetivamente, serviços para o SUS ou serviços gratuitos relevantes para o Município ou para o Estado." .
+lex:D4481\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo5    lex:temParagrafo    lex:D4481\/Artigo5\/Paragrafo1 .
+lex:D4481\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o  Exclusivamente para a situação de que trata este artigo, o prazo de sessenta dias previsto no parágrafo único do art. 1o do Decreto no 4.327, de 8 de agosto de 2002, será contado a partir do dia 1o de janeiro de 2003." .
+lex:D4481\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo5    lex:temParagrafo    lex:D4481\/Artigo5\/Paragrafo2 .
+lex:D4481\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o  Aplicam-se, no que couber, as demais disposições constantes do Decreto no 4.327, de 2002." .
+lex:D4481\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo6 .
+lex:D4481\/Artigo6    lex:temConteudo    "Art. 6o O Ministério da Saúde, quando julgar necessário, avaliará a situação cadastral dos hospitais e o cumprimento dos critérios estabelecidos por este Decreto, procedendo ao enquadramento das instituições hospitalares, quando couber, como hospital estratégico para o SUS." .
+lex:D4481\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo7 .
+lex:D4481\/Artigo7    lex:temConteudo    "Art. 7o  Para manter o enquadramento como hospitais estratégicos para o SUS, além das obrigações previstas neste Decreto, os hospitais, independentemente de sua natureza, deverão informar ao Ministério da Saúde, por meio de CIH, a totalidade das internações realizadas para os pacientes não usuários do SUS." .
+lex:D4481\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo8 .
+lex:D4481\/Artigo8    lex:temConteudo    "Art. 8o  O hospital que não seja prestador de serviços ao SUS nas condições estabelecidas ou não conste do seu cadastro e que pretender habilitar-se como hospital estratégico deverá apresentar à Secretaria de Assistência à Saúde, até o dia 15 de dezembro de 2002, projeto de adequação do hospital, e respectivo cronograma de implementação em até um ano, contado da data de publicação deste Decreto, para sua habilitação aos sistemas de alta complexidade em que se dispõe a prestar serviços, acompanhado de documento fornecido pelo gestor correspondente do SUS, no qual assume o compromisso de contratação desses serviços de acordo com sua necessidade e capacidade de financiamento." .
+lex:D4481\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4481\/Artigo8    lex:temParagrafo    lex:D4481\/Artigo8\/ParagrafoUnico .
+lex:D4481\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O hospital que cumprir as condições estabelecidas neste artigo receberá declaração de hospital estratégico, no primeiro ano, em caráter provisório, devendo, vencido esse prazo, para manter o reconhecimento, cumprir o disposto neste Decreto." .
+lex:D4481\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D4481    lex:temArtigo    lex:D4481\/Artigo9 .
+lex:D4481\/Artigo9    lex:temConteudo    "Art. 9o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4481\/Texto    lex:remetePara    lex:L8742\/Artigo18 .
+lex:D4481\/Artigo4    lex:remetePara    lex:Constituiçao\/Artigo199\/Paragrafo1 .
+lex:D4481\/Artigo5    lex:remetePara    lex:D2536\/Artigo3\/Paragrafo4 .
+lex:D4481\/Artigo5\/Paragrafo1    lex:remetePara    lex:D4327\/Artigo1 .
+lex:D4481\/Artigo5\/Paragrafo2    lex:remetePara    lex:D4327 .

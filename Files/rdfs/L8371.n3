@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8371    lex:ehUm    lex:DocLegal .
+lex:L8371    lex:temTextoIntegral    lex:HTMLs\/L8371.htm .
+lex:L8371\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8371    lex:temArtigo    lex:L8371\/Artigo1 .
+lex:L8371\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 8.175, de 31 de janeiro de 1991), em favor de encargos financeiros da União - recursos sob supervisão do Ministério da Economia, Fazenda e Planejamento, créditos adicionais até o limite de Cr$210.000.000.000,00 (duzentos e dez bilhões de cruzeiros), para cumprimento ao disposto no art. 6º da Lei nº 8.249, de 24 de outubro de 1991, conforme a seguir discriminado:" .
+lex:L8371\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8371\/Artigo1    lex:temInciso    lex:L8371\/Artigo1\/IncisoI .
+lex:L8371\/Artigo1\/IncisoI    lex:temConteudo    "I - crédito especial até o limite de Cr$80.729.900.000,00 (oitenta bilhões, setecentos e vinte e nove milhões e novecentos mil cruzeiros), para regularização e quitação definitiva do saldo da diferença negativa, apurada pelo Banco do Brasil S.A., entre os valores da correção monetária das operações rurais ativas, atualizados de acordo com o disposto no § 1º do art. 15 da Lei nº 7.730, de 31 de janeiro de 1989, com a redação dada pelo art. 1º da Lei nº 7.747, de 4 de abril de 1989, e os valores da atualização monetária dos depósitos de poupança rural que lastrearam as referidas operações, de acordo com a programação indicada no Anexo I desta lei;" .
+lex:L8371\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8371\/Artigo1    lex:temInciso    lex:L8371\/Artigo1\/IncisoII .
+lex:L8371\/Artigo1\/IncisoII    lex:temConteudo    "II - crédito suplementar no valor de Cr$129.270.100.000,00 (cento e vinte e nove bilhões, duzentos e setenta milhões e cem mil cruzeiros), para atender à programação indicada no Anexo II desta lei." .
+lex:L8371\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8371    lex:temArtigo    lex:L8371\/Artigo2 .
+lex:L8371\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior decorrerão da emissão de títulos do Tesouro Nacional, nos termos do art. 43, § 1º, inciso IV da Lei nº 4.320, de 17 de março de 1964." .
+lex:L8371\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8371    lex:temArtigo    lex:L8371\/Artigo3 .
+lex:L8371\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L8371\/Artigo1    lex:remetePara    lex:L8175 .
+lex:L8371\/Artigo1    lex:remetePara    lex:L8249\/Artigo6 .
+lex:L8371\/Artigo1\/IncisoI    lex:remetePara    lex:L7730\/Artigo15\/Paragrafo1 .
+lex:L8371\/Artigo1\/IncisoI    lex:remetePara    lex:L7747\/Artigo1 .
+lex:L8371\/Artigo2    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1iv .

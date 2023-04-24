@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9999    lex:ehUm    lex:DocLegal .
+lex:L9999    lex:temTextoIntegral    lex:HTMLs\/L9999.htm .
+lex:L9999\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9999    lex:temArtigo    lex:L9999\/Artigo1 .
+lex:L9999\/Artigo1    lex:temConteudo    "Art. 1o O inciso VIII do art. 5o da Lei no 8.313, de 23 de dezembro de 1991, alterada pela Lei no 9.312, de 5 de novembro de 1996, passa a vigorar com a seguinte redação:" .
+lex:L9999\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:L9999\/Artigo1    lex:temInciso    lex:L9999\/Artigo1\/IncisoVIII .
+lex:L9999\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII   três por cento da arrecadação bruta dos concursos de prognósticos e loterias federais e similares cuja realização estiver sujeita a autorização federal, deduzindo-se este valor do montante destinado aos prêmios; (NR)" .
+lex:L9999\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9999    lex:temArtigo    lex:L9999\/Artigo2 .
+lex:L9999\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9999\/Artigo1    lex:remetePara    lex:L8313cons .
+lex:L9999\/Artigo1    lex:remetePara    lex:L9312\/Artigo1 .
+lex:L9999\/Artigo1\/IncisoVIII    lex:remetePara    lex:L8313cons\/Artigo5 .

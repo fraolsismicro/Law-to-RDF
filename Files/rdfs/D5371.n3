@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5371    lex:ehUm    lex:DocLegal .
+lex:D5371    lex:temTextoIntegral    lex:HTMLs\/D5371.htm .
+lex:D5371\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5371    lex:temArtigo    lex:D5371\/Artigo1 .
+lex:D5371\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado o Regulamento do Serviço de Retransmissão de Televisão e do Serviço de Repetição de Televisão, ancilares ao Serviço de Radiodifusão de Sons e Imagens." .
+lex:D5371\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5371    lex:temArtigo    lex:D5371\/Artigo2 .
+lex:D5371\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5371\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5371    lex:temArtigo    lex:D5371\/Artigo3 .
+lex:D5371\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os Decretos nos 3.965, de 10 de outubro de 2001, 4.025, de 22 de novembro de 2001, 4.439, de 24 de outubro de 2002, e 4.503, de 9 de dezembro de 2002." .
+lex:D5371\/Texto    lex:remetePara    lex:D5371 .
+lex:D5371\/Artigo3    lex:remetePara    lex:D3965 .
+lex:D5371\/Artigo3    lex:remetePara    lex:D4025 .
+lex:D5371\/Artigo3    lex:remetePara    lex:D4439 .
+lex:D5371\/Artigo3    lex:remetePara    lex:D4503 .

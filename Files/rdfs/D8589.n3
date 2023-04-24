@@ -1,0 +1,63 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8589    lex:ehUm    lex:DocLegal .
+lex:D8589    lex:temTextoIntegral    lex:HTMLs\/D8589.htm .
+lex:D8589\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8589    lex:temInciso    lex:D8589\/IncisoIV .
+lex:D8589\/IncisoIV    lex:temConteudo    "IV - ............................................................................." .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta    lex:ehUm    lex:IncisoAlinea .
+lex:D8589\/IncisoIV    lex:temIncisoAlinea    lex:D8589\/IncisoIV\/IncisoAlineaSessenta .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta    lex:temConteudo    "j) sessenta e dois DAS 102.3;" .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta    lex:temIncisoAlineaItem    lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaItem .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaItem    lex:temConteudo    "..........................................................................................." .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaSessenta    lex:ehUm    lex:IncisoAlinea .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta    lex:temIncisoAlinea    lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaSessenta .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaSessenta    lex:temConteudo    "l) sessenta e oito DAS 102.1; e" .
+lex:D8589\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8589    lex:temParagrafo    lex:D8589\/ParagrafoUnico .
+lex:D8589\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam mantidas até a dispensa expressa as designações para Gratificação de Representação da Presidência da República e para Gratificação de Exercício em Cargo de Confiança existentes nos órgãos extintos de que trata o caput na data de entrada em vigor deste Decreto. (NR)" .
+lex:D8589\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8589    lex:temParagrafo    lex:D8589\/ParagrafoUnico .
+lex:D8589\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado Chefe da Secretaria de Governo da Presidência da República fará publicar no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis. (NR)" .
+lex:D8589\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8589\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8589\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8589\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - planejar, coordenar, supervisionar, dirigir e controlar a execução das atividades internas relacionadas aos Sistemas de Planejamento e de Orçamento Federal, de Administração Financeira Federal, de Pessoal Civil da Administração Federal - SIPEC, de Serviços Gerais - SISG, de Administração dos Recursos de Informação e Informática - SISP, de Gestão de Documentos de Arquivo - SIGA e de Organização e Inovação Institucional - SIORG;" .
+lex:D8589\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8589    lex:temArtigo    lex:D8589\/Artigo5 .
+lex:D8589\/Artigo5    lex:temConteudo    "Art. 5o  Ficam sob a responsabilidade do Ministro de Estado Chefe da Secretaria de Governo da Presidência da República ou a quem este delegar:" .
+lex:D8589\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8589\/Artigo5    lex:temInciso    lex:D8589\/Artigo5\/IncisoI .
+lex:D8589\/Artigo5\/IncisoI    lex:temConteudo    "I - a Agência Brasileira de Inteligência - ABIN;" .
+lex:D8589\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8589\/Artigo5    lex:temInciso    lex:D8589\/Artigo5\/IncisoII .
+lex:D8589\/Artigo5\/IncisoII    lex:temConteudo    "II - a prevenção da ocorrência e a articulação do gerenciamento de crises, em caso de grave e iminente ameaça à estabilidade institucional; e" .
+lex:D8589\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8589\/Artigo5    lex:temInciso    lex:D8589\/Artigo5\/IncisoIII .
+lex:D8589\/Artigo5\/IncisoIII    lex:temConteudo    "III - a coordenação das atividades de inteligência no âmbito do Governo federal." .
+lex:D8589\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8589    lex:temArtigo    lex:D8589\/Artigo7 .
+lex:D8589\/Artigo7    lex:temConteudo    "Art. 7o  Fica revogado o parágrafo único do art. 6º do Decreto nº 8.579, de 26 de novembro de 2015." .
+lex:D8589\/Texto    lex:revogadoPor    lex:D9038\/Artigo18 .
+lex:D9038\/Artigo18    lex:revogou    lex:D8589\/Texto .
+lex:D8589\/Texto    lex:remetePara    lex:D9038\/Artigo19 .
+lex:D8589\/Texto    lex:remetePara    lex:D8589 .
+lex:D8589\/Artigo1    lex:remetePara    lex:D8579 .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta    lex:remetePara    lex:D8579\/Artigo2 .
+lex:D8589\/IncisoIV\/IncisoAlineaSessenta\/IncisoAlineaSessenta    lex:remetePara    lex:D8579\/Artigo2 .
+lex:D8589\/ParagrafoUnico    lex:remetePara    lex:D8579\/Artigo3 .
+lex:D8589\/ParagrafoUnico    lex:remetePara    lex:D8579\/Artigo4 .
+lex:D8589\/Texto00006    lex:remetePara    lex:D8579\/Artigo13 .
+lex:D8589\/ParagrafoUnico    lex:remetePara    lex:D8579\/Artigo13 .
+lex:D8589\/Texto00006    lex:remetePara    lex:D8579\/Artigo15 .
+lex:D8589\/Artigo2    lex:remetePara    lex:D8579\/ .
+lex:D8589\/ParagrafoUnico\/ParagrafoIncisoI    lex:remetePara    lex:D8579\/Artigo9 .
+lex:D8589\/ParagrafoUnico\/Artigo3    lex:remetePara    lex:D8579\/ .
+lex:D8589\/ParagrafoUnico\/Artigo4    lex:remetePara    lex:D8579\/ .
+lex:D8589\/Artigo7    lex:remetePara    lex:D8579\/Artigo6 .

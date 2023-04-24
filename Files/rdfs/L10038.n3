@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10038    lex:ehUm    lex:DocLegal .
+lex:L10038    lex:temTextoIntegral    lex:HTMLs\/L10038.htm .
+lex:L10038\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10038    lex:temArtigo    lex:L10038\/Artigo1 .
+lex:L10038\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto aos Orçamentos Fiscal e da Seguridade Social da União (Lei n° 9.969, de 11 de maio de 2000), em favor do Ministério da Justiça, crédito suplementar no valor de R$ 320.576,00 (trezentos e vinte mil, quinhentos e setenta e seis reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L10038\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10038\/Artigo1    lex:temInciso    lex:L10038\/Artigo1\/IncisoI .
+lex:L10038\/Artigo1\/IncisoI    lex:temConteudo    "I - cancelamento parcial de dotações orçamentárias no montante de R$ 39.568,00 (trinta e nove mil, quinhentos e sessenta e oito reais), indicadas no Anexo II desta Lei; e" .
+lex:L10038\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10038\/Artigo1    lex:temInciso    lex:L10038\/Artigo1\/IncisoII .
+lex:L10038\/Artigo1\/IncisoII    lex:temConteudo    "II - doação do Banco Interamericano de Desenvolvimento - BID, no valor de R$ 281.008,00 (duzentos e oitenta e um mil e oito reais)." .
+lex:L10038\/Artigo1    lex:remetePara    lex:L9969 .

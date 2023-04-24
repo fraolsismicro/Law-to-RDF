@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D324    lex:ehUm    lex:DocLegal .
+lex:D324    lex:temTextoIntegral    lex:HTMLs\/D324.htm .
+lex:D324\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D324    lex:temArtigo    lex:D324\/Artigo1 .
+lex:D324\/Artigo1    lex:temConteudo    "Art. 1º Consideram-se de pequeno valor, para efeito do disposto no art. 22, inciso IV; da Lei nº 7.713, de 22 de dezembro de 1988, os bens e direitos cujo preço unitário de alienação seja igual ou inferior a Cr$ 3.700.000,00." .
+lex:D324\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D324\/Artigo1    lex:temParagrafo    lex:D324\/Artigo1\/ParagrafoUnico .
+lex:D324\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso de alienação de diversos bens ou direitos da mesma espécie, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens e direitos alienados no mês." .
+lex:D324\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D324    lex:temArtigo    lex:D324\/Artigo2 .
+lex:D324\/Artigo2    lex:temConteudo    "Art. 2º O Ministro da Economia, Fazenda e Planejamento reverá, periodicamente, em ato próprio, o valor de que trata o artigo precedente." .
+lex:D324\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D324    lex:temArtigo    lex:D324\/Artigo3 .
+lex:D324\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .

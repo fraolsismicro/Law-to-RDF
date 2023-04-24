@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8460    lex:ehUm    lex:DocLegal .
+lex:D8460    lex:temTextoIntegral    lex:HTMLs\/D8460.htm .
+lex:D8460\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8460    lex:temArtigo    lex:D8460\/Artigo1 .
+lex:D8460\/Artigo1    lex:temConteudo    "Art. 1o O Decreto no 5.294, de 1o de dezembro de 2004, passa a vigorar com as seguintes alterações:" .
+lex:D8460\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:D8460\/Artigo1    lex:temInciso    lex:D8460\/Artigo1\/IncisoXVI .
+lex:D8460\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - Reino da Suécia - um Coronel da Aeronáutica como Adido de Defesa, Naval, do Exército e Aeronáutico." .
+lex:D8460\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D8460\/Artigo1    lex:temParagrafo    lex:D8460\/Artigo1\/Paragrafo8 .
+lex:D8460\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o O Adido de Defesa e Naval, o Adido do Exército e o Adido Aeronáutico na Inglaterra ficam também acreditados junto ao Governo da Noruega." .
+lex:D8460\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8460    lex:temArtigo    lex:D8460\/Artigo2 .
+lex:D8460\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D8460\/Artigo1    lex:remetePara    lex:D5294 .
+lex:D8460\/Artigo1\/IncisoXVI    lex:remetePara    lex:D5294\/Artigo1 .
+lex:D8460\/Artigo1\/Paragrafo8    lex:remetePara    lex:D5294\/Artigo1\/Paragrafo8 .

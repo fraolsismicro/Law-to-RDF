@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12125    lex:ehUm    lex:DocLegal .
+lex:L12125    lex:temTextoIntegral    lex:HTMLs\/L12125.htm .
+lex:L12125\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12125    lex:temArtigo    lex:L12125\/Artigo1 .
+lex:L12125\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei torna dispensável, na hipótese que menciona, a citação pessoal do embargado para responder à petição inicial dos embargos de terceiro." .
+lex:L12125\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12125    lex:temArtigo    lex:L12125\/Artigo2 .
+lex:L12125\/Artigo2    lex:temConteudo    "Art. 2o  O art. 1.050 da Lei no 5.869, de 11 de janeiro de 1973 (Código de Processo Civil), passa a vigorar acrescido do seguinte § 3o:" .
+lex:L12125\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L12125\/Artigo2    lex:temParagrafo    lex:L12125\/Artigo2\/Paragrafo3 .
+lex:L12125\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  A citação será pessoal, se o embargado não tiver procurador constituído nos autos da ação principal. (NR)" .
+lex:L12125\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12125    lex:temArtigo    lex:L12125\/Artigo3 .
+lex:L12125\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12125\/Artigo2    lex:remetePara    lex:L5869 .
+lex:L12125\/Artigo2\/Paragrafo3    lex:remetePara    lex:L5869\/Artigo1050\/Paragrafo3 .

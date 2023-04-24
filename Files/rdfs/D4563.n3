@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4563    lex:ehUm    lex:DocLegal .
+lex:D4563    lex:temTextoIntegral    lex:HTMLs\/D4563.htm .
+lex:D4563\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4563    lex:temArtigo    lex:D4563\/Artigo1 .
+lex:D4563\/Artigo1    lex:temConteudo    "Art. 1o  O art. 7o do Regulamento aprovado pelo Decreto no 57.690, de 1o de fevereiro de 1966, passa a vigorar com a seguinte redação:" .
+lex:D4563\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4563    lex:temArtigo    lex:D4563\/Artigo2 .
+lex:D4563\/Artigo2    lex:temConteudo    "Art. 2o  Os órgãos e entidades da Administração Pública Federal, direta e indireta, que mantenham contrato com Agência de Propaganda deverão renegociar, em benefício da Administração, as cláusulas de remuneração da contratada." .
+lex:D4563\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4563    lex:temArtigo    lex:D4563\/Artigo3 .
+lex:D4563\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4563\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4563    lex:temArtigo    lex:D4563\/Artigo4 .
+lex:D4563\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Decreto no 2.262, de 26 de junho de 1997." .
+lex:D4563\/Texto00001    lex:remetePara    lex:D57690\/Artigo7 .
+lex:D4563\/Artigo4    lex:remetePara    lex:D2262 .

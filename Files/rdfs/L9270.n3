@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9270    lex:ehUm    lex:DocLegal .
+lex:L9270    lex:temTextoIntegral    lex:HTMLs\/L9270.htm .
+lex:L9270\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9270    lex:temArtigo    lex:L9270\/Artigo1 .
+lex:L9270\/Artigo1    lex:temConteudo    "Art. 1º O art. 659 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei n° 5.452, de 1° de maio de 1943, passa a vigorar acrescido do seguinte inciso X:" .
+lex:L9270\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:L9270\/Artigo1    lex:temInciso    lex:L9270\/Artigo1\/IncisoX .
+lex:L9270\/Artigo1\/IncisoX    lex:temConteudo    "X - conceder medida liminar, até decisão final do processo, em reclamações trabalhistas que visem reintegrar no emprego dirigente sindical afastado, suspenso ou dispensado pelo empregador.'" .
+lex:L9270\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9270    lex:temArtigo    lex:L9270\/Artigo2 .
+lex:L9270\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L9270\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9270    lex:temArtigo    lex:L9270\/Artigo3 .
+lex:L9270\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:L9270\/Artigo1    lex:remetePara    lex:Del5452 .
+lex:L9270\/Artigo1\/IncisoX    lex:remetePara    lex:Del5452\/Artigo659 .

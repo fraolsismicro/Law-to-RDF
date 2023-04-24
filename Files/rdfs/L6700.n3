@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6700    lex:ehUm    lex:DocLegal .
+lex:L6700    lex:temTextoIntegral    lex:HTMLs\/L6700.htm .
+lex:L6700\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6700    lex:temArtigo    lex:L6700\/Artigo1 .
+lex:L6700\/Artigo1    lex:temConteudo    "Art. 1º É fixada em 50 (cinqüenta) anos a idade máxima para inscrição em concurso público destinado ao ingresso nas categorias funcionais instituídas de acordo com a Lei nº 5.920, de 19 de setembro de 1973, exceto as integrantes dos Grupo-Polícia Civil e Tributação, Arrecadação se Fiscalização." .
+lex:L6700\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6700    lex:temArtigo    lex:L6700\/Artigo2 .
+lex:L6700\/Artigo2    lex:temConteudo    "Art. 2º - Para inscrição em concurso destinado ao ingresso nas categorias funcionais do Grupo-Polícia Civil, são fixados os seguintes limites de idade:  (Redação dada pela Lei nº 7.236, de 1984)" .
+lex:L6700\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6700\/Artigo2    lex:temInciso    lex:L6700\/Artigo2\/IncisoI .
+lex:L6700\/Artigo2\/IncisoI    lex:temConteudo    "I - mínima de 21 (vinte um) anos;   (Redação dada pela Lei nº 7.236, de 1984)" .
+lex:L6700\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L6700\/Artigo2    lex:temInciso    lex:L6700\/Artigo2\/IncisoII .
+lex:L6700\/Artigo2\/IncisoII    lex:temConteudo    "II - máxima de 28 (vinte oito) anos, quando se tratar de ingresso em categoria funcional que importe em exigência de curso de nível médio; e  (Redação dada pela Lei nº 7.236, de 1984)" .
+lex:L6700\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L6700\/Artigo2    lex:temInciso    lex:L6700\/Artigo2\/IncisoIII .
+lex:L6700\/Artigo2\/IncisoIII    lex:temConteudo    "III - máxima de 35 (trinta e cinco) anos, quando se tratar de ingresso nas demais categorias funcionais.   (Incluído pela Lei nº 7.236, de 1984)" .
+lex:L6700\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6700\/Artigo2    lex:temParagrafo    lex:L6700\/Artigo2\/ParagrafoUnico .
+lex:L6700\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Independerá dos limites fixados neste artigo a inscrição de candidato que ocupe cargo integrante do Grupo-Polícia Civil.     (Redação dada pela Lei nº 7.236, de 1984)" .
+lex:L6700\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6700    lex:temArtigo    lex:L6700\/Artigo3 .
+lex:L6700\/Artigo3    lex:temConteudo    "Art. 3º Em relação ao Grupo-Tributação, Arrecadação e Fiscalização, a idade máxima para inscrição em concurso público destinado ao ingresso nas respectivas categorias funcionais é de 35 (trinta e cinco) anos." .
+lex:L6700\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6700    lex:temArtigo    lex:L6700\/Artigo4 .
+lex:L6700\/Artigo4    lex:temConteudo    "Art. 4º (VETADO)" .
+lex:L6700\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6700\/Artigo4    lex:temParagrafo    lex:L6700\/Artigo4\/ParagrafoUnico .
+lex:L6700\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único (VETADO)" .
+lex:L6700\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6700    lex:temArtigo    lex:L6700\/Artigo5 .
+lex:L6700\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entra em vigor na date de sua publicação, revogadas as disposições em contrário." .
+lex:L6700\/Artigo1    lex:remetePara    lex:L5920 .
+lex:L6700\/Artigo2    lex:remetePara    lex:L7236\/Artigo3 .
+lex:L6700\/Artigo2\/IncisoI    lex:remetePara    lex:L7236\/Artigo3 .
+lex:L6700\/Artigo2\/IncisoII    lex:remetePara    lex:L7236\/Artigo3 .
+lex:L6700\/Artigo2\/IncisoIII    lex:remetePara    lex:L7236\/Artigo3 .
+lex:L6700\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L7236\/Artigo3 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9602    lex:ehUm    lex:DocLegal .
+lex:Del9602    lex:temTextoIntegral    lex:HTMLs\/Del9602.htm .
+lex:Del9602\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9602    lex:temArtigo    lex:Del9602\/Artigo1 .
+lex:Del9602\/Artigo1    lex:temConteudo    "Art. 1º Os estabelecimentos bancários, autorizados a operarem em câmbio, são obrigados a fazer, no Tesouro Nacional ou nas Delegacias Fiscais, o depósito de um milhão de cruzeiros (Cr$ 1.000.000,00) nominais, em Títulos da Dívida Pública Federal." .
+lex:Del9602\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del9602\/Artigo1    lex:temParagrafo    lex:Del9602\/Artigo1\/Paragrafo1 .
+lex:Del9602\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os estabelecimentos bancários que tiverem feito o depósito nas bases fixadas pelo art. 34 do Decreto número 14.728, de 16 de Março de 1921, têm o prazo de trinta (30) dias para reajustarem êsse depósito, sob pena de serem canceladas suas autorizações." .
+lex:Del9602\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del9602\/Artigo1    lex:temParagrafo    lex:Del9602\/Artigo1\/Paragrafo2 .
+lex:Del9602\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Para as casas de turismo que só poderão operar em câmbio manual e 'traveller´s checks' o depósito será de duzentos e cinqüenta mil cruzeiros (Cr$ 250.000,00) ." .
+lex:Del9602\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9602    lex:temArtigo    lex:Del9602\/Artigo2 .
+lex:Del9602\/Artigo2    lex:temConteudo    "Art. 2º Os estabelecimentos bancários deverão fazer prova da observância das disposições do art. 1º dêste Decreto-lei, perante a Fiscalização Bancária do Banco do Brasil S. A." .
+lex:Del9602\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del9602    lex:temArtigo    lex:Del9602\/Artigo3 .
+lex:Del9602\/Artigo3    lex:temConteudo    "Art. 3º A Superintendência da Moeda e do Crédito, mediante Instrução, tendo em vista, as condições do mercado de câmbio, poderá elevar, reduzir e até mesmo abolir, temporàriamente, as percentagens referidas nos arts. 6º e 8º do Decreto-lei nº 9.025 de 27 de fevereiro de 1946." .
+lex:Del9602\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del9602    lex:temArtigo    lex:Del9602\/Artigo4 .
+lex:Del9602\/Artigo4    lex:temConteudo    "Art. 4º Êste Decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del9602\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del9602    lex:temArtigo    lex:Del9602\/Artigo5 .
+lex:Del9602\/Artigo5    lex:temConteudo    "Art. 5º Revogam-se as disposições em contrário." .
+lex:Del9602\/Artigo3    lex:remetePara    lex:Del9025\/Artigo6 .
+lex:Del9602\/Artigo3    lex:remetePara    lex:Del9025\/Artigo8 .

@@ -1,0 +1,82 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0072    lex:ehUm    lex:DocLegal .
+lex:D0072    lex:temTextoIntegral    lex:HTMLs\/D0072.htm .
+lex:D0072\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0072    lex:temArtigo    lex:D0072\/Artigo1 .
+lex:D0072\/Artigo1    lex:temConteudo    "Art. 1º O Acordo sobre Navegação Marítima Comercial, entre o Governo da República Federativa do Brasil e o Governo da República Popular da Bulgária, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D0072\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0072    lex:temArtigo    lex:D0072\/Artigo2 .
+lex:D0072\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D0072\/Artigo2\/AlineaNavios    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaNavios .
+lex:D0072\/Artigo2\/AlineaNavios    lex:temConteudo    "a) navios de guerra;" .
+lex:D0072\/Artigo2\/AlineaOutros    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaOutros .
+lex:D0072\/Artigo2\/AlineaOutros    lex:temConteudo    "b) outros navios quando em serviço exclusivo das forças armadas;" .
+lex:D0072\/Artigo2\/AlineaNavios    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaNavios .
+lex:D0072\/Artigo2\/AlineaNavios    lex:temConteudo    "c) navios de pesquisa (hidrográfica, oceanográfica e científica);" .
+lex:D0072\/Artigo2\/AlineaBarcos    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaBarcos .
+lex:D0072\/Artigo2\/AlineaBarcos    lex:temConteudo    "d) barcos de pesca;" .
+lex:D0072\/Artigo2\/AlineaEmbarcacoes    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaEmbarcacoes .
+lex:D0072\/Artigo2\/AlineaEmbarcacoes    lex:temConteudo    "e) embarcações exercendo funções não comerciais (embarcações governamentais, navios-hospital, etc.)." .
+lex:D0072\/Artigo2\/AlineaEncorajar    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaEncorajar .
+lex:D0072\/Artigo2\/AlineaEncorajar    lex:temConteudo    "a) encorajar a participação dos navios de bandeira brasileira e búlgara no transporte de mercadorias entre os portos dos dois países, conforme as disposições de contratos comerciais, e cooperar par a eliminação de eventuais obstáculos que possam prejudicar o desenvolvimento desse transporte;" .
+lex:D0072\/Artigo2\/AlineaNao    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaNao .
+lex:D0072\/Artigo2\/AlineaNao    lex:temConteudo    "b) não criar obstáculos aos navios da outra Parte Contratante quando estiverem transportando mercadorias entre os portos desta e os de terceiros países." .
+lex:D0072\/Artigo2\/AlineaNao\/ItemO    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaNao    lex:temItem    lex:D0072\/Artigo2\/AlineaNao\/ItemO .
+lex:D0072\/Artigo2\/AlineaNao\/ItemO    lex:temConteudo    "2. O disposto no parágrafo 1, do presente Artigo não afeta o direito que têm os navios de terceira bandeira de participar do tráfego marítimo entre os portos das duas Partes Contratantes e os portos de terceiros países." .
+lex:D0072\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaA .
+lex:D0072\/Artigo2\/AlineaA    lex:temConteudo    "a) a sentença esteja em vigor de acordo com a legislação do país onde foi pronunciada;" .
+lex:D0072\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaA .
+lex:D0072\/Artigo2\/AlineaA    lex:temConteudo    "b) a sentença não contradiga a ordem pública do acusado." .
+lex:D0072\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaA .
+lex:D0072\/Artigo2\/AlineaA    lex:temConteudo    "a) a pedido da Autoridade Consular, ou com autorização desta;" .
+lex:D0072\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaQuando .
+lex:D0072\/Artigo2\/AlineaQuando    lex:temConteudo    "b) quando houver ameaça à segurança ou à ordem pública na costa ou no porto;" .
+lex:D0072\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaQuando .
+lex:D0072\/Artigo2\/AlineaQuando    lex:temConteudo    "c) quando pessoas alheias á tripulação estiverem envolvidas." .
+lex:D0072\/Artigo2\/AlineaQuando\/ItemAs    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaQuando    lex:temItem    lex:D0072\/Artigo2\/AlineaQuando\/ItemAs .
+lex:D0072\/Artigo2\/AlineaQuando\/ItemAs    lex:temConteudo    "3. As disposições do presente Artigo não afetam os direitos das autoridades locais quando à aplicação das leis e regulamentos aduaneiros, ao zelo pela saúde pública e outras medidas de controle e prevenção atinentes à segurança dos navios e portos, à salvaguarda da vida humana no mar, à segurança das mercadorias e á admissão de estrangeiros em seu território." .
+lex:D0072\/Artigo2\/AlineaDiscutir    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaDiscutir .
+lex:D0072\/Artigo2\/AlineaDiscutir    lex:temConteudo    "a) discutir e aperfeiçoar as condições de aplicação do presente Acordo;" .
+lex:D0072\/Artigo2\/AlineaEstudar    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaEstudar .
+lex:D0072\/Artigo2\/AlineaEstudar    lex:temConteudo    "b) estudar problemas específicos que, a seu ver, requeiram atenção imediata;" .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:ehUm    lex:Alinea .
+lex:D0072\/Artigo2    lex:temAlinea    lex:D0072\/Artigo2\/AlineaSugerir .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temConteudo    "c) sugerir e coordenar eventuais emendas ao presente Acordo." .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemAs    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temItem    lex:D0072\/Artigo2\/AlineaSugerir\/ItemAs .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemAs    lex:temConteudo    "2. As Partes Contratantes terão o direito do propor reuniões de consulta entre as autoridades marítimas competentes dos dois países. As referidas reuniões de consulta serão realizadas dentro de não mais de 60 (sessenta) dias a partir da data de sua proposta." .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemPara    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temItem    lex:D0072\/Artigo2\/AlineaSugerir\/ItemPara .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemPara    lex:temConteudo    "3. Para efeitos do presente Artigo, as autoridades marítimas competentes são:" .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temItem    lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa    lex:temConteudo    "- na República Federativa do Brasil - a Superintendência Nacional da Marinha Mercante (SUNAMAM);" .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temItem    lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemNa    lex:temConteudo    "- na República Popular da Bulgária - o Ministério dos Transportes." .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemSe    lex:ehUm    lex:Item .
+lex:D0072\/Artigo2\/AlineaSugerir    lex:temItem    lex:D0072\/Artigo2\/AlineaSugerir\/ItemSe .
+lex:D0072\/Artigo2\/AlineaSugerir\/ItemSe    lex:temConteudo    "3. Se, por alteração da legislação de alguma das Partes Contratantes, for modificada a competência da autoridade marítima, mencionada no parágrafo 3 do presente Artigo, a designação de nova autoridade será comunicada à outra Parte Contratante, por via diplomática." .

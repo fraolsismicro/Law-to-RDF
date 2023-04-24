@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8858    lex:ehUm    lex:DocLegal .
+lex:D8858    lex:temTextoIntegral    lex:HTMLs\/D8858.htm .
+lex:D8858\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8858    lex:temArtigo    lex:D8858\/Artigo1 .
+lex:D8858\/Artigo1    lex:temConteudo    "Art. 1 º  O emprego de algemas observará o disposto neste Decreto e terá como diretrizes:" .
+lex:D8858\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8858\/Artigo1    lex:temInciso    lex:D8858\/Artigo1\/IncisoI .
+lex:D8858\/Artigo1\/IncisoI    lex:temConteudo    "I - o inciso III do caput do art. 1 º e o inciso III do caput do art. 5 º da Constituição, que dispõem sobre a proteção e a promoção da dignidade da pessoa humana e sobre a proibição de submissão ao tratamento desumano e degradante;" .
+lex:D8858\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8858\/Artigo1    lex:temInciso    lex:D8858\/Artigo1\/IncisoII .
+lex:D8858\/Artigo1\/IncisoII    lex:temConteudo    "II - a Resolução no 2010/16, de 22 de julho de 2010, das Nações Unidas sobre o tratamento de mulheres presas e medidas não privativas de liberdade para mulheres infratoras (Regras de Bangkok); e" .
+lex:D8858\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8858\/Artigo1    lex:temInciso    lex:D8858\/Artigo1\/IncisoIII .
+lex:D8858\/Artigo1\/IncisoIII    lex:temConteudo    "III - o Pacto de San José da Costa Rica, que determina o tratamento humanitário dos presos e, em especial, das mulheres em condição de vulnerabilidade." .
+lex:D8858\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8858    lex:temArtigo    lex:D8858\/Artigo2 .
+lex:D8858\/Artigo2    lex:temConteudo    "Art. 2 º  É permitido o emprego de algemas apenas em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, causado pelo preso ou por terceiros, justificada a sua excepcionalidade por escrito." .
+lex:D8858\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8858    lex:temArtigo    lex:D8858\/Artigo3 .
+lex:D8858\/Artigo3    lex:temConteudo    "Art. 3 º  É vedado emprego de algemas em mulheres presas em qualquer unidade do sistema penitenciário nacional durante o trabalho de parto, no trajeto da parturiente entre a unidade prisional e a unidade hospitalar e após o parto, durante o período em que se encontrar hospitalizada." .
+lex:D8858\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8858    lex:temArtigo    lex:D8858\/Artigo4 .
+lex:D8858\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8858\/Texto    lex:remetePara    lex:L7210\/Artigo199 .
+lex:D8858\/Artigo1\/IncisoI    lex:remetePara    lex:Constituicao\/Artigo1 .
+lex:D8858\/Artigo1\/IncisoI    lex:remetePara    lex:Constituicao\/Artigo5 .

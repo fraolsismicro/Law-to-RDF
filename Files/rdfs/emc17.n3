@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:emc17    lex:ehUm    lex:DocLegal .
+lex:emc17    lex:temTextoIntegral    lex:HTMLs\/emc17.htm .
+lex:emc17\/Artigo1    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo1 .
+lex:emc17\/Artigo1    lex:temConteudo    "Art. 1º O caput do art. 71 do Ato das Disposições Constitucionais Transitórias passa a vigorar com a seguinte redação:" .
+lex:emc17\/Artigo2    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo2 .
+lex:emc17\/Artigo2    lex:temConteudo    "Art. 2º O inciso V do art. 72 do Ato das Disposições Constitucionais Transitórias passa a vigorar com a seguinte redação" .
+lex:emc17\/Artigo3    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo3 .
+lex:emc17\/Artigo3    lex:temConteudo    "Art. 3º A União repassará aos Municípios, do produto da arrecadação do Imposto sobre a Renda e Proventos de qualquer natureza, tal como considerado na constituição dos fundos de que trata o art. 159, I, da Constituição, excluída a parcela referida no art. 72, I, do Ato das Disposições Constitucionais Transitórias, os seguintes percentuais:" .
+lex:emc17\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:emc17\/Artigo3    lex:temInciso    lex:emc17\/Artigo3\/IncisoI .
+lex:emc17\/Artigo3\/IncisoI    lex:temConteudo    "I - um inteiro e cinqüenta e seis centésimos por cento, no período de 01/07/1997 a 31/12/1997;" .
+lex:emc17\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:emc17\/Artigo3    lex:temInciso    lex:emc17\/Artigo3\/IncisoII .
+lex:emc17\/Artigo3\/IncisoII    lex:temConteudo    "II - um inteiro e oitocentos e setenta e cinco milésimos por cento, no período de 01/01/1998 a 31/12/1998;" .
+lex:emc17\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:emc17\/Artigo3    lex:temInciso    lex:emc17\/Artigo3\/IncisoIII .
+lex:emc17\/Artigo3\/IncisoIII    lex:temConteudo    "III - dois inteiros e cinco décimos por cento, no período de 01/01/1999 a 31/12/1999." .
+lex:emc17\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:emc17\/Artigo3    lex:temParagrafo    lex:emc17\/Artigo3\/ParagrafoUnico .
+lex:emc17\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O repasse dos recursos de que trata este artigo obedecerá a mesma periodicidade e aos mesmos critérios de repartição e normas adotadas no Fundo de Participação dos Municípios, observado o disposto no art. 160 da Constituição." .
+lex:emc17\/Artigo4    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo4 .
+lex:emc17\/Artigo4    lex:temConteudo    "Art. 4º Os efeitos do disposto nos arts. 71 e 72 do Ato das Disposições Constitucionais Transitórias, com a redação dada pelos arts. 1º e 2º desta emenda, são retroativos a 01/07/1997." .
+lex:emc17\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:emc17\/Artigo4    lex:temParagrafo    lex:emc17\/Artigo4\/ParagrafoUnico .
+lex:emc17\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As parcelas de recursos destinados ao Fundo de Estabilização Fiscal e entregues na forma do art. 159, I, da Constituição, no período compreendido entre 01/07/1997 e a data de promulgação desta emenda, serão deduzidas das cotas subseqüentes, limitada a dedução a um décimo do valor total entregue em cada mês." .
+lex:emc17\/Artigo5    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo5 .
+lex:emc17\/Artigo5    lex:temConteudo    "Art. 5º Observado o disposto no artigo anterior, a União aplicará as disposições do art. 3º desta emenda retroativamente a 01/07/1997." .
+lex:emc17\/Artigo6    lex:ehUm    lex:Artigo .
+lex:emc17    lex:temArtigo    lex:emc17\/Artigo6 .
+lex:emc17\/Artigo6    lex:temConteudo    "Art. 6º Esta Emenda Constitucional entra em vigor na data de sua publicação." .
+lex:emc17\/Texto00001    lex:remetePara    lex:Constituicao\/adcArtigo71 .
+lex:emc17\/Texto00002    lex:remetePara    lex:Constituicao\/adctArtigo72 .
+lex:emc17\/Artigo3    lex:remetePara    lex:Constituicao\/Artigo159 .
+lex:emc17\/Artigo3    lex:remetePara    lex:Constituicao\/adctArtigo72 .
+lex:emc17\/Artigo4    lex:remetePara    lex:Constituicao\/adcArtigo71 .
+lex:emc17\/Artigo4    lex:remetePara    lex:Constituicao\/adctArtigo72 .
+lex:emc17\/Artigo4\/ParagrafoUnico    lex:remetePara    lex:Constituicao\/Artigo159 .

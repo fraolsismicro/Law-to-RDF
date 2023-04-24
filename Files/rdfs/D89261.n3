@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D89261    lex:ehUm    lex:DocLegal .
+lex:D89261    lex:temTextoIntegral    lex:HTMLs\/D89261.htm .
+lex:D89261\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D89261    lex:temArtigo    lex:D89261\/Artigo1 .
+lex:D89261\/Artigo1    lex:temConteudo    "Art. 1º No exercício financeiro de 1984, o valor tributável do imposto sobre produtos industrializados (IPI) para os produtos do item 24.02.02.02 (cigarros feitos por processos mecânicos), da Tabela anexa ao Decreto nº 84.338, de 26 de dezembro de 1979, é de 17,4536696% sobre o preço de venda a varejo, que fica assim decomposto:" .
+lex:D89261\/Artigo1\/AlineaIPI    lex:ehUm    lex:Alinea .
+lex:D89261\/Artigo1    lex:temAlinea    lex:D89261\/Artigo1\/AlineaIPI .
+lex:D89261\/Artigo1\/AlineaIPI    lex:temConteudo    "a) IPI - 63,815852%;" .
+lex:D89261\/Artigo1\/AlineaMargem    lex:ehUm    lex:Alinea .
+lex:D89261\/Artigo1    lex:temAlinea    lex:D89261\/Artigo1\/AlineaMargem .
+lex:D89261\/Artigo1\/AlineaMargem    lex:temConteudo    "b) margem bruta do fabricante, inclusive ICM - 20,827243%;" .
+lex:D89261\/Artigo1\/AlineaMargem    lex:ehUm    lex:Alinea .
+lex:D89261\/Artigo1    lex:temAlinea    lex:D89261\/Artigo1\/AlineaMargem .
+lex:D89261\/Artigo1\/AlineaMargem    lex:temConteudo    "c) margem bruta do varejista, inclusive ICM - 11,000000;" .
+lex:D89261\/Artigo1\/AlineaICM    lex:ehUm    lex:Alinea .
+lex:D89261\/Artigo1    lex:temAlinea    lex:D89261\/Artigo1\/AlineaICM .
+lex:D89261\/Artigo1\/AlineaICM    lex:temConteudo    "d) ICM relativo a 1/3 do IPI (artigo 2º da Emenda Constitucional nº 23, de 1º de dezembro de 1983) - 4,356905%." .
+lex:D89261\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D89261    lex:temArtigo    lex:D89261\/Artigo2 .
+lex:D89261\/Artigo2    lex:temConteudo    "Art. 2º O disposto no artigo anterior não se aplica às operações realizadas no exercício de 1984 com os produtos cuja saída do estabelecimento industrial ocorrer até 31 de dezembro de 1983, em face da exigência de marcação, peso fabricante, do preço de venda desses produtos no varejo." .
+lex:D89261\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D89261    lex:temArtigo    lex:D89261\/Artigo3 .
+lex:D89261\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entrará em vigor na data de sua publicação." .
+lex:D89261\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91 .
+lex:Dnn7-05-09-91    lex:revogou    lex:D89261\/Texto .
+lex:D89261\/Texto    lex:remetePara    lex:D89261 .
+lex:D89261\/Artigo1    lex:remetePara    lex:D84338 .
+lex:D89261\/Artigo1\/AlineaICM    lex:remetePara    lex:emc23-83\/Artigo2 .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9965    lex:ehUm    lex:DocLegal .
+lex:L9965    lex:temTextoIntegral    lex:HTMLs\/L9965.htm .
+lex:L9965\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9965    lex:temArtigo    lex:L9965\/Artigo1 .
+lex:L9965\/Artigo1    lex:temConteudo    "Art. 1o A dispensação ou a venda de medicamentos do grupo terapêutico dos esteróides ou peptídeos anabolizantes para uso humano estarão restritas à apresentação e retenção, pela farmácia ou drogaria, da cópia carbonada de receita emitida por médico ou dentista devidamente registrados nos respectivos conselhos profissionais." .
+lex:L9965\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9965\/Artigo1    lex:temParagrafo    lex:L9965\/Artigo1\/ParagrafoUnico .
+lex:L9965\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A receita de que trata este artigo deverá conter a identificação do profissional, o número de registro no respectivo conselho profissional (CRM ou CRO), o número do Cadastro da Pessoa Física (CPF), o endereço e telefone profissionais, além do nome, do endereço do paciente e do número do Código Internacional de Doenças (CID), devendo a mesma ficar retida no estabelecimento farmacêutico por cinco anos." .
+lex:L9965\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9965    lex:temArtigo    lex:L9965\/Artigo2 .
+lex:L9965\/Artigo2    lex:temConteudo    "Art. 2o A inobservância do disposto nesta Lei configurará infração sanitária, estando o infrator sujeito ao processo e penalidades previstos na Lei no 6.437, de 20 de agosto de 1977, sem prejuízo das demais sanções civis ou penais." .
+lex:L9965\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9965    lex:temArtigo    lex:L9965\/Artigo3 .
+lex:L9965\/Artigo3    lex:temConteudo    "Art. 3o A União, os Estados, o Distrito Federal e os Municípios poderão celebrar convênios para a fiscalização e o controle da observância desta Lei." .
+lex:L9965\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9965    lex:temArtigo    lex:L9965\/Artigo4 .
+lex:L9965\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor na data de sua publicação." .
+lex:L9965\/Artigo2    lex:remetePara    lex:L6437 .

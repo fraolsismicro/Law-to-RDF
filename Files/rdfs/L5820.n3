@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5820    lex:ehUm    lex:DocLegal .
+lex:L5820    lex:temTextoIntegral    lex:HTMLs\/L5820.htm .
+lex:L5820\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5820    lex:temArtigo    lex:L5820\/Artigo1 .
+lex:L5820\/Artigo1    lex:temConteudo    "Art. 1º Passa a ter a seguinte redação o artigo 84 da Lei nº 5.108, de 21 de setembro de 1966:" .
+lex:L5820\/Artigo1\/AlineaAbster-se    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaAbster-se .
+lex:L5820\/Artigo1\/AlineaAbster-se    lex:temConteudo    "a) abster-se da cobrança de passagens, se responsável por veículo de transporte coletivo urbano." .
+lex:L5820\/Artigo1\/AlineaUsar    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaUsar .
+lex:L5820\/Artigo1\/AlineaUsar    lex:temConteudo    "b) Usar marcha reduzida e velocidade compatível com a segurança, ao descer vias com declive acentuado." .
+lex:L5820\/Artigo1\/AlineaAtender    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaAtender .
+lex:L5820\/Artigo1\/AlineaAtender    lex:temConteudo    "c) Atender ao sinal do passageiro, parando o veículo para embarque ou desembarque somente nos pontos estabelecidos." .
+lex:L5820\/Artigo1\/AlineaTratar    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaTratar .
+lex:L5820\/Artigo1\/AlineaTratar    lex:temConteudo    "d) Tratar com polidez os passageiros e o público." .
+lex:L5820\/Artigo1\/AlineaTrajar-se    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaTrajar-se .
+lex:L5820\/Artigo1\/AlineaTrajar-se    lex:temConteudo    "e) Trajar-se adequadamente." .
+lex:L5820\/Artigo1\/AlineaTransitar    lex:ehUm    lex:Alinea .
+lex:L5820\/Artigo1    lex:temAlinea    lex:L5820\/Artigo1\/AlineaTransitar .
+lex:L5820\/Artigo1\/AlineaTransitar    lex:temConteudo    "f) Transitar em velocidade regulamentar quando conduzir escolares." .
+lex:L5820\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5820    lex:temArtigo    lex:L5820\/Artigo2 .
+lex:L5820\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5820\/Texto00001    lex:remetePara    lex:L5108\/Artigo84 .

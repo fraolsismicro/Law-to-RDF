@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5668    lex:ehUm    lex:DocLegal .
+lex:L5668    lex:temTextoIntegral    lex:HTMLs\/L5668.htm .
+lex:L5668\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5668    lex:temArtigo    lex:L5668\/Artigo1 .
+lex:L5668\/Artigo1    lex:temConteudo    "Art. 1º Os empregados das Bolsas de Valôres são sujeitos ao regime da Lei nº 3.807, de 26 de agôsto de 1960 (Lei Orgânica da Previdência Social)." .
+lex:L5668\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5668    lex:temArtigo    lex:L5668\/Artigo2 .
+lex:L5668\/Artigo2    lex:temConteudo    "Art. 2º É assegurado aos empregados das Bolsas de Valôres, nos termos dos §§ 2º e 5º do art. 32 da Lei nº 3.807, de 26 de agôsto de 1960, o direito de inscrever o tempo de serviço anterior prestado às referidas instituições, durante o qual não hajam contribuído para a Previdência Social, feita a respectiva indenização, na forma estabelecida no Regulamento da Lei Orgânica da Previdência Social." .
+lex:L5668\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5668    lex:temArtigo    lex:L5668\/Artigo3 .
+lex:L5668\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5668\/Artigo1    lex:remetePara    lex:L3807 .
+lex:L5668\/Artigo2    lex:remetePara    lex:L3807\/Artigo32\/Paragrafo2 .
+lex:L5668\/Artigo2    lex:remetePara    lex:L3807\/Artigo32\/Paragrafo5 .

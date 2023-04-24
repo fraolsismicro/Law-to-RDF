@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1246    lex:ehUm    lex:DocLegal .
+lex:Del1246    lex:temTextoIntegral    lex:HTMLs\/Del1246.htm .
+lex:Del1246\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1246    lex:temArtigo    lex:Del1246\/Artigo1 .
+lex:Del1246\/Artigo1    lex:temConteudo    "Art. 1º A partir do exercício de 1973, o imposto progressivo, devido anualmente pelas pessoas físicas residentes ou domiciliadas no Brasil, será cobrado de acordo com a seguinte tabela:" .
+lex:Del1246\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1246\/Artigo1    lex:temParagrafo    lex:Del1246\/Artigo1\/Paragrafo1 .
+lex:Del1246\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O imposto é calculado em cada classe sobre a porção de renda compreendida nos respectivos limites, desprezadas a fração de renda inferior a Cr$1,00 (um cruzeiro)." .
+lex:Del1246\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1246\/Artigo1    lex:temParagrafo    lex:Del1246\/Artigo1\/Paragrafo2 .
+lex:Del1246\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O imposto progressivo é a soma das parcelas correspondentes a cada classe." .
+lex:Del1246\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1246    lex:temArtigo    lex:Del1246\/Artigo2 .
+lex:Del1246\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

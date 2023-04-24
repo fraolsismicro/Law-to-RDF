@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D83614    lex:ehUm    lex:DocLegal .
+lex:D83614    lex:temTextoIntegral    lex:HTMLs\/D83614.htm .
+lex:D83614\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D83614    lex:temArtigo    lex:D83614\/Artigo1 .
+lex:D83614\/Artigo1    lex:temConteudo    "Art. 1º - Os §§ 1º e 2º do artigo 1º e o artigo 2º, ambos do Decreto nº 81.053,de 19 de dezembro de 1977, passam a vigorar com a seguinte redação:" .
+lex:D83614\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D83614\/Artigo1    lex:temParagrafo    lex:D83614\/Artigo1\/Paragrafo1 .
+lex:D83614\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Transferência é a passagem horizontal do funcionário de um cargo para outro de denominação igual ou diferente, sempre na mesma classe integrante do Quadro Permanente." .
+lex:D83614\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D83614\/Artigo1    lex:temParagrafo    lex:D83614\/Artigo1\/Paragrafo2 .
+lex:D83614\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Movimentação é a passagem horizontal do empregado de um emprego para outro de denominação igual ou diferente, sempre da mesma classe, integrante da Tabela Permanente'." .
+lex:D83614\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D83614\/Artigo1    lex:temParagrafo    lex:D83614\/Artigo1\/Paragrafo3 .
+lex:D83614\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º ...................................................................................................................................." .
+lex:D83614\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83614    lex:temArtigo    lex:D83614\/Artigo2 .
+lex:D83614\/Artigo2    lex:temConteudo    "Art. 2º - São requisitos essenciais da transferência e da movimentação:" .
+lex:D83614\/Artigo2\/AlineaInteresse    lex:ehUm    lex:Alinea .
+lex:D83614\/Artigo2    lex:temAlinea    lex:D83614\/Artigo2\/AlineaInteresse .
+lex:D83614\/Artigo2\/AlineaInteresse    lex:temConteudo    "a) interesse comprovado do serviço, previamente manisfestado pelo dirigente do órgão ou da entidade, para onde pretender transferir-se ou movimentar-se o servidor;" .
+lex:D83614\/Artigo2\/AlineaExistencia    lex:ehUm    lex:Alinea .
+lex:D83614\/Artigo2    lex:temAlinea    lex:D83614\/Artigo2\/AlineaExistencia .
+lex:D83614\/Artigo2\/AlineaExistencia    lex:temConteudo    "b) existência de vaga, limitada a um terço das que ocorrerem em cada classe;" .
+lex:D83614\/Artigo2\/AlineaContar    lex:ehUm    lex:Alinea .
+lex:D83614\/Artigo2    lex:temAlinea    lex:D83614\/Artigo2\/AlineaContar .
+lex:D83614\/Artigo2\/AlineaContar    lex:temConteudo    "c) contar o servidor, pelo menos, 3 (três) anos de efetivo serviço no cargo ou no emprego;" .
+lex:D83614\/Artigo2\/AlineaHabilitacao    lex:ehUm    lex:Alinea .
+lex:D83614\/Artigo2    lex:temAlinea    lex:D83614\/Artigo2\/AlineaHabilitacao .
+lex:D83614\/Artigo2\/AlineaHabilitacao    lex:temConteudo    "d) habilitação em concurso público, quando a transferência ou a movimentação ocorrer para cargo ou emprego de denominação diferente." .
+lex:D83614\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D83614\/Artigo2    lex:temParagrafo    lex:D83614\/Artigo2\/ParagrafoUnico .
+lex:D83614\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O funcionário não será transferido para vaga de emprego, ressalvada a hipótese de permuta'." .
+lex:D83614\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83614    lex:temArtigo    lex:D83614\/Artigo2 .
+lex:D83614\/Artigo2    lex:temConteudo    "Art. 2º - Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D83614\/Artigo1\/Paragrafo1    lex:remetePara    lex:D81053\/Artigo1\/Paragrafo1 .
+lex:D83614\/Artigo2    lex:remetePara    lex:D81053\/Artigo2 .

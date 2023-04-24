@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12012    lex:ehUm    lex:DocLegal .
+lex:L12012    lex:temTextoIntegral    lex:HTMLs\/L12012.htm .
+lex:L12012\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12012    lex:temArtigo    lex:L12012\/Artigo1 .
+lex:L12012\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei acrescenta ao Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal Brasileiro, no Capítulo III, denominado Dos Crimes Contra a Administração da Justiça, o art. 349-A, tipificando o ingresso de pessoa portando aparelho telefônico de comunicação móvel, de rádio ou similar, sem autorização legal, em estabelecimento prisional." .
+lex:L12012\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12012    lex:temArtigo    lex:L12012\/Artigo2 .
+lex:L12012\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto-Lei no 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar acrescido do seguinte art. 349-A:" .
+lex:L12012\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12012    lex:temArtigo    lex:L12012\/Artigo3 .
+lex:L12012\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12012\/Artigo1    lex:remetePara    lex:Del2848 .
+lex:L12012\/Texto00002    lex:remetePara    lex:Del2848\/Artigo349 .

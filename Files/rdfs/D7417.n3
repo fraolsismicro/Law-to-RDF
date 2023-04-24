@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7417    lex:ehUm    lex:DocLegal .
+lex:D7417    lex:temTextoIntegral    lex:HTMLs\/D7417.htm .
+lex:D7417\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7417    lex:temArtigo    lex:D7417\/Artigo1 .
+lex:D7417\/Artigo1    lex:temConteudo    "Art. 1o  Os Anexos I e II do Decreto no 6.997, de 4 de novembro de 2009, relativos ao Programa de Dispêndios Globais - PDG das empresas estatais federais para 2010, passam a vigorar na forma dos Anexos I e II deste Decreto." .
+lex:D7417\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7417    lex:temArtigo    lex:D7417\/Artigo2 .
+lex:D7417\/Artigo2    lex:temConteudo    "Art. 2o  As empresas estatais a que se refere o art. 1o deverão observar, na execução dos investimentos, o teto da rubrica Investimentos constante do seu Programa de Dispêndios Globais e o limite de cada ação aprovado pela Lei n° 12.214, de 26 de janeiro de 2010, acrescido dos créditos adicionais aprovados em 2010." .
+lex:D7417\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7417    lex:temArtigo    lex:D7417\/Artigo3 .
+lex:D7417\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7417\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7417    lex:temArtigo    lex:D7417\/Artigo4 .
+lex:D7417\/Artigo4    lex:temConteudo    "Art. 4o  Fica revogado o Decreto no 7.180, de 20 de maio de 2010." .
+lex:D7417\/Artigo1    lex:remetePara    lex:D6997 .
+lex:D7417\/Artigo2    lex:remetePara    lex:L12214 .
+lex:D7417\/Artigo4    lex:remetePara    lex:D7180 .

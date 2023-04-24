@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9006    lex:ehUm    lex:DocLegal .
+lex:L9006    lex:temTextoIntegral    lex:HTMLs\/L9006.htm .
+lex:L9006\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9006    lex:temArtigo    lex:L9006\/Artigo1 .
+lex:L9006\/Artigo1    lex:temConteudo    "Art. 1º Os recursos do Fundo Nacional de Desenvolvimento (FND), repassados à Financiadora de Estudos e Projetos (Finep) sob a forma de empréstimos, e destinados a financiamentos contratados a partir de 1º de dezembro de 1994, terão como remuneração nominal, a partir daquela data, a Taxa de Juros de Longo Prazo (TJLP), instituída pela Medida Provisória nº 865, de 27 de janeiro de 1995, do respectivo período." .
+lex:L9006\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L9006\/Artigo1    lex:temParagrafo    lex:L9006\/Artigo1\/ParagrafoUnico .
+lex:L9006\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A Finep pagará, nos prazos contratuais, ao FND, o valor correspondente à TJLP aludida no caput deste artigo, limitada a seis por cento ao ano, capitalizada a diferença, podendo o Conselho Monetário Nacional alterar esse limite." .
+lex:L9006\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9006    lex:temArtigo    lex:L9006\/Artigo2 .
+lex:L9006\/Artigo2    lex:temConteudo    "Art. 2º A partir de 1º de dezembro de 1994, os recursos do FND, mencionados no art. 1º desta lei, repassados à Finep e destinados a financiamentos contratados até 30 de novembro de 1994, terão a Taxa Referencial (TR), a que alude o art. 25 da Lei nº 8.177, de 1º de março de 1991, substituída pela TJLP, reduzida do correspondente a 6,5% ao ano, mantidos para estes recursos os juros estipulados em cada contrato firmado com o FND." .
+lex:L9006\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9006    lex:temArtigo    lex:L9006\/Artigo3 .
+lex:L9006\/Artigo3    lex:temConteudo    "Art. 3º A apuração dos valores das obrigações pecuniárias devidas ao FND será efetuada com base no critério pro rata tempore." .
+lex:L9006\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9006    lex:temArtigo    lex:L9006\/Artigo4 .
+lex:L9006\/Artigo4    lex:temConteudo    "Art. 4º Ficam convalidados os atos praticados com base na Medida Provisória nº 853, de 26 de janeiro de 1995." .
+lex:L9006\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9006    lex:temArtigo    lex:L9006\/Artigo5 .
+lex:L9006\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entra em vigor na data de sua publicação." .
+lex:L9006\/Artigo1    lex:remetePara    lex:865 .
+lex:L9006\/Artigo2    lex:remetePara    lex:L8177\/Artigo25 .
+lex:L9006\/Artigo4    lex:remetePara    lex:853 .

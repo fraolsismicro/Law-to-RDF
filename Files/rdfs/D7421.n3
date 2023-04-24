@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7421    lex:ehUm    lex:DocLegal .
+lex:D7421    lex:temTextoIntegral    lex:HTMLs\/D7421.htm .
+lex:D7421\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7421    lex:temArtigo    lex:D7421\/Artigo1 .
+lex:D7421\/Artigo1    lex:temConteudo    "Art. 1 º  O item VII da relação a que se refere o art. 7 º do Regulamento aprovado pelo Decreto n º 27.048, de 12 de agosto de 1949, fica acrescido do seguinte número:" .
+lex:D7421\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7421    lex:temArtigo    lex:D7421\/Artigo2 .
+lex:D7421\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7421\/Artigo1    lex:remetePara    lex:D27048 .
+lex:D7421\/Texto00001    lex:remetePara    lex:D27048\/Artigo7vii3 .

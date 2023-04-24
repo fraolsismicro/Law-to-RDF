@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12295    lex:ehUm    lex:DocLegal .
+lex:L12295    lex:temTextoIntegral    lex:HTMLs\/L12295.htm .
+lex:L12295\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12295    lex:temArtigo    lex:L12295\/Artigo1 .
+lex:L12295\/Artigo1    lex:temConteudo    "Art. 1 º  O item I.5.1 do Anexo V da Lei n º 12.214, de 26 de janeiro de 2010, passa a vigorar com as seguintes alterações:" .
+lex:L12295\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L12295\/Artigo1    lex:temInciso    lex:L12295\/Artigo1\/IncisoI .
+lex:L12295\/Artigo1\/IncisoI    lex:temConteudo    "I - o limite quantitativo fica ampliado de 25.148 cargos para 31.747 cargos;" .
+lex:L12295\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L12295\/Artigo1    lex:temInciso    lex:L12295\/Artigo1\/IncisoII .
+lex:L12295\/Artigo1\/IncisoII    lex:temConteudo    "II - o limite financeiro relativo ao exercício de 2010 fica ampliado de R$ 1.209.269.000,00 (um bilhão, duzentos e nove milhões, duzentos e sessenta e nove mil reais) para R$ 1.495.006.582,00 (um bilhão, quatrocentos e noventa e cinco milhões, seis mil, quinhentos e oitenta e dois reais); e" .
+lex:L12295\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L12295\/Artigo1    lex:temInciso    lex:L12295\/Artigo1\/IncisoIII .
+lex:L12295\/Artigo1\/IncisoIII    lex:temConteudo    "III - o limite financeiro relativo à despesa anualizada fica ampliado de R$ 2.565.602.000,00 (dois bilhões, quinhentos e sessenta e cinco milhões, seiscentos e dois mil reais) para R$ 3.096.052.099,00 (três bilhões, noventa e seis milhões, cinquenta e dois mil, noventa e nove reais)." .
+lex:L12295\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12295    lex:temArtigo    lex:L12295\/Artigo2 .
+lex:L12295\/Artigo2    lex:temConteudo    "Art. 2 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12295\/Artigo1    lex:remetePara    lex:L12214\/ .

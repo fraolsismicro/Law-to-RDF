@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8742    lex:ehUm    lex:DocLegal .
+lex:D8742    lex:temTextoIntegral    lex:HTMLs\/D8742.htm .
+lex:D8742\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo1 .
+lex:D8742\/Artigo1    lex:temConteudo    "Art. 1 º  São consideradas válidas as cópias dos atos notariais e de registro civil escriturados nos livros do serviço consular brasileiro, quando a elas estiver aposta a etiqueta ou a folha de segurança da repartição consular emitente, que leva o nome e a assinatura da autoridade consular brasileira responsável." .
+lex:D8742\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8742\/Artigo1    lex:temParagrafo    lex:D8742\/Artigo1\/Paragrafo1 .
+lex:D8742\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  As assinaturas originais das autoridades consulares brasileiras têm validade em todo o território nacional, ficando dispensada sua legalização." .
+lex:D8742\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8742\/Artigo1    lex:temParagrafo    lex:D8742\/Artigo1\/Paragrafo2 .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  São considerados autoridades consulares brasileiras os servidores do Serviço Exterior Brasileiro no exercício dos seguintes cargos:" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - Cônsul-Geral;" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - Cônsul-Geral Adjunto;" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - Cônsul;" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - Cônsul-Adjunto;" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoV .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoV    lex:temConteudo    "V - Vice-Cônsul; e" .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8742\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI .
+lex:D8742\/Artigo1\/Paragrafo2\/ParagrafoIncisoVI    lex:temConteudo    "VI - Encarregados de Negócios, Encarregados dos Arquivos das Embaixadas, Encarregados de Consulados-Gerais, Encarregados de Vice-Consulados, Chefes de Setor Consular das Embaixadas, Terceiros, Segundos e Primeiros Secretários, Conselheiros, Ministros-Conselheiros e Embaixadores, quando no exercício de função consular em Missões Diplomáticas ou Representações Consulares." .
+lex:D8742\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo2 .
+lex:D8742\/Artigo2    lex:temConteudo    "Art. 2 º  Em caso de dúvidas quanto à autenticidade ou validade dos atos emitidos pelas autoridades consulares brasileiras supracitadas, as consultas poderão ser dirigidas diretamente aos Consulados e às Embaixadas brasileiras que escrituraram esses atos em seus livros." .
+lex:D8742\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo3 .
+lex:D8742\/Artigo3    lex:temConteudo    "Art. 3 º  As etiquetas e as folhas de segurança emitidas pelas repartições consulares poderão trazer o nome e o cargo da autoridade consular brasileira responsável por sua emissão com ou sem a sua assinatura, sempre que a autenticidade e a validade do documento possam ser comprovadas eletronicamente." .
+lex:D8742\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo4 .
+lex:D8742\/Artigo4    lex:temConteudo    "Art. 4 º  Ficam dispensados de legalização consular, para terem efeito no Brasil, os documentos expedidos por autoridades estrangeiras encaminhados por via diplomática ao Governo brasileiro." .
+lex:D8742\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo5 .
+lex:D8742\/Artigo5    lex:temConteudo    "Art. 5 º  Ficam igualmente dispensados de legalização consular os documentos expedidos por países com os quais a República Federativa do Brasil tenha firmado acordos bilaterais ou multilaterais de simplificação ou dispensa do processo de legalização de documentos." .
+lex:D8742\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo6 .
+lex:D8742\/Artigo6    lex:temConteudo    "Art. 6 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8742\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8742    lex:temArtigo    lex:D8742\/Artigo7 .
+lex:D8742\/Artigo7    lex:temConteudo    "Art. 7 º  Fica revogado o Decreto n º 84.451, 31 de janeiro de 1980." .
+lex:D8742\/Artigo7    lex:remetePara    lex:D84451 .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4374    lex:ehUm    lex:DocLegal .
+lex:D4374    lex:temTextoIntegral    lex:HTMLs\/D4374.htm .
+lex:D4374\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4374    lex:temInciso    lex:D4374\/IncisoI .
+lex:D4374\/IncisoI    lex:temConteudo    "I - ao Arquivo Nacional, um DAS 101.4, proveniente da estrutura da Imprensa Nacional; e" .
+lex:D4374\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4374    lex:temInciso    lex:D4374\/IncisoII .
+lex:D4374\/IncisoII    lex:temConteudo    "II - à Casa Civil da Presidência da República, um DAS 101.3, proveniente da estrutura do Arquivo Nacional." .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO    lex:ehUm    lex:IncisoAlinea .
+lex:D4374\/IncisoII    lex:temIncisoAlinea    lex:D4374\/IncisoII\/IncisoAlineaQUADRO .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA IMPRENSA NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:ehUm    lex:IncisoAlinea .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO    lex:temIncisoAlinea    lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA IMPRENSA NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:ehUm    lex:IncisoAlinea .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:temIncisoAlinea    lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO ARQUIVO NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:ehUm    lex:IncisoAlinea .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:temIncisoAlinea    lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO .
+lex:D4374\/IncisoII\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO\/IncisoAlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO ARQUIVO NACIONAL DA CASA CIVIL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D4374\/Artigo1    lex:remetePara    lex:D3815\/ .
+lex:D4374\/Artigo1    lex:remetePara    lex:D3815\/ .
+lex:D4374\/Artigo1    lex:remetePara    lex:D3843\/ .
+lex:D4374\/Artigo4    lex:remetePara    lex:D4323 .

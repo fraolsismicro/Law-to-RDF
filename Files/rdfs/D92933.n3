@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92933    lex:ehUm    lex:DocLegal .
+lex:D92933    lex:temTextoIntegral    lex:HTMLs\/D92933.htm .
+lex:D92933\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D92933    lex:temInciso    lex:D92933\/IncisoVI .
+lex:D92933\/IncisoVI    lex:temConteudo    "VI - Total Geral dos Efetivos Distribuídos" .
+lex:D92933\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92933    lex:temArtigo    lex:D92933\/Artigo2 .
+lex:D92933\/Artigo2    lex:temConteudo    "Art. 2º Para os fins do disposto no parágrafo 2º do artigo 3º da Lei nº 7.150, de 1º de dezembro de 1983, serão considerados os efetivos resultantes da aplicação do estabelecido no artigo 1º deste Decreto." .
+lex:D92933\/Texto    lex:revogadoPor    lex:Dnn0004-91\/Artigo4 .
+lex:Dnn0004-91\/Artigo4    lex:revogou    lex:D92933\/Texto .
+lex:D92933\/Texto    lex:remetePara    lex:D92933 .
+lex:D92933\/Artigo1    lex:remetePara    lex:D92438\/ .
+lex:D92933\/Artigo1    lex:remetePara    lex:D92438\/ .
+lex:D92933\/Artigo2    lex:remetePara    lex:L7150\/Artigo3\/Paragrafo2 .

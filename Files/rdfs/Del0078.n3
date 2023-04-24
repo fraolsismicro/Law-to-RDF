@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0078    lex:ehUm    lex:DocLegal .
+lex:Del0078    lex:temTextoIntegral    lex:HTMLs\/Del0078.htm .
+lex:Del0078\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0078    lex:temArtigo    lex:Del0078\/Artigo1 .
+lex:Del0078\/Artigo1    lex:temConteudo    "Art. 1º Os §§ 2º e 3º do art. 11 do Decreto-lei nº 18, de 24 de agosto de 1966, passam a vigorar com a seguinte redação:" .
+lex:Del0078\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0078\/Artigo1    lex:temParagrafo    lex:Del0078\/Artigo1\/Paragrafo3 .
+lex:Del0078\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Para as tripulações simples, a trabalho noturno não excederá de 10 (dez) horas.'" .
+lex:Del0078\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0078    lex:temArtigo    lex:Del0078\/Artigo2 .
+lex:Del0078\/Artigo2    lex:temConteudo    "Art. 2º Acrescente-se o § 4º ao artigo 11 do Decreto-lei nº 18, de 24 de agôsto de 1566, com a seguinte redação:" .
+lex:Del0078\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0078    lex:temArtigo    lex:Del0078\/Artigo3 .
+lex:Del0078\/Artigo3    lex:temConteudo    "Art. 3º O 'caput' do art. 14 do Decreto-lei nº 18, de 24 de agôsto de 1966, passa a vigorar com a redação a seguir indicada´ sendo o seu parágrafo único renumerado para 1º e acrescentado ao referido artigo o § 2º." .
+lex:Del0078\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0078\/Artigo3    lex:temParagrafo    lex:Del0078\/Artigo3\/Paragrafo1 .
+lex:Del0078\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º Após cada jornada e assegurado ao aeronauta um repouso mínimo em função das horas de trabalho, despendidas, de acôrdo com o quadro abaixo:" .
+lex:Del0078\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0078\/Artigo3    lex:temParagrafo    lex:Del0078\/Artigo3\/Paragrafo2 .
+lex:Del0078\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º As ampliações dos limites de horas de trabalho previstas no § 1º do art. 11 não serão computadas para efeito de cálculo das horas de repouso de que trata o § 1º dêste artigo. '" .
+lex:Del0078\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0078    lex:temArtigo    lex:Del0078\/Artigo4 .
+lex:Del0078\/Artigo4    lex:temConteudo    "Art. 4º O presente decreto-lei entrara em vigor na data de sua publicação." .
+lex:Del0078\/Artigo1    lex:remetePara    lex:Del0018 .
+lex:Del0078\/Texto00001    lex:remetePara    lex:Del0018\/Artigo11\/Paragrafo2 .
+lex:Del0078\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0018\/Artigo11\/Paragrafo3 .
+lex:Del0078\/Artigo2    lex:remetePara    lex:Del0018 .
+lex:Del0078\/Texto00003    lex:remetePara    lex:Del0018\/Artigo11\/Paragrafo4 .
+lex:Del0078\/Artigo3    lex:remetePara    lex:Del0018\/Artigo14 .

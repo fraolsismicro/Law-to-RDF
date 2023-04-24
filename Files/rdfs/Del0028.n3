@@ -1,0 +1,62 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0028    lex:ehUm    lex:DocLegal .
+lex:Del0028    lex:temTextoIntegral    lex:HTMLs\/Del0028.htm .
+lex:Del0028\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0028    lex:temArtigo    lex:Del0028\/Artigo1 .
+lex:Del0028\/Artigo1    lex:temConteudo    "Art 1º De conformidade com o disposto no artigo 215 da Lei nº 5.172, de 25 de outubro de 1966 e consenso dos Governadores, manifestado na Conferência de Secretários de Finanças, a Lei Estadual autorizará o Poder Executivo:       (Vide Ato Complementar nº 31, de 1966)" .
+lex:Del0028\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0028\/Artigo1    lex:temInciso    lex:Del0028\/Artigo1\/IncisoI .
+lex:Del0028\/Artigo1\/IncisoI    lex:temConteudo    "I - a fixar, entre os limites de 12% (doze por cento) e 16% (dezesseis por cento), a alíquota do impôsto sôbre circulação de mercadorias;" .
+lex:Del0028\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0028\/Artigo1    lex:temInciso    lex:Del0028\/Artigo1\/IncisoII .
+lex:Del0028\/Artigo1\/IncisoII    lex:temConteudo    "II - a reajustar a alíquota do impôsto, no curso do primeiro semestre de 1967 e dentro dos limites indicados no inciso anterior de acôrdo com os resultados da arrecadação." .
+lex:Del0028\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0028\/Artigo1    lex:temParagrafo    lex:Del0028\/Artigo1\/ParagrafoUnico .
+lex:Del0028\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos Territórios Federais a fixação da alíquota nos têrmos referidos neste artigo será feita por Decreto do Presidente da República, e no Distrito Federal, por ato do seu Prefeito." .
+lex:Del0028\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0028    lex:temArtigo    lex:Del0028\/Artigo2 .
+lex:Del0028\/Artigo2    lex:temConteudo    "Art 2º Na fixação da alíquota máxima do Impôsto sôbre operações relativas à circulação de mercadorias, de que trata o parágrafo primeiro do artigo 12 da Emenda Constitucional nº 18, de 1º de dezembro de 1965, o Senado Federal terá em conta as variações referidas no artigo anterior." .
+lex:Del0028\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0028    lex:temArtigo    lex:Del0028\/Artigo4 .
+lex:Del0028\/Artigo4    lex:temConteudo    "Art 4º A Lei nº 5.172, de 25 de outubro de 1966, passa a vigorar com as seguintes alterações:" .
+lex:Del0028\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0028\/Artigo4    lex:temInciso    lex:Del0028\/Artigo4\/IncisoI .
+lex:Del0028\/Artigo4\/IncisoI    lex:temConteudo    "I - substituam-se no § 2º do artigo 71 as expressões: '§ 4º do artigo 53' por '§ 3º do art. 53';" .
+lex:Del0028\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0028\/Artigo4    lex:temInciso    lex:Del0028\/Artigo4\/IncisoII .
+lex:Del0028\/Artigo4\/IncisoII    lex:temConteudo    "II - suprima-se no inciso I do artigo 131 a expressão: 'com observância do disposto no art. 191'." .
+lex:Del0028\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0028    lex:temArtigo    lex:Del0028\/Artigo5 .
+lex:Del0028\/Artigo5    lex:temConteudo    "Art 5º De conformidade com o disposto no § 1º do artigo 26 da Emenda Constitucional nº 18, o impôsto sôbre circulação de mercadorias só incidirá sôbre o café a partir de 1º de julho de 1967, permanecendo, até essa data, o regime fiscal ora em vigor.      (Vide Ato complementar nº 34, de 1967)" .
+lex:Del0028\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del0028    lex:temArtigo    lex:Del0028\/Artigo6 .
+lex:Del0028\/Artigo6    lex:temConteudo    "Art 6º Êste decreto-lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:Del0028\/Artigo1    lex:remetePara    lex:L5172\/Artigo215 .
+lex:Del0028\/Artigo1    lex:remetePara    lex:acp-31-66\/Artigo6 .
+lex:Del0028\/Artigo2    lex:remetePara    lex:emc18-65\/Artigo12 .
+lex:Del0028\/Artigo3    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/Artigo3 .
+lex:Del0028\/Texto00005    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/Texto00005 .
+lex:Del0028\/Texto00005    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/Texto00005 .
+lex:Del0028\/AlineaMenos    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/AlineaMenos .
+lex:Del0028\/AlineaMais    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/AlineaMais .
+lex:Del0028\/AlineaMais    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/AlineaMais .
+lex:Del0028\/AlineaMais    lex:revogadoPor    lex:acp-27-66\/Artigo4\/Paragrafo1 .
+lex:acp-27-66\/Artigo4\/Paragrafo1    lex:revogou    lex:Del0028\/AlineaMais .
+lex:Del0028\/Artigo4    lex:remetePara    lex:L5172 .
+lex:Del0028\/Artigo4\/IncisoI    lex:remetePara    lex:L5172\/Artigo71\/Paragrafo2 .
+lex:Del0028\/Artigo4\/IncisoII    lex:remetePara    lex:L5172\/Artigo131 .
+lex:Del0028\/Artigo5    lex:remetePara    lex:Constituicao46\/Artigo26 .
+lex:Del0028\/Artigo5    lex:remetePara    lex:acp-34-66\/Artigo6 .

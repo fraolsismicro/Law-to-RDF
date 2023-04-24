@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3592    lex:ehUm    lex:DocLegal .
+lex:D3592    lex:temTextoIntegral    lex:HTMLs\/D3592.htm .
+lex:D3592\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3592    lex:temArtigo    lex:D3592\/Artigo1 .
+lex:D3592\/Artigo1    lex:temConteudo    "Art. 1o  A partir de zero hora do dia 8 de outubro de 2000, até zero hora do dia 18 de fevereiro de 2001, vigorará a hora de verão, em parte do Território Nacional, adiantada em sessenta minutos em relação à hora legal." .
+lex:D3592\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3592    lex:temArtigo    lex:D3592\/Artigo2 .
+lex:D3592\/Artigo2    lex:temConteudo    "Art. 2o  A hora de verão, a que se refere o artigo anterior, será instituída nos Estados do Rio Grande do Sul, Santa Catarina, Paraná, São Paulo, Rio de Janeiro, Espírito Santo, Minas Gerais, Goiás, Matos Grosso, Mato Grosso do Sul, Tocantins, Bahia, Sergipe, Alagoas, Pernambuco, Paraíba, Rio Grande do Norte, Ceará, Piauí, Maranhão, Roraima e no Distrito Federal.   (Vide Decretos nºs 3.630 de 13.10.2000 e 3.632, de 17.10.2000)" .
+lex:D3592\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3592    lex:temArtigo    lex:D3592\/Artigo3 .
+lex:D3592\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D3592\/Artigo2    lex:remetePara    lex:D3630 .
+lex:D3592\/Artigo2    lex:remetePara    lex:D3632 .
+lex:D3592\/Texto00003    lex:remetePara    lex:index .

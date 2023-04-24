@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1119    lex:ehUm    lex:DocLegal .
+lex:Del1119    lex:temTextoIntegral    lex:HTMLs\/Del1119.htm .
+lex:Del1119\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1119    lex:temArtigo    lex:Del1119\/Artigo1 .
+lex:Del1119\/Artigo1    lex:temConteudo    "Art. 1º São isentos do impôsto de importação e do impôsto sôbre produtos industrializados, os aparelhos eletrônicos, tipo Pacemaker, implantáveis no corpo humano, mediante prótese, para comando da freqüência cardíaca." .
+lex:Del1119\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1119\/Artigo1    lex:temParagrafo    lex:Del1119\/Artigo1\/ParagrafoUnico .
+lex:Del1119\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A isenção prevista neste artigo não se aplica aos aparelhos com similar nacional, na forma da legislação em vigor." .
+lex:Del1119\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1119    lex:temArtigo    lex:Del1119\/Artigo2 .
+lex:Del1119\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

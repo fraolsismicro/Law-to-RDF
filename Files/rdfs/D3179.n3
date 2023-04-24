@@ -1,0 +1,60 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3179    lex:ehUm    lex:DocLegal .
+lex:D3179    lex:temTextoIntegral    lex:HTMLs\/D3179.htm .
+lex:D3179\/Paragrafo11    lex:ehUm    lex:Paragrafo .
+lex:D3179    lex:temParagrafo    lex:D3179\/Paragrafo11 .
+lex:D3179\/Paragrafo11    lex:temConteudo    "§ 11.  No caso de desmatamento ou queimada florestal irregulares de vegetação natural, o agente autuante embargará a prática de atividades econômicas sobre a área danificada, excetuadas as de subsistência, e executará o georreferenciamento da área embargada para fins de monitoramento, cujos dados deverão constar do respectivo auto de infração. (Redação dada pelo Decreto nº 6.321, de 2007)." .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D3179\/Paragrafo11    lex:temParagrafoInciso    lex:D3179\/Paragrafo11\/ParagrafoIncisoI .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoI    lex:temConteudo    "I - a suspensão da atividade que originou a infração e da venda de produtos ou subprodutos criados ou produzidos na área objeto do embargo infringido; (Incluído pelo Decreto nº 6.321, de 2007)." .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3179\/Paragrafo11    lex:temParagrafoInciso    lex:D3179\/Paragrafo11\/ParagrafoIncisoII .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoII    lex:temConteudo    "II - o cancelamento de respectivos cadastros, registros, licenças, permissões ou autorizações de funcionamento da atividade econômica junto aos órgãos ambientais, fiscais e sanitários;  (Incluído pelo Decreto nº 6.321, de 2007)." .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D3179\/Paragrafo11    lex:temParagrafoInciso    lex:D3179\/Paragrafo11\/ParagrafoIncisoIII .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIII    lex:temConteudo    "III - multa cujo valor será o dobro do correspondente ao aplicado para o desmatamento da área objeto do embargo; e (Incluído pelo Decreto nº 6.321, de 2007)." .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D3179\/Paragrafo11    lex:temParagrafoInciso    lex:D3179\/Paragrafo11\/ParagrafoIncisoIV .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIV    lex:temConteudo    "IV - divulgação dos dados do imóvel rural e do respectivo titular em lista mantida pelo IBAMA, resguardados os dados protegidos por legislação específica. (Incluído pelo Decreto nº 6.321, de 2007)." .
+lex:D3179\/Artigo38    lex:ehUm    lex:Artigo .
+lex:D3179    lex:temArtigo    lex:D3179\/Artigo38 .
+lex:D3179\/Artigo38    lex:temConteudo    "Art. 38.  Explorar vegetação arbórea de origem nativa, localizada em área de reserva legal ou fora dela, de domínio público ou privado, sem aprovação prévia do órgão ambiental competente ou em desacordo com a aprovação concedida: (Redação dada pelo Decreto nº 5.975, de 2006)" .
+lex:D3179\/Texto    lex:remetePara    lex:D3179 .
+lex:D3179\/AlineaNa    lex:remetePara    lex:L3071\/Artigo1265 .
+lex:D3179\/IncisoVIII    lex:remetePara    lex:D5523\/Artigo1 .
+lex:D3179\/Paragrafo11    lex:remetePara    lex:D5975\/Artigo27 .
+lex:D3179\/Paragrafo11    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo12    lex:remetePara    lex:D5975\/Artigo27 .
+lex:D3179\/Paragrafo13    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoI    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoII    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIII    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo11\/ParagrafoIncisoIV    lex:remetePara    lex:D6321\/Artigo12 .
+lex:D3179\/Paragrafo11\/ParagrafoUnico    lex:remetePara    lex:L9605\/Artigo14 .
+lex:D3179\/Paragrafo11\/ParagrafoUnico    lex:remetePara    lex:L9605\/Artigo15 .
+lex:D3179\/Paragrafo11\/Paragrafo2    lex:remetePara    lex:L9605\/Artigo29\/Paragrafo2 .
+lex:D3179\/Paragrafo11\/Artigo27    lex:remetePara    lex:D99274\/Artigo27 .
+lex:D3179\/Artigo38    lex:remetePara    lex:D5975\/Artigo26 .
+lex:D3179\/Texto00006    lex:remetePara    lex:D5975\/Artigo26 .
+lex:D3179\/Texto00006    lex:remetePara    lex:D5523\/Artigo1 .
+lex:D3179\/ParagrafoUnico    lex:remetePara    lex:L4771 .
+lex:D3179\/ParagrafoUnico    lex:remetePara    lex:D5523\/Artigo1 .
+lex:D3179\/Artigo39-A    lex:remetePara    lex:D6321\/Artigo13 .
+lex:D3179\/Artigo47-A    lex:remetePara    lex:D3919\/Artigo1 .
+lex:D3179\/Texto00006    lex:remetePara    lex:D3919\/Artigo1 .
+lex:D3179\/ParagrafoUnico    lex:remetePara    lex:D3919\/Artigo1 .
+lex:D3179\/Paragrafo1    lex:remetePara    lex:D4592\/Artigo1 .
+lex:D3179\/Paragrafo2    lex:remetePara    lex:D4592\/Artigo1 .
+lex:D3179\/Artigo53-A    lex:remetePara    lex:D6321\/Artigo13 .
+lex:D3179\/Texto00006    lex:remetePara    lex:D6321\/Artigo13 .
+lex:D3179\/Artigo61-A    lex:remetePara    lex:D5523\/Artigo2 .
+lex:D3179\/IncisoI    lex:remetePara    lex:L6938\/Artigo9 .
+lex:D3179\/IncisoI    lex:remetePara    lex:D5523\/Artigo2 .
+lex:D3179\/IncisoII    lex:remetePara    lex:D5523\/Artigo2 .

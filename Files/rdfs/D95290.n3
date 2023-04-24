@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D95290    lex:ehUm    lex:DocLegal .
+lex:D95290    lex:temTextoIntegral    lex:HTMLs\/D95290.htm .
+lex:D95290\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D95290    lex:temInciso    lex:D95290\/IncisoI .
+lex:D95290\/IncisoI    lex:temConteudo    "I - os condenados que, embora solventes, hajam deixado de reparar o dano causado pela infração penal;" .
+lex:D95290\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D95290    lex:temInciso    lex:D95290\/IncisoII .
+lex:D95290\/IncisoII    lex:temConteudo    "II - os sentenciados por crimes:" .
+lex:D95290\/IncisoII\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe    lex:temConteudo    "a) de seqüestro e cárcere privado;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "b) de roubo e extorsão, em todas as suas modalidades;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "c) de extorsão mediante seqüestro;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "d) de receptação dolosa;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "e) de estupro e atentado violento ao pudor;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "g) de perigo comum, em sua modalidade dolosa;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "h) de quadrilha ou bando;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos    lex:temConteudo    "i) relativos a entorpecentes ou substancias que causam dependência física ou psíquica, quando reconhecida na sentença a condição de traficante;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe    lex:temConteudo    "j) de homicídio qualificado;" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe    lex:temConteudo    "k) de abuso de autoridade (Lei n° 4.898, de 9 de dezembro de 1965);" .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaNos    lex:ehUm    lex:IncisoAlinea .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaNos .
+lex:D95290\/IncisoII\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaRelativos\/IncisoAlineaDe\/IncisoAlineaDe\/IncisoAlineaNos    lex:temConteudo    "a) nos dois anos anteriores, se não reincidente;" .
+lex:D95290\/Texto    lex:remetePara    lex:D95290 .

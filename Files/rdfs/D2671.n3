@@ -1,0 +1,64 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2671    lex:ehUm    lex:DocLegal .
+lex:D2671    lex:temTextoIntegral    lex:HTMLs\/D2671.htm .
+lex:D2671\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2671    lex:temArtigo    lex:D2671\/Artigo1 .
+lex:D2671\/Artigo1    lex:temConteudo    "Art 1º A Convenção nº 164 da OIT, sobre a Proteção da Saúde e a Assistência Médica aos Trabalhadores Marítimos, assinada em Genebra, em 8 de outubro de 1987, apensa por cópia ao Presente Decreto, deverá ser cumprida tão inteiramente como nela se contém." .
+lex:D2671\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2671    lex:temArtigo    lex:D2671\/Artigo2 .
+lex:D2671\/Artigo2    lex:temConteudo    "Art 2º O Presente Decreto entra em vigor na data de sua publicação." .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaGarantir .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:temConteudo    "a) garantir a aplicação aos trabalhadores marítimos de todas as disposições gerais sobre a proteção da saúde no trabalho e a assistência médica que interessem à profissão de marinheiro, bem como das disposições especiais relativas ao trabalho a bordo;" .
+lex:D2671\/Artigo2\/AlineaTer    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaTer .
+lex:D2671\/Artigo2\/AlineaTer    lex:temConteudo    "b) ter por objetivo proporcionar aos trabalhadores marítimos uma proteção da saúde e uma assistência médica o mais próximas que for possível das que geralmente desfrutam os trabalhadores de terra;" .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaGarantir .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:temConteudo    "c) garantir aos trabalhadores marítimos o direito de consultar sem demora um médico nos portos de escala, quando isto for possível;" .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaGarantir .
+lex:D2671\/Artigo2\/AlineaGarantir    lex:temConteudo    "d) garantir que, conforme a legislação e a prática nacionais, a assistência médica e a proteção sanitária sejam prestadas gratuitamente aos marinheiros inscritos na lista de tripulantes;" .
+lex:D2671\/Artigo2\/AlineaNao    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaNao .
+lex:D2671\/Artigo2\/AlineaNao    lex:temConteudo    "e) não se limitar ao tratamento dos marinheiros doentes ou acidentados, mas incluir também medidas de caráter preventivo e dar particular atenção à elaboração de programas de promoção da saúde e de educação sanitária, com vistas a que os próprios trabalhadores marítimos possam contribuir ativamente para a redução da freqüência das enfermidades passíveis de afetá-los." .
+lex:D2671\/Artigo2\/AlineaTodos    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaTodos .
+lex:D2671\/Artigo2\/AlineaTodos    lex:temConteudo    "a) todos os navios a que for aplicável a presente Convenção e que disponham de instalação de rádio deverão levar a bordo uma lista completa das estações de rádio através das quais podem ser feitas consultas médicas;" .
+lex:D2671\/Artigo2\/AlineaTodos    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaTodos .
+lex:D2671\/Artigo2\/AlineaTodos    lex:temConteudo    "b) todos os navios a que for aplicável a presente convenção e que disponham de um sistema de comunicação por satélite deverão levar a bordo uma lista completa das estações terrestres costeiras através das quais podem ser feitas consultas médicas;" .
+lex:D2671\/Artigo2\/AlineaEstas    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaEstas .
+lex:D2671\/Artigo2\/AlineaEstas    lex:temConteudo    "c) estas listas devem ser mantidas atualizadas e sob a custódia da pessoa encarregada das comunicações." .
+lex:D2671\/Artigo2\/AlineaEstas\/ItemOs    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaEstas    lex:temItem    lex:D2671\/Artigo2\/AlineaEstas\/ItemOs .
+lex:D2671\/Artigo2\/AlineaEstas\/ItemOs    lex:temConteudo    "4. Os trabalhadores marítimos que pedirem assessoramento médico por rádio ou satélite deverão ser instruídos no uso do Guia médico de bordo e da seção médica da edição mais recente do Código internacional de sinais publicado pela Organização Marítima Internacional, a fim de que possam compreender a informação necessária exigida pelo médico consultado e pelo assessoramento dele recebido." .
+lex:D2671\/Artigo2\/AlineaEstas\/ItemA    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaEstas    lex:temItem    lex:D2671\/Artigo2\/AlineaEstas\/ItemA .
+lex:D2671\/Artigo2\/AlineaEstas\/ItemA    lex:temConteudo    "5. A autoridade competente providenciará para que os médicos que derem assessoramento médico de acordo com este Artigo recebam uma formação apropriada e conheçam as condições de bordo." .
+lex:D2671\/Artigo2\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaPara .
+lex:D2671\/Artigo2\/AlineaPara    lex:temConteudo    "a) para navios de menos de 1.600 toneladas de porte bruto que normalmente possam ter acesso a uma assistência médica qualificada e a serviços médicos num prazo de oito horas, numa formação elementar que permita que essas pessoas tomem as medidas imediatas necessárias em caso de acidentes ou doenças que possam ocorrer a bordo e façam uso de assessoramento médico por rádio ou satélite;" .
+lex:D2671\/Artigo2\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D2671\/Artigo2    lex:temAlinea    lex:D2671\/Artigo2\/AlineaPara .
+lex:D2671\/Artigo2\/AlineaPara    lex:temConteudo    "b) para todos os demais navios, numa formação médica do mais alto nível, que abranja uma formação prática nos serviços de emergência ou de acidentados de um hospital, quando for possível, e uma formação em técnicas de sobrevivência como a terapia endovenosa, que permita que essas pessoas participem eficazmente de programas coordenados de assistência médica a navios que se encontrem navegando e assegurem aos doentes e feridos um nível satisfatório de assistência médica durante o período em que provavelmente tiverem de permanecer a bordo. Sempre que for possível, esta formação deverá ser ministrada sob a supervisão de um médico que conheça e compreenda profundamente os problemas médicos dos trabalhadores marítimos e as condições inerentes à profissão de marinheiro e que possua um conhecimento especializado dos serviços médicos por rádio ou satélite." .
+lex:D2671\/Artigo2\/AlineaPara\/ItemOs    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaPara    lex:temItem    lex:D2671\/Artigo2\/AlineaPara\/ItemOs .
+lex:D2671\/Artigo2\/AlineaPara\/ItemOs    lex:temConteudo    "3. Os cursos aos quais o presente Artigo faz referência deverão basear-se no conteúdo das edições mais recentes do Guia médico internacional de bordo, do Guia de primeiros socorros para uso em caso de acidentes relacionados com mercadorias perigosas, do Documento que deve servir de guia - Guia internacional para a formação dos trabalhadores marítimos, publicado pela Organização Marítima Internacional, e da seção médica do Código internacional de sinais, bem como de guias nacionais análogos." .
+lex:D2671\/Artigo2\/AlineaPara\/ItemAs    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaPara    lex:temItem    lex:D2671\/Artigo2\/AlineaPara\/ItemAs .
+lex:D2671\/Artigo2\/AlineaPara\/ItemAs    lex:temConteudo    "4. As pessoas às quais o parágrafo 2 deste Artigo faz referência e os demais trabalhadores marítimos que a autoridade competente vier a designar deverão seguir, de cinco em cinco anos aproximadamente, cursos de aperfeiçoamento que lhes permitam conservar e atualizar seus conhecimentos e competências, bem como se manter a par dos novos progressos." .
+lex:D2671\/Artigo2\/AlineaPara\/ItemTodos    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaPara    lex:temItem    lex:D2671\/Artigo2\/AlineaPara\/ItemTodos .
+lex:D2671\/Artigo2\/AlineaPara\/ItemTodos    lex:temConteudo    "5. Todos os trabalhadores marítimos deverão receber, no decorer de sua formação profissional marítima, uma preparação sobre as medidas que devem ser tomadas em caso de acidente ou outra emergência médica a bordo." .
+lex:D2671\/Artigo2\/AlineaPara\/ItemAlem    lex:ehUm    lex:Item .
+lex:D2671\/Artigo2\/AlineaPara    lex:temItem    lex:D2671\/Artigo2\/AlineaPara\/ItemAlem .
+lex:D2671\/Artigo2\/AlineaPara\/ItemAlem    lex:temConteudo    "6. Além da pessoa ou das pessoas encarregadas de dar assistência médica a bordo, um ou mais membros determinados da tripulação deverão receber uma formação elementar em matéria de assistência médica que lhes permita tomar as medidas imediatas necessárias em caso de acidentes ou doenças que possam ocorrer a bordo." .

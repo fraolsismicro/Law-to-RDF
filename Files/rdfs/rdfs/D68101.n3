@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D68101    lex:ehUm    lex:DocLegal .
+lex:D68101    lex:temTextoIntegral    lex:HTMLs\/D68101.htm .
+lex:D68101\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D68101    lex:temArtigo    lex:D68101\/Artigo1A .
+lex:D68101\/Artigo1A    lex:temConteudo    "Art. 1Âº. Ã declarado luto oficial em todo o PaÃ­s, por trÃªs dias, a partir desta data, em sinal de pesar pelo falecimento do Brigadeiro Francisco de Assis Correia de Mello." .
+lex:D68101\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D68101    lex:temArtigo    lex:D68101\/Artigo2A .
+lex:D68101\/Artigo2A    lex:temConteudo    "Art. 2Âº. Os funerais se realizarÃ£o a expensas da NaÃ§Ã£o, prestando-se ao insigne brasileiro honras de Chefe de Estado." .
+lex:D68101\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D68101    lex:temArtigo    lex:D68101\/Artigo3A .
+lex:D68101\/Artigo3A    lex:temConteudo    "Art. 3Âº. Ãste Decreto entra em vigor neste data." .
+lex:D68101\/Texto    lex:revogadoPor    lex:D0011 .
+lex:D0011    lex:revogou    lex:D68101\/Texto .
+lex:D68101\/Texto    lex:remetePara    lex:D10954 .

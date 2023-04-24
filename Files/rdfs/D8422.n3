@@ -1,0 +1,130 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8422    lex:ehUm    lex:DocLegal .
+lex:D8422    lex:temTextoIntegral    lex:HTMLs\/D8422.htm .
+lex:D8422\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo1 .
+lex:D8422\/Artigo1    lex:temConteudo    "Art. 1o O Hospital das Forças Armadas, integrante da estrutura básica do Ministério da Defesa, é hospital militar geral sediado em Brasília e tem as seguintes competências:" .
+lex:D8422\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo1    lex:temInciso    lex:D8422\/Artigo1\/IncisoI .
+lex:D8422\/Artigo1\/IncisoI    lex:temConteudo    "I - prestar assistência médico-hospitalar, sob a forma ambulatorial ou hospitalar:" .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:ehUm    lex:IncisoAlinea .
+lex:D8422\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:temConteudo    "a) aos militares da ativa, da reserva e reformados, aos servidores da administração central do Ministério da Defesa e aos servidores e empregados públicos do próprio Hospital das Forças Armadas e da Escola Superior de Guerra e aos seus dependentes e pensionistas;" .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos    lex:ehUm    lex:IncisoAlinea .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:temIncisoAlinea    lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos    lex:temConteudo    "b) aos usuários dos Fundos de Saúde das Forças Armadas; e" .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos    lex:temIncisoAlinea    lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos\/IncisoAlineaA .
+lex:D8422\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaAos\/IncisoAlineaA    lex:temConteudo    "c) a outras instituições autorizadas por convênios, contratos ou outros instrumentos legais;" .
+lex:D8422\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo1    lex:temInciso    lex:D8422\/Artigo1\/IncisoII .
+lex:D8422\/Artigo1\/IncisoII    lex:temConteudo    "II - cooperar com as autoridades civis e militares no que disser respeito à saúde pública;" .
+lex:D8422\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo1    lex:temInciso    lex:D8422\/Artigo1\/IncisoIII .
+lex:D8422\/Artigo1\/IncisoIII    lex:temConteudo    "III - realizar atividades de pesquisa médica;" .
+lex:D8422\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo1    lex:temInciso    lex:D8422\/Artigo1\/IncisoIV .
+lex:D8422\/Artigo1\/IncisoIV    lex:temConteudo    "IV - executar programas de ensino médico e de enfermagem, e programa de intercâmbio científico com associações médicas e entidades afins, no Brasil ou no exterior; e" .
+lex:D8422\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo1    lex:temInciso    lex:D8422\/Artigo1\/IncisoV .
+lex:D8422\/Artigo1\/IncisoV    lex:temConteudo    "V - realizar atos de gestão orçamentária e financeira das dotações sob sua responsabilidade." .
+lex:D8422\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8422\/Artigo1    lex:temParagrafo    lex:D8422\/Artigo1\/ParagrafoUnico .
+lex:D8422\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A assistência médico-hospitalar prevista no inciso I do caput compreende:" .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8422\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - o conjunto de atividades relacionadas com a prevenção de doenças, com a conservação e a recuperação da saúde e com a reabilitação dos pacientes;" .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8422\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - os serviços profissionais médicos, odontológicos e farmacêuticos; e" .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8422\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D8422\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - o fornecimento e a aplicação de meios, de cuidados e dos demais atos médicos e paramédicos necessários." .
+lex:D8422\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo2 .
+lex:D8422\/Artigo2    lex:temConteudo    "Art. 2o O Ministro de Estado da Defesa editará o regimento interno do Hospital das Forças Armadas, definindo a sua estrutura, as competências das suas unidades e as atribuições dos seus dirigentes." .
+lex:D8422\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8422\/Artigo2    lex:temParagrafo    lex:D8422\/Artigo2\/ParagrafoUnico .
+lex:D8422\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ato do Ministro de Estado da Defesa aprovará a Tabela de Lotação do Pessoal Militar para o Hospital das Forças Armadas." .
+lex:D8422\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo3 .
+lex:D8422\/Artigo3    lex:temConteudo    "Art. 3o O Hospital das Forças Armadas poderá firmar convênios, contratos e outros instrumentos legais para o integral cumprimento de suas competências." .
+lex:D8422\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo4 .
+lex:D8422\/Artigo4    lex:temConteudo    "Art. 4o O Hospital das Forças Armadas será indenizado pelos Comandos da Marinha, do Exército e da Aeronáutica pelas despesas decorrentes do atendimento e internação dos correspondentes militares e de seus dependentes, na forma fixada pelos convênios firmados." .
+lex:D8422\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo5 .
+lex:D8422\/Artigo5    lex:temConteudo    "Art. 5o O Hospital das Forças Armadas disporá de receitas resultantes de indenizações provenientes de outros convênios, do atendimento a outras pessoas autorizadas pela legislação, de pagamento de diárias referentes aos acompanhantes dos pacientes internados e de outras fontes eventuais." .
+lex:D8422\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo6 .
+lex:D8422\/Artigo6    lex:temConteudo    "Art. 6o O Fundo de Administração do Hospital das Forças Armadas, de que trata a Lei no 9.238, de 22 de dezembro de 1995, consolidará todos os recursos decorrentes das atividades do Hospital das Forças Armadas e os recursos provenientes de outras fontes." .
+lex:D8422\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo7 .
+lex:D8422\/Artigo7    lex:temConteudo    "Art. 7o O Hospital das Forças Armadas poderá dispor da seguinte força de trabalho:" .
+lex:D8422\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoI .
+lex:D8422\/Artigo7\/IncisoI    lex:temConteudo    "I - militares das três Forças Armadas, dos seus quadros, corpos e especialidades, em caráter permanente ou em estágio;" .
+lex:D8422\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoII .
+lex:D8422\/Artigo7\/IncisoII    lex:temConteudo    "II - servidores públicos ocupantes de cargos efetivos;" .
+lex:D8422\/Artigo7\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoIII .
+lex:D8422\/Artigo7\/IncisoIII    lex:temConteudo    "III - empregados públicos de que trata a Lei no 10.225, de 15 de maio de 2001;" .
+lex:D8422\/Artigo7\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoIV .
+lex:D8422\/Artigo7\/IncisoIV    lex:temConteudo    "IV - servidores públicos nomeados para cargos em comissão;" .
+lex:D8422\/Artigo7\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoV .
+lex:D8422\/Artigo7\/IncisoV    lex:temConteudo    "V - pessoal vinculado a convênios ou outros instrumentos administrativos firmados com entidades civis, públicas ou privadas; e" .
+lex:D8422\/Artigo7\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo7    lex:temInciso    lex:D8422\/Artigo7\/IncisoVI .
+lex:D8422\/Artigo7\/IncisoVI    lex:temConteudo    "VI - médicos e estudantes de medicina, em regime de residência ou internato, e outros profissionais, estudantes, estagiários e demais casos previstos em legislação específica." .
+lex:D8422\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8422\/Artigo7    lex:temParagrafo    lex:D8422\/Artigo7\/ParagrafoUnico .
+lex:D8422\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O militar da ativa em serviço no Hospital das Forças Armadas é considerado em exercício de cargo, função ou incumbência de natureza militar." .
+lex:D8422\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo8 .
+lex:D8422\/Artigo8    lex:temConteudo    "Art. 8o O Anexo I ao Decreto no 7.974, de 1o de abril de 2013, passa a vigorar com as seguintes alterações:" .
+lex:D8422\/Artigo8\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo8    lex:temInciso    lex:D8422\/Artigo8\/IncisoVI .
+lex:D8422\/Artigo8\/IncisoVI    lex:temConteudo    "VI - o de Diretor do Hospital das Forças Armadas será ocupado por oficial-general da ativa do penúltimo posto, do Comando do Exército;" .
+lex:D8422\/Artigo8\/IncisoVI-A    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo8    lex:temInciso    lex:D8422\/Artigo8\/IncisoVI-A .
+lex:D8422\/Artigo8\/IncisoVI-A    lex:temConteudo    "VI-A - os de Vice-Diretor de Saúde e de Vice-Diretor de Ensino do Hospital das Forças Armadas serão ocupados por oficiais-generais da ativa do primeiro posto, em sistema de rodízio entre o Comando da Marinha e o Comando da Aeronáutica;" .
+lex:D8422\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo9 .
+lex:D8422\/Artigo9    lex:temConteudo    "Art. 9o Este Decreto entra em vigor na data de sua publicação." .
+lex:D8422\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D8422    lex:temArtigo    lex:D8422\/Artigo10 .
+lex:D8422\/Artigo10    lex:temConteudo    "Art. 10.  Ficam revogados:" .
+lex:D8422\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo10    lex:temInciso    lex:D8422\/Artigo10\/IncisoI .
+lex:D8422\/Artigo10\/IncisoI    lex:temConteudo    "I - o Decreto no 68.449, de 31 de março de 1971;" .
+lex:D8422\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo10    lex:temInciso    lex:D8422\/Artigo10\/IncisoII .
+lex:D8422\/Artigo10\/IncisoII    lex:temConteudo    "II - o Decreto no 69.846, de 28 de dezembro de 1971;" .
+lex:D8422\/Artigo10\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo10    lex:temInciso    lex:D8422\/Artigo10\/IncisoIII .
+lex:D8422\/Artigo10\/IncisoIII    lex:temConteudo    "III - o Decreto no 69.859, de 29 de dezembro de 1971;" .
+lex:D8422\/Artigo10\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo10    lex:temInciso    lex:D8422\/Artigo10\/IncisoIV .
+lex:D8422\/Artigo10\/IncisoIV    lex:temConteudo    "IV - o Decreto no 72.344, de 8 de junho de 1973; e" .
+lex:D8422\/Artigo10\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8422\/Artigo10    lex:temInciso    lex:D8422\/Artigo10\/IncisoV .
+lex:D8422\/Artigo10\/IncisoV    lex:temConteudo    "V - o Decreto no 73.668, de 19 de fevereiro de 1974." .
+lex:D8422\/Artigo6    lex:remetePara    lex:L9238 .
+lex:D8422\/Artigo7\/IncisoIII    lex:remetePara    lex:L10225 .
+lex:D8422\/Artigo8    lex:remetePara    lex:D7974 .
+lex:D8422\/Artigo8\/IncisoVI    lex:remetePara    lex:D7974\/Artigo59 .
+lex:D8422\/Artigo10\/IncisoI    lex:remetePara    lex:D68449 .
+lex:D8422\/Artigo10\/IncisoII    lex:remetePara    lex:D69846 .
+lex:D8422\/Artigo10\/IncisoIII    lex:remetePara    lex:D69859 .
+lex:D8422\/Artigo10\/IncisoIV    lex:remetePara    lex:D72344 .
+lex:D8422\/Artigo10\/IncisoV    lex:remetePara    lex:D73668 .

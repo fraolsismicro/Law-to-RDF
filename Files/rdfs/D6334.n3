@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6334    lex:ehUm    lex:DocLegal .
+lex:D6334    lex:temTextoIntegral    lex:HTMLs\/D6334.htm .
+lex:D6334\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6334    lex:temArtigo    lex:D6334\/Artigo1 .
+lex:D6334\/Artigo1    lex:temConteudo    "Art. 1o  Os incisos do art. 2o do Decreto no 3.917, de 13 de setembro de 2001, passam a vigorar da seguinte redação:" .
+lex:D6334\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6334\/Artigo1    lex:temInciso    lex:D6334\/Artigo1\/IncisoII .
+lex:D6334\/Artigo1\/IncisoII    lex:temConteudo    "II - 0,092% para o Ministério Público do Distrito Federal e Territórios;" .
+lex:D6334\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6334\/Artigo1    lex:temInciso    lex:D6334\/Artigo1\/IncisoIII .
+lex:D6334\/Artigo1\/IncisoIII    lex:temConteudo    "III - 0,160% para o ex-Território de Roraima;" .
+lex:D6334\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6334\/Artigo1    lex:temInciso    lex:D6334\/Artigo1\/IncisoIV .
+lex:D6334\/Artigo1\/IncisoIV    lex:temConteudo    "IV - 0,273% para o ex-Território do Amapá; e" .
+lex:D6334\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6334\/Artigo1    lex:temInciso    lex:D6334\/Artigo1\/IncisoV .
+lex:D6334\/Artigo1\/IncisoV    lex:temConteudo    "V - 2,200% para o Distrito Federal. (NR)" .
+lex:D6334\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6334    lex:temArtigo    lex:D6334\/Artigo2 .
+lex:D6334\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6334\/Texto00001    lex:remetePara    lex:D3917\/Artigo2 .

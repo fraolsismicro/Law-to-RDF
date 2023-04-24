@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4533    lex:ehUm    lex:DocLegal .
+lex:D4533    lex:temTextoIntegral    lex:HTMLs\/D4533.htm .
+lex:D4533\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo1 .
+lex:D4533\/Artigo1    lex:temConteudo    "Art. 1o  Em cada exemplar do suporte material que contenha fonograma deve constar, obrigatoriamente, os seguintes sinais de identificação:" .
+lex:D4533\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4533\/Artigo1    lex:temInciso    lex:D4533\/Artigo1\/IncisoI .
+lex:D4533\/Artigo1\/IncisoI    lex:temConteudo    "I - na face do suporte material que permite a leitura ótica:" .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:temConteudo    "a) do número da matriz, em código de barras ou em código alfanumérico;" .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "b) do nome da empresa responsável pelo processo industrial de reprodução, em código binário;" .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoI\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do número de catálogo do produto, em código binário;" .
+lex:D4533\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4533\/Artigo1    lex:temInciso    lex:D4533\/Artigo1\/IncisoII .
+lex:D4533\/Artigo1\/IncisoII    lex:temConteudo    "II - na face do suporte material que não permite a leitura ótica:" .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo    lex:temConteudo    "a) do nome, marca registrada ou logomarca do responsável pelo processo industrial de reprodução que a identifique;" .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "b) do nome, marca registrada, logomarca, ou número do CPF ou do CNPJ do produtor;" .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do número de catálogo do produto;" .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D4533\/Artigo1\/IncisoII\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "d) da identificação do lote e a respectiva quantidade de exemplares nele mandada reproduzir;" .
+lex:D4533\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4533\/Artigo1    lex:temInciso    lex:D4533\/Artigo1\/IncisoIII .
+lex:D4533\/Artigo1\/IncisoIII    lex:temConteudo    "III - na lombada, capa ou encarte de envoltório do suporte material, a identificação do lote e a respectiva quantidade nele mandada reproduzir." .
+lex:D4533\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D4533\/Artigo1    lex:temParagrafo    lex:D4533\/Artigo1\/Paragrafo1 .
+lex:D4533\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o A aposição das informações em qualquer parte da embalagem não dispensa sua aposição no suporte material propriamente dito." .
+lex:D4533\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D4533\/Artigo1    lex:temParagrafo    lex:D4533\/Artigo1\/Paragrafo2 .
+lex:D4533\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O suporte material deve conter um código digital - International Standard Recording Code - onde se identifique o fonograma e os respectivos autores, artistas intérpretes ou executantes, de forma permanente e individualizada, segundo as informações fornecidas pelo produtor." .
+lex:D4533\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D4533\/Artigo1    lex:temParagrafo    lex:D4533\/Artigo1\/Paragrafo3 .
+lex:D4533\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  A identificação do lote e a respectiva quantidade de exemplares nele mandada reproduzir, prevista na alínea 'd', inciso II, e no inciso III, serão estampadas por meio de código alfanumérico, constante de duas letras que indiquem a ordem seqüencial das tiragens, além de numeral que indique a quantidade de exemplares da respectiva tiragem." .
+lex:D4533\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D4533\/Artigo1    lex:temParagrafo    lex:D4533\/Artigo1\/Paragrafo4 .
+lex:D4533\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  O conjunto de duas letras que inicia o código alfanumérico será alterado a cada tiragem, seguindo a ordem do alfabeto, de forma que a primeira tiragem seja representada pelas letras AA, a segunda por AB, a terceira por AC e assim sucessivamente." .
+lex:D4533\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo2 .
+lex:D4533\/Artigo2    lex:temConteudo    "Art. 2o  Quando o fonograma for fixado em suporte distinto daquele previsto no art. 1o, os sinais de identificação estabelecidos neste Decreto serão consignados na capa dos exemplares, nos encartes ou nos próprios suportes." .
+lex:D4533\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo3 .
+lex:D4533\/Artigo3    lex:temConteudo    "Art. 3o  O responsável pelo processo industrial de reprodução deve informar ao produtor a quantidade de exemplares efetivamente fabricados em cada tiragem, devendo o responsável pelo processo industrial de reprodução e o produtor manter os registros dessas informações em seus arquivos por um período mínimo de cinco anos, viabilizando assim o controle do aproveitamento econômico da exploração pelo titular dos direitos autorais ou pela entidade representativa de classe." .
+lex:D4533\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo4 .
+lex:D4533\/Artigo4    lex:temConteudo    "Art. 4o  O produtor deverá manter em seu arquivo registro de exemplares devolvidos por qualquer razão." .
+lex:D4533\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo5 .
+lex:D4533\/Artigo5    lex:temConteudo    "Art. 5o  O autor e o artista intérprete ou executante, diretamente, ou por meio de sindicato ou de associação, terá acesso aos registros referidos nos arts. 3o e 4o." .
+lex:D4533\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo6 .
+lex:D4533\/Artigo6    lex:temConteudo    "Art. 6o  O produtor deverá comunicar ao autor e ao artista intérprete ou executante, bem assim ao sindicato ou à associação a que se refere o art. 5o, conforme estabelecido pelas partes interessadas, a destruição de exemplares, com a antecedência mínima de dez dias, possibilitando ao interessado, e a seu exclusivo juízo, enviar representante para presenciar o ato." .
+lex:D4533\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo7 .
+lex:D4533\/Artigo7    lex:temConteudo    "Art. 7o  Este Decreto aplica-se aos fonogramas, com ou sem imagens, assim entendidos os que não se enquadrem na definição de obra audiovisual de que trata a Lei no 9.610, de 1998." .
+lex:D4533\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo8 .
+lex:D4533\/Artigo8    lex:temConteudo    "Art. 8o  As despesas necessárias para atender aos custos decorrentes da identificação, numeração e fiscalização previstas neste Decreto deverão ser objeto de instrumento particular a ser firmado entre as partes interessadas, sem ônus para o consumidor." .
+lex:D4533\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo9 .
+lex:D4533\/Artigo9    lex:temConteudo    "Art. 9o  Este Decreto entra em vigor em 22 de abril de 2003." .
+lex:D4533\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D4533    lex:temArtigo    lex:D4533\/Artigo10 .
+lex:D4533\/Artigo10    lex:temConteudo    "Art. 10.  Fica revogado o Decreto no 2.894, de 22 de dezembro de 1998." .
+lex:D4533\/Texto    lex:remetePara    lex:L9610\/Artigo113 .
+lex:D4533\/Artigo7    lex:remetePara    lex:L9610 .
+lex:D4533\/Artigo10    lex:remetePara    lex:D2894 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D641    lex:ehUm    lex:DocLegal .
+lex:D641    lex:temTextoIntegral    lex:HTMLs\/D641.htm .
+lex:D641\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo1 .
+lex:D641\/Artigo1    lex:temConteudo    "Art. 1º Fica dissolvido o Congresso Nacional eleito em 15 de setembro de 1890." .
+lex:D641\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo2 .
+lex:D641\/Artigo2    lex:temConteudo    "Art. 2º E convocada a Nação para, em época que ulteriormente se fixará, escolher novos representantes." .
+lex:D641\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo3 .
+lex:D641\/Artigo3    lex:temConteudo    "Art. 3º O Governo expedirá para esse fim um regulamento eleitoral, assegurando ao Paiz plena liberdade nessa escolha." .
+lex:D641\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo4 .
+lex:D641\/Artigo4    lex:temConteudo    "Art. 4º O novo Congresso procederá á revisão da Constituição de 24 de fevereiro deste anno nos pontos que serão indicados no decreto de convocação.     (Vide Decreto nº 677, de 1891)" .
+lex:D641\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo5 .
+lex:D641\/Artigo5    lex:temConteudo    "Art. 5º Essa revisão em caso algum versará sobre as disposições constitucionaes que estabelecem a fórma republicana federativa e a inviolabilidade dos direitos concernentes á liberdade e segurança individual." .
+lex:D641\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D641    lex:temArtigo    lex:D641\/Artigo6 .
+lex:D641\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrario." .
+lex:D641\/Artigo4    lex:remetePara    lex:Constituicao91 .
+lex:D641\/Artigo4    lex:remetePara    lex:D677\/Artigo2 .

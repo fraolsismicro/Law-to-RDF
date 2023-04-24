@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Ldl03    lex:ehUm    lex:DocLegal .
+lex:Ldl03    lex:temTextoIntegral    lex:HTMLs\/Ldl03.htm .
+lex:Ldl03\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo1 .
+lex:Ldl03\/Artigo1    lex:temConteudo    "Art. 1º Os itens 3º e 4º, do parágrafo 1º, do art. 15, do Decreto número 1.102, de 21 de novembro de 1903, que 'institui regras para o estabelecimento de emprêsas de armazéns gerais, determinando os direitos e as obrigações dessas emprêsas, passam a vigorar com a seguinte redação:" .
+lex:Ldl03\/Artigo1\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:Ldl03\/Artigo1    lex:temParagrafo    lex:Ldl03\/Artigo1\/ParagrafoO .
+lex:Ldl03\/Artigo1\/ParagrafoO    lex:temConteudo    "3º O lugar e o prazo do depósito, facultado aos interessados acordarem, entre si, na transferência posterior das mesmas mercadorias de um para outro armazém da emitente ainda que se encontrem em localidade diversa da em que foi feito o depósito inicial. Em tais casos, far-se-ão, nos conhecimentos warrants respectivos, as seguintes anotações:" .
+lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaLocal    lex:ehUm    lex:Alinea .
+lex:Ldl03\/Artigo1\/ParagrafoO    lex:temAlinea    lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaLocal .
+lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaLocal    lex:temConteudo    "a) local para onde se transferirá a mercadoria em depósito;" .
+lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:Ldl03\/Artigo1\/ParagrafoO    lex:temAlinea    lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaPara .
+lex:Ldl03\/Artigo1\/ParagrafoO\/AlineaPara    lex:temConteudo    "b) para os fins do art. 26, parágrafo 2º, às despesas decorrentes da transferência, inclusive as de seguro por todos os riscos.'" .
+lex:Ldl03\/Artigo1\/ParagrafoA    lex:ehUm    lex:Paragrafo .
+lex:Ldl03\/Artigo1    lex:temParagrafo    lex:Ldl03\/Artigo1\/ParagrafoA .
+lex:Ldl03\/Artigo1\/ParagrafoA    lex:temConteudo    "4º A natureza e quantidade das mercadorias em depósito, designadas pelos nomes mais usados no comércio, seu pêso, o estado dos envoltórios e tôdas as marcas e indicações próprias para estabelecerem a sua identidade, ressalvadas as peculiaridades das mercadorias depositada a granel'." .
+lex:Ldl03\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo2 .
+lex:Ldl03\/Artigo2    lex:temConteudo    "Art. 2º As sociedades de economia mista ou as emprêsas públicas federais, estaduais ou municipais, constituídas com o objeto de administrar e operar silos, armazéns frigoríficos e entrepostos, poderão emitir sôbre as mercadorias em depósito, os títulos de que trata o Decreto número 1.102, de 21 de novembro de 1903.        (Vide Decreto-lei nº 1.269, de 1973)" .
+lex:Ldl03\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo3 .
+lex:Ldl03\/Artigo3    lex:temConteudo    "Art. 3º São isentas do impôsto do sêlo as operações de crédito sob warrants, representativos dos produtos incluídos na relação a que se refere o art. 7º desta Lei." .
+lex:Ldl03\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo4 .
+lex:Ldl03\/Artigo4    lex:temConteudo    "Art. 4º Os warrants de produtores rurais, de prazo não superior a 150 (cento e cinqüenta) dias, são redescontáveis na Carteira de Redescontos do Banco do Brasil S.A., em faixas especiais eqüivalentes a 20% (vinte por cento) dos limites de redescontos normais fixadas para cada estabelecimento de crédito." .
+lex:Ldl03\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo5 .
+lex:Ldl03\/Artigo5    lex:temConteudo    "Art. 5º Nenhuma operação poderá exceder o máximo de 80% (oitenta por cento) do valor da mercadoria, considerando-se as cotações em vigor." .
+lex:Ldl03\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo6 .
+lex:Ldl03\/Artigo6    lex:temConteudo    "Art. 6º O Conselho da Superintendência da Moeda e do Crédito - (SUMOC), tendo em vista a natureza especial dos redescontos a que se refere esta Lei, fixará taxas favorecidas de juros." .
+lex:Ldl03\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo7 .
+lex:Ldl03\/Artigo7    lex:temConteudo    "Art 7º A Superintendência da Moeda e do Crédito (SUMOC), ouvida a Superintendência Nacional do Abastecimento (SUNAB), fixará, periòdicamente a relação dos produto cujos warrants farão jus às regalias da presente Lei, devendo ser, desde logo, incluídos: arroz, feijão, milho e trigo." .
+lex:Ldl03\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Ldl03\/Artigo7    lex:temParagrafo    lex:Ldl03\/Artigo7\/ParagrafoUnico .
+lex:Ldl03\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Poder Executivo, mediante decreto, poderá excluir das regalias referidas neste artigo, os produtos mencionados." .
+lex:Ldl03\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Ldl03    lex:temArtigo    lex:Ldl03\/Artigo8 .
+lex:Ldl03\/Artigo8    lex:temConteudo    "Art. 8º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Ldl03\/Artigo1    lex:remetePara    lex:D1102 .
+lex:Ldl03\/Artigo1\/ParagrafoO    lex:remetePara    lex:D1102\/Artigo153 .
+lex:Ldl03\/Artigo1\/ParagrafoA    lex:remetePara    lex:D1102\/Artigo154 .
+lex:Ldl03\/Artigo2    lex:remetePara    lex:D1102 .
+lex:Ldl03\/Artigo2    lex:remetePara    lex:Del1269\/Artigo4 .

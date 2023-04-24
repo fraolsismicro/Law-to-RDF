@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D93577    lex:ehUm    lex:DocLegal .
+lex:D93577    lex:temTextoIntegral    lex:HTMLs\/D93577.htm .
+lex:D93577\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D93577    lex:temArtigo    lex:D93577\/Artigo1 .
+lex:D93577\/Artigo1    lex:temConteudo    "Art. 1º - O militar do posto de Capitão-de-Mar-e-Guerra ou Coronel nomeado para integrar a Representação do Brasil na Junta Interamericana de Defesa, fica enquadrado no índice 70, para fins da Indenização de Representação no Exterior, de que trata o Anexo I, Tabelas I e B, do Decreto nº 71.733, de 18 de janeiro de 1973." .
+lex:D93577\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D93577\/Artigo1    lex:temParagrafo    lex:D93577\/Artigo1\/ParagrafoUnico .
+lex:D93577\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O disposto neste artigo não se aplica ao aluno do Colégio Interamericano de Defesa." .
+lex:D93577\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D93577    lex:temArtigo    lex:D93577\/Artigo2 .
+lex:D93577\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D93577\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D93577    lex:temArtigo    lex:D93577\/Artigo3 .
+lex:D93577\/Artigo3    lex:temConteudo    "Art. 3º - Ficam revogadas as disposições em contrário." .
+lex:D93577\/Artigo1    lex:remetePara    lex:D71733\/ .
+lex:D93577\/Artigo1    lex:remetePara    lex:D71733 .

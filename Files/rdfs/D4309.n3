@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4309    lex:ehUm    lex:DocLegal .
+lex:D4309    lex:temTextoIntegral    lex:HTMLs\/D4309.htm .
+lex:D4309\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4309    lex:temArtigo    lex:D4309\/Artigo1 .
+lex:D4309\/Artigo1    lex:temConteudo    "Art. 1o  Os Anexos I, II, III, IV, V, VI, VII, X, XIII e XIV do Decreto no 4.120, de 7 de fevereiro de 2002, na sua redação atual, incluídas as alterações efetuadas ao amparo do seu art. 7o e dos arts. 2o, parágrafo único, e 3o, do Decreto no 4.230, de 14 de maio de 2002, passam a ser os constantes dos Anexos I, II, III, IV, V, VI, VII, VIII, IX e X deste Decreto, respectivamente." .
+lex:D4309\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4309    lex:temArtigo    lex:D4309\/Artigo2 .
+lex:D4309\/Artigo2    lex:temConteudo    "Art. 2o  A demonstração da compatibilidade entre os limites de movimentação e empenho e pagamentos e o cumprimento da meta de superávit primário estabelecida na Lei no 10.266, de 24 de julho de 2001, consta do Anexo XI deste Decreto, em substituição ao Anexo XII do Decreto no 4.120, de 2002." .
+lex:D4309\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D4309    lex:temArtigo    lex:D4309\/Artigo3 .
+lex:D4309\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D4309\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D4309    lex:temArtigo    lex:D4309\/Artigo4 .
+lex:D4309\/Artigo4    lex:temConteudo    "Art. 4o  Revogam-se o inciso I do art. 7o do Decreto no 4.120, de 7 de fevereiro de 2002, e os arts. 2o e 3o do Decreto no 4.230, de 14 de maio de 2002." .
+lex:D4309\/Artigo1    lex:remetePara    lex:D4120 .
+lex:D4309\/Artigo1    lex:remetePara    lex:D4230\/Artigo2 .
+lex:D4309\/Artigo1    lex:remetePara    lex:D4230\/Artigo3 .
+lex:D4309\/Artigo2    lex:remetePara    lex:L10266 .
+lex:D4309\/Artigo2    lex:remetePara    lex:D4120 .
+lex:D4309\/Artigo4    lex:remetePara    lex:D4120\/Artigo7 .
+lex:D4309\/Artigo4    lex:remetePara    lex:D4230\/Artigo2 .

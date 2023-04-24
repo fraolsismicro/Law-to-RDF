@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D89928    lex:ehUm    lex:DocLegal .
+lex:D89928    lex:temTextoIntegral    lex:HTMLs\/D89928.htm .
+lex:D89928\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D89928    lex:temArtigo    lex:D89928\/Artigo1 .
+lex:D89928\/Artigo1    lex:temConteudo    "Art. 1º Os afastamentos de Diplomatas nos casos previstos no artigo 4º, itens V, VI e IX, da Lei nº 5.887, de 31 de maio de 1973, não serão autorizados quando, nos termos dos itens acima, o número de Diplomatas agregados, acrescido do daqueles que, terminada a agregação, figuram sem numeração na lista de antigüidade, alcançar os seguintes limites:" .
+lex:D89928\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D89928\/Artigo1    lex:temInciso    lex:D89928\/Artigo1\/IncisoI .
+lex:D89928\/Artigo1\/IncisoI    lex:temConteudo    "I - 1/4 dos cargos efetivos de Ministro de Primeira Classe;" .
+lex:D89928\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D89928\/Artigo1    lex:temInciso    lex:D89928\/Artigo1\/IncisoII .
+lex:D89928\/Artigo1\/IncisoII    lex:temConteudo    "II - 1/5 dos cargos efetivos de Ministro de Segunda Classe; e" .
+lex:D89928\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D89928\/Artigo1    lex:temInciso    lex:D89928\/Artigo1\/IncisoIII .
+lex:D89928\/Artigo1\/IncisoIII    lex:temConteudo    "III - 1/5 dos cargos efetivos de Conselheiros." .
+lex:D89928\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D89928\/Artigo1    lex:temParagrafo    lex:D89928\/Artigo1\/ParagrafoUnico .
+lex:D89928\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo não se aplica no caso do item V do artigo 4º da Lei nº 5.887, de 31 de maio de 1973, quando se tratar de nomeação ou designação por ato do Presidente da República, na forma do artigo 7º, item I, do Decrete nº 83.844, de 14 de agosto de 1979." .
+lex:D89928\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D89928    lex:temArtigo    lex:D89928\/Artigo2 .
+lex:D89928\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D89928\/Artigo1    lex:remetePara    lex:L5887\/Artigo4 .
+lex:D89928\/Artigo1    lex:remetePara    lex:L5887\/Artigo4 .
+lex:D89928\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5887\/Artigo4 .

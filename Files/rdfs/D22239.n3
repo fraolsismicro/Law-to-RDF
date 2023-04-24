@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D22239    lex:ehUm    lex:DocLegal .
+lex:D22239    lex:temTextoIntegral    lex:HTMLs\/D22239.htm .
+lex:D22239\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D22239    lex:temParagrafo    lex:D22239\/ParagrafoUnico .
+lex:D22239\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nessas cooperativas, cada associado não poderá possuir cotas-partes do capital social em quantia superior a 60 (sessenta) vêzes o maior salário-mínimo vigente no País, qualquer que seja o valor do imóvel que pretenda adquirir.     (Redação dada pela Lei nº 4.891, de 1965)" .
+lex:D22239\/Texto    lex:revogadoPor    lex:D24647 .
+lex:D24647    lex:revogou    lex:D22239\/Texto .
+lex:D22239\/Texto    lex:remetePara    lex:Del581\/Artigo26 .
+lex:D22239\/Texto    lex:remetePara    lex:Del8401\/Artigo1 .
+lex:D22239\/Texto    lex:revogadoPor    lex:Del0059\/Artigo26 .
+lex:Del0059\/Artigo26    lex:revogou    lex:D22239\/Texto .
+lex:D22239\/Texto    lex:remetePara    lex:D22239 .
+lex:D22239\/Texto    lex:remetePara    lex:D19770 .
+lex:D22239\/Texto    lex:remetePara    lex:D19398\/Artigo1 .
+lex:D22239\/ParagrafoNos    lex:remetePara    lex:Del581\/Artigo26\/Paragrafo5 .
+lex:D22239\/Paragrafo4    lex:remetePara    lex:Del581\/Artigo26\/Paragrafo5 .
+lex:D22239\/ParagrafoUnico    lex:remetePara    lex:L4891\/Artigo1 .
+lex:D22239\/AlineaDo    lex:remetePara    lex:L4504\/Artigo112 .

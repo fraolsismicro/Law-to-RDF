@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5970    lex:ehUm    lex:DocLegal .
+lex:L5970    lex:temTextoIntegral    lex:HTMLs\/L5970.htm .
+lex:L5970\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5970    lex:temArtigo    lex:L5970\/Artigo1 .
+lex:L5970\/Artigo1    lex:temConteudo    "Art 1º Em caso de acidente de trânsito, a autoridade ou agente policial que primeiro tomar conhecimento do fato poderá autorizar, independentemente de exame do local, a imediata remoção das pessoas que tenham sofrido lesão, bem como dos veículos nele envolvidos, se estiverem no leito da via pública e prejudicarem o tráfego." .
+lex:L5970\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5970\/Artigo1    lex:temParagrafo    lex:L5970\/Artigo1\/ParagrafoUnico .
+lex:L5970\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para autorizar a remoção, a autoridade ou agente policial lavrará boletim da ocorrência, nele consignado o fato, as testemunhas que o presenciaram e todas as demais circunstâncias necessárias ao esclarecimento da verdade." .
+lex:L5970\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5970    lex:temArtigo    lex:L5970\/Artigo2 .
+lex:L5970\/Artigo2    lex:temConteudo    "Art 2º Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5970\/Texto    lex:remetePara    lex:Del3689\/Artigo6 .
+lex:L5970\/Texto    lex:remetePara    lex:Del3689\/Artigo64 .
+lex:L5970\/Texto    lex:remetePara    lex:Del3689\/Artigo169 .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1558    lex:ehUm    lex:DocLegal .
+lex:Del1558    lex:temTextoIntegral    lex:HTMLs\/Del1558.htm .
+lex:Del1558\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1558    lex:temArtigo    lex:Del1558\/Artigo1 .
+lex:Del1558\/Artigo1    lex:temConteudo    "Art. 1º O artigo 4º, e seu parágrafo, do Decreto-lei nº 1.312, de 15 de fevereiro de 1974, passam a vigorar com a seguinte redação:" .
+lex:Del1558\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1558\/Artigo1    lex:temParagrafo    lex:Del1558\/Artigo1\/ParagrafoUnico .
+lex:Del1558\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único - A concessão de garantia do Tesouro Nacional a operações de crédito obtidas por outras empresas ficará também condicionada à existência de pronunciamento prévio do Ministro Chefe da Secretaria de Planejamento da Presidência da República sobre o grau de prioridade adjudicado ao programa ou projeto específico ao qual é destinada, dentro dos planos e programas nacionais de desenvolvimentos'." .
+lex:Del1558\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1558    lex:temArtigo    lex:Del1558\/Artigo2 .
+lex:Del1558\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1558\/Artigo1    lex:remetePara    lex:Del1312 .
+lex:Del1558\/Texto00001    lex:remetePara    lex:Del1312\/Artigo4 .

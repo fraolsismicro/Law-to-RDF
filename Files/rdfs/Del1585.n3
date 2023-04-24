@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1585    lex:ehUm    lex:DocLegal .
+lex:Del1585    lex:temTextoIntegral    lex:HTMLs\/Del1585.htm .
+lex:Del1585\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1585    lex:temArtigo    lex:Del1585\/Artigo1 .
+lex:Del1585\/Artigo1    lex:temConteudo    "Art. 1º - É concedida isenção dos impostos de importação e sobre produtos industrializados ao aço do tipo duplo filetado CP-145/160, sem similar nacional, importado pela ARSA - Aeroportos do Rio de Janeiro S.A., para emprego na construção de pista do Aeroporto Internacional do Rio de Janeiro." .
+lex:Del1585\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1585\/Artigo1    lex:temParagrafo    lex:Del1585\/Artigo1\/ParagrafoUnico .
+lex:Del1585\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A isenção prevista neste artigo aplica-se, inclusive, ao aço desembaraçado pela ARSA nas repartições fiscais do País, mediante a assinatura de termo de responsabilidade, antes da vigência deste Decreto-lei." .
+lex:Del1585\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1585    lex:temArtigo    lex:Del1585\/Artigo2 .
+lex:Del1585\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

@@ -1,0 +1,455 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D9000    lex:ehUm    lex:DocLegal .
+lex:D9000    lex:temTextoIntegral    lex:HTMLs\/D9000.htm .
+lex:D9000\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo1 .
+lex:D9000\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério dos Transportes, Portos e Aviação Civil, na forma dos Anexos I e II." .
+lex:D9000\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo2 .
+lex:D9000\/Artigo2    lex:temConteudo    "Art. 2 º  Ficam remanejados, na forma do Anexo III, em decorrência do disposto no Decreto n º 8.785, de 10 de junho de 2016, e em cumprimento à Lei n º 13.341, de 29 de setembro de 2016, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS e Funções Gratificadas - FG:" .
+lex:D9000\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo2    lex:temInciso    lex:D9000\/Artigo2\/IncisoI .
+lex:D9000\/Artigo2\/IncisoI    lex:temConteudo    "I - da extinta Secretaria de Portos da Presidência da República para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.6;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze    lex:temConteudo    "b) onze DAS 101.5;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e três DAS 101.4;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:temConteudo    "d) vinte e nove DAS 101.3;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres    lex:temConteudo    "e) três DAS 102.5;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove    lex:temConteudo    "f) nove DAS 102.4;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis    lex:temConteudo    "g) dezesseis DAS 102.3;" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta    lex:temConteudo    "h) trinta e nove DAS 102.2; e" .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta\/IncisoAlineaDoze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta\/IncisoAlineaDoze .
+lex:D9000\/Artigo2\/IncisoI\/IncisoAlineaDois\/IncisoAlineaOnze\/IncisoAlineaVinte\/IncisoAlineaVinte\/IncisoAlineaTres\/IncisoAlineaNove\/IncisoAlineaDezesseis\/IncisoAlineaTrinta\/IncisoAlineaDoze    lex:temConteudo    "i) doze DAS 102.1;" .
+lex:D9000\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo2    lex:temInciso    lex:D9000\/Artigo2\/IncisoII .
+lex:D9000\/Artigo2\/IncisoII    lex:temConteudo    "II - da extinta Secretaria de Aviação Civil da Presidência da República para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temConteudo    "a) três DAS 101.6;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez    lex:temConteudo    "b) dez DAS 101.5;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e cinco DAS 101.4;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temConteudo    "d) trinta e sete DAS 101.3;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove    lex:temConteudo    "e) dezenove DAS 101.2;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez    lex:temConteudo    "f) dez DAS 101.1;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois    lex:temConteudo    "g) dois DAS 102.5;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco    lex:temConteudo    "h) cinco DAS 102.4;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito    lex:temConteudo    "i) oito DAS 102.3;" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte    lex:temConteudo    "j) vinte e quatro DAS 102.2; e" .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte\/IncisoAlineaOnze .
+lex:D9000\/Artigo2\/IncisoII\/IncisoAlineaTres\/IncisoAlineaDez\/IncisoAlineaVinte\/IncisoAlineaTrinta\/IncisoAlineaDezenove\/IncisoAlineaDez\/IncisoAlineaDois\/IncisoAlineaCinco\/IncisoAlineaOito\/IncisoAlineaVinte\/IncisoAlineaOnze    lex:temConteudo    "k) onze DAS 102.1;" .
+lex:D9000\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo2    lex:temInciso    lex:D9000\/Artigo2\/IncisoIII .
+lex:D9000\/Artigo2\/IncisoIII    lex:temConteudo    "III - do Ministério dos Transportes, Portos e Aviação Civil para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro    lex:temConteudo    "a) quatro FG-1;" .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze    lex:temConteudo    "b) quatorze FG-2; e" .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoIII\/IncisoAlineaQuatro\/IncisoAlineaQuatorze\/IncisoAlineaVinte    lex:temConteudo    "c) vinte e uma FG-3; e" .
+lex:D9000\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo2    lex:temInciso    lex:D9000\/Artigo2\/IncisoIV .
+lex:D9000\/Artigo2\/IncisoIV    lex:temConteudo    "IV - da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério dos Transportes, Portos e Aviação Civil:" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois    lex:temConteudo    "a) dois DAS 101.6;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze    lex:temConteudo    "b) treze DAS 101.5;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta    lex:temConteudo    "c) quarenta e cinco DAS 101.4;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta    lex:temConteudo    "d) setenta DAS 101.3;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta    lex:temConteudo    "e) trinta DAS 101.2;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:temConteudo    "f) vinte e um DAS 101.1;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete    lex:temConteudo    "g) sete DAS 102.4;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze    lex:temConteudo    "h) onze DAS 102.3;" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta    lex:temConteudo    "i) trinta e cinco DAS 102.2; e" .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta    lex:temIncisoAlinea    lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta\/IncisoAlineaTres .
+lex:D9000\/Artigo2\/IncisoIV\/IncisoAlineaDois\/IncisoAlineaTreze\/IncisoAlineaQuarenta\/IncisoAlineaSetenta\/IncisoAlineaTrinta\/IncisoAlineaVinte\/IncisoAlineaSete\/IncisoAlineaOnze\/IncisoAlineaTrinta\/IncisoAlineaTres    lex:temConteudo    "j) três DAS 102.1." .
+lex:D9000\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo3 .
+lex:D9000\/Artigo3    lex:temConteudo    "Art. 3 º  Ficam remanejadas, da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Ministério dos Transportes, Portos e Aviação Civil, na forma do Anexo IV, em cumprimento à Lei n º 13.346, de 10 de outubro de 2016, as seguintes Funções Comissionadas do Poder Executivo - FCPE:" .
+lex:D9000\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoI .
+lex:D9000\/Artigo3\/IncisoI    lex:temConteudo    "I - trinta e nove FCPE 101.4;" .
+lex:D9000\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoII .
+lex:D9000\/Artigo3\/IncisoII    lex:temConteudo    "II - quarenta e oito FCPE 101.3;" .
+lex:D9000\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoIII .
+lex:D9000\/Artigo3\/IncisoIII    lex:temConteudo    "III - quarenta e três FCPE 101.2;" .
+lex:D9000\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoIV .
+lex:D9000\/Artigo3\/IncisoIV    lex:temConteudo    "IV - trinta e três FCPE 101.1;" .
+lex:D9000\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoV .
+lex:D9000\/Artigo3\/IncisoV    lex:temConteudo    "V - duas FCPE 102.4;" .
+lex:D9000\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoVI .
+lex:D9000\/Artigo3\/IncisoVI    lex:temConteudo    "VI - seis FCPE 102.3;" .
+lex:D9000\/Artigo3\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoVII .
+lex:D9000\/Artigo3\/IncisoVII    lex:temConteudo    "VII - vinte e oito FCPE 102.2; e" .
+lex:D9000\/Artigo3\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo3    lex:temInciso    lex:D9000\/Artigo3\/IncisoVIII .
+lex:D9000\/Artigo3\/IncisoVIII    lex:temConteudo    "VIII - oito FCPE 102.1." .
+lex:D9000\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo3    lex:temParagrafo    lex:D9000\/Artigo3\/ParagrafoUnico .
+lex:D9000\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ficam extintos duzentos e sete cargos em comissão do Grupo-DAS, conforme demonstrado no Anexo IV." .
+lex:D9000\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo4 .
+lex:D9000\/Artigo4    lex:temConteudo    "Art. 4 º Ficam remanejados, na forma do Anexo V, para alcance da meta estabelecida no Anexo I ao Decreto n º 8.785, de 2016, os seguintes cargos comissionados das Agências reguladoras vinculadas ao Ministério dos Transportes, Portos e Aviação Civil:" .
+lex:D9000\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo4    lex:temInciso    lex:D9000\/Artigo4\/IncisoI .
+lex:D9000\/Artigo4\/IncisoI    lex:temConteudo    "I - da Agência Nacional de Aviação Civil - ANAC para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um CGE II;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um CGE III;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temConteudo    "c) quatro CGE IV;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temConteudo    "d) um CA II;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "e) um CAS I;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "f) um CCT V;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temConteudo    "g) quatro CCT IV;" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro    lex:temConteudo    "h) quatro CCT III; e" .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro\/IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaQuatro\/IncisoAlineaQuatro\/IncisoAlinea    lex:temConteudo    "i)  um CCT II;" .
+lex:D9000\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo4    lex:temInciso    lex:D9000\/Artigo4\/IncisoII .
+lex:D9000\/Artigo4\/IncisoII    lex:temConteudo    "II - da Agência Nacional de Transportes Aquaviários - ANTAQ para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um CGE IV;" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um CA II;" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "c) um CA III;" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois    lex:temConteudo    "d) dois CCT IV;" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois    lex:temConteudo    "e) dois CCT III;" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres    lex:temConteudo    "f) três CCT II; e" .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaDois .
+lex:D9000\/Artigo4\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaDois\/IncisoAlineaTres\/IncisoAlineaDois    lex:temConteudo    "g) dois CCT I; e" .
+lex:D9000\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo4    lex:temInciso    lex:D9000\/Artigo4\/IncisoIII .
+lex:D9000\/Artigo4\/IncisoIII    lex:temConteudo    "III - da Agência Nacional de Transportes Terrestres - ANTT para a Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão:" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco    lex:temConteudo    "a) cinco CGE IV;" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm    lex:temConteudo    "b) um CA III;" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois    lex:temConteudo    "c) dois CAS I;" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm    lex:temConteudo    "d) um CAS II;" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "e) três CCT V;" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco    lex:temConteudo    "f) cinco CCT IV; e" .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco    lex:temIncisoAlinea    lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco\/IncisoAlineaUm .
+lex:D9000\/Artigo4\/IncisoIII\/IncisoAlineaCinco\/IncisoAlineaUm\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaCinco\/IncisoAlineaUm    lex:temConteudo    "g) um CCT II." .
+lex:D9000\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo5 .
+lex:D9000\/Artigo5    lex:temConteudo    "Art. 5 º  A Tabela b do Anexo II e o Anexo III ao Decreto n º 5.731, de 20 de março de 2006, passam a vigorar na forma dos Anexos VI e VII a este Decreto." .
+lex:D9000\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo6 .
+lex:D9000\/Artigo6    lex:temConteudo    "Art. 6 º  O Anexo II ao Decreto n º 4.122, de 13 de fevereiro de 2002, passa a vigorar na forma do Anexo VIII a este Decreto." .
+lex:D9000\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo7 .
+lex:D9000\/Artigo7    lex:temConteudo    "Art. 7 º  O Anexo II ao Decreto n º 4.130, de 13 de fevereiro de 2002, passa a vigorar na forma do Anexo IX a este Decreto." .
+lex:D9000\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo8 .
+lex:D9000\/Artigo8    lex:temConteudo    "Art. 8 º  O Diretor-Presidente da ANAC e os Diretores-Gerais da ANTAQ e da ANTT publicarão, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos comissionados e dos cargos comissionados técnicos a que se referem, respectivamente, o Anexo VI, a Tabela a do Anexo VIII e a Tabela a do Anexo IX, que indicarão, inclusive, o número de cargos vagos, suas denominações e seus níveis." .
+lex:D9000\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo9 .
+lex:D9000\/Artigo9    lex:temConteudo    "Art. 9 º  A ANAC, a ANTAQ e a ANTT deverão elaborar e publicar no Diário Oficial da União novos quadros demonstrativos dos cargos em comissão e das funções de confiança até o dia seguinte ao da entrada em vigor deste decreto, observados os seguintes limites de custos:" .
+lex:D9000\/Artigo9\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo9    lex:temInciso    lex:D9000\/Artigo9\/IncisoI .
+lex:D9000\/Artigo9\/IncisoI    lex:temConteudo    "I - para a ANAC, os estabelecidos no Anexo VII;" .
+lex:D9000\/Artigo9\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo9    lex:temInciso    lex:D9000\/Artigo9\/IncisoII .
+lex:D9000\/Artigo9\/IncisoII    lex:temConteudo    "II - para a ANTAQ, os estabelecidos na Tabela b do Anexo VIII; e" .
+lex:D9000\/Artigo9\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo9    lex:temInciso    lex:D9000\/Artigo9\/IncisoIII .
+lex:D9000\/Artigo9\/IncisoIII    lex:temConteudo    "III - para a ANTT, os estabelecidos na Tabela b do Anexo IX." .
+lex:D9000\/Artigo9\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo9    lex:temParagrafo    lex:D9000\/Artigo9\/Paragrafo1 .
+lex:D9000\/Artigo9\/Paragrafo1    lex:temConteudo    "§ 1 º  Os ocupantes dos cargos em comissão não contemplados nos atos de que trata o caput ficam automaticamente exonerados." .
+lex:D9000\/Artigo9\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo9    lex:temParagrafo    lex:D9000\/Artigo9\/Paragrafo2 .
+lex:D9000\/Artigo9\/Paragrafo2    lex:temConteudo    "§ 2 º  A partir da publicação dos atos de que trata o caput, a ANAC, a ANTAQ e a ANTT ficam autorizadas a efetuar a alteração do quantitativo e da distribuição dos cargos comissionados e dos cargos comissionados técnicos em suas respectivas estruturas, respeitados os limite de custo previstos no caput." .
+lex:D9000\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo10 .
+lex:D9000\/Artigo10    lex:temConteudo    "Art. 10.  Os ocupantes dos cargos em comissão e das funções de confiança que deixam de existir na Estrutura Regimental do Ministério dos Transportes, Portos e Aviação Civil por força deste Decreto ficam automaticamente exonerados ou dispensados." .
+lex:D9000\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo11 .
+lex:D9000\/Artigo11    lex:temConteudo    "Art. 11.  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do Ministério dos Transportes, Portos e Aviação Civil deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D9000\/Artigo11\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo11    lex:temParagrafo    lex:D9000\/Artigo11\/ParagrafoUnico .
+lex:D9000\/Artigo11\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado dos Transportes, Portos e Aviação Civil publicará, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos e funções vagas, suas denominações e seus níveis." .
+lex:D9000\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo12 .
+lex:D9000\/Artigo12    lex:temConteudo    "Art. 12.  O Ministro de Estado dos Transportes, Portos e Aviação Civil editará regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do Ministério dos Transportes, Portos e Aviação Civil, suas competências e as atribuições de seus dirigentes, no prazo de sessenta dias, contado da data de entrada em vigor deste Decreto." .
+lex:D9000\/Artigo12\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo12    lex:temParagrafo    lex:D9000\/Artigo12\/ParagrafoUnico .
+lex:D9000\/Artigo12\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O regimento interno conterá o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério dos Transportes, Portos e Aviação Civil." .
+lex:D9000\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo13 .
+lex:D9000\/Artigo13    lex:temConteudo    "Art. 13.  O Ministro de Estado dos Transportes, Portos e Aviação Civil poderá, mediante alteração do regimento interno, permutar cargos em comissão do Grupo-DAS com FCPE, desde que não sejam alteradas as unidades da estrutura organizacional básica especificadas na Tabela a do Anexo II e sejam mantidos as categorias, os níveis e os quantitativos previstos na Tabela b do Anexo II, conforme o disposto no art. 9 º do Decreto n º 6.944, de 21 de agosto de 2009." .
+lex:D9000\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo14 .
+lex:D9000\/Artigo14    lex:temConteudo    "Art. 14.  O Ministério dos Transportes, Portos e Aviação Civil será responsável pelas seguintes medidas em relação às extintas Secretaria de Portos da Presidência da República e Secretaria de Aviação Civil da Presidência da República:" .
+lex:D9000\/Artigo14\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo14    lex:temInciso    lex:D9000\/Artigo14\/IncisoI .
+lex:D9000\/Artigo14\/IncisoI    lex:temConteudo    "I - elaboração dos relatórios de gestão, de acordo com orientações a serem emitidas pelo Tribunal de Contas da União;" .
+lex:D9000\/Artigo14\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo14    lex:temInciso    lex:D9000\/Artigo14\/IncisoII .
+lex:D9000\/Artigo14\/IncisoII    lex:temConteudo    "II - remanejamento dos recursos orçamentários e financeiros;" .
+lex:D9000\/Artigo14\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo14    lex:temInciso    lex:D9000\/Artigo14\/IncisoIII .
+lex:D9000\/Artigo14\/IncisoIII    lex:temConteudo    "III - transferências de bens patrimoniais; e" .
+lex:D9000\/Artigo14\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo14    lex:temInciso    lex:D9000\/Artigo14\/IncisoIV .
+lex:D9000\/Artigo14\/IncisoIV    lex:temConteudo    "IV - atos decorrentes de contratos, convênios e instrumentos congêneres." .
+lex:D9000\/Artigo14\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo14    lex:temParagrafo    lex:D9000\/Artigo14\/ParagrafoUnico .
+lex:D9000\/Artigo14\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Fica transferido para o Ministério dos Transportes, Portos e Aviação Civil o quadro de servidores efetivos da extinta Secretaria de Portos da Presidência da República." .
+lex:D9000\/Artigo15    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo15 .
+lex:D9000\/Artigo15    lex:temConteudo    "Art. 15.  As Gratificações de Exercício em Cargo de Confiança Privativas de Militar da Presidência da República e as Gratificações de Representação da Presidência da República, alocadas na extinta Secretaria de Aviação Civil, referidas na Tabela c do Anexo II e na Tabela d do Anexo II, respectivamente, retornarão automaticamente à Presidência da República quando ocorrer o fim do exercício dos servidores e militares para elas designados até a data de entrada em vigor da Lei n º 13.341, de 2016." .
+lex:D9000\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo16 .
+lex:D9000\/Artigo16    lex:temConteudo    "Art. 16.  O Decreto n º 3.564, de 17 de agosto de 2000, passa a vigorar com as seguintes alterações:" .
+lex:D9000\/Artigo16\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo16    lex:temInciso    lex:D9000\/Artigo16\/IncisoIV .
+lex:D9000\/Artigo16\/IncisoIV    lex:temConteudo    "IV - o Ministro de Estado da Indústria, Comércio Exterior e Serviços;" .
+lex:D9000\/Artigo16\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo16    lex:temInciso    lex:D9000\/Artigo16\/IncisoVII .
+lex:D9000\/Artigo16\/IncisoVII    lex:temConteudo    "VII - o Ministro de Estado do Planejamento, Desenvolvimento e Gestão;" .
+lex:D9000\/Artigo16\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo16    lex:temInciso    lex:D9000\/Artigo16\/IncisoVIII .
+lex:D9000\/Artigo16\/IncisoVIII    lex:temConteudo    "VIII - o Ministro de Estado da Justiça e Segurança Pública;" .
+lex:D9000\/Artigo16\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo16    lex:temInciso    lex:D9000\/Artigo16\/IncisoIX .
+lex:D9000\/Artigo16\/IncisoIX    lex:temConteudo    "IX - o Ministro de Estado dos Transportes, Portos e Aviação Civil; e" .
+lex:D9000\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo16    lex:temParagrafo    lex:D9000\/Artigo16\/Paragrafo1 .
+lex:D9000\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1º O Ministro de Estado dos Transportes, Portos e Aviação Civil presidirá o Conselho, cabendo-lhe:" .
+lex:D9000\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo17 .
+lex:D9000\/Artigo17    lex:temConteudo    "Art. 17.  O Decreto n º 7.554, de 15 de agosto de 2011, passa a vigorar com as seguintes alterações:" .
+lex:D9000\/Artigo17\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo17    lex:temInciso    lex:D9000\/Artigo17\/IncisoI .
+lex:D9000\/Artigo17\/IncisoI    lex:temConteudo    "I - Ministério dos Transportes, Portos e Aviação Civil, que a coordenará;" .
+lex:D9000\/Artigo17\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo17    lex:temInciso    lex:D9000\/Artigo17\/IncisoVI .
+lex:D9000\/Artigo17\/IncisoVI    lex:temConteudo    "VI - Ministério da Justiça e Segurança Pública;" .
+lex:D9000\/Artigo17\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo17    lex:temInciso    lex:D9000\/Artigo17\/IncisoVII .
+lex:D9000\/Artigo17\/IncisoVII    lex:temConteudo    "VII - Ministério do Planejamento, Desenvolvimento e Gestão;" .
+lex:D9000\/Artigo17\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo17    lex:temParagrafo    lex:D9000\/Artigo17\/Paragrafo1 .
+lex:D9000\/Artigo17\/Paragrafo1    lex:temConteudo    "§ 1º Os representantes, titular e suplente, dos órgãos e da entidade a que se refere o caput serão indicados pelos Ministros de Estado respectivos e pelo Diretor-Presidente da ANAC e designados em ato do Ministro de Estado dos Transportes, Portos e Aviação Civil." .
+lex:D9000\/Artigo17\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo17    lex:temParagrafo    lex:D9000\/Artigo17\/Paragrafo3 .
+lex:D9000\/Artigo17\/Paragrafo3    lex:temConteudo    "§ 3º Caberá à Secretaria Nacional de Aviação Civil do Ministério dos Transportes, Portos e Aviação Civil fornecer o apoio administrativo e os meios necessários ao funcionamento da CONAERO e realizar o acompanhamento da implementação dos parâmetros e das metas de desempenho dos aeroportos. (NR)" .
+lex:D9000\/Artigo17\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D9000\/Artigo17\/Paragrafo3    lex:temParagrafoInciso    lex:D9000\/Artigo17\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D9000\/Artigo17\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - Departamento de Polícia Federal do Ministério da Justiça e Segurança Pública;" .
+lex:D9000\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo18 .
+lex:D9000\/Artigo18    lex:temConteudo    "Art. 18.  O Decreto n º 7.860, de 6 de dezembro de 2012, passa a vigorar com as seguintes alterações:" .
+lex:D9000\/Artigo18\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo18    lex:temInciso    lex:D9000\/Artigo18\/IncisoIV .
+lex:D9000\/Artigo18\/IncisoIV    lex:temConteudo    "IV - Ministério dos Transportes, Portos e Aviação Civil; e" .
+lex:D9000\/Artigo18\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo18    lex:temParagrafo    lex:D9000\/Artigo18\/Paragrafo6 .
+lex:D9000\/Artigo18\/Paragrafo6    lex:temConteudo    "§ 6º A Secretaria Nacional de Portos do Ministério dos Transportes, Portos e Aviação Civil exercerá a função de Secretaria-Executiva da Comissão Nacional para Assuntos de Praticagem. (NR)" .
+lex:D9000\/Artigo18\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo18    lex:temParagrafo    lex:D9000\/Artigo18\/Paragrafo2 .
+lex:D9000\/Artigo18\/Paragrafo2    lex:temConteudo    "§ 2º As propostas encaminhadas pela Comissão serão publicadas no sítio eletrônico do Ministério dos Transportes, Portos e Aviação Civil e no sítio eletrônico da Diretoria de Portos e Costas da Marinha do Brasil, no prazo de dez dias, contado da data da reunião." .
+lex:D9000\/Artigo19    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo19 .
+lex:D9000\/Artigo19    lex:temConteudo    "Art. 19.  O Decreto nº 7.861, de 6 de dezembro de 2012, passa a vigorar com as seguintes alterações:" .
+lex:D9000\/Artigo19\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo19    lex:temInciso    lex:D9000\/Artigo19\/IncisoI .
+lex:D9000\/Artigo19\/IncisoI    lex:temConteudo    "I - Ministério dos Transportes, Portos e Aviação Civil;" .
+lex:D9000\/Artigo19\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo19    lex:temInciso    lex:D9000\/Artigo19\/IncisoIII .
+lex:D9000\/Artigo19\/IncisoIII    lex:temConteudo    "III - Ministério da Justiça e Segurança Pública;" .
+lex:D9000\/Artigo19\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo19    lex:temInciso    lex:D9000\/Artigo19\/IncisoVIII .
+lex:D9000\/Artigo19\/IncisoVIII    lex:temConteudo    "VIII - Ministério da Indústria, Comércio Exterior e Serviços;" .
+lex:D9000\/Artigo19\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo19    lex:temInciso    lex:D9000\/Artigo19\/IncisoIX .
+lex:D9000\/Artigo19\/IncisoIX    lex:temConteudo    "IX - Ministério do Planejamento, Desenvolvimento e Gestão; e" .
+lex:D9000\/Artigo19\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo19    lex:temParagrafo    lex:D9000\/Artigo19\/Paragrafo1 .
+lex:D9000\/Artigo19\/Paragrafo1    lex:temConteudo    "§ 1º  Os representantes, titular e suplente, dos órgãos e da entidade a que se refere o caput serão indicados pelos Ministros de Estado respectivos e pelo Diretor-Geral da ANTAQ e designados em ato do Ministro de Estado dos Transportes, Portos e Aviação Civil." .
+lex:D9000\/Artigo19\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo19    lex:temParagrafo    lex:D9000\/Artigo19\/Paragrafo3 .
+lex:D9000\/Artigo19\/Paragrafo3    lex:temConteudo    "§ 3º  Caberá à Secretaria Nacional de Portos do Ministério dos Transportes, Portos e Aviação Civil fornecer apoio técnico e administrativo e os meios necessários ao funcionamento da CONAPORTOS e reunir e sistematizar informações relativas ao cumprimento das metas por ela estabelecidas. (NR)" .
+lex:D9000\/Artigo19\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D9000\/Artigo19\/Paragrafo3    lex:temParagrafoInciso    lex:D9000\/Artigo19\/Paragrafo3\/ParagrafoIncisoII .
+lex:D9000\/Artigo19\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - Departamento de Polícia Federal do Ministério da Justiça e Segurança Pública;" .
+lex:D9000\/Artigo19\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo19    lex:temParagrafo    lex:D9000\/Artigo19\/Paragrafo2 .
+lex:D9000\/Artigo19\/Paragrafo2    lex:temConteudo    "§ 2º Nos portos organizados não outorgados às Companhias Docas, caberá ao Ministério dos Transportes, Portos e Aviação Civil designar o órgão ou a entidade responsável pela coordenação da comissão local." .
+lex:D9000\/Artigo19\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D9000\/Artigo19    lex:temParagrafo    lex:D9000\/Artigo19\/Paragrafo3 .
+lex:D9000\/Artigo19\/Paragrafo3    lex:temConteudo    "§ 3º Representante do Ministério dos Transportes, Portos e Aviação Civil poderá participar das reuniões, sempre que entender necessário." .
+lex:D9000\/Artigo20    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo20 .
+lex:D9000\/Artigo20    lex:temConteudo    "Art. 20.  Ficam revogados:" .
+lex:D9000\/Artigo20\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo20    lex:temInciso    lex:D9000\/Artigo20\/IncisoI .
+lex:D9000\/Artigo20\/IncisoI    lex:temConteudo    "I - o inciso VIII do caput do art. 4 ° do Decreto n ° 5.269, de 10 de novembro de 2004;" .
+lex:D9000\/Artigo20\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo20    lex:temInciso    lex:D9000\/Artigo20\/IncisoII .
+lex:D9000\/Artigo20\/IncisoII    lex:temConteudo    "II - o Decreto n ° 7.476, de 10 de maio de 2011;" .
+lex:D9000\/Artigo20\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo20    lex:temInciso    lex:D9000\/Artigo20\/IncisoIII .
+lex:D9000\/Artigo20\/IncisoIII    lex:temConteudo    "III - o inciso II do caput do art. 2 º do Decreto n º 7.860, de 6 de dezembro de 2012;" .
+lex:D9000\/Artigo20\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo20    lex:temInciso    lex:D9000\/Artigo20\/IncisoIV .
+lex:D9000\/Artigo20\/IncisoIV    lex:temConteudo    "IV - o Decreto n ° 8.088, de 2 de setembro de 2013; e" .
+lex:D9000\/Artigo20\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D9000\/Artigo20    lex:temInciso    lex:D9000\/Artigo20\/IncisoV .
+lex:D9000\/Artigo20\/IncisoV    lex:temConteudo    "V - o Decreto n º 8.687, de 4 de março de 2016." .
+lex:D9000\/Artigo21    lex:ehUm    lex:Artigo .
+lex:D9000    lex:temArtigo    lex:D9000\/Artigo21 .
+lex:D9000\/Artigo21    lex:temConteudo    "Art. 21.  Este Decreto entra em vigor em 11 de abril de 2017.            (Redação dada pelo Decreto nº 9.012, de 2017)" .
+lex:D9000\/Artigo2    lex:remetePara    lex:D8785 .
+lex:D9000\/Artigo2    lex:remetePara    lex:L13341 .
+lex:D9000\/Artigo3    lex:remetePara    lex:L13346 .
+lex:D9000\/Artigo4    lex:remetePara    lex:D8785\/ .
+lex:D9000\/Artigo5    lex:remetePara    lex:D5731\/ .
+lex:D9000\/Artigo5    lex:remetePara    lex:D5731\/ .
+lex:D9000\/Artigo6    lex:remetePara    lex:D4122\/ .
+lex:D9000\/Artigo7    lex:remetePara    lex:D4130\/ .
+lex:D9000\/Artigo13    lex:remetePara    lex:D6944\/Artigo9 .
+lex:D9000\/Artigo15    lex:remetePara    lex:L13341 .
+lex:D9000\/Artigo16    lex:remetePara    lex:D3564 .
+lex:D9000\/Artigo16\/IncisoIV    lex:remetePara    lex:D3564\/Artigo3 .
+lex:D9000\/Artigo16\/IncisoVII    lex:remetePara    lex:D3564\/Artigo3 .
+lex:D9000\/Artigo16\/IncisoVIII    lex:remetePara    lex:D3564\/Artigo3 .
+lex:D9000\/Artigo16\/IncisoIX    lex:remetePara    lex:D3564\/Artigo3 .
+lex:D9000\/Artigo16\/Paragrafo1    lex:remetePara    lex:D3564\/Artigo3\/Paragrafo1 .
+lex:D9000\/Artigo16\/Texto00105    lex:remetePara    lex:D3564\/Artigo6 .
+lex:D9000\/Artigo16\/Texto00105    lex:remetePara    lex:D3564\/Artigo10 .
+lex:D9000\/Artigo17    lex:remetePara    lex:D7554 .
+lex:D9000\/Artigo17\/IncisoI    lex:remetePara    lex:D7554\/Artigo2 .
+lex:D9000\/Artigo17\/IncisoVI    lex:remetePara    lex:D7554\/Artigo2 .
+lex:D9000\/Artigo17\/IncisoVII    lex:remetePara    lex:D7554\/Artigo2 .
+lex:D9000\/Artigo17\/Paragrafo1    lex:remetePara    lex:D7554\/Artigo2\/Paragrafo1 .
+lex:D9000\/Artigo17\/Paragrafo3    lex:remetePara    lex:D7554\/Artigo2\/Paragrafo3 .
+lex:D9000\/Artigo17\/Paragrafo3\/ParagrafoIncisoIII    lex:remetePara    lex:D7554\/Artigo7 .
+lex:D9000\/Artigo18    lex:remetePara    lex:D7860 .
+lex:D9000\/Artigo18\/IncisoIV    lex:remetePara    lex:D7860\/Artigo2 .
+lex:D9000\/Artigo18\/Paragrafo6    lex:remetePara    lex:D7860\/Artigo2\/Paragrafo6 .
+lex:D9000\/Artigo18\/Paragrafo2    lex:remetePara    lex:D7860\/Artigo5\/Paragrafo2 .
+lex:D9000\/Artigo19    lex:remetePara    lex:D7861 .
+lex:D9000\/Texto00117    lex:remetePara    lex:D7861\/Artigo1 .
+lex:D9000\/Artigo19\/IncisoI    lex:remetePara    lex:D7861\/Artigo2 .
+lex:D9000\/Artigo19\/IncisoIII    lex:remetePara    lex:D7861\/Artigo2 .
+lex:D9000\/Artigo19\/IncisoVIII    lex:remetePara    lex:D7861\/Artigo2 .
+lex:D9000\/Artigo19\/IncisoIX    lex:remetePara    lex:D7861\/Artigo2 .
+lex:D9000\/Artigo19\/Paragrafo1    lex:remetePara    lex:D7861\/Artigo2\/Paragrafo1 .
+lex:D9000\/Artigo19\/Paragrafo3    lex:remetePara    lex:D7861\/Artigo2\/Paragrafo3 .
+lex:D9000\/Artigo19\/Paragrafo3\/ParagrafoIncisoII    lex:remetePara    lex:D7861\/Artigo5 .
+lex:D9000\/Artigo19\/Paragrafo2    lex:remetePara    lex:D7861\/Artigo5\/Paragrafo2 .
+lex:D9000\/Artigo19\/Paragrafo3    lex:remetePara    lex:D7861\/Artigo5\/Paragrafo3 .
+lex:D9000\/Artigo20\/IncisoI    lex:remetePara    lex:D5269\/Artigo4 .
+lex:D9000\/Artigo20\/IncisoII    lex:remetePara    lex:D7476 .
+lex:D9000\/Artigo20\/IncisoIII    lex:remetePara    lex:D7860\/Artigo2 .
+lex:D9000\/Artigo20\/IncisoIV    lex:remetePara    lex:D8088 .
+lex:D9000\/Artigo20\/IncisoV    lex:remetePara    lex:D8687 .
+lex:D9000\/Artigo21    lex:remetePara    lex:D9012 .

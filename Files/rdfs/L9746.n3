@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9746    lex:ehUm    lex:DocLegal .
+lex:L9746    lex:temTextoIntegral    lex:HTMLs\/L9746.htm .
+lex:L9746\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9746    lex:temArtigo    lex:L9746\/Artigo1 .
+lex:L9746\/Artigo1    lex:temConteudo    "Art. 1o  Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei no 9.598, de 30 de dezembro de 1997), em favor do Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal, crédito extraordinário no valor de R$ 15.500.000,00 (quinze milhões e quinhentos mil reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L9746\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9746    lex:temArtigo    lex:L9746\/Artigo2 .
+lex:L9746\/Artigo2    lex:temConteudo    "Art. 2o  Os recursos necessários à execução do disposto no artigo anterior decorrerão:" .
+lex:L9746\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9746\/Artigo2    lex:temInciso    lex:L9746\/Artigo2\/IncisoI .
+lex:L9746\/Artigo2\/IncisoI    lex:temConteudo    "I - da incorporação de recursos provenientes de operação de crédito firmada entre a União e o Banco Internacional para Reconstrução e Desenvolvimento - BIRD;" .
+lex:L9746\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9746\/Artigo2    lex:temInciso    lex:L9746\/Artigo2\/IncisoII .
+lex:L9746\/Artigo2\/IncisoII    lex:temConteudo    "II - de cancelamento de dotações do próprio órgão, conforme indicado no Anexo II desta Lei." .
+lex:L9746\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9746    lex:temArtigo    lex:L9746\/Artigo3 .
+lex:L9746\/Artigo3    lex:temConteudo    "Art. 3o  Em decorrência do disposto nos arts. 1o e 2o, fica alterada a receita do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, na forma indicada no Anexo III desta Lei." .
+lex:L9746\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9746    lex:temArtigo    lex:L9746\/Artigo4 .
+lex:L9746\/Artigo4    lex:temConteudo    "Art. 4o  Ficam convalidados os atos praticados com base na Medida Provisória no 1.714-2, de 29 de outubro de 1998." .
+lex:L9746\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L9746    lex:temArtigo    lex:L9746\/Artigo5 .
+lex:L9746\/Artigo5    lex:temConteudo    "Art. 5o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L9746\/Texto    lex:remetePara    lex:1714-3 .
+lex:L9746\/Artigo1    lex:remetePara    lex:L9598 .
+lex:L9746\/Artigo4    lex:remetePara    lex:1714-2 .

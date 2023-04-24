@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6677    lex:ehUm    lex:DocLegal .
+lex:L6677    lex:temTextoIntegral    lex:HTMLs\/L6677.htm .
+lex:L6677\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo1 .
+lex:L6677\/Artigo1    lex:temConteudo    "Art. 1º A pensão aos ex-servidores associados do Instituto de Previdência dos Congressistas - IPC, sempre subordinada ao período de carência, é proporcional ao tempo de serviço prestado a qualquer das Casas do Congresso Nacional como integrantes de seus quadros, à razão de um trinta avos por ano de serviço, vedada a contagem de tempo em dobro." .
+lex:L6677\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6677\/Artigo1    lex:temParagrafo    lex:L6677\/Artigo1\/Paragrafo1 .
+lex:L6677\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O valor da pensão calcular-se-á sobre o vencimento-base do cargo ao término do exercício e nunca será superior aos subsídios - parte fixa e variável - dos Congressistas." .
+lex:L6677\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6677\/Artigo1    lex:temParagrafo    lex:L6677\/Artigo1\/Paragrafo2 .
+lex:L6677\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A pensão devida aos ex-servidores admitidos no IPC a partir da vigência da Lei nº 6.017, de 31 de dezembro de 1973, é proporcional aos anos de contribuição." .
+lex:L6677\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo2 .
+lex:L6677\/Artigo2    lex:temConteudo    "Art. 2º Os valores das pensões já concedidas a ex-servidores, tendo por limite o subsídio fixo, serão reajustados de acordo com o § 1º do artigo anterior, a partir de 29 de março de 1979." .
+lex:L6677\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo3 .
+lex:L6677\/Artigo3    lex:temConteudo    "Art. 3º A pensão por invalidez aos ex-servidores é proporcional ao tempo de serviço ou de contribuição, à razão de um trinta avos por ano." .
+lex:L6677\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6677\/Artigo3    lex:temParagrafo    lex:L6677\/Artigo3\/ParagrafoUnico .
+lex:L6677\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Ocorrendo invalidez antes de completadas as prestações de carência, fica assegurada pensão mínima correspondente a vinte e seis por cento do vencimento-base." .
+lex:L6677\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo4 .
+lex:L6677\/Artigo4    lex:temConteudo    "Art. 4º A pensão por invalidez ao contribuinte obrigatório e ao facultativo não compreendido no artigo anterior calcula-se de acordo com o art. 3º e seus parágrafos da Lei nº 6.497, de 7 de dezembro de 1977." .
+lex:L6677\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6677\/Artigo4    lex:temParagrafo    lex:L6677\/Artigo4\/ParagrafoUnico .
+lex:L6677\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Será paga pensão mínima de vinte e seis por cento dos subsídios fixo e variável ao contribuinte que vier a ficar inválido antes de completada a carência." .
+lex:L6677\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo5 .
+lex:L6677\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6677\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6677    lex:temArtigo    lex:L6677\/Artigo6 .
+lex:L6677\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L6677\/Artigo1\/Paragrafo2    lex:remetePara    lex:L6017 .
+lex:L6677\/Artigo4    lex:remetePara    lex:L6497\/Artigo3 .

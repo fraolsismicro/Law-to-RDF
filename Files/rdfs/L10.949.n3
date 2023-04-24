@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.949    lex:ehUm    lex:DocLegal .
+lex:L10.949    lex:temTextoIntegral    lex:HTMLs\/L10.949.htm .
+lex:L10949\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10949    lex:temArtigo    lex:L10949\/Artigo1 .
+lex:L10949\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto ao Orçamento Fiscal da União (Lei no 10.837, de 16 de janeiro de 2004), em favor do Ministério da Fazenda e de Operações Oficiais de Crédito, crédito suplementar no valor global de R$ 206.524.299,00 (duzentos e seis milhões, quinhentos e vinte e quatro mil, duzentos e noventa e nove reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L10949\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10949    lex:temArtigo    lex:L10949\/Artigo2 .
+lex:L10949\/Artigo2    lex:temConteudo    "Art. 2o Os recursos necessários à abertura do crédito de que trata o art. 1o decorrem de:" .
+lex:L10949\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10949\/Artigo2    lex:temInciso    lex:L10949\/Artigo2\/IncisoI .
+lex:L10949\/Artigo2\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União do exercício de 2003, no valor de R$ 200.683.243,00 (duzentos milhões, seiscentos e oitenta e três mil, duzentos e quarenta e três reais); e" .
+lex:L10949\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10949\/Artigo2    lex:temInciso    lex:L10949\/Artigo2\/IncisoII .
+lex:L10949\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 5.841.056,00 (cinco milhões, oitocentos e quarenta e um mil, cinqüenta e seis reais), conforme indicado no Anexo II desta Lei." .
+lex:L10949\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10949    lex:temArtigo    lex:L10949\/Artigo3 .
+lex:L10949\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10949\/Artigo1    lex:remetePara    lex:L10837 .

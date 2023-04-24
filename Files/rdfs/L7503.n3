@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7503    lex:ehUm    lex:DocLegal .
+lex:L7503    lex:temTextoIntegral    lex:HTMLs\/L7503.htm .
+lex:L7503\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7503    lex:temArtigo    lex:L7503\/Artigo1 .
+lex:L7503\/Artigo1    lex:temConteudo    "Art 1º Os incisos VII, do artigo 61, e I, do artigo 98, da Lei nº 6.880, de 9 de dezembro de 1980, passam a vigorar com a seguinte redação:" .
+lex:L7503\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L7503\/Artigo1    lex:temInciso    lex:L7503\/Artigo1\/IncisoVII .
+lex:L7503\/Artigo1\/IncisoVII    lex:temConteudo    "VII - Oficiais dos 3 (três) últimos postos dos Quadros de que tratam as alíneas b, d e f do inciso I do artigo 98, 1/4 (um quarto) para o último posto, no mínimo, 1/10 (um décimo) para o penúltimo posto e, no mínimo, 1/15 (um quinze avos) para o antepenúltimo posto, dos respectivos Quadros, exceto quando o último e o penúltimo postos forem de Capitão-Tenente ou de Capitão e Primeiro-Tenente, caso em que as proporções serão de, no mínimo, 1/10 (um décimo) e 1/20 (um vinte avos), respectivamente." .
+lex:L7503\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7503\/Artigo1    lex:temInciso    lex:L7503\/Artigo1\/IncisoI .
+lex:L7503\/Artigo1\/IncisoI    lex:temConteudo    "I - atingir as seguintes idades-limite:" .
+lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa    lex:ehUm    lex:IncisoAlinea .
+lex:L7503\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa .
+lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa    lex:temConteudo    "a) na Marinha, no Exército e na Aeronáutica, para os oficiais dos Corpos, Quadros, Armas e Serviços não incluídos nas alíneas b, d e f:" .
+lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa\/IncisoAlineaNa    lex:ehUm    lex:IncisoAlinea .
+lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa    lex:temIncisoAlinea    lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa\/IncisoAlineaNa .
+lex:L7503\/Artigo1\/IncisoI\/IncisoAlineaNa\/IncisoAlineaNa    lex:temConteudo    "b) na Marinha, para os oficiais do Quadro de Oficiais Auxiliares da Armada (QOAA), do Quadro de Oficiais Auxiliares do CFN (QOA-CFN) e dos Quadros Complementares de Oficiais de Marinha, do Quadro de Farmacêuticos do CSM (QF-CSM) e do Quadro de Cirurgiões-Dentistas do CSM (QCD-CSM):" .
+lex:L7503\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7503    lex:temArtigo    lex:L7503\/Artigo2 .
+lex:L7503\/Artigo2    lex:temConteudo    "Art 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L7503\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7503    lex:temArtigo    lex:L7503\/Artigo3 .
+lex:L7503\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L7503\/Artigo1\/IncisoVII    lex:remetePara    lex:L6880\/Artigo61 .
+lex:L7503\/Artigo1\/IncisoI    lex:remetePara    lex:L6880\/Artigo98 .

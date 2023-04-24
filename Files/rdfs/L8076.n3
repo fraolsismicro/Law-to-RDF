@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8076    lex:ehUm    lex:DocLegal .
+lex:L8076    lex:temTextoIntegral    lex:HTMLs\/L8076.htm .
+lex:L8076\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8076    lex:temArtigo    lex:L8076\/Artigo1 .
+lex:L8076\/Artigo1    lex:temConteudo    "Art. 1º Nos mandados de segurança e nos procedimentos cautelares de que tratam os arts. 796 e seguintes do Código de Processo Civil, que versem matérias reguladas pelas disposições das Leis nºs 8.012, de 4 de abril de 1990, 8.014, de 6 de abril de 1990, 8.021, 8.023, 8.024, 8.029, 8.030, 8.032, 8.033, 8.034, todas de 12 de abril de 1990, 8.036, de 11 de maio de 1990, e 8.039, de 30 de maio de 1990, fica suspensa, até 15 de setembro de 1992, a concessão de medidas liminares." .
+lex:L8076\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8076\/Artigo1    lex:temParagrafo    lex:L8076\/Artigo1\/ParagrafoUnico .
+lex:L8076\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos feitos referidos neste artigo, a sentença concessiva da segurança, ou aquela que julgue procedente o pedido, sempre estará sujeita ao duplo grau de jurisdição, somente produzindo efeitos após confirmada pelo respectivo tribunal." .
+lex:L8076\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8076    lex:temArtigo    lex:L8076\/Artigo2 .
+lex:L8076\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L8076\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8076    lex:temArtigo    lex:L8076\/Artigo3 .
+lex:L8076\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se a Medida Provisória nº 197, de 24 de julho de 1990, e demais disposições em contrário." .
+lex:L8076\/Artigo1    lex:remetePara    lex:L5869\/Artigo796 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8012 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8014 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8021 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8023 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8024 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8029cons .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8030 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8032 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8033 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8034 .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8036consol .
+lex:L8076\/Artigo1    lex:remetePara    lex:L8039 .
+lex:L8076\/Artigo3    lex:remetePara    lex:197 .

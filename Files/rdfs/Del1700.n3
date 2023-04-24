@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1700    lex:ehUm    lex:DocLegal .
+lex:Del1700    lex:temTextoIntegral    lex:HTMLs\/Del1700.htm .
+lex:Del1700\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1700    lex:temArtigo    lex:Del1700\/Artigo1 .
+lex:Del1700\/Artigo1    lex:temConteudo    "Art. 1º Fica extinto o registro das letras de câmbio e notas promissórias estabelecido no art. 2º e seus parágrafos do Decreto-lei nº 427, de 22 de janeiro de 1969, e no art. 1º, § 11, do Decreto-lei nº 1042, de 21 de outubro de 1969." .
+lex:Del1700\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1700    lex:temArtigo    lex:Del1700\/Artigo2 .
+lex:Del1700\/Artigo2    lex:temConteudo    "Art. 2º Fica revogado o art. 2º da Lei nº 5.614, de 5 de outubro de 1970, que dispõe sobre o Cadastro Geral de Contribuintes." .
+lex:Del1700\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1700    lex:temArtigo    lex:Del1700\/Artigo3 .
+lex:Del1700\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1700\/Artigo1    lex:remetePara    lex:Del0427\/Artigo2 .
+lex:Del1700\/Artigo1    lex:remetePara    lex:Del1042\/Artigo1\/Paragrafo11 .
+lex:Del1700\/Artigo1    lex:remetePara    lex:Del1042\/Artigo11\/Paragrafo1 .
+lex:Del1700\/Artigo2    lex:remetePara    lex:L5614\/Artigo2 .

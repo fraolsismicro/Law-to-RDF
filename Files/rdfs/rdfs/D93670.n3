@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D93670    lex:ehUm    lex:DocLegal .
+lex:D93670    lex:temTextoIntegral    lex:HTMLs\/D93670.htm .
+lex:D93670\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D93670    lex:temArtigo    lex:D93670\/Artigo1A .
+lex:D93670\/Artigo1A    lex:temConteudo    "Art 1Âº Os artigos 209 e 210 do Decreto nÂº 57.654, de 20 de janeiro de 1966, que regulamenta a Lei do ServiÃ§o Militar passam a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D93670\/Artigo1A\/AlineaFornecidos    lex:ehUm    lex:Alinea .
+lex:D93670\/Artigo1A    lex:temAlinea    lex:D93670\/Artigo1A\/AlineaFornecidos .
+lex:D93670\/Artigo1A\/AlineaFornecidos    lex:temConteudo    "a) fornecidos por MinistÃ©rio Militar para os militares da ativa, da reserva remunerada e reformados das ForÃ§as Armadas; e" .
+lex:D93670\/Artigo1A\/AlineaFornecidos    lex:ehUm    lex:Alinea .
+lex:D93670\/Artigo1A    lex:temAlinea    lex:D93670\/Artigo1A\/AlineaFornecidos .
+lex:D93670\/Artigo1A\/AlineaFornecidos    lex:temConteudo    "b) fornecidos por Ã³rgÃ£o legalmente competente para os componentes das corporaÃ§Ãµes consideradas como reserva das ForÃ§as Armadas." .
+lex:D93670\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D93670    lex:temArtigo    lex:D93670\/Artigo2A .
+lex:D93670\/Artigo2A    lex:temConteudo    "Art 2Âº Este decreto entra em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D93670\/Artigo1A    lex:remetePara    lex:D57654 .
+lex:D93670\/Texto00001    lex:remetePara    lex:D57654\/Artigo209 .
+lex:D93670\/Artigo1A\/Texto00003    lex:remetePara    lex:D57654\/Artigo210 .

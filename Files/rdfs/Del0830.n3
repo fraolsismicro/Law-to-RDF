@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0830    lex:ehUm    lex:DocLegal .
+lex:Del0830    lex:temTextoIntegral    lex:HTMLs\/Del0830.htm .
+lex:Del0830\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo1 .
+lex:Del0830\/Artigo1    lex:temConteudo    "Art. 1º Ficam criados, extintos e transformados, de acôrdo com a tabela anexa, cargos isolados de provimento em comissão e efetivo, e de carreira no Quadro de Pessoal da Secretaria do Tribunal Federal de Recursos." .
+lex:Del0830\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo2 .
+lex:Del0830\/Artigo2    lex:temConteudo    "Art. 2º será exigida a apresentação de diploma:" .
+lex:Del0830\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0830\/Artigo2    lex:temInciso    lex:Del0830\/Artigo2\/IncisoI .
+lex:Del0830\/Artigo2\/IncisoI    lex:temConteudo    "I - De bacharel em Direito, para o Titular do cargo em comissão de Assessor jurídico destinado ao Gabinete da Presidência;" .
+lex:Del0830\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0830\/Artigo2    lex:temInciso    lex:Del0830\/Artigo2\/IncisoII .
+lex:Del0830\/Artigo2\/IncisoII    lex:temConteudo    "II - De contador, para o titular do cargo isolado efetivo de Auditor;" .
+lex:Del0830\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del0830\/Artigo2    lex:temInciso    lex:Del0830\/Artigo2\/IncisoIII .
+lex:Del0830\/Artigo2\/IncisoIII    lex:temConteudo    "III - De Técnico de Contabilidade, para o titular do cargo isolado efetivo de Contador." .
+lex:Del0830\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo3 .
+lex:Del0830\/Artigo3    lex:temConteudo    "Art. 3º O provimento dos cargos criados pela Lei nº 5.414, de 10 de abril de 1968, e por êste Decreto-lei, ressalvados aquêles providos em comissão, far-se-á mediante prévia aprovação em concurso público de provas." .
+lex:Del0830\/Artigo4-    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo4- .
+lex:Del0830\/Artigo4-    lex:temConteudo    "Art. 4º- A Revista do Tribunal Federal de Recursos passará a ser chefiada por um Secretário bacharel em Direito e designado por proposta do Ministro do Tribunal que estiver na sua direção." .
+lex:Del0830\/Artigo4-\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0830\/Artigo4-    lex:temParagrafo    lex:Del0830\/Artigo4-\/ParagrafoUnico .
+lex:Del0830\/Artigo4-\/ParagrafoUnico    lex:temConteudo    "Parágrafo único O pessoal técnico da Revista ficará subordinado nas relações de emprêgo ao regime da Consolidação das Leis do Trabalho e para sua admissão se exigirá a condição de ser acadêmico de Direito." .
+lex:Del0830\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo5 .
+lex:Del0830\/Artigo5    lex:temConteudo    "Art. 5º As despesas resultantes da execução da tabela anexa a êste Decreto-lei correrão por conta das verbas orçamentárias próprias do Tribunal Federal de Recursos." .
+lex:Del0830\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del0830    lex:temArtigo    lex:Del0830\/Artigo6 .
+lex:Del0830\/Artigo6    lex:temConteudo    "Art. 6º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0830\/Artigo6\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:Del0830\/Artigo6    lex:temArtigoPena    lex:Del0830\/Artigo6\/ArtigoPena .
+lex:Del0830\/Artigo6\/ArtigoPena    lex:temConteudo    "Alteração do anexo" .
+lex:Del0830\/Artigo3    lex:remetePara    lex:L5414 .
+lex:Del0830\/Artigo6\/Texto00011    lex:remetePara    lex:Del0964 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D86242    lex:ehUm    lex:DocLegal .
+lex:D86242    lex:temTextoIntegral    lex:HTMLs\/D86242.htm .
+lex:D86242\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D86242    lex:temArtigo    lex:D86242\/Artigo1 .
+lex:D86242\/Artigo1    lex:temConteudo    "Art. 1º Os §§ 1º e 3º do artigo 5º do Decreto nº 85.354, de 12 de novembro de 1980, introduzidos pelo Decreto nº 85.685, de 30 de janeiro de 1981, passam a vigorar com a seguinte redação:" .
+lex:D86242\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D86242\/Artigo1    lex:temParagrafo    lex:D86242\/Artigo1\/Paragrafo1 .
+lex:D86242\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Para fins de matrícula no curso de formação profissional, os candidatos habilitados no concurso de provas poderão ser contratados, a critério da Administração, pelo prazo máximo de 120 (certo e vinte) dias, pelos órgãos e entidades interessados, percebendo o equivalente a 80% (oitenta por cento) da retribuição mensal da referência inicial da Categoria Funcional, não podendo ser cumulada com a retribuição de quaisquer cargos ou empregos públicos, ressalvado o disposto no artigo 6º deste Decreto." .
+lex:D86242\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D86242\/Artigo1    lex:temParagrafo    lex:D86242\/Artigo1\/Paragrafo3 .
+lex:D86242\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Os candidatos aprovados no concurso e que a Administração houver por bem admitir terão o contrato referido no § 1º deste artigo convertido em contrato por prazo indeterminado e passarão a fazer jus à remuneração integral da referência inicial da Categoria Funcional, respeitada a ordem de classificação obtida na primeira etapa do concurso.'" .
+lex:D86242\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D86242    lex:temArtigo    lex:D86242\/Artigo2 .
+lex:D86242\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D86242\/Artigo1    lex:remetePara    lex:D85354\/Artigo5\/Paragrafo1 .
+lex:D86242\/Artigo1    lex:remetePara    lex:D85354\/Artigo5\/Paragrafo3 .
+lex:D86242\/Artigo1    lex:remetePara    lex:D85685 .

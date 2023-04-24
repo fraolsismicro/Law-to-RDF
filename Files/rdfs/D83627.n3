@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D83627    lex:ehUm    lex:DocLegal .
+lex:D83627    lex:temTextoIntegral    lex:HTMLs\/D83627.htm .
+lex:D83627\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D83627    lex:temArtigo    lex:D83627\/Artigo1 .
+lex:D83627\/Artigo1    lex:temConteudo    "Art. 1º - Ficam reduzidas aos percentuais indicados em anexo a este Decreto a alíquotas do Imposto sobre Produtos Industrializados relativas às mercadorias relacionadas no referido Anexo, de acordo com a sua classificação na Tabela que acompanha o Regulamento aprovado pelo Decreto nº 83.263, de 09 de março de 1979." .
+lex:D83627\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D83627    lex:temArtigo    lex:D83627\/Artigo2 .
+lex:D83627\/Artigo2    lex:temConteudo    "Art. 2º - O disposto no artigo anterior não implica em redução das alíquotas utilizadas para cálculo do crédito a que se refere o artigo 1º do Decreto-lei nº 491, de 05 de março de 1969, aplicando-se a estas, todavia, as reduções previstas no Decreto-lei nº 1.658, de 24 de janeiro de 1979." .
+lex:D83627\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D83627    lex:temArtigo    lex:D83627\/Artigo3 .
+lex:D83627\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entrará em vigor em 1º de julho de 1979, revogadas as disposições em contrário." .
+lex:D83627\/Texto    lex:remetePara    lex:D83627 .
+lex:D83627\/Artigo1    lex:remetePara    lex:D83263 .
+lex:D83627\/Artigo2    lex:remetePara    lex:Del0461\/Artigo1 .
+lex:D83627\/Artigo2    lex:remetePara    lex:Del1658 .

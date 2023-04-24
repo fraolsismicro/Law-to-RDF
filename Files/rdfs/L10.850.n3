@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.850    lex:ehUm    lex:DocLegal .
+lex:L10.850    lex:temTextoIntegral    lex:HTMLs\/L10.850.htm .
+lex:L10850\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10850    lex:temArtigo    lex:L10850\/Artigo1 .
+lex:L10850\/Artigo1    lex:temConteudo    "Art. 1º Compete à Agência Nacional de Saúde Suplementar -ANS, na defesa do interesse público no setor de saúde suplementar, a definição de ações para instituição de programas especiais de incentivo à adaptação de contratos de planos privados de assistência à saúde firmados até 2 de janeiro de 1999, com o objetivo de facilitar o acesso dos consumidores vinculados a esses contratos a garantias e direitos definidos na Lei nº 9.656, de 3 de junho de 1998." .
+lex:L10850\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10850    lex:temArtigo    lex:L10850\/Artigo2 .
+lex:L10850\/Artigo2    lex:temConteudo    "Art. 2º As ações de incentivo de que trata esta Lei serão definidas por normas específicas da ANS, considerando as seguintes diretrizes gerais:" .
+lex:L10850\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10850\/Artigo2    lex:temInciso    lex:L10850\/Artigo2\/IncisoI .
+lex:L10850\/Artigo2\/IncisoI    lex:temConteudo    "I - revisão de contratos, procedendo-se às devidas alterações de cláusulas contratuais em vigor, por meio de termos aditivos;" .
+lex:L10850\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10850\/Artigo2    lex:temInciso    lex:L10850\/Artigo2\/IncisoII .
+lex:L10850\/Artigo2\/IncisoII    lex:temConteudo    "II - viabilização de migração da relação contratual estabelecidapara outro plano da mesma operadora; e" .
+lex:L10850\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10850\/Artigo2    lex:temInciso    lex:L10850\/Artigo2\/IncisoIII .
+lex:L10850\/Artigo2\/IncisoIII    lex:temConteudo    "III - definição de linhas gerais para execução de planos especiais de adaptação, de implementação facultativa ou obrigatória, determinando forma, condições e exigências específicas a serem observadas para carências, reajustes, variação de preço por faixa etária, cobertura obrigatória, doenças e lesões pré-existentes, e outras condições contratuais previstas na Lei nº 9.656, de 1998, bem como as rotinas de apresentação desses planos especiais, e as variações de preço por índice de adesão e outras variáveis que poderão estar contidas nas propostas oferecidas aos usuários." .
+lex:L10850\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10850\/Artigo2    lex:temParagrafo    lex:L10850\/Artigo2\/Paragrafo1 .
+lex:L10850\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º Para os planos coletivos empresariais, a ANS poderá prever a implementação parcial ou gradativa da extensão de cobertura prevista nos arts. 10, 10-A e 12 da Lei nº 9.656, de 1998, bem como a alteração da data-base para reajustes." .
+lex:L10850\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10850\/Artigo2    lex:temParagrafo    lex:L10850\/Artigo2\/Paragrafo2 .
+lex:L10850\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Para as operadoras de planos de assistência à saúde, cujo número de beneficiários for inferior a dez mil e que não tenham em operação planos comercializados após 2 de janeiro de 1999, a ANS poderá definir condições especiais de oferecimento aos consumidores de alteração contratual para incorporação parcial das regras contidas na Lei nº 9.656, de 1998." .
+lex:L10850\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10850    lex:temArtigo    lex:L10850\/Artigo3 .
+lex:L10850\/Artigo3    lex:temConteudo    "Art. 3º Será garantido ao consumidor o caráter facultativo da adesão aos planos especiais, ficando as operadoras obrigadas a manter em operação todos os contratos não adaptados." .
+lex:L10850\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10850\/Artigo3    lex:temParagrafo    lex:L10850\/Artigo3\/ParagrafoUnico .
+lex:L10850\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nas hipóteses de infração a dispositivo contratual, as operadoras permanecem sujeitas à fiscalização da ANS e à aplicação das penalidades previstas no art. 25 da Lei nº 9.656, de 1998." .
+lex:L10850\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L10850    lex:temArtigo    lex:L10850\/Artigo4 .
+lex:L10850\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L10850\/Artigo1    lex:remetePara    lex:L9656cosol .
+lex:L10850\/Artigo2\/IncisoIII    lex:remetePara    lex:L9656cosol .
+lex:L10850\/Artigo2\/Paragrafo1    lex:remetePara    lex:L9656cosol\/Artigo10 .
+lex:L10850\/Artigo2\/Paragrafo1    lex:remetePara    lex:L9656cosol\/Artigo10 .
+lex:L10850\/Artigo2\/Paragrafo1    lex:remetePara    lex:L9656cosol\/Artigo12 .
+lex:L10850\/Artigo2\/Paragrafo2    lex:remetePara    lex:L9656cosol .
+lex:L10850\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:L9656cosol\/Artigo25 .

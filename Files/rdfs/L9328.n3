@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9328    lex:ehUm    lex:DocLegal .
+lex:L9328    lex:temTextoIntegral    lex:HTMLs\/L9328.htm .
+lex:L9328\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9328    lex:temArtigo    lex:L9328\/Artigo1 .
+lex:L9328\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir aos Orçamentos Fiscal e da Seguridade Social da União, de que trata a Lei nº 9.275, de 9 de maio de 1996, em favor de diversos Órgãos dos Poderes Legislativo, Judiciário e Executivo, crédito suplementar no valor de R$ 1.573.765.892,00 (um bilhão, quinhentos e setenta e três milhões, setecentos e sessenta e cinco mil, oitocentos e noventa e dois reais), para atender à programação indicada no Anexo I desta Lei." .
+lex:L9328\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9328    lex:temArtigo    lex:L9328\/Artigo2 .
+lex:L9328\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior são decorrentes de:" .
+lex:L9328\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9328\/Artigo2    lex:temInciso    lex:L9328\/Artigo2\/IncisoI .
+lex:L9328\/Artigo2\/IncisoI    lex:temConteudo    "I - cancelamento de dotações orçamentárias constantes do Anexo II desta Lei;" .
+lex:L9328\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9328\/Artigo2    lex:temInciso    lex:L9328\/Artigo2\/IncisoII .
+lex:L9328\/Artigo2\/IncisoII    lex:temConteudo    "II - superávit financeiro apurado no balanço patrimonial do exercício de 1995 de diversas Entidades da Administração indireta e do excesso de arrecadação de receita do Tesouro Nacional e de recursos diretamente arrecadados de outras fontes, nos termos do art. 43, § 1º, incisos I e II, da Lei nº 4.320, de 17 de março de 1964." .
+lex:L9328\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9328    lex:temArtigo    lex:L9328\/Artigo3 .
+lex:L9328\/Artigo3    lex:temConteudo    "Art. 3º Em decorrência do disposto nos artigos anteriores, ficam alteradas as receitas das Entidades da Administração indireta, conforme demonstrado no Anexo III desta Lei." .
+lex:L9328\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9328    lex:temArtigo    lex:L9328\/Artigo4 .
+lex:L9328\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9328\/Artigo1    lex:remetePara    lex:L9275 .
+lex:L9328\/Artigo2\/IncisoII    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1i .
+lex:L9328\/Artigo2\/IncisoII    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .

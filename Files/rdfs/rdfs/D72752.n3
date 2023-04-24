@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D72752    lex:ehUm    lex:DocLegal .
+lex:D72752    lex:temTextoIntegral    lex:HTMLs\/D72752.htm .
+lex:D72752\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D72752    lex:temArtigo    lex:D72752\/Artigo1A .
+lex:D72752\/Artigo1A    lex:temConteudo    "Art 1Âº Os artigos 146 e 236 do Regulamento do CÃ³digo Nacional de TrÃ¢nsito, aprovado pelo Decreto nÂº 62.127, de 16 de janeiro de 1968, passam a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D72752\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D72752    lex:temArtigo    lex:D72752\/Artigo2A .
+lex:D72752\/Artigo2A    lex:temConteudo    "Art 2Âº Os Anexos IV, VII, VIII e X do Regulamento do CÃ³digo Nacional de TrÃ¢nsito sÃ£o substituÃ­dos pelos que acompanham o presente Decreto." .
+lex:D72752\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D72752    lex:temArtigo    lex:D72752\/Artigo3A .
+lex:D72752\/Artigo3A    lex:temConteudo    "Art 3Âº Fica suprimido o Anexo IX do Regulamento do CÃ³digo Nacional de TrÃ¢nsito." .
+lex:D72752\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D72752    lex:temArtigo    lex:D72752\/Artigo5A .
+lex:D72752\/Artigo5A    lex:temConteudo    "Art 5Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D72752\/Artigo1A    lex:regulamentadoPor    lex:D62127 .
+lex:D62127    lex:regulamenta    lex:D72752\/Artigo1A .
+lex:D72752\/Texto00001    lex:remetePara    lex:D62127\/Artigo146 .
+lex:D72752\/Texto00001    lex:remetePara    lex:D62127\/Artigo236 .
+lex:D72752\/Artigo2A    lex:regulamentadoPor    lex:D62127\/ .
+lex:D62127\/    lex:regulamenta    lex:D72752\/Artigo2A .
+lex:D72752\/Artigo3A    lex:regulamentadoPor    lex:D62127\/ .
+lex:D62127\/    lex:regulamenta    lex:D72752\/Artigo3A .
+lex:D72752\/Artigo4A    lex:revogadoPor    lex:D82925\/Artigo3 .
+lex:D82925\/Artigo3    lex:revogou    lex:D72752\/Artigo4A .

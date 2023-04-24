@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7251    lex:ehUm    lex:DocLegal .
+lex:L7251    lex:temTextoIntegral    lex:HTMLs\/L7251.htm .
+lex:L7251\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7251    lex:temArtigo    lex:L7251\/Artigo1 .
+lex:L7251\/Artigo1    lex:temConteudo    "Art 1º - O art. 245 do Decreto-lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar com a seguinte redação:" .
+lex:L7251\/Artigo1\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L7251\/Artigo1    lex:temArtigoPena    lex:L7251\/Artigo1\/ArtigoPena .
+lex:L7251\/Artigo1\/ArtigoPena    lex:temConteudo    "Pena - detenção de 1 (um) a 2 (dois) anos." .
+lex:L7251\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7251\/Artigo1    lex:temParagrafo    lex:L7251\/Artigo1\/Paragrafo1 .
+lex:L7251\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A pena é de 1 (um) a 4 (quatro) anos de reclusão, se o agente pratica delito para obter lucro, ou se o menor é enviado para o exterior." .
+lex:L7251\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7251\/Artigo1    lex:temParagrafo    lex:L7251\/Artigo1\/Paragrafo2 .
+lex:L7251\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Incorre, também, na pena do parágrafo anterior quem, embora excluído o perigo moral ou material, auxilia a efetivação de ato destinado ao envio de menor para o exterior, com o fito de obter lucro.'" .
+lex:L7251\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7251    lex:temArtigo    lex:L7251\/Artigo2 .
+lex:L7251\/Artigo2    lex:temConteudo    "Art 2º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7251\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7251    lex:temArtigo    lex:L7251\/Artigo3 .
+lex:L7251\/Artigo3    lex:temConteudo    "Art 3º - Revogam-se as disposições em contrário." .
+lex:L7251\/Texto00001    lex:remetePara    lex:Del2848\/Artigo245 .

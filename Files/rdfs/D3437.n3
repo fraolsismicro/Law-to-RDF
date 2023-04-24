@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3437    lex:ehUm    lex:DocLegal .
+lex:D3437    lex:temTextoIntegral    lex:HTMLs\/D3437.htm .
+lex:D3437\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3437    lex:temInciso    lex:D3437\/IncisoD .
+lex:D3437\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3437\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3437    lex:temArtigo    lex:D3437\/Artigo1 .
+lex:D3437\/Artigo1    lex:temConteudo    "Art. 1o  O Protocolo IV sobre Armas Cegantes a Laser adicional à Convenção sobre Proibições ou Restrições ao Emprego de Certas Armas Convencionais que podem ser Consideradas Excessivamente Lesivas ou Geradoras de Efeitos Indiscriminados, apenso por cópia a este Decreto, deverá ser executado e cumprido tão inteiramente como nele se contém." .
+lex:D3437\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3437\/Artigo1    lex:temParagrafo    lex:D3437\/Artigo1\/ParagrafoUnico .
+lex:D3437\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Protocolo, bem como quaisquer ajustes complementares que, nos termos do art. 49, I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D3437\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3437    lex:temArtigo    lex:D3437\/Artigo2 .
+lex:D3437\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3437\/Texto00004    lex:remetePara    lex:index .

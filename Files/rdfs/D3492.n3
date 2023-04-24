@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3492    lex:ehUm    lex:DocLegal .
+lex:D3492    lex:temTextoIntegral    lex:HTMLs\/D3492.htm .
+lex:D3492\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3492    lex:temArtigo    lex:D3492\/Artigo1 .
+lex:D3492\/Artigo1    lex:temConteudo    "Art. 1o  Fica inserido no Anexo ao Decreto no 3.280, de 8 de dezembro de 1999, vinculado ao Ministério da Fazenda, o Banco do Estado do Piauí S.A. - BEP, cujo controle acionário foi transferido para a União." .
+lex:D3492\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3492    lex:temArtigo    lex:D3492\/Artigo2 .
+lex:D3492\/Artigo2    lex:temConteudo    "Art. 2o  Fica transferida a supervisão da Rede Ferroviária Federal S.A. - em Liquidação, do Ministério dos Transportes, para o Ministério do Planejamento, Orçamento e Gestão." .
+lex:D3492\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3492    lex:temArtigo    lex:D3492\/Artigo3 .
+lex:D3492\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3492\/Artigo1    lex:remetePara    lex:D3280 .
+lex:D3492\/Texto00003    lex:remetePara    lex:index .

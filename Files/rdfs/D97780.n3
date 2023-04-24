@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97780    lex:ehUm    lex:DocLegal .
+lex:D97780    lex:temTextoIntegral    lex:HTMLs\/D97780.htm .
+lex:D97780\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo1 .
+lex:D97780\/Artigo1    lex:temConteudo    "Art. 1º Fica criado, no Estado do Rio de Janeiro, a RESERVA BIOLÓGICA DO TINGUÁ, com o objetivo de proteger amostra representativa da floresta de encosta atlântica, com sua flora, fauna e demais recursos naturais, em especial os recursos hídricos." .
+lex:D97780\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo2 .
+lex:D97780\/Artigo2    lex:temConteudo    "Art. 2º A RESERVA BIOLÓGICA DO TINGUÁ, localizada na Serra do Mar, está compreendida dentro do seguinte perímetro:" .
+lex:D97780\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo3 .
+lex:D97780\/Artigo3    lex:temConteudo    "Art. 3° A RESERVA BIOLÓGICA DO TINGUÁ fica sujeita ao que dispõem, com relação à matéria, as Leis n° 4.771, de 15 de setembro de 1965, e n° 5.197, de 3 de janeiro de 1967." .
+lex:D97780\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo4 .
+lex:D97780\/Artigo4    lex:temConteudo    "Art. 4° A RESERVA BIOLÓGICA DO TINGUÁ fica subordinada ao Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis, que deverá tomar as medidas necessárias para a sua efetiva implantação e controle." .
+lex:D97780\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo5 .
+lex:D97780\/Artigo5    lex:temConteudo    "Art. 5° Fica estabelecido um prazo de quatro anos para a realização do Plano de Manejo da RESERVA BIOLÓGICA DO TINGUÁ." .
+lex:D97780\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D97780\/Artigo5    lex:temParagrafo    lex:D97780\/Artigo5\/ParagrafoUnico .
+lex:D97780\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Plano de Manejo deverá definir as atividades de caráter educativo a serem desenvolvidas com a população dos municípios da região." .
+lex:D97780\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D97780    lex:temArtigo    lex:D97780\/Artigo6 .
+lex:D97780\/Artigo6    lex:temConteudo    "Art. 6° Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D97780\/Artigo3    lex:remetePara    lex:L4771 .
+lex:D97780\/Artigo3    lex:remetePara    lex:L5197 .

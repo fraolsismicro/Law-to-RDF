@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7856    lex:ehUm    lex:DocLegal .
+lex:D7856    lex:temTextoIntegral    lex:HTMLs\/D7856.htm .
+lex:D7856\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7856    lex:temArtigo    lex:D7856\/Artigo1 .
+lex:D7856\/Artigo1    lex:temConteudo    "Art. 1 º São obrigatórias, para efeitos do exercício de 2012, as transferências destinadas aos órgãos e entidades dos Municípios com menos de cinquenta mil habitantes, para a execução das ações do Programa Territórios da Cidadania, constantes do Anexo." .
+lex:D7856\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7856    lex:temArtigo    lex:D7856\/Artigo2 .
+lex:D7856\/Artigo2    lex:temConteudo    "Art. 2 º  Compete ao órgão ou entidade da administração pública federal a que estiver consignada a dotação orçamentária relativa à ação constante do Anexo a análise e aprovação formal do termo de compromisso de que trata o art. 106 da Lei nº 12.249, de 11 de junho de 2010." .
+lex:D7856\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7856\/Artigo2    lex:temParagrafo    lex:D7856\/Artigo2\/ParagrafoUnico .
+lex:D7856\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Compete a instituição ou a agente público federal que atue como mandatário da União a aprovação de que trata o caput, em casos de transferência obrigatória efetivada por seu intermédio." .
+lex:D7856\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7856    lex:temArtigo    lex:D7856\/Artigo3 .
+lex:D7856\/Artigo3    lex:temConteudo    "Art. 3 º  Compete ao Comitê Gestor Nacional do Programa Territórios da Cidadania divulgar e manter atualizada em sítio eletrônico a relação das programações de que trata o art. 105 da Lei nº 12.249, de 2010, inclusive as alterações nas funcionais programáticas decorrentes de lei orçamentária e seus créditos adicionais." .
+lex:D7856\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7856    lex:temArtigo    lex:D7856\/Artigo4 .
+lex:D7856\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7856\/Artigo2    lex:remetePara    lex:L12249\/Artigo106 .
+lex:D7856\/Artigo3    lex:remetePara    lex:L12249\/Artigo105 .

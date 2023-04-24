@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10932    lex:ehUm    lex:DocLegal .
+lex:D10932    lex:temTextoIntegral    lex:HTMLs\/D10932.htm .
+lex:D10932\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10932    lex:temArtigo    lex:D10932\/Artigo1A .
+lex:D10932\/Artigo1A    lex:temConteudo    "Art. 1Âº  Fica promulgada a ConvenÃ§Ã£o Interamericana contra o Racismo, a DiscriminaÃ§Ã£o Racial e Formas Correlatas de IntolerÃ¢ncia, firmada na 43Âª SessÃ£o OrdinÃ¡ria da Assembleia Geral da OrganizaÃ§Ã£o dos Estados Americanos, na Guatemala, em 5 de junho de 2013, anexa a este Decreto." .
+lex:D10932\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10932    lex:temArtigo    lex:D10932\/Artigo2A .
+lex:D10932\/Artigo2A    lex:temConteudo    "Art. 2Âº  SÃ£o sujeitos Ã  aprovaÃ§Ã£o do Congresso Nacional atos que possam resultar em revisÃ£o da ConvenÃ§Ã£o e ajustes complementares que acarretem encargos ou compromissos gravosos ao patrimÃ´nio nacional, nos termos do inciso I do caput do art. 49 da ConstituiÃ§Ã£o." .
+lex:D10932\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10932    lex:temArtigo    lex:D10932\/Artigo3A .
+lex:D10932\/Artigo3A    lex:temConteudo    "Art. 3Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10932\/Artigo3A\/AlineaDefenda    lex:ehUm    lex:Alinea .
+lex:D10932\/Artigo3A    lex:temAlinea    lex:D10932\/Artigo3A\/AlineaDefenda .
+lex:D10932\/Artigo3A\/AlineaDefenda    lex:temConteudo    "a) defenda, promova ou incite o Ã³dio, a discriminaÃ§Ã£o e a intolerÃ¢ncia; e" .
+lex:D10932\/Artigo3A\/AlineaTolere    lex:ehUm    lex:Alinea .
+lex:D10932\/Artigo3A    lex:temAlinea    lex:D10932\/Artigo3A\/AlineaTolere .
+lex:D10932\/Artigo3A\/AlineaTolere    lex:temConteudo    "b) tolere, justifique ou defenda atos que constituam ou tenham constituÃ­do genocÃ­dio ou crimes contra a humanidade, conforme definidos pelo Direito Internacional, ou promova ou incite a prÃ¡tica desses atos;" .
+lex:D10932\/Texto    lex:remetePara    lex:Constituicao\/Artigo5Â§3 .
+lex:D10932\/Artigo2A    lex:remetePara    lex:Constituicao\/Artigo49 .

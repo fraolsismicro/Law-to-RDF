@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0523    lex:ehUm    lex:DocLegal .
+lex:Del0523    lex:temTextoIntegral    lex:HTMLs\/Del0523.htm .
+lex:Del0523\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0523    lex:temArtigo    lex:Del0523\/Artigo2 .
+lex:Del0523\/Artigo2    lex:temConteudo    "Art. 2º O Artigo 14 da Lei nº 4.425, de 8 de outubro de 1964, passa a vigorar com a seguinte redação:" .
+lex:Del0523\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0523\/Artigo2    lex:temInciso    lex:Del0523\/Artigo2\/IncisoI .
+lex:Del0523\/Artigo2\/IncisoI    lex:temConteudo    "I - Da parcela, pertencente à União, do impôsto único de que trata esta Lei, ressalvada a parte destinada à Comissão do Plano do Carvão Nacional;" .
+lex:Del0523\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0523\/Artigo2    lex:temInciso    lex:Del0523\/Artigo2\/IncisoII .
+lex:Del0523\/Artigo2\/IncisoII    lex:temConteudo    "II - Da parte que couber ao Departamento Nacional da Produção Mineral nos pagamentos devidos pela Petróleo Brasileiro S.A. - PETROBRÁS, sôbre o valor do óleo ou gás extraídos da plataforma continental;" .
+lex:Del0523\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del0523\/Artigo2    lex:temInciso    lex:Del0523\/Artigo2\/IncisoIII .
+lex:Del0523\/Artigo2\/IncisoIII    lex:temConteudo    "III - De dotações consignadas no Orçamento Geral da União;" .
+lex:Del0523\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Del0523\/Artigo2    lex:temInciso    lex:Del0523\/Artigo2\/IncisoIV .
+lex:Del0523\/Artigo2\/IncisoIV    lex:temConteudo    "IV - De rendimentos de depósitos e de aplicação do próprio Fundo.'" .
+lex:Del0523\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0523    lex:temArtigo    lex:Del0523\/Artigo3 .
+lex:Del0523\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0523\/Artigo1    lex:remetePara    lex:L2004 .
+lex:Del0523\/Artigo1    lex:remetePara    lex:L3257 .
+lex:Del0523\/Artigo1    lex:revogadoPor    lex:Del1785\/Artigo11 .
+lex:Del1785\/Artigo11    lex:revogou    lex:Del0523\/Artigo1 .
+lex:Del0523\/Texto    lex:remetePara    lex:L2004\/Artigo27\/Paragrafo4 .
+lex:Del0523\/Texto    lex:revogadoPor    lex:Del1785\/Artigo11 .
+lex:Del1785\/Artigo11    lex:revogou    lex:Del0523\/Texto .
+lex:Del0523\/Artigo2    lex:remetePara    lex:L4425 .
+lex:Del0523\/Texto00001    lex:remetePara    lex:L4425\/Artigo14 .

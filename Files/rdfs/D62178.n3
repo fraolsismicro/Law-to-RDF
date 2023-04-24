@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D62178    lex:ehUm    lex:DocLegal .
+lex:D62178    lex:temTextoIntegral    lex:HTMLs\/D62178.htm .
+lex:D62178\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo1 .
+lex:D62178\/Artigo1    lex:temConteudo    "Art. 1º Ficam transferidos, com seus bens, instalações, equipamentos, verbas e pessoal, os seguintes estabelecimentos de ensino agrícola, de nível médio:" .
+lex:D62178\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D62178\/Artigo1    lex:temParagrafo    lex:D62178\/Artigo1\/ParagrafoUnico .
+lex:D62178\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Passa a fazer parte integrante do Colégio Agrícola de Camboriú, o Centro de Tratoristas de Ilhota." .
+lex:D62178\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo2 .
+lex:D62178\/Artigo2    lex:temConteudo    "Art. 2º É autorizada a transferência da administração, mediante convênio, para a Universidade de Caxias do Sul, do Colégio de Viticultura e Enologia de Bento Gonçalves." .
+lex:D62178\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo3 .
+lex:D62178\/Artigo3    lex:temConteudo    "Art. 3º A orientação didática e pedagógica dos estabelecimentos transferidos, continuará afeta à Diretoria do Ensino Agrícola." .
+lex:D62178\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo4 .
+lex:D62178\/Artigo4    lex:temConteudo    "Art. 4º As Universidades Federais e a Diretoria do Ensino Agrícola farão constar, anualmente, nas propostas orçamentárias, recursos para o funcionamento das unidades transferidas." .
+lex:D62178\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo5 .
+lex:D62178\/Artigo5    lex:temConteudo    "Art. 5º São autorizados a funcionar como colégios o Ginásio Agrícola de Rio Verde, em Goiás e os Ginásios Agrícolas de Passo Fundo, no Rio Grande do Sul, e de Rio Pomba, em Minas Gerais e, como Centro de Formação de mão-de-obra qualificada em pecuária, o Ginásio Agrícola de Urutai, em Goiás." .
+lex:D62178\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D62178    lex:temArtigo    lex:D62178\/Artigo6 .
+lex:D62178\/Artigo6    lex:temConteudo    "Art. 6º O presente Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D62178\/Texto    lex:revogadoPor    lex:D99678\/Artigo4 .
+lex:D99678\/Artigo4    lex:revogou    lex:D62178\/Texto .
+lex:D62178\/Texto    lex:remetePara    lex:D62178 .

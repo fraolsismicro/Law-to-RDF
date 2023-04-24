@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13030    lex:ehUm    lex:DocLegal .
+lex:L13030    lex:temTextoIntegral    lex:HTMLs\/L13030.htm .
+lex:L13030\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13030    lex:temArtigo    lex:L13030\/Artigo1 .
+lex:L13030\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei altera o § 9o do art. 8o-E da Lei no 11.530, de 24 de outubro de 2007, para incluir os agentes de trânsito entre os beneficiários do projeto Bolsa-Formação." .
+lex:L13030\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13030    lex:temArtigo    lex:L13030\/Artigo2 .
+lex:L13030\/Artigo2    lex:temConteudo    "Art. 2o  O § 9º do art. 8º-E da Lei nº 11.530, de 24 de outubro de 2007, passa a vigorar com a seguinte redação:" .
+lex:L13030\/Artigo2\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:L13030\/Artigo2    lex:temParagrafo    lex:L13030\/Artigo2\/Paragrafo9 .
+lex:L13030\/Artigo2\/Paragrafo9    lex:temConteudo    "§ 9o  Observadas as dotações orçamentárias do projeto, fica autorizada a inclusão dos guardas civis municipais e dos agentes de trânsito, enquadrados nos limites inferior e superior de remuneração definidos nas normas de concessão da Bolsa-Formação, como beneficiários do projeto, mediante o instrumento de cooperação federativa de que trata o art. 5o desta Lei, observadas as demais condições previstas em regulamento. (NR)" .
+lex:L13030\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13030    lex:temArtigo    lex:L13030\/Artigo3 .
+lex:L13030\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13030\/Artigo1    lex:remetePara    lex:L11530\/Artigo8\/Paragrafo9 .
+lex:L13030\/Artigo2    lex:remetePara    lex:L11530\/Artigo8\/Paragrafo9 .

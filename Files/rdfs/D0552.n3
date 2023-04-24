@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0552    lex:ehUm    lex:DocLegal .
+lex:D0552    lex:temTextoIntegral    lex:HTMLs\/D0552.htm .
+lex:D0552\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0552    lex:temArtigo    lex:D0552\/Artigo1 .
+lex:D0552\/Artigo1    lex:temConteudo    "Art. 1º Os limites da programação orçamentária trimestral, de que trata o Anexo ao Decreto nº 475, de 13 de março de 1992, ficam ajustados na forma do Anexo a este Decreto." .
+lex:D0552\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0552\/Artigo1    lex:temParagrafo    lex:D0552\/Artigo1\/ParagrafoUnico .
+lex:D0552\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os ajustes das dotações orçamentárias a que se refere este artigo serão compensados no terceiro e quarto trimestres, observando-se o limite das disponibilidades do Tesouro Nacional." .
+lex:D0552\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0552    lex:temArtigo    lex:D0552\/Artigo2 .
+lex:D0552\/Artigo2    lex:temConteudo    "Art. 2º Fica mantido o limite global de saque de recursos do Tesouro Nacional, para o primeiro e o segundo trimestres, no montante estabelecido pelo Decreto nº 475, de 1992." .
+lex:D0552\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0552    lex:temArtigo    lex:D0552\/Artigo3 .
+lex:D0552\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .

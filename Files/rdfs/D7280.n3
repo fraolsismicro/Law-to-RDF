@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7280    lex:ehUm    lex:DocLegal .
+lex:D7280    lex:temTextoIntegral    lex:HTMLs\/D7280.htm .
+lex:D7280\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7280    lex:temArtigo    lex:D7280\/Artigo1 .
+lex:D7280\/Artigo1    lex:temConteudo    "Art. 1 º  O art. 5 º do Decreto n º 7.255, de 4 agosto de 2010, passa a vigorar com a seguinte redação:" .
+lex:D7280\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7280    lex:temArtigo    lex:D7280\/Artigo2 .
+lex:D7280\/Artigo2    lex:temConteudo    "Art. 2 º  Fica revigorado, a partir de 5 de agosto de 2010, o Decreto n º 6.813, de 3 de abril de 2009." .
+lex:D7280\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7280    lex:temArtigo    lex:D7280\/Artigo3 .
+lex:D7280\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra vigor na data de sua publicação." .
+lex:D7280\/Texto00001    lex:remetePara    lex:D7255\/Artigo5 .
+lex:D7280\/Artigo2    lex:remetePara    lex:D6813 .

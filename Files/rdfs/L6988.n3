@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6988    lex:ehUm    lex:DocLegal .
+lex:L6988    lex:temTextoIntegral    lex:HTMLs\/L6988.htm .
+lex:L6988\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6988    lex:temArtigo    lex:L6988\/Artigo1 .
+lex:L6988\/Artigo1    lex:temConteudo    "Art. 1º - O parágrafo único do art. 17 da Lei nº 6.448, de 11 de outubro de 1977, passa a vigorar com a seguinte redação:" .
+lex:L6988\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6988\/Artigo1    lex:temParagrafo    lex:L6988\/Artigo1\/ParagrafoUnico .
+lex:L6988\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O número de Vereadores será de 9 (nove) nos Municípios das Capitais e de 5 (cinco) nos demais, acrescentando-se mais um para cada 30.00 (trinta mil) habitantes do Município, não podendo ultrapassar, respectivamente, o número de 15 (quinze) e de 9 (nove) Vereadores." .
+lex:L6988\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6988    lex:temArtigo    lex:L6988\/Artigo2 .
+lex:L6988\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6988\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6988    lex:temArtigo    lex:L6988\/Artigo3 .
+lex:L6988\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L6988\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6448\/Artigo17 .

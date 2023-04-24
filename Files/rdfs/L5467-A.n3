@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L5467-A    lex:ehUm    lex:DocLegal .
+lex:L5467-A    lex:temTextoIntegral    lex:HTMLs\/L5467-A.htm .
+lex:L5467-A\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L5467-A    lex:temArtigo    lex:L5467-A\/Artigo1A .
+lex:L5467-A\/Artigo1A    lex:temConteudo    "Art. 1Âº O art. 102 do Decreto-lei nÂº 9.698, de 2 de setembro de 1946, passarÃ¡ a ter a seguinte redaÃ§Ã£o:" .
+lex:L5467-A\/Artigo1A\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:L5467-A\/Artigo1A    lex:temAlinea    lex:L5467-A\/Artigo1A\/AlineaSer .
+lex:L5467-A\/Artigo1A\/AlineaSer    lex:temConteudo    "a) ser Oficial;" .
+lex:L5467-A\/Artigo1A\/AlineaSer    lex:ehUm    lex:Alinea .
+lex:L5467-A\/Artigo1A    lex:temAlinea    lex:L5467-A\/Artigo1A\/AlineaSer .
+lex:L5467-A\/Artigo1A\/AlineaSer    lex:temConteudo    "b) ser Subtenente, Suboficial ou Sargento;" .
+lex:L5467-A\/Artigo1A\/AlineaOutras    lex:ehUm    lex:Alinea .
+lex:L5467-A\/Artigo1A    lex:temAlinea    lex:L5467-A\/Artigo1A\/AlineaOutras .
+lex:L5467-A\/Artigo1A\/AlineaOutras    lex:temConteudo    "c) outras praÃ§as:" .
+lex:L5467-A\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L5467-A    lex:temArtigo    lex:L5467-A\/Artigo2A .
+lex:L5467-A\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L5467-A\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L5467-A    lex:temArtigo    lex:L5467-A\/Artigo3A .
+lex:L5467-A\/Artigo3A    lex:temConteudo    "Art. 3Âº Revogam-se as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:L5467-A\/Artigo1A    lex:remetePara    lex:Del9698 .
+lex:L5467-A\/Texto00001    lex:remetePara    lex:Del9698\/Artigo102 .

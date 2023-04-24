@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2835    lex:ehUm    lex:DocLegal .
+lex:D2835    lex:temTextoIntegral    lex:HTMLs\/D2835.htm .
+lex:D2835\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2835    lex:temArtigo    lex:D2835\/Artigo1 .
+lex:D2835\/Artigo1    lex:temConteudo    "Art 1º A alínea ' a ' do inciso III do art. 14 do Anexo I ao Decreto nº 2.681, de 21 de julho de 1998, passa a vigorar com a seguinte redação:" .
+lex:D2835\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2835\/Artigo1    lex:temInciso    lex:D2835\/Artigo1\/IncisoIII .
+lex:D2835\/Artigo1\/IncisoIII    lex:temConteudo    "III - ................................................................................ ..............................................." .
+lex:D2835\/Artigo1\/IncisoIII\/IncisoAlineaFiscalizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D2835\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D2835\/Artigo1\/IncisoIII\/IncisoAlineaFiscalizacao .
+lex:D2835\/Artigo1\/IncisoIII\/IncisoAlineaFiscalizacao    lex:temConteudo    "a) fiscalização da produção e comercialização de corretivos, fertilizantes, biofertilizantes e inoculantes, bem como dos prestadores de serviços de mecanização e de aviação agrícolas.' (NR)" .
+lex:D2835\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2835    lex:temArtigo    lex:D2835\/Artigo2 .
+lex:D2835\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2835\/Artigo1    lex:remetePara    lex:D2681\/Artigo14 .

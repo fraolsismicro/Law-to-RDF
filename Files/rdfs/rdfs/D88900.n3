@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D88900    lex:ehUm    lex:DocLegal .
+lex:D88900    lex:temTextoIntegral    lex:HTMLs\/D88900.htm .
+lex:D88900\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D88900    lex:temArtigo    lex:D88900\/Artigo1A .
+lex:D88900\/Artigo1A    lex:temConteudo    "Art. 1Âº.  Fica aberto ao MinistÃ©rio da Agricultura, em favor da Secretaria Nacional de Abastecimento, o crÃ©dito suplementar no valor de Cr$ 2.000.000.000,00 (dois bilhÃµes de cruzeiros), para reforÃ§o de dotaÃ§Ã£o orÃ§amentÃ¡ria indicada no anexo I deste Decreto." .
+lex:D88900\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D88900    lex:temArtigo    lex:D88900\/Artigo2A .
+lex:D88900\/Artigo2A    lex:temConteudo    "Art. 2Âº.   Os recursos necessÃ¡rios Ã  execuÃ§Ã£o do disposto no artigo anterior, sÃ£o provenientes do excesso de arrecadaÃ§Ã£o, conforme prevÃª o artigo 5Âº, item VII, da Lei n Âº 7.053, de 06 de dezembro de 1982." .
+lex:D88900\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D88900    lex:temArtigo    lex:D88900\/Artigo3A .
+lex:D88900\/Artigo3A    lex:temConteudo    "Art. 3Âº.  Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D88900\/Texto    lex:revogadoPor    lex:Dnn15-02-1991-2\/Artigo5 .
+lex:Dnn15-02-1991-2\/Artigo5    lex:revogou    lex:D88900\/Texto .
+lex:D88900\/Texto    lex:remetePara    lex:D88900 .

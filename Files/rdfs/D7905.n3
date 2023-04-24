@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7905    lex:ehUm    lex:DocLegal .
+lex:D7905    lex:temTextoIntegral    lex:HTMLs\/D7905.htm .
+lex:D7905\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7905    lex:temArtigo    lex:D7905\/Artigo1 .
+lex:D7905\/Artigo1    lex:temConteudo    "Art 1 º  Fica restaurada a vigência do Decreto n º 42.290, de 19 de setembro de 1957, ficando sem efeito a revogação promovida pelo Decreto sem número de 5 de setembro de 1991, que ressalva os efeitos jurídicos de declarações de interesse social ou de utilidade pública e revoga os decretos que menciona." .
+lex:D7905\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7905    lex:temArtigo    lex:D7905\/Artigo2 .
+lex:D7905\/Artigo2    lex:temConteudo    "Art 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7905\/Artigo1    lex:remetePara    lex:D42290 .
+lex:D7905\/Artigo1    lex:remetePara    lex:Dnn7-05-09-91 .

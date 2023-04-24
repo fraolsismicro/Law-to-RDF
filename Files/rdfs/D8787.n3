@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8787    lex:ehUm    lex:DocLegal .
+lex:D8787    lex:temTextoIntegral    lex:HTMLs\/D8787.htm .
+lex:D8787\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8787    lex:temArtigo    lex:D8787\/Artigo1 .
+lex:D8787\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.758, de 10 de maio de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8787\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8787\/Artigo1    lex:temParagrafo    lex:D8787\/Artigo1\/ParagrafoUnico .
+lex:D8787\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Consideram-se os períodos de realização dos Jogos Olímpicos e Paraolímpicos Rio 2016, respectivamente, de 24 de julho a 24 de agosto de 2016 e de 31 de agosto a 21 de setembro de 2016. (NR)" .
+lex:D8787\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8787    lex:temArtigo    lex:D8787\/Artigo2 .
+lex:D8787\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8787\/Artigo1    lex:remetePara    lex:D8758 .
+lex:D8787\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D8758\/Artigo1 .
+lex:D8787\/Artigo1\/Texto00002    lex:remetePara    lex:D8758\/Artigo10 .

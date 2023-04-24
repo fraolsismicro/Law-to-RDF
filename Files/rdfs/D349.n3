@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D349    lex:ehUm    lex:DocLegal .
+lex:D349    lex:temTextoIntegral    lex:HTMLs\/D349.htm .
+lex:D349\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D349    lex:temArtigo    lex:D349\/Artigo1 .
+lex:D349\/Artigo1    lex:temConteudo    "Art. 1º O § 2º do artigo 1º do Decreto nº 5, de 14 de janeiro de 1991, passa a vigorar com a seguinte redação:" .
+lex:D349\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D349    lex:temArtigo    lex:D349\/Artigo2 .
+lex:D349\/Artigo2    lex:temConteudo    "Art. 2º Ficam acrescidos dois parágrafos ao artigo 2º do Decreto nº 5, de 14 de janeiro de 1991, com a seguinte redação:" .
+lex:D349\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D349\/Artigo2    lex:temParagrafo    lex:D349\/Artigo2\/Paragrafo1 .
+lex:D349\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º A participação do trabalhador fica limitada a 20% (vinte por cento) do custo direto da refeição." .
+lex:D349\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D349\/Artigo2    lex:temParagrafo    lex:D349\/Artigo2\/Paragrafo2 .
+lex:D349\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º A quantificação do custo direto da refeição far-se-á conforme o período de execução do programa aprovado pelo Ministério do Trabalho e da Previdência Social, limitado ao máximo de 12 (doze) meses.'" .
+lex:D349\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D349    lex:temArtigo    lex:D349\/Artigo3 .
+lex:D349\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D349\/Artigo1    lex:remetePara    lex:D0005\/Artigo1\/Paragrafo2 .
+lex:D349\/Artigo2    lex:remetePara    lex:D0005\/Artigo2\/Paragrafo1 .

@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13262    lex:ehUm    lex:DocLegal .
+lex:L13262    lex:temTextoIntegral    lex:HTMLs\/L13262.htm .
+lex:L13262\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13262    lex:temArtigo    lex:L13262\/Artigo1 .
+lex:L13262\/Artigo1    lex:temConteudo    "Art. 1o  O Banco do Brasil S.A. e a Caixa Econômica Federal, diretamente ou por intermédio de suas subsidiárias, poderão constituir ou adquirir participação em empresas, inclusive no ramo de tecnologia da informação, nos termos e condições previstos no art. 2 º da Lei n º 11.908, de 3 de março de 2009." .
+lex:L13262\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13262\/Artigo1    lex:temParagrafo    lex:L13262\/Artigo1\/Paragrafo1 .
+lex:L13262\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  A autorização prevista no caput é válida até 31 de dezembro de 2018." .
+lex:L13262\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13262\/Artigo1    lex:temParagrafo    lex:L13262\/Artigo1\/Paragrafo2 .
+lex:L13262\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  (VETADO)." .
+lex:L13262\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13262    lex:temArtigo    lex:L13262\/Artigo2 .
+lex:L13262\/Artigo2    lex:temConteudo    "Art. 2 º  A Loteria Instantânea Exclusiva - LOTEX, de que trata o art. 28 da Lei n º 13.155, de 4 de agosto de 2015, poderá adicionalmente contar com temas complementares aos mencionados no caput do referido artigo, de maneira a permitir a exploração mercadológica de eventos de grande apelo popular, datas comemorativas, referências culturais, licenciamentos de marcas ou personagens e demais elementos gráficos e visuais que possam aumentar a atratividade comercial do produto." .
+lex:L13262\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13262\/Artigo2    lex:temParagrafo    lex:L13262\/Artigo2\/ParagrafoUnico .
+lex:L13262\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica autorizada a Caixa Econômica Federal a integrar as entidades esportivas mencionadas no art. 28 da Lei nº 13.155, de 4 de agosto de 2015, nos procedimentos de venda direta ao público dos produtos da Lotex, mediante remuneração de mercado." .
+lex:L13262\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13262    lex:temArtigo    lex:L13262\/Artigo3 .
+lex:L13262\/Artigo3    lex:temConteudo    "Art. 3 º  O prazo previsto no art. 9º da Lei nº 13.155, de 4 de agosto de 2015, fica reaberto, a partir da data da publicação desta Lei, até 31 de julho de 2016." .
+lex:L13262\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13262    lex:temArtigo    lex:L13262\/Artigo4 .
+lex:L13262\/Artigo4    lex:temConteudo    "Art. 4 º  (VETADO)." .
+lex:L13262\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L13262    lex:temArtigo    lex:L13262\/Artigo5 .
+lex:L13262\/Artigo5    lex:temConteudo    "Art. 5 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13262\/Texto    lex:remetePara    lex:mpv695 .
+lex:L13262\/Texto    lex:remetePara    lex:L10671 .
+lex:L13262\/Artigo1    lex:remetePara    lex:L11908\/Artigo2 .
+lex:L13262\/Artigo2    lex:remetePara    lex:L13155\/Artigo28 .
+lex:L13262\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L13155\/Artigo28 .
+lex:L13262\/Artigo3    lex:remetePara    lex:L13155\/Artigo9 .

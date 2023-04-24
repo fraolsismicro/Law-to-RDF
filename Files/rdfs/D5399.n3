@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5399    lex:ehUm    lex:DocLegal .
+lex:D5399    lex:temTextoIntegral    lex:HTMLs\/D5399.htm .
+lex:D5399\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5399    lex:temArtigo    lex:D5399\/Artigo1 .
+lex:D5399\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 32 e 178 do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999, passam a vigorar com as seguintes alterações:" .
+lex:D5399\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5399\/Artigo1    lex:temInciso    lex:D5399\/Artigo1\/IncisoII .
+lex:D5399\/Artigo1\/IncisoII    lex:temConteudo    "II - para a aposentadoria especial e aposentadoria por invalidez, na média aritmética simples dos maiores salários-de-contribuição correspondentes a oitenta por cento de todo o período contributivo;" .
+lex:D5399\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5399\/Artigo1    lex:temInciso    lex:D5399\/Artigo1\/IncisoIII .
+lex:D5399\/Artigo1\/IncisoIII    lex:temConteudo    "III - para o auxílio-doença e auxílio-acidente e na hipótese prevista no inciso III do art. 30, na média aritmética simples dos trinta e seis últimos salários-de-contribuição ou, não alcançado este limite, na média aritmética simples dos salários-de-contribuição existentes." .
+lex:D5399\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5399\/Artigo1    lex:temParagrafo    lex:D5399\/Artigo1\/ParagrafoUnico .
+lex:D5399\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os benefícios de valor inferior ao limite estipulado no caput, quando do reconhecimento do direito da concessão, revisão e manutenção de benefícios serão supervisionados pelas Agências da Previdência Social e Divisões ou Serviços de Benefícios, sob critérios aleatórios pré-estabelecidos pela Direção Central.' (NR)" .
+lex:D5399\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5399    lex:temArtigo    lex:D5399\/Artigo2 .
+lex:D5399\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor da data de sua publicação." .
+lex:D5399\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5399    lex:temArtigo    lex:D5399\/Artigo3 .
+lex:D5399\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados o art. 27, o § 2o do art. 32 e o § 3o do art. 188-A do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999." .
+lex:D5399\/Artigo1\/IncisoII    lex:remetePara    lex:D3048\/Artigo32 .
+lex:D5399\/Artigo1\/IncisoIII    lex:remetePara    lex:D3048\/Artigo32 .
+lex:D5399\/Artigo1\/Texto00003    lex:remetePara    lex:D3048\/Artigo178 .
+lex:D5399\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D3048\/Artigo178 .
+lex:D5399\/Artigo3    lex:remetePara    lex:D3048\/Artigo27 .
+lex:D5399\/Artigo3    lex:remetePara    lex:D3048\/Artigo32\/Paragrafo2 .
+lex:D5399\/Artigo3    lex:regulamentadoPor    lex:D3048\/Artigo188\/Paragrafo3 .
+lex:D3048\/Artigo188\/Paragrafo3    lex:regulamenta    lex:D5399\/Artigo3 .

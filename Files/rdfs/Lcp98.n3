@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp98    lex:ehUm    lex:DocLegal .
+lex:Lcp98    lex:temTextoIntegral    lex:HTMLs\/Lcp98.htm .
+lex:Lcp98\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp98    lex:temArtigo    lex:Lcp98\/Artigo1 .
+lex:Lcp98\/Artigo1    lex:temConteudo    "Art. 1o Os arts. 14, 39, 84 e 124 da Lei Complementar nº 80, de 12 de janeiro de 1994, que 'organiza a Defensoria Pública da União, do Distrito Federal e dos Territórios e prescreve normas gerais para sua organização nos Estados, e dá outras providências', passam a vigorar com a seguinte redação:" .
+lex:Lcp98\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp98\/Artigo1    lex:temParagrafo    lex:Lcp98\/Artigo1\/Paragrafo2 .
+lex:Lcp98\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Não havendo na unidade federada Defensoria Pública constituída nos moldes desta Lei Complementar, é autorizado o convênio com a entidade pública que desempenhar essa função, até que seja criado o órgão próprio." .
+lex:Lcp98\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Lcp98\/Artigo1    lex:temParagrafo    lex:Lcp98\/Artigo1\/Paragrafo3 .
+lex:Lcp98\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o A prestação de assistência judiciária pelos órgãos próprios da Defensoria Pública da União dar-se-á, preferencialmente, perante o Supremo Tribunal Federal e os Tribunais superiores.'" .
+lex:Lcp98\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp98    lex:temArtigo    lex:Lcp98\/Artigo2 .
+lex:Lcp98\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp98\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp98    lex:temArtigo    lex:Lcp98\/Artigo3 .
+lex:Lcp98\/Artigo3    lex:temConteudo    "Art. 3o Revogam-se os arts. 40 e 85 da Lei Complementar no 80, de 12 de janeiro de 1994." .
+lex:Lcp98\/Artigo1    lex:remetePara    lex:Lcp80 .
+lex:Lcp98\/Texto00001    lex:remetePara    lex:Lcp80\/Artigo14\/Paragrafo1 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo39\/Paragrafo2 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo39 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo39 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo39 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo84\/Paragrafo2 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo84 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo84 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo84 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo124\/Paragrafo2 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo124 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo124 .
+lex:Lcp98\/Artigo1\/Texto00003    lex:remetePara    lex:Lcp80\/Artigo124 .
+lex:Lcp98\/Artigo3    lex:remetePara    lex:Lcp80\/Artigo40 .
+lex:Lcp98\/Artigo3    lex:remetePara    lex:Lcp80\/Artigo85 .

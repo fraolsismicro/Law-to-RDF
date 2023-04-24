@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D85268    lex:ehUm    lex:DocLegal .
+lex:D85268    lex:temTextoIntegral    lex:HTMLs\/D85268.htm .
+lex:D85268\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D85268    lex:temArtigo    lex:D85268\/Artigo1 .
+lex:D85268\/Artigo1    lex:temConteudo    "Art. 1º - Ficam transferidas de localização as seguintes Unidades Aéreas da Forças Aérea Brasileira:" .
+lex:D85268\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D85268\/Artigo1    lex:temInciso    lex:D85268\/Artigo1\/IncisoI .
+lex:D85268\/Artigo1\/IncisoI    lex:temConteudo    "I - o 1º Esquadrão do 8º Grupo de Aviação (1º/8º GAv), da Base Aérea de Belém para a Base Aérea de Manaus;  (Revogado pelo Decreto nº 93.883, de 1986)" .
+lex:D85268\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D85268\/Artigo1    lex:temInciso    lex:D85268\/Artigo1\/IncisoII .
+lex:D85268\/Artigo1\/IncisoII    lex:temConteudo    "II - o 3º Esquadrão do 8º Grupo de Aviação (3º/8º GAv), da Base de Santa Cruz para a Base Aérea dos Afonsos;" .
+lex:D85268\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D85268\/Artigo1    lex:temInciso    lex:D85268\/Artigo1\/IncisoIII .
+lex:D85268\/Artigo1\/IncisoIII    lex:temConteudo    "III - o 2º Esquadrão do 10º Grupo de Aviação (2º/10º GAv), da Base Aérea de Florianópolis para a Base Aérea de Campo Grande; e" .
+lex:D85268\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D85268\/Artigo1    lex:temInciso    lex:D85268\/Artigo1\/IncisoIV .
+lex:D85268\/Artigo1\/IncisoIV    lex:temConteudo    "IV - o 1º Esquadrão do 13º Grupo de Aviação (1º/13º GAv), na Base de São Paulo para a Base Aérea de Santa Cruz." .
+lex:D85268\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D85268    lex:temArtigo    lex:D85268\/Artigo2 .
+lex:D85268\/Artigo2    lex:temConteudo    "Art. 2º - Fica o Ministro da Aeronáutica autorizado a baixar os atos complementar necessários à execução deste Decreto." .
+lex:D85268\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D85268    lex:temArtigo    lex:D85268\/Artigo3 .
+lex:D85268\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D85268\/Artigo1\/IncisoI    lex:revogadoPor    lex:D93883\/Artigo3 .
+lex:D93883\/Artigo3    lex:revogou    lex:D85268\/Artigo1\/IncisoI .

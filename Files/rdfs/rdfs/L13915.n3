@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L13915    lex:ehUm    lex:DocLegal .
+lex:L13915    lex:temTextoIntegral    lex:HTMLs\/L13915.htm .
+lex:L13915\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13915    lex:temArtigo    lex:L13915\/Artigo1 .
+lex:L13915\/Artigo1    lex:temConteudo    "Art. 1o  A Lei nÂº 13.328, de 29 de julho de 2016, passa a vigorar acrescida dos seguintes arts. 107-A e 107-B:" .
+lex:L13915\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L13915    lex:temArtigo    lex:L13915\/Artigo2A .
+lex:L13915\/Artigo2A    lex:temConteudo    "Art. 2Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L13915\/Texto    lex:remetePara    lex:mpv888 .
+lex:L13915\/Artigo1    lex:remetePara    lex:L13328 .
+lex:L13915\/Texto00001    lex:remetePara    lex:L13328\/Artigo107a0 .
+lex:L13915\/Texto00001    lex:remetePara    lex:L13328\/Artigo107b0 .

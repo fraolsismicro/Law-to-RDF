@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3675    lex:ehUm    lex:DocLegal .
+lex:L3675    lex:temTextoIntegral    lex:HTMLs\/L3675.htm .
+lex:L3675\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3675    lex:temArtigo    lex:L3675\/Artigo1 .
+lex:L3675\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Marinha, o crédito especial de......................Cr$ 13.690.891,90, (treze milhões, seiscentos e noventa mil, oitocentos e noventa e um cruzeiros e noventa centavos), destinado ao pagamento, a primeiros-tenentes fuzileiros navais músicos, da reserva remunerada, da diferença de proventos de inatividade resultante de promoções de 31 de dezembro de 1956, baseadas na Lei número 390, de 6 de fevereiro de 1937." .
+lex:L3675\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3675\/Artigo1    lex:temParagrafo    lex:L3675\/Artigo1\/ParagrafoUnico .
+lex:L3675\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Êsse crédito será, automàticamente registrado pelo Tribunal de Contas e distribuído ao Ministério da Fazenda." .
+lex:L3675\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3675    lex:temArtigo    lex:L3675\/Artigo2 .
+lex:L3675\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3675\/Artigo1    lex:remetePara    lex:L0390 .

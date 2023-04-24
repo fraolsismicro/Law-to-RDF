@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13355    lex:ehUm    lex:DocLegal .
+lex:L13355    lex:temTextoIntegral    lex:HTMLs\/L13355.htm .
+lex:L13355\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13355    lex:temArtigo    lex:L13355\/Artigo2 .
+lex:L13355\/Artigo2    lex:temConteudo    "Art. 2 º  Os recursos necessários à abertura do crédito de que trata o art. 1 º decorrem de:" .
+lex:L13355\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L13355\/Artigo2    lex:temInciso    lex:L13355\/Artigo2\/IncisoI .
+lex:L13355\/Artigo2\/IncisoI    lex:temConteudo    "I - excesso de arrecadação, no valor de R$ 149.802.913,00 (cento e quarenta e nove milhões, oitocentos e dois mil, novecentos e treze reais), sendo:" .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13355\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temConteudo    "a) R$ 26.940.338,00 (vinte e seis milhões, novecentos e quarenta mil, trezentos e trinta e oito reais) de Recursos Próprios Não Financeiros;" .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "b) R$ 190.303,00 (cento e noventa mil, trezentos e três reais) de Alienação de Bens e Direitos do Patrimônio Público;" .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "c) R$ 14.403.979,00 (catorze milhões, quatrocentos e três mil, novecentos e setenta e nove reais) de Recursos Próprios Financeiros; e" .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:ehUm    lex:IncisoAlinea .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temIncisoAlinea    lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS .
+lex:L13355\/Artigo2\/IncisoI\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS\/IncisoAlineaRS    lex:temConteudo    "d) R$ 108.268.293,00 (cento e oito milhões, duzentos e sessenta e oito mil, duzentos e noventa e três reais) de Recursos de Convênios; e" .
+lex:L13355\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L13355\/Artigo2    lex:temInciso    lex:L13355\/Artigo2\/IncisoII .
+lex:L13355\/Artigo2\/IncisoII    lex:temConteudo    "II - anulação parcial de dotações orçamentárias, no valor de R$ 38.061.936,00 (trinta e oito milhões, sessenta e um mil, novecentos e trinta e seis reais), conforme indicado no Anexo II." .
+lex:L13355\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13355    lex:temArtigo    lex:L13355\/Artigo3 .
+lex:L13355\/Artigo3    lex:temConteudo    "Art. 3 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13355\/Texto    lex:remetePara    lex:L13255 .

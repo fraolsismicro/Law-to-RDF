@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4985    lex:ehUm    lex:DocLegal .
+lex:L4985    lex:temTextoIntegral    lex:HTMLs\/L4985.htm .
+lex:L4985\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo1 .
+lex:L4985\/Artigo1    lex:temConteudo    "Art. 1º Fica revogada a letra g do item A do art. 6º da Lei nº 4.213, de 14 de fevereiro de 1963." .
+lex:L4985\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo2 .
+lex:L4985\/Artigo2    lex:temConteudo    "Art. 2º O art. 3º da Lei nº 4.213, de 14 de fevereiro de 1963, fica acrescido de uma letra com a seguinte redação:" .
+lex:L4985\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo3 .
+lex:L4985\/Artigo3    lex:temConteudo    "Art. 3º A letra o do art. 9º da Lei nº 4.213, de 14 de fevereiro de 1963, passa a ter a seguinte redação:" .
+lex:L4985\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo4 .
+lex:L4985\/Artigo4    lex:temConteudo    "Art. 4º O art. 26 da Lei nº 4.213, de 14 de fevereiro de 1963, é acrescido de 4 (quatro) parágrafos com a seguinte redação:" .
+lex:L4985\/Artigo4\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L4985\/Artigo4    lex:temParagrafo    lex:L4985\/Artigo4\/Paragrafo6 .
+lex:L4985\/Artigo4\/Paragrafo6    lex:temConteudo    "§ 6º Os vencimentos e demais vantagens a serem atribuídos aos dirigentes fiscais das sociedades citadas serão por elas fixados e submetidos à aprovação do Ministro da Viação e Obras Públicas." .
+lex:L4985\/Artigo4\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:L4985\/Artigo4    lex:temParagrafo    lex:L4985\/Artigo4\/Paragrafo7 .
+lex:L4985\/Artigo4\/Paragrafo7    lex:temConteudo    "§ 7º Os Presidentes das Sociedades de Economia Mista instituídas nos têrmos do artigo 26, da Lei número 4.213, de 14 de fevereiro de 1963, serão nomeados pelo Presidente da República por indicação do Ministro da Viação e Obras Públicas. (Incluído pelo Decreto Lei nº 140, de 1967)" .
+lex:L4985\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo5 .
+lex:L4985\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4985\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L4985    lex:temArtigo    lex:L4985\/Artigo6 .
+lex:L4985\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L4985\/Artigo1    lex:remetePara    lex:L4213\/Artigo6 .
+lex:L4985\/Artigo2    lex:remetePara    lex:L4213\/Artigo3 .
+lex:L4985\/Artigo3    lex:remetePara    lex:L4213\/Artigo9 .
+lex:L4985\/Paragrafo3    lex:remetePara    lex:L4213\/Artigo26\/Paragrafo3 .
+lex:L4985\/Paragrafo3    lex:revogadoPor    lex:Del0153\/Artigo5 .
+lex:Del0153\/Artigo5    lex:revogou    lex:L4985\/Paragrafo3 .
+lex:L4985\/Paragrafo4    lex:revogadoPor    lex:Del0153\/Artigo5 .
+lex:Del0153\/Artigo5    lex:revogou    lex:L4985\/Paragrafo4 .
+lex:L4985\/Paragrafo5    lex:revogadoPor    lex:Del0153\/Artigo5 .
+lex:Del0153\/Artigo5    lex:revogou    lex:L4985\/Paragrafo5 .
+lex:L4985\/Artigo4\/Paragrafo7    lex:remetePara    lex:L4985 .

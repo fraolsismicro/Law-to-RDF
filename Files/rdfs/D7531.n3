@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7531    lex:ehUm    lex:DocLegal .
+lex:D7531    lex:temTextoIntegral    lex:HTMLs\/D7531.htm .
+lex:D7531\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7531    lex:temArtigo    lex:D7531\/Artigo1 .
+lex:D7531\/Artigo1    lex:temConteudo    "Art. 1o  Ficam incluídos no Programa Nacional de Desestatização - PND, para os fins da Lei no 9.491, de 9 de setembro de 1997, o Aeroporto Internacional Governador André Franco Montoro, localizado no Município de Guarulhos, o Aeroporto Internacional de Viracopos, localizado no Município de Campinas, ambos no Estado de São Paulo, e o Aeroporto Internacional Presidente Juscelino Kubitschek, localizado em Brasília, Distrito Federal." .
+lex:D7531\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7531    lex:temArtigo    lex:D7531\/Artigo2 .
+lex:D7531\/Artigo2    lex:temConteudo    "Art. 2o  Fica a Agência Nacional de Aviação Civil - ANAC responsável por executar e acompanhar o processo de desestatização dos serviços públicos de que trata o art. 1o, nos termos do § 1o do art 6o da Lei no 9.491, de 1997, observada a supervisão da Secretaria de Aviação Civil da Presidência da República." .
+lex:D7531\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7531    lex:temArtigo    lex:D7531\/Artigo3 .
+lex:D7531\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7531\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D7531\/Artigo2    lex:remetePara    lex:L9491\/Artigo6\/Paragrafo1 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7942    lex:ehUm    lex:DocLegal .
+lex:D7942    lex:temTextoIntegral    lex:HTMLs\/D7942.htm .
+lex:D7942\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7942    lex:temArtigo    lex:D7942\/Artigo1 .
+lex:D7942\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 7.514, de 5 de julho de 2011, passa a vigorar com as seguintes alterações:" .
+lex:D7942\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7942\/Artigo1    lex:temParagrafo    lex:D7942\/Artigo1\/Paragrafo2 .
+lex:D7942\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º  A Comissão de que trata o caput terá duração até 31 de julho de 2014.     (Revogado pelo Decreto nº 8.291, de 2014)" .
+lex:D7942\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7942\/Artigo1    lex:temParagrafo    lex:D7942\/Artigo1\/Paragrafo3 .
+lex:D7942\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º  A Secretaria de Relações de Trabalho no Serviço Público do Ministério do Planejamento, Orçamento e Gestão prestará suporte técnico e operacional aos trabalhos da Comissão Interministerial." .
+lex:D7942\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7942    lex:temArtigo    lex:D7942\/Artigo2 .
+lex:D7942\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7942\/Texto    lex:remetePara    lex:D7942 .
+lex:D7942\/Artigo1    lex:remetePara    lex:D7514 .
+lex:D7942\/Artigo1\/Paragrafo2    lex:remetePara    lex:D7514\/Artigo4\/Paragrafo2 .
+lex:D7942\/Artigo1\/Paragrafo2    lex:revogadoPor    lex:D8291\/Artigo4 .
+lex:D8291\/Artigo4    lex:revogou    lex:D7942\/Artigo1\/Paragrafo2 .
+lex:D7942\/Artigo1\/Paragrafo3    lex:remetePara    lex:D7514\/Artigo4\/Paragrafo3 .
+lex:D7942\/Artigo1\/Texto00003    lex:remetePara    lex:D7514\/Artigo5 .

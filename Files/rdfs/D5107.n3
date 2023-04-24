@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5107    lex:ehUm    lex:DocLegal .
+lex:D5107    lex:temTextoIntegral    lex:HTMLs\/D5107.htm .
+lex:D5107\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5107    lex:temInciso    lex:D5107\/IncisoI .
+lex:D5107\/IncisoI    lex:temConteudo    "I - a 2a Brigada de Infantaria Motorizada, em 2a Brigada de Infantaria de Selva; e" .
+lex:D5107\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5107    lex:temInciso    lex:D5107\/IncisoII .
+lex:D5107\/IncisoII    lex:temConteudo    "II - o Comando da 2a Brigada de Infantaria Motorizada, em Comando da 2a Brigada de Infantaria de Selva." .
+lex:D5107\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5107    lex:temArtigo    lex:D5107\/Artigo3 .
+lex:D5107\/Artigo3    lex:temConteudo    "Art. 3o  Cabe ao Comandante do Exército fixar a data de implementação das medidas de que tratam os arts. 1o e 2o e baixar os atos complementares necessários à execução do disposto neste Decreto." .
+lex:D5107\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5107    lex:temArtigo    lex:D5107\/Artigo4 .
+lex:D5107\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5107\/Artigo5    lex:remetePara    lex:D92170\/Artigo1 .

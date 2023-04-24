@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2969    lex:ehUm    lex:DocLegal .
+lex:D2969    lex:temTextoIntegral    lex:HTMLs\/D2969.htm .
+lex:D2969\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2969    lex:temArtigo    lex:D2969\/Artigo1 .
+lex:D2969\/Artigo1    lex:temConteudo    "Art. 1o  Os contratos para prestação de serviços de arrecadação de contribuições e pagamentos de benefícios pactuados pelo Instituto Nacional do Seguro Social - INSS com a rede bancária deverão observar os seguintes valores unitários máximos:" .
+lex:D2969\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2969\/Artigo1    lex:temInciso    lex:D2969\/Artigo1\/IncisoI .
+lex:D2969\/Artigo1\/IncisoI    lex:temConteudo    "I - os pagamentos, por documentos de arrecadação, em guichê de caixa, não poderão ultrapassar R$ 1,39 (um real e trinta e nove centavos);" .
+lex:D2969\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2969\/Artigo1    lex:temInciso    lex:D2969\/Artigo1\/IncisoII .
+lex:D2969\/Artigo1\/IncisoII    lex:temConteudo    "II - os pagamentos, por documento de arrecadação, por processo automatizado de auto-atendimento, não poderão ultrapassar R$ 0,60 (sessenta centavos);" .
+lex:D2969\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2969\/Artigo1    lex:temInciso    lex:D2969\/Artigo1\/IncisoIII .
+lex:D2969\/Artigo1\/IncisoIII    lex:temConteudo    "III - nos pagamentos de benefícios, serão observados os seguintes valores unitários máximos:" .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio    lex:ehUm    lex:IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio    lex:temConteudo    "a) benefício pago por meio de cartão magnético, com o qual o segurado possa efetuar o saque em qualquer agência do banco contratado, R$ 1,39 (um real e trinta e nove centavos);" .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio    lex:temIncisoAlinea    lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea    lex:temConteudo    "b)  benefício pago por meio de cartão magnético, cujo uso seja restrito a uma única agência do banco contratado, R$ 1,20 (um real e vinte centavos);" .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito    lex:ehUm    lex:IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea    lex:temIncisoAlinea    lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito    lex:temConteudo    "c) crédito em conta corrente, R$ 0,30 (trinta centavos);" .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo    lex:ehUm    lex:IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito    lex:temIncisoAlinea    lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo    lex:temConteudo    "d) recibo, R$ 0,74 (setenta e quatro centavos);" .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo\/IncisoAlineaPagamento    lex:ehUm    lex:IncisoAlinea .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo    lex:temIncisoAlinea    lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo\/IncisoAlineaPagamento .
+lex:D2969\/Artigo1\/IncisoIII\/IncisoAlineaBeneficio\/IncisoAlinea\/IncisoAlineaCredito\/IncisoAlineaRecibo\/IncisoAlineaPagamento    lex:temConteudo    "e) pagamento alternativo de benefício (PAB), R$ 4,05 (quatro reais e cinco centavos)." .
+lex:D2969\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2969    lex:temArtigo    lex:D2969\/Artigo2 .
+lex:D2969\/Artigo2    lex:temConteudo    "Art. 2o  Nos pagamentos de benefícios efetuados pelas 'agências pioneiras', assim reconhecidas pelo Banco Central do Brasil, por meio de cartão magnético ou recibo, a remuneração dos bancos observará o limite de R$ 2,60 (dois reais e sessenta centavos), por benefício pago." .
+lex:D2969\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2969    lex:temArtigo    lex:D2969\/Artigo3 .
+lex:D2969\/Artigo3    lex:temConteudo    "Art. 3o  Para efeito de remuneração dos serviços prestados nos meses de janeiro e fevereiro de 1999, serão observadas as condições contratuais vigentes naqueles meses." .
+lex:D2969\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2969    lex:temArtigo    lex:D2969\/Artigo4 .
+lex:D2969\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D2969\/Texto    lex:revogadoPor    lex:D3635 .
+lex:D3635    lex:revogou    lex:D2969\/Texto .

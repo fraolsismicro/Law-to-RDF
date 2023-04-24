@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3608    lex:ehUm    lex:DocLegal .
+lex:L3608    lex:temTextoIntegral    lex:HTMLs\/L3608.htm .
+lex:L3608\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3608    lex:temArtigo    lex:L3608\/Artigo1 .
+lex:L3608\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir ao Poder Judiciário - Justiça Militar - Superior Tribunal Militar - o crédito especial de Cr$ 170. 016,10 (cento e setenta mil e dezesseis cruzeiros e dez centavos), para atender as seguintes pagamentos:" .
+lex:L3608\/Artigo1\/AlineaSalario-Familia:    lex:ehUm    lex:Alinea .
+lex:L3608\/Artigo1    lex:temAlinea    lex:L3608\/Artigo1\/AlineaSalario-Familia: .
+lex:L3608\/Artigo1\/AlineaSalario-Familia:    lex:temConteudo    "a) Salário-Família:" .
+lex:L3608\/Artigo1\/AlineaGratificacao    lex:ehUm    lex:Alinea .
+lex:L3608\/Artigo1    lex:temAlinea    lex:L3608\/Artigo1\/AlineaGratificacao .
+lex:L3608\/Artigo1\/AlineaGratificacao    lex:temConteudo    "b) Gratificação adicional por tempo de serviço:" .
+lex:L3608\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3608    lex:temArtigo    lex:L3608\/Artigo2 .
+lex:L3608\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

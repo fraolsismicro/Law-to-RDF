@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12005    lex:ehUm    lex:DocLegal .
+lex:L12005    lex:temTextoIntegral    lex:HTMLs\/L12005.htm .
+lex:L12005\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12005    lex:temArtigo    lex:L12005\/Artigo1 .
+lex:L12005\/Artigo1    lex:temConteudo    "Art. 1o  Ficam criados no Quadro de Pessoal da Secretaria do Tribunal Regional do Trabalho da 1a Região 1 (um) cargo em comissão de Diretor de Secretaria, código CJ-3, e as funções comissionadas constantes do Anexo desta Lei." .
+lex:L12005\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L12005\/Artigo1    lex:temParagrafo    lex:L12005\/Artigo1\/Paragrafo1 .
+lex:L12005\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O cargo de Diretor de Secretaria será preenchido mediante livre indicação do Presidente do Tribunal." .
+lex:L12005\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L12005\/Artigo1    lex:temParagrafo    lex:L12005\/Artigo1\/Paragrafo2 .
+lex:L12005\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  As funções comissionadas serão preenchidas nos termos da Lei no 8.112, de 11 de dezembro de 1990." .
+lex:L12005\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12005    lex:temArtigo    lex:L12005\/Artigo2 .
+lex:L12005\/Artigo2    lex:temConteudo    "Art. 2o  As despesas decorrentes da aplicação desta Lei correrão à conta das dotações orçamentárias consignadas ao Tribunal Regional do Trabalho da 1a Região no orçamento geral da União." .
+lex:L12005\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12005    lex:temArtigo    lex:L12005\/Artigo3 .
+lex:L12005\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L12005\/Artigo1\/Paragrafo2    lex:remetePara    lex:L8112cons .

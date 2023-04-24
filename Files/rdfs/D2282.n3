@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2282    lex:ehUm    lex:DocLegal .
+lex:D2282    lex:temTextoIntegral    lex:HTMLs\/D2282.htm .
+lex:D2282\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2282    lex:temArtigo    lex:D2282\/Artigo1 .
+lex:D2282\/Artigo1    lex:temConteudo    "Art 1º Ficam remanejados, na forma deste artigo e do Anexo I a este Decreto, os seguintes cargos em comissão:" .
+lex:D2282\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2282\/Artigo1    lex:temInciso    lex:D2282\/Artigo1\/IncisoI .
+lex:D2282\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério da Administração Federal e Reforma do Estado para o Ministério da Fazenda, oriundos da extinção de órgãos da Administração Pública Federal, dois DAS 101.4, doze DAS 101.3, doze DAS 101.2, dezenove DAS 101.1 e dois DAS 102.4;" .
+lex:D2282\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2282\/Artigo1    lex:temInciso    lex:D2282\/Artigo1\/IncisoII .
+lex:D2282\/Artigo1\/IncisoII    lex:temConteudo    "II - do Ministério da Fazenda para o Ministério da Administração Federal e Reforma do Estado, um DAS 102.3, três DAS 101.2 e dois DAS 102.1." .
+lex:D2282\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2282    lex:temArtigo    lex:D2282\/Artigo3 .
+lex:D2282\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2282\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2282    lex:temArtigo    lex:D2282\/Artigo4 .
+lex:D2282\/Artigo4    lex:temConteudo    "Art 4º Fica revogado o parágrafo único do art. 1º do Decreto nº 2.203, de 9 de abril de 1997." .
+lex:D2282\/Artigo1\/Artigo2    lex:remetePara    lex:d1745\/ .
+lex:D2282\/Artigo1\/Artigo2    lex:revogadoPor    lex:D2331\/Artigo10 .
+lex:D2331\/Artigo10    lex:revogou    lex:D2282\/Artigo1\/Artigo2 .
+lex:D2282\/Artigo4    lex:remetePara    lex:D2203\/Artigo1 .

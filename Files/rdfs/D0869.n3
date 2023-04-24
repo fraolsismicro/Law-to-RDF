@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0869    lex:ehUm    lex:DocLegal .
+lex:D0869    lex:temTextoIntegral    lex:HTMLs\/D0869.htm .
+lex:D0869\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0869    lex:temArtigo    lex:D0869\/Artigo1 .
+lex:D0869\/Artigo1    lex:temConteudo    "Art. 1° É delegada competência ao Advogado-Geral da União para, respeitado o disposto no art. 49, incisos I e II, da Lei Complementar n° 73, de 1993, e observadas as disposições legais e regulamentares, praticar, no âmbito da Advocacia-Geral da União, atos de provimento ou designação:" .
+lex:D0869\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0869\/Artigo1    lex:temInciso    lex:D0869\/Artigo1\/IncisoI .
+lex:D0869\/Artigo1\/IncisoI    lex:temConteudo    "I - de cargos e funções de confiança dos níveis 1, 2, 3 e 4, do Grupo-Direção e Assessoramento Superiores (DAS);" .
+lex:D0869\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0869\/Artigo1    lex:temInciso    lex:D0869\/Artigo1\/IncisoII .
+lex:D0869\/Artigo1\/IncisoII    lex:temConteudo    "II - de funções ou gratificações Temporária e de Representação de Gabinete;" .
+lex:D0869\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0869\/Artigo1    lex:temInciso    lex:D0869\/Artigo1\/IncisoIII .
+lex:D0869\/Artigo1\/IncisoIII    lex:temConteudo    "III - de cargos efetivos do respectivo quadro, em decorrência de habilitação em concurso público." .
+lex:D0869\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0869    lex:temArtigo    lex:D0869\/Artigo2 .
+lex:D0869\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação ." .
+lex:D0869\/Texto00005    lex:remetePara    lex:index .

@@ -1,0 +1,73 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5783    lex:ehUm    lex:DocLegal .
+lex:D5783    lex:temTextoIntegral    lex:HTMLs\/D5783.htm .
+lex:D5783\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5783    lex:temInciso    lex:D5783\/IncisoI .
+lex:D5783\/IncisoI    lex:temConteudo    "I - para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D5783\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoI    lex:temIncisoAlinea    lex:D5783\/IncisoI\/IncisoAlineaUm .
+lex:D5783\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 102.5, da Secretaria-Geral da Presidência da República;" .
+lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.5, da Secretaria Especial dos Direitos Humanos da Presidência da República; e" .
+lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D5783\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "c) um DAS 102.4, do Ministério do Planejamento, Orçamento e Gestão;" .
+lex:D5783\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5783    lex:temInciso    lex:D5783\/IncisoII .
+lex:D5783\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D5783\/IncisoII\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara .
+lex:D5783\/IncisoII\/IncisoAlineaPara    lex:temConteudo    "a) para a Assessoria Especial do Presidente da República, um DAS 102.5;" .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "b) para o Ministério do Planejamento, Orçamento e Gestão, um DAS 101.5; e" .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temConteudo    "c) para a Secretaria Especial dos Direitos Humanos da Presidência da República, um DAS 102.4." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea    lex:temConteudo    "a)  QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DO PLANEJAMENTO, ORÇAMENTO E GESTÃO." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)  QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DO PLANEJAMENTO, ORÇAMENTO E GESTÃO." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "a)  QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DA SECRETARIA ESPECIAL DE DIREITOS HUMANOS - SEDH." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)  QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO DA SECRETARIA ESPECIAL DOS DIREITOS HUMANOS." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "1" .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem    lex:temConteudo    "7" .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)   QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO DA ASSESSORIA ESPECIAL DO PRESIDENTE DA REPÚBLICA." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "a)  QUADRO DEMONSTRATIVO DOS CARGOS EM COMISSÃO DA SECRETARIA-GERAL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)  QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO DA SECRETARIA-GERAL DA PRESIDÊNCIA DA REPÚBLICA." .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo2    lex:remetePara    lex:D5719\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo2    lex:remetePara    lex:D5174\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo2    lex:remetePara    lex:D4597\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo2    lex:remetePara    lex:D5364\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo4    lex:remetePara    lex:D5772\/Artigo5 .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Artigo4    lex:remetePara    lex:D5772\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Texto00008    lex:revogadoPor    lex:D6081\/Artigo6 .
+lex:D6081\/Artigo6    lex:revogou    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Texto00008 .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/Texto00008    lex:remetePara    lex:D5719\/ .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/Texto00015    lex:revogadoPor    lex:D5849\/Artigo6 .
+lex:D5849\/Artigo6    lex:revogou    lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/Texto00015 .
+lex:D5783\/IncisoII\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlineaPara\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/Texto00015    lex:remetePara    lex:D5364\/ .

@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1099    lex:ehUm    lex:DocLegal .
+lex:Del1099    lex:temTextoIntegral    lex:HTMLs\/Del1099.htm .
+lex:Del1099\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1099    lex:temArtigo    lex:Del1099\/Artigo1 .
+lex:Del1099\/Artigo1    lex:temConteudo    "Art. 1º A gratificação de exercício prevista nas Tabelas anexas ao Decreto-lei nº 1.024, de 21 de outubro de 1969, será considerada, em relação aos cargos constantes das mesmas Tabelas, no cálculo de proventos de aposentadorias e disponibilidades, bem como na retribuição paga a funcionários licenciados." .
+lex:Del1099\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1099    lex:temArtigo    lex:Del1099\/Artigo2 .
+lex:Del1099\/Artigo2    lex:temConteudo    "Art. 2º Na aplicação do disposto no artigo 1º dêste Decreto-lei, aos funcionários aposentados ou em disponibilidade anteriormente à vigência do Decreto-lei nº 1.024, de 21 de outubro de 1969, será feita a reclassificação dos mesmos de conformidade com procedimento adotado nas Tabelas anexas àquele Decreto-lei." .
+lex:Del1099\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1099    lex:temArtigo    lex:Del1099\/Artigo3 .
+lex:Del1099\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei, que entrará em vigor na data de sua publicação, revogadas as disposições em contrário, produzirá efeitos a contar de 30 de outubro de 1969." .
+lex:Del1099\/Artigo1    lex:remetePara    lex:Del1024 .
+lex:Del1099\/Artigo2    lex:remetePara    lex:Del1024 .

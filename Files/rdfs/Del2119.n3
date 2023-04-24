@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2119    lex:ehUm    lex:DocLegal .
+lex:Del2119    lex:temTextoIntegral    lex:HTMLs\/Del2119.htm .
+lex:Del2119\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2119    lex:temArtigo    lex:Del2119\/Artigo1 .
+lex:Del2119\/Artigo1    lex:temConteudo    "Art 1º - A Gratificação de Desempenho das Atividades de Tributação, Arrecadação ou Fiscalização dos Tributos Federais, prevista no item XXIV do Anexo II do Decreto-lei nº 1.341, de 22 de agosto de 1974, sobre a qual incide o desconto previdenciário, será computada nos cálculos do provento de inatividade." .
+lex:Del2119\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del2119\/Artigo1    lex:temParagrafo    lex:Del2119\/Artigo1\/Paragrafo1 .
+lex:Del2119\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - O valor da gratificação a ser computado é o correspondente à média dos percentuais concedidos ao funcionário nos 12 (doze) meses anteriores à data da aposentadoria." .
+lex:Del2119\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del2119\/Artigo1    lex:temParagrafo    lex:Del2119\/Artigo1\/Paragrafo2 .
+lex:Del2119\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Aos funcionários aposentados anteriormente à vigência deste Decreto-lei ou que venham a aposentar-se até 31 de dezembro de 1984, a incorporação far-se-á na razão da metade do percentual máximo." .
+lex:Del2119\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2119    lex:temArtigo    lex:Del2119\/Artigo2 .
+lex:Del2119\/Artigo2    lex:temConteudo    "Art 2º - As despesas decorrentes da execução deste Decreto-lei correrão à conta das dotações constantes do Orçamento da União." .
+lex:Del2119\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2119    lex:temArtigo    lex:Del2119\/Artigo3 .
+lex:Del2119\/Artigo3    lex:temConteudo    "Art 3º - Revogadas as disposições em contrário, este Decreto-lei entrará em vigor na data de sua publicação." .
+lex:Del2119\/Artigo1    lex:remetePara    lex:Del1341\/ .

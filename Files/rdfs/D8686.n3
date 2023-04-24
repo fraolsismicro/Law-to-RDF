@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8686    lex:ehUm    lex:DocLegal .
+lex:D8686    lex:temTextoIntegral    lex:HTMLs\/D8686.htm .
+lex:D8686\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo1 .
+lex:D8686\/Artigo1    lex:temConteudo    "Art. 1º  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Instituto Nacional da Propriedade Industrial - INPI, na forma dos Anexos I e II." .
+lex:D8686\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo2 .
+lex:D8686\/Artigo2    lex:temConteudo    "Art. 2º  Ficam remanejados, do INPI para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8686\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8686\/Artigo2    lex:temInciso    lex:D8686\/Artigo2\/IncisoI .
+lex:D8686\/Artigo2\/IncisoI    lex:temConteudo    "I - um DAS 101.5;" .
+lex:D8686\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8686\/Artigo2    lex:temInciso    lex:D8686\/Artigo2\/IncisoII .
+lex:D8686\/Artigo2\/IncisoII    lex:temConteudo    "II - um DAS 101.4; e" .
+lex:D8686\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8686\/Artigo2    lex:temInciso    lex:D8686\/Artigo2\/IncisoIII .
+lex:D8686\/Artigo2\/IncisoIII    lex:temConteudo    "III - dois DAS 102.4." .
+lex:D8686\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo3 .
+lex:D8686\/Artigo3    lex:temConteudo    "Art. 3º  Os apostilamentos decorrentes das alterações promovidas na Estrutura Regimental do INPI deverão ocorrer na data de entrada em vigor deste Decreto." .
+lex:D8686\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8686\/Artigo3    lex:temParagrafo    lex:D8686\/Artigo3\/ParagrafoUnico .
+lex:D8686\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Presidente do INPI fará publicar, no Diário Oficial da União, no prazo de trinta dias, contado da data de entrada em vigor deste Decreto, relação nominal dos titulares dos cargos em comissão e das funções de confiança a que se refere o Anexo II, que indicará, inclusive, o número de cargos vagos, suas denominações e seus níveis." .
+lex:D8686\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo4 .
+lex:D8686\/Artigo4    lex:temConteudo    "Art. 4º  Os ocupantes dos cargos em comissão que deixam de existir na Estrutura Regimental do INPI por força deste Decreto ficam automaticamente exonerados." .
+lex:D8686\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo5 .
+lex:D8686\/Artigo5    lex:temConteudo    "Art. 5º  O Presidente do INPI deverá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental da Autarquia, suas competências e as atribuições de seus dirigentes, no prazo de noventa dias, contado da data de entrada em vigor deste Decreto." .
+lex:D8686\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo6 .
+lex:D8686\/Artigo6    lex:temConteudo    "Art. 6º  Este Decreto entra em vigor vinte e um dias após a data de sua publicação." .
+lex:D8686\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8686    lex:temArtigo    lex:D8686\/Artigo7 .
+lex:D8686\/Artigo7    lex:temConteudo    "Art. 7º  Fica revogado o Decreto nº 7.356, de 12 de novembro de 2010." .
+lex:D8686\/Texto    lex:revogadoPor    lex:D8854\/Artigo10 .
+lex:D8854\/Artigo10    lex:revogou    lex:D8686\/Texto .
+lex:D8686\/Texto    lex:remetePara    lex:D8854\/Artigo9 .
+lex:D8686\/Texto    lex:remetePara    lex:D8686 .
+lex:D8686\/Artigo7    lex:remetePara    lex:D7356 .

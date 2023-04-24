@@ -1,0 +1,91 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp04    lex:ehUm    lex:DocLegal .
+lex:Lcp04    lex:temTextoIntegral    lex:HTMLs\/Lcp04.htm .
+lex:Lcp04\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo1 .
+lex:Lcp04\/Artigo1    lex:temConteudo    "Art. 1º - Ficam isentas do imposto sobre operações relativas à circulação de mercadorias:" .
+lex:Lcp04\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoI .
+lex:Lcp04\/Artigo1\/IncisoI    lex:temConteudo    "I - as saídas de vasilhames, recipientes e embalagens, inclusive sacaria, quando não cobrados do destinatário ou não computados no valor das mercadoria que acondicionam e desde que devam retornar ao estabelecimento remetente ou a outro do mesmo titular;" .
+lex:Lcp04\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoII .
+lex:Lcp04\/Artigo1\/IncisoII    lex:temConteudo    "II - as saídas de vasilhames, recipientes e embalagens, inclusive sacaria, em retorno ao estabelecimento remetente ou a outro do mesmo titular ou a depósito em seu nome;" .
+lex:Lcp04\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoIII .
+lex:Lcp04\/Artigo1\/IncisoIII    lex:temConteudo    "III - as saídas de mercadorias destinadas ao mercado interno e produzidas em estabelecimentos industriais como resultado de concorrência internacional, com participação de indústrias do País, contra pagamento com recursos oriundos de divisas conversíveis, provenientes de financiamento a longo prazo de instituições financeiras internacionais ou entidades governamentais estrangeiras;" .
+lex:Lcp04\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoIV .
+lex:Lcp04\/Artigo1\/IncisoIV    lex:temConteudo    "IV - as entradas de mercadorias em estabelecimento do importador, quando importadas do exterior e destinadas à fabricação de peças, máquinas e equipamentos para o mercado interno, como resultado de concorrência internacional com participação da indústria do País, contra pagamento com recursos provenientes de divisas conversíveis, provenientes de financiamento a longo prazo de instituições financeiras internacionais ou entidades governamentais estrangeiras;" .
+lex:Lcp04\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoVI .
+lex:Lcp04\/Artigo1\/IncisoVI    lex:temConteudo    "VI - as entradas de mercadorias cuja importação estiver isenta do imposto, de competência da União, sobre a importação de produtos estrangeiros;" .
+lex:Lcp04\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoVII .
+lex:Lcp04\/Artigo1\/IncisoVII    lex:temConteudo    "VII - as entradas, em estabelecimento do importador, de mercadorias importadas do exterior sob o regime de draw back;" .
+lex:Lcp04\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoVIII .
+lex:Lcp04\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - as saídas de estabelecimento de empreiteiro de construção civil, obras hidráulicas e outras obras semelhantes, inclusive serviços auxiliares ou complementares, de mercadorias adquiridas de terceiros e destinadas às construções, obras ou serviços referidos, a cargo do remetente;" .
+lex:Lcp04\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoXI .
+lex:Lcp04\/Artigo1\/IncisoXI    lex:temConteudo    "XI - as saídas de amônia, ácido nítrico, nitrato de amônia e de suas soluções, ácido sulfúrico, ácido fosfórico, fosfato de amônia, de enxofre, de estabelecimento onde se tiver processado a respectiva industrialização;" .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp04\/Artigo1\/IncisoXI    lex:temIncisoAlinea    lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA    lex:temConteudo    "a) a estabelecimentos onde se industrializem adubos simples ou compostos e fertilizantes;" .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA    lex:temIncisoAlinea    lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "b) a outro estabelecimento do mesmo titular daquele onde se tiver processado a industrialização;" .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA    lex:temIncisoAlinea    lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA .
+lex:Lcp04\/Artigo1\/IncisoXI\/IncisoAlineaA\/IncisoAlineaA\/IncisoAlineaA    lex:temConteudo    "c) a estabelecimento produtor;" .
+lex:Lcp04\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoXII .
+lex:Lcp04\/Artigo1\/IncisoXII    lex:temConteudo    "XII - as saídas dos produtos mencionados no inciso anterior do estabelecimento referido na alínea b do mesmo inciso, com destino a estabelecimento onde se industrializem adubos simples e compostos ou fertilizantes e a estabelecimento produtor;" .
+lex:Lcp04\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoXIII .
+lex:Lcp04\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - as saídas, de quaisquer estabelecimentos, de rações balanceadas para animais, adubos simples ou compostos, fertilizantes, inseticidas, fungicidas, formicidas, herbicidas, sarnicidas, pintos de um dia, mudas de plantas e sementes certificada pelos órgãos competentes;" .
+lex:Lcp04\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:Lcp04\/Artigo1    lex:temInciso    lex:Lcp04\/Artigo1\/IncisoXIV .
+lex:Lcp04\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - as saídas, de quaisquer estabelecimentos, de máquinas e implementos agrícolas, e de tratores, aqueles e estes quando produzidos no País." .
+lex:Lcp04\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp04\/Artigo1    lex:temParagrafo    lex:Lcp04\/Artigo1\/Paragrafo1 .
+lex:Lcp04\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - As isenções de que trata o inciso XIII aplicam-se exclusivamente aos produtos destinados ao uso na pecuária, na avicultura e na agricultura." .
+lex:Lcp04\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp04\/Artigo1    lex:temParagrafo    lex:Lcp04\/Artigo1\/Paragrafo2 .
+lex:Lcp04\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2.º - A isenção de que trata o inciso XIV vigorará até o dia 31 de dezembro de 1974." .
+lex:Lcp04\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo2 .
+lex:Lcp04\/Artigo2    lex:temConteudo    "Art. 2.º - As empresas produtoras de discos fonográficos e de outros materiais de gravação de som poderão abater do montante do imposto de circulação de mercadorias, o valor dos direitos autorais artísticos e conexos, comprovadamente pagos pela empresa, no mesmo período, aos autores e artistas nacionais ou domiciliados no País, assim como aos seus herdeiros e sucessores, mesmo através de entidades que os representem." .
+lex:Lcp04\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo3 .
+lex:Lcp04\/Artigo3    lex:temConteudo    "Art. 3.º - Nas saídas de bens de capital de origem estrangeira, promovidas pelo estabelecimento que, com a isenção prevista no inciso VI do art. 1º, houver realizado a importação, a base de cálculo do imposto sobre circulação de mercadorias será a diferença entre o valor da operação de que decorrer a saída e o custo da aquisição dos referidos bens." .
+lex:Lcp04\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp04\/Artigo3    lex:temParagrafo    lex:Lcp04\/Artigo3\/ParagrafoUnico .
+lex:Lcp04\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Para os efeitos deste artigo, consideram-se bens de capital as máquinas e aparelhos, bem como suas pecas, acessórios e sobressalentes, classificados nos capítulos 84 (oitenta e quatro) a 90 (noventa) da Tabela Anexa ao regulamento do imposto sobre produtos industrializados, quando, por sua natureza, se destinem a emprego direto na produção agrícola ou industrial e na prestação de serviços." .
+lex:Lcp04\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo4 .
+lex:Lcp04\/Artigo4    lex:temConteudo    "Art. 4.º - Não serão aplicadas penalidades aos contribuintes do imposto sobre circulação de mercadorias por infrações, praticadas entre 1.º de janeiro de 1969 e 31 de dezembro do mesmo ano, relativas às entradas e saídas dos bens de capital de origem estrangeira que tenham importado." .
+lex:Lcp04\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo5 .
+lex:Lcp04\/Artigo5    lex:temConteudo    "Art. 5º - Continuam em vigor o art. 4º do Decreto-Lei nº 288, de 28 de fevereiro de 1967, e legislação posterior pertinente à matéria nele tratada; o art. 5º do Decreto-Lei nº 244, de 28 de fevereiro de 1967, e o art. 2.º do Decreto Lei nº 932, de 10 de outubro de 1969." .
+lex:Lcp04\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo6 .
+lex:Lcp04\/Artigo6    lex:temConteudo    "Art. 6.º - Esta Lei entra em vigor na data de sua publicação." .
+lex:Lcp04\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Lcp04    lex:temArtigo    lex:Lcp04\/Artigo7 .
+lex:Lcp04\/Artigo7    lex:temConteudo    "Art. 7º - Revogam-se as disposições em contrário." .
+lex:Lcp04\/Artigo1\/IncisoV    lex:revogadoPor    lex:Lcp44\/Artigo5 .
+lex:Lcp44\/Artigo5    lex:revogou    lex:Lcp04\/Artigo1\/IncisoV .
+lex:Lcp04\/Artigo1\/IncisoIX    lex:revogadoPor    lex:Lcp24\/Artigo14\/Paragrafo2 .
+lex:Lcp24\/Artigo14\/Paragrafo2    lex:revogou    lex:Lcp04\/Artigo1\/IncisoIX .
+lex:Lcp04\/Artigo1\/IncisoIX    lex:revogadoPor    lex:Lcp24\/Artigo14\/Paragrafo2 .
+lex:Lcp24\/Artigo14\/Paragrafo2    lex:revogou    lex:Lcp04\/Artigo1\/IncisoIX .
+lex:Lcp04\/Artigo5    lex:remetePara    lex:Del0288\/Artigo4 .
+lex:Lcp04\/Artigo5    lex:remetePara    lex:Del0244\/Artigo5 .
+lex:Lcp04\/Artigo5    lex:remetePara    lex:Del0932\/Artigo2 .

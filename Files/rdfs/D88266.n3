@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D88266    lex:ehUm    lex:DocLegal .
+lex:D88266    lex:temTextoIntegral    lex:HTMLs\/D88266.htm .
+lex:D88266\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D88266    lex:temArtigo    lex:D88266\/Artigo1 .
+lex:D88266\/Artigo1    lex:temConteudo    "Art. 1º - Fica o Governo do Estado de Minas Gerais, através da RÁDIO INCONFIDÊNCIA LTDA., autorizada a explorar, sem direito de exclusividade, serviço de radiodifusão sonora em onda média de âmbito nacional, na cidade de Belo Horizonte, Estado de Minas Gerais." .
+lex:D88266\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D88266\/Artigo1    lex:temParagrafo    lex:D88266\/Artigo1\/ParagrafoUnico .
+lex:D88266\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - As obrigações decorrentes desta autorização obedecerão às cláusulas estabelecidas em convênio a ser firmado entre a União, através do Ministério das Comunicações e o Governo do Estado de Minas Gerais, através da RÁDIO INCONFIDÊNCIA LTDA., dentro de 60 (sessenta) dias, a contar da publicação deste Decreto no Diário Oficial da União, sob pena de tornar nulo, de pleno direito, este ato de autorização." .
+lex:D88266\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D88266    lex:temArtigo    lex:D88266\/Artigo2 .
+lex:D88266\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

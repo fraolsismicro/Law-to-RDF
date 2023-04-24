@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5381    lex:ehUm    lex:DocLegal .
+lex:L5381    lex:temTextoIntegral    lex:HTMLs\/L5381.htm .
+lex:L5381\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5381    lex:temArtigo    lex:L5381\/Artigo1 .
+lex:L5381\/Artigo1    lex:temConteudo    "Art 1º Ficam acrescentados ao art. 86 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei nº 5.452, de 1º de maio de 1943, os parágrafos 2º e 3º, seguintes, transformando-se em parágrafo 1º o Parágrafo único:" .
+lex:L5381\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L5381\/Artigo1    lex:temParagrafo    lex:L5381\/Artigo1\/Paragrafo3 .
+lex:L5381\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º No caso de novos municípios formados pelo desmembramento de mais de um município, vigorará nêles, até que se verifiquem as referidas circunstâncias, o maior salário-mínimo estabelecido para os municípios que lhes deram origem.'" .
+lex:L5381\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5381    lex:temArtigo    lex:L5381\/Artigo2 .
+lex:L5381\/Artigo2    lex:temConteudo    "Art 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5381\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5381    lex:temArtigo    lex:L5381\/Artigo3 .
+lex:L5381\/Artigo3    lex:temConteudo    "Art 3º Revogam-se as disposições em contrário." .
+lex:L5381\/Texto00001    lex:remetePara    lex:Del5452\/Artigo86\/Paragrafo2 .

@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D321    lex:ehUm    lex:DocLegal .
+lex:D321    lex:temTextoIntegral    lex:HTMLs\/D321.htm .
+lex:D321\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D321    lex:temArtigo    lex:D321\/Artigo1 .
+lex:D321\/Artigo1    lex:temConteudo    "Art. 1º O Departamento da Receita Federal e o Instituto Nacional do Seguro Social (INSS) celebrarão convênio estabelecendo rotinas de intercâmbio de informações, destinadas ao aumento da eficiência nas atividades de fiscalização e arrecadação das contribuições sociais vinculadas ao financiamento da Seguridade Social." .
+lex:D321\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D321\/Artigo1    lex:temParagrafo    lex:D321\/Artigo1\/ParagrafoUnico .
+lex:D321\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O convênio poderá, ainda, estabelecer critérios para a realização de operações conjuntas de fiscalização e cobrança." .
+lex:D321\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D321    lex:temArtigo    lex:D321\/Artigo2 .
+lex:D321\/Artigo2    lex:temConteudo    "Art. 2º Incluem-se nas informações referidas no artigo anterior aquelas relativas a devedores contumazes, a usuários de documentos de arrecadação falsos e a casos de ocorrência de prática de crime previsto na Lei nº 8.212, de 1991." .
+lex:D321\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D321    lex:temArtigo    lex:D321\/Artigo3 .
+lex:D321\/Artigo3    lex:temConteudo    "Art. 3º As contribuições sociais previstas nos incisos I e II do art. 23 da Lei nº 8.212, de 1991, aplica-se o disposto no Decreto nº 70.235, de 6 de março de 1972, e legislação complementar." .
+lex:D321\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D321    lex:temArtigo    lex:D321\/Artigo4 .
+lex:D321\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .

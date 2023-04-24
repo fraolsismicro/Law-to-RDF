@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7483    lex:ehUm    lex:DocLegal .
+lex:D7483    lex:temTextoIntegral    lex:HTMLs\/D7483.htm .
+lex:D7483\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7483    lex:temArtigo    lex:D7483\/Artigo1 .
+lex:D7483\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado o Estatuto Social da Empresa Brasileira de Correios e Telégrafos - ECT, nos termos do Anexo a este Decreto." .
+lex:D7483\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7483    lex:temArtigo    lex:D7483\/Artigo2 .
+lex:D7483\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7483\/Texto    lex:revogadoPor    lex:D8016\/Artigo3 .
+lex:D8016\/Artigo3    lex:revogou    lex:D7483\/Texto .
+lex:D7483\/Texto    lex:remetePara    lex:D7483 .
+lex:D7483\/Artigo3    lex:remetePara    lex:D83726 .
+lex:D7483\/Artigo3    lex:remetePara    lex:D1390 .
+lex:D7483\/Artigo3    lex:remetePara    lex:D1687 .
+lex:D7483\/Artigo3    lex:remetePara    lex:D2326 .
+lex:D7483\/Artigo3    lex:remetePara    lex:Dnn383 .
+lex:D7483\/Artigo3    lex:remetePara    lex:Dnn9624 .

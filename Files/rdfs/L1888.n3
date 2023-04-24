@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1888    lex:ehUm    lex:DocLegal .
+lex:L1888    lex:temTextoIntegral    lex:HTMLs\/L1888.htm .
+lex:L1888\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1888    lex:temArtigo    lex:L1888\/Artigo1 .
+lex:L1888\/Artigo1    lex:temConteudo    "Art. 1º O art. 23 do Decreto nº 19.606, de 19 de janeiro de 1931, e artigo 29 do Decreto nº 20.377, de 8 de setembro do mesmo ano, passam, um e outro, a ter a seguinte redação:" .
+lex:L1888\/Artigo1\/AlineaAtender    lex:ehUm    lex:Alinea .
+lex:L1888\/Artigo1    lex:temAlinea    lex:L1888\/Artigo1\/AlineaAtender .
+lex:L1888\/Artigo1\/AlineaAtender    lex:temConteudo    "a) atender às exigências do regulamento sanitário;" .
+lex:L1888\/Artigo1\/AlineaTer    lex:ehUm    lex:Alinea .
+lex:L1888\/Artigo1    lex:temAlinea    lex:L1888\/Artigo1\/AlineaTer .
+lex:L1888\/Artigo1\/AlineaTer    lex:temConteudo    "b) ter um responsável devidamente habilitado;" .
+lex:L1888\/Artigo1\/AlineaEstar    lex:ehUm    lex:Alinea .
+lex:L1888\/Artigo1    lex:temAlinea    lex:L1888\/Artigo1\/AlineaEstar .
+lex:L1888\/Artigo1\/AlineaEstar    lex:temConteudo    "c) estar isolado dos serviços privativos da farmácia." .
+lex:L1888\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1888\/Artigo1    lex:temParagrafo    lex:L1888\/Artigo1\/Paragrafo1 .
+lex:L1888\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º As injeções no consultório de farmácia, quando não forem feitas por médico, só poderão ser ministradas por pessoa habilitada e com autorização do médico responsável pelo consultório, preenchidas as duas exigências seguintes:" .
+lex:L1888\/Artigo1\/Paragrafo1\/AlineaSerem    lex:ehUm    lex:Alinea .
+lex:L1888\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L1888\/Artigo1\/Paragrafo1\/AlineaSerem .
+lex:L1888\/Artigo1\/Paragrafo1\/AlineaSerem    lex:temConteudo    "a) serem prescritas por médico;" .
+lex:L1888\/Artigo1\/Paragrafo1\/AlineaSera    lex:ehUm    lex:Alinea .
+lex:L1888\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L1888\/Artigo1\/Paragrafo1\/AlineaSera .
+lex:L1888\/Artigo1\/Paragrafo1\/AlineaSera    lex:temConteudo    "b) será receita transcrita no livro do receituário." .
+lex:L1888\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1888\/Artigo1    lex:temParagrafo    lex:L1888\/Artigo1\/Paragrafo2 .
+lex:L1888\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A autoridade sanitária determinará o fechamento do consultório, quando nêle houver prática de exercício ilegal da medicina ou infração do parágrafo 1º, sendo o médico e o farmacêutico punidos com as penas estabelecidas pelo artigo 42 no Decreto nº 20.931, de 11 de janeiro de 1932." .
+lex:L1888\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1888    lex:temArtigo    lex:L1888\/Artigo2 .
+lex:L1888\/Artigo2    lex:temConteudo    "Art. 2º Nenhum farmacêutico terá a direção técnica de mais de uma farmácia, sendo-lhe, porém, permitido manter, nêste estabelecimento, seções de artigo de toucador e de outras mercadorias afins com drogas e produtos medicinais, de acordo com o regulamento que expedir o govêrno, para execução dêste dispositivo.       (Vide Decreto-Lei nº 377, de 1968)" .
+lex:L1888\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1888    lex:temArtigo    lex:L1888\/Artigo3 .
+lex:L1888\/Artigo3    lex:temConteudo    "Art. 3º É revogado o Decreto nº 26.747, de 3 de junho de 1949." .
+lex:L1888\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1888    lex:temArtigo    lex:L1888\/Artigo4 .
+lex:L1888\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L1888\/Artigo1    lex:remetePara    lex:D19606\/Artigo23 .
+lex:L1888\/Artigo1    lex:remetePara    lex:D20377\/Artigo29 .
+lex:L1888\/Artigo1\/Paragrafo2    lex:remetePara    lex:D20931\/Artigo42 .
+lex:L1888\/Artigo2    lex:remetePara    lex:Del0377\/Artigo1 .

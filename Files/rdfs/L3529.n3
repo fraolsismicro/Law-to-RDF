@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3529    lex:ehUm    lex:DocLegal .
+lex:L3529    lex:temTextoIntegral    lex:HTMLs\/L3529.htm .
+lex:L3529\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3529    lex:temArtigo    lex:L3529\/Artigo1 .
+lex:L3529\/Artigo1    lex:temConteudo    "Art. 1º Serão aposentados pelos Institutos de Previdência a que pertencerem, com remuneração integral, os Jornalistas profissionais que trabalhem em emprêsas jornalísticas, quando contarem 30 (trinta) anos de serviço." .
+lex:L3529\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3529    lex:temArtigo    lex:L3529\/Artigo2 .
+lex:L3529\/Artigo2    lex:temConteudo    "Art. 2º Considera-se jornalista profissional aquêle cuja função, remunerada e habitual, compreenda a busca ou documentação de informações inclusive fotogràficamente, a redação de matéria a ser publicada, contenha ou não comentários, a revisão de matéria quando já, composta tipogràficamente, a ilustração por desenho ou por outro meio do que fôr publicado, a recepção radiotelegráfica e telefônica de noticiário nas redações de emprêsas jornalísticas, a organização e conservação cultural e técnica do arquivo redatorial, bem como a organização, orientação e direção de todos êsses trabalhos e serviços." .
+lex:L3529\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3529    lex:temArtigo    lex:L3529\/Artigo3 .
+lex:L3529\/Artigo3    lex:temConteudo    "Art. 3º Não terão direito aos benefícios estabelecidos por esta lei os jornalistas profissionais, reconhecidos e classificados como tais no artigo anterior, que não sejam registrados no Serviço de Identificação Profissional do Ministério do Trabalho, Indústria e Comércio." .
+lex:L3529\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3529\/Artigo3    lex:temParagrafo    lex:L3529\/Artigo3\/ParagrafoUnico .
+lex:L3529\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo não se aplica aos redatores e redatores-auxiliares da Agência Nacional, de Jornais e revistas paraestatais, de autarquias e de fundações oficiosas, desde que registrados no mesmo Serviço de Identificado Profissional." .
+lex:L3529\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L3529    lex:temArtigo    lex:L3529\/Artigo4 .
+lex:L3529\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3529\/Texto    lex:revogadoPor    lex:L9528\/Artigo15 .
+lex:L9528\/Artigo15    lex:revogou    lex:L3529\/Texto .
+lex:L3529\/Texto    lex:remetePara    lex:L3529 .

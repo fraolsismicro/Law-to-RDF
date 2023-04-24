@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp12    lex:ehUm    lex:DocLegal .
+lex:Lcp12    lex:temTextoIntegral    lex:HTMLs\/Lcp12.htm .
+lex:Lcp12\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo1 .
+lex:Lcp12\/Artigo1    lex:temConteudo    "Art. 1º - As operações de crédito referentes à colocação e resgate de títulos do Tesouro Nacional, decorrentes do giro da dívida pública interna poderão ser realizadas independentemente de estimativa e fixação das respectivas receitas a despesas no orçamento anual, ressalvado o disposto no § 2º deste artigo." .
+lex:Lcp12\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp12\/Artigo1    lex:temParagrafo    lex:Lcp12\/Artigo1\/Paragrafo1 .
+lex:Lcp12\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - As operações autorizadas neste artigo incluem os valores de:" .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos    lex:ehUm    lex:Alinea .
+lex:Lcp12\/Artigo1\/Paragrafo1    lex:temAlinea    lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos    lex:temConteudo    "a) títulos do Tesouro Nacional em circulação na data da publicação desta Lei, acrescidos dos valores das operações de crédito autorizadas em lei para equilíbrio da execução orçamentária anual;" .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos    lex:ehUm    lex:Alinea .
+lex:Lcp12\/Artigo1\/Paragrafo1    lex:temAlinea    lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaTitulos    lex:temConteudo    "b) títulos do Tesouro Nacional para execução da política monetária, até o montante autorizado pelo Conselho Monetário Nacional; e" .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaCorrecao    lex:ehUm    lex:Alinea .
+lex:Lcp12\/Artigo1\/Paragrafo1    lex:temAlinea    lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaCorrecao .
+lex:Lcp12\/Artigo1\/Paragrafo1\/AlineaCorrecao    lex:temConteudo    "c) correção monetária dos títulos de que trata este artigo, quando a ela sujeitos." .
+lex:Lcp12\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp12\/Artigo1    lex:temParagrafo    lex:Lcp12\/Artigo1\/Paragrafo2 .
+lex:Lcp12\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - As despesas com juros, descontos e comissões resultantes das operações de que trata este artigo serão incluídas no orçamento anual da União." .
+lex:Lcp12\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Lcp12\/Artigo1    lex:temParagrafo    lex:Lcp12\/Artigo1\/Paragrafo3 .
+lex:Lcp12\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A consignação de dotações orçamentárias para atendimento das despesas de que trata o parágrafo anterior poderá ser dispensada, a critério do Conselho Monetário Nacional, permitida, neste caso, a inclusão de seu valor no giro da dívida." .
+lex:Lcp12\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo2 .
+lex:Lcp12\/Artigo2    lex:temConteudo    "Art. 2º - Compete ao Banco Central do Brasil a administração da dívida mobiliária interna da União, com expressa atribuição de assegurar o pagamento, nos respectivos vencimentos, do principal e acessórios dos títulos do Tesouro Nacional referidos nesta lei complementar." .
+lex:Lcp12\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo3 .
+lex:Lcp12\/Artigo3    lex:temConteudo    "Art. 3º - Fica o Ministro da Fazenda autorizado a promover a utilização de disponibilidades do Tesouro Nacional junto ao Banco Central do Brasil com a finalidade de nivelar a conta que registre o giro da dívida pública." .
+lex:Lcp12\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp12\/Artigo3    lex:temParagrafo    lex:Lcp12\/Artigo3\/Paragrafo1 .
+lex:Lcp12\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º - Aplica-se o disposto neste artigo na hipótese de as despesas com as operações autorizadas no art. 1º serem superioras às respectivas receitas." .
+lex:Lcp12\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp12\/Artigo3    lex:temParagrafo    lex:Lcp12\/Artigo3\/Paragrafo2 .
+lex:Lcp12\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º - Para efeitos do disposto neste artigo, se o saldo das contas do Tesouro Nacional junto ao Banco Central do Brasil apresentar posição deficitária, o Conselho Monetário Nacional poderá autorizar o Banco Central do Brasil subscrever diretamente títulos do Tesouro Nacional, em importância equivalente." .
+lex:Lcp12\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo4 .
+lex:Lcp12\/Artigo4    lex:temConteudo    "Art. 4º - O Poder Executivo adotará as providências necessárias à exclusão, em variações patrimoniais de exercícios anteriores, do resultado de operações de crédito realizadas através do giro da divida mobiliária interna da União." .
+lex:Lcp12\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo5 .
+lex:Lcp12\/Artigo5    lex:temConteudo    "Art. 5º - Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp12\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Lcp12    lex:temArtigo    lex:Lcp12\/Artigo6 .
+lex:Lcp12\/Artigo6    lex:temConteudo    "Art. 6º - Revogam-se as disposições em contrário." .

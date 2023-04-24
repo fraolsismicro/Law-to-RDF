@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4029    lex:ehUm    lex:DocLegal .
+lex:L4029    lex:temTextoIntegral    lex:HTMLs\/L4029.htm .
+lex:L4029\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4029    lex:temArtigo    lex:L4029\/Artigo1 .
+lex:L4029\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda   Tribunal de Contas, o crédito especial de Cr$ 234.175,00 (duzentos e trinta e quatro mil cento e setenta e cinco cruzeiros), para pagamento da diferença de vencimentos e gratificação adicional ao Ministro Ruben Machado da Rosa, de conformidade com o disposto na Lei número 3.414, de 20 de junho de 1958." .
+lex:L4029\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4029\/Artigo1    lex:temParagrafo    lex:L4029\/Artigo1\/ParagrafoUnico .
+lex:L4029\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os pagamentos a que se refere êste artigo, são:" .
+lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaGratificacao    lex:ehUm    lex:Alinea .
+lex:L4029\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaGratificacao .
+lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaGratificacao    lex:temConteudo    "a) gratificação adicional no período de 1º de agôsto de 1957 a 31 de dezembro de 1958 - Cr$ 139.315,00;" .
+lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaDiferenca    lex:ehUm    lex:Alinea .
+lex:L4029\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaDiferenca .
+lex:L4029\/Artigo1\/ParagrafoUnico\/AlineaDiferenca    lex:temConteudo    "b) diferença de vencimentos - 1º de agôsto de 1958 a 31 de dezembro de 1958   Cr$ 94.860,00." .
+lex:L4029\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4029    lex:temArtigo    lex:L4029\/Artigo2 .
+lex:L4029\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicacão, revogadas as disposições em contrário." .
+lex:L4029\/Artigo1    lex:remetePara    lex:L3414 .

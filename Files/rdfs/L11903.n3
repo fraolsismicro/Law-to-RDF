@@ -1,0 +1,76 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11903    lex:ehUm    lex:DocLegal .
+lex:L11903    lex:temTextoIntegral    lex:HTMLs\/L11903.htm .
+lex:L11903\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo1 .
+lex:L11903\/Artigo1    lex:temConteudo    "Art. 1o  É criado o Sistema Nacional de Controle de Medicamentos, envolvendo a produção, comercialização, dispensação e a prescrição médica, odontológica e veterinária, assim como os demais tipos de movimentação previstos pelos controles sanitários." .
+lex:L11903\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo2 .
+lex:L11903\/Artigo2    lex:temConteudo    "Art. 2o  Todo e qualquer medicamento produzido, dispensado ou vendido no território nacional será controlado por meio do Sistema Nacional de Controle de Medicamentos." .
+lex:L11903\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11903\/Artigo2    lex:temParagrafo    lex:L11903\/Artigo2\/ParagrafoUnico .
+lex:L11903\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O controle aplica-se igualmente às prescrições médicas, odontológicas e veterinárias." .
+lex:L11903\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo3 .
+lex:L11903\/Artigo3    lex:temConteudo    "Art. 3o  O controle será realizado por meio de sistema de identificação exclusivo dos produtos, prestadores de serviços e usuários, com o emprego de tecnologias de captura, armazenamento e transmissão eletrônica de dados." .
+lex:L11903\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11903\/Artigo3    lex:temParagrafo    lex:L11903\/Artigo3\/Paragrafo1 .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o  Os produtos e seus distribuidores receberão identificação específica baseada em sistema de captura de dados por via eletrônica, para os seguintes componentes do Sistema Nacional de Controle de Medicamentos:" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoI .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I   fabricante (autorização de funcionamento, licença estadual e alvará sanitário municipal dos estabelecimentos fabricantes);" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoII .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II   fornecedor (atacadistas, varejistas, exportadores e importadores de medicamentos);" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIII .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III   comprador (inclusive estabelecimentos requisitantes de produtos não aviados em receitas com múltiplos produtos);" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIV .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV   produto (produto aviado ou dispensado e sua quantidade);" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoV .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoV    lex:temConteudo    "V   unidades de transporte/logísticas;" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVI .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVI    lex:temConteudo    "VI   consumidor/paciente;" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVII .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVII    lex:temConteudo    "VII   prescrição (inclusive produtos não aviados numa receita com múltiplos produtos);" .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11903\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVIII .
+lex:L11903\/Artigo3\/Paragrafo1\/ParagrafoIncisoVIII    lex:temConteudo    "VIII   médico, odontólogo e veterinário (inscrição no conselho de classe dos profissionais prescritores)." .
+lex:L11903\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11903\/Artigo3    lex:temParagrafo    lex:L11903\/Artigo3\/Paragrafo2 .
+lex:L11903\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Além dos listados nos incisos do § 1o deste artigo, poderão ser incluídos pelo órgão de vigilância sanitária federal outros componentes ligados à produção, distribuição, importação, exportação, comercialização, prescrição e uso de medicamentos." .
+lex:L11903\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo4 .
+lex:L11903\/Artigo4    lex:temConteudo    "Art. 4o  O órgão de vigilância sanitária federal competente implantará e coordenará o Sistema Nacional de Controle de Medicamentos." .
+lex:L11903\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11903\/Artigo4    lex:temParagrafo    lex:L11903\/Artigo4\/ParagrafoUnico .
+lex:L11903\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O órgão definirá o conteúdo, a periodicidade e a responsabilidade pelo recebimento e auditoria dos balanços das transações comerciais necessários para o controle de que trata o art. 3o desta Lei." .
+lex:L11903\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo5 .
+lex:L11903\/Artigo5    lex:temConteudo    "Art. 5o  O órgão de vigilância sanitária federal competente implantará o sistema no prazo gradual de 3 (três) anos, sendo a inclusão dos componentes referentes ao art. 3o desta Lei feita da seguinte forma:" .
+lex:L11903\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11903\/Artigo5    lex:temInciso    lex:L11903\/Artigo5\/IncisoI .
+lex:L11903\/Artigo5\/IncisoI    lex:temConteudo    "I   no primeiro ano, os referentes aos incisos I e II do § 1o;" .
+lex:L11903\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11903\/Artigo5    lex:temInciso    lex:L11903\/Artigo5\/IncisoII .
+lex:L11903\/Artigo5\/IncisoII    lex:temConteudo    "II   no segundo ano, os referentes aos incisos III, IV e V do § 1o;" .
+lex:L11903\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11903\/Artigo5    lex:temInciso    lex:L11903\/Artigo5\/IncisoIII .
+lex:L11903\/Artigo5\/IncisoIII    lex:temConteudo    "III   no terceiro ano, os referentes aos incisos VI, VII e VIII do § 1o." .
+lex:L11903\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo6 .
+lex:L11903\/Artigo6    lex:temConteudo    "Art. 6o  O órgão de vigilância sanitária federal competente estabelecerá as listas de medicamentos de venda livre, de venda sob prescrição e retenção de receita e de venda sob responsabilidade do farmacêutico, sem retenção de receita." .
+lex:L11903\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L11903    lex:temArtigo    lex:L11903\/Artigo7 .
+lex:L11903\/Artigo7    lex:temConteudo    "Art. 7o  Esta Lei entra em vigor na data de sua publicação." .

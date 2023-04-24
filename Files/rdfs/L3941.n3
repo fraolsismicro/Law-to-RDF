@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3941    lex:ehUm    lex:DocLegal .
+lex:L3941    lex:temTextoIntegral    lex:HTMLs\/L3941.htm .
+lex:L3941\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3941    lex:temArtigo    lex:L3941\/Artigo1 .
+lex:L3941\/Artigo1    lex:temConteudo    "Art. 1º São feitas as seguintes retificações na Lei nº 3.834, de 10 de dezembro de 1960:" .
+lex:L3941\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L3941\/Artigo1    lex:temInciso    lex:L3941\/Artigo1\/IncisoII .
+lex:L3941\/Artigo1\/IncisoII    lex:temConteudo    "II - Departamento Nacional de Produção Mineral" .
+lex:L3941\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3941    lex:temArtigo    lex:L3941\/Artigo2 .
+lex:L3941\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação." .
+lex:L3941\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3941    lex:temArtigo    lex:L3941\/Artigo3 .
+lex:L3941\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L3941\/Artigo1    lex:remetePara    lex:L3834 .
+lex:L3941\/Texto00001    lex:remetePara    lex:L2613\/Artigo8 .
+lex:L3941\/Texto00001    lex:remetePara    lex:L2656\/Artigo2 .
+lex:L3941\/Texto00001    lex:remetePara    lex:L1493\/Artigo4\/Paragrafo2 .
+lex:L3941\/Texto00001    lex:remetePara    lex:L1493\/Artigo4\/Paragrafo2 .

@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8536    lex:ehUm    lex:DocLegal .
+lex:D8536    lex:temTextoIntegral    lex:HTMLs\/D8536.htm .
+lex:D8536\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8536    lex:temArtigo    lex:D8536\/Artigo1 .
+lex:D8536\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo ao Decreto no 6.129, de 20 de junho de 2007, passa a vigorar com as seguintes alterações:" .
+lex:D8536\/Artigo1\/IncisoXIX    lex:ehUm    lex:Inciso .
+lex:D8536\/Artigo1    lex:temInciso    lex:D8536\/Artigo1\/IncisoXIX .
+lex:D8536\/Artigo1\/IncisoXIX    lex:temConteudo    "XIX - .............................................................................." .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXIX    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao    lex:temConteudo    "b) Fundação Instituto Brasileiro de Geografia e Estatística - IBGE;" .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "c) Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo - Funpresp-Exe; e" .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao\/IncisoAlineaFundacao\/IncisoAlineaFundacao    lex:temConteudo    "d) Fundação Instituto de Pesquisa Econômica Aplicada - IPEA;" .
+lex:D8536\/Artigo1\/IncisoXXIII    lex:ehUm    lex:Inciso .
+lex:D8536\/Artigo1    lex:temInciso    lex:D8536\/Artigo1\/IncisoXXIII .
+lex:D8536\/Artigo1\/IncisoXXIII    lex:temConteudo    "XXIII - Ministério do Trabalho e Previdência Social:" .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXXIII    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao    lex:temConteudo    "a) Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho - FUNDACENTRO;" .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa    lex:temConteudo    "b) Empresa de Tecnologia e Informações da Previdência Social - DATAPREV;" .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto    lex:temConteudo    "c) Instituto Nacional do Seguro Social - INSS; e" .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto\/IncisoAlineaSuperintendencia    lex:ehUm    lex:IncisoAlinea .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto    lex:temIncisoAlinea    lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto\/IncisoAlineaSuperintendencia .
+lex:D8536\/Artigo1\/IncisoXXIII\/IncisoAlineaFundacao\/IncisoAlineaEmpresa\/IncisoAlineaInstituto\/IncisoAlineaSuperintendencia    lex:temConteudo    "d) Superintendência Nacional de Previdência Complementar - PREVIC;" .
+lex:D8536\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8536    lex:temArtigo    lex:D8536\/Artigo2 .
+lex:D8536\/Artigo2    lex:temConteudo    "Art. 2 o  Ficam revogados os incisos IV e XX do Anexo ao Decreto no 6.129, de 20 de junho de 2007." .
+lex:D8536\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8536    lex:temArtigo    lex:D8536\/Artigo3 .
+lex:D8536\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8536\/Artigo1    lex:remetePara    lex:D6129 .
+lex:D8536\/Artigo1\/IncisoXIX\/IncisoAlineaFundacao    lex:remetePara    lex:D6129\/ .
+lex:D8536\/Artigo1\/IncisoXXIII    lex:remetePara    lex:D6129\/ .
+lex:D8536\/Artigo2    lex:remetePara    lex:D6129\/ .
+lex:D8536\/Artigo2    lex:remetePara    lex:D6129\/ .

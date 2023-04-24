@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1486    lex:ehUm    lex:DocLegal .
+lex:Del1486    lex:temTextoIntegral    lex:HTMLs\/Del1486.htm .
+lex:Del1486\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1486    lex:temArtigo    lex:Del1486\/Artigo1 .
+lex:Del1486\/Artigo1    lex:temConteudo    "Art. 1º Fica alterado, na forma do Anexo deste Decreto-lei, a alínea a do Anexo II do Decreto-lei nº 1.462, de 29 de abril de 1976, que reajustou os vencimentos e salários dos servidores  civis do Distrito Federal e dos Membros do Tribunal de Cantas do Distrito Federal, para o fim de incluir o Nível DAS 4 no Grupo Direção e Assessoramento Superiores a que se refere a Lei nº 5.920, de 19 de setembro de 1973." .
+lex:Del1486\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1486    lex:temArtigo    lex:Del1486\/Artigo2 .
+lex:Del1486\/Artigo2    lex:temConteudo    "Art. 2º A classificação, no Nível DAS-4, dos cargos em comissão que devam integrá-lo far-se-á por decreto do Governo do Distrito Federal, na forma autorizada pelo artigo 7º da Lei nº 5.920, de 1973." .
+lex:Del1486\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1486    lex:temArtigo    lex:Del1486\/Artigo3 .
+lex:Del1486\/Artigo3    lex:temConteudo    "Art. 3º O parágrafo 3º do artigo 13 do Decreto-lei nº 1.462, de 1976, passa a vigorar com a seguinte redação:" .
+lex:Del1486\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1486    lex:temArtigo    lex:Del1486\/Artigo4 .
+lex:Del1486\/Artigo4    lex:temConteudo    "Art. 4º Na aplicação deste Decreto-lei serão observadas, no que não colidirem com suas disposições, as normas constantes do Decreto-lei número 1.462, de 1976." .
+lex:Del1486\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1486    lex:temArtigo    lex:Del1486\/Artigo5 .
+lex:Del1486\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1486\/Artigo1    lex:remetePara    lex:Del1462\/ .
+lex:Del1486\/Artigo1    lex:remetePara    lex:L5920 .
+lex:Del1486\/Artigo2    lex:remetePara    lex:L5920\/Artigo7 .
+lex:Del1486\/Artigo3    lex:remetePara    lex:Del1462 .
+lex:Del1486\/Texto00003    lex:remetePara    lex:Del1462\/Artigo13\/Paragrafo3 .
+lex:Del1486\/Artigo4    lex:remetePara    lex:Del1462 .

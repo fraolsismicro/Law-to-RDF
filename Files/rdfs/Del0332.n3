@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0332    lex:ehUm    lex:DocLegal .
+lex:Del0332    lex:temTextoIntegral    lex:HTMLs\/Del0332.htm .
+lex:Del0332\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0332    lex:temArtigo    lex:Del0332\/Artigo1 .
+lex:Del0332\/Artigo1    lex:temConteudo    "Art. 1º Fica isentos do Impôsto sôbre Produtos Industrializados os produtos das posições 84.24 e 87.01, da Tabela anexa à Lei número 4.502, de 30 de novembro de 1964." .
+lex:Del0332\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0332\/Artigo1    lex:temParagrafo    lex:Del0332\/Artigo1\/ParagrafoUnico .
+lex:Del0332\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os estabelecimentos industriais abrangidos pela isenção de que trata êste artigo terão direito à restituição do impôsto relativo às matérias primas, produtos intermediários e embalagens, adquiridos no período de vigência dêste Decreto-lei e empregados na industrialização dos referidos produtos." .
+lex:Del0332\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0332    lex:temArtigo    lex:Del0332\/Artigo2 .
+lex:Del0332\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei, que será submetido à apreciação do Congresso Nacional, nos têrmos do parágrafo único do artigo 58 da Constituição, entrará em vigor na data de sua publicação e terá vigência até 31 de dezembro de 1967." .
+lex:Del0332\/Texto    lex:remetePara    lex:Del0342 .
+lex:Del0332\/Artigo1    lex:remetePara    lex:L4502\/ .
+lex:Del0332\/Artigo2    lex:remetePara    lex:Constituicao67\/Artigo58 .

@@ -1,0 +1,63 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10602    lex:ehUm    lex:DocLegal .
+lex:D10602    lex:temTextoIntegral    lex:HTMLs\/D10602.htm .
+lex:D10602\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10602    lex:temArtigo    lex:D10602\/Artigo1A .
+lex:D10602\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 10.356, de 20 de maio de 2020 , passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10602\/Artigo1A\/AlineaTecnologias    lex:ehUm    lex:Alinea .
+lex:D10602\/Artigo1A    lex:temAlinea    lex:D10602\/Artigo1A\/AlineaTecnologias .
+lex:D10602\/Artigo1A\/AlineaTecnologias    lex:temConteudo    "a) tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o, inclusive computaÃ§Ã£o;" .
+lex:D10602\/Artigo1A\/AlineaEngenharias    lex:ehUm    lex:Alinea .
+lex:D10602\/Artigo1A    lex:temAlinea    lex:D10602\/Artigo1A\/AlineaEngenharias .
+lex:D10602\/Artigo1A\/AlineaEngenharias    lex:temConteudo    "b) engenharias elÃ©trica, eletrÃ´nica, mecatrÃ´nica e de telecomunicaÃ§Ãµes; e" .
+lex:D10602\/Artigo1A\/AlineaOutros    lex:ehUm    lex:Alinea .
+lex:D10602\/Artigo1A    lex:temAlinea    lex:D10602\/Artigo1A\/AlineaOutros .
+lex:D10602\/Artigo1A\/AlineaOutros    lex:temConteudo    "c) outros cursos correlatos, reconhecidos pelo MinistÃ©rio da EducaÃ§Ã£o." .
+lex:D10602\/Artigo1A\/AlineaPD&IC    lex:ehUm    lex:Alinea .
+lex:D10602\/Artigo1A    lex:temAlinea    lex:D10602\/Artigo1A\/AlineaPD&IC .
+lex:D10602\/Artigo1A\/AlineaPD&IC    lex:temConteudo    "b) PD&amp;IC - aquele valor excedente ao do PD&amp;IM e utilizado, opcionalmente, para permitir o atingimento dos percentuais mÃ¡ximos definidos no Â§ 5Âº e no Â§ 6Âº do art. 3Âº da Lei nÂº 13.969, de 2019 , quando a apuraÃ§Ã£o da RelaÃ§Ã£o PA/MPD for inferior a um; e" .
+lex:D10602\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10602    lex:temArtigo    lex:D10602\/Artigo2A .
+lex:D10602\/Artigo2A    lex:temConteudo    "Art. 2Âº  O Anexo I ao Decreto nÂº 10.356, de 2020 , passa a vigorar na forma do Anexo a este Decreto ." .
+lex:D10602\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D10602    lex:temArtigo    lex:D10602\/Artigo3A .
+lex:D10602\/Artigo3A    lex:temConteudo    "Art. 3Âº  Ficam revogados:" .
+lex:D10602\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D10602    lex:temArtigo    lex:D10602\/Artigo4A .
+lex:D10602\/Artigo4A    lex:temConteudo    "Art. 4Âº  Decreto entra em vigor sete dias apÃ³s a data de sua publicaÃ§Ã£o." .
+lex:D10602\/Artigo1A    lex:remetePara    lex:D10356 .
+lex:D10602\/Texto00001    lex:remetePara    lex:D10356\/Artigo20 .
+lex:D10602\/Texto00001    lex:remetePara    lex:L10973\/Artigo2 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo12i0 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo12iv0 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo12A710 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A71 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A718 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A718 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A71 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo12A76 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A71 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo11A71 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo13 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo200 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo16 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo220 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:L8248\/Artigo4A72 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo230 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo250 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo26A76 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo30A77 .
+lex:D10602\/Artigo1A\/Texto00004    lex:remetePara    lex:D10356\/Artigo52ii0 .
+lex:D10602\/Artigo1A\/AlineaPD&IC    lex:remetePara    lex:D10356\/Artigo52iib0 .
+lex:D10602\/Artigo1A\/AlineaPD&IC    lex:remetePara    lex:L13969\/Artigo3A76 .
+lex:D10602\/Artigo1A\/AlineaPD&IC    lex:remetePara    lex:L13969\/Artigo3A76 .
+lex:D10602\/Artigo2A    lex:remetePara    lex:D10356\/anexo10 .
+lex:D10602\/Texto00007    lex:remetePara    lex:D10356\/Artigo2A71 .
+lex:D10602\/Texto00007    lex:remetePara    lex:D5906\/Artigo36A75 .

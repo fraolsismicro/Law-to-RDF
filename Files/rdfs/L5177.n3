@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5177    lex:ehUm    lex:DocLegal .
+lex:L5177    lex:temTextoIntegral    lex:HTMLs\/L5177.htm .
+lex:L5177\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5177    lex:temArtigo    lex:L5177\/Artigo1 .
+lex:L5177\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Marinha, o crédito especial de Cr$4.530.226.261 (quatro bilhões, quinhentos e trinta milhões, duzentos e vinte e seis mil, duzentos e sessenta e um cruzeiros), que corresponde à quota de participação do Fundo Naval no excesso de arrecadação da Taxa de Despacho Aduaneiro, verificado nos exercícios 1963, 1964 e 1965, consoante o art. 66, § 1º, da Lei nº 3.244, de 14 de agôsto de 1957." .
+lex:L5177\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5177\/Artigo1    lex:temParagrafo    lex:L5177\/Artigo1\/ParagrafoUnico .
+lex:L5177\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito especial de que trata o presente artigo será automàticamente registrado e distribuído ao Tesouro Nacional pelo Tribunal de Contas da União." .
+lex:L5177\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5177    lex:temArtigo    lex:L5177\/Artigo2 .
+lex:L5177\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L5177\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5177    lex:temArtigo    lex:L5177\/Artigo3 .
+lex:L5177\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5177\/Artigo1    lex:remetePara    lex:L3244\/Artigo66\/Paragrafo1 .

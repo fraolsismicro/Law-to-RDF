@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1657    lex:ehUm    lex:DocLegal .
+lex:Del1657    lex:temTextoIntegral    lex:HTMLs\/Del1657.htm .
+lex:Del1657\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1657    lex:temArtigo    lex:Del1657\/Artigo1 .
+lex:Del1657\/Artigo1    lex:temConteudo    "Art. 1º - Os limites máximo e mínimo fixados no Art. 1º do Decreto-lei nº 1.596, de 22 de dezembro de 1977, ficam elevados, a partir do exercício financeiro de 1979, para respectivamente Cr$7.800,00 (sete mil e oitocentos cruzeiros) e Cr$1.224,00 (hum mil duzentos e vinte e quatro cruzeiros)." .
+lex:Del1657\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1657\/Artigo1    lex:temParagrafo    lex:Del1657\/Artigo1\/ParagrafoUnico .
+lex:Del1657\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único - Fica mantida em 12% (doze por cento) a porcentagem para cálculo de crédito a que se refere o Parágrafo Único do Artigo 1º, do Decreto-lei nº 1.596, de 22 de dezembro de 1977." .
+lex:Del1657\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1657    lex:temArtigo    lex:Del1657\/Artigo2 .
+lex:Del1657\/Artigo2    lex:temConteudo    "Art. 2º - A Secretaria de Planejamento da Presidência da República e o Ministério da Fazenda adotarão as providências que se fizerem necessárias à aplicação deste Decreto-lei, no exercício de 1979." .
+lex:Del1657\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1657    lex:temArtigo    lex:Del1657\/Artigo3 .
+lex:Del1657\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1657\/Texto    lex:remetePara    lex:Del1851\/Artigo1 .
+lex:Del1657\/Artigo1    lex:remetePara    lex:Del1596\/Artigo1 .
+lex:Del1657\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1596\/Artigo1 .

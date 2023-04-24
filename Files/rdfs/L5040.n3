@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5040    lex:ehUm    lex:DocLegal .
+lex:L5040    lex:temTextoIntegral    lex:HTMLs\/L5040.htm .
+lex:L5040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5040    lex:temArtigo    lex:L5040\/Artigo1 .
+lex:L5040\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, pelo Ministério da Educação e Cultura, o crédito especial de Cr$ 360.000.000 (trezentos e sessenta milhões de cruzeiros), para atender a despesas com a desapropriação dos terrenos onde foram travadas as Batalhas dos Guararapes, no Município de Jaboatão, no Estado de Pernambuco, declarados de utilidade pública, para fins de desapropriação, pelo Decreto nº 57.273, de 16 de novembro de 1965." .
+lex:L5040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5040    lex:temArtigo    lex:L5040\/Artigo2 .
+lex:L5040\/Artigo2    lex:temConteudo    "Art. 2º O crédito especial, de que trata esta Lei, será registrado pelo Tribunal de Contas da União e distribuído ao Tesouro Nacional, obedecido o disposto no art. 43 da Lei número 4.320, de 17 de março de 1964." .
+lex:L5040\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5040    lex:temArtigo    lex:L5040\/Artigo3 .
+lex:L5040\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5040\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5040    lex:temArtigo    lex:L5040\/Artigo4 .
+lex:L5040\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L5040\/Artigo1    lex:remetePara    lex:D57276 .
+lex:L5040\/Artigo2    lex:remetePara    lex:L4320\/Artigo43 .

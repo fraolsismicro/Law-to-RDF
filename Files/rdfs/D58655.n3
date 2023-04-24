@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D58655    lex:ehUm    lex:DocLegal .
+lex:D58655    lex:temTextoIntegral    lex:HTMLs\/D58655.htm .
+lex:D58655\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D58655    lex:temArtigo    lex:D58655\/Artigo1 .
+lex:D58655\/Artigo1    lex:temConteudo    "Art. 1º Fica outorgada concessão a Rádio São Francisco Ltda., nos têrmos do art. 28 do regulamento dos serviços de radiodifusão para estabelecer na cidade de Anápolis - Estado de Goiás, sem direito de exclusividade, uma estação de radiodifusão sonora, (onda média)." .
+lex:D58655\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D58655\/Artigo1    lex:temParagrafo    lex:D58655\/Artigo1\/ParagrafoUnico .
+lex:D58655\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. O contrato decorrente desta concessão obedecerá as clausulas que com esse baixam, rubricadas pelo presidente do Conselho Nacional de Telecomunicações e deverá ser assinado dentro de 60 (sessenta) dias, a contar da data da publicação dêste Decreto no Diário Oficial, sob pena de se tornar nulo, de pleno direito, o ato de outorga." .
+lex:D58655\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D58655    lex:temArtigo    lex:D58655\/Artigo2 .
+lex:D58655\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .

@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.777    lex:ehUm    lex:DocLegal .
+lex:L10.777    lex:temTextoIntegral    lex:HTMLs\/L10.777.htm .
+lex:L10777\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L10777    lex:temParagrafo    lex:L10777\/Paragrafo4 .
+lex:L10777\/Paragrafo4    lex:temConteudo    "§ 4o A demonstração da observância do limite mínimo previsto no § 3o deste artigo dar-se-á no encerramento do exercício financeiro de 2004'. (NR)" .
+lex:L10777\/Paragrafo3    lex:remetePara    lex:L10707\/Artigo59\/Paragrafo3 .
+lex:L10777\/Paragrafo4    lex:remetePara    lex:L10707\/Artigo59\/Paragrafo4 .

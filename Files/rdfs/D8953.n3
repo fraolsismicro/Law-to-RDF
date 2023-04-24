@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8953    lex:ehUm    lex:DocLegal .
+lex:D8953    lex:temTextoIntegral    lex:HTMLs\/D8953.htm .
+lex:D8953\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8953    lex:temArtigo    lex:D8953\/Artigo1 .
+lex:D8953\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 7.963, de 15 de março de 2013, passa a vigorar com as seguintes alterações:" .
+lex:D8953\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8953\/Artigo1    lex:temInciso    lex:D8953\/Artigo1\/IncisoIV .
+lex:D8953\/Artigo1\/IncisoIV    lex:temConteudo    "IV - garantia de produtos e serviços com padrões adequados de qualidade, segurança, durabilidade, desempenho e acessibilidade;" .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8953\/Artigo1    lex:temParagrafo    lex:D8953\/Artigo1\/ParagrafoUnico .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para fins do disposto neste Decreto, considera-se acessibilidade a possibilidade e a condição de alcance para utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e suas tecnologias, e de outros serviços e instalações abertos ao público, de uso público ou privados de uso coletivo, tanto na zona urbana como na rural, por pessoa com deficiência ou com mobilidade reduzida. (NR)" .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - estimular a melhoria da qualidade e o desenho universal de produtos e serviços disponibilizados no mercado de consumo;" .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8953\/Artigo1    lex:temParagrafo    lex:D8953\/Artigo1\/ParagrafoUnico .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para fins do disposto neste Decreto, considera-se:" .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - desenho universal - concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, incluídos os recursos de tecnologia assistiva; e" .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - tecnologia assistiva - produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços que objetivem promover a funcionalidade, relacionada à atividade e à participação da pessoa com deficiência ou com mobilidade reduzida, visando à sua autonomia, independência, qualidade de vida e inclusão social. (NR)" .
+lex:D8953\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8953    lex:temArtigo    lex:D8953\/Artigo2 .
+lex:D8953\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8953\/Artigo1    lex:remetePara    lex:D7963 .
+lex:D8953\/Artigo1\/IncisoIV    lex:remetePara    lex:D7963\/Artigo2 .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D7963\/Artigo2 .
+lex:D8953\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:remetePara    lex:D7963\/Artigo3 .
+lex:D8953\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D7963\/Artigo3 .

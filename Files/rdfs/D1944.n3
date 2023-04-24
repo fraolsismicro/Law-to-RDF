@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1944    lex:ehUm    lex:DocLegal .
+lex:D1944    lex:temTextoIntegral    lex:HTMLs\/D1944.htm .
+lex:D1944\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1944    lex:temArtigo    lex:D1944\/Artigo1 .
+lex:D1944\/Artigo1    lex:temConteudo    "Art. 1° Ficam aprovados o Estatuto e o Quadro Demonstrativo de Cargos em Comissão e Funções Gratificadas da Fundação Osório, na forma dos Anexos I e II a este Decreto." .
+lex:D1944\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1944\/Artigo1    lex:temParagrafo    lex:D1944\/Artigo1\/ParagrafoUnico .
+lex:D1944\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em decorrência do disposto no caput deste artigo, ficam remanejados os seguintes cargos em comissão e função gratificada:" .
+lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDo    lex:ehUm    lex:Alinea .
+lex:D1944\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDo .
+lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDo    lex:temConteudo    "a) do Ministério da Administração Federal e Reforma do Estado para a Fundação Osório, oriundos da extinção de órgãos da Administração Pública Federal, dois DAS 101.2;" .
+lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:D1944\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDa .
+lex:D1944\/Artigo1\/ParagrafoUnico\/AlineaDa    lex:temConteudo    "b) da Fundação Osório para o Ministério da Administração Federal e Reforma do Estado, um DAS 102.2, um DAS 101.l e uma FG-3." .
+lex:D1944\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1944    lex:temArtigo    lex:D1944\/Artigo2 .
+lex:D1944\/Artigo2    lex:temConteudo    "Art. 2° Os apostilamentos dos cargos decorrentes da aprovação do Estatuto de que trata o artigo anterior serão efetuados pela Divisão de Administração da Fundação Osório e deverão ocorrer no prazo de 20 dias contados da data de publicação deste Decreto." .
+lex:D1944\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1944\/Artigo2    lex:temParagrafo    lex:D1944\/Artigo2\/ParagrafoUnico .
+lex:D1944\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Após os apostilamentos previstos no caput deste artigo o Ministro de Estado do Exército fará publicar no Diário Oficial da União, no prazo de 30 dias contados da data de publicação deste Decreto, a relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivos níveis." .
+lex:D1944\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1944    lex:temArtigo    lex:D1944\/Artigo3 .
+lex:D1944\/Artigo3    lex:temConteudo    "Art. 3° O Regimento Interno da Fundação Osório será aprovado pelo Ministro de Estado do Exército e publicado no Diário Oficial da União." .
+lex:D1944\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D1944    lex:temArtigo    lex:D1944\/Artigo4 .
+lex:D1944\/Artigo4    lex:temConteudo    "Art. 4° Este Decreto entra em vigor na data de sua publicação." .

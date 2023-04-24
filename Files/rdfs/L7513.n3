@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7513    lex:ehUm    lex:DocLegal .
+lex:L7513    lex:temTextoIntegral    lex:HTMLs\/L7513.htm .
+lex:L7513\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7513    lex:temArtigo    lex:L7513\/Artigo1 .
+lex:L7513\/Artigo1    lex:temConteudo    "Art 1º A Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil - passa a vigorar com o seu artigo 649 acrescido de um inciso numerado como X, com a seguinte redação:" .
+lex:L7513\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:L7513\/Artigo1    lex:temInciso    lex:L7513\/Artigo1\/IncisoX .
+lex:L7513\/Artigo1\/IncisoX    lex:temConteudo    "X - o imóvel rural, até um módulo, desde que este seja o único de que disponha o devedor, ressalvada a hipoteca para fins de financiamento agropecuário .'" .
+lex:L7513\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7513    lex:temArtigo    lex:L7513\/Artigo2 .
+lex:L7513\/Artigo2    lex:temConteudo    "Art 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L7513\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7513    lex:temArtigo    lex:L7513\/Artigo3 .
+lex:L7513\/Artigo3    lex:temConteudo    "Art 3º Revogam-se as disposições em contrário." .
+lex:L7513\/Artigo1\/IncisoX    lex:remetePara    lex:L5869\/Artigo649 .

@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0925    lex:ehUm    lex:DocLegal .
+lex:D0925    lex:temTextoIntegral    lex:HTMLs\/D0925.htm .
+lex:D0925\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo1 .
+lex:D0925\/Artigo1    lex:temConteudo    "Art. 1° O servidor da Administração Pública Federal poderá ser cedido a outro órgão ou entidade dos Poderes da União, dos Estados, ou do Distrito Federal e dos Municípios, para exercício de cargo em comissão ou função de confiança e, ainda, nos casos previstos em leis específicas." .
+lex:D0925\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo2 .
+lex:D0925\/Artigo2    lex:temConteudo    "Art. 2° Ressalvada a hipótese do § 4° do art. 93 da Lei n° 8.112, de 1990, a cessão obedecerá aos seguintes procedimentos:" .
+lex:D0925\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0925\/Artigo2    lex:temInciso    lex:D0925\/Artigo2\/IncisoI .
+lex:D0925\/Artigo2\/IncisoI    lex:temConteudo    "I - quando ocorrer no âmbito do Poder Executivo, será autorizada pelo Ministro de Estado ou autoridade competente do órgão integrante da Presidência da República a que pertencer o servidor, tanto da Administração direta quanto da indireta;" .
+lex:D0925\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0925\/Artigo2    lex:temInciso    lex:D0925\/Artigo2\/IncisoII .
+lex:D0925\/Artigo2\/IncisoII    lex:temConteudo    "II - quando ocorrer para órgão de outro Poder, dos Estados, do Distrito Federal e dos Municípios, será autorizada pelo Órgão Central do Sistema de Pessoal Civil (Sipec), ficando condicionada à anuência do Ministro de Estado ou autoridade competente do órgão integrante da Presidência da República a que pertencer o servidor, tanto da Administração direta quanto da indireta." .
+lex:D0925\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo3 .
+lex:D0925\/Artigo3    lex:temConteudo    "Art. 3° A requisição de servidor para ter exercício na Presidência da República ou respectivos órgãos integrantes, é irrecusável e deverá ser prontamente atendida, exceto nos casos previstos em lei." .
+lex:D0925\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0925\/Artigo3    lex:temParagrafo    lex:D0925\/Artigo3\/ParagrafoUnico .
+lex:D0925\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A cessão de que trata este artigo será por prazo indeterminado." .
+lex:D0925\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo4 .
+lex:D0925\/Artigo4    lex:temConteudo    "Art. 4° O período correspondente à cessão, de que trata este decreto, é considerado para todos os efeitos legais, inclusive para promoção e progressão funcional." .
+lex:D0925\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo5 .
+lex:D0925\/Artigo5    lex:temConteudo    "Art. 5° São mantidas as cessões já autorizadas na forma da legislação anterior." .
+lex:D0925\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo6 .
+lex:D0925\/Artigo6    lex:temConteudo    "Art. 6° Este decreto entra em vigor na data de sua publicação." .
+lex:D0925\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D0925    lex:temArtigo    lex:D0925\/Artigo7 .
+lex:D0925\/Artigo7    lex:temConteudo    "Art. 7° Revoga-se o Decreto n° 492, de 9 de abril de 1992, e demais disposições em contrário." .
+lex:D0925\/Artigo2    lex:remetePara    lex:L8112cons .

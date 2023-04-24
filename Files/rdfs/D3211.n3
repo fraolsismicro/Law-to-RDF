@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3211    lex:ehUm    lex:DocLegal .
+lex:D3211    lex:temTextoIntegral    lex:HTMLs\/D3211.htm .
+lex:D3211\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3211    lex:temArtigo    lex:D3211\/Artigo1 .
+lex:D3211\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 4o e 13, do Decreto no 193, de 21 de agosto de 1991, passa a vigorar com a seguinte redação:" .
+lex:D3211\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoI .
+lex:D3211\/Artigo1\/IncisoI    lex:temConteudo    "I - o Secretário-Executivo do Ministério do Desenvolvimento, Indústria e Comércio Exterior, que será o seu Presidente;" .
+lex:D3211\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoII .
+lex:D3211\/Artigo1\/IncisoII    lex:temConteudo    "II - o Secretário-Executivo do Ministério da Fazenda, que será o seu Vice-Presidente;" .
+lex:D3211\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoIII .
+lex:D3211\/Artigo1\/IncisoIII    lex:temConteudo    "III - o Secretário-Executivo do Ministério do Planejamento, Orçamento e Gestão;" .
+lex:D3211\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoIV .
+lex:D3211\/Artigo1\/IncisoIV    lex:temConteudo    "IV - o Presidente do Banco Nacional de Desenvolvimento Econômico e Social - BNDES;" .
+lex:D3211\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoV .
+lex:D3211\/Artigo1\/IncisoV    lex:temConteudo    "V - o Presidente do Banco Central do Brasil;" .
+lex:D3211\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D3211\/Artigo1    lex:temInciso    lex:D3211\/Artigo1\/IncisoVI .
+lex:D3211\/Artigo1\/IncisoVI    lex:temConteudo    "VI - um representante do setor privado da economia nacional, designado pelo Ministro de Estado do Desenvolvimento, Indústria e Comércio Exterior." .
+lex:D3211\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3211    lex:temArtigo    lex:D3211\/Artigo2 .
+lex:D3211\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3211\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3211    lex:temArtigo    lex:D3211\/Artigo3 .
+lex:D3211\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados o art. 8o do Decreto no 193, de 21 de agosto de 1991, e os Decretos nos 764, de 3 de março de 1993 e 1.378, de 26 de janeiro de 1995." .
+lex:D3211\/Texto00001    lex:remetePara    lex:D0193\/Artigo4 .
+lex:D3211\/Artigo1\/Texto00007    lex:remetePara    lex:D0193\/Artigo13 .
+lex:D3211\/Artigo3    lex:remetePara    lex:D0193\/Artigo8 .
+lex:D3211\/Artigo3    lex:remetePara    lex:D0764 .
+lex:D3211\/Artigo3    lex:remetePara    lex:D1378 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1456    lex:ehUm    lex:DocLegal .
+lex:Del1456    lex:temTextoIntegral    lex:HTMLs\/Del1456.htm .
+lex:Del1456\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1456    lex:temParagrafo    lex:Del1456\/Paragrafo1 .
+lex:Del1456\/Paragrafo1    lex:temConteudo    "§ 1º Na hipótese a que se refere este artigo, o crédito será calculado sobre a diferença entre o valor dos produtos adquiridos e o valor FOB, em moeda nacional, das vendas dos mesmos produtos para o exterior." .
+lex:Del1456\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1456    lex:temParagrafo    lex:Del1456\/Paragrafo2 .
+lex:Del1456\/Paragrafo2    lex:temConteudo    "§ 2º O valor dos produtos adquiridos, para os efeitos deste artigo, será o que tiver servido de base de cálculo do crédito concedido ao produtor-vendedor." .
+lex:Del1456\/Artigo1    lex:remetePara    lex:Del1248 .
+lex:Del1456\/Artigo1    lex:remetePara    lex:Del0491\/Artigo1 .
+lex:Del1456\/Paragrafo3    lex:revogadoPor    lex:Del1722\/Artigo5 .
+lex:Del1722\/Artigo5    lex:revogou    lex:Del1456\/Paragrafo3 .

@@ -1,0 +1,123 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8733    lex:ehUm    lex:DocLegal .
+lex:D8733    lex:temTextoIntegral    lex:HTMLs\/D8733.htm .
+lex:D8733\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo1 .
+lex:D8733\/Artigo1    lex:temConteudo    "Art. 1o  A gratificação de representação é devida aos militares do serviço ativo das Forças Armadas, nas seguintes hipóteses:" .
+lex:D8733\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo1    lex:temInciso    lex:D8733\/Artigo1\/IncisoI .
+lex:D8733\/Artigo1\/IncisoI    lex:temConteudo    "I - mensalmente:" .
+lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando .
+lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando    lex:temConteudo    "a) quando no posto de oficial-general; ou" .
+lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaQuando .
+lex:D8733\/Artigo1\/IncisoI\/IncisoAlineaQuando\/IncisoAlineaQuando    lex:temConteudo    "b) quando em cargo de comando, direção e chefia de organização militar, aos militares no posto de oficial superior, intermediário ou subalterno; ou" .
+lex:D8733\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo1    lex:temInciso    lex:D8733\/Artigo1\/IncisoII .
+lex:D8733\/Artigo1\/IncisoII    lex:temConteudo    "II - por dia, em situações eventuais:" .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela    lex:temConteudo    "a) pela participação em viagem de representação;" .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela    lex:temConteudo    "b) pela participação em instrução relacionada com a atividade de ensino;" .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor    lex:temConteudo    "c) por estar às ordens de autoridade estrangeira no País; ou" .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor\/IncisoAlineaPela    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor    lex:temIncisoAlinea    lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor\/IncisoAlineaPela .
+lex:D8733\/Artigo1\/IncisoII\/IncisoAlineaPela\/IncisoAlineaPela\/IncisoAlineaPor\/IncisoAlineaPela    lex:temConteudo    "d) pela participação em emprego operacional." .
+lex:D8733\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo1    lex:temParagrafo    lex:D8733\/Artigo1\/Paragrafo1 .
+lex:D8733\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Para efeito do cálculo do número de dias a que faz jus o militar à gratificação de representação nas hipóteses do inciso II do caput, será computado como um dia o período igual ou superior a oito horas e inferior a vinte e quatro horas." .
+lex:D8733\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo1    lex:temParagrafo    lex:D8733\/Artigo1\/Paragrafo2 .
+lex:D8733\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  As hipóteses de pagamento da gratificação de representação de que tratam os incisos I e II são acumuláveis entre si." .
+lex:D8733\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo1    lex:temParagrafo    lex:D8733\/Artigo1\/Paragrafo3 .
+lex:D8733\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  As hipóteses de pagamento dentro de cada inciso do caput são inacumuláveis." .
+lex:D8733\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo1    lex:temParagrafo    lex:D8733\/Artigo1\/Paragrafo4 .
+lex:D8733\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  A gratificação de representação é devida nos percentuais constantes da Tabela II do Anexo III à Medida Provisória no 2.215-10, de 31 de agosto de 2001." .
+lex:D8733\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo2 .
+lex:D8733\/Artigo2    lex:temConteudo    "Art. 2o  Para efeito do pagamento da gratificação de representação, considera-se:" .
+lex:D8733\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo2    lex:temInciso    lex:D8733\/Artigo2\/IncisoI .
+lex:D8733\/Artigo2\/IncisoI    lex:temConteudo    "I - viagem de representação - o deslocamento, de interesse da instituição, realizado por militar da ativa para fora de sua sede, na condição de representante do Ministério da Defesa ou dos Comandos das Forças, para eventos de natureza militar ou civil;" .
+lex:D8733\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo2    lex:temInciso    lex:D8733\/Artigo2\/IncisoII .
+lex:D8733\/Artigo2\/IncisoII    lex:temConteudo    "II - instrução - atividade realizada por militar da ativa, que integre o efetivo de estabelecimento de ensino militar ou de parte dele, para a participação, fora de sua sede, em evento ou exercício escolar, cujo objetivo esteja relacionado com a atividade de ensino; e" .
+lex:D8733\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo2    lex:temInciso    lex:D8733\/Artigo2\/IncisoIII .
+lex:D8733\/Artigo2\/IncisoIII    lex:temConteudo    "III - emprego operacional - atividade realizada por militar da ativa, mediante designação específica como integrante de contingente ou tripulante de embarcação ou aeronave, incluída a atividade de apoio logístico, diretamente relacionado a:" .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo2\/IncisoIII    lex:temIncisoAlinea    lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao    lex:temConteudo    "a) operação real ou de adestramento, estabelecido para fins administrativos, operacionais ou logísticos;" .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao    lex:temIncisoAlinea    lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes    lex:temConteudo    "b) ações militares de vigilância de fronteira destinadas à preservação da integridade territorial do País e à garantia da soberania nacional desenvolvidas por militares que estejam compondo de forma temporária o efetivo de pelotões especiais de fronteira ou de destacamentos especiais de fronteira;" .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes    lex:temIncisoAlinea    lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:temConteudo    "c) ações militares de operações de garantia da lei e da ordem, enquadradas no art. 15 da Lei Complementar no 97, de 9 de junho de 1999;" .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:temIncisoAlinea    lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:temConteudo    "d) ações relacionadas às atribuições subsidiárias das Forças Armadas, especificadas nos art. 16, art. 16-A, art. 17, caput, inciso V, art. 17-A, caput, no inciso III, e art. 18, caput, inciso VI, da Lei Complementar nº 97, de 1999; e" .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAdestramento    lex:ehUm    lex:IncisoAlinea .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:temIncisoAlinea    lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAdestramento .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAdestramento    lex:temConteudo    "e) adestramento para participação em missões de paz." .
+lex:D8733\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo2    lex:temParagrafo    lex:D8733\/Artigo2\/Paragrafo1 .
+lex:D8733\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  A participação de militar em adestramento realizado na sede da organização militar em que esteja servindo não será considerada emprego operacional para efeito de pagamento da gratificação de representação, exceto quando o adestramento estiver enquadrado na alínea e do inciso III do caput." .
+lex:D8733\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo2    lex:temParagrafo    lex:D8733\/Artigo2\/Paragrafo2 .
+lex:D8733\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Para fins do disposto na alínea b do inciso III do caput, considera-se temporária, para os militares da sede, a permanência no pelotão especial de fronteira ou no destacamento especial de fronteira por um ou mais períodos de emprego operacional, desde que o total, dentro de cada ano civil, não exceda seis meses." .
+lex:D8733\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo3 .
+lex:D8733\/Artigo3    lex:temConteudo    "Art. 3o  A gratificação de representação devida em razão de uma das hipóteses previstas no inciso II do caput do art. 1o será paga somente após autorização, em ato do Ministro de Estado da Defesa, no âmbito do Ministério da Defesa, ou dos Comandantes, no âmbito dos respectivos Comandos das Forças." .
+lex:D8733\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo3    lex:temParagrafo    lex:D8733\/Artigo3\/ParagrafoUnico .
+lex:D8733\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado da Defesa e os Comandantes das Forças poderão delegar a competência de que trata o caput." .
+lex:D8733\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo4 .
+lex:D8733\/Artigo4    lex:temConteudo    "Art. 4o  A gratificação de representação não será incorporada à remuneração do militar." .
+lex:D8733\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo5 .
+lex:D8733\/Artigo5    lex:temConteudo    "Art. 5o  Na hipótese do inciso II do caput do art. 1o, a gratificação de representação:" .
+lex:D8733\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo5    lex:temInciso    lex:D8733\/Artigo5\/IncisoI .
+lex:D8733\/Artigo5\/IncisoI    lex:temConteudo    "I - não será considerada para efeitos de cálculo de férias, adicional de férias, adicional-natalino ou outras parcelas remuneratórias; e" .
+lex:D8733\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo5    lex:temInciso    lex:D8733\/Artigo5\/IncisoII .
+lex:D8733\/Artigo5\/IncisoII    lex:temConteudo    "II - não será paga cumulativamente com diárias." .
+lex:D8733\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8733\/Artigo5    lex:temParagrafo    lex:D8733\/Artigo5\/ParagrafoUnico .
+lex:D8733\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Na hipótese de ocorrência da cumulatividade de que trata o inciso II do caput, será excluído o pagamento da gratificação de representação e mantido o das diárias." .
+lex:D8733\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo6 .
+lex:D8733\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8733\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8733    lex:temArtigo    lex:D8733\/Artigo7 .
+lex:D8733\/Artigo7    lex:temConteudo    "Art. 7o  Ficam revogados os seguintes dispositivos do Decreto no 4.307, de 18 de julho de 2002:" .
+lex:D8733\/Artigo7\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo7    lex:temInciso    lex:D8733\/Artigo7\/IncisoI .
+lex:D8733\/Artigo7\/IncisoI    lex:temConteudo    "I - os art. 14 a art. 17; e" .
+lex:D8733\/Artigo7\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8733\/Artigo7    lex:temInciso    lex:D8733\/Artigo7\/IncisoII .
+lex:D8733\/Artigo7\/IncisoII    lex:temConteudo    "II - o inciso III do caput do art. 19." .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:remetePara    lex:Lcp97\/Artigo16 .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:remetePara    lex:Lcp97\/Artigo16 .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:remetePara    lex:Lcp97\/Artigo17 .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:remetePara    lex:Lcp97\/Artigo17 .
+lex:D8733\/Artigo2\/IncisoIII\/IncisoAlineaOperacao\/IncisoAlineaAcoes\/IncisoAlineaAcoes\/IncisoAlineaAcoes    lex:remetePara    lex:Lcp97\/Artigo18 .
+lex:D8733\/Artigo7\/IncisoI    lex:remetePara    lex:D4307\/Artigo14 .
+lex:D8733\/Artigo7\/IncisoI    lex:remetePara    lex:D4307\/Artigo17 .
+lex:D8733\/Artigo7\/IncisoII    lex:remetePara    lex:D4307\/Artigo19 .

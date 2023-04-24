@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1609    lex:ehUm    lex:DocLegal .
+lex:D1609    lex:temTextoIntegral    lex:HTMLs\/D1609.htm .
+lex:D1609\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1609    lex:temArtigo    lex:D1609\/Artigo1 .
+lex:D1609\/Artigo1    lex:temConteudo    "Art. 1º O Acordo Quadro de Cooperação Financeira, firmado entre a República Federativa do Brasil e o Banco Europeu de Investimento, em Luxemburgo em 19 de dezembro de 1994, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D1609\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1609    lex:temArtigo    lex:D1609\/Artigo2 .
+lex:D1609\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1609\/Artigo2\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D1609\/Artigo2    lex:temInciso    lex:D1609\/Artigo2\/IncisoC .
+lex:D1609\/Artigo2\/IncisoC    lex:temConteudo    "C. Que para os efeitos especificados na alínea B precedente, poderão ser concedidos em favor de países não membros da Comunidade Européia empréstimos até ao montante máximo anual que for determinado em cada momento, para o conjunto desses países, em função das decisões adotadas pelo Conselho de Governadores do Banco, montante esse que será oportunamente comunicado, por carta separada, à República Federativa do Brasil. p Assim sendo, as Partes Contratantes decidem formalizar o seguinte Acordo:" .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar    lex:ehUm    lex:IncisoAlinea .
+lex:D1609\/Artigo2\/IncisoC    lex:temIncisoAlinea    lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar    lex:temConteudo    "a) facultar aos mutuários beneficiários dos mencionados empréstimos, e aos seus garantidores as divisas estrangeiras necessárias ao pagamento do principal, dos juros, das comissões e dos demais encargos, na forma da legislação brasileira;" .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:ehUm    lex:IncisoAlinea .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar    lex:temIncisoAlinea    lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:temConteudo    "b) facultar ao Banco as divisas necessárias para a conversão de todas as importâncias que este possa ter recebido em moeda nacional, na forma da legislação brasileira." .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade    lex:ehUm    lex:IncisoAlinea .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar    lex:temIncisoAlinea    lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade    lex:temConteudo    "a) imunidade face a processos judiciais e administrativos referentes a atos por si praticados no exercício e por causa do exercício das suas funções oficiais, salvo se o Banco renunciar a essa imunidade;" .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade\/IncisoAlineaImunidade    lex:ehUm    lex:IncisoAlinea .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade    lex:temIncisoAlinea    lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade\/IncisoAlineaImunidade .
+lex:D1609\/Artigo2\/IncisoC\/IncisoAlineaFacultar\/IncisoAlineaFacultar\/IncisoAlineaImunidade\/IncisoAlineaImunidade    lex:temConteudo    "b) imunidade face à aplicação de medidas restritivas de imigração e de medidas que imponham o registro de estrangeiros." .

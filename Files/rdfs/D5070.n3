@@ -1,0 +1,57 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5070    lex:ehUm    lex:DocLegal .
+lex:D5070    lex:temTextoIntegral    lex:HTMLs\/D5070.htm .
+lex:D5070\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5070    lex:temArtigo    lex:D5070\/Artigo1 .
+lex:D5070\/Artigo1    lex:temConteudo    "Art. 1o  Ficam incluídos no Programa Nacional de Desestatização - PND, para os fins da Lei no 9.491, de 9 de setembro de 1997, os seguintes empreendimentos de transmissão de energia elétrica integrantes da Rede Básica do Sistema Interligado Nacional:" .
+lex:D5070\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5070\/Artigo1    lex:temInciso    lex:D5070\/Artigo1\/IncisoI .
+lex:D5070\/Artigo1\/IncisoI    lex:temConteudo    "I - SISTEMA NORDESTE: Linha de Transmissão Milagres - Coremas, 2o circuito, em 230 kV, no Estado da Paraíba;" .
+lex:D5070\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5070\/Artigo1    lex:temInciso    lex:D5070\/Artigo1\/IncisoII .
+lex:D5070\/Artigo1\/IncisoII    lex:temConteudo    "II - SISTEMA SUDESTE:" .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Macaé - Campos, 3o circuito, em 345 kV, no Estado do Rio de Janeiro;" .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Furnas - Pimenta, 2o circuito, em 345 kV, no Estado de Minas Gerais; e" .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoII\/IncisoAlineaLinha\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "c) Linha de Transmissão Itutinga - Juiz de Fora, em 345 kV, no Estado de Minas Gerais;" .
+lex:D5070\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5070\/Artigo1    lex:temInciso    lex:D5070\/Artigo1\/IncisoIII .
+lex:D5070\/Artigo1\/IncisoIII    lex:temConteudo    "III - SISTEMA SUL:" .
+lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Ivaiporã - Londrina, 2o circuito, em 525 kV, no Estado do Paraná; e" .
+lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoIII\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Campos Novos - Blumenau, 2o circuito, em 525 kV, no Estado de Santa Catarina;" .
+lex:D5070\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5070\/Artigo1    lex:temInciso    lex:D5070\/Artigo1\/IncisoIV .
+lex:D5070\/Artigo1\/IncisoIV    lex:temConteudo    "IV - SISTEMA CENTRO-OESTE: Linha de Transmissão Ribeirãozinho - Barra do Peixe, em 230 kV, circuito duplo, no Estado de Mato Grosso;" .
+lex:D5070\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5070\/Artigo1    lex:temInciso    lex:D5070\/Artigo1\/IncisoV .
+lex:D5070\/Artigo1\/IncisoV    lex:temConteudo    "V - INTERLIGAÇÃO DOS SISTEMAS SUDESTE E CENTRO-OESTE:" .
+lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temConteudo    "a) Linha de Transmissão Porto Primavera - Dourados, em 230 kV, nos Estados de São Paulo e Mato Grosso do Sul; e" .
+lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:ehUm    lex:IncisoAlinea .
+lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha    lex:temIncisoAlinea    lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha .
+lex:D5070\/Artigo1\/IncisoV\/IncisoAlineaLinha\/IncisoAlineaLinha    lex:temConteudo    "b) Linha de Transmissão Porto Primavera - Imbirussu, em 230 kV, nos Estados de São Paulo e Mato Grosso do Sul." .
+lex:D5070\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5070\/Artigo1    lex:temParagrafo    lex:D5070\/Artigo1\/ParagrafoUnico .
+lex:D5070\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os empreendimentos de transmissão de energia elétrica referidos neste artigo compreendem, ainda, a implantação e ampliação das subestações associadas." .
+lex:D5070\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5070    lex:temArtigo    lex:D5070\/Artigo3 .
+lex:D5070\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5070\/Artigo1    lex:remetePara    lex:L9491 .
+lex:D5070\/Artigo1\/Artigo2    lex:remetePara    lex:L9427cons\/Artigo3 .

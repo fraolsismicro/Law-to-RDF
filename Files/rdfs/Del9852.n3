@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9852    lex:ehUm    lex:DocLegal .
+lex:Del9852    lex:temTextoIntegral    lex:HTMLs\/Del9852.htm .
+lex:Del9852\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del9852    lex:temArtigo    lex:Del9852\/Artigo1 .
+lex:Del9852\/Artigo1    lex:temConteudo    "Art. 1º O art. 131 da Consolidação das Leis do Trabalho passa a vigorar com a seguinte redação:" .
+lex:Del9852\/Artigo131    lex:ehUm    lex:Artigo .
+lex:Del9852    lex:temArtigo    lex:Del9852\/Artigo131 .
+lex:Del9852\/Artigo131    lex:temConteudo    "Art. 131 As férias serão sempre gozadas ao decurso dos doze meses seguintes à data em que às mesmas tiver o empregado feito jus." .
+lex:Del9852\/Artigo131\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del9852\/Artigo131    lex:temParagrafo    lex:Del9852\/Artigo131\/ParagrafoUnico .
+lex:Del9852\/Artigo131\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Ministro do Trabalho, Indústria e Comércio, mediante requerimento de entidade sindical representativa, poderá permitir a acumulação de, no máximo, três períodos de férias, tendo em vista peculiaridades regionais ou profissionais justificativas dessa medida." .
+lex:Del9852\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del9852    lex:temArtigo    lex:Del9852\/Artigo2 .
+lex:Del9852\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del9852\/Artigo131    lex:remetePara    lex:Del5452\/Artigo131 .

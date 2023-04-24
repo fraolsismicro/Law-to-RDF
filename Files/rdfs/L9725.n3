@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9725    lex:ehUm    lex:DocLegal .
+lex:L9725    lex:temTextoIntegral    lex:HTMLs\/L9725.htm .
+lex:L9725\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9725    lex:temArtigo    lex:L9725\/Artigo1 .
+lex:L9725\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº 9.598, de 30 de dezembro de 1997), em favor do Ministério do Meio Ambiente, dos Recursos Hídricos e da Amazônia Legal, crédito suplementar no valor de R$2.747.479,00 (dois milhões, setecentos e quarenta e sete mil, quatrocentos e setenta e nove reais), para atender à programação constante do Anexo I desta Lei." .
+lex:L9725\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9725    lex:temArtigo    lex:L9725\/Artigo2 .
+lex:L9725\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior decorrerão da:" .
+lex:L9725\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9725\/Artigo2    lex:temInciso    lex:L9725\/Artigo2\/IncisoI .
+lex:L9725\/Artigo2\/IncisoI    lex:temConteudo    "I - anulação parcial de dotações orçamentárias consignadas ao referido Órgão, conforme indicado no Anexo II desta Lei, no valor de R$1.820.000,00 (um milhão, oitocentos e vinte mil reais);" .
+lex:L9725\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L9725\/Artigo2    lex:temInciso    lex:L9725\/Artigo2\/IncisoII .
+lex:L9725\/Artigo2\/IncisoII    lex:temConteudo    "II - incorporação de recursos provenientes de convênio celebrado entre órgãos federais, no valor de R$927.479,00 (novecentos e vinte e sete mil, quatrocentos e setenta e nove reais)." .
+lex:L9725\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9725    lex:temArtigo    lex:L9725\/Artigo3 .
+lex:L9725\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9725\/Artigo1    lex:remetePara    lex:L9598 .

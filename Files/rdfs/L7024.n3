@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7024    lex:ehUm    lex:DocLegal .
+lex:L7024    lex:temTextoIntegral    lex:HTMLs\/L7024.htm .
+lex:L7024\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7024    lex:temArtigo    lex:L7024\/Artigo1 .
+lex:L7024\/Artigo1    lex:temConteudo    "Art. 1º - É concedida, a FRANCISCO BIQUIDA DY LAFUENTE GUARANY, uma pensão mensal especial de valor correspondente a 3 (três) vezes o valor do salário mínimo vigente na Bahia." .
+lex:L7024\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7024\/Artigo1    lex:temParagrafo    lex:L7024\/Artigo1\/ParagrafoUnico .
+lex:L7024\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Essa pensão não se estenderá a descendentes ou a eventuais herdeiros do beneficiado." .
+lex:L7024\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7024    lex:temArtigo    lex:L7024\/Artigo2 .
+lex:L7024\/Artigo2    lex:temConteudo    "Art. 2º - A despesa decorrente desta Lei correrá à conta de Encargos Previdenciários da União - Recursos sob Supervisão, do Ministério da Fazenda." .
+lex:L7024\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7024    lex:temArtigo    lex:L7024\/Artigo3 .
+lex:L7024\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7024\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7024    lex:temArtigo    lex:L7024\/Artigo4 .
+lex:L7024\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .

@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2331    lex:ehUm    lex:DocLegal .
+lex:D2331    lex:temTextoIntegral    lex:HTMLs\/D2331.htm .
+lex:D2331\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2331    lex:temArtigo    lex:D2331\/Artigo1 .
+lex:D2331\/Artigo1    lex:temConteudo    "Art 1º A Secretaria da Receita Federal do Ministério da Fazenda disporá de unidade de correição, diretamente subordinada ao Secretário, denominada Corregedoria-Geral, com finalidade de promover ações preventivas e repressivas sobre a ética funcional e disciplina de seus servidores, e verificar os aspectos disciplinares dos feitos fiscais e outros procedimentos administrativos, bem      assim realizar auditoria interna." .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2331\/Artigo1    lex:temParagrafo    lex:D2331\/Artigo1\/ParagrafoUnico .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A lotação e atribuições da Corregedoria-Geral da Secretaria da Receita Federal serão definidas pelo Ministro de Estado da Fazenda." .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2331\/Artigo1    lex:temParagrafo    lex:D2331\/Artigo1\/ParagrafoUnico .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo de que trata o caput deste artigo deverá constar do ato de nomeação do servidor, somente cessando a investidura em razão de decisão proferida em processo administrativo disciplinar, condenação judicial transitada em julgado ou a pedido.          (Revogado pelo Decreto nº 8.029, de 2013      (Vigência)" .
+lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - do Ministério da Administração Federal e Reforma do Estado para o Ministério da Fazenda, oriundos da extinção de órgãos da Administração Pública Federal, a serem alocados na Secretaria da Receita Federal, um DAS 101.2 e 110 DAS 102.1;" .
+lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D2331\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - do Ministério da Fazenda, alocados à Secretaria da Receita Federal, para o Ministério da Administração Federal e Reforma do Estado, um DAS 102.2 e 110 DAS 101.1." .
+lex:D2331\/Artigo1\/Artigo2    lex:revogadoPor    lex:D8029\/Artigo8 .
+lex:D8029\/Artigo8    lex:revogou    lex:D2331\/Artigo1\/Artigo2 .
+lex:D2331\/Artigo1\/Artigo2    lex:remetePara    lex:D8029\/Artigo7 .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:revogadoPor    lex:D8029\/Artigo8 .
+lex:D8029\/Artigo8    lex:revogou    lex:D2331\/Artigo1\/ParagrafoUnico .
+lex:D2331\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D8029\/Artigo7 .
+lex:D2331\/Artigo1\/Artigo4    lex:remetePara    lex:D84669\/Artigo18 .
+lex:D2331\/Artigo1\/Artigo4    lex:remetePara    lex:L8112cons\/Artigo149 .
+lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo8    lex:remetePara    lex:d1745\/ .
+lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo8    lex:remetePara    lex:d1745\/ .
+lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo8    lex:revogadoPor    lex:D2448\/Artigo4 .
+lex:D2448\/Artigo4    lex:revogou    lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo8 .
+lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo10    lex:remetePara    lex:D325\/Artigo5 .
+lex:D2331\/Artigo1\/ParagrafoUnico\/Artigo10    lex:remetePara    lex:D2282\/Artigo2 .

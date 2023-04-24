@@ -1,0 +1,589 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4653    lex:ehUm    lex:DocLegal .
+lex:D4653    lex:temTextoIntegral    lex:HTMLs\/D4653.htm .
+lex:D4653\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoI .
+lex:D4653\/IncisoI    lex:temConteudo    "I - política nacional de desenvolvimento do turismo;" .
+lex:D4653\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoII .
+lex:D4653\/IncisoII    lex:temConteudo    "II - promoção e divulgação do turismo nacional, no País e no exterior;" .
+lex:D4653\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIII .
+lex:D4653\/IncisoIII    lex:temConteudo    "III - estímulo às iniciativas públicas e privadas de incentivo às atividades turísticas; e" .
+lex:D4653\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIV .
+lex:D4653\/IncisoIV    lex:temConteudo    "IV - planejamento, coordenação, supervisão e avaliação dos planos e programas de incentivo ao turismo." .
+lex:D4653\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoI .
+lex:D4653\/IncisoI    lex:temConteudo    "I - órgãos de assistência direta e imediata ao Ministro de Estado:" .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete    lex:ehUm    lex:IncisoAlinea .
+lex:D4653\/IncisoI    lex:temIncisoAlinea    lex:D4653\/IncisoI\/IncisoAlineaGabinete .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete    lex:temConteudo    "a) Gabinete;" .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:    lex:ehUm    lex:IncisoAlinea .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete    lex:temIncisoAlinea    lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva: .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:    lex:temConteudo    "b) Secretaria-Executiva: Subsecretaria de Planejamento, Orçamento e Administração; e" .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaConsultoria    lex:ehUm    lex:IncisoAlinea .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:    lex:temIncisoAlinea    lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaConsultoria .
+lex:D4653\/IncisoI\/IncisoAlineaGabinete\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaConsultoria    lex:temConteudo    "c) Consultoria Jurídica;" .
+lex:D4653\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoII .
+lex:D4653\/IncisoII    lex:temConteudo    "II - órgãos específicos singulares:" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D4653\/IncisoII    lex:temIncisoAlinea    lex:D4653\/IncisoII\/IncisoAlineaSecretaria .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria    lex:temConteudo    "a) Secretaria de Políticas de Turismo:" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:temConteudo    "1. Departamento de Planejamento e Avaliação do Turismo;" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "2. Departamento de Relações Institucionais; e" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "3. Departamento de Relações Internacionais;" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:ehUm    lex:IncisoAlinea .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria    lex:temIncisoAlinea    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:temConteudo    "b) Secretaria de Programas de Desenvolvimento do Turismo:" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:temConteudo    "1. Departamento de Programas Regionais de Desenvolvimento;" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "2. Departamento de Promoção de Investimentos no Turismo; e" .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:ehUm    lex:IncisoAlineaItem .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temIncisoAlineaItem    lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento .
+lex:D4653\/IncisoII\/IncisoAlineaSecretaria\/IncisoAlineaSecretaria\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento\/IncisoAlineaItemDepartamento    lex:temConteudo    "3. Departamento da Produção Associada ao Turismo;" .
+lex:D4653\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIII .
+lex:D4653\/IncisoIII    lex:temConteudo    "III - órgão colegiado: Conselho Nacional de Turismo - CNT; e" .
+lex:D4653\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIV .
+lex:D4653\/IncisoIV    lex:temConteudo    "IV - entidade vinculada: EMBRATUR - Instituto Brasileiro de Turismo." .
+lex:D4653\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoI .
+lex:D4653\/IncisoI    lex:temConteudo    "I - assistir ao Ministro de Estado em sua representação política e social, ocupar-se das relações públicas e do preparo e despacho do seu expediente pessoal;" .
+lex:D4653\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoII .
+lex:D4653\/IncisoII    lex:temConteudo    "II - promover a articulação entre o Ministério e os órgãos que compõem a Presidência da República;" .
+lex:D4653\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIII .
+lex:D4653\/IncisoIII    lex:temConteudo    "III - providenciar o atendimento às consultas e aos requerimentos formulados pelo Congresso Nacional e acompanhar o andamento dos projetos, em tramitação, de interesse ministerial;" .
+lex:D4653\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIV .
+lex:D4653\/IncisoIV    lex:temConteudo    "IV - providenciar a publicação oficial e a divulgação das matérias relacionadas com a área de atuação do Ministério; e" .
+lex:D4653\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoV .
+lex:D4653\/IncisoV    lex:temConteudo    "V - planejar, coordenar e supervisionar o desenvolvimento das atividades de comunicação social do Ministério." .
+lex:D4653\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoI .
+lex:D4653\/IncisoI    lex:temConteudo    "I - assistir ao Ministro de Estado na supervisão e coordenação das atividades das Secretarias integrantes da estrutura do Ministério;" .
+lex:D4653\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoII .
+lex:D4653\/IncisoII    lex:temConteudo    "II - supervisionar e coordenar a execução das atividades relacionadas com os Sistemas Federais de Planejamento e de Orçamento, de Administração Financeira, de Contabilidade, de Organização e Modernização Administrativa, de Administração dos Recursos de Informação e Informática, de Pessoal Civil e de Serviços Gerais, no âmbito do Ministério; e" .
+lex:D4653\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653    lex:temInciso    lex:D4653\/IncisoIII .
+lex:D4653\/IncisoIII    lex:temConteudo    "III - auxiliar o Ministro de Estado na definição das diretrizes e na implementação das políticas e ações da área de competência do Ministério." .
+lex:D4653\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4653    lex:temParagrafo    lex:D4653\/ParagrafoUnico .
+lex:D4653\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A Secretaria Executiva exerce, ainda, o papel de órgão setorial dos Sistemas de Pessoal Civil da Administração Federal - SIPEC, de Organização e Modernização Administrativa - SOMAD, de Administração de Recursos de Informação e Informática - SISP, de Serviços Gerais - SISG, de Planejamento e de Orçamento Federal e de Contabilidade, por intermédio da Subsecretaria de Planejamento, Orçamento e Administração, a ela subordinada." .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - planejar, coordenar e supervisionar a execução das atividades relacionadas com os Sistemas Federais de Planejamento e de Orçamento, de Administração Financeira de Organização e Modernização Administrativa, de Contabilidade, de Informação e Informática, de Recursos Humanos e de Serviços Gerais, no âmbito do Ministério;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - promover a articulação com os órgãos centrais dos sistemas federais, referidos no inciso anterior e informar e orientar os órgãos do Ministério quanto ao cumprimento das normas administrativas estabelecidas;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - promover e coordenar a elaboração e consolidação dos planos e programas das atividades de sua área de competência e submetê-los à decisão superior;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - desenvolver as atividades de execução orçamentária, financeira e contábil, no âmbito do Ministério;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - analisar e avaliar as prestações de contas, parciais ou finais, quanto aos seus aspectos técnicos e financeiros, propondo a instauração de tomada de contas especial e demais medidas de sua competência quando a prestação de contas não for aprovada, após exauridas as providências cabíveis; e" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - realizar tomadas de contas dos ordenadores de despesa e demais responsáveis por bens e valores públicos e de todo aquele que der causa a perda, extravio ou outra irregularidade que resulte em dano ao erário." .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - assessorar o Ministro de Estado em assuntos de natureza jurídica;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - exercer a coordenação das atividades jurídicas do Ministério e da entidade a ele vinculada;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - fixar a interpretação da Constituição, das leis, dos tratados e dos demais atos normativos a ser uniformemente seguida em suas áreas de atuação e coordenação, quando não houver orientação normativa do Advogado-Geral da União;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - elaborar estudos e preparar informações, por solicitação do Ministro de Estado;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - assistir ao Ministro de Estado no controle interno da legalidade administrativa, dos atos por ele praticados ou já efetivados e daqueles oriundos de órgãos ou entidades sob sua coordenação;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - examinar, prévia e conclusivamente, no âmbito do Ministério:" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temAlinea    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs    lex:temConteudo    "a) os textos de editais de licitação, bem como os dos respectivos contratos ou instrumentos congêneres, a serem publicados e celebrados;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temAlinea    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaOs    lex:temConteudo    "b) os atos pelos quais se vá reconhecer a inexigibilidade ou decidir a dispensa de licitação; e" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaPropostas    lex:ehUm    lex:Alinea .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temAlinea    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaPropostas .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI\/AlineaPropostas    lex:temConteudo    "c) propostas, estudos, projetos, anteprojetos e minutas de atos normativos de interesse do Ministério." .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - subsidiar a formulação, elaboração e monitorar a Política Nacional de Turismo, de acordo com as diretrizes propostas e os subsídios fornecidos pelo Conselho Nacional de Turismo, bem como avaliar a sua execução;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - coordenar a elaboração do Plano Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - conceber instrumentos e propor normas para a implementação da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - subsidiar a formulação, a elaboração e avaliar os planos, programas e ações ministeriais necessários à consecução da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - conceber as diretrizes para a formulação de estudos, pesquisas, análises e levantamentos de dados destinados à formulação, implementação e avaliação da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - desempenhar as funções de Secretaria-Executiva do Conselho Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVII    lex:temConteudo    "VII - orientar o levantamento e a estruturação dos indicadores relativos ao turismo, com a finalidade de acompanhar a dinâmica do mercado turístico nacional e internacional e subsidiar a avaliação da implementação da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - atuar, participar e articular-se com organismos e instâncias nacionais e internacionais, visando ao desenvolvimento do turismo nacional;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIX .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIX    lex:temConteudo    "IX - promover a cooperação e articulação com os órgãos da Administração Pública federal, estadual, do Distrito Federal e municipal em projetos de suas iniciativas que possam contribuir para o fortalecimento e desenvolvimento do turismo nacional; e" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoX .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoX    lex:temConteudo    "X - articular com os demais órgãos governamentais e entidades da administração pública em seus programas, projetos e ações que tenham interface com a Política Nacional de Turismo." .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - planejar, coordenar e avaliar a Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - coordenar a elaboração e avaliação do Plano Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - elaborar os instrumentos e normas destinados à implementação da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - realizar estudos, pesquisas, análises e levantamentos de dados e indicadores necessários à formulação, implementação e avaliação da Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - acompanhar a dinâmica do mercado turístico nacional e internacional com vistas à subsidiar a formulação e avaliação da Política Nacional de Turismo; e" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - secretariar o Conselho Nacional de Turismo." .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - coordenar e exercer a articulação com os demais órgãos e entidades da administração pública e não governamentais em seus programas, projetos e ações que tenham interface com a Política Nacional de Turismo;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - coordenar e exercer a cooperação e articulação com os órgãos da Administração Pública federal, estadual, do Distrito Federal e municipal em projetos de suas iniciativas que possam contribuir para o fortalecimento e desenvolvimento do turismo      nacional;" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - apoiar o planejamento de programas e projetos no âmbito da Administração dos Estados, Distrito Federal, de Municípios e de micro-regiões que contribuam para o fortalecimento e desenvolvimento sustentável local pelo incremento da atividade turística; e" .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D4653\/ParagrafoUnico    lex:temParagrafoInciso    lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D4653\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - promover a integração dos programas e ações do Ministério com sua entidade vinculada." .
+lex:D4653\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo10 .
+lex:D4653\/Artigo10    lex:temConteudo    "Art. 10.  Ao Departamento de Relações Internacionais do Turismo compete:" .
+lex:D4653\/Artigo10\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo10    lex:temInciso    lex:D4653\/Artigo10\/IncisoI .
+lex:D4653\/Artigo10\/IncisoI    lex:temConteudo    "I - apoiar, planejar, coordenar e acompanhar a atuação e participação do Ministério do Turismo em fóruns e organismos internacionais de interesse do turismo nacional;" .
+lex:D4653\/Artigo10\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo10    lex:temInciso    lex:D4653\/Artigo10\/IncisoII .
+lex:D4653\/Artigo10\/IncisoII    lex:temConteudo    "II - apoiar, planejar, coordenar e acompanhar a celebração de acordos e instrumentos de cooperação técnica internacional;" .
+lex:D4653\/Artigo10\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo10    lex:temInciso    lex:D4653\/Artigo10\/IncisoIII .
+lex:D4653\/Artigo10\/IncisoIII    lex:temConteudo    "III - apoiar, planejar, coordenar e acompanhar a atuação do Ministério nas negociações de acordos comerciais bilaterais, regionais e multilaterais, com fins do fortalecimento do turismo nacional no cenário internacional; e" .
+lex:D4653\/Artigo10\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo10    lex:temInciso    lex:D4653\/Artigo10\/IncisoIV .
+lex:D4653\/Artigo10\/IncisoIV    lex:temConteudo    "IV - apoiar, planejar, coordenar e acompanhar a articulação com os demais órgãos e instituições governamentais com atuação no cenário internacional." .
+lex:D4653\/Artigo11    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo11 .
+lex:D4653\/Artigo11    lex:temConteudo    "Art. 11.  À Secretaria de Programas de Desenvolvimento do Turismo compete:" .
+lex:D4653\/Artigo11\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo11    lex:temInciso    lex:D4653\/Artigo11\/IncisoI .
+lex:D4653\/Artigo11\/IncisoI    lex:temConteudo    "I - subsidiar a formulação dos planos, programas e ações destinados ao desenvolvimento e fortalecimento do turismo nacional, necessários à consecução da Política Nacional de Turismo;" .
+lex:D4653\/Artigo11\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo11    lex:temInciso    lex:D4653\/Artigo11\/IncisoII .
+lex:D4653\/Artigo11\/IncisoII    lex:temConteudo    "II - subsidiar a formulação e acompanhar os programas de desenvolvimento regional de turismo e a promoção do apoio técnico, institucional e financeiro necessário ao fortalecimento da execução e participação dos Estados, do Distrito Federal e dos Municípios, nesses programas;" .
+lex:D4653\/Artigo11\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo11    lex:temInciso    lex:D4653\/Artigo11\/IncisoIII .
+lex:D4653\/Artigo11\/IncisoIII    lex:temConteudo    "III - subsidiar o desenvolvimento de planos, projetos e ações para a captação e estímulo aos investimentos privados nacionais e internacionais, em conformidade com as diretrizes da Política Nacional de Turismo;" .
+lex:D4653\/Artigo11\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo11    lex:temInciso    lex:D4653\/Artigo11\/IncisoIV .
+lex:D4653\/Artigo11\/IncisoIV    lex:temConteudo    "IV - promover a cooperação e a articulação dos instrumentos da Administração Pública para financiamento, apoio e promoção da atividade turística; e" .
+lex:D4653\/Artigo11\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo11    lex:temInciso    lex:D4653\/Artigo11\/IncisoV .
+lex:D4653\/Artigo11\/IncisoV    lex:temConteudo    "V - coordenar, supervisionar e avaliar os planos e programas de incentivo ao turismo." .
+lex:D4653\/Artigo12    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo12 .
+lex:D4653\/Artigo12    lex:temConteudo    "Art. 12.  Ao Departamento de Programas Regionais de Desenvolvimento do Turismo compete:" .
+lex:D4653\/Artigo12\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo12    lex:temInciso    lex:D4653\/Artigo12\/IncisoI .
+lex:D4653\/Artigo12\/IncisoI    lex:temConteudo    "I - subsidiar a formulação, coordenar, apoiar e acompanhar os programas regionais de desenvolvimento do turismo, que objetivem beneficiar as populações locais e o incremento da renda gerada pelo turismo nacional e internacional;" .
+lex:D4653\/Artigo12\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo12    lex:temInciso    lex:D4653\/Artigo12\/IncisoII .
+lex:D4653\/Artigo12\/IncisoII    lex:temConteudo    "II - subsidiar a formulação, coordenar, apoiar e acompanhar a promoção do apoio técnico, institucional e financeiro necessário ao fortalecimento da execução e participação dos Estados, do Distrito Federal e dos Municípios, nestes programas;" .
+lex:D4653\/Artigo12\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo12    lex:temInciso    lex:D4653\/Artigo12\/IncisoIII .
+lex:D4653\/Artigo12\/IncisoIII    lex:temConteudo    "III - subsidiar a formulação, coordenar, apoiar e acompanhar a estrutura institucional e financeira adequada para a execução dos programas regionais de desenvolvimento do turismo;" .
+lex:D4653\/Artigo12\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo12    lex:temInciso    lex:D4653\/Artigo12\/IncisoIV .
+lex:D4653\/Artigo12\/IncisoIV    lex:temConteudo    "IV - subsidiar a formulação, coordenar, apoiar e acompanhar o aporte de recursos de responsabilidade do Ministério, em conformidade com as diretrizes e a matriz de financiamento de cada programa; e" .
+lex:D4653\/Artigo12\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo12    lex:temInciso    lex:D4653\/Artigo12\/IncisoV .
+lex:D4653\/Artigo12\/IncisoV    lex:temConteudo    "V - coordenar e acompanhar a integração das ações de sua competência com a EMBRATUR." .
+lex:D4653\/Artigo13    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo13 .
+lex:D4653\/Artigo13    lex:temConteudo    "Art. 13.  Ao Departamento de Financiamento e Promoção de Investimentos no Turismo compete:" .
+lex:D4653\/Artigo13\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo13    lex:temInciso    lex:D4653\/Artigo13\/IncisoI .
+lex:D4653\/Artigo13\/IncisoI    lex:temConteudo    "I - subsidiar a formulação, coordenar, apoiar e acompanhar as ações de estímulo e fomento à mobilização da iniciativa privada, nacional e internacional, para a sua participação ativa na implementação da Política Nacional de Turismo;" .
+lex:D4653\/Artigo13\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo13    lex:temInciso    lex:D4653\/Artigo13\/IncisoII .
+lex:D4653\/Artigo13\/IncisoII    lex:temConteudo    "II - subsidiar a formulação, coordenar, apoiar e acompanhar o desenvolvimento de planos, projetos e eventos que objetivem a captação e estímulo aos investimentos nacionais e internacionais, em ações integradas com as diretrizes e nas regiões beneficiadas pelos programas de desenvolvimento do turismo;" .
+lex:D4653\/Artigo13\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo13    lex:temInciso    lex:D4653\/Artigo13\/IncisoIII .
+lex:D4653\/Artigo13\/IncisoIII    lex:temConteudo    "III - subsidiar a formulação, coordenar, apoiar e acompanhar o desenvolvimento, a manutenção e a promoção de projetos e de oportunidades de investimentos;" .
+lex:D4653\/Artigo13\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo13    lex:temInciso    lex:D4653\/Artigo13\/IncisoIV .
+lex:D4653\/Artigo13\/IncisoIV    lex:temConteudo    "IV - subsidiar a formulação, coordenar, apoiar e acompanhar o desenvolvimento, junto a instituições financeiras de linhas de crédito e outros instrumentos financeiros, voltados para o financiamento ao turista e às empresas da cadeia produtiva do turismo; e" .
+lex:D4653\/Artigo13\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo13    lex:temInciso    lex:D4653\/Artigo13\/IncisoV .
+lex:D4653\/Artigo13\/IncisoV    lex:temConteudo    "V - coordenar e acompanhar a integração das ações de sua competência com a EMBRATUR." .
+lex:D4653\/Artigo14    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo14 .
+lex:D4653\/Artigo14    lex:temConteudo    "Art. 14.  Ao Departamento de Capacitação e da Produção Associada ao Turismo compete:" .
+lex:D4653\/Artigo14\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo14    lex:temInciso    lex:D4653\/Artigo14\/IncisoI .
+lex:D4653\/Artigo14\/IncisoI    lex:temConteudo    "I - formatar e implementar os planos, programas e ações voltados ao desenvolvimento da produção artesanal e demais produtos associados ao turismo;" .
+lex:D4653\/Artigo14\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo14    lex:temInciso    lex:D4653\/Artigo14\/IncisoII .
+lex:D4653\/Artigo14\/IncisoII    lex:temConteudo    "II - coordenar as ações voltadas para a promoção e comercialização da produção artesanal e demais produtos associados ao turismo;" .
+lex:D4653\/Artigo14\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo14    lex:temInciso    lex:D4653\/Artigo14\/IncisoIII .
+lex:D4653\/Artigo14\/IncisoIII    lex:temConteudo    "III - formatar e implementar os programas e ações voltadas ao desenvolvimento da capacitação profissional; e" .
+lex:D4653\/Artigo14\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo14    lex:temInciso    lex:D4653\/Artigo14\/IncisoIV .
+lex:D4653\/Artigo14\/IncisoIV    lex:temConteudo    "IV - coordenar as ações voltadas à capacitação profissional e à melhoria da qualidade dos serviços prestados ao turista." .
+lex:D4653\/Artigo16    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo16 .
+lex:D4653\/Artigo16    lex:temConteudo    "Art. 16.  Ao Secretário-Executivo incumbe:" .
+lex:D4653\/Artigo16\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo16    lex:temInciso    lex:D4653\/Artigo16\/IncisoI .
+lex:D4653\/Artigo16\/IncisoI    lex:temConteudo    "I - coordenar, consolidar e submeter ao Ministro de Estado o planejamento da ação global do Ministério, em consonância com as diretrizes do Governo federal;" .
+lex:D4653\/Artigo16\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo16    lex:temInciso    lex:D4653\/Artigo16\/IncisoII .
+lex:D4653\/Artigo16\/IncisoII    lex:temConteudo    "II - supervisionar e avaliar a execução dos projetos e atividades do Ministério;" .
+lex:D4653\/Artigo16\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo16    lex:temInciso    lex:D4653\/Artigo16\/IncisoIII .
+lex:D4653\/Artigo16\/IncisoIII    lex:temConteudo    "III - supervisionar e coordenar a articulação dos órgãos do Ministério com os órgãos centrais dos sistemas afetos à área de competência da Secretaria-Executiva;" .
+lex:D4653\/Artigo16\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo16    lex:temInciso    lex:D4653\/Artigo16\/IncisoIV .
+lex:D4653\/Artigo16\/IncisoIV    lex:temConteudo    "IV - supervisionar e coordenar as Secretarias integrantes da estrutura do Ministério; e" .
+lex:D4653\/Artigo16\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4653\/Artigo16    lex:temInciso    lex:D4653\/Artigo16\/IncisoVI .
+lex:D4653\/Artigo16\/IncisoVI    lex:temConteudo    "VI - exercer outras atribuições que lhe forem cometidas pelo Ministro de Estado." .
+lex:D4653\/Artigo17    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo17 .
+lex:D4653\/Artigo17    lex:temConteudo    "Art. 17.  Aos Secretários, ao Chefe de Gabinete do Ministro, ao Consultor Jurídico, ao Subsecretário, aos Diretores e aos demais dirigentes incumbe planejar, dirigir, coordenar e orientar a execução das atividades dos respectivos órgãos ou unidades e exercer outras atribuições que lhes forem cometidas em suas áreas de competência." .
+lex:D4653\/Artigo18    lex:ehUm    lex:Artigo .
+lex:D4653    lex:temArtigo    lex:D4653\/Artigo18 .
+lex:D4653\/Artigo18    lex:temConteudo    "Art. 18.  O regimento interno definirá o detalhamento dos órgãos integrantes da Estrutura Regimental do Ministério do Turismo, as competências das respectivas unidades e as atribuições de seus dirigentes." .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D4653\/Artigo18    lex:temAlinea    lex:D4653\/Artigo18\/AlineaQUADRO .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temConteudo    "a) QUADRO DEMONSTRATIVO DE CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "5" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "5" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "5" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "3" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "4" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "1" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:ehUm    lex:Item .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temItem    lex:D4653\/Artigo18\/AlineaQUADRO\/Item .
+lex:D4653\/Artigo18\/AlineaQUADRO\/Item    lex:temConteudo    "2" .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:ehUm    lex:Alinea .
+lex:D4653\/Artigo18    lex:temAlinea    lex:D4653\/Artigo18\/AlineaQUADRO .
+lex:D4653\/Artigo18\/AlineaQUADRO    lex:temConteudo    "b) QUADRO RESUMO DE CUSTOS DOS CARGOS EM COMISSÃO E DAS FUNÇÕES GRATIFICADAS DO MINISTÉRIO DO TURISMOi" .
+lex:D4653\/Texto    lex:remetePara    lex:103\/Artigo47 .
+lex:D4653\/Texto    lex:remetePara    lex:103\/Artigo50 .
+lex:D4653\/Artigo14\/Artigo15    lex:remetePara    lex:2216-37\/Artigo27 .

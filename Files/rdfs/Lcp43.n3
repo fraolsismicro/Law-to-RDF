@@ -1,0 +1,74 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp43    lex:ehUm    lex:DocLegal .
+lex:Lcp43    lex:temTextoIntegral    lex:HTMLs\/Lcp43.htm .
+lex:Lcp43\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp43    lex:temArtigo    lex:Lcp43\/Artigo1 .
+lex:Lcp43\/Artigo1    lex:temConteudo    "Art. 1º - Os dispositivos da Lei Complementar nº 5, de 29 de abril de 1970, abaixo indicados, passarão a vigorar com a seguinte redação:" .
+lex:Lcp43\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:Lcp43\/Artigo1    lex:temParagrafo    lex:Lcp43\/Artigo1\/Paragraf .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temConteudo    "'Art.1º................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:ehUm    lex:Inciso .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temInciso    lex:Lcp43\/Artigo1\/Paragraf\/Inciso .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temConteudo    "I....................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:ehUm    lex:Inciso .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temInciso    lex:Lcp43\/Artigo1\/Paragraf\/Inciso .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temConteudo    "II...................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:ehUm    lex:Inciso .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temInciso    lex:Lcp43\/Artigo1\/Paragraf\/Inciso .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temConteudo    "III...................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temConteudo    "a)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "1...................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-    lex:ehUm    lex:IncisoAlineaItem .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem- .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-    lex:temConteudo    "2 - os que não possuam domicílio eleitoral, no Estado, pelo menos 1 (um) ano imediatamente anterior à eleição." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-    lex:temIncisoAlineaItem    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-\/IncisoAlineaItem .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-\/IncisoAlineaItem    lex:temConteudo    ".........................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:ehUm    lex:Inciso .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temInciso    lex:Lcp43\/Artigo1\/Paragraf\/Inciso .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temConteudo    "V..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temConteudo    "a)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "c)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs    lex:temConteudo    "d) os que não possuam domicílio eleitoral, no Estado ou Território, pelo menos 1 (um) ano imediatamente anterior à eleição." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:ehUm    lex:Inciso .
+lex:Lcp43\/Artigo1\/Paragraf    lex:temInciso    lex:Lcp43\/Artigo1\/Paragraf\/Inciso .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temConteudo    "VI.................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temConteudo    "a)..................................................................." .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlineaOs    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea    lex:temIncisoAlinea    lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlineaOs .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlineaOs    lex:temConteudo    "b) os que não possuam domicílio eleitoral, no Estado ou Território, pelo menos 1 (um) ano imediatamente anterior à eleição.'" .
+lex:Lcp43\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp43    lex:temArtigo    lex:Lcp43\/Artigo2 .
+lex:Lcp43\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:Lcp43\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp43    lex:temArtigo    lex:Lcp43\/Artigo3 .
+lex:Lcp43\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:Lcp43\/Artigo1    lex:remetePara    lex:Lcp05 .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItem-    lex:remetePara    lex:Lcp05\/Artigo1iiib2 .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaOs    lex:remetePara    lex:Lcp05\/Artigo1 .
+lex:Lcp43\/Artigo1\/Paragraf\/Inciso\/IncisoAlinea\/IncisoAlineaOs    lex:remetePara    lex:Lcp05\/Artigo1 .

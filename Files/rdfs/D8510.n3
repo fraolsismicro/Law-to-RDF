@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8510    lex:ehUm    lex:DocLegal .
+lex:D8510    lex:temTextoIntegral    lex:HTMLs\/D8510.htm .
+lex:D8510\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8510    lex:temArtigo    lex:D8510\/Artigo1 .
+lex:D8510\/Artigo1    lex:temConteudo    "Art. 1o A atualização monetária a que se referem o art. 14 da Medida Provisória n º 685, de 21 de julho de 2015, o § 5 º do art. 33 da Medida Provisória n º 2.228-1, de 6 de setembro de 2001, o parágrafo único do art. 23 da Lei n º 12.529, de 30 de novembro de 2011, e o art. 3 º da Medida Provisória n º 687, de 17 de agosto de 2015, poderá ser fixada:" .
+lex:D8510\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8510\/Artigo1    lex:temInciso    lex:D8510\/Artigo1\/IncisoI .
+lex:D8510\/Artigo1\/IncisoI    lex:temConteudo    "I - por ato do Ministro de Estado da Fazenda, quanto às taxas a que se referem os incisos IV e XI do caput do art. 14 da Medida Provisória nº 685, de 2015;" .
+lex:D8510\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8510\/Artigo1    lex:temInciso    lex:D8510\/Artigo1\/IncisoII .
+lex:D8510\/Artigo1\/IncisoII    lex:temConteudo    "II - por ato conjunto do Ministro de Estado da Fazenda e do Ministro de Estado ao qual esteja vinculado o órgão ou a entidade que preste o serviço público ou exerça o poder de polícia relacionados à exigência do tributo, quanto às taxas a que se referem os incisos I a III e incisos V a X do caput do art. 14 da Medida Provisória nº 685, de 2015;" .
+lex:D8510\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8510\/Artigo1    lex:temInciso    lex:D8510\/Artigo1\/IncisoIII .
+lex:D8510\/Artigo1\/IncisoIII    lex:temConteudo    "III - por ato conjunto dos Ministros de Estado da Fazenda e da Justiça, quanto às taxas instituídas no art. 23 da Lei nº 12.529, de 2011;" .
+lex:D8510\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8510\/Artigo1    lex:temInciso    lex:D8510\/Artigo1\/IncisoIV .
+lex:D8510\/Artigo1\/IncisoIV    lex:temConteudo    "IV - por ato conjunto dos Ministros de Estado da Fazenda e do Meio Ambiente, quanto às taxas e os preços a que se refere o art. 3º da Medida Provisória nº 687, de 2015; e" .
+lex:D8510\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8510\/Artigo1    lex:temInciso    lex:D8510\/Artigo1\/IncisoV .
+lex:D8510\/Artigo1\/IncisoV    lex:temConteudo    "V - por ato conjunto dos Ministros de Estado da Fazenda e da Cultura, quanto à contribuição a que se refere o § 5º do art. 33 da Medida Provisória nº 2.228-1, de 2001." .
+lex:D8510\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8510\/Artigo1    lex:temParagrafo    lex:D8510\/Artigo1\/ParagrafoUnico .
+lex:D8510\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os atos que fixarem a atualização monetária de que trata o caput utilizarão índice oficial e considerarão a data em que foi estabelecido o valor vigente de cada taxa, contribuição ou preço a que se refere este artigo." .
+lex:D8510\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8510    lex:temArtigo    lex:D8510\/Artigo2 .
+lex:D8510\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8510\/Artigo1    lex:remetePara    lex:mpv685\/Artigo14 .
+lex:D8510\/Artigo1    lex:remetePara    lex:2228-1\/Artigo33\/Paragrafo5 .
+lex:D8510\/Artigo1    lex:remetePara    lex:L12529\/Artigo23 .
+lex:D8510\/Artigo1    lex:remetePara    lex:mpv687\/Artigo3 .
+lex:D8510\/Artigo1\/IncisoI    lex:remetePara    lex:mpv685\/Artigo14 .
+lex:D8510\/Artigo1\/IncisoI    lex:remetePara    lex:mpv685\/Artigo14 .
+lex:D8510\/Artigo1\/IncisoII    lex:remetePara    lex:mpv685\/Artigo14 .
+lex:D8510\/Artigo1\/IncisoII    lex:remetePara    lex:mpv685\/Artigo14 .
+lex:D8510\/Artigo1\/IncisoIII    lex:remetePara    lex:L12529\/Artigo23 .
+lex:D8510\/Artigo1\/IncisoIV    lex:remetePara    lex:mpv687\/Artigo3 .
+lex:D8510\/Artigo1\/IncisoV    lex:remetePara    lex:2228-1\/Artigo33\/Paragrafo5 .

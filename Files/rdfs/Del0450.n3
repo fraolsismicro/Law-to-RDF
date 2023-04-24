@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0450    lex:ehUm    lex:DocLegal .
+lex:Del0450    lex:temTextoIntegral    lex:HTMLs\/Del0450.htm .
+lex:Del0450\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0450    lex:temArtigo    lex:Del0450\/Artigo1 .
+lex:Del0450\/Artigo1    lex:temConteudo    "Art. 1º Fica revogado o Decreto-lei nº 213, de 27 de fevereiro de 1967, devendo a matéria ser regulada por ato do Poder Executivo, de acôrdo com o disposto no artigo 3º do Decreto-lei nº 200, de 25 de fevereiro de 1967." .
+lex:Del0450\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0450    lex:temArtigo    lex:Del0450\/Artigo2 .
+lex:Del0450\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:Del0450\/Artigo1    lex:remetePara    lex:Del0213 .
+lex:Del0450\/Artigo1    lex:remetePara    lex:Del0200\/Artigo3 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1574    lex:ehUm    lex:DocLegal .
+lex:Del1574    lex:temTextoIntegral    lex:HTMLs\/Del1574.htm .
+lex:Del1574\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1574    lex:temArtigo    lex:Del1574\/Artigo1 .
+lex:Del1574\/Artigo1    lex:temConteudo    "Art 1º Fica alterado, na forma do Anexo deste decreto-lei, o Anexo VII do Decreto-lei nº 1.445, de 13 de fevereiro de 1976, que alterou o Decreto-lei nº 1.341, de 22 de agosto de 1974, na parte referente ao limite percentual máximo da Gratificação de Produtividade." .
+lex:Del1574\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1574    lex:temArtigo    lex:Del1574\/Artigo2 .
+lex:Del1574\/Artigo2    lex:temConteudo    "Art 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1574\/Artigo2\/IncisoXVIII    lex:ehUm    lex:Inciso .
+lex:Del1574\/Artigo2    lex:temInciso    lex:Del1574\/Artigo2\/IncisoXVIII .
+lex:Del1574\/Artigo2\/IncisoXVIII    lex:temConteudo    "XVIII - GRATIFICAÇÃO DE          PRODUTIVIDADE" .
+lex:Del1574\/Artigo1    lex:remetePara    lex:Del1445\/ .
+lex:Del1574\/Texto00002    lex:remetePara    lex:Del1445\/ .
+lex:Del1574\/Artigo2\/Texto00003    lex:remetePara    lex:del1698 .

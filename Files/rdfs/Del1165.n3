@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1165    lex:ehUm    lex:DocLegal .
+lex:Del1165    lex:temTextoIntegral    lex:HTMLs\/Del1165.htm .
+lex:Del1165\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1165    lex:temArtigo    lex:Del1165\/Artigo1 .
+lex:Del1165\/Artigo1    lex:temConteudo    "Art. 1º Ficam isentos do impôsto sôbre produtos industrializados os produtos de origem nacional destinados à instalação, ampliação ou reequipamento de empreendimentos industriais julgados de interêsse nacional, quando o fornecimento seja resultante de coleta de preços entre produtos nacionais e estrangeiros, e feito contra pagamento com recursos oriundos de divisas conversíveis provenientes de financiamento a longo prazo de instituição financeira ou entidade governamental estrangeira." .
+lex:Del1165\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1165\/Artigo1    lex:temParagrafo    lex:Del1165\/Artigo1\/ParagrafoUnico .
+lex:Del1165\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A isenção de que trata êste artigo dependerá de prévia declaração, em cada caso, do Ministro da Fazenda e sòmente será reconhecida depois da aprovação pelos órgãos federais competentes do projeto em cuja implantação serão empregados os produtos." .
+lex:Del1165\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1165    lex:temArtigo    lex:Del1165\/Artigo2 .
+lex:Del1165\/Artigo2    lex:temConteudo    "Art. 2º Até o exercício financeiro de 1974, inclusive, as emprêsas poderão abater do lucro sujeito ao impôsto de renda, do mesmo modo autorizado para as exportações, a parcela correspondente às vendas, no mercado interno, de produtos manufaturados, declarados com base no artigo anterior, isentos do impôsto sôbre produtos industrializados." .
+lex:Del1165\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1165    lex:temArtigo    lex:Del1165\/Artigo3 .
+lex:Del1165\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entrará em vigor na data de sua publicação, revogados o artigo 2º e parágrafo único do Decreto-lei nº 1.158 de 16 março de 1971, e demais disposições em contrário." .
+lex:Del1165\/Artigo3    lex:remetePara    lex:Del1158\/Artigo2 .

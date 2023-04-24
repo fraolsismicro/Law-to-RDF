@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp149    lex:ehUm    lex:DocLegal .
+lex:Lcp149    lex:temTextoIntegral    lex:HTMLs\/Lcp149.htm .
+lex:Lcp149\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp149    lex:temArtigo    lex:Lcp149\/Artigo1 .
+lex:Lcp149\/Artigo1    lex:temConteudo    "Art. 1o Os arts. 2o e 4o da Lei Complementar nº 90, de 1º de outubro de 1997, passam a vigorar com as seguintes alterações:" .
+lex:Lcp149\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp149\/Artigo1    lex:temInciso    lex:Lcp149\/Artigo1\/IncisoI .
+lex:Lcp149\/Artigo1\/IncisoI    lex:temConteudo    "I - que o tempo de permanência e o trecho a ser transitado sejam previamente estabelecidos;" .
+lex:Lcp149\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Lcp149\/Artigo1    lex:temInciso    lex:Lcp149\/Artigo1\/IncisoIII .
+lex:Lcp149\/Artigo1\/IncisoIII    lex:temConteudo    "III - que a finalidade do trânsito e a permanência no território nacional sejam plenamente declaradas;" .
+lex:Lcp149\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Lcp149\/Artigo1    lex:temInciso    lex:Lcp149\/Artigo1\/IncisoIV .
+lex:Lcp149\/Artigo1\/IncisoIV    lex:temConteudo    "IV - que sejam especificados o quantitativo e a natureza do contingente ou grupamento, bem como os veículos, os equipamentos bélicos, de comunicação, de guerra eletrônica, de reconhecimento e de vigilância;" .
+lex:Lcp149\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp149\/Artigo1    lex:temParagrafo    lex:Lcp149\/Artigo1\/ParagrafoUnico .
+lex:Lcp149\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O trânsito ou a permanência de grupamento ou de contingente de força armada, bem como o navio, a aeronave e a viatura que pertençam ou estejam a serviço de força armada estrangeira, quando não enquadrados na hipótese do caput, requer autorização do Ministro de Estado da Defesa, permitida a delegação formal aos Comandantes da Marinha, do Exército e da Aeronáutica, respeitado o disposto nos incisos I, III e IV do art. 2o. (NR)" .
+lex:Lcp149\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp149    lex:temArtigo    lex:Lcp149\/Artigo2 .
+lex:Lcp149\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp149\/Artigo1    lex:remetePara    lex:Lcp90 .
+lex:Lcp149\/Artigo1\/IncisoI    lex:remetePara    lex:Lcp90\/Artigo2 .
+lex:Lcp149\/Artigo1\/IncisoIII    lex:remetePara    lex:Lcp90\/Artigo2 .
+lex:Lcp149\/Artigo1\/Texto00004    lex:remetePara    lex:Lcp90\/Artigo4 .

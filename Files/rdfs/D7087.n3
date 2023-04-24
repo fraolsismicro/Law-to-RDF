@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7087    lex:ehUm    lex:DocLegal .
+lex:D7087    lex:temTextoIntegral    lex:HTMLs\/D7087.htm .
+lex:D7087\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7087    lex:temArtigo    lex:D7087\/Artigo1 .
+lex:D7087\/Artigo1    lex:temConteudo    "Art. 1o  O art. 5o do Decreto no 6.191, de 20 de agosto de 2007, passa a vigorar com a seguinte redação:" .
+lex:D7087\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7087\/Artigo1    lex:temParagrafo    lex:D7087\/Artigo1\/Paragrafo1 .
+lex:D7087\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º  Os cargos em comissão de que tratam os incisos I e II ficarão alocados aos referidos órgãos até 31 de dezembro de 2010, quando serão automaticamente restituído ao Ministério do Planejamento, Orçamento e Gestão, ficando exonerados seus ocupantes." .
+lex:D7087\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D7087\/Artigo1    lex:temParagrafo    lex:D7087\/Artigo1\/Paragrafo3 .
+lex:D7087\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º  O Ministério de Minas e Energia deverá encaminhar ao Ministério do Planejamento, Orçamento e Gestão, a cada quadrimestre, relatório circunstanciado sobre as atividades de inventariança da CBEE. (NR)" .
+lex:D7087\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7087    lex:temArtigo    lex:D7087\/Artigo2 .
+lex:D7087\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data da sua publicação." .
+lex:D7087\/Texto    lex:revogadoPor    lex:D7410\/Artigo8 .
+lex:D7410\/Artigo8    lex:revogou    lex:D7087\/Texto .
+lex:D7087\/Texto    lex:remetePara    lex:D7087 .
+lex:D7087\/Artigo1    lex:remetePara    lex:D6191 .
+lex:D7087\/Artigo1\/Paragrafo1    lex:remetePara    lex:D6191\/Artigo5\/Paragrafo1 .
+lex:D7087\/Artigo1\/Paragrafo3    lex:remetePara    lex:D6191\/Artigo5\/Paragrafo3 .
+lex:D7087\/Artigo3    lex:remetePara    lex:D6918 .
+lex:D7087\/Artigo3    lex:remetePara    lex:D6918 .

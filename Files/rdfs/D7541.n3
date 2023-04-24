@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7541    lex:ehUm    lex:DocLegal .
+lex:D7541    lex:temTextoIntegral    lex:HTMLs\/D7541.htm .
+lex:D7541\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7541    lex:temArtigo    lex:D7541\/Artigo1 .
+lex:D7541\/Artigo1    lex:temConteudo    "Art. 1o   O Anexo V ao Decreto no 6.890, de 29 de junho de 2009, passa a vigorar com a redação constante do Anexo a este Decreto." .
+lex:D7541\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7541    lex:temArtigo    lex:D7541\/Artigo2 .
+lex:D7541\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7541\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7541    lex:temArtigo    lex:D7541\/Artigo3 .
+lex:D7541\/Artigo3    lex:temConteudo    "Art. 3o Fica revogado o art. 1o do Decreto no 7.394, de 15 de dezembro de 2010, na parte em que dá nova redação ao Anexo V ao Decreto no 6.890, de 29 de junho de 2009." .
+lex:D7541\/Texto    lex:remetePara    lex:D7541 .
+lex:D7541\/Artigo1    lex:remetePara    lex:D6890\/ .
+lex:D7541\/Artigo3    lex:remetePara    lex:D7394\/Artigo1 .

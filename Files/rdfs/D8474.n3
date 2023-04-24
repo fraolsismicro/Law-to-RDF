@@ -1,0 +1,105 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8474    lex:ehUm    lex:DocLegal .
+lex:D8474    lex:temTextoIntegral    lex:HTMLs\/D8474.htm .
+lex:D8474\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo1 .
+lex:D8474\/Artigo1    lex:temConteudo    "Art. 1 º Este Decreto dispõe sobre a assistência financeira complementar aos Estados, ao Distrito Federal e aos Municípios a ser prestada pela União para o cumprimento do piso salarial profissional de que trata o art. 9 º-C da Lei n º 11.350, de 5 de outubro de 2006, e sobre o incentivo financeiro para o fortalecimento de políticas afetas à atuação de Agentes Comunitários de Saúde e de Combate às Endemias de que trata o art. 9º-D da referida Lei." .
+lex:D8474\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo2 .
+lex:D8474\/Artigo2    lex:temConteudo    "Art. 2 º A quantidade de Agentes de Combate às Endemias - ACE e de Agentes Comunitários de Saúde - ACS passível de contratação pelos Estados, pelo Distrito Federal e pelos Municípios com o auxílio da assistência financeira complementar da União observará os seguintes parâmetros e diretrizes:" .
+lex:D8474\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo2    lex:temInciso    lex:D8474\/Artigo2\/IncisoI .
+lex:D8474\/Artigo2\/IncisoI    lex:temConteudo    "I - em relação aos ACE:" .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque    lex:temConteudo    "a) enfoque nas atividades de controle de vetores e de endemias mais prevalentes, considerados os perfis epidemiológico e demográfico da localidade;" .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao    lex:temConteudo    "b) integração das ações dos ACE à equipe de Atenção Básica em Saúde; e" .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao\/IncisoAlineaGarantia    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao\/IncisoAlineaGarantia .
+lex:D8474\/Artigo2\/IncisoI\/IncisoAlineaEnfoque\/IncisoAlineaIntegracao\/IncisoAlineaGarantia    lex:temConteudo    "c) garantia de, no mínimo, um ACE por Município; e" .
+lex:D8474\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo2    lex:temInciso    lex:D8474\/Artigo2\/IncisoII .
+lex:D8474\/Artigo2\/IncisoII    lex:temConteudo    "II - em relação aos ACS:" .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao    lex:temConteudo    "a) priorização da cobertura de população municipal com alto grau de vulnerabilidade social e de risco epidemiológico;" .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao    lex:temConteudo    "b) atuação em ações básicas de saúde visando à integralidade do cuidado no território; e" .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao\/IncisoAlineaIntegracao    lex:ehUm    lex:IncisoAlinea .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao    lex:temIncisoAlinea    lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao\/IncisoAlineaIntegracao .
+lex:D8474\/Artigo2\/IncisoII\/IncisoAlineaPriorizacao\/IncisoAlineaAtuacao\/IncisoAlineaIntegracao    lex:temConteudo    "c) integração das ações dos ACS e dos ACE." .
+lex:D8474\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8474\/Artigo2    lex:temParagrafo    lex:D8474\/Artigo2\/Paragrafo1 .
+lex:D8474\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º O exercício das atividades de ACS e de ACE ocorrerá exclusivamente no âmbito do Sistema Único de Saúde - SUS, na execução de atividades de responsabilidade dos entes federativos, mediante vínculo direto entre os referidos Agentes e o órgão ou a entidade da administração direta, autárquica ou fundacional." .
+lex:D8474\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8474\/Artigo2    lex:temParagrafo    lex:D8474\/Artigo2\/Paragrafo2 .
+lex:D8474\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º Compete ao Ministério da Saúde definir o quantitativo máximo de ACE e ACS por Estado, Distrito Federal e Município, para fins de recebimento da assistência financeira complementar da União." .
+lex:D8474\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo3 .
+lex:D8474\/Artigo3    lex:temConteudo    "Art. 3 º Para a fixação da quantidade máxima de ACS e ACE passível de contratação pelos Estados, pelo Distrito Federal e pelos Municípios, para fins de recebimento da assistência financeira complementar, serão considerados o quantitativo dos Agentes:" .
+lex:D8474\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo3    lex:temInciso    lex:D8474\/Artigo3\/IncisoI .
+lex:D8474\/Artigo3\/IncisoI    lex:temConteudo    "I - efetivamente registrados no Sistema de Cadastro Nacional de Estabelecimentos de Saúde - SCNES no mês anterior à realização do repasse dos recursos financeiros;" .
+lex:D8474\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo3    lex:temInciso    lex:D8474\/Artigo3\/IncisoII .
+lex:D8474\/Artigo3\/IncisoII    lex:temConteudo    "II - que se encontrem no estrito desempenho de suas atribuições; e" .
+lex:D8474\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo3    lex:temInciso    lex:D8474\/Artigo3\/IncisoIII .
+lex:D8474\/Artigo3\/IncisoIII    lex:temConteudo    "III - submetidos à jornada semanal de quarenta horas de trabalho." .
+lex:D8474\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8474\/Artigo3    lex:temParagrafo    lex:D8474\/Artigo3\/ParagrafoUnico .
+lex:D8474\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os recursos financeiros referentes à assistência financeira complementar pela União serão repassados aos Estados, ao Distrito Federal e aos Municípios apenas até o limite do quantitativo máximo de ACE e ACS definido na forma do caput." .
+lex:D8474\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo4 .
+lex:D8474\/Artigo4    lex:temConteudo    "Art. 4 º Para a prestação da assistência financeira complementar de que trata o art. 2 º, os gestores estaduais, distrital e municipais do SUS declararão no SCNES os respectivos ACE e ACS com vínculo direto regularmente formalizado, conforme o regime jurídico que vier a ser adotado, na forma do art. 8º da Lei nº 11.350, de 2006." .
+lex:D8474\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8474\/Artigo4    lex:temParagrafo    lex:D8474\/Artigo4\/ParagrafoUnico .
+lex:D8474\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os gestores estaduais, distrital e municipais do SUS são responsáveis pelo cadastro e pela atualização das informações referentes aos ACE e ACS no SCNES." .
+lex:D8474\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo5 .
+lex:D8474\/Artigo5    lex:temConteudo    "Art. 5 º O valor da assistência financeira complementar da União de que trata o art. 9º-C da Lei nº 11.350, de 2006, será de noventa e cinco por cento sobre o valor do piso salarial de que trata o art. 9 º-A da Lei n º 11.350, de 2006, por ACE e ACS que esteja com seu vínculo regularmente formalizado perante o respectivo ente federativo, nos termos do art. 4 º, observado o quantitativo máximo de ACE e ACS passível de contratação, fixado nos termos do art. 3 º." .
+lex:D8474\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8474\/Artigo5    lex:temParagrafo    lex:D8474\/Artigo5\/ParagrafoUnico .
+lex:D8474\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A assistência financeira complementar de que trata o caput será repassada em doze parcelas consecutivas e uma parcela adicional no último trimestre, em cada exercício financeiro." .
+lex:D8474\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo6 .
+lex:D8474\/Artigo6    lex:temConteudo    "Art. 6 º O incentivo financeiro para fortalecimento de políticas afetas à atuação de ACE e ACS, instituído nos termos do art. 9º-D da Lei nº 11.350, de 2006, será concedido aos Estados, ao Distrito Federal e aos Municípios de acordo com o quantitativo de ACE e ACS definido nos termos do art. 3 º." .
+lex:D8474\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo7 .
+lex:D8474\/Artigo7    lex:temConteudo    "Art. 7 º O valor mensal do incentivo financeiro para fortalecimento de políticas afetas à atuação de ACE e ACS será de cinco por cento sobre o valor do piso salarial de que trata o art. 9º-A da Lei nº 11.350, de 2006, por ACE e ACS que esteja com seu vínculo regularmente formalizado perante o respectivo ente federativo, nos termos do art. 4 º, observado o quantitativo máximo de ACE e ACS passível de contratação, fixado nos termos do art. 3 º." .
+lex:D8474\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo8 .
+lex:D8474\/Artigo8    lex:temConteudo    "Art. 8 º Compete ao Ministério da Saúde:" .
+lex:D8474\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo8    lex:temInciso    lex:D8474\/Artigo8\/IncisoI .
+lex:D8474\/Artigo8\/IncisoI    lex:temConteudo    "I - definir anualmente o valor mensal da assistência financeira complementar da União de que trata o art. 5 º e o valor mensal do incentivo financeiro de que trata o art. 7 º;" .
+lex:D8474\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo8    lex:temInciso    lex:D8474\/Artigo8\/IncisoII .
+lex:D8474\/Artigo8\/IncisoII    lex:temConteudo    "II - avaliar mensalmente o atendimento prestado pelos entes federativos quanto ao disposto neste Decreto, para fins de repasse dos recursos referentes à assistência financeira complementar da União de que trata o art. 5 º; e" .
+lex:D8474\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8474\/Artigo8    lex:temInciso    lex:D8474\/Artigo8\/IncisoIII .
+lex:D8474\/Artigo8\/IncisoIII    lex:temConteudo    "III - atualizar, no prazo de noventa dias, contato da data de publicação deste Decreto, os regramentos que tratem de custeio de ações e serviços prestados por ACE e ACS, nos termos dos art. 9º-C e art. 9º-D da Lei nº 11.350, de 2006." .
+lex:D8474\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo9 .
+lex:D8474\/Artigo9    lex:temConteudo    "Art. 9 º Os recursos financeiros decorrentes do disposto neste Decreto correrão a conta de dotação orçamentária do Ministério da Saúde." .
+lex:D8474\/Artigo10    lex:ehUm    lex:Artigo .
+lex:D8474    lex:temArtigo    lex:D8474\/Artigo10 .
+lex:D8474\/Artigo10    lex:temConteudo    "Art. 10.  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8474\/Artigo1    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo1    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo4    lex:remetePara    lex:L11350\/Artigo8 .
+lex:D8474\/Artigo5    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo6    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo7    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo8\/IncisoIII    lex:remetePara    lex:L11350\/Artigo9 .
+lex:D8474\/Artigo8\/IncisoIII    lex:remetePara    lex:L11350\/Artigo9 .

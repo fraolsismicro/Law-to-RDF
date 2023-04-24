@@ -1,0 +1,478 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1522    lex:ehUm    lex:DocLegal .
+lex:L1522    lex:temTextoIntegral    lex:HTMLs\/L1522.htm .
+lex:L1522\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo1 .
+lex:L1522\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado, na forma do art. 146 da Constituição, a intervir no domínio econômico para assegurar a livre distribuição de mercadorias e serviços essenciais ao consumo do povo, sempre que dêles houver carência." .
+lex:L1522\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo1    lex:temParagrafo    lex:L1522\/Artigo1\/ParagrafoUnico .
+lex:L1522\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Idêntica autorização é concedida ao Govêrno para assegurar o suprimento dos bens necessários às atividades agropastoris e industriais do país." .
+lex:L1522\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo2 .
+lex:L1522\/Artigo2    lex:temConteudo    "Art. 2º A intervenção consistirá:" .
+lex:L1522\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L1522\/Artigo2    lex:temInciso    lex:L1522\/Artigo2\/IncisoI .
+lex:L1522\/Artigo2\/IncisoI    lex:temConteudo    "I   na compra, distribuição e venda de:" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros    lex:temConteudo    "a) gêneros e produtos alimentícios de primeira, necessidade;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado    lex:temConteudo    "b) gado vacum, suíno, ovino e caprino, destinados ao talho;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves    lex:temConteudo    "c) aves e peixes próprios para alimentação humana;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis    lex:temConteudo    "d) combustíveis vegetais ou minorais;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos    lex:temConteudo    "e) tecidos e calçadas de uso popular;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos    lex:temConteudo    "f) medicamentos;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos    lex:temConteudo    "g) instrumentos e ferramentas de uso individual;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas    lex:temConteudo    "h) máquinas, inclusive caminhões, 'jeeps', tratores, conjuntos moto-mecanizados e peças sobressalentes, destinados ao trabalho agrícola;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames    lex:temConteudo    "i) arames farpados e lisos, quando destinados a emprêgo nas atividades rurais:" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos    lex:temConteudo    "j) abrigos sanitários e artefatos industrializados, de uso doméstico," .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento    lex:temConteudo    "k) cimento e laminados de ferro, destinados às construções de casas próprias de tipo popular e às benfeitorias rurais;" .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento\/IncisoAlineaProdutos    lex:ehUm    lex:IncisoAlinea .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento    lex:temIncisoAlinea    lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento\/IncisoAlineaProdutos .
+lex:L1522\/Artigo2\/IncisoI\/IncisoAlineaGeneros\/IncisoAlineaGado\/IncisoAlineaAves\/IncisoAlineaCombustiveis\/IncisoAlineaTecidos\/IncisoAlineaMedicamentos\/IncisoAlineaInstrumentos\/IncisoAlineaMaquinas\/IncisoAlineaArames\/IncisoAlineaAbrigos\/IncisoAlineaCimento\/IncisoAlineaProdutos    lex:temConteudo    "l) produtos e materiais indispensáveis à produção de bens de consumo popular." .
+lex:L1522\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L1522\/Artigo2    lex:temInciso    lex:L1522\/Artigo2\/IncisoII .
+lex:L1522\/Artigo2\/IncisoII    lex:temConteudo    "II   na fixação de preços e na contrôle de abastecimento." .
+lex:L1522\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L1522\/Artigo2    lex:temInciso    lex:L1522\/Artigo2\/IncisoIII .
+lex:L1522\/Artigo2\/IncisoIII    lex:temConteudo    "III   na desapropriação de bens por interesse social, ou na requisição de serviços necessários, uns e outros, à realização dos objetivos previstos nesta Lei." .
+lex:L1522\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo2    lex:temParagrafo    lex:L1522\/Artigo2\/Paragrafo1 .
+lex:L1522\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º A aquisição far-se-á no país, ou no estrangeiro, quando insuficiente a produção nacional, e a venda onde se verificar a escassez," .
+lex:L1522\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo2    lex:temParagrafo    lex:L1522\/Artigo2\/Paragrafo2 .
+lex:L1522\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Não podem ser objeto de aquisição por compra, ou desapropriação, na forma desta Lei, os animais destinados ao serviço ou à reprodução." .
+lex:L1522\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo3 .
+lex:L1522\/Artigo3    lex:temConteudo    "Art. 3º A Comissão Federal de Abastecimento e Preços (COFAP), instituída no Ministério do Trabalho, Indústria e Comércio e com autonomia administrativa, será o órgão de execução desta Lei." .
+lex:L1522\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo3    lex:temParagrafo    lex:L1522\/Artigo3\/Paragrafo1 .
+lex:L1522\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º A COFAP terá um Presidente, em comissão, e será constituída de treze representantes do comércio, da industria, de lavoura, da pecuária, da imprensa, das forças armadas, das cooperativas de produtores e de consumo, dos economistas dos Ministérios da Fazenda, Agricultura, Viação e Obras Publicas, ao Banco do Brasil e da Prefeitura do Distrito Federal." .
+lex:L1522\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo3    lex:temParagrafo    lex:L1522\/Artigo3\/Paragrafo2 .
+lex:L1522\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Os representantes do comércio, da indústria, da lavoura, da pecuária, das cooperativas e dos economistas, serão indicados, em listas tríplices, pelas entidades representativas de grau superior e, na falta destas, pelo Ministro da pasta respectiva." .
+lex:L1522\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo3    lex:temParagrafo    lex:L1522\/Artigo3\/Paragrafo3 .
+lex:L1522\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3º A COFAP convocará representantes das autarquias econômicas para participar das reuniões, sem direito a voto." .
+lex:L1522\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo3    lex:temParagrafo    lex:L1522\/Artigo3\/Paragrafo1 .
+lex:L1522\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º A COFAP terá um presidente, em comissão, e será constituída de 15 (quinze) representantes, a saber: do Comércio, dos Empregados do Comércio, da Indústria, dos Empregados da Indústria, da Lavoura, da Pecuária, da Imprensa, das Fôrças Armadas, das Cooperativas de Produtores e de Consumo, dos Economistas, dos Ministérios da Fazenda, da Agricultura, e Viação e Obras Públicas, do Banco do Brasil e da Prefeitura do Distrito Federal. (Redação dada pela Lei nº 3.590, de 1959)" .
+lex:L1522\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo3    lex:temParagrafo    lex:L1522\/Artigo3\/Paragrafo2 .
+lex:L1522\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Os representantes do Comércio, dos Empregados do Comércio, da Indústria, dos Empregados da Indústria, da Lavoura da Pecuária, das Cooperativas, da Imprensa e dos Economistas serão indicados, em lista tríplice, pelas entidades representativas de grau superior e, na falta destas, pelos Ministérios correspondentes. (Redação dada pela Lei nº 3.590, de 1959)" .
+lex:L1522\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo4 .
+lex:L1522\/Artigo4    lex:temConteudo    "Art. 4º As resoluções da COFAP serão tomadas por maioria absoluta de votos e constarão de portarias firmadas pelo seu presidente, ou, na falta ou impedimento dêste, pelo substituto designado pelo Presidente da República dentre os membros da mesma Comissão." .
+lex:L1522\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo4 .
+lex:L1522\/Artigo4    lex:temConteudo    "Art. 4º As resoluções do plenário da Cofap só poderão ser tomadas com o voto da maioria absoluta e serão baixadas mediante portarias de seu presidente ou, na falta ou impedimento dêste, pelo substituto designado pelo Presidente da República, dentre os membros da mesma Comissão. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo5 .
+lex:L1522\/Artigo5    lex:temConteudo    "Art. 5º Como órgãos auxiliares da Comissão Federal de Abastecimento e Preços serão instituídas, nas capitais dos Estados e dos Territórios, Comissões de Abastecimento e Preços (COAP), e, nos municípios, Comissões Municipais de Abastecimento e Preços (COMAP), com a organização e as atribuições que forem determinadas pela Comissão Federal, dentro dos limites desta lei." .
+lex:L1522\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo5    lex:temParagrafo    lex:L1522\/Artigo5\/Paragrafo1 .
+lex:L1522\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º As COAP serão constituídas de 8 e 5 membros, no mínimo, respectivamente, nos Estados e Territórios, e terão no máximo 12 membros, e nelas figurarão, na medida do possível, as representações das categorias econômicas indicadas no § 1º do artigo 3º desta Lei." .
+lex:L1522\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo5    lex:temParagrafo    lex:L1522\/Artigo5\/Paragrafo1 .
+lex:L1522\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º As Coap serão constituídas de 8 (oito) membros nos Estados e 5 (cinco) nos Territórios, respectivamente, e nelas figurarão, na medida do possível, as representações das categorias econômicas indicadas no § 1º, do art. 30 desta lei, escolhidas entre as pessoas locais de conhecida idoneidade e saber. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo5    lex:temParagrafo    lex:L1522\/Artigo5\/Paragrafo1 .
+lex:L1522\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º As Comissões de Abastecimento e Preço serão constituídas de 10 (dez) membros nos Estados, e de 7 (sete) nos Territórios, nelas figurando os representantes das categorias econômicas indicadas no § 1º, do art. 3º, desta lei, escolhidos mediante listas tríplices integradas por pessoas de reconhecida idoneidade e saber, e organizadas pelas entidades correspondentes. (Redação dada pela Lei nº 3.590, de 1959)" .
+lex:L1522\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo5    lex:temParagrafo    lex:L1522\/Artigo5\/Paragrafo2 .
+lex:L1522\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2º No Distrito Federal e nas capitais dos Estados e Territórios a fixação dos preços e o contrôle do abastecimento serão executados pela COFAP e pelas COAP, respectivamente." .
+lex:L1522\/Artigo5\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo5    lex:temParagrafo    lex:L1522\/Artigo5\/Paragrafo3 .
+lex:L1522\/Artigo5\/Paragrafo3    lex:temConteudo    "§ 3º A criação das Comissões Municipais de Abastecimento e Preços dependerá, em cada caso, de deliberação da COFAP." .
+lex:L1522\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo6 .
+lex:L1522\/Artigo6    lex:temConteudo    "Art. 6º Os Presidentes e os membros da COFAP e das COAP serão nomeados pelo Presidente da República." .
+lex:L1522\/Artigo6\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo6    lex:temParagrafo    lex:L1522\/Artigo6\/Paragrafo1 .
+lex:L1522\/Artigo6\/Paragrafo1    lex:temConteudo    "§ 1º Os Presidentes e membros das COMAP serão designados pelos Presidentes das COAP." .
+lex:L1522\/Artigo6\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo6    lex:temParagrafo    lex:L1522\/Artigo6\/Paragrafo2 .
+lex:L1522\/Artigo6\/Paragrafo2    lex:temConteudo    "§ 2º Na constituição das COMAP deverá figurar o Prefeito, ou seu representante." .
+lex:L1522\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo7 .
+lex:L1522\/Artigo7    lex:temConteudo    "Art. 7º Para o contrôle de abastecimento de mercadorias, ou serviços, e fixação dos preços, a COFAP poderá;" .
+lex:L1522\/Artigo7\/AlineaPromover    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaPromover .
+lex:L1522\/Artigo7\/AlineaPromover    lex:temConteudo    "a) promover inquéritos econômicos, pesquisar os custos de produção e a, distribuição dos gêneros e mercadorias;" .
+lex:L1522\/Artigo7\/AlineaVerificar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaVerificar .
+lex:L1522\/Artigo7\/AlineaVerificar    lex:temConteudo    "b) verificar periodicamente o estoque dos bens mencionadas no artigo 2º, inciso I, desta Lei, existentes em qualquer parte do país, a fim de conhecer a sua qualidade, quantidade e procedência;" .
+lex:L1522\/Artigo7\/AlineaRegular    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaRegular .
+lex:L1522\/Artigo7\/AlineaRegular    lex:temConteudo    "c) regular e disciplinar, no território nacional, a circulação e distribuição dos bens mencionados no artigo 2º, inciso I, desta Lei inclusive estabelecendo prioridade para o transporte e armazenagem, quando o interêsse público o exigir;" .
+lex:L1522\/Artigo7\/AlineaRegular    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaRegular .
+lex:L1522\/Artigo7\/AlineaRegular    lex:temConteudo    "d) regular e disciplinar a distribuição das matérias primas, podendo requisitar meios de transporte e armazenagem às entidades oficiais ou aumento, federais, estaduais e municipais:" .
+lex:L1522\/Artigo7\/AlineaTabelar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaTabelar .
+lex:L1522\/Artigo7\/AlineaTabelar    lex:temConteudo    "e) tabelar os preços máximos em relação aos revendedores, quer sôbre mercadorias, quer sôbre serviços essenciais;" .
+lex:L1522\/Artigo7\/AlineaTabelar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaTabelar .
+lex:L1522\/Artigo7\/AlineaTabelar    lex:temConteudo    "f) tabelar os preços máximos e estabelecer condições de venda de outras, mercadorias ou serviços, a fim de impedir lucros excessivos, inclusive diversões públicas populares;" .
+lex:L1522\/Artigo7\/AlineaEstabelecer    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaEstabelecer .
+lex:L1522\/Artigo7\/AlineaEstabelecer    lex:temConteudo    "g) estabelecer o racionamento dos serviços essenciais e dos bens mencionados no artigo 2º, inciso I, desta Lei, cuja produção se mostre insuficiente para atender ao consumo;" .
+lex:L1522\/Artigo7\/AlineaAuxiliar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaAuxiliar .
+lex:L1522\/Artigo7\/AlineaAuxiliar    lex:temConteudo    "h) auxiliar as cooperativas de consumo e mistas agrícolas a obterem preferencialmente as produtos de que necessitem para o seu bom funcionamento;" .
+lex:L1522\/Artigo7\/AlineaManter    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaManter .
+lex:L1522\/Artigo7\/AlineaManter    lex:temConteudo    "i) manter estoque das mercadorias enumeradas no inciso I, do artigo 2º, desta Lei;" .
+lex:L1522\/Artigo7\/AlineaSuperintender    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo7    lex:temAlinea    lex:L1522\/Artigo7\/AlineaSuperintender .
+lex:L1522\/Artigo7\/AlineaSuperintender    lex:temConteudo    "j) superintender e fiscalizar, em todo o país, a execução das medidas que adotar e os serviços que estabelecer." .
+lex:L1522\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo8 .
+lex:L1522\/Artigo8    lex:temConteudo    "Art. 8º Para efeito de contrôle dos preços, a COFAP, as COAP e as COMAP determinarão que o vendedor de mercadorias de primeira necessidade, cuja importância exceda de Cr$ 10,00   (dez cruzeiros),   ou o fornecedor de serviços essenciais, quando a prestação de serviço ultrapasse de Cr$ 15,00   (quinze cruzeiros)   entreguem ao comprador ou ao freguês, fatura ou nota ou caderno de venda, seja esta à vista ou a prazo, assinado pelo vendedor ou fornecedor, ou pelo empregado." .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo8    lex:temParagrafo    lex:L1522\/Artigo8\/ParagrafoUnico .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A fatura ou nota ou caderno de venda, conterá:" .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:temAlinea    lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaA .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaA    lex:temConteudo    "a) a indicação da quantidade e do preço da mercadoria vendida ou dos serviço prestado;" .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:temAlinea    lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO    lex:temConteudo    "b) o nome e o enderêço do estabelecimento;" .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:temAlinea    lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaO    lex:temConteudo    "c) o nome da firma ou do responsável;" .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaData    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo8\/ParagrafoUnico    lex:temAlinea    lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaData .
+lex:L1522\/Artigo8\/ParagrafoUnico\/AlineaData    lex:temConteudo    "d) data e local da transação." .
+lex:L1522\/ParagrafoUnico\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L1522\/ParagrafoUnico    lex:temArtigo    lex:L1522\/ParagrafoUnico\/Artigo8 .
+lex:L1522\/ParagrafoUnico\/Artigo8    lex:temConteudo    "Art. 8º Para efeito de contrôle das preços, a Cofap, as Coap e as Comap determinarão que o vendedor de mercadoria de primeira necessidade, ou o fornecedor de serviços essenciais, cujos valores ultrapassarem a Cr$ 50,00 (cinqüenta cruzeiros) entreguem ao comprador ou freguês nota ou caderno de venda, seja à vista ou a prazo. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo9 .
+lex:L1522\/Artigo9    lex:temConteudo    "Art. 9º Somente depois de autorizados pela COFAP poderão entrar em vigor os aumentos de preços dos gêneros e mercadorias cuja produção e venda sejam reguladas por autarquias ou órgãos federais ou estaduais." .
+lex:L1522\/Artigo9\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo9    lex:temAlinea    lex:L1522\/Artigo9\/AlineaDa .
+lex:L1522\/Artigo9\/AlineaDa    lex:temConteudo    "a) da COFAP quando o serviço fôr federal ou interestadual;" .
+lex:L1522\/Artigo9\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo9    lex:temAlinea    lex:L1522\/Artigo9\/AlineaDa .
+lex:L1522\/Artigo9\/AlineaDa    lex:temConteudo    "b) da COAP quando o serviço fôr estadual ou intermunicipal;" .
+lex:L1522\/Artigo9\/AlineaDa    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo9    lex:temAlinea    lex:L1522\/Artigo9\/AlineaDa .
+lex:L1522\/Artigo9\/AlineaDa    lex:temConteudo    "c) da COMAP quando o serviço fôr municipal ou local." .
+lex:L1522\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo10 .
+lex:L1522\/Artigo10    lex:temConteudo    "Art. 10. As compras serão feitas sempre que possível, mediante concorrência pública ou administrativa." .
+lex:L1522\/Artigo10\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo10    lex:temParagrafo    lex:L1522\/Artigo10\/Paragrafo1 .
+lex:L1522\/Artigo10\/Paragrafo1    lex:temConteudo    "§ 1º Nos casos em que não fôr possível a concorrência, as compras serão feitas mediante autorização, em cada caso, da COFAP." .
+lex:L1522\/Artigo10\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo10    lex:temParagrafo    lex:L1522\/Artigo10\/Paragrafo2 .
+lex:L1522\/Artigo10\/Paragrafo2    lex:temConteudo    "§ 2º O relatório mensal, a que se refere e artigo 21 desta Lei, mencionará obrigatoriamente, em capítulo especial, a lista das compras feitas de acôrdo com o § 1º deste artigo, com a justificativa da dispensa da concorrência." .
+lex:L1522\/Artigo10\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo10    lex:temParagrafo    lex:L1522\/Artigo10\/Paragrafo3 .
+lex:L1522\/Artigo10\/Paragrafo3    lex:temConteudo    "§ 3º A infração do disposto no parágrafo anterior sujeitará o Presidente da COFAP às sanções do artigo 28 desta Lei." .
+lex:L1522\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo11 .
+lex:L1522\/Artigo11    lex:temConteudo    "Art. 11. Os preços das mercadorias desapropriadas ou dos serviços requisitados serão pagos previamente em moeda corrente, de acôrdo com a cotação em vigor nos locais de produção ou de venda, respeitados os preços mínimos oficiais, quando houver." .
+lex:L1522\/Artigo11\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo11    lex:temParagrafo    lex:L1522\/Artigo11\/ParagrafoUnico .
+lex:L1522\/Artigo11\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nenhuma desapropriação será feita por preço inferior ao custo médio de produção na respectiva zona." .
+lex:L1522\/Artigo12    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo12 .
+lex:L1522\/Artigo12    lex:temConteudo    "Art. 12. O ato de desapropriação ou de requisição será baixado pelo Presidente da COFAP." .
+lex:L1522\/Artigo12\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo1 .
+lex:L1522\/Artigo12\/Paragrafo1    lex:temConteudo    "§ 1º A imissão na posse dos bens desapropriados processar-se-á com citação do réu no fôro em que se encontrarem, mediante prévio depósito judicial do respectivo preço, na forma do artigo 11, seu parágrafo único desta Lei, ou por meio de avaliação procedida por perito nomeado pelo juiz, e com audiência de interessado." .
+lex:L1522\/Artigo12\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo2 .
+lex:L1522\/Artigo12\/Paragrafo2    lex:temConteudo    "§ 2º Na ausência do proprietário, a citação será feita por edital afixado no edifício da Prefeitura, com o prazo de três dias." .
+lex:L1522\/Artigo12\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo3 .
+lex:L1522\/Artigo12\/Paragrafo3    lex:temConteudo    "§ 3º Citado o réu, o processo seguirá o curso previsto na legislação vigente sôbre desapropriação por utilidade pública, reduzidos à metade sempre que possível, a critério do juiz, os respectivos prazos." .
+lex:L1522\/Artigo12\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo4 .
+lex:L1522\/Artigo12\/Paragrafo4    lex:temConteudo    "§ 4º Imitido na posse, o Presidente da COFAP poderá dispor dos bens de consumo urgente ou de fácil deterioração." .
+lex:L1522\/Artigo12\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo5 .
+lex:L1522\/Artigo12\/Paragrafo5    lex:temConteudo    "§ 5º Depositado o preço, o desapropriado poderá levantá-lo sem que êsse fato importe persuasão de concordância com a avaliação, ou renúncia ao direito de defesa" .
+lex:L1522\/Artigo12\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo12    lex:temParagrafo    lex:L1522\/Artigo12\/Paragrafo6 .
+lex:L1522\/Artigo12\/Paragrafo6    lex:temConteudo    "§ 6º O Presidente da COFAP tem capacidade para estar em juízo como representante da União, por intermédio dos órgãos do Ministério Público Federal ou Estadual." .
+lex:L1522\/Artigo13    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo13 .
+lex:L1522\/Artigo13    lex:temConteudo    "Art. 13. Os produtos adquiridos por compra, ou desapropriação, serão entregues ao consumo pelas preços tabelados." .
+lex:L1522\/Artigo13\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo13    lex:temParagrafo    lex:L1522\/Artigo13\/Paragrafo1 .
+lex:L1522\/Artigo13\/Paragrafo1    lex:temConteudo    "§ 1º As vendas aos distribuidores serão feitas com redução percentual e uniforme dos preços tabelados." .
+lex:L1522\/Artigo13\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo13    lex:temParagrafo    lex:L1522\/Artigo13\/Paragrafo2 .
+lex:L1522\/Artigo13\/Paragrafo2    lex:temConteudo    "§ 2º A Comissão entregará os produtos ou mercadorias ao consumidor por intermédio de estabelecimentos privados que habitualmente exerçam essa atividade, ou organização de qualquer natureza que tenha êsse objetivo, inclusive cooperativas e Prefeituras Municipais, podendo, em último caso, realizar vendas diretamente ao consumidor. As distribuições far-se-ão eqüitativamente de forma a impedir o açambarcamento e a especulação." .
+lex:L1522\/Artigo13\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo13    lex:temParagrafo    lex:L1522\/Artigo13\/Paragrafo3 .
+lex:L1522\/Artigo13\/Paragrafo3    lex:temConteudo    "§ 3º Nas compras e desapropriações dos bens previstos no inciso I do art. 2º desta Lei, o impôsto de vendas e consignações será pago pelo vendedor, ou pelo desapropriado." .
+lex:L1522\/Artigo14    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo14 .
+lex:L1522\/Artigo14    lex:temConteudo    "Art. 14. Fica sujeito à multa de Cr$ 500,00 (quinhentos cruzeiros) a Cr$ 100.000,00 (cem mil cruzeiros), sem prejuízo de outras sanções penais que couberem na forma da Lei, aquele que:" .
+lex:L1522\/Artigo14\/AlineaVender    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaVender .
+lex:L1522\/Artigo14\/AlineaVender    lex:temConteudo    "a) vender ou expuser à venda mercadorias ou oferecer serviços por preços superiores aos tabelados;" .
+lex:L1522\/Artigo14\/AlineaSonegar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaSonegar .
+lex:L1522\/Artigo14\/AlineaSonegar    lex:temConteudo    "b) sonegar gêneros ou mercadorias, recusar vendê-las ou as retiver com fins de especulação;" .
+lex:L1522\/Artigo14\/AlineaNao    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaNao .
+lex:L1522\/Artigo14\/AlineaNao    lex:temConteudo    "c) não mantiver afixada em lugar visível e de fácil leitura a tabela de preço dos gêneros e mercadorias, serviços ou diversões públicas populares." .
+lex:L1522\/Artigo14\/AlineaFavorecer    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaFavorecer .
+lex:L1522\/Artigo14\/AlineaFavorecer    lex:temConteudo    "d) favorecer ou preferir comprador ou freguês, em detrimento de outros, ressalvados os sistemas de entrega, ou consumo por intermédio de distribuidores ou revendedores;" .
+lex:L1522\/Artigo14\/AlineaNegar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaNegar .
+lex:L1522\/Artigo14\/AlineaNegar    lex:temConteudo    "e) negar ou deixar de fornecer a fatura ou nota, ou caderno de venda, quando obrigatório;" .
+lex:L1522\/Artigo14\/AlineaProduzir    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaProduzir .
+lex:L1522\/Artigo14\/AlineaProduzir    lex:temConteudo    "f) produzir mercadorias cuja embalagem, pêso ou composição transgrida determinações legais;" .
+lex:L1522\/Artigo14\/AlineaEfetuar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaEfetuar .
+lex:L1522\/Artigo14\/AlineaEfetuar    lex:temConteudo    "g) efetuar vendas ou ofertas de venda, e compras ou ofertas de compra, que incluam, sob qualquer forma, uma prestação oculta;" .
+lex:L1522\/Artigo14\/AlineaEfetuar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaEfetuar .
+lex:L1522\/Artigo14\/AlineaEfetuar    lex:temConteudo    "h) efetuar vendas ou ofertas de venda e compras ou oferta de compra que prevejam a entrega de produtos inferiores, em quantidade ou qualidade aos faturados ou a fatura;" .
+lex:L1522\/Artigo14\/AlineaSubordinar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaSubordinar .
+lex:L1522\/Artigo14\/AlineaSubordinar    lex:temConteudo    "i) subordinar a venda de um produto à compra simultânea de outros produtos ou à compra de uma quantidade imposta;" .
+lex:L1522\/Artigo14\/AlineaEstorvar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaEstorvar .
+lex:L1522\/Artigo14\/AlineaEstorvar    lex:temConteudo    "j) estorvar ou impedir a observância das resoluções que forem baixadas pela COFAP no uso de suas atribuições;" .
+lex:L1522\/Artigo14\/AlineaSonegar    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo14    lex:temAlinea    lex:L1522\/Artigo14\/AlineaSonegar .
+lex:L1522\/Artigo14\/AlineaSonegar    lex:temConteudo    "k) sonegar documentos e comprovantes exigidos para apuração do custo de produção e de venda, ou impedir ou dificultar exames contábeis que forem julgados necessários, ou deixar de fornecer esclarecimentos que forem exigidos, observado sempre o disposto no art. 34 desta Lei." .
+lex:L1522\/Artigo14\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo14    lex:temParagrafo    lex:L1522\/Artigo14\/Paragrafo1 .
+lex:L1522\/Artigo14\/Paragrafo1    lex:temConteudo    "§ 1º Na aplicação da multa atender-se-ão ao valor da operação considerada infringente desta lei, às circunstâncias do fato e à condição econômica e grau de instrução do infrator." .
+lex:L1522\/Artigo14\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo14    lex:temParagrafo    lex:L1522\/Artigo14\/Paragrafo2 .
+lex:L1522\/Artigo14\/Paragrafo2    lex:temConteudo    "§ 2º Responderão, solidariamente, pelo pagamento da multa, os proprietários, os administradores, os gerentes e os signatários da fatura ou nota ou do caderno de venda, quando exigidos, ou quem efetuar a venda." .
+lex:L1522\/Artigo15    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo15 .
+lex:L1522\/Artigo15    lex:temConteudo    "Art. 15. As sociedades ou firmas que produzam gêneros ou mercadorias de primeira necessidade ou que prestem serviços essenciais ou que daqueles gêneros ou mercadorias façam comércio ou transporte, e cujas vendas ou receitas excedam a Cr$ 500.000.00 (quinhentos mil cruzeiros) anuais, são obrigados a enviar à COFAP, anualmente, até o dia dez (10) de maio, os balanços acompanhados da conta de Lucros e perdas, sob pena de multa de Cr$ 500,00 (quinhentos cruzeiros) a Cr$ 20,000,00 (vinte mil cruzeiros)." .
+lex:L1522\/Artigo15\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo15    lex:temParagrafo    lex:L1522\/Artigo15\/ParagrafoUnico .
+lex:L1522\/Artigo15\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ficam isentos desta exigência as sociedades que, por lei, estiverem obrigadas a dar publicidade aos seus balanços." .
+lex:L1522\/Artigo15    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo15 .
+lex:L1522\/Artigo15    lex:temConteudo    "Art. 15. As pessoas jurídicas, cujas vendas ou receitas excederem a Cr$ 500.000,00 (quinhentos mil cruzeiros), são obrigadas a enviar à Cofap sempre que solicitados, os balanços, acompanhados das contas de lucros e perdas referentes ao ano anterior. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo16    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo16 .
+lex:L1522\/Artigo16    lex:temConteudo    "Art. 16. O infrator será autuado na presença de duas testemunhas, pelos propostos ou agentes de fiscalização da COFAP ou dos órgãos auxiliares, devendo constar a assinatura do infrator ou declaração, pelo autuante, da recusa." .
+lex:L1522\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo16    lex:temParagrafo    lex:L1522\/Artigo16\/Paragrafo1 .
+lex:L1522\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1º O ata será lavrado em duas vias, devendo a primeira dar entrada na COFAP, COAP ou COMAP, dentro do prazo de vinte e quatro (24) horas, entregando-se a segunda ao autuado." .
+lex:L1522\/Artigo16\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo16    lex:temParagrafo    lex:L1522\/Artigo16\/Paragrafo2 .
+lex:L1522\/Artigo16\/Paragrafo2    lex:temConteudo    "§ 2º O autuado terá 15 dias para apresentar sua defesa, devendo o julgamento da infração ser feito no prazo improrrogável de 45 dias." .
+lex:L1522\/Artigo16\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo16    lex:temParagrafo    lex:L1522\/Artigo16\/Paragrafo1 .
+lex:L1522\/Artigo16\/Paragrafo1    lex:temConteudo    "§ 1º O auto de infração será lavrado em duas vias, devendo a primeira dar entrada na Cofap, Coap ou Comap dentro do prazo de 24 (vinte e quatro) horas, entregando-se a segunda via mediante recibo ao autuado. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo16\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo16    lex:temParagrafo    lex:L1522\/Artigo16\/Paragrafo2 .
+lex:L1522\/Artigo16\/Paragrafo2    lex:temConteudo    "§ 2º O autuado, no prazo de dez dias, apresentará defesa prévia, juntando ou indicando as provas que tiver. Findo êsse prazo, com ou sem a defesa e a juntada ou indicação das provas, o processo será concluso ao presidente da Cofap, da Coap ou Comap, conforme o caso, para em 5 (cinco) dias homologar o auto de infração e arbitrar a multa. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo16\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo16    lex:temParagrafo    lex:L1522\/Artigo16\/Paragrafo3 .
+lex:L1522\/Artigo16\/Paragrafo3    lex:temConteudo    "§ 3º Os prazos serão contados a partir da data da autuação." .
+lex:L1522\/Artigo17    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo17 .
+lex:L1522\/Artigo17    lex:temConteudo    "Art. 17. As multas por infração desta Lei serão aplicadas, nas capitais, pelos Juizes da Fazenda Pública e, no interior, pelo Juiz de Direito local, mediante a apuração da infração pela COFAP ou pelos seus órgãos auxiliares." .
+lex:L1522\/Artigo17\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo1 .
+lex:L1522\/Artigo17\/Paragrafo1    lex:temConteudo    "§ 1º O infrator, simultaneamente com a sua defesa, depositará cinqüenta por cento do valor da multa ou prestará, fiança idônea, de pessoa física ou jurídica." .
+lex:L1522\/Artigo17\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo2 .
+lex:L1522\/Artigo17\/Paragrafo2    lex:temConteudo    "§ 2º O prazo para a apresentação da defesa será de cinco dias a contar da citação do infrator." .
+lex:L1522\/Artigo17\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo3 .
+lex:L1522\/Artigo17\/Paragrafo3    lex:temConteudo    "§ 3º Apresentada a defesa, será dada a vista dos autos ao Ministério Público, como representante, do órgão que tiver verificado a infração." .
+lex:L1522\/Artigo17\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo4 .
+lex:L1522\/Artigo17\/Paragrafo4    lex:temConteudo    "§ 4º Da decisão do Juiz caberá recurso de agravo, com efeito suspensivo, para o Tribunal de Justiça." .
+lex:L1522\/Artigo17    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo17 .
+lex:L1522\/Artigo17    lex:temConteudo    "Art. 17. Homologado o auto de infração e arbitrada a multa, será o autuado notificado para pagá-lo, no prazo de 10 (dez) dias. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo1 .
+lex:L1522\/Artigo17\/Paragrafo1    lex:temConteudo    "§ 1º Esgotado o prazo sem o pagamento da multa, serão os autos remetidos ao Juiz dos Feitos da Fazenda Pública, o qual mandará notificar o atuado, que poderá defender-se exibindo ou produzindo prova, se quiser, no prazo de 10 (dez) dias, podendo depositar 50% (cinqüenta por cento) da multa arbitrada. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo2 .
+lex:L1522\/Artigo17\/Paragrafo2    lex:temConteudo    "§ 2º Poderá suprir o depósito, a apresentação de fiança idônea, a critério do Juiz. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo3 .
+lex:L1522\/Artigo17\/Paragrafo3    lex:temConteudo    "§ 3º Findo o prazo, com a defesa ou sem ela, será aberta vista, por cinco dias, ao representante do Ministério Público que se pronunciará a respeito. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo4 .
+lex:L1522\/Artigo17\/Paragrafo4    lex:temConteudo    "§ 4º Conclusos os autos ao Juiz, êste proferirá o seu julgamento, do qual é permitido recurso no prazo de cinco dias, com efeito suspensivo, para o Tribunal Federal de Recursos, nos têrmos da lei processual ordinária. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo5 .
+lex:L1522\/Artigo17\/Paragrafo5    lex:temConteudo    "§ 5º Em sua decisão, o Juiz, se julgar procedente o auto, ordenará seja feita a inscrição do débito na repartição competente, para a cobrança executiva. (Incluído pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo17\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo17    lex:temParagrafo    lex:L1522\/Artigo17\/Paragrafo6 .
+lex:L1522\/Artigo17\/Paragrafo6    lex:temConteudo    "§ 6º A instrução e o julgamento do processo deverão estar concluídos em juízo no prazo de 45 (quarenta e cinco) dias, contados da remessa dos autos pela Cofap. (Incluído pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo19    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo19 .
+lex:L1522\/Artigo19    lex:temConteudo    "Art. 19. No caso de reincidência poderá o Juiz de Direito decretar a interdição total ou parcial do estabelecimento por um prazo de cinco (5) a noventa (90) dias." .
+lex:L1522\/Artigo19\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo19    lex:temParagrafo    lex:L1522\/Artigo19\/ParagrafoUnico .
+lex:L1522\/Artigo19\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As sanções administrativas ou judiciais impostas ao infrator não darão lugar à rescisão da locação." .
+lex:L1522\/Artigo20    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo20 .
+lex:L1522\/Artigo20    lex:temConteudo    "Art. 20. Os estabelecimentos devidamente aparelhados, a juízo das autoridades sanitárias, poderão fornecer ao comércio varejista de gêneros alimentícios ou diretamente aos consumidores, carne retalhada, classificada, em embalagem adequada." .
+lex:L1522\/Artigo21    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo21 .
+lex:L1522\/Artigo21    lex:temConteudo    "Art. 21. Mensalmente publicará a COFAP, no Diário Oficial, um relatório de suas atividades acompanhado de balancete da receita e despesa do serviço." .
+lex:L1522\/Artigo21\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo21    lex:temParagrafo    lex:L1522\/Artigo21\/Paragrafo1 .
+lex:L1522\/Artigo21\/Paragrafo1    lex:temConteudo    "§ 1º O relatório mencionará obrigatoriamente:" .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo21\/Paragrafo1    lex:temAlinea    lex:L1522\/Artigo21\/Paragrafo1\/AlineaA .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:temConteudo    "a) a relação das mercadorias adquiridas por compra ou desapropriação;" .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo21\/Paragrafo1    lex:temAlinea    lex:L1522\/Artigo21\/Paragrafo1\/AlineaA .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:temConteudo    "b) a relação das mercadorias vendidas por grosso e a varejo;" .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:L1522\/Artigo21\/Paragrafo1    lex:temAlinea    lex:L1522\/Artigo21\/Paragrafo1\/AlineaA .
+lex:L1522\/Artigo21\/Paragrafo1\/AlineaA    lex:temConteudo    "c) a relação das multas aplicadas." .
+lex:L1522\/Artigo21\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo21    lex:temParagrafo    lex:L1522\/Artigo21\/Paragrafo2 .
+lex:L1522\/Artigo21\/Paragrafo2    lex:temConteudo    "§ 2º Da relação das mercadorias adquiridas e das vendidas por grosso, constará, sempre a, quantidade, o preço e o nome das pessoas a quem tenham sido vendidas ou de quem tenham sido adquiridas, com os respectivos endereços." .
+lex:L1522\/Artigo21\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo21    lex:temParagrafo    lex:L1522\/Artigo21\/Paragrafo3 .
+lex:L1522\/Artigo21\/Paragrafo3    lex:temConteudo    "§ 3º As vendas a varejo serão mencionadas no relatório com a indícação do pôsto que as fêz e especificação da espécie, quantidade e valor." .
+lex:L1522\/Artigo22    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo22 .
+lex:L1522\/Artigo22    lex:temConteudo    "Art. 22. A COFAP remeterá, até o dia 30 de março de cada ano, ao Tribunal de Contas, para exame e julgamento, o levantamento anual de suas contas com base nos relatórios e balancetes mensais, a que se refere o art. 21 desta Lei." .
+lex:L1522\/Artigo23    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo23 .
+lex:L1522\/Artigo23    lex:temConteudo    "Art. 23. E criado o cargo em comissão de Presidente da Comissão Federal de Abastecimento e Preços, com os vencimentos correspondentes ao símbolo CC-1." .
+lex:L1522\/Artigo24    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo24 .
+lex:L1522\/Artigo24    lex:temConteudo    "Art. 24. São criadas vinte e quatro (24) cargos, em comissão, de Presidentes das Comissões Estaduais e Territoriais de Abastecimento e Preços, que serão ocupados por cidadãos de reconhecida competência e idoneidade, livremente nomeados pelo Presidente da República." .
+lex:L1522\/Artigo24\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo24    lex:temParagrafo    lex:L1522\/Artigo24\/ParagrafoUnico .
+lex:L1522\/Artigo24\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As funções de que trata êste artigo é atribuído o símbolo CC-1, que corresponderá aos vencimentos mensais de Cr$ 7.230,00 (sete mil e duzentos e trinta cruzeiros)." .
+lex:L1522\/Artigo25    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo25 .
+lex:L1522\/Artigo25    lex:temConteudo    "Art. 25. Aos membros da COFAP e das COAP será, atribuída uma gratificação de duzentos (Cr$ 200,00) a cem (Cr$ 100,00) cruzeiros, respectivamente, por sessão a que comparecerem, até o máximo de dez (10) durante o mês." .
+lex:L1522\/Artigo25\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo25    lex:temParagrafo    lex:L1522\/Artigo25\/ParagrafoUnico .
+lex:L1522\/Artigo25\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os serviços prestados pelo Presidente e membros das COMAP serão gratuitos e considerados de relevante interêsse público." .
+lex:L1522\/Artigo25    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo25 .
+lex:L1522\/Artigo25    lex:temConteudo    "Art. 25. Aos membros do plenário da Cofap e das Coap será atribuída a gratificação de Cr$ 300,00 (trezentos cruzeiros) e Cr$ 150,00 (cento e cinqüenta cruzeiros), respectivamente, por sessão a que comparecerem e votarem, até o máximo de cinco durante o mês. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo26    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo26 .
+lex:L1522\/Artigo26    lex:temConteudo    "Art. 26. A COFAP arbitrará as gratificações dos seus servidores, no exercício de funções de chefia e pela prestação de serviços extraordinários, submetendo as suas decisões à aprovação do Presidente da República." .
+lex:L1522\/Artigo27    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo27 .
+lex:L1522\/Artigo27    lex:temConteudo    "Art. 27. O Presidente da COFAP, poderá requisitar, na forma da legislação em vigor, servidores públicos de autarquias ou de sociedade de economia, mista, os quais ficarão afastados de suas funções, enquanto durar a requisição, sem prejuízo dos seus vencimentos e das demais vantagens do seu cargo ou função." .
+lex:L1522\/Artigo27\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo27    lex:temParagrafo    lex:L1522\/Artigo27\/Paragrafo1 .
+lex:L1522\/Artigo27\/Paragrafo1    lex:temConteudo    "§ 1º Em casos excepcionais, poderá, também o Presidente da COFAP admitir extranumerários, mediante prévia autorização do Presidente da República." .
+lex:L1522\/Artigo27\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo27    lex:temParagrafo    lex:L1522\/Artigo27\/Paragrafo2 .
+lex:L1522\/Artigo27\/Paragrafo2    lex:temConteudo    "§ 2º A organização e as modificações do quadro de pessoas dos serviços da COFAP para a União, Estados e Territórios, serão feitas pelo seu Presidente e submetidas à aprovação do Presidente da República." .
+lex:L1522\/Artigo27    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo27 .
+lex:L1522\/Artigo27    lex:temConteudo    "Art. 27. O Presidente da Cofap poderá requisitar servidores públicos federais e, bem assim, solicitar sejam servidores estaduais e municipais postos à sua disposição, na forma da legislação em vigor. (Redação dada pela Lei nº 3.084, de 1956)" .
+lex:L1522\/Artigo28    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo28 .
+lex:L1522\/Artigo28    lex:temConteudo    "Art. 28. As autoridades administrativas e os servidores públicos em geral que, no exercício das atribuições conferidas nesta Lei e pelo seu Regulamento, praticarem atos elevados de abuso ou de desvio de poder ficarão sujeitos, além da sanção penal em que incidirem, à destituição do cargo ou função, a qual poderá ser promovida administrativa ou judicialmente, pelo Ministério Público, pelo lesado ou pela sua associação de classe. Na sentença poderá ainda o Juiz, de acôrdo com a gravidade da, falta, decretar a incapacidade do culpado para a exercício de qualquer cargo ou função pública, pelo prazo de seis (6) meses a quatro (4) anos." .
+lex:L1522\/Artigo29    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo29 .
+lex:L1522\/Artigo29    lex:temConteudo    "Art. 29. Os membros da COFAP e dos órgãos auxiliares, os seus funcionários ou servidores, remunerados ou não, que pleitearem, exigirem ou receberem qualquer recompensa por ação ou omissão contrária aos fins desta Lei incorrerão na pena de seis (6) meses a quatro (4) anos de reclusão." .
+lex:L1522\/Artigo30    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo30 .
+lex:L1522\/Artigo30    lex:temConteudo    "Art. 30. Os membros da COFAP deverão fazer prova de quitação com o impôsto de renda. Os Presidentes, membros e servidores da COFAP e das COAP ficam obrigados a apresentar, antes de entrarem no exercício de suas funções, uma declaração de bens e rendas próprias e de suas esposas e dependentes, declaração que deverá ser renovada no mês de junho de cada ano." .
+lex:L1522\/Artigo30\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L1522\/Artigo30    lex:temParagrafo    lex:L1522\/Artigo30\/ParagrafoUnico .
+lex:L1522\/Artigo30\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As declarações serão enviadas, por intermédio da COFAP, dentro em 15 dias, ao Tribunal de Contas, onde serão arquivadas." .
+lex:L1522\/Artigo31    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo31 .
+lex:L1522\/Artigo31    lex:temConteudo    "Art. 31. E o Poder Executivo autorizado a contratar com o Banco do Brasil empréstimo, em conta corrente, até o limite de duzentos milhões de cruzeiros (Cr$ 200.000.000,00), destinado a ocorrer às operações autorizadas no art. 2º desta Lei." .
+lex:L1522\/Artigo32    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo32 .
+lex:L1522\/Artigo32    lex:temConteudo    "Art. 32. O Poder Executivo é também autorizado a abrir, pelo Ministério do Trabalho, Indústria e Comércio, o crédito especial até o limite de vinte milhões de cruzeiros (Cr$ 20.000.000,00) para atender às despesas de pessoal e material da COFAP e órgãos auxiliares inclusive aluguéis de prédios destinados ao seu funcionamento." .
+lex:L1522\/Artigo33    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo33 .
+lex:L1522\/Artigo33    lex:temConteudo    "Art. 33. As dotações orçamentárias, o material e arquivo da Comissão Central de Preços serão transferidos para a COFAP." .
+lex:L1522\/Artigo34    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo34 .
+lex:L1522\/Artigo34    lex:temConteudo    "Art. 34. Para a realização de exames contábeis ou de documentos, devem os Presidentes da COFAP ou das COAP, em cada caso, credenciar servidores especialmente para êsse fim." .
+lex:L1522\/Artigo35    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo35 .
+lex:L1522\/Artigo35    lex:temConteudo    "Art. 35. Em caso de urgência, excluídas as desapropriações e vendas, o Presidente da COFAP poderá, ad relerendum da mesma Comissão, deliberar sôbre os assuntos da alçada desta, submetendo, no prazo de 48 horas, tais deliberações a sua aprovação." .
+lex:L1522\/Artigo36    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo36 .
+lex:L1522\/Artigo36    lex:temConteudo    "Art. 36. Poderá, o Presidente da COFAP atribuir a cidadãos de reconhecida idoneidade, função de fiscalização, cujo exercício será, considerado serviço público relevante, não dando, porém, direito a percepção de vencimentos ou gratificações." .
+lex:L1522\/Artigo37    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo37 .
+lex:L1522\/Artigo37    lex:temConteudo    "Art. 37. Esta lei não prejudica a vigência das resoluções da CCP e Comissões auxiliares, relativas a tabelamentos, enquanto não revogadas pela COFAP ou COAP." .
+lex:L1522\/Artigo38    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo38 .
+lex:L1522\/Artigo38    lex:temConteudo    "Art. 38. A COFAP pagará aos Estados e ao Distrito Federal, mensalmente, a título de indenização, a importância, correspondente ao impôsto de vendas e consignações relativo às vendas que efetuar nos têrmos desta Lei." .
+lex:L1522\/Artigo39    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo39 .
+lex:L1522\/Artigo39    lex:temConteudo    "Art. 39. Na execução desta Lei não serão permitidas discriminações de caráter geográfico ou de grupos e pessoas dentro do mesmo setor de produção e comércio." .
+lex:L1522\/Artigo40    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo40 .
+lex:L1522\/Artigo40    lex:temConteudo    "Art. 40. Os servidores do Ministério do Trabalho, Indústria e Comércio que se encontram em exercício na Comissão Central de Preços (art. 8º do Decreto-lei nº 9.125, de e de abril de 1946), serão transferidos para a COFAP, a juízo da administração, na situação em que se encontram, devendo ser transferidas as verbas de pessoal respectivas." .
+lex:L1522\/Artigo41    lex:ehUm    lex:Artigo .
+lex:L1522    lex:temArtigo    lex:L1522\/Artigo41 .
+lex:L1522\/Artigo41    lex:temConteudo    "Art. 41. A presente Lei entrará em vigor trinta dias depois da sua publicação, e vigorará, por cinco (5) anos, ficando revogado o Decreto-lei nº 9.125, de 4 de abril de 1946, e demais disposições em contrário." .
+lex:L1522\/Texto    lex:remetePara    lex:L3344 .
+lex:L1522\/Texto    lex:remetePara    lex:L3415 .
+lex:L1522\/Texto    lex:remetePara    lex:L3782\/Artigo11 .
+lex:L1522\/Artigo1    lex:remetePara    lex:Constituicao46\/Artigo146 .
+lex:L1522\/Artigo3\/Paragrafo1    lex:remetePara    lex:L3590\/Artigo3 .
+lex:L1522\/Artigo3\/Paragrafo2    lex:remetePara    lex:L3590\/Artigo3 .
+lex:L1522\/Artigo4    lex:remetePara    lex:L3084\/Artigo2 .
+lex:L1522\/Artigo5\/Paragrafo1    lex:remetePara    lex:L3084\/Artigo2 .
+lex:L1522\/Artigo5\/Paragrafo1    lex:remetePara    lex:L3590\/Artigo4 .
+lex:L1522\/ParagrafoUnico\/Artigo8    lex:remetePara    lex:L3084\/Artigo2 .
+lex:L1522\/Artigo15    lex:remetePara    lex:L3084\/Artigo2 .
+lex:L1522\/Artigo16\/Paragrafo1    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo16\/Paragrafo2    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo1    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo2    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo3    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo4    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo5    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Paragrafo6    lex:remetePara    lex:L3084\/Artigo3 .
+lex:L1522\/Artigo17\/Artigo18    lex:remetePara    lex:L3084\/Artigo5 .
+lex:L1522\/Artigo17\/ParagrafoUnico    lex:remetePara    lex:L3084\/Artigo5 .
+lex:L1522\/Artigo25    lex:remetePara    lex:L3084\/Artigo4 .
+lex:L1522\/Artigo27    lex:remetePara    lex:L3084\/Artigo4 .

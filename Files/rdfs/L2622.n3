@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2622    lex:ehUm    lex:DocLegal .
+lex:L2622    lex:temTextoIntegral    lex:HTMLs\/L2622.htm .
+lex:L2622\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2622    lex:temArtigo    lex:L2622\/Artigo1 .
+lex:L2622\/Artigo1    lex:temConteudo    "Art. 1º O cálculo dos proventos dos servidores civis da União e bem assim dos servidores das entidades autárquicas ou paraestatais que se encontram na inatividade, e dos que para ela forem transferidos, será feito à base do que perceberem os servidores em atividade a fim de que seus proventos sejam sempre atualizados." .
+lex:L2622\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L2622\/Artigo1    lex:temParagrafo    lex:L2622\/Artigo1\/Paragrafo1 .
+lex:L2622\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Tratando-se de titulares dos ofícios de justiça que, na atividade, não percebem vencimentos de cofres públicos, o cálculo dos seus proventos, na inatividade, será feito:" .
+lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:L2622\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara .
+lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara    lex:temConteudo    "a) para os tabeliões de notas, oficiais de registros, escrivães das Varas de Órfãos e Sucessões e da Fazenda Pública, avaliadores, depositários judiciais, inventariantes judiciais, tutor e testamenteiro judicial, à base do que percebe o diretor geral da Secretaria do Supremo Tribunal;" .
+lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:L2622\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara .
+lex:L2622\/Artigo1\/Paragrafo1\/AlineaPara    lex:temConteudo    "b) para os escrivães das Varas Cíveis, Varas de Família e de Registros Públicos contadores, partidores e liquidante judicial, à base do que percebe o secretário de seção do Supremo Tribunal." .
+lex:L2622\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L2622\/Artigo1    lex:temParagrafo    lex:L2622\/Artigo1\/Paragrafo2 .
+lex:L2622\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os mesmos critérios e referências mencionados no § 1º dêste artigo serão adotados para efeito da contribuição a que estão obrigados os aludidos serventuários, para benefício de família, perante o Instituto de Previdência e Assistência dos Servidores do Estado (IPASE)." .
+lex:L2622\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2622    lex:temArtigo    lex:L2622\/Artigo3 .
+lex:L2622\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2622\/Artigo1\/Artigo2    lex:remetePara    lex:ResSF13-1958 .
+lex:L2622\/Artigo1\/Artigo2    lex:remetePara    lex:ResSF30-1964 .
+lex:L2622\/Texto00006    lex:remetePara    lex:RetL2622-55 .
+lex:L2622\/Texto00006    lex:remetePara    lex:RetL2622-55-1 .

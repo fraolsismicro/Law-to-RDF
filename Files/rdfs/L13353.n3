@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13353    lex:ehUm    lex:DocLegal .
+lex:L13353    lex:temTextoIntegral    lex:HTMLs\/L13353.htm .
+lex:L13353\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo1 .
+lex:L13353\/Artigo1    lex:temConteudo    "Art. 1o  O art. 6o da Lei Complementar no 70, de 30 de dezembro de 1991, passa a vigorar acrescido do seguinte inciso IV:" .
+lex:L13353\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L13353\/Artigo1    lex:temInciso    lex:L13353\/Artigo1\/IncisoIV .
+lex:L13353\/Artigo1\/IncisoIV    lex:temConteudo    "IV   a Academia Brasileira de Letras, a Associação Brasileira de Imprensa e o Instituto Histórico e Geográfico Brasileiro. (NR)" .
+lex:L13353\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo2 .
+lex:L13353\/Artigo2    lex:temConteudo    "Art. 2o  O art. 15 da Lei no 9.532, de 10 de dezembro de 1997, passa a vigorar acrescido do seguinte § 5o:" .
+lex:L13353\/Artigo2\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L13353\/Artigo2    lex:temParagrafo    lex:L13353\/Artigo2\/Paragrafo5 .
+lex:L13353\/Artigo2\/Paragrafo5    lex:temConteudo    "§ 5º  O disposto no § 2o não se aplica aos rendimentos e ganhos de capital auferidos pela Academia Brasileira de Letras, pela Associação Brasileira de Imprensa e pelo Instituto Histórico e Geográfico Brasileiro. (NR)" .
+lex:L13353\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo3 .
+lex:L13353\/Artigo3    lex:temConteudo    "Art. 3o  A Lei no 8.894, de 21 de junho de 1994, passa a vigorar acrescida do seguinte art. 6o-A:" .
+lex:L13353\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo4 .
+lex:L13353\/Artigo4    lex:temConteudo    "Art. 4o  A Medida Provisória no 2.158-35, de 24 de agosto de 2001, passa a vigorar acrescida do seguinte art. 13-A:" .
+lex:L13353\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo5 .
+lex:L13353\/Artigo5    lex:temConteudo    "Art. 5o  São concedidas remissões e anistias aos débitos fiscais da Academia Brasileira de Letras, da Associação Brasileira de Imprensa e do Instituto Histórico e Geográfico Brasileiro relativos a tributos administrados pela Secretaria da Receita Federal do Brasil cujos fatos geradores tenham ocorrido até a data de publicação desta Lei, inscritos ou não em dívida ativa, cobrados judicialmente ou não, com exigibilidade suspensa ou não." .
+lex:L13353\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo6 .
+lex:L13353\/Artigo6    lex:temConteudo    "Art. 6o  O Poder Executivo, com vistas ao cumprimento do disposto no inciso II do art. 5o e no art. 14 da Lei Complementar no 101, de 4 da maio de 2000, estimará o montante da renúncia fiscal decorrente do disposto nesta Lei e o incluirá no demonstrativo a que se refere o § 6o do art. 165 da Constituição Federal que acompanhar o projeto de lei orçamentária cuja apresentação se der após decorridos sessenta dias da publicação desta Lei, bem como fará constar das propostas orçamentárias subsequentes os valores relativos à aludida renúncia." .
+lex:L13353\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L13353    lex:temArtigo    lex:L13353\/Artigo7 .
+lex:L13353\/Artigo7    lex:temConteudo    "Art. 7o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13353\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13353\/Artigo7    lex:temParagrafo    lex:L13353\/Artigo7\/ParagrafoUnico .
+lex:L13353\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As isenções, remissões e anistias de que trata esta Lei só produzirão efeitos a partir do primeiro dia do exercício financeiro imediatamente posterior àquele em que for implementado o disposto no art. 6o." .
+lex:L13353\/Artigo1    lex:remetePara    lex:Lcp70 .
+lex:L13353\/Artigo1\/IncisoIV    lex:remetePara    lex:Lcp70\/Artigo6 .
+lex:L13353\/Artigo2    lex:remetePara    lex:L9532 .
+lex:L13353\/Artigo2\/Paragrafo5    lex:remetePara    lex:L9532\/Artigo15\/Paragrafo5 .
+lex:L13353\/Artigo3    lex:remetePara    lex:L8894 .
+lex:L13353\/Texto00005    lex:remetePara    lex:L8894\/Artigo6 .
+lex:L13353\/Artigo4    lex:remetePara    lex:2158-35 .
+lex:L13353\/Texto00006    lex:remetePara    lex:2158-35\/Artigo13 .
+lex:L13353\/Texto00006    lex:remetePara    lex:2158-35\/Artigo13 .
+lex:L13353\/Artigo6    lex:remetePara    lex:Lcp101\/Artigo5 .
+lex:L13353\/Artigo6    lex:remetePara    lex:Lcp101\/Artigo14 .

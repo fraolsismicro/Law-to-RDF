@@ -1,0 +1,90 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8368    lex:ehUm    lex:DocLegal .
+lex:D8368    lex:temTextoIntegral    lex:HTMLs\/D8368.htm .
+lex:D8368\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo1 .
+lex:D8368\/Artigo1    lex:temConteudo    "Art. 1o A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais." .
+lex:D8368\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo1    lex:temParagrafo    lex:D8368\/Artigo1\/ParagrafoUnico .
+lex:D8368\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Aplicam-se às pessoas com transtorno do espectro autista os direitos e obrigações previstos na Convenção Internacional sobre os Direitos da Pessoa com Deficiência e seu Protocolo Facultativo, promulgados pelo Decreto n º 6.949, de 25 de agosto de 2009, e na legislação pertinente às pessoas com deficiência." .
+lex:D8368\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo2 .
+lex:D8368\/Artigo2    lex:temConteudo    "Art. 2o É garantido à pessoa com transtorno do espectro autista o direito à saúde no âmbito do Sistema Único de Saúde - SUS, respeitadas as suas especificidades." .
+lex:D8368\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo2    lex:temParagrafo    lex:D8368\/Artigo2\/Paragrafo1 .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o Ao Ministério da Saúde compete:" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - promover a qualificação e a articulação das ações e dos serviços da Rede de Atenção à Saúde para assistência à saúde adequada das pessoas com transtorno do espectro autista, para garantir:" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaO .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaO    lex:temConteudo    "a) o cuidado integral no âmbito da atenção básica, especializada e hospitalar;" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA    lex:temConteudo    "b) a ampliação e o fortalecimento da oferta de serviços de cuidados em saúde bucal das pessoas com espectro autista na atenção básica, especializada e hospitalar; e" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaA    lex:temConteudo    "c) a qualificação e o fortalecimento da rede de atenção psicossocial e da rede de cuidados de saúde da pessoa com deficiência no atendimento das pessoas com o transtorno do espectro autista, que envolva diagnóstico diferencial, estimulação precoce, habilitação, reabilitação e outros procedimentos definidos pelo projeto terapêutico singular;" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - garantir a disponibilidade de medicamentos incorporados ao SUS necessários ao tratamento de pessoas com transtorno do espectro autista;" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - apoiar e promover processos de educação permanente e de qualificação técnica dos profissionais da Rede de Atenção à Saúde quanto ao atendimento das pessoas com o transtorno do espectro autista;" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - apoiar pesquisas que visem ao aprimoramento da atenção à saúde e à melhoria da qualidade de vida das pessoas com transtorno do espectro autista; e" .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8368\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoV .
+lex:D8368\/Artigo2\/Paragrafo1\/ParagrafoIncisoV    lex:temConteudo    "V - adotar diretrizes clínicas e terapêuticas com orientações referentes ao cuidado à saúde das pessoas com transtorno do espectro autista, observando suas especificidades de acessibilidade, de comunicação e atendimento." .
+lex:D8368\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo2    lex:temParagrafo    lex:D8368\/Artigo2\/Paragrafo2 .
+lex:D8368\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º A atenção à saúde à pessoa com transtorno do espectro autista tomará como base a Classificação Internacional de Funcionalidade, Incapacidade e Saúde - CIF e a Classificação Internacional de Doenças - CID-10." .
+lex:D8368\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo3 .
+lex:D8368\/Artigo3    lex:temConteudo    "Art. 3o É garantida proteção social à pessoa com transtorno do espectro autista em situações de vulnerabilidade ou risco social ou pessoal, nos termos da Lei n º 8.742, de 7 de dezembro de 1993." .
+lex:D8368\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo4 .
+lex:D8368\/Artigo4    lex:temConteudo    "Art. 4o É dever do Estado, da família, da comunidade escolar e da sociedade assegurar o direito da pessoa com transtorno do espectro autista à educação, em sistema educacional inclusivo, garantida a transversalidade da educação especial desde a educação infantil até a educação superior." .
+lex:D8368\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo4    lex:temParagrafo    lex:D8368\/Artigo4\/Paragrafo1 .
+lex:D8368\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1o O direito de que trata o caput será assegurado nas políticas de educação, sem discriminação e com base na igualdade de oportunidades, de acordo com os preceitos da Convenção Internacional sobre os Direitos da Pessoa com Deficiência." .
+lex:D8368\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo4    lex:temParagrafo    lex:D8368\/Artigo4\/Paragrafo2 .
+lex:D8368\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o Caso seja comprovada a necessidade de apoio às atividades de comunicação, interação social, locomoção, alimentação e cuidados pessoais, a instituição de ensino em que a pessoa com transtorno do espectro autista ou com outra deficiência estiver matriculada disponibilizará acompanhante especializado no contexto escolar, nos termos do parágrafo único do art. 3o da Lei no 12.764, de 2012." .
+lex:D8368\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo5 .
+lex:D8368\/Artigo5    lex:temConteudo    "Art. 5o Ao tomar conhecimento da recusa de matrícula, o órgão competente ouvirá o gestor escolar e decidirá pela aplicação da multa de que trata o caput do art. 7º da Lei nº 12.764, de 2012." .
+lex:D8368\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo5    lex:temParagrafo    lex:D8368\/Artigo5\/Paragrafo1 .
+lex:D8368\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1o Caberá ao Ministério da Educação a aplicação da multa de que trata o caput, no âmbito dos estabelecimentos de ensino a ele vinculados e das instituições de educação superior privadas, observado o procedimento previsto na Lei no 9.784, de 29 de janeiro de 1999." .
+lex:D8368\/Artigo5\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo5    lex:temParagrafo    lex:D8368\/Artigo5\/Paragrafo2 .
+lex:D8368\/Artigo5\/Paragrafo2    lex:temConteudo    "§ 2o O Ministério da Educação dará ciência da instauração do processo administrativo para aplicação da multa ao Ministério Público e ao Conselho Nacional dos Direitos da Pessoa com Deficiência - Conade." .
+lex:D8368\/Artigo5\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8368\/Artigo5    lex:temParagrafo    lex:D8368\/Artigo5\/Paragrafo3 .
+lex:D8368\/Artigo5\/Paragrafo3    lex:temConteudo    "§ 3o O valor da multa será calculado tomando-se por base o número de matrículas recusadas pelo gestor, as justificativas apresentadas e a reincidência." .
+lex:D8368\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo6 .
+lex:D8368\/Artigo6    lex:temConteudo    "Art. 6o Qualquer interessado poderá denunciar a recusa da matrícula de estudantes com deficiência ao órgão administrativo competente." .
+lex:D8368\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo7 .
+lex:D8368\/Artigo7    lex:temConteudo    "Art. 7o O órgão público federal que tomar conhecimento da recusa de matrícula de pessoas com deficiência em instituições de ensino vinculadas aos sistemas de ensino estadual, distrital ou municipal deverá comunicar a recusa aos órgãos competentes pelos respectivos sistemas de ensino e ao Ministério Público." .
+lex:D8368\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo8 .
+lex:D8368\/Artigo8    lex:temConteudo    "Art. 8o A Secretaria de Direitos Humanos da Presidência da República, juntamente ao Conade, promoverá campanhas de conscientização sobre os direitos das pessoas com transtorno do espectro autista e suas famílias." .
+lex:D8368\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D8368    lex:temArtigo    lex:D8368\/Artigo9 .
+lex:D8368\/Artigo9    lex:temConteudo    "Art. 9o Este Decreto entra em vigor na data de sua publicação." .
+lex:D8368\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D6949 .
+lex:D8368\/Artigo3    lex:remetePara    lex:L8742 .
+lex:D8368\/Artigo4\/Paragrafo2    lex:remetePara    lex:L12764\/Artigo3 .
+lex:D8368\/Artigo5    lex:remetePara    lex:L12764\/Artigo7 .
+lex:D8368\/Artigo5\/Paragrafo1    lex:remetePara    lex:L9784 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4754    lex:ehUm    lex:DocLegal .
+lex:D4754    lex:temTextoIntegral    lex:HTMLs\/D4754.htm .
+lex:D4754\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4754    lex:temArtigo    lex:D4754\/Artigo1 .
+lex:D4754\/Artigo1    lex:temConteudo    "Art. 1o  O Quadro I do Anexo ao Decreto no 4.575, de 14 de janeiro de 2003, passa a vigorar com a seguinte redação:" .
+lex:D4754\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4754    lex:temArtigo    lex:D4754\/Artigo2 .
+lex:D4754\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D4754\/Artigo1    lex:remetePara    lex:D4575\/ .
+lex:D4754\/Artigo3    lex:remetePara    lex:D3648\/Artigo1 .
+lex:D4754\/Artigo3    lex:revogadoPor    lex:D5168\/Artigo6 .
+lex:D5168\/Artigo6    lex:revogou    lex:D4754\/Artigo3 .

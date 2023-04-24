@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6677    lex:ehUm    lex:DocLegal .
+lex:D6677    lex:temTextoIntegral    lex:HTMLs\/D6677.htm .
+lex:D6677\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6677    lex:temArtigo    lex:D6677\/Artigo1 .
+lex:D6677\/Artigo1    lex:temConteudo    "Art. 1o  Ficam reduzidas temporariamente a zero as alíquotas do Imposto sobre Produtos Industrializados - IPI, previstas na Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo Decreto no 6.006, de 28 de dezembro de 2006, incidentes sobre os produtos doados ao Estado de Santa Catarina, destinados às vítimas das enchentes naquele Estado." .
+lex:D6677\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6677\/Artigo1    lex:temParagrafo    lex:D6677\/Artigo1\/Paragrafo1 .
+lex:D6677\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  A redução de alíquotas de que trata o caput será aplicada somente enquanto perdurar o estado de calamidade pública devido a enxurradas no Estado de Santa Catarina, decretado pelo Governador daquele Estado." .
+lex:D6677\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6677\/Artigo1    lex:temParagrafo    lex:D6677\/Artigo1\/Paragrafo2 .
+lex:D6677\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Nas notas fiscais de saída com a redução de alíquotas de que trata o caput, deverá constar:" .
+lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6677\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - como destinatário o Governo do Estado de Santa Catarina, CNPJ: 82.951.229.0001.76, Endereço Rod.SC 401, no 4.600 KM 5, Saco Grande II - Florianópolis - SC; e" .
+lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6677\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:D6677\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - a expressão saída com redução de alíquota do IPI, e referência a este Decreto." .
+lex:D6677\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6677    lex:temArtigo    lex:D6677\/Artigo2 .
+lex:D6677\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6677\/Texto    lex:remetePara    lex:D6677 .
+lex:D6677\/Artigo1    lex:remetePara    lex:D6006 .

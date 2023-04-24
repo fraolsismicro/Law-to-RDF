@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9429    lex:ehUm    lex:DocLegal .
+lex:L9429    lex:temTextoIntegral    lex:HTMLs\/L9429.htm .
+lex:L9429\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo1 .
+lex:L9429\/Artigo1    lex:temConteudo    "Art. 1º São reabertos, por cento e oitenta dias após a publicação desta Lei, os prazos para requerimento da renovação do Certificado de Entidade de Fins Filantrópicos e de recadastramento junto ao Conselho Nacional de Assistência Social - CNAS, contemplando as entidades possuidoras deste título e do registro até 24 de julho de 1994." .
+lex:L9429\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo2 .
+lex:L9429\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se os atos cancelatórios e decisões emanadas do Instituto Nacional do Seguro Social - INSS contra instituições que, em 31 de dezembro de 1994, gozavam de isenção de contribuição social, motivados pela não apresentação da renovação do Certificado de Entidade de Fins Filantrópicos ou do protocolo de seu pedido." .
+lex:L9429\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo3 .
+lex:L9429\/Artigo3    lex:temConteudo    "Art. 3º São revogados os atos cancelatórios e decisões do INSS contra instituições, motivados pela não apresentação do pedido de renovação de isenção de contribuição social." .
+lex:L9429\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo4 .
+lex:L9429\/Artigo4    lex:temConteudo    "Art. 4º São extintos os créditos decorrentes de contribuições sociais devidas, a partir de 25 de julho de 1981, pelas entidades beneficentes de assistência social que, nesse período, tenham cumprido o disposto no art. 55 da Lei nº 8.212, de 24 de julho de 1991." .
+lex:L9429\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo6 .
+lex:L9429\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9429\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L9429    lex:temArtigo    lex:L9429\/Artigo7 .
+lex:L9429\/Artigo7    lex:temConteudo    "Art. 7º Revogam-se as disposições em contrário." .
+lex:L9429\/Artigo4    lex:remetePara    lex:L8212cons\/Artigo55 .
+lex:L9429\/Artigo5    lex:remetePara    lex:L8212rep\/Artigo55 .
+lex:L9429\/Artigo5    lex:revogadoPor    lex:446\/Artigo48 .
+lex:446\/Artigo48    lex:revogou    lex:L9429\/Artigo5 .
+lex:L9429\/Artigo5    lex:remetePara    lex:adc--mpv446 .
+lex:L9429\/Artigo5    lex:revogadoPor    lex:L12101\/Artigo44 .
+lex:L12101\/Artigo44    lex:revogou    lex:L9429\/Artigo5 .
+lex:L9429\/Texto00004    lex:revogadoPor    lex:446\/Artigo48 .
+lex:446\/Artigo48    lex:revogou    lex:L9429\/Texto00004 .
+lex:L9429\/Texto00004    lex:remetePara    lex:adc--mpv446 .
+lex:L9429\/Texto00004    lex:revogadoPor    lex:L12101\/Artigo44 .
+lex:L12101\/Artigo44    lex:revogou    lex:L9429\/Texto00004 .

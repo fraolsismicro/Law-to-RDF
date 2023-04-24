@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2006    lex:ehUm    lex:DocLegal .
+lex:Del2006    lex:temTextoIntegral    lex:HTMLs\/Del2006.htm .
+lex:Del2006\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2006    lex:temArtigo    lex:Del2006\/Artigo1 .
+lex:Del2006\/Artigo1    lex:temConteudo    "Art. 1º - Ficam revigoradas, a partir de 1º de janeiro e até 31 de dezembro de 1983, as disposições do Decreto-lei nº 1.627, de 2 de junho de 1978, relativas à isenção do Imposto de Importação e do Imposto sobre Produtos Industrializados nas importações de partes e componentes para a fabricação de cento e vinte trens-unidades elétricos por empresas produtoras selecionadas pelo Ministério dos Transportes em articulação com o Conselho de Desenvolvimento Industrial (CDI)." .
+lex:Del2006\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2006    lex:temArtigo    lex:Del2006\/Artigo2 .
+lex:Del2006\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2006\/Artigo1    lex:remetePara    lex:Del1627 .

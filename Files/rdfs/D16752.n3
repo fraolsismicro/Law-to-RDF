@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D16752    lex:ehUm    lex:DocLegal .
+lex:D16752    lex:temTextoIntegral    lex:HTMLs\/D16752.htm .
+lex:D16752\/Artigo248    lex:ehUm    lex:Artigo .
+lex:D16752    lex:temArtigo    lex:D16752\/Artigo248 .
+lex:D16752\/Artigo248    lex:temConteudo    "Art. 248. Nos Juizos administrativos os peritos serão nomeados pelo juiz, salvo: (Redação dada pelo Decreto nº 20.390, de 1931)" .
+lex:D16752\/Artigo248\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D16752\/Artigo248    lex:temInciso    lex:D16752\/Artigo248\/IncisoI .
+lex:D16752\/Artigo248\/IncisoI    lex:temConteudo    "I - Nos processos de interdição, em que o Ministerio Público indicará sempre um dos peritos;  (Redação dada pelo Decreto nº 20.390, de 1931)" .
+lex:D16752\/Artigo248\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D16752\/Artigo248    lex:temInciso    lex:D16752\/Artigo248\/IncisoII .
+lex:D16752\/Artigo248\/IncisoII    lex:temConteudo    "II - Nos exames de livros, nas verificações de balanços e obras e em todos os exames para prova de fáto que dependa de conhecimento tecnico (art. 236, principio) em que um dos peritos será de indicação do Ministerio Público, se houver interesse de incapaz;  (Redação dada pelo Decreto nº 20.390, de 1931)" .
+lex:D16752\/Artigo248\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D16752\/Artigo248    lex:temInciso    lex:D16752\/Artigo248\/IncisoIII .
+lex:D16752\/Artigo248\/IncisoIII    lex:temConteudo    "III - Nas avaliações em que servirão os avaliadores privativos. (Decreto n. 16.273, de 1923, art. 163).  (Incluído pelo Decreto nº 20.390, de 1931)" .
+lex:D16752\/Texto    lex:revogadoPor    lex:D0011\/Artigo4 .
+lex:D0011\/Artigo4    lex:revogou    lex:D16752\/Texto .
+lex:D16752\/Texto    lex:remetePara    lex:D16752 .
+lex:D16752\/Artigo61    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/Artigo61 .
+lex:D16752\/Artigo61    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/Artigo61 .
+lex:D16752\/Artigo61    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/Artigo61 .
+lex:D16752\/IncisoI    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoI .
+lex:D16752\/IncisoII    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoII .
+lex:D16752\/IncisoIII    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoIII .
+lex:D16752\/IncisoIV    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoIV .
+lex:D16752\/IncisoV    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoV .
+lex:D16752\/IncisoVI    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoVI .
+lex:D16752\/IncisoVI    lex:revogadoPor    lex:D19659\/Artigo1 .
+lex:D19659\/Artigo1    lex:revogou    lex:D16752\/IncisoVI .
+lex:D16752\/Artigo248    lex:remetePara    lex:D20390\/Artigo2 .
+lex:D16752\/Artigo248\/IncisoI    lex:remetePara    lex:D20390\/Artigo2 .
+lex:D16752\/Artigo248\/IncisoII    lex:remetePara    lex:D20390\/Artigo2 .
+lex:D16752\/Artigo248\/IncisoIII    lex:remetePara    lex:D20390\/Artigo2 .
+lex:D16752\/Artigo248\/Artigo1195    lex:remetePara    lex:D20390\/Artigo2 .

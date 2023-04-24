@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5220    lex:ehUm    lex:DocLegal .
+lex:L5220    lex:temTextoIntegral    lex:HTMLs\/L5220.htm .
+lex:L5220\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5220    lex:temArtigo    lex:L5220\/Artigo1 .
+lex:L5220\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, pelo Ministério das Relações Exteriores, o crédito especial de Cr$ 120.000.000 (cento e vinte milhões de cruzeiros) para atender às despesas decorrentes da visita ao Brasil de Sua Alteza Eminentíssima Frei Angelo de Mojana di Cologna, Príncipe e Grão - Mestre da Ordem Soberana e Militar de Malta." .
+lex:L5220\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5220\/Artigo1    lex:temParagrafo    lex:L5220\/Artigo1\/ParagrafoUnico .
+lex:L5220\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito especial de que trata êste artigo será registrado pelo Tribunal de Contas da União e distribuído automàticamente ao Tesouro Nacional." .
+lex:L5220\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5220    lex:temArtigo    lex:L5220\/Artigo2 .
+lex:L5220\/Artigo2    lex:temConteudo    "Art. 2º A presente Lei entra em vigor na data de sua publicação." .

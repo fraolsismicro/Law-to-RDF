@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1990    lex:ehUm    lex:DocLegal .
+lex:L1990    lex:temTextoIntegral    lex:HTMLs\/L1990.htm .
+lex:L1990\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1990    lex:temArtigo    lex:L1990\/Artigo1 .
+lex:L1990\/Artigo1    lex:temConteudo    "Art. 1º É feita no Código de Processo Civil a seguinte modificação:" .
+lex:L1990\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1990\/Artigo1    lex:temParagrafo    lex:L1990\/Artigo1\/Paragrafo3 .
+lex:L1990\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Aplicam-se os parágrafos anteriores aos pedidos de alteração de ato do registro civil, quando envolvam questão de estado ou de capacidade da pessôa." .
+lex:L1990\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1990    lex:temArtigo    lex:L1990\/Artigo2 .
+lex:L1990\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L1990\/Artigo1    lex:remetePara    lex:Del1608\/Artigo140\/Paragrafo3 .
+lex:L1990\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del1608\/Artigo140\/Paragrafo3 .

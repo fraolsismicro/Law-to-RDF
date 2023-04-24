@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3886    lex:ehUm    lex:DocLegal .
+lex:L3886    lex:temTextoIntegral    lex:HTMLs\/L3886.htm .
+lex:L3886\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3886    lex:temArtigo    lex:L3886\/Artigo1 .
+lex:L3886\/Artigo1    lex:temConteudo    "Art. 1º - Serão destacados, dos recursos de que trata a Lei nº 2.976, de 2 de novembro de 1.956, artigo 15, primeira alínea, no mínimo Cr$ 10.000.000,00 (dez milhões de cruzeiros) anuais para obras, equipamentos e custeio de atividades, em partes iguais, dos Institutos de Patologia e de Pesquisas Bioquímicas, da Faculdade de Medicina de Santa Maria, Rio Grande do Sul." .
+lex:L3886\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3886    lex:temArtigo    lex:L3886\/Artigo2 .
+lex:L3886\/Artigo2    lex:temConteudo    "Art. 2º A contribuição prevista no artigo 1º será classificada na unidade orçamentária relativa à Universidade do Rio Grande do Sul, com movimentação de exclusiva competência da Divisão de Orçamento do Ministério da Educação e Cultura, sob o regime da Lei nº 3.614, de 12 de Agôsto de 1.959." .
+lex:L3886\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L3886    lex:temArtigo    lex:L3886\/Artigo3 .
+lex:L3886\/Artigo3    lex:temConteudo    "Art. 3º - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3886\/Artigo1    lex:remetePara    lex:L2976 .
+lex:L3886\/Artigo2    lex:remetePara    lex:L3614 .

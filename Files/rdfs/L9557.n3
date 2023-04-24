@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9557    lex:ehUm    lex:DocLegal .
+lex:L9557    lex:temTextoIntegral    lex:HTMLs\/L9557.htm .
+lex:L9557\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9557    lex:temArtigo    lex:L9557\/Artigo1 .
+lex:L9557\/Artigo1    lex:temConteudo    "Art. 1º O § 1º do art. 1º da Lei nº 8.691, de 28 de julho de 1993, passa a vigorar acrescido dos seguintes incisos:" .
+lex:L9557\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9557\/Artigo1    lex:temParagrafo    lex:L9557\/Artigo1\/Paragrafo1 .
+lex:L9557\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º .............................................................." .
+lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L9557\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII .
+lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII    lex:temConteudo    "XXVIII    Fundação Casa de Rui Barbosa;" .
+lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX    lex:ehUm    lex:ParagrafoInciso .
+lex:L9557\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX .
+lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX    lex:temConteudo    "XXIX   Instituto de Pesquisas Jardim Botânico do Rio de Janeiro.'" .
+lex:L9557\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9557    lex:temArtigo    lex:L9557\/Artigo2 .
+lex:L9557\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9557\/Artigo1    lex:remetePara    lex:L8691\/Artigo1\/Paragrafo1xxviii .
+lex:L9557\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXVIII    lex:remetePara    lex:L8691\/Artigo1\/Paragrafo1xxviii .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98800    lex:ehUm    lex:DocLegal .
+lex:D98800    lex:temTextoIntegral    lex:HTMLs\/D98800.htm .
+lex:D98800\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98800    lex:temArtigo    lex:D98800\/Artigo1 .
+lex:D98800\/Artigo1    lex:temConteudo    "Art. 1º O ítem II do artigo 3º do Decreto nº 79.966, de 14 de julho de 1977, com as alterações procedidas pelos Decretos nºs 83.089, de 24 de janeiro de 1979, e 94.500, de 19 de junho de 1987, passa a vigorar com a seguinte redação:" .
+lex:D98800\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D98800\/Artigo1    lex:temInciso    lex:D98800\/Artigo1\/IncisoII .
+lex:D98800\/Artigo1\/IncisoII    lex:temConteudo    "II - Fiscal do Trabalho, Inspetor de Abastecimento, Médico Veterinário, Médico (designado especificamente para atividades de fiscalização externa), Engenheiro, Engenheiro Agrônomo e Químico, do Grupo Outras Atividades de Nível Superior, e os Agentes de Higiene e Segurança do Trabalho, do Grupo Atividades de Nível Médio.'" .
+lex:D98800\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98800    lex:temArtigo    lex:D98800\/Artigo2 .
+lex:D98800\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D98800\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D98800    lex:temArtigo    lex:D98800\/Artigo3 .
+lex:D98800\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .

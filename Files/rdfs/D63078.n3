@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D63078    lex:ehUm    lex:DocLegal .
+lex:D63078    lex:temTextoIntegral    lex:HTMLs\/D63078.htm .
+lex:D63078\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D63078    lex:temArtigo    lex:D63078\/Artigo1 .
+lex:D63078\/Artigo1    lex:temConteudo    "Art 1º Os itens 5.2, 5.2.1, 5.2.4, 5.2.6 e 5.3 das Instruções Gerais para a Inspeção de Saúde de Conscritos nas Fôrças Armadas, aprovadas pelo Decreto nº 60.822, de 7 de junho de 1967, passam a ter a seguinte redação:" .
+lex:D63078\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D63078    lex:temArtigo    lex:D63078\/Artigo2 .
+lex:D63078\/Artigo2    lex:temConteudo    "Art 2º O presente Decreto entrará em vigor na data de sua publicação, revogando as disposições em contrário." .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822\/52 .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822\/521 .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822\/524 .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822\/526 .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822\/53 .
+lex:D63078\/Artigo1    lex:remetePara    lex:D60822 .

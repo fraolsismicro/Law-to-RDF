@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1746    lex:ehUm    lex:DocLegal .
+lex:Del1746    lex:temTextoIntegral    lex:HTMLs\/Del1746.htm .
+lex:Del1746\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo1 .
+lex:Del1746\/Artigo1    lex:temConteudo    "Art 1º - O artigo 3º da Lei nº 6.732, de 4 de dezembro de 1979, passa a vigorar com a seguinte redação:" .
+lex:Del1746\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo2 .
+lex:Del1746\/Artigo2    lex:temConteudo    "Art 2º - Na aplicação do disposto na Lei nº 6.732, de 4 de dezembro de 1979, será considerada a Representação Mensal instituída pela Decreto-lei nº 1.445, de 13 de fevereiro de 1976, desde que o servidor tenha exercido o cargo com essa vantagem durante pelo menos 2 (dois) anos." .
+lex:Del1746\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo3 .
+lex:Del1746\/Artigo3    lex:temConteudo    "Art 3º - O disposto no artigo 180 da Lei nº 1.711, de 28 de outubro de 1952, com a redação dada pela Lei nº 6.732, de 4 de dezembro de 1979, aplica-se aos funcionários designados para o exercício, no exterior, das funções diplomáticas de caráter permanente de Chefe de Missão Diplomática ou de Repartição consular de carreira e de Ministro-Conselheiro em Embaixada ou Missão Permanente junto a organismo internacional." .
+lex:Del1746\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1746\/Artigo3    lex:temParagrafo    lex:Del1746\/Artigo3\/ParagrafoUnico .
+lex:Del1746\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Para efeito do disposto neste artigo, ficam fixados os valores constantes do Anexo I deste Decreto-lei." .
+lex:Del1746\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo4 .
+lex:Del1746\/Artigo4    lex:temConteudo    "Art 4º O item XX do Anexo Il do Decreto-lei nº 1.341, de 22 de agosto de 1974, introduzido pelo artigo 8º do Decreto-lei nº 1.604, de 22 de janeiro de 1978, passa a vigorar com a redação do Anexo II deste Decreto-lei." .
+lex:Del1746\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo5 .
+lex:Del1746\/Artigo5    lex:temConteudo    "Art 5º - A despesa decorrente da aplicação deste Decreto-lei correra à conta das dotações consignadas no Orçamento da União." .
+lex:Del1746\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1746    lex:temArtigo    lex:Del1746\/Artigo6 .
+lex:Del1746\/Artigo6    lex:temConteudo    "Art 6º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1746\/Artigo1    lex:remetePara    lex:L6732\/Artigo3 .
+lex:Del1746\/Artigo2    lex:remetePara    lex:L6732 .
+lex:Del1746\/Artigo2    lex:remetePara    lex:Del1445 .
+lex:Del1746\/Artigo3    lex:remetePara    lex:L1711\/Artigo180 .
+lex:Del1746\/Artigo4    lex:remetePara    lex:Del1341\/ .
+lex:Del1746\/Artigo4    lex:remetePara    lex:Del1604\/Artigo8 .

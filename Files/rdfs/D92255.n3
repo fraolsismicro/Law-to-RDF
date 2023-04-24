@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92255    lex:ehUm    lex:DocLegal .
+lex:D92255    lex:temTextoIntegral    lex:HTMLs\/D92255.htm .
+lex:D92255\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92255    lex:temArtigo    lex:D92255\/Artigo2 .
+lex:D92255\/Artigo2    lex:temConteudo    "Art. 2º - Os trabalhos a serem desenvolvidos na área prioritária declarada no artigo anterior, ficarão sob a responsabilidade da Diretoria Regional do Instituto Nacional de Colonização e Reforma Agrária - INCRA, com sede em Curitiba, no Estado do Paraná, e objetivarão, preferencialmente: a) reformulação da estrutura fundiária do imóvel a ser desapropriado; b) criação de até 45 (quarenta e cinco) unidades familiares." .
+lex:D92255\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D92255    lex:temArtigo    lex:D92255\/Artigo3 .
+lex:D92255\/Artigo3    lex:temConteudo    "Art. 3º - Será de 3 (três) anos o prazo de atuação governamental na área a que se refere o artigo 1º deste decreto, podendo ser prorrogado." .
+lex:D92255\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D92255\/Artigo3    lex:temParagrafo    lex:D92255\/Artigo3\/Paragrafo1 .
+lex:D92255\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º O imóvel a que se refere este artigo tem o perímetro assinalado na área discriminada pelo artigo 1º deste decreto." .
+lex:D92255\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D92255\/Artigo3    lex:temParagrafo    lex:D92255\/Artigo3\/Paragrafo2 .
+lex:D92255\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º Excluem-se dos efeitos deste decreto: a) os semoventes, as máquinas e os implementos agrícolas; b) as benfeitorias existentes nas parcelas que integram o imóvel referido neste artigo pertencentes aos que serão beneficiados com a sua destinação." .
+lex:D92255\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D92255    lex:temArtigo    lex:D92255\/Artigo7 .
+lex:D92255\/Artigo7    lex:temConteudo    "Art. 7º - Este decreto entra em vigor na data de sua publicação." .
+lex:D92255\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91 .
+lex:Dnn7-05-09-91    lex:revogou    lex:D92255\/Texto .
+lex:D92255\/Texto    lex:remetePara    lex:D92255 .
+lex:D92255\/Artigo4    lex:remetePara    lex:L4504 .
+lex:D92255\/Artigo3\/Artigo5    lex:remetePara    lex:Del0554 .
+lex:D92255\/Artigo3\/Artigo6    lex:remetePara    lex:Del0554\/Artigo13 .
+lex:D92255\/Artigo3\/Artigo6    lex:remetePara    lex:L6634 .

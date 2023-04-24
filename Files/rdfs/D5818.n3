@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5818    lex:ehUm    lex:DocLegal .
+lex:D5818    lex:temTextoIntegral    lex:HTMLs\/D5818.htm .
+lex:D5818\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5818    lex:temArtigo    lex:D5818\/Artigo1 .
+lex:D5818\/Artigo1    lex:temConteudo    "Art. 1o  O art. 7o e inciso I do § 2o do art. 14 do Decreto no 5.474, de 22 de junho de 2005, passam a vigorar com a seguinte redação:" .
+lex:D5818\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5818\/Artigo1    lex:temParagrafo    lex:D5818\/Artigo1\/ParagrafoUnico .
+lex:D5818\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O del credere do agente financeiro, no caso de compartilhamento do risco, será reduzido em percentual idêntico ao garantido pelos Fundos Constitucionais. (NR)" .
+lex:D5818\/Artigo1\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:D5818\/Artigo1    lex:temParagrafo    lex:D5818\/Artigo1\/Paragraf .
+lex:D5818\/Artigo1\/Paragraf    lex:temConteudo    "§2º .............................................................................." .
+lex:D5818\/Artigo1\/Paragraf\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5818\/Artigo1\/Paragraf    lex:temInciso    lex:D5818\/Artigo1\/Paragraf\/IncisoI .
+lex:D5818\/Artigo1\/Paragraf\/IncisoI    lex:temConteudo    "I - independentemente da fonte do recurso, a homologação prévia dos projetos pela Secretaria Especial de Aqüicultura e Pesca da Presidência da República;" .
+lex:D5818\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5818    lex:temArtigo    lex:D5818\/Artigo2 .
+lex:D5818\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5818\/Artigo1    lex:remetePara    lex:D5474\/Artigo7 .
+lex:D5818\/Artigo1    lex:remetePara    lex:D5474\/Artigo14\/Paragrafo2i .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3678    lex:ehUm    lex:DocLegal .
+lex:D3678    lex:temTextoIntegral    lex:HTMLs\/D3678.htm .
+lex:D3678\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3678    lex:temArtigo    lex:D3678\/Artigo1 .
+lex:D3678\/Artigo1    lex:temConteudo    "Art. 1o  A Convenção sobre o Combate da Corrupção de Funcionários Públicos Estrangeiros em Transações Comerciais Internacionais, concluída em Paris, em 17 de dezembro de 1997, apensa por cópia a este Decreto, deverá ser executada e cumprida tão inteiramente como nela se contém." .
+lex:D3678\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3678\/Artigo1    lex:temParagrafo    lex:D3678\/Artigo1\/ParagrafoUnico .
+lex:D3678\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A proibição de recusa de prestação de assistência mútua jurídica, prevista no Artigo 9, parágrafo 3, da Convenção, será entendida como proibição à recusa baseada apenas no instituto do sigilo bancário, em tese, e não a recusa em decorrência da obediência às normas legais pertinentes à matéria, integrantes do ordenamento jurídico brasileiro, e a interpretação relativa à sua aplicação, feitas pelo Tribunal competente, ao caso concreto." .
+lex:D3678\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3678    lex:temArtigo    lex:D3678\/Artigo2 .
+lex:D3678\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão da referida Convenção, bem como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D3678\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3678    lex:temArtigo    lex:D3678\/Artigo3 .
+lex:D3678\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D3678\/Artigo3\/Alineafuncionario    lex:ehUm    lex:Alinea .
+lex:D3678\/Artigo3    lex:temAlinea    lex:D3678\/Artigo3\/Alineafuncionario .
+lex:D3678\/Artigo3\/Alineafuncionario    lex:temConteudo    "a) 'funcionário público estrangeiro' significa qualquer pessoa responsável por cargo legislativo, administrativo ou jurídico de um país estrangeiro, seja ela nomeada ou eleita; qualquer pessoa que exerça função pública para um país estrangeiro, inclusive para representação ou empresa pública; e qualquer funcionário ou representante de organização pública internacional;" .
+lex:D3678\/Artigo3\/Alineapais    lex:ehUm    lex:Alinea .
+lex:D3678\/Artigo3    lex:temAlinea    lex:D3678\/Artigo3\/Alineapais .
+lex:D3678\/Artigo3\/Alineapais    lex:temConteudo    "b) 'país estrangeiro' inclui todos os níveis e subdivisões de governo, do federal ao municipal;" .
+lex:D3678\/Artigo3\/Alineaa    lex:ehUm    lex:Alinea .
+lex:D3678\/Artigo3    lex:temAlinea    lex:D3678\/Artigo3\/Alineaa .
+lex:D3678\/Artigo3\/Alineaa    lex:temConteudo    "c) 'a ação ou a omissão do funcionário no desempenho de suas funções oficiais' inclui qualquer uso do cargo do funcionário público, seja esse cargo, ou não, da competência legal do funcionário." .
+lex:D3678\/Artigo2    lex:remetePara    lex:Constituicao\/Artigo49 .

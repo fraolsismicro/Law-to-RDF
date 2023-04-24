@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6119    lex:ehUm    lex:DocLegal .
+lex:D6119    lex:temTextoIntegral    lex:HTMLs\/D6119.htm .
+lex:D6119\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6119    lex:temArtigo    lex:D6119\/Artigo1 .
+lex:D6119\/Artigo1    lex:temConteudo    "Art. 1o  O art. 2o do Decreto no 5.255, de 27 de outubro de 2004, passa a vigorar com a seguinte redação:" .
+lex:D6119\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoI .
+lex:D6119\/Artigo1\/IncisoI    lex:temConteudo    "I - um cargo de Coordenador-Geral de Cobrança e Recuperação de Créditos, código DAS 101.4;" .
+lex:D6119\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoII .
+lex:D6119\/Artigo1\/IncisoII    lex:temConteudo    "II - um cargo de Chefe da Divisão de Gerenciamento da Dívida Ativa das Autarquias e Fundações Públicas Federais, código DAS 101.2;" .
+lex:D6119\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoIII .
+lex:D6119\/Artigo1\/IncisoIII    lex:temConteudo    "III - um cargo de Chefe da Divisão de Gerenciamento de Ações Prioritárias, código DAS 101.2;" .
+lex:D6119\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoIV .
+lex:D6119\/Artigo1\/IncisoIV    lex:temConteudo    "IV - um cargo de Chefe da Divisão de Gerenciamento de Execução na Justiça do Trabalho, código DAS 101.2;" .
+lex:D6119\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoV .
+lex:D6119\/Artigo1\/IncisoV    lex:temConteudo    "V - um cargo de Chefe da Divisão de Consultoria em Cobrança e Recuperação de Créditos, código DAS 101.2;" .
+lex:D6119\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoVI .
+lex:D6119\/Artigo1\/IncisoVI    lex:temConteudo    "VI - oito cargos de Chefe de Divisão da Procuradoria-Geral Federal, código DAS 101.2;" .
+lex:D6119\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D6119\/Artigo1    lex:temInciso    lex:D6119\/Artigo1\/IncisoVII .
+lex:D6119\/Artigo1\/IncisoVII    lex:temConteudo    "VII - cinco cargos de Chefe de Serviço de Cobrança e Recuperação de Créditos junto a Tribunais, código DAS 101.1;" .
+lex:D6119\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6119    lex:temArtigo    lex:D6119\/Artigo2 .
+lex:D6119\/Artigo2    lex:temConteudo    "Art. 2o  O Advogado-Geral da União, no prazo de sessenta dias, contado da data de publicação deste Decreto, editará os atos dispondo sobre a competência, a estrutura e o funcionamento da Procuradoria-Geral Federal, no que se refere ao disposto no art. 22 da Lei no 11.457, de 16 de março de 2007." .
+lex:D6119\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6119    lex:temArtigo    lex:D6119\/Artigo3 .
+lex:D6119\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6119\/Artigo1\/IncisoI    lex:remetePara    lex:D5255\/Artigo2 .
+lex:D6119\/Artigo2    lex:remetePara    lex:L11457\/Artigo22 .

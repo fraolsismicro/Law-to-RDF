@@ -1,0 +1,91 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0040    lex:ehUm    lex:DocLegal .
+lex:D0040    lex:temTextoIntegral    lex:HTMLs\/D0040.htm .
+lex:D0040\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0040    lex:temArtigo    lex:D0040\/Artigo1 .
+lex:D0040\/Artigo1    lex:temConteudo    "Art. 1º A Convenção Contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D0040\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0040    lex:temArtigo    lex:D0040\/Artigo2 .
+lex:D0040\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D0040\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaQuando .
+lex:D0040\/Artigo2\/AlineaQuando    lex:temConteudo    "a) quando os crimes tenham sido cometidos em qualquer território sob sua jurisdição ou a bordo de navio ou aeronave registrada no Estado em questão;" .
+lex:D0040\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaQuando .
+lex:D0040\/Artigo2\/AlineaQuando    lex:temConteudo    "b) quando o suposto autor for nacional do Estado em questão;" .
+lex:D0040\/Artigo2\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaQuando .
+lex:D0040\/Artigo2\/AlineaQuando    lex:temConteudo    "c) quando a vítima for nacional do Estado em questão e este o considerar apropriado." .
+lex:D0040\/Artigo2\/AlineaQuando\/ItemCada    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaQuando    lex:temItem    lex:D0040\/Artigo2\/AlineaQuando\/ItemCada .
+lex:D0040\/Artigo2\/AlineaQuando\/ItemCada    lex:temConteudo    "2. Cada Estado Parte tomará também as medidas necessárias para estabelecer sua jurisdição sobre tais crimes nos casos em que o suposto autor se encontre em qualquer território sob sua jurisdição e o Estado não extradite de acordo com o Artigo 8º para qualquer dos Estados mencionados no parágrafo 1 do presente Artigo." .
+lex:D0040\/Artigo2\/AlineaQuando\/ItemEsta    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaQuando    lex:temItem    lex:D0040\/Artigo2\/AlineaQuando\/ItemEsta .
+lex:D0040\/Artigo2\/AlineaQuando\/ItemEsta    lex:temConteudo    "3. Esta Convenção não exclui qualquer jurisdição criminal exercida de acordo com o direito interno." .
+lex:D0040\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaO .
+lex:D0040\/Artigo2\/AlineaO    lex:temConteudo    "a) o quorum será de seis membros;" .
+lex:D0040\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaAs .
+lex:D0040\/Artigo2\/AlineaAs    lex:temConteudo    "b) as decisões do Comitê serão tomadas por maioria de votos dos membros presentes." .
+lex:D0040\/Artigo2\/AlineaAs\/ItemO    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaAs    lex:temItem    lex:D0040\/Artigo2\/AlineaAs\/ItemO .
+lex:D0040\/Artigo2\/AlineaAs\/ItemO    lex:temConteudo    "3. O Secretário-Geral das Nações Unidas colocará à disposição do Comitê o pessoal e os serviços necessários ao desempenho eficaz das funções que lhe são atribuídas em virtude da presente Convenção." .
+lex:D0040\/Artigo2\/AlineaAs\/ItemO    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaAs    lex:temItem    lex:D0040\/Artigo2\/AlineaAs\/ItemO .
+lex:D0040\/Artigo2\/AlineaAs\/ItemO    lex:temConteudo    "4. O Secretário-Geral das Nações Unidas convocará a primeira reunião do Comitê. Após a primeira reunião, o Comitê deverá reunir-se em todas as ocasiões previstas em suas regras de procedimento." .
+lex:D0040\/Artigo2\/AlineaAs\/ItemOs    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaAs    lex:temItem    lex:D0040\/Artigo2\/AlineaAs\/ItemOs .
+lex:D0040\/Artigo2\/AlineaAs\/ItemOs    lex:temConteudo    "5. Os Estados Partes serão responsáveis pelos gastos vinculados à realização das reuniões dos Estados Partes e do Comitê, inclusive o reembolso de quaisquer gastos, tais como os de pessoal e de serviço, em que incorrerem as Nações Unidas em conformidade com o parágrafo 3 do presente Artigo." .
+lex:D0040\/Artigo2\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaSe .
+lex:D0040\/Artigo2\/AlineaSe    lex:temConteudo    "a) se um Estado Parte considerar que outro Estado Parte não vem cumprindo as disposições da presente Convenção poderá, mediante comunicação escrita, levar a questão ao conhecimento deste Estado Parte. Dentro de um prazo de três meses a contar da data do recebimento da comunicação, o Estado destinatário fornecerá ao Estado que enviou a comunicação explicações ou quaisquer outras declarações por escrito que esclareçam a questão, as quais deverão fazer referência, até onde seja possível e pertinente, aos procedimentos nacionais e aos recursos jurídicos adotados, em trâmite ou disponíveis sobre a questão;" .
+lex:D0040\/Artigo2\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaSe .
+lex:D0040\/Artigo2\/AlineaSe    lex:temConteudo    "b) se, dentro de um prazo de seis meses, a contar da data do recebimento da comunicação original pelo Estado destinatário, a questão não estiver dirimida satisfatoriamente para ambos os Estado Partes interessados, tanto um como o outro terão o direito de submetê-la ao Comitê, mediante notificação endereçada ao Comitê ou ao outro Estado interessado;" .
+lex:D0040\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaO .
+lex:D0040\/Artigo2\/AlineaO    lex:temConteudo    "c) o Comitê tratará de todas as questões que se lhe submetam em virtude do presente Artigo somente após ter-se assegurado de que todos os recursos jurídicos internos disponíveis tenham sido utilizados e esgotados, em consonância com os princípios do Direito internacional geralmente reconhecidos. Não se aplicará esta regra quando a aplicação dos mencionados recursos se prolongar injustificadamente ou quando não for provável que a aplicação de tais recursos venha a melhorar realmente a situação da pessoa que seja vítima de violação da presente Convenção;" .
+lex:D0040\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaO .
+lex:D0040\/Artigo2\/AlineaO    lex:temConteudo    "d) o Comitê realizará reuniões confidenciais quando estiver examinando as comunicações previstas no presente Artigo;" .
+lex:D0040\/Artigo2\/AlineaSem    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaSem .
+lex:D0040\/Artigo2\/AlineaSem    lex:temConteudo    "e) sem prejuízo das disposições da alínea c), o Comitê colocará seus bons ofícios à disposição dos Estados Partes interessados no intuito de se alcançar uma solução amistosa para a questão, baseada no respeito às obrigações estabelecidas na presente Convenção. Com vistas a atingir esse objetivo, o Comitê poderá constituir, se julgar conveniente, uma comissão de conciliação ad hoc;" .
+lex:D0040\/Artigo2\/AlineaEm    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaEm .
+lex:D0040\/Artigo2\/AlineaEm    lex:temConteudo    "f) em todas as questões que se lhe submetam em virtude do presente Artigo, o Comitê poderá solicitar aos Estados Partes interessados, a que se faz referência na alínea b), que lhe forneçam quaisquer informações pertinentes;" .
+lex:D0040\/Artigo2\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaOs .
+lex:D0040\/Artigo2\/AlineaOs    lex:temConteudo    "g) os Estados Partes interessados, a que se faz referência na alínea b), terão o direito de fazer-se representar quando as questões forem examinadas no Comitê e de apresentar suas observações verbalmente e/ou por escrito;" .
+lex:D0040\/Artigo2\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaO .
+lex:D0040\/Artigo2\/AlineaO    lex:temConteudo    "h) o Comitê, dentro dos doze meses seguintes à data de recebimento de notificação mencionada na b), apresentará relatório em que:" .
+lex:D0040\/Artigo2\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaSe .
+lex:D0040\/Artigo2\/AlineaSe    lex:temConteudo    "i) se houver sido alcançada uma solução nos termos da alínea e), o Comitê restringir-se-á, em seu relatório, a uma breve exposição dos fatos e da solução alcançada;" .
+lex:D0040\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaA .
+lex:D0040\/Artigo2\/AlineaA    lex:temConteudo    "a) a mesma questão não foi, nem está sendo, examinada perante uma outra instância internacional de investigação ou solução;" .
+lex:D0040\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaA .
+lex:D0040\/Artigo2\/AlineaA    lex:temConteudo    "b) a pessoa em questão esgotou todos os recursos jurídicos internos disponíveis; não se aplicará esta regra quando a aplicação dos mencionados recursos se prolongar injustificadamente ou quando não for provável que a aplicação de tais recursos venha a melhorar realmente a situação da pessoa que seja vítima de violação da presente Convenção." .
+lex:D0040\/Artigo2\/AlineaA\/ItemO    lex:ehUm    lex:Item .
+lex:D0040\/Artigo2\/AlineaA    lex:temItem    lex:D0040\/Artigo2\/AlineaA\/ItemO .
+lex:D0040\/Artigo2\/AlineaA\/ItemO    lex:temConteudo    "6. O Comitê realizará reuniões confidenciais quando estiver examinado as comunicações previstas no presente Artigo." .
+lex:D0040\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaAs .
+lex:D0040\/Artigo2\/AlineaAs    lex:temConteudo    "a) as assinaturas, ratificações e adesões recebidas em conformidade com os Artigos 25 e 26;" .
+lex:D0040\/Artigo2\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaA .
+lex:D0040\/Artigo2\/AlineaA    lex:temConteudo    "b) a data de entrada em vigor da Convenção, nos termos do Artigo 27, e a data de entrada em vigor de quaisquer emendas, nos termos do Artigo 29;" .
+lex:D0040\/Artigo2\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0040\/Artigo2    lex:temAlinea    lex:D0040\/Artigo2\/AlineaAs .
+lex:D0040\/Artigo2\/AlineaAs    lex:temConteudo    "c) as denúncias recebidas em conformidades com o Artigo 31." .

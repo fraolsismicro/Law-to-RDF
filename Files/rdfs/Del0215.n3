@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0215    lex:ehUm    lex:DocLegal .
+lex:Del0215    lex:temTextoIntegral    lex:HTMLs\/Del0215.htm .
+lex:Del0215\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0215    lex:temArtigo    lex:Del0215\/Artigo1 .
+lex:Del0215\/Artigo1    lex:temConteudo    "Art. 1º São acrescentados ao artigo 91 do Código da Justiça Militar (Decreto-lei nº 925, de 2 de dezembro de 1938), as seguintes alíneas:" .
+lex:Del0215\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0215    lex:temArtigo    lex:Del0215\/Artigo2 .
+lex:Del0215\/Artigo2    lex:temConteudo    "Art. 2º Os Substitutos de Auditor e Advogado-de-Ofício, atualmente com estabilidade assegurada e vencimentos integrais, passam a ter exercício efetivo nas respectivas Auditorias, competindo-lhes, independentemente de convocação:" .
+lex:Del0215\/Artigo2\/AlineaAssumir    lex:ehUm    lex:Alinea .
+lex:Del0215\/Artigo2    lex:temAlinea    lex:Del0215\/Artigo2\/AlineaAssumir .
+lex:Del0215\/Artigo2\/AlineaAssumir    lex:temConteudo    "a) assumir o exercício pleno do cargo, quando vago, bem como, nos períodos de férias e licença do Auditor titular e nas suas faltas e impedimentos;" .
+lex:Del0215\/Artigo2\/AlineaFuncionar    lex:ehUm    lex:Alinea .
+lex:Del0215\/Artigo2    lex:temAlinea    lex:Del0215\/Artigo2\/AlineaFuncionar .
+lex:Del0215\/Artigo2\/AlineaFuncionar    lex:temConteudo    "b) funcionar, por designação do Auditor em processos da competência dos Conselhos Permanentes, até final julgamento." .
+lex:Del0215\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0215    lex:temArtigo    lex:Del0215\/Artigo3 .
+lex:Del0215\/Artigo3    lex:temConteudo    "Art. 3º O presente decreto-lei entrará em vigor na data de sua publicação, revogando-se as disposições em contrário." .
+lex:Del0215\/Texto    lex:remetePara    lex:Del1003 .
+lex:Del0215\/Artigo1    lex:remetePara    lex:Del0925\/Artigo91 .

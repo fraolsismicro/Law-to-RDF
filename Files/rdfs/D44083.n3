@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D44083    lex:ehUm    lex:DocLegal .
+lex:D44083    lex:temTextoIntegral    lex:HTMLs\/D44083.htm .
+lex:D44083\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D44083    lex:temArtigo    lex:D44083\/Artigo1 .
+lex:D44083\/Artigo1    lex:temConteudo    "Art. 1º O Procurador Geral do Distrito Federal, visando a assegurar o perfeito funcionamento dos serviços, poderá designar, na forma do artigo 23 do Decreto nº 39.135, de 5 de maio de 1956, os membros do Ministério Público que devem exercer quaisquer das atribuições previstas no art. 21 da Lei nº 3.434, de 20 de julho de 1958." .
+lex:D44083\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D44083    lex:temArtigo    lex:D44083\/Artigo2 .
+lex:D44083\/Artigo2    lex:temConteudo    "Art. 2º O Procurador Geral do Distrito Federal apresentará, dentro no prazo de 90 dias projeto de atualização do Regulamento do Ministério Público." .
+lex:D44083\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D44083\/Artigo2    lex:temParagrafo    lex:D44083\/Artigo2\/ParagrafoUnico .
+lex:D44083\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No que não for incompatível com o Código do Ministério Público, continua em vigor o Decreto nº 39.135, de 5 de maio de 1956." .
+lex:D44083\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D44083    lex:temArtigo    lex:D44083\/Artigo3 .
+lex:D44083\/Artigo3    lex:temConteudo    "Art. 3º Os serviços da Secretaria do Ministério Público serão dirigidos pelo Secretário do Procurador Geral, sob orientação dêste, de acôrdo com o art. 16 nº XVI da Lei nº 3.434, de 20 de julho de 1958." .
+lex:D44083\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D44083    lex:temArtigo    lex:D44083\/Artigo4 .
+lex:D44083\/Artigo4    lex:temConteudo    "Art. 4º O presente decreta entra em vigor na data da sua publicação , revogadas as disposições em contrário." .
+lex:D44083\/Texto    lex:revogadoPor    lex:D0011\/Artigo4 .
+lex:D0011\/Artigo4    lex:revogou    lex:D44083\/Texto .
+lex:D44083\/Texto    lex:remetePara    lex:D44083 .
+lex:D44083\/Texto    lex:remetePara    lex:L3434\/ .
+lex:D44083\/Artigo1    lex:remetePara    lex:L3434\/Artigo21 .
+lex:D44083\/Artigo3    lex:remetePara    lex:L3434\/Artigo16 .

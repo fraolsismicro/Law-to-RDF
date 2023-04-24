@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5661    lex:ehUm    lex:DocLegal .
+lex:L5661    lex:temTextoIntegral    lex:HTMLs\/L5661.htm .
+lex:L5661\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo1 .
+lex:L5661\/Artigo1    lex:temConteudo    "Art. 1º Fica criada a 3ª Auditoria da 2ª Circunscrição Judiciária Militar, no Estado de São Paulo, cuja sede coincidirá com a da respectiva Região Militar." .
+lex:L5661\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo2 .
+lex:L5661\/Artigo2    lex:temConteudo    "Art. 2º O art 3º e seu § 2º do Decreto-lei 1.003, de 21 de outubro de 1969 (Lei de Organização judiciária militar), passam a ter a seguinte redação:" .
+lex:L5661\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5661\/Artigo2    lex:temParagrafo    lex:L5661\/Artigo2\/Paragrafo2 .
+lex:L5661\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Nas Circunscrições com uma ou mais Auditorias na mesma sede, terão estas jurisdição mista, ressalvada a jurisdição privativa estabelecida em lei; e, nas em que houver mais de uma, com sedes diferentes, caberá à primeira conhecer dos processos relativos à Marinha e à Aeronáutica, da Circunscrição, e ao Exército, nos limites de sua jurisdição, coincidindo sua sede com a da Região Militar. Quanto às demais, terão sua sede e jurisdição determinadas por decreto, de acôrdo com os limites que êste fixar'." .
+lex:L5661\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo3 .
+lex:L5661\/Artigo3    lex:temConteudo    "Art. 3º Para a composição do quadro funcional da Auditoria de que trata o art. 1º desta Lei, são criados na Justiça Militar da União os seguintes cargos:" .
+lex:L5661\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5661\/Artigo3    lex:temParagrafo    lex:L5661\/Artigo3\/ParagrafoUnico .
+lex:L5661\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Haverá na Auditoria, para cada um dos cargos de Procurador, de Advogado de Ofício e de Oficial de Justiça, dois substitutos, que funcionarão nas faltas, férias ou impedimentos do titular, percebendo, nestes casos, vencimentos equivalentes aos do substituído. Êsses substitutos não terão garantias de estabilidade." .
+lex:L5661\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo4 .
+lex:L5661\/Artigo4    lex:temConteudo    "Art. 4º O preenchimento dos cargos de que trata o artigo anterior e seu parágrafo único será feito na forma da legislação específica em vigor." .
+lex:L5661\/Artigo9    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo9 .
+lex:L5661\/Artigo9    lex:temConteudo    "Art. 9º Para atender às despesas com a execução da presente Lei, fica o Poder Executivo autorizado a abrir ao Poder Judiciário - Superior Tribunal Militar, à conta do Fundo da Reserva Orçamentária, crédito suplementar até o montante de Cr$ 570.000,00 (quinhentos e setenta mil cruzeiros), sendo Cr$ 370.000.00 (trezentos e setenta mil cruzeiros) para as despesas de custeio de Pessoal, Cr$ 100.000,00 (cem mil cruzeiros) para as Despesas de outros custeios e Cr$ 100.000,00 (cem mil cruzeiros) para as Despesas de Capital - investimentos." .
+lex:L5661\/Artigo10    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo10 .
+lex:L5661\/Artigo10    lex:temConteudo    "Art. 10. Esta Lei entrará em vigor na data de sua publicação." .
+lex:L5661\/Artigo11    lex:ehUm    lex:Artigo .
+lex:L5661    lex:temArtigo    lex:L5661\/Artigo11 .
+lex:L5661\/Artigo11    lex:temConteudo    "Art. 11. Revogam-se as disposições em contrário." .
+lex:L5661\/Texto00002    lex:remetePara    lex:Del1003\/Artigo3 .
+lex:L5661\/Artigo2\/Paragrafo2    lex:remetePara    lex:Del1003\/Artigo3\/Paragrafo2 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .
+lex:L5661\/Artigo5    lex:revogadoPor    lex:L5849\/Artigo19 .
+lex:L5849\/Artigo19    lex:revogou    lex:L5661\/Artigo5 .

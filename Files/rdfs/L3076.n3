@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3076    lex:ehUm    lex:DocLegal .
+lex:L3076    lex:temTextoIntegral    lex:HTMLs\/L3076.htm .
+lex:L3076\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3076    lex:temArtigo    lex:L3076\/Artigo1 .
+lex:L3076\/Artigo1    lex:temConteudo    "Art. 1º A expressão 'Pensionistas do Tesouro Nacional', consignada na Lei nº 1.765, de 18 de dezembro de 1952, abrange todos os pensionistas indistintamente que, na qualidade de herdeiros de contribuintes civis ou militares, percebiam até 31 de dezembro de 1955 pensões dos cofres públicos." .
+lex:L3076\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3076\/Artigo1    lex:temParagrafo    lex:L3076\/Artigo1\/ParagrafoUnico .
+lex:L3076\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os efeitos desta lei retroagem à data da vigência da Lei nº 1.765, de 18 de dezembro de 1952." .
+lex:L3076\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3076    lex:temArtigo    lex:L3076\/Artigo1 .
+lex:L3076\/Artigo1    lex:temConteudo    "Art. 1º A expressão pensionistas do Tesouro Nacional consignada nos arts. 9º da Lei nº 1.765 de 18 de dezembro de 1952, e 4º da Lei número 2.412, de 1 de fevereiro de 1955, abrange tôdos os pensionistas indistintamente que, na qualidade de herdeiros de civis e militares contribuintes ou não, percebiam, até 31 de dezembro de 1955, pensões dos cofres públicos, inclusive meio sôldo e especiais. (Redação dada pela Lei nº 3.354, de 1957)" .
+lex:L3076\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3076    lex:temArtigo    lex:L3076\/Artigo2 .
+lex:L3076\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3076\/Artigo1    lex:remetePara    lex:L1765 .
+lex:L3076\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L1765 .
+lex:L3076\/Artigo1    lex:remetePara    lex:L1765\/Artigo9 .
+lex:L3076\/Artigo1    lex:remetePara    lex:L2412\/Artigo4 .
+lex:L3076\/Artigo1    lex:remetePara    lex:L3354\/Artigo1 .
+lex:L3076\/Texto00003    lex:remetePara    lex:L3354\/Artigo1 .

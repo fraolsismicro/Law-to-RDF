@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1203    lex:ehUm    lex:DocLegal .
+lex:Del1203    lex:temTextoIntegral    lex:HTMLs\/Del1203.htm .
+lex:Del1203\/ParagrafoO    lex:ehUm    lex:Paragrafo .
+lex:Del1203    lex:temParagrafo    lex:Del1203\/ParagrafoO .
+lex:Del1203\/ParagrafoO    lex:temConteudo    "Art.1º O artigo 1º do Decreto-lei nº 380, de 23 de dezembro de 1968, passa a vigorar acrescido do seguinte parágrafo:" .
+lex:Del1203\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1203    lex:temParagrafo    lex:Del1203\/ParagrafoUnico .
+lex:Del1203\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No levantamento das operações tributáveis, para os efeitos deste Decreto-lei, as saídas de mercadorias serão consideradas exclusivamente pelos valores acrescidos nos estabelecimentos situados em cada Município, abatidas, portanto, as importâncias correspondentes às entradas de mercadorias recebidas do mesmo ou de outro Município." .
+lex:Del1203\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1203    lex:temArtigo    lex:Del1203\/Artigo2 .
+lex:Del1203\/Artigo2    lex:temConteudo    "Art. 2º Para a distribuição das parcelas pertencentes aos Municípios no produto da arrecadação do imposto sobre circulação de mercadorias os Estados poderão adotar no ano de 1972, em substituição ao valor das operações tributáveis previstas no artigo 2º do Decreto-lei nº 380, de 23 de dezembro de 1968, os índices utilizados no segundo semestre de 1971." .
+lex:Del1203\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1203    lex:temArtigo    lex:Del1203\/Artigo3 .
+lex:Del1203\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1203\/Texto00001    lex:remetePara    lex:Del0380\/Artigo1 .
+lex:Del1203\/Artigo2    lex:remetePara    lex:Del0380\/Artigo2 .

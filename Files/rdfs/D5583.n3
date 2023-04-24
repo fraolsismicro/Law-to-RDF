@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5583    lex:ehUm    lex:DocLegal .
+lex:D5583    lex:temTextoIntegral    lex:HTMLs\/D5583.htm .
+lex:D5583\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5583    lex:temArtigo    lex:D5583\/Artigo1 .
+lex:D5583\/Artigo1    lex:temConteudo    "Art. 1o  Fica o Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis-IBAMA autorizado a estabelecer normas para a gestão do uso sustentável dos recursos pesqueiros de que trata o § 6o do art. 27 da Lei no 10.683, de 28 de maio de 2003." .
+lex:D5583\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5583\/Artigo1    lex:temParagrafo    lex:D5583\/Artigo1\/Paragrafo1 .
+lex:D5583\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Excetuam-se dessa autorização os atos normativos conjuntos com outros Ministérios ou Secretarias integrantes da Presidência da República, assim como aqueles que envolvam instituição ou autoridade estrangeira." .
+lex:D5583\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5583\/Artigo1    lex:temParagrafo    lex:D5583\/Artigo1\/Paragrafo2 .
+lex:D5583\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  As normas estabelecidas pelo IBAMA deverão obedecer às diretrizes, critérios e padrões definidos pelo Ministério do Meio Ambiente." .
+lex:D5583\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5583    lex:temArtigo    lex:D5583\/Artigo2 .
+lex:D5583\/Artigo2    lex:temConteudo    "Art. 2o  O IBAMA poderá delegar às Gerências-Executivas, obedecida a jurisdição da respectiva gerência, competência para estabelecer atos normativos referentes a:" .
+lex:D5583\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5583\/Artigo2    lex:temInciso    lex:D5583\/Artigo2\/IncisoI .
+lex:D5583\/Artigo2\/IncisoI    lex:temConteudo    "I - defeso, para proteção das migrações reprodutivas das espécies de águas continentais por período não superior a três meses; e" .
+lex:D5583\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5583\/Artigo2    lex:temInciso    lex:D5583\/Artigo2\/IncisoII .
+lex:D5583\/Artigo2\/IncisoII    lex:temConteudo    "II - suspensão das atividades pesqueiras em decorrência de desastres ambientais por período não superior a quatorze dias." .
+lex:D5583\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5583    lex:temArtigo    lex:D5583\/Artigo3 .
+lex:D5583\/Artigo3    lex:temConteudo    "Art. 3o  Ficam convalidados os atos normativos relativos à gestão do uso sustentável dos recursos pesqueiros editados pelo IBAMA, anteriores à publicação deste Decreto." .
+lex:D5583\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5583    lex:temArtigo    lex:D5583\/Artigo4 .
+lex:D5583\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5583\/Artigo1    lex:remetePara    lex:L10683\/Artigo27\/Paragrafo6 .

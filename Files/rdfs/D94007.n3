@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D94007    lex:ehUm    lex:DocLegal .
+lex:D94007    lex:temTextoIntegral    lex:HTMLs\/D94007.htm .
+lex:D94007\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D94007    lex:temArtigo    lex:D94007\/Artigo1 .
+lex:D94007\/Artigo1    lex:temConteudo    "Art. 1º As unidades sediadas no País titulares, em 1º de janeiro de 1987, de conta corrente bancária no exterior, ficam autorizadas, em caráter provisório, a movimentá-la, até 31 de março de 1987, vedado, a partir dessa última data, sob pena de responsabilidade, pagamento de despesa no exterior em desacordo com o Decreto nº 93.872, de 23 de dezembro de 1986." .
+lex:D94007\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D94007    lex:temArtigo    lex:D94007\/Artigo2 .
+lex:D94007\/Artigo2    lex:temConteudo    "Art. 2º Em casos excepcionais, o Ministro da Fazenda, mediante proposta devidamente fundamentada da Secretaria do Tesouro Nacional, poderá autorizar unidade sediada no País a manter conta corrente bancária no exterior, sem prejuízo da sistemática de execução financeira de despesas, estabelecida pelo Decreto nº 93.872, de 23 de dezembro de 1986." .
+lex:D94007\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D94007    lex:temArtigo    lex:D94007\/Artigo3 .
+lex:D94007\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D94007\/Artigo1    lex:remetePara    lex:D93872 .
+lex:D94007\/Artigo2    lex:remetePara    lex:D93872 .

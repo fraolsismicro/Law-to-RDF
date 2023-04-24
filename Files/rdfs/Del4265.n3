@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del4265    lex:ehUm    lex:DocLegal .
+lex:Del4265    lex:temTextoIntegral    lex:HTMLs\/Del4265.htm .
+lex:Del4265\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo1 .
+lex:Del4265\/Artigo1    lex:temConteudo    "Art. 1º Ficam alterados os arts. 19. 20, 31 e 33 do regulamento baixado com o decreto n. 2.630, de 5 de maio de 1938, que passam a ter a seguinte redação:" .
+lex:Del4265\/Artigo19    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo19 .
+lex:Del4265\/Artigo19    lex:temConteudo    "Art. 19 A marca com a denominação seda pura deverá ser aplicada nos tecidos de seda pura ao longo de uma das ourelas, no avesso, por meio da decalcomania, carimbo ou tecelagem, em intervalos não superiores a três metros lineares." .
+lex:Del4265\/Artigo20    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo20 .
+lex:Del4265\/Artigo20    lex:temConteudo    "Art. 20. A aplicação da marca nos tecidos de seda pura deverá ser feita pelas tecelagens, nos tecidos crus e tintos, destinados diretamente à venda ao consumidor, e, pelas tinturarias, nos tecidos que tenham de ser tingidos." .
+lex:Del4265\/Artigo33    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo33 .
+lex:Del4265\/Artigo33    lex:temConteudo    "Art. 33." .
+lex:Del4265\/Artigo33\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del4265\/Artigo33    lex:temParagrafo    lex:Del4265\/Artigo33\/Paragrafo1 .
+lex:Del4265\/Artigo33\/Paragrafo1    lex:temConteudo    "§ 1º Os contraventores do art. 13 serão punidos com a multa de 1:000$0 ( um conto de réis) a 5:000$0 (cinco contos de réis)." .
+lex:Del4265\/Artigo33\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del4265\/Artigo33    lex:temParagrafo    lex:Del4265\/Artigo33\/Paragrafo2 .
+lex:Del4265\/Artigo33\/Paragrafo2    lex:temConteudo    "§ 2º Lavrado o auto de infração, o interessado terá o prazo de cinco dias para a apresentação de defesa." .
+lex:Del4265\/Artigo33\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del4265\/Artigo33    lex:temParagrafo    lex:Del4265\/Artigo33\/Paragrafo3 .
+lex:Del4265\/Artigo33\/Paragrafo3    lex:temConteudo    "§ 3º As multas serão aplicadas pelo diretor do Departamento Nacional de Indústria e Comércio, com recurso, dentro de 30 dias da respectiva notificação e sem efeito suspensivo, para o Ministro do Trabalho, industria e Comércio." .
+lex:Del4265\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo2 .
+lex:Del4265\/Artigo2    lex:temConteudo    "Art. 2º Fica concedido novo prazo de 90 dias, a contar da publicação do presente decreto-lei, para a completa observância dos dispositivos do regulamento baixado com o decreto n. 2.630, de 5 de maio de 1938." .
+lex:Del4265\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del4265    lex:temArtigo    lex:Del4265\/Artigo3 .
+lex:Del4265\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:Del4265\/Artigo19    lex:remetePara    lex:D2630\/Artigo19 .
+lex:Del4265\/Artigo20    lex:remetePara    lex:D2630\/Artigo20 .
+lex:Del4265\/Artigo31    lex:remetePara    lex:D2630\/Artigo31 .
+lex:Del4265\/Artigo33\/Paragrafo1    lex:remetePara    lex:D2630\/Artigo33\/Paragrafo1 .
+lex:Del4265\/Artigo2    lex:remetePara    lex:D2630 .

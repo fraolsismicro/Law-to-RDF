@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4854    lex:ehUm    lex:DocLegal .
+lex:L4854    lex:temTextoIntegral    lex:HTMLs\/L4854.htm .
+lex:L4854\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4854    lex:temArtigo    lex:L4854\/Artigo1 .
+lex:L4854\/Artigo1    lex:temConteudo    "Art. 1º O art. 115 da Lei número 1.711, de 28 de outubro de 1952, passa a ter a seguinte redação:" .
+lex:L4854\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4854\/Artigo1    lex:temParagrafo    lex:L4854\/Artigo1\/Paragrafo1 .
+lex:L4854\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Existindo no nôvo local de residência repartição do serviço público centralizado ou de autarquia federal, o funcionário será nela lotado enquanto ali durar a permanência do seu cônjuge." .
+lex:L4854\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L4854\/Artigo1    lex:temParagrafo    lex:L4854\/Artigo1\/Paragrafo2 .
+lex:L4854\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A licença e a remoção dependerão de requerimento devidamente instruído." .
+lex:L4854\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4854    lex:temArtigo    lex:L4854\/Artigo2 .
+lex:L4854\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L4854\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4854    lex:temArtigo    lex:L4854\/Artigo3 .
+lex:L4854\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L4854\/Texto00001    lex:remetePara    lex:L1711\/Artigo115 .

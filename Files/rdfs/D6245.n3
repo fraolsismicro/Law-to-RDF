@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6245    lex:ehUm    lex:DocLegal .
+lex:D6245    lex:temTextoIntegral    lex:HTMLs\/D6245.htm .
+lex:D6245\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6245    lex:temArtigo    lex:D6245\/Artigo2 .
+lex:D6245\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6245\/Texto    lex:remetePara    lex:D6245 .
+lex:D6245\/Texto    lex:remetePara    lex:D5079\/Artigo8 .

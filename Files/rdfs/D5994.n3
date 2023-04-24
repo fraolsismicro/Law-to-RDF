@@ -1,0 +1,68 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5994    lex:ehUm    lex:DocLegal .
+lex:D5994    lex:temTextoIntegral    lex:HTMLs\/D5994.htm .
+lex:D5994\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5994    lex:temArtigo    lex:D5994\/Artigo1 .
+lex:D5994\/Artigo1    lex:temConteudo    "Art. 1 º  Serão transferidas ao Ministério da Fazenda, representado pela Secretaria do Tesouro Nacional, as obrigações financeiras decorrentes de contratos de financiamento externos, tomados pela União, cujos desembolsos tenham sido totalmente realizados pelos credores." .
+lex:D5994\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5994\/Artigo1    lex:temParagrafo    lex:D5994\/Artigo1\/ParagrafoUnico .
+lex:D5994\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os contratos em fase de desembolso somente serão transferidos ao Ministério da Fazenda após a conclusão dos desembolsos, observados os procedimentos previstos neste Decreto." .
+lex:D5994\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5994\/Artigo1    lex:temParagrafo    lex:D5994\/Artigo1\/ParagrafoUnico .
+lex:D5994\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As obrigações financeiras dos contratos em fase de desembolso poderão ser transferidas ao Ministério da Fazenda após a realização da análise das características desses contratos pela Secretaria do Tesouro Nacional, observados os procedimentos deste Decreto, à exceção do disposto na alínea c do inciso II do § 1 º do art. 2 º.      (Redação dada pelo Decreto n º 8.295, de 2014)" .
+lex:D5994\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5994    lex:temArtigo    lex:D5994\/Artigo2 .
+lex:D5994\/Artigo2    lex:temConteudo    "Art. 2 º  A transferência das obrigações seguirá cronograma e procedimentos complementares a serem estabelecidos pela Secretaria do Tesouro Nacional." .
+lex:D5994\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5994\/Artigo2    lex:temParagrafo    lex:D5994\/Artigo2\/Paragrafo1 .
+lex:D5994\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º  Os processos referentes à transferência das obrigações deverão estar instruídos obrigatoriamente com:" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - declaração expressa do ordenador de despesas quanto a:" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaCerteza    lex:ehUm    lex:Alinea .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaCerteza .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaCerteza    lex:temConteudo    "a) certeza, liquidez e exatidão das obrigações, contendo ainda informações sobre o(s) credor(es), incluindo endereço(s) e telefone(s) de contato(s);" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaExatidao    lex:ehUm    lex:Alinea .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI    lex:temAlinea    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaExatidao .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoI\/AlineaExatidao    lex:temConteudo    "b) exatidão e regularidade dos registros contábeis referentes a cada operação a ser transferida, dos registros consignados no Subsistema Dívida, com relação aos valores desembolsados, valores pagos e fluxo dos pagamentos a realizar, bem como dos dados referentes ao registro financeiro da operação junto ao Banco Central do Brasil;" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo1    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - os seguintes documentos:" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaContrato    lex:ehUm    lex:Alinea .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaContrato .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaContrato    lex:temConteudo    "a) contrato de financiamento;" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia    lex:ehUm    lex:Alinea .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia    lex:temConteudo    "b) cópia do Registro de Operação Financeira - ROF, com os respectivos esquemas de pagamento devidamente aprovados pelo Banco Central do Brasil;" .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia    lex:ehUm    lex:Alinea .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII    lex:temAlinea    lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia .
+lex:D5994\/Artigo2\/Paragrafo1\/ParagrafoIncisoII\/AlineaCopia    lex:temConteudo    "c) cópia das três últimas cobranças enviadas pelos credores." .
+lex:D5994\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5994\/Artigo2    lex:temParagrafo    lex:D5994\/Artigo2\/Paragrafo2 .
+lex:D5994\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º  Caberá ao órgão de origem:" .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoI .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - proceder às regularizações contábeis dos atos administrativos pendentes e remanescentes, inclusive a análise das prestações de contas dos convênios e instrumentos similares, se for o caso;" .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoII .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - prestar informações adicionais que se façam necessárias à completa transferência das obrigações, bem como sobre os atos praticados antes da transferência, responsabilizando-se pela guarda dos documentos pertinentes;" .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - a responsabilidade de consignar no orçamento do exercício subseqüente dotação destinada a amparar obrigações financeiras decorrentes de cada contrato transferido no período entre 1 º de maio e 31 de dezembro de cada ano;" .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D5994\/Artigo2\/Paragrafo2    lex:temParagrafoInciso    lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D5994\/Artigo2\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - providenciar, quando for o caso, o respectivo destaque orçamentário de forma a possibilitar que o Ministério da Fazenda realize os pagamentos das obrigações financeiras decorrentes dos contratos transferidos." .
+lex:D5994\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5994    lex:temArtigo    lex:D5994\/Artigo3 .
+lex:D5994\/Artigo3    lex:temConteudo    "Art. 3 º  Para as transferências efetivadas entre 1 º de janeiro e 30 de abril de cada ano, caberá ao Ministério da Fazenda consignar no orçamento do exercício subseqüente, no âmbito dos Encargos Financeiros da União, dotações destinadas a amparar as obrigações financeiras decorrentes dos contratos transferidos com base neste Decreto." .
+lex:D5994\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5994    lex:temArtigo    lex:D5994\/Artigo4 .
+lex:D5994\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5994\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D8295\/Artigo1 .

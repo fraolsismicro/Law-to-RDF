@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1888    lex:ehUm    lex:DocLegal .
+lex:Del1888    lex:temTextoIntegral    lex:HTMLs\/Del1888.htm .
+lex:Del1888\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1888    lex:temArtigo    lex:Del1888\/Artigo1 .
+lex:Del1888\/Artigo1    lex:temConteudo    "Art. 1º - Fica acrescentado ao artigo 2º do Decreto-lei nº 1.874, de 8 de julho de 1981, o seguinte parágrafo:" .
+lex:Del1888\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1888    lex:temArtigo    lex:Del1888\/Artigo2 .
+lex:Del1888\/Artigo2    lex:temConteudo    "Art. 2º - Os efeitos financeiros decorrentes da aplicação deste Decreto-lei retroagem a 9 de julho de 1981, correndo as despesas à conta das dotações orçamentárias próprias dos órgãos ou entidades interessados." .
+lex:Del1888\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1888    lex:temArtigo    lex:Del1888\/Artigo3 .
+lex:Del1888\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1888\/Texto00001    lex:remetePara    lex:Del1874\/Artigo2\/Paragrafo5 .

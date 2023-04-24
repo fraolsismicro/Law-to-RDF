@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0973    lex:ehUm    lex:DocLegal .
+lex:D0973    lex:temTextoIntegral    lex:HTMLs\/D0973.htm .
+lex:D0973\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0973    lex:temArtigo    lex:D0973\/Artigo1 .
+lex:D0973\/Artigo1    lex:temConteudo    "Art. 1° São os seguintes os únicos pontos no território angolano através dos quais poderão os produtos mencionados nos arts. 1° e 2° do Decreto n° 960 de 13 de outubro de 1993, entrar na República de Angola;" .
+lex:D0973\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0973\/Artigo1    lex:temInciso    lex:D0973\/Artigo1\/IncisoI .
+lex:D0973\/Artigo1\/IncisoI    lex:temConteudo    "I - Aeroportos:" .
+lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda    lex:ehUm    lex:IncisoAlinea .
+lex:D0973\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda .
+lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda    lex:temConteudo    "a) Luanda;" .
+lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda\/IncisoAlineaKatumbela    lex:ehUm    lex:IncisoAlinea .
+lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda    lex:temIncisoAlinea    lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda\/IncisoAlineaKatumbela .
+lex:D0973\/Artigo1\/IncisoI\/IncisoAlineaLuanda\/IncisoAlineaKatumbela    lex:temConteudo    "b) Katumbela, na Província de Benguela;" .
+lex:D0973\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0973\/Artigo1    lex:temInciso    lex:D0973\/Artigo1\/IncisoII .
+lex:D0973\/Artigo1\/IncisoII    lex:temConteudo    "II - Portos:" .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda    lex:ehUm    lex:IncisoAlinea .
+lex:D0973\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda    lex:temConteudo    "a) Luanda;" .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito    lex:ehUm    lex:IncisoAlinea .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda    lex:temIncisoAlinea    lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito    lex:temConteudo    "b) Lobito, na Província de Benguela;" .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito\/IncisoAlineaNamibe    lex:ehUm    lex:IncisoAlinea .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito    lex:temIncisoAlinea    lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito\/IncisoAlineaNamibe .
+lex:D0973\/Artigo1\/IncisoII\/IncisoAlineaLuanda\/IncisoAlineaLobito\/IncisoAlineaNamibe    lex:temConteudo    "c) Namibe, na Província de Namibe;" .
+lex:D0973\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0973\/Artigo1    lex:temInciso    lex:D0973\/Artigo1\/IncisoIII .
+lex:D0973\/Artigo1\/IncisoIII    lex:temConteudo    "III - Província de Cabinda: Malongo." .
+lex:D0973\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0973    lex:temArtigo    lex:D0973\/Artigo2 .
+lex:D0973\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .

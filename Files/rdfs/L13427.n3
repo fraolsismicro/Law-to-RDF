@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13427    lex:ehUm    lex:DocLegal .
+lex:L13427    lex:temTextoIntegral    lex:HTMLs\/L13427.htm .
+lex:L13427\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13427    lex:temArtigo    lex:L13427\/Artigo1 .
+lex:L13427\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei altera o art. 7 º da Lei n º 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências, para inserir, entre os princípios do Sistema Único de Saúde (SUS), o princípio da organização de atendimento público específico e especializado para mulheres e vítimas de violência doméstica em geral." .
+lex:L13427\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13427    lex:temArtigo    lex:L13427\/Artigo2 .
+lex:L13427\/Artigo2    lex:temConteudo    "Art. 2 º  O art. 7 º da Lei n º 8.080, de 19 de setembro de 1990, passa a vigorar acrescido do seguinte inciso XIV:" .
+lex:L13427\/Artigo2\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:L13427\/Artigo2    lex:temInciso    lex:L13427\/Artigo2\/IncisoXIV .
+lex:L13427\/Artigo2\/IncisoXIV    lex:temConteudo    "XIV   organização de atendimento público específico e especializado para mulheres e vítimas de violência doméstica em geral, que garanta, entre outros, atendimento, acompanhamento psicológico e cirurgias plásticas reparadoras, em conformidade com a Lei n º 12.845, de 1 º de agosto de 2013. (NR)" .
+lex:L13427\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13427    lex:temArtigo    lex:L13427\/Artigo3 .
+lex:L13427\/Artigo3    lex:temConteudo    "Art. 3 º  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13427\/Artigo2    lex:remetePara    lex:L8080 .
+lex:L13427\/Artigo2\/IncisoXIV    lex:remetePara    lex:L8080\/Artigo7 .
+lex:L13427\/Artigo2\/IncisoXIV    lex:remetePara    lex:L12845 .

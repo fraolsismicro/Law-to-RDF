@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0661    lex:ehUm    lex:DocLegal .
+lex:D0661    lex:temTextoIntegral    lex:HTMLs\/D0661.htm .
+lex:D0661\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0661    lex:temArtigo    lex:D0661\/Artigo1 .
+lex:D0661\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 222, 261, 374, 440, 441 e 448 do Regulamento Aduaneiro, aprovado pelo Decreto nº 91.030, de 5 de março de 1985, passam a vigorar com a seguinte redação:" .
+lex:D0661\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0661\/Artigo1    lex:temParagrafo    lex:D0661\/Artigo1\/ParagrafoUnico .
+lex:D0661\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para efeito de cálculo do imposto, considera-se ocorrido o fato gerador na data do registro da exportação no Sistema Integrado de Comércio Exterior - SISCOMEX.'" .
+lex:D0661\/Artigo261    lex:ehUm    lex:Artigo .
+lex:D0661    lex:temArtigo    lex:D0661\/Artigo261 .
+lex:D0661\/Artigo261    lex:temConteudo    "Art. 261. A concessão e aplicação do regime de trânsito aduaneiro serão requeridas pelos beneficiários indicados no art. 257 e o despacho será processado de acordo com normas aprovadas pelo Diretor do Departamento da Receita Federal." .
+lex:D0661\/Artigo261\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0661\/Artigo261    lex:temParagrafo    lex:D0661\/Artigo261\/Paragrafo2 .
+lex:D0661\/Artigo261\/Paragrafo2    lex:temConteudo    "§ 2º Sem prejuízo de controles especiais determinados pelo Departamento da Receita Federal, independem de despacho de trânsito:" .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0661\/Artigo261    lex:temParagrafo    lex:D0661\/Artigo261\/ParagrafoUnico .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Não será exigido o registro da exportação nos seguintes casos:" .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - outros, em que o Diretor do Departamento da Receita Federal houve por bem dispensar, ouvido o Departamento de Comércio Exterior - DECEX.'" .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0661\/Artigo261    lex:temParagrafo    lex:D0661\/Artigo261\/ParagrafoUnico .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Serão ainda, objeto de despacho com processamento sumário:" .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - urnas contendo restos mortais;" .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - donativos e pequenas encomendas enviadas ao exterior por pessoa física, nos termos e condições fixados pelo Diretor do Departamento da Receita Federal.'" .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0661\/Artigo261\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0661\/Artigo261\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - destinadas ao exterior, que contenham ou possam conter objetos de exportação proibida ou sujeitos a registro da sua exportação no SISCOMEX'." .
+lex:D0661\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0661    lex:temArtigo    lex:D0661\/Artigo2 .
+lex:D0661\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .

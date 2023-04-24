@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1305    lex:ehUm    lex:DocLegal .
+lex:Del1305    lex:temTextoIntegral    lex:HTMLs\/Del1305.htm .
+lex:Del1305\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1305    lex:temArtigo    lex:Del1305\/Artigo1 .
+lex:Del1305\/Artigo1    lex:temConteudo    "Art. 1º As contribuições de que tratam o artigo 1º, do Decreto-lei nº 6.246, de 5 de fevereiro de 1944, e o artigo 24, da Lei nº 5.107, de 13 de setembro de 1966, na remuneração decorrente do Decreto-lei nº 20, de 14 de setembro de 1966, arrecadadas das empresas privadas, públicas, de economia mista e autárquicas, quer federais, estaduais ou municipais, de transporte aéreo regular, não regular, de táxi aéreo e de serviços aéreos especializados; de telecomunicações aeronáuticas; de implantação, administração, operação e exploração da infra-estrutura aeroportuária, e de serviços auxiliares; de fabricação, reparos e manutenção, ou de representação, de aeronaves, suas peças e acessórios, e de equipamentos aeronáuticos, serão destinadas à aplicação nas atividades ligadas ao ensino profissional aeronáutico de tripulantes, técnicos e especialistas civis, para os serviços de apoio a proteção à navegação aérea a infra-estrutura aeronáutica e a Aviação Civil em geral, a cargo do Ministério da Aeronáutica, de acordo com os incisos III e IV do parágrafo único, do artigo 63, do Decreto-lei nº 200, de 25 de fevereiro de 1967, alterado pelos Decretos-leis nºs 900 de 29 de setembro de 1969, e 991, de 21 de outubro de 1969." .
+lex:Del1305\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1305    lex:temArtigo    lex:Del1305\/Artigo2 .
+lex:Del1305\/Artigo2    lex:temConteudo    "Art. 2º O produto das contribuições, de que trata o artigo anterior, efetivamente arrecadadas, será depositado pelo Instituto de Administração Financeira da Previdência e Assistência Social (IAPAS), Banco do Brasil S.A., para crédito do Fundo Aeroviário - Conta Especial do Fundo Aeroviário - destinada ao desenvolvimento do Ensino Profissional Aeronáutico.  (Redação dada pelo Decreto nº 2.237, de 1985)" .
+lex:Del1305\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1305    lex:temArtigo    lex:Del1305\/Artigo3 .
+lex:Del1305\/Artigo3    lex:temConteudo    "Art. 3º Os recursos provenientes das contribuições de que trata este Decreto-lei terão aplicação limitada e específica no ensino profissional aeronáutico, e estão sujeitas às normas gerais de planejamento, programação e orçamento." .
+lex:Del1305\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1305\/Artigo3    lex:temParagrafo    lex:Del1305\/Artigo3\/ParagrafoUnico .
+lex:Del1305\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Caberá ao Ministro da Aeronáutica a gestão dos recursos assim recebidos e a comprovação, junto ao Tribunal de Contas da União, da aplicação desses recursos." .
+lex:Del1305\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1305    lex:temArtigo    lex:Del1305\/Artigo4 .
+lex:Del1305\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1305\/Artigo1    lex:remetePara    lex:Del6246\/Artigo1 .
+lex:Del1305\/Artigo1    lex:remetePara    lex:L5107\/Artigo24 .
+lex:Del1305\/Artigo1    lex:remetePara    lex:Del0200\/Artigo63 .
+lex:Del1305\/Artigo1    lex:remetePara    lex:Del0200\/Artigo63 .
+lex:Del1305\/Artigo2    lex:remetePara    lex:Del2237\/Artigo1 .

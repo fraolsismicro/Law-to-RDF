@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:del1863    lex:ehUm    lex:DocLegal .
+lex:del1863    lex:temTextoIntegral    lex:HTMLs\/del1863.htm .
+lex:del1863\/Artigo1    lex:ehUm    lex:Artigo .
+lex:del1863    lex:temArtigo    lex:del1863\/Artigo1 .
+lex:del1863\/Artigo1    lex:temConteudo    "Art. 1º - As Missões Diplomáticas e Repartições Consulares de Carreira sediadas no Brasil e respectivos Membros terão isenção, mediante reciprocidade de tratamento:" .
+lex:del1863\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:del1863\/Artigo1    lex:temInciso    lex:del1863\/Artigo1\/IncisoI .
+lex:del1863\/Artigo1\/IncisoI    lex:temConteudo    "I - do Imposto Único sobre Lubrificantes e Combustíveis Líquidos e Gasosos e do Adicional instituído pela Lei nº 6.261, de 14 de novembro de 1975, incidentes sobre combustíveis para veículos automotores; e" .
+lex:del1863\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:del1863\/Artigo1    lex:temInciso    lex:del1863\/Artigo1\/IncisoII .
+lex:del1863\/Artigo1\/IncisoII    lex:temConteudo    "II - da parcela incidente sobre o preço da Gasolina tipo A, de que trata a alínea d do item II do artigo 13 da Lei nº 4.452, de 5 de novembro de 1964, na redação dada pelo Decreto-lei nº 1.785, de 13 de maio de 1980." .
+lex:del1863\/Artigo2    lex:ehUm    lex:Artigo .
+lex:del1863    lex:temArtigo    lex:del1863\/Artigo2 .
+lex:del1863\/Artigo2    lex:temConteudo    "Art. 2º - O Ministério da Fazenda e o das Minas e Energia expedirão os atos necessários ao cumprimento do disposto neste Decreto-lei, ouvido o Ministério das Relações Exteriores." .
+lex:del1863\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:del1863\/Artigo2    lex:temParagrafo    lex:del1863\/Artigo2\/ParagrafoUnico .
+lex:del1863\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. Compete ao Ministério das Relações Exteriores verificar a existência de reciprocidade de tratamento." .
+lex:del1863\/Artigo3    lex:ehUm    lex:Artigo .
+lex:del1863    lex:temArtigo    lex:del1863\/Artigo3 .
+lex:del1863\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto-lei entra em vigor na data de sua publicação." .
+lex:del1863\/Artigo1\/IncisoI    lex:remetePara    lex:L6261 .
+lex:del1863\/Artigo1\/IncisoII    lex:remetePara    lex:L4452\/Artigo13 .

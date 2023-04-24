@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2685    lex:ehUm    lex:DocLegal .
+lex:D2685    lex:temTextoIntegral    lex:HTMLs\/D2685.htm .
+lex:D2685\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2685    lex:temArtigo    lex:D2685\/Artigo1 .
+lex:D2685\/Artigo1    lex:temConteudo    "Art 1º O Coordenador da Corregedoria-Geral do Departamento de Polícia Federal será nomeado pelo Ministro de Estado da justiça, após aprovação de seu nome pelo Conselho Superior de Polícia, por período de três anos, podendo ser reconduzido." .
+lex:D2685\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2685\/Artigo1    lex:temParagrafo    lex:D2685\/Artigo1\/ParagrafoUnico .
+lex:D2685\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O prazo de que trata este artigo deverá constar do ato de nomeação do servidor, somente cessando a investidura em razão de decisão proferida em processo administrativo disciplinar, condenação judicial transitada em julgado ou a pedido." .
+lex:D2685\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2685    lex:temArtigo    lex:D2685\/Artigo2 .
+lex:D2685\/Artigo2    lex:temConteudo    "Art 2º Os responsáveis pelas Corregedorias Regionais de Polícia serão designados pelo Diretor do Departamento de Polícia Federal, após aprovação de seus nomes pelo Coordenador da Corregedoria-Geral." .
+lex:D2685\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2685    lex:temArtigo    lex:D2685\/Artigo3 .
+lex:D2685\/Artigo3    lex:temConteudo    "Art 3º Este Decreto entra em vigor na data de sua publicação." .

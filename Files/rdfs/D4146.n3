@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4146    lex:ehUm    lex:DocLegal .
+lex:D4146    lex:temTextoIntegral    lex:HTMLs\/D4146.htm .
+lex:D4146\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4146    lex:temParagrafo    lex:D4146\/ParagrafoUnico .
+lex:D4146\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A complementação a que se refere o caput será efetuada no mesmo exercício financeiro, se solicitada em tempo hábil para a apresentação de projeto de lei de abertura de crédito adicional, observadas as normas vigentes." .
+lex:D4146\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4146    lex:temParagrafo    lex:D4146\/ParagrafoUnico .
+lex:D4146\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O órgão descentralizador referido no caput deverá comunicar à Secretaria de Orçamento Federal, do Ministério do Planejamento, Orçamento e Gestão, a anulação da diferença a que se refere este artigo." .
+lex:D4146\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D4146    lex:temArtigo    lex:D4146\/Artigo7 .
+lex:D4146\/Artigo7    lex:temConteudo    "Art. 7o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir do exercício de 2002." .
+lex:D4146\/Artigo2    lex:remetePara    lex:Lcp101\/Artigo8 .

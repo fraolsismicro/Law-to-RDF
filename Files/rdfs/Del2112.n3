@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2112    lex:ehUm    lex:DocLegal .
+lex:Del2112    lex:temTextoIntegral    lex:HTMLs\/Del2112.htm .
+lex:Del2112\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2112    lex:temArtigo    lex:Del2112\/Artigo1 .
+lex:Del2112\/Artigo1    lex:temConteudo    "Art 1º Fica alterado o Anexo Il do Decreto-lei nº 1.341, de 22 de agosto de 1974, na forma do anexo a este Decreto-lei, a partir de 1º de janeiro de 1984." .
+lex:Del2112\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2112    lex:temArtigo    lex:Del2112\/Artigo2 .
+lex:Del2112\/Artigo2    lex:temConteudo    "Art 2º O total percebido pelos Técnicos de Controle Externo, a título de vencimento, representação mensal e Gratificação de Controle Externo, não poderá ultrapassar o limite fixado no artigo 1º do Decreto-lei nº 1.971, de 30 de novembro de 1982." .
+lex:Del2112\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2112    lex:temArtigo    lex:Del2112\/Artigo3 .
+lex:Del2112\/Artigo3    lex:temConteudo    "Art 3º As despesas decorrentes da execução deste Decreto-lei correrão à conta das dotações constantes do orçamento da União." .
+lex:Del2112\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2112    lex:temArtigo    lex:Del2112\/Artigo4 .
+lex:Del2112\/Artigo4    lex:temConteudo    "Art 4º Revogadas as disposições em contrário, este Decreto-lei entra em vigor na data de sua publicação." .
+lex:Del2112\/Texto    lex:remetePara    lex:Del2249\/Artigo1 .
+lex:Del2112\/Artigo1    lex:remetePara    lex:Del1341\/ .
+lex:Del2112\/Artigo2    lex:remetePara    lex:Del1971\/Artigo1 .

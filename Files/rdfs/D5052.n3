@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5052    lex:ehUm    lex:DocLegal .
+lex:D5052    lex:temTextoIntegral    lex:HTMLs\/D5052.htm .
+lex:D5052\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5052    lex:temArtigo    lex:D5052\/Artigo1 .
+lex:D5052\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo entre o Governo da República Federativa do Brasil e o Governo da Nova Zelândia sobre o Exercício de Atividade Remunerada por Parte de Dependentes do Pessoal Diplomático, Consular, Administrativo, Militar e Técnico, concluído em Wellington, em 3 de outubro de 2001, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D5052\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5052    lex:temArtigo    lex:D5052\/Artigo2 .
+lex:D5052\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D5052\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5052    lex:temArtigo    lex:D5052\/Artigo3 .
+lex:D5052\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5052\/Artigo3\/AlineaConjuge    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaConjuge .
+lex:D5052\/Artigo3\/AlineaConjuge    lex:temConteudo    "a) cônjuge ou companheiro permanente;" .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaFilhos .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:temConteudo    "b) filhos solteiros menores de 21 anos;" .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaFilhos .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:temConteudo    "c) filhos solteiros menores de 25 anos, que estejam estudando em curso de horário integral que propicie qualificação substantiva em uma universidade ou centro de ensino superior reconhecido por cada Estado; e" .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaFilhos .
+lex:D5052\/Artigo3\/AlineaFilhos    lex:temConteudo    "d) filhos solteiros com deficiências físicas ou mentais." .
+lex:D5052\/Artigo3\/AlineaFica    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaFica .
+lex:D5052\/Artigo3\/AlineaFica    lex:temConteudo    "a) fica acordado que tais dependentes não gozarão de imunidade de jurisdição civil ou administrativa no Estado acreditado, em ações contra eles iniciadas por atos diretamente relacionados com o desempenho da referida atividade remunerada; e" .
+lex:D5052\/Artigo3\/AlineaFica    lex:ehUm    lex:Alinea .
+lex:D5052\/Artigo3    lex:temAlinea    lex:D5052\/Artigo3\/AlineaFica .
+lex:D5052\/Artigo3\/AlineaFica    lex:temConteudo    "b) fica acordado que o Estado acreditante considerará seriamente qualquer pedido do Estado acreditado no sentido de renunciar à imunidade de jurisdição penal do dependente acusado de haver cometido delito criminal no decurso do exercício da referida atividade remunerada. Caso não haja a renúncia da imunidade e, na percepção do Estado acreditado, o caso seja considerado grave, o Estado acreditado poderá solicitar a retirada do país do dependente em questão." .
+lex:D5052\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

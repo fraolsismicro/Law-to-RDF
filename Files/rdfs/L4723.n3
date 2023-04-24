@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4723    lex:ehUm    lex:DocLegal .
+lex:L4723    lex:temTextoIntegral    lex:HTMLs\/L4723.htm .
+lex:L4723\/ParagrafoFica    lex:ehUm    lex:Paragrafo .
+lex:L4723    lex:temParagrafo    lex:L4723\/ParagrafoFica .
+lex:L4723\/ParagrafoFica    lex:temConteudo    "Art.1º Fica incluído, no Anexo I da Lei nº 3.780, de 12 de julho de 1960, que institui o Plano de Classificação de Cargos, no Serviço Técnico Científico, o Grupo Ocupacional TC-1500 - Pesquisa Científica - integrado de séries de classes de Pesquisador, estruturadas nos níveis 20-A, 21-B e 22-C." .
+lex:L4723\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4723    lex:temArtigo    lex:L4723\/Artigo2 .
+lex:L4723\/Artigo2    lex:temConteudo    "Art. 2º Serão enquadrados nas séries de classes de Pesquisador ...VETADA... observada a proporcionalidade de que trata o item II do § 1º.do art. 20 da Lei nº 3.780, de 12 de julho de 1960, os cargos diretamente relacionados com a pesquisa científica, pura ou aplicada." .
+lex:L4723\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L4723\/Artigo2    lex:temParagrafo    lex:L4723\/Artigo2\/Paragrafo1 .
+lex:L4723\/Artigo2\/Paragrafo1    lex:temConteudo    "§. 1º Os cargos vagos e os ocupados em caráter interino serão enquadrados no nível 20 da respectiva série de classes." .
+lex:L4723\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L4723\/Artigo2    lex:temParagrafo    lex:L4723\/Artigo2\/Paragraf .
+lex:L4723\/Artigo2\/Paragraf    lex:temConteudo    "§  2º Haverá tantas séries de classes de Pesquisador quantas sejam as especializações de pesquisa, sendo obrigatória a menção da especialidade na codificação do cargo." .
+lex:L4723\/Artigo2\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:L4723\/Artigo2    lex:temParagrafo    lex:L4723\/Artigo2\/Paragraf .
+lex:L4723\/Artigo2\/Paragraf    lex:temConteudo    "§  3º O Departamento Administrativo do Serviço Público providenciará os enquadramentos decorrentes da execução desta Lei, devendo, para êste fim, obter do Conselho Nacional de Pesquisas os competentes esclarecimentos sôbre os cargos de nível superior, da Administração direta e das autarquias federais, cuja atividade principal seja a de pesquisa científica, pura ou aplicada." .
+lex:L4723\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4723    lex:temArtigo    lex:L4723\/Artigo3 .
+lex:L4723\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4723\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4723    lex:temArtigo    lex:L4723\/Artigo4 .
+lex:L4723\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se a disposições em contrário." .
+lex:L4723\/ParagrafoFica    lex:remetePara    lex:L3780\/ .
+lex:L4723\/Artigo2    lex:remetePara    lex:L3780\/Artigo20\/Paragrafo1ii .

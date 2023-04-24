@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3677    lex:ehUm    lex:DocLegal .
+lex:D3677    lex:temTextoIntegral    lex:HTMLs\/D3677.htm .
+lex:D3677\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3677    lex:temArtigo    lex:D3677\/Artigo1 .
+lex:D3677\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejadas do Ministério do Planejamento, Orçamento e Gestão para o Quadro de Pessoal da Agência Nacional de Vigilância Sanitária - ANVS, mil cento e quarenta e sete Funções Comissionadas Técnicas - FCT, correspondentes aos níveis e escalonamento contidos no Anexo a este Decreto." .
+lex:D3677\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3677\/Artigo1    lex:temParagrafo    lex:D3677\/Artigo1\/Paragrafo1 .
+lex:D3677\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O quantitativo de FCT referido no caput destina-se exclusivamente a ocupantes de cargos efetivos, constantes do Anexo V da Lei no 9.367, de 16 de dezembro de 1996, que não tenham sido estruturados em carreiras ou abrangidos pela Medida Provisória no 2.048-31, de 23 de novembro de 2000." .
+lex:D3677\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3677\/Artigo1    lex:temParagrafo    lex:D3677\/Artigo1\/Paragrafo2 .
+lex:D3677\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Ao final de cada exercício, a ANVS deverá devolver, ao Ministério do Planejamento, Orçamento e Gestão, quantitativo de FCT proporcional à redução do quadro de servidores a que se refere o parágrafo anterior." .
+lex:D3677\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3677    lex:temArtigo    lex:D3677\/Artigo2 .
+lex:D3677\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3677\/Artigo1\/Paragrafo1    lex:remetePara    lex:L9367 .

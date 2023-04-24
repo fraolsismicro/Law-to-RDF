@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8543    lex:ehUm    lex:DocLegal .
+lex:L8543    lex:temTextoIntegral    lex:HTMLs\/L8543.htm .
+lex:L8543\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8543    lex:temArtigo    lex:L8543\/Artigo1 .
+lex:L8543\/Artigo1    lex:temConteudo    "Art. 1° Todos os alimentos industrializados que contenham glúten, como trigo, aveia, cevada, malte e centeio e/ou seus derivados, deverão conter, obrigatoriamente, advertência indicando essa composição." .
+lex:L8543\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8543\/Artigo1    lex:temParagrafo    lex:L8543\/Artigo1\/Paragrafo1 .
+lex:L8543\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° (VETADO)" .
+lex:L8543\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8543\/Artigo1    lex:temParagrafo    lex:L8543\/Artigo1\/Paragrafo2 .
+lex:L8543\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° A advertência deve ser impressa nos rótulos e embalagens dos produtos industrializados em caracteres com destaque, nítidos e de fácil Leitura." .
+lex:L8543\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8543\/Artigo1    lex:temParagrafo    lex:L8543\/Artigo1\/Paragrafo3 .
+lex:L8543\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° As indústrias alimentícias ligadas ao setor terão o prazo de um ano, a contar da publicação desta Lei, para tomar as medidas necessárias ao seu cumprimento." .
+lex:L8543\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8543    lex:temArtigo    lex:L8543\/Artigo2 .
+lex:L8543\/Artigo2    lex:temConteudo    "Art. 2° Esta Lei entra em vigor na data de sua publicação." .
+lex:L8543\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8543    lex:temArtigo    lex:L8543\/Artigo3 .
+lex:L8543\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário." .
+lex:L8543\/Texto    lex:remetePara    lex:L10674\/Artigo4 .

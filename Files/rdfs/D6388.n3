@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6388    lex:ehUm    lex:DocLegal .
+lex:D6388    lex:temTextoIntegral    lex:HTMLs\/D6388.htm .
+lex:D6388\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6388    lex:temArtigo    lex:D6388\/Artigo1 .
+lex:D6388\/Artigo1    lex:temConteudo    "Art. 1o  Dependerão de autorização prévia da Superintendência de Seguros Privados - SUSEP, as operações de distribuição gratuita de prêmios, mediante sorteio ou operação assemelhada a sorteio, vinculadas à doação de títulos de capitalização ou à cessão de direitos sobre os sorteios inerentes aos títulos de capitalização, quando enquadradas  nos termos da Lei no 5.768, de 20 de dezembro de 1971." .
+lex:D6388\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6388\/Artigo1    lex:temParagrafo    lex:D6388\/Artigo1\/ParagrafoUnico .
+lex:D6388\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A operacionalização, a emissão das autorizações e a fiscalização das atividades de que trata o caput ficam a cargo da SUSEP, que editará os atos normativos competentes para regular a matéria, observando os termos da Lei no 5.768, de 1971." .
+lex:D6388\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6388    lex:temArtigo    lex:D6388\/Artigo2 .
+lex:D6388\/Artigo2    lex:temConteudo    "Art. 2o  Não se aplicam às operações mencionadas no art. 1o as normas do Decreto no 70.951, de 9 de agosto de 1972." .
+lex:D6388\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6388    lex:temArtigo    lex:D6388\/Artigo3 .
+lex:D6388\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6388\/Artigo1    lex:remetePara    lex:L5768 .
+lex:D6388\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L5768 .
+lex:D6388\/Artigo2    lex:remetePara    lex:D70951\/ART1 .

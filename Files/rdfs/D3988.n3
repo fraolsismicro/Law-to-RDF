@@ -1,0 +1,214 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3988    lex:ehUm    lex:DocLegal .
+lex:D3988    lex:temTextoIntegral    lex:HTMLs\/D3988.htm .
+lex:D3988\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3988    lex:temArtigo    lex:D3988\/Artigo1 .
+lex:D3988\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo de Assistência Jurídica em Matéria Penal entre o Governo da República Federativa do Brasil e o Governo da República do Peru, celebrado em Lima, em 21 de julho de 1999, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D3988\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3988    lex:temArtigo    lex:D3988\/Artigo2 .
+lex:D3988\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo, assim como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição Federal, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D3988\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3988    lex:temArtigo    lex:D3988\/Artigo3 .
+lex:D3988\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3988\/Artigo3\/Alineaconfisco    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/Alineaconfisco .
+lex:D3988\/Artigo3\/Alineaconfisco    lex:temConteudo    "a) 'confisco' significa a privação, em caráter definitivo, de bens produtos ou instrumentos do delito, por decisão de um tribunal ou de outra autoridade competente;" .
+lex:D3988\/Artigo3\/Alineaproduto    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/Alineaproduto .
+lex:D3988\/Artigo3\/Alineaproduto    lex:temConteudo    "b) 'produto do delito' significa bens, ou valores equivalentes aos mesmos, de qualquer natureza, derivados ou obtidos direta ou indiretamente da prática de um delito;" .
+lex:D3988\/Artigo3\/Alineabens    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/Alineabens .
+lex:D3988\/Artigo3\/Alineabens    lex:temConteudo    "c) 'bens' significa ativos de qualquer tipo, corpóreos ou incorpóreos, móveis ou imóveis, tangíveis ou intangíveis, e os documentos ou instrumentos legais que atestam a propriedade ou outros direitos sobre tais ativos;" .
+lex:D3988\/Artigo3\/Alineasequestro    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/Alineasequestro .
+lex:D3988\/Artigo3\/Alineasequestro    lex:temConteudo    "d) 'seqüestro, arresto, indisponibilidade ou apreensão de bens' significa a proibição temporária de transferir, converter, alienar ou mobilizar bens, assim como a custódia e o controle temporário de bens, por ordem expedida por um tribunal ou autoridade competente." .
+lex:D3988\/Artigo3\/AlineaLocalizacao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaLocalizacao .
+lex:D3988\/Artigo3\/AlineaLocalizacao    lex:temConteudo    "a) localização e identificação de pessoas e bens;" .
+lex:D3988\/Artigo3\/AlineaNotificacao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNotificacao .
+lex:D3988\/Artigo3\/AlineaNotificacao    lex:temConteudo    "b) notificação de atos judiciais;" .
+lex:D3988\/Artigo3\/AlineaEntrega    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaEntrega .
+lex:D3988\/Artigo3\/AlineaEntrega    lex:temConteudo    "c) entrega de documentos e informações judiciais;" .
+lex:D3988\/Artigo3\/AlineaMandados    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaMandados .
+lex:D3988\/Artigo3\/AlineaMandados    lex:temConteudo    "d) mandados de busca e apreensão e inspeções judiciais;" .
+lex:D3988\/Artigo3\/AlineaDepoimentos    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaDepoimentos .
+lex:D3988\/Artigo3\/AlineaDepoimentos    lex:temConteudo    "e) depoimentos de testemunhas e interrogatório de acusados;" .
+lex:D3988\/Artigo3\/AlineaCitacao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaCitacao .
+lex:D3988\/Artigo3\/AlineaCitacao    lex:temConteudo    "f) citação e comparecimento voluntário de pessoas, na qualidade de acusados, testemunhas ou peritos;" .
+lex:D3988\/Artigo3\/AlineaComparecimento    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaComparecimento .
+lex:D3988\/Artigo3\/AlineaComparecimento    lex:temConteudo    "g) comparecimento voluntário de pessoas presas para prestar depoimento no território da Parte requerente;" .
+lex:D3988\/Artigo3\/AlineaIndisponibilidade    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaIndisponibilidade .
+lex:D3988\/Artigo3\/AlineaIndisponibilidade    lex:temConteudo    "h) indisponibilidade, seqüestro, arresto ou confisco de bens, inclusive o levantamento de sigilo bancário;" .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaQualquer .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temConteudo    "i) qualquer outra forma de assistência, de conformidade com a legislação da Parte requerida." .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temItem    lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs    lex:temConteudo    "2. As Partes facilitarão o ingresso e a presença, no território da Parte requerida, de autoridades competentes da Parte requerente para assistir e participar dos procedimentos solicitados, sempre que isso não contrarie o disposto em sua legislação. Os funcionários da Parte requerente atuarão de acordo com o que for autorizado pelas autoridades competentes da Parte requerida." .
+lex:D3988\/Artigo3\/AlineaPrisao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaPrisao .
+lex:D3988\/Artigo3\/AlineaPrisao    lex:temConteudo    "a) prisão de pessoas para extradição, nem a solicitações de extradição;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "b) a transferência de pessoas condenadas para cumprimento de sentença penal;" .
+lex:D3988\/Artigo3\/AlineaAssistencia    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaAssistencia .
+lex:D3988\/Artigo3\/AlineaAssistencia    lex:temConteudo    "c) assistência a particulares ou a terceiros Estados." .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "a) a solicitação de assistência jurídica seja contrária ao seu ordenamento jurídico, ou não esteja prevista nas disposições do presente Acordo;" .
+lex:D3988\/Artigo3\/AlineaConsidere    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaConsidere .
+lex:D3988\/Artigo3\/AlineaConsidere    lex:temConteudo    "b) considere que o atendimento à solicitação possa criar obstáculo a uma investigação ou processo penal em curso na Parte requerida, ressalvado o disposto no Artigo 5 do presente Acordo;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "c) a solicitação de assistência jurídica esteja relacionada a um delito sob o qual a pessoa tenha sido exonerada definitivamente de responsabilidade penal ou, caso tenha sido condenada, a pena tenha sido cumprida ou declarada extinta;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "d) a investigação tenha sido iniciada para processar ou discriminar, sob qualquer forma, pessoa ou grupo, por motivo de raça, sexo, condição social, nacionalidade, religião, ideologia ou qualquer outra forma de discriminação;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "e) a concessão da assistência possa afetar a ordem pública, a soberania, a segurança nacional ou os interesses públicos essenciais da Parte requerida;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "f) a solicitação de assistência jurídica refira-se a delito político, militar ou conexo." .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaA    lex:temItem    lex:D3988\/Artigo3\/AlineaA\/ItemA .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:temConteudo    "2. A denegação da assistência será fundamentada e informada por escrito à Parte requerente." .
+lex:D3988\/Artigo3\/AlineaSua    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaSua .
+lex:D3988\/Artigo3\/AlineaSua    lex:temConteudo    "a) sua presença é necessária em um processo penal em curso no território da Parte requerida;" .
+lex:D3988\/Artigo3\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaO .
+lex:D3988\/Artigo3\/AlineaO    lex:temConteudo    "b) o traslado implicar no prolongamento de sua detenção, ou" .
+lex:D3988\/Artigo3\/AlineaExistirem    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaExistirem .
+lex:D3988\/Artigo3\/AlineaExistirem    lex:temConteudo    "c) existirem outras circunstâncias excepcionais que impeçam seu traslado à Parte requerente." .
+lex:D3988\/Artigo3\/AlineaExistirem\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaExistirem    lex:temItem    lex:D3988\/Artigo3\/AlineaExistirem\/ItemA .
+lex:D3988\/Artigo3\/AlineaExistirem\/ItemA    lex:temConteudo    "3. A pessoa trasladada deverá permanecer detida no território da Parte requerente pelo prazo determinado pela autoridade judicial da Parte requerida." .
+lex:D3988\/Artigo3\/AlineaUma    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaUma .
+lex:D3988\/Artigo3\/AlineaUma    lex:temConteudo    "a) uma cópia da ordem judicial que determine a indisponibilidade, o seqüestro, arresto ou o bloqueio dos bens;" .
+lex:D3988\/Artigo3\/AlineaUm    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaUm .
+lex:D3988\/Artigo3\/AlineaUm    lex:temConteudo    "b) um resumo dos fatos, incluindo uma descrito do delito, onde e quando foi cometido, com referência aos dispositivos legais pertinentes;" .
+lex:D3988\/Artigo3\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaSe .
+lex:D3988\/Artigo3\/AlineaSe    lex:temConteudo    "c) se possível, uma descrição dos bens e de seu valor comercial, aos quais se pretenda adotar a medida provisional ou cautelar ou que se considere que possam ser indisponibilizados, seqüestrados, arrestados ou bloqueados e a relação dos mesmos com a pessoa contra a qual será iniciado ou tramita um procedimento judicial." .
+lex:D3988\/Artigo3\/AlineaUma    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaUma .
+lex:D3988\/Artigo3\/AlineaUma    lex:temConteudo    "d) uma declaração do montante que se pretende indisponibilizar, seqüestrar, arrestar ou bloquear e dos fundamentos do cálculo do mesmo;" .
+lex:D3988\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaA .
+lex:D3988\/Artigo3\/AlineaA    lex:temConteudo    "e) a estimativa do tempo a transcorrer até que o caso seja submetido a juízo e do tempo que transcorrerá até a decisão judicial definitiva." .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaA    lex:temItem    lex:D3988\/Artigo3\/AlineaA\/ItemA .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:temConteudo    "3. A autoridade competente da Parte requerente informará, por solicitação da autoridade competente da Parte requerida, qualquer modificação no prazo a que se refere a letra 'e' do parágrafo anterior e, ao fazê-lo, indicará a etapa de procedimento até então alcançada." .
+lex:D3988\/Artigo3\/AlineaA\/ItemAs    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaA    lex:temItem    lex:D3988\/Artigo3\/AlineaA\/ItemAs .
+lex:D3988\/Artigo3\/AlineaA\/ItemAs    lex:temConteudo    "4. As autoridades competentes de cada uma das Partes informarão sobre a interposição de qualquer recurso ou de uma decisão adotada a respeito da indisponibilidade, seqüestro, arresto ou bloqueio solicitados ou adotados." .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaA    lex:temItem    lex:D3988\/Artigo3\/AlineaA\/ItemA .
+lex:D3988\/Artigo3\/AlineaA\/ItemA    lex:temConteudo    "5. A autoridade competente da Parte requerida poderá impor uma condição que restrinja a duração da medida solicitada, a qual será informada à autoridade competente da Parte requerente, com a devida justificação." .
+lex:D3988\/Artigo3\/AlineaA\/ItemQualquer    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaA    lex:temItem    lex:D3988\/Artigo3\/AlineaA\/ItemQualquer .
+lex:D3988\/Artigo3\/AlineaA\/ItemQualquer    lex:temConteudo    "6. Qualquer requerimento deverá ser executado unicamente de acordo com a legislação interna da Parte requerida e, em particular, com observância e garantia dos direitos de qualquer pessoa que possa ser atingida pela execução da medida." .
+lex:D3988\/Artigo3\/AlineaExecutar    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaExecutar .
+lex:D3988\/Artigo3\/AlineaExecutar    lex:temConteudo    "a) executar a ordem de confisco emitida por uma autoridade competente da Parte requerente relativa aos instrumentos ou produtos do delito; ou" .
+lex:D3988\/Artigo3\/AlineaIniciar    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaIniciar .
+lex:D3988\/Artigo3\/AlineaIniciar    lex:temConteudo    "b) iniciar um procedimento para obter uma ordem de confisco, nos termos de sua legislação interna." .
+lex:D3988\/Artigo3\/AlineaIniciar\/ItemSem    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaIniciar    lex:temItem    lex:D3988\/Artigo3\/AlineaIniciar\/ItemSem .
+lex:D3988\/Artigo3\/AlineaIniciar\/ItemSem    lex:temConteudo    "2. Sem prejuízo do disposto no Artigo 20, para os efeitos do presente Artigo, a solicitação deverá incluir:" .
+lex:D3988\/Artigo3\/AlineaCopia    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaCopia .
+lex:D3988\/Artigo3\/AlineaCopia    lex:temConteudo    "a) cópia da ordem de confisco, devidamente autenticada pelo funcionário judicial que a tenha expedido;" .
+lex:D3988\/Artigo3\/AlineaInformacao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaInformacao .
+lex:D3988\/Artigo3\/AlineaInformacao    lex:temConteudo    "b) informação sobre as provas que embasam a ordem de confisco;" .
+lex:D3988\/Artigo3\/AlineaInformacao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaInformacao .
+lex:D3988\/Artigo3\/AlineaInformacao    lex:temConteudo    "c) informação que indique que a sentença é devidamente executável;" .
+lex:D3988\/Artigo3\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaQuando .
+lex:D3988\/Artigo3\/AlineaQuando    lex:temConteudo    "d) quando for o caso, a identificação dos bens disponíveis para execução ou bens a respeito dos quais se solicita a assistência jurídica, declarando a relação existente entre esses bens e a pessoa contra a qual foi expedida a ordem de confisco;" .
+lex:D3988\/Artigo3\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaQuando .
+lex:D3988\/Artigo3\/AlineaQuando    lex:temConteudo    "e) quando seja procedente e conhecida, a informação sobre a existência de antecedentes relacionados com direitos ou interesses legítimos de terceiras pessoas sobre os bens objeto da solicitação;" .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaQualquer .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temConteudo    "f) qualquer outra informação que possa ajudar a execução da solicitação de assistência jurídica." .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemQuando    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temItem    lex:D3988\/Artigo3\/AlineaQualquer\/ItemQuando .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemQuando    lex:temConteudo    "3. Quando a legislação interna da Parte requerida não permitir a execução de uma solicitação em sua totalidade, esta Parte poderá cumpri-la na medida em que for possível, comunicando-se tal fato à Autoridade Central da Parte requerente." .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temItem    lex:D3988\/Artigo3\/AlineaQualquer\/ItemA .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemA    lex:temConteudo    "4. A autoridade competente da Parte requerida poderá solicitar informações ou provas adicionais para atender à solicitação." .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temItem    lex:D3988\/Artigo3\/AlineaQualquer\/ItemA .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemA    lex:temConteudo    "5. A ordem de confisco será executada nos termos da legislação interna da Parte requerida e, em particular, com observância dos direitos de qualquer pessoa que possa ser atingida por sua execução." .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaQualquer    lex:temItem    lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs .
+lex:D3988\/Artigo3\/AlineaQualquer\/ItemAs    lex:temConteudo    "6. As Partes poderão acordar em cada caso particular, segundo a natureza e a importância da colaboração prestada, a divisão dos bens ou produto de sua venda obtidos como resultado do atendimento da solicitação pela Parte requerida no cumprimento deste Artigo." .
+lex:D3988\/Artigo3\/AlineaAutoridade    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaAutoridade .
+lex:D3988\/Artigo3\/AlineaAutoridade    lex:temConteudo    "a) autoridade da qual emana e, se for o caso, a autoridade encarregada do procedimento penal da Parte requerente;" .
+lex:D3988\/Artigo3\/AlineaObjeto    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaObjeto .
+lex:D3988\/Artigo3\/AlineaObjeto    lex:temConteudo    "b) objeto e motivo do pedido;" .
+lex:D3988\/Artigo3\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaSe .
+lex:D3988\/Artigo3\/AlineaSe    lex:temConteudo    "c) se for o caso, nome completo, data e local de nascimento, nacionalidade e endereço da pessoa mencionada no pedido de assistência;" .
+lex:D3988\/Artigo3\/AlineaDescricao    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaDescricao .
+lex:D3988\/Artigo3\/AlineaDescricao    lex:temConteudo    "d) descrição dos fatos que motivam a investigação na Parte requerente, juntando-se ou transcrevendo-se o texto das disposições legais pertinentes aos delitos;" .
+lex:D3988\/Artigo3\/AlineaPrazo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaPrazo .
+lex:D3988\/Artigo3\/AlineaPrazo    lex:temConteudo    "e) prazo em que a Parte requerente deseja o atendimento da solicitação." .
+lex:D3988\/Artigo3\/AlineaPrazo\/ItemA    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaPrazo    lex:temItem    lex:D3988\/Artigo3\/AlineaPrazo\/ItemA .
+lex:D3988\/Artigo3\/AlineaPrazo\/ItemA    lex:temConteudo    "2. A solicitação conterá ainda:" .
+lex:D3988\/Artigo3\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNo .
+lex:D3988\/Artigo3\/AlineaNo    lex:temConteudo    "a) no caso de aplicação de direito estrangeiro na execução do pedido, Artigo 8, inciso 2, o texto das disposições legais aplicáveis na Parte requerente e o motivo de sua aplicação;" .
+lex:D3988\/Artigo3\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNo .
+lex:D3988\/Artigo3\/AlineaNo    lex:temConteudo    "b) no caso de participação de pessoas no processo, Artigo 3, inciso 2, a designação da pessoa que comparecerá e o motivo de sua presença;" .
+lex:D3988\/Artigo3\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNo .
+lex:D3988\/Artigo3\/AlineaNo    lex:temConteudo    "c) no caso de recebimento de atos e documentos do processo, Artigos 10 e 17, o nome e o endereço do destinatário dos documentos;" .
+lex:D3988\/Artigo3\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNo .
+lex:D3988\/Artigo3\/AlineaNo    lex:temConteudo    "d) no caso de notificação para comparecimento de testemunhas ou peritos, Artigo 10, a indicação que a Parte requerente assumirá os gastos com passagens, diárias, honorários e indenizações, os quais serão pagos antecipadamente, se assim o solicitem;" .
+lex:D3988\/Artigo3\/AlineaNo    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaNo .
+lex:D3988\/Artigo3\/AlineaNo    lex:temConteudo    "e) no caso de traslado temporário de pessoas detidas, Artigo 12, o nome completo das mesmas." .
+lex:D3988\/Artigo3\/AlineaIndenizacoes    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaIndenizacoes .
+lex:D3988\/Artigo3\/AlineaIndenizacoes    lex:temConteudo    "a) indenizações, passagens e diárias de testemunhas e de seus eventuais representantes;" .
+lex:D3988\/Artigo3\/AlineaGastos    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaGastos .
+lex:D3988\/Artigo3\/AlineaGastos    lex:temConteudo    "b) gastos relativos ao traslado temporário de pessoas detidas;" .
+lex:D3988\/Artigo3\/AlineaPassagens    lex:ehUm    lex:Alinea .
+lex:D3988\/Artigo3    lex:temAlinea    lex:D3988\/Artigo3\/AlineaPassagens .
+lex:D3988\/Artigo3\/AlineaPassagens    lex:temConteudo    "c) passagens, diárias, honorários e outros gastos de peritos." .
+lex:D3988\/Artigo3\/AlineaPassagens\/ItemAo    lex:ehUm    lex:Item .
+lex:D3988\/Artigo3\/AlineaPassagens    lex:temItem    lex:D3988\/Artigo3\/AlineaPassagens\/ItemAo .
+lex:D3988\/Artigo3\/AlineaPassagens\/ItemAo    lex:temConteudo    "2. Ao presumir que o atendimento da solicitação produzirá gastos extraordinários, a Parte requerida informará à Parte requerente a fim de estabelecer as condições às quais estará sujeito." .

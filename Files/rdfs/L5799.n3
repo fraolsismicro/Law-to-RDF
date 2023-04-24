@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5799    lex:ehUm    lex:DocLegal .
+lex:L5799    lex:temTextoIntegral    lex:HTMLs\/L5799.htm .
+lex:L5799\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5799    lex:temArtigo    lex:L5799\/Artigo1 .
+lex:L5799\/Artigo1    lex:temConteudo    "Art. 1º Os funcionários das Missões diplomáticas acreditadas junto ao Governo brasileiro, aos quais seja reconhecida a qualidade diplomática, que não sejam de nacionalidade brasileira e nem tenham residência permanente no País, poderão adquirir, por solicitação feita ao Ministério das Relações Exteriores, com isenção do imposto sobre produtos industrializados, um veículo de fabricação nacional, sem prejuízo dos direitos que lhes são assegurados pelos artigos 15 e 161 do Decreto-lei nº 37, de 18 de novembro de 1966, ressalvado o princípio de reciprocidade de tratamento." .
+lex:L5799\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L5799\/Artigo1    lex:temParagrafo    lex:L5799\/Artigo1\/Paragrafo1 .
+lex:L5799\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os funcionários administrativos e técnicos das referidas Missões diplomáticas que já se encontrem no Brasil e satisfaçam os requisitos de nacionalidade e residência previstos no presente artigo, poderão, mediante reciprocidade de tratamento, e até seis meses após a publicação desta Lei, adquirir um veículo automotor de fabricação nacional com isenção do imposto sobre produtos industrializados, desde ainda não tenham gozado de favor fiscal para importação ou compra de automóvel." .
+lex:L5799\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L5799\/Artigo1    lex:temParagrafo    lex:L5799\/Artigo1\/Paragrafo2 .
+lex:L5799\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O prazo de seis meses mencionado no parágrafo anterior poderá ser estendido, excepcionalmente e por igual período desde que, a juízo do Ministério das Relações Exteriores, haja razões que o justifiquem." .
+lex:L5799\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5799    lex:temArtigo    lex:L5799\/Artigo2 .
+lex:L5799\/Artigo2    lex:temConteudo    "Art. 2º Quanto ao ressarcimento, pelo produtor, do tributo relativo às matérias-primas intermediárias, aplicar-se-á a norma do artigo 7º, § 1º, da Lei nº 4.502, de 30 de novembro de 1964." .
+lex:L5799\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5799    lex:temArtigo    lex:L5799\/Artigo3 .
+lex:L5799\/Artigo3    lex:temConteudo    "Art. 3º O imposto sobre produtos industrializados será cobrado na forma do artigo 26 do Decreto-lei nº 37, se a propriedade ou o uso do veículo for transferido antes de um ano, a pessoa ou entidade que não goze do mesmo tratamento fiscal." .
+lex:L5799\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5799    lex:temArtigo    lex:L5799\/Artigo4 .
+lex:L5799\/Artigo4    lex:temConteudo    "Art. 4º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5799\/Artigo1    lex:remetePara    lex:Del0037\/Artigo15 .
+lex:L5799\/Artigo1    lex:remetePara    lex:Del0037\/Artigo161 .
+lex:L5799\/Artigo2    lex:remetePara    lex:L4502\/Artigo7\/Paragrafo1 .
+lex:L5799\/Artigo3    lex:remetePara    lex:Del0037\/Artigo26 .

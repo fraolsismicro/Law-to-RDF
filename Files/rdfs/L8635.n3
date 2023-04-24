@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8635    lex:ehUm    lex:DocLegal .
+lex:L8635    lex:temTextoIntegral    lex:HTMLs\/L8635.htm .
+lex:L8635\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8635    lex:temArtigo    lex:L8635\/Artigo1 .
+lex:L8635\/Artigo1    lex:temConteudo    "Art. 1º O art. 184 do Decreto-lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, passa a vigorar com as seguintes alterações:" .
+lex:L8635\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8635\/Artigo1    lex:temParagrafo    lex:L8635\/Artigo1\/Paragrafo1 .
+lex:L8635\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Se a violação consistir em reprodução, por qualquer meio, com intuito de lucro, de obra intelectual, no todo ou em parte, sem autorização expressa do autor ou de quem o represente, ou consistir na reprodução de fonograma ou videofonograma, sem a autorização do produtor ou de quem o represente:" .
+lex:L8635\/Artigo1\/Paragrafo1\/ParagrafoPena    lex:ehUm    lex:ParagrafoPena .
+lex:L8635\/Artigo1\/Paragrafo1    lex:temParagrafoPena    lex:L8635\/Artigo1\/Paragrafo1\/ParagrafoPena .
+lex:L8635\/Artigo1\/Paragrafo1\/ParagrafoPena    lex:temConteudo    "Pena - reclusão, de um a quatro anos, e multa, de Cr$ 10.000,00 (dez mil cruzeiros) a Cr$ 50.000,00 (cinqüenta mil cruzeiros)." .
+lex:L8635\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8635\/Artigo1    lex:temParagrafo    lex:L8635\/Artigo1\/Paragrafo2 .
+lex:L8635\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Na mesma pena do parágrafo anterior incorre quem vende, expõe à venda, aluga, introduz no País, adquire, oculta, empresta, troca ou tem em depósito, com intuito de lucro, original ou cópia de obra intelectual, fonograma ou videofonograma, produzidos ou reproduzidos com violação de direito autoral." .
+lex:L8635\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L8635\/Artigo1    lex:temParagrafo    lex:L8635\/Artigo1\/Paragrafo3 .
+lex:L8635\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Em caso de condenação, ao prolatar a sentença, o juiz determinará a destruição da produção ou reprodução criminosa.'" .
+lex:L8635\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8635    lex:temArtigo    lex:L8635\/Artigo2 .
+lex:L8635\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L8635\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8635    lex:temArtigo    lex:L8635\/Artigo3 .
+lex:L8635\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L8635\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del2848\/Artigo184\/Paragrafo1 .

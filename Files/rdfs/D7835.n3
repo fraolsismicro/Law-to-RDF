@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7835    lex:ehUm    lex:DocLegal .
+lex:D7835    lex:temTextoIntegral    lex:HTMLs\/D7835.htm .
+lex:D7835\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7835    lex:temArtigo    lex:D7835\/Artigo1 .
+lex:D7835\/Artigo1    lex:temConteudo    "Art. 1o  O Regimento Interno do Conselho de Recursos do Sistema Financeiro Nacional, Anexo ao Decreto n º 1.935, de 20 de junho de 1996, passa a vigorar com as seguintes alterações:" .
+lex:D7835\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7835\/Artigo1    lex:temInciso    lex:D7835\/Artigo1\/IncisoI .
+lex:D7835\/Artigo1\/IncisoI    lex:temConteudo    "I - ..................................................................................." .
+lex:D7835\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:ehUm    lex:IncisoAlinea .
+lex:D7835\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7835\/Artigo1\/IncisoI\/IncisoAlineaNo .
+lex:D7835\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:temConteudo    "e) no § 2 º do art. 16 da Lei n º 9.613, de 3 de março de 1998;" .
+lex:D7835\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7835\/Artigo1    lex:temInciso    lex:D7835\/Artigo1\/IncisoII .
+lex:D7835\/Artigo1\/IncisoII    lex:temConteudo    "II - .................................................................................." .
+lex:D7835\/Artigo1\/IncisoII\/IncisoAlineaRelativas    lex:ehUm    lex:IncisoAlinea .
+lex:D7835\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D7835\/Artigo1\/IncisoII\/IncisoAlineaRelativas .
+lex:D7835\/Artigo1\/IncisoII\/IncisoAlineaRelativas    lex:temConteudo    "g) relativas a penalidades por infração à Lei n º 9.613, de 3 de março de 1998;" .
+lex:D7835\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7835\/Artigo1    lex:temInciso    lex:D7835\/Artigo1\/IncisoIII .
+lex:D7835\/Artigo1\/IncisoIII    lex:temConteudo    "III - de decisões das autoridades competentes relativas à aplicação das sanções previstas na Lei n º 9.613, de 1998. (NR)" .
+lex:D7835\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7835    lex:temArtigo    lex:D7835\/Artigo2 .
+lex:D7835\/Artigo2    lex:temConteudo    "Art. 2o   O Estatuto do Conselho de Controle de Atividades Financeiras - COAF, Anexo ao Decreto n º 2.799, de 8 de outubro de 1998, passa a vigorar com as seguintes alterações:" .
+lex:D7835\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7835    lex:temArtigo    lex:D7835\/Artigo3 .
+lex:D7835\/Artigo3    lex:temConteudo    "Art. 3o  Os recursos interpostos com fundamento na alínea e do inciso I, na alínea g do inciso II e no inciso III do caput do art. 3º do Regimento Interno do Conselho de Recursos do Sistema Financeiro Nacional, Anexo ao Decreto no 1.935, de 1996, pendentes de apreciação até a data da publicação deste Decreto, terão tramitação prioritária, nos termos do art. 12 do referido Regimento." .
+lex:D7835\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7835    lex:temArtigo    lex:D7835\/Artigo4 .
+lex:D7835\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7835\/Artigo1    lex:remetePara    lex:D1935 .
+lex:D7835\/Artigo1\/IncisoI\/IncisoAlineaNo    lex:remetePara    lex:D1935\/anexoArtigo3 .
+lex:D7835\/Artigo1\/IncisoII\/IncisoAlineaRelativas    lex:remetePara    lex:D1935\/anexoArtigo3 .
+lex:D7835\/Artigo2    lex:remetePara    lex:D2799 .
+lex:D7835\/Texto00007    lex:remetePara    lex:D2799\/anexoArtigo23 .
+lex:D7835\/Artigo3    lex:remetePara    lex:D1935\/anexoArtigo3 .
+lex:D7835\/Artigo3    lex:remetePara    lex:D1935\/anexoArtigo3 .
+lex:D7835\/Artigo3    lex:remetePara    lex:D1935\/anexoArtigo3 .

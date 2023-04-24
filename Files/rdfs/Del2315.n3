@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2315    lex:ehUm    lex:DocLegal .
+lex:Del2315    lex:temTextoIntegral    lex:HTMLs\/Del2315.htm .
+lex:Del2315\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2315    lex:temArtigo    lex:Del2315\/Artigo1 .
+lex:Del2315\/Artigo1    lex:temConteudo    "Art 1º Fica o Poder Executivo autorizado a abrir a Encargos Gerais da União - Recursos sob Supervisão da Secretaria de Planejamento da Presidência da República - crédito especial até o limite de Cz$ 5.000.000.000,00 (cinco bilhões de cruzados), utilizando como fonte de recursos a definida no item II do § 1º do artigo 43 da Lei nº 4.320, de 17 de março de 1964." .
+lex:Del2315\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2315    lex:temArtigo    lex:Del2315\/Artigo2 .
+lex:Del2315\/Artigo2    lex:temConteudo    "Art 2º O crédito especial autorizado no artigo anterior será destinado ao atendimento de despesas decorrentes da aplicação do art. 7º do Decreto-lei nº 2.310, de 22 de dezembro de 1986." .
+lex:Del2315\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2315    lex:temArtigo    lex:Del2315\/Artigo3 .
+lex:Del2315\/Artigo3    lex:temConteudo    "Art 3º Este decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2315\/Artigo1    lex:remetePara    lex:L4320\/Artigo43\/Paragrafo1ii .
+lex:Del2315\/Artigo2    lex:remetePara    lex:Del2310\/Artigo7 .

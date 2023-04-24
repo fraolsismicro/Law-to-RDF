@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7806    lex:ehUm    lex:DocLegal .
+lex:L7806    lex:temTextoIntegral    lex:HTMLs\/L7806.htm .
+lex:L7806\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7806    lex:temArtigo    lex:L7806\/Artigo1 .
+lex:L7806\/Artigo1    lex:temConteudo    "Art. 1º. Fica o Poder Executivo autorizado a abrir, ao Orçamento Fiscal da União (Lei nº. 7.715, de 3 de janeiro de 1989), o crédito especial, no valor de NCz$ 502.040.000,00 (quinhentos e dois milhões e quarenta mil cruzados novos), para atender à programação constante do Anexo I desta Lei." .
+lex:L7806\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7806\/Artigo1    lex:temParagrafo    lex:L7806\/Artigo1\/Paragrafo1 .
+lex:L7806\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º. Os recursos necessários à execução do disposto neste artigo são provenientes de:" .
+lex:L7806\/Artigo1\/Paragrafo1\/AlineaCancelamento    lex:ehUm    lex:Alinea .
+lex:L7806\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L7806\/Artigo1\/Paragrafo1\/AlineaCancelamento .
+lex:L7806\/Artigo1\/Paragrafo1\/AlineaCancelamento    lex:temConteudo    "a) cancelamento de dotação orçamentária no valor de NCz$ 500.000.000,00 (quinhentos milhões de cruzados novos), consoante o Anexo II desta Lei;" .
+lex:L7806\/Artigo1\/Paragrafo1\/AlineaIncorporacao    lex:ehUm    lex:Alinea .
+lex:L7806\/Artigo1\/Paragrafo1    lex:temAlinea    lex:L7806\/Artigo1\/Paragrafo1\/AlineaIncorporacao .
+lex:L7806\/Artigo1\/Paragrafo1\/AlineaIncorporacao    lex:temConteudo    "b) incorporação de excesso de arrecadação de Recursos Diretamente Arrecadados - Outras Fontes, no montante de NCz$ 2.040.000,00 (dois milhões e quarenta mil cruzados novos)." .
+lex:L7806\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7806\/Artigo1    lex:temParagrafo    lex:L7806\/Artigo1\/Paragrafo2 .
+lex:L7806\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º. Em decorrência do disposto neste artigo, fica alterado o detalhamento da atividade Contribuição ao Fundo de Defesa da Economia Cafeeira em sua natureza da despesa, em NCz$ 10.000.000,00 (dez milhões de cruzados novos), na forma dos Anexos III e IV desta Lei." .
+lex:L7806\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7806    lex:temArtigo    lex:L7806\/Artigo2 .
+lex:L7806\/Artigo2    lex:temConteudo    "Art. 2º. Fica o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei nº. 7.715, de 1989) o crédito suplementar no valor de NCz$ 126.049.270,00 (cento e vinte e seis milhões, quarenta de nove mil e duzentos e setenta cruzados novos), para atender à programação constante do Anexo V desta Lei." .
+lex:L7806\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7806\/Artigo2    lex:temParagrafo    lex:L7806\/Artigo2\/ParagrafoUnico .
+lex:L7806\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários ao atendimento do disposto neste artigo decorrerão da incorporação de excesso de arrecadação de Recursos Diretamente Arrecadados - Outras Fontes." .
+lex:L7806\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7806    lex:temArtigo    lex:L7806\/Artigo3 .
+lex:L7806\/Artigo3    lex:temConteudo    "Art. 3º. Além do Banco do Brasil, funcionarão como agentes financeiros os Bancos Estaduais instalados nas áreas produtoras de café." .
+lex:L7806\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7806    lex:temArtigo    lex:L7806\/Artigo4 .
+lex:L7806\/Artigo4    lex:temConteudo    "Art. 4º. Esta Lei entra em vigor na data de sua publicação." .
+lex:L7806\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L7806    lex:temArtigo    lex:L7806\/Artigo5 .
+lex:L7806\/Artigo5    lex:temConteudo    "Art. 5º. Revogam-se as disposições em contrário." .
+lex:L7806\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7806\/Artigo2    lex:remetePara    lex:L7715 .

@@ -1,0 +1,75 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7826    lex:ehUm    lex:DocLegal .
+lex:L7826    lex:temTextoIntegral    lex:HTMLs\/L7826.htm .
+lex:L7826\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7826    lex:temArtigo    lex:L7826\/Artigo1 .
+lex:L7826\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir o Orçamento Fiscal da União (Lei nº 7.715, de 3 de janeiro de 1989), Anexo II, com a respectiva aplicação no Anexo III, o crédito suplementar no valor de NCz$ 8.184.586,00 (oito milhões, cento e oitenta e quatro mil, quinhentos e oitenta e seis cruzados novos), de conformidade com a programação dos quadros Anexos I e II desta Lei." .
+lex:L7826\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7826\/Artigo1    lex:temParagrafo    lex:L7826\/Artigo1\/ParagrafoUnico .
+lex:L7826\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de:" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L7826\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - cancelamento de dotação orçamentária no valor de NCz$ 589.146,00 (quinhentos e oitenta e nove mil, cento e quarenta e seis cruzados novos), discriminado no quadro Anexo III desta Lei e correspondente à seguinte fonte:" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRecursos    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRecursos .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRecursos    lex:temConteudo    "a) Recursos Ordinários do Tesouro: NCz$ 589.146,00 (quinhentos e oitenta e nove mil, cento e quarenta e seis cruzados novos)." .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L7826\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - incorporação de recursos no montante de NCz$ 7.595.440,00 (sete milhões, quinhentos e noventa e cinco mil, quatrocentos e quarenta cruzados novos), provenientes das seguintes fontes:" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretamente    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretamente .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaDiretamente    lex:temConteudo    "a) Diretamente Arrecadados - Outras Fontes - NCz$ 1.763.684,00 (um milhão, setecentos e sessenta e três mil, seiscentos e oitenta e quatro cruzados novos);" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:temConteudo    "b) Convênios com Órgãos Federais - Tesouro: NCz$ 1.230.864,00 (um milhão, duzentos e trinta mil, oitocentos e sessenta e quatro cruzados novos);" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:temConteudo    "c) Convênios com Órgãos Federais - Outras Fontes: NCz$ 362.605,00 (trezentos e sessenta e dois mil, seiscentos e cinco cruzados novos);" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:temConteudo    "d) Convênios com Órgãos não Federais: NCz$ 1.094.511,00 (um milhão, noventa e quatro mil, quinhentos e onze cruzados novos);" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaFundo    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaFundo .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaFundo    lex:temConteudo    "e) Fundo Nacional de Desenvolvimento da Educação: NCz$ 24,00 (vinte e quatro cruzados novos);" .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos .
+lex:L7826\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos    lex:temConteudo    "f) Recursos Diversos: NCz$ 3.143.752,00 (três milhões, cento e quarenta e três mil, setecentos e cinqüenta e dois cruzados novos)." .
+lex:L7826\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7826    lex:temArtigo    lex:L7826\/Artigo2 .
+lex:L7826\/Artigo2    lex:temConteudo    "Art. 2° É o Poder Executivo autorizado a abrir ao Orçamento Fiscal da União (Lei n° 7.715, de 1989), Anexo II, com a respectiva aplicação nos Anexos III e IV, créditos adicionais até o limite de NCz$ 3.232.188,00 (três milhões, duzentos e trinta e dois mil, cento e oitenta e oito cruzados novos), de conformidade com a programação constante dos quadros Anexos IV e V desta Lei." .
+lex:L7826\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7826\/Artigo2    lex:temParagrafo    lex:L7826\/Artigo2\/ParagrafoUnico .
+lex:L7826\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à execução do disposto neste artigo são provenientes de:" .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L7826\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - Cancelamento de dotações orçamentárias, no valor de NCz$ 2.146.136,00 (dois milhões, cento e quarenta e seis mil, cento e trinta e seis cruzados novos), discriminado no quadro Anexo VI desta Lei e correspondente à seguinte fonte:" .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretamente    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretamente .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaDiretamente    lex:temConteudo    "a) Diretamente Arrecadados - Tesouro: NCz$ 2.146.136,00 (dois milhões, cento e quarenta e seis mil, cento e trinta e seis cruzados novos)." .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L7826\/Artigo2\/ParagrafoUnico    lex:temParagrafoInciso    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - Incorporação de recursos no montante de NCz$ 1.086.052,00 (um milhão, oitenta e seis mil, cinqüenta e dois cruzados novos), provenientes das seguintes fontes:" .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:temConteudo    "a) Convênios com Órgãos Federais - Tesouro: NCz$ 37.357,00 (trinta e sete mil, trezentos e cinqüenta e sete cruzados novos);" .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaConvenios    lex:temConteudo    "b) Convênios com Órgãos Federais - Outras Fontes: NCz$ 169.000,00 (cento e sessenta e nove mil cruzados novos); e" .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos    lex:ehUm    lex:Alinea .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII    lex:temAlinea    lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos .
+lex:L7826\/Artigo2\/ParagrafoUnico\/ParagrafoIncisoII\/AlineaRecursos    lex:temConteudo    "c) Recursos Diversos: NCz$ 879.695,00 (oitocentos e setenta e nove mil, seiscentos e noventa e cinco cruzados novos)." .
+lex:L7826\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7826    lex:temArtigo    lex:L7826\/Artigo3 .
+lex:L7826\/Artigo3    lex:temConteudo    "Art. 3° Esta Lei entra em vigor na data de sua publicação." .
+lex:L7826\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7826    lex:temArtigo    lex:L7826\/Artigo4 .
+lex:L7826\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .
+lex:L7826\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7826\/Artigo2    lex:remetePara    lex:L7715 .

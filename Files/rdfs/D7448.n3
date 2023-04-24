@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7448    lex:ehUm    lex:DocLegal .
+lex:D7448    lex:temTextoIntegral    lex:HTMLs\/D7448.htm .
+lex:D7448\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7448    lex:temArtigo    lex:D7448\/Artigo1 .
+lex:D7448\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o e 4o do Decreto no 5.274, de 18 de novembro de 2004, passam a vigorar com a seguinte redação:" .
+lex:D7448\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7448\/Artigo1    lex:temParagrafo    lex:D7448\/Artigo1\/ParagrafoUnico .
+lex:D7448\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Por intermédio do Programa referido no caput, será efetuado o custeio de até cinqüenta bolsas anuais para o desenvolvimento de pesquisa e qualificação de docentes no território timorense, a partir da publicação deste Decreto até o exercício financeiro de 2014. (NR)" .
+lex:D7448\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7448    lex:temArtigo    lex:D7448\/Artigo2 .
+lex:D7448\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7448\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7448    lex:temArtigo    lex:D7448\/Artigo3 .
+lex:D7448\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o art. 2o do Decreto no 5.274, de 18 de novembro de 2004." .
+lex:D7448\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D5274\/Artigo1 .
+lex:D7448\/Artigo1\/Texto00002    lex:remetePara    lex:D5274\/Artigo4 .
+lex:D7448\/Artigo3    lex:remetePara    lex:D5274\/Artigo2 .

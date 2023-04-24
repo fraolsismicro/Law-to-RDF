@@ -1,0 +1,64 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D91207    lex:ehUm    lex:DocLegal .
+lex:D91207    lex:temTextoIntegral    lex:HTMLs\/D91207.htm .
+lex:D91207\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaPara .
+lex:D91207\/AlineaPara    lex:temConteudo    "a) para as pessoas interessadas na comunicação, para os funcionários, serventuários ou outras pessoas competentes do Estado de origem, de dirigir-se diretamente à autoridade do Estado de destino competente para efetuar a entrega se esse Estado é a França, e para ordenar a entrega se esse Estado é o Brasil;" .
+lex:D91207\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaPara .
+lex:D91207\/AlineaPara    lex:temConteudo    "b) para os funcionários, serventuários ou outras pessoas competentes do Estado de origem, de dirigir-se diretamente à autoridade central do Estado de destino." .
+lex:D91207\/AlineaComunicam-se    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaComunicam-se .
+lex:D91207\/AlineaComunicam-se    lex:temConteudo    "a) comunicam-se mutuamente e a pedido quaisquer informações a respeito das medidas. tomadas sobre a guarda ou a proteção de menores, a implementação dessas medidas e as condições materiais e morais de existência desses menores;" .
+lex:D91207\/AlineaPrestam-se    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaPrestam-se .
+lex:D91207\/AlineaPrestam-se    lex:temConteudo    "b) prestam-se mutuamente auxilio para a busca em seu território e a entrega voluntária dos menores deslocados, quando o direito de guarda tenha sido simplesmente ignorado." .
+lex:D91207\/AlineaCooperarao    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaCooperarao .
+lex:D91207\/AlineaCooperarao    lex:temConteudo    "c) cooperarão para que seja organizado no território dos dois Estados um direito de visita e de hospedagem em beneficio do pai ou mãe privado da guarda, para que seja levantado todo obstáculo jurídico de natureza a opor-se a isso e para que sejam respeitadas as condições estabelecidas por suas respectivas autoridades com vistas à efetivação e ao livre exercício desse direito de visita, bem como os compromissos a respeito assumidos pelas partes." .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "a) que a sentença seja oriunda de uma jurisdição competente de acordo com as regras de conflitos de competência vigentes no território do Estado onde a sentença seja reconhecida." .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "b) que a sentença tenha aplicado a lei aplicável ao litígio em virtude das regras de solução de conflitos de leis vigentes no território do Estado onde a sentença seja reconhecida;" .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "c) que, de acordo com a lei do Estado onde tenha sido proferida, a sentença já não admita recurso ordinário e seja executável; a sentença em matéria de estado e de capacidade das pessoas será, todavia, reconhecida se for executável;" .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "d) que as partes tenham sido regularmente citadas, representadas ou declaradas revéis;" .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "e) que a sentença não contenha nada de contrário à ordem pública do Estado em cujo território é invocada;" .
+lex:D91207\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaQue .
+lex:D91207\/AlineaQue    lex:temConteudo    "f) que um litígio entre as mesmas partes, fundado nos mesmos fatos e que tenha o mesmo objeto:" .
+lex:D91207\/AlineaQue\/ItemNao    lex:ehUm    lex:Item .
+lex:D91207\/AlineaQue    lex:temItem    lex:D91207\/AlineaQue\/ItemNao .
+lex:D91207\/AlineaQue\/ItemNao    lex:temConteudo    "- não esteja pendente em alguma jurisdição do Estado requerido favorecida pela prevenção;" .
+lex:D91207\/AlineaQue\/ItemNao    lex:ehUm    lex:Item .
+lex:D91207\/AlineaQue    lex:temItem    lex:D91207\/AlineaQue\/ItemNao .
+lex:D91207\/AlineaQue\/ItemNao    lex:temConteudo    "- não tenha sido objeto de uma sentença proferida por uma jurisdição do Estado requerido e que reúna as condições necessárias ao reconhecimento;" .
+lex:D91207\/AlineaQue\/ItemNao    lex:ehUm    lex:Item .
+lex:D91207\/AlineaQue    lex:temItem    lex:D91207\/AlineaQue\/ItemNao .
+lex:D91207\/AlineaQue\/ItemNao    lex:temConteudo    "- não tenha sido objeto de uma sentença proferida em um terceiro Estado e que reúna as condições necessárias ao reconhecimento no território do Estado requerido." .
+lex:D91207\/AlineaUma    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaUma .
+lex:D91207\/AlineaUma    lex:temConteudo    "a) uma cópia da sentença que reúna as condições necessárias a sua autenticidade;" .
+lex:D91207\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaO .
+lex:D91207\/AlineaO    lex:temConteudo    "b) o original do mandado de intimação da sentença ou de qualquer outro ato que substitua a intimação;" .
+lex:D91207\/AlineaUma    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaUma .
+lex:D91207\/AlineaUma    lex:temConteudo    "c) uma certidão pela qual o escrivão declare que a sentença já não admite recurso ordinário ou é executável;" .
+lex:D91207\/AlineaSe    lex:ehUm    lex:Alinea .
+lex:D91207    lex:temAlinea    lex:D91207\/AlineaSe .
+lex:D91207\/AlineaSe    lex:temConteudo    "d) se for o caso, uma cópia, autenticada pelo escrivão da jurisdição que proferiu a sentença, da citação da parte revel." .

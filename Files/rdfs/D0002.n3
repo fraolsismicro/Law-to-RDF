@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0002    lex:ehUm    lex:DocLegal .
+lex:D0002    lex:temTextoIntegral    lex:HTMLs\/D0002.htm .
+lex:D0002\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0002    lex:temArtigo    lex:D0002\/Artigo1 .
+lex:D0002\/Artigo1    lex:temConteudo    "Art. 1º Fica instituído Grupo de Trabalho incumbido de elaborar projeto piloto para recepção de imagem via satélite, a ser utilizado no processo educacional brasileiro." .
+lex:D0002\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0002    lex:temArtigo    lex:D0002\/Artigo2 .
+lex:D0002\/Artigo2    lex:temConteudo    "Art. 2º Integrarão o Grupo de Trabalho dois representantes do Ministério da Educação, um dos quais o coordenará, um representante do Ministério da Infra-Estrutura, um da Secretaria da Ciência e Tecnologia e um da Secretaria de Assuntos Estratégicos da Presidência da República." .
+lex:D0002\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0002\/Artigo2    lex:temParagrafo    lex:D0002\/Artigo2\/ParagrafoUnico .
+lex:D0002\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Grupo de Trabalho contará com o assessoramento da Associação Brasileira de Emissoras de Rádio e Televisão ABERT e de educador com experiência no setor, indicado pelo Ministro de Estado da Educação." .
+lex:D0002\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0002    lex:temArtigo    lex:D0002\/Artigo3 .
+lex:D0002\/Artigo3    lex:temConteudo    "Art. 3º No prazo de trinta dias, contados da sua instalação, o Grupo de Trabalho apresentará relatório conclusivo ao Ministro de Estado da Educação." .
+lex:D0002\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0002    lex:temArtigo    lex:D0002\/Artigo4 .
+lex:D0002\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .

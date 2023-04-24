@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7598    lex:ehUm    lex:DocLegal .
+lex:D7598    lex:temTextoIntegral    lex:HTMLs\/D7598.htm .
+lex:D7598\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7598    lex:temArtigo    lex:D7598\/Artigo1 .
+lex:D7598\/Artigo1    lex:temConteudo    "Art. 1o  Fica delegada ao Advogado-Geral da União competência para autorizar a contratação de advogados e especialistas visando à defesa judicial e extrajudicial de interesse da União, no exterior, nos termos do art. 4o da Lei no 8.897, de 27 de junho de 1994, e para os fins estabelecidos na referida lei." .
+lex:D7598\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7598    lex:temArtigo    lex:D7598\/Artigo2 .
+lex:D7598\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7598\/Artigo1    lex:remetePara    lex:L8897\/Artigo4 .

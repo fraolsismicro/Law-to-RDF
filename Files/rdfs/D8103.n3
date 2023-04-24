@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8103    lex:ehUm    lex:DocLegal .
+lex:D8103    lex:temTextoIntegral    lex:HTMLs\/D8103.htm .
+lex:D8103\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8103    lex:temArtigo    lex:D8103\/Artigo1 .
+lex:D8103\/Artigo1    lex:temConteudo    "Art. 1 º  O cargo em comissão remanejado da Comissão Nacional de Energia Nuclear para a Secretaria de Gestão Pública do Ministério do Planejamento, Orçamento e Gestão, por força do Decreto nº 7.429, de 17 de janeiro de 2011, é o especificado no Anexo I." .
+lex:D8103\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8103    lex:temArtigo    lex:D8103\/Artigo2 .
+lex:D8103\/Artigo2    lex:temConteudo    "Art. 2 º  O Anexo II ao Decreto n º 5.667, de 10 de janeiro de 2006, passa a vigorar com as alterações do Anexo II a este Decreto." .
+lex:D8103\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8103    lex:temArtigo    lex:D8103\/Artigo3 .
+lex:D8103\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8103\/Artigo1    lex:remetePara    lex:D7429 .
+lex:D8103\/Artigo2    lex:remetePara    lex:D5667\/ .

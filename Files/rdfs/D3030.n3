@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3030    lex:ehUm    lex:DocLegal .
+lex:D3030    lex:temTextoIntegral    lex:HTMLs\/D3030.htm .
+lex:D3030\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3030    lex:temInciso    lex:D3030\/IncisoD .
+lex:D3030\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3030\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3030    lex:temArtigo    lex:D3030\/Artigo1 .
+lex:D3030\/Artigo1    lex:temConteudo    "Art. 1o  O art. 2o do Decreto no 1.680, de 18 de outubro de 1995, passa a vigorar com a seguinte redação:" .
+lex:D3030\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3030\/Artigo1    lex:temInciso    lex:D3030\/Artigo1\/IncisoI .
+lex:D3030\/Artigo1\/IncisoI    lex:temConteudo    "I -  ......................................................................................." .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D3030\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "a) da Educação;" .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea    lex:temConteudo    "b)  do Trabalho e Emprego;" .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea    lex:temIncisoAlinea    lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea\/IncisoAlineaDo .
+lex:D3030\/Artigo1\/IncisoI\/IncisoAlineaDa\/IncisoAlinea\/IncisoAlineaDo    lex:temConteudo    "g) do Esporte e Turismo." .
+lex:D3030\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3030    lex:temArtigo    lex:D3030\/Artigo2 .
+lex:D3030\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3030\/Fecho    lex:remetePara    lex:index .

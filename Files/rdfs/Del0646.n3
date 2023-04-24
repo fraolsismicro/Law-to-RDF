@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0646    lex:ehUm    lex:DocLegal .
+lex:Del0646    lex:temTextoIntegral    lex:HTMLs\/Del0646.htm .
+lex:Del0646\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0646    lex:temArtigo    lex:Del0646\/Artigo1 .
+lex:Del0646\/Artigo1    lex:temConteudo    "Art. 1º Fica o Instituto Nacional de Previdência Social (INPS), autorizado a subscrever ações preferenciais da Centrais Elétricas Brasileiras S.A - ELETROBRÁS, no montante de NCr$50.000.000,00 (cinqüenta milhões de cruzeiros novos)." .
+lex:Del0646\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0646\/Artigo1    lex:temParagrafo    lex:Del0646\/Artigo1\/ParagrafoUnico .
+lex:Del0646\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para o efeito do disposto neste artigo, serão utilizados recursos proporcionados pelo aumento da cota de previdência de que trata o Decreto-lei nº 645, de 23 de junho de 1969, que serão entregues à ELETROBRÁS em parcelas mensais iguais e sucessivas, a partir de 1º de setembro de 1969, devendo a referida emprêsa convertê-los em capital social até 31 de dezembro do corrente ano." .
+lex:Del0646\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0646    lex:temArtigo    lex:Del0646\/Artigo2 .
+lex:Del0646\/Artigo2    lex:temConteudo    "Art. 2º A subscrição de que trata o presente decreto-lei não se aplica o disposto no artigo 111 do Decreto-lei nº 2.627, de 26 de setembro de 1940." .
+lex:Del0646\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0646    lex:temArtigo    lex:Del0646\/Artigo3 .
+lex:Del0646\/Artigo3    lex:temConteudo    "Art. 3º O Ministério do Trabalho e Previdência Social e o Ministério das Minas e Energia adotarão providências para o cumprimento do presente decreto-lei, inclusive as que decorrerem do disposto no artigo 131 da Lei nº 3.807, de 27 de agôsto de 1960 e as que forem reclamadas pela eventual necessidade de aumento de capital da emprêsa." .
+lex:Del0646\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0646    lex:temArtigo    lex:Del0646\/Artigo4 .
+lex:Del0646\/Artigo4    lex:temConteudo    "Art. 4º O presente decreto-lei entrará em vigor a partir da data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0646\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del0645 .
+lex:Del0646\/Artigo2    lex:remetePara    lex:Del2627\/Artigo111 .
+lex:Del0646\/Artigo3    lex:remetePara    lex:L3807\/Artigo131 .

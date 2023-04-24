@@ -1,0 +1,493 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0511    lex:ehUm    lex:DocLegal .
+lex:D0511    lex:temTextoIntegral    lex:HTMLs\/D0511.htm .
+lex:D0511\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0511    lex:temArtigo    lex:D0511\/Artigo1 .
+lex:D0511\/Artigo1    lex:temConteudo    "Art. 1° Os artigos do Regulamento para o Tráfego Marítimo, aprovado pelo Decreto n° 87.648, de 24 de setembro de 1982, a seguir enumerados, passam a vigorar com a seguinte redação:" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Estão sob jurisdição nacional, para efeito deste Regulamento, as águas e seus leitos, federais, estaduais e municipais, constituídas pelas:" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas    lex:temConteudo    "a) águas marítimas até o limite exterior da zona econômica exclusiva;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaAguas    lex:temConteudo    "b) águas dos rios, lagos, lagoas e canais.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXI    lex:temConteudo    "XI - ao pessoal da Marinha Mercante e aos amadores, conforme discriminado neste Regulamento;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXII    lex:temConteudo    "XII - às obras sob, sobre e às margens das águas;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoXIII    lex:temConteudo    "XIII - à extração de minerais às margens ou no leito das águas" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para efeito deste Regulamento considera-se margem as bordas dos terrenos onde as águas tocam em regime de cheia sem transbordar, ou em preamar de sizígia.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - orientar e controlar, no que interessa à Segurança da Navegação e à Defesa Nacional, a Marinha Mercante Nacional e demais organizações e atividades correlatas, inclusive a formação e os requisitos profissionais dos seus tripulantes;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - prover a segurança da navegação aquaviária;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - realizar a praticagem militar e supervisionar a praticagem civil no que interessa à Segurança da Navegação e à Defesa Nacional;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - exercer a Polícia Naval, visando à fiscalização do contido neste Regulamento, normas decorrentes, Convenções e Acordos Internacionais sobre navegação ratificados pelo País, e da poluição das águas causada por embarcações e terminais marítimos, fluviais e lacustres;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - exercer a Patrulha Costeira visando, principalmente, controlar, no que interessa à Defesa Nacional, o uso das águas sob jurisdição nacional e o uso da plataforma continental.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - determinar, aprovar e implementar os estudos dos assuntos relativos à Marinha Mercante e às demais organizações e atividades de pesquisa, exploração e explotação dos elementos marítimos, no que afetar a Defesa Nacional.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - fiscalizar, no que concerne à Defesa Nacional, de acordo com os compromissos internacionais assumidos, as atividades das marinhas mercantes nacional e estrangeiras;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - estabelecer as condições de acesso, permanência, estacionamento, tráfego e saída das embarcações em relação aos portos, fundeadouros e águas sob jurisdição nacional;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - fiscalizar a extração de minerais e a execução das obras sob, sobre e às margens das águas na salvaguarda dos interesses da navegação;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - estabelecer requisitos para o cadastramento de estaleiros, oficinas, diques e carreiras de construção e reparos navais não pertencentes à Marinha;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIX .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIX    lex:temConteudo    "IX - estabelecer normas para fixação da tripulação de segurança das embarcações;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - lotação - quantidade máxima de pessoas autorizadas a embarcar, levando em conta a segurança da embarcação e da vida humana nas águas;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - tripulante - profissional habilitado, inscrito em uma Capitania, Delegacia ou Agência e embarcado, que exerce funções na operação da embarcação;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - tripulação de segurança - mínimo de tripulantes necessários à segurança da embarcação, da tripulação e da navegação;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - comandante ou capitão - designação genérica de quem comanda a embarcação. É o responsável por tudo o que diga respeito à embarcação, à carga, a seus tripulantes e às demais pessoas a bordo;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - profissional não tripulante - pessoal, inscrito ou não, que presta, a bordo, serviços de natureza transitória;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - amador - pessoa habilitada a operar, apenas, embarcações de esporte e recreio;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVII    lex:temConteudo    "VII - passageiro - toda pessoa que não seja o comandante, tripulante ou profissional não tripulante.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - Regional:" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA    lex:temConteudo    "a) a realizada dentro dos limites estabelecidos para a navegação interior, em embarcações com arqueação bruta até cinqüenta;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVIII\/AlineaA    lex:temConteudo    "b) a realizada dentro dos limites de visibilidade da costa e ao longo dela, até a distância máxima de cinqüenta milhas da repartição de inscrição, em embarcação com arqueação bruta até cinqüenta." .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - 3° Grupo-Pescadores - aqueles que exercem atividade na pesca profissional, a bordo de embarcação de pesca;" .
+lex:D0511\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo1 .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1°..................................................................................." .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaCapitao    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0511\/Artigo1\/Paragrafo1\/AlineaCapitao .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaCapitao    lex:temConteudo    "b) Capitão de Cabotagem, Capitão de navio de cabotagem de mais duzentas arqueação bruta e Oficial Superior de Máquinas;" .
+lex:D0511\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo1 .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° A inscrição no 3° Grupo-Pescadores na Capitania dos Portos, Delegacia ou Agência será precedida de matrícula no órgão federal controlador da atividade da pesca." .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° As condições para ingresso nas categorias do 3° Grupo-Pescadores, os cursos, os exames, os currículos e as condições de acesso serão estabelecidos pela Diretoria de Portos e Costas." .
+lex:D0511\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo3 .
+lex:D0511\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3° A inscrição do estivador deve satisfazer os requisitos estabelecidos em legislação específica.'" .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° O tripulante que for responsabilizado, por sentença passada em julgado, por praticar roubo ou furto de qualquer coisa pertencente à embarcação, à carga, ao Comandante, aos passageiros e aos tripulantes, terá a inscrição cancelada, sem prejuízo das penalidades estabelecidas na legislação vigente." .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O embarque do Comandante será transcrito em sua Caderneta de Inscrição e lançado na Provisão de Registro da Propriedade Marítima da embarcação.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - por prazo determinado;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - por prazo indeterminado.'" .
+lex:D0511\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo1 .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° O Comandante da embarcação é obrigado a cumprir as seguintes cláusulas além das constantes da Lista dos Tripulantes:" .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaFornecer    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0511\/Artigo1\/Paragrafo1\/AlineaFornecer .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaFornecer    lex:temConteudo    "a) fornecer passagem do porto de desembarque ao de engajamento;" .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaGarantir    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0511\/Artigo1\/Paragrafo1\/AlineaGarantir .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaGarantir    lex:temConteudo    "b) garantir alimentação, alojamento e tratamento em caso de doença até a chegada ao porto de engajamento;" .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaNao    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0511\/Artigo1\/Paragrafo1\/AlineaNao .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaNao    lex:temConteudo    "c) não fazer qualquer convenção ulterior contrária às disposições deste contrato." .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Quando o embarque de tripulante brasileiro ocorrer em embarcação estrangeira, autorizada, por decreto a operar, temporariamente, em águas brasileiras, será o embarque efetuado de acordo com a legislação brasileira." .
+lex:D0511\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo3 .
+lex:D0511\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O Agente ou Consignatário da embarcação é o responsável pelo exato cumprimento destas disposições.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único...................................................................................." .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:temConteudo    "c) dados do embarque;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item    lex:ehUm    lex:Item .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:temItem    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item    lex:temConteudo    ".........................................................................................................." .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único......................................................................................" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:temConteudo    "e) dados do embarque;" .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item    lex:ehUm    lex:Item .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados    lex:temItem    lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item .
+lex:D0511\/Artigo1\/ParagrafoUnico\/AlineaDados\/Item    lex:temConteudo    "............................................................................................................." .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O desembarque do Comandante será transcrito em uma Caderneta de Inscrição e lançado na Provisão de Registro da Propriedade Marítima da embarcação.'" .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Quando o tripulante deixar de comparecer quer voluntariamente, quer por impossibilidade, seu desembarque será homologado de acordo com as informações do contratante, depois de cumpridas as exigências regulamentares, ficando a caderneta à sua disposição na Capitania dos Portos ou órgão subordinado.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O termo de ausência e a Caderneta de Inscrição serão entregues na Capitania dos Portos, Delegacias ou Agência no próximo porto de escala, que homologará o desembarque e efetuará o embarque de um substituto.'" .
+lex:D0511\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo1 .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° Na expedição do Cartão da Tripulação de Segurança, a Capitania dos Portos, Delegacia ou Agência levará em conta:" .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temAlinea    lex:D0511\/Artigo1\/Paragrafo1\/AlineaA .
+lex:D0511\/Artigo1\/Paragrafo1\/AlineaA    lex:temConteudo    "b) a arqueação bruta, classificação da embarcação, peculiaridade da navegação, sistema de propulsão e das auxiliares, natureza do combustível empregado, comunicações e serviços auxiliares;" .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° Enquanto se processar o recurso, a embarcação deverá trafegar com a tripulação de segurança determinada.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O número de tripulantes será fixado pela Capitania dos Portos ou órgão subordinado, de acordo com normas emitidas pela DPC.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O número de tripulantes será fixado pela Capitania dos Portos ou órgão subordinado, de acordo com normas emitidas pela DPC.'" .
+lex:D0511\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo1 .
+lex:D0511\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° A embarcação com arqueação bruta igual ou superior a duzentas e inferior a quinhentas, com máquina de propulsão de potência até 750 Kw, empregada na navegação de Pequena Cabotagem, poderá ser comandada e imediatada por Mestres de Cabotagem." .
+lex:D0511\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/Paragrafo2 .
+lex:D0511\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O Comando, a Imediatice e a Chefia de Máquinas de embarcação empregada na navegação de Apoio Marítimo serão regulados pela DPC, em função da arqueação bruta, da potência e da instalação de máquinas.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A alteração ou reparo que acarretar mudanças de características da embarcação, após ter sido concedida a licença de construção, deverá ser previamente concedida pela DPC ou órgão de sua rede funcional.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os documentos e procedimentos necessários para concessão dessa licença serão estabelecidos em normas específicas da DPC.'" .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo1    lex:temParagrafo    lex:D0511\/Artigo1\/ParagrafoUnico .
+lex:D0511\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nesse novo requerimento, o requerente deverá declarar formalmente que se compromete a efetivar todas as modificações futuramente determinadas, sem despesas ou qualquer ônus para a União, comprometendo-se também a desfazer o que já estiver construído, caso as informações constantes nos planos e documentos apresentados estejam em desacordo com as normas da DPC.'" .
+lex:D0511\/Artigo168    lex:ehUm    lex:Artigo .
+lex:D0511    lex:temArtigo    lex:D0511\/Artigo168 .
+lex:D0511\/Artigo168    lex:temConteudo    "Art. 168. O projeto, o levantamento, a construção, a alteração ou o reparo da embarcação serão efetuados por profissional habilitado ou por firma, sociedade, associação , companhia, cooperativa ou empresa em geral, registrada perante os Conselhos Regionais de Engenharia, Arquitetura e Agronomia - CREA, conforme legislação específica, que serão responsáveis, técnica e legalmente, pelos serviços executados.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A nacionalidade brasileira da embarcação será aprovada pela Provisão de Registro da Propriedade Marítima, expedida pelo Tribunal Marítimo, ou pelo título de inscrição, expedido pelas Capitanias dos Portos, Delegacias e Agências.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - ........................................................................................................" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior    lex:temConteudo    "L) interior de travessia fluvial e lacustre;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaInterior    lex:temConteudo    "M) interior de porto fluvial e lacustre;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRegional    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRegional .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI\/AlineaRegional    lex:temConteudo    "N) regional fluvial e lacustre." .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos registros de propriedade marítima e nos livros de inscrição serão feitas anotações referentes à classificação adotada, bem como na Provisão de Registro da Propriedade Marítima e no Título de Inscrição.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A embarcação com arqueação bruta até vinte, empregada na navegação marítima e a construída no País e destinada à navegação fluvial e lacustre, com arqueação bruta até cinqüenta, receberão, apenas, as Notas de Arqueação emitidas pela Capitania dos Portos de inscrição ou a de jurisdição do estaleiro construtor.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A DPC, a seu critério, poderá isentar determinados tipos e classes de embarcações da realização de vistoria periódica, podendo, em decorrência, exigir de seus proprietários ou armadores assinatura de Termo de Responsabilidade, nos casos julgados necessários." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º O Termo de Responsabilidade imputa ao proprietário ou armador a responsabilidade pelo cumprimento dos itens de vistoria especificados para sua embarcação.'" .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoI .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - necessidade de laudo pericial;" .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoII .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - pedido de vistoria feito pela autoridade consular do país a que pertence a embarcação em trânsito;" .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - arrendamento ou afretamento à empresa nacional, quando a embarcação for empregada em linhas nacionais;" .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIV .
+lex:D0511\/Artigo168\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - durante o período em que já estejam autorizadas a operar em águas brasileiras, na condição de afretadas." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° Nos demais casos, a fiscalização deverá limitar-se à verificação da validade dos certificados de bordo. Os certificados, quando dentro do prazo de validade, devem ser aceitos, a menos que existam motivos para crer que o estado do navio ou seu equipamento não correspondem às condições desse certificado." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º Constatada irregularidade, deverá ser impedida a entrada ou partida do navio, e informadas, imediatamente, por escrito, ao cônsul do país cuja bandeira o navio está autorizado a arvorar; as deficiências que fizeram com que se considerasse necessária a intervenção." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° Conforme exigir a situação, somente será permitida a entrada ou saída do navio, desde que o mesmo possa se movimentar sem risco para os passageiros, tripulantes, a carga e o meio ambiente.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Por ocasião da vistoria inicial, deverá ser apresentada uma declaração devidamente assinada pelo responsável técnico do estaleiro, dique, carreira ou oficina onde foi construída a embarcação, informando que a mesma foi edificada de acordo com os planos apresentados por ocasião da licença de construção.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - anual;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temParagrafoInciso    lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D0511\/Artigo168\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - de renovação." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A vistoria periódica anual será realizada com a embarcação flutuando, no intervalo de doze meses a partir da vistoria inicial ou anterior." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° A vistoria periódica de renovação será realizada no mínimo duas vezes a cada período de cinco anos, a partir da vistoria inicial, sendo que o intervalo entre as duas vistorias consecutivas não poderá exceder 36 meses." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° As vistorias periódicas serão improrrogáveis e terão sua execução regulamentada pela DPC." .
+lex:D0511\/Artigo168\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo4 .
+lex:D0511\/Artigo168\/Paragrafo4    lex:temConteudo    "§ 4º A docagem realizada para perícia ou limpeza do casco não será considerada como vistoria de renovação." .
+lex:D0511\/Artigo168\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo5 .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temConteudo    "§ 5º A DPC poderá, a seu critério, reduzir ou dilatar, para determinados tipos ou classes de embarcação, os prazos anteriormente estabelecidos, sempre que julgar conveniente e desde que não contrarie ao estabelecido em Atos Internacionais ratificados pelo País.'" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoI .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoI    lex:temConteudo    "I - para prova de mar;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoII .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoII    lex:temConteudo    "II - para emissão de certificados;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIII .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIII    lex:temConteudo    "III - determinada;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIV .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIV    lex:temConteudo    "IV - para emissão de laudo pericial;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoV .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoV    lex:temConteudo    "V - para transporte de carga no convés;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVI .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVI    lex:temConteudo    "VI - para transporte de carga perigosa;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVII .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVII    lex:temConteudo    "VII - para reboque;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVIII .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - para reclassificação;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIX .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoIX    lex:temConteudo    "IX - para homologação de heliportos em embarcações e plataformas marítimas;" .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo5    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoX .
+lex:D0511\/Artigo168\/Paragrafo5\/ParagrafoIncisoX    lex:temConteudo    "X - sempre que uma embarcação tenha sofrido avaria, reparo ou alteração que acarrete mudança de suas características básicas." .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A vistoria especial para prova de mar será solicitada pelo estaleiro construtor, sendo realizada com a embarcação em seco ou flutuando.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A composição da Comissão de Vistoria deverá obedecer à seguinte constituição:" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaPresidente    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaPresidente .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaPresidente    lex:temConteudo    "a) Presidente - Capitão dos Portos ou Delegado;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVistoriador    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVistoriador .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVistoriador    lex:temConteudo    "b) Vistoriador - Oficiais da Marinha, da Marinha Mercante ou Servidor Civil;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaAuxiliar    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaAuxiliar .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaAuxiliar    lex:temConteudo    "c) Auxiliar de Vistoriador - Praça da Marinha das diversas especialidades ou Servidor Civil;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaSecretario    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaSecretario .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaSecretario    lex:temConteudo    "d) Secretário - Praça da Marinha de qualquer especialidade ou Servidor Civil.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° Na fixação do valor da indenização da vistoria serão levados em conta a arqueação bruta da embarcação, a dificuldade das verificações e o tempo e pessoal gastos na execução." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° Os componentes da Comissão de Vistoria serão remunerados de acordo com normas da DPC.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nas condições acima, os vistoriadores serão designados, de preferência, entre o pessoal da localidade onde estiver a embarcação.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No despacho do requerimento, a autoridade naval marcará dia e hora em que a Comissão de Vistoria deve se reunir a bordo da embarcação.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Por ocasião da vistoria periódica, deverá ser apresentada pelo responsável técnico pela manutenção da embarcação, devidamente habilitado perante o CREA, declaração informando que a embarcação se encontra em condições satisfatórias de operação, de acordo com as normas da DPC.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Não havendo concordância com a decisão expressa no pedido de reconsideração, o Armador ou Comandante poderá apresentar recurso ao Diretor de Portos e Costas.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A embarcação que estiver fora de serviço estará automaticamente impedida de despachar." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° A embarcação que permanecer fora de serviço por tempo superior a 180 dias, consecutivos ou não, terá o seu termo de vistoria flutuando cancelado." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° O retorno da embarcação ao serviço ficará condicionado a revalidação dos termos de vistorias periódicas e certificados vencidos.'" .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - os terrenos de marinha, acrescidos e marginais, em caso de aforamento, e as obras sob, sobre e às margens das águas públicas;" .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - os projetos de pesquisa ou exploração do solo ou subsolo nos portos, costas, vias navegáveis e suas margens;" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Ao proprietário da embarcação sujeita à inspeção será entregue o Certificado de Regularização da Embarcação, com exigências que deverão ser cumpridas no prazo estabelecido pelo órgão inspetor.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° Normas da DPC estabelecerão os itens que serão inspecionados e os prazos de validade das inspeções." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º A DPC poderá isentar determinados tipos de classes de embarcações de inspeção, podendo, em decorrência, exigir de seus proprietários ou armadores a assinatura de Termo de Responsabilidade, nos casos julgados necessários." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° O Termo de Responsabilidade imputa ao proprietário ou armador a responsabilidade pelo cumprimento dos itens de inspeção relacionados para sua embarcação.'" .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temParagrafoInciso    lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII .
+lex:D0511\/Artigo168\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - fizer trafegar sem que a DPC, Capitania dos Portos, Delegacia ou Agência tenha julgado satisfeitas as exigências contidas no Termo de Vistoria, Inspeção ou Certificado;" .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° O órgão de inscrição, depois de fazer a mudança de nome na Provisão de Registro da Propriedade Marítima, informará ao Tribunal Marítimo para a devida anotação, quando for o caso." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° O estaleiro, dique, carreira e oficina de reparo e construção naval estão sujeitos à vistoria anual para verificação da manutenção de suas condições iniciais." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° Por ocasião do cadastramento e das vistorias anuais, deverá ser apresentado documento comprobatório da regularização do estabelecimento perante os Conselhos Regionais de Engenharia, Arquitetura e Agronomia - CREA.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° O despacho terá validade de 2 dias úteis." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° À Polícia Naval não compete a execução de ações preventivas e repressivas da alçada de outros órgãos federais, sem prejuízos da colaboração eventual, quando solicitada." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º A ação de fiscalização da Polícia Naval não substitui a responsabilidade direta ou indireta dos Comandantes, proprietários, armadores, tripulantes e usuários de embarcações, técnicos e entidades civis responsáveis por projetos, construção e reparos de embarcações e clube náuticos e marinas organizadas pelo cumprimento das leis em vigor e do que determina este Regulamento.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° O Capitão dos Portos supervisiona as atividades da Polícia Naval dentro de sua área de jurisdição." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º A proteção à integridade física de banhistas, desportistas e assemelhados contra o tráfego de embarcações nas áreas adjacentes às praias, quer sejam marítimas, fluviais ou lacustres, será de responsabilidade dos órgãos estaduais competentes.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Capitão dos Portos, Delegado ou Autoridade Delegada lançará no próprio auto de infração o despacho, julgando-o procedente ou improcedente.'" .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2º Não sendo apresentada a defesa prévia no prazo estipulado, o auto de infração será julgado à revelia." .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A infração apurada em inquérito administrativo, afeto ao Tribunal Marítimo, terá o auto lavrado após o julgamento pertinente.'" .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° Preenchida essa formalidade, a autoridade que mandou instaurar a sindicância dará a decisão." .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Se a embarcação apreendida não puder ser removida para o depósito do órgão competente, poderá ser lacrada, impossibilitando sua movimentação e será nomeado um depositário, lavrando-se o respectivo termo.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° Na comunicação feita, constarão nome da embarcação, nacionalidade, porto e número de inscrição, proprietário, arqueação bruta, material do casco, propulsão, qualidade e quantidade de carga, local e data do sinistro, além de outras julgadas necessárias." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° As informações prestadas à Diretoria de Portos e Costas serão sempre fundamentadas em estudos sobre os terrenos e acompanhadas das respectivas plantas." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A Capitania dos Portos, Delegacia ou Agência realizará inspeção no local da obra para avaliar as possíveis implicações para a segurança da navegação e a defesa nacional." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° O processo e as conclusões serão encaminhados ao Diretor de Portos e Costas para o despacho, que poderá ser precedido de consulta a outros órgãos, bem como acrescido de outros documentos, de modo a fundamentar sua decisão." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° O não-cumprimento deste artigo poderá sujeitar o infrator à multa, ao embargo ou à demolição da obra, quando esta obstruir ou impedir a navegação." .
+lex:D0511\/Artigo168\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo4 .
+lex:D0511\/Artigo168\/Paragrafo4    lex:temConteudo    "§ 4° As despesas que se fizerem necessárias para observância deste artigo serão feitas pelo requerente.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A DPC estabelecerá normas para obtenção do parecer descrito no 'caput' deste artigo." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° A pesquisa e exploração do solo ou subsolo nos portos, costas, vias navegáveis e suas margens, sem o parecer da DPC, estão sujeitas à multa e à paralisação da atividade, quando esta causar embaraços à navegação.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos casos de balizamentos autorizados a particulares, as Capitanias dos Portos, Delegacias e Agências poderão exercer encargos especiais de fiscalização e controle, conforme ficar definido em convênios, concessões e outras formas de acordo, permitidas pela Diretoria de Hidrografia e Navegação.'" .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/ParagrafoUnico .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Somente podem conduzir embarcação de esporte e recreio, de propulsão mecânica ou à vela, as pessoas devidamente habilitadas, de acordo com este Regulamento e dentro dos limites abaixo estabelecidos:" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaCapitao    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaCapitao .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaCapitao    lex:temConteudo    "a) Capitão Amador -entre os portos nacionais e estrangeiros;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMestre    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMestre .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMestre    lex:temConteudo    "b) Mestre Amador -entre portos nacionais, dentro dos limites da navegação costeira;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaArrais    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaArrais .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaArrais    lex:temConteudo    "c) Arrais Amador - na navegação interior;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMotonauta    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMotonauta .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaMotonauta    lex:temConteudo    "d) Motonauta -embarcação a motor, dentro dos limites estabelecidos pelas Capitanias dos Portos;" .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVeleiro    lex:ehUm    lex:Alinea .
+lex:D0511\/Artigo168\/ParagrafoUnico    lex:temAlinea    lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVeleiro .
+lex:D0511\/Artigo168\/ParagrafoUnico\/AlineaVeleiro    lex:temConteudo    "e) Veleiro - embarcação à vela ou remo, dentro dos limites estabelecidos pelas Capitanias dos Portos.'" .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° A embarcação de esporte e recreio está dispensada do despacho e, quando tripulada por amadores, do Rol de Equipagem, Rol Portuário e Cartão de Tripulação de Segurança." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° Quando o proprietário de embarcação de esporte ou recreio desejar tripulá-la com pessoal profissional, deverá requerer à Capitania dos Portos, Delegacia ou Agência o respectivo Cartão de Tripulação de Segurança e a abertura do Rol de Equipagem ou Rol Portuário, conforme o caso." .
+lex:D0511\/Artigo168\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo1 .
+lex:D0511\/Artigo168\/Paragrafo1    lex:temConteudo    "§ 1° Na entrada dos portos, o proprietário ou responsável pela embarcação cumprirá o estipulado neste artigo junto ao clube náutico ou marina organizada, cujas instalações utilizar." .
+lex:D0511\/Artigo168\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo2 .
+lex:D0511\/Artigo168\/Paragrafo2    lex:temConteudo    "§ 2° As ocorrências de viagem, bem como as saídas e entradas de embarcações não filiadas a clubes náuticos e marinas organizadas, serão comunicadas às Capitanias dos Portos, Delegacias ou Agências." .
+lex:D0511\/Artigo168\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D0511\/Artigo168    lex:temParagrafo    lex:D0511\/Artigo168\/Paragrafo3 .
+lex:D0511\/Artigo168\/Paragrafo3    lex:temConteudo    "§ 3° Os clubes náuticos e marinas organizadas deverão manter rigoroso controle das embarcações que saírem barra a fora.'" .
+lex:D0511\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0511    lex:temArtigo    lex:D0511\/Artigo2 .
+lex:D0511\/Artigo2    lex:temConteudo    "Art 2° Os Títulos dos Capítulos a seguir são alterados para:" .
+lex:D0511\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D0511\/Artigo2    lex:temInciso    lex:D0511\/Artigo2\/IncisoI .
+lex:D0511\/Artigo2\/IncisoI    lex:temConteudo    "I - Capítulo XII do Título II - Da Tripulação de Segurança;" .
+lex:D0511\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D0511\/Artigo2    lex:temInciso    lex:D0511\/Artigo2\/IncisoII .
+lex:D0511\/Artigo2\/IncisoII    lex:temConteudo    "II - Capítulo II do Título III - Da Construção e Reparo da Embarcação;" .
+lex:D0511\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D0511\/Artigo2    lex:temInciso    lex:D0511\/Artigo2\/IncisoIII .
+lex:D0511\/Artigo2\/IncisoIII    lex:temConteudo    "III - Capítulo VII do Título IV - Normas de Tráfego e Permanência em Águas sob Jurisdição Nacional;" .
+lex:D0511\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D0511\/Artigo2    lex:temInciso    lex:D0511\/Artigo2\/IncisoIV .
+lex:D0511\/Artigo2\/IncisoIV    lex:temConteudo    "IV - Capítulo VI do Título V - Da Meteorologia e do Tráfego Marítimo." .
+lex:D0511\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0511    lex:temArtigo    lex:D0511\/Artigo3 .
+lex:D0511\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0511\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0511    lex:temArtigo    lex:D0511\/Artigo4 .
+lex:D0511\/Artigo4    lex:temConteudo    "Art. 4° São revogados os seguintes capítulos, artigos, parágrafos e incisos do Regulamento para o Tráfego Marítimo, aprovado pelo Decreto n° 87.648, de 1982: art. 4°, art. 5°, inciso XV do art. 8°, art. 14, art. 67, art. 69, inciso IX e § 5° do art. 71, art. 109, Capítulo XI do Título II, art. 116, art. 117, art. 118, art. 119, art. 136, art. 138, inciso XV e parágrafo único do art. 142, incisos IV, VII e VIII do art. 143, art. 164, art. 165, art. 169, art. 177, art. 199, art. 206, art. 210, Capítulo X do Título III, art. 246, art. 247, art. 248, parágrafo único do art. 251, art. 252, art. 268, parágrafo único do art. 283, art. 322, art. 332, art. 333, art. 335, art. 336, art. 338, art. 339, art. 340, art. 341, art. 342 e art. 350." .

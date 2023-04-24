@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3889    lex:ehUm    lex:DocLegal .
+lex:D3889    lex:temTextoIntegral    lex:HTMLs\/D3889.htm .
+lex:D3889\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3889    lex:temInciso    lex:D3889\/IncisoI .
+lex:D3889\/IncisoI    lex:temConteudo    "I - microempresas e empresas de pequeno porte, cujas receitas operacionais brutas anuais não ultrapassem a R$ 900.000,00 (novecentos mil reais) e a R$ 7.875.000,00 (sete milhões oitocentos e setenta e cinco mil reais), respectivamente;" .
+lex:D3889\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3889    lex:temInciso    lex:D3889\/IncisoII .
+lex:D3889\/IncisoII    lex:temConteudo    "II - médias empresas, cuja receita operacional bruta anual não ultrapasse a R$ 45.000.000,00 (quarenta e cinco milhões de reais) e que sejam exportadoras ou fabricantes de insumos utilizados diretamente nos processos produtivos, de montagem ou de embalagem de mercadorias destinadas à exportação." .
+lex:D3889\/Artigo1    lex:remetePara    lex:D3113\/Artigo2 .

@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7411    lex:ehUm    lex:DocLegal .
+lex:D7411    lex:temTextoIntegral    lex:HTMLs\/D7411.htm .
+lex:D7411\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7411    lex:temArtigo    lex:D7411\/Artigo1 .
+lex:D7411\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Gratificações de Exercício em Cargo de Confiança do Gabinete de Segurança Institucional da Presidência da República, na forma dos Anexos I e II." .
+lex:D7411\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7411\/Artigo1    lex:temInciso    lex:D7411\/Artigo1\/IncisoI .
+lex:D7411\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério do Planejamento, Orçamento e Gestão para a Secretaria de Gestão: um DAS 102.4;" .
+lex:D7411\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7411\/Artigo1    lex:temInciso    lex:D7411\/Artigo1\/IncisoII .
+lex:D7411\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Gabinete de Segurança Institucional da Presidência da República: um DAS 101.5; um DAS 101.4; um DAS 102.3 e três DAS 102.1; e" .
+lex:D7411\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7411\/Artigo1    lex:temInciso    lex:D7411\/Artigo1\/IncisoIII .
+lex:D7411\/Artigo1\/IncisoIII    lex:temConteudo    "III - da Casa Civil da Presidência da República para o Gabinete de Segurança Institucional da Presidência da República: três Grupo 0003 (C); quatro Grupo 0004 (D) e seis Grupo 0005 (E)." .
+lex:D7411\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7411    lex:temArtigo    lex:D7411\/Artigo4 .
+lex:D7411\/Artigo4    lex:temConteudo    "Art. 4o  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de vinte dias, contado da data de publicação deste Decreto." .
+lex:D7411\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7411\/Artigo4    lex:temParagrafo    lex:D7411\/Artigo4\/Paragrafo2 .
+lex:D7411\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o  Em virtude do disposto neste Decreto, ficam declarados exonerados os titulares de cargos que deixam de existir na nova Estrutura Regimental." .
+lex:D7411\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7411    lex:temArtigo    lex:D7411\/Artigo6 .
+lex:D7411\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7411\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D7411    lex:temArtigo    lex:D7411\/Artigo7 .
+lex:D7411\/Artigo7    lex:temConteudo    "Art. 7o  Ficam revogados os Decretos nos 6.931, de 11 de agosto de 2009, 7.102, de 8 de fevereiro de 2010, e 7.134, de 29 de março de 2010." .
+lex:D7411\/Texto    lex:remetePara    lex:D7411 .
+lex:D7411\/Artigo1\/Artigo3    lex:remetePara    lex:D7063\/ .
+lex:D7411\/Artigo1\/Artigo3    lex:revogadoPor    lex:D7462\/Artigo17 .
+lex:D7462\/Artigo17    lex:revogou    lex:D7411\/Artigo1\/Artigo3 .
+lex:D7411\/Artigo7    lex:remetePara    lex:D6931 .
+lex:D7411\/Artigo7    lex:remetePara    lex:D7102 .
+lex:D7411\/Artigo7    lex:remetePara    lex:D7134 .

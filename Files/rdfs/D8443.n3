@@ -1,0 +1,160 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8443    lex:ehUm    lex:DocLegal .
+lex:D8443    lex:temTextoIntegral    lex:HTMLs\/D8443.htm .
+lex:D8443\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo1 .
+lex:D8443\/Artigo1    lex:temConteudo    "Art. 1o Fica instituído o Fórum de Debates sobre Políticas de Emprego, Trabalho e Renda e de Previdência Social com a finalidade de promover o debate entre os representantes dos trabalhadores, dos aposentados e pensionistas, dos empregadores e do Poder Executivo federal com vistas ao aperfeiçoamento e à sustentabilidade das políticas de emprego, trabalho e renda e de previdência social e a subsidiar a elaboração de proposições pertinentes." .
+lex:D8443\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo2 .
+lex:D8443\/Artigo2    lex:temConteudo    "Art. 2 º São objetivos do Fórum debater, analisar e propor, entre outras, ações sobre os seguintes temas:" .
+lex:D8443\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo2    lex:temInciso    lex:D8443\/Artigo2\/IncisoI .
+lex:D8443\/Artigo2\/IncisoI    lex:temConteudo    "I - Políticas de Previdência Social:" .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade    lex:temConteudo    "a) sustentabilidade do sistema;" .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao    lex:temConteudo    "b) ampliação da cobertura;" .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento    lex:temConteudo    "c) fortalecimento dos mecanismos de financiamento; e" .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento\/IncisoAlineaRegras    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento\/IncisoAlineaRegras .
+lex:D8443\/Artigo2\/IncisoI\/IncisoAlineaSustentabilidade\/IncisoAlineaAmpliacao\/IncisoAlineaFortalecimento\/IncisoAlineaRegras    lex:temConteudo    "d) regras de acesso, idade mínima, tempo de contribuição e fator previdenciário; e" .
+lex:D8443\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo2    lex:temInciso    lex:D8443\/Artigo2\/IncisoII .
+lex:D8443\/Artigo2\/IncisoII    lex:temConteudo    "II - Políticas de Emprego, Trabalho e Renda:" .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento    lex:temConteudo    "a) fortalecimento do emprego, trabalho e renda;" .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade    lex:temConteudo    "b) rotatividade no mercado de trabalho;" .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao    lex:temConteudo    "c) formalização e preservação do emprego;" .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento    lex:temConteudo    "d) aperfeiçoamento das relações trabalhistas; e" .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento\/IncisoAlineaAumento    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento    lex:temIncisoAlinea    lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento\/IncisoAlineaAumento .
+lex:D8443\/Artigo2\/IncisoII\/IncisoAlineaFortalecimento\/IncisoAlineaRotatividade\/IncisoAlineaFormalizacao\/IncisoAlineaAperfeicoamento\/IncisoAlineaAumento    lex:temConteudo    "e) aumento da produtividade do trabalho." .
+lex:D8443\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo3 .
+lex:D8443\/Artigo3    lex:temConteudo    "Art. 3o O Fórum será composto por representantes dos seguintes segmentos:" .
+lex:D8443\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo3    lex:temInciso    lex:D8443\/Artigo3\/IncisoI .
+lex:D8443\/Artigo3\/IncisoI    lex:temConteudo    "I - do Poder Executivo federal, indicados pelos seguintes órgãos:" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral    lex:temConteudo    "a) Secretaria-Geral da Presidência da República, que o coordenará;" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa    lex:temConteudo    "b) Casa Civil da Presidência da República;" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio    lex:temConteudo    "c) Ministério do Trabalho e Emprego;" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:temConteudo    "d) Ministério da Previdência Social;" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:temConteudo    "e) Ministério do Planejamento, Orçamento e Gestão; e" .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio .
+lex:D8443\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Geral\/IncisoAlineaCasa\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio\/IncisoAlineaMinisterio    lex:temConteudo    "f) Ministério da Fazenda;" .
+lex:D8443\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo3    lex:temInciso    lex:D8443\/Artigo3\/IncisoII .
+lex:D8443\/Artigo3\/IncisoII    lex:temConteudo    "II - dos trabalhadores ativos, indicados pelas seguintes entidades:" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral    lex:temConteudo    "a) Central Única dos Trabalhadores - CUT;" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca    lex:temConteudo    "b) Força Sindical - FS;" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral    lex:temConteudo    "c) Central de Trabalhadores e Trabalhadoras do Brasil - CTB;" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao    lex:temConteudo    "d) União Geral dos Trabalhadores - UGT;" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova    lex:temConteudo    "e) Nova Central Sindical de Trabalhadores - NCST;" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral    lex:temConteudo    "f) Central dos Sindicatos Brasileiros - CSB; e" .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoII\/IncisoAlineaCentral\/IncisoAlineaForca\/IncisoAlineaCentral\/IncisoAlineaUniao\/IncisoAlineaNova\/IncisoAlineaCentral\/IncisoAlineaConfederacao    lex:temConteudo    "g) Confederação Nacional dos Trabalhadores na Agricultura - Contag;" .
+lex:D8443\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo3    lex:temInciso    lex:D8443\/Artigo3\/IncisoIII .
+lex:D8443\/Artigo3\/IncisoIII    lex:temConteudo    "III - dos aposentados e pensionistas, indicados pelas seguintes entidades:" .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIII    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato    lex:temConteudo    "a) Sindicato Nacional dos Trabalhadores Aposentados, Pensionistas e Idosos - SINTAPI/CUT;" .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:temConteudo    "b) Sindicato Nacional dos Aposentados, Pensionistas e Idosos da Força Sindical - SINDINAPI;" .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:temConteudo    "c) Sindicato dos Aposentados, Pensionistas e Idosos - SINDIAPI/UGT; e" .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIII\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaSindicato\/IncisoAlineaConfederacao    lex:temConteudo    "d) Confederação Brasileira de Aposentados e Pensionistas - COBAP; e" .
+lex:D8443\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8443\/Artigo3    lex:temInciso    lex:D8443\/Artigo3\/IncisoIV .
+lex:D8443\/Artigo3\/IncisoIV    lex:temConteudo    "IV - dos empregadores, indicados pelas seguintes entidades:" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao    lex:temConteudo    "a) Confederação Nacional da Agricultura e Pecuária do Brasil - CNA;" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "b) Confederação Nacional do Comércio de Bens, Serviços e Turismo - CNC;" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "c) Confederação Nacional das Instituições Financeiras - CNF;" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "d) Confederação Nacional da Indústria - CNI;" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "e) Confederação Nacional de Serviços - CNS;" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "f) Confederação Nacional do Transporte - CNT; e" .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temIncisoAlinea    lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao .
+lex:D8443\/Artigo3\/IncisoIV\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao\/IncisoAlineaConfederacao    lex:temConteudo    "g) Confederação Nacional do Turismo - CNTur." .
+lex:D8443\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8443\/Artigo3    lex:temParagrafo    lex:D8443\/Artigo3\/Paragrafo1 .
+lex:D8443\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o Os membros do Fórum, sendo um titular e um suplente por órgão ou entidade, serão designados pelo Ministro de Estado Chefe da Secretaria-Geral da Presidência da República, mediante indicação:" .
+lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8443\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - dos titulares dos órgãos a que se refere o inciso I do caput; e" .
+lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8443\/Artigo3\/Paragrafo1    lex:temParagrafoInciso    lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8443\/Artigo3\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - das entidades representativas de trabalhadores, de aposentados e pensionistas, e de empregadores a que se referem os incisos II a IV do caput." .
+lex:D8443\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8443\/Artigo3    lex:temParagrafo    lex:D8443\/Artigo3\/Paragrafo2 .
+lex:D8443\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2 º Os indicados deverão ser pessoas que exerçam cargos ou funções de relevância no órgão ou na entidade." .
+lex:D8443\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8443\/Artigo3    lex:temParagrafo    lex:D8443\/Artigo3\/Paragrafo3 .
+lex:D8443\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o O Ministro de Estado Chefe da Secretaria-Geral da Presidência da República convidará representantes do Poder Legislativo para participar das discussões." .
+lex:D8443\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo4 .
+lex:D8443\/Artigo4    lex:temConteudo    "Art. 4 º O Fórum contará, para seu funcionamento, com o apoio institucional e técnico-administrativo dos órgãos do Poder Executivo federal que o integram." .
+lex:D8443\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo5 .
+lex:D8443\/Artigo5    lex:temConteudo    "Art. 5o O Fórum terá prazo de duração de seis meses a partir da data de sua instalação, podendo ser prorrogado." .
+lex:D8443\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8443    lex:temArtigo    lex:D8443\/Artigo6 .
+lex:D8443\/Artigo6    lex:temConteudo    "Art. 6o Este Decreto entra em vigor na data de sua publicação." .

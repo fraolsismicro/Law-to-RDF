@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D88911    lex:ehUm    lex:DocLegal .
+lex:D88911    lex:temTextoIntegral    lex:HTMLs\/D88911.htm .
+lex:D88911\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo1 .
+lex:D88911\/Artigo1    lex:temConteudo    "Art 1º - Fica incluida no Grupo-Outras Atividades de Nível Superior, código NS-900, estruturado pelo Decreto nº 72.493, de 19 de julho de 1973, a Categoria Funcional de Engenheiro de Pesca, designada pelo código NS-941 ou LT-NS-941." .
+lex:D88911\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D88911\/Artigo1    lex:temParagrafo    lex:D88911\/Artigo1\/ParagrafoUnico .
+lex:D88911\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A categoria funcional de que trata este artigo compreende atividades de nível superior, de natureza especializada, envolvendo supervisão, planejamento, coordenação ou execução em grau de maior complexidade, no que concerne ao aproveitamento dos recursos naturais aqüícolas, à cultura e à exploração da riqueza biológica marítima, fluvial e lacustre, à pesca e à sua industrialização, seus serviços afins e correlatos." .
+lex:D88911\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo2 .
+lex:D88911\/Artigo2    lex:temConteudo    "Art 2º - As classes integrantes da categoria funcional prevista no artigo anterior distribuir-se-ão na forma do anexo deste decreto." .
+lex:D88911\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo3 .
+lex:D88911\/Artigo3    lex:temConteudo    "Art 3º - O ingresso na categoria funcional de que trata este decreto far-se-á na classe inicial, mediante concurso público, no regime da legislação trabalhista, observadas as normas legais e regulamentares pertinentes, exigindo-se do candidato certificado ou diploma de curso superior de Engenharia de Pesca ou habilitação legal equivalente e registro no Conselho Regional respectivo." .
+lex:D88911\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo4 .
+lex:D88911\/Artigo4    lex:temConteudo    "Art 4º - Os integrantes da Categoria de Engenheiro de Pesca ficarão sujeitos à prestação mínima de 40 (quarenta) horas semanais de trabalho." .
+lex:D88911\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo5 .
+lex:D88911\/Artigo5    lex:temConteudo    "Art 5º - Para o cumprimento do disposto no artigo 7º do Decreto nº 70.320, de 23 de março de 1972, o Ministério da Agricultura fornecerá ao Órgão Central do Sistema de Pessoal Civil da Administração Federal - SIPEC - os elementos essenciais à elaboração das especificações de classe da categoria ora criada." .
+lex:D88911\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo6 .
+lex:D88911\/Artigo6    lex:temConteudo    "Art 6º - Na aplicação do disposto neste decreto serão observadas, no que couber, as normas constantes do Decreto nº 72.493, de 19 de julho de 1973, com as modificações introduzidas na legislação posterior." .
+lex:D88911\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D88911    lex:temArtigo    lex:D88911\/Artigo7 .
+lex:D88911\/Artigo7    lex:temConteudo    "Art 7º - Este decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D88911\/Artigo7\/Inciso    lex:ehUm    lex:Inciso .
+lex:D88911\/Artigo7    lex:temInciso    lex:D88911\/Artigo7\/Inciso .
+lex:D88911\/Artigo7\/Inciso    lex:temConteudo    "C" .
+lex:D88911\/Artigo1    lex:remetePara    lex:D72493 .

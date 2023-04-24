@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4764    lex:ehUm    lex:DocLegal .
+lex:L4764    lex:temTextoIntegral    lex:HTMLs\/L4764.htm .
+lex:L4764\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4764    lex:temArtigo    lex:L4764\/Artigo1 .
+lex:L4764\/Artigo1    lex:temConteudo    "Art. 1º É concedida a inclusão, nos têrmos do art. 17 da Lei nº 1.254, de 4 de dezembro de 1950, combinado com o Art. 15 da Lei nº 1.889, de 13 de junho de 1953, da Escola de Serviço Social, anexa à Pontifícia Universidade Católica do Rio de Janeiro, entre os estabelecimentos de ensino superior subvencionados pelo Govêrno Federal, a que se refere o art. 16 da Lei nº 1.254 citada, correspondendo-lhe a subvenção anual de Cr$1.000.000,00 (um milhão de cruzeiros)." .
+lex:L4764\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4764    lex:temArtigo    lex:L4764\/Artigo2 .
+lex:L4764\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L4764\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4764    lex:temArtigo    lex:L4764\/Artigo3 .
+lex:L4764\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L4764\/Artigo1    lex:remetePara    lex:L1254\/Artigo17 .
+lex:L4764\/Artigo1    lex:remetePara    lex:L1889\/Artigo15 .
+lex:L4764\/Artigo1    lex:remetePara    lex:L1254\/Artigo16 .

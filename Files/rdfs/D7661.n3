@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7661    lex:ehUm    lex:DocLegal .
+lex:D7661    lex:temTextoIntegral    lex:HTMLs\/D7661.htm .
+lex:D7661\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7661    lex:temArtigo    lex:D7661\/Artigo1 .
+lex:D7661\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado o Estatuto Social da Empresa Brasileira de Serviços Hospitalares - EBSERH, nos termos do Anexo, empresa pública federal, unipessoal, vinculada ao Ministério da Educação." .
+lex:D7661\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7661    lex:temArtigo    lex:D7661\/Artigo2 .
+lex:D7661\/Artigo2    lex:temConteudo    "Art. 2o  A constituição inicial do capital social da EBSERH será de R$ 5.000.000,00 (cinco milhões de reais), a ser integralizado pela União." .
+lex:D7661\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7661    lex:temArtigo    lex:D7661\/Artigo3 .
+lex:D7661\/Artigo3    lex:temConteudo    "Art. 3o  O disposto no art. 1o, inciso II do caput, do Decreto no 757, de 19 de fevereiro de 1993, não se aplica à EBSERH." .
+lex:D7661\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7661    lex:temArtigo    lex:D7661\/Artigo4 .
+lex:D7661\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7661\/Artigo3    lex:remetePara    lex:D0757\/Artigo1 .

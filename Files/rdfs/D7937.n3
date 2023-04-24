@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7937    lex:ehUm    lex:DocLegal .
+lex:D7937    lex:temTextoIntegral    lex:HTMLs\/D7937.htm .
+lex:D7937\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7937    lex:temArtigo    lex:D7937\/Artigo1 .
+lex:D7937\/Artigo1    lex:temConteudo    "Art. 1 º  Ficam extintos os cargos efetivos vagos e que vierem a vagar de:" .
+lex:D7937\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7937\/Artigo1    lex:temInciso    lex:D7937\/Artigo1\/IncisoI .
+lex:D7937\/Artigo1\/IncisoI    lex:temConteudo    "I - Auxiliar Administrativo, da carreira de Especialista em Meio Ambiente, de que trata a Lei no 10.410, de 11 de janeiro de 2002; e" .
+lex:D7937\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7937\/Artigo1    lex:temInciso    lex:D7937\/Artigo1\/IncisoII .
+lex:D7937\/Artigo1\/IncisoII    lex:temConteudo    "II - de nível auxiliar do Plano Especial de Cargos do Ministério do Meio Ambiente e do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, de que trata a Lei no 11.357, de 19 de outubro de 2006." .
+lex:D7937\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7937    lex:temArtigo    lex:D7937\/Artigo2 .
+lex:D7937\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7937\/Artigo1\/IncisoI    lex:remetePara    lex:L10410 .
+lex:D7937\/Artigo1\/IncisoII    lex:remetePara    lex:L11357 .

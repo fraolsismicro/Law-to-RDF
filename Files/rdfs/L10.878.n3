@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.878    lex:ehUm    lex:DocLegal .
+lex:L10.878    lex:temTextoIntegral    lex:HTMLs\/L10.878.htm .
+lex:L10878\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10878    lex:temArtigo    lex:L10878\/Artigo1 .
+lex:L10878\/Artigo1    lex:temConteudo    "Art. 1o O caput do art. 20 da Lei no 8.036, de 11 de maio de 1990, passa a vigorar acrescido do seguinte inciso:" .
+lex:L10878\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:L10878\/Artigo1    lex:temInciso    lex:L10878\/Artigo1\/IncisoXVI .
+lex:L10878\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - necessidade pessoal, cuja urgência e gravidade decorra de desastre natural, conforme disposto em regulamento, observadas as seguintes condições:" .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L10878\/Artigo1\/IncisoXVI    lex:temIncisoAlinea    lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO    lex:temConteudo    "a) o trabalhador deverá ser residente em áreas comprovadamente atingidas de Município ou do Distrito Federal em situação de emergência ou em estado de calamidade pública, formalmente reconhecidos pelo Governo Federal;" .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO    lex:temIncisoAlinea    lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA    lex:temConteudo    "b) a solicitação de movimentação da conta vinculada será admitida até 90 (noventa) dias após a publicação do ato de reconhecimento, pelo Governo Federal, da situação de emergência ou de estado de calamidade pública; e" .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaO    lex:ehUm    lex:IncisoAlinea .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA    lex:temIncisoAlinea    lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaO .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaO    lex:temConteudo    "c) o valor máximo do saque da conta vinculada será definido na forma do regulamento." .
+lex:L10878\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10878    lex:temArtigo    lex:L10878\/Artigo2 .
+lex:L10878\/Artigo2    lex:temConteudo    "Art. 2o O Poder Executivo regulamentará o disposto nesta Lei." .
+lex:L10878\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L10878    lex:temArtigo    lex:L10878\/Artigo3 .
+lex:L10878\/Artigo3    lex:temConteudo    "Art. 3o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10878\/Artigo1\/IncisoXVI    lex:remetePara    lex:L8036consol\/Artigo20 .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO    lex:remetePara    lex:L8036consol\/Artigo20 .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA    lex:remetePara    lex:L8036consol\/Artigo20 .
+lex:L10878\/Artigo1\/IncisoXVI\/IncisoAlineaO\/IncisoAlineaA\/IncisoAlineaO    lex:remetePara    lex:L8036consol\/Artigo20 .

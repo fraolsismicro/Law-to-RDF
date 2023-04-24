@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2453    lex:ehUm    lex:DocLegal .
+lex:D2453    lex:temTextoIntegral    lex:HTMLs\/D2453.htm .
+lex:D2453\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2453    lex:temArtigo    lex:D2453\/Artigo1 .
+lex:D2453\/Artigo1    lex:temConteudo    "Art. 1º Fica aprovado o Programa de Dispêndios Globais - PDG das empresas estatais federais para o exercício de 1998, conforme demonstrativos por empresa constantes dos Anexos a este Decreto." .
+lex:D2453\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2453    lex:temArtigo    lex:D2453\/Artigo2 .
+lex:D2453\/Artigo2    lex:temConteudo    "Art. 2º As empresas a que se refere o artigo anterior deverão observar, na execução dos seus investimentos, o limite global de investimento constante do seu PDG e o limite de cada subprojeto, aprovado pela Lei nº 9.598, de 30 de dezembro de 1997." .
+lex:D2453\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2453    lex:temArtigo    lex:D2453\/Artigo3 .
+lex:D2453\/Artigo3    lex:temConteudo    "Art. 3º Fica a Secretaria de Coordenação e Controle das Empresas Estatais - SEST, do Ministério do Planejamento e Orçamento, autorizada a:" .
+lex:D2453\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2453\/Artigo3    lex:temInciso    lex:D2453\/Artigo3\/IncisoI .
+lex:D2453\/Artigo3\/IncisoI    lex:temConteudo    "I - adequar os Programas de Dispêndios Globais - PDG das empresas estatais que receberem recursos provenientes dos Orçamentos Fiscal e da Seguridade Social, ao limite das suplementações que vierem a ser aprovadas para aqueles Orçamentos, bem como para o Orçamento de Investimento;" .
+lex:D2453\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2453\/Artigo3    lex:temInciso    lex:D2453\/Artigo3\/IncisoII .
+lex:D2453\/Artigo3\/IncisoII    lex:temConteudo    "II - efetuar remanejamentos de valores entre as diversas rubricas de dispêndios do PDG, exceto a de investimentos, dentro do limite fixado nos Anexos a este Decreto para cada empresa estatal federal." .
+lex:D2453\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D2453    lex:temArtigo    lex:D2453\/Artigo4 .
+lex:D2453\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2453\/Artigo2    lex:remetePara    lex:L9598 .
+lex:D2453\/Texto00006    lex:remetePara    lex:index .

@@ -1,0 +1,102 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3364    lex:ehUm    lex:DocLegal .
+lex:D3364    lex:temTextoIntegral    lex:HTMLs\/D3364.htm .
+lex:D3364\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo1 .
+lex:D3364\/Artigo1    lex:temConteudo    "Art. 1o  O Comitê Nacional da Qualidade e Produtividade tem por objetivo orientar estrategicamente o Programa Brasileiro da Qualidade e Produtividade - PBQP." .
+lex:D3364\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo2 .
+lex:D3364\/Artigo2    lex:temConteudo    "Art. 2o O Comitê será integrado:" .
+lex:D3364\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoI .
+lex:D3364\/Artigo2\/IncisoI    lex:temConteudo    "I - pelos seguintes Ministros de Estado:" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "a) da Casa Civil da Presidência da República, que o presidirá;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "b) do Desenvolvimento, Indústria e Comércio Exterior;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do Planejamento, Orçamento e Gestão;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "d) do Trabalho e Emprego;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "e) da Ciência e Tecnologia;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "f) da Educação;" .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D3364\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "g) da Agricultura e do Abastecimento;" .
+lex:D3364\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoII .
+lex:D3364\/Artigo2\/IncisoII    lex:temConteudo    "II - pelo Presidente do Departamento Intersindical de Estatística e Estudos Sócio-Econômicos - DIEESE;" .
+lex:D3364\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoIII .
+lex:D3364\/Artigo2\/IncisoIII    lex:temConteudo    "III - pelo Presidente do Conselho Curador da Fundação para o Prêmio Nacional da Qualidade;" .
+lex:D3364\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoIV .
+lex:D3364\/Artigo2\/IncisoIV    lex:temConteudo    "IV - pelo Presidente da Confederação Nacional da Indústria - CNI;" .
+lex:D3364\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoV .
+lex:D3364\/Artigo2\/IncisoV    lex:temConteudo    "V - pelo Presidente do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas - SEBRAE;" .
+lex:D3364\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoVI .
+lex:D3364\/Artigo2\/IncisoVI    lex:temConteudo    "VI - pelo Presidente do Instituto Fórum de Líderes Empresariais Gazeta Mercantil;" .
+lex:D3364\/Artigo2\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo2    lex:temInciso    lex:D3364\/Artigo2\/IncisoVII .
+lex:D3364\/Artigo2\/IncisoVII    lex:temConteudo    "VII - pela Coordenadora Executiva do Instituto de Defesa dos Consumidores   IDEC." .
+lex:D3364\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3364\/Artigo2    lex:temParagrafo    lex:D3364\/Artigo2\/ParagrafoUnico .
+lex:D3364\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Presidente do Comitê Nacional poderá convidar outras autoridades ou lideranças representativas da sociedade, para participar das reuniões do colegiado." .
+lex:D3364\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo3 .
+lex:D3364\/Artigo3    lex:temConteudo    "Art. 3o Compete ao Presidente do Comitê Nacional:" .
+lex:D3364\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo3    lex:temInciso    lex:D3364\/Artigo3\/IncisoI .
+lex:D3364\/Artigo3\/IncisoI    lex:temConteudo    "I - coordenar as ações estratégicas do PBQP;" .
+lex:D3364\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo3    lex:temInciso    lex:D3364\/Artigo3\/IncisoII .
+lex:D3364\/Artigo3\/IncisoII    lex:temConteudo    "II - estabelecer as metas mobilizadoras nacionais e os subprogramas estruturantes do PBQP;" .
+lex:D3364\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo3    lex:temInciso    lex:D3364\/Artigo3\/IncisoIII .
+lex:D3364\/Artigo3\/IncisoIII    lex:temConteudo    "III - designar as entidades coordenadoras e os comitês gestores das metas e subprogramas de que trata o inciso anterior;" .
+lex:D3364\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo3    lex:temInciso    lex:D3364\/Artigo3\/IncisoIV .
+lex:D3364\/Artigo3\/IncisoIV    lex:temConteudo    "IV - baixar os atos necessários ao detalhamento, à execução, ao acompanhamento e à avaliação do PBQP." .
+lex:D3364\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo4 .
+lex:D3364\/Artigo4    lex:temConteudo    "Art. 4o  A Coordenação Executiva do PBQP será exercida pelo Ministro de Estado do Desenvolvimento, Indústria e Comércio Exterior, que poderá delegar essa atribuição, competindo-lhe:" .
+lex:D3364\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo4    lex:temInciso    lex:D3364\/Artigo4\/IncisoI .
+lex:D3364\/Artigo4\/IncisoI    lex:temConteudo    "I - coordenar as tarefas executivas do PBQP;" .
+lex:D3364\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo4    lex:temInciso    lex:D3364\/Artigo4\/IncisoII .
+lex:D3364\/Artigo4\/IncisoII    lex:temConteudo    "II - orientar e supervisionar as atividades dos coordenadores das metas mobilizadoras nacionais e dos subprogramas estruturantes;" .
+lex:D3364\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3364\/Artigo4    lex:temInciso    lex:D3364\/Artigo4\/IncisoIII .
+lex:D3364\/Artigo4\/IncisoIII    lex:temConteudo    "III - acompanhar e avaliar o desenvolvimento das metas mobilizadoras nacionais e dos subprogramas estruturantes, bem assim dos projetos e subprojetos a elas vinculados." .
+lex:D3364\/Artigo4\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3364\/Artigo4    lex:temParagrafo    lex:D3364\/Artigo4\/Paragrafo1 .
+lex:D3364\/Artigo4\/Paragrafo1    lex:temConteudo    "§ 1o  A Coordenação Executiva do PBQP será exercida com a cooperação da Casa Civil da Presidência da República, do Instituto Nacional de Metrologia, Normalização e Qualidade Industrial - INMETRO, do Instituto Brasileiro da Qualidade e Produtividade - IBQP e do Departamento Intersindical de Estatística e Estudos Sócio-Econômicos - DIEESE." .
+lex:D3364\/Artigo4\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3364\/Artigo4    lex:temParagrafo    lex:D3364\/Artigo4\/Paragrafo2 .
+lex:D3364\/Artigo4\/Paragrafo2    lex:temConteudo    "§ 2o  Cabe ao Ministério do Desenvolvimento, Indústria e Comércio Exterior executar os serviços de Secretaria-Executiva do Comitê Nacional, instruindo os assuntos e os atos a serem submetidos à decisão do colegiado e de seu Presidente." .
+lex:D3364\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo5 .
+lex:D3364\/Artigo5    lex:temConteudo    "Art. 5o Este Decreto entra em vigor na data de sua publicação." .
+lex:D3364\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D3364    lex:temArtigo    lex:D3364\/Artigo6 .
+lex:D3364\/Artigo6    lex:temConteudo    "Art. 6o  Revogam-se os Decretos de 9 de novembro de 1995 e de 28 de agosto de 1996, que dispõem sobre o Comitê Nacional da Qualidade e Produtividade." .
+lex:D3364\/Artigo6    lex:remetePara    lex:Dnn3470 .
+lex:D3364\/Artigo6    lex:remetePara    lex:Dnn4366 .

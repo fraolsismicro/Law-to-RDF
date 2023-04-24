@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1002    lex:ehUm    lex:DocLegal .
+lex:D1002    lex:temTextoIntegral    lex:HTMLs\/D1002.htm .
+lex:D1002\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1002    lex:temArtigo    lex:D1002\/Artigo1 .
+lex:D1002\/Artigo1    lex:temConteudo    "Art. 1° Ficam encerrados os trabalhos de inventariança da extinta Secretaria de Projetos Especiais da Presidência da República." .
+lex:D1002\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1002    lex:temArtigo    lex:D1002\/Artigo2 .
+lex:D1002\/Artigo2    lex:temConteudo    "Art. 2° Ficam transferidos da extinta Secretaria de Projetos Especiais para a Secretaria de Projetos Educacionais Especiais do Ministério da Educação e do Desporto:" .
+lex:D1002\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1002\/Artigo2    lex:temInciso    lex:D1002\/Artigo2\/IncisoI .
+lex:D1002\/Artigo2\/IncisoI    lex:temConteudo    "I - o acervo patrimonial;" .
+lex:D1002\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1002\/Artigo2    lex:temInciso    lex:D1002\/Artigo2\/IncisoII .
+lex:D1002\/Artigo2\/IncisoII    lex:temConteudo    "II - as atribuições e as competências;" .
+lex:D1002\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1002\/Artigo2    lex:temInciso    lex:D1002\/Artigo2\/IncisoIII .
+lex:D1002\/Artigo2\/IncisoIII    lex:temConteudo    "III - as obrigações e os direitos." .
+lex:D1002\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1002    lex:temArtigo    lex:D1002\/Artigo3 .
+lex:D1002\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .

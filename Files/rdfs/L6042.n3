@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6042    lex:ehUm    lex:DocLegal .
+lex:L6042    lex:temTextoIntegral    lex:HTMLs\/L6042.htm .
+lex:L6042\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6042    lex:temArtigo    lex:L6042\/Artigo1 .
+lex:L6042\/Artigo1    lex:temConteudo    "Art. 1º As escalas de vencimentos dos Grupos do Quadro Permanente do Senado Federal, aprovadas pelas Leis nºs 5.900, de 9 de julho de 1973; 5.903, de 9 de julho de 1973; e 5.975, de 12 de dezembro de 1973, passam a vigorar com os valores constantes do Anexo desta Lei." .
+lex:L6042\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6042\/Artigo1    lex:temParagrafo    lex:L6042\/Artigo1\/ParagrafoUnico .
+lex:L6042\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os proventos dos inativos serão atualizados na base dos valores constantes do Anexo referido neste artigo, para cada categoria e nível correspondentes do pessoal em atividade, nos termos da Lei nº 2.622, de 1 de outubro de 1955, independentemente de prévia apostila nos respectivos títulos." .
+lex:L6042\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6042    lex:temArtigo    lex:L6042\/Artigo2 .
+lex:L6042\/Artigo2    lex:temConteudo    "Art. 2º Os valores retributivos decorrentes do disposto nesta Lei vigorarão a partir de 1 de março de 1974 e a despesa resultante será atendida com recursos orçamentários, inclusive na forma prevista no art. 6º, item I, da Lei nº 5.964, de 10 de dezembro de 1973, que estima a receita e fixa a despesa da União para o exercício financeiro de 1974." .
+lex:L6042\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6042    lex:temArtigo    lex:L6042\/Artigo3 .
+lex:L6042\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6042\/Artigo1    lex:remetePara    lex:L5900 .
+lex:L6042\/Artigo1    lex:remetePara    lex:L5903 .
+lex:L6042\/Artigo1    lex:remetePara    lex:L5975 .
+lex:L6042\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L2622 .
+lex:L6042\/Artigo2    lex:remetePara    lex:L5964\/Artigo6 .

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4681    lex:ehUm    lex:DocLegal .
+lex:L4681    lex:temTextoIntegral    lex:HTMLs\/L4681.htm .
+lex:L4681\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4681    lex:temArtigo    lex:L4681\/Artigo1 .
+lex:L4681\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, pelo Ministério da Fazenda, crédito especial de Cr$ 39.412.700 (trinta e nove milhões, quatrocentos e doze mil e setecentos cruzeiros), para ocorrer ao pagamento das despesas com o prosseguimento e conclusão das obras de construção do prédio destinado à Alfândega de Itajaí, Estado de Santa Catarina, inclusive retribuição dos encargos de fiscalização de que trata o Decreto-Lei nº 6.750, de 29 de julho de 1944." .
+lex:L4681\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4681    lex:temArtigo    lex:L4681\/Artigo2 .
+lex:L4681\/Artigo2    lex:temConteudo    "Art. 2º O crédito a que se refere a presente Lei será registrado no Tribunal de Contas da União e automàticamente distribuído ao Tesouro Nacional, observado o disposto no art. 43 da Lei nº 4.320, de 17 de março de 1964." .
+lex:L4681\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4681    lex:temArtigo    lex:L4681\/Artigo3 .
+lex:L4681\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4681\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4681    lex:temArtigo    lex:L4681\/Artigo4 .
+lex:L4681\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L4681\/Artigo1    lex:remetePara    lex:Del6750 .
+lex:L4681\/Artigo2    lex:remetePara    lex:L4320\/Artigo43 .

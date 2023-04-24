@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.710    lex:ehUm    lex:DocLegal .
+lex:L10.710    lex:temTextoIntegral    lex:HTMLs\/L10.710.htm .
+lex:L10710\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10710    lex:temArtigo    lex:L10710\/Artigo1 .
+lex:L10710\/Artigo1    lex:temConteudo    "Art. 1o A Lei no 8.213, de 24 de julho de 1991, passa a vigorar com as seguintes alterações:" .
+lex:L10710\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10710\/Artigo1    lex:temParagrafo    lex:L10710\/Artigo1\/ParagrafoUnico .
+lex:L10710\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. (Revogado pela Lei no 9.528, de 10 de dezembro de 1997)' (NR)" .
+lex:L10710\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L10710\/Artigo1    lex:temParagrafo    lex:L10710\/Artigo1\/ParagrafoUnico .
+lex:L10710\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O salário-maternidade de que trata este artigo será pago diretamente pela Previdência Social.' (NR)" .
+lex:L10710\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10710\/Artigo1    lex:temParagrafo    lex:L10710\/Artigo1\/Paragrafo1 .
+lex:L10710\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Cabe à empresa pagar o salário-maternidade devido à respectiva empregada gestante, efetivando-se a compensação, observado o disposto no art. 248 da Constituição Federal, quando do recolhimento das contribuições incidentes sobre a folha de salários e demais rendimentos pagos ou creditados, a qualquer título, à pessoa física que lhe preste serviço." .
+lex:L10710\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10710\/Artigo1    lex:temParagrafo    lex:L10710\/Artigo1\/Paragrafo2 .
+lex:L10710\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o A empresa deverá conservar durante 10 (dez) anos os comprovantes dos pagamentos e os atestados correspondentes para exame pela fiscalização da Previdência Social." .
+lex:L10710\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10710\/Artigo1    lex:temParagrafo    lex:L10710\/Artigo1\/Paragrafo3 .
+lex:L10710\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o O salário-maternidade devido à trabalhadora avulsa será pago diretamente pela Previdência Social.' (NR)" .
+lex:L10710\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10710    lex:temArtigo    lex:L10710\/Artigo2 .
+lex:L10710\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação, produzindo efeitos em relação aos benefícios requeridos a partir do primeiro dia do mês seguinte ao de sua publicação." .
+lex:L10710\/Texto00001    lex:remetePara    lex:L8213cons\/Artigo71 .
+lex:L10710\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8213cons\/Artigo71 .
+lex:L10710\/Artigo1\/Paragrafo1    lex:remetePara    lex:L8213cons\/Artigo72\/Paragrafo1 .
+lex:L10710\/Artigo1\/Texto00006    lex:remetePara    lex:L8213cons\/Artigo73 .

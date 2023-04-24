@@ -1,0 +1,84 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp08    lex:ehUm    lex:DocLegal .
+lex:Lcp08    lex:temTextoIntegral    lex:HTMLs\/Lcp08.htm .
+lex:Lcp08\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo1 .
+lex:Lcp08\/Artigo1    lex:temConteudo    "Art. 1º - É instituído, na forma prevista nesta Lei Complementar, o Programa de Formação do Patrimônio do Servidor Público." .
+lex:Lcp08\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo2 .
+lex:Lcp08\/Artigo2    lex:temConteudo    "Art. 2º - A União, os Estados, os Municípios, o Distrito Federal e os Territórios contribuirão para o Programa, mediante recolhimento mensal ao Banco do Brasil das seguintes parcelas:" .
+lex:Lcp08\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp08\/Artigo2    lex:temInciso    lex:Lcp08\/Artigo2\/IncisoI .
+lex:Lcp08\/Artigo2\/IncisoI    lex:temConteudo    "I - União:" .
+lex:Lcp08\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Lcp08\/Artigo2    lex:temInciso    lex:Lcp08\/Artigo2\/IncisoII .
+lex:Lcp08\/Artigo2\/IncisoII    lex:temConteudo    "II - Estados, Municípios, Distrito Federal e Territórios:" .
+lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp08\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1 .
+lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1    lex:temConteudo    "a) 1% (um por cento) das receitas correntes próprias, deduzidas as transferências feitas a outras entidades da Administração Pública, a partir de 1º de julho de 1971; 1,5% (um e meio por cento) em 1972 e 2% (dois por cento) no ano de 1973 e subseqüentes;" .
+lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1\/IncisoAlinea2    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1    lex:temIncisoAlinea    lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1\/IncisoAlinea2 .
+lex:Lcp08\/Artigo2\/IncisoII\/IncisoAlinea1\/IncisoAlinea2    lex:temConteudo    "b) 2% (dois por cento) das transferências recebidas do Governo da União e dos Estados através do Fundo de Participações dos Estados, Distrito Federal e Municípios, a partir de 1º de julho de 1971." .
+lex:Lcp08\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp08\/Artigo2    lex:temParagrafo    lex:Lcp08\/Artigo2\/ParagrafoUnico .
+lex:Lcp08\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Não recairá, em nenhuma hipótese, sobre as transferências de que trata este artigo, mais de uma contribuição." .
+lex:Lcp08\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo3 .
+lex:Lcp08\/Artigo3    lex:temConteudo    "Art. 3º - As autarquias, empresas públicas, sociedades de economia mista e fundações, da União, dos Estados, dos Municípios, do Distrito Federal e dos Territórios contribuirão para o Programa com 0,4% (quatro décimos por cento) da receita orçamentária, inclusive transferências e receita operacional, a partir de 1º de julho de 1971; 0,6% (seis décimos por cento) em 1972 e 0,8% (oito décimos por cento) no ano de 1973 e subseqüentes." .
+lex:Lcp08\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo4 .
+lex:Lcp08\/Artigo4    lex:temConteudo    "Art. 4º - As contribuições recebidas pelo Banco do Brasil serão distribuídas entre todos os servidores em atividade, civis e militares, da União, dos Estados, Municípios, Distrito Federal e Territórios, bem como das suas entidades da Administração Indireta e fundações, observados os seguintes critérios:" .
+lex:Lcp08\/Artigo4\/Alinea50    lex:ehUm    lex:Alinea .
+lex:Lcp08\/Artigo4    lex:temAlinea    lex:Lcp08\/Artigo4\/Alinea50 .
+lex:Lcp08\/Artigo4\/Alinea50    lex:temConteudo    "a) 50% proporcionais ao montante da remuneração percebida pelo servidor, no período;" .
+lex:Lcp08\/Artigo4\/Alinea50    lex:ehUm    lex:Alinea .
+lex:Lcp08\/Artigo4    lex:temAlinea    lex:Lcp08\/Artigo4\/Alinea50 .
+lex:Lcp08\/Artigo4\/Alinea50    lex:temConteudo    "b) 50% em partes proporcionais aos qüinqüênios de serviços prestados pelo servidor." .
+lex:Lcp08\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp08\/Artigo4    lex:temParagrafo    lex:Lcp08\/Artigo4\/ParagrafoUnico .
+lex:Lcp08\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A distribuição de que trata este artigo somente beneficiará os titulares, nas entidades mencionadas nesta Lei Complementar, de cargo ou função de provimento efetivo ou que possam adquirir estabilidade, ou de emprego de natureza não eventual, regido pela legislação trabalhista." .
+lex:Lcp08\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo5 .
+lex:Lcp08\/Artigo5    lex:temConteudo    "Art. 5º - O Banco do Brasil S.A., ao qual competirá a administração do Programa, manterá contas individualizadas para cada servidor e cobrará uma comissão de serviço, tudo na forma que for estipulada pelo Conselho Monetário Nacional." .
+lex:Lcp08\/Artigo5\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp08\/Artigo5    lex:temParagrafo    lex:Lcp08\/Artigo5\/Paragrafo1 .
+lex:Lcp08\/Artigo5\/Paragrafo1    lex:temConteudo    "§ 1º - Os depósitos a que se refere este artigo não estão sujeitos a imposto de renda ou contribuição previdenciária, nem se incorporam, para qualquer fim, à remuneração do cargo, função ou emprego." .
+lex:Lcp08\/Artigo5\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:Lcp08\/Artigo5    lex:temParagrafo    lex:Lcp08\/Artigo5\/Paragrafo6 .
+lex:Lcp08\/Artigo5\/Paragrafo6    lex:temConteudo    "§ 6º - O Banco do Brasil S.A. organizará o cadastro geral dos beneficiários desta Lei Complementar." .
+lex:Lcp08\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo7 .
+lex:Lcp08\/Artigo7    lex:temConteudo    "Art. 7º - As importâncias creditadas nas contas do Programa de Formação do Patrimônio do Servidor Público e do Programa de Integração Social são inalienáveis e impenhoráveis, e serão obrigatoriamente transferidas de um para outro, no caso de passar o servidor, pela alteração da relação de emprego, do setor público para o privado, e vice-versa." .
+lex:Lcp08\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo8 .
+lex:Lcp08\/Artigo8    lex:temConteudo    "Art. 8º - A aplicação do disposto nesta Lei complementar aos Estados e Municípios, às suas entidades da Administração Indireta e fundações, bem como aos seus servidores, dependerá de norma legislativa estadual ou municipal." .
+lex:Lcp08\/Artigo9    lex:ehUm    lex:Artigo .
+lex:Lcp08    lex:temArtigo    lex:Lcp08\/Artigo9 .
+lex:Lcp08\/Artigo9    lex:temConteudo    "Art. 9º - Esta Lei Complementar entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Lcp08\/Texto    lex:remetePara    lex:Lcp19 .
+lex:Lcp08\/Texto    lex:remetePara    lex:Del2052\/Artigo1 .
+lex:Lcp08\/Texto    lex:remetePara    lex:Constituicao\/Artigo239 .
+lex:Lcp08\/Texto    lex:remetePara    lex:D4524 .
+lex:Lcp08\/Artigo5\/Paragrafo2    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/Paragrafo2 .
+lex:Lcp08\/Artigo5\/AlineaPela    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/AlineaPela .
+lex:Lcp08\/Artigo5\/AlineaPelos    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/AlineaPelos .
+lex:Lcp08\/Artigo5\/AlineaPelo    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/AlineaPelo .
+lex:Lcp08\/Artigo5\/Paragrafo3    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/Paragrafo3 .
+lex:Lcp08\/Artigo5\/Paragrafo4    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/Paragrafo4 .
+lex:Lcp08\/Artigo5\/Paragrafo5    lex:revogadoPor    lex:Lcp26\/Artigo7 .
+lex:Lcp26\/Artigo7    lex:revogou    lex:Lcp08\/Artigo5\/Paragrafo5 .
+lex:Lcp08\/Artigo5\/Artigo6    lex:revogadoPor    lex:Lcp19\/Artigo3 .
+lex:Lcp19\/Artigo3    lex:revogou    lex:Lcp08\/Artigo5\/Artigo6 .

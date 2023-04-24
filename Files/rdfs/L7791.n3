@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7791    lex:ehUm    lex:DocLegal .
+lex:L7791    lex:temTextoIntegral    lex:HTMLs\/L7791.htm .
+lex:L7791\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7791    lex:temArtigo    lex:L7791\/Artigo1 .
+lex:L7791\/Artigo1    lex:temConteudo    "Art. 1º Fica o Poder Executivo autorizado a abrir, ao Orçamento Fiscal da União, (Lei nº 7.715, de 3 de janeiro de 1989), créditos suplementares até o limite de NCz$ 1.445.000.000,00 (um bilhão, quatrocentos e quarenta e cinco milhões de cruzados novos), para atender despesas com pessoal e encargos sociais, conforme indicado no Anexo I desta Lei." .
+lex:L7791\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7791\/Artigo1    lex:temParagrafo    lex:L7791\/Artigo1\/ParagrafoUnico .
+lex:L7791\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os recursos necessários à abertura dos créditos autorizada neste artigo decorrerão das disponibilidades provenientes de cancelamentos que ocorrerem em virtude da execução do disposto no artigo seguinte." .
+lex:L7791\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7791    lex:temArtigo    lex:L7791\/Artigo2 .
+lex:L7791\/Artigo2    lex:temConteudo    "Art. 2º O disposto no § 4º do art. 18 da Lei nº 7.730, de 31 de janeiro de 1989, estender-se-á ao pagamento da Dívida Pública Federal e ao refinanciamento da Dívida Externa garantida pela União." .
+lex:L7791\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7791    lex:temArtigo    lex:L7791\/Artigo3 .
+lex:L7791\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L7791\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7791    lex:temArtigo    lex:L7791\/Artigo4 .
+lex:L7791\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L7791\/Artigo1    lex:remetePara    lex:L7715 .
+lex:L7791\/Artigo2    lex:remetePara    lex:L7730\/Artigo18\/Paragrafo4 .

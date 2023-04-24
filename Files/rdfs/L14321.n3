@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L14321    lex:ehUm    lex:DocLegal .
+lex:L14321    lex:temTextoIntegral    lex:HTMLs\/L14321.htm .
+lex:L14321\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L14321    lex:temArtigo    lex:L14321\/Artigo1A .
+lex:L14321\/Artigo1A    lex:temConteudo    "Art. 1Âº Esta Lei tipifica o crime de violÃªncia institucional." .
+lex:L14321\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L14321    lex:temArtigo    lex:L14321\/Artigo2A .
+lex:L14321\/Artigo2A    lex:temConteudo    "Art. 2Âº A Lei nÂº 13.869, de 5 de setembro de 2019, passa a vigorar acrescida do seguinte art. 15-A:" .
+lex:L14321\/Artigo15-A    lex:ehUm    lex:Artigo .
+lex:L14321    lex:temArtigo    lex:L14321\/Artigo15-A .
+lex:L14321\/Artigo15-A    lex:temConteudo    "Art. 15-A. Submeter a vÃ­tima de infraÃ§Ã£o penal ou a testemunha de crimes violentos a procedimentos desnecessÃ¡rios, repetitivos ou invasivos, que a leve a reviver, sem estrita necessidade:" .
+lex:L14321\/Artigo15-A\/ArtigoPena    lex:ehUm    lex:ArtigoPena .
+lex:L14321\/Artigo15-A    lex:temArtigoPena    lex:L14321\/Artigo15-A\/ArtigoPena .
+lex:L14321\/Artigo15-A\/ArtigoPena    lex:temConteudo    "Pena - detenÃ§Ã£o, de 3 (trÃªs) meses a 1 (um) ano, e multa." .
+lex:L14321\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L14321    lex:temArtigo    lex:L14321\/Artigo3A .
+lex:L14321\/Artigo3A    lex:temConteudo    "Art. 3Âº Esta Lei entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:L14321\/Artigo2A    lex:remetePara    lex:L13869 .
+lex:L14321\/Artigo15-A    lex:remetePara    lex:L13869\/Artigo15 .

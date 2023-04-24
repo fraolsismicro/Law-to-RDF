@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3512    lex:ehUm    lex:DocLegal .
+lex:L3512    lex:temTextoIntegral    lex:HTMLs\/L3512.htm .
+lex:L3512\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3512    lex:temArtigo    lex:L3512\/Artigo1 .
+lex:L3512\/Artigo1    lex:temConteudo    "Art. 1º São revigorados, pelo prazo de 2 (dois) anos, os créditos especiais de Cr$ 100.000.000,00 (cem milhões de cruzeiros), Cr$ 300.000.000,00 (trezentos milhões de cruzeiros) e Cr$ 30.000.000,00 (trinta milhões de cruzeiros), autorizados pelas Leis número 2.974, de 26 de novembro de 1956, nº 3.244, de 14 de agôsto de 1957, e nº 3.057, de 22 de dezembro de 1956, e abertos pelos Decretos nº 41.644, de 31 de maio de 1957, nº 42.490, de 22 de outubro de 1957, e nº 41.231, de 29 de março de 1957, para atender, respectivamente, às seguintes despesas:" .
+lex:L3512\/Artigo1\/AlineaReaparelhamento    lex:ehUm    lex:Alinea .
+lex:L3512\/Artigo1    lex:temAlinea    lex:L3512\/Artigo1\/AlineaReaparelhamento .
+lex:L3512\/Artigo1\/AlineaReaparelhamento    lex:temConteudo    "a) reaparelhamento dos órgãos de arrecadação e fiscalização dos impostos internos da União exceto de pessoal;" .
+lex:L3512\/Artigo1\/AlineaReaparelhamento    lex:ehUm    lex:Alinea .
+lex:L3512\/Artigo1    lex:temAlinea    lex:L3512\/Artigo1\/AlineaReaparelhamento .
+lex:L3512\/Artigo1\/AlineaReaparelhamento    lex:temConteudo    "b) reaparelhamento das repartições aduaneiras;" .
+lex:L3512\/Artigo1\/AlineaAperfeicoamento    lex:ehUm    lex:Alinea .
+lex:L3512\/Artigo1    lex:temAlinea    lex:L3512\/Artigo1\/AlineaAperfeicoamento .
+lex:L3512\/Artigo1\/AlineaAperfeicoamento    lex:temConteudo    "c) aperfeiçoamento e inspeção dos serviços fazendários, inclusive pessoal e material." .
+lex:L3512\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3512    lex:temArtigo    lex:L3512\/Artigo2 .
+lex:L3512\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L3512\/Artigo1    lex:remetePara    lex:L2974 .
+lex:L3512\/Artigo1    lex:remetePara    lex:L3244 .
+lex:L3512\/Artigo1    lex:remetePara    lex:L3057 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2466    lex:ehUm    lex:DocLegal .
+lex:Del2466    lex:temTextoIntegral    lex:HTMLs\/Del2466.htm .
+lex:Del2466\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2466    lex:temArtigo    lex:Del2466\/Artigo1 .
+lex:Del2466\/Artigo1    lex:temConteudo    "Art. 1° O produto da alienação dos imóveis residenciais, de propriedade da União, localizados no Distrito Federal, será integralmente recolhido ao Tesouro Nacional, como Receita de Capital, ressalvado o disposto nas leis n°s 5.651, de 11 de dezembro de 1970, e 5.658, de 7 de junho de 1971." .
+lex:Del2466\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2466    lex:temArtigo    lex:Del2466\/Artigo2 .
+lex:Del2466\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto-Lei entra em vigor na data de sua publicação." .
+lex:Del2466\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2466    lex:temArtigo    lex:Del2466\/Artigo3 .
+lex:Del2466\/Artigo3    lex:temConteudo    "Art. 3° Revogam-se as disposições em contrário e, em especial, o § 1° do art. 14 do Decreto-Lei n° 76, de 21 de novembro de 1966." .
+lex:Del2466\/Artigo1    lex:remetePara    lex:L5651 .
+lex:Del2466\/Artigo1    lex:remetePara    lex:L5658 .
+lex:Del2466\/Artigo3    lex:remetePara    lex:Del0076\/Artigo14\/Paragrafo1 .

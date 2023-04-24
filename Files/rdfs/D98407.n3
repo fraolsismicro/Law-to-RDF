@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D98407    lex:ehUm    lex:DocLegal .
+lex:D98407    lex:temTextoIntegral    lex:HTMLs\/D98407.htm .
+lex:D98407\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D98407    lex:temArtigo    lex:D98407\/Artigo1 .
+lex:D98407\/Artigo1    lex:temConteudo    "Art. 1º - O Segundo Protocolo Adicional ao Acordo Comercial 17A, no Setor da Indústria de Refrigeração e Ar Condicionado, entre o Brasil e a Argentina, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D98407\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D98407    lex:temArtigo    lex:D98407\/Artigo2 .
+lex:D98407\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D98407\/Artigo2\/AlineaDecreto    lex:ehUm    lex:Alinea .
+lex:D98407\/Artigo2    lex:temAlinea    lex:D98407\/Artigo2\/AlineaDecreto .
+lex:D98407\/Artigo2\/AlineaDecreto    lex:temConteudo    "a) Decreto nº 4.070/84 de 28/XII/84, e disposições complementares:" .
+lex:D98407\/Artigo2\/AlineaDecreto    lex:ehUm    lex:Alinea .
+lex:D98407\/Artigo2    lex:temAlinea    lex:D98407\/Artigo2\/AlineaDecreto .
+lex:D98407\/Artigo2\/AlineaDecreto    lex:temConteudo    "b) Decreto nº 1.411/83, de 3/VI/1983." .
+lex:D98407\/Artigo2\/AlineaDecretos    lex:ehUm    lex:Alinea .
+lex:D98407\/Artigo2    lex:temAlinea    lex:D98407\/Artigo2\/AlineaDecretos .
+lex:D98407\/Artigo2\/AlineaDecretos    lex:temConteudo    "c) Decretos nºs 604 e 605/84, de 17/II/1984." .
+lex:D98407\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D98407\/Artigo2    lex:temInciso    lex:D98407\/Artigo2\/IncisoLI .
+lex:D98407\/Artigo2\/IncisoLI    lex:temConteudo    "LI - Livre importação" .

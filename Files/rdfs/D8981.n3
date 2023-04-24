@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8981    lex:ehUm    lex:DocLegal .
+lex:D8981    lex:temTextoIntegral    lex:HTMLs\/D8981.htm .
+lex:D8981\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8981    lex:temArtigo    lex:D8981\/Artigo1 .
+lex:D8981\/Artigo1    lex:temConteudo    "Art. 1 º  O Anexo ao Decreto n º 8.872, de 10 de outubro de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8981\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8981\/Artigo1    lex:temInciso    lex:D8981\/Artigo1\/IncisoII .
+lex:D8981\/Artigo1\/IncisoII    lex:temConteudo    "II - à Secretaria-Geral da Presidência da República:" .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa    lex:ehUm    lex:IncisoAlinea .
+lex:D8981\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa    lex:temConteudo    "a) Empresa Brasil de Comunicação - EBC, por meio da Secretaria Especial de Comunicação Social; e" .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa    lex:ehUm    lex:IncisoAlinea .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa    lex:temIncisoAlinea    lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa    lex:temConteudo    "b) Empresa de Planejamento e Logística - EPL, por meio da Secretaria Especial do Programa de Parcerias de Investimentos;" .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa    lex:temIncisoAlineaItem    lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa\/IncisoAlineaItem .
+lex:D8981\/Artigo1\/IncisoII\/IncisoAlineaEmpresa\/IncisoAlineaEmpresa\/IncisoAlineaItem    lex:temConteudo    "............................................................................................." .
+lex:D8981\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D8981\/Artigo1    lex:temInciso    lex:D8981\/Artigo1\/IncisoX .
+lex:D8981\/Artigo1\/IncisoX    lex:temConteudo    "X - ao Ministério da Justiça e Segurança Pública:" .
+lex:D8981\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8981    lex:temArtigo    lex:D8981\/Artigo2 .
+lex:D8981\/Artigo2    lex:temConteudo    "Art. 2 º  Fica revogada a alínea b do inciso I do caput do artigo único do Anexo ao Decreto n º 8.872, de 10 de outubro de 2016." .
+lex:D8981\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8981    lex:temArtigo    lex:D8981\/Artigo3 .
+lex:D8981\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8981\/Artigo1    lex:remetePara    lex:D8872 .
+lex:D8981\/Artigo1\/IncisoII    lex:remetePara    lex:D8872\/ .
+lex:D8981\/Artigo1\/IncisoX    lex:remetePara    lex:D8872\/ .
+lex:D8981\/Artigo2    lex:remetePara    lex:D8872\/ .

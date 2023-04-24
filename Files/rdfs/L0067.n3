@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L0067    lex:ehUm    lex:DocLegal .
+lex:L0067    lex:temTextoIntegral    lex:HTMLs\/L0067.htm .
+lex:L0067\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo1 .
+lex:L0067\/Artigo1    lex:temConteudo    "Art. 1º. Os saIdos que apresentem, a juizo do Ministro da Fazenda, as dotações de despesa do orçamento geral da Republica, são considerados recursos para o effeito do disposto no art. 183, da Constituição Federal." .
+lex:L0067\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo2 .
+lex:L0067\/Artigo2    lex:temConteudo    "Art. 2º. Os saldos apurados, mensalmente, dentro das consignações decretadas, no pagamento do subsidio de Deputados e Senadores, terão para cada Casa do Poder Legislativo a seguinte applicação :" .
+lex:L0067\/Artigo2\/AlineaPagamento    lex:ehUm    lex:Alinea .
+lex:L0067\/Artigo2    lex:temAlinea    lex:L0067\/Artigo2\/AlineaPagamento .
+lex:L0067\/Artigo2\/AlineaPagamento    lex:temConteudo    "a) pagamento de ajuda de custo a novos Deputados ou Senadores ;" .
+lex:L0067\/Artigo2\/AlineaAcquisicao    lex:ehUm    lex:Alinea .
+lex:L0067\/Artigo2    lex:temAlinea    lex:L0067\/Artigo2\/AlineaAcquisicao .
+lex:L0067\/Artigo2\/AlineaAcquisicao    lex:temConteudo    "b) acquisição de material permanente, preciso e conveniente á melhor execução dos serviços a cargo das commissões technicas :" .
+lex:L0067\/Artigo2\/AlineaInstallacao    lex:ehUm    lex:Alinea .
+lex:L0067\/Artigo2    lex:temAlinea    lex:L0067\/Artigo2\/AlineaInstallacao .
+lex:L0067\/Artigo2\/AlineaInstallacao    lex:temConteudo    "c) installação material de novos serviços ;" .
+lex:L0067\/Artigo2\/AlineaFormacao    lex:ehUm    lex:Alinea .
+lex:L0067\/Artigo2    lex:temAlinea    lex:L0067\/Artigo2\/AlineaFormacao .
+lex:L0067\/Artigo2\/AlineaFormacao    lex:temConteudo    "d) formação e manutenção material de bibliothecas especializadas para as commissões technicas, e melhoramento e aperfeiçoamento das Bibliothecas Geraes e Archivos ;" .
+lex:L0067\/Artigo2\/AlineaModificacoes    lex:ehUm    lex:Alinea .
+lex:L0067\/Artigo2    lex:temAlinea    lex:L0067\/Artigo2\/AlineaModificacoes .
+lex:L0067\/Artigo2\/AlineaModificacoes    lex:temConteudo    "e) modificações internas que se tornem indispensaveis nos edificios, reparações que se façam precisas, limpeza periodica e conservação dos mesmos." .
+lex:L0067\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo3 .
+lex:L0067\/Artigo3    lex:temConteudo    "Art. 3º. O aproveitamento dos saldos, a que se refere o artigo anterior, será determinado respectivamente pela Camara dos Deputados ou pelo Senado Federal, mediante proposta especificada de sua mesa." .
+lex:L0067\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo4 .
+lex:L0067\/Artigo4    lex:temConteudo    "Art. 4º. A requisição do pagamento das despesas autorizadas pela Camara ou pelo Senado, será feita ao ministro da Fazenda pelo 1º secretario da Casa do Poder Legislativo interessada no assumpto." .
+lex:L0067\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo5 .
+lex:L0067\/Artigo5    lex:temConteudo    "Art. 5º. A prestação de janeiro da consignação material da verba 5ª, do art. 5º, da Iei n. 5, de 1934, referente ao Senado Federal, será immediatamente entregue á mesma Casa Legislativa." .
+lex:L0067\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L0067    lex:temArtigo    lex:L0067\/Artigo6 .
+lex:L0067\/Artigo6    lex:temConteudo    "Art. 6º. Revogam-se as disposições em contrario." .
+lex:L0067\/Artigo1    lex:remetePara    lex:Constituicao34\/Artigo183 .
+lex:L0067\/Artigo5    lex:remetePara    lex:lei-5-12-novembro-1934-556630-publicacaoinal-79302-pl .

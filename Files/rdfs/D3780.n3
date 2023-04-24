@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3780    lex:ehUm    lex:DocLegal .
+lex:D3780    lex:temTextoIntegral    lex:HTMLs\/D3780.htm .
+lex:D3780\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3780    lex:temArtigo    lex:D3780\/Artigo1 .
+lex:D3780\/Artigo1    lex:temConteudo    "Art. 1o  O art. 88 das Normas do Cerimonial Público, aprovadas pelo Decreto no 70.274, de 9 de março de 1972, passa a vigorar acrescido do seguinte § 2o, renumerando-se o atual parágrafo único para § 1o:" .
+lex:D3780\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3780    lex:temArtigo    lex:D3780\/Artigo2 .
+lex:D3780\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3780\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3780    lex:temArtigo    lex:D3780\/Artigo3 .
+lex:D3780\/Artigo3    lex:temConteudo    "Art. 3o  Revoga-se o Decreto no 3.765, de 6 de março de 2001." .
+lex:D3780\/Artigo1    lex:remetePara    lex:D70274 .
+lex:D3780\/Texto00001    lex:remetePara    lex:D70274\/Artigo88\/Paragrafo2 .
+lex:D3780\/Artigo3    lex:remetePara    lex:D3765 .

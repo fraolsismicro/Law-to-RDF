@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8678    lex:ehUm    lex:DocLegal .
+lex:D8678    lex:temTextoIntegral    lex:HTMLs\/D8678.htm .
+lex:D8678\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8678    lex:temInciso    lex:D8678\/IncisoI .
+lex:D8678\/IncisoI    lex:temConteudo    "I - da Superintendência de Desenvolvimento do Centro-Oeste - SUDECO para a Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão:" .
+lex:D8678\/IncisoI\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8678\/IncisoI    lex:temIncisoAlinea    lex:D8678\/IncisoI\/IncisoAlineaUm .
+lex:D8678\/IncisoI\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 101.4;" .
+lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8678\/IncisoI\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 102.2; e" .
+lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove    lex:ehUm    lex:IncisoAlinea .
+lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove .
+lex:D8678\/IncisoI\/IncisoAlineaUm\/IncisoAlineaUm\/IncisoAlineaNove    lex:temConteudo    "c) nove DAS 102.1; e" .
+lex:D8678\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8678    lex:temInciso    lex:D8678\/IncisoII .
+lex:D8678\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão do Ministério do Planejamento, Orçamento e Gestão para a SUDECO:" .
+lex:D8678\/IncisoII\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8678\/IncisoII    lex:temIncisoAlinea    lex:D8678\/IncisoII\/IncisoAlineaUm .
+lex:D8678\/IncisoII\/IncisoAlineaUm    lex:temConteudo    "a) um DAS 102.4; e" .
+lex:D8678\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:D8678\/IncisoII\/IncisoAlineaUm    lex:temIncisoAlinea    lex:D8678\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm .
+lex:D8678\/IncisoII\/IncisoAlineaUm\/IncisoAlineaUm    lex:temConteudo    "b) um DAS 101.2." .
+lex:D8678\/Texto    lex:revogadoPor    lex:D8890\/Artigo10 .
+lex:D8890\/Artigo10    lex:revogou    lex:D8678\/Texto .
+lex:D8678\/Texto    lex:remetePara    lex:D8890\/Artigo9 .
+lex:D8678\/Texto    lex:remetePara    lex:D8678 .
+lex:D8678\/IncisoII\/IncisoAlineaUm\/Artigo2    lex:remetePara    lex:D8277\/ .

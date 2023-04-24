@@ -1,0 +1,63 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7822    lex:ehUm    lex:DocLegal .
+lex:D7822    lex:temTextoIntegral    lex:HTMLs\/D7822.htm .
+lex:D7822\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7822    lex:temArtigo    lex:D7822\/Artigo1 .
+lex:D7822\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo ao Decreto no 3.446, de 4 de maio de 2000, passa a vigorar com as seguintes alterações:" .
+lex:D7822\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7822\/Artigo1    lex:temInciso    lex:D7822\/Artigo1\/IncisoIII .
+lex:D7822\/Artigo1\/IncisoIII    lex:temConteudo    "III - apresentar, ao Presidente Efetivo do Conselho, as propostas de admissão, promoção ou exclusão de agraciados;" .
+lex:D7822\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7822\/Artigo1    lex:temInciso    lex:D7822\/Artigo1\/IncisoI .
+lex:D7822\/Artigo1\/IncisoI    lex:temConteudo    "I - por decreto, nas seguintes hipóteses:" .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus    lex:temConteudo    "a) graus de Grã-Cruz e Grande Oficial;" .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus    lex:temIncisoAlinea    lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:temConteudo    "b) militares das Forças Armadas agraciados em qualquer grau; e" .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:temIncisoAlinea    lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes .
+lex:D7822\/Artigo1\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes    lex:temConteudo    "c) corporações militares e instituições civis, nacionais e estrangeiras, suas bandeiras ou estandartes; e" .
+lex:D7822\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7822\/Artigo1    lex:temInciso    lex:D7822\/Artigo1\/IncisoII .
+lex:D7822\/Artigo1\/IncisoII    lex:temConteudo    "II - nas demais hipóteses, por portaria do Ministro de Estado da Defesa." .
+lex:D7822\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7822\/Artigo1    lex:temParagrafo    lex:D7822\/Artigo1\/Paragrafo1 .
+lex:D7822\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o As exclusões resultantes das alíneas 'a' e 'b' do inciso I do caput serão realizadas de ofício em função dos atos que as tenham provocado e, as demais, por meio de decreto ou de portaria, mediante proposta do Conselho da Ordem." .
+lex:D7822\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7822    lex:temArtigo    lex:D7822\/Artigo2 .
+lex:D7822\/Artigo2    lex:temConteudo    "Art. 2o  O Decreto no 4.263, de 10 de junho de 2002, passa a vigorar com as seguintes alterações:" .
+lex:D7822\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7822\/Artigo2    lex:temInciso    lex:D7822\/Artigo2\/IncisoI .
+lex:D7822\/Artigo2\/IncisoI    lex:temConteudo    "I - por decreto, nas seguintes hipóteses:" .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus    lex:temConteudo    "a) graus de Grã-Cruz e Grande Oficial;" .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus    lex:temIncisoAlinea    lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:temConteudo    "b) militares das Forças Armadas agraciados em qualquer grau; e" .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes    lex:ehUm    lex:IncisoAlinea .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares    lex:temIncisoAlinea    lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes .
+lex:D7822\/Artigo2\/IncisoI\/IncisoAlineaGraus\/IncisoAlineaMilitares\/IncisoAlineaCorporacoes    lex:temConteudo    "c) corporações militares e instituições civis, nacionais e estrangeiras, suas bandeiras ou estandartes; e" .
+lex:D7822\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7822\/Artigo2    lex:temInciso    lex:D7822\/Artigo2\/IncisoII .
+lex:D7822\/Artigo2\/IncisoII    lex:temConteudo    "II - nas demais hipóteses, por portaria do Ministro de Estado da Defesa." .
+lex:D7822\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7822    lex:temArtigo    lex:D7822\/Artigo3 .
+lex:D7822\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7822\/Artigo1    lex:remetePara    lex:D3446 .
+lex:D7822\/Texto00001    lex:remetePara    lex:D3446\/Artigo14 .
+lex:D7822\/Artigo1\/IncisoIII    lex:remetePara    lex:D3446\/Artigo15 .
+lex:D7822\/Artigo1\/Texto00002    lex:remetePara    lex:D3446\/Artigo17 .
+lex:D7822\/Artigo1\/Paragrafo1    lex:remetePara    lex:D3446\/Artigo29\/Paragrafo1 .
+lex:D7822\/Artigo1\/Texto00008    lex:remetePara    lex:D3446\/Artigo33 .
+lex:D7822\/Artigo2    lex:remetePara    lex:D4263 .
+lex:D7822\/Texto00009    lex:remetePara    lex:D4263\/Artigo7 .

@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7639    lex:ehUm    lex:DocLegal .
+lex:D7639    lex:temTextoIntegral    lex:HTMLs\/D7639.htm .
+lex:D7639\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7639    lex:temArtigo    lex:D7639\/Artigo1 .
+lex:D7639\/Artigo1    lex:temConteudo    "Art. 1 º  O art. 5 º do Decreto n º 5.151, de 22 de julho de 2004, passa a vigorar com a seguinte redação:" .
+lex:D7639\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D7639\/Artigo1    lex:temParagrafo    lex:D7639\/Artigo1\/Paragrafo4 .
+lex:D7639\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  O órgão ou a entidade executora nacional informará à Secretaria da Receita Federal do Brasil, do Ministério da Fazenda, os valores pagos a consultores no ano-calendário imediatamente anterior." .
+lex:D7639\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D7639\/Artigo1    lex:temParagrafo    lex:D7639\/Artigo1\/Paragrafo5 .
+lex:D7639\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5 º  A Secretaria da Receita Federal do Brasil estabelecerá, em ato normativo próprio, a forma, o prazo e as condições para o cumprimento da obrigação acessória a que se refere o § 4 º. (NR)" .
+lex:D7639\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7639    lex:temArtigo    lex:D7639\/Artigo2 .
+lex:D7639\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7639\/Artigo1\/Paragrafo4    lex:remetePara    lex:D5151\/Artigo5\/Paragrafo4 .

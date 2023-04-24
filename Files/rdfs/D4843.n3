@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4843    lex:ehUm    lex:DocLegal .
+lex:D4843    lex:temTextoIntegral    lex:HTMLs\/D4843.htm .
+lex:D4843\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4843    lex:temArtigo    lex:D4843\/Artigo1 .
+lex:D4843\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o, 2o e 5o do Decreto no 1.519, de 8 de junho de 1995, passam a vigorar com a seguinte redação:" .
+lex:D4843\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4843\/Artigo1    lex:temParagrafo    lex:D4843\/Artigo1\/ParagrafoUnico .
+lex:D4843\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Receberão mensalmente a RVCVM e a RVSUSEP os servidores ativos e inativos de cargos efetivos de Agente Executivo da CVM e de Nível Médio da SUSEP, e os pensionistas de servidores que exerçam ou tenham exercido as atividades a que alude o caput deste artigo.' (NR)" .
+lex:D4843\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4843\/Artigo1    lex:temParagrafo    lex:D4843\/Artigo1\/ParagrafoUnico .
+lex:D4843\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O número de servidores passíveis de perceberem a RVCVM e a RVSUSEP, em montante superior a noventa e oitenta por cento do limite de que trata o caput, não poderá exceder, em cada mês, vinte e quarenta por cento, respectivamente, do total dos que as recebem em cada caso.' (NR)" .
+lex:D4843\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4843    lex:temArtigo    lex:D4843\/Artigo2 .
+lex:D4843\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos financeiros a partir de 1o de setembro de 2003." .
+lex:D4843\/Artigo1    lex:remetePara    lex:D1519 .
+lex:D4843\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D1519\/Artigo1 .
+lex:D4843\/Artigo1\/Texto00002    lex:remetePara    lex:D1519\/Artigo2 .
+lex:D4843\/Artigo1\/Texto00003    lex:remetePara    lex:D1519\/Artigo5 .

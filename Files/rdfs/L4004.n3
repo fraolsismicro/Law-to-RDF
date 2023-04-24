@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4004    lex:ehUm    lex:DocLegal .
+lex:L4004    lex:temTextoIntegral    lex:HTMLs\/L4004.htm .
+lex:L4004\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4004    lex:temArtigo    lex:L4004\/Artigo1 .
+lex:L4004\/Artigo1    lex:temConteudo    "Art. 1º São revigorados, até 31 de dezembro de 1963 os créditos especiais de Cr$ 100.000.000,00 (cem milhões de cruzeiros), Cr$ 30.000.000,00 (trinta milhões de cruzeiros) e Cr$ 300.000.000,00 (trezentos milhões de cruzeiros), abertos pelos Decretos nos 41.644, de 31 de maio de 1957, 41.231, de 29 de março de 1957, e 42.490, de 22 de outubro de 1957 a fim de atenderem, respectivamente, às seguintes despesas:" .
+lex:L4004\/Artigo1\/AlineaReaparelhamento    lex:ehUm    lex:Alinea .
+lex:L4004\/Artigo1    lex:temAlinea    lex:L4004\/Artigo1\/AlineaReaparelhamento .
+lex:L4004\/Artigo1\/AlineaReaparelhamento    lex:temConteudo    "a) reaparelhamento dos órgãos de arrecadação e fiscalização dos impostos internos da União;" .
+lex:L4004\/Artigo1\/AlineaAperfeicoamento    lex:ehUm    lex:Alinea .
+lex:L4004\/Artigo1    lex:temAlinea    lex:L4004\/Artigo1\/AlineaAperfeicoamento .
+lex:L4004\/Artigo1\/AlineaAperfeicoamento    lex:temConteudo    "b) aperfeiçoamento e inspeção dos serviços fazendários, inclusive material;" .
+lex:L4004\/Artigo1\/AlineaReaparelhamento    lex:ehUm    lex:Alinea .
+lex:L4004\/Artigo1    lex:temAlinea    lex:L4004\/Artigo1\/AlineaReaparelhamento .
+lex:L4004\/Artigo1\/AlineaReaparelhamento    lex:temConteudo    "c) reaparelhamento das repartições aduaneiras, inclusive laboratório de análises." .
+lex:L4004\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4004    lex:temArtigo    lex:L4004\/Artigo2 .
+lex:L4004\/Artigo2    lex:temConteudo    "Art. 2º Os créditos de que trata o artigo anterior não poderão, em caso algum, custear despesas com pessoal." .
+lex:L4004\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4004    lex:temArtigo    lex:L4004\/Artigo3 .
+lex:L4004\/Artigo3    lex:temConteudo    "Art. 3º É prorrogada, até o exercício financeiro de 1965, a medida de que trata o art. 2º da Lei nº 3.323, de 27 de novembro de 1957." .
+lex:L4004\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L4004    lex:temArtigo    lex:L4004\/Artigo4 .
+lex:L4004\/Artigo4    lex:temConteudo    "Art. 4º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4004\/Artigo3    lex:remetePara    lex:L3323\/Artigo2 .

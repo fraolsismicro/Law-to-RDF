@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11036    lex:ehUm    lex:DocLegal .
+lex:L11036    lex:temTextoIntegral    lex:HTMLs\/L11036.htm .
+lex:L11036\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11036    lex:temArtigo    lex:L11036\/Artigo1 .
+lex:L11036\/Artigo1    lex:temConteudo    "Art. 1o Os arts. 8o e 25 da Lei no 10.683, de 28 de maio de 2003, passam a vigorar com a seguinte redação:" .
+lex:L11036\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L11036\/Artigo1    lex:temParagrafo    lex:L11036\/Artigo1\/Paragrafo1 .
+lex:L11036\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o.............................................................." .
+lex:L11036\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L11036\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:L11036\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:L11036\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - pelos Ministros de Estado da Fazenda; do Planejamento, Orçamento e Gestão; do Desenvolvimento, Indústria e Comércio Exterior; do Desenvolvimento Social e Combate à Fome; do Trabalho e Emprego; do Meio Ambiente; das Relações Exteriores; e Presidente do Banco Central do Brasil;" .
+lex:L11036\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11036\/Artigo1    lex:temParagrafo    lex:L11036\/Artigo1\/ParagrafoUnico .
+lex:L11036\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. São Ministros de Estado os titulares dos Ministérios, o Chefe da Casa Civil, o Chefe do Gabinete de Segurança Institucional, o Chefe da Secretaria de Comunicação de Governo e Gestão Estratégica, o Chefe da Secretaria-Geral da Presidência da República, o Chefe da Secretaria de Coordenação Política e Assuntos Institucionais da Presidência da República, o Advogado-Geral da União, o Ministro de Estado do Controle e da Transparência e o Presidente do Banco Central do Brasil.' (NR)" .
+lex:L11036\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11036    lex:temArtigo    lex:L11036\/Artigo2 .
+lex:L11036\/Artigo2    lex:temConteudo    "Art. 2o O cargo de Natureza Especial de Presidente do Banco Central do Brasil fica transformado em cargo de Ministro de Estado." .
+lex:L11036\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11036\/Artigo2    lex:temParagrafo    lex:L11036\/Artigo2\/ParagrafoUnico .
+lex:L11036\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A competência especial por prerrogativa de função estende-se também aos atos administrativos praticados pelos ex-ocupantes do cargo de Presidente do Banco Central do Brasil no exercício da função pública." .
+lex:L11036\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L11036    lex:temArtigo    lex:L11036\/Artigo5 .
+lex:L11036\/Artigo5    lex:temConteudo    "Art. 5o Esta Lei entra em vigor na data de sua publicação." .
+lex:L11036\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:remetePara    lex:L10683\/Artigo8\/Paragrafo1iii .
+lex:L11036\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L10683\/Artigo25 .
+lex:L11036\/Artigo2\/Artigo3    lex:remetePara    lex:L9650\/Artigo5 .
+lex:L11036\/Artigo2\/Artigo3    lex:remetePara    lex:295\/Artigo42 .
+lex:L11036\/Artigo2\/Artigo3    lex:revogadoPor    lex:L11344\/Artigo42 .
+lex:L11344\/Artigo42    lex:revogou    lex:L11036\/Artigo2\/Artigo3 .
+lex:L11036\/Artigo2\/IncisoVIII    lex:remetePara    lex:295\/Artigo42 .
+lex:L11036\/Artigo2\/IncisoVIII    lex:revogadoPor    lex:L11344\/Artigo42 .
+lex:L11344\/Artigo42    lex:revogou    lex:L11036\/Artigo2\/IncisoVIII .
+lex:L11036\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:295\/Artigo42 .
+lex:L11036\/Artigo2\/ParagrafoUnico    lex:revogadoPor    lex:L11344\/Artigo42 .
+lex:L11344\/Artigo42    lex:revogou    lex:L11036\/Artigo2\/ParagrafoUnico .
+lex:L11036\/Artigo2\/Artigo4    lex:remetePara    lex:L9650\/Artigo5 .
+lex:L11036\/Artigo2\/Artigo4    lex:remetePara    lex:295\/Artigo42 .
+lex:L11036\/Artigo2\/Artigo4    lex:revogadoPor    lex:L11344\/Artigo42 .
+lex:L11344\/Artigo42    lex:revogou    lex:L11036\/Artigo2\/Artigo4 .

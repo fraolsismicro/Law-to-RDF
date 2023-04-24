@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1708    lex:ehUm    lex:DocLegal .
+lex:D1708    lex:temTextoIntegral    lex:HTMLs\/D1708.htm .
+lex:D1708\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1708    lex:temArtigo    lex:D1708\/Artigo1 .
+lex:D1708\/Artigo1    lex:temConteudo    "Art. 1° Ficam remanejados os seguintes cargos em comissão:" .
+lex:D1708\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1708\/Artigo1    lex:temInciso    lex:D1708\/Artigo1\/IncisoI .
+lex:D1708\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério da Administração Federal e Reforma do Estado para a Fundação Instituto de Pesquisa Econômica Aplicada, oriundos da extinção de órgãos da Administração Pública Federal, um DAS 101.4 e três DAS 102.4;" .
+lex:D1708\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1708\/Artigo1    lex:temInciso    lex:D1708\/Artigo1\/IncisoII .
+lex:D1708\/Artigo1\/IncisoII    lex:temConteudo    "II - da Fundação Instituto de Pesquisa Econômica Aplicada para o Ministério da Adminsitração Federal e Reforma do Estado, quatro DAS 101.3, quatro DAS 101.2 e três DAS 101.1." .
+lex:D1708\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1708    lex:temArtigo    lex:D1708\/Artigo2 .
+lex:D1708\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .

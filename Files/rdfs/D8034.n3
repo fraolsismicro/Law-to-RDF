@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8034    lex:ehUm    lex:DocLegal .
+lex:D8034    lex:temTextoIntegral    lex:HTMLs\/D8034.htm .
+lex:D8034\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8034    lex:temArtigo    lex:D8034\/Artigo1 .
+lex:D8034\/Artigo1    lex:temConteudo    "Art. 1º O Estatuto Social do Banco Nacional de Desenvolvimento Econômico e Social - BNDES, aprovado pelo Decreto nº 4.418, de 11 de outubro de 2002, passa a vigorar com as seguintes alterações:" .
+lex:D8034\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D8034\/Artigo1    lex:temParagrafo    lex:D8034\/Artigo1\/Paragrafo6 .
+lex:D8034\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6º Poderá ser realizado pagamento de dividendos complementares antes que as Reservas de que tratam os incisos IV e V do caput tenham atingido os limites previstos, mediante decisão do Ministro de Estado da Fazenda." .
+lex:D8034\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:D8034\/Artigo1    lex:temParagrafo    lex:D8034\/Artigo1\/Paragrafo10 .
+lex:D8034\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10. As reservas de que tratam os incisos IV e V do caput poderão deixar de ser constituídas e seus saldos distribuídos a título de dividendos, desde que sejam compensados por instrumentos que possam ser utilizados como capital para fins de apuração das normas bancárias, conforme regulamentação do Conselho Monetário Nacional ou do Banco Central do Brasil. (NR)" .
+lex:D8034\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8034    lex:temArtigo    lex:D8034\/Artigo2 .
+lex:D8034\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8034\/Artigo1    lex:remetePara    lex:D4418 .
+lex:D8034\/Artigo1\/Paragrafo6    lex:remetePara    lex:D4418\/Artigo25\/Paragrafo6 .
+lex:D8034\/Artigo1\/Paragrafo10    lex:remetePara    lex:D4418\/Artigo25\/Paragrafo10 .

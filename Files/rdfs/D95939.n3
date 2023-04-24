@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D95939    lex:ehUm    lex:DocLegal .
+lex:D95939    lex:temTextoIntegral    lex:HTMLs\/D95939.htm .
+lex:D95939\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D95939    lex:temArtigo    lex:D95939\/Artigo1 .
+lex:D95939\/Artigo1    lex:temConteudo    "Art. 1° Fica criado o Núcleo Governamental Coordenador da Execução dos Acordos assinados durante a Visita Presidencial à República da Colômbia, de 8 a 10 de fevereiro de 1988." .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D95939\/Artigo1    lex:temParagrafo    lex:D95939\/Artigo1\/ParagrafoUnico .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Núcleo será composto por representantes:" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - do Ministério das Relações Exteriores, que o presidirá;" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - do Ministério da Fazenda;" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - do Ministério dos Transportes;" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIV    lex:temConteudo    "IV - do Ministério das Minas e Energia;" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoV    lex:temConteudo    "V - do Ministério da Indústria e do Comércio; e" .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D95939\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI .
+lex:D95939\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoVI    lex:temConteudo    "VI - do Ministério da Agricultura." .
+lex:D95939\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D95939    lex:temArtigo    lex:D95939\/Artigo2 .
+lex:D95939\/Artigo2    lex:temConteudo    "Art. 2° Serão coordenados pelo Núcleo os seguintes órgãos:" .
+lex:D95939\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoI .
+lex:D95939\/Artigo2\/IncisoI    lex:temConteudo    "I - Comissão sobre Carvão Energético de que trata o Memorando de Entendimento entre o Governo da República Federativa do Brasil e o Governo da República da Colômbia em Matéria de Intercâmbio e Cooperação na Área do Carvão (art. II), composta por representantes:" .
+lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "a) da Centrais Elétricas Brasileiras S.A. - ELETROBRÁS; e" .
+lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "b) da Companhia Auxiliar de Energia Elétrica Brasileira;" .
+lex:D95939\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoII .
+lex:D95939\/Artigo2\/IncisoII    lex:temConteudo    "II - Grupo de Trabalho sobre Carvão Coqueificável, de que trata o Memorando de Entendimento entre o Governo da República Federativa do Brasil e o Governo da República da Colômbia em Matéria de Intercâmbio e Cooperação na Área do Carvão (art. VII), composto por representantes:" .
+lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoII    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa    lex:temConteudo    "a) da Agência Brasileira de Cooperação; e" .
+lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoII\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "b) da Siderurgia Brasileira S.A. - SIDERBRÁS;" .
+lex:D95939\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoIII .
+lex:D95939\/Artigo2\/IncisoIII    lex:temConteudo    "III - Comissão criada pelo Convênio Complementar no Tratado de Amizade e Cooperação entre o Governo da República Federativa do Brasil e o Governo da República da Colômbia relativo à Cooperação entre os dois Países em Assuntos de Petróleo (art. V), formada pela PETROBRÁS Internacional S.A.;" .
+lex:D95939\/Artigo2\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoIV .
+lex:D95939\/Artigo2\/IncisoIV    lex:temConteudo    "IV - Grupo Técnico criado pelo Memorando de Entendimento sobre Cooperação no Setor Ferroviário entre o Governo da República Federativa do Brasil e o Governo da República da Colômbia (art. III), formada pelo Consórcio BRÁSFERROVIAS;" .
+lex:D95939\/Artigo2\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoV .
+lex:D95939\/Artigo2\/IncisoV    lex:temConteudo    "V - Grupo de Trabalho criado pelo Convênio Complementar ao Acordo de Cooperação Amazônica entre os Governos da República Federativa do Brasil e o Governo da República da Colômbia sobre Cooperação no Desenvolvimento dos Recursos Minerais na Área de Fronteiras (arts. II e V), formado por representantes:" .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoV    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa    lex:temConteudo    "a) da Companhia de Pesquisas de Recursos Minerais;" .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "b) do Departamento Nacional de Produção Mineral; e" .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoV\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "c) da Petróleo Brasileiro S.A. - PETROBRÁS;" .
+lex:D95939\/Artigo2\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D95939\/Artigo2    lex:temInciso    lex:D95939\/Artigo2\/IncisoVI .
+lex:D95939\/Artigo2\/IncisoVI    lex:temConteudo    "VI - Comitê criado pelo Ajuste Complementar ao Acordo Básico de Cooperação Técnica entre o Governo da República Federativa do Brasil e o Governo da República da Colômbia sobre Intercâmbio de Experiências em Cooperativismo (art. III), formado por representantes:" .
+lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoVI    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa    lex:temConteudo    "a) da Agência Brasileira de Cooperação; e" .
+lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D95939\/Artigo2\/IncisoVI\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "b) da Secretaria Nacional de Cooperativismo." .
+lex:D95939\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D95939\/Artigo2    lex:temParagrafo    lex:D95939\/Artigo2\/Paragrafo1 .
+lex:D95939\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O Ministro das Relações Exteriores poderá, ouvidos os Ministérios respectivos, admitir, na composição dos órgãos de que trata este artigo, representantes de outros órgãos ou instituições." .
+lex:D95939\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D95939\/Artigo2    lex:temParagrafo    lex:D95939\/Artigo2\/Paragrafo2 .
+lex:D95939\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Os órgãos de que trata este artigo poderão constituir subgrupos ou subcomissões técnicas negociadoras, nas quais será facultada a participação das instituições interessadas." .
+lex:D95939\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D95939    lex:temArtigo    lex:D95939\/Artigo3 .
+lex:D95939\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D95939\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D95939    lex:temArtigo    lex:D95939\/Artigo4 .
+lex:D95939\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .

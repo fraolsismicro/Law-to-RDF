@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:L1387    lex:ehUm    lex:DocLegal .
+lex:L1387    lex:temTextoIntegral    lex:HTMLs\/L1387.htm .
+lex:L1387\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:L1387    lex:temArtigo    lex:L1387\/Artigo1A .
+lex:L1387\/Artigo1A    lex:temConteudo    "Art. 1Âº O parÃ¡grafo Ãºnico do artigo 1Âº do Decreto-lei nÂº 9.545, de 5 de agÃ´sto de 1946, passa a ter esta redaÃ§Ã£o: âOs condutores de veÃ­culos a motor de explosÃ£o sÃ£o classificados em amadores e profissionais. Os amadores sÃ³ poderÃ£o dirigir veÃ­culos de sua propriedade e uso, ou particular de passeio; os profissionais poderÃ£o dirigir quaisquer dos veÃ­culos automotores, referidos no artigo 43, ns. 1 e 2 do CÃ³digo Nacional de TrÃ¢nsito (Decreto-lei n. 3.651, de 25 de Setembro de 1941)." .
+lex:L1387\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:L1387    lex:temArtigo    lex:L1387\/Artigo2A .
+lex:L1387\/Artigo2A    lex:temConteudo    "Art. 2Âº Ã revogado o Â§ 2Âº do Art. 2Âº do Decreto-lei nÂº 9.545, de 5 de agÃ´sto de 1946." .
+lex:L1387\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:L1387    lex:temArtigo    lex:L1387\/Artigo3A .
+lex:L1387\/Artigo3A    lex:temConteudo    "Art. 3Âº Esta Lei entrarÃ¡ em vigor na data da sua publicaÃ§Ã£o, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:L1387\/Artigo1A    lex:remetePara    lex:Del9545\/Artigo1 .
+lex:L1387\/Artigo1A    lex:remetePara    lex:Del3651\/Artigo431 .
+lex:L1387\/Artigo2A    lex:revogadoPor    lex:Del9545\/Artigo2Â§2 .
+lex:Del9545\/Artigo2Â§2    lex:revogou    lex:L1387\/Artigo2A .

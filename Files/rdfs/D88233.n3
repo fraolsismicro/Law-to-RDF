@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D88233    lex:ehUm    lex:DocLegal .
+lex:D88233    lex:temTextoIntegral    lex:HTMLs\/D88233.htm .
+lex:D88233\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D88233    lex:temArtigo    lex:D88233\/Artigo1 .
+lex:D88233\/Artigo1    lex:temConteudo    "Art. 1º O valor tributável dos produtos do item 24.02.02.02 (cigarros), da Tabela anexa ao Decreto nº 84.338, de 26 de dezembro de 1979, é de 18.713098% sobre o preço de venda a varejo, mantida a margem bruta do varejista em 31% sobre o referido preço." .
+lex:D88233\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D88233    lex:temArtigo    lex:D88233\/Artigo2 .
+lex:D88233\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor em 16 de maio de 1983, revogadas as disposições em contrário." .
+lex:D88233\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91 .
+lex:Dnn7-05-09-91    lex:revogou    lex:D88233\/Texto .
+lex:D88233\/Texto    lex:remetePara    lex:D88233 .
+lex:D88233\/Artigo1    lex:remetePara    lex:D84338 .

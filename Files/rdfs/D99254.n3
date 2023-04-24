@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99254    lex:ehUm    lex:DocLegal .
+lex:D99254    lex:temTextoIntegral    lex:HTMLs\/D99254.htm .
+lex:D99254\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99254    lex:temArtigo    lex:D99254\/Artigo1 .
+lex:D99254\/Artigo1    lex:temConteudo    "Art. 1º. Os arts. 2º, 3º e 6º do Decreto nº 97.314, de 20 de dezembro de 1988, passam a ter a seguinte redação:" .
+lex:D99254\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99254\/Artigo1    lex:temParagrafo    lex:D99254\/Artigo1\/ParagrafoUnico .
+lex:D99254\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os membros da comissão especial serão designados pelo Secretário do Desenvolvimento Regional, por indicação dos órgãos e entidades referidos neste artigo." .
+lex:D99254\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99254    lex:temArtigo    lex:D99254\/Artigo3 .
+lex:D99254\/Artigo3    lex:temConteudo    "Art. 3º. A Secretaria do Desenvolvimento Regional dará apoio administrativo e operacional à comissão." .
+lex:D99254\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D99254    lex:temArtigo    lex:D99254\/Artigo6 .
+lex:D99254\/Artigo6    lex:temConteudo    "Art. 6º. O Ministério da Economia, Fazenda e Planejamento adotará as medidas necessárias ao atendimento das despesas decorrentes do funcionamento da comissão especial.'" .
+lex:D99254\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99254    lex:temArtigo    lex:D99254\/Artigo2 .
+lex:D99254\/Artigo2    lex:temConteudo    "Art. 2º. Este decreto entra em vigor na data de sua publicação." .
+lex:D99254\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99254    lex:temArtigo    lex:D99254\/Artigo3 .
+lex:D99254\/Artigo3    lex:temConteudo    "Art. 3º. Revogam-se as disposições em contrário." .
+lex:D99254\/Artigo1    lex:remetePara    lex:D97314 .
+lex:D99254\/Texto00001    lex:remetePara    lex:D97314\/Artigo2 .
+lex:D99254\/Artigo3    lex:remetePara    lex:D97314\/Artigo3 .
+lex:D99254\/Artigo6    lex:remetePara    lex:D97314\/Artigo6 .

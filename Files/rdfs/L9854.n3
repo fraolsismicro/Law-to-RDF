@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9854    lex:ehUm    lex:DocLegal .
+lex:L9854    lex:temTextoIntegral    lex:HTMLs\/L9854.htm .
+lex:L9854\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9854    lex:temArtigo    lex:L9854\/Artigo1 .
+lex:L9854\/Artigo1    lex:temConteudo    "Art. 1o O art. 27 da Lei no 8.666, de 21 de junho de 1993, passa a vigorar com o acréscimo do seguinte inciso V:" .
+lex:L9854\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9854    lex:temArtigo    lex:L9854\/Artigo2 .
+lex:L9854\/Artigo2    lex:temConteudo    "Art. 2o O art. 78 da Lei no 8.666, de 21 de junho de 1993, passa a vigorar com o acréscimo do seguinte inciso XVIII:" .
+lex:L9854\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9854    lex:temArtigo    lex:L9854\/Artigo3 .
+lex:L9854\/Artigo3    lex:temConteudo    "Art. 3o O Poder Executivo regulamentará esta Lei no prazo de noventa dias, a partir da data de sua publicação." .
+lex:L9854\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L9854    lex:temArtigo    lex:L9854\/Artigo4 .
+lex:L9854\/Artigo4    lex:temConteudo    "Art. 4o Esta Lei entra em vigor cento e oitenta dias após sua publicação." .
+lex:L9854\/Artigo1    lex:remetePara    lex:L8666cons\/Artigo27 .
+lex:L9854\/Artigo2    lex:remetePara    lex:L8666cons\/Artigo78 .

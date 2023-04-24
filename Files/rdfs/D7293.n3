@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7293    lex:ehUm    lex:DocLegal .
+lex:D7293    lex:temTextoIntegral    lex:HTMLs\/D7293.htm .
+lex:D7293\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7293    lex:temArtigo    lex:D7293\/Artigo1 .
+lex:D7293\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o do Decreto no 6.842, de 7 de maio de 2009, passa a vigorar com a seguinte redação:" .
+lex:D7293\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7293\/Artigo1    lex:temParagrafo    lex:D7293\/Artigo1\/Paragrafo1 .
+lex:D7293\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o ................................................................................................." .
+lex:D7293\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7293\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7293\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D7293\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - empresas que exerçam as atividades de comercialização ou distribuição de papel nas hipóteses dos incisos I e II do caput, para venda exclusivamente às pessoas referidas nos incisos I e II deste parágrafo, observados os arts. 1o e 2o da Lei no 11.945, de 4 de junho de 2009." .
+lex:D7293\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D7293\/Artigo1    lex:temParagrafo    lex:D7293\/Artigo1\/Paragrafo7 .
+lex:D7293\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Devem ser registradas, de forma segregada, e ter o saldo controlado durante todo o período:" .
+lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7293\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoI .
+lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoI    lex:temConteudo    "I - as aquisições dos papéis referidos no inciso II do caput das aquisições dos demais papéis;" .
+lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7293\/Artigo1\/Paragrafo7    lex:temParagrafoInciso    lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoII .
+lex:D7293\/Artigo1\/Paragrafo7\/ParagrafoIncisoII    lex:temConteudo    "II - as vendas de papéis e jornais destinados à impressão de jornais ou periódicos das vendas não destinadas a esses fins. (NR)" .
+lex:D7293\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7293    lex:temArtigo    lex:D7293\/Artigo2 .
+lex:D7293\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7293\/Artigo1    lex:remetePara    lex:D6842 .
+lex:D7293\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:remetePara    lex:D6842\/Artigo1\/Paragrafo1iv .
+lex:D7293\/Artigo1\/Paragrafo7    lex:remetePara    lex:D6842\/Artigo1\/Paragrafo7 .

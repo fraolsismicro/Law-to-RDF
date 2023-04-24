@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99136    lex:ehUm    lex:DocLegal .
+lex:D99136    lex:temTextoIntegral    lex:HTMLs\/D99136.htm .
+lex:D99136\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99136    lex:temArtigo    lex:D99136\/Artigo1 .
+lex:D99136\/Artigo1    lex:temConteudo    "Art. 1º A partir de 1º de abril de 1990, as importações dos produtos especificados no Acordo de Alcance Parcial anexo ao presente decreto, originários da Colômbia, ficam sujeitas aos gravames e às condições estipuladas, obedecidas às cláusulas e disposições nele contidas." .
+lex:D99136\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D99136\/Artigo1    lex:temParagrafo    lex:D99136\/Artigo1\/ParagrafoUnico .
+lex:D99136\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O tratamento estabelecido neste decreto é de aplicação exclusiva aos produtos originários da Colômbia, não sendo extensível a terceiros países, por aplicação da Cláusula da Nação mais Favorecida ou de disposições equivalentes." .
+lex:D99136\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99136    lex:temArtigo    lex:D99136\/Artigo2 .
+lex:D99136\/Artigo2    lex:temConteudo    "Art. 2º O Ministério da Fazenda tomará, através dos órgãos competentes, as providências necessárias ao cumprimento do disposto no presente Decreto." .

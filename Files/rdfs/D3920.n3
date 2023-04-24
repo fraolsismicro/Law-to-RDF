@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3920    lex:ehUm    lex:DocLegal .
+lex:D3920    lex:temTextoIntegral    lex:HTMLs\/D3920.htm .
+lex:D3920\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3920    lex:temArtigo    lex:D3920\/Artigo1 .
+lex:D3920\/Artigo1    lex:temConteudo    "Art. 1o  O valor da ampliação de que trata o inciso I do art. 4o do Decreto no 3.746, de 6 de fevereiro de 2001, passa a ser de:" .
+lex:D3920\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3920\/Artigo1    lex:temInciso    lex:D3920\/Artigo1\/IncisoI .
+lex:D3920\/Artigo1\/IncisoI    lex:temConteudo    "I - R$ 293.730.000,00 (duzentos e noventa e três milhões, setecentos e trinta mil reais), no que se refere aos limites de movimentação e empenho; e" .
+lex:D3920\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3920\/Artigo1    lex:temInciso    lex:D3920\/Artigo1\/IncisoII .
+lex:D3920\/Artigo1\/IncisoII    lex:temConteudo    "II - R$ 603.404.000,00 (seiscentos e três milhões, quatrocentos e quatro mil reais), para os limites de pagamentos." .
+lex:D3920\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3920    lex:temArtigo    lex:D3920\/Artigo2 .
+lex:D3920\/Artigo2    lex:temConteudo    "Art. 2o  O Anexo X do Decreto no 3.746, de 2001, passa a ser o constante do Anexo a este Decreto." .
+lex:D3920\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3920    lex:temArtigo    lex:D3920\/Artigo3 .
+lex:D3920\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3920\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3920    lex:temArtigo    lex:D3920\/Artigo4 .
+lex:D3920\/Artigo4    lex:temConteudo    "Art. 4o  Revogam-se o art. 4o do Decreto no 3.776, de 22 de março 2001, e o art. 3o do Decreto no 3.878, de 25 de julho de 2001." .
+lex:D3920\/Artigo1    lex:remetePara    lex:D3746\/Artigo4 .
+lex:D3920\/Artigo4    lex:remetePara    lex:D3776\/Artigo4 .
+lex:D3920\/Artigo4    lex:remetePara    lex:D3878\/Artigo3 .

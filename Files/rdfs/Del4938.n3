@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del4938    lex:ehUm    lex:DocLegal .
+lex:Del4938    lex:temTextoIntegral    lex:HTMLs\/Del4938.htm .
+lex:Del4938\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del4938    lex:temArtigo    lex:Del4938\/Artigo1 .
+lex:Del4938\/Artigo1    lex:temConteudo    "Art. 1º O § 7º do art. 9º do decreto n. 19.473, de 10 de dezembro de 1930, alterado pelo de n. 19.754, de 18 de março de 1931, passa a ter a seguinte redação :" .
+lex:Del4938\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del4938    lex:temArtigo    lex:Del4938\/Artigo2 .
+lex:Del4938\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:Del4938\/Artigo1    lex:remetePara    lex:D19473\/Artigo9\/Paragrafo7 .

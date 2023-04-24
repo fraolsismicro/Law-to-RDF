@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99377    lex:ehUm    lex:DocLegal .
+lex:D99377    lex:temTextoIntegral    lex:HTMLs\/D99377.htm .
+lex:D99377\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99377    lex:temArtigo    lex:D99377\/Artigo1 .
+lex:D99377\/Artigo1    lex:temConteudo    "Art. 1º O art. 5º do Decreto nº 99.179, de 15 de março de 1990, transformado o atual parágrafo único em § 1º, passa a vigorar acrescido do seguinte parágrafo:" .
+lex:D99377\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D99377\/Artigo1    lex:temParagrafo    lex:D99377\/Artigo1\/Paragrafo1 .
+lex:D99377\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º ................................................................................................................................." .
+lex:D99377\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D99377\/Artigo1    lex:temParagrafo    lex:D99377\/Artigo1\/Paragrafo2 .
+lex:D99377\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O Secretário-Geral da Presidência da República poderá convidar representantes dos demais Ministérios e Secretarias da Presidência da República para participarem das reuniões convocadas para deliberar sobre matérias que lhes sejam afetas.'" .
+lex:D99377\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99377    lex:temArtigo    lex:D99377\/Artigo2 .
+lex:D99377\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D99377\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99377    lex:temArtigo    lex:D99377\/Artigo3 .
+lex:D99377\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:D99377\/Artigo1    lex:remetePara    lex:D99179 .
+lex:D99377\/Artigo1    lex:remetePara    lex:D99179\/Artigo5\/Paragrafo1 .
+lex:D99377\/Artigo1\/Paragrafo2    lex:remetePara    lex:D99179\/Artigo5\/Paragrafo2 .

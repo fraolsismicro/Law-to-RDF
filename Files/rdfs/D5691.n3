@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5691    lex:ehUm    lex:DocLegal .
+lex:D5691    lex:temTextoIntegral    lex:HTMLs\/D5691.htm .
+lex:D5691\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5691    lex:temArtigo    lex:D5691\/Artigo1 .
+lex:D5691\/Artigo1    lex:temConteudo    "Art. 1o  Fica suspensa a exigência da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação para bens novos destinados à incorporação ao ativo imobilizado de pessoa jurídica importadora estabelecida na Zona Franca de Manaus." .
+lex:D5691\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5691\/Artigo1    lex:temParagrafo    lex:D5691\/Artigo1\/ParagrafoUnico .
+lex:D5691\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A suspensão de que trata o caput aplica-se somente quando a pessoa jurídica:" .
+lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5691\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - importar máquinas, aparelhos, instrumentos e equipamentos, novos, classificados nos códigos da Tabela de Incidência do IPI - TIPI, aprovada pelo Decreto no 4.542, de 26 de dezembro de 2002, relacionados no Anexo deste Decreto; e" .
+lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5691\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - utilizar os bens de que trata o inciso I na produção de matérias-primas, produtos intermediários e materiais de embalagem destinados ao emprego em processo de industrialização por pessoa jurídica que esteja instalada na Zona Franca de Manaus e que possua projeto aprovado pelo Conselho de Administração da Superintendência da Zona Franca de Manaus - SUFRAMA." .
+lex:D5691\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5691    lex:temArtigo    lex:D5691\/Artigo2 .
+lex:D5691\/Artigo2    lex:temConteudo    "Art. 2o Este Decreto entra em vigor na data de sua publicação." .
+lex:D5691\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5691    lex:temArtigo    lex:D5691\/Artigo3 .
+lex:D5691\/Artigo3    lex:temConteudo    "Art. 3o Fica revogado o Decreto no 5.628, de 22 de dezembro de 2005." .
+lex:D5691\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:remetePara    lex:D4542 .
+lex:D5691\/Artigo3    lex:remetePara    lex:D5628 .

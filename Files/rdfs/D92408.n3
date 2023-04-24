@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92408    lex:ehUm    lex:DocLegal .
+lex:D92408    lex:temTextoIntegral    lex:HTMLs\/D92408.htm .
+lex:D92408\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D92408    lex:temArtigo    lex:D92408\/Artigo4 .
+lex:D92408\/Artigo4    lex:temConteudo    "Art. 4º A Secretaria Executiva da CINAB será exercida pela Secretaria Especial de Abastecimento e Preços do Ministério da Fazenda. (Redação dada pelo Decreto nº 93.346, de 1986)" .
+lex:D92408\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D92408\/Artigo4    lex:temInciso    lex:D92408\/Artigo4\/IncisoI .
+lex:D92408\/Artigo4\/IncisoI    lex:temConteudo    "I - coordenar a implementação da política nacional de abastecimento, bem como de medidas que exijam pronta execução, especialmente aquelas cometidas á Companhia de Financiamento da Produção (CFP), à Companhia Brasileira de Alimentos (COBAL), à Companhia Brasileira de Armazenamentos (CIBRAZEM), à Secretaria Nacional de Abastecimento (SNAB), à Superintendência Nacional do Abastecimento (SUNAB), à Empresa de Portos do Brasil S.A. (PORTOBRÁS), ao Banco do Brasil S.A., à Carteira do Comércio Exterior do Banco do Brasil S.A. (CACEX) e à Rede Ferroviária Federal S.A.; (Redação dada pelo Decreto nº 93.346, de 1986)" .
+lex:D92408\/Texto    lex:revogadoPor    lex:Dnn25-4-91-1 .
+lex:Dnn25-4-91-1    lex:revogou    lex:D92408\/Texto .
+lex:D92408\/Texto    lex:remetePara    lex:D92408 .
+lex:D92408\/Artigo4    lex:remetePara    lex:D93346\/Artigo1 .
+lex:D92408\/Artigo4\/IncisoI    lex:remetePara    lex:D93346\/Artigo2 .

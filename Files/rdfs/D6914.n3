@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6914    lex:ehUm    lex:DocLegal .
+lex:D6914    lex:temTextoIntegral    lex:HTMLs\/D6914.htm .
+lex:D6914\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6914    lex:temArtigo    lex:D6914\/Artigo1 .
+lex:D6914\/Artigo1    lex:temConteudo    "Art. 1o  Fica alterado o Programa de Dispêndios Globais - PDG para 2009, das empresas estatais federais, aprovado pelo Decreto no 6.647, de 18 de novembro de 2008, conforme demonstrativos por empresa constantes do Anexo I a este Decreto." .
+lex:D6914\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6914    lex:temArtigo    lex:D6914\/Artigo2 .
+lex:D6914\/Artigo2    lex:temConteudo    "Art. 2o  As empresas estatais a que se refere o art. 1o deverão:" .
+lex:D6914\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6914\/Artigo2    lex:temInciso    lex:D6914\/Artigo2\/IncisoI .
+lex:D6914\/Artigo2\/IncisoI    lex:temConteudo    "I - gerar, na execução do PDG, no exercício de 2009, os resultados fixados no Anexo II a este Decreto, calculados segundo o critério de necessidade de financiamento líquido; e" .
+lex:D6914\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6914\/Artigo2    lex:temInciso    lex:D6914\/Artigo2\/IncisoII .
+lex:D6914\/Artigo2\/IncisoII    lex:temConteudo    "II - observar, na execução dos investimentos, o teto da rubrica Investimentos constante do seu PDG e o limite de cada ação aprovado pela Lei no 11.897, de 30 de dezembro de 2008, acrescido dos créditos adicionais aprovados em 2009." .
+lex:D6914\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6914    lex:temArtigo    lex:D6914\/Artigo3 .
+lex:D6914\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6914\/Artigo1    lex:remetePara    lex:D6647 .
+lex:D6914\/Artigo2\/IncisoII    lex:remetePara    lex:L11897 .

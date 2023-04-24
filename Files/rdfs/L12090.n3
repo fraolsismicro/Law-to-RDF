@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12090    lex:ehUm    lex:DocLegal .
+lex:L12090    lex:temTextoIntegral    lex:HTMLs\/L12090.htm .
+lex:L12090\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12090    lex:temArtigo    lex:L12090\/Artigo1 .
+lex:L12090\/Artigo1    lex:temConteudo    "Art. 1o  A Lei no 9.782, de 26 de janeiro de 1999, passa a vigorar acrescida do seguinte art. 32-A" .
+lex:L12090\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12090    lex:temArtigo    lex:L12090\/Artigo2 .
+lex:L12090\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor 60 (sessenta) dias após a data de sua publicação." .
+lex:L12090\/Texto00001    lex:remetePara    lex:L9782\/Artigo32 .

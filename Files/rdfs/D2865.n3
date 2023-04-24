@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2865    lex:ehUm    lex:DocLegal .
+lex:D2865    lex:temTextoIntegral    lex:HTMLs\/D2865.htm .
+lex:D2865\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2865    lex:temArtigo    lex:D2865\/Artigo1 .
+lex:D2865\/Artigo1    lex:temConteudo    "Art 1º A Resolução nº 232 do Comitê de Representantes da Associação Latino-Americana de Integração, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente como nela se contém." .
+lex:D2865\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2865    lex:temArtigo    lex:D2865\/Artigo2 .
+lex:D2865\/Artigo2    lex:temConteudo    "Art 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D2865\/Texto00002    lex:remetePara    lex:index .

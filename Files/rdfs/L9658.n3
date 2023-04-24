@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L9658    lex:ehUm    lex:DocLegal .
+lex:L9658    lex:temTextoIntegral    lex:HTMLs\/L9658.htm .
+lex:L9658\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L9658    lex:temArtigo    lex:L9658\/Artigo1 .
+lex:L9658\/Artigo1    lex:temConteudo    "Art. 1º O art. 11 da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-lei nº 5.452, de 1º de maio de 1943, passa a vigorar com a seguinte redação:" .
+lex:L9658\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L9658\/Artigo1    lex:temInciso    lex:L9658\/Artigo1\/IncisoI .
+lex:L9658\/Artigo1\/IncisoI    lex:temConteudo    "I - em cinco anos para o trabalhador urbano, até o limite de dois anos após a extinção do contrato;" .
+lex:L9658\/Artigo1\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:L9658\/Artigo1    lex:temInciso    lex:L9658\/Artigo1\/IncisoIl .
+lex:L9658\/Artigo1\/IncisoIl    lex:temConteudo    "Il - em dois anos, após a extinção do contrato de trabalho, para o trabalhador rural." .
+lex:L9658\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L9658\/Artigo1    lex:temParagrafo    lex:L9658\/Artigo1\/Paragrafo1 .
+lex:L9658\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O disposto neste artigo não se aplica às ações que tenham por objeto anotações para fins de prova junto à Previdência Social." .
+lex:L9658\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L9658\/Artigo1    lex:temParagrafo    lex:L9658\/Artigo1\/Paragrafo2 .
+lex:L9658\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º (VETADO)" .
+lex:L9658\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L9658\/Artigo1    lex:temParagrafo    lex:L9658\/Artigo1\/Paragrafo3 .
+lex:L9658\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º (VETADO)" .
+lex:L9658\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L9658    lex:temArtigo    lex:L9658\/Artigo2 .
+lex:L9658\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L9658\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L9658    lex:temArtigo    lex:L9658\/Artigo3 .
+lex:L9658\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L9658\/Artigo1    lex:remetePara    lex:Del5452 .
+lex:L9658\/Texto00001    lex:remetePara    lex:Del5452\/Artigo11 .

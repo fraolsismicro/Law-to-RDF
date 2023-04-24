@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3788    lex:ehUm    lex:DocLegal .
+lex:D3788    lex:temTextoIntegral    lex:HTMLs\/D3788.htm .
+lex:D3788\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3788    lex:temInciso    lex:D3788\/IncisoI .
+lex:D3788\/IncisoI    lex:temConteudo    "I - realização de transferências voluntárias de recursos pela União;" .
+lex:D3788\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3788    lex:temInciso    lex:D3788\/IncisoII .
+lex:D3788\/IncisoII    lex:temConteudo    "II - celebração de acordos, contratos, convênios ou ajustes, bem como de empréstimos, financiamentos, avais e subvenções em geral de órgãos ou entidades da Administração direta e indireta da União;" .
+lex:D3788\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3788    lex:temInciso    lex:D3788\/IncisoIII .
+lex:D3788\/IncisoIII    lex:temConteudo    "III - celebração de empréstimos e financiamentos por instituições financeiras federais;" .
+lex:D3788\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3788    lex:temParagrafo    lex:D3788\/ParagrafoUnico .
+lex:D3788\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Ministério da Previdência e Assistência Social disponibilizará, por meio eletrônico, o Certificado de Regularidade Previdenciária   CRP, para fins de atendimento do caput." .
+lex:D3788\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D3788    lex:temParagrafo    lex:D3788\/ParagrafoUnico .
+lex:D3788\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O servidor público que praticar ato com inobservância do disposto neste artigo responderá civil, penal e administrativamente, nos termos da lei." .
+lex:D3788\/Artigo1    lex:remetePara    lex:L9717 .
+lex:D3788\/IncisoIV    lex:remetePara    lex:L9796 .

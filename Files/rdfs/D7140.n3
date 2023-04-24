@@ -1,0 +1,70 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7140    lex:ehUm    lex:DocLegal .
+lex:D7140    lex:temTextoIntegral    lex:HTMLs\/D7140.htm .
+lex:D7140\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7140    lex:temArtigo    lex:D7140\/Artigo1 .
+lex:D7140\/Artigo1    lex:temConteudo    "Art. 1o  Fica instituído o documento denominado Passaporte para Trânsito de Cães e Gatos, que poderá ser utilizado em substituição ao certificado sanitário internacional e ao atestado de saúde para trânsito de cães e gatos." .
+lex:D7140\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7140\/Artigo1    lex:temParagrafo    lex:D7140\/Artigo1\/Paragrafo1 .
+lex:D7140\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  O passaporte previsto no caput será expedido pelo Ministério da Agricultura, Pecuária e Abastecimento, que reconhecerá também como certificado sanitário de origem os passaportes expedidos por países que o aceitem como documento equivalente para fins de reciprocidade." .
+lex:D7140\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7140\/Artigo1    lex:temParagrafo    lex:D7140\/Artigo1\/Paragrafo2 .
+lex:D7140\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Para países que não emitam o passaporte como certificação sanitária, será aceito o certificado sanitário de origem, desde que atendidos os requisitos sanitários do Brasil e fornecidas as informações obrigatórias estabelecidas neste Decreto." .
+lex:D7140\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7140    lex:temArtigo    lex:D7140\/Artigo2 .
+lex:D7140\/Artigo2    lex:temConteudo    "Art. 2o  O Passaporte para Trânsito de Cães e Gatos será utilizado também para o trânsito nacional dos animais e será individual, intransferível e válido por toda a vida do animal." .
+lex:D7140\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7140    lex:temArtigo    lex:D7140\/Artigo3 .
+lex:D7140\/Artigo3    lex:temConteudo    "Art. 3o  O Passaporte para Trânsito de Cães e Gatos expedido pela República Federativa do Brasil na forma deste Decreto e os passaportes expedidos pelos países terceiros, que desejem sua aceitação para o envio de cães e gatos para o Brasil, deverão conter, obrigatoriamente, as seguintes informações:" .
+lex:D7140\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoI .
+lex:D7140\/Artigo3\/IncisoI    lex:temConteudo    "I - nome completo e endereço do proprietário do animal;" .
+lex:D7140\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoII .
+lex:D7140\/Artigo3\/IncisoII    lex:temConteudo    "II - dados do animal:" .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome    lex:ehUm    lex:IncisoAlinea .
+lex:D7140\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome    lex:temConteudo    "a) nome, espécie, raça, sexo, data estimada de nascimento e pelagem; e" .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao    lex:ehUm    lex:IncisoAlinea .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome    lex:temIncisoAlinea    lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao    lex:temConteudo    "b) identificação do animal:" .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao    lex:temIncisoAlineaItem    lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero    lex:temConteudo    "1. número do elemento de identificação eletrônica do animal em microchip; e" .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero\/IncisoAlineaItemData    lex:ehUm    lex:IncisoAlineaItem .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero    lex:temIncisoAlineaItem    lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero\/IncisoAlineaItemData .
+lex:D7140\/Artigo3\/IncisoII\/IncisoAlineaNome\/IncisoAlineaIdentificacao\/IncisoAlineaItemNumero\/IncisoAlineaItemData    lex:temConteudo    "2. data de aplicação e localização do microchip;" .
+lex:D7140\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoIII .
+lex:D7140\/Artigo3\/IncisoIII    lex:temConteudo    "III - dados da vacinação antirrábica:" .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData    lex:ehUm    lex:IncisoAlinea .
+lex:D7140\/Artigo3\/IncisoIII    lex:temIncisoAlinea    lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData    lex:temConteudo    "a) data de aplicação e validade de vacinação;" .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome    lex:ehUm    lex:IncisoAlinea .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData    lex:temIncisoAlinea    lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome    lex:temConteudo    "b) nome comercial da vacina, fabricante e número do lote ou partida; e" .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome\/IncisoAlineaNome    lex:ehUm    lex:IncisoAlinea .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome    lex:temIncisoAlinea    lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome\/IncisoAlineaNome .
+lex:D7140\/Artigo3\/IncisoIII\/IncisoAlineaData\/IncisoAlineaNome\/IncisoAlineaNome    lex:temConteudo    "c) nome, número do registro no Conselho Regional de Medicina Veterinária - CRMV e assinatura do médico veterinário responsável pela vacinação;" .
+lex:D7140\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoIV .
+lex:D7140\/Artigo3\/IncisoIV    lex:temConteudo    "IV - dados de outras vacinações, tratamentos, exames laboratoriais e análises exigidas pelo país de destino dos animais;" .
+lex:D7140\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoV .
+lex:D7140\/Artigo3\/IncisoV    lex:temConteudo    "V - dados do exame clínico realizado por médico veterinário responsável; e" .
+lex:D7140\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D7140\/Artigo3    lex:temInciso    lex:D7140\/Artigo3\/IncisoVI .
+lex:D7140\/Artigo3\/IncisoVI    lex:temConteudo    "VI - legalização pela autoridade veterinária do país exportador." .
+lex:D7140\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7140    lex:temArtigo    lex:D7140\/Artigo4 .
+lex:D7140\/Artigo4    lex:temConteudo    "Art. 4o  O Passaporte para Trânsito de Cães e Gatos será confeccionado em modelo oficial estabelecido em ato próprio do Ministério da Agricultura, Pecuária e Abastecimento, que fixará as regras para cumprimento do disposto neste Decreto." .
+lex:D7140\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7140    lex:temArtigo    lex:D7140\/Artigo5 .
+lex:D7140\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .

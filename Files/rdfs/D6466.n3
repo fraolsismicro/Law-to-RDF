@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6466    lex:ehUm    lex:DocLegal .
+lex:D6466    lex:temTextoIntegral    lex:HTMLs\/D6466.htm .
+lex:D6466\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6466    lex:temArtigo    lex:D6466\/Artigo1 .
+lex:D6466\/Artigo1    lex:temConteudo    "Art. 1o  O capital social da Empresa de Tecnologia e Informações da Previdência Social - DATAPREV é aumentado para R$ 100.000.000,00 (cem milhões de reais), mediante a incorporação de R$ 30.000.000,00 (trinta milhões de reais) proveniente do saldo da reserva de retenção de lucros." .
+lex:D6466\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6466    lex:temArtigo    lex:D6466\/Artigo2 .
+lex:D6466\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência da incorporação de que trata o art. 1o, o caput do art. 6o do Estatuto da DATAPREV, aprovado pelo Decreto no 3.457, de 12 de maio de 2000, passa a vigorar com a seguinte redação:" .
+lex:D6466\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6466    lex:temArtigo    lex:D6466\/Artigo3 .
+lex:D6466\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6466\/Texto    lex:remetePara    lex:D6466 .
+lex:D6466\/Artigo2    lex:remetePara    lex:D3457 .
+lex:D6466\/Texto00002    lex:remetePara    lex:D3457\/Artigo6 .
+lex:D6466\/Texto00002    lex:remetePara    lex:L6125 .

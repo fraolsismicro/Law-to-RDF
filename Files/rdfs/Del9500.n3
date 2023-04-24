@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del9500    lex:ehUm    lex:DocLegal .
+lex:Del9500    lex:temTextoIntegral    lex:HTMLs\/Del9500.htm .
+lex:Del9500\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del9500    lex:temParagrafo    lex:Del9500\/ParagrafoUnico .
+lex:Del9500\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em tempo de guerra, o período de vinte e oito anos poderá ser ampliado de acôrdo com os interêsses da defesa nacional." .
+lex:Del9500\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:Del9500\/ParagrafoUnico    lex:temAlinea    lex:Del9500\/ParagrafoUnico\/AlineaOs .
+lex:Del9500\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "b) os dispensados da incorporação por efeito da letra b do art. 55, que por qualquer motivo não forem incluídos na data prevista nos Tiros de Guerra ou nos Centros de Formação de Reservistas;" .
+lex:Del9500\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del9500    lex:temParagrafo    lex:Del9500\/Paragrafo1 .
+lex:Del9500\/Paragrafo1    lex:temConteudo    "§ 1º O prazo de reengajamento no Exército serão de 2 anos para os engajados compreendidos nas alíneas a e b, do art. 87 e de 3 anos para os da alínea do mesmo artigo." .
+lex:Del9500\/Paragrafo1\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:Del9500\/Paragrafo1    lex:temAlinea    lex:Del9500\/Paragrafo1\/AlineaOs .
+lex:Del9500\/Paragrafo1\/AlineaOs    lex:temConteudo    "c) Os engajamentos e os reengajamentos serão concedidos pelo prazo de três anos." .
+lex:Del9500\/Paragrafo1\/AlineaCabos    lex:ehUm    lex:Alinea .
+lex:Del9500\/Paragrafo1    lex:temAlinea    lex:Del9500\/Paragrafo1\/AlineaCabos .
+lex:Del9500\/Paragrafo1\/AlineaCabos    lex:temConteudo    "b) cabos, pelo prazo de três anos;" .
+lex:Del9500\/Paragrafo1\/ParagrafoIncisoC    lex:ehUm    lex:ParagrafoInciso .
+lex:Del9500\/Paragrafo1    lex:temParagrafoInciso    lex:Del9500\/Paragrafo1\/ParagrafoIncisoC .
+lex:Del9500\/Paragrafo1\/ParagrafoIncisoC    lex:temConteudo    "C - Renovação de reengajamento." .
+lex:Del9500\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del9500    lex:temParagrafo    lex:Del9500\/ParagrafoUnico .
+lex:Del9500\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em caso de interêsse excepcional, poderão fazê-lo por maior prazo, mediante autorização do Presidente da República." .
+lex:Del9500\/ParagrafoUnico\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:Del9500\/ParagrafoUnico    lex:temAlinea    lex:Del9500\/ParagrafoUnico\/AlineaOs .
+lex:Del9500\/ParagrafoUnico\/AlineaOs    lex:temConteudo    "c) os que interromperem ou deixarem o serviço ativo sem possuir instrução militar, se não tiverem incidido em qualquer dos casos de isenção previstos no art. 54 ou de adiamento previstos no art. 85." .
+lex:Del9500\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del9500    lex:temParagrafo    lex:Del9500\/ParagrafoUnico .
+lex:Del9500\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Enquanto permanecer nessa situação, o reservista não poderá mudar de domicílio, mesmo na própria localidade, sem prévia comunicação ás Circunscrições de Recrutamento interessadas." .
+lex:Del9500\/Texto    lex:remetePara    lex:Del9500 .
+lex:Del9500\/Artigo4    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo35    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo36    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo3    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo44    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo45    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo3    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo4    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo56    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/AlineaAte    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/AlineaQue    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/AlineaOs    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/AlineaOs    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo57    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo60    lex:revogadoPor    lex:L1585\/Artigo1 .
+lex:L1585\/Artigo1    lex:revogou    lex:Del9500\/Artigo60 .
+lex:Del9500\/ParagrafoUnico\/Artigo81    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/AlineaReservistas    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/AlineaConvocados    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/AlineaAlistados    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/AlineaBrasileiros    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Artigo82    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Artigo83    lex:revogadoPor    lex:L1585\/Artigo1 .
+lex:L1585\/Artigo1    lex:revogou    lex:Del9500\/ParagrafoUnico\/Artigo83 .
+lex:Del9500\/ParagrafoUnico\/Artigo84    lex:revogadoPor    lex:L1585\/Artigo1 .
+lex:L1585\/Artigo1    lex:revogou    lex:Del9500\/ParagrafoUnico\/Artigo84 .
+lex:Del9500\/ParagrafoUnico\/Artigo86    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Paragrafo3    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico\/Artigo87    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo88    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo89    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo90    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1\/Artigo91    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo1\/Artigo92    lex:revogadoPor    lex:L1585\/Artigo1 .
+lex:L1585\/Artigo1    lex:revogou    lex:Del9500\/Paragrafo1\/Artigo92 .
+lex:Del9500\/Artigo97    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoEm    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Paragrafo2    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/Artigo147    lex:remetePara    lex:L1585\/Artigo1 .
+lex:Del9500\/ParagrafoUnico    lex:remetePara    lex:L1585\/Artigo1 .

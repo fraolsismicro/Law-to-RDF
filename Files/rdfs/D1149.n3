@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1149    lex:ehUm    lex:DocLegal .
+lex:D1149    lex:temTextoIntegral    lex:HTMLs\/D1149.htm .
+lex:D1149\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1149    lex:temArtigo    lex:D1149\/Artigo1 .
+lex:D1149\/Artigo1    lex:temConteudo    "Art. 1° 0 § 1° do art. 1° do Decreto n° 1.066, de 27 de fevereiro de 1994 passa a vigorar com a seguinte redação:" .
+lex:D1149\/Artigo1\/ParagrafoA    lex:ehUm    lex:Paragrafo .
+lex:D1149\/Artigo1    lex:temParagrafo    lex:D1149\/Artigo1\/ParagrafoA .
+lex:D1149\/Artigo1\/ParagrafoA    lex:temConteudo    "'1º A variação da expressão em cruzeiros reais da URV, desde o último dia útil do mês de competência, deverá se situar em um intervalo delimitado pela maior e a menor variação mensal dos três índices mencionados nos incisos I, II e III acima;'" .
+lex:D1149\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1149    lex:temArtigo    lex:D1149\/Artigo2 .
+lex:D1149\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .

@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8444    lex:ehUm    lex:DocLegal .
+lex:L8444    lex:temTextoIntegral    lex:HTMLs\/L8444.htm .
+lex:L8444\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8444    lex:temArtigo    lex:L8444\/Artigo1 .
+lex:L8444\/Artigo1    lex:temConteudo    "Art. 1° Os incisos II, III e V do art. 30 da Lei n° 8.212, de 24 de julho de 1991, passam a vigorar com a seguinte redação:" .
+lex:L8444\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8444\/Artigo1    lex:temInciso    lex:L8444\/Artigo1\/IncisoII .
+lex:L8444\/Artigo1\/IncisoII    lex:temConteudo    "II - os segurados trabalhador autônomo e equiparados, empresário e facultativo estão obrigados a recolher sua contribuição até o 15° (décimo quinto) dia útil do mês seguinte àquele a que as contribuições se referirem;" .
+lex:L8444\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L8444\/Artigo1    lex:temInciso    lex:L8444\/Artigo1\/IncisoIII .
+lex:L8444\/Artigo1\/IncisoIII    lex:temConteudo    "III - o adquirente, o consignatário ou a cooperativa são obrigados a recolher a contribuição de que trata o art. 25 desta lei até o 15° (décimo quinto) dia útil do mês subseqüente ao da operação de venda ou consignação da produção;" .
+lex:L8444\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L8444\/Artigo1    lex:temInciso    lex:L8444\/Artigo1\/IncisoV .
+lex:L8444\/Artigo1\/IncisoV    lex:temConteudo    "V - o empregador doméstico está obrigado a arrecadar a contribuição do segurado empregado a seu serviço e a recolhê-la, assim como a parcela a seu cargo, no prazo referido no inciso II deste artigo;" .
+lex:L8444\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8444    lex:temArtigo    lex:L8444\/Artigo2 .
+lex:L8444\/Artigo2    lex:temConteudo    "Art. 2° O art. 58 da Lei n° 8.212, de 24 de julho de 1991, passa a vigorar acrescido do seguinte parágrafo, renumerando-se o atual parágrafo único para § 1°:" .
+lex:L8444\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8444    lex:temArtigo    lex:L8444\/Artigo5 .
+lex:L8444\/Artigo5    lex:temConteudo    "Art. 5° Esta lei entra em vigor na data de sua publicação." .
+lex:L8444\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8444    lex:temArtigo    lex:L8444\/Artigo6 .
+lex:L8444\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:L8444\/Artigo1\/IncisoII    lex:remetePara    lex:L8212\/Artigo30 .
+lex:L8444\/Artigo1\/IncisoV    lex:remetePara    lex:L8212\/Artigo30 .
+lex:L8444\/Texto00005    lex:remetePara    lex:L8212\/Artigo58\/Paragrafo2 .
+lex:L8444\/Artigo3    lex:remetePara    lex:L8213cons\/Artigo41\/Paragrafo4 .
+lex:L8444\/Artigo3    lex:remetePara    lex:316\/Artigo7 .
+lex:L8444\/Artigo3    lex:revogadoPor    lex:L11430\/Artigo7 .
+lex:L11430\/Artigo7    lex:revogou    lex:L8444\/Artigo3 .
+lex:L8444\/Texto00005    lex:revogadoPor    lex:L11430\/Artigo7 .
+lex:L11430\/Artigo7    lex:revogou    lex:L8444\/Texto00005 .
+lex:L8444\/Artigo4    lex:remetePara    lex:L8444\/Artigo41\/Paragrafo6 .
+lex:L8444\/Artigo4    lex:remetePara    lex:L8444\/Artigo41\/Paragrafo7 .
+lex:L8444\/Artigo4    lex:remetePara    lex:316\/Artigo7 .
+lex:L8444\/Artigo4    lex:revogadoPor    lex:L11430\/Artigo7 .
+lex:L11430\/Artigo7    lex:revogou    lex:L8444\/Artigo4 .
+lex:L8444\/Texto00005    lex:remetePara    lex:L8213cons\/Artigo41\/Paragrafo5 .
+lex:L8444\/Texto00005    lex:revogadoPor    lex:L11430\/Artigo7 .
+lex:L11430\/Artigo7    lex:revogou    lex:L8444\/Texto00005 .

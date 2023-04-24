@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7264    lex:ehUm    lex:DocLegal .
+lex:L7264    lex:temTextoIntegral    lex:HTMLs\/L7264.htm .
+lex:L7264\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7264    lex:temArtigo    lex:L7264\/Artigo1 .
+lex:L7264\/Artigo1    lex:temConteudo    "Art. 1º - Os arts. 39, 40 e 41 da Lei nº 5.292, de 8 de junho de 1967, que dispõe sobre a prestação do Serviço Militar pelos estudantes de Medicina, Farmácia, Odontologia e Veterinária e pelos Médicos, Farmacêuticos, Dentistas e Veterinários, em decorrência de dispositivos da Lei nº 4.375, 17 de agosto de 1964, passam a vigorar com a seguinte redação:" .
+lex:L7264\/Artigo40    lex:ehUm    lex:Artigo .
+lex:L7264    lex:temArtigo    lex:L7264\/Artigo40 .
+lex:L7264\/Artigo40    lex:temConteudo    "Art. 40 - AOS MFDV que hajam terminado o EIS para o qual hajam sido designados poderá ser concedida prorrogação do tempo de serviço." .
+lex:L7264\/Artigo41    lex:ehUm    lex:Artigo .
+lex:L7264    lex:temArtigo    lex:L7264\/Artigo41 .
+lex:L7264\/Artigo41    lex:temConteudo    "Art. 41 - Para concessão das prorrogações deverá ser levado em conta que o tempo total de Serviço Militar prestado pelos MFDV, sob qualquer aspecto e em qualquer época, não poderá atingir o prazo total de 10 (dez) anos de Serviço Militar, contínuos ou interrompidos, computados, para esse efeito, todos os tempos de Serviço Militar." .
+lex:L7264\/Artigo41\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7264\/Artigo41    lex:temParagrafo    lex:L7264\/Artigo41\/ParagrafoUnico .
+lex:L7264\/Artigo41\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Compete aos Ministérios Militares estabelecer as condições e prazos das prorrogações, no âmbito da respectiva Força Singular, observado a limite previsto no caput deste artigo." .
+lex:L7264\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7264    lex:temArtigo    lex:L7264\/Artigo2 .
+lex:L7264\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entra em vigor na data de sua publicação." .
+lex:L7264\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7264    lex:temArtigo    lex:L7264\/Artigo3 .
+lex:L7264\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L7264\/Texto00001    lex:remetePara    lex:L5292\/Artigo39 .
+lex:L7264\/Artigo40    lex:remetePara    lex:L5292\/Artigo40 .
+lex:L7264\/Artigo41    lex:remetePara    lex:L5292\/Artigo41 .

@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13236    lex:ehUm    lex:DocLegal .
+lex:L13236    lex:temTextoIntegral    lex:HTMLs\/L13236.htm .
+lex:L13236\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13236    lex:temArtigo    lex:L13236\/Artigo1 .
+lex:L13236\/Artigo1    lex:temConteudo    "Art. 1o  O art. 4 º da Lei n º 6.360, de 23 de setembro de 1976, passa a vigorar acrescido do seguinte parágrafo único:" .
+lex:L13236\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13236\/Artigo1    lex:temParagrafo    lex:L13236\/Artigo1\/ParagrafoUnico .
+lex:L13236\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os produtos de que trata o caput deverão ter características de rotulagem e de embalagem que possibilitem a sua imediata e precisa distinção daqueles destinados ao uso adulto. (NR)" .
+lex:L13236\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13236    lex:temArtigo    lex:L13236\/Artigo2 .
+lex:L13236\/Artigo2    lex:temConteudo    "Art. 2 º  O art. 5 º da Lei n º 6.360, de 23 de setembro de 1976, passa a vigorar com as seguintes alterações:" .
+lex:L13236\/Artigo2\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L13236\/Artigo2    lex:temParagrafo    lex:L13236\/Artigo2\/Paragrafo5 .
+lex:L13236\/Artigo2\/Paragrafo5    lex:temConteudo    "§ 5º  Ficam incluídos entre os erros mencionados no caput os de dispensação e de administração de medicamentos, drogas e produtos correlatos. (NR)" .
+lex:L13236\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L13236    lex:temArtigo    lex:L13236\/Artigo3 .
+lex:L13236\/Artigo3    lex:temConteudo    "Art. 3 º  O art. 57 da Lei n º 6.360, de 23 de setembro de 1976, passa a vigorar acrescido do seguinte § 2 º, numerando-se o atual parágrafo único como § 1 º:" .
+lex:L13236\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L13236\/Artigo3    lex:temParagrafo    lex:L13236\/Artigo3\/Paragrafo1 .
+lex:L13236\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1º ........................................................................." .
+lex:L13236\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L13236\/Artigo3    lex:temParagrafo    lex:L13236\/Artigo3\/Paragrafo2 .
+lex:L13236\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º  Os rótulos de medicamentos, de drogas e de produtos correlatos deverão possuir características que os diferenciem claramente entre si e que inibam erros de dispensação e de administração, trocas indesejadas ou uso equivocado. (NR)" .
+lex:L13236\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L13236    lex:temArtigo    lex:L13236\/Artigo4 .
+lex:L13236\/Artigo4    lex:temConteudo    "Art. 4 º  O Título XI da Lei n º 6.360, de 23 de setembro de 1976, passa a vigorar acrescido do seguinte art. 60-A:" .
+lex:L13236\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L13236    lex:temArtigo    lex:L13236\/Artigo5 .
+lex:L13236\/Artigo5    lex:temConteudo    "Art. 5 º  Esta Lei entra em vigor após decorridos cento e oitenta dias de sua publicação oficial." .
+lex:L13236\/Artigo1    lex:remetePara    lex:L6360 .
+lex:L13236\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6360\/Artigo4 .
+lex:L13236\/Artigo2    lex:remetePara    lex:L6360 .
+lex:L13236\/Texto00003    lex:remetePara    lex:L6360\/Artigo5 .
+lex:L13236\/Artigo2\/Paragrafo5    lex:remetePara    lex:L6360\/Artigo5\/Paragrafo5 .
+lex:L13236\/Artigo3    lex:remetePara    lex:L6360 .
+lex:L13236\/Artigo3\/Paragrafo1    lex:remetePara    lex:L6360\/Artigo57\/Paragrafo1 .
+lex:L13236\/Artigo3\/Paragrafo2    lex:remetePara    lex:L6360\/Artigo57\/Paragrafo2 .
+lex:L13236\/Artigo4    lex:remetePara    lex:L6360 .
+lex:L13236\/Texto00008    lex:remetePara    lex:L6360\/Artigo60 .

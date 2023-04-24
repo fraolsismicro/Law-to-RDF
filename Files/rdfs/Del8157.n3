@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del8157    lex:ehUm    lex:DocLegal .
+lex:Del8157    lex:temTextoIntegral    lex:HTMLs\/Del8157.htm .
+lex:Del8157\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del8157    lex:temArtigo    lex:Del8157\/Artigo1 .
+lex:Del8157\/Artigo1    lex:temConteudo    "Art. 1º Fica revogado o artigo 143 do Decreto-lei nº 7.586, de 28 de maio de 1945, e declarada a nulidade de pleno direito de todos os atos praticados com fundamentos no referido dispositivo." .
+lex:Del8157\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del8157    lex:temArtigo    lex:Del8157\/Artigo2 .
+lex:Del8157\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del8157\/Artigo1    lex:remetePara    lex:Del7586\/Artigo143 .

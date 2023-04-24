@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10432    lex:ehUm    lex:DocLegal .
+lex:L10432    lex:temTextoIntegral    lex:HTMLs\/L10432.htm .
+lex:L10432\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L10432    lex:temArtigo    lex:L10432\/Artigo5 .
+lex:L10432\/Artigo5    lex:temConteudo    "Art. 5o  Os servidores alcançados pela Lei no 10.410, de 11 de janeiro de 2002, não fazem jus à percepção da Gratificação de Atividade - GAE de que trata a Lei Delegada no 13, de 27 de agosto de 1992." .
+lex:L10432\/Texto    lex:remetePara    lex:26 .
+lex:L10432\/Artigo1    lex:remetePara    lex:L4491 .
+lex:L10432\/Artigo2    lex:remetePara    lex:L10404 .
+lex:L10432\/Artigo2    lex:revogadoPor    lex:L11090\/Artigo39 .
+lex:L11090\/Artigo39    lex:revogou    lex:L10432\/Artigo2 .
+lex:L10432\/ParagrafoUnico    lex:remetePara    lex:L10404\/Artigo5 .
+lex:L10432\/ParagrafoUnico    lex:revogadoPor    lex:L11090\/Artigo39 .
+lex:L11090\/Artigo39    lex:revogou    lex:L10432\/ParagrafoUnico .
+lex:L10432\/Artigo5    lex:remetePara    lex:L10410 .
+lex:L10432\/Artigo5    lex:remetePara    lex:Ldl13 .
+lex:L10432\/Artigo7    lex:remetePara    lex:L4491\/3 .
+lex:L10432\/Artigo7    lex:remetePara    lex:L8895 .

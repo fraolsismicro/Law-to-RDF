@@ -1,0 +1,243 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5168    lex:ehUm    lex:DocLegal .
+lex:D5168    lex:temTextoIntegral    lex:HTMLs\/D5168.htm .
+lex:D5168\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo1 .
+lex:D5168\/Artigo1    lex:temConteudo    "Art. 1o  São privativos de Oficial-General os seguintes cargos no Exército:" .
+lex:D5168\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoI .
+lex:D5168\/Artigo1\/IncisoI    lex:temConteudo    "I - do posto de General-de-Exército:" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe    lex:temConteudo    "a) Chefe do Estado-Maior do Exército;" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:temConteudo    "b) Chefe de Departamento;" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temConteudo    "c) Comandante de Operações Terrestres;" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "d) Comandante Militar de Área, exceto Comandante Militar do Planalto e Comandante Militar do Oeste e Nona Divisão de Exército;" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario    lex:temConteudo    "e) Secretário de Economia e Finanças;" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:temConteudo    "f) Secretário de Ciência e Tecnologia; e" .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaSecretario .
+lex:D5168\/Artigo1\/IncisoI\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaSecretario\/IncisoAlineaSecretario\/IncisoAlineaSecretario    lex:temConteudo    "g) Secretário de Tecnologia da Informação;" .
+lex:D5168\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoII .
+lex:D5168\/Artigo1\/IncisoII    lex:temConteudo    "II - do posto de General-de-Divisão Combatente:" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe    lex:temConteudo    "a) Vice-Chefe do Estado-Maior do Exército;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe    lex:temConteudo    "b) Vice-Chefe de Departamento;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante    lex:temConteudo    "c) Comandante Militar do Planalto;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea- .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-    lex:temConteudo    "d) - Comandante Militar do Oeste e Nona Divisão de Exército;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea- .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-    lex:temConteudo    "e) - Comandante de Divisão de Exército;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante    lex:temConteudo    "f) Comandante de Região Militar e Divisão de Exército;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario    lex:temConteudo    "g) Subsecretário de Ciência e Tecnologia;" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario    lex:temConteudo    "h) Subsecretário de Tecnologia da Informação; e" .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario\/IncisoAlinea-    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario\/IncisoAlinea- .
+lex:D5168\/Artigo1\/IncisoII\/IncisoAlineaVice-Chefe\/IncisoAlineaVice-Chefe\/IncisoAlineaComandante\/IncisoAlinea-\/IncisoAlinea-\/IncisoAlineaComandante\/IncisoAlineaSubsecretario\/IncisoAlineaSubsecretario\/IncisoAlinea-    lex:temConteudo    "i) - Subcomandante de Operações Terrestres;" .
+lex:D5168\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoIII .
+lex:D5168\/Artigo1\/IncisoIII    lex:temConteudo    "III - do posto de General-de-Divisão Combatente ou Intendente: Subsecretário de Economia e Finanças;" .
+lex:D5168\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoIV .
+lex:D5168\/Artigo1\/IncisoIV    lex:temConteudo    "IV - do posto de General-de-Divisão ou de General-de-Brigada Combatente:" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante    lex:temConteudo    "a) Comandante de Região Militar;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temConteudo    "b) Chefe do Gabinete do Comandante do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral    lex:temConteudo    "c) Secretário-Geral do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor    lex:temConteudo    "d) Diretor de Órgão de Apoio, exceto os cargos privativos de General Engenheiro Militar, Intendente e Médico;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor    lex:temConteudo    "e) Assessor Especial do Gabinete do Comandante do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe    lex:temConteudo    "f) Subchefe do Estado-Maior do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe    lex:temConteudo    "g) Subchefe do Comando de Operações Terrestres;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe    lex:temConteudo    "h) Chefe do Centro de Comunicação Social do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:temConteudo    "i) Chefe do Centro de Inteligência do Exército;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temConteudo    "j) Comandante da Academia Militar das Agulhas Negras;" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "l) Comandante da Escola de Comando e Estado-Maior do Exército; e" .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoIV\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaSecretario-Geral\/IncisoAlineaDiretor\/IncisoAlineaAssessor\/IncisoAlineaSubchefe\/IncisoAlineaSubchefe\/IncisoAlineaChefe\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temConteudo    "m) Chefe do Gabinete de Planejamento e Gestão do Departamento-Geral do Pessoal;" .
+lex:D5168\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoV .
+lex:D5168\/Artigo1\/IncisoV    lex:temConteudo    "V - do posto de General-de-Divisão ou de General-de-Brigada Combatente ou Intendente: Diretor de Suprimento;" .
+lex:D5168\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoVI .
+lex:D5168\/Artigo1\/IncisoVI    lex:temConteudo    "VI - do posto de General-de-Brigada Combatente:" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe    lex:temConteudo    "a) Chefe do Gabinete do Estado-Maior do Exército;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temConteudo    "b) Comandante da Escola de Aperfeiçoamento de Oficiais;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "c) Comandante da Escola de Sargentos das Armas;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "d) Comandante de Brigada;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "e) Comandante de Artilharia Divisionária;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "f) Comandante de Grupamento de Engenharia de Construção;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temConteudo    "g) Chefe do Estado-Maior de Comando Militar de Área, exceto do Comando Militar do Planalto e do Comando Militar do Oeste;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temConteudo    "h) Comandante de Apoio Regional;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "i) Comandante de Aviação do Exército;" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temConteudo    "j) Comandante do Grupamento de Unidades-Escola e Nona Brigada de Infantaria Motorizada; e" .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVI\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temConteudo    "l) Chefe do Centro de Operações do Comando Militar da Amazônia;" .
+lex:D5168\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoVII .
+lex:D5168\/Artigo1\/IncisoVII    lex:temConteudo    "VII - do posto de General-de-Divisão ou de General-de-Brigada Engenheiro Militar:" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe    lex:temConteudo    "a) Chefe do Centro Tecnológico do Exército;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:temConteudo    "b) Diretor de Obras Militares;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "c) Diretor de Fabricação e Recuperação;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "d) Diretor do Serviço Geográfico;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "e) Diretor de Fiscalização de Produtos Controlados;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "f) Diretor do Instituto de Pesquisa e Desenvolvimento;" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante    lex:temConteudo    "g) Comandante do Instituto Militar de Engenharia; e" .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVII\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaComandante\/IncisoAlineaChefe    lex:temConteudo    "h) Chefe do Centro de Desenvolvimento de Sistemas;" .
+lex:D5168\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoVIII .
+lex:D5168\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - do posto de General-de-Brigada Engenheiro Militar:" .
+lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVIII    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor    lex:temConteudo    "a) Diretor do Campo de Provas da Marambaia; e" .
+lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoVIII\/IncisoAlineaDiretor\/IncisoAlineaChefe    lex:temConteudo    "b) Chefe do Centro Integrado de Telemática do Exército;" .
+lex:D5168\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoIX .
+lex:D5168\/Artigo1\/IncisoIX    lex:temConteudo    "IX - do posto de General-de-Divisão ou General-de-Brigada Intendente:" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor    lex:temConteudo    "a) Diretor de Contabilidade;" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe    lex:temConteudo    "b) Chefe do Centro de Pagamento do Exército;" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:temConteudo    "c) Diretor de Auditoria;" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "d) Diretor de Civis, Inativos e Pensionistas;" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "e) Diretor de Transporte e Mobilização; e" .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor .
+lex:D5168\/Artigo1\/IncisoIX\/IncisoAlineaDiretor\/IncisoAlineaChefe\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor\/IncisoAlineaDiretor    lex:temConteudo    "f) Diretor de Gestão Orçamentária;" .
+lex:D5168\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoX .
+lex:D5168\/Artigo1\/IncisoX    lex:temConteudo    "X - do posto de General-de-Divisão Médico: Diretor de Saúde;" .
+lex:D5168\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:D5168\/Artigo1    lex:temInciso    lex:D5168\/Artigo1\/IncisoXI .
+lex:D5168\/Artigo1\/IncisoXI    lex:temConteudo    "XI - do posto de General-de-Brigada Médico:" .
+lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoXI    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor .
+lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor    lex:temConteudo    "a) Assessor de Saúde de Comando Militar de Área; e" .
+lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor\/IncisoAlineaSubdiretor    lex:ehUm    lex:IncisoAlinea .
+lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor    lex:temIncisoAlinea    lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor\/IncisoAlineaSubdiretor .
+lex:D5168\/Artigo1\/IncisoXI\/IncisoAlineaAssessor\/IncisoAlineaSubdiretor    lex:temConteudo    "b) Subdiretor de Saúde." .
+lex:D5168\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo2 .
+lex:D5168\/Artigo2    lex:temConteudo    "Art. 2o  As nomeações de Oficiais-Generais para os cargos previstos no art. 1o serão feitas por decreto do Poder Executivo, respeitados os limites fixados para os efetivos do Exército em tempo de paz." .
+lex:D5168\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo3 .
+lex:D5168\/Artigo3    lex:temConteudo    "Art. 3o  Os cargos de natureza militar privativos de Oficial-General, em órgãos não pertencentes à estrutura básica do Comando do Exército, são regulados em legislação específica." .
+lex:D5168\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo4 .
+lex:D5168\/Artigo4    lex:temConteudo    "Art. 4o  O Comandante do Exército estabelecerá os cargos de Oficial-General, passíveis de serem ocupados, indistintamente, por Generais possuidores do Curso de Altos Estudos Militares (CAEM) ou apenas do Curso de Política, Estratégia e Alta Administração do Exército (CPEAEx), e baixará os atos complementares necessários à execução deste Decreto." .
+lex:D5168\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo5 .
+lex:D5168\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5168\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D5168    lex:temArtigo    lex:D5168\/Artigo6 .
+lex:D5168\/Artigo6    lex:temConteudo    "Art. 6o  Ficam revogados os Decretos nos 3.648, de 30 de outubro de 2000, 3.948, de 1o de outubro de 2001, 4.453, de 31 de outubro de 2002, 4.621, de 21 de março de 2003, 4.695, de 12 de maio de 2003, 4.880, de 18 de novembro de 2003, e 5.067, de 3 de maio de 2004, o art. 5o do Decreto o 4.290, de 27 de junho de 2002, o art. 3o do Decreto no 4.754, de 20 de junho de 2003, e o art. 2o do Decreto no 4.963, de 28 de janeiro de 2004." .
+lex:D5168\/Texto    lex:remetePara    lex:Del0200\/Artigo46 .
+lex:D5168\/Texto    lex:remetePara    lex:L7150 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D3648 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D3948 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4453 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4621 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4880 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D5067 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4290\/Artigo5 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4754\/Artigo3 .
+lex:D5168\/Artigo6    lex:remetePara    lex:D4963\/Artigo2 .

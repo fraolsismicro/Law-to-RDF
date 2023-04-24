@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10258    lex:ehUm    lex:DocLegal .
+lex:L10258    lex:temTextoIntegral    lex:HTMLs\/L10258.htm .
+lex:L10258\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10258    lex:temArtigo    lex:L10258\/Artigo1 .
+lex:L10258\/Artigo1    lex:temConteudo    "Art. 1o O art. 295 do Decreto-Lei no 3.689, de 3 outubro de 1941   Código de Processo Penal, passa a vigorar com as seguintes alterações:" .
+lex:L10258\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L10258\/Artigo1    lex:temInciso    lex:L10258\/Artigo1\/IncisoV .
+lex:L10258\/Artigo1\/IncisoV    lex:temConteudo    "V   os oficiais das Forças Armadas e os militares dos Estados, do Distrito Federal e dos Territórios;" .
+lex:L10258\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L10258\/Artigo1    lex:temParagrafo    lex:L10258\/Artigo1\/Paragrafo1 .
+lex:L10258\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o A prisão especial, prevista neste Código ou em outras leis, consiste exclusivamente no recolhimento em local distinto da prisão comum." .
+lex:L10258\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L10258\/Artigo1    lex:temParagrafo    lex:L10258\/Artigo1\/Paragrafo2 .
+lex:L10258\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o Não havendo estabelecimento específico para o preso especial, este será recolhido em cela distinta do mesmo estabelecimento." .
+lex:L10258\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10258\/Artigo1    lex:temParagrafo    lex:L10258\/Artigo1\/Paragrafo3 .
+lex:L10258\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o A cela especial poderá consistir em alojamento coletivo, atendidos os requisitos de salubridade do ambiente, pela concorrência dos fatores de aeração, insolação e condicionamento térmico adequados à existência humana." .
+lex:L10258\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L10258\/Artigo1    lex:temParagrafo    lex:L10258\/Artigo1\/Paragrafo4 .
+lex:L10258\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o O preso especial não será transportado juntamente com o preso comum." .
+lex:L10258\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:L10258\/Artigo1    lex:temParagrafo    lex:L10258\/Artigo1\/Paragrafo5 .
+lex:L10258\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o Os demais direitos e deveres do preso especial serão os mesmos do preso comum.' (NR)" .
+lex:L10258\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10258    lex:temArtigo    lex:L10258\/Artigo2 .
+lex:L10258\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data de sua publicação." .
+lex:L10258\/Artigo1\/IncisoV    lex:remetePara    lex:Del3689\/Artigo295 .
+lex:L10258\/Artigo1\/Paragrafo1    lex:remetePara    lex:Del3689\/Artigo295\/Paragrafo1 .

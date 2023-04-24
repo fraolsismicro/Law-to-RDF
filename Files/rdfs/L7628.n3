@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7628    lex:ehUm    lex:DocLegal .
+lex:L7628    lex:temTextoIntegral    lex:HTMLs\/L7628.htm .
+lex:L7628\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7628    lex:temArtigo    lex:L7628\/Artigo1 .
+lex:L7628\/Artigo1    lex:temConteudo    "Art. 1º Os preços mínimos da uva serão fixados de agosto a novembro de cada ano, para a safra seguinte, de conformidade com o disposto no Decreto-lei nº 79, de 19 de dezembro de 1966." .
+lex:L7628\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L7628\/Artigo1    lex:temParagrafo    lex:L7628\/Artigo1\/ParagrafoUnico .
+lex:L7628\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os preços mínimos serão corrigidos até a data do pagamento da uva, calculando-se (VETADO) reajuste mensal, a partir do mês subseqüente ao de sua fixação (VETADO)." .
+lex:L7628\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7628    lex:temArtigo    lex:L7628\/Artigo2 .
+lex:L7628\/Artigo2    lex:temConteudo    "Art. 2º No ato da entrega da uva, o comprador emitirá documento hábil fixando a data de pagamento do produto." .
+lex:L7628\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7628    lex:temArtigo    lex:L7628\/Artigo3 .
+lex:L7628\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação." .
+lex:L7628\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L7628    lex:temArtigo    lex:L7628\/Artigo4 .
+lex:L7628\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as alíneas e (VETADO), do § 2º do art. 1º da Lei nº 7.298, de 28 de dezembro de 1984, e demais disposições em contrário." .
+lex:L7628\/Artigo4    lex:remetePara    lex:L7298\/Artigo1\/Paragrafo2f .

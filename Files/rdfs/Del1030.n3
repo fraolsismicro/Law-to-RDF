@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1030    lex:ehUm    lex:DocLegal .
+lex:Del1030    lex:temTextoIntegral    lex:HTMLs\/Del1030.htm .
+lex:Del1030\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1030    lex:temArtigo    lex:Del1030\/Artigo1 .
+lex:Del1030\/Artigo1    lex:temConteudo    "Art. 1º Ao artigo 882 do Código de Processo Civil (Decreto-lei nº 1.608, de 18 de setembro de 1939) é acrescido um parágrafo único com a seguinte redação:" .
+lex:Del1030\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1030\/Artigo1    lex:temParagrafo    lex:Del1030\/Artigo1\/ParagrafoUnico .
+lex:Del1030\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Se proposta ação rescisória, ficará sobrestada, em relação à União, Estados, Municípios e Distrito Federal, a execução da sentença rescindenda referente a domínio ou posse de imóveis, ou a reclassificação equiparação ou promoção de servidor público civil ou de militar, desde que a parte autora fôr uma daquelas entidades." .
+lex:Del1030\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1030    lex:temArtigo    lex:Del1030\/Artigo2 .
+lex:Del1030\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1030\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1608\/Artigo882 .

@@ -1,0 +1,179 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8259    lex:ehUm    lex:DocLegal .
+lex:D8259    lex:temTextoIntegral    lex:HTMLs\/D8259.htm .
+lex:D8259\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8259    lex:temArtigo    lex:D8259\/Artigo1 .
+lex:D8259\/Artigo1    lex:temConteudo    "Art. 1o O Decreto no 7.485, de 18 de maio de 2011, passa a vigorar com as seguintes alterações:" .
+lex:D8259\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoI .
+lex:D8259\/Artigo1\/IncisoI    lex:temConteudo    "I - a referência para cada professor-equivalente é o Professor do Magistério Superior, Classe A, com denominação Adjunto, nível 1, com regime de trabalho de quarenta horas semanais e titulação equivalente a doutor, que corresponde ao fator um inteiro;" .
+lex:D8259\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoII .
+lex:D8259\/Artigo1\/IncisoII    lex:temConteudo    "II - os Professores Titulares-Livres do Magistério Superior serão computados multiplicando-se a quantidade de professores pelos fatores a seguir, de acordo com o regime de trabalho:" .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime    lex:temConteudo    "a) regime de trabalho de dedicação exclusiva, em três inteiros e quarenta centésimos;" .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime    lex:temIncisoAlinea    lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temConteudo    "b) regime de trabalho de quarenta horas semanais, em um inteiro e cinquenta centésimos; e" .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temIncisoAlinea    lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime .
+lex:D8259\/Artigo1\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temConteudo    "c) regime de trabalho de vinte horas semanais, em noventa e dois centésimos;" .
+lex:D8259\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoIII .
+lex:D8259\/Artigo1\/IncisoIII    lex:temConteudo    "III - os Professores do Magistério Superior efetivos em regime de dedicação exclusiva serão computados multiplicando-se a quantidade de professores pelo fator um inteiro e setenta e oito centésimos;" .
+lex:D8259\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoIV .
+lex:D8259\/Artigo1\/IncisoIV    lex:temConteudo    "IV - os Professores do Magistério Superior efetivos em regime de vinte horas semanais serão computados multiplicando-se a quantidade de professores pelo fator cinquenta e nove centésimos;" .
+lex:D8259\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoV .
+lex:D8259\/Artigo1\/IncisoV    lex:temConteudo    "V - os Professores do Magistério Superior substitutos em regime de quarenta horas semanais serão computados multiplicando-se a quantidade de professores substitutos pelo fator um inteiro;" .
+lex:D8259\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoVI .
+lex:D8259\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Professores do Magistério Superior substitutos em regime de vinte horas semanais serão computados multiplicando-se a quantidade de professores substitutos pelo fator cinquenta e nove centésimos; e" .
+lex:D8259\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo1    lex:temInciso    lex:D8259\/Artigo1\/IncisoVII .
+lex:D8259\/Artigo1\/IncisoVII    lex:temConteudo    "VII - os Professores do Magistério Superior visitantes nacionais e estrangeiros serão computados multiplicando-se a quantidade de professores pelo fator um inteiro e setenta e oito centésimos." .
+lex:D8259\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo1 .
+lex:D8259\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o O banco de professor-equivalente de que trata o caput é composto pelos cargos efetivos lotados em cada universidade, em 31 de março de 2014, acrescido dos dois mil e setecentos cargos autorizados por ato dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Educação, de 2 de abril de 2014, e do limite de vinte por cento do quantitativo de cargos efetivos alocados em cada instituição, para a contratação de professores visitantes e substitutos, na forma do Anexo." .
+lex:D8259\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo2 .
+lex:D8259\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o O percentual de que trata o § 1 º deverá acompanhar a evolução do banco de professor-equivalente sempre que houver a expansão do banco." .
+lex:D8259\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo3 .
+lex:D8259\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Os fatores de que tratam os incisos do caput poderão ser alterados por ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Educação, sempre que a remuneração do cargo efetivo dos Professores do Magistério Superior for alterada de forma não linear." .
+lex:D8259\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo4 .
+lex:D8259\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o Os cargos de Professor do Magistério Superior que estiverem vagos na data de publicação deste Decreto serão multiplicados pelo fator um inteiro e setenta e oito centésimos. (NR)" .
+lex:D8259\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo1 .
+lex:D8259\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o O limite percentual de que trata o caput destina-se a suprir a falta de professores efetivos nos termos do § 1o do art. 2o da Lei no 8.745, de 9 de dezembro de 1993." .
+lex:D8259\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo2 .
+lex:D8259\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o A contratação de professores substitutos, professores visitantes e professores visitantes estrangeiros está condicionada à existência de recursos orçamentários e financeiros para fazer frente às despesas decorrentes da contratação e ao quantitativo máximo de contratos estabelecido para cada universidade federal e demais requisitos previstos na Lei no 8.745, de 1993." .
+lex:D8259\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo3 .
+lex:D8259\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o A contratação dos professores substitutos fica limitada ao regime de trabalho de vinte horas ou quarenta horas semanais. (NR)" .
+lex:D8259\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo1 .
+lex:D8259\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Os quantitativos referidos no Anexo poderão ser alterados, em ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Educação, para a correção de erros materiais, ajustes decorrentes da expansão do banco de professor-equivalente das universidades federais ou alteração dos fatores de que tratam os incisos I a VII do art. 2 º, sempre que a remuneração do cargo efetivo dos Professores do Magistério Superior for reajustada de forma não linear." .
+lex:D8259\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/Paragrafo2 .
+lex:D8259\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Quando da ampliação do banco de professor-equivalente, os novos cargos de Professor do Magistério Superior serão multiplicados pelo fator correspondente ao docente em regime de dedicação exclusiva e os novos cargos de Professor Titular-Livre do Magistério Superior serão multiplicados pelos fatores equivalentes aos respectivos regimes de trabalho. (NR)" .
+lex:D8259\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D8259\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:D8259\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - realizar concurso público e prover cargos de Professor do Magistério Superior e Professor Titular-Livre do Magistério Superior;" .
+lex:D8259\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo1    lex:temParagrafo    lex:D8259\/Artigo1\/ParagrafoUnico .
+lex:D8259\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A realização de concurso público e o provimento de cargos são condicionados à existência de cargo vago de Professor do Magistério Superior e de Professor Titular-Livre do Magistério Superior no quadro de cada universidade federal. (NR)" .
+lex:D8259\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8259    lex:temArtigo    lex:D8259\/Artigo2 .
+lex:D8259\/Artigo2    lex:temConteudo    "Art. 2o O Anexo ao Decreto no 7.485, de 18 de maio de 2011, passa a vigorar na forma no Anexo I a este Decreto." .
+lex:D8259\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8259    lex:temArtigo    lex:D8259\/Artigo3 .
+lex:D8259\/Artigo3    lex:temConteudo    "Art. 3o O Decreto no 7.312, de 22 de setembro de 2010, passa a vigorar com as seguintes alterações:" .
+lex:D8259\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoI .
+lex:D8259\/Artigo3\/IncisoI    lex:temConteudo    "I - a referência para cada professor-equivalente é o Professor do Magistério do Ensino Básico, Técnico e Tecnológico, Classe DI, Nível 1, com regime de trabalho de quarenta horas semanais e titulação equivalente a mestrado, que corresponde ao fator um inteiro;" .
+lex:D8259\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoII .
+lex:D8259\/Artigo3\/IncisoII    lex:temConteudo    "II - os Professores Titulares-Livres do Ensino Básico, Técnico e Tecnológico serão computados multiplicando-se a quantidade de professores pelos fatores a seguir, de acordo com o regime de trabalho:" .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo3\/IncisoII    lex:temIncisoAlinea    lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime    lex:temConteudo    "a) regime de trabalho de dedicação exclusiva por quatro inteiros e quarenta e três centésimos;" .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime    lex:temIncisoAlinea    lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temConteudo    "b) regime de trabalho de quarenta horas semanais por um inteiro e noventa e seis centésimos; e" .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:ehUm    lex:IncisoAlinea .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temIncisoAlinea    lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime .
+lex:D8259\/Artigo3\/IncisoII\/IncisoAlineaRegime\/IncisoAlineaRegime\/IncisoAlineaRegime    lex:temConteudo    "c) regime de trabalho de vinte horas semanais por um inteiro e vinte centésimos;" .
+lex:D8259\/Artigo3\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoIII .
+lex:D8259\/Artigo3\/IncisoIII    lex:temConteudo    "III - os Professores do Magistério do Ensino Básico, Técnico e Tecnológico efetivos em regime de dedicação exclusiva serão computados multiplicando-se a quantidade de professores pelo fator um inteiro e cinquenta e nove centésimos;" .
+lex:D8259\/Artigo3\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoIV .
+lex:D8259\/Artigo3\/IncisoIV    lex:temConteudo    "IV - os Professores do Magistério do Ensino Básico, Técnico e Tecnológico efetivos em regime de vinte horas semanais serão computados multiplicando-se a quantidade de professores pelo fator sessenta e sete centésimos;" .
+lex:D8259\/Artigo3\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoV .
+lex:D8259\/Artigo3\/IncisoV    lex:temConteudo    "V - os professores substitutos e visitantes em regime de quarenta horas semanais serão computados multiplicando-se a quantidade de professores pelo fator um inteiro; e" .
+lex:D8259\/Artigo3\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D8259\/Artigo3    lex:temInciso    lex:D8259\/Artigo3\/IncisoVI .
+lex:D8259\/Artigo3\/IncisoVI    lex:temConteudo    "VI - os professores substitutos e visitantes em regime de vinte horas semanais serão computados multiplicando-se a quantidade de professores pelo fator sessenta e sete centésimos." .
+lex:D8259\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo1 .
+lex:D8259\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o O banco de professor-equivalente de que trata o caput é composto pelos cargos efetivos lotados em cada instituto federal, em 31 de março de 2014, acrescidos de dois mil, novecentos e quarenta e oito novos cargos efetivos de Professor do Ensino Básico, Técnico e Tecnológico, criados pela Lei no 12.677, de 25 de junho de 2012, e  do limite de vinte por cento do quantitativo de cargos efetivos alocados em cada instituto federal, para contratação de professores substitutos e visitantes, na forma descriminada no Anexo." .
+lex:D8259\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo2 .
+lex:D8259\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o O percentual de que trata o § 1 º deverá acompanhar a evolução do banco de professor-equivalente sempre que houver a expansão do banco." .
+lex:D8259\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo3 .
+lex:D8259\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o Os cargos de Professor do Magistério do Ensino Básico, Técnico e Tecnológico que estiverem vagos na data de publicação deste Decreto serão multiplicados pelo fator um inteiro e cinquenta e nove centésimos, que corresponde ao valor máximo do professor em regime de dedicação exclusiva. (NR)" .
+lex:D8259\/Artigo3\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo1 .
+lex:D8259\/Artigo3\/Paragrafo1    lex:temConteudo    "§ 1o O limite percentual de que trata o caput destina-se  a suprir a falta de professores efetivos, nos termos do § 1o do art. 2o da Lei no 8.745, de 9 de dezembro de 1993." .
+lex:D8259\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo2 .
+lex:D8259\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o A contratação de professores substitutos, professores visitantes e professores visitantes estrangeiros está condicionada à existência de recursos orçamentários e financeiros para fazer frente às despesas decorrentes da contratação e ao quantitativo máximo de contratos estabelecido para cada instituto federal e demais requisitos previstos na Lei no 8.745, de 1993." .
+lex:D8259\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo3 .
+lex:D8259\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o  A contratação dos professores substitutos fica limitada ao regime de trabalho de vinte horas ou quarenta horas semanais." .
+lex:D8259\/Artigo3\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo4 .
+lex:D8259\/Artigo3\/Paragrafo4    lex:temConteudo    "§ 4o  A contratação de professores substitutos para suprir os afastamentos e licenças, em conformidade com o disposto no inciso II do § 1o do art. 2o da Lei no 8.745, de 1993, poderá ocorrer:" .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo4    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoI .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoI    lex:temConteudo    "I - para as licenças e afastamento previstos nos arts. 84, 85, 91, 92, 95, 96, 96-A e 207 da Lei no 8.112, de 11 de dezembro de 1990, a partir da publicação do ato de concessão;" .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo4    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoII .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoII    lex:temConteudo    "II - para o afastamento de que trata o art. 93 da Lei no 8.112, de 1990, a partir da publicação de portaria de cessão, pela autoridade competente;" .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo4    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIII .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIII    lex:temConteudo    "III - para o afastamento de que trata o art. 94 da Lei no 8.112, de 1990, a partir do início do mandato; e" .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo4    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIV .
+lex:D8259\/Artigo3\/Paragrafo4\/ParagrafoIncisoIV    lex:temConteudo    "IV - para licença de que trata o art. 202 da Lei no 8.112, de 1990, quando superior a sessenta dias, a partir do ato de concessão. (NR)" .
+lex:D8259\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo2 .
+lex:D8259\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2o  Os quantitativos referidos no Anexo poderão ser alterados, em ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Educação, para a correção de erros materiais, ajustes decorrentes da expansão do banco de professor-equivalente dos institutos federais ou alteração dos fatores de que tratam os incisos do caput do art. 2 º, sempre que a remuneração do cargo efetivo dos Professores do Magistério do Ensino Básico, Técnico e Tecnológico for alterada de forma não linear." .
+lex:D8259\/Artigo3\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/Paragrafo3 .
+lex:D8259\/Artigo3\/Paragrafo3    lex:temConteudo    "§ 3o  Quando da ampliação do banco de professor-equivalente, os novos cargos de Professor de Educação Básica, Técnica e Tecnológica serão multiplicados pelo fator correspondente ao docente em regime de dedicação exclusiva e os novos cargos de Professor Titular-Livre serão multiplicados pelos fatores equivalentes aos respectivos regimes de trabalho. (NR)" .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo3    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoI .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - realizar concurso público e prover cargos de Professor do Magistério do Ensino Básico, Técnico e Tecnológico e de Professor Titular-Livre do Ensino Básico, Técnico e Tecnológico; e" .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8259\/Artigo3\/Paragrafo3    lex:temParagrafoInciso    lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoII .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - contratar professor substituto e visitante, em conformidade com os incisos IV e V do caput do art. 2o da Lei no 8.745, de 1993, observadas as condições e o requisitos nela previstos." .
+lex:D8259\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8259\/Artigo3    lex:temParagrafo    lex:D8259\/Artigo3\/ParagrafoUnico .
+lex:D8259\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A realização de concurso público e o provimento de cargos são condicionados à existência de cargo vago de Professor do Magistério do Ensino Básico, Técnico e Tecnológico e de Professor Titular-Livre do Ensino Básico, Técnico e Tecnológico no quadro de cada instituto federal. (NR)" .
+lex:D8259\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8259    lex:temArtigo    lex:D8259\/Artigo4 .
+lex:D8259\/Artigo4    lex:temConteudo    "Art. 4o  O Anexo ao Decreto no 7.312, de 22 de setembro de 2010, passa a vigorar na forma do Anexo II a este Decreto." .
+lex:D8259\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8259    lex:temArtigo    lex:D8259\/Artigo5 .
+lex:D8259\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8259\/Artigo1    lex:remetePara    lex:D7485 .
+lex:D8259\/Texto00001    lex:remetePara    lex:D7485\/Artigo2 .
+lex:D8259\/Artigo1\/Paragrafo1    lex:remetePara    lex:D7485\/Artigo3\/Paragrafo1 .
+lex:D8259\/Artigo1\/Texto00018    lex:remetePara    lex:D7485\/Artigo6 .
+lex:D8259\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:remetePara    lex:D7485\/Artigo7 .
+lex:D8259\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D7485\/Artigo7 .
+lex:D8259\/Artigo2    lex:remetePara    lex:D7485\/ .
+lex:D8259\/Artigo3    lex:remetePara    lex:D7312 .
+lex:D8259\/Texto00024    lex:remetePara    lex:D7312\/Artigo2 .
+lex:D8259\/Artigo3\/Paragrafo1    lex:remetePara    lex:D7312\/Artigo3\/Paragrafo1 .
+lex:D8259\/Artigo3\/Paragrafo4\/Texto00044    lex:remetePara    lex:D7312\/Artigo6 .
+lex:D8259\/Artigo3\/Paragrafo2    lex:remetePara    lex:D7312\/Artigo6\/Paragrafo2 .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoI    lex:remetePara    lex:D7312\/Artigo7 .
+lex:D8259\/Artigo3\/Paragrafo3\/ParagrafoIncisoII    lex:remetePara    lex:D7312\/Artigo7 .
+lex:D8259\/Artigo3\/ParagrafoUnico    lex:remetePara    lex:D7312\/Artigo7 .
+lex:D8259\/Artigo4    lex:remetePara    lex:D7312\/ .

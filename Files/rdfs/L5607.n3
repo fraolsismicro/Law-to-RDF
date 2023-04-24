@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5607    lex:ehUm    lex:DocLegal .
+lex:L5607    lex:temTextoIntegral    lex:HTMLs\/L5607.htm .
+lex:L5607\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5607    lex:temArtigo    lex:L5607\/Artigo1 .
+lex:L5607\/Artigo1    lex:temConteudo    "Art. 1º O art. 2º da Lei nº 5.581, de 26 de maio de 1970, passa a vigorar com a seguinte redação:" .
+lex:L5607\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5607\/Artigo1    lex:temParagrafo    lex:L5607\/Artigo1\/ParagrafoUnico .
+lex:L5607\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para o cômputo do número de eleitores serão considerados os alistamentos e transferências proclamados na audiência a que se refere o art. 68 do Código Eleitoral'." .
+lex:L5607\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5607    lex:temArtigo    lex:L5607\/Artigo2 .
+lex:L5607\/Artigo2    lex:temConteudo    "Art. 2º No prazo de 5 (cinco) dias, a contar da data da sessão do Tribunal Superior Eleitoral que fixar o número de Deputados, os Partidos Políticos que não houverem registrado candidatos em número igual ao de vagas a preencher poderão completar êsse número, requerendo o registro de novos candidatos." .
+lex:L5607\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5607\/Artigo2    lex:temParagrafo    lex:L5607\/Artigo2\/ParagrafoUnico .
+lex:L5607\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os candidatos a que se refere êste artigo serão escolhidos pela Comissão Executiva Regional." .
+lex:L5607\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5607    lex:temArtigo    lex:L5607\/Artigo3 .
+lex:L5607\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei Entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5607\/Artigo1    lex:remetePara    lex:L5581\/Artigo2 .

@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3996    lex:ehUm    lex:DocLegal .
+lex:D3996    lex:temTextoIntegral    lex:HTMLs\/D3996.htm .
+lex:D3996\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo1 .
+lex:D3996\/Artigo1    lex:temConteudo    "Art. 1o  A prestação de serviços de certificação digital no âmbito da Administração Pública Federal, direta e indireta, fica regulada por este Decreto." .
+lex:D3996\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo2 .
+lex:D3996\/Artigo2    lex:temConteudo    "Art. 2o  Somente mediante prévia autorização do Comitê Executivo do Governo Eletrônico, os órgãos e as entidades da Administração Pública Federal poderão prestar ou contratar serviços de certificação digital." .
+lex:D3996\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3996\/Artigo2    lex:temParagrafo    lex:D3996\/Artigo2\/Paragrafo1 .
+lex:D3996\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  Os serviços de certificação digital a serem prestados, credenciados ou contratados pelos órgãos e entidades integrantes da Administração Pública Federal deverão ser providos no âmbito da Infra-Estrutura de Chaves Públicas Brasileira - ICP-Brasil." .
+lex:D3996\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3996\/Artigo2    lex:temParagrafo    lex:D3996\/Artigo2\/Paragrafo2 .
+lex:D3996\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Respeitado o disposto no § 1o, o Comitê Executivo do Governo Eletrônico poderá estabelecer padrões e requisitos administrativos para a instalação de Autoridades Certificadoras - AC e de Autoridades de Registro   AR próprias na esfera da Administração Pública Federal." .
+lex:D3996\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D3996\/Artigo2    lex:temParagrafo    lex:D3996\/Artigo2\/Paragrafo3 .
+lex:D3996\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3o  As AR de que trata o § 2o serão, preferencialmente, os órgãos integrantes do Sistema de Administração do Pessoal Civil - SIPEC." .
+lex:D3996\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo3 .
+lex:D3996\/Artigo3    lex:temConteudo    "Art. 3o  A tramitação de documentos eletrônicos para os quais seja necessária ou exigida a utilização de certificados digitais somente se fará mediante certificação disponibilizada por AC integrante da ICP-Brasil." .
+lex:D3996\/Artigo3o-A    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo3o-A .
+lex:D3996\/Artigo3o-A    lex:temConteudo    "Art. 3o-A.  As aplicações e demais programas utilizados no âmbito da Administração Pública Federal direta e indireta que admitirem o uso de certificado digital de um determinado tipo contemplado pela ICP-Brasil devem aceitar qualquer certificado de mesmo tipo, ou com requisitos de segurança mais rigorosos, emitido por qualquer AC integrante da ICP-Brasil. (Incluído pelo Decreto nº 4.414, de 7.10.2002)" .
+lex:D3996\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo4 .
+lex:D3996\/Artigo4    lex:temConteudo    "Art. 4o  Será atribuída, na Administração Pública Federal, aos diferentes tipos de certificados disponibilizados pela ICP-Brasil, a classificação de informações segundo o estabelecido na legislação específica." .
+lex:D3996\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo5 .
+lex:D3996\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3996\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D3996    lex:temArtigo    lex:D3996\/Artigo6 .
+lex:D3996\/Artigo6    lex:temConteudo    "Art. 6o  Fica revogado o Decreto no 3.587, de 5 de setembro de 2000." .
+lex:D3996\/Artigo3o-A    lex:remetePara    lex:D4414 .
+lex:D3996\/Artigo6    lex:revogadoPor    lex:D3587 .
+lex:D3587    lex:revogou    lex:D3996\/Artigo6 .

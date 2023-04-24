@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1027    lex:ehUm    lex:DocLegal .
+lex:Del1027    lex:temTextoIntegral    lex:HTMLs\/Del1027.htm .
+lex:Del1027\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1027    lex:temArtigo    lex:Del1027\/Artigo1 .
+lex:Del1027\/Artigo1    lex:temConteudo    "Art. 1º A receita proveniente da aplicação de multas estabelecidas no Regulamento para o Tráfego Marítimo, aprovado pelo Decreto nº 5.798, de 11 de junho de 1940, alterado pelo Decreto nº 50.114, de 26 de janeiro de 1961, vincular-se-á ao Fundo Naval, para cumprimento dos programas e manutenção dos serviços necessários à fiscalização da observância do referido Regulamento, sob as responsabilidade da Diretoria de Portos e Costas, do Ministério da Marinha." .
+lex:Del1027\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1027    lex:temArtigo    lex:Del1027\/Artigo2 .
+lex:Del1027\/Artigo2    lex:temConteudo    "Art. 2º A aplicação das multas de que trata o artigo anterior e a sua contabilidade, continuarão a ser feitas na forma estabelecida pelo Regulamento para o Tráfego Marítimo." .
+lex:Del1027\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1027\/Artigo2    lex:temParagrafo    lex:Del1027\/Artigo2\/ParagrafoUnico .
+lex:Del1027\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os valôres monetários correspondentes às multas referidas neste artigo e os das penalidades previstas no artigo 1º da Lei nº 5.357, de 17 de novembro de 1967, permanecem em vigor, até que novos valôres sejam estabelecidos pelo Poder Executivo." .
+lex:Del1027\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1027    lex:temArtigo    lex:Del1027\/Artigo3 .
+lex:Del1027\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1027\/Artigo1    lex:remetePara    lex:D5798 .
+lex:Del1027\/Artigo1    lex:remetePara    lex:D50114 .
+lex:Del1027\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:L5357\/Artigo1 .

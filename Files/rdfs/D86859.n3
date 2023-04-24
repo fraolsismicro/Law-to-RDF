@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D86859    lex:ehUm    lex:DocLegal .
+lex:D86859    lex:temTextoIntegral    lex:HTMLs\/D86859.htm .
+lex:D86859\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D86859    lex:temArtigo    lex:D86859\/Artigo1 .
+lex:D86859\/Artigo1    lex:temConteudo    "Art. 1º - O artigo 1º e o § 2º do artigo 3º do Decreto nº 84.398, de 16 de janeiro de 1980, passam a vigorar com a seguinte redação, acrescido o artigo 1º de parágrafo único:" .
+lex:D86859\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D86859\/Artigo1    lex:temParagrafo    lex:D86859\/Artigo1\/ParagrafoUnico .
+lex:D86859\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Para os fins do disposto neste artigo, será considerada entidade competente a pessoa física ou jurídica que, em razão de concessão, autorização ou permissão, for titular dos direitos relativos à via de transporte, auto ou linha a ser atravessada, ou a ter a respectiva faixa de domínio ocupada.'" .
+lex:D86859\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D86859    lex:temArtigo    lex:D86859\/Artigo3 .
+lex:D86859\/Artigo3    lex:temConteudo    "Art. 3º - ............................................................." .
+lex:D86859\/Artigo3\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D86859\/Artigo3    lex:temParagrafo    lex:D86859\/Artigo3\/Paragrafo2 .
+lex:D86859\/Artigo3\/Paragrafo2    lex:temConteudo    "§ 2º - A não manifestação do órgão ou entidade competente, nos prazos previstos neste artigo, implicará na outorga tácita de autorização pretendida, para execução da obra.'" .
+lex:D86859\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D86859    lex:temArtigo    lex:D86859\/Artigo2 .
+lex:D86859\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D86859\/Texto00001    lex:remetePara    lex:D84398\/Artigo1 .
+lex:D86859\/Artigo3    lex:remetePara    lex:D84398\/Artigo3\/Paragrafo2 .

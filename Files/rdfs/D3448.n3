@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3448    lex:ehUm    lex:DocLegal .
+lex:D3448    lex:temTextoIntegral    lex:HTMLs\/D3448.htm .
+lex:D3448\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3448    lex:temInciso    lex:D3448\/IncisoI .
+lex:D3448\/IncisoI    lex:temConteudo    "I - como membros permanentes:" .
+lex:D3448\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea    lex:temConteudo    "a)  o Diretor-Geral da Agência Brasileira de Inteligência, que o presidirá;" .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)  o Diretor-Adjunto da Agência Brasileira de Inteligência;" .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "c)  dois representantes do Ministério da Justiça, sendo um do órgão de inteligência da Polícia Federal;" .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "d)  cinco representantes do Ministério da Defesa, sendo, pelo menos, um de cada órgão de inteligência das Forças Armadas;" .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "e)  um representante do Gabinete de Segurança Institucional da Presidência da República;" .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea .
+lex:D3448\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "f)  um representante da Defesa Civil do Ministério da Integração Nacional;" .
+lex:D3448\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3448    lex:temInciso    lex:D3448\/IncisoI .
+lex:D3448\/IncisoI    lex:temConteudo    "I - exercer a orientação normativa sobre as atividades de inteligência na área de segurança pública;" .
+lex:D3448\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3448    lex:temInciso    lex:D3448\/IncisoII .
+lex:D3448\/IncisoII    lex:temConteudo    "II - acompanhar e avaliar o desempenho dos planos e programas da Política Nacional de Inteligência pertinentes à segurança pública;" .
+lex:D3448\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3448    lex:temInciso    lex:D3448\/IncisoIII .
+lex:D3448\/IncisoIII    lex:temConteudo    "III - propor alterações no regimento interno; e" .
+lex:D3448\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3448    lex:temInciso    lex:D3448\/IncisoIV .
+lex:D3448\/IncisoIV    lex:temConteudo    "IV - propor a integração ao Subsistema dos órgãos de Inteligência de Segurança Pública dos Estados, do Distrito Federal e dos Municípios." .
+lex:D3448\/Artigo1    lex:remetePara    lex:L9883 .
+lex:D3448\/Texto00011    lex:remetePara    lex:index .

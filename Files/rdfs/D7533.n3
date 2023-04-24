@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7533    lex:ehUm    lex:DocLegal .
+lex:D7533    lex:temTextoIntegral    lex:HTMLs\/D7533.htm .
+lex:D7533\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7533    lex:temArtigo    lex:D7533\/Artigo1 .
+lex:D7533\/Artigo1    lex:temConteudo    "Art. 1o  No ano de 2011, o pagamento do abono anual de que trata o art. 40 da Lei no 8.213, de 24 de julho de 1991, será efetuado em duas parcelas, sendo a primeira, equivalente a até cinquenta por cento do valor do benefício correspondente ao mês de agosto, paga juntamente com o benefício correspondente a esse mês." .
+lex:D7533\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7533\/Artigo1    lex:temParagrafo    lex:D7533\/Artigo1\/ParagrafoUnico .
+lex:D7533\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  A segunda parcela corresponderá à diferença entre o valor total do abono anual e o valor da parcela antecipada." .
+lex:D7533\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7533    lex:temArtigo    lex:D7533\/Artigo2 .
+lex:D7533\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7533\/Artigo1    lex:remetePara    lex:L8213cons\/Artigo40 .

@@ -1,0 +1,101 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3020    lex:ehUm    lex:DocLegal .
+lex:D3020    lex:temTextoIntegral    lex:HTMLs\/D3020.htm .
+lex:D3020\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3020    lex:temInciso    lex:D3020\/IncisoD .
+lex:D3020\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3020\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3020    lex:temArtigo    lex:D3020\/Artigo1 .
+lex:D3020\/Artigo1    lex:temConteudo    "Art. 1o  Os dispositivos a seguir enumerados do Cerimonial da Marinha, aprovado pelo Decreto no 2.513, de 11 de março de 1998, passam a vigorar com a seguinte redação:" .
+lex:D3020\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoI .
+lex:D3020\/Artigo1\/IncisoI    lex:temConteudo    "I - .............................................................................................................." .
+lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaAs    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaAs .
+lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaAs    lex:temConteudo    "d) as bandas de música e marcial e a guarda, se disponíveis, prestam continência, após o toque de presença, como nas honras de recepção e despedida." .
+lex:D3020\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoI .
+lex:D3020\/Artigo1\/IncisoI    lex:temConteudo    "I - .............................................................................................................." .
+lex:D3020\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoII .
+lex:D3020\/Artigo1\/IncisoII    lex:temConteudo    "II - na despedida:" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:temConteudo    "a) guarnição em postos de continência;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:temConteudo    "b) oficialidade formada no portaló;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:temConteudo    "c) quando o Presidente da República dirigir-se para o portaló, todas as pessoas de sua comitiva devem retirar-se;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:temConteudo    "d) honras de portaló, de bandas marcial e de música como na recepção;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao    lex:temConteudo    "e) execução da salva de partida; ao término, o Estandarte Presidencial é arriado, sendo hasteadas a Bandeira Nacional no tope do mastro e as bandeiras-insígnias antes arriadas;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas    lex:temConteudo    "f) hasteadas tais bandeiras, são dados sete vivas; e" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas\/IncisoAlineaQuando .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao\/IncisoAlineaHasteadas\/IncisoAlineaQuando    lex:temConteudo    "g) quando o Presidente chegar em terra, ou perdido de vista o meio que o transporta, o embandeiramento nos topes é arriado.' (NR)" .
+lex:D3020\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoI .
+lex:D3020\/Artigo1\/IncisoI    lex:temConteudo    "I - .............................................................................................................." .
+lex:D3020\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoII .
+lex:D3020\/Artigo1\/IncisoII    lex:temConteudo    "II - na despedida:" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:temConteudo    "a) guarnição em postos de continência;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:temConteudo    "b) oficialidade formada no portaló;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:temConteudo    "c) quando a autoridade visitante dirigir-se para o portaló, todas as pessoas de sua comitiva devem retirar-se;" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:temConteudo    "d) honras de portaló, de bandas marcial e de música como na recepção; e" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaGuarnicao\/IncisoAlineaOficialidade\/IncisoAlineaQuando\/IncisoAlineaHonras\/IncisoAlineaExecucao    lex:temConteudo    "e) execução da salva de partida; ao término, arriamento da bandeira que se encontrava içada indicando a presença da autoridade visitante.' (NR)" .
+lex:D3020\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoI .
+lex:D3020\/Artigo1\/IncisoI    lex:temConteudo    "I - .............................................................................................................." .
+lex:D3020\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoII .
+lex:D3020\/Artigo1\/IncisoII    lex:temConteudo    "II - ............................................................................................................" .
+lex:D3020\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoIII .
+lex:D3020\/Artigo1\/IncisoIII    lex:temConteudo    "III - as OM que realizarem as cerimônias de entrega de condecorações da 'Medalha do Mérito Tamandaré' em outras datas podem, quando autorizadas pelo Comandante do Distrito Naval, cumprir o cerimonial previsto para o Dia do Marinheiro.' (NR)" .
+lex:D3020\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoI .
+lex:D3020\/Artigo1\/IncisoI    lex:temConteudo    "I - suboficiais e sargentos:" .
+lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaComissao .
+lex:D3020\/Artigo1\/IncisoI\/IncisoAlineaComissao    lex:temConteudo    "a) comissão de representação designada pelo Comandante de Distrito Naval, em cuja área de jurisdição se situa a necrópole, chefiada por oficial subalterno." .
+lex:D3020\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3020\/Artigo1    lex:temInciso    lex:D3020\/Artigo1\/IncisoII .
+lex:D3020\/Artigo1\/IncisoII    lex:temConteudo    "II - cabos, marinheiros e soldados:" .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaComissao    lex:ehUm    lex:IncisoAlinea .
+lex:D3020\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaComissao .
+lex:D3020\/Artigo1\/IncisoII\/IncisoAlineaComissao    lex:temConteudo    "a) comissão de representação designada pelo Comandante de Distrito Naval, em cuja área de jurisdição se situa a necrópole, chefiada por suboficial ou primeiro-sargento.' (NR)" .
+lex:D3020\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3020    lex:temArtigo    lex:D3020\/Artigo2 .
+lex:D3020\/Artigo2    lex:temConteudo    "Art. 2o  O Cerimonial da Marinha, aprovado pelo Decreto no 2.513, de 1998, passa a vigorar acrescido dos seguintes artigos:" .
+lex:D3020\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3020    lex:temArtigo    lex:D3020\/Artigo3 .
+lex:D3020\/Artigo3    lex:temConteudo    "Art. 3o  Nos arts. 1-3-1, 1-3-5, inciso II, 1-3-6, inciso I, 5-3-1, inciso II, e 5-3-4, inciso II, do Cerimonial da Marinha, aprovado pelo Decreto no 2.513, de 1998, a palavra 'honras' fica substituída pela palavra 'continências'." .
+lex:D3020\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D3020    lex:temArtigo    lex:D3020\/Artigo4 .
+lex:D3020\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3020\/Fecho    lex:remetePara    lex:index .

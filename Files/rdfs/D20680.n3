@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D20680    lex:ehUm    lex:DocLegal .
+lex:D20680    lex:temTextoIntegral    lex:HTMLs\/D20680.htm .
+lex:D20680\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D20680    lex:temArtigo    lex:D20680\/Artigo1 .
+lex:D20680\/Artigo1    lex:temConteudo    "Art. 1º A proibição constante do art. 14 do decreto número 19.408, de 18 de novembro de 1930, e do art. 20 do decreto n.º 19.656, de 3 de fevereiro de 1931, não abrange o desempenho das funções de árbitro, ainda em caso em que envolva interesse da Fazenda Pública." .
+lex:D20680\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D20680    lex:temArtigo    lex:D20680\/Artigo2 .
+lex:D20680\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:D20680\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91\/Artigo3 .
+lex:Dnn7-05-09-91\/Artigo3    lex:revogou    lex:D20680\/Texto .
+lex:D20680\/Artigo1    lex:remetePara    lex:D19408\/Artigo14 .

@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6274    lex:ehUm    lex:DocLegal .
+lex:D6274    lex:temTextoIntegral    lex:HTMLs\/D6274.htm .
+lex:D6274\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6274    lex:temArtigo    lex:D6274\/Artigo1 .
+lex:D6274\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o e 2o do Decreto no 1.422, de 20 de março de 1995, passam a vigorar com a seguinte redação:" .
+lex:D6274\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6274\/Artigo1    lex:temInciso    lex:D6274\/Artigo1\/IncisoIII .
+lex:D6274\/Artigo1\/IncisoIII    lex:temConteudo    "III - ............................................................................" .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto    lex:ehUm    lex:IncisoAlinea .
+lex:D6274\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto    lex:temConteudo    "c) Instituto de Defesa do Consumidor - IDEC; e" .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto\/IncisoAlineaConfederacao    lex:ehUm    lex:IncisoAlinea .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto    lex:temIncisoAlinea    lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto\/IncisoAlineaConfederacao .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto\/IncisoAlineaConfederacao    lex:temConteudo    "d) Confederação Nacional do Comércio - CNC. (NR)" .
+lex:D6274\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6274\/Artigo1    lex:temParagrafo    lex:D6274\/Artigo1\/Paragrafo1 .
+lex:D6274\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º  O Plenário reunir-se-á três vezes por ano, a cada quadrimestre e, extraordinariamente, sempre que o Presidente o convocar, estando presentes pelo menos oito de seus membros." .
+lex:D6274\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6274    lex:temArtigo    lex:D6274\/Artigo2 .
+lex:D6274\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6274\/Artigo1\/IncisoIII\/IncisoAlineaInstituto    lex:remetePara    lex:D1422\/Artigo1 .
+lex:D6274\/Artigo1\/Paragrafo1    lex:remetePara    lex:D1422\/Artigo2\/Paragrafo1 .

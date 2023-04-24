@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.877    lex:ehUm    lex:DocLegal .
+lex:L10.877    lex:temTextoIntegral    lex:HTMLs\/L10.877.htm .
+lex:L10877\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10877    lex:temArtigo    lex:L10877\/Artigo1 .
+lex:L10877\/Artigo1    lex:temConteudo    "Art. 1o O art. 3o da Lei no 7.070, de 20 de dezembro de 1982, passa a vigorar acrescido do seguinte parágrafo:" .
+lex:L10877\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L10877\/Artigo1    lex:temParagrafo    lex:L10877\/Artigo1\/Paragrafo3 .
+lex:L10877\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o Sem prejuízo do adicional de que trata o § 2o, o beneficiário desta pensão especial fará jus a mais um adicional de trinta e cinco por cento sobre o valor do benefício, desde que comprove pelo menos:" .
+lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L10877\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoI .
+lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I   vinte e cinco anos, se homem, e vinte anos, se mulher, de contribuição para a Previdência Social;" .
+lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L10877\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
+lex:L10877\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II   cinqüenta e cinco anos de idade, se homem, ou cinqüenta anos de idade, se mulher, e contar pelo menos quinze anos de contribuição para a Previdência Social.' (NR)" .
+lex:L10877\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L10877    lex:temArtigo    lex:L10877\/Artigo2 .
+lex:L10877\/Artigo2    lex:temConteudo    "Art. 2o Esta Lei entra em vigor na data da sua publi" .
+lex:L10877\/Artigo1\/Paragrafo3    lex:remetePara    lex:L7070\/Artigo3\/Paragrafo3 .

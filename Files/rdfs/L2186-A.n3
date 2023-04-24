@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2186-A    lex:ehUm    lex:DocLegal .
+lex:L2186-A    lex:temTextoIntegral    lex:HTMLs\/L2186-A.htm .
+lex:L2186-A\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2186-A    lex:temArtigo    lex:L2186-A\/Artigo1 .
+lex:L2186-A\/Artigo1    lex:temConteudo    "Art. 1º São extensivos às emprêsas editoras ou impressoras de livros os favores concedidos às emprêsas jornalísticas pela Lei nº 1.386, de 18 de junho de 1951, no que se refere à importação de papel para livros." .
+lex:L2186-A\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2186-A    lex:temArtigo    lex:L2186-A\/Artigo2 .
+lex:L2186-A\/Artigo2    lex:temConteudo    "Art. 2º O prazo a que se refere o art. 3º da Lei nº 1.386, de 18 de junho de 1951, no tocante à importação de papel solicitada no primeiro ano, será de 30 (trinta) dias após a vigência desta Lei." .
+lex:L2186-A\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2186-A    lex:temArtigo    lex:L2186-A\/Artigo3 .
+lex:L2186-A\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2186-A\/Artigo1    lex:remetePara    lex:L1386 .
+lex:L2186-A\/Artigo2    lex:remetePara    lex:L1386\/Artigo3 .

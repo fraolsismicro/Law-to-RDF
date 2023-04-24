@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4380a    lex:ehUm    lex:DocLegal .
+lex:D4380a    lex:temTextoIntegral    lex:HTMLs\/D4380a.htm .
+lex:D4380a\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4380a    lex:temParagrafo    lex:D4380a\/ParagrafoUnico .
+lex:D4380a\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O quantitativo de FCT referido no caput destina-se exclusivamente a ocupantes de cargos efetivos, constantes do Anexo V da Lei no 9.367, de 16 de dezembro de 1996, que não tenham sido estruturados em carreiras ou abrangidos pelo art. 1o da Medida Provisória no 2.229-43, de 6 de setembro de 2001." .
+lex:D4380a\/ParagrafoUnico    lex:remetePara    lex:L9367\/ .
+lex:D4380a\/ParagrafoUnico    lex:remetePara    lex:2229-43\/Artigo1 .
+lex:D4380a\/AnexoRevogado    lex:revogadoPor    lex:D4750\/Artigo3 .
+lex:D4750\/Artigo3    lex:revogou    lex:D4380a\/AnexoRevogado .

@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5452    lex:ehUm    lex:DocLegal .
+lex:D5452    lex:temTextoIntegral    lex:HTMLs\/D5452.htm .
+lex:D5452\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5452    lex:temArtigo    lex:D5452\/Artigo1 .
+lex:D5452\/Artigo1    lex:temConteudo    "Art. 1o  Fica aprovado o quantitativo das gratificações de exercício de cargo de confiança devidas a militares e das gratificações de representação, no âmbito do Ministério da Defesa, dos órgãos da Presidência da República e da Vice-Presidência da República, na forma do Anexo I a este Decreto." .
+lex:D5452\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5452    lex:temArtigo    lex:D5452\/Artigo3 .
+lex:D5452\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5452\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D5452    lex:temArtigo    lex:D5452\/Artigo4 .
+lex:D5452\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados os Decretos nos 234, de 22 de outubro de 1991, 419, de 10 de janeiro de 1992, 464, de 27 de fevereiro de 1992, 596, de 7 de julho de 1992, e o Anexo II do Decreto no 4.567, de 1o de janeiro de 2003." .
+lex:D5452\/Artigo2    lex:revogadoPor    lex:D6944\/Artigo32 .
+lex:D6944\/Artigo32    lex:revogou    lex:D5452\/Artigo2 .
+lex:D5452\/Artigo4    lex:remetePara    lex:D234 .
+lex:D5452\/Artigo4    lex:remetePara    lex:D4567\/ .
+lex:D5452\/AnexoII    lex:remetePara    lex:D6133\/Artigo1 .
+lex:D5452\/AnexoII    lex:revogadoPor    lex:D6944\/Artigo32 .
+lex:D6944\/Artigo32    lex:revogou    lex:D5452\/AnexoII .

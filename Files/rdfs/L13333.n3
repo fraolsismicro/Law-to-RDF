@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L13333    lex:ehUm    lex:DocLegal .
+lex:L13333    lex:temTextoIntegral    lex:HTMLs\/L13333.htm .
+lex:L13333\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L13333    lex:temArtigo    lex:L13333\/Artigo1 .
+lex:L13333\/Artigo1    lex:temConteudo    "Art. 1o  O prazo de dispensa previsto no art. 16 da Lei no 12.871, de 22 de outubro de 2013, fica prorrogado por três anos." .
+lex:L13333\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L13333\/Artigo1    lex:temParagrafo    lex:L13333\/Artigo1\/ParagrafoUnico .
+lex:L13333\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Para fins do disposto no caput, fica prorrogado, por três anos, o prazo do visto temporário de que trata o art. 18 da Lei no 12.871, de 22 de outubro de 2013." .
+lex:L13333\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L13333    lex:temArtigo    lex:L13333\/Artigo2 .
+lex:L13333\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L13333\/Artigo1    lex:remetePara    lex:L12871\/Artigo16 .
+lex:L13333\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L12871\/Artigo18 .

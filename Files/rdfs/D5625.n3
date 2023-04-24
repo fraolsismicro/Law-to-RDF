@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5625    lex:ehUm    lex:DocLegal .
+lex:D5625    lex:temTextoIntegral    lex:HTMLs\/D5625.htm .
+lex:D5625\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5625    lex:temArtigo    lex:D5625\/Artigo1 .
+lex:D5625\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo entre o Governo da República Federativa do Brasil e o Governo da República Francesa relativo ao Fornecimento de Materiais e Serviços no âmbito da Aeronáutica Militar, concluído em Paris, em 15 de julho de 2005, apenso a este Decreto, será executado e cumprido tão inteiramente como nele se contém, conferindo ao Comandante da Aeronáutica a condição de autoridade administrativa para efeito da implementação e assinatura dos instrumentos específicos." .
+lex:D5625\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5625    lex:temArtigo    lex:D5625\/Artigo2 .
+lex:D5625\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo ou que acarretem encargos ou compromissos gravosos ao patrimônio nacional, nos termos do art. 49, inciso I, da Constituição." .
+lex:D5625\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5625    lex:temArtigo    lex:D5625\/Artigo3 .
+lex:D5625\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5625\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

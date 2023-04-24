@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2031    lex:ehUm    lex:DocLegal .
+lex:Del2031    lex:temTextoIntegral    lex:HTMLs\/Del2031.htm .
+lex:Del2031\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2031    lex:temArtigo    lex:Del2031\/Artigo1 .
+lex:Del2031\/Artigo1    lex:temConteudo    "Art 1º Os bancos comerciais, bancos de investimento, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras, distribuidoras de títulos e valores mobiliários, e empresas de arrendamento mercantil deverão pagar o seu imposto de renda em doze parcelas mensais, segundo as normas estabelecidas no Decreto-lei nº 1.967, de 23 de novembro de 1982, com as seguintes alterações:" .
+lex:Del2031\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del2031\/Artigo1    lex:temInciso    lex:Del2031\/Artigo1\/IncisoI .
+lex:Del2031\/Artigo1\/IncisoI    lex:temConteudo    "I - nos meses de julho a dezembro que antecederem o início do exercício financeiro, as parcelas do imposto serão pagas sob a forma de antecipação;     (Vide Decreto-lei nº 2.124, de 1984)" .
+lex:Del2031\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del2031\/Artigo1    lex:temInciso    lex:Del2031\/Artigo1\/IncisoII .
+lex:Del2031\/Artigo1\/IncisoII    lex:temConteudo    "II - nos meses de janeiro a abril do exercício financeiro, as parcelas do imposto serão pagas sob a forma de duodécimos;" .
+lex:Del2031\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del2031\/Artigo1    lex:temInciso    lex:Del2031\/Artigo1\/IncisoIII .
+lex:Del2031\/Artigo1\/IncisoIII    lex:temConteudo    "III - o saldo do imposto devido, de acordo com a declaração de rendimentos, depois de deduzidas as antecipações e duodécimos efetivamente pagos, será dividido em duas quotas iguais a serem pagas nos meses de maio e junho do exercício financeiro;" .
+lex:Del2031\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Del2031\/Artigo1    lex:temInciso    lex:Del2031\/Artigo1\/IncisoIV .
+lex:Del2031\/Artigo1\/IncisoIV    lex:temConteudo    "IV - as parcelas do imposto serão pagas até o último dia útil de cada mês." .
+lex:Del2031\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2031    lex:temArtigo    lex:Del2031\/Artigo2 .
+lex:Del2031\/Artigo2    lex:temConteudo    "Art 2º Cada parcela de que tratam os itens I e Il do artigo 1º deste Decreto-lei será igual a 1/12 do imposto e adicional devidos pelo contribuinte no exercício financeiro em que se deva iniciar o pagamento das antecipações, expressos em número de Obrigações Reajustáveis do Tesouro Nacional - ORTN." .
+lex:Del2031\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2031\/Artigo2    lex:temParagrafo    lex:Del2031\/Artigo2\/ParagrafoUnico .
+lex:Del2031\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. À opção da pessoa jurídica, as parcelas relativas aos meses de janeiro a abril do exercício financeiro (art. 1º, item II) poderão ser calculadas, em número de ORTN, à razão de 1/6 do imposto e adicional incidente sobre o lucro real do exercício, depois de diminuídas as parcelas pagas na forma do item I do artigo 1º." .
+lex:Del2031\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2031    lex:temArtigo    lex:Del2031\/Artigo3 .
+lex:Del2031\/Artigo3    lex:temConteudo    "Art 3º O pagamento das antecipações do imposto relativo ao exercício financeiro de 1984 será efetuado a partir do mês de julho de 1983." .
+lex:Del2031\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2031    lex:temArtigo    lex:Del2031\/Artigo4 .
+lex:Del2031\/Artigo4    lex:temConteudo    "Art 4º Este Decreto-lei entrará em vigor na data da sua publicação, revogadas as disposições em contrário." .
+lex:Del2031\/Artigo1    lex:remetePara    lex:Del1967 .
+lex:Del2031\/Artigo1\/IncisoI    lex:remetePara    lex:Del2124\/Artigo1 .

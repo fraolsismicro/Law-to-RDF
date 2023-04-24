@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4732    lex:ehUm    lex:DocLegal .
+lex:L4732    lex:temTextoIntegral    lex:HTMLs\/L4732.htm .
+lex:L4732\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4732    lex:temArtigo    lex:L4732\/Artigo1 .
+lex:L4732\/Artigo1    lex:temConteudo    "Art. 1º O art. 5º da Lei Delegada nº 6, de 26 de setembro de 1962, passa a vigorar com a seguinte redação:" .
+lex:L4732\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L4732\/Artigo1    lex:temInciso    lex:L4732\/Artigo1\/IncisoI .
+lex:L4732\/Artigo1\/IncisoI    lex:temConteudo    "I - De isenção tributária federal, relativamente:" .
+lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:ehUm    lex:IncisoAlinea .
+lex:L4732\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos .
+lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:temConteudo    "a) aos seus bens, rendas e serviços;" .
+lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos    lex:temIncisoAlinea    lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaA .
+lex:L4732\/Artigo1\/IncisoI\/IncisoAlineaAos\/IncisoAlineaA    lex:temConteudo    "b) à compra, venda, exportação e transportes dos gêneros alimentícios e bens necessários às atividades agropecuárias, inclusive pesca, e as indústrias de alimentos." .
+lex:L4732\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L4732\/Artigo1    lex:temInciso    lex:L4732\/Artigo1\/IncisoII .
+lex:L4732\/Artigo1\/IncisoII    lex:temConteudo    "II - De isenção do impôsto de importação e de consumo, bem como das taxas de despacho aduaneiro, de renovação da Marinha Mercante e de renovação dos portos, relativamente à importação:" .
+lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos    lex:ehUm    lex:IncisoAlinea .
+lex:L4732\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos .
+lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos    lex:temConteudo    "a) dos bens, materiais e equipamentos para seu uso e exploração;" .
+lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos\/IncisoAlineaDos    lex:ehUm    lex:IncisoAlinea .
+lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos    lex:temIncisoAlinea    lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos\/IncisoAlineaDos .
+lex:L4732\/Artigo1\/IncisoII\/IncisoAlineaDos\/IncisoAlineaDos    lex:temConteudo    "b) dos gêneros alimentícios e bens necessários às atividades agropecuárias, inclusive pesca, e as indústrias de alimentos, ainda que se destinem a revenda." .
+lex:L4732\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4732    lex:temArtigo    lex:L4732\/Artigo2 .
+lex:L4732\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entra em vigor na data de sua publicação." .
+lex:L4732\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4732    lex:temArtigo    lex:L4732\/Artigo3 .
+lex:L4732\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L4732\/Texto00001    lex:remetePara    lex:Ldl06\/Artigo5 .

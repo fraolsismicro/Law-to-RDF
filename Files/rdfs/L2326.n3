@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2326    lex:ehUm    lex:DocLegal .
+lex:L2326    lex:temTextoIntegral    lex:HTMLs\/L2326.htm .
+lex:L2326\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2326    lex:temArtigo    lex:L2326\/Artigo1 .
+lex:L2326\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a abrir, pelo Ministério da Guerra, o crédito especial até a importância de Cr$ 150.000.000,00 (cento e cinquenta milhões de cruzeiros) a fim de ocorrer ao pagamento das pensões devidas e vencidas, bem como as que forem concedidas aos veteranos, às viúvas e às filhas dos ex-combatentes da campanha do Uruguai e da guerra do Paraguai, beneficiados pelo Decreto-lei nº 1.544, de 25 de agôsto de 1939, e pelas Leis ns. 488, 628 e 1.031, respectivamente, de 15 de novembro de 1948, 20 de fevereiro de 1949 e 30 de dezembro de 1949." .
+lex:L2326\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L2326\/Artigo1    lex:temParagrafo    lex:L2326\/Artigo1\/ParagrafoUnico .
+lex:L2326\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O crédito de que trata êste artigo será utilizado, na medida das necessidades, em parcelas de Cr$ 30.000.000,00 (trinta milhões de cruzeiros), ficando as mesmas 'em ser' na Diretoria de Finanças do Exército, à disposição do presidente da Comissão de Habilitação das Pensões Vitalícias, após o competente registro." .
+lex:L2326\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2326    lex:temArtigo    lex:L2326\/Artigo2 .
+lex:L2326\/Artigo2    lex:temConteudo    "Art. 2º O presidente da Comissão autorizará os pagamentos por intermédio dos órgãos do Exército, podendo ser feitos a procuradores, quando os interessados comprovadamente estiverem ausentes, sofrendo de moléstia contagiosa ou não se puderem locomover." .
+lex:L2326\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L2326    lex:temArtigo    lex:L2326\/Artigo3 .
+lex:L2326\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2326\/Artigo1    lex:remetePara    lex:Del1544 .
+lex:L2326\/Artigo1    lex:remetePara    lex:L0488 .
+lex:L2326\/Artigo1    lex:remetePara    lex:lei-628-21-fevereiro-1949-363856-publicacaoinal-1-pl .

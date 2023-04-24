@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6454    lex:ehUm    lex:DocLegal .
+lex:D6454    lex:temTextoIntegral    lex:HTMLs\/D6454.htm .
+lex:D6454\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6454    lex:temArtigo    lex:D6454\/Artigo1 .
+lex:D6454\/Artigo1    lex:temConteudo    "Art. 1o  O inciso III do art. 445 do Decreto no 4.543, de 26 de dezembro de 2002, passa a vigorar acrescido da alínea e, com a seguinte redação:" .
+lex:D6454\/Artigo1\/AlineaLoja    lex:ehUm    lex:Alinea .
+lex:D6454\/Artigo1    lex:temAlinea    lex:D6454\/Artigo1\/AlineaLoja .
+lex:D6454\/Artigo1\/AlineaLoja    lex:temConteudo    "c) loja franca;" .
+lex:D6454\/Artigo1\/AlineaEntreposto    lex:ehUm    lex:Alinea .
+lex:D6454\/Artigo1    lex:temAlinea    lex:D6454\/Artigo1\/AlineaEntreposto .
+lex:D6454\/Artigo1\/AlineaEntreposto    lex:temConteudo    "d) entreposto aduaneiro; ou" .
+lex:D6454\/Artigo1\/AlineaRecof    lex:ehUm    lex:Alinea .
+lex:D6454\/Artigo1    lex:temAlinea    lex:D6454\/Artigo1\/AlineaRecof .
+lex:D6454\/Artigo1\/AlineaRecof    lex:temConteudo    "e) Recof. (NR)" .
+lex:D6454\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6454    lex:temArtigo    lex:D6454\/Artigo2 .
+lex:D6454\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6454\/Texto    lex:remetePara    lex:D6454 .
+lex:D6454\/Artigo1    lex:remetePara    lex:D4543 .
+lex:D6454\/Artigo1\/AlineaLoja    lex:remetePara    lex:D4543\/Artigo445 .

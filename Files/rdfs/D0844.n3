@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0844    lex:ehUm    lex:DocLegal .
+lex:D0844    lex:temTextoIntegral    lex:HTMLs\/D0844.htm .
+lex:D0844\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0844    lex:temArtigo    lex:D0844\/Artigo1 .
+lex:D0844\/Artigo1    lex:temConteudo    "Art. 1° Ficam excluídas do Programa Nacional de Desestatização, de que trata a Lei n° 8.031, de 12.04.90, a Petrobrás Fertilizantes S.A. (PETROFÉRTIL), incluída pelo inciso I do art. 1° do Decreto n° 99.666, de 1° de novembro de 1990, e a Fertilizantes Nitrogenados do Nordeste S.A. (NITROFÉRTIL), incluída pelo inciso I, do art. 1° do Decreto n° 99.523, de 11 de setembro de 1990." .
+lex:D0844\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D0844\/Artigo1    lex:temParagrafo    lex:D0844\/Artigo1\/Paragrafo1 .
+lex:D0844\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1° A Comissão Diretora do Programa Nacional de Desestatização liberará, no prazo de 5 (cinco) dias, contados da data de publicação deste decreto, as ações representativas do capital social da Petrobrás Fertilizantes S.A. (PETROFÉRTIL), e de Fertilizantes Nitrogenados do Nordeste S.A. (NITROFÉRTIL), depositadas no Fundo Nacional de Desestatização na forma determinada pelo art. 2° do Decreto n° 99.666, de 1° de novembro de 1990, e pelo art. 2° do Decreto n° 99.523, de 11 de setembro de 1990." .
+lex:D0844\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D0844\/Artigo1    lex:temParagrafo    lex:D0844\/Artigo1\/Paragrafo2 .
+lex:D0844\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° As disposições deste artigo não se aplicam às demais empresas sob o controle acionário da Petrobrás Fertilizantes S.A. (PETROFÉRTIL), e incluídas no Programa Nacional de Desestatização." .
+lex:D0844\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0844    lex:temArtigo    lex:D0844\/Artigo2 .
+lex:D0844\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto estra em vigor na data de sua publicação, revogando-se as disposições em contrário, especialmente o inciso I do artigo 1º do Decreto nº 99.666, de 1º novembro de 1990 e o inciso I, do artigo 1º do Decreto 99.523, de 11 de setembro de 1990." .
+lex:D0844\/Artigo1\/Paragrafo1    lex:remetePara    lex:D99666\/Artigo2 .
+lex:D0844\/Artigo2    lex:remetePara    lex:D99666\/Artigo1 .
+lex:D0844\/Artigo2    lex:remetePara    lex:D99523\/Artigo1 .

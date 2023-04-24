@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11969    lex:ehUm    lex:DocLegal .
+lex:L11969    lex:temTextoIntegral    lex:HTMLs\/L11969.htm .
+lex:L11969\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11969    lex:temArtigo    lex:L11969\/Artigo1 .
+lex:L11969\/Artigo1    lex:temConteudo    "Art. 1o  Esta Lei disciplina a retirada dos autos do cartório ou secretaria pelos procuradores para a obtenção de cópias na hipótese de prazo comum às partes." .
+lex:L11969\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11969    lex:temArtigo    lex:L11969\/Artigo2 .
+lex:L11969\/Artigo2    lex:temConteudo    "Art. 2o  O § 2o do art. 40 da Lei no 5.869, de 11 de janeiro de 1973, passa a vigorar com a seguinte redação:" .
+lex:L11969\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L11969\/Artigo2    lex:temParagrafo    lex:L11969\/Artigo2\/Paragrafo2 .
+lex:L11969\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  Sendo comum às partes o prazo, só em conjunto ou mediante prévio ajuste por petição nos autos, poderão os seus procuradores retirar os autos, ressalvada a obtenção de cópias para a qual cada procurador poderá retirá-los pelo prazo de 1 (uma) hora independentemente de ajuste. (NR)" .
+lex:L11969\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11969    lex:temArtigo    lex:L11969\/Artigo3 .
+lex:L11969\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11969\/Artigo2    lex:remetePara    lex:L5869\/Artigo40\/Paragrafo2 .

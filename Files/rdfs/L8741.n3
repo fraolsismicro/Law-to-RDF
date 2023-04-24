@@ -1,0 +1,61 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8741    lex:ehUm    lex:DocLegal .
+lex:L8741    lex:temTextoIntegral    lex:HTMLs\/L8741.htm .
+lex:L8741\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8741    lex:temArtigo    lex:L8741\/Artigo1 .
+lex:L8741\/Artigo1    lex:temConteudo    "Art. 1º O Conselho Nacional de Informática e Automação - CONIN, órgão integrante da estrutura básica do Ministério da Ciência e Tecnologia, é composto pelos seguintes membros:" .
+lex:L8741\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L8741\/Artigo1    lex:temInciso    lex:L8741\/Artigo1\/IncisoI .
+lex:L8741\/Artigo1\/IncisoI    lex:temConteudo    "I - Representantes do Poder Executivo:" .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos    lex:temConteudo    "a) Secretários-Executivos do Ministério da Ciência e Tecnologia, do Ministério da Educação e do Desporto, do Ministério da Fazenda, do Ministério da Justiça, do Ministério das Comunicações, do Ministério da Indústria, do Comércio e do Turismo, do Ministério da Integração Regional e da Secretaria do Planejamento, Orçamento e Coordenação da Presidência da República;" .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral    lex:temConteudo    "b) Secretário-Geral do Ministério das Relações Exteriores;" .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm    lex:temConteudo    "c) um representante indicado pelos três Ministérios: do Exército, da Marinha e da Aeronáutica;" .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm\/IncisoAlineaSecretarios-Adjuntos    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm\/IncisoAlineaSecretarios-Adjuntos .
+lex:L8741\/Artigo1\/IncisoI\/IncisoAlineaSecretarios-Executivos\/IncisoAlineaSecretario-Geral\/IncisoAlineaUm\/IncisoAlineaSecretarios-Adjuntos    lex:temConteudo    "d) Secretários-Adjuntos da Secretaria de Assuntos Estratégicos e da Secretaria da Administração Federal, da Presidência da República." .
+lex:L8741\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L8741\/Artigo1    lex:temInciso    lex:L8741\/Artigo1\/IncisoII .
+lex:L8741\/Artigo1\/IncisoII    lex:temConteudo    "II - doze representantes não-governamentais de livre escolha e nomeação do Presidente da República, escolhidos mediante indicação de associações nacionais representativas, sendo:" .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois    lex:temConteudo    "a) dois representantes dos produtores de bens e serviços de informática e de automação;" .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm    lex:temConteudo    "b) um representante dos produtores de programas de computador;" .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:temConteudo    "c) três representantes dos usuários dos bens e serviços de informática;" .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres    lex:temConteudo    "d) três representantes dos trabalhadores do setor;" .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres    lex:ehUm    lex:IncisoAlinea .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres    lex:temIncisoAlinea    lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres .
+lex:L8741\/Artigo1\/IncisoII\/IncisoAlineaDois\/IncisoAlineaUm\/IncisoAlineaTres\/IncisoAlineaTres\/IncisoAlineaTres    lex:temConteudo    "e) três representantes da comunidade científica e tecnológica." .
+lex:L8741\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L8741\/Artigo1    lex:temParagrafo    lex:L8741\/Artigo1\/Paragrafo1 .
+lex:L8741\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O mandato dos membros do Conselho, em qualquer hipótese, extinguir-se-á com o mandato do Presidente da República que os nomear." .
+lex:L8741\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L8741\/Artigo1    lex:temParagrafo    lex:L8741\/Artigo1\/Paragrafo2 .
+lex:L8741\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Ressalvado o disposto no parágrafo anterior, a duração do mandato de membros não-governamentais do Conselho será de três anos." .
+lex:L8741\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8741    lex:temArtigo    lex:L8741\/Artigo2 .
+lex:L8741\/Artigo2    lex:temConteudo    "Art. 2º O CONIN será presidido pelo Secretário-Executivo do Ministério da Ciência e Tecnologia, que coordenará os trabalhos do Colegiado, cabendo à Secretaria de Política de Informática e Automação prestar-lhe apoio técnico e administrativo." .
+lex:L8741\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8741    lex:temArtigo    lex:L8741\/Artigo3 .
+lex:L8741\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L8741\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8741    lex:temArtigo    lex:L8741\/Artigo4 .
+lex:L8741\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .

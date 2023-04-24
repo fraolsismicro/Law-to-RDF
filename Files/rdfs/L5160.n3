@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5160    lex:ehUm    lex:DocLegal .
+lex:L5160    lex:temTextoIntegral    lex:HTMLs\/L5160.htm .
+lex:L5160\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5160    lex:temArtigo    lex:L5160\/Artigo1 .
+lex:L5160\/Artigo1    lex:temConteudo    "Art. 1º Fica assegurada aos herdeiros dos militares demitidos ou expulsos, amparados pelo artigo 20 e seu parágrafo único, da Lei número 3.765, de 4 de maio de 1960, a percepção do salário-família." .
+lex:L5160\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5160    lex:temArtigo    lex:L5160\/Artigo2 .
+lex:L5160\/Artigo2    lex:temConteudo    "Art. 2º São extensivos aos herdeiros dos militares, amparados pela Lei número 5.035, de 17 de junho de 1966, os benefícios da presente lei." .
+lex:L5160\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5160    lex:temArtigo    lex:L5160\/Artigo3 .
+lex:L5160\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entrará em vigor na data de sua publicação revogadas as disposições em contrário." .
+lex:L5160\/Artigo1    lex:remetePara    lex:L3765\/Artigo20 .
+lex:L5160\/Artigo2    lex:remetePara    lex:L5035 .

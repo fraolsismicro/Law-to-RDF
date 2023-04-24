@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8011    lex:ehUm    lex:DocLegal .
+lex:L8011    lex:temTextoIntegral    lex:HTMLs\/L8011.htm .
+lex:L8011\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo1 .
+lex:L8011\/Artigo1    lex:temConteudo    "Art. 1º É o Poder Executivo autorizado a alienar, mediante concorrência pública e com observância do Decreto-Lei nº 2.300, de 21 de novembro de 1986, as unidades residenciais situadas no Distrito Federal e localizadas nos Setores de Habilitações Individuais, de Chácaras e de Mansões." .
+lex:L8011\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo2 .
+lex:L8011\/Artigo2    lex:temConteudo    "Art. 2º A Caixa Econômica Federal presidirá o processo licitatório, que será concluído no prazo de cento e vinte dias a contar da publicação da medida provisória que deu origem a esta lei." .
+lex:L8011\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo3 .
+lex:L8011\/Artigo3    lex:temConteudo    "Art. 3º A Caixa Econômica Federal procederá, perante os órgãos administrativos do Governo do Distrito Federal, nos Cartórios de Notas e nos Cartórios do registro imobiliário de Brasília-DF, à regularização dos títulos dominiais dos imóveis alienados." .
+lex:L8011\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8011\/Artigo3    lex:temParagrafo    lex:L8011\/Artigo3\/ParagrafoUnico .
+lex:L8011\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Os Cartórios de Notas e os Cartórios de Registro de Imóveis darão prioridade de atendimento à Caixa Econômica Federal no procedimento de regularização acima previsto." .
+lex:L8011\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo4 .
+lex:L8011\/Artigo4    lex:temConteudo    "Art. 4 º O valor apurado em decorrência da alienação de cada imóvel será convertido em renda da União, cujo produto será obrigatoriamente aplicado em programas habitacionais de caráter social." .
+lex:L8011\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo5 .
+lex:L8011\/Artigo5    lex:temConteudo    "Art. 5º O Poder Executivo regulamentará esta lei no prazo de sessenta dias, contado da publicação da medida provisória que lhe deu origem." .
+lex:L8011\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo6 .
+lex:L8011\/Artigo6    lex:temConteudo    "Art. 6º As empresas públicas, sociedades de economia mista, respectivas subsidiárias e entidades controladas direta ou indiretamente pela União ficam autorizadas a proceder aos atos legais e administrativos necessários à alienação de suas unidades residenciais não vinculadas às suas atividades operacionais, com base nos termos desta lei." .
+lex:L8011\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo7 .
+lex:L8011\/Artigo7    lex:temConteudo    "Art. 7º Esta lei entra em vigor na data de sua publicação." .
+lex:L8011\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L8011    lex:temArtigo    lex:L8011\/Artigo8 .
+lex:L8011\/Artigo8    lex:temConteudo    "Art. 8º Revogam-se as disposições em contrário." .
+lex:L8011\/Texto    lex:regulamentadoPor    lex:D99209 .
+lex:D99209    lex:regulamenta    lex:L8011\/Texto .
+lex:L8011\/Artigo1    lex:remetePara    lex:Del2300-86 .

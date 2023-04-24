@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2816    lex:ehUm    lex:DocLegal .
+lex:L2816    lex:temTextoIntegral    lex:HTMLs\/L2816.htm .
+lex:L2816\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2816    lex:temArtigo    lex:L2816\/Artigo1 .
+lex:L2816\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 517 e 523 do Decreto-lei nº 1.608, de 18 de setembro de 1939 (Código de Processo Civil), passam a ter a seguinte redação:" .
+lex:L2816\/Artigo523    lex:ehUm    lex:Artigo .
+lex:L2816    lex:temArtigo    lex:L2816\/Artigo523 .
+lex:L2816\/Artigo523    lex:temConteudo    "Art. 523. O processo dêste Capítulo será observado em inventário de valor superior a Cr$200.000,00 (duzentos mil cruzeiros), se as partes forem capazes de transigir e nêle convierem, em têrmo judicial, assinado por tôdas." .
+lex:L2816\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2816    lex:temArtigo    lex:L2816\/Artigo2 .
+lex:L2816\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:L2816\/Texto00001    lex:remetePara    lex:Del1608\/Artigo517 .
+lex:L2816\/Artigo523    lex:remetePara    lex:Del1608\/Artigo523 .

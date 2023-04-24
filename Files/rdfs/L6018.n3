@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6018    lex:ehUm    lex:DocLegal .
+lex:L6018    lex:temTextoIntegral    lex:HTMLs\/L6018.htm .
+lex:L6018\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6018    lex:temArtigo    lex:L6018\/Artigo1 .
+lex:L6018\/Artigo1    lex:temConteudo    "Art 1º Não se aplicará a multa prevista no artigo 8º, da Lei número 4.737, de 15 de julho de 1965, aos que se inscreverem até a data do encerramento do prazo de alistamento para as eleições de 1974." .
+lex:L6018\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6018    lex:temArtigo    lex:L6018\/Artigo2 .
+lex:L6018\/Artigo2    lex:temConteudo    "Art 2º Acrescente-se ao artigo 47, da Lei nº 4.737, de 15 de julho de 1965, o seguinte § 1º, remunerando-se os demais:" .
+lex:L6018\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6018    lex:temArtigo    lex:L6018\/Artigo3 .
+lex:L6018\/Artigo3    lex:temConteudo    "Art 3º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6018\/Artigo1    lex:remetePara    lex:L4737\/Artigo8 .
+lex:L6018\/Artigo2    lex:remetePara    lex:L4737 .
+lex:L6018\/Texto00002    lex:remetePara    lex:L4737\/Artigo47\/Paragrafo1 .

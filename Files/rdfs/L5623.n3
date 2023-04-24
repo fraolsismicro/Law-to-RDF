@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5623    lex:ehUm    lex:DocLegal .
+lex:L5623    lex:temTextoIntegral    lex:HTMLs\/L5623.htm .
+lex:L5623\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo1 .
+lex:L5623\/Artigo1    lex:temConteudo    "Art. 1º Aos funcionários do Tribunal de Contas do Distrito Federal, titulares de cargos e de denominação idêntica aos dos cargos do Poder Executivo, é concedido, a partir de 1º de fevereiro de 1970, um reajustamento de vencimentos em montante igual ao atribuído aos ocupantes dêstes últimos, pelo Decreto-lei nº 1.073, de 9 de janeiro de 1970." .
+lex:L5623\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo2 .
+lex:L5623\/Artigo2    lex:temConteudo    "Art. 2º Aos ocupantes de cargos peculiares, sem similares nos Quadros do Poder Executivos, é concedido, a partir de 1º de fevereiro de 1970, um reajustamento de 10% (dez por cento) sôbre os seus vencimentos básicos atuais." .
+lex:L5623\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo3 .
+lex:L5623\/Artigo3    lex:temConteudo    "Art. 3º O reajustamento a que se refere o artigo anterior será elevado a 20% (vinte por cento) do valor, em janeiro de 1970, do Padrão ou nível em que o cargo vier a ser enquadrado, em cumprimento ao disposto no § 1º do art. 108, da Constituição Federal." .
+lex:L5623\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5623\/Artigo3    lex:temParagrafo    lex:L5623\/Artigo3\/ParagrafoUnico .
+lex:L5623\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Não se aplicará o disposto neste artigo aos cargos que vierem a ser enquadrados em níveis ou importâncias superiores aos seus vencimentos atuais, acrescidos do reajustamento de 10% (dez por cento) a que se refere o art. 2º." .
+lex:L5623\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo4 .
+lex:L5623\/Artigo4    lex:temConteudo    "Art. 4º Aos inativos do Quadro de Pessoal do Tribunal de Contas do Distrito Federal, criado pelo Decreto-lei nº 378, de 23 de dezembro de 1968, é concedido, a partir de 1º de fevereiro de 1970, reajustamento de valor idêntico ao deferido por esta Lei aos funcionários em atividade, da mesma denominação e nível, nos têrmos da Lei nº 2.622, de 18 de outubro de 1955." .
+lex:L5623\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo5 .
+lex:L5623\/Artigo5    lex:temConteudo    "Art. 5º As despesas decorrentes da aplicação desta Lei correrão à conta de recursos orçamentários, inclusive na forma prevista no inciso II, do artigo 6º do Decreto-lei nº 752, de 8 de agôsto de 1969." .
+lex:L5623\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L5623    lex:temArtigo    lex:L5623\/Artigo6 .
+lex:L5623\/Artigo6    lex:temConteudo    "Art. 6º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5623\/Artigo1    lex:remetePara    lex:Del1073 .
+lex:L5623\/Artigo4    lex:remetePara    lex:Del0378 .
+lex:L5623\/Artigo4    lex:remetePara    lex:L2622 .
+lex:L5623\/Artigo5    lex:remetePara    lex:Del0752\/Artigo6 .

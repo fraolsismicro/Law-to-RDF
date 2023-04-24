@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6189    lex:ehUm    lex:DocLegal .
+lex:D6189    lex:temTextoIntegral    lex:HTMLs\/D6189.htm .
+lex:D6189\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6189    lex:temArtigo    lex:D6189\/Artigo1 .
+lex:D6189\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 4o e 5o do Decreto no 5.289, de 29 de novembro de 2004, passam a vigorar com a seguinte redação:" .
+lex:D6189\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D6189\/Artigo1    lex:temParagrafo    lex:D6189\/Artigo1\/Paragrafo5 .
+lex:D6189\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  O Ministério da Justiça deverá assegurar contingente permanente mínimo de quinhentos homens da Força Nacional de Segurança Pública treinados para emprego imediato. (NR)" .
+lex:D6189\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6189\/Artigo1    lex:temParagrafo    lex:D6189\/Artigo1\/ParagrafoUnico .
+lex:D6189\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os servidores civis e militares dos Estados e do Distrito Federal que participarem de atividades desenvolvidas em decorrência de convênio de cooperação de que trata este Decreto farão jus ao recebimento de diária, a ser paga na forma prevista pelo art. 6o da Lei no 11.473, de 10 de maio de 2007. (NR)" .
+lex:D6189\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6189    lex:temArtigo    lex:D6189\/Artigo2 .
+lex:D6189\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6189\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6189    lex:temArtigo    lex:D6189\/Artigo3 .
+lex:D6189\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados os §§ 1o a 4o do art. 5o do Decreto no 5.289, de 29 de novembro de 2004." .
+lex:D6189\/Texto00001    lex:remetePara    lex:D5289\/Artigo4\/Paragrafo5 .
+lex:D6189\/Artigo1\/Texto00002    lex:remetePara    lex:D5289\/Artigo5 .
+lex:D6189\/Artigo3    lex:remetePara    lex:D5289\/Artigo5\/Paragrafo1 .

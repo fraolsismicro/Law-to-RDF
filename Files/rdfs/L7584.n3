@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7584    lex:ehUm    lex:DocLegal .
+lex:L7584    lex:temTextoIntegral    lex:HTMLs\/L7584.htm .
+lex:L7584\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7584    lex:temArtigo    lex:L7584\/Artigo1 .
+lex:L7584\/Artigo1    lex:temConteudo    "Art. 1° O artigo 33 da Lei n° 5.197, de 3 de janeiro de 1967, passa a vigorar com o acréscimo de um parágrafo numerado como § 2°, passando o atual parágrafo único a constituir o § 1°, com a seguinte redação:" .
+lex:L7584\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7584\/Artigo1    lex:temParagrafo    lex:L7584\/Artigo1\/Paragrafo1 .
+lex:L7584\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1°........................................................................... ............................................................" .
+lex:L7584\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L7584\/Artigo1    lex:temParagrafo    lex:L7584\/Artigo1\/Paragrafo2 .
+lex:L7584\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2° O material não-perecível apreendido, após a liberação pela autoridade competente, terá o seguinte destino:" .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:L7584\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoI .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoI    lex:temConteudo    "I - Animais - serão - libertados em seu habitat ou destinados aos jardins zoológicos, fundações ou entidades assemelhadas, desde que fiquem sob a responsabilidade de técnicos habilitados;" .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:L7584\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoII .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoII    lex:temConteudo    "II - Peles e outros produtos - serão (VETADO) entregues a museus, órgãos congêneres registrados ou de fins filantrópicos;" .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L7584\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - VETADO." .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:L7584\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV .
+lex:L7584\/Artigo1\/Paragrafo2\/ParagrafoIncisoIV    lex:temConteudo    "IV - VETADO." .
+lex:L7584\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7584    lex:temArtigo    lex:L7584\/Artigo2 .
+lex:L7584\/Artigo2    lex:temConteudo    "Art. 2° Esta lei entra em vigor na data de sua publicação." .
+lex:L7584\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7584    lex:temArtigo    lex:L7584\/Artigo3 .
+lex:L7584\/Artigo3    lex:temConteudo    "Art 3° Revogam-se as disposições em contrário." .
+lex:L7584\/Artigo1\/Paragrafo2    lex:remetePara    lex:L5197\/Artigo33\/Paragrafo2 .

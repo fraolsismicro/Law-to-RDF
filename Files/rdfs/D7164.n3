@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7164    lex:ehUm    lex:DocLegal .
+lex:D7164    lex:temTextoIntegral    lex:HTMLs\/D7164.htm .
+lex:D7164\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7164    lex:temArtigo    lex:D7164\/Artigo1 .
+lex:D7164\/Artigo1    lex:temConteudo    "Art. 1o  Ficam extintos, no âmbito do Poder Executivo Federal, cargos efetivos vagos nos quantitativos relacionados no Anexo I, integrantes dos quadros de pessoal do Ministério da Agricultura, Pecuária e Abastecimento e do Departamento de Polícia Federal do Ministério da Justiça." .
+lex:D7164\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7164\/Artigo1    lex:temParagrafo    lex:D7164\/Artigo1\/ParagrafoUnico .
+lex:D7164\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os cargos ocupados de mesmo código e denominação daqueles relacionados no Anexo I, bem como os relacionados no Anexo II, integrantes dos quadros de pessoal dos órgãos referidos no caput, passam a constituir quadro em extinção e ficarão extintos quando ocorrer a vacância, nos termos do art. 33 da Lei no 8.112, de 11 de dezembro de 1990." .
+lex:D7164\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7164    lex:temArtigo    lex:D7164\/Artigo2 .
+lex:D7164\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7164\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L8112cons\/Artigo33 .

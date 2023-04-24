@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D77701    lex:ehUm    lex:DocLegal .
+lex:D77701    lex:temTextoIntegral    lex:HTMLs\/D77701.htm .
+lex:D77701\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D77701    lex:temArtigo    lex:D77701\/Artigo1 .
+lex:D77701\/Artigo1    lex:temConteudo    "Art. 1º São transformados e reclassificados cargos em comissão em funções de confiança e criadas funções de igual natureza, na forma do Anexo I deste Decreto, para composição das Categorias Direção Superior, código LT-DAS-101, e Assessoramento Superior, código LT-DAS-102, do Grupo Direção e Assessoramento Superiores, código LT-DAS-100, da Tabela Permanente do Ministério da Previdência e Assistência Social." .
+lex:D77701\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D77701    lex:temArtigo    lex:D77701\/Artigo2 .
+lex:D77701\/Artigo2    lex:temConteudo    "Art. 2º As atribuições dos ocupantes das funções de Assessor de que trata este Decreto são as descritas no Anexo I-A." .
+lex:D77701\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D77701\/Artigo2    lex:temParagrafo    lex:D77701\/Artigo2\/ParagrafoUnico .
+lex:D77701\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Até que ocorra a supressão das funções de Assessoramento Superior, no número indicado no Anexo I deste Decreto, os respectivos titulares continuarão a desempenhar as atuais atribuições, anteriormente especificadas para as mesmas funções." .
+lex:D77701\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D77701    lex:temArtigo    lex:D77701\/Artigo3 .
+lex:D77701\/Artigo3    lex:temConteudo    "Art. 3º O provimento das funções de confiança compreendidas no Anexo I e classificadas nos níveis 6, 4 e 3 far-se-á mediante ato do Presidente da República, na forma do item I do artigo 7º do Decreto n.º 77.336, de 1976, e o das demais funções, de acordo com o item II do artigo 7º do mesmo Decreto." .
+lex:D77701\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D77701    lex:temArtigo    lex:D77701\/Artigo4 .
+lex:D77701\/Artigo4    lex:temConteudo    "Art. 4º Os efeitos financeiros decorrentes da aplicação deste Decreto vigorarão a partir de 1º de março de 1976, devendo ser atendidas as despesas respectivas pelos recursos próprios do MPAS." .
+lex:D77701\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D77701    lex:temArtigo    lex:D77701\/Artigo5 .
+lex:D77701\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto entrará em vigor na data de sua publicação, revogado o Decreto n.º 74.771, de 29 de outubro de 1974, e demais disposições em contrário." .
+lex:D77701\/Texto    lex:revogadoPor    lex:Dnn0004-91\/Artigo4 .
+lex:Dnn0004-91\/Artigo4    lex:revogou    lex:D77701\/Texto .
+lex:D77701\/Texto    lex:remetePara    lex:D77701 .
+lex:D77701\/Artigo5    lex:remetePara    lex:D74771 .

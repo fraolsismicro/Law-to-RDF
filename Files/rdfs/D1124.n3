@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1124    lex:ehUm    lex:DocLegal .
+lex:D1124    lex:temTextoIntegral    lex:HTMLs\/D1124.htm .
+lex:D1124\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1124    lex:temArtigo    lex:D1124\/Artigo1 .
+lex:D1124\/Artigo1    lex:temConteudo    "Art. 1° O art. 2° do Decreto n° 887, de 4 de agosto de 1993, passa a ter a seguinte redação:" .
+lex:D1124\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1124\/Artigo1    lex:temInciso    lex:D1124\/Artigo1\/IncisoI .
+lex:D1124\/Artigo1\/IncisoI    lex:temConteudo    "I Até dez ocupantes do cargo de Ministro de Primeira Classe da Carreira de Diplomata, integrantes do Quadro Especial de que trata o Título I, Capítulo III, Seção VI, da Lei n° 7.501, de 27 de junho de 1986;" .
+lex:D1124\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1124\/Artigo1    lex:temInciso    lex:D1124\/Artigo1\/IncisoII .
+lex:D1124\/Artigo1\/IncisoII    lex:temConteudo    "II - ......................................................................................" .
+lex:D1124\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1124\/Artigo1    lex:temInciso    lex:D1124\/Artigo1\/IncisoIII .
+lex:D1124\/Artigo1\/IncisoIII    lex:temConteudo    "III - ......................................................................................" .
+lex:D1124\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1124    lex:temArtigo    lex:D1124\/Artigo2 .
+lex:D1124\/Artigo2    lex:temConteudo    "Art. 2° Este decreto entra em vigor na data de sua publicação." .

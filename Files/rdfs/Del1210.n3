@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1210    lex:ehUm    lex:DocLegal .
+lex:Del1210    lex:temTextoIntegral    lex:HTMLs\/Del1210.htm .
+lex:Del1210\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1210    lex:temArtigo    lex:Del1210\/Artigo1 .
+lex:Del1210\/Artigo1    lex:temConteudo    "Art. 1º É concedido aos funcionários dos Serviços Auxiliares do Tribunal de Contas do Distrito Federal aumento de vencimentos em montante idêntico aos valores absolutos dos aumentos concedidos aos funcionários civis do Poder Executivo da União pelo Decreto-lei nº 1.202, de 17 de janeiro de 1972, de acordo com os critérios e correspondências estabelecidos nos artigos 1º, 2º, 3º, 5º e 6º, da Lei nº 5.688, de 3 de agosto de 1971." .
+lex:Del1210\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1210    lex:temArtigo    lex:Del1210\/Artigo2 .
+lex:Del1210\/Artigo2    lex:temConteudo    "Art. 2º Aos servidores aposentados no extinto Quadro Provisório, é concedido aumento de 20% (vinte por cento) que independerá de prévia apostila nos títulos dos beneficiários, calculado sobre os valores atribuídos aos respectivos níveis, resultantes da aplicação do Decreto-lei nº 1.152, de 24 de fevereiro de 1971." .
+lex:Del1210\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1210    lex:temArtigo    lex:Del1210\/Artigo3 .
+lex:Del1210\/Artigo3    lex:temConteudo    "Art. 3º Nos cálculos decorrentes da aplicação do presente Decreto-lei serão desprezadas as frações de cruzeiro, inclusive em relação às gratificações e vantagens calculadas com base no vencimento." .
+lex:Del1210\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1210    lex:temArtigo    lex:Del1210\/Artigo4 .
+lex:Del1210\/Artigo4    lex:temConteudo    "Art. 4º O aumento concedido por este Decreto-lei vigorará a partir de 1º de março de 1972 e a despesa decorrente será atendida com recursos orçamentários previstos na Lei nº 5.775, de 27 de dezembro de 1971." .
+lex:Del1210\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1210    lex:temArtigo    lex:Del1210\/Artigo5 .
+lex:Del1210\/Artigo5    lex:temConteudo    "Art. 5º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1210\/Artigo1    lex:remetePara    lex:Del1202 .
+lex:Del1210\/Artigo1    lex:remetePara    lex:L5688\/Artigo1 .
+lex:Del1210\/Artigo1    lex:remetePara    lex:L5688\/Artigo5 .
+lex:Del1210\/Artigo2    lex:remetePara    lex:Del1152 .
+lex:Del1210\/Artigo4    lex:remetePara    lex:L5775 .

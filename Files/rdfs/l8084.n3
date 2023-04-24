@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:l8084    lex:ehUm    lex:DocLegal .
+lex:l8084    lex:temTextoIntegral    lex:HTMLs\/l8084.htm .
+lex:l8084\/Artigo1    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo1 .
+lex:l8084\/Artigo1    lex:temConteudo    "Art. 1º A despesa do Orçamento de Investimento relativo a 1990, das Empresas em que a União, direta ou indiretamente, detém a maioria do capital social com direito a voto, aprovado pela Lei nº 7.999, de 31 de janeiro de 1990, observada a programação em anexo a esta Lei, é fixada em Cr$ 587.946.068.000,00 (quinhentos e oitenta e sete bilhões, novecentos e quarenta e seis milhões e sessenta e oito mil cruzeiros), com o seguinte desdobramento:" .
+lex:l8084\/Artigo2    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo2 .
+lex:l8084\/Artigo2    lex:temConteudo    "Art. 2º. As fontes de receita, destinadas à cobertura da despesa fixada no artigo anterior, vedado o endividamento junto a empreiteiras, fornecedores ou instituições financeiras, para compensar frustração de receita, são estimadas com o seguinte desdobramento:" .
+lex:l8084\/Artigo3    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo3 .
+lex:l8084\/Artigo3    lex:temConteudo    "Art. 3º. É o Poder Executivo autorizado a:" .
+lex:l8084\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:l8084\/Artigo3    lex:temInciso    lex:l8084\/Artigo3\/IncisoI .
+lex:l8084\/Artigo3\/IncisoI    lex:temConteudo    "I - abrir créditos suplementares para cada subprojeto ou subatividade, até o limite de vinte por cento do respectivo valor por empresa, desde que respeitado o limite global fixado; e" .
+lex:l8084\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:l8084\/Artigo3    lex:temInciso    lex:l8084\/Artigo3\/IncisoII .
+lex:l8084\/Artigo3\/IncisoII    lex:temConteudo    "II - abrir créditos suplementares para subprojeto ou subatividade, até o limite de vinte por cento do respectivo valor por empresa, mediante a utilização de recursos excedentes por esta gerados." .
+lex:l8084\/Artigo4    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo4 .
+lex:l8084\/Artigo4    lex:temConteudo    "Art. 4º. Esta lei entra em vigor na data de sua publicação." .
+lex:l8084\/Artigo5    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo5 .
+lex:l8084\/Artigo5    lex:temConteudo    "Art. 5º. Revoga-se o disposto no anexo relativo ao Orçamento de Investimento das Empresas Estatais, a que se refere o art. 13 da Lei nº 7.999, de 1990." .
+lex:l8084\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:l8084\/Artigo5    lex:temParagrafo    lex:l8084\/Artigo5\/ParagrafoUnico .
+lex:l8084\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em decorrência do disposto no caput deste artigo as despesas com investimentos das Empresas Estatais nele referidas e que integram os orçamentos Fiscal e da Seguridade Social, constantes da Lei nº 7.999, de 1990, passam a vigorar nestes Orçamentos em consonância com o disposto nesta Lei." .
+lex:l8084\/Artigo6    lex:ehUm    lex:Artigo .
+lex:l8084    lex:temArtigo    lex:l8084\/Artigo6 .
+lex:l8084\/Artigo6    lex:temConteudo    "Art. 6º. Revogam-se as demais disposições em contrário." .
+lex:l8084\/Artigo1    lex:remetePara    lex:L7999 .
+lex:l8084\/Artigo5    lex:remetePara    lex:L7999\/Artigo13 .
+lex:l8084\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:L7999 .

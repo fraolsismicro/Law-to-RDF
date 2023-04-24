@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92290    lex:ehUm    lex:DocLegal .
+lex:D92290    lex:temTextoIntegral    lex:HTMLs\/D92290.htm .
+lex:D92290\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92290    lex:temArtigo    lex:D92290\/Artigo1 .
+lex:D92290\/Artigo1    lex:temConteudo    "Art. 1º - Além dos profissionais enumerados no artigo 2º da Lei nº 6.664, de 26 de junho de 1979, poderão exercer a profissão de Geógrafo:" .
+lex:D92290\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D92290\/Artigo1    lex:temInciso    lex:D92290\/Artigo1\/IncisoI .
+lex:D92290\/Artigo1\/IncisoI    lex:temConteudo    "I - os licenciados em Geografia e em Geografia e História, diplomados em estabelecimentos de ensino superior oficial ou reconhecido que, em 28 de junho de 1979, estavam:" .
+lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:ehUm    lex:IncisoAlinea .
+lex:D92290\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom .
+lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temConteudo    "a) com contrato de trabalho como geógrafo em órgão da administração direta ou indireta ou em entidade privada;" .
+lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaExercendo    lex:ehUm    lex:IncisoAlinea .
+lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temIncisoAlinea    lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaExercendo .
+lex:D92290\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaExercendo    lex:temConteudo    "b) exercendo a docência universitária." .
+lex:D92290\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D92290\/Artigo1    lex:temInciso    lex:D92290\/Artigo1\/IncisoII .
+lex:D92290\/Artigo1\/IncisoII    lex:temConteudo    "II - os portadores de títulos de Mestre e Doutor em Geografia, expedidos por Universidades oficiais ou reconhecidas;" .
+lex:D92290\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D92290\/Artigo1    lex:temInciso    lex:D92290\/Artigo1\/IncisoIII .
+lex:D92290\/Artigo1\/IncisoIII    lex:temConteudo    "III - todos aqueles que, em 28 de junho de 1979, estavam, comprovadamente, exercendo, há cinco anos ou mais, atividades profissionais de Geógrafo." .
+lex:D92290\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92290    lex:temArtigo    lex:D92290\/Artigo2 .
+lex:D92290\/Artigo2    lex:temConteudo    "Art. 2º - A prova do exercício profissional, a que se refere o artigo anterior, poderá ser feita por qualquer meio em direito permitido, notadamente, por anotação na Carteira de Trabalho e Previdência Social, pagamento do Imposto Sobre Serviços ou de outros tributos e recolhimento da contribuição de Previdência Social." .
+lex:D92290\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D92290    lex:temArtigo    lex:D92290\/Artigo3 .
+lex:D92290\/Artigo3    lex:temConteudo    "Art. 3º - Este Decreto entra em vigor na data de sua publicação." .
+lex:D92290\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D92290    lex:temArtigo    lex:D92290\/Artigo4 .
+lex:D92290\/Artigo4    lex:temConteudo    "Art. 4º - Revogam-se as disposições em contrário." .
+lex:D92290\/Artigo1    lex:remetePara    lex:L6664\/Artigo2 .

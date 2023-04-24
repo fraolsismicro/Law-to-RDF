@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0633    lex:ehUm    lex:DocLegal .
+lex:Del0633    lex:temTextoIntegral    lex:HTMLs\/Del0633.htm .
+lex:Del0633\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0633    lex:temArtigo    lex:Del0633\/Artigo1 .
+lex:Del0633\/Artigo1    lex:temConteudo    "Art. 1º Fica revogada a Lei número 4.238, de 26 de junho de 1963." .
+lex:Del0633\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0633    lex:temArtigo    lex:Del0633\/Artigo2 .
+lex:Del0633\/Artigo2    lex:temConteudo    "Art. 2º Fica revigorado o Decreto-lei nº 7.732, de 12 de Julho de 1945, e restabelecidos os seus efeitos a partir da respectiva publicação." .
+lex:Del0633\/Artigo1    lex:remetePara    lex:L4238 .
+lex:Del0633\/Artigo2    lex:remetePara    lex:Del7732 .

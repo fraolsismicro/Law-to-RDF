@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L12953    lex:ehUm    lex:DocLegal .
+lex:L12953    lex:temTextoIntegral    lex:HTMLs\/L12953.htm .
+lex:L12953\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L12953    lex:temArtigo    lex:L12953\/Artigo1 .
+lex:L12953\/Artigo1    lex:temConteudo    "Art. 1 º O Plano Plurianual da União para o período de 2012 a 2015 - PPA 2012-2015, instituído pela Lei n º 12.593, de 18 de janeiro de 2012, passa a incorporar as alterações desta Lei." .
+lex:L12953\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L12953    lex:temArtigo    lex:L12953\/Artigo2 .
+lex:L12953\/Artigo2    lex:temConteudo    "Art. 2 º Ficam alterados os programas constantes do Anexo I ao PPA 2012-2015, instituído pela Lei n º 12.593, de 2012, na forma do Anexo." .
+lex:L12953\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L12953    lex:temArtigo    lex:L12953\/Artigo3 .
+lex:L12953\/Artigo3    lex:temConteudo    "Art. 3 º Esta Lei entra em vigor na data de sua publicação." .
+lex:L12953\/Texto    lex:remetePara    lex:VEP-10 .
+lex:L12953\/Artigo1    lex:remetePara    lex:L12593 .
+lex:L12953\/Artigo2    lex:remetePara    lex:L12593\/ .

@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0900    lex:ehUm    lex:DocLegal .
+lex:D0900    lex:temTextoIntegral    lex:HTMLs\/D0900.htm .
+lex:D0900\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0900    lex:temArtigo    lex:D0900\/Artigo1 .
+lex:D0900\/Artigo1    lex:temConteudo    "Art. 1° 0 inciso I do art. 39 do Anexo I ao Decreto n° 99.578, de 10 de outubro de 1990, passa a vigorar com a seguinte redação:" .
+lex:D0900\/Artigo1\/AlineaChefe    lex:ehUm    lex:Alinea .
+lex:D0900\/Artigo1    lex:temAlinea    lex:D0900\/Artigo1\/AlineaChefe .
+lex:D0900\/Artigo1\/AlineaChefe    lex:temConteudo    "a) Chefe de Missão Diplomática permanente, com o título de Embaixador;" .
+lex:D0900\/Artigo1\/AlineaConsul-Geral    lex:ehUm    lex:Alinea .
+lex:D0900\/Artigo1    lex:temAlinea    lex:D0900\/Artigo1\/AlineaConsul-Geral .
+lex:D0900\/Artigo1\/AlineaConsul-Geral    lex:temConteudo    "b) Cônsul-Geral, em Consulado-Geral;" .
+lex:D0900\/Artigo1\/AlineaChefe    lex:ehUm    lex:Alinea .
+lex:D0900\/Artigo1    lex:temAlinea    lex:D0900\/Artigo1\/AlineaChefe .
+lex:D0900\/Artigo1\/AlineaChefe    lex:temConteudo    "c) Chefe, substituto, de missão e delegação permanente junto a organismo internacional, com o título de Representante Permanente Adjunto perante o organismo respectivo;" .
+lex:D0900\/Artigo1\/AlineaRepresentante    lex:ehUm    lex:Alinea .
+lex:D0900\/Artigo1    lex:temAlinea    lex:D0900\/Artigo1\/AlineaRepresentante .
+lex:D0900\/Artigo1\/AlineaRepresentante    lex:temConteudo    "d) Representante permanente perante organismo internacional.'" .
+lex:D0900\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0900    lex:temArtigo    lex:D0900\/Artigo2 .
+lex:D0900\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0900\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0900    lex:temArtigo    lex:D0900\/Artigo3 .
+lex:D0900\/Artigo3    lex:temConteudo    "Art. 3° Revoga-se o Decreto de 11 de dezembro de 1992, que dá nova redação ao inciso I do art. 39 do Anexo I ao Decreto n° 99.578, de 10 de outubro de 1990." .
+lex:D0900\/Artigo3    lex:remetePara    lex:Dnn1201 .

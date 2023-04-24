@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10328    lex:ehUm    lex:DocLegal .
+lex:D10328    lex:temTextoIntegral    lex:HTMLs\/D10328.htm .
+lex:D10328\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10328    lex:temArtigo    lex:D10328\/Artigo1A .
+lex:D10328\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 8.690, de 11 de marÃ§o de 2016, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10328\/Artigo1A\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D10328\/Artigo1A    lex:temAlinea    lex:D10328\/Artigo1A\/AlineaA .
+lex:D10328\/Artigo1A\/AlineaA    lex:temConteudo    "d) a suspensÃ£o por inadimplÃªncia, a desativaÃ§Ã£o temporÃ¡ria e o descadastramento do consignatÃ¡rio; e" .
+lex:D10328\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10328    lex:temArtigo    lex:D10328\/Artigo2A .
+lex:D10328\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor 7 dias apÃ³s a data de sua publicaÃ§Ã£o." .
+lex:D10328\/Artigo1A    lex:remetePara    lex:D8690 .
+lex:D10328\/Texto00001    lex:remetePara    lex:D8690\/Artigo4Â§3 .
+lex:D10328\/Texto00001    lex:remetePara    lex:D8690\/Artigo8 .
+lex:D10328\/Texto00001    lex:remetePara    lex:D8690\/Artigo10Â§2 .
+lex:D10328\/Texto00001    lex:remetePara    lex:D8690\/Artigo10Â§2 .
+lex:D10328\/Texto00001    lex:remetePara    lex:D8690\/Artigo110 .
+lex:D10328\/Artigo1A\/AlineaA    lex:remetePara    lex:D8690\/Artigo11 .

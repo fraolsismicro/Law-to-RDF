@@ -1,0 +1,74 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1994    lex:ehUm    lex:DocLegal .
+lex:Del1994    lex:temTextoIntegral    lex:HTMLs\/Del1994.htm .
+lex:Del1994\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo1 .
+lex:Del1994\/Artigo1    lex:temConteudo    "Art. 1º Fica instituído, na forma estabelecida neste Decreto-lei, um crédito financeiro para as pessoas jurídicas domiciliadas no Brasil que:      (Vide Decreto-lei nº 2.021, de 1983)" .
+lex:Del1994\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo1    lex:temInciso    lex:Del1994\/Artigo1\/IncisoI .
+lex:Del1994\/Artigo1\/IncisoI    lex:temConteudo    "I - converterem em capital social, até 31 de dezembro de 1983, o principal ou os juros de:" .
+lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos    lex:ehUm    lex:IncisoAlinea .
+lex:Del1994\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos .
+lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos    lex:temConteudo    "a) empréstimos diretos em moeda estrangeira, cujos recursos já tenham ingressado no País ou nele venham a ingressar até trinta dias após a data da publicação deste Decreto-lei;" .
+lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos\/IncisoAlineaFinanciamentos    lex:ehUm    lex:IncisoAlinea .
+lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos    lex:temIncisoAlinea    lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos\/IncisoAlineaFinanciamentos .
+lex:Del1994\/Artigo1\/IncisoI\/IncisoAlineaEmprestimos\/IncisoAlineaFinanciamentos    lex:temConteudo    "b) financiamentos para importação de bens ou serviços, em que o embarque dos bens ou o desembolso dos recursos para pagamento de bens, serviços ou gastos locais tenha ocorrido até a data da publicação deste Decreto-lei;" .
+lex:Del1994\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo1    lex:temInciso    lex:Del1994\/Artigo1\/IncisoII .
+lex:Del1994\/Artigo1\/IncisoII    lex:temConteudo    "II - aumentarem o capital social, no período compreendido entre a data da publicação deste Decreto-lei e 31 de dezembro de 1983, mediante o ingresso de novos recursos financeiros." .
+lex:Del1994\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1994\/Artigo1    lex:temParagrafo    lex:Del1994\/Artigo1\/Paragrafo1 .
+lex:Del1994\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O Ministro da Fazenda, de conformidade com as normas fixadas pelo Conselho Monetário Nacional, poderá estender o disposto no item II a aumentos de capital realizados mediante a incorporação de bens que vierem a ser importados sem cobertura cambial." .
+lex:Del1994\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1994\/Artigo1    lex:temParagrafo    lex:Del1994\/Artigo1\/Paragrafo2 .
+lex:Del1994\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º O crédito previsto no item II não se aplica às sociedades seguradoras, instituições financeiras e demais entidades autorizadas a funcionar pelo Banco Central do Brasil." .
+lex:Del1994\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo2 .
+lex:Del1994\/Artigo2    lex:temConteudo    "Art. 2º O crédito de que trata o artigo 1º é limitado:" .
+lex:Del1994\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo2    lex:temInciso    lex:Del1994\/Artigo2\/IncisoI .
+lex:Del1994\/Artigo2\/IncisoI    lex:temConteudo    "I - no caso do item I, a dez por cento, até o dia 30 de junho de 1983, e, após essa data, a cinco por cento, do valor do principal ou juros, convertidos em capital social, tomando-se por base o valor em cruzeiros efetivamente capitalizado; e," .
+lex:Del1994\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo2    lex:temInciso    lex:Del1994\/Artigo2\/IncisoII .
+lex:Del1994\/Artigo2\/IncisoII    lex:temConteudo    "II - no caso do item II, a cinco por cento do valor do aumento de capital integralizado em dinheiro." .
+lex:Del1994\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo3 .
+lex:Del1994\/Artigo3    lex:temConteudo    "Art. 3º A pessoa jurídica beneficiária do disposto no artigo 1º deverá restituir o crédito financeiro utilizado, corrigido monetariamente e acrescido de juros de mora e de multa de cinqüenta por cento do valor corrigido, se reduzir o capital social no prazo de cinco anos contado da data do evento de que decorrera o aumento de capital." .
+lex:Del1994\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1994\/Artigo3    lex:temParagrafo    lex:Del1994\/Artigo3\/ParagrafoUnico .
+lex:Del1994\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A restituição prevista neste artigo será feita na proporção existente entre a redução do capital e o valor da capitalização, corrigido monetariamente até o mês da redução, segundo a variação do valor de uma Obrigação Reajustável do Tesouro Nacional - ORTN." .
+lex:Del1994\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo4 .
+lex:Del1994\/Artigo4    lex:temConteudo    "Art. 4º A pessoa jurídica que reduzir seu capital após a data do publicação deste Decreto-lei, e posteriormente aumentá-lo, somente fará jus ao crédito financeiro previsto no artigo 1º sobre a parcela do aumento de capital que exceder a redução de capital efetuada." .
+lex:Del1994\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1994\/Artigo4    lex:temParagrafo    lex:Del1994\/Artigo4\/ParagrafoUnico .
+lex:Del1994\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para efeito do disposto neste artigo, o valor da redução do capital será corrigido monetariamente segundo a variação do valor de uma ORTN entre o mês da redução e o mês do aumento do capital." .
+lex:Del1994\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo5 .
+lex:Del1994\/Artigo5    lex:temConteudo    "Art. 5º O crédito financeiro de que trata o artigo 1º não será computado na determinação do lucro real da pessoa jurídica beneficiária." .
+lex:Del1994\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo6 .
+lex:Del1994\/Artigo6    lex:temConteudo    "Art. 6º O Ministro da Fazenda fixará os percentuais do crédito financeiro, obedecidos os limites estabelecidos no artigo 2º deste Decreto-lei, podendo, em relação ao referido crédito:" .
+lex:Del1994\/Artigo6\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo6    lex:temInciso    lex:Del1994\/Artigo6\/IncisoI .
+lex:Del1994\/Artigo6\/IncisoI    lex:temConteudo    "I - reduzi-lo, suspender ou restringir sua concessão, ou prorrogar o prazo para sua concessão até 31 de dezembro de 1984;" .
+lex:Del1994\/Artigo6\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo6    lex:temInciso    lex:Del1994\/Artigo6\/IncisoII .
+lex:Del1994\/Artigo6\/IncisoII    lex:temConteudo    "II - estabelecer normas, condições e limites para a sua utilização;" .
+lex:Del1994\/Artigo6\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del1994\/Artigo6    lex:temInciso    lex:Del1994\/Artigo6\/IncisoIII .
+lex:Del1994\/Artigo6\/IncisoIII    lex:temConteudo    "III - aumentar os limites dos percentuais estabelecidos no artigo 2º em até cinco pontos." .
+lex:Del1994\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo7 .
+lex:Del1994\/Artigo7    lex:temConteudo    "Art. 7º Fica o Ministro da Fazenda autoriza do a expedir atos normativos necessários à execução do presente Decreto-lei." .
+lex:Del1994\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del1994    lex:temArtigo    lex:Del1994\/Artigo8 .
+lex:Del1994\/Artigo8    lex:temConteudo    "Art. 8º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1994\/Artigo1    lex:remetePara    lex:Del2021\/Artigo4 .

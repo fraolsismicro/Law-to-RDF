@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L10.776    lex:ehUm    lex:DocLegal .
+lex:L10.776    lex:temTextoIntegral    lex:HTMLs\/L10.776.htm .
+lex:L10776\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L10776    lex:temArtigo    lex:L10776\/Artigo1 .
+lex:L10776\/Artigo1    lex:temConteudo    "Art. 1o Fica aberto aos Orçamentos Fiscal e da Seguridade Social da União (Lei no 10.640, de 14 de janeiro de 2003), em favor do Ministério da Justiça e do Ministério da Defesa, crédito suplementar no valor global de R$ 542.299.499,00 (quinhentos e quarenta e dois milhões, duzentos e noventa e nove mil e quatrocentos e noventa e nove reais), para atender às programações constantes do Anexo I desta Lei." .
+lex:L10776\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L10776\/Artigo1    lex:temInciso    lex:L10776\/Artigo1\/IncisoI .
+lex:L10776\/Artigo1\/IncisoI    lex:temConteudo    "I - superávit financeiro apurado no Balanço Patrimonial da União do exercício de 2002, no valor de R$ 158.749.510,00 (cento e cinqüenta e oito milhões, setecentos e quarenta e nove mil, quinhentos e dez reais);" .
+lex:L10776\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L10776\/Artigo1    lex:temInciso    lex:L10776\/Artigo1\/IncisoII .
+lex:L10776\/Artigo1\/IncisoII    lex:temConteudo    "II - excesso de arrecadação de operações de crédito externas, no valor de R$ 65.967.074,00 (sessenta e cinco milhões, novecentos e sessenta e sete mil e setenta e quatro reais); e" .
+lex:L10776\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L10776\/Artigo1    lex:temInciso    lex:L10776\/Artigo1\/IncisoIII .
+lex:L10776\/Artigo1\/IncisoIII    lex:temConteudo    "III - anulação parcial de dotações orçamentárias no valor de R$ 317.582.915,00 (trezentos e dezessete milhões, quinhentos e oitenta e dois mil, novecentos e quinze reais), conforme indicado no Anexo II desta Lei." .
+lex:L10776\/Artigo1    lex:remetePara    lex:L10640 .
+lex:L10776\/Artigo1\/Artigo3    lex:remetePara    lex:L10524\/Artigo61\/Paragrafo11 .

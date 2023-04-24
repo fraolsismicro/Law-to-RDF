@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3172    lex:ehUm    lex:DocLegal .
+lex:D3172    lex:temTextoIntegral    lex:HTMLs\/D3172.htm .
+lex:D3172\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3172    lex:temInciso    lex:D3172\/IncisoD .
+lex:D3172\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3172\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3172    lex:temArtigo    lex:D3172\/Artigo1 .
+lex:D3172\/Artigo1    lex:temConteudo    "Art. 1o  O art. 1o do Decreto no 3.031, de 20 de abril de 1999, passa a vigorar com a seguinte redação:" .
+lex:D3172\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D3172\/Artigo1    lex:temInciso    lex:D3172\/Artigo1\/IncisoIV .
+lex:D3172\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ....................................................................................." .
+lex:D3172\/Artigo1\/IncisoIV\/IncisoAlineaReferentes    lex:ehUm    lex:IncisoAlinea .
+lex:D3172\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D3172\/Artigo1\/IncisoIV\/IncisoAlineaReferentes .
+lex:D3172\/Artigo1\/IncisoIV\/IncisoAlineaReferentes    lex:temConteudo    "e) referentes à concessão de empréstimo para aquisição de imóveis rurais e para investimentos, no âmbito do Fundo de Terras e da Reforma Agrária - Banco da Terra, até o limite de R$ 182 milhões;'" .
+lex:D3172\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3172    lex:temArtigo    lex:D3172\/Artigo2 .
+lex:D3172\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3172\/Artigo1    lex:remetePara    lex:D3031 .
+lex:D3172\/Texto00005    lex:remetePara    lex:index .

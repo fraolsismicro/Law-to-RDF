@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8989    lex:ehUm    lex:DocLegal .
+lex:D8989    lex:temTextoIntegral    lex:HTMLs\/D8989.htm .
+lex:D8989\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8989    lex:temArtigo    lex:D8989\/Artigo1 .
+lex:D8989\/Artigo1    lex:temConteudo    "Art. 1º  O Anexo ao Decreto nº 99.684, de 8 de novembro de 1990, passa a vigorar com as seguintes alterações:" .
+lex:D8989\/Artigo1\/Paragrafo9    lex:ehUm    lex:Paragrafo .
+lex:D8989\/Artigo1    lex:temParagrafo    lex:D8989\/Artigo1\/Paragrafo9 .
+lex:D8989\/Artigo1\/Paragrafo9    lex:temConteudo    "§ 9º  Na movimentação das contas vinculadas a contrato de trabalho extinto até 31 de dezembro de 2015, de que trata o § 22 do art. 20 da Lei nº 8.036, de 11 de maio de 1990, o cronograma de atendimento, o critério, a forma e a data limite de pagamento serão estabelecidos pelo Agente Operador do FGTS, não podendo exceder 31 de julho de 2017, sendo permitido o crédito automático para a conta poupança de titularidade do trabalhador previamente aberta na Caixa Econômica Federal, desde que o trabalhador não se manifeste negativamente." .
+lex:D8989\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:D8989\/Artigo1    lex:temParagrafo    lex:D8989\/Artigo1\/Paragrafo10 .
+lex:D8989\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10.  Na hipótese do crédito automático de que trata o § 9º, o trabalhador poderá, até 31 de agosto de 2017, solicitar o desfazimento do crédito ou a transferência do valor para outra instituição financeira, independentemente do pagamento de qualquer tarifa, conforme procedimento a ser definido pelo Agente Operador do FGTS. (NR)" .
+lex:D8989\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8989    lex:temArtigo    lex:D8989\/Artigo2 .
+lex:D8989\/Artigo2    lex:temConteudo    "Art. 2º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8989\/Artigo1    lex:remetePara    lex:D99684 .
+lex:D8989\/Artigo1\/Paragrafo9    lex:remetePara    lex:D99684\/anexoiArtigo35\/Paragrafo9 .
+lex:D8989\/Artigo1\/Paragrafo9    lex:remetePara    lex:L8036consol\/Artigo20\/Paragrafo22 .

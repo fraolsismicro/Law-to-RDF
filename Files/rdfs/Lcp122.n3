@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp122    lex:ehUm    lex:DocLegal .
+lex:Lcp122    lex:temTextoIntegral    lex:HTMLs\/Lcp122.htm .
+lex:Lcp122\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp122    lex:temArtigo    lex:Lcp122\/Artigo1 .
+lex:Lcp122\/Artigo1    lex:temConteudo    "Art. 1o  O art. 33 da Lei Complementar no 87, de 13 de setembro de 1996, passa a vigorar com a seguinte redação:" .
+lex:Lcp122\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp122\/Artigo1    lex:temInciso    lex:Lcp122\/Artigo1\/IncisoI .
+lex:Lcp122\/Artigo1\/IncisoI    lex:temConteudo    "I - somente darão direito de crédito as mercadorias destinadas ao uso ou consumo do estabelecimento nele entradas a partir de 1o de janeiro de 2011;" .
+lex:Lcp122\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Lcp122\/Artigo1    lex:temInciso    lex:Lcp122\/Artigo1\/IncisoII .
+lex:Lcp122\/Artigo1\/IncisoII    lex:temConteudo    "II - .................................................................................." .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp122\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA    lex:temConteudo    "d) a partir de 1o de janeiro de 2011, nas demais hipóteses;" .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA    lex:temIncisoAlineaItem    lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaItem .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaItem    lex:temConteudo    "......................................................................................" .
+lex:Lcp122\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Lcp122\/Artigo1    lex:temInciso    lex:Lcp122\/Artigo1\/IncisoIV .
+lex:Lcp122\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ................................................................................" .
+lex:Lcp122\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Lcp122\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:Lcp122\/Artigo1\/IncisoIV\/IncisoAlineaA .
+lex:Lcp122\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:temConteudo    "c) a partir de 1o de janeiro de 2011, nas demais hipóteses. (NR)" .
+lex:Lcp122\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp122    lex:temArtigo    lex:Lcp122\/Artigo2 .
+lex:Lcp122\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei Complementar entra em vigor na data de sua publicação." .
+lex:Lcp122\/Texto00001    lex:remetePara    lex:Lcp87\/Artigo33 .
+lex:Lcp122\/Artigo1\/IncisoII\/IncisoAlineaA    lex:remetePara    lex:Lcp87\/Artigo33 .
+lex:Lcp122\/Artigo1\/IncisoIV\/IncisoAlineaA    lex:remetePara    lex:Lcp87\/Artigo33 .

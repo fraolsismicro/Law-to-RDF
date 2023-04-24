@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3922    lex:ehUm    lex:DocLegal .
+lex:L3922    lex:temTextoIntegral    lex:HTMLs\/L3922.htm .
+lex:L3922\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3922    lex:temArtigo    lex:L3922\/Artigo1 .
+lex:L3922\/Artigo1    lex:temConteudo    "Art. 1º - É feita, sem ônus, a seguinte retificação da Lei nº 3.682, de 7 de dezembro de 1959, que estima a Receita e fixa a Despesa da União para o exercício de 1960:" .
+lex:L3922\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3922    lex:temArtigo    lex:L3922\/Artigo2 .
+lex:L3922\/Artigo2    lex:temConteudo    "Art. 2º Revogadas as disposições em contrário, a presente Lei vigorará a partir de 1º de janeiro de 1960." .
+lex:L3922\/Artigo1    lex:remetePara    lex:L3682 .

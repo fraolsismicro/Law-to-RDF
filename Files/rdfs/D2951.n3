@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2951    lex:ehUm    lex:DocLegal .
+lex:D2951    lex:temTextoIntegral    lex:HTMLs\/D2951.htm .
+lex:D2951\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D2951    lex:temInciso    lex:D2951\/IncisoD .
+lex:D2951\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D2951\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2951    lex:temArtigo    lex:D2951\/Artigo1 .
+lex:D2951\/Artigo1    lex:temConteudo    "Art. 1o  Fica prorrogado, até 30 de abril de 1999, o prazo de remanejamento de um cargo em comissão, DAS 102.4, alocado à Procuradoria-Geral da Fazenda Nacional do Ministério da Fazenda, por meio do art. 2o do Decreto no 2.203, de 9 de abril de 1997." .
+lex:D2951\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D2951\/Artigo1    lex:temParagrafo    lex:D2951\/Artigo1\/ParagrafoUnico .
+lex:D2951\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Ao cargo remanescente do remanejamento inicial aplica-se o disposto no § 2o do art. 2º do Decreto no 2.203, de 1997." .
+lex:D2951\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2951    lex:temArtigo    lex:D2951\/Artigo2 .
+lex:D2951\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D2951\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2951    lex:temArtigo    lex:D2951\/Artigo3 .
+lex:D2951\/Artigo3    lex:temConteudo    "Art. 3o  Revoga-se o Decreto no 2.542, de 13 de abril de 1998." .
+lex:D2951\/Artigo1    lex:remetePara    lex:D2203\/Artigo2 .
+lex:D2951\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D2203\/Artigo2\/Paragrafo2 .
+lex:D2951\/Artigo3    lex:remetePara    lex:D2542 .

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3263    lex:ehUm    lex:DocLegal .
+lex:D3263    lex:temTextoIntegral    lex:HTMLs\/D3263.htm .
+lex:D3263\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3263    lex:temArtigo    lex:D3263\/Artigo2 .
+lex:D3263\/Artigo2    lex:temConteudo    "Art. 2o  Os projetos de revitalização apresentados pelas cooperativas, observado o disposto no Decreto no 2.936, de 11 de janeiro de 1999, poderão ser recebidos pelas instituições financeiras até 31 de dezembro de 1999, devendo as respectivas operações de crédito ser formalizadas até 31 de março de 2000." .
+lex:D3263\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3263    lex:temArtigo    lex:D3263\/Artigo3 .
+lex:D3263\/Artigo3    lex:temConteudo    "Art. 3o  O item 4 do Anexo ao Decreto no 2.936, de 1999, passa a vigorar com as modificações constantes do Anexo a este Decreto." .
+lex:D3263\/Texto    lex:remetePara    lex:1898-16 .
+lex:D3263\/Artigo1    lex:remetePara    lex:Dnn6443 .
+lex:D3263\/Artigo2    lex:remetePara    lex:D2936 .
+lex:D3263\/Artigo3    lex:remetePara    lex:D2936\/ .
+lex:D3263\/Artigo5    lex:remetePara    lex:D2936\/1\/Paragrafo4 .
+lex:D3263\/Artigo5    lex:remetePara    lex:D2936\/2 .

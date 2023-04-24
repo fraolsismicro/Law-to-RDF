@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0145    lex:ehUm    lex:DocLegal .
+lex:Del0145    lex:temTextoIntegral    lex:HTMLs\/Del0145.htm .
+lex:Del0145\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0145    lex:temArtigo    lex:Del0145\/Artigo1 .
+lex:Del0145\/Artigo1    lex:temConteudo    "Art. 1º Ficam revogados o Decreto-Lei nº 7.632, de 12 de junho de 1945, e os dispositivos da Lei nº 4.102, de 20 de julho de 1962, que se referem a cobrança e aplicação, pelas estradas de ferro do país, das Taxas de Melhoramentos e de Renovação Patrimonial." .
+lex:Del0145\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0145\/Artigo1    lex:temParagrafo    lex:Del0145\/Artigo1\/ParagrafoUnico .
+lex:Del0145\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo Único. O percentual correspondente às Taxas de Melhoramentos e de Renovação Patrimonial fica incorporado às tarifas ferroviárias." .
+lex:Del0145\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0145    lex:temArtigo    lex:Del0145\/Artigo2 .
+lex:Del0145\/Artigo2    lex:temConteudo    "Art. 2º Fica prorrogado até a data da vigência do presente Decreto-Lei, o prazo de convalidação de que trata o art. 1º da Lei nº 5.165, de 21.10.966, devendo os quadros demonstrativos referidos no art. 2º dêsse diploma legal ser apresentados ao Departamento Nacional de Estradas de Ferro, dentro de 90 dias." .
+lex:Del0145\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0145    lex:temArtigo    lex:Del0145\/Artigo3 .
+lex:Del0145\/Artigo3    lex:temConteudo    "Art. 3º Êste Decreto-Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0145\/Artigo1    lex:remetePara    lex:Del7632 .
+lex:Del0145\/Artigo1    lex:remetePara    lex:L4102 .
+lex:Del0145\/Artigo2    lex:remetePara    lex:L5165\/Artigo1 .
+lex:Del0145\/Artigo2    lex:remetePara    lex:L5165\/Artigo2 .

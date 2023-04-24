@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8855    lex:ehUm    lex:DocLegal .
+lex:D8855    lex:temTextoIntegral    lex:HTMLs\/D8855.htm .
+lex:D8855\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8855    lex:temArtigo    lex:D8855\/Artigo1 .
+lex:D8855\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 8.788, de 21 de junho de 2016, passa a vigorar com as seguintes alterações:" .
+lex:D8855\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8855\/Artigo1    lex:temParagrafo    lex:D8855\/Artigo1\/Paragrafo1 .
+lex:D8855\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º  Nos termos do parágrafo único, inciso VII, do art. 7º da Medida Provisória nº 726, de 12 de maio de 2016, o Ministério das Relações Exteriores e a Apex-Brasil serão as partes do contrato de gestão de que trata o caput." .
+lex:D8855\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8855\/Artigo1    lex:temParagrafo    lex:D8855\/Artigo1\/Paragrafo2 .
+lex:D8855\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  O prazo previsto no caput, no caso de justificada necessidade, poderá ser acrescido de sessenta dias, prorrogável por mais trinta dias. (NR)" .
+lex:D8855\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8855    lex:temArtigo    lex:D8855\/Artigo2 .
+lex:D8855\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8855\/Artigo1    lex:remetePara    lex:D8788 .
+lex:D8855\/Artigo1\/Paragrafo1    lex:remetePara    lex:D8788\/Artigo2\/Paragrafo1 .
+lex:D8855\/Artigo1\/Paragrafo1    lex:remetePara    lex:mpv726\/Artigo7 .
+lex:D8855\/Artigo1\/Texto00003    lex:remetePara    lex:D8788\/Artigo3 .

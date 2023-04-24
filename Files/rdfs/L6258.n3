@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6258    lex:ehUm    lex:DocLegal .
+lex:L6258    lex:temTextoIntegral    lex:HTMLs\/L6258.htm .
+lex:L6258\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6258    lex:temArtigo    lex:L6258\/Artigo1 .
+lex:L6258\/Artigo1    lex:temConteudo    "Art. 1º Os níveis de classificação e vencimentos dos cargos integrantes das Categorias Funcionais de Taquígrafo Judiciário, STF-AJ-022, e Atendente Judiciário, STF-AJ-025, do Grupo-Apoio Judiciário, do Quadro Permanente da Secretaria do Supremo Tribunal Federal, fixados na Lei número 5.985, de 13 de dezembro de 1973, e seu Anexo, passarão a ser os constantes do Anexo à presente Lei, mantido o número de cargos da lotação global estabelecido pelo Tribunal." .
+lex:L6258\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6258    lex:temArtigo    lex:L6258\/Artigo3 .
+lex:L6258\/Artigo3    lex:temConteudo    "Art. 3º São criados no Quadro Permanente da Secretaria do Supremo Tribunal Federal os seguintes cargos: na Categoria de Auxiliar Judiciário STF-AJ-023. 4: 7 (sete), na Categoria de Técnico em Comunicações Sociais STF-NS-931 5 (cinco); na Categoria de Agente Administrativo STF-SA-801: 10 (dez); na Categoria de Datilógrafo STF-SA-803: 15 (quinze) e na Categoria, de Motorista Oficial STF-TP-1201: 5 (cinco)." .
+lex:L6258\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6258\/Artigo3    lex:temParagrafo    lex:L6258\/Artigo3\/ParagrafoUnico .
+lex:L6258\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O cargos a que se refere este artigo serão distribuídos pelos níveis das respectivas Categorias Funcionais, de acordo com lotação fixada, observados os critérios legais vigentes." .
+lex:L6258\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6258    lex:temArtigo    lex:L6258\/Artigo4 .
+lex:L6258\/Artigo4    lex:temConteudo    "Art. 4º As despesas decorrentes da aplicação desta Lei correrão à conta dos recursos orçamentários próprios do Supremo Tribunal Federal." .
+lex:L6258\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6258    lex:temArtigo    lex:L6258\/Artigo5 .
+lex:L6258\/Artigo5    lex:temConteudo    "Art. 5º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L6258\/Artigo1    lex:remetePara    lex:L5985 .
+lex:L6258\/ParagrafoUnico    lex:remetePara    lex:L5985\/Artigo4 .
+lex:L6258\/ParagrafoUnico    lex:revogadoPor    lex:L6474\/Artigo3 .
+lex:L6474\/Artigo3    lex:revogou    lex:L6258\/ParagrafoUnico .
+lex:L6258\/Artigo2    lex:remetePara    lex:L5985\/Artigo4 .
+lex:L6258\/Artigo2    lex:revogadoPor    lex:L6474\/Artigo3 .
+lex:L6474\/Artigo3    lex:revogou    lex:L6258\/Artigo2 .

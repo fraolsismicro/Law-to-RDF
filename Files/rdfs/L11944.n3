@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11944    lex:ehUm    lex:DocLegal .
+lex:L11944    lex:temTextoIntegral    lex:HTMLs\/L11944.htm .
+lex:L11944\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11944    lex:temArtigo    lex:L11944\/Artigo1 .
+lex:L11944\/Artigo1    lex:temConteudo    "Art. 1o  A partir de 1o de fevereiro de 2009, o salário mínimo será de R$ 465,00 (quatrocentos e sessenta e cinco reais)." .
+lex:L11944\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L11944\/Artigo1    lex:temParagrafo    lex:L11944\/Artigo1\/ParagrafoUnico .
+lex:L11944\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Em virtude do disposto no caput, o valor diário do salário mínimo corresponderá a R$ 15,50 (quinze reais e cinqüenta centavos) e o valor horário, a R$ 2,11 (dois reais e onze centavos)." .
+lex:L11944\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11944    lex:temArtigo    lex:L11944\/Artigo2 .
+lex:L11944\/Artigo2    lex:temConteudo    "Art. 2o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11944\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11944    lex:temArtigo    lex:L11944\/Artigo3 .
+lex:L11944\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogada, a partir de 1o de fevereiro de 2009, a Lei no 11.709, de 19 de junho de 2008." .
+lex:L11944\/Texto    lex:revogadoPor    lex:474\/Artigo3 .
+lex:474\/Artigo3    lex:revogou    lex:L11944\/Texto .
+lex:L11944\/Texto    lex:revogadoPor    lex:L12255\/Artigo3 .
+lex:L12255\/Artigo3    lex:revogou    lex:L11944\/Texto .
+lex:L11944\/Texto    lex:remetePara    lex:L11944 .
+lex:L11944\/Artigo3    lex:remetePara    lex:L11709 .

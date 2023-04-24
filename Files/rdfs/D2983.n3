@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D2983    lex:ehUm    lex:DocLegal .
+lex:D2983    lex:temTextoIntegral    lex:HTMLs\/D2983.htm .
+lex:D2983\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D2983    lex:temInciso    lex:D2983\/IncisoD .
+lex:D2983\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D2983\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D2983    lex:temArtigo    lex:D2983\/Artigo1 .
+lex:D2983\/Artigo1    lex:temConteudo    "Art. 1o Ficam suspensas, até 31 de dezembro de 1999, a realização de novos concursos públicos e as nomeações para cargos civis de provimento efetivo ou de carreira no âmbito da Administração Federal direta, das autarquias e das fundações públicas do Poder Executivo da União." .
+lex:D2983\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D2983\/Artigo1    lex:temParagrafo    lex:D2983\/Artigo1\/Paragrafo1 .
+lex:D2983\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o Fica suspensa a contagem do prazo de validade dos concursos públicos, a partir da sua homologação, retomando-se a respectiva contagem após o término do período a que se refere o caput." .
+lex:D2983\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D2983\/Artigo1    lex:temParagrafo    lex:D2983\/Artigo1\/Paragrafo2 .
+lex:D2983\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o O disposto neste artigo aplica-se às empresas públicas, sociedades de economia mista e suas subsidiárias, que receberem recursos da União para pagamento de despesas de pessoal." .
+lex:D2983\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D2983    lex:temArtigo    lex:D2983\/Artigo2 .
+lex:D2983\/Artigo2    lex:temConteudo    "Art. 2o A suspensão das nomeações de que trata o artigo anterior não se aplica aos concursos públicos:" .
+lex:D2983\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D2983\/Artigo2    lex:temInciso    lex:D2983\/Artigo2\/IncisoI .
+lex:D2983\/Artigo2\/IncisoI    lex:temConteudo    "I - homologados até a data de publicação deste Decreto;" .
+lex:D2983\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D2983\/Artigo2    lex:temInciso    lex:D2983\/Artigo2\/IncisoII .
+lex:D2983\/Artigo2\/IncisoII    lex:temConteudo    "II - disciplinados pelos arts. 38 e 39 da Lei no 7.501, de 27 de junho de 1986;" .
+lex:D2983\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D2983\/Artigo2    lex:temInciso    lex:D2983\/Artigo2\/IncisoIII .
+lex:D2983\/Artigo2\/IncisoIII    lex:temConteudo    "III - cujos candidatos tenham sido convocados, até a data de publicação deste Decreto, para participar de curso de formação." .
+lex:D2983\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D2983    lex:temArtigo    lex:D2983\/Artigo3 .
+lex:D2983\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D2983\/Fecho    lex:remetePara    lex:index .

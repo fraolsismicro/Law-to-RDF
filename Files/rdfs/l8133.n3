@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:l8133    lex:ehUm    lex:DocLegal .
+lex:l8133    lex:temTextoIntegral    lex:HTMLs\/l8133.htm .
+lex:l8133\/Artigo1    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo1 .
+lex:l8133\/Artigo1    lex:temConteudo    "Art. 1° É acrescentado ao art. 3° da Lei n° 7.798, de 10 de julho de 1989, o seguinte parágrafo:" .
+lex:l8133\/Artigo1\/AlineaAumentar    lex:ehUm    lex:Alinea .
+lex:l8133\/Artigo1    lex:temAlinea    lex:l8133\/Artigo1\/AlineaAumentar .
+lex:l8133\/Artigo1\/AlineaAumentar    lex:temConteudo    "a) aumentar, até sessenta por cento, os valores de cada classe, reajustados na forma do parágrafo anterior;" .
+lex:l8133\/Artigo1\/AlineaManter    lex:ehUm    lex:Alinea .
+lex:l8133\/Artigo1    lex:temAlinea    lex:l8133\/Artigo1\/AlineaManter .
+lex:l8133\/Artigo1\/AlineaManter    lex:temConteudo    "b) manter, temporariamente, o valor do imposto, ainda que alterado o do BTN.'" .
+lex:l8133\/Artigo2    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo2 .
+lex:l8133\/Artigo2    lex:temConteudo    "Art. 2° O Anexo II à Lei n° 7.798, de 1989, é substituído pelo que acompanha a presente lei." .
+lex:l8133\/Artigo3    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo3 .
+lex:l8133\/Artigo3    lex:temConteudo    "Art. 3° A alínea a do § 2° do art. 1° da Lei n° 7.798, de 1989, passa a vigorar com a seguinte redação:" .
+lex:l8133\/Artigo4    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo4 .
+lex:l8133\/Artigo4    lex:temConteudo    "Art. 4° As alíneas c, d e e do inciso I do art. 69 da Lei n° 7.799, de 10 de julho de 1989, passam a vigorar com a seguinte redação:" .
+lex:l8133\/Artigo4\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:l8133\/Artigo4    lex:temAlinea    lex:l8133\/Artigo4\/AlineaAte .
+lex:l8133\/Artigo4\/AlineaAte    lex:temConteudo    "c) até o último dia útil da quinzena subseqüente àquela em que ocorrerem os fatos geradores, no caso dos produtos classificados nas posições 2202 e 2203, 4302 a 4304, da TIPI, excetuando-se o código 2202.10.0100;" .
+lex:l8133\/Artigo4\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:l8133\/Artigo4    lex:temAlinea    lex:l8133\/Artigo4\/AlineaAte .
+lex:l8133\/Artigo4\/AlineaAte    lex:temConteudo    "d) até o último dia útil da segunda quinzena subseqüente àquela em que ocorrerem os fatos geradores, no caso dos produtos classificados na posição 8703, excetuadas as ambulâncias;" .
+lex:l8133\/Artigo4\/AlineaAte    lex:ehUm    lex:Alinea .
+lex:l8133\/Artigo4    lex:temAlinea    lex:l8133\/Artigo4\/AlineaAte .
+lex:l8133\/Artigo4\/AlineaAte    lex:temConteudo    "e) até o último dia útil da terceira quinzena subseqüente àquela em que ocorrerem os fatos geradores, no caso dos demais produtos;'" .
+lex:l8133\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:l8133\/Artigo4    lex:temParagrafo    lex:l8133\/Artigo4\/ParagrafoUnico .
+lex:l8133\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo aplica-se em relação aos vencimentos que ocorrerem a partir do mês de janeiro de 1991." .
+lex:l8133\/Artigo5    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo5 .
+lex:l8133\/Artigo5    lex:temConteudo    "Art. 5° Esta lei entra em vigor na data de sua publicação." .
+lex:l8133\/Artigo6    lex:ehUm    lex:Artigo .
+lex:l8133    lex:temArtigo    lex:l8133\/Artigo6 .
+lex:l8133\/Artigo6    lex:temConteudo    "Art. 6° Revogam-se as disposições em contrário." .
+lex:l8133\/Artigo1    lex:remetePara    lex:L7798 .
+lex:l8133\/Texto00001    lex:remetePara    lex:L7798\/Artigo3\/Paragrafo5 .
+lex:l8133\/Artigo2    lex:remetePara    lex:L7798\/ .
+lex:l8133\/Texto00005    lex:remetePara    lex:L7798\/Artigo1\/Paragrafo2a .
+lex:l8133\/Artigo4    lex:remetePara    lex:L7799 .
+lex:l8133\/Artigo4\/AlineaAte    lex:remetePara    lex:L7799\/Artigo69 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8948    lex:ehUm    lex:DocLegal .
+lex:D8948    lex:temTextoIntegral    lex:HTMLs\/D8948.htm .
+lex:D8948\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8948    lex:temArtigo    lex:D8948\/Artigo1 .
+lex:D8948\/Artigo1    lex:temConteudo    "Art. 1 º  A partir de 1 º de janeiro de 2017, o salário mínimo será de R$ 937,00 (novecentos e trinta e sete reais)." .
+lex:D8948\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8948\/Artigo1    lex:temParagrafo    lex:D8948\/Artigo1\/ParagrafoUnico .
+lex:D8948\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Em virtude do disposto no caput, o valor diário do salário mínimo corresponderá a R$ 31,23 (trinta e um reais e vinte e três centavos) e o valor horário, a R$ 4,26 (quatro reais e vinte e seis centavos)." .
+lex:D8948\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8948    lex:temArtigo    lex:D8948\/Artigo2 .
+lex:D8948\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor em 1 º de janeiro de 2017." .
+lex:D8948\/Texto    lex:remetePara    lex:L13152 .

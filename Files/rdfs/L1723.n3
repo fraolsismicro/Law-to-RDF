@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L1723    lex:ehUm    lex:DocLegal .
+lex:L1723    lex:temTextoIntegral    lex:HTMLs\/L1723.htm .
+lex:L1723\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L1723    lex:temArtigo    lex:L1723\/Artigo1 .
+lex:L1723\/Artigo1    lex:temConteudo    "Art 1º O artigo 461, do Decreto-lei nº 5.452, de 1 de maio de 1943, - Consolidação das Leis do Trabalho - passa a ter a seguinte redação:" .
+lex:L1723\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L1723\/Artigo1    lex:temParagrafo    lex:L1723\/Artigo1\/Paragrafo1 .
+lex:L1723\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Trabalho de igual valor, para os fins dêste capítulo, será o que fôr feito com igual produtividade e com a mesma perfeição técnica entre pessoas cuja diferença de tempo de serviço não fôr superior a dois anos." .
+lex:L1723\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L1723\/Artigo1    lex:temParagrafo    lex:L1723\/Artigo1\/Paragrafo2 .
+lex:L1723\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os dispositivos dêste artigo não prevalecerão quando o empregador tiver pessoal organizado em quadro de carreira, hipótese em que as promoções deverão obedecer aos critérios de antiguidade e merecimento." .
+lex:L1723\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L1723\/Artigo1    lex:temParagrafo    lex:L1723\/Artigo1\/Paragrafo3 .
+lex:L1723\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º No caso do parágrafo anterior, as promoções deverão ser feitas alternadamente por merecimento e por antiguidade, dentro de cada categoria profissional.'" .
+lex:L1723\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L1723    lex:temArtigo    lex:L1723\/Artigo2 .
+lex:L1723\/Artigo2    lex:temConteudo    "Art 2º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L1723\/Artigo1    lex:remetePara    lex:Del5452\/Artigo461 .

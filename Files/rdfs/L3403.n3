@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L3403    lex:ehUm    lex:DocLegal .
+lex:L3403    lex:temTextoIntegral    lex:HTMLs\/L3403.htm .
+lex:L3403\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L3403    lex:temArtigo    lex:L3403\/Artigo1 .
+lex:L3403\/Artigo1    lex:temConteudo    "Art. 1º O parágrafo único do artigo 509 do Código de Processo Civil passa a vigorar com a seguinte redação:" .
+lex:L3403\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L3403\/Artigo1    lex:temParagrafo    lex:L3403\/Artigo1\/ParagrafoUnico .
+lex:L3403\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O formal de partilha poderá ser substituido por simples certidão de pagamento da legítima, se esta não exceder de Cr$200.000,00 (duzentos mil cruzeiros). Nesse caso, transcreve-se-á na certidão a sentença final da partilha, transitada em julgado." .
+lex:L3403\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L3403    lex:temArtigo    lex:L3403\/Artigo2 .
+lex:L3403\/Artigo2    lex:temConteudo    "Art. 2º Revogam-se as disposições em contrário." .
+lex:L3403\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Del1608\/Artigo509 .

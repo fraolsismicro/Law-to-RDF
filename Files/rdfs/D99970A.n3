@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99970A    lex:ehUm    lex:DocLegal .
+lex:D99970A    lex:temTextoIntegral    lex:HTMLs\/D99970A.htm .
+lex:D99970A\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D99970A    lex:temArtigo    lex:D99970A\/Artigo1 .
+lex:D99970A\/Artigo1    lex:temConteudo    "Art. 1º Fica aberto ao Orçamento Fiscal da União (Lei nº 7.999, de 31 de janeiro de 1990), em favor do Ministério da Educação, crédito suplementar no valor de Cr$ 16.024.120.000,00 (dezesseis bilhões, vinte e quatro milhões, cento e vinte mil cruzeiros), para atender à programação indicada no Anexo I deste decreto." .
+lex:D99970A\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D99970A    lex:temArtigo    lex:D99970A\/Artigo2 .
+lex:D99970A\/Artigo2    lex:temConteudo    "Art. 2º Os recursos necessários à execução do disposto no artigo anterior decorrerão da incorporação do excesso de arrecadação de receitas próprias, na forma do Anexo II deste decreto." .
+lex:D99970A\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D99970A    lex:temArtigo    lex:D99970A\/Artigo3 .
+lex:D99970A\/Artigo3    lex:temConteudo    "Art. 3º Este decreto entra em vigor nesta data." .
+lex:D99970A\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D99970A    lex:temArtigo    lex:D99970A\/Artigo4 .
+lex:D99970A\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:D99970A\/Texto    lex:remetePara    lex:D99970A .

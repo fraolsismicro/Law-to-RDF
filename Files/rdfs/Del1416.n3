@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1416    lex:ehUm    lex:DocLegal .
+lex:Del1416    lex:temTextoIntegral    lex:HTMLs\/Del1416.htm .
+lex:Del1416\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1416    lex:temArtigo    lex:Del1416\/Artigo1 .
+lex:Del1416\/Artigo1    lex:temConteudo    "Art. 1º O artigo 10 da Lei nº 2.145, de 29 de dezembro de 1953, com a redação do artigo 15, do Decreto-Lei nº 491, de 5 de março de 1969, passa a vigorar com a seguinte redação:" .
+lex:Del1416\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1416\/Artigo1    lex:temParagrafo    lex:Del1416\/Artigo1\/Paragrafo1 .
+lex:Del1416\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A taxa é devida na emissão de documento relativa a qualquer produto, independentemente do regime tributário ou cambial vigente, da qualidade do importador ou do país de origem da mercadoria." .
+lex:Del1416\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1416\/Artigo1    lex:temParagrafo    lex:Del1416\/Artigo1\/Paragrafo2 .
+lex:Del1416\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A tabela de taxas de expediente e as condições de cobrança e sua aplicação serão aprovadas pelo Ministro da Fazenda, com base em proposta da Carteira de Comércio Exterior do Banco do Brasil S.A. (CACEX)." .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1416\/Artigo1    lex:temParagrafo    lex:Del1416\/Artigo1\/Paragrafo3 .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º O Ministro da Fazenda poderá determinar à CACEX a dispensa da cobrança da taxa, ou a adoção de quantias fixas, nos seguintes casos:" .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:ehUm    lex:Alinea .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:temAlinea    lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:temConteudo    "a) importações a título de doações e destinadas a fins assistenciais, educacionais e filantrópicos;" .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaOperacoes    lex:ehUm    lex:Alinea .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:temAlinea    lex:Del1416\/Artigo1\/Paragrafo3\/AlineaOperacoes .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaOperacoes    lex:temConteudo    "b) operações de drawback;" .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:ehUm    lex:Alinea .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:temAlinea    lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:temConteudo    "c) importações temporárias de bens para conserto, recondicionamento e manutenção e posterior exportação;" .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:ehUm    lex:Alinea .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:temAlinea    lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:temConteudo    "d) importações em trânsito; de natureza temporária destinada a exportação ou reexportação, e outras vinculadas à exportação.'" .
+lex:Del1416\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1416    lex:temArtigo    lex:Del1416\/Artigo2 .
+lex:Del1416\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1416\/Texto00001    lex:remetePara    lex:L2145\/Artigo10 .
+lex:Del1416\/Artigo1\/Paragrafo1    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo1 .
+lex:Del1416\/Artigo1\/Paragrafo2    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo2 .
+lex:Del1416\/Artigo1\/Paragrafo3    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo3 .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo3a .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaOperacoes    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo3b .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo3c .
+lex:Del1416\/Artigo1\/Paragrafo3\/AlineaImportacoes    lex:remetePara    lex:L2145\/Artigo10\/Paragrafo3d .

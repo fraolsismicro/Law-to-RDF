@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3794    lex:ehUm    lex:DocLegal .
+lex:D3794    lex:temTextoIntegral    lex:HTMLs\/D3794.htm .
+lex:D3794\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3794    lex:temArtigo    lex:D3794\/Artigo1 .
+lex:D3794\/Artigo1    lex:temConteudo    "Art. 1o  A contrapartida a ser exigida do ente federado para as ações que beneficiarem os Municípios incluídos nos bolsões de pobreza identificados como áreas prioritárias do 'Comunidade Solidária' e no Programa 'Comunidade Ativa' será:" .
+lex:D3794\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D3794\/Artigo1    lex:temInciso    lex:D3794\/Artigo1\/IncisoI .
+lex:D3794\/Artigo1\/IncisoI    lex:temConteudo    "I - para os Municípios:" .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:ehUm    lex:IncisoAlinea .
+lex:D3794\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temConteudo    "a) com até vinte e cinco mil habitantes, um por cento;" .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados    lex:ehUm    lex:IncisoAlinea .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom    lex:temIncisoAlinea    lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados    lex:temConteudo    "b) localizados nas áreas da Superintendência do Desenvolvimento do Nordeste - SUDENE, da Superintendência do Desenvolvimento da Amazônia - SUDAM e no Centro-Oeste, dois por cento;" .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados    lex:temIncisoAlinea    lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados\/IncisoAlineaPara .
+lex:D3794\/Artigo1\/IncisoI\/IncisoAlineaCom\/IncisoAlineaLocalizados\/IncisoAlineaPara    lex:temConteudo    "c) para os demais, quatro por cento;" .
+lex:D3794\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D3794\/Artigo1    lex:temInciso    lex:D3794\/Artigo1\/IncisoII .
+lex:D3794\/Artigo1\/IncisoII    lex:temConteudo    "II - para os Estados e para o Distrito Federal:" .
+lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe    lex:ehUm    lex:IncisoAlinea .
+lex:D3794\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe .
+lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe    lex:temConteudo    "a) se localizados nas áreas da SUDENE, da SUDAM e no Centro-Oeste, dois por cento;" .
+lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe\/IncisoAlineaPara    lex:ehUm    lex:IncisoAlinea .
+lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe    lex:temIncisoAlinea    lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe\/IncisoAlineaPara .
+lex:D3794\/Artigo1\/IncisoII\/IncisoAlineaSe\/IncisoAlineaPara    lex:temConteudo    "b) para os demais, quatro por cento." .
+lex:D3794\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3794\/Artigo1    lex:temParagrafo    lex:D3794\/Artigo1\/Paragrafo1 .
+lex:D3794\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  As reduções de contrapartida previstas no inciso II serão aplicadas quando a transferência voluntária beneficiar exclusivamente os Municípios que se enquadram na situação prevista no caput, condição que será explicitada no ato de formalização da transferência." .
+lex:D3794\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3794\/Artigo1    lex:temParagrafo    lex:D3794\/Artigo1\/Paragrafo2 .
+lex:D3794\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  O Secretário-Executivo do 'Comunidade Solidária' publicará a relação dos Municípios que se encontram nos bolsões de pobreza identificados como áreas prioritárias do 'Comunidade Solidária' e no Programa 'Comunidade Ativa'." .
+lex:D3794\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3794    lex:temArtigo    lex:D3794\/Artigo2 .
+lex:D3794\/Artigo2    lex:temConteudo    "Art. 2o  Os percentuais de contrapartida que serão exigidos nas situações de calamidade pública e nos programas de educação fundamental serão estabelecidos em atos específicos." .
+lex:D3794\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D3794    lex:temArtigo    lex:D3794\/Artigo3 .
+lex:D3794\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .

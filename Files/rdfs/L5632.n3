@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5632    lex:ehUm    lex:DocLegal .
+lex:L5632    lex:temTextoIntegral    lex:HTMLs\/L5632.htm .
+lex:L5632\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5632    lex:temArtigo    lex:L5632\/Artigo1 .
+lex:L5632\/Artigo1    lex:temConteudo    "Art. 1º Os Juizes Federais e Juizes Federais Substitutos receberão, pelo desempenho das atribuições que lhes foram conferidas pelo artigo 110 da Constituição Federal, uma gratificação no valor de Cr$ 800,00 (oitocentos cruzeiros) e Cr$ 700,00 (setecentos cruzeiros) respectivamente." .
+lex:L5632\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5632\/Artigo1    lex:temParagrafo    lex:L5632\/Artigo1\/ParagrafoUnico .
+lex:L5632\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A gratificação incorporar-se-á aos proventos da aposentadoria." .
+lex:L5632\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5632    lex:temArtigo    lex:L5632\/Artigo2 .
+lex:L5632\/Artigo2    lex:temConteudo    "Art. 2º É o Poder Executivo autorizado a abrir o crédito suplementar necessário a atender às despesas decorrentes da aplicação desta Lei, no exercício de 1970." .
+lex:L5632\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5632    lex:temArtigo    lex:L5632\/Artigo3 .
+lex:L5632\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L5632\/Artigo1    lex:remetePara    lex:Constituicao67\/Artigo110 .

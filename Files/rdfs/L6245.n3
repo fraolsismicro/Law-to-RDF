@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6245    lex:ehUm    lex:DocLegal .
+lex:L6245    lex:temTextoIntegral    lex:HTMLs\/L6245.htm .
+lex:L6245\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6245    lex:temArtigo    lex:L6245\/Artigo1 .
+lex:L6245\/Artigo1    lex:temConteudo    "Art. 1º O artigo 1º e seus parágrafos e o artigo 2º da Lei número 5.762, de 14 de dezembro de 1971, que transforma o Banco Nacional da Habitação (BNH) em empresa pública, passam a vigorar com a seguinte redação:" .
+lex:L6245\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6245\/Artigo1    lex:temParagrafo    lex:L6245\/Artigo1\/Paragrafo1 .
+lex:L6245\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º O Estatuto da empresa pública Banco Nacional da Habitação (BNH) e suas subseqüentes alterações independerão de lei e serão baixadas pelo Presidente da República por decreto que será arquivado no competente Registro de Comércio." .
+lex:L6245\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6245\/Artigo1    lex:temParagrafo    lex:L6245\/Artigo1\/Paragrafo2 .
+lex:L6245\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Enquanto não for baixado o Estatuto de que trata o parágrafo anterior, o disposto na Lei nº 4.380, de 21 de agosto de 1964, no Regimento Interno da autarquia Banco Nacional da Habitação (BNH), ora extinta, bem como em toda a legislação subsequente, em seu conjunto, constituirá, no que couber e não conflitar com esta lei, o Estatuto de empresa pública Banco Nacional da Habitação (BNH), regulando seus fins, competência, atribuições, favores e benefícios, estrutura administrativa e regime jurídico do pessoal." .
+lex:L6245\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6245    lex:temArtigo    lex:L6245\/Artigo2 .
+lex:L6245\/Artigo2    lex:temConteudo    "Art. 2º Ficam revogados os §§ 1º e 2º do artigo 2º da Lei número 5.762, de 14 de dezembro de 1971, e demais disposições em contrário." .
+lex:L6245\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6245    lex:temArtigo    lex:L6245\/Artigo3 .
+lex:L6245\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6245\/Texto00001    lex:remetePara    lex:L5762\/Artigo1 .
+lex:L6245\/Artigo1\/Texto00003    lex:remetePara    lex:L5762\/Artigo2 .
+lex:L6245\/Artigo2    lex:remetePara    lex:L5762\/Artigo2\/Paragrafo1 .

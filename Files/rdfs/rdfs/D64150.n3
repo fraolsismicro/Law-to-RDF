@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D64150    lex:ehUm    lex:DocLegal .
+lex:D64150    lex:temTextoIntegral    lex:HTMLs\/D64150.htm .
+lex:D64150\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D64150    lex:temArtigo    lex:D64150\/Artigo1A .
+lex:D64150\/Artigo1A    lex:temConteudo    "Art. 1Âº. Ã o Ministro da EducaÃ§Ã£o e Cultura autorizado a designar Grupo de Trabalho, constituÃ­do de cinco membros, para estudar a concessÃ£o de bÃ´lsas de alimentaÃ§Ã£o, a alunos carentes de recurso, em todo o PaÃ­s." .
+lex:D64150\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D64150    lex:temArtigo    lex:D64150\/Artigo2A .
+lex:D64150\/Artigo2A    lex:temConteudo    "Art. 2Âº. Fica elevado a noventa cruzeiros novos mensais o valor da bÃ´lsa de que trata o Â§ 2Âº do artigo 1Âº do Decreto nÂº 62.532, de 16 de abril de 1968." .
+lex:D64150\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D64150    lex:temArtigo    lex:D64150\/Artigo3A .
+lex:D64150\/Artigo3A    lex:temConteudo    "Art. 3Âº. Revogadas as disposiÃ§Ãµes em contrÃ¡rio, o presente decreto entrarÃ¡ em vigor Ã  data de sua publicaÃ§Ã£o." .
+lex:D64150\/Texto    lex:revogadoPor    lex:d99678 .
+lex:d99678    lex:revogou    lex:D64150\/Texto .
+lex:D64150\/Texto    lex:remetePara    lex:D64150 .

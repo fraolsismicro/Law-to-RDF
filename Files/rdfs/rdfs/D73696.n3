@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D73696    lex:ehUm    lex:DocLegal .
+lex:D73696    lex:temTextoIntegral    lex:HTMLs\/D73696.htm .
+lex:D73696\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo1A .
+lex:D73696\/Artigo1A    lex:temConteudo    "Art 1Âº As placas de sinalizaÃ§Ã£o â de regulamentaÃ§Ã£o, de advertÃªncia e de indicaÃ§Ã£o de que trata a primeira parte do Anexo II do Regulamento do CÃ³digo Nacional de TrÃ¢nsito, aprovado pelo Decreto n.Âº 62.127, de 16 de janeiro de 1968, ficam alteradas de acordo com os modelos que acompanham o presente Decreto." .
+lex:D73696\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo2A .
+lex:D73696\/Artigo2A    lex:temConteudo    "Art 2Âº Os artigos 63 e 64, do Regulamento do CÃ³digo Nacional de TrÃ¢nsito passam a vigorar com a seguinte redaÃ§Ã£o:" .
+lex:D73696\/Artigo3A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo3A .
+lex:D73696\/Artigo3A    lex:temConteudo    "Art 3Âº Fica revogado o parÃ¡grafo 4Âº do artigo 69 do Regulamento do CÃ³digo Nacional de TrÃ¢nsito." .
+lex:D73696\/Artigo4A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo4A .
+lex:D73696\/Artigo4A    lex:temConteudo    "Art 4Âº A sinalizaÃ§Ã£o atualmente existente nas vias pÃºblicas que esteja em desacordo com os modelos aprovados por este Decreto, deverÃ¡ ser substituÃ­da no prazo mÃ¡ximo de doze meses a partir da sua vigÃªncia." .
+lex:D73696\/Artigo5A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo5A .
+lex:D73696\/Artigo5A    lex:temConteudo    "Art 5Âº Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o." .
+lex:D73696\/Artigo6A    lex:ehUm    lex:Artigo .
+lex:D73696    lex:temArtigo    lex:D73696\/Artigo6A .
+lex:D73696\/Artigo6A    lex:temConteudo    "Art 6Âº Revogam-se as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D73696\/Artigo1A    lex:regulamentadoPor    lex:D62127\/ .
+lex:D62127\/    lex:regulamenta    lex:D73696\/Artigo1A .
+lex:D73696\/Artigo1A    lex:remetePara    lex:D73696\/ .
+lex:D73696\/Texto00002    lex:remetePara    lex:D62127\/Artigo63 .
+lex:D73696\/Texto00002    lex:remetePara    lex:D62127\/Artigo64 .
+lex:D73696\/Artigo3A    lex:regulamentadoPor    lex:D62127\/Artigo69Â§4 .
+lex:D62127\/Artigo69Â§4    lex:regulamenta    lex:D73696\/Artigo3A .

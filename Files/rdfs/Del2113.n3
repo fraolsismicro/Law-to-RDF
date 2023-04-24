@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2113    lex:ehUm    lex:DocLegal .
+lex:Del2113    lex:temTextoIntegral    lex:HTMLs\/Del2113.htm .
+lex:Del2113\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2113    lex:temArtigo    lex:Del2113\/Artigo1 .
+lex:Del2113\/Artigo1    lex:temConteudo    "Art. 1º - Fica revogado o art. 2º do Decreto-lei nº 2.087, de 22 de dezembro de 1983, restabelecidas as disposições legais anteriormente vigentes sobre a matéria." .
+lex:Del2113\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2113    lex:temArtigo    lex:Del2113\/Artigo2 .
+lex:Del2113\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entra em vigor na data de sua publicação." .
+lex:Del2113\/Artigo1    lex:remetePara    lex:Del2087\/Artigo2 .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4342    lex:ehUm    lex:DocLegal .
+lex:L4342    lex:temTextoIntegral    lex:HTMLs\/L4342.htm .
+lex:L4342\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4342    lex:temArtigo    lex:L4342\/Artigo1 .
+lex:L4342\/Artigo1    lex:temConteudo    "Art. 1º Fica elevado para Cr$ 2,00 (dois cruzeiros) o valor do sêlo postal adicional emitido em benefício dos filhos de lázaros, durante a Semana do Combate à Lepra, de que tratam a Lei nº 909, de 8 de novembro de 1949 e o Decreto nº 31.684, de 31 de outubro de 1952." .
+lex:L4342\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4342    lex:temArtigo    lex:L4342\/Artigo2 .
+lex:L4342\/Artigo2    lex:temConteudo    "Art. 2º O Ministério da Fazenda, através da Contadoria Geral da República, e o Ministério da Viação e Obras Públicas, através do Departamento dos Correios e Telégrafos, adotarão, por meio de circulares, as providências necessárias à execução da presente lei." .
+lex:L4342\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4342    lex:temArtigo    lex:L4342\/Artigo3 .
+lex:L4342\/Artigo3    lex:temConteudo    "Art. 3º Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4342\/Artigo1    lex:remetePara    lex:L0909 .

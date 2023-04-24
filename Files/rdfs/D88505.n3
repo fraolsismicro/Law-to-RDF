@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D88505    lex:ehUm    lex:DocLegal .
+lex:D88505    lex:temTextoIntegral    lex:HTMLs\/D88505.htm .
+lex:D88505\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D88505    lex:temArtigo    lex:D88505\/Artigo1 .
+lex:D88505\/Artigo1    lex:temConteudo    "Art. 1º São criadas as Notas Complementares NC (87-6) e NC (87-7) ao Capítulo 87 da Tabela aprovada pelo Decreto nº 84.338, de 26 de dezembro de 1979, com a seguinte redação:" .
+lex:D88505\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D88505    lex:temArtigo    lex:D88505\/Artigo2 .
+lex:D88505\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entrará em vigor no 3º dia posterior ao de sua publicação, revogadas as disposições em contrário." .
+lex:D88505\/Texto    lex:revogadoPor    lex:Dnn7-05-09-91 .
+lex:Dnn7-05-09-91    lex:revogou    lex:D88505\/Texto .
+lex:D88505\/Texto    lex:remetePara    lex:D88505 .
+lex:D88505\/Artigo1    lex:remetePara    lex:D84338 .

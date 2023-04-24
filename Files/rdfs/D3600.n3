@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3600    lex:ehUm    lex:DocLegal .
+lex:D3600    lex:temTextoIntegral    lex:HTMLs\/D3600.htm .
+lex:D3600\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D3600    lex:temArtigo    lex:D3600\/Artigo1 .
+lex:D3600\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, em caráter temporário, até 31 de dezembro de 2002, da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, provenientes de órgãos extintos da Administração Pública Federal, para o Ministério da Previdência e Assistência Social, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS: três DAS 102.4; e três DAS 102.3." .
+lex:D3600\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D3600\/Artigo1    lex:temParagrafo    lex:D3600\/Artigo1\/Paragrafo1 .
+lex:D3600\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os cargos em comissão objeto deste remanejamento, a serem alocados na Secretaria de Estado de Assistência Social, não integrarão a Estrutura Regimental do Ministério da Previdência e Assistência Social, devendo constar do ato de nomeação seu caráter de transitoriedade, mediante remissão ao caput deste artigo." .
+lex:D3600\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D3600\/Artigo1    lex:temParagrafo    lex:D3600\/Artigo1\/Paragrafo2 .
+lex:D3600\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Findo o prazo estabelecido no caput deste artigo, os cargos em comissão, ora remanejados, serão restituídos à Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, sendo considerados exonerados os titulares neles investidos." .
+lex:D3600\/Artig    lex:ehUm    lex:Artigo .
+lex:D3600    lex:temArtigo    lex:D3600\/Artig .
+lex:D3600\/Artig    lex:temConteudo    "Art.  2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3600\/Texto00004    lex:remetePara    lex:index .

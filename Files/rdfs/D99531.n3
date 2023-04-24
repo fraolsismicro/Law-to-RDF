@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D99531    lex:ehUm    lex:DocLegal .
+lex:D99531    lex:temTextoIntegral    lex:HTMLs\/D99531.htm .
+lex:D99531\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D99531    lex:temParagrafo    lex:D99531\/Paragrafo2 .
+lex:D99531\/Paragrafo2    lex:temConteudo    "§ 2° As deliberações do conselho serão tomadas por maioria de votos e registradas em ata, cabendo ao presidente, além do voto ordinário, o de qualidade." .
+lex:D99531\/Texto    lex:remetePara    lex:D99531 .
+lex:D99531\/Artigo10    lex:remetePara    lex:D1057 .

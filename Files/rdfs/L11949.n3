@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L11949    lex:ehUm    lex:DocLegal .
+lex:L11949    lex:temTextoIntegral    lex:HTMLs\/L11949.htm .
+lex:L11949\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L11949    lex:temArtigo    lex:L11949\/Artigo1 .
+lex:L11949\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o, 2o, 3o e 4o da Lei no 10.304, de 5 de novembro de 2001, passam a vigorar com a seguinte redação:" .
+lex:L11949\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoI .
+lex:L11949\/Artigo1\/IncisoI    lex:temConteudo    "I   as áreas relacionadas nos incisos II a XI do art. 20 da Constituição Federal;" .
+lex:L11949\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoII .
+lex:L11949\/Artigo1\/IncisoII    lex:temConteudo    "II   as terras destinadas ou em processo de destinação pela União a projetos de assentamento;" .
+lex:L11949\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoIII .
+lex:L11949\/Artigo1\/IncisoIII    lex:temConteudo    "III   as áreas de unidades de conservação já instituídas pela União e aquelas em processo de instituição, conforme regulamento;" .
+lex:L11949\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoIV .
+lex:L11949\/Artigo1\/IncisoIV    lex:temConteudo    "IV   as áreas afetadas, de modo expresso ou tácito, a uso público comum ou especial;" .
+lex:L11949\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoV .
+lex:L11949\/Artigo1\/IncisoV    lex:temConteudo    "V   as áreas destinadas a uso especial do Ministério da Defesa; e" .
+lex:L11949\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L11949\/Artigo1    lex:temInciso    lex:L11949\/Artigo1\/IncisoVI .
+lex:L11949\/Artigo1\/IncisoVI    lex:temConteudo    "VI   as áreas objeto de títulos expedidos pela União que não tenham sido extintos por descumprimento de cláusula resolutória. (NR)" .
+lex:L11949\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L11949    lex:temArtigo    lex:L11949\/Artigo2 .
+lex:L11949\/Artigo2    lex:temConteudo    "Art. 2o  Dê-se à ementa da Lei nº 10.304, de 5 de novembro de 2001, a seguinte redação:" .
+lex:L11949\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L11949    lex:temArtigo    lex:L11949\/Artigo3 .
+lex:L11949\/Artigo3    lex:temConteudo    "Art. 3o  Esta Lei entra em vigor na data de sua publicação." .
+lex:L11949\/Artigo1    lex:remetePara    lex:L10304 .
+lex:L11949\/Texto00001    lex:remetePara    lex:L10304\/Artigo1 .
+lex:L11949\/Texto00001    lex:remetePara    lex:L10304\/Artigo2 .
+lex:L11949\/Artigo1\/Texto00007    lex:remetePara    lex:L10304\/Artigo3 .
+lex:L11949\/Artigo1\/Texto00007    lex:remetePara    lex:L10304\/Artigo4 .
+lex:L11949\/Artigo2    lex:remetePara    lex:L10304 .

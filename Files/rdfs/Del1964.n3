@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1964    lex:ehUm    lex:DocLegal .
+lex:Del1964    lex:temTextoIntegral    lex:HTMLs\/Del1964.htm .
+lex:Del1964\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1964    lex:temArtigo    lex:Del1964\/Artigo1 .
+lex:Del1964\/Artigo1    lex:temConteudo    "Art. 1º É concedida isenção do imposto de importação e do imposto sobre produtos industrializados aos materiais e equipamentos importados para utilização:" .
+lex:Del1964\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del1964\/Artigo1    lex:temInciso    lex:Del1964\/Artigo1\/IncisoI .
+lex:Del1964\/Artigo1\/IncisoI    lex:temConteudo    "I - na construção de embarcações constantes do Programa Permanente de Construção Naval;" .
+lex:Del1964\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del1964\/Artigo1    lex:temInciso    lex:Del1964\/Artigo1\/IncisoII .
+lex:Del1964\/Artigo1\/IncisoII    lex:temConteudo    "II - na construção de embarcações destinadas à navegação de cabotagem;" .
+lex:Del1964\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del1964\/Artigo1    lex:temInciso    lex:Del1964\/Artigo1\/IncisoIII .
+lex:Del1964\/Artigo1\/IncisoIII    lex:temConteudo    "III - na reparação ou manutenção de embarcações, exceto as de recreio." .
+lex:Del1964\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1964\/Artigo1    lex:temParagrafo    lex:Del1964\/Artigo1\/Paragrafo1 .
+lex:Del1964\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - A isenção prevista neste artigo é aplicável exclusivamente aos bens importados em decorrência de contratos firmados até 31 de dezembro de 1984, desde que constem os referidos bens de listas de importação previamente aprovadas pelo Conselho de Desenvolvimento Industrial, do Ministério da Indústria e do Comércio." .
+lex:Del1964\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1964\/Artigo1    lex:temParagrafo    lex:Del1964\/Artigo1\/Paragrafo2 .
+lex:Del1964\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - O disposto neste artigo aplicar-se-á também aos materiais e equipamentos importados em decorrência de contratos firmados entre 1º de janeiro de 1981 e a data de entrada em vigor deste Decreto-lei." .
+lex:Del1964\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1964\/Artigo1    lex:temParagrafo    lex:Del1964\/Artigo1\/Paragrafo3 .
+lex:Del1964\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - Não se aplica à isenção de que trata este artigo a disposto no artigo 17 do Decreto-lei nº 37, de 18 de novembro de 1966." .
+lex:Del1964\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del1964\/Artigo1    lex:temParagrafo    lex:Del1964\/Artigo1\/Paragrafo4 .
+lex:Del1964\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º - A aplicação do disposto no § 2º não poderá redundar em restituição de tributos." .
+lex:Del1964\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1964    lex:temArtigo    lex:Del1964\/Artigo2 .
+lex:Del1964\/Artigo2    lex:temConteudo    "Art. 2º A isenção de que trata o artigo anterior, inclusive nas hipóteses previstas no seu § 2º, será reconhecida, em cada caso, pela Secretaria da Receita Federal, após ouvida a Superintendência Nacional da Marinha Mercante - SUNAMAM, do Ministério dos Transportes." .
+lex:Del1964\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1964    lex:temArtigo    lex:Del1964\/Artigo3 .
+lex:Del1964\/Artigo3    lex:temConteudo    "Art. 3º O Ministro da Fazenda poderá baixar as instruções necessárias à execução deste Decreto-lei." .
+lex:Del1964\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1964    lex:temArtigo    lex:Del1964\/Artigo4 .
+lex:Del1964\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1964\/Artigo1\/Paragrafo3    lex:remetePara    lex:Del0037 .

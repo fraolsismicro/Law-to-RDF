@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4256    lex:ehUm    lex:DocLegal .
+lex:L4256    lex:temTextoIntegral    lex:HTMLs\/L4256.htm .
+lex:L4256\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4256    lex:temArtigo    lex:L4256\/Artigo1 .
+lex:L4256\/Artigo1    lex:temConteudo    "Art. 1º É aprovado o ajuste financeiro assinado entre o Govêrno Federal e o Govêrno do Estado de São Paulo constante da Ata de 19 de outubro de 1959, que deu por concluídos os trabalhos da Comissão Mista de Encontro de Contas entre a União e o referido Estado e aprovou o Quadro Demonstrativo das respectivas contas, os quais ficam fazendo parte integrante desta Lei." .
+lex:L4256\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4256\/Artigo1    lex:temParagrafo    lex:L4256\/Artigo1\/ParagrafoUnico .
+lex:L4256\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A execução das medidas consubstanciadas na referida Ata só será obrigatória depois que o Estado de São Paulo, por lei, considerar aprovado o ajuste financeiro de que trata êste artigo." .
+lex:L4256\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4256    lex:temArtigo    lex:L4256\/Artigo2 .
+lex:L4256\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação quando terão início os prazos de execução da primeira e segunda fases de liquidação conclusiva do ajuste previsto neste para 31 de janeiro de 1960." .

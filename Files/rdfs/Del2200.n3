@@ -1,0 +1,74 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2200    lex:ehUm    lex:DocLegal .
+lex:Del2200    lex:temTextoIntegral    lex:HTMLs\/Del2200.htm .
+lex:Del2200\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo1 .
+lex:Del2200\/Artigo1    lex:temConteudo    "Art 1º - Fica alterado o Anexo Il do Decreto-lei nº 1.341, de 22 de agosto de 1974, na forma do anexo a este Decreto-lei." .
+lex:Del2200\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo2 .
+lex:Del2200\/Artigo2    lex:temConteudo    "Art 2º - Somente se concederá a Gratificação aos servidores no efetivo exercício dos respectivos cargos, empregos ou funções." .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del2200\/Artigo2    lex:temParagrafo    lex:Del2200\/Artigo2\/Paragrafo1 .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º - Considerar-se-ão como de efetivo exercício, para os fins deste artigo, os afastamentos em virtude de:" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaFerias    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaFerias .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaFerias    lex:temConteudo    "a) férias;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaCasamento    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaCasamento .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaCasamento    lex:temConteudo    "b) casamento;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLuto    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLuto .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLuto    lex:temConteudo    "c) luto;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicencas    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicencas .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicencas    lex:temConteudo    "d) licenças para tratamento de saúde, a gestante ou em decorrência de acidente em serviço;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicenca    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicenca .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaLicenca    lex:temConteudo    "e) licença especial;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaDeslocamento    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaDeslocamento .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaDeslocamento    lex:temConteudo    "f) deslocamento em objeto de serviço;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaIndicacao    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaIndicacao .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaIndicacao    lex:temConteudo    "g) indicação para ministrar aulas ou receber treinamento ou aperfeiçoamento, desde que observadas as normas legais e regulamentares pertinentes;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaRequicao    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaRequicao .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaRequicao    lex:temConteudo    "h) requição para órgãos integrantes da Presidência da República;" .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaInvestidura    lex:ehUm    lex:Alinea .
+lex:Del2200\/Artigo2\/Paragrafo1    lex:temAlinea    lex:Del2200\/Artigo2\/Paragrafo1\/AlineaInvestidura .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaInvestidura    lex:temConteudo    "i) investidura, na Administração Direta ou Autárquica da União ou do Distrito Federal, em cargos em comissão ou funções de confiança de Grupo-Direçao e Assessoramento Superiores (DAS-100 e LT-DAS-100), de Funções de nível superior do Grupo-Direção e Assistência Intermediárias (DAI-100) ou, ainda, em Funções de Assessoramento Superior (FAS) a que se refere o artigo 122 do Decreto-lei nº 200, de 25 de fevereiro de 1967, com a redação dada pelo Decreto-lei nº 900, de 29 de setembro de 1969." .
+lex:Del2200\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del2200\/Artigo2    lex:temParagrafo    lex:Del2200\/Artigo2\/Paragrafo2 .
+lex:Del2200\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º - Nas hipóteses de que trata a alínea i do § 1º, exigir-se-á direta correlação entre as atribuições do cargo ou função de confiança e as do cargo efetivo de que o servidor seja titular." .
+lex:Del2200\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo3 .
+lex:Del2200\/Artigo3    lex:temConteudo    "Art 3º - Os servidores alcançados por este Decreto-lei continuarão fazendo jus à Gratificação de Nível Superior, inclusive durante o afastamento para o exercício, na Administração Direta ou Autárquica da União ou do Distrito Federal, de cargos em comissão ou funções de confiança do Grupo-Direção e Assessoramento Superiores (DAS-100 e LT-DAS-100), de funções de nível superior do Grupo-Direção e Assistência Intermediárias (DAI-110) ou, ainda, de Funções de Assessoramento Superior (FAS) a que se refere o artigo 122 do Decreto-lei nº 200, de 25 de fevereiro de 1967, com a redação dada pelo Decreto-lei nº 900, de 29 de setembro de 1969." .
+lex:Del2200\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo4 .
+lex:Del2200\/Artigo4    lex:temConteudo    "Art 4º - A Gratificação de Atividade Técnico-Administrativa, em que incidirá o desconto previdenciário, será incorporada aos proventos do funcionário que a tenha percebido na data da aposentadoria." .
+lex:Del2200\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2200\/Artigo4    lex:temParagrafo    lex:Del2200\/Artigo4\/ParagrafoUnico .
+lex:Del2200\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - O valor a ser incorporado será o correspondente à média dos percentuais atribuídos ao funcionário, nos doze meses imediatamente anteriores à inativação." .
+lex:Del2200\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo5 .
+lex:Del2200\/Artigo5    lex:temConteudo    "Art 5º - Aos funcionários já aposentados a incorporação da Gratificação de Atividade Técnico Administrativa, far-se-á na razão da metade do percentual máximo atribuído à categoria funcional em que ocorreu a aposentadoria." .
+lex:Del2200\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo6 .
+lex:Del2200\/Artigo6    lex:temConteudo    "Art 6º - A gratificação instituída por este Decreto-lei não poderá ser paga cumulativamente com a gratificação a que se refere o Decreto-lei nº 2.165, de 2 de outubro de 1984, podendo, entretanto, os ocupantes das categorias funcionais mencionadas naquele Decreto-lei, optarem pela percepção da Gratificação de Atividade Técnico-Administrativa." .
+lex:Del2200\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo7 .
+lex:Del2200\/Artigo7    lex:temConteudo    "Art 7º - As despesas decorrentes da execução deste Decreto-lei correrão à conta das dotações cantantes dos Orçamentos da União e das autarquias federais." .
+lex:Del2200\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del2200    lex:temArtigo    lex:Del2200\/Artigo8 .
+lex:Del2200\/Artigo8    lex:temConteudo    "Art 8º - Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del2200\/Artigo1    lex:remetePara    lex:Del1341\/ .
+lex:Del2200\/Artigo2\/Paragrafo1\/AlineaInvestidura    lex:remetePara    lex:Del0200\/Artigo122 .
+lex:Del2200\/Artigo3    lex:remetePara    lex:Del0200\/Artigo122 .
+lex:Del2200\/Artigo6    lex:remetePara    lex:Del2165 .

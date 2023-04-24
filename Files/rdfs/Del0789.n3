@@ -1,0 +1,105 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del0789    lex:ehUm    lex:DocLegal .
+lex:Del0789    lex:temTextoIntegral    lex:HTMLs\/Del0789.htm .
+lex:Del0789\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo1 .
+lex:Del0789\/Artigo1    lex:temConteudo    "Art. 1º Para efeito de enquadramento sindical, considera-se:" .
+lex:Del0789\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo1    lex:temInciso    lex:Del0789\/Artigo1\/IncisoI .
+lex:Del0789\/Artigo1\/IncisoI    lex:temConteudo    "I - trabalhador rural:" .
+lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Del0789\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA .
+lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA    lex:temConteudo    "a) a pessoa física que presta serviços a empregador rural, mediante remuneração de qualquer espécie;" .
+lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA\/IncisoAlineaQuem    lex:ehUm    lex:IncisoAlinea .
+lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA    lex:temIncisoAlinea    lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA\/IncisoAlineaQuem .
+lex:Del0789\/Artigo1\/IncisoI\/IncisoAlineaA\/IncisoAlineaQuem    lex:temConteudo    "b) quem, proprietário ou não, trabalhe, individualmente ou regime de economia familiar, assim entendido o trabalho dos membros da mesma família indispensável à própria subsistência e exercido em condições de mútua dependência e colaboração, ainda que com a ajuda eventual de terceiros;" .
+lex:Del0789\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo1    lex:temInciso    lex:Del0789\/Artigo1\/IncisoII .
+lex:Del0789\/Artigo1\/IncisoII    lex:temConteudo    "II - empregador rural:" .
+lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA    lex:ehUm    lex:IncisoAlinea .
+lex:Del0789\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA .
+lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA    lex:temConteudo    "a) a pessoa física ou jurídica que, tendo empregado, empreende a qualquer título atividade econômica rural;" .
+lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaQuem    lex:ehUm    lex:IncisoAlinea .
+lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA    lex:temIncisoAlinea    lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaQuem .
+lex:Del0789\/Artigo1\/IncisoII\/IncisoAlineaA\/IncisoAlineaQuem    lex:temConteudo    "b) quem, mesmo em regime de economia familiar, e ainda que sem empregado, explora área que exceda o módulo rural ou outro limite que venha a ser fixado, para cada região, pelo Ministério do Trabalho e Previdência Social." .
+lex:Del0789\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo2 .
+lex:Del0789\/Artigo2    lex:temConteudo    "Art. 2º Em caso de dúvida na aplicação do disposto no artigo anterior, o trabalhador, o empregador ou a entidade sindical interessada poderão suscitá-la perante o Delegado Regional do Trabalho, que decidirá aptas as diligências necessárias e ouvida comissão permanente constituída do responsável pelo setor sindical da Delegacia, o qual a presidirá de um representante dos trabalhadores rurais e de um representante dos empregadores rurais, indicados pelas respectivas federações ou, em sua falta, pelas confederações pertinentes." .
+lex:Del0789\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo2    lex:temParagrafo    lex:Del0789\/Artigo2\/Paragrafo1 .
+lex:Del0789\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1º O trabalhador ou o empregador poderão, no curso do processo de que trata êste artigo, recolher a contribuição sindical à entidade a que entenderem ser devida ou ao Ministério do Trabalho e Previdência Social (Conta Emprêgo e Salário), fazendo-se posteriormente o estôrno, compensação ou repasse cabível." .
+lex:Del0789\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo2    lex:temParagrafo    lex:Del0789\/Artigo2\/Paragrafo2 .
+lex:Del0789\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2º Da decisão do Delegado Regional do Trabalho caberá recurso para o Ministro do Trabalho e Previdência Social, no prazo de quinze dias." .
+lex:Del0789\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo3 .
+lex:Del0789\/Artigo3    lex:temConteudo    "Art. 3º A partir da publicação dêste decreto-lei, o Ministério do Trabalho e Previdência Social sòmente reconhecerá para a mesma base territorial, um sindicato de trabalhadores rurais e outra de empregadores rurais, sem especificação de profissão ou de atividade, ressalvado às entidades já reconhecidas o direito à representação constante da respectiva carta sindical." .
+lex:Del0789\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo4 .
+lex:Del0789\/Artigo4    lex:temConteudo    "Art. 4º A partir do exercício de 1970, caberá ao Instituto Brasileiro de Reforma Agrária (IBRA) proceder ao lançamento e cobrança da contribuição sindical devida pelos integrantes das categorias profissionais e econômicas da agricultura, obedecido o disposto no artigo 5º dêste decreto-lei e no artigo 1º da Lei nº 4.755, de 18 de agôsto de 1965." .
+lex:Del0789\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo4    lex:temParagrafo    lex:Del0789\/Artigo4\/ParagrafoUnico .
+lex:Del0789\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Em pagamento dos serviços e despesas relativos aos encargos decorrentes dêste artigo, caberão ao IBRA quinze por cento das importâncias arrecadadas, que lhe serão creditadas diretamente pelo órgão arrecadador." .
+lex:Del0789\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo5 .
+lex:Del0789\/Artigo5    lex:temConteudo    "Art. 5º A contribuição devida às entidades sindicais da categoria profissional será lançada e cobrada dos empregadores rurais, tomando-se por base um dia do salário-mínimo regional por módulo e fração contidos no imóvel rural objeto do lançamento." .
+lex:Del0789\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo5    lex:temParagrafo    lex:Del0789\/Artigo5\/ParagrafoUnico .
+lex:Del0789\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A contribuição nos têrmos dêste artigo será devida sem prejuízo da obrigação do recolhimento, pelo empregador na mesma ocasião, da contribuição referente aos demais empregados, se fôr o caso, na forma dos artigos 582 e 602 da Consolidação das Leis do Trabalho (Decreto-lei nº 5.452, de 1º de maio de 1943)." .
+lex:Del0789\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo6 .
+lex:Del0789\/Artigo6    lex:temConteudo    "Art. 6º A contribuição sindical de que trata êste decreto-lei será paga juntamente com o impôsto territorial rural do imóvel a que se referir." .
+lex:Del0789\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo7 .
+lex:Del0789\/Artigo7    lex:temConteudo    "Art. 7º As guias de lançamento da contribuição sindical, emitidas pelo IBRA na forma dêste decreto-lei, constituem documento hábil para a cobrança judicial da dívida, na forma do artigo 606 da Consolidação das Leis do Trabalho." .
+lex:Del0789\/Artigo7\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo7    lex:temParagrafo    lex:Del0789\/Artigo7\/ParagrafoUnico .
+lex:Del0789\/Artigo7\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O recolhimento amigável ou judicial das contribuições sindicais em atraso sòmente poderá ser feito diretamente no órgão arrecadador, que providenciará as transferências e créditos na forma dos artigos 8º e 9º dêste decreto-lei." .
+lex:Del0789\/Artigo8    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo8 .
+lex:Del0789\/Artigo8    lex:temConteudo    "Art. 8º O produto da arrecadação da contribuição sindical, depois de deduzida a percentagem de que trata o parágrafo único do artigo 4º, será transferido diretamente, pela agência bancária centralizadora da arrecadação, até o décimo dia útil do mês seguinte ao do recebimento, obedecida a seguinte distribuição:" .
+lex:Del0789\/Artigo8\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo8    lex:temInciso    lex:Del0789\/Artigo8\/IncisoI .
+lex:Del0789\/Artigo8\/IncisoI    lex:temConteudo    "I - vinte por cento para a conta do Ministério do Trabalho e Previdência Social (Conta Emprêgo e Salário);" .
+lex:Del0789\/Artigo8\/IncisoII    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo8    lex:temInciso    lex:Del0789\/Artigo8\/IncisoII .
+lex:Del0789\/Artigo8\/IncisoII    lex:temConteudo    "II - sessenta por cento para a conta do sindicato da categoria correspondente com jurisdição na área de localização do imóvel rural a que se referir a contribuição;" .
+lex:Del0789\/Artigo8\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo8    lex:temInciso    lex:Del0789\/Artigo8\/IncisoIII .
+lex:Del0789\/Artigo8\/IncisoIII    lex:temConteudo    "III - quinze por cento para a conta da federação respectiva;" .
+lex:Del0789\/Artigo8\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Del0789\/Artigo8    lex:temInciso    lex:Del0789\/Artigo8\/IncisoIV .
+lex:Del0789\/Artigo8\/IncisoIV    lex:temConteudo    "IV - cinco por cento para a conta da confederação respectiva;" .
+lex:Del0789\/Artigo8\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo8    lex:temParagrafo    lex:Del0789\/Artigo8\/Paragrafo1 .
+lex:Del0789\/Artigo8\/Paragrafo1    lex:temConteudo    "§ 1º As transferências previstas neste artigo serão feitas para a conta-corrente das entidades credoras na agência do Banco do Brasil." .
+lex:Del0789\/Artigo8\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo8    lex:temParagrafo    lex:Del0789\/Artigo8\/Paragrafo2 .
+lex:Del0789\/Artigo8\/Paragrafo2    lex:temConteudo    "§ 2º Se não existir agência local do Banco do Brasil, as transferência serão feitas para a conta-corrente no estabelecimento bancário aprovado pelo Delegado Regional do Trabalho, obedecido o disposto no Decreto-Iei nº 151, de 9 de fevereiro de 1967." .
+lex:Del0789\/Artigo8\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del0789\/Artigo8    lex:temParagrafo    lex:Del0789\/Artigo8\/Paragrafo3 .
+lex:Del0789\/Artigo8\/Paragrafo3    lex:temConteudo    "§ 3º Se não existir entidade representativa ou coordenadora das categorias respectivas com jurisdição na área de localização do imóvel rural que se trata, será observado o disposto no artigo 591 e seus parágrafos da Consolidação das Leis do Trabalho." .
+lex:Del0789\/Artigo9    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo9 .
+lex:Del0789\/Artigo9    lex:temConteudo    "Art. 9º Aplicam-se aos infratores dêste Decreto-lei as penalidades previstas no artigo 598 da Consolidação das Leis do Trabalho." .
+lex:Del0789\/Artigo10    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo10 .
+lex:Del0789\/Artigo10    lex:temConteudo    "Art. 10. Compete ao Ministério do Trabalho e Previdência Social dirimir as dúvidas referentes ao lançamento, recolhimento e distribuição da contribuição sindical de que trata êste decreto-lei, expedindo, para êsse efeito, as normas que se fizerem necessárias e podendo estabelecer o processo previsto no artigo 2º e avocar a seu exame e decisão os casos pendentes." .
+lex:Del0789\/Artigo11    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo11 .
+lex:Del0789\/Artigo11    lex:temConteudo    "Art. 11. A contribuição rural devida até a data da publicação dêste decreto-lei até a data da publicação dêste decreto-lei poderá ser recolhida sem multa até 31 de dezembro de 1969 nas condições que forem estabelecidas pelo Ministério do Trabalho e Previdência Social." .
+lex:Del0789\/Artigo12    lex:ehUm    lex:Artigo .
+lex:Del0789    lex:temArtigo    lex:Del0789\/Artigo12 .
+lex:Del0789\/Artigo12    lex:temConteudo    "Art. 12. Êste Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del0789\/Artigo4    lex:remetePara    lex:L4755\/Artigo1 .
+lex:Del0789\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:Del5452\/Artigo582 .
+lex:Del0789\/Artigo5\/ParagrafoUnico    lex:remetePara    lex:Del5452\/Artigo602 .
+lex:Del0789\/Artigo8\/Paragrafo2    lex:remetePara    lex:Del0151 .
+lex:Del0789\/Artigo8\/Paragrafo3    lex:remetePara    lex:Del5452\/Artigo591 .

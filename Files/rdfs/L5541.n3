@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5541    lex:ehUm    lex:DocLegal .
+lex:L5541    lex:temTextoIntegral    lex:HTMLs\/L5541.htm .
+lex:L5541\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5541    lex:temArtigo    lex:L5541\/Artigo1 .
+lex:L5541\/Artigo1    lex:temConteudo    "Art. 1º Fica revigorado até 31 de dezembro de 1970 o prazo concedido no item IX, letra b, do art. 1º da Lei nº 4.622, de 3 de maio de 1965." .
+lex:L5541\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5541\/Artigo1    lex:temParagrafo    lex:L5541\/Artigo1\/ParagrafoUnico .
+lex:L5541\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Fica excluída da isenção constante do art. 1º item IX, da referida Lei, a taxa de despacho aduaneiro." .
+lex:L5541\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5541    lex:temArtigo    lex:L5541\/Artigo2 .
+lex:L5541\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entra em vigor na data de sua publicação." .
+lex:L5541\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5541    lex:temArtigo    lex:L5541\/Artigo3 .
+lex:L5541\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L5541\/Artigo1    lex:remetePara    lex:L4622\/Artigo1 .
+lex:L5541\/Artigo1    lex:remetePara    lex:L4622\/Artigo1 .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5313    lex:ehUm    lex:DocLegal .
+lex:D5313    lex:temTextoIntegral    lex:HTMLs\/D5313.htm .
+lex:D5313\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5313    lex:temParagrafo    lex:D5313\/ParagrafoUnico .
+lex:D5313\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Cabe ao órgão ou entidade pública responsável pelo custeio do auxílio financeiro estabelecer o valor e o número de parcelas que serão pagas." .
+lex:D5313\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5313\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5313\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D5313\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - o voluntário deve estar em atividade de qualificação social e profissional; e" .
+lex:D5313\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5313\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5313\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D5313\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - deve prestar de seis a dez horas semanais de serviço voluntário." .
+lex:D5313\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D5313    lex:temParagrafo    lex:D5313\/Paragrafo1 .
+lex:D5313\/Paragrafo1    lex:temConteudo    "§ 1o  É obrigação das entidades conveniadas fiscalizar e comprovar, perante o Ministério do Trabalho e Emprego, o cumprimento da carga horária ajustada com o voluntário." .
+lex:D5313\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D5313    lex:temParagrafo    lex:D5313\/Paragrafo2 .
+lex:D5313\/Paragrafo2    lex:temConteudo    "§ 2o  As demais condições de exercício do serviço voluntário serão fixadas no termo de adesão a ser celebrado entre a entidade, pública ou privada, e o voluntário." .
+lex:D5313\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5313    lex:temParagrafo    lex:D5313\/ParagrafoUnico .
+lex:D5313\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministério do Trabalho e Emprego poderá firmar convênio com instituição financeira para que esta entregue o auxílio financeiro ao jovem voluntário." .
+lex:D5313\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D5313    lex:temArtigo    lex:D5313\/Artigo5 .
+lex:D5313\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5313\/Artigo1    lex:remetePara    lex:L9608\/Artigo3 .
+lex:D5313\/Artigo2    lex:remetePara    lex:L9608\/Artigo3 .
+lex:D5313\/Artigo3    lex:remetePara    lex:L9608\/Artigo3 .
+lex:D5313\/Artigo3    lex:remetePara    lex:L10748\/Artigo2 .
+lex:D5313\/Artigo4    lex:remetePara    lex:L9608\/Artigo3 .

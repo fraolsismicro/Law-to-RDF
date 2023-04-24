@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7386    lex:ehUm    lex:DocLegal .
+lex:D7386    lex:temTextoIntegral    lex:HTMLs\/D7386.htm .
+lex:D7386\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo1 .
+lex:D7386\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério da Fazenda, na forma dos Anexos I e II." .
+lex:D7386\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo2 .
+lex:D7386\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D7386\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7386\/Artigo2    lex:temInciso    lex:D7386\/Artigo2\/IncisoI .
+lex:D7386\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Fazenda: oito DAS 101.5, quatro DAS 101.4, três DAS 101.3, cinco DAS 101.2, quatro DAS 101.1 e dois DAS 102.4; e" .
+lex:D7386\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7386\/Artigo2    lex:temInciso    lex:D7386\/Artigo2\/IncisoII .
+lex:D7386\/Artigo2\/IncisoII    lex:temConteudo    "II - do Ministério da Fazenda para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: dois DAS 102.2 e um DAS 102.1." .
+lex:D7386\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo3 .
+lex:D7386\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de vinte dias, contado da data de publicação deste Decreto." .
+lex:D7386\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7386\/Artigo3    lex:temParagrafo    lex:D7386\/Artigo3\/ParagrafoUnico .
+lex:D7386\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado da Fazenda fará publicar, no Diário Oficial da União, no prazo de sessenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D7386\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo4 .
+lex:D7386\/Artigo4    lex:temConteudo    "Art. 4o  O Ministro de Estado da Fazenda poderá editar regimento interno para detalhar as unidades administrativas integrantes da Estrutura Regimental do órgão, suas competências e as atribuições de seus dirigentes." .
+lex:D7386\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo5 .
+lex:D7386\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7386\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo5 .
+lex:D7386\/Artigo5    lex:temConteudo    "Art. 5º  Este Decreto entra em vigor no dia 15 de dezembro de 2010.       (Redação dada pelo Decreto nº 7391, de 2010)" .
+lex:D7386\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D7386    lex:temArtigo    lex:D7386\/Artigo6 .
+lex:D7386\/Artigo6    lex:temConteudo    "Art. 6o  Fica revogado o Decreto no 7.301, de 14 de setembro de 2010." .
+lex:D7386\/Texto    lex:remetePara    lex:D7386 .
+lex:D7386\/Artigo5    lex:remetePara    lex:D7391\/Artigo1 .
+lex:D7386\/Artigo6    lex:remetePara    lex:D7301 .

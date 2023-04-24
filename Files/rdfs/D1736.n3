@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1736    lex:ehUm    lex:DocLegal .
+lex:D1736    lex:temTextoIntegral    lex:HTMLs\/D1736.htm .
+lex:D1736\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1736    lex:temArtigo    lex:D1736\/Artigo1 .
+lex:D1736\/Artigo1    lex:temConteudo    "Art. 1º Para efeito de pagamento das diárias previstas no Decreto nº 71.733, de 18 de janeiro de 1973, aplicam-se os valores constantes do Anexo III, do Decreto nº 1.656, de 3 de outubro de 1995, aos afastamentos em curso na data de sua publicação, salvo se o valor percebido tiver sido inferior." .
+lex:D1736\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1736    lex:temArtigo    lex:D1736\/Artigo2 .
+lex:D1736\/Artigo2    lex:temConteudo    "Art. 2º No afastamento para o exterior com integrante de delegação oficial, será facultado ao servidor optar pelo valor da diária correspondente ao seu cargo efetivo, cargo em comissão, emprego, função e posto ou graduação de origem ou o atribuído como membro da delegação." .
+lex:D1736\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1736\/Artigo2    lex:temParagrafo    lex:D1736\/Artigo2\/ParagrafoUnico .
+lex:D1736\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. No caso de viagem sem nomeação ou designação para o exterior o servidor poderá, também, optar pelo valor da diária correspondente ao seu cargo efetivo ou pelo do cargo em comissão exercido." .
+lex:D1736\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1736    lex:temArtigo    lex:D1736\/Artigo3 .
+lex:D1736\/Artigo3    lex:temConteudo    "Art. 3º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1736\/Texto00004    lex:remetePara    lex:index .

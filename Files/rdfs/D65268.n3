@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D65268    lex:ehUm    lex:DocLegal .
+lex:D65268    lex:temTextoIntegral    lex:HTMLs\/D65268.htm .
+lex:D65268\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D65268    lex:temArtigo    lex:D65268\/Artigo1 .
+lex:D65268\/Artigo1    lex:temConteudo    "Art. 1º Nenhuma sociedade seguradora poderá constituir-se com capital inferior a NCr$1.000.000,00 (hum milhão de cruzeiros novos), quando tiver por objeto operação de seguros dos ramos elementares, e a NCr$1.500.000,00 (hum milhão e quinhentos mil cruzeiros novos), quando de seguros de vida." .
+lex:D65268\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D65268    lex:temArtigo    lex:D65268\/Artigo2 .
+lex:D65268\/Artigo2    lex:temConteudo    "Art. 2º Os capitais previstos no artigo anterior, bem como os de outros grupos de seguro, serão, nos têrmos do inciso VI do artigo 32 do Decreto-lei nº 73, de 21 de novembro de 1966, fixados pelo Conselho Nacional de Seguros Privados (CNSP), com a periodicidade mínima de 2 (dois) anos." .
+lex:D65268\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D65268    lex:temArtigo    lex:D65268\/Artigo3 .
+lex:D65268\/Artigo3    lex:temConteudo    "Art. 3º A Sociedade que se constituir para operar em seguros de mais de um dos grupos referidos nos artigos anteriores não poderá fazê-lo com capital inferior à soma das importâncias mínimas exigidas para cada grupo." .
+lex:D65268\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D65268    lex:temArtigo    lex:D65268\/Artigo4 .
+lex:D65268\/Artigo4    lex:temConteudo    "Art. 4º As sociedades seguradoras em funcionamento, com capital inferior aos mínimos fixados no artigo 1º, terão o prazo de 12 (doze) meses a contar da vigência dêste Decreto, para aprovar o aumento de capital, e mais 12 (doze) meses para integralizá-lo." .
+lex:D65268\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D65268    lex:temArtigo    lex:D65268\/Artigo5 .
+lex:D65268\/Artigo5    lex:temConteudo    "Art. 5º Êste Decreto entrará em vigor na data de sua publicação, revogados os artigos 8º e 11 do Decreto nº 61.589, de 23 de outubro de 1967, e demais disposições em contrário." .
+lex:D65268\/Texto    lex:revogadoPor    lex:Dnn25-4-91-1\/Artigo4 .
+lex:Dnn25-4-91-1\/Artigo4    lex:revogou    lex:D65268\/Texto .
+lex:D65268\/Artigo2    lex:remetePara    lex:Del0073\/Artigo32 .
+lex:D65268\/Artigo5    lex:remetePara    lex:D61589\/Artigo8 .
+lex:D65268\/Artigo5    lex:remetePara    lex:D61589\/Artigo11 .

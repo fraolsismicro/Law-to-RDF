@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D3018    lex:ehUm    lex:DocLegal .
+lex:D3018    lex:temTextoIntegral    lex:HTMLs\/D3018.htm .
+lex:D3018\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D3018    lex:temInciso    lex:D3018\/IncisoD .
+lex:D3018\/IncisoD    lex:temConteudo    "D E C R E T A :" .
+lex:D3018\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D3018    lex:temArtigo    lex:D3018\/Artigo2 .
+lex:D3018\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D3018\/Artigo2\/AlineaTomar    lex:ehUm    lex:Alinea .
+lex:D3018\/Artigo2    lex:temAlinea    lex:D3018\/Artigo2\/AlineaTomar .
+lex:D3018\/Artigo2\/AlineaTomar    lex:temConteudo    "a) tomar as medidas a seu alcance, em harmonia com suas próprias leis, para prevenir e impedir em seus respectivos territórios a preparação dos delitos mencionados no Artigo 2 e que forem ser executados no território de outro Estado Contratante;" .
+lex:D3018\/Artigo2\/AlineaIntercambiar    lex:ehUm    lex:Alinea .
+lex:D3018\/Artigo2    lex:temAlinea    lex:D3018\/Artigo2\/AlineaIntercambiar .
+lex:D3018\/Artigo2\/AlineaIntercambiar    lex:temConteudo    "b) intercambiar informações e considerar medidas administrativas eficazes para a proteção das pessoas a que se refere o Artigo 2 desta Convenção;" .
+lex:D3018\/Artigo2\/AlineaGarantir    lex:ehUm    lex:Alinea .
+lex:D3018\/Artigo2    lex:temAlinea    lex:D3018\/Artigo2\/AlineaGarantir .
+lex:D3018\/Artigo2\/AlineaGarantir    lex:temConteudo    "c) garantir o mais amplo direito de defesa a toda pessoa privada da liberdade em virtude da aplicação desta Convenção;" .
+lex:D3018\/Artigo2\/AlineaProcurar    lex:ehUm    lex:Alinea .
+lex:D3018\/Artigo2    lex:temAlinea    lex:D3018\/Artigo2\/AlineaProcurar .
+lex:D3018\/Artigo2\/AlineaProcurar    lex:temConteudo    "d) procurar que sejam incluídos em suas respectivas legislações penais os atos delituosos matéria desta Convenção, quando já não estiverem nelas previstos;" .
+lex:D3018\/Artigo2\/AlineaDar    lex:ehUm    lex:Alinea .
+lex:D3018\/Artigo2    lex:temAlinea    lex:D3018\/Artigo2\/AlineaDar .
+lex:D3018\/Artigo2\/AlineaDar    lex:temConteudo    "e) dar cumprimento da forma mais expedita às rogatórias com relação aos atos delituosos previstos nesta Convenção." .
+lex:D3018\/Artigo2\/Texto00007    lex:remetePara    lex:index .

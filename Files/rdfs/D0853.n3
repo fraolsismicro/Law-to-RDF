@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0853    lex:ehUm    lex:DocLegal .
+lex:D0853    lex:temTextoIntegral    lex:HTMLs\/D0853.htm .
+lex:D0853\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0853    lex:temArtigo    lex:D0853\/Artigo1 .
+lex:D0853\/Artigo1    lex:temConteudo    "Art. 1º 0 § 1º do art. 26 do Decreto nº 101, de 17 de abril de 1991, passa a vigorar com a seguinte redação:" .
+lex:D0853\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0853    lex:temArtigo    lex:D0853\/Artigo2 .
+lex:D0853\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0853\/Artigo1    lex:remetePara    lex:D0101\/Artigo26\/Paragrafo1 .

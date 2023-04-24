@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7998    lex:ehUm    lex:DocLegal .
+lex:D7998    lex:temTextoIntegral    lex:HTMLs\/D7998.htm .
+lex:D7998\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7998    lex:temArtigo    lex:D7998\/Artigo1 .
+lex:D7998\/Artigo1    lex:temConteudo    "Art. 1 º  O Anexo ao Decreto n º 6.952, de 2 de setembro de 2009, que dispõe sobre o Regulamento do Fundo de Desenvolvimento do Nordeste, passa a vigorar com as seguintes alterações:" .
+lex:D7998\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D7998\/Artigo1    lex:temParagrafo    lex:D7998\/Artigo1\/Paragrafo2 .
+lex:D7998\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  ................................................................................" .
+lex:D7998\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7998\/Artigo1\/Paragrafo2    lex:temParagrafoInciso    lex:D7998\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII .
+lex:D7998\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:temConteudo    "III - nos casos de projetos de que trata o §8 º do art. 32, atualização dos quantitativos e valores dos investimentos em capital fixo, observados os valores efetivamente gastos e tendo como limites o orçamento global aprovado e o disposto no art. 13." .
+lex:D7998\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D7998\/Artigo1    lex:temParagrafo    lex:D7998\/Artigo1\/Paragrafo7 .
+lex:D7998\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7 º  Não se aplica o disposto nos incisos IX e XI do § 4 º aos projetos de que trata o § 8 º do art. 32, podendo o agente operador aprovar despesas que excederem a quantidade de bens e serviços aprovados para o projeto, desde que limitadas ao orçamento global aprovado e respeitados os limites de participação do FDNE no investimento. (NR)" .
+lex:D7998\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7998    lex:temArtigo    lex:D7998\/Artigo2 .
+lex:D7998\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7998\/Artigo1\/Paragrafo2\/ParagrafoIncisoIII    lex:remetePara    lex:D6952\/Artigo41\/Paragrafo2iii .
+lex:D7998\/Artigo1\/Paragrafo7    lex:remetePara    lex:D6952\/Artigo41\/Paragrafo7 .

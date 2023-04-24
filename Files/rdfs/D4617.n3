@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4617    lex:ehUm    lex:DocLegal .
+lex:D4617    lex:temTextoIntegral    lex:HTMLs\/D4617.htm .
+lex:D4617\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoI .
+lex:D4617\/IncisoI    lex:temConteudo    "I - CORPO DA ARMADA" .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoI    lex:temIncisoAlinea    lex:D4617\/IncisoI\/IncisoAlineaQuadro .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais da Armada (CA)" .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais da Armada (QC-CA)" .
+lex:D4617\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoII .
+lex:D4617\/IncisoII    lex:temConteudo    "II - CORPO DE FUZILEIROS NAVAIS" .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoII    lex:temIncisoAlinea    lex:D4617\/IncisoII\/IncisoAlineaQuadro .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Fuzileiros Navais (FN)" .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Fuzileiros Navais (QC-FN)" .
+lex:D4617\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoIII .
+lex:D4617\/IncisoIII    lex:temConteudo    "III - CORPO DE INTENDENTES DA MARINHA" .
+lex:D4617\/IncisoIII\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoIII    lex:temIncisoAlinea    lex:D4617\/IncisoIII\/IncisoAlineaQuadro .
+lex:D4617\/IncisoIII\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Intendentes da Marinha (IM)" .
+lex:D4617\/IncisoIII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoIII\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoIII\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoIII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Intendentes da Marinha (QC-IM)" .
+lex:D4617\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoIV .
+lex:D4617\/IncisoIV    lex:temConteudo    "IV - CORPO DE ENGENHEIROS DA MARINHA (EN)" .
+lex:D4617\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoV .
+lex:D4617\/IncisoV    lex:temConteudo    "V - CORPO DE SAÚDE DA MARINHA" .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoV    lex:temIncisoAlinea    lex:D4617\/IncisoV\/IncisoAlineaQuadro .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Médicos (Md)" .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões-Dentistas (CD)" .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoV\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Apoio à Saúde (S)" .
+lex:D4617\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoVI .
+lex:D4617\/IncisoVI    lex:temConteudo    "VI - CORPO AUXILIAR DA MARINHA" .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoVI    lex:temIncisoAlinea    lex:D4617\/IncisoVI\/IncisoAlineaQuadro .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro Técnico (T)" .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Capelães Navais (CN)" .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro Auxiliar da Armada (AA)" .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoVI\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "d) Quadro Auxiliar de Fuzileiros Navais (AFN)" .
+lex:D4617\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoI .
+lex:D4617\/IncisoI    lex:temConteudo    "I - CORPO DE INTENDENTES DA MARINHA" .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoI    lex:temIncisoAlinea    lex:D4617\/IncisoI\/IncisoAlineaQuadro .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Oficiais Intendentes da Marinha ............................. 100%" .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoI\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro Complementar de Oficiais Intendentes da Marinha ....... 45%" .
+lex:D4617\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4617    lex:temInciso    lex:D4617\/IncisoII .
+lex:D4617\/IncisoII    lex:temConteudo    "II - CORPO DE SAÚDE DA MARINHA" .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoII    lex:temIncisoAlinea    lex:D4617\/IncisoII\/IncisoAlineaQuadro .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:temConteudo    "a) Quadro de Médicos ............................................................. 28%" .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "b) Quadro de Cirurgiões-Dentistas .......................................... 17%" .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:ehUm    lex:IncisoAlinea .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temIncisoAlinea    lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro .
+lex:D4617\/IncisoII\/IncisoAlineaQuadro\/IncisoAlineaQuadro\/IncisoAlineaQuadro    lex:temConteudo    "c) Quadro de Apoio à Saúde ................................................. 10%" .

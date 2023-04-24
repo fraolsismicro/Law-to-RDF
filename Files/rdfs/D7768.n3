@@ -1,0 +1,42 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7768    lex:ehUm    lex:DocLegal .
+lex:D7768    lex:temTextoIntegral    lex:HTMLs\/D7768.htm .
+lex:D7768\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7768    lex:temArtigo    lex:D7768\/Artigo1 .
+lex:D7768\/Artigo1    lex:temConteudo    "Art. 1 º  O Decreto n º 5.297, de 6 de dezembro de 2004, passa a vigorar com as seguintes alterações:" .
+lex:D7768\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7768\/Artigo1    lex:temParagrafo    lex:D7768\/Artigo1\/ParagrafoUnico .
+lex:D7768\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Com a utilização do coeficiente de redução determinado no caput, as alíquotas da Contribuição para o PIS/PASEP e da COFINS incidentes sobre a importação e sobre a receita bruta auferida com a venda de biodiesel no mercado interno ficam reduzidas, respectivamente, para R$ 26,41 (vinte e seis reais e quarenta e um centavos) e R$ 121,59 (cento e vinte e um reais e cinquenta e nove centavos) por metro cúbico. (NR)" .
+lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7768\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - 0,8129, para o biodiesel fabricado a partir de mamona ou fruto, caroço ou amêndoa de palma produzidos nas regiões norte e nordeste e no semiárido; e" .
+lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7768\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D7768\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - 0,9135, para o biodiesel fabricado a partir de matérias-primas adquiridas de agricultor familiar enquadrado no PRONAF;" .
+lex:D7768\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7768\/Artigo1    lex:temParagrafo    lex:D7768\/Artigo1\/Paragrafo1 .
+lex:D7768\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  ..................................................................................." .
+lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D7768\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - R$ 22,48 (vinte e dois reais e quarenta e oito centavos) e R$ 103,51 (cento e três reais e cinquenta e um centavos), respectivamente, por metro cúbico de biodiesel fabricado a partir de mamona ou fruto, caroço ou amêndoa de palma produzidos nas regiões norte e nordeste e no semiárido;" .
+lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D7768\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - R$ 10,39 (dez reais e trinta e nove centavos) e R$ 47,85 (quarenta e sete reais e oitenta e cinco centavos), respectivamente, por metro cúbico de biodiesel fabricado a partir de matérias-primas adquiridas de agricultor familiar enquadrado no PRONAF; e" .
+lex:D7768\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7768    lex:temArtigo    lex:D7768\/Artigo2 .
+lex:D7768\/Artigo2    lex:temConteudo    "Art. 2 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7768\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7768    lex:temArtigo    lex:D7768\/Artigo3 .
+lex:D7768\/Artigo3    lex:temConteudo    "Art. 3 º  Fica revogado o Decreto n º 6.606, de 21 de outubro de 2008." .
+lex:D7768\/Artigo1    lex:remetePara    lex:D5297 .
+lex:D7768\/Texto00001    lex:remetePara    lex:D5297\/Artigo3 .
+lex:D7768\/Artigo1\/Texto00002    lex:remetePara    lex:D5297\/Artigo4 .
+lex:D7768\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:remetePara    lex:D5297\/Artigo4\/Paragrafo1i .
+lex:D7768\/Artigo3    lex:remetePara    lex:D6606 .

@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1255    lex:ehUm    lex:DocLegal .
+lex:Del1255    lex:temTextoIntegral    lex:HTMLs\/Del1255.htm .
+lex:Del1255\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1255    lex:temArtigo    lex:Del1255\/Artigo1 .
+lex:Del1255\/Artigo1    lex:temConteudo    "Art. 1º Fica prorrogado, até o exercício de 1977 o prazo consignado no artigo 2º do Decreto-lei nº 291 de 28 de fevereiro de 1967." .
+lex:Del1255\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1255    lex:temArtigo    lex:Del1255\/Artigo2 .
+lex:Del1255\/Artigo2    lex:temConteudo    "Art. 2º Na hipótese de ocorrer restituição de imposto de renda, a pessoa física interessada após recebimento de notificação específica, dirigir-se-á à Delegacia da Receita Federal, solicitando guia de ressarcimento a ser expedida contra o Banco da Amazônia S.A. - BASA o qual deduzirá o respectivo valor da conta vinculada do contribuinte depositado nos termos do artigo 2º do Decreto-lei nº 291 de 28 de fevereiro de 1967." .
+lex:Del1255\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del1255\/Artigo2    lex:temParagrafo    lex:Del1255\/Artigo2\/ParagrafoUnico .
+lex:Del1255\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A aplicação do valor depositado antes da devolução a que se refere este artigo implica em renúncia do direito à restituição." .
+lex:Del1255\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1255    lex:temArtigo    lex:Del1255\/Artigo3 .
+lex:Del1255\/Artigo3    lex:temConteudo    "Art. 3º Aplicam se aos incentivos, estabelecidos no Decreto-lei nº 291 de 28 de fevereiro de 1967, as disposições constantes do Decreto-lei nº 756, de 11 de agosto de 1969." .
+lex:Del1255\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1255    lex:temArtigo    lex:Del1255\/Artigo4 .
+lex:Del1255\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1255\/Artigo1    lex:remetePara    lex:Del0291\/Artigo2 .
+lex:Del1255\/Artigo2    lex:remetePara    lex:Del0291\/Artigo2 .
+lex:Del1255\/Artigo3    lex:remetePara    lex:Del0291\/Artigo2 .
+lex:Del1255\/Artigo3    lex:remetePara    lex:Del0756 .

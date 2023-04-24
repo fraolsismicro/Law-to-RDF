@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0850    lex:ehUm    lex:DocLegal .
+lex:D0850    lex:temTextoIntegral    lex:HTMLs\/D0850.htm .
+lex:D0850\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0850    lex:temArtigo    lex:D0850\/Artigo1 .
+lex:D0850\/Artigo1    lex:temConteudo    "Art. 1º 0 Vigésimo Nono Protocolo Adicional ao Acordo Comercial nº 16, no Setor da Indústria Petroquímica, entre Brasil, Argentina, México e Venezuela, apenso por cópia ao presente decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto à sua vigência." .
+lex:D0850\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0850    lex:temArtigo    lex:D0850\/Artigo2 .
+lex:D0850\/Artigo2    lex:temConteudo    "Art. 2º Este decreto entra em vigor na data de sua publicação." .
+lex:D0850\/Artigo2\/AlineaExcetuar    lex:ehUm    lex:Alinea .
+lex:D0850\/Artigo2    lex:temAlinea    lex:D0850\/Artigo2\/AlineaExcetuar .
+lex:D0850\/Artigo2\/AlineaExcetuar    lex:temConteudo    "a) excetuar dessa prorogação as preferência outorgadas para a importação dos seguintes produtos:" .
+lex:D0850\/Artigo2\/AlineaExcetuar\/ItemPela    lex:ehUm    lex:Item .
+lex:D0850\/Artigo2\/AlineaExcetuar    lex:temItem    lex:D0850\/Artigo2\/AlineaExcetuar\/ItemPela .
+lex:D0850\/Artigo2\/AlineaExcetuar\/ItemPela    lex:temConteudo    "- Pela Argentina ao México:" .
+lex:D0850\/Artigo2\/AlineaAumentar    lex:ehUm    lex:Alinea .
+lex:D0850\/Artigo2    lex:temAlinea    lex:D0850\/Artigo2\/AlineaAumentar .
+lex:D0850\/Artigo2\/AlineaAumentar    lex:temConteudo    "b) aumentar para 500 toneladas a quota correspondente à preferência outorgada pela Argentina ao Brasil para a importação do produto 'pentaeritritol (pentearitrita)' (NALADI/SH 2905.42.00); e" .
+lex:D0850\/Artigo2\/AlineaEstabelecer    lex:ehUm    lex:Alinea .
+lex:D0850\/Artigo2    lex:temAlinea    lex:D0850\/Artigo2\/AlineaEstabelecer .
+lex:D0850\/Artigo2\/AlineaEstabelecer    lex:temConteudo    "c) estabelecer uma quota de 400 toneladas para a preferência outorgada pelo Brasil à Venezuela para a importação do produto 'poliéteres plolióis' (NALADI/SH 3907.20.00)." .
+lex:D0850\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D0850\/Artigo2    lex:temInciso    lex:D0850\/Artigo2\/IncisoLI .
+lex:D0850\/Artigo2\/IncisoLI    lex:temConteudo    "LI - Livre importação" .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei    lex:ehUm    lex:IncisoAlinea .
+lex:D0850\/Artigo2\/IncisoLI    lex:temIncisoAlinea    lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei    lex:temConteudo    "a) Lei nº 2.145. de 29/XII/53, artigo 10, com a redação do artigo 5º da Lei nº 8.387, de 30/XII/91: Portaria nº 414 do Ministério da Economia, Fazenda e Planejamento, de 15/V/92." .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei    lex:ehUm    lex:IncisoAlinea .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei    lex:temIncisoAlinea    lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei    lex:temConteudo    "b) Lei nº 7.700, de 21/XII/88." .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados    lex:ehUm    lex:IncisoAlinea .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei    lex:temIncisoAlinea    lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados    lex:temConteudo    "a) Certificados de análise, de correção de menifestos, de livre venda e médicos." .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados    lex:ehUm    lex:IncisoAlinea .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados    lex:temIncisoAlinea    lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados    lex:temConteudo    "b) Certificados de sanidade animal." .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados\/IncisoAlineaCertificados    lex:ehUm    lex:IncisoAlinea .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados    lex:temIncisoAlinea    lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados\/IncisoAlineaCertificados .
+lex:D0850\/Artigo2\/IncisoLI\/IncisoAlineaLei\/IncisoAlineaLei\/IncisoAlineaCertificados\/IncisoAlineaCertificados\/IncisoAlineaCertificados    lex:temConteudo    "c) Certificados fitossanitários e de sanidade de produtos animais." .

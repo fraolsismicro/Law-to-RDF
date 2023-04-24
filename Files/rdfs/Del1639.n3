@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1639    lex:ehUm    lex:DocLegal .
+lex:Del1639    lex:temTextoIntegral    lex:HTMLs\/Del1639.htm .
+lex:Del1639\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1639    lex:temArtigo    lex:Del1639\/Artigo1 .
+lex:Del1639\/Artigo1    lex:temConteudo    "Art. 1º - Os incisos IX o XII do artigo 15 do Decreto-lei nº 37, de 18 de novembro de 1966, passam a vigorar com a seguinte redação:" .
+lex:Del1639\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:Del1639\/Artigo1    lex:temInciso    lex:Del1639\/Artigo1\/IncisoIX .
+lex:Del1639\/Artigo1\/IncisoIX    lex:temConteudo    "IX - Aos aparelhos, motores, reatores, peças e acessórios de aeronaves importados por estabelecimento com oficina especializada, comprovadamente destinados à manutenção, revisão e reparo de aeronaves ou de seus componentes, bem como aos equipamentos, aparelhos, instrumentos, máquinas, ferramentas e materiais específicos indispensáveis à execução dos respectivos serviços;" .
+lex:Del1639\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:Del1639\/Artigo1    lex:temInciso    lex:Del1639\/Artigo1\/IncisoXII .
+lex:Del1639\/Artigo1\/IncisoXII    lex:temConteudo    "XII - Às aeronaves, equipamentos e material técnico, destinados a operações de aerolevantamento e importados por empresas de capital exclusivamente nacional que explorem atividades pertinentes, conforme previstas na legislação, específica sobre aerolevantamento.'" .
+lex:Del1639\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1639    lex:temArtigo    lex:Del1639\/Artigo2 .
+lex:Del1639\/Artigo2    lex:temConteudo    "Art. 2º - Este Decreto-lei entrará em vigor data de sua publicação." .
+lex:Del1639\/Artigo1\/IncisoIX    lex:remetePara    lex:Del0037\/Artigo15 .
+lex:Del1639\/Artigo1\/IncisoXII    lex:remetePara    lex:Del0037\/Artigo15 .

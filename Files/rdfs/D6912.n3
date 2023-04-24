@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6912    lex:ehUm    lex:DocLegal .
+lex:D6912    lex:temTextoIntegral    lex:HTMLs\/D6912.htm .
+lex:D6912\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6912    lex:temArtigo    lex:D6912\/Artigo1 .
+lex:D6912\/Artigo1    lex:temConteudo    "Art. 1o  O Decreto no 6.187, de 14 de agosto de 2007, passa a vigorar com a seguinte redação:" .
+lex:D6912\/Artigo1\/Paragrafo2o-A    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo2o-A .
+lex:D6912\/Artigo1\/Paragrafo2o-A    lex:temConteudo    "§ 2o-A.  Nos termos do art. 26 da Lei no 11.945, de 4 de junho de 2009, as entidades que comprovarem a efetiva participação no Timemania e que não aderiram aos parcelamentos a que se refere o caput poderão fazê-lo até o dia 6 de agosto de 2009." .
+lex:D6912\/Artigo1\/Paragrafo7o-A    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo7o-A .
+lex:D6912\/Artigo1\/Paragrafo7o-A    lex:temConteudo    "§ 7o-A.  A partir do ano de 2009, o quantitativo máximo da complementação prevista no § 7o será o resultado da diferença entre dez por cento do valor da prestação mensal prevista no caput do art. 7o e a remuneração mensal constante do caput deste artigo, ou R$ 50.000,00 (cinqüenta mil reais), prevalecendo o maior montante, sem prejuízo da manutenção da quantidade de parcelas dispostas no caput do mencionado art. 7o." .
+lex:D6912\/Artigo1\/Paragrafo7o-B    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo7o-B .
+lex:D6912\/Artigo1\/Paragrafo7o-B    lex:temConteudo    "§ 7o-B.  O percentual do valor da prestação mensal, previsto no § 7o-A, referente ao cálculo do quantitativo máximo da complementação de que trata o § 7o, deverá ser reajustado para vinte por cento no ano de 2010, e acrescido em mais dez por cento da prestação mensal a cada ano subsequente, prevalecendo para pagamento o resultado desse cálculo, ou R$ 50.000,00 (cinqüenta mil reais), o que representar maior montante." .
+lex:D6912\/Artigo1\/Paragrafo8    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo8 .
+lex:D6912\/Artigo1\/Paragrafo8    lex:temConteudo    "§ 8o  Ocorrendo a hipótese prevista no § 7o e quando o cálculo previsto nos §§ 7o-A e 7o-B resultar em cem por cento da prestação mensal devida, o débito será consolidado, deduzindo-se os recolhimentos efetuados, e o saldo será dividido pela quantidade de meses remanescentes, para se apurar o valor de cada parcela." .
+lex:D6912\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo6 .
+lex:D6912\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  Aplica-se o disposto no caput aos clubes sociais sem fins econômicos que comprovem a participação em competições oficiais em ao menos três modalidades esportivas distintas, de acordo com certidão a ser expedida anualmente pela Confederação Brasileira de Clubes." .
+lex:D6912\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6912\/Artigo1    lex:temParagrafo    lex:D6912\/Artigo1\/Paragrafo7 .
+lex:D6912\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  Nos termos do art. 76 da Lei no 11.941, de 27 de maio de 2009, as Santas Casas de Misericórdia, as entidades de saúde de reabilitação física de deficientes sem fins econômicos e os clubes sociais referidos no § 6o poderão aderir aos parcelamentos a que se refere o caput, até o dia 24 de novembro de 2009. (NR)" .
+lex:D6912\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6912    lex:temArtigo    lex:D6912\/Artigo2 .
+lex:D6912\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6912\/Artigo1    lex:remetePara    lex:D6187 .
+lex:D6912\/Artigo1\/Paragrafo2o-A    lex:remetePara    lex:D6187\/Artigo7\/Paragrafo2a .
+lex:D6912\/Artigo1\/Paragrafo2o-A    lex:remetePara    lex:L11945\/Artigo26 .
+lex:D6912\/Artigo1\/Paragrafo7o-A    lex:remetePara    lex:D6187\/Artigo8\/Paragrafo7a .
+lex:D6912\/Artigo1\/Paragrafo8    lex:remetePara    lex:D6187\/Artigo8\/Paragrafo8 .
+lex:D6912\/Artigo1\/Paragrafo6    lex:remetePara    lex:D6187\/Artigo11\/Paragrafo6 .
+lex:D6912\/Artigo1\/Paragrafo7    lex:remetePara    lex:L11941\/Artigo76 .

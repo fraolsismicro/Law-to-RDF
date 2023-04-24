@@ -1,0 +1,37 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7326    lex:ehUm    lex:DocLegal .
+lex:L7326    lex:temTextoIntegral    lex:HTMLs\/L7326.htm .
+lex:L7326\/AlineaMembros    lex:ehUm    lex:Alinea .
+lex:L7326    lex:temAlinea    lex:L7326\/AlineaMembros .
+lex:L7326\/AlineaMembros    lex:temConteudo    "b) membros das Polícias Militares e dos Corpos de Bombeiros Militares, até o posto de 1º Tenente; (Redação dada pela Lei nº 9.114, de 1995)" .
+lex:L7326\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L7326    lex:temInciso    lex:L7326\/IncisoIII .
+lex:L7326\/IncisoIII    lex:temConteudo    "III - mediante Exame de Seleção, a partir do posto de 1º Tenente, por necessidade do serviço e a critério da Administração Naval, os Oficiais Engenheiros do Quadro Complementar do Corpo de Engenheiros e Técnicos Navais (QC-EN) e as Oficiais Engenheiras do Quadro Auxiliar Feminino de Oficiais (QAFO).  (Incluído pela Lei nº 9.114, de 1995)" .
+lex:L7326\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L7326    lex:temParagrafo    lex:L7326\/Paragrafo1 .
+lex:L7326\/Paragrafo1    lex:temConteudo    "§ 1º O Concurso de Admissão ao CETN poderá ser prestado por candidatos de ambos os sexos.  (Redação dada pela Lei nº 9.114, de 1995)" .
+lex:L7326\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:L7326\/Paragrafo1    lex:temParagrafoInciso    lex:L7326\/Paragrafo1\/ParagrafoIncisoIII .
+lex:L7326\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - para os Oficiais procedentes do Exame de Seleção, no posto no qual se encontrarem por ocasião do ingresso.  (Incluído pela Lei nº 9.114, de 1995)" .
+lex:L7326\/Texto    lex:revogadoPor    lex:L9519\/Artigo20 .
+lex:L9519\/Artigo20    lex:revogou    lex:L7326\/Texto .
+lex:L7326\/Texto    lex:remetePara    lex:L7326 .
+lex:L7326\/AlineaMembros    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/IncisoIII    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo1    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo2    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo3    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/IncisoI    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/IncisoII    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/IncisoIII    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo1\/ParagrafoIncisoIII    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo1\/Paragrafo4    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo1\/IncisoI    lex:remetePara    lex:L9114\/Artigo3 .
+lex:L7326\/Paragrafo1\/IncisoII    lex:remetePara    lex:L9114\/Artigo3 .

@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6899    lex:ehUm    lex:DocLegal .
+lex:L6899    lex:temTextoIntegral    lex:HTMLs\/L6899.htm .
+lex:L6899\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6899    lex:temArtigo    lex:L6899\/Artigo1 .
+lex:L6899\/Artigo1    lex:temConteudo    "Art 1º - A correção monetária incide sobre qualquer débito resultante de decisão judicial, inclusive sobre custas e honorários advocatícios." .
+lex:L6899\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6899\/Artigo1    lex:temParagrafo    lex:L6899\/Artigo1\/Paragrafo1 .
+lex:L6899\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - Nas execuções de títulos de dívida líquida e certa, a correção será calculada a contar do respectivo vencimento." .
+lex:L6899\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6899\/Artigo1    lex:temParagrafo    lex:L6899\/Artigo1\/Paragrafo2 .
+lex:L6899\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - Nos demais casos, o cálculo far-se-á a partir do ajuizamento da ação." .
+lex:L6899\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6899    lex:temArtigo    lex:L6899\/Artigo2 .
+lex:L6899\/Artigo2    lex:temConteudo    "Art 2º - O Poder Executivo, no prazo de 60 (sessenta) dias, regulamentará a forma pela qual será efetuado o cálculo da correção monetária. Regulamento" .
+lex:L6899\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6899    lex:temArtigo    lex:L6899\/Artigo3 .
+lex:L6899\/Artigo3    lex:temConteudo    "Art 3º - O disposto nesta Lei aplica-se a todas as causas pendentes de julgamento." .
+lex:L6899\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6899    lex:temArtigo    lex:L6899\/Artigo4 .
+lex:L6899\/Artigo4    lex:temConteudo    "Art 4º - Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6899\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6899    lex:temArtigo    lex:L6899\/Artigo5 .
+lex:L6899\/Artigo5    lex:temConteudo    "Art 5º - Revogam-se as disposições em contrário." .
+lex:L6899\/Artigo2    lex:regulamentadoPor    lex:D86649 .
+lex:D86649    lex:regulamenta    lex:L6899\/Artigo2 .

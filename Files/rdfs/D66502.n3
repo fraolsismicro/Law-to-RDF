@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D66502    lex:ehUm    lex:DocLegal .
+lex:D66502    lex:temTextoIntegral    lex:HTMLs\/D66502.htm .
+lex:D66502\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D66502    lex:temArtigo    lex:D66502\/Artigo1 .
+lex:D66502\/Artigo1    lex:temConteudo    "Art. 1º As Cartas-Patentes dos Capitães Tenentes e Oficiais Subalternos da Marinha, de que trata o Decreto nº 52.711, de 21 de outubro de 1963, passam a ser assinadas pelo Diretor do Pessoal Militar da Marinha." .
+lex:D66502\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D66502    lex:temArtigo    lex:D66502\/Artigo2 .
+lex:D66502\/Artigo2    lex:temConteudo    "Art. 2º Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:D66502\/Texto    lex:revogadoPor    lex:D2144\/Artigo5 .
+lex:D2144\/Artigo5    lex:revogou    lex:D66502\/Texto .
+lex:D66502\/Texto    lex:remetePara    lex:D66502 .
+lex:D66502\/Artigo1    lex:remetePara    lex:D52711 .

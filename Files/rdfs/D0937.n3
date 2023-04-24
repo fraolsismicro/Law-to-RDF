@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0937    lex:ehUm    lex:DocLegal .
+lex:D0937    lex:temTextoIntegral    lex:HTMLs\/D0937.htm .
+lex:D0937\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0937    lex:temArtigo    lex:D0937\/Artigo1 .
+lex:D0937\/Artigo1    lex:temConteudo    "Art. 1° O caput dos arts. 4.1.20 e 4.1.21 da Ordenança Gera para o Serviço da Armada, aprovada pelo Decreto n° 95.480, de 13 de dezembro de 1987, passa a vigorar com a seguinte redação:" .
+lex:D0937\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0937    lex:temArtigo    lex:D0937\/Artigo2 .
+lex:D0937\/Artigo2    lex:temConteudo    "Art. 2° É cancelado o § 1° do artigo 4.1.20, renumerando-se o § 2° para 1°, e o § 3° para 2°." .
+lex:D0937\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0937    lex:temArtigo    lex:D0937\/Artigo3 .
+lex:D0937\/Artigo3    lex:temConteudo    "Art. 3° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0937\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0937    lex:temArtigo    lex:D0937\/Artigo4 .
+lex:D0937\/Artigo4    lex:temConteudo    "Art. 4° Revogam-se as disposições em contrário." .
+lex:D0937\/Artigo1    lex:remetePara    lex:D95480\/ .

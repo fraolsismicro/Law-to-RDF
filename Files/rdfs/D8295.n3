@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8295    lex:ehUm    lex:DocLegal .
+lex:D8295    lex:temTextoIntegral    lex:HTMLs\/D8295.htm .
+lex:D8295\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8295    lex:temArtigo    lex:D8295\/Artigo1 .
+lex:D8295\/Artigo1    lex:temConteudo    "Art. 1 º O Decreto n º 5.994, de 19 de dezembro de 2006, passa a vigorar com as seguintes alterações:" .
+lex:D8295\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8295\/Artigo1    lex:temParagrafo    lex:D8295\/Artigo1\/ParagrafoUnico .
+lex:D8295\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As obrigações financeiras dos contratos em fase de desembolso poderão ser transferidas ao Ministério da Fazenda após a realização da análise das características desses contratos pela Secretaria do Tesouro Nacional, observados os procedimentos deste Decreto, à exceção do disposto na alínea c do inciso II do § 1 º do art. 2 º. (NR)" .
+lex:D8295\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8295    lex:temArtigo    lex:D8295\/Artigo2 .
+lex:D8295\/Artigo2    lex:temConteudo    "Art. 2 º Este Decreto entra em vigor na data de sua publicação." .
+lex:D8295\/Artigo1    lex:remetePara    lex:D5994 .
+lex:D8295\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:D5994\/Artigo1 .

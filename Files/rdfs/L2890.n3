@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L2890    lex:ehUm    lex:DocLegal .
+lex:L2890    lex:temTextoIntegral    lex:HTMLs\/L2890.htm .
+lex:L2890\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L2890    lex:temArtigo    lex:L2890\/Artigo1 .
+lex:L2890\/Artigo1    lex:temConteudo    "Art. 1º A isenção tributária concedida à Companhia Hidrelétrica do São Francisco pelo art. 8º do Decreto-lei nº 8.031, de 3 de outubro de 1945, sem limite de tempo quanto aos direitos, taxas e mais tributos de importação, e durante 10 (dez) anos quanto aos mais impostos federais, é contada da data em que a Companhia arquivou seus atos constitutivos no Registro do Comércio, ficando prorrogada, nessa segunda parte, por outro período igual de mais 10 (dez) anos." .
+lex:L2890\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L2890\/Artigo1    lex:temParagrafo    lex:L2890\/Artigo1\/Paragrafo1 .
+lex:L2890\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º É mantida a isenção estendida à Companhia pela Lei nº 858, de 12 de outubro de 1949, referente aos tributos de importação sôbre lubrificantes e combustíveis destinados ao transporte de materiais e equipamentos necessários às suas instalações, ou à construção, conservação e exploração das mesmas." .
+lex:L2890\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L2890\/Artigo1    lex:temParagrafo    lex:L2890\/Artigo1\/Paragrafo2 .
+lex:L2890\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A isenção dos tributos de importação abrange os adicionais dêsse tributo e, entre as taxas, os emolumentos consulares." .
+lex:L2890\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L2890\/Artigo1    lex:temParagrafo    lex:L2890\/Artigo1\/Paragrafo3 .
+lex:L2890\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º A isenção do imposto de consumo é limitada ao imposto ad valorem nas compras e geral nas vendas que efetuar." .
+lex:L2890\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:L2890\/Artigo1    lex:temParagrafo    lex:L2890\/Artigo1\/Paragrafo4 .
+lex:L2890\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º A isenção do impôsto de sêlo beneficiará a Companhia em todos os atos em que fôr parte, inclusive os recebimentos efetuados a seu crédito por terceiros." .
+lex:L2890\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L2890    lex:temArtigo    lex:L2890\/Artigo2 .
+lex:L2890\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L2890\/Artigo1    lex:remetePara    lex:Del8031\/Artigo8 .

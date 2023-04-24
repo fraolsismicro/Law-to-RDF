@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0766    lex:ehUm    lex:DocLegal .
+lex:D0766    lex:temTextoIntegral    lex:HTMLs\/D0766.htm .
+lex:D0766\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0766    lex:temArtigo    lex:D0766\/Artigo1 .
+lex:D0766\/Artigo1    lex:temConteudo    "Art. 1° A Nomenclatura do Sistema Harmonizado de Designação e de Codificação de Mercadorias, promulgada pelo Decreto n° 97.409, de 23 de dezembro de 1988, fica alterada na forma do anexo a este Decreto." .
+lex:D0766\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0766    lex:temArtigo    lex:D0766\/Artigo2 .
+lex:D0766\/Artigo2    lex:temConteudo    "Art. 2° As futuras alterações à referida nomenclatura serão aprovadas pelo Secretário da Receita Federal, do Ministério da Fazenda." .
+lex:D0766\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D0766    lex:temArtigo    lex:D0766\/Artigo3 .
+lex:D0766\/Artigo3    lex:temConteudo    "Art. 3° As alterações à Nomenclatura do Sistema Harmonizado, aprovadas na forma do artigo anterior, ficarão automaticamente incorporadas à Nomenclatura Brasileira de Mercadorias (NBM), à Tabela de Incidência do Imposto sobre Produtos Industrializados (Tipi) e à Tarifa Aduaneira do Brasil (TAB)." .
+lex:D0766\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D0766    lex:temArtigo    lex:D0766\/Artigo4 .
+lex:D0766\/Artigo4    lex:temConteudo    "Art. 4° As alterações introduzidas na Nomenclatura Brasileira de Mercadorias (NBM), a partir do sétimo dígito, ficarão automaticamente incorporadas à Tabela de Incidência do Imposto sobre Produtos Industrializados (Tipi) e à Tarifa Aduaneira do Brasil (TAB)." .
+lex:D0766\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D0766    lex:temArtigo    lex:D0766\/Artigo5 .
+lex:D0766\/Artigo5    lex:temConteudo    "Art. 5° Este Decreto entra em vigor na data de sua publicação." .
+lex:D0766\/Artigo5\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0766\/Artigo5    lex:temAlinea    lex:D0766\/Artigo5\/AlineaAs .
+lex:D0766\/Artigo5\/AlineaAs    lex:temConteudo    "a) as farinhas e sêmolas de cereais do Capítulo 11;" .
+lex:D0766\/Artigo5\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D0766\/Artigo5    lex:temAlinea    lex:D0766\/Artigo5\/AlineaAs .
+lex:D0766\/Artigo5\/AlineaAs    lex:temConteudo    "b) as farinhas, sêmolas e pós, de origem vegetal de qualquer capítulo, exceto as farinhas, sêmolas e pós de produtos hortícolas secos (posição 0712), de batata (posição 1105) ou de legumes de vagem secos (posição 1106)." .
+lex:D0766\/Artigo5\/IncisoC    lex:ehUm    lex:Inciso .
+lex:D0766\/Artigo5    lex:temInciso    lex:D0766\/Artigo5\/IncisoC .
+lex:D0766\/Artigo5\/IncisoC    lex:temConteudo    "C Criação de Texto" .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC    lex:temIncisoAlinea    lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea    lex:temConteudo    "a)  os produtos obtidos a partir do soro de leite e contendo, em peso, mais de 95% de lactose expressos em lactose anidra, calculado sobre matéria seca (posição 1702); nem" .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea    lex:temIncisoAlinea    lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b)  as albuminas (incluídos os concentrados de várias proteínas do soro de leite, contendo, em peso calculado sobre matéria seca, mais de 80% de proteínas do soro de leite) (posição 3502), bem como as globulinas (posição 3504)." .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar    lex:ehUm    lex:IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlinea    lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar    lex:temConteudo    "a) melhorar a sua conservação ou estabilidade (por tratamento térmico moderado, sulfuração, adição de ácido sórbico ou de sorbato de potássio, por exemplo);" .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar\/IncisoAlineaMelhorar    lex:ehUm    lex:IncisoAlinea .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar    lex:temIncisoAlinea    lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar\/IncisoAlineaMelhorar .
+lex:D0766\/Artigo5\/IncisoC\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaMelhorar\/IncisoAlineaMelhorar    lex:temConteudo    "b) melhorar ou manter o seu aspecto (por meio de óleo vegetal ou por adição de pequenas quantidades de xarope de glicose, por exemplo), desde que conservem as características de frutas secas." .
+lex:D0766\/Artigo5\/IncisoD    lex:ehUm    lex:Inciso .
+lex:D0766\/Artigo5    lex:temInciso    lex:D0766\/Artigo5\/IncisoD .
+lex:D0766\/Artigo5\/IncisoD    lex:temConteudo    "D - Modificação de texto" .

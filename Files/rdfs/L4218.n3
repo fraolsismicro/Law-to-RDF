@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4218    lex:ehUm    lex:DocLegal .
+lex:L4218    lex:temTextoIntegral    lex:HTMLs\/L4218.htm .
+lex:L4218\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4218    lex:temArtigo    lex:L4218\/Artigo1 .
+lex:L4218\/Artigo1    lex:temConteudo    "Art. 1º É concedida a pensão de Cr$ 5.000,00 (cinco mil cruzeiros) mensais a Hercília Carpes de Medeiros, viúva de Olavo Cassiano de Medeiros, ex-funcionário público federal, Professor da Escola Técnica de Curitiba, do Ministério da Educação e Cultura." .
+lex:L4218\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4218\/Artigo1    lex:temParagrafo    lex:L4218\/Artigo1\/ParagrafoUnico .
+lex:L4218\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A beneficiária a quem se refere êste artigo não poderá receber outros proventos dos cofres públicos federais." .
+lex:L4218\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4218    lex:temArtigo    lex:L4218\/Artigo2 .
+lex:L4218\/Artigo2    lex:temConteudo    "Art. 2º O pagamento da pensão, de que trata esta lei, correrá por conta da verba orçamentária do Ministério da Fazenda destinada aos pensionistas da União." .
+lex:L4218\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L4218    lex:temArtigo    lex:L4218\/Artigo3 .
+lex:L4218\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .

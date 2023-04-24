@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D45426    lex:ehUm    lex:DocLegal .
+lex:D45426    lex:temTextoIntegral    lex:HTMLs\/D45426.htm .
+lex:D45426\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D45426    lex:temArtigo    lex:D45426\/Artigo1A .
+lex:D45426\/Artigo1A    lex:temConteudo    "Art. 1Âº A representaÃ§Ã£o mensal a que se refere o art. 1Âº do Decreto nÂº 35.101, de 23 de fevereiro de 1954, passa a ser a seguinte:" .
+lex:D45426\/Artigo1A\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D45426\/Artigo1A    lex:temAlinea    lex:D45426\/Artigo1A\/AlineaOs .
+lex:D45426\/Artigo1A\/AlineaOs    lex:temConteudo    "a) Os CÃ´nsules Privativos, padrÃ£o M: Cr$39.008,00." .
+lex:D45426\/Artigo1A\/AlineaAuxiliares    lex:ehUm    lex:Alinea .
+lex:D45426\/Artigo1A    lex:temAlinea    lex:D45426\/Artigo1A\/AlineaAuxiliares .
+lex:D45426\/Artigo1A\/AlineaAuxiliares    lex:temConteudo    "b) Auxiliares de Consulado, padrÃ£o N: Cr$46.073,00." .
+lex:D45426\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D45426    lex:temArtigo    lex:D45426\/Artigo2A .
+lex:D45426\/Artigo2A    lex:temConteudo    "Art. 2Âº A representaÃ§Ã£o mensal fixada neste Decreto Ã© devida a partir da vigÃªncia do Decreto nÂº 45.400, de 6 de fevereiro de 1959, revogadas as disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D45426\/Texto    lex:remetePara    lex:D52420 .
+lex:D45426\/Artigo1A    lex:remetePara    lex:D35101 .

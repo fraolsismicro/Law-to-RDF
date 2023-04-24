@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del2130    lex:ehUm    lex:DocLegal .
+lex:Del2130    lex:temTextoIntegral    lex:HTMLs\/Del2130.htm .
+lex:Del2130\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo1 .
+lex:Del2130\/Artigo1    lex:temConteudo    "Art. 1º - Os atuais valores de vencimentos, salários e proventos dos servidores civis do Poder Executivo, bem como os das pensões, resultantes da aplicação do Decreto-lei nº 2.079, de 20 de dezembro de 1983, são reajustados em 65% (sessenta e cinco por cento), ressalvado o disposto no parágrafo único deste artigo." .
+lex:Del2130\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2130\/Artigo1    lex:temParagrafo    lex:Del2130\/Artigo1\/ParagrafoUnico .
+lex:Del2130\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Os vencimentos, salários e proventos relativos ao pessoal de nível médio passam a vigorar na forma do Anexo deste Decreto-lei." .
+lex:Del2130\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo2 .
+lex:Del2130\/Artigo2    lex:temConteudo    "Art. 2º - Fica elevado para Cr$4.800,00 (quatro mil e oitocentos cruzeiros) o valor do salário-familia." .
+lex:Del2130\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo3 .
+lex:Del2130\/Artigo3    lex:temConteudo    "Art. 3º - O Departamento Administrativo do Serviço Público elaborará as tabelas com os valores reajustados na forma deste Decreto-lei e expedirá normas complementares para a sua execução.     (Vide Decreto nº 2.143, de 1984)" .
+lex:Del2130\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo4 .
+lex:Del2130\/Artigo4    lex:temConteudo    "Art. 4º - Fica suspensa, até 31 de dezembro de 1984, a concessão de novas excepcionalidades com base no Decreto nº 86.795, de 28 de dezembro de 1981." .
+lex:Del2130\/Artigo5    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo5 .
+lex:Del2130\/Artigo5    lex:temConteudo    "Art. 5º - Os órgãos e Entidades, no corrente exercício, adotarão medidas para reduzir despesas, ajustando a sua execução orçamentária à efetiva disponibilidade dos créditos autorizados." .
+lex:Del2130\/Artigo5\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Del2130\/Artigo5    lex:temParagrafo    lex:Del2130\/Artigo5\/ParagrafoUnico .
+lex:Del2130\/Artigo5\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Para cumprimento do disposto neste artigo, os órgãos e Entidades reexaminarão a sua programação de trabalho, de forma a evitar quaisquer solicitações de créditos adicionais, bem como, rever os já encaminhados à Secretaria de Planejamento da Presidência da República." .
+lex:Del2130\/Artigo6    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo6 .
+lex:Del2130\/Artigo6    lex:temConteudo    "Art. 6º - A despesa decorrente da execução deste Decreto-lei correrá à conta das dotações do Orçamento Geral da União para o exercício de 1984." .
+lex:Del2130\/Artigo7    lex:ehUm    lex:Artigo .
+lex:Del2130    lex:temArtigo    lex:Del2130\/Artigo7 .
+lex:Del2130\/Artigo7    lex:temConteudo    "Art. 7º - Este Decreto-lei entrará em vigor na data de sua publicação, com efeitos financeiros a partir de 1º de julho de 1984, revogadas as disposições em contrário." .
+lex:Del2130\/Texto    lex:remetePara    lex:Del2204 .
+lex:Del2130\/Texto    lex:remetePara    lex:L7259 .
+lex:Del2130\/Artigo1    lex:remetePara    lex:Del2079 .
+lex:Del2130\/Artigo3    lex:remetePara    lex:Del2143\/Artigo2 .

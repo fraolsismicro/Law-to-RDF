@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp36    lex:ehUm    lex:DocLegal .
+lex:Lcp36    lex:temTextoIntegral    lex:HTMLs\/Lcp36.htm .
+lex:Lcp36\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp36    lex:temArtigo    lex:Lcp36\/Artigo1 .
+lex:Lcp36\/Artigo1    lex:temConteudo    "Art. 1º - Ao funcionário público federal que, em decorrência da implantação do Plano de Classificação de Cargos de que trata a Lei nº 5.645, de 10 de dezembro de 1970, ocupa cargo integrante do Quadro Suplementar e conte, ou venha a contar no prazo fixado no § 3º deste artigo, pelo menos, dez anos de serviço público, computados na forma da legislação em vigor, poderá ser concedida aposentadoria com proventos proporcionais ao tempo de serviço." .
+lex:Lcp36\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Lcp36\/Artigo1    lex:temParagrafo    lex:Lcp36\/Artigo1\/Paragrafo1 .
+lex:Lcp36\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º - O disposto neste artigo aplica-se, também, ao funcionário público federal posto em disponibilidade em decorrência da extinção ou desnecessidade do cargo que ocupava e àquele que, de acordo com o artigo 3º da Lei nº 6.184, de 11 de dezembro de 1974, permaneça excluído do mencionado Plano de Classificação de Cargos." .
+lex:Lcp36\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Lcp36\/Artigo1    lex:temParagrafo    lex:Lcp36\/Artigo1\/Paragrafo2 .
+lex:Lcp36\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º - (VETADO)" .
+lex:Lcp36\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Lcp36\/Artigo1    lex:temParagrafo    lex:Lcp36\/Artigo1\/Paragrafo3 .
+lex:Lcp36\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º - A aposentadoria a que se refere este artigo somente será concedida ao funcionário que, a requerer dentro do prazo de um ano, contado do início da vigência desta Lei (VETADO)." .
+lex:Lcp36\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Lcp36\/Artigo1    lex:temParagrafo    lex:Lcp36\/Artigo1\/Paragrafo4 .
+lex:Lcp36\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º - A aposentadoria de que trata este artigo será deferida aos servidor que integrava Quadro Suplementar à data da Lei Complementar nº 29, de 5 de julho de 1976, e que não se beneficiou das suas disposições em conseqüência do decurso do prazo previsto em seu art. 3º." .
+lex:Lcp36\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp36    lex:temArtigo    lex:Lcp36\/Artigo2 .
+lex:Lcp36\/Artigo2    lex:temConteudo    "Art. 2º - Os funcionários aposentados na forma da Lei Complementar nº 29, de 5 de julho de 1976, ou nos termos desta Lei farão jus à revisão dos respectivos proventos com base no Plano de Classificação de Cargos de que trata a Lei nº 5.645, de 10 de dezembro de 1970, observadas as mesmas normas que disciplinam o assunto em relação aos servidores inativos sem vantagens do citado Plano e respeitada, em cada caso, a proporcionalidade de proventos." .
+lex:Lcp36\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp36\/Artigo2    lex:temParagrafo    lex:Lcp36\/Artigo2\/ParagrafoUnico .
+lex:Lcp36\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - A revisão de proventos de que trata este artigo, relativamente aos funcionários aposentados na forma da Lei Complementar nº 29, de 5 de julho, de 1976, produzirá efeitos financeiros a partir do início da vigência desta Lei e, nos demais casos, a contar do primeiro dia do mês subseqüente ao da publicação do ato de aposentadoria." .
+lex:Lcp36\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp36    lex:temArtigo    lex:Lcp36\/Artigo3 .
+lex:Lcp36\/Artigo3    lex:temConteudo    "Art. 3º - Esta Lei entrará em vigor no primeiro dia do mês subsequente ao da sua publicação, revogadas o artigo 2º da Lei Complementar nº 29, de 5 de julho de 1976, e demais disposições em contrário." .
+lex:Lcp36\/Artigo1    lex:remetePara    lex:L5645 .
+lex:Lcp36\/Artigo1\/Paragrafo1    lex:remetePara    lex:L6184\/Artigo3 .
+lex:Lcp36\/Artigo1\/Paragrafo4    lex:remetePara    lex:Lcp29 .
+lex:Lcp36\/Artigo2    lex:remetePara    lex:Lcp29 .
+lex:Lcp36\/Artigo2    lex:remetePara    lex:L5645 .
+lex:Lcp36\/Artigo2\/ParagrafoUnico    lex:remetePara    lex:Lcp29 .
+lex:Lcp36\/Artigo3    lex:remetePara    lex:Lcp29\/Artigo2 .

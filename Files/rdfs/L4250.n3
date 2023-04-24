@@ -1,0 +1,86 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4250    lex:ehUm    lex:DocLegal .
+lex:L4250    lex:temTextoIntegral    lex:HTMLs\/L4250.htm .
+lex:L4250\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4250    lex:temArtigo    lex:L4250\/Artigo1 .
+lex:L4250\/Artigo1    lex:temConteudo    "Art. 1º Na Lei nº 3.994, de 9 de dezembro de 1961 que estima a Receita e fixa a Despesa da União para o exercício financeiro de 1962, são feitas as seguintes retificações:" .
+lex:L4250\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoI .
+lex:L4250\/Artigo1\/IncisoI    lex:temConteudo    "I - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoII .
+lex:L4250\/Artigo1\/IncisoII    lex:temConteudo    "II - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoIII .
+lex:L4250\/Artigo1\/IncisoIII    lex:temConteudo    "III - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE    lex:temConteudo    "a) ONDE SE LÊ:" .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:temConteudo    "b) ONDE SE LÊ:" .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE\/IncisoAlineaONDE .
+lex:L4250\/Artigo1\/IncisoIII\/IncisoAlineaONDE\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:temConteudo    "c) ONDE SE LÊ:" .
+lex:L4250\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoIV .
+lex:L4250\/Artigo1\/IncisoIV    lex:temConteudo    "IV - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoV .
+lex:L4250\/Artigo1\/IncisoV    lex:temConteudo    "V - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoVI .
+lex:L4250\/Artigo1\/IncisoVI    lex:temConteudo    "VI - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoVI    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se: .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:    lex:temConteudo    "a) Transfira-se:" .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE    lex:temConteudo    "b) ONDE SE LÊ:" .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:ehUm    lex:IncisoAlinea .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE    lex:temIncisoAlinea    lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE\/IncisoAlineaONDE .
+lex:L4250\/Artigo1\/IncisoVI\/IncisoAlineaTransfira-se:\/IncisoAlineaONDE\/IncisoAlineaONDE    lex:temConteudo    "c) ONDE SE LÊ:" .
+lex:L4250\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoVII .
+lex:L4250\/Artigo1\/IncisoVII    lex:temConteudo    "VII - No subanexo" .
+lex:L4250\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoVIII .
+lex:L4250\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoCVIII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoCVIII .
+lex:L4250\/Artigo1\/IncisoCVIII    lex:temConteudo    "CVIII - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoIX .
+lex:L4250\/Artigo1\/IncisoIX    lex:temConteudo    "IX - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoX    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoX .
+lex:L4250\/Artigo1\/IncisoX    lex:temConteudo    "X - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXI .
+lex:L4250\/Artigo1\/IncisoXI    lex:temConteudo    "XI - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoXII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXII .
+lex:L4250\/Artigo1\/IncisoXII    lex:temConteudo    "XII - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoXIII    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXIII .
+lex:L4250\/Artigo1\/IncisoXIII    lex:temConteudo    "XIII - No Subanexo." .
+lex:L4250\/Artigo1\/IncisoXIV    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXIV .
+lex:L4250\/Artigo1\/IncisoXIV    lex:temConteudo    "XIV - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoXV    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXV .
+lex:L4250\/Artigo1\/IncisoXV    lex:temConteudo    "XV - No Subanexo" .
+lex:L4250\/Artigo1\/IncisoXVI    lex:ehUm    lex:Inciso .
+lex:L4250\/Artigo1    lex:temInciso    lex:L4250\/Artigo1\/IncisoXVI .
+lex:L4250\/Artigo1\/IncisoXVI    lex:temConteudo    "XVI - No Subanexo" .
+lex:L4250\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4250    lex:temArtigo    lex:L4250\/Artigo2 .
+lex:L4250\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4250\/Artigo1    lex:remetePara    lex:L3994\/ .

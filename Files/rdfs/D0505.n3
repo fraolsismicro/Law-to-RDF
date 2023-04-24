@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D0505    lex:ehUm    lex:DocLegal .
+lex:D0505    lex:temTextoIntegral    lex:HTMLs\/D0505.htm .
+lex:D0505\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D0505    lex:temArtigo    lex:D0505\/Artigo1 .
+lex:D0505\/Artigo1    lex:temConteudo    "Art. 1º O Quinto Protocolo Adicional ao Acordo Comercial nº 17B no Setor da Indústria de Aparelhos Elétricos, Mecânicos e Térmicos de Uso Doméstico, entre Brasil e Argentina, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém, inclusive quanto a sua vigência." .
+lex:D0505\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D0505    lex:temArtigo    lex:D0505\/Artigo2 .
+lex:D0505\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D0505\/Artigo2\/AlineaLei    lex:ehUm    lex:Alinea .
+lex:D0505\/Artigo2    lex:temAlinea    lex:D0505\/Artigo2\/AlineaLei .
+lex:D0505\/Artigo2\/AlineaLei    lex:temConteudo    "a) Lei nº 23.664, de 1º/VI/1989." .
+lex:D0505\/Artigo2\/AlineaDecreto    lex:ehUm    lex:Alinea .
+lex:D0505\/Artigo2    lex:temAlinea    lex:D0505\/Artigo2\/AlineaDecreto .
+lex:D0505\/Artigo2\/AlineaDecreto    lex:temConteudo    "b) Decreto nº 611, de 1º/IV/91." .
+lex:D0505\/Artigo2\/IncisoLI    lex:ehUm    lex:Inciso .
+lex:D0505\/Artigo2    lex:temInciso    lex:D0505\/Artigo2\/IncisoLI .
+lex:D0505\/Artigo2\/IncisoLI    lex:temConteudo    "LI - Livre Importação" .

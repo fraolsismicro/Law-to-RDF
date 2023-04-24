@@ -1,0 +1,119 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5237    lex:ehUm    lex:DocLegal .
+lex:D5237    lex:temTextoIntegral    lex:HTMLs\/D5237.htm .
+lex:D5237\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5237    lex:temArtigo    lex:D5237\/Artigo1 .
+lex:D5237\/Artigo1    lex:temConteudo    "Art. 1o  O Acordo de Assistência Mútua entre o Governo da República Federativa do Brasil e o Governo da Federação da Rússia para Prevenção, Investigação e Combate a Infrações Aduaneiras, celebrado em Brasília, em 12 de dezembro de 2001, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém." .
+lex:D5237\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5237    lex:temArtigo    lex:D5237\/Artigo2 .
+lex:D5237\/Artigo2    lex:temConteudo    "Art. 2o  São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo, assim como quaisquer ajustes complementares que, nos termos do art. 49, inciso I, da Constituição, acarretem encargos ou compromissos gravosos ao patrimônio nacional." .
+lex:D5237\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D5237    lex:temArtigo    lex:D5237\/Artigo3 .
+lex:D5237\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5237\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaPara .
+lex:D5237\/Artigo3\/AlineaPara    lex:temConteudo    "a) para o Governo da República Federativa do Brasil: a Coordenação-Geral do Sistema Aduaneiro da Secretaria da Receita Federal no Ministério da Fazenda;" .
+lex:D5237\/Artigo3\/AlineaPara    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaPara .
+lex:D5237\/Artigo3\/AlineaPara    lex:temConteudo    "b) para o Governo da Federação da Rússia: o Comitê de Estado das Aduanas." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInfracao    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemInfracao .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInfracao    lex:temConteudo    "3. 'Infração Aduaneira': qualquer transgressão ou tentativa de transgressão da legislação aduaneira." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemPessoa:    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemPessoa: .
+lex:D5237\/Artigo3\/AlineaPara\/ItemPessoa:    lex:temConteudo    "4. 'Pessoa': significa qualquer pessoa física ou jurídica." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemProdutos    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemProdutos .
+lex:D5237\/Artigo3\/AlineaPara\/ItemProdutos    lex:temConteudo    "5. 'Produtos Entorpecentes e Substâncias Psicotrópicas': os produtos que figuram nas Listas da Convenção Única da Organização das Nações Unidas sobre Entorpecentes, de 30 de março de 1961, da Convenção Única da Organização das Nações Unidas relativa às Substâncias Psicotrópicas, de 21 de fevereiro de 1971, bem como as substâncias químicas que figuram nos quadros I e II do Anexo à Convenção da Organização das Nações Unidas contra o Tráfico Ilícito de Entorpecentes e de Substâncias Psicotrópicas, de 20 de dezembro de 1988." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInformacao:    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemInformacao: .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInformacao:    lex:temConteudo    "6. 'Informação': todo e qualquer dado, documento, relatório, cópia autenticada relativa a estes ou quaisquer outras comunicações." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInteligencia:    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemInteligencia: .
+lex:D5237\/Artigo3\/AlineaPara\/ItemInteligencia:    lex:temConteudo    "7. 'Inteligência': informações processadas ou analisadas de modo a fornecerem particularidades relevantes de uma infração aduaneira." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao .
+lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao    lex:temConteudo    "8. 'Administração Requerida': a Administração Aduaneira à qual um pedido de assistência é endereçado." .
+lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaPara    lex:temItem    lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao .
+lex:D5237\/Artigo3\/AlineaPara\/ItemAdministracao    lex:temConteudo    "9. 'Administração Requerente': a Administração Aduaneira que formula um pedido de assistência." .
+lex:D5237\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaA .
+lex:D5237\/Artigo3\/AlineaA    lex:temConteudo    "a) à percepção, pelas Administrações Aduaneiras, de direitos aduaneiros e taxas, bem como à avaliação correta do valor aduaneiro das mercadorias e sua classificação tarifária;" .
+lex:D5237\/Artigo3\/AlineaAo    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAo .
+lex:D5237\/Artigo3\/AlineaAo    lex:temConteudo    "b) ao respeito às medidas de proibição, de contingenciamento, de tributação preferencial ou de isenção referentes à importação, exportação ou ao trânsito de mercadorias;" .
+lex:D5237\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaA .
+lex:D5237\/Artigo3\/AlineaA    lex:temConteudo    "c) à aplicação das regras referentes à origem das mercadorias;" .
+lex:D5237\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaA .
+lex:D5237\/Artigo3\/AlineaA    lex:temConteudo    "d) à prevenção e repressão aos ilícitos aduaneiros e ao tráfico ilícito de entorpecentes e de substâncias psicotrópicas." .
+lex:D5237\/Artigo3\/AlineaA\/ItemQuando    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaA    lex:temItem    lex:D5237\/Artigo3\/AlineaA\/ItemQuando .
+lex:D5237\/Artigo3\/AlineaA\/ItemQuando    lex:temConteudo    "2. Quando a Administração requerida não dispuser da informação solicitada, ela tomará as medidas necessárias para obtenção de tal informação." .
+lex:D5237\/Artigo3\/AlineaOperacoes    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaOperacoes .
+lex:D5237\/Artigo3\/AlineaOperacoes    lex:temConteudo    "a) operações sobre as quais se tenha verificado ou se suspeite serem de caráter fraudulento, em relação à respectiva legislação aduaneira, em particular toda irregularidade verificada por ocasião de um controle na exportação, importação ou circulação de mercadorias;" .
+lex:D5237\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaOs .
+lex:D5237\/Artigo3\/AlineaOs    lex:temConteudo    "b) os novos meios ou métodos utilizados para a prática de infrações à sua respectiva legislação aduaneira;" .
+lex:D5237\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAs .
+lex:D5237\/Artigo3\/AlineaAs    lex:temConteudo    "c) as categorias de mercadorias conhecidas como sendo objeto de um tráfico fraudulento na importação, na exportação ou no trânsito, tais como as armas, munições, explosivos, produtos entorpecentes e substâncias psicotrópicas, objetos de arte ou antigüidades tendo um grande valor artístico, histórico ou arqueológico para uma das Partes, produtos tóxicos ou perigosos para a saúde pública, mercadorias fortemente tributadas ou sujeitas a restrições quantitativas;" .
+lex:D5237\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAs .
+lex:D5237\/Artigo3\/AlineaAs    lex:temConteudo    "d) as pessoas suspeitas de cometerem eventual ou habitualmente infrações à legislação aduaneira;" .
+lex:D5237\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaOs .
+lex:D5237\/Artigo3\/AlineaOs    lex:temConteudo    "e) os meios de transporte suspeitos de utilização para prática de infrações aduaneiras;" .
+lex:D5237\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAs .
+lex:D5237\/Artigo3\/AlineaAs    lex:temConteudo    "f) as novas técnicas de combate às infrações aduaneiras com eficácia comprovada." .
+lex:D5237\/Artigo3\/AlineaRelativas    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaRelativas .
+lex:D5237\/Artigo3\/AlineaRelativas    lex:temConteudo    "a) relativas a extratos de documentos aduaneiros referentes a movimentos de mercadorias entre os dois Estados que são ou possam ser objeto de tráfico fraudulento, especialmente as contempladas no inciso 'c' do Artigo 4º do presente Acordo, relativamente à legislação aduaneira aplicada pela Administração requerente, tanto quanto possível sob forma de cópias devidamente certificadas ou autenticadas dos referidos documentos ou por meio informatizado. Neste último caso, todas as informações necessárias ao tratamento dos documentos serão fornecidas a pedido;" .
+lex:D5237\/Artigo3\/AlineaQue    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaQue .
+lex:D5237\/Artigo3\/AlineaQue    lex:temConteudo    "b) que possam servir para revelar infrações à legislação aduaneira aplicada pela Administração requerente." .
+lex:D5237\/Artigo3\/AlineaQue\/ItemEsses    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemEsses .
+lex:D5237\/Artigo3\/AlineaQue\/ItemEsses    lex:temConteudo    "2. Esses pedidos ou confirmações escritas devem apresentar as seguintes informações:" .
+lex:D5237\/Artigo3\/AlineaQue\/ItemO    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemO .
+lex:D5237\/Artigo3\/AlineaQue\/ItemO    lex:temConteudo    "- o nome e o cargo da autoridade aduaneira requerente;" .
+lex:D5237\/Artigo3\/AlineaQue\/ItemA    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemA .
+lex:D5237\/Artigo3\/AlineaQue\/ItemA    lex:temConteudo    "- a natureza do procedimento em curso;" .
+lex:D5237\/Artigo3\/AlineaQue\/ItemO    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemO .
+lex:D5237\/Artigo3\/AlineaQue\/ItemO    lex:temConteudo    "- o objetivo e o motivo do pedido;" .
+lex:D5237\/Artigo3\/AlineaQue\/ItemA    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemA .
+lex:D5237\/Artigo3\/AlineaQue\/ItemA    lex:temConteudo    "- a identificação das partes implicadas (nome, data e lugar de nascimento para as pessoas físicas, razão social para as pessoas jurídicas) e seu endereço (sede social para as pessoas jurídicas);" .
+lex:D5237\/Artigo3\/AlineaQue\/ItemUm    lex:ehUm    lex:Item .
+lex:D5237\/Artigo3\/AlineaQue    lex:temItem    lex:D5237\/Artigo3\/AlineaQue\/ItemUm .
+lex:D5237\/Artigo3\/AlineaQue\/ItemUm    lex:temConteudo    "- um relatório sucinto do caso, bem como os elementos jurídicos a ele referentes." .
+lex:D5237\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAs .
+lex:D5237\/Artigo3\/AlineaAs    lex:temConteudo    "a) as pessoas de quem a Administração requerente tenha conhecimento de que cometeram infrações ou suspeite de virem a cometê-las, especialmente aquelas em movimentação de entrada e saída do território aduaneiro do Estado da Parte requerida;" .
+lex:D5237\/Artigo3\/AlineaA    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaA .
+lex:D5237\/Artigo3\/AlineaA    lex:temConteudo    "b) a movimentação de mercadorias que a Administração requerente suspeite serem objeto da prática de infração à legislação aduaneira por ela aplicada;" .
+lex:D5237\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaOs .
+lex:D5237\/Artigo3\/AlineaOs    lex:temConteudo    "c) os locais de entreposto de mercadorias que a Administração requerente suspeite serem destinados à importação ilegal no território de seu Estado;" .
+lex:D5237\/Artigo3\/AlineaOs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaOs .
+lex:D5237\/Artigo3\/AlineaOs    lex:temConteudo    "d) os meios de transporte que a Administração requerente suspeite serem utilizados para o cometimento de infrações aduaneiras no território do estado de uma ou de outra das Partes;" .
+lex:D5237\/Artigo3\/AlineaAs    lex:ehUm    lex:Alinea .
+lex:D5237\/Artigo3    lex:temAlinea    lex:D5237\/Artigo3\/AlineaAs .
+lex:D5237\/Artigo3\/AlineaAs    lex:temConteudo    "e) as ações que possam estar vinculadas ao tráfico ilícito de entorpecentes e de substâncias psicotrópicas." .
+lex:D5237\/Artigo2    lex:remetePara    lex:Constituiçao\/Artigo49 .

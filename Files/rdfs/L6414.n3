@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6414    lex:ehUm    lex:DocLegal .
+lex:L6414    lex:temTextoIntegral    lex:HTMLs\/L6414.htm .
+lex:L6414\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6414    lex:temArtigo    lex:L6414\/Artigo1 .
+lex:L6414\/Artigo1    lex:temConteudo    "Art. 1º O item I do artigo 55 da Lei nº 5.682, de 21 de junho de 1971 - Lei Orgânica dos Partidos Políticos, passa a vigorar com a seguinte redação:" .
+lex:L6414\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L6414\/Artigo1    lex:temInciso    lex:L6414\/Artigo1\/IncisoI .
+lex:L6414\/Artigo1\/IncisoI    lex:temConteudo    "I - O Diretório Municipal, de 9 a 31 membros." .
+lex:L6414\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6414    lex:temArtigo    lex:L6414\/Artigo2 .
+lex:L6414\/Artigo2    lex:temConteudo    "Art. 2º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6414\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6414    lex:temArtigo    lex:L6414\/Artigo3 .
+lex:L6414\/Artigo3    lex:temConteudo    "Art. 3º Revogam-se as disposições em contrário." .
+lex:L6414\/Texto    lex:remetePara    lex:L9096\/Artigo63 .
+lex:L6414\/Artigo1\/IncisoI    lex:remetePara    lex:L5682\/Artigo55 .

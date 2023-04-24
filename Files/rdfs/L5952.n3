@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5952    lex:ehUm    lex:DocLegal .
+lex:L5952    lex:temTextoIntegral    lex:HTMLs\/L5952.htm .
+lex:L5952\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5952    lex:temArtigo    lex:L5952\/Artigo1 .
+lex:L5952\/Artigo1    lex:temConteudo    "Art. 1º O valor do soldo do posto de Coronel PM e Coronel BM, para aplicação das Tabelas de Escalonamento Vertical de que tratam os artigos 122, da Lei n.º 5.619, de 3 de novembro de 1970, e 124, da Lei nº 5.906, de 23 de julho de 1973, é fixado em Cr$2.610,00 (dois mil seiscentos e dez cruzeiros), na Polícia Militar e no Corpo de Bombeiros do Distrito Federal." .
+lex:L5952\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5952\/Artigo1    lex:temParagrafo    lex:L5952\/Artigo1\/ParagrafoUnico .
+lex:L5952\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Nos cálculos decorrentes da aplicação da presente Lei, serão desprezadas as frações de cruzeiro, inclusive em relação às gratificações e indenizações." .
+lex:L5952\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5952    lex:temArtigo    lex:L5952\/Artigo2 .
+lex:L5952\/Artigo2    lex:temConteudo    "Art. 2º As despesas com a execução desta Lei serão atendidas com recursos orçamentários do Distrito Federal, fixados para o corrente exercício." .
+lex:L5952\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5952    lex:temArtigo    lex:L5952\/Artigo3 .
+lex:L5952\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entra em vigor a 1 de novembro de 1973, revogadas as disposições em contrário." .
+lex:L5952\/Artigo1    lex:remetePara    lex:L5619\/Artigo122 .
+lex:L5952\/Artigo1    lex:remetePara    lex:L5906\/Artigo124 .

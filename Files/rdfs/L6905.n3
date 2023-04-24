@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6905    lex:ehUm    lex:DocLegal .
+lex:L6905    lex:temTextoIntegral    lex:HTMLs\/L6905.htm .
+lex:L6905\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6905    lex:temArtigo    lex:L6905\/Artigo1 .
+lex:L6905\/Artigo1    lex:temConteudo    "Art. 1º A Caixa Econômica Federal fará realizar a cada ano, 1 (um) concurso de prognósticos esportivos, promovido com base no Decreto-Lei nº 594, de 27 de maio de 1969, cuja renda líquida será destinada à Cruz Vermelha Brasileira, sociedade civil filantrópica." .
+lex:L6905\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:L6905\/Artigo1    lex:temParagrafo    lex:L6905\/Artigo1\/Paragrafo1 .
+lex:L6905\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º A renda líquida prevista neste artigo será destinada ao custeio das atividades filantrópicas previstas no estatuto da Sociedade." .
+lex:L6905\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:L6905\/Artigo1    lex:temParagrafo    lex:L6905\/Artigo1\/Paragrafo2 .
+lex:L6905\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º A data de realização do concurso de que trata este artigo, a cada ano, será fixada pela Caixa Econômica Federal, dentre os concursos programados." .
+lex:L6905\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:L6905\/Artigo1    lex:temParagrafo    lex:L6905\/Artigo1\/Paragrafo3 .
+lex:L6905\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Para os efeitos do disposto neste artigo, considera-se renda líquida a resultante da arrecadação do concurso, deduzidas as parcelas destinadas à Caixa Econômica Federal e ao pagamento de prêmios e do imposto sobre a renda." .
+lex:L6905\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6905    lex:temArtigo    lex:L6905\/Artigo2 .
+lex:L6905\/Artigo2    lex:temConteudo    "Art. 2º A Caixa Econômica Federal repassará diretamente à Cruz Vermelha Brasileira a renda líquida de cada concurso realizado nos termos desta Lei, a qual redistribuirá esses recursos eqüitativamente entre o seu órgão central e as filiais estaduais e municipais da Entidade." .
+lex:L6905\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6905    lex:temArtigo    lex:L6905\/Artigo3 .
+lex:L6905\/Artigo3    lex:temConteudo    "Art. 3º Esta Lei entrará em vigor na data de sua publicação." .
+lex:L6905\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6905    lex:temArtigo    lex:L6905\/Artigo4 .
+lex:L6905\/Artigo4    lex:temConteudo    "Art. 4º Revogam-se as disposições em contrário." .
+lex:L6905\/Artigo1    lex:remetePara    lex:Del0594 .

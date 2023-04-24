@@ -1,0 +1,83 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8870    lex:ehUm    lex:DocLegal .
+lex:D8870    lex:temTextoIntegral    lex:HTMLs\/D8870.htm .
+lex:D8870\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo1 .
+lex:D8870\/Artigo1    lex:temConteudo    "Art. 1 º  O procedimento simplificado de exportação, denominado Simples Exportação, destinado às microempresas e às empresas de pequeno porte optantes pelo Simples Nacional, observará:" .
+lex:D8870\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo1    lex:temInciso    lex:D8870\/Artigo1\/IncisoI .
+lex:D8870\/Artigo1\/IncisoI    lex:temConteudo    "I - unicidade do procedimento para registro das operações de exportação, na perspectiva do usuário;" .
+lex:D8870\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo1    lex:temInciso    lex:D8870\/Artigo1\/IncisoII .
+lex:D8870\/Artigo1\/IncisoII    lex:temConteudo    "II - entrada única de dados;" .
+lex:D8870\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo1    lex:temInciso    lex:D8870\/Artigo1\/IncisoIII .
+lex:D8870\/Artigo1\/IncisoIII    lex:temConteudo    "III - processo integrado entre os órgãos envolvidos; e" .
+lex:D8870\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo1    lex:temInciso    lex:D8870\/Artigo1\/IncisoIV .
+lex:D8870\/Artigo1\/IncisoIV    lex:temConteudo    "IV - acompanhamento simplificado do procedimento." .
+lex:D8870\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D8870\/Artigo1    lex:temParagrafo    lex:D8870\/Artigo1\/ParagrafoUnico .
+lex:D8870\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As operações do Simples Exportação poderão ser realizadas por meio de operador logístico, pessoas jurídicas prestadoras de serviço de logística internacional, conforme previsto no parágrafo único do art. 49-A da Lei Complementar n º 123, de 14 de dezembro de 2006." .
+lex:D8870\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo2 .
+lex:D8870\/Artigo2    lex:temConteudo    "Art. 2 º  O operador logístico, quando contratado por beneficiárias do Simples Nacional, estará autorizado a realizar, nas operações de exportação, as atividades relativas a habilitação, licenciamento administrativo, despacho aduaneiro, consolidação e desconsolidação de carga, contratação de seguro, câmbio, transporte e armazenamento de mercadorias objeto da prestação do serviço." .
+lex:D8870\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8870\/Artigo2    lex:temParagrafo    lex:D8870\/Artigo2\/Paragrafo1 .
+lex:D8870\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1 º  Os operadores logísticos deverão ser habilitados junto à Receita Federal do Brasil." .
+lex:D8870\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8870\/Artigo2    lex:temParagrafo    lex:D8870\/Artigo2\/Paragrafo2 .
+lex:D8870\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2 º  O operador logístico deverá oferecer, no mínimo, os serviços relativos a habilitação, licenciamento administrativo, despacho aduaneiro, consolidação de carga, transporte e armazenamento das mercadorias objeto da prestação do serviço, por meio próprio ou de terceiros." .
+lex:D8870\/Artigo2\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:D8870\/Artigo2    lex:temParagrafo    lex:D8870\/Artigo2\/Paragrafo3 .
+lex:D8870\/Artigo2\/Paragrafo3    lex:temConteudo    "§ 3 º  O serviço de armazenamento referido no caput poderá ser prestado nas seguintes situações, alternativamente:" .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8870\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoI .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoI    lex:temConteudo    "I - em recintos alfandegados, desde que possua contrato para utilização de área no local com essa finalidade;" .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8870\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoII .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - em Recinto Especial para Despacho Aduaneiro de Exportação - Redex, inclusive quando por ela administrado; ou" .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8870\/Artigo2\/Paragrafo3    lex:temParagrafoInciso    lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII .
+lex:D8870\/Artigo2\/Paragrafo3\/ParagrafoIncisoIII    lex:temConteudo    "III - em recinto autorizado pela Secretaria da Receita Federal do Brasil para a realização de operações de exportação de remessas, quando se tratar de empresa de serviço de transporte internacional, inclusive porta a porta ou da Empresa Brasileira de Correios e Telégrafos." .
+lex:D8870\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo3 .
+lex:D8870\/Artigo3    lex:temConteudo    "Art. 3 º  A Secretaria Especial de Micro e Pequena Empresa da Secretaria de Governo da Presidência da República adotará as providências tendentes a facilitar o acesso das empresas beneficiárias do Simples Nacional aos operadores logísticos." .
+lex:D8870\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo4 .
+lex:D8870\/Artigo4    lex:temConteudo    "Art. 4 º  Os procedimentos simplificados de que trata o art. 1 º serão executados no Portal Único de Comércio Exterior, nos termos do Decreto n º 660, de 25 de setembro de 1992, e observarão:" .
+lex:D8870\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo4    lex:temInciso    lex:D8870\/Artigo4\/IncisoI .
+lex:D8870\/Artigo4\/IncisoI    lex:temConteudo    "I - a dispensa de licença de exportação, exceto no caso de controles sanitários e fitossanitários, de proteção do meio ambiente e de segurança nacional, ou em virtude de acordos e obrigações internacionais;" .
+lex:D8870\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo4    lex:temInciso    lex:D8870\/Artigo4\/IncisoII .
+lex:D8870\/Artigo4\/IncisoII    lex:temConteudo    "II - a prioridade na realização de verificação física da mercadoria a exportar, quando for o caso, respeitado o estabelecido para os Operadores Econômicos Autorizados - OEA; e" .
+lex:D8870\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo4    lex:temInciso    lex:D8870\/Artigo4\/IncisoIII .
+lex:D8870\/Artigo4\/IncisoIII    lex:temConteudo    "III - a preferência na análise nos casos de controles sanitários e fitossanitários, de proteção do meio ambiente e de segurança nacional, quando estes devam ser realizados, conforme ato do órgão competente." .
+lex:D8870\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo5 .
+lex:D8870\/Artigo5    lex:temConteudo    "Art. 5 º  Ato da Secretaria da Receita Federal do Brasil disporá sobre:" .
+lex:D8870\/Artigo5\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo5    lex:temInciso    lex:D8870\/Artigo5\/IncisoI .
+lex:D8870\/Artigo5\/IncisoI    lex:temConteudo    "I - os procedimentos para habilitação simplificada para operações de exportação, por meio do operador logístico, de microempresas e empresas de pequeno porte optantes pelo Simples Nacional;" .
+lex:D8870\/Artigo5\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo5    lex:temInciso    lex:D8870\/Artigo5\/IncisoII .
+lex:D8870\/Artigo5\/IncisoII    lex:temConteudo    "II - os requisitos e as condições para a habilitação do operador logístico a que se refere o caput do art. 2 º; e" .
+lex:D8870\/Artigo5\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8870\/Artigo5    lex:temInciso    lex:D8870\/Artigo5\/IncisoIII .
+lex:D8870\/Artigo5\/IncisoIII    lex:temConteudo    "III - outros procedimentos simplificados de exportação para as microempresas e empresas de pequeno porte optantes pelo Simples Nacional." .
+lex:D8870\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D8870    lex:temArtigo    lex:D8870\/Artigo6 .
+lex:D8870\/Artigo6    lex:temConteudo    "Art. 6o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8870\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Lcp123\/Artigo49 .
+lex:D8870\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:Lcp123\/Artigo49 .
+lex:D8870\/Artigo4    lex:remetePara    lex:D0660 .
+lex:D8870\/Artigo4    lex:remetePara    lex:D0660 .

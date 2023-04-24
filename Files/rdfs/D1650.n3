@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1650    lex:ehUm    lex:DocLegal .
+lex:D1650    lex:temTextoIntegral    lex:HTMLs\/D1650.htm .
+lex:D1650\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1650    lex:temArtigo    lex:D1650\/Artigo1 .
+lex:D1650\/Artigo1    lex:temConteudo    "Art. 1º Os arts. 1º, 2º, 5º e 13 do Regimento Interno da Comissão Técnica da Moeda e do Crédito (COMOC), aprovado pelo Decreto nº 1.304, de 9 de novembro de 1994, passam a vigorar com as seguintes alterações:" .
+lex:D1650\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoI .
+lex:D1650\/Artigo1\/IncisoI    lex:temConteudo    "I - Presidente do Banco Central do Brasil, na qualidade de Coordenador;" .
+lex:D1650\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoII .
+lex:D1650\/Artigo1\/IncisoII    lex:temConteudo    "II - Presidente da Comissão de Valores Mobiliários;" .
+lex:D1650\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoIII .
+lex:D1650\/Artigo1\/IncisoIII    lex:temConteudo    "III - Secretário-Executivo do Ministério do Planejamento e Orçamento;" .
+lex:D1650\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoIV .
+lex:D1650\/Artigo1\/IncisoIV    lex:temConteudo    "IV - Secretário-Executivo do Ministério da Fazenda;" .
+lex:D1650\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoV .
+lex:D1650\/Artigo1\/IncisoV    lex:temConteudo    "V - Secretário de Política Econômica do Ministério da Fazenda;" .
+lex:D1650\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoVI .
+lex:D1650\/Artigo1\/IncisoVI    lex:temConteudo    "VI - Secretário do Tesouro Nacional do Ministério da Fazenda;" .
+lex:D1650\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoVII .
+lex:D1650\/Artigo1\/IncisoVII    lex:temConteudo    "VII - quatro Diretores do Banco Central do Brasil, indicados pelo seu Presidente.'" .
+lex:D1650\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoI .
+lex:D1650\/Artigo1\/IncisoI    lex:temConteudo    "I - propor a regulamentação das matérias de competência do CMN, previstas na Lei nº 9.069, de 1995;" .
+lex:D1650\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1650\/Artigo1    lex:temInciso    lex:D1650\/Artigo1\/IncisoI .
+lex:D1650\/Artigo1\/IncisoI    lex:temConteudo    "I - os Diretores do Banco Central do Brasil, não integrantes do Colegiado;" .
+lex:D1650\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1650    lex:temArtigo    lex:D1650\/Artigo2 .
+lex:D1650\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor na data de sua publicação." .
+lex:D1650\/Texto00001    lex:remetePara    lex:d1304\/Artigo1 .
+lex:D1650\/Texto00001    lex:remetePara    lex:d1304\/Artigo2 .
+lex:D1650\/Artigo1\/Texto00008    lex:remetePara    lex:d1304\/Artigo5 .
+lex:D1650\/Artigo1\/Texto00009    lex:remetePara    lex:d1304\/Artigo13 .

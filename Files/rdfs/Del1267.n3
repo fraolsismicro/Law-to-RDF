@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1267    lex:ehUm    lex:DocLegal .
+lex:Del1267    lex:temTextoIntegral    lex:HTMLs\/Del1267.htm .
+lex:Del1267\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1267    lex:temArtigo    lex:Del1267\/Artigo2 .
+lex:Del1267\/Artigo2    lex:temConteudo    "Art 2º O financiamento pelo Banco do Nordeste do Brasil S.A., com recursos próprios ou aplicáveis mediante repasse, a projetos que compreendam inversões em montante inferior ao valor correspondente a 30.000 (trinta mil) vezes o maior salário-mínimo mensal vigente no País, independe das formalidades previstas no artigo 18, da Lei nº 5.508, de 11 de outubro de 1968, desde que a operação se ajuste a programação anual daquele agente financeiro, aprovada pela SUDENE." .
+lex:Del1267\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1267    lex:temArtigo    lex:Del1267\/Artigo3 .
+lex:Del1267\/Artigo3    lex:temConteudo    "Art 3º O § 1º do artigo 8º, da Lei nº 5.508, de 11 de outubro de 1968, alterado pelo artigo 1º, do Decreto-lei nº 1.180, de 6 de julho de 1971, é o acrescido da seguinte alínea:" .
+lex:Del1267\/Artigo3\/Paragraf    lex:ehUm    lex:Paragrafo .
+lex:Del1267\/Artigo3    lex:temParagrafo    lex:Del1267\/Artigo3\/Paragraf .
+lex:Del1267\/Artigo3\/Paragraf    lex:temConteudo    "1º ..................................................... ........................................" .
+lex:Del1267\/Artigo3\/Paragraf\/AlineaCusteio    lex:ehUm    lex:Alinea .
+lex:Del1267\/Artigo3\/Paragraf    lex:temAlinea    lex:Del1267\/Artigo3\/Paragraf\/AlineaCusteio .
+lex:Del1267\/Artigo3\/Paragraf\/AlineaCusteio    lex:temConteudo    "e) custeio e investimento em em programas relativos ao aproveitamento, conservação e defesa de recursos naturais no Nordeste, bem como em atividades de apoio técnico e administrativo às pesquisas e programas relacionados com as finalidades do FURENE'." .
+lex:Del1267\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1267    lex:temArtigo    lex:Del1267\/Artigo4 .
+lex:Del1267\/Artigo4    lex:temConteudo    "Art 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogados o § 4º, do artigo 8º, da Lei nº 5.508, de 11 de outubro de 1968, e demais disposições em contrário." .
+lex:Del1267\/Artigo1    lex:revogadoPor    lex:2156-5\/Artigo32 .
+lex:2156-5\/Artigo32    lex:revogou    lex:Del1267\/Artigo1 .
+lex:Del1267\/Artigo4    lex:remetePara    lex:L5508\/Artigo8\/Paragrafo4 .

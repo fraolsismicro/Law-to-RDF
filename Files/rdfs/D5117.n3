@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D5117    lex:ehUm    lex:DocLegal .
+lex:D5117    lex:temTextoIntegral    lex:HTMLs\/D5117.htm .
+lex:D5117\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D5117    lex:temArtigo    lex:D5117\/Artigo1 .
+lex:D5117\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejadas, do Ministério do Planejamento, Orçamento e Gestão para o Ministério das Comunicações, vinte e quatro Funções Comissionadas Técnicas - FCT, correspondentes aos níveis e escalonamento contidos no Anexo a este Decreto." .
+lex:D5117\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D5117\/Artigo1    lex:temParagrafo    lex:D5117\/Artigo1\/ParagrafoUnico .
+lex:D5117\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O quantitativo de FCT referido no caput destina-se exclusivamente a:" .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D5117\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:temConteudo    "I - ocupantes de cargos efetivos constantes do Anexo V da Lei no 9.367, de 16 de dezembro de 1996, que não tenham sido estruturados em carreiras;" .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5117\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:temConteudo    "II - ocupantes de cargos efetivos que não tenham sido abrangidos pelo art. 1o da Medida Provisória no 2.229-43, de 6 de setembro de 2001;" .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D5117\/Artigo1\/ParagrafoUnico    lex:temParagrafoInciso    lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoIII    lex:temConteudo    "III - ocupantes de cargos efetivos da Carreira Previdenciária e da Carreira de Seguridade Social e do Trabalho." .
+lex:D5117\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D5117    lex:temArtigo    lex:D5117\/Artigo2 .
+lex:D5117\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoI    lex:remetePara    lex:L9367\/ .
+lex:D5117\/Artigo1\/ParagrafoUnico\/ParagrafoIncisoII    lex:remetePara    lex:2229-43 .

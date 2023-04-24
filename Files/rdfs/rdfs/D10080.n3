@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D10080    lex:ehUm    lex:DocLegal .
+lex:D10080    lex:temTextoIntegral    lex:HTMLs\/D10080.htm .
+lex:D10080\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D10080    lex:temArtigo    lex:D10080\/Artigo1A .
+lex:D10080\/Artigo1A    lex:temConteudo    "Art. 1Âº  O Decreto nÂº 8.424, de 31 de marÃ§o de 2015, passa a vigorar com as seguintes alteraÃ§Ãµes:" .
+lex:D10080\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D10080    lex:temArtigo    lex:D10080\/Artigo2A .
+lex:D10080\/Artigo2A    lex:temConteudo    "Art. 2Âº  Este Decreto entra em vigor na data de sua publicaÃ§Ã£o." .
+lex:D10080\/Artigo1A    lex:remetePara    lex:D8424 .
+lex:D10080\/Texto00001    lex:remetePara    lex:D8424\/Artigo1Â§14 .
+lex:D10080\/Texto00001    lex:remetePara    lex:L7998\/Artigo4Â§5 .
+lex:D10080\/Texto00001    lex:remetePara    lex:L10779\/Artigo1Â§8 .
+lex:D10080\/Texto00001    lex:remetePara    lex:L7998\/Artigo4Â§5 .

@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1951    lex:ehUm    lex:DocLegal .
+lex:Del1951    lex:temTextoIntegral    lex:HTMLs\/Del1951.htm .
+lex:Del1951\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1951    lex:temArtigo    lex:Del1951\/Artigo1 .
+lex:Del1951\/Artigo1    lex:temConteudo    "Art. 1º O Decreto-lei nº 1.893, de 16 de dezembro de 1981, modificado pelo Decreto-lei nº 1.931, de 19 de março de 1982, passa a viger com as seguintes alterações:" .
+lex:Del1951\/Artigo1\/AlineaDa-se    lex:ehUm    lex:Alinea .
+lex:Del1951\/Artigo1    lex:temAlinea    lex:Del1951\/Artigo1\/AlineaDa-se .
+lex:Del1951\/Artigo1\/AlineaDa-se    lex:temConteudo    "a) Dá-se nova redação ao artigo 1º:" .
+lex:Del1951\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:Del1951\/Artigo1    lex:temParagrafo    lex:Del1951\/Artigo1\/Paragrafo1 .
+lex:Del1951\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1º Os débitos decorrentes tão-somente do valor de multa ou penalidade de qualquer origem ou natureza poderão ser pagos, de uma só vez, no prazo previsto no caput deste artigo, com o valor reduzida em 75% (setenta e cinco por cento) e a dispensa dos juros de mora e do encargo de que trata o artigo 1º do Decreto-lei nº 1.025, de 27 de outubro de 1969, e alterações posteriores." .
+lex:Del1951\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:Del1951\/Artigo1    lex:temParagrafo    lex:Del1951\/Artigo1\/Paragrafo2 .
+lex:Del1951\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2º Os débitos para com a Fazenda Nacional, de caráter não tributário, vencidos até 31 de dezembro de 1979, inscritos como Dívida Ativa da União, ressalvada a hipótese prevista no parágrafo anterior, poderão ser pagos, de uma só vez, no prazo previsto no caput deste artigo, com dispensa de juros de mora e do encargo de que trata o artigo 1º do Decreto-lei nº 1.025, de 21 de outubro de 1969, e alterações posteriores." .
+lex:Del1951\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
+lex:Del1951\/Artigo1    lex:temParagrafo    lex:Del1951\/Artigo1\/Paragrafo3 .
+lex:Del1951\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3º Se o débito tiver sido parcialmente solvido, aplicar-se-ão os benefícios previstos neste artigo somente sobre o valor originário remanescente." .
+lex:Del1951\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:Del1951\/Artigo1    lex:temParagrafo    lex:Del1951\/Artigo1\/Paragrafo4 .
+lex:Del1951\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4º O pagamento de débitos relativos ao Imposto sobre Produtos Industrializados ou Imposto de Renda retido na fonte nos prazos deste artigo implicará a extinção da punibilidade de crime de apropriação indébita." .
+lex:Del1951\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:Del1951\/Artigo1    lex:temParagrafo    lex:Del1951\/Artigo1\/Paragrafo5 .
+lex:Del1951\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5º O disposto neste artigo aplicar-se-á aos débitos espontaneamente declarados pelo sujeito passivo da obrigação tributária." .
+lex:Del1951\/Artigo1\/Paragrafo5\/AlineaO    lex:ehUm    lex:Alinea .
+lex:Del1951\/Artigo1\/Paragrafo5    lex:temAlinea    lex:Del1951\/Artigo1\/Paragrafo5\/AlineaO .
+lex:Del1951\/Artigo1\/Paragrafo5\/AlineaO    lex:temConteudo    "b) O item II do art. 4º passa a ter a seguinte redação:" .
+lex:Del1951\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1951    lex:temArtigo    lex:Del1951\/Artigo2 .
+lex:Del1951\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1951\/Artigo1    lex:remetePara    lex:Del1893 .
+lex:Del1951\/Artigo1\/Texto00002    lex:remetePara    lex:Del1893\/Artigo1 .
+lex:Del1951\/Artigo1\/Paragrafo5\/Texto00008    lex:remetePara    lex:Del1893\/Artigo4 .

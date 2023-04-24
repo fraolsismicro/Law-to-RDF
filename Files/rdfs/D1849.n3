@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1849    lex:ehUm    lex:DocLegal .
+lex:D1849    lex:temTextoIntegral    lex:HTMLs\/D1849.htm .
+lex:D1849\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1849    lex:temArtigo    lex:D1849\/Artigo1 .
+lex:D1849\/Artigo1    lex:temConteudo    "Art. 1° É delegada ao Ministro de Estado da Fazenda competência para a prática do ato de que trata o § 1° do art. 70 da Lei n° 9.069, de 29 de junho de 1995." .
+lex:D1849\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1849    lex:temArtigo    lex:D1849\/Artigo2 .
+lex:D1849\/Artigo2    lex:temConteudo    "Art. 2° Este Decreto entra em vigor na data de sua publicação." .
+lex:D1849\/Texto00002    lex:remetePara    lex:index .

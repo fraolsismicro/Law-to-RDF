@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7928    lex:ehUm    lex:DocLegal .
+lex:D7928    lex:temTextoIntegral    lex:HTMLs\/D7928.htm .
+lex:D7928\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7928    lex:temArtigo    lex:D7928\/Artigo1 .
+lex:D7928\/Artigo1    lex:temConteudo    "Art. 1 º  O Anexo I ao Decreto n º 7.304, de 22 de setembro de 2010, passa a vigorar com as seguintes alterações:" .
+lex:D7928\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7928\/Artigo1    lex:temInciso    lex:D7928\/Artigo1\/IncisoI .
+lex:D7928\/Artigo1\/IncisoI    lex:temConteudo    "I - propor diretrizes de política exterior, no âmbito internacional, relativas à codificação do direito internacional, às questões atinentes ao direito humanitário, ao desarmamento, à não-proliferação nuclear e de armas de destruição em massa, à cooperação nuclear para fins pacíficos e à transferência de tecnologias sensíveis, aos assuntos políticos e a outros assuntos objeto de tratamento na Organização das Nações Unidas e suas agências especializadas e na Agência Internacional de Energia Atômica;" .
+lex:D7928\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7928\/Artigo1    lex:temInciso    lex:D7928\/Artigo1\/IncisoII .
+lex:D7928\/Artigo1\/IncisoII    lex:temConteudo    "II - representar o Estado brasileiro perante mecanismos convencionais e extraconvencionais, relacionados a matéria de sua responsabilidade, da Organização das Nações Unidas e suas agências especializadas e da Agência Internacional de Energia Atômica; e" .
+lex:D7928\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7928    lex:temArtigo    lex:D7928\/Artigo2 .
+lex:D7928\/Artigo2    lex:temConteudo    "Art. 2 º  O Anexo II ao Decreto n º 7.304, de 2010, passa a vigorar com as alterações constantes do Anexo I a este Decreto." .
+lex:D7928\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7928    lex:temArtigo    lex:D7928\/Artigo3 .
+lex:D7928\/Artigo3    lex:temConteudo    "Art. 3 º   Os apostilamentos decorrentes das alterações processadas deverão ocorrer no prazo de vinte dias, contado da data de entrada em vigor deste Decreto." .
+lex:D7928\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D7928\/Artigo3    lex:temParagrafo    lex:D7928\/Artigo3\/ParagrafoUnico .
+lex:D7928\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O Ministro de Estado Chefe da Secretaria-Geral da Presidência da República fará publicar no Diário Oficial da União, no prazo de vinte dias após efetuados os apostilamentos, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS a que se refere o Anexo I a este Decreto, que indicará inclusive o número de cargos vagos, suas denominações e níveis." .
+lex:D7928\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D7928    lex:temArtigo    lex:D7928\/Artigo4 .
+lex:D7928\/Artigo4    lex:temConteudo    "Art. 4 º  Este Decreto entra em vigor catorze dias após a data de sua publicação." .
+lex:D7928\/Artigo1\/IncisoI    lex:remetePara    lex:D7304\/Artigo14 .
+lex:D7928\/Artigo2    lex:remetePara    lex:D7304\/ .

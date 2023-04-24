@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Del1431    lex:ehUm    lex:DocLegal .
+lex:Del1431    lex:temTextoIntegral    lex:HTMLs\/Del1431.htm .
+lex:Del1431\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Del1431    lex:temArtigo    lex:Del1431\/Artigo1 .
+lex:Del1431\/Artigo1    lex:temConteudo    "Art. 1º A partir do exercício financeiro de 1976, ficará elevada para 12% (doze por cento) a percentagem para cálculo do crédito a que se refere o artigo 1º, do Decreto-lei nº 1.358, de 12 de novembro de 1974." .
+lex:Del1431\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Del1431    lex:temArtigo    lex:Del1431\/Artigo2 .
+lex:Del1431\/Artigo2    lex:temConteudo    "Art. 2º Os limites máximo e mínimo, fixados no § 1º, do artigo 1º, do Decreto-lei nº 1.358, de 12 de novembro de 1974, ficarão também elevados, a partir do exercício financeiro de 1976, respectivamente para Cr$3.960,00 (três mil novecentos e sessenta cruzeiros) e Cr$480,00 (quatrocentos e oitenta cruzeiros). (Vide Decreto-lei nº 1.491, de 1976)" .
+lex:Del1431\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Del1431    lex:temArtigo    lex:Del1431\/Artigo3 .
+lex:Del1431\/Artigo3    lex:temConteudo    "Art. 3º A Secretaria de Planejamento da Presidência da República e o Ministério da Fazenda adotarão as providências que se fizerem necessárias à aplicação deste Decreto-lei, no exercício de 1976." .
+lex:Del1431\/Artigo4    lex:ehUm    lex:Artigo .
+lex:Del1431    lex:temArtigo    lex:Del1431\/Artigo4 .
+lex:Del1431\/Artigo4    lex:temConteudo    "Art. 4º Este Decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:Del1431\/Artigo1    lex:remetePara    lex:Del1358\/Artigo1 .
+lex:Del1431\/Artigo2    lex:remetePara    lex:Del1358\/Artigo1\/Paragrafo1 .
+lex:Del1431\/Artigo2    lex:remetePara    lex:Del1491 .

@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:Lcp34    lex:ehUm    lex:DocLegal .
+lex:Lcp34    lex:temTextoIntegral    lex:HTMLs\/Lcp34.htm .
+lex:Lcp34\/Artigo1    lex:ehUm    lex:Artigo .
+lex:Lcp34    lex:temArtigo    lex:Lcp34\/Artigo1 .
+lex:Lcp34\/Artigo1    lex:temConteudo    "Art. 1º - Será compulsoriamente aposentado, no Grupo-Diplomacia, Código D-300:" .
+lex:Lcp34\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:Lcp34\/Artigo1    lex:temInciso    lex:Lcp34\/Artigo1\/IncisoI .
+lex:Lcp34\/Artigo1\/IncisoI    lex:temConteudo    "I - aos setenta anos de idade, o ocupante do cargo de Ministro de Primeira Classe;" .
+lex:Lcp34\/Artigo1\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:Lcp34\/Artigo1    lex:temInciso    lex:Lcp34\/Artigo1\/IncisoIl .
+lex:Lcp34\/Artigo1\/IncisoIl    lex:temConteudo    "Il - aos sessenta e cinco anos de idade, o ocupante do cargo de Ministro de Segunda Classe;" .
+lex:Lcp34\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:Lcp34\/Artigo1    lex:temInciso    lex:Lcp34\/Artigo1\/IncisoIII .
+lex:Lcp34\/Artigo1\/IncisoIII    lex:temConteudo    "III - aos sessenta anos de idade, o ocupante do cargo de Conselheiro;" .
+lex:Lcp34\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:Lcp34\/Artigo1    lex:temInciso    lex:Lcp34\/Artigo1\/IncisoIV .
+lex:Lcp34\/Artigo1\/IncisoIV    lex:temConteudo    "IV - aos cinqüenta e cinco anos de idade, o ocupante do cargo de Primeiro-Secretário;" .
+lex:Lcp34\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:Lcp34\/Artigo1    lex:temInciso    lex:Lcp34\/Artigo1\/IncisoV .
+lex:Lcp34\/Artigo1\/IncisoV    lex:temConteudo    "V - aos cinqüenta anos de idade, o ocupante do cargo de Segundo-Secretário." .
+lex:Lcp34\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:Lcp34\/Artigo1    lex:temParagrafo    lex:Lcp34\/Artigo1\/ParagrafoUnico .
+lex:Lcp34\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único - Será compulsoriamente aposentado, aos sessenta anos de idade, o ocupante do cargo de Primeiro-Secretário que, em 28 de setembro de 1964, não tenha sido transformado no de Conselheiro." .
+lex:Lcp34\/Artigo2    lex:ehUm    lex:Artigo .
+lex:Lcp34    lex:temArtigo    lex:Lcp34\/Artigo2 .
+lex:Lcp34\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei Complementar entrará em vigor na data de sua publicação." .
+lex:Lcp34\/Artigo3    lex:ehUm    lex:Artigo .
+lex:Lcp34    lex:temArtigo    lex:Lcp34\/Artigo3 .
+lex:Lcp34\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se a Lei Complementar nº 21, de 24 de setembro de 1974, e demais disposições em contrário." .
+lex:Lcp34\/Artigo3    lex:remetePara    lex:Lcp21 .

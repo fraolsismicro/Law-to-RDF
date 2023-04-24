@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L7105    lex:ehUm    lex:DocLegal .
+lex:L7105    lex:temTextoIntegral    lex:HTMLs\/L7105.htm .
+lex:L7105\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L7105    lex:temArtigo    lex:L7105\/Artigo1 .
+lex:L7105\/Artigo1    lex:temConteudo    "Art. 1º - Os incisos I, Il e III do art. 31 do Decreto-lei nº 82, de 26 de dezembro de 1966, passam a vigorar com a seguinte redação:" .
+lex:L7105\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:L7105\/Artigo1    lex:temInciso    lex:L7105\/Artigo1\/IncisoI .
+lex:L7105\/Artigo1\/IncisoI    lex:temConteudo    "I - transmissões compreendidas no Sistema Financeiro da Habitação a que se refere a Lei nº 4.380, de 21 de agosto de 1964, e legislação complementar:" .
+lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:ehUm    lex:IncisoAlinea .
+lex:L7105\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre .
+lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:temConteudo    "a) sobre o valor efetivamente financiado: 0,5% (meio por cento) e" .
+lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre    lex:ehUm    lex:IncisoAlinea .
+lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre    lex:temIncisoAlinea    lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre .
+lex:L7105\/Artigo1\/IncisoI\/IncisoAlineaSobre\/IncisoAlineaSobre    lex:temConteudo    "b) sobre o valor restante: 2% (dois por cento);" .
+lex:L7105\/Artigo1\/IncisoIl    lex:ehUm    lex:Inciso .
+lex:L7105\/Artigo1    lex:temInciso    lex:L7105\/Artigo1\/IncisoIl .
+lex:L7105\/Artigo1\/IncisoIl    lex:temConteudo    "Il - demais transmissões a título oneroso: 2% (dois por cento); e" .
+lex:L7105\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:L7105\/Artigo1    lex:temInciso    lex:L7105\/Artigo1\/IncisoIII .
+lex:L7105\/Artigo1\/IncisoIII    lex:temConteudo    "III - quaisquer outras transmissões: 4% (quatro por cento)." .
+lex:L7105\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L7105    lex:temArtigo    lex:L7105\/Artigo2 .
+lex:L7105\/Artigo2    lex:temConteudo    "Art. 2º - Esta Lei entrará em vigor no dia 1º de janeiro de 1984." .
+lex:L7105\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L7105    lex:temArtigo    lex:L7105\/Artigo3 .
+lex:L7105\/Artigo3    lex:temConteudo    "Art. 3º - Revogam-se as disposições em contrário." .
+lex:L7105\/Artigo1\/IncisoI    lex:remetePara    lex:Del0082\/Artigo31 .

@@ -1,0 +1,36 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7330    lex:ehUm    lex:DocLegal .
+lex:D7330    lex:temTextoIntegral    lex:HTMLs\/D7330.htm .
+lex:D7330\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7330    lex:temArtigo    lex:D7330\/Artigo1 .
+lex:D7330\/Artigo1    lex:temConteudo    "Art. 1o  O art. 15 do Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com a seguinte redação:" .
+lex:D7330\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D7330\/Artigo1    lex:temParagrafo    lex:D7330\/Artigo1\/Paragrafo1 .
+lex:D7330\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ........................................................................................." .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D7330\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:temConteudo    "XXIV - nas liquidações de operações de câmbio contratadas a partir de 19 de outubro de 2010 por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para aplicação no mercado financeiro e de capitais, excetuadas as operações de que tratam os incisos XXV e XXVI: seis por cento;" .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D7330\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX    lex:temConteudo    "XXIX - nas liquidações de operações de câmbio contratadas a partir de 19 de outubro de 2010 por investidor estrangeiro, para ingresso de recursos no País, inclusive por meio de operações simultâneas, para constituição de margem de garantia, inicial ou adicional, exigida por bolsas de valores, de mercadorias e futuros: seis por cento;" .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXX    lex:ehUm    lex:ParagrafoInciso .
+lex:D7330\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXX .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXX    lex:temConteudo    "XXX - nas demais operações de câmbio: trinta e oito centésimos por cento." .
+lex:D7330\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7330    lex:temArtigo    lex:D7330\/Artigo2 .
+lex:D7330\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D7330\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7330    lex:temArtigo    lex:D7330\/Artigo3 .
+lex:D7330\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o inciso XXVIII do § 1o do art. 15 do Decreto no 6.306, de 14 de dezembro de 2007." .
+lex:D7330\/Texto    lex:remetePara    lex:D7330 .
+lex:D7330\/Artigo1    lex:remetePara    lex:D6306 .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIV    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xxiv .
+lex:D7330\/Artigo1\/Paragrafo1\/ParagrafoIncisoXXIX    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xxix .
+lex:D7330\/Artigo3    lex:remetePara    lex:D6306\/Artigo15\/Paragrafo1xxviii .

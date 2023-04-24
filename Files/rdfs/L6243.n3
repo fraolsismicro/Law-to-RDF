@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L6243    lex:ehUm    lex:DocLegal .
+lex:L6243    lex:temTextoIntegral    lex:HTMLs\/L6243.htm .
+lex:L6243\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo1 .
+lex:L6243\/Artigo1    lex:temConteudo    "Art 1º O aposentado pela Previdência Social que voltar a trabalhar em atividade sujeita ao regime da Lei nº 3.807, de 26 de agosto de 1960, terá direito, quando dela se afastar, a um pecúlio constituído pela soma das importâncias correspondentes às suas próprias contribuições, pagas ou descontadas durante o novo período de trabalho, corrigido monetariamente e acrescido de juros de 4% (quatro por cento) ao ano, não fazendo jus a outras prestações, salvo as decorrentes de sua condição de aposentado. (Vide Decreto-Lei nº 1,584, de 1977)" .
+lex:L6243\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6243\/Artigo1    lex:temParagrafo    lex:L6243\/Artigo1\/ParagrafoUnico .
+lex:L6243\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O aposentado que se encontrar na situação prevista no final do § 3º do artigo 2º da Lei nº 6.210, de 4 de junho de 1975, somente terá direto ao pecúlio correspondente a contribuições relativas a períodos posteriores à data de início da vigência daquela Lei." .
+lex:L6243\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo2 .
+lex:L6243\/Artigo2    lex:temConteudo    "Art 2º Aquele que ingressar no regime da Lei Orgânica da Previdência Social após completar 60 (sessenta) anos de idade terá, também, direito ao pecúlio de que trata o artigo anterior, não fazendo jus, entretanto, a quaisquer outras prestações, salvo o salário-família, e os serviços, bem com o auxílio-funeral." .
+lex:L6243\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo3 .
+lex:L6243\/Artigo3    lex:temConteudo    "Art 3º O segurado que tiver recebido pecúlio e voltar novamente a exercer atividade que o filie ao regime da Lei Orgânica da Previdência Social somente terá direito de levantar em vida o novo pecúlio após 36 (trinta e seis) meses contados da nova filiação." .
+lex:L6243\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo4 .
+lex:L6243\/Artigo4    lex:temConteudo    "Art 4º O pecúlio de que trata esta Lei será devido aos dependentes do segurado, se este falecer sem o ter recebido, ou, na falta de dependentes, a seus sucessores, na forma da lei civil, independente de inventário ou arrolamento." .
+lex:L6243\/Artigo4\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L6243\/Artigo4    lex:temParagrafo    lex:L6243\/Artigo4\/ParagrafoUnico .
+lex:L6243\/Artigo4\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O disposto neste artigo aplica-se em relação a qualquer crédito do segurado junto à Previdência Social na data de seu falecimento." .
+lex:L6243\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo5 .
+lex:L6243\/Artigo5    lex:temConteudo    "Art 5º Esta Lei não se aplica ao pecúlio correspondente às contribuições vertidas anteriormente à data de sua vigência." .
+lex:L6243\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo6 .
+lex:L6243\/Artigo6    lex:temConteudo    "Art 6º O Poder Executivo expedirá, por decreto, dentro de 60 (sessenta) dias da data da publicação desta Lei, a consolidação da Lei Orgânica da Previdência Social, com a respectiva legislação complementar, em texto único revisto, atualizado e remunerado, sem alteração da matéria legal substantiva, repetindo anualmente essa providência." .
+lex:L6243\/Artigo7    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo7 .
+lex:L6243\/Artigo7    lex:temConteudo    "Art 7º Esta Lei entrará em vigor na data de sua publicação, retroagindo seus efeitos a primeiro de julho de 1975." .
+lex:L6243\/Artigo8    lex:ehUm    lex:Artigo .
+lex:L6243    lex:temArtigo    lex:L6243\/Artigo8 .
+lex:L6243\/Artigo8    lex:temConteudo    "Art 8º Revogam-se o § 3º do artigo 5º da Lei Orgânica da Previdência Social, na redação dada pela Lei nº 5.890, de 8 de junho de 1973, o artigo 29 desta última lei e demais disposições em contrário." .
+lex:L6243\/Artigo1    lex:remetePara    lex:L3807 .
+lex:L6243\/Artigo1    lex:remetePara    lex:Del1584\/Artigo2 .
+lex:L6243\/Artigo1\/ParagrafoUnico    lex:remetePara    lex:L6210\/Artigo2\/Paragrafo3 .
+lex:L6243\/Artigo2    lex:remetePara    lex:L3807 .
+lex:L6243\/Artigo8    lex:remetePara    lex:L3807\/Artigo5\/Paragrafo3 .
+lex:L6243\/Artigo8    lex:remetePara    lex:L5890\/Artigo29 .

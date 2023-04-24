@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L8920    lex:ehUm    lex:DocLegal .
+lex:L8920    lex:temTextoIntegral    lex:HTMLs\/L8920.htm .
+lex:L8920\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L8920    lex:temArtigo    lex:L8920\/Artigo1 .
+lex:L8920\/Artigo1    lex:temConteudo    "Art. 1º As empresas públicas, as sociedades de economia mista e as demais pessoas jurídicas, controladas, de forma direta ou indireta, pelo Poder Público, deverão destinar, à constituição de reserva de lucros a realizar, o saldo credor da conta de registro das contrapartidas dos ajustes de correção monetária do ativo permanente e do patrimônio líquido." .
+lex:L8920\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L8920\/Artigo1    lex:temParagrafo    lex:L8920\/Artigo1\/ParagrafoUnico .
+lex:L8920\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A destinação de que trata este artigo terá por limite o lucro líquido do exercício." .
+lex:L8920\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L8920    lex:temArtigo    lex:L8920\/Artigo2 .
+lex:L8920\/Artigo2    lex:temConteudo    "Art. 2º O valor da reserva será excluído do lucro para efeito da distribuição de dividendos e do cálculo da participação de diretores e administradores nos resultados das pessoas jurídicas referidas no artigo anterior, observado o disposto no art. 203 da Lei nº 6.404, de 15 de dezembro de 1976." .
+lex:L8920\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L8920    lex:temArtigo    lex:L8920\/Artigo4 .
+lex:L8920\/Artigo4    lex:temConteudo    "Art. 4º A distribuição de dividendos e de participação nos lucros com inobservância do disposto nesta lei implica responsabilidade solidária dos administradores e fiscais, que deverão repor à caixa social a importância distribuída, sem prejuízo da ação penal que no caso couber." .
+lex:L8920\/Artigo5    lex:ehUm    lex:Artigo .
+lex:L8920    lex:temArtigo    lex:L8920\/Artigo5 .
+lex:L8920\/Artigo5    lex:temConteudo    "Art. 5º Esta lei entra em vigor na data de sua publicação." .
+lex:L8920\/Artigo6    lex:ehUm    lex:Artigo .
+lex:L8920    lex:temArtigo    lex:L8920\/Artigo6 .
+lex:L8920\/Artigo6    lex:temConteudo    "Art. 6º Revogam-se as disposições em contrário." .
+lex:L8920\/Artigo2    lex:remetePara    lex:L6404consol\/Artigo203 .

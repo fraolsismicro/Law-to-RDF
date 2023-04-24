@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://ita.br/lex#> .
+@prefix : <http://ita.br/lex#> .
+
+lex:D90703    lex:ehUm    lex:DocLegal .
+lex:D90703    lex:temTextoIntegral    lex:HTMLs\/D90703.htm .
+lex:D90703\/Artigo1A    lex:ehUm    lex:Artigo .
+lex:D90703    lex:temArtigo    lex:D90703\/Artigo1A .
+lex:D90703\/Artigo1A    lex:temConteudo    "Art. 1Âº, As nomeaÃ§Ãµes e designaÃ§Ãµes de militares de todos os Corpos e Quadros da Marinha serÃ£o feitas conforme abaixo discriminado:" .
+lex:D90703\/Artigo1A\/AlineaCargo    lex:ehUm    lex:Alinea .
+lex:D90703\/Artigo1A    lex:temAlinea    lex:D90703\/Artigo1A\/AlineaCargo .
+lex:D90703\/Artigo1A\/AlineaCargo    lex:temConteudo    "a) cargo privativo de Oficial-General;" .
+lex:D90703\/Artigo1A\/AlineaCargos    lex:ehUm    lex:Alinea .
+lex:D90703\/Artigo1A    lex:temAlinea    lex:D90703\/Artigo1A\/AlineaCargos .
+lex:D90703\/Artigo1A\/AlineaCargos    lex:temConteudo    "b) cargos em Ã³rgÃ£os subordinados Ã  PresidÃªncia da RepÃºblica, a serem providos por Oficiais de qualquer posto;" .
+lex:D90703\/Artigo1A\/AlineaCargos    lex:ehUm    lex:Alinea .
+lex:D90703\/Artigo1A    lex:temAlinea    lex:D90703\/Artigo1A\/AlineaCargos .
+lex:D90703\/Artigo1A\/AlineaCargos    lex:temConteudo    "c) cargos, funÃ§Ãµes ou atividades de carÃ¡ter permanente no exterior; e" .
+lex:D90703\/Artigo1A\/AlineaRepresentaAAes    lex:ehUm    lex:Alinea .
+lex:D90703\/Artigo1A    lex:temAlinea    lex:D90703\/Artigo1A\/AlineaRepresentaAAes .
+lex:D90703\/Artigo1A\/AlineaRepresentaAAes    lex:temConteudo    "d) representaÃ§Ãµes da Marinha em comissÃ£o em outros MinistÃ©rios ou Ã³rgÃ£os da AdministraÃ§Ã£o PÃºblica, quando assim determinado por dispositivo legal ou regulamentar, a serem providas por Oficiais de qualquer posto." .
+lex:D90703\/Artigo2A    lex:ehUm    lex:Artigo .
+lex:D90703    lex:temArtigo    lex:D90703\/Artigo2A .
+lex:D90703\/Artigo2A    lex:temConteudo    "Art. 2Âº - Este Decreto entrarÃ¡ em vigor na data de sua publicaÃ§Ã£o, revogado o Decreto nÂº 68.673 de 24 de maio de 1971 e demais disposiÃ§Ãµes em contrÃ¡rio." .
+lex:D90703\/Artigo2A    lex:remetePara    lex:D68673 .

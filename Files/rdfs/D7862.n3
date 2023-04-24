@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7862    lex:ehUm    lex:DocLegal .
+lex:D7862    lex:temTextoIntegral    lex:HTMLs\/D7862.htm .
+lex:D7862\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7862    lex:temArtigo    lex:D7862\/Artigo1 .
+lex:D7862\/Artigo1    lex:temConteudo    "Art. 1º Fica delegada competência para estabelecer as regras sobre atualização cadastral:" .
+lex:D7862\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D7862\/Artigo1    lex:temInciso    lex:D7862\/Artigo1\/IncisoI .
+lex:D7862\/Artigo1\/IncisoI    lex:temConteudo    "I - ao Ministro de Estado do Planejamento, Orçamento e Gestão, dos:" .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados    lex:ehUm    lex:IncisoAlinea .
+lex:D7862\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados    lex:temConteudo    "a) aposentados e pensionistas da União que recebem proventos de aposentadoria ou pensão à conta do Tesouro Nacional por meio do Sistema Integrado de Administração de Recursos Humanos - SIAPE; e" .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados\/IncisoAlineaAnistiados    lex:ehUm    lex:IncisoAlinea .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados    lex:temIncisoAlinea    lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados\/IncisoAlineaAnistiados .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados\/IncisoAlineaAnistiados    lex:temConteudo    "b) anistiados políticos civis e seus dependentes, de que trata a Lei nº 10.559, de 13 de novembro de 2002; e" .
+lex:D7862\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D7862\/Artigo1    lex:temInciso    lex:D7862\/Artigo1\/IncisoII .
+lex:D7862\/Artigo1\/IncisoII    lex:temConteudo    "II - ao Ministro de Estado da Defesa, dos:" .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares    lex:ehUm    lex:IncisoAlinea .
+lex:D7862\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares    lex:temConteudo    "a) militares inativos e dos pensionistas de militares das Forças Armadas;" .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:ehUm    lex:IncisoAlinea .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares    lex:temIncisoAlinea    lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:temConteudo    "b) pensionistas especiais das Forças Armadas e seus dependentes, de que tratam o Decreto-Lei nº 1.315, de 2 de junho de 1939, o Decreto-Lei nº 1.544, de 25 de agosto de 1939, o Decreto-Lei  nº 3.649, de 24 de setembro de 1941, a Lei nº 288, de 8 de junho de 1948, a Lei nº 5.315, de 12 de setembro de 1967, e a Lei nº 8.059, de 4 de julho de 1990; e" .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas\/IncisoAlineaAnistiados    lex:ehUm    lex:IncisoAlinea .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:temIncisoAlinea    lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas\/IncisoAlineaAnistiados .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas\/IncisoAlineaAnistiados    lex:temConteudo    "c) anistiados políticos militares e seus dependentes, de que trata a Lei nº 10.559, de 13 de novembro de 2002." .
+lex:D7862\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7862    lex:temArtigo    lex:D7862\/Artigo2 .
+lex:D7862\/Artigo2    lex:temConteudo    "Art. 2º Este Decreto entra em vigor no dia 1º de fevereiro de 2013." .
+lex:D7862\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D7862    lex:temArtigo    lex:D7862\/Artigo3 .
+lex:D7862\/Artigo3    lex:temConteudo    "Art. 3º Fica revogado o Decreto nº 7.141, de 29 de março de 2010." .
+lex:D7862\/Artigo1\/IncisoI\/IncisoAlineaAposentados\/IncisoAlineaAnistiados    lex:remetePara    lex:L10559 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:Del1315 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:Del1544 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:Del3649 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:L288 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:L5315 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas    lex:remetePara    lex:L8059 .
+lex:D7862\/Artigo1\/IncisoII\/IncisoAlineaMilitares\/IncisoAlineaPensionistas\/IncisoAlineaAnistiados    lex:remetePara    lex:L10559 .
+lex:D7862\/Artigo3    lex:remetePara    lex:D7141 .

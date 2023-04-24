@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4468    lex:ehUm    lex:DocLegal .
+lex:D4468    lex:temTextoIntegral    lex:HTMLs\/D4468.htm .
+lex:D4468\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4468    lex:temInciso    lex:D4468\/IncisoII .
+lex:D4468\/IncisoII    lex:temConteudo    "II - ocupantes de cargos comissionados de Natureza Especial ou DAS níveis 5 e 6 ou cargos equivalentes perceberão a GDATA calculada com base na pontuação máxima, observando-se o nível do cargo efetivo." .
+lex:D4468\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D4468    lex:temInciso    lex:D4468\/IncisoI .
+lex:D4468\/IncisoI    lex:temConteudo    "I - servidor cedido para outro Poder ou outra esfera de governo ou organização social, no valor correspondente a:" .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoI    lex:temIncisoAlinea    lex:D4468\/IncisoI\/IncisoAlineaPontuacao .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao    lex:temConteudo    "a) pontuação máxima, se ocupante de cargo em comissão de Natureza Especial, DAS 5 ou 6 ou equivalente;" .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao    lex:temIncisoAlinea    lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:temConteudo    "b) setenta e cinco pontos, se ocupante de cargo em comissão DAS 4 ou equivalente;" .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaCinquenta    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:temIncisoAlinea    lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaCinquenta .
+lex:D4468\/IncisoI\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaCinquenta    lex:temConteudo    "c) cinqüenta pontos, para os demais casos;" .
+lex:D4468\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D4468    lex:temInciso    lex:D4468\/IncisoII .
+lex:D4468\/IncisoII    lex:temConteudo    "II - servidor cedido para empresa pública ou sociedade de economia mista, federal ou de outro ente da federação, no valor correspondente a:" .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoII    lex:temIncisoAlinea    lex:D4468\/IncisoII\/IncisoAlineaPontuacao .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao    lex:temConteudo    "a) pontuação máxima, se ocupante de cargo em comissão de Natureza Especial, DAS 5 ou 6 ou equivalente;" .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao    lex:temIncisoAlinea    lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:temConteudo    "b) setenta e cinco pontos, se ocupante de cargo em comissão DAS 4 ou equivalente;" .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaTrinta    lex:ehUm    lex:IncisoAlinea .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta    lex:temIncisoAlinea    lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaTrinta .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/IncisoAlineaTrinta    lex:temConteudo    "c) trinta e sete vírgula cinco pontos, para os demais casos." .
+lex:D4468\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D4468    lex:temParagrafo    lex:D4468\/ParagrafoUnico .
+lex:D4468\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  O órgão de origem dos servidores será responsável pelo processamento do pagamento da GDATA, de acordo com os critérios estabelecidos para cada uma das situações.' (NR)" .
+lex:D4468\/Texto    lex:remetePara    lex:D4247\/Artigo10\/Paragrafo1 .
+lex:D4468\/Texto    lex:remetePara    lex:D4247\/Artigo15 .
+lex:D4468\/Texto00001    lex:remetePara    lex:D4247\/Artigo17 .
+lex:D4468\/IncisoII\/IncisoAlineaPontuacao\/IncisoAlineaSetenta\/Texto00009    lex:remetePara    lex:D4247\/Artigo18 .

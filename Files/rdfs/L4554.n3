@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L4554    lex:ehUm    lex:DocLegal .
+lex:L4554    lex:temTextoIntegral    lex:HTMLs\/L4554.htm .
+lex:L4554\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L4554    lex:temArtigo    lex:L4554\/Artigo1 .
+lex:L4554\/Artigo1    lex:temConteudo    "Art. 1º São isentos de quaisquer tributos, inclusive o impôsto de sêlo, os convênios que, visando ao atendimento do disposto no art. 168, inciso III, da Constituição Federal, ou diplomas estaduais que o regulamentem, sejam assinados por instituições educacionais, sem fins lucrativos, com firmas individuais ou coletivas, nacionais ou estrangeiras." .
+lex:L4554\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L4554\/Artigo1    lex:temParagrafo    lex:L4554\/Artigo1\/ParagrafoUnico .
+lex:L4554\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. Para gozar dos benefícios desta lei as referidas instituições educacionais devem ter estatutos devidamente registrados no Registro de Pessoas Jurídicas, ter sede no País e estar inscritas no Ministério da Educação e Cultura ou nas Secretarias Estaduais de Educação." .
+lex:L4554\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L4554    lex:temArtigo    lex:L4554\/Artigo2 .
+lex:L4554\/Artigo2    lex:temConteudo    "Art. 2º Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário." .
+lex:L4554\/Artigo1    lex:remetePara    lex:Constituicao67\/Artigo168 .

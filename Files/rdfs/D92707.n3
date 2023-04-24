@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D92707    lex:ehUm    lex:DocLegal .
+lex:D92707    lex:temTextoIntegral    lex:HTMLs\/D92707.htm .
+lex:D92707\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D92707    lex:temArtigo    lex:D92707\/Artigo1 .
+lex:D92707\/Artigo1    lex:temConteudo    "Art. 1º De 1º de janeiro a 31 de dezembro de 1986, as importações dos produtos especificados no Anexo I do Protocolo Adicional em apenso, originários de Argentina e México, bem como dos países de menor desenvolvimento econômico relativo, Bolívia, Equador e Paraguai, ficam sujeitas aos gravames e às condições estipuladas no mencionado anexo, que substitui e revoga o Anexo I do Acordo Comercial nº 22 e passa a constituir parte integrante desse instrumento." .
+lex:D92707\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D92707\/Artigo1    lex:temParagrafo    lex:D92707\/Artigo1\/ParagrafoUnico .
+lex:D92707\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. As disposições deste Decreto se aplicam exclusivamente às importações provenientes dos países citados, não se estendendo a terceiros por força da Cláusula de Nação Mais Favorecida ou de outros dispositivos equivalentes." .
+lex:D92707\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D92707    lex:temArtigo    lex:D92707\/Artigo2 .
+lex:D92707\/Artigo2    lex:temConteudo    "Art. 2º O Ministério da Fazenda tomará, através dos órgãos competentes, as providências necessárias ao cumprimento do disposto no presente Decreto." .

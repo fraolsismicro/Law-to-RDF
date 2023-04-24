@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D97576    lex:ehUm    lex:DocLegal .
+lex:D97576    lex:temTextoIntegral    lex:HTMLs\/D97576.htm .
+lex:D97576\/AlineaDe    lex:ehUm    lex:Alinea .
+lex:D97576    lex:temAlinea    lex:D97576\/AlineaDe .
+lex:D97576\/AlineaDe    lex:temConteudo    "f) de corrupção de menores (Lei n°.252, de 1° de julho de 1954);" .
+lex:D97576\/AlineaRelativos    lex:ehUm    lex:Alinea .
+lex:D97576    lex:temAlinea    lex:D97576\/AlineaRelativos .
+lex:D97576\/AlineaRelativos    lex:temConteudo    "i) relativos a entorpecentes ou substâncias que causam dependência física ou psíquica, quando reconhecida na sentença a condição de traficante;" .
+lex:D97576\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D97576    lex:temInciso    lex:D97576\/IncisoII .
+lex:D97576\/IncisoII    lex:temConteudo    "II - haver participado, nos limites de suas possibilidades pessoais, do processo de ressocialização, quando realizado no estabelecimento em que esteja cumprindo pena;" .

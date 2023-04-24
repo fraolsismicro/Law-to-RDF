@@ -1,0 +1,92 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6939    lex:ehUm    lex:DocLegal .
+lex:D6939    lex:temTextoIntegral    lex:HTMLs\/D6939.htm .
+lex:D6939\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6939    lex:temArtigo    lex:D6939\/Artigo1 .
+lex:D6939\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 17, 32, 62, 104, 108, 170, 188-A, 311 e 337 do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999, passa a vigorar com as seguintes alterações:" .
+lex:D6939\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D6939\/Artigo1    lex:temInciso    lex:D6939\/Artigo1\/IncisoIII .
+lex:D6939\/Artigo1\/IncisoIII    lex:temConteudo    "III - para o filho e o irmão, de qualquer condição, ao completarem vinte e um anos de idade, salvo se inválidos, desde que a invalidez tenha ocorrido antes:" .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe    lex:ehUm    lex:IncisoAlinea .
+lex:D6939\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe    lex:temConteudo    "a) de completarem vinte e um anos de idade;" .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe    lex:temIncisoAlinea    lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo    lex:temConteudo    "b) do casamento;" .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo    lex:temConteudo    "c) do início do exercício de emprego público efetivo;" .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "d) da constituição de estabelecimento civil ou comercial ou da existência de relação de emprego, desde que, em função deles, o menor com dezesseis anos completos tenha economia própria; ou" .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "e) da concessão de emancipação, pelos pais, ou de um deles na falta do outro, mediante instrumento público, independentemente de homologação judicial, ou por sentença do juiz, ouvido o tutor, se o menor tiver dezesseis anos completos; e" .
+lex:D6939\/Artigo1\/Paragrafo22    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo22 .
+lex:D6939\/Artigo1\/Paragrafo22    lex:temConteudo    "§ 22.  Considera-se período contributivo:" .
+lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D6939\/Artigo1\/Paragrafo22    lex:temParagrafoInciso    lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoI .
+lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoI    lex:temConteudo    "I - para o empregado, empregado doméstico e trabalhador avulso: o conjunto de meses em que houve ou deveria ter havido contribuição em razão do exercício de atividade remunerada sujeita a filiação obrigatória ao regime de que trata este Regulamento; ou" .
+lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D6939\/Artigo1\/Paragrafo22    lex:temParagrafoInciso    lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoII .
+lex:D6939\/Artigo1\/Paragrafo22\/ParagrafoIncisoII    lex:temConteudo    "II - para os demais segurados, inclusive o facultativo: o conjunto de meses de efetiva contribuição ao regime de que trata este Regulamento. (NR)" .
+lex:D6939\/Artigo1\/Paragrafo14    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo14 .
+lex:D6939\/Artigo1\/Paragrafo14    lex:temConteudo    "§ 14.  A homologação a que se refere a alínea l do inciso II do § 2o se restringe às informações relativas à atividade rural, em especial o atendimento dos incisos II, III e V do § 8o. (NR)" .
+lex:D6939\/Artigo1\/Paragrafo5    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo5 .
+lex:D6939\/Artigo1\/Paragrafo5    lex:temConteudo    "§ 5o  A perda da audição, em qualquer grau, somente proporcionará a concessão do auxílio-acidente quando, além do reconhecimento do nexo entre o trabalho e o agravo, resultar, comprovadamente, na redução ou perda da capacidade para o trabalho que o segurado habitualmente exercia." .
+lex:D6939\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/ParagrafoUnico .
+lex:D6939\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Os servidores de que trata o caput poderão solicitar ao médico assistente do beneficiário que forneça informações sobre antecedentes médicos a este relativas, na forma a ser disciplinada pelo INSS, para fins do disposto nos § 2o do art. 43 e § 1o do art. 71 ou para subsidiar emissão de laudo médico pericial conclusivo. (NR)" .
+lex:D6939\/Artigo1\/Paragrafo4    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo4 .
+lex:D6939\/Artigo1\/Paragrafo4    lex:temConteudo    "§ 4o  Nos casos de auxílio-doença e de aposentadoria por invalidez, o salário-de-benefício consiste na média aritmética simples dos maiores salários-de-contribuição correspondentes a oitenta por cento do período contributivo decorrido desde a competência julho de 1994 até a data do início do benefício. (NR)" .
+lex:D6939\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/ParagrafoUnico .
+lex:D6939\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Somente poderá optar pelo encargo de pagamento, as convenentes que fazem a complementação de benefícios, observada a conveniência administrativa do INSS. (NR)" .
+lex:D6939\/Artigo1\/Paragrafo6    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo6 .
+lex:D6939\/Artigo1\/Paragrafo6    lex:temConteudo    "§ 6o  A perícia médica do INSS deixará de aplicar o disposto no § 3o quando demonstrada a inexistência de nexo entre o trabalho e o agravo, sem prejuízo do disposto nos §§ 7o e 12." .
+lex:D6939\/Artigo1\/Paragrafo7    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo7 .
+lex:D6939\/Artigo1\/Paragrafo7    lex:temConteudo    "§ 7o  A empresa poderá requerer ao INSS a não aplicação do nexo técnico epidemiológico ao caso concreto mediante a demonstração de inexistência de correspondente nexo entre o trabalho e o agravo." .
+lex:D6939\/Artigo1\/Paragrafo10    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo10 .
+lex:D6939\/Artigo1\/Paragrafo10    lex:temConteudo    "§ 10.  Juntamente com o requerimento de que tratam os §§ 8o e 9o, a empresa formulará as alegações que entender necessárias e apresentará as provas que possuir demonstrando a inexistência de nexo entre o trabalho e o agravo." .
+lex:D6939\/Artigo1\/Paragrafo12    lex:ehUm    lex:Paragrafo .
+lex:D6939\/Artigo1    lex:temParagrafo    lex:D6939\/Artigo1\/Paragrafo12 .
+lex:D6939\/Artigo1\/Paragrafo12    lex:temConteudo    "§ 12.  O INSS informará ao segurado sobre a contestação da empresa para que este, querendo, possa impugná-la, obedecendo, quanto à produção de provas, ao disposto no § 10, sempre que a instrução do pedido evidenciar a possibilidade de reconhecimento de inexistência do nexo entre o trabalho e o agravo." .
+lex:D6939\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6939    lex:temArtigo    lex:D6939\/Artigo2 .
+lex:D6939\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6939\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6939    lex:temArtigo    lex:D6939\/Artigo3 .
+lex:D6939\/Artigo3    lex:temConteudo    "Art. 3o  Ficam revogados:" .
+lex:D6939\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6939\/Artigo3    lex:temInciso    lex:D6939\/Artigo3\/IncisoI .
+lex:D6939\/Artigo3\/IncisoI    lex:temConteudo    "I - o § 20 do art. 32 do Regulamento da Previdência Social, aprovado pelo Decreto no 3.048, de 6 de maio de 1999; e" .
+lex:D6939\/Artigo3\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6939\/Artigo3    lex:temInciso    lex:D6939\/Artigo3\/IncisoII .
+lex:D6939\/Artigo3\/IncisoII    lex:temConteudo    "II - o Decreto no 4.827, de 3 de setembro de 2003." .
+lex:D6939\/Texto00001    lex:remetePara    lex:D3048\/Artigo17 .
+lex:D6939\/Artigo1\/IncisoIII\/IncisoAlineaDe\/IncisoAlineaDo\/IncisoAlineaDo\/IncisoAlineaDa\/Texto00007    lex:remetePara    lex:D3048\/Artigo32\/Paragrafo22 .
+lex:D6939\/Artigo1\/Paragrafo22\/Texto00010    lex:remetePara    lex:D3048\/Artigo62\/Paragrafo14 .
+lex:D6939\/Artigo1\/Texto00011    lex:remetePara    lex:D3048\/Artigo104\/Paragrafo5 .
+lex:D6939\/Artigo1\/Texto00012    lex:remetePara    lex:D3048\/Artigo108 .
+lex:D6939\/Artigo1\/Texto00012    lex:remetePara    lex:D3048\/Artigo170 .
+lex:D6939\/Artigo1\/Texto00013    lex:remetePara    lex:D3048\/Artigo188\/Paragrafo4 .
+lex:D6939\/Artigo1\/Texto00014    lex:remetePara    lex:D3048\/Artigo311 .
+lex:D6939\/Artigo1\/Texto00015    lex:remetePara    lex:D3048\/Artigo337\/Paragrafo6 .
+lex:D6939\/Artigo1\/Paragrafo10    lex:remetePara    lex:D3048\/Artigo337\/Paragrafo10 .
+lex:D6939\/Artigo1\/Paragrafo12    lex:remetePara    lex:D3048\/Artigo337\/Paragrafo12 .
+lex:D6939\/Artigo3\/IncisoI    lex:remetePara    lex:D3048\/Artigo32\/Paragrafo20 .
+lex:D6939\/Artigo3\/IncisoII    lex:remetePara    lex:D4827 .

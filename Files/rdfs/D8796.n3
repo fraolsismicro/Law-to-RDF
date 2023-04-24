@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8796    lex:ehUm    lex:DocLegal .
+lex:D8796    lex:temTextoIntegral    lex:HTMLs\/D8796.htm .
+lex:D8796\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8796    lex:temArtigo    lex:D8796\/Artigo1 .
+lex:D8796\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, até 1o de novembro de 2016, da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão para o Gabinete Pessoal do Presidente da República, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D8796\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8796\/Artigo1    lex:temInciso    lex:D8796\/Artigo1\/IncisoI .
+lex:D8796\/Artigo1\/IncisoI    lex:temConteudo    "I - um DAS 102.4; e" .
+lex:D8796\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8796\/Artigo1    lex:temInciso    lex:D8796\/Artigo1\/IncisoII .
+lex:D8796\/Artigo1\/IncisoII    lex:temConteudo    "II - um DAS 102.3." .
+lex:D8796\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8796\/Artigo1    lex:temParagrafo    lex:D8796\/Artigo1\/Paragrafo1 .
+lex:D8796\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  Os cargos em comissão não integrarão a Estrutura Regimental do Gabinete Pessoal do Presidente da República, devendo constar dos atos de nomeação seu caráter de transitoriedade, mediante remissão a este Decreto." .
+lex:D8796\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8796\/Artigo1    lex:temParagrafo    lex:D8796\/Artigo1\/Paragrafo2 .
+lex:D8796\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2o  Ao fim do prazo estabelecido no caput, os cargos serão restituídos à Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão, ficando os seus ocupantes automaticamente exonerados." .
+lex:D8796\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8796    lex:temArtigo    lex:D8796\/Artigo2 .
+lex:D8796\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8796\/Texto    lex:remetePara    lex:D8796 .

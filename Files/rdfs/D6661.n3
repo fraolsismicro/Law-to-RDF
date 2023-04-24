@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6661    lex:ehUm    lex:DocLegal .
+lex:D6661    lex:temTextoIntegral    lex:HTMLs\/D6661.htm .
+lex:D6661\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo1 .
+lex:D6661\/Artigo1    lex:temConteudo    "Art. 1o  Ficam aprovados a Estrutura Regimental e o Quadro Demonstrativo dos Cargos em Comissão e das Funções Gratificadas do Ministério da Fazenda, na forma dos Anexos I e II." .
+lex:D6661\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo2 .
+lex:D6661\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, ficam remanejados, na forma do Anexo III, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
+lex:D6661\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D6661\/Artigo2    lex:temInciso    lex:D6661\/Artigo2\/IncisoI .
+lex:D6661\/Artigo2\/IncisoI    lex:temConteudo    "I - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério da Fazenda: um DAS 101.2 e três DAS 102.1; e" .
+lex:D6661\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D6661\/Artigo2    lex:temInciso    lex:D6661\/Artigo2\/IncisoII .
+lex:D6661\/Artigo2\/IncisoII    lex:temConteudo    "II - do Ministério da Fazenda para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: um DAS 102.2 e três DAS 101.1." .
+lex:D6661\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo3 .
+lex:D6661\/Artigo3    lex:temConteudo    "Art. 3o  Os apostilamentos decorrentes da aprovação da Estrutura Regimental de que trata o art. 1o deverão ocorrer no prazo de trinta dias, contado da data de publicação deste Decreto." .
+lex:D6661\/Artigo3\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6661\/Artigo3    lex:temParagrafo    lex:D6661\/Artigo3\/ParagrafoUnico .
+lex:D6661\/Artigo3\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  Após os apostilamentos previstos no caput, o Ministro de Estado da Fazenda fará publicar, no Diário Oficial da União, no prazo de sessenta dias, contado da data de publicação deste Decreto, relação nominal dos titulares dos cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS, a que se refere o Anexo II, indicando, inclusive, o número de cargos vagos, sua denominação e respectivo nível." .
+lex:D6661\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo4 .
+lex:D6661\/Artigo4    lex:temConteudo    "Art. 4o  Os Regimentos Internos dos órgãos do Ministério da Fazenda serão aprovados pelo Ministro de Estado e publicados no Diário Oficial da União no prazo de noventa dias, contado da data de publicação deste Decreto." .
+lex:D6661\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo5 .
+lex:D6661\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6661\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D6661    lex:temArtigo    lex:D6661\/Artigo6 .
+lex:D6661\/Artigo6    lex:temConteudo    "Art. 6o  Fica revogado o Decreto no 6.531, de 4 de agosto de 2008." .
+lex:D6661\/Texto    lex:remetePara    lex:D6661 .
+lex:D6661\/Artigo6    lex:remetePara    lex:D6531 .

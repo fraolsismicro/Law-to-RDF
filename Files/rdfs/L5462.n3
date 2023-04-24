@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:L5462    lex:ehUm    lex:DocLegal .
+lex:L5462    lex:temTextoIntegral    lex:HTMLs\/L5462.htm .
+lex:L5462\/Artigo1    lex:ehUm    lex:Artigo .
+lex:L5462    lex:temArtigo    lex:L5462\/Artigo1 .
+lex:L5462\/Artigo1    lex:temConteudo    "Art 1º A parte suplementar da produção dos servidores do Departamento de Imprensa Nacional, a que se refere a Lei nº 4.491, de 21 de novembro de 1964, será incorporada aos proventos da aposentadoria, à razão de 1/30 (um trinta avos) por ano de serviço, contado a partir da vigência da mesma Lei, fixado o valor da parcela incorporável na média mensal da produção suplementar do servidor, calculada no biênio imediatamente anterior à aposentadoria." .
+lex:L5462\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:L5462\/Artigo1    lex:temParagrafo    lex:L5462\/Artigo1\/ParagrafoUnico .
+lex:L5462\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. A gratificação pela produção suplementar média a ser considerada para efeito dêste artigo não poderá exceder o valor da gratificação percebida pelo servidor no momento da aposentadoria; limitada, em qualquer caso, ao vencimento do servidor." .
+lex:L5462\/Artigo2    lex:ehUm    lex:Artigo .
+lex:L5462    lex:temArtigo    lex:L5462\/Artigo2 .
+lex:L5462\/Artigo2    lex:temConteudo    "Art 2º Para efeito do pagamento da parte suplementar da produção nos períodos de afastamento considerados de efetivo exercício pela legislação vigente, será pago ao servidor o valor médio mensal do que haja produzido nos 12 (doze) meses imediatamente anteriores ao afastamento." .
+lex:L5462\/Artigo3    lex:ehUm    lex:Artigo .
+lex:L5462    lex:temArtigo    lex:L5462\/Artigo3 .
+lex:L5462\/Artigo3    lex:temConteudo    "Art 3º Esta Lei entra em vigor na data de sua publicação." .
+lex:L5462\/Artigo4    lex:ehUm    lex:Artigo .
+lex:L5462    lex:temArtigo    lex:L5462\/Artigo4 .
+lex:L5462\/Artigo4    lex:temConteudo    "Art 4º Revogam-se as disposições em contrário." .
+lex:L5462\/Artigo1    lex:remetePara    lex:L4491 .

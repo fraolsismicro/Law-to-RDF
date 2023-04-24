@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6946    lex:ehUm    lex:DocLegal .
+lex:D6946    lex:temTextoIntegral    lex:HTMLs\/D6946.htm .
+lex:D6946\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6946    lex:temArtigo    lex:D6946\/Artigo1 .
+lex:D6946\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 4o e 51 Regulamento do Serviço de Defesa Sanitária Animal, aprovado pelo Decreto no 24.548, de 3 de julho de 1934, passam a vigorar com a seguinte redação:" .
+lex:D6946\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D6946\/Artigo1    lex:temParagrafo    lex:D6946\/Artigo1\/ParagrafoUnico .
+lex:D6946\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  ..........................................................." .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaForem    lex:ehUm    lex:Alinea .
+lex:D6946\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaForem .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaForem    lex:temConteudo    "a) forem visados por autoridade consular brasileira do país de procedência dos animais, exigido apenas para países que requeiram idêntico procedimento nos certificados sanitários expedidos pelo Brasil;" .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaQuando    lex:ehUm    lex:Alinea .
+lex:D6946\/Artigo1\/ParagrafoUnico    lex:temAlinea    lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaQuando .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaQuando    lex:temConteudo    "b) quando forem visados por autoridade consular brasileira, exigido apenas para países que requeiram idêntico procedimento nos certificados sanitários expedidos pelo Brasil;" .
+lex:D6946\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6946    lex:temArtigo    lex:D6946\/Artigo2 .
+lex:D6946\/Artigo2    lex:temConteudo    "Art. 2o  O art. 7o do Regulamento de Defesa Sanitária Vegetal, aprovado pelo Decreto no 24.114, de 12 de abril de 1934, passa a vigorar com a seguinte redação:" .
+lex:D6946\/Artigo2\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D6946\/Artigo2    lex:temParagrafo    lex:D6946\/Artigo2\/Paragrafo1 .
+lex:D6946\/Artigo2\/Paragrafo1    lex:temConteudo    "§ 1o  .............................................................................." .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO    lex:ehUm    lex:Alinea .
+lex:D6946\/Artigo2\/Paragrafo1    lex:temAlinea    lex:D6946\/Artigo2\/Paragrafo1\/AlineaO .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO    lex:temConteudo    "a) o certificado de origem e de sanidade vegetal do país de origem:" .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO\/Item    lex:ehUm    lex:Item .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO    lex:temItem    lex:D6946\/Artigo2\/Paragrafo1\/AlineaO\/Item .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO\/Item    lex:temConteudo    "............................................................................................." .
+lex:D6946\/Artigo2\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D6946\/Artigo2    lex:temParagrafo    lex:D6946\/Artigo2\/Paragrafo2 .
+lex:D6946\/Artigo2\/Paragrafo2    lex:temConteudo    "§ 2o  .............................................................................." .
+lex:D6946\/Artigo2\/Paragrafo2\/AlineaVisto    lex:ehUm    lex:Alinea .
+lex:D6946\/Artigo2\/Paragrafo2    lex:temAlinea    lex:D6946\/Artigo2\/Paragrafo2\/AlineaVisto .
+lex:D6946\/Artigo2\/Paragrafo2\/AlineaVisto    lex:temConteudo    "j) visto consular, no caso de país de origem que requeira o mesmo procedimento nos certificados sanitários expedidos pelo Brasil." .
+lex:D6946\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6946    lex:temArtigo    lex:D6946\/Artigo3 .
+lex:D6946\/Artigo3    lex:temConteudo    "Art. 3o Este Decreto entra em vigor na data de sua publicação." .
+lex:D6946\/Artigo4    lex:ehUm    lex:Artigo .
+lex:D6946    lex:temArtigo    lex:D6946\/Artigo4 .
+lex:D6946\/Artigo4    lex:temConteudo    "Art. 4o  Ficam revogados os arts. 4o e 5o do Regulamento de Defesa Sanitária Vegetal, aprovado pelo Decreto no 24.114, de 12 de abril de 1934." .
+lex:D6946\/Artigo1    lex:remetePara    lex:D24548 .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaForem    lex:remetePara    lex:D24548\/Artigo4 .
+lex:D6946\/Artigo1\/ParagrafoUnico\/AlineaQuando    lex:remetePara    lex:D24548\/Artigo51 .
+lex:D6946\/Artigo2    lex:remetePara    lex:D24114 .
+lex:D6946\/Artigo2\/Paragrafo1\/AlineaO    lex:remetePara    lex:D24114\/Artigo7\/Paragrafoia .
+lex:D6946\/Artigo2\/Paragrafo2\/AlineaVisto    lex:remetePara    lex:D24114\/Artigo7\/Paragrafo2j .
+lex:D6946\/Artigo4    lex:remetePara    lex:D24114\/Artigo4 .
+lex:D6946\/Artigo4    lex:regulamentadoPor    lex:D24114\/Artigo5 .
+lex:D24114\/Artigo5    lex:regulamenta    lex:D6946\/Artigo4 .

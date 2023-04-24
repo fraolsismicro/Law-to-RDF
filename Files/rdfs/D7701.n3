@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D7701    lex:ehUm    lex:DocLegal .
+lex:D7701    lex:temTextoIntegral    lex:HTMLs\/D7701.htm .
+lex:D7701\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D7701    lex:temArtigo    lex:D7701\/Artigo1 .
+lex:D7701\/Artigo1    lex:temConteudo    "Art. 1o  Os efetivos de Oficiais-Generais, Oficiais e Praças - Subtenentes, Sargentos, Taifeiros, Cabos e Soldados - do Exército, em serviço ativo, para 2012, obedecerão ao disposto no Anexo a este Decreto." .
+lex:D7701\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D7701    lex:temArtigo    lex:D7701\/Artigo2 .
+lex:D7701\/Artigo2    lex:temConteudo    "Art. 2o  Fica delegada competência ao Comandante do Exército para alterar em até vinte por cento a distribuição dos efetivos de oficiais e praças de que trata o Anexo a este Decreto, respeitados os limites estabelecidos em lei." .
+lex:D7701\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D7701    lex:temArtigo    lex:D7701\/Artigo5 .
+lex:D7701\/Artigo5    lex:temConteudo    "Art. 5o  Fica revogado o Decreto no 7.440, de 16 de fevereiro de 2011." .
+lex:D7701\/Texto    lex:remetePara    lex:D7701 .
+lex:D7701\/Artigo5    lex:remetePara    lex:D7440 .

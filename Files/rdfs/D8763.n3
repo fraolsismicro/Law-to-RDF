@@ -1,0 +1,116 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D8763    lex:ehUm    lex:DocLegal .
+lex:D8763    lex:temTextoIntegral    lex:HTMLs\/D8763.htm .
+lex:D8763\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D8763    lex:temArtigo    lex:D8763\/Artigo1 .
+lex:D8763\/Artigo1    lex:temConteudo    "Art. 1 º  O processo seletivo para a nomeação dos cargos previstos no estatuto da Empresa Brasileira de Pesquisa Agropecuária - Embrapa deverá observar os seguintes requisitos mínimos:" .
+lex:D8763\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D8763\/Artigo1    lex:temInciso    lex:D8763\/Artigo1\/IncisoI .
+lex:D8763\/Artigo1\/IncisoI    lex:temConteudo    "I - o Presidente da Empresa e todos os Diretores Executivos serão indicados pelo Conselho de Administração, mediante lista tríplice, ao Ministro de Estado da Agricultura, Pecuária e Abastecimento, para nomeação pelo Presidente da República, e deverão ter cumulativamente:" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade    lex:temConteudo    "a) credibilidade e representação junto à comunidade de pesquisa, desenvolvimento e inovação;" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia    lex:temConteudo    "b) experiência em cooperação nacional e internacional; e" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia    lex:temConteudo    "c) experiência mínima de quatro anos em pelo menos uma das seguintes funções:" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia    lex:temIncisoAlineaItem    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo    lex:temConteudo    "1. cargo gerencial em empresa de grande porte de que trata a Lei n º 11.638, de 28 de dezembro de 2007;" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo    lex:temIncisoAlineaItem    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo    lex:temConteudo    "2. cargo gerencial do setor de atividade da Embrapa; ou" .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo    lex:ehUm    lex:IncisoAlineaItem .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo    lex:temIncisoAlineaItem    lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo\/IncisoAlineaItemCargo    lex:temConteudo    "3. cargo em comissão ou função de confiança equivalente a nível DAS 4 ou superior no setor público;" .
+lex:D8763\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D8763\/Artigo1    lex:temInciso    lex:D8763\/Artigo1\/IncisoII .
+lex:D8763\/Artigo1\/IncisoII    lex:temConteudo    "II - o Diretor-Executivo de Administração e Finanças deverá ter, além dos requisitos previstos no inciso I, experiência em gestão administrativa e financeira;" .
+lex:D8763\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D8763\/Artigo1    lex:temInciso    lex:D8763\/Artigo1\/IncisoIII .
+lex:D8763\/Artigo1\/IncisoIII    lex:temConteudo    "III - o Presidente da empresa deverá ter, além dos requisitos previstos no inciso I, pelo menos oito anos de experiência em atividades relacionadas ao objeto social da Empresa;" .
+lex:D8763\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
+lex:D8763\/Artigo1    lex:temInciso    lex:D8763\/Artigo1\/IncisoIV .
+lex:D8763\/Artigo1\/IncisoIV    lex:temConteudo    "IV - os demais membros de órgãos estatutários indicados pela União deverão ter experiência mínima de três anos em pelo menos uma das seguintes funções:" .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo    lex:temConteudo    "a) cargo gerencial no setor privado;" .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo    lex:temConteudo    "b) cargo em comissão ou função de confiança no setor público; ou" .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo\/IncisoAlineaCargo    lex:ehUm    lex:IncisoAlinea .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo    lex:temIncisoAlinea    lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo\/IncisoAlineaCargo .
+lex:D8763\/Artigo1\/IncisoIV\/IncisoAlineaCargo\/IncisoAlineaCargo\/IncisoAlineaCargo    lex:temConteudo    "c) cargo estatutário em empresa; e" .
+lex:D8763\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
+lex:D8763\/Artigo1    lex:temInciso    lex:D8763\/Artigo1\/IncisoV .
+lex:D8763\/Artigo1\/IncisoV    lex:temConteudo    "V - todos os membros de órgãos estatutários indicados pela União, inclusive o Presidente da Empresa e os Diretores, deverão possuir curso superior completo." .
+lex:D8763\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
+lex:D8763\/Artigo1    lex:temParagrafo    lex:D8763\/Artigo1\/Paragrafo1 .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1 º  Sem prejuízo das vedações previstas na legislação vigente, não podem participar dos órgãos estatutários da empresa, enquanto perdurar a situação:" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoI .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoI    lex:temConteudo    "I - os que tiverem registrado candidatura a mandato público eletivo;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - os condenados por crime falimentar, de sonegação fiscal, de prevaricação, de corrupção ativa ou passiva, de concussão, de peculato, contra a economia popular, contra a fé pública ou a propriedade, ou a pena criminal, que vede, ainda que temporariamente, o acesso a cargos públicos;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - os declarados falidos ou insolventes;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIV    lex:temConteudo    "IV - os declarados inabilitados para cargos de administração em empresas sujeitas à autorização, ao controle e à fiscalização de órgãos e entidades da administração pública federal;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoV .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoV    lex:temConteudo    "V - sócio, cônjuge, companheiro e parente até o terceiro grau de outro membro de órgão estatutário;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVI    lex:temConteudo    "VI - os que tenham causado dano ainda não reparado a entidade da administração pública, em decorrência da prática de ato ilícito;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:temConteudo    "VII - os que estejam em litígio judicial não trabalhista com a estatal ou com empresa do mesmo grupo de que trata a Lei n º 6.404, de 15 de dezembro de 1976, inclusive em ações coletivas, ressalvados os casos em que figurar como substituído processual e os casos de dispensa justificada e aprovada em assembleia geral;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVIII    lex:temConteudo    "VIII - os que detenham controle ou participação relevante no capital social de pessoa jurídica inadimplente com a estatal ou com empresa do mesmo grupo, bem como os que tenham ocupado cargo de administração em pessoa jurídica nessa situação, no período de um ano anterior à data de sua eleição ou nomeação;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIX    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIX .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoIX    lex:temConteudo    "IX - os que detiveram o controle ou participaram da administração de pessoa jurídica em recuperação judicial, falida ou insolvente, no período de cinco anos anteriores à data de sua eleição ou nomeação, exceto na condição de síndico, comissário ou administrador judicial;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoX    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoX .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoX    lex:temConteudo    "X - os que prestam ou prestaram, nos últimos seis meses, qualquer tipo de serviço a empresa que possa ser considerada concorrente no mercado ou com a qual a estatal tenha estabelecido relacionamento relevante, exceto por dispensa da assembleia geral;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXI    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXI .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXI    lex:temConteudo    "XI - os que tiverem interesse conflitante com a empresa estatal, inclusive aqueles que ocuparem cargos, em especial, em conselhos consultivos, de administração ou fiscal, em empresas que sejam fornecedoras ou clientes da estatal ou que possam ser consideradas concorrentes no mercado, salvo nesse último caso por dispensa da Assembleia Geral;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXII    lex:temConteudo    "XII - dirigentes estatutários de partidos políticos;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIII    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIII .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIII    lex:temConteudo    "XIII - os que forem demitidos do serviço público em decorrência de processo administrativo ou judicial, pelo prazo de oito anos, contado da decisão, exceto se o ato houver sido suspenso ou anulado pelo Poder Judiciário;" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIV .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXIV    lex:temConteudo    "XIV - a pessoa física e os dirigentes de pessoas jurídicas responsáveis por doações eleitorais tidas por ilegais por decisão transitada em julgado ou proferida por órgão colegiado da Justiça Eleitoral, pelo prazo de oito anos após a decisão; e" .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXV    lex:ehUm    lex:ParagrafoInciso .
+lex:D8763\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXV .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoXV    lex:temConteudo    "XV - os magistrados e os membros do Ministério Público que forem aposentados compulsoriamente por decisão sancionatória, que tenham perdido o cargo por sentença ou que tenham pedido exoneração ou aposentadoria voluntária na pendência de processo administrativo disciplinar, pelo prazo de oito anos." .
+lex:D8763\/Artigo1\/Paragrafo2    lex:ehUm    lex:Paragrafo .
+lex:D8763\/Artigo1    lex:temParagrafo    lex:D8763\/Artigo1\/Paragrafo2 .
+lex:D8763\/Artigo1\/Paragrafo2    lex:temConteudo    "§ 2 º  Os órgãos responsáveis pela indicação de diretores e representantes da União nos conselhos de administração e fiscal das empresas estatais federais deverão criar procedimento administrativo, com base em análise curricular, que demonstre a compatibilidade da formação acadêmica e/ou experiência profissional do indicado ao perfil necessário para o cargo." .
+lex:D8763\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D8763    lex:temArtigo    lex:D8763\/Artigo2 .
+lex:D8763\/Artigo2    lex:temConteudo    "Art. 2 º  O Conselho de Administração será composto por até oito membros." .
+lex:D8763\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D8763    lex:temArtigo    lex:D8763\/Artigo3 .
+lex:D8763\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo    lex:remetePara    lex:L11638 .
+lex:D8763\/Artigo1\/IncisoI\/IncisoAlineaCredibilidade\/IncisoAlineaExperiencia\/IncisoAlineaExperiencia\/IncisoAlineaItemCargo    lex:remetePara    lex:L11638 .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:remetePara    lex:L6404consol .
+lex:D8763\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:remetePara    lex:L6404consol .

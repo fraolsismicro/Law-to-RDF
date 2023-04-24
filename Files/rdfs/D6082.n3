@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D6082    lex:ehUm    lex:DocLegal .
+lex:D6082    lex:temTextoIntegral    lex:HTMLs\/D6082.htm .
+lex:D6082\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D6082    lex:temArtigo    lex:D6082\/Artigo1 .
+lex:D6082\/Artigo1    lex:temConteudo    "Art. 1 º  Fica incluída no Decreto n º 40.556, de 17 de dezembro de 1956, a Medalha do Mérito Marechal Cordeiro de Farias, instituída pela Portaria n º 14/Cmdo, de 20 de junho de 1983, da Escola Superior de Guerra (ESG)." .
+lex:D6082\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D6082    lex:temArtigo    lex:D6082\/Artigo2 .
+lex:D6082\/Artigo2    lex:temConteudo    "Art. 2 º  A Medalha do Mérito Marechal Cordeiro de Farias fica posicionada na alínea 'e' do art. 2 º do Decreto n º 40.556, de 1956, logo após a Medalha da Vitória." .
+lex:D6082\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D6082    lex:temArtigo    lex:D6082\/Artigo3 .
+lex:D6082\/Artigo3    lex:temConteudo    "Art. 3 º  Este Decreto entra em vigor na data de sua publicação." .
+lex:D6082\/Artigo1    lex:remetePara    lex:D40556 .
+lex:D6082\/Artigo2    lex:remetePara    lex:D40556\/Artigo2 .

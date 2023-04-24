@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D4151    lex:ehUm    lex:DocLegal .
+lex:D4151    lex:temTextoIntegral    lex:HTMLs\/D4151.htm .
+lex:D4151\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D4151    lex:temArtigo    lex:D4151\/Artigo1 .
+lex:D4151\/Artigo1    lex:temConteudo    "Art. 1o  Fica extinto o Comitê Nacional da Qualidade e Produtividade." .
+lex:D4151\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D4151    lex:temArtigo    lex:D4151\/Artigo2 .
+lex:D4151\/Artigo2    lex:temConteudo    "Art. 2o  Revoga-se o Decreto no 3.364, de 15 de fevereiro de 2000." .
+lex:D4151\/Artigo2    lex:remetePara    lex:D3364 .

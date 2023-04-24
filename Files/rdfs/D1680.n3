@@ -1,0 +1,78 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lex: <http://localhost:8080/fuseki/> .
+@prefix : <http://localhost:8080/fuseki/> .
+
+lex:D1680    lex:ehUm    lex:DocLegal .
+lex:D1680    lex:temTextoIntegral    lex:HTMLs\/D1680.htm .
+lex:D1680\/Artigo1    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo1 .
+lex:D1680\/Artigo1    lex:temConteudo    "Art. 1º Ao Conselho Consultivo, órgão colegiado da Coordenadoria Nacional para Integração da Pessoa Portadora de Deficiência - CORDE, compete:" .
+lex:D1680\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo1    lex:temInciso    lex:D1680\/Artigo1\/IncisoI .
+lex:D1680\/Artigo1\/IncisoI    lex:temConteudo    "I - opinar sobre o desenvolvimento da Política Nacional para integração da Pessoa Portadora de Deficiência;" .
+lex:D1680\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo1    lex:temInciso    lex:D1680\/Artigo1\/IncisoII .
+lex:D1680\/Artigo1\/IncisoII    lex:temConteudo    "II - apresentar sugestões para o encaminhamento dessa política;" .
+lex:D1680\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo1    lex:temInciso    lex:D1680\/Artigo1\/IncisoIII .
+lex:D1680\/Artigo1\/IncisoIII    lex:temConteudo    "III - responder a consultas formuladas pela CORDE." .
+lex:D1680\/Artigo2    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo2 .
+lex:D1680\/Artigo2    lex:temConteudo    "Art. 2º O Conselho Consultivo, presidido pelo Coordenador Nacional da CORDE, tem a seguinte composição:" .
+lex:D1680\/Artigo2\/IncisoI    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo2    lex:temInciso    lex:D1680\/Artigo2\/IncisoI .
+lex:D1680\/Artigo2\/IncisoI    lex:temConteudo    "I - um representante de cada Ministério a seguir indicado:" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temConteudo    "a) da Educação e do Desporto;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:temConteudo    "b) do Trabalho;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temConteudo    "c) da Previdência e Assistência Social;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "d) da Ciência e Tecnologia;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:temConteudo    "e) dos Transportes;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:temConteudo    "f) da Saúde;" .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa    lex:ehUm    lex:IncisoAlinea .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa    lex:temIncisoAlinea    lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa .
+lex:D1680\/Artigo2\/IncisoI\/IncisoAlineaDa\/IncisoAlineaDo\/IncisoAlineaDa\/IncisoAlineaDa\/IncisoAlineaDos\/IncisoAlineaDa\/IncisoAlineaDa    lex:temConteudo    "g) da Indústria, do Comércio e do Turismo;" .
+lex:D1680\/Artigo2\/IncisoII    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo2    lex:temInciso    lex:D1680\/Artigo2\/IncisoII .
+lex:D1680\/Artigo2\/IncisoII    lex:temConteudo    "II - um representante do Ministério Público Federal;" .
+lex:D1680\/Artigo2\/IncisoIII    lex:ehUm    lex:Inciso .
+lex:D1680\/Artigo2    lex:temInciso    lex:D1680\/Artigo2\/IncisoIII .
+lex:D1680\/Artigo2\/IncisoIII    lex:temConteudo    "III - nove representantes de entidades nacionais não-governamentais, filantrópicas, representativas do movimento de pessoas portadoras de deficiência, escolhidas em fórum nacional." .
+lex:D1680\/Artigo2\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
+lex:D1680\/Artigo2    lex:temParagrafo    lex:D1680\/Artigo2\/ParagrafoUnico .
+lex:D1680\/Artigo2\/ParagrafoUnico    lex:temConteudo    "Parágrafo único. O Presidente do Conselho Consultivo poderá, ainda, convidar para participar das reuniões especialistas e representantes de órgãos e entidades cuja colaboração considere necessária." .
+lex:D1680\/Artigo3    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo3 .
+lex:D1680\/Artigo3    lex:temConteudo    "Art. 3º Os membros do Conselhos Consultivo e os seus suplentes serão indicados ao Coordenador Nacional da CORDE e nomeados pelo Ministro de Estado da Justiça, para mandato de dois anos, permitida a recondução. p Art 4º A função de membro do Conselho Consultivo é considerada de interesse público relevante e não será remunerada." .
+lex:D1680\/Artigo5    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo5 .
+lex:D1680\/Artigo5    lex:temConteudo    "Art. 5º O Conselho Consultivo reunir-se-á ordinariamente uma vez por trimestre e, extraordinariamente, por iniciativa de um terço de seus membros, mediante manifestação escrita, com antecedência de dez dias, e delirará por maioria de votos dos Conselheiros presentes." .
+lex:D1680\/Artigo6    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo6 .
+lex:D1680\/Artigo6    lex:temConteudo    "Art. 6º Os serviços de secretaria executiva do Conselho Consultivo serão prestados pela Coordenadoria Nacional para Integração da Pessoa Portadora de Deficiência." .
+lex:D1680\/Artigo7    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo7 .
+lex:D1680\/Artigo7    lex:temConteudo    "Art. 7º O regimento interno do Conselho Consultivo será aprovado pelo Ministro de Estado da Justiça." .
+lex:D1680\/Artigo8    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo8 .
+lex:D1680\/Artigo8    lex:temConteudo    "Art. 8º Este Decreto entra em vigor data de sua publicação." .
+lex:D1680\/Artigo9    lex:ehUm    lex:Artigo .
+lex:D1680    lex:temArtigo    lex:D1680\/Artigo9 .
+lex:D1680\/Artigo9    lex:temConteudo    "Art. 9º Ficam revogados o Decreto nº 214, de 12 de setembro de 1991, e o Decreto de 14 de dezembro de 1992, que dá nova redação ao art. 2º daquele Decreto." .
+lex:D1680\/Artigo9    lex:remetePara    lex:D214 .
+lex:D1680\/Artigo9    lex:remetePara    lex:Dnn1208 .
