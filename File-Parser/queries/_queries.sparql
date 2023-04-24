@@ -1,0 +1,258 @@
+20/08/2017
+----------
+Using rdfN3 to store triples:
+1930236 triples
+35314 DocLegal resources
+#resolvido 3 RDFS COM PROBLEMAS comparar os 35295 RDF com os 35292 DocLegal Gerados. (D2314, D3510, L1474)
+
+#PREFIXES
+#--------
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX lex: <http://localhost:8080/fuseki/>
+PREFIX : <http://localhost:8080/fuseki/>
+	
+
+#COUNTING *
+#-------------------
+SELECT (COUNT(*) AS ?regs)
+WHERE { 
+  ?s ?p ?o
+}
+
+#COUNTING DocLegal
+#-----------------
+SELECT (COUNT(?s) AS ?regs)
+WHERE { 
+  ?s lex:ehUm lex:DocLegal
+}
+
+
+#COUNTING predicates
+#-------------------
+SELECT ?p (COUNT(?p) AS ?regs)
+WHERE { 
+  ?s ?p ?o .
+}
+GROUP BY ?p
+ORDER BY DESC(?regs)
+LIMIT 250
+
+
+
+
+
+
+# retornar as triplas cujo sujeito inicia como ...
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX xml: <http://www.w3.org/XML/1998/namespace> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX lex: <http://localhost:8080/fuseki/>  
+PREFIX : <http://localhost:8080/fuseki/>  
+#DELETE
+SELECT *
+WHERE {
+    ?s ?p ?o
+  FILTER(STRSTARTS(STR(?s), "http://ita.br/lex#D0987"))
+}
+ORDER BY ?s ?p ?o
+LIMIT 200
+
+
+# search some expression
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX xml: <http://www.w3.org/XML/1998/namespace> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX lex: <http://localhost:8080/fuseki/>  
+PREFIX : <http://localhost:8080/fuseki/>  
+SELECT * #(COUNT(*) AS ?regs)
+WHERE { ?s lex:temConteudo ?o  
+  #?s ?p ?o
+  #FILTER ( CONTAINS(?o, "uso de programa de computador") ) . # 2 dispositivos
+  #FILTER ( CONTAINS(?o, 'remuneração dos cargos em comissão') ) .  # 11 dispositivos
+  #FILTER ( CONTAINS(?o, 'acumulação de cargos')) # 19 dispositivos
+  #FILTER ( CONTAINS(?o, 'violência doméstica')) # 60 dispositivos
+  #FILTER ( CONTAINS(?o, 'violência contra a mulher')) # 13 dispositivos
+  #FILTER ( CONTAINS(?o, 'corrupção')) # 73 dispositivos
+  #FILTER ( CONTAINS(?o, 'isenção')) . # +250 dispositivos
+  #FILTER ( CONTAINS(?o, 'deficiência física')) . # 61 dispositivos  
+}
+ORDER BY ?s ?p ?o
+LIMIT 250
+
+
+
+# search neighbours whithin 1 m distance
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT ?x ?y ?z  
+{
+  {
+    lex:L9609\/Artigo3  ?y ?z .
+    BIND("lex:L9609/Artigo3" AS ?x)
+  }
+UNION 
+  {   
+    ?x ?y lex:L9609\/Artigo3 .
+    BIND("lex:L9609/Artigo3" AS ?z)
+  }
+}    
+ORDER BY ?x ?y ?z  
+LIMIT 250
+
+ 
+# create query statement
+query <- "PREFIX lex: <http://localhost:8080/fuseki/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?o  
+WHERE { ?s lex:temTexto ?o 
+}
+ORDER BY ?p ?o
+LIMIT 200"
+# 588 seg sem o LIMIT
+
+
+
+# QUERY QUE RETORNA UM ARTIGO COM MAIS DE 17000 CARCACTERES NO TEXTO
+#####################################################################
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix lex: <http://localhost:8080/fuseki/>
+
+
+SELECT *
+WHERE {
+  lex:D0399\/Artigo2    lex:temTexto ?object
+}
+LIMIT 250
+
+
+#algo que Regulamenta algo que possui certo texto
+#exemplo com UNION 
+#################################################
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT ?x ?s ?o
+{
+  {
+    ?x lex:Regulamenta ?s .
+    {
+      SELECT ?s ?p ?o  
+      WHERE { ?s ?p ?o 
+          .FILTER regex(str(?o), "Os programas de computador poderão, a critério do titular, ser registrados") 
+      .}
+    }
+  }
+UNION 
+  {   
+    SELECT ?s ?p ?o  
+      WHERE { ?s lex:RemetePara ?o 
+      .}
+    }
+}    
+
+
+#algo que Regulamenta algo que possui certo texto
+#################################################
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+{
+  ?x lex:Regulamenta ?s .
+  {
+    SELECT ?s ?p ?o  
+    WHERE { ?s ?p ?o 
+        .FILTER regex(str(?o), "Os programas de computador poderão, a critério do titular, ser registrados") 
+	.}
+  }
+}
+
+#algo que eh paragrafo e que RemetePara algo
+#############################################
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+{
+  ?x a lex:Paragrafo .
+  ?x lex:RemetePara ?y .  
+{ SELECT ?x ( count(?y) as ?q ) { ?x lex:RemetePara ?y } GROUP BY ?x }
+  FILTER ( ?q > 2 )
+}
+ORDER BY ?q 
+
+PREFIX lex: <http://ita.br/lex#>
+SELECT ?s ?p ?o  
+WHERE { ?s ?p ?o 
+    .FILTER regex(str(?o), " a identificação e descrição funcional do programa de computador") 
+.}
+
+#algo que eh regulado - mais simples
+####################################
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+WHERE 
+  { 
+    ?s lex:ReguladoPor ?x
+  }
+
+  
+#algo que eh regulado
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+WHERE 
+  { 
+    ?s lex:ReguladoPor ?x .
+    {
+      SELECT ?x ?y ?z
+      WHERE 
+        {
+          ?x lex:Regulamenta ?z .
+        } 
+      #GROUP BY ?y
+    }
+  }
+
+  
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT ?s ?p ?o  
+WHERE { ?s ?p ?o 
+    .FILTER regex(str(?o), "cessão dos direitos de autor sobre programa de computador") 
+.}
+
+
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT ?s ?p ?o  
+WHERE { ?s ?p ?o 
+    .FILTER regex(str(?o), "licença de uso de programa de computador") 
+.}
+ 
+
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+WHERE {
+  ?s lex:Regulamenta ?p
+}
+
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+WHERE {
+  ?s lex:RevogadoPor ?p
+}
+ 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>        
+PREFIX type: <http://dbpedia.org/class/yago/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX lex: <http://localhost:8080/fuseki/>
+SELECT *
+WHERE {
+  ?s ?p lex:DocLegal
+}
+ 
+ 
+ 
