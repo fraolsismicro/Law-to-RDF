@@ -1,61 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix lex: <http://localhost:8080/fuseki/> .
-@prefix : <http://localhost:8080/fuseki/> .
-
-lex:D7474    lex:ehUm    lex:DocLegal .
-lex:D7474    lex:temTextoIntegral    lex:HTMLs\/D7474.htm .
-lex:D7474\/Artigo1    lex:ehUm    lex:Artigo .
-lex:D7474    lex:temArtigo    lex:D7474\/Artigo1 .
-lex:D7474\/Artigo1    lex:temConteudo    "Art. 1o  Ficam remanejados, na forma do Anexo I, os seguintes cargos em comissão do Grupo-Direção e Assessoramento Superiores - DAS:" .
-lex:D7474\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo1    lex:temInciso    lex:D7474\/Artigo1\/IncisoI .
-lex:D7474\/Artigo1\/IncisoI    lex:temConteudo    "I - do Ministério do Desenvolvimento, Indústria e Comércio Exterior para a Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão: um DAS 102.5; e" .
-lex:D7474\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo1    lex:temInciso    lex:D7474\/Artigo1\/IncisoII .
-lex:D7474\/Artigo1\/IncisoII    lex:temConteudo    "II - da Secretaria de Gestão, do Ministério do Planejamento, Orçamento e Gestão, para o Ministério do Desenvolvimento, Indústria e Comércio Exterior: um DAS 101.5." .
-lex:D7474\/Artigo2    lex:ehUm    lex:Artigo .
-lex:D7474    lex:temArtigo    lex:D7474\/Artigo2 .
-lex:D7474\/Artigo2    lex:temConteudo    "Art. 2o  Em decorrência do disposto no art. 1o, o Anexo II do Decreto no 7.096, de 4 de fevereiro de 2010, passa a vigorar na forma do Anexo II deste Decreto.         Revogado pelo Decreto nº 8.058, de 2013      (Vigência)" .
-lex:D7474\/Artigo3    lex:ehUm    lex:Artigo .
-lex:D7474    lex:temArtigo    lex:D7474\/Artigo3 .
-lex:D7474\/Artigo3    lex:temConteudo    "Art. 3o  O art. 2o do Anexo I ao Decreto no 7.096, de 2010, passa a vigorar com a seguinte redação:" .
-lex:D7474\/Artigo3\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo3    lex:temInciso    lex:D7474\/Artigo3\/IncisoI .
-lex:D7474\/Artigo3\/IncisoI    lex:temConteudo    "I - ........................................................................................................................" .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:    lex:ehUm    lex:IncisoAlinea .
-lex:D7474\/Artigo3\/IncisoI    lex:temIncisoAlinea    lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva: .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:    lex:temConteudo    "b) Secretaria-Executiva:" .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:    lex:temIncisoAlineaItem    lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria    lex:temConteudo    "1. Subsecretaria de Gestão Estratégica e Competitividade; e" .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria\/IncisoAlineaItemSubsecretaria    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria    lex:temIncisoAlineaItem    lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria\/IncisoAlineaItemSubsecretaria .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:\/IncisoAlineaItemSubsecretaria\/IncisoAlineaItemSubsecretaria    lex:temConteudo    "2. Subsecretaria de Planejamento, Orçamento e Administração;" .
-lex:D7474\/Artigo4    lex:ehUm    lex:Artigo .
-lex:D7474    lex:temArtigo    lex:D7474\/Artigo4 .
-lex:D7474\/Artigo4    lex:temConteudo    "Art. 4o  O Anexo I ao Decreto no 7.096, de 2010, passa a vigorar acrescido do seguinte artigo:" .
-lex:D7474\/Artigo4\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo4    lex:temInciso    lex:D7474\/Artigo4\/IncisoI .
-lex:D7474\/Artigo4\/IncisoI    lex:temConteudo    "I - coordenar, acompanhar e monitorar a implementação do Plano de Ação Estratégica;" .
-lex:D7474\/Artigo4\/IncisoII    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo4    lex:temInciso    lex:D7474\/Artigo4\/IncisoII .
-lex:D7474\/Artigo4\/IncisoII    lex:temConteudo    "II - realizar estudos e desenvolver metodologias de gestão, com vistas a subsidiar a implementação das ações da área de competência do Ministério no contexto da política governamental de desenvolvimento econômico e social;" .
-lex:D7474\/Artigo4\/IncisoIII    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo4    lex:temInciso    lex:D7474\/Artigo4\/IncisoIII .
-lex:D7474\/Artigo4\/IncisoIII    lex:temConteudo    "III - monitorar e avaliar a execução de planos, programas, projetos e atividades do Ministério, de modo a subsidiar a tomada de decisão superior; e" .
-lex:D7474\/Artigo4\/IncisoIV    lex:ehUm    lex:Inciso .
-lex:D7474\/Artigo4    lex:temInciso    lex:D7474\/Artigo4\/IncisoIV .
-lex:D7474\/Artigo4\/IncisoIV    lex:temConteudo    "IV - propor diretrizes e supervisionar a formulação e a implementação de modelos de sistemas de informação estratégica e gerencial. (NR)" .
-lex:D7474\/Artigo5    lex:ehUm    lex:Artigo .
-lex:D7474    lex:temArtigo    lex:D7474\/Artigo5 .
-lex:D7474\/Artigo5    lex:temConteudo    "Art. 5o  Este Decreto entra em vigor na data de sua publicação." .
-lex:D7474\/Artigo2    lex:remetePara    lex:D7096\/ .
-lex:D7474\/Artigo2    lex:revogadoPor    lex:D8058\/Artigo201 .
-lex:D8058\/Artigo201    lex:revogou    lex:D7474\/Artigo2 .
-lex:D7474\/Artigo2    lex:remetePara    lex:D8058\/Artigo200 .
-lex:D7474\/Artigo3\/IncisoI\/IncisoAlineaSecretaria-Executiva:    lex:remetePara    lex:D7096\/anexoiArtigo2 .
-lex:D7474\/Texto00010    lex:remetePara    lex:D7096\/anexoiArtigo4 .

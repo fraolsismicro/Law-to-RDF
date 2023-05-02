@@ -1,44 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix lex: <http://localhost:8080/fuseki/> .
-@prefix : <http://localhost:8080/fuseki/> .
-
-lex:D6619    lex:ehUm    lex:DocLegal .
-lex:D6619    lex:temTextoIntegral    lex:HTMLs\/D6619.htm .
-lex:D6619\/Artigo1    lex:ehUm    lex:Artigo .
-lex:D6619    lex:temArtigo    lex:D6619\/Artigo1 .
-lex:D6619\/Artigo1    lex:temConteudo    "Art. 1o  Os arts. 1o, 2o, 10 e 13 do Decreto no 6.170, de 25 de julho de 2007, passam a vigorar com a seguinte redação:" .
-lex:D6619\/Artigo1\/Paragrafo1    lex:ehUm    lex:Paragrafo .
-lex:D6619\/Artigo1    lex:temParagrafo    lex:D6619\/Artigo1\/Paragrafo1 .
-lex:D6619\/Artigo1\/Paragrafo1    lex:temConteudo    "§ 1o  ......................................................................................." .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:ehUm    lex:ParagrafoInciso .
-lex:D6619\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:temConteudo    "III - termo de cooperação - instrumento por meio do qual é ajustada a transferência de crédito de órgão da administração pública federal direta, autarquia, fundação pública, ou empresa estatal dependente, para outro órgão ou entidade federal da mesma natureza;" .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:ehUm    lex:ParagrafoInciso .
-lex:D6619\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:temConteudo    "VII - contratado - órgão ou entidade da administração pública direta e indireta, de qualquer esfera de governo, bem como entidade privada sem fins lucrativos, com a qual a administração federal pactua a execução de contrato de repasse;" .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
-lex:D6619\/Artigo1\/Paragrafo1    lex:temParagrafoInciso    lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoII .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:temConteudo    "II - com entidades privadas sem fins lucrativos que tenham como dirigente agente político de Poder ou do Ministério Público, dirigente de órgão ou entidade da administração pública de qualquer esfera governamental, ou respectivo cônjuge ou companheiro, bem como parente em linha reta, colateral ou por afinidade, até o segundo grau; e" .
-lex:D6619\/Artigo1\/Paragrafo3    lex:ehUm    lex:Paragrafo .
-lex:D6619\/Artigo1    lex:temParagrafo    lex:D6619\/Artigo1\/Paragrafo3 .
-lex:D6619\/Artigo1\/Paragrafo3    lex:temConteudo    "§ 3o  ..................................................." .
-lex:D6619\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:ehUm    lex:ParagrafoInciso .
-lex:D6619\/Artigo1\/Paragrafo3    lex:temParagrafoInciso    lex:D6619\/Artigo1\/Paragrafo3\/ParagrafoIncisoII .
-lex:D6619\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:temConteudo    "II - pagamentos realizados mediante crédito na conta bancária de titularidade dos fornecedores e prestadores de serviços, facultada a dispensa deste procedimento, por ato da autoridade máxima do concedente ou contratante, devendo o convenente ou contratado identificar o destinatário da despesa, por meio do registro dos dados no SICONV; e" .
-lex:D6619\/Artigo2    lex:ehUm    lex:Artigo .
-lex:D6619    lex:temArtigo    lex:D6619\/Artigo2 .
-lex:D6619\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação." .
-lex:D6619\/Artigo3    lex:ehUm    lex:Artigo .
-lex:D6619    lex:temArtigo    lex:D6619\/Artigo3 .
-lex:D6619\/Artigo3    lex:temConteudo    "Art. 3o  Fica revogado o art. 5o do Decreto no 825, de 28 de maio de 1993." .
-lex:D6619\/Artigo1    lex:remetePara    lex:D6170 .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoIII    lex:remetePara    lex:D6170\/Artigo1\/Paragrafo1iii .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoVII    lex:remetePara    lex:D6170\/Artigo1\/Paragrafo1vii .
-lex:D6619\/Artigo1\/Paragrafo1\/ParagrafoIncisoII    lex:remetePara    lex:D6170\/Artigo2 .
-lex:D6619\/Artigo1\/Paragrafo3\/ParagrafoIncisoII    lex:remetePara    lex:D6170\/Artigo10\/Paragrafo3ii .
-lex:D6619\/Artigo1\/Paragrafo3\/Texto00007    lex:remetePara    lex:D6170\/Artigo13 .
-lex:D6619\/Artigo3    lex:remetePara    lex:D0825\/Artigo5 .

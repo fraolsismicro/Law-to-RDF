@@ -1,62 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix lex: <http://localhost:8080/fuseki/> .
-@prefix : <http://localhost:8080/fuseki/> .
-
-lex:D7630    lex:ehUm    lex:DocLegal .
-lex:D7630    lex:temTextoIntegral    lex:HTMLs\/D7630.htm .
-lex:D7630\/Artigo1    lex:ehUm    lex:Artigo .
-lex:D7630    lex:temArtigo    lex:D7630\/Artigo1 .
-lex:D7630\/Artigo1    lex:temConteudo    "Art. 1o  O Anexo I ao Decreto no 7.529, de 21 de julho de 2011, passa a vigorar com as seguintes alterações:" .
-lex:D7630\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoI .
-lex:D7630\/Artigo1\/IncisoI    lex:temConteudo    "I - ............................................................" .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria    lex:ehUm    lex:IncisoAlinea .
-lex:D7630\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria    lex:temConteudo    "c) Consultoria Jurídica; e" .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria\/IncisoAlineaAutoridade    lex:ehUm    lex:IncisoAlinea .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria    lex:temIncisoAlinea    lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria\/IncisoAlineaAutoridade .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria\/IncisoAlineaAutoridade    lex:temConteudo    "d) Autoridade Brasileira de Controle de Dopagem;" .
-lex:D7630\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoII .
-lex:D7630\/Artigo1\/IncisoII    lex:temConteudo    "II - .............................................................." .
-lex:D7630\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoI .
-lex:D7630\/Artigo1\/IncisoI    lex:temConteudo    "I - assessorar o Ministro de Estado do Esporte na implementação da política nacional de prevenção e combate à dopagem, respeitadas as recomendações do CNE e o conteúdo do Plano Nacional do Esporte;" .
-lex:D7630\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoIII .
-lex:D7630\/Artigo1\/IncisoIII    lex:temConteudo    "III - promover e coordenar o combate à dopagem no esporte de forma independente e organizada, dentro e fora das competições, de acordo com as regras estabelecidas pela Agência Mundial Antidoping, e os protocolos e compromissos assumidos pelo Brasil;" .
-lex:D7630\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoIV .
-lex:D7630\/Artigo1\/IncisoIV    lex:temConteudo    "IV - zelar pelo cumprimento da legislação, em especial da Convenção Internacional contra o Doping nos Esportes, promulgada pelo Decreto no 6.653, de 18 de novembro de 2008, e das normas técnicas de controle de dopagem;" .
-lex:D7630\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoV .
-lex:D7630\/Artigo1\/IncisoV    lex:temConteudo    "V - representar internacionalmente o Brasil em matérias relacionadas ao controle de dopagem, na qualidade de organização nacional de controle de dopagem, inclusive perante a Agência Mundial Antidoping e a Corte Arbitral do Esporte;" .
-lex:D7630\/Artigo1\/IncisoVI    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoVI .
-lex:D7630\/Artigo1\/IncisoVI    lex:temConteudo    "VI - dar transparência às ações e garantir a divulgação do programa de controle da dopagem;" .
-lex:D7630\/Artigo1\/IncisoVIII    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoVIII .
-lex:D7630\/Artigo1\/IncisoVIII    lex:temConteudo    "VIII - gerar base de dados e conhecimentos sobre os casos de dopagem;" .
-lex:D7630\/Artigo1\/IncisoIX    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoIX .
-lex:D7630\/Artigo1\/IncisoIX    lex:temConteudo    "IX - promover, coordenar e estabelecer programas de estímulo ao desenvolvimento de pesquisas com relação ao combate e detecção da dopagem, junto às entidades componentes do Sistema Nacional do Desporto, ao Comitê Olímpico Internacional, ao Comitê Paraolímpico Internacional e às demais entidades envolvidas com o esporte;" .
-lex:D7630\/Artigo1\/IncisoXI    lex:ehUm    lex:Inciso .
-lex:D7630\/Artigo1    lex:temInciso    lex:D7630\/Artigo1\/IncisoXI .
-lex:D7630\/Artigo1\/IncisoXI    lex:temConteudo    "XI - cooperar com as entidades esportivas nacionais e internacionais, públicas e privadas, no combate à dopagem, buscando a obtenção de um pacto de apoio cultural e político para o cumprimento das normas referidas no inciso IV do caput." .
-lex:D7630\/Artigo1\/ParagrafoUnico    lex:ehUm    lex:Paragrafo .
-lex:D7630\/Artigo1    lex:temParagrafo    lex:D7630\/Artigo1\/ParagrafoUnico .
-lex:D7630\/Artigo1\/ParagrafoUnico    lex:temConteudo    "Parágrafo único.  As competências da Autoridade Brasileira de Controle de Dopagem são independentes das competências dos órgãos de vigilância sanitária. (NR)" .
-lex:D7630\/Artigo2    lex:ehUm    lex:Artigo .
-lex:D7630    lex:temArtigo    lex:D7630\/Artigo2 .
-lex:D7630\/Artigo2    lex:temConteudo    "Art. 2o  O Ministro de Estado do Esporte deverá designar ocupantes de cargos em comissão do órgão para exercer as atividades de direção, chefia e assessoramento necessárias para os fins do art. 9o-A do Decreto no 7.529, de 2011, sem prejuízo de suas atribuições habituais, até que sejam incorporados cargos à Estrutura Regimental do Ministério do Esporte para a Autoridade Brasileira de Controle de Dopagem." .
-lex:D7630\/Artigo3    lex:ehUm    lex:Artigo .
-lex:D7630    lex:temArtigo    lex:D7630\/Artigo3 .
-lex:D7630\/Artigo3    lex:temConteudo    "Art. 3o  Este Decreto entra em vigor na data de sua publicação." .
-lex:D7630\/Texto    lex:remetePara    lex:D7630 .
-lex:D7630\/Artigo1\/IncisoI\/IncisoAlineaConsultoria    lex:remetePara    lex:D7529\/anexoiArtigo2 .
-lex:D7630\/Artigo1\/Texto00005    lex:remetePara    lex:D7529\/anexoiArtigo9 .
-lex:D7630\/Artigo2    lex:remetePara    lex:D7529\/anexoiArtigo9 .

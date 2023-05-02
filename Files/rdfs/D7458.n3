@@ -1,78 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix lex: <http://localhost:8080/fuseki/> .
-@prefix : <http://localhost:8080/fuseki/> .
-
-lex:D7458    lex:ehUm    lex:DocLegal .
-lex:D7458    lex:temTextoIntegral    lex:HTMLs\/D7458.htm .
-lex:D7458\/Artigo1    lex:ehUm    lex:Artigo .
-lex:D7458    lex:temArtigo    lex:D7458\/Artigo1 .
-lex:D7458\/Artigo1    lex:temConteudo    "Art. 1o  O art. 7o do Decreto no 6.306, de 14 de dezembro de 2007, passa a vigorar com a seguinte redação:" .
-lex:D7458\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoI .
-lex:D7458\/Artigo1\/IncisoI    lex:temConteudo    "I - ..................................................................................................................." .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea    lex:temConteudo    "a) ..................................................................................................................." .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemMutuario .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0082%;" .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) ................................................................................................................" .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temConteudo    "................................................................................................................................." .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem    lex:temIncisoAlineaItem    lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0082% ao dia;" .
-lex:D7458\/Artigo1\/IncisoII    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoII .
-lex:D7458\/Artigo1\/IncisoII    lex:temConteudo    "II - ..........................................................................................................." .
-lex:D7458\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoII    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoII\/IncisoAlineaMutuario .
-lex:D7458\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0082% ao dia;" .
-lex:D7458\/Artigo1\/IncisoIII    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoIII .
-lex:D7458\/Artigo1\/IncisoIII    lex:temConteudo    "III - ..........................................................................................................." .
-lex:D7458\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoIII    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoIII\/IncisoAlineaMutuario .
-lex:D7458\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0082%;" .
-lex:D7458\/Artigo1\/IncisoIV    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoIV .
-lex:D7458\/Artigo1\/IncisoIV    lex:temConteudo    "IV - ..........................................................................................................." .
-lex:D7458\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoIV    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoIV\/IncisoAlineaMutuario .
-lex:D7458\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:temConteudo    "b) mutuário pessoa física: 0,0082% ao dia;" .
-lex:D7458\/Artigo1\/IncisoV    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoV .
-lex:D7458\/Artigo1\/IncisoV    lex:temConteudo    "V - ..........................................................................................................." .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoV    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea    lex:temConteudo    "a) ............................................................................................................" .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItemMutuario .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0082%;" .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:ehUm    lex:IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea    lex:temIncisoAlinea    lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:temConteudo    "b) ..........................................................................................................." .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:ehUm    lex:IncisoAlineaItem .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea    lex:temIncisoAlineaItem    lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItemMutuario .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:temConteudo    "2. mutuário pessoa física: 0,0082% ao dia;" .
-lex:D7458\/Artigo1\/IncisoVII    lex:ehUm    lex:Inciso .
-lex:D7458\/Artigo1    lex:temInciso    lex:D7458\/Artigo1\/IncisoVII .
-lex:D7458\/Artigo1\/IncisoVII    lex:temConteudo    "VII - nas operações de financiamento para aquisição de imóveis não residenciais, em que o mutuário seja pessoa física: 0,0082% ao dia." .
-lex:D7458\/Artigo2    lex:ehUm    lex:Artigo .
-lex:D7458    lex:temArtigo    lex:D7458\/Artigo2 .
-lex:D7458\/Artigo2    lex:temConteudo    "Art. 2o  Este Decreto entra em vigor na data de sua publicação, produzindo efeitos a partir do dia seguinte à data de sua publicação." .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7ia2 .
-lex:D7458\/Artigo1\/IncisoI\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItem\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7ib2 .
-lex:D7458\/Artigo1\/IncisoII\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
-lex:D7458\/Artigo1\/IncisoIII\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
-lex:D7458\/Artigo1\/IncisoIV\/IncisoAlineaMutuario    lex:remetePara    lex:D6306\/Artigo7 .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7va2 .
-lex:D7458\/Artigo1\/IncisoV\/IncisoAlinea\/IncisoAlinea\/IncisoAlineaItemMutuario    lex:remetePara    lex:D6306\/Artigo7vb2 .
-lex:D7458\/Artigo1\/IncisoVII    lex:remetePara    lex:D6306\/Artigo7 .

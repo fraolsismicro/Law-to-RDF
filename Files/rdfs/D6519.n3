@@ -1,39 +1,0 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix lex: <http://localhost:8080/fuseki/> .
-@prefix : <http://localhost:8080/fuseki/> .
-
-lex:D6519    lex:ehUm    lex:DocLegal .
-lex:D6519    lex:temTextoIntegral    lex:HTMLs\/D6519.htm .
-lex:D6519\/Artigo1    lex:ehUm    lex:Artigo .
-lex:D6519    lex:temArtigo    lex:D6519\/Artigo1 .
-lex:D6519\/Artigo1    lex:temConteudo    "Art. 1o  O art. 9o do Decreto no 6.439, de 22 de abril de 2008, passa a vigorar com a seguinte redação:" .
-lex:D6519\/Artigo1\/IncisoI    lex:ehUm    lex:Inciso .
-lex:D6519\/Artigo1    lex:temInciso    lex:D6519\/Artigo1\/IncisoI .
-lex:D6519\/Artigo1\/IncisoI    lex:temConteudo    "I - ....................................................." .
-lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:ehUm    lex:IncisoAlinea .
-lex:D6519\/Artigo1\/IncisoI    lex:temIncisoAlinea    lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar .
-lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:temConteudo    "b) ampliar os limites estabelecidos para os órgãos e unidades orçamentárias relacionados nos Anexos I e II deste Decreto, até o montante de R$ 3.004.000.000,00 (três bilhões e quatro milhões de reais) e R$ 5.485.913.000,00 (cinco bilhões, quatrocentos e oitenta e cinco milhões, novecentos e treze mil reais), respectivamente; e" .
-lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaConstituir    lex:ehUm    lex:IncisoAlinea .
-lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar    lex:temIncisoAlinea    lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaConstituir .
-lex:D6519\/Artigo1\/IncisoI\/IncisoAlineaAmpliar\/IncisoAlineaConstituir    lex:temConteudo    "c) constituir reserva no valor de R$ 14.244.000.000,00 (quatorze bilhões, duzentos e quarenta e quatro milhões de reais), a ser destinada ao Fundo Soberano do Brasil - FSB, após a sua criação, conforme proposta constante do Projeto de Lei encaminhado ao Congresso Nacional pela Mensagem no 466, de 2 de julho de 2008; e" .
-lex:D6519\/Artigo2    lex:ehUm    lex:Artigo .
-lex:D6519    lex:temArtigo    lex:D6519\/Artigo2 .
-lex:D6519\/Artigo2    lex:temConteudo    "Art. 2o  Os Anexos I, II, VII, VIII, IX e X do Decreto nº 6.439, de 2008, passam a vigorar, respectivamente, na forma dos Anexos I, II, III, IV, V e VI deste Decreto." .
-lex:D6519\/Artigo3    lex:ehUm    lex:Artigo .
-lex:D6519    lex:temArtigo    lex:D6519\/Artigo3 .
-lex:D6519\/Artigo3    lex:temConteudo    "Art. 3o  O Anexo VI do Decreto no 6.439, de 2008, passa a vigorar acrescido da ação 00AK-Transferências a Clubes Sociais." .
-lex:D6519\/Artigo4    lex:ehUm    lex:Artigo .
-lex:D6519    lex:temArtigo    lex:D6519\/Artigo4 .
-lex:D6519\/Artigo4    lex:temConteudo    "Art. 4o  Este Decreto entra em vigor na data de sua publicação." .
-lex:D6519\/Texto00001    lex:remetePara    lex:D6439\/Artigo9 .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo2    lex:remetePara    lex:D6439\/ .
-lex:D6519\/Artigo3    lex:remetePara    lex:D6439\/ .
